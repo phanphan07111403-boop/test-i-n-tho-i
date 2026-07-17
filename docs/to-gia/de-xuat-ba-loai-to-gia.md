@@ -47,7 +47,7 @@ Tài liệu tổng hợp từ nguồn khoa học / học thuật (tạp chí, lu
 4. Đảm bảo miệng tổ hướng xuống–chéo nhẹ, lưng tổ áp sát mặt rộng của thanh gỗ.
 5. Mật độ: ưu tiên phủ các góc trước; bổ sung giữa thanh khi đàn tăng.
 
-→ Xem hình: [`loai-1-ceramic.svg`](./loai-1-ceramic.svg)
+→ Xem hình: [`loai-1-ceramic.svg`](./loai-1-ceramic.svg) · [`loai-1-ceramic-to-gia.png`](./loai-1-ceramic-to-gia.png)
 
 ---
 
@@ -106,7 +106,7 @@ Tài liệu tổng hợp từ nguồn khoa học / học thuật (tạp chí, lu
 4. Không sơn bóng; giữ bề mặt khô, sạch, không hóa chất mạnh.
 5. Kết hợp tăng số thanh (plank density) khi đàn lớn để giảm tổ góc méo.
 
-→ Xem hình: [`loai-3-de-go-goc.svg`](./loai-3-de-go-goc.svg)
+→ Xem hình: [`loai-3-de-go-goc.svg`](./loai-3-de-go-goc.svg) · [`loai-3-de-go-goc.png`](./loai-3-de-go-goc.png)
 
 ---
 
