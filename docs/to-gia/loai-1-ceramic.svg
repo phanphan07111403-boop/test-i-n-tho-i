@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="640" fill="#f7f4ef"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1f3d2b">Lo¡i 1  TÕ khuôn ceramic (Stoneware + CaCOƒ)</text>
+  <text x="480" y="58" text-anchor="middle" font-size="12" fill="#5a6b5c">Theo Abdul Rahim (2014); Abdul Rahim et al. (2022); MS 2334:2011</text>
+
+  <!-- Left: structure -->
+  <rect x="40" y="80" width="420" height="520" rx="8" fill="#fff" stroke="#c9c0b0"/>
+  <text x="250" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#1f3d2b">A. K¿t c¥u chi ti¿t</text>
+
+  <!-- Nest isometric-ish -->
+  <path d="M140 220 Q250 140 360 220 L340 300 Q250 360 160 300 Z" fill="#d8cfc0" stroke="#6b5b45" stroke-width="2"/>
+  <path d="M160 300 Q250 250 340 300 Q250 330 160 300 Z" fill="#b9a890" stroke="#6b5b45" stroke-width="1.5"/>
+  <ellipse cx="250" cy="270" rx="55" ry="28" fill="#efe8dc" stroke="#6b5b45"/>
+  <text x="250" y="275" text-anchor="middle" font-size="11" fill="#3d3428">Lòng lõm</text>
+
+  <!-- Hook -->
+  <path d="M230 165 L230 140 L270 140 L270 165" fill="none" stroke="#3d5a80" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="250" cy="140" r="6" fill="#3d5a80"/>
+  <text x="290" y="145" font-size="11" fill="#3d5a80">Móc g¯n (hook)</text>
+
+  <!-- Callouts -->
+  <line x1="150" y1="240" x2="90" y2="200" stroke="#888" stroke-dasharray="3 2"/>
+  <text x="50" y="195" font-size="11" fill="#333">Thân stoneware</text>
+  <text x="50" y="210" font-size="11" fill="#333">+ 30% CaCOƒ</text>
+
+  <line x1="340" y1="250" x2="390" y2="230" stroke="#888" stroke-dasharray="3 2"/>
+  <text x="345" y="220" font-size="11" fill="#333">Nung ~1100°C</text>
+
+  <line x1="250" y1="330" x2="250" y2="370" stroke="#888"/>
+  <text x="250" y="390" text-anchor="middle" font-size="11" fill="#333">MiÇng tÕ h°Ûng xuÑngchéo</text>
+  <text x="250" y="408" text-anchor="middle" font-size="11" fill="#333">thu­n qu¹t n°Ûc bÍt</text>
+
+  <rect x="70" y="430" width="360" height="140" rx="6" fill="#eef5ea" stroke="#9cba9c"/>
+  <text x="90" y="455" font-size="12" font-weight="700" fill="#1f3d2b">Thông sÑ</text>
+  <text x="90" y="480" font-size="12" fill="#244">" Hình: concave / eyelid-like</text>
+  <text x="90" y="500" font-size="12" fill="#244">" Ù hút n°Ûc m«u: ~24,7%</text>
+  <text x="90" y="520" font-size="12" fill="#244">" Ù bÁn uÑn m«u: ~16,9 N/mm²</text>
+  <text x="90" y="540" font-size="12" fill="#244">" Cá tham chi¿u MS 2334 (34,5 cm+)</text>
+
+  <!-- Right: installation -->
+  <rect x="500" y="80" width="420" height="520" rx="8" fill="#fff" stroke="#c9c0b0"/>
+  <text x="710" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#1f3d2b">B. Cách l¯p ·t trên giá tÕ</text>
+
+  <!-- Ceiling -->
+  <rect x="540" y="140" width="340" height="18" fill="#9aa7b0"/>
+  <text x="710" y="153" text-anchor="middle" font-size="11" fill="#fff">Tr§n bê tông</text>
+
+  <!-- Planks forming corner -->
+  <rect x="560" y="158" width="18" height="220" fill="#8b5a2b"/>
+  <rect x="560" y="158" width="220" height="18" fill="#a66d3a"/>
+  <text x="680" y="172" font-size="11" fill="#fff">Thanh g× giá tÕ</text>
+  <text x="545" y="300" font-size="11" fill="#8b5a2b" transform="rotate(-90 545 300)">Thanh éng</text>
+
+  <!-- Ceramic nest at corner -->
+  <path d="M590 200 Q640 170 690 200 L675 245 Q640 270 605 245 Z" fill="#d8cfc0" stroke="#6b5b45" stroke-width="2"/>
+  <ellipse cx="640" cy="220" rx="22" ry="12" fill="#efe8dc" stroke="#6b5b45"/>
+
+  <!-- Screw -->
+  <line x1="640" y1="175" x2="640" y2="158" stroke="#333" stroke-width="2"/>
+  <circle cx="640" cy="158" r="4" fill="#333"/>
+  <text x="655" y="155" font-size="11" fill="#333">Vít / móc</text>
+
+  <!-- Bird hint -->
+  <path d="M720 250 q10 -15 25 -5 q-5 15 -20 18 q-8 -5 -5 -13z" fill="#4a6741" opacity="0.7"/>
+  <text x="750" y="270" font-size="11" fill="#4a6741">H°Ûng chim bám</text>
+
+  <!-- Steps -->
+  <text x="540" y="420" font-size="12" font-weight="700" fill="#1f3d2b">Các b°Ûc:</text>
+  <text x="540" y="445" font-size="12" fill="#244">1. óng giá tÕ g× khít tr§n, vuông góc</text>
+  <text x="540" y="465" font-size="12" fill="#244">2. ChÍn góc ô (vùng tÑi, xa l× sáng)</text>
+  <text x="540" y="485" font-size="12" fill="#244">3. G¯n móc ceramic vào m·t rÙng thanh</text>
+  <text x="540" y="505" font-size="12" fill="#244">4. Không si¿t quá m¡nh (v­t liÇu giòn)</text>
+  <text x="540" y="525" font-size="12" fill="#244">5. ¯u tiên phç h¿t góc tr°Ûc, rÓi giïa thanh</text>
+  <text x="540" y="555" font-size="11" fill="#666">Måc tiêu: mô phÏng supporter hang á vôi</text>
+</svg>
