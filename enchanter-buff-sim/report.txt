@@ -1,0 +1,137 @@
+==============================================================================
+WILD RIFT ENCHANTER META + BUFF-MAX SIM (Patch 7.2+)
+Strongest meta enchanter → Nami | Goal: maximize ally buffs 1–20 min
+==============================================================================
+
+ENCHANTER META RANKING (consensus tier lists)
+   #  Champion   Tier           Buff profile
+   1  Nami       SS / S+        Hybrid heal + on-hit buff (best overall enable) ← SIM TARGET
+   2  Lulu       S              Pure buff/peel (shield + AS + HP)
+   3  Milio      S              Shield spam + range/heal
+   4  Sona       S+ (WR spike)  Aura heal/shield continuous
+   5  Soraka     A              Pure heal
+   6  Janna      A / B          Shield + disengage
+   7  Yuumi      C              Attach heal/shield
+
+  Why Nami: SS/S+ across Pocket Tactics / multiple 7.2 boards;
+  best mix of lane strength + E combat buff + heal for item synergies.
+  (Lulu = highest pure peel buff; pick her if you want max shield/AS peel.)
+
+------------------------------------------------------------------------------
+NAMI — MINUTE-BY-MINUTE OPTIMAL (highest Buff Score)
+------------------------------------------------------------------------------
+   1:00 | score   19.1 | heal   7.0/s | buffDPS   7.9 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle
+         core building
+   2:00 | score   29.9 | heal  10.5/s | buffDPS  13.4 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         core building
+   3:00 | score   29.9 | heal  10.5/s | buffDPS  13.4 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         core building
+   4:00 | score   33.4 | heal  13.9/s | buffDPS  13.4 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         core building
+   5:00 | score   45.8 | heal  16.1/s | buffDPS  20.9 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol
+         core building
+   6:00 | score   50.2 | heal  20.2/s | buffDPS  21.1 | up  55%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol
+         core building
+   7:00 | score   57.1 | heal  22.6/s | buffDPS  24.4 | up  55%
+         Harmonic → Ardent → Redemption → Staff (Heal First)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol › Lost Chapter
+         core building
+   8:00 | score   72.2 | heal  24.4/s | buffDPS  34.2 | up  73%
+         Staff → Ardent → Redemption → Harmonic (AP Carry)
+         Black Mist Scythe › Boots of Speed › Staff of Flowing Water
+         Staff up
+   9:00 | score   96.0 | heal  22.5/s | buffDPS  53.3 | up  72%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Ardent Censer
+         Ardent up
+  10:00 | score  102.9 | heal  23.9/s | buffDPS  57.4 | up  75%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity
+         Ardent up
+  11:00 | score  106.7 | heal  25.7/s | buffDPS  58.8 | up  77%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Forbidden Idol
+         Ardent up
+  12:00 | score  108.8 | heal  25.4/s | buffDPS  60.6 | up  75%
+         Ardent → Shurelya → Staff → Redemption (Engage)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Aether Wisp
+         Ardent up
+  13:00 | score  115.5 | heal  28.1/s | buffDPS  63.5 | up  78%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Forbidden Idol › Fiendish Codex
+         Ardent up
+  14:00 | score  135.7 | heal  30.7/s | buffDPS  76.5 | up  83%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water
+         DOUBLE BUFF (Ardent+Staff)
+  15:00 | score  136.2 | heal  30.9/s | buffDPS  76.8 | up  83%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water
+         DOUBLE BUFF (Ardent+Staff)
+  16:00 | score  142.1 | heal  42.0/s | buffDPS  67.4 | up  79%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Redemption › Forbidden Idol
+         Ardent up, Redemption
+  17:00 | score  142.1 | heal  42.0/s | buffDPS  67.4 | up  79%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Redemption › Forbidden Idol
+         Ardent up, Redemption
+  18:00 | score  151.2 | heal  35.4/s | buffDPS  84.5 | up  85%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Forbidden Idol › …
+         DOUBLE BUFF (Ardent+Staff), high buff uptime
+  19:00 | score  171.0 | heal  47.5/s | buffDPS  84.6 | up  85%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Redemption › Staff of Flowing Water
+         DOUBLE BUFF (Ardent+Staff), Redemption
+  20:00 | score  173.8 | heal  48.1/s | buffDPS  85.9 | up  85%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Redemption › Staff of Flowing Water
+         DOUBLE BUFF (Ardent+Staff), Redemption
+
+------------------------------------------------------------------------------
+BUILD COMPARISON @ spikes (Buff Score)
+------------------------------------------------------------------------------
+  Build                                                 8     12     16     20     Avg
+  Ardent → Staff → Harmonic → Redemption (Buff Max)   52.7  108.4  141.7  170.9    94.3
+  Harmonic → Ardent → Redemption → Staff (Heal First)   57.6   87.4  138.8  171.0    85.6
+  Ardent → Harmonic → Redemption → Staff (Guide)     52.7  108.4  138.8  171.0    91.5
+  Ardent → Redemption → Staff → Harmonic (Teamfight)   52.7  108.4  142.1  173.8    93.6
+  Ardent → Shurelya → Staff → Redemption (Engage)    52.7  108.8  125.1  155.0    87.7
+  Staff → Ardent → Redemption → Harmonic (AP Carry)   72.2   90.9  141.7  173.8    91.5
+
+------------------------------------------------------------------------------
+VERDICT — MAXIMIZE BUFFS ON NAMI (20-min game)
+------------------------------------------------------------------------------
+  Best path: Ardent → Staff → Harmonic → Redemption (Buff Max)
+  Avg Buff Score 1–20: 94.3
+  Ardent online: ~9:00  (AS + on-hit — main combat buff)
+  Staff online:  ~14:00  (AP haste buff on every W)
+  Harmonic Echo: ~19:00  (burst heal amp)
+
+  RECOMMENDED PURCHASE ORDER:
+  1) Spectral Sickle → Black Mist Scythe
+  2) Boots + Forbidden Idol
+  3) Ardent Censer (~10–12) — FIRST real buff spike
+  4) Ionian Boots of Lucidity (more W/E = more buff uptime)
+  5) Staff of Flowing Water — double buff window with Ardent
+  6) Harmonic Echo — heal amp / echo proc
+  7) Redemption — fight heal (or earlier if teamfights are constant)
+
+  PLAY PATTERN TO MAX BUFFS:
+  • Spam E on ADC before every trade (3 empowered autos)
+  • W on ADC even at full HP (Ardent/Staff still trigger in 7.2)
+  • Keep AH high so Ardent/Staff 6s buffs stay nearly permanent
+==============================================================================
