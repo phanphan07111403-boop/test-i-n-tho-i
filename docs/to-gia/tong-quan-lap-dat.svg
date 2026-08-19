@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1000" height="700" fill="#faf8f4"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#1f3d2b">TÕng quan l¯p ·t 3 lo¡i tÕ gi£ trong nhà y¿n</text>
+  <text x="500" y="56" text-anchor="middle" font-size="12" fill="#5a6b5c">Giá tÕ g× trên tr§n · °u tiên góc ô · vùng tÑi · k¿t hãp âm thanh d«n då</text>
+
+  <!-- Room section -->
+  <rect x="80" y="90" width="840" height="360" fill="#ece7dc" stroke="#8a7a62" stroke-width="3"/>
+  <!-- ceiling line -->
+  <rect x="80" y="90" width="840" height="28" fill="#9aa7b0"/>
+  <text x="500" y="109" text-anchor="middle" font-size="12" fill="#fff">Tr§n nhà y¿n</text>
+
+  <!-- Plank grid -->
+  <g stroke="#8b5a2b" stroke-width="10">
+    <line x1="120" y1="118" x2="880" y2="118"/>
+    <line x1="120" y1="118" x2="120" y2="300"/>
+    <line x1="880" y1="118" x2="880" y2="300"/>
+    <line x1="370" y1="118" x2="370" y2="300"/>
+    <line x1="630" y1="118" x2="630" y2="300"/>
+    <line x1="120" y1="210" x2="880" y2="210"/>
+    <line x1="120" y1="300" x2="880" y2="300"/>
+  </g>
+  <text x="500" y="145" text-anchor="middle" font-size="12" fill="#5c3b1e">HÇ thÑng giá tÕ g× (ô ngang, vuông góc °Ýng bay)</text>
+
+  <!-- Type markers on corners -->
+  <!-- Ceramic -->
+  <path d="M140 145 Q165 125 190 145 L180 175 Q165 190 150 175 Z" fill="#d8cfc0" stroke="#6b5b45"/>
+  <text x="165" y="210" text-anchor="middle" font-size="10" font-weight="700" fill="#6b5b45">1 Ceramic</text>
+
+  <!-- Polymer -->
+  <path d="M390 145 Q415 122 440 145 L430 175 Q415 190 400 175 Z" fill="#c5d8e8" stroke="#2f5f86"/>
+  <text x="415" y="210" text-anchor="middle" font-size="10" font-weight="700" fill="#2f5f86">2 Polymer</text>
+
+  <!-- Wood base -->
+  <rect x="650" y="135" width="28" height="28" rx="3" fill="#c49a6c" stroke="#5c3b1e"/>
+  <path d="M655 150 Q664 162 673 150" fill="none" stroke="#efe6d8" stroke-width="4"/>
+  <text x="664" y="210" text-anchor="middle" font-size="10" font-weight="700" fill="#5c3b1e">3 ¿ g×</text>
+
+  <!-- Flight path -->
+  <path d="M200 400 Q500 340 800 400" fill="none" stroke="#4a6741" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="500" y="390" text-anchor="middle" font-size="12" fill="#4a6741">°Ýng bay trong phòng (ô giá tÕ ¥ °Ýng bay)</text>
+
+  <!-- Entrance -->
+  <rect x="470" y="420" width="60" height="30" fill="#333"/>
+  <text x="500" y="440" text-anchor="middle" font-size="10" fill="#fff">L× chim</text>
+
+  <!-- Legend cards -->
+  <rect x="80" y="480" width="280" height="180" rx="8" fill="#fff" stroke="#c9c0b0"/>
+  <rect x="80" y="480" width="10" height="180" fill="#d8cfc0"/>
+  <text x="105" y="510" font-size="14" font-weight="700" fill="#1f3d2b">` Ceramic CaCOƒ</text>
+  <text x="105" y="535" font-size="12" fill="#333">HiÇu qu£ thi¿t k¿ cao nh¥t</text>
+  <text x="105" y="555" font-size="12" fill="#333">G§n hang á vôi nh¥t</text>
+  <text x="105" y="575" font-size="12" fill="#333">L¯p góc ô, dùng móc/vít</text>
+  <text x="105" y="605" font-size="11" fill="#666">Abdul Rahim 2014, 2022</text>
+  <text x="105" y="625" font-size="11" fill="#666">Rahim et al. 2012</text>
+
+  <rect x="360" y="480" width="280" height="180" rx="8" fill="#fff" stroke="#b7c7d9"/>
+  <rect x="360" y="480" width="10" height="180" fill="#c5d8e8"/>
+  <text x="385" y="510" font-size="14" font-weight="700" fill="#1a3358">a Polymer lõm</text>
+  <text x="385" y="535" font-size="12" fill="#333">D«n då nhanh, dÅ dËch chuyÃn</text>
+  <text x="385" y="555" font-size="12" fill="#333">Cup lõm chu©n MS 2334</text>
+  <text x="385" y="575" font-size="12" fill="#333">G¯n góc, g§n loa ru</text>
+  <text x="385" y="605" font-size="11" fill="#666">Baseline trong nghiên céu UiTM</text>
+  <text x="385" y="625" font-size="11" fill="#666">Supaluck et al. 2001 (hình lõm)</text>
+
+  <rect x="640" y="480" width="280" height="180" rx="8" fill="#fff" stroke="#cbbfa8"/>
+  <rect x="640" y="480" width="10" height="180" fill="#c49a6c"/>
+  <text x="665" y="510" font-size="14" font-weight="700" fill="#3b2f1e">b ¿ g×/tre góc</text>
+  <text x="665" y="535" font-size="12" fill="#333">Chi phí th¥p, phç góc nhanh</text>
+  <text x="665" y="555" font-size="12" fill="#333">Bám sinh thái supporter hang</text>
+  <text x="665" y="575" font-size="12" fill="#333">G¯n mÍi góc ô giá tÕ</text>
+  <text x="665" y="605" font-size="11" fill="#666">Kuntjoro 2020; Lê Hïu Hoàng 2013</text>
+  <text x="665" y="625" font-size="11" fill="#666">­u Vn H£i et al. 2020</text>
+</svg>

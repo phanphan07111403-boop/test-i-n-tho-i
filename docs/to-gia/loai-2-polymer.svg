@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="640" fill="#f4f7fb"/>
+  <text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1a3358">Lo¡i 2  TÕ khuôn polymer lõm chu©n</text>
+  <text x="480" y="58" text-anchor="middle" font-size="12" fill="#4d6480">Baseline thñc tiÅn °ãc nghiên céu (Rahim et al., 2012; Abdul Rahim, 2014) · MS 2334:2011</text>
+
+  <!-- Left panel -->
+  <rect x="40" y="80" width="420" height="520" rx="8" fill="#fff" stroke="#b7c7d9"/>
+  <text x="250" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#1a3358">A. K¿t c¥u chi ti¿t</text>
+
+  <!-- Side view cup -->
+  <path d="M150 200 Q250 120 350 200 L330 310 Q250 370 170 310 Z" fill="#c5d8e8" stroke="#2f5f86" stroke-width="2.5"/>
+  <path d="M175 305 Q250 255 325 305" fill="none" stroke="#2f5f86" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <ellipse cx="250" cy="250" rx="60" ry="30" fill="#e8f2fa" stroke="#2f5f86"/>
+  <text x="250" y="255" text-anchor="middle" font-size="11" fill="#1a3358">Cup lõm</text>
+
+  <!-- Mount ears -->
+  <rect x="185" y="165" width="28" height="14" rx="3" fill="#2f5f86"/>
+  <rect x="287" y="165" width="28" height="14" rx="3" fill="#2f5f86"/>
+  <circle cx="199" cy="172" r="3" fill="#fff"/>
+  <circle cx="301" cy="172" r="3" fill="#fff"/>
+  <text x="250" y="155" text-anchor="middle" font-size="11" fill="#2f5f86">Tai g¯n / l× vít</text>
+
+  <!-- Dimension arrows -->
+  <line x1="150" y1="390" x2="350" y2="390" stroke="#666" marker-end="url(#arrow)"/>
+  <text x="250" y="410" text-anchor="middle" font-size="11" fill="#333">ChiÁu dài hïu ích ~34,5 cm+ (MS 2334)</text>
+
+  <line x1="380" y1="200" x2="380" y2="310" stroke="#666"/>
+  <text x="395" y="255" font-size="11" fill="#333">Ù sâu</text>
+  <text x="395" y="270" font-size="11" fill="#333">lòng cup</text>
+
+  <rect x="70" y="440" width="360" height="130" rx="6" fill="#e8f0f8" stroke="#9bb4cc"/>
+  <text x="90" y="465" font-size="12" font-weight="700" fill="#1a3358">Thông sÑ</text>
+  <text x="90" y="490" font-size="12" fill="#233">" V­t liÇu: nhña kù thu­t / silicone ít mùi</text>
+  <text x="90" y="510" font-size="12" fill="#233">" D¡ng: bán nguyÇt ho·c V mß</text>
+  <text x="90" y="530" font-size="12" fill="#233">" Góc g¯n måc tiêu: ~90°</text>
+  <text x="90" y="550" font-size="12" fill="#233">" ¯u iÃm: nh¹, dÅ dÝi vË trí theo dõi</text>
+
+  <!-- Right panel -->
+  <rect x="500" y="80" width="420" height="520" rx="8" fill="#fff" stroke="#b7c7d9"/>
+  <text x="710" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#1a3358">B. Cách l¯p ·t</text>
+
+  <!-- Ceiling + planks top view-ish section -->
+  <rect x="540" y="140" width="340" height="16" fill="#8a97a3"/>
+  <text x="710" y="152" text-anchor="middle" font-size="11" fill="#fff">Tr§n</text>
+
+  <!-- Horizontal plank -->
+  <rect x="560" y="156" width="280" height="22" fill="#a66d3a"/>
+  <!-- Vertical plank forming corner -->
+  <rect x="560" y="156" width="22" height="200" fill="#8b5a2b"/>
+
+  <!-- Polymer nest at corner -->
+  <path d="M595 195 Q650 155 705 195 L690 250 Q650 280 610 250 Z" fill="#c5d8e8" stroke="#2f5f86" stroke-width="2"/>
+  <ellipse cx="650" cy="215" rx="24" ry="12" fill="#e8f2fa" stroke="#2f5f86"/>
+
+  <!-- Screws -->
+  <circle cx="620" cy="167" r="3.5" fill="#222"/>
+  <circle cx="680" cy="167" r="3.5" fill="#222"/>
+  <text x="695" y="172" font-size="11" fill="#222">Vít</text>
+
+  <!-- Speaker hint -->
+  <rect x="780" y="210" width="40" height="50" rx="4" fill="#445566"/>
+  <circle cx="800" cy="235" r="12" fill="#8899aa"/>
+  <text x="800" y="280" text-anchor="middle" font-size="11" fill="#445566">Loa ru</text>
+  <text x="800" y="295" text-anchor="middle" font-size="10" fill="#667">g§n tÕ</text>
+  <path d="M760 235 L780 235" stroke="#445566" stroke-dasharray="3 2"/>
+
+  <!-- Angle mark -->
+  <path d="M582 220 A18 18 0 0 1 600 195" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="600" y="230" font-size="11" fill="#c0392b">H90°</text>
+
+  <text x="540" y="400" font-size="12" font-weight="700" fill="#1a3358">Các b°Ûc:</text>
+  <text x="540" y="425" font-size="12" fill="#233">1. ChÍn góc thanh g× (g×g× ho·c g×t°Ýng)</text>
+  <text x="540" y="445" font-size="12" fill="#233">2. Úp l°ng cup vào m·t rÙng thanh giá tÕ</text>
+  <text x="540" y="465" font-size="12" fill="#233">3. B¯t 2 vít qua tai g¯n; kiÃm tra không rung</text>
+  <text x="540" y="485" font-size="12" fill="#233">4. Ã kho£ng bám chân phía trên miÇng cup</text>
+  <text x="540" y="505" font-size="12" fill="#233">5. ¯u tiên vË trí g§n loa ru / vùng tÑi</text>
+  <text x="540" y="535" font-size="12" fill="#233">6. Sau mùa §u: dÝi sang góc chim thm nhiÁu</text>
+  <text x="540" y="565" font-size="11" fill="#666">Måc tiêu: d«n h°Ûng hình tÕ cho y¿n non</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
