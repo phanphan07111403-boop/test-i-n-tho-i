@@ -54,40 +54,40 @@ MINUTE-BY-MINUTE OPTIMAL (highest burn DPS with workable duration)
    8:00 | burn    2.8 | total   88.6 | uptime   78% | Liandry → Rylai → BF (Best 20m)
          items: Black Mist Scythe › Boots of Speed › Fated Ashes › Haunting Guise
          3s burn fully utilized
-   9:00 | burn   15.4 | total  112.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+   9:00 | burn   15.0 | total  110.2 | uptime   78% | Liandry → Rylai → BF (Best 20m)
          items: Black Mist Scythe › Boots of Speed › Liandry's Torment
          3s burn fully utilized
-  10:00 | burn   16.1 | total  124.0 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+  10:00 | burn   15.7 | total  121.1 | uptime   78% | Liandry → Rylai → BF (Best 20m)
          items: Black Mist Scythe › Boots of Speed › Liandry's Torment
          3s burn fully utilized
-  11:00 | burn   17.3 | total  137.6 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+  11:00 | burn   16.9 | total  134.2 | uptime   78% | Liandry → Rylai → BF (Best 20m)
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana
          3s burn fully utilized
-  12:00 | burn   16.5 | total  141.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+  12:00 | burn   15.7 | total  135.1 | uptime   78% | Liandry → Rylai → BF (Best 20m)
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blasting Wand
          3s burn fully utilized
-  13:00 | burn   16.8 | total  146.0 | uptime   79% | Liandry → BF → Rylai
-         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Lost Chapter
+  13:00 | burn   17.6 | total  148.8 | uptime   78% | Liandry → Spellslinger → Void (Pen)
+         items: Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes
          3s burn fully utilized
-  14:00 | burn   17.5 | total  157.6 | uptime   79% | Liandry → BF → Rylai
-         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Lost Chapter
+  14:00 | burn   18.4 | total  160.8 | uptime   78% | Liandry → Spellslinger → Void (Pen)
+         items: Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes
          3s burn fully utilized
-  15:00 | burn   17.7 | total  162.5 | uptime   78% | Liandry → Rylai → BF (Best 20m)
-         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Giant's Belt › Blasting Wand › …
+  15:00 | burn   18.6 | total  174.0 | uptime   78% | Liandry → Spellslinger → Void (Pen)
+         items: Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Needlessly Large Rod
          3s burn fully utilized
-  16:00 | burn   31.7 | total  195.5 | uptime   79% | Liandry → BF → Rylai
+  16:00 | burn   30.2 | total  186.1 | uptime   79% | Liandry → BF → Rylai
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch
          DOUBLE BURN, 3s burn fully utilized
-  17:00 | burn   32.5 | total  205.9 | uptime   79% | Liandry → BF → Rylai
+  17:00 | burn   30.9 | total  196.0 | uptime   79% | Liandry → BF → Rylai
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Blasting Wand
          DOUBLE BURN, 3s burn fully utilized
-  18:00 | burn   32.7 | total  213.5 | uptime   79% | Liandry → BF → Rylai
+  18:00 | burn   31.2 | total  203.3 | uptime   79% | Liandry → BF → Rylai
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
          DOUBLE BURN, 3s burn fully utilized
-  19:00 | burn   33.3 | total  221.0 | uptime   79% | Liandry → BF → Rylai
+  19:00 | burn   31.7 | total  210.4 | uptime   79% | Liandry → BF → Rylai
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
          DOUBLE BURN, 3s burn fully utilized
-  20:00 | burn   34.0 | total  236.3 | uptime   79% | Liandry → BF → Rylai
+  20:00 | burn   32.4 | total  224.9 | uptime   79% | Liandry → BF → Rylai
          items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
          DOUBLE BURN, 3s burn fully utilized
 
@@ -95,19 +95,21 @@ MINUTE-BY-MINUTE OPTIMAL (highest burn DPS with workable duration)
 BUILD COMPARISON — BURN DPS @ key spikes
 ------------------------------------------------------------------------------
   Build                                   8:00   12:00   16:00   20:00  EffBurn    Peak
-  Liandry → Rylai → BF (Best 20m)          2.8    16.5    22.1    24.4     13.6    24.4
-  Liandry → BF → Rylai                     2.8    16.5    31.7    34.0     14.6    34.0
-  Liandry → Rylai → Cap (Classic)          2.8    16.5    22.1    24.3     13.6    24.3
-  BF → Liandry → Rylai (Peak Burn)         2.7    11.7    31.7    34.0     13.1    34.0
-  Rylai → Liandry → BF (Uptime First)      0.0     3.0    22.1    24.4      7.8    24.4
-  BF → Rylai → Liandry (Duration Peak)     2.7    11.7    14.9    16.2      8.8    16.3
-  Liandry → Morello → Cap (Antiheal)       2.8    16.5    18.4    20.3     11.2    20.3
+  Liandry → Rylai → BF (Best 20m)          2.8    15.7    21.1    23.2     13.0    23.2
+  Liandry → Spellslinger → Void (Pen)      2.8    15.7    19.3    26.5     12.2    26.5
+  Liandry → Boots → Rylai (Uptime)         2.8    15.7    21.1    23.1     13.0    23.1
+  Liandry → BF → Rylai                     2.8    15.7    30.2    32.4     14.0    32.4
+  Liandry → Rylai → Cap (Classic)          2.8    15.7    21.1    23.1     13.0    23.1
+  BF → Liandry → Rylai (Peak Burn)         2.7    11.5    30.2    32.4     12.7    32.4
+  Rylai → Liandry → BF (Uptime First)      0.0     2.9    21.1    23.2      7.4    23.2
+  BF → Rylai → Liandry (Duration Peak)     2.7    11.5    14.6    15.9      8.7    16.0
+  Liandry → Morello → Cap (Antiheal)       2.8    15.7    17.6    19.3     10.7    19.3
 
 ------------------------------------------------------------------------------
 VERDICT
 ------------------------------------------------------------------------------
   Best path (peak burn WITH duration lock): Liandry → Rylai → BF (Best 20m)
-  Duration-weighted avg: 13.6 | Peak raw burn DPS: 24.4
+  Duration-weighted avg: 13.0 | Peak raw burn DPS: 23.2
   Rylai uptime lock online: ~16:00
   Note: Liandry + Rylai + Blackfire rarely all finish in a 20-min support game.
 
@@ -130,4 +132,53 @@ VERDICT
 
   Trap: Liandry → Blackfire skips Rylai → higher paper burn, enemies walk out.
   Trap: Rylai first delays Liandry → you lose the mid-game harass peak.
+==============================================================================
+
+==============================================================================
+HEAD-TO-HEAD: Rylai uptime  vs  Spellslinger → Void Staff
+==============================================================================
+  A = Liandry → Boots → Rylai (Uptime)
+  B = Liandry → Spellslinger → Void (Pen)
+
+  Min |   A burn    A tot  A up |   B burn    B tot  B up | edge
+    1 |      0.0     19.9   72% |      0.0     19.9   72% | tie
+    2 |      0.0     27.6   72% |      0.0     27.6   72% | tie
+    3 |      0.0     35.5   72% |      0.0     35.5   72% | tie
+    4 |      0.0     43.6   72% |      0.0     43.6   72% | tie
+    5 |      2.7     60.8   78% |      2.7     60.8   78% | tie
+    6 |      2.7     69.8   78% |      2.7     69.8   78% | tie
+    7 |      2.7     79.0   78% |      2.7     79.0   78% | tie
+    8 |      2.8     88.6   78% |      2.8     88.6   78% | tie
+    9 |     15.0    110.2   78% |     15.0    110.2   78% | tie
+   10 |     15.7    121.1   78% |     15.7    121.1   78% | tie
+   11 |     16.9    134.2   78% |     16.9    134.2   78% | tie
+   12 |     15.7    135.1   78% |     15.7    129.7   78% | A (Rylai)
+   13 |     15.9    135.1   78% |     17.6    148.8   78% | B (Pen)
+   14 |     16.6    149.1   78% |     18.4    160.8   78% | B (Pen)
+   15 |     16.8    154.7   78% |     18.6    174.0   78% | B (Pen)
+   16 |     21.1    179.5   94% |     19.3    185.8   78% | B (Pen)
+   17 |     21.4    182.5   94% |     19.6    189.1   78% | B (Pen)
+   18 |     22.1    194.1   94% |     25.3    255.1   78% | B (Pen)
+   19 |     22.4    197.1   94% |     25.6    259.3   78% | B (Pen)
+   20 |     23.1    208.9   94% |     26.5    275.5   78% | B (Pen)
+
+  Items @ 12 / 16 / 20:
+    A 12:00 → Black Mist Scythe › Liandry's Torment › Boots of Mana › Blasting Wand
+    A 16:00 → Black Mist Scythe › Liandry's Torment › Boots of Mana › Rylai's Crystal Scepter
+    A 20:00 → Black Mist Scythe › Liandry's Torment › Boots of Mana › Rylai's Crystal Scepter
+    B 12:00 → Black Mist Scythe › Liandry's Torment › Boots of Mana
+    B 16:00 → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Needlessly Large Rod
+    B 20:00 → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Void Staff
+
+  vs STACKED MR (~90 MR target at 16:00):
+  Pen path gains more because Void 40% + Spellslinger 18 flat / 8%.
+  Rylai path still wins if the fight is short / kite-out (uptime).
+    soft MR~62: A tot 179.5 (burn 21.1) | B tot 185.8 (burn 19.3) → B Pen
+    stack MR~90: A tot 151.9 (burn 17.9) | B tot 156.8 (burn 16.3) → B Pen
+
+  VERDICT (this matchup):
+    Avg total harass: Rylai 116.3  vs  Pen 128.4
+    Avg burn DPS:     Rylai 11.7  vs  Pen 12.3
+    → Pen path wins raw throughput in this gold curve — Void amplifies Liandry hard.
+    → Still buy Rylai before Void if enemies kite your plants often.
 ==============================================================================

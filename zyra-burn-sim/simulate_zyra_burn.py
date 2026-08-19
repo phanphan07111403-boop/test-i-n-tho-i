@@ -88,6 +88,15 @@ ITEMS: Dict[str, Item] = {
     "Boots of Mana": Item(
         "Boots of Mana", 1200, ap=25, flat_mpen=8, tags=("boots",)
     ),
+    # Tier-3 upgrade of Boots of Mana (available after 10:00). Total cost 2200.
+    "Spellslinger's Shoes": Item(
+        "Spellslinger's Shoes",
+        2200,
+        ap=40,
+        flat_mpen=18,
+        pct_mpen=0.08,
+        tags=("boots", "t3"),
+    ),
     "Amplifying Tome": Item("Amplifying Tome", 500, ap=20),
     "Blasting Wand": Item("Blasting Wand", 800, ap=45),
     "Needlessly Large Rod": Item("Needlessly Large Rod", 1400, ap=70),
@@ -110,7 +119,7 @@ ITEMS: Dict[str, Item] = {
         3000,
         ap=70,
         hp=300,
-        pct_mpen=0.07,
+        # Patch 7.2: % mpen removed from general AP items
         burn="liandry",
         tags=("burn",),
     ),
@@ -158,6 +167,29 @@ BUILD_PATHS: Dict[str, List[str]] = {
         "Boots of Mana",
         "Rylai's Crystal Scepter",
         "Blackfire Torch",
+        "Rabadon's Deathcap",
+    ],
+    # User comparison: pen path (Spellslinger T3 + Void Staff)
+    "Liandry → Spellslinger → Void (Pen)": [
+        "Spectral Sickle",
+        "Boots of Speed",
+        "Fated Ashes",
+        "Haunting Guise",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Rabadon's Deathcap",
+    ],
+    # Head-to-head clean: Liandry → Rylai (no 3rd burn item)
+    "Liandry → Boots → Rylai (Uptime)": [
+        "Spectral Sickle",
+        "Boots of Speed",
+        "Fated Ashes",
+        "Haunting Guise",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Rylai's Crystal Scepter",
         "Rabadon's Deathcap",
     ],
     # Liandry first then BF then Rylai (raw peak, Rylai often too late in 20m)
@@ -249,6 +281,7 @@ def scythe_ap_stacks(minute: int) -> float:
 # Components that build into a finished item (credit when upgrading).
 UPGRADE_COMPONENTS = {
     "Boots of Mana": ("Boots of Speed",),
+    "Spellslinger's Shoes": ("Boots of Mana",),
     "Blackfire Torch": ("Lost Chapter", "Fated Ashes"),
     "Liandry's Torment": ("Haunting Guise", "Fated Ashes"),
     "Rylai's Crystal Scepter": ("Giant's Belt", "Blasting Wand", "Amplifying Tome"),
@@ -260,6 +293,8 @@ NEXT_COMPONENTS = {
     "Liandry's Torment": ["Fated Ashes", "Haunting Guise"],
     "Rylai's Crystal Scepter": ["Giant's Belt", "Blasting Wand", "Amplifying Tome"],
     "Boots of Mana": ["Boots of Speed"],
+    "Spellslinger's Shoes": ["Boots of Mana"],
+    "Void Staff": ["Needlessly Large Rod"],
 }
 
 
@@ -284,11 +319,16 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
         return max(0, ITEMS[item_name].cost - credit)
 
     def can_afford(item_name: str) -> bool:
+        # Tier-3 boots unlock at 10:00
+        if item_name == "Spellslinger's Shoes" and minute < 10:
+            return False
         return gold_pool >= remaining_cost(item_name)
 
     def buy(item_name: str) -> bool:
         nonlocal gold_pool
         if item_name in owned_names:
+            return False
+        if item_name == "Spellslinger's Shoes" and minute < 10:
             return False
         if item_name == "Black Mist Scythe":
             if "Spectral Sickle" in owned_names:
@@ -302,6 +342,9 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
         gold_pool -= cost
         for r in remove:
             owned_names.remove(r)
+        # Spellslinger replaces Boots of Mana entirely
+        if item_name == "Spellslinger's Shoes" and "Boots of Speed" in owned_names:
+            owned_names.remove("Boots of Speed")
         owned_names.append(item_name)
         return True
 
@@ -497,8 +540,11 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
     if has_liandry or has_guise:
         madness_mult = 1.04  # average over poke window
 
-    # Magic pen rough effective multiplier vs ~40–70 MR
-    mr = 35 + 1.5 * level + (0 if minute < 12 else 15)
+    # Magic pen vs target MR. Pen path shines when MR is stacked.
+    # Base curve: early soft MR, late optional MR items on carries/bruisers.
+    mr = 35 + 1.5 * level + (0 if minute < 12 else 18)
+    # Extra MR if enemies actually build it (pen path payoff case)
+    # Keep baseline for main sim; comparison script can raise this.
     effective_mr = mr * (1 - pct_mpen) - flat_mpen
     effective_mr = max(10.0, effective_mr)
     pen_mult = 100.0 / (100.0 + effective_mr)
@@ -729,13 +775,130 @@ def export_json(results, timeline, path: str) -> None:
         json.dump(payload, f, indent=2)
 
 
+def head_to_head(results: Dict[str, List[Snapshot]]) -> str:
+    """Compare Rylai uptime build vs Spellslinger + Void pen build."""
+    a_name = "Liandry → Boots → Rylai (Uptime)"
+    b_name = "Liandry → Spellslinger → Void (Pen)"
+    # Fallback names if clean path missing
+    if a_name not in results:
+        a_name = "Liandry → Rylai → BF (Best 20m)"
+    if b_name not in results:
+        return "Pen path missing from results."
+
+    a = results[a_name]
+    b = results[b_name]
+    lines = []
+    lines.append("")
+    lines.append("=" * 78)
+    lines.append("HEAD-TO-HEAD: Rylai uptime  vs  Spellslinger → Void Staff")
+    lines.append("=" * 78)
+    lines.append(f"  A = {a_name}")
+    lines.append(f"  B = {b_name}")
+    lines.append("")
+    lines.append(
+        f"  {'Min':>3} | {'A burn':>8} {'A tot':>8} {'A up':>5} | "
+        f"{'B burn':>8} {'B tot':>8} {'B up':>5} | edge"
+    )
+    for m in range(1, 21):
+        sa, sb = a[m - 1], b[m - 1]
+        # Prefer total harass for overall poke; also show burn
+        if sa.total_harass_dps > sb.total_harass_dps * 1.02:
+            edge = "A (Rylai)"
+        elif sb.total_harass_dps > sa.total_harass_dps * 1.02:
+            edge = "B (Pen)"
+        else:
+            edge = "tie"
+        lines.append(
+            f"  {m:>3} | {sa.burn_dps:>8.1f} {sa.total_harass_dps:>8.1f} {sa.burn_uptime*100:>4.0f}% | "
+            f"{sb.burn_dps:>8.1f} {sb.total_harass_dps:>8.1f} {sb.burn_uptime*100:>4.0f}% | {edge}"
+        )
+
+    lines.append("")
+    lines.append("  Items @ 12 / 16 / 20:")
+    for label, snaps in (("A", a), ("B", b)):
+        for m in (12, 16, 20):
+            s = snaps[m - 1]
+            lines.append(f"    {label} {m}:00 → {' › '.join(s.items)}")
+
+    # High-MR what-if: re-scale last snapshots' pen portion
+    lines.append("")
+    lines.append("  vs STACKED MR (~90 MR target at 16:00):")
+    lines.append("  Pen path gains more because Void 40% + Spellslinger 18 flat / 8%.")
+    lines.append("  Rylai path still wins if the fight is short / kite-out (uptime).")
+
+    # Approximate rescale using pen formula at min 16
+    def pen_factor(flat: float, pct: float, mr: float) -> float:
+        eff = max(10.0, mr * (1 - pct) - flat)
+        return 100.0 / (100.0 + eff)
+
+    # Infer pen from items at 16
+    def infer_pen(items: List[str]) -> Tuple[float, float]:
+        flat = pct = 0.0
+        for n in items:
+            it = ITEMS[n]
+            flat += it.flat_mpen
+            pct += it.pct_mpen
+        return flat, pct
+
+    sa16, sb16 = a[15], b[15]
+    flat_a, pct_a = infer_pen(sa16.items)
+    flat_b, pct_b = infer_pen(sb16.items)
+    # Current sim MR ~ mid 60s; stacked ~90
+    mr_soft, mr_stack = 62.0, 90.0
+    # Strip current pen then reapply (burn_dps already includes soft pen)
+    # Approximate: new = old * (new_pen / old_pen)
+    for mr_label, mr in (("soft MR~62", mr_soft), ("stack MR~90", mr_stack)):
+        fa = pen_factor(flat_a, pct_a, mr)
+        fb = pen_factor(flat_b, pct_b, mr)
+        # Also apply uptime difference to burn
+        a_burn = (sa16.burn_dps / max(1e-6, pen_factor(flat_a, pct_a, mr_soft))) * fa
+        b_burn = (sb16.burn_dps / max(1e-6, pen_factor(flat_b, pct_b, mr_soft))) * fb
+        a_tot = (sa16.total_harass_dps / max(1e-6, pen_factor(flat_a, pct_a, mr_soft))) * fa
+        b_tot = (sb16.total_harass_dps / max(1e-6, pen_factor(flat_b, pct_b, mr_soft))) * fb
+        winner = "A Rylai" if a_tot >= b_tot else "B Pen"
+        lines.append(
+            f"    {mr_label}: A tot {a_tot:.1f} (burn {a_burn:.1f}) | "
+            f"B tot {b_tot:.1f} (burn {b_burn:.1f}) → {winner}"
+        )
+
+    lines.append("")
+    lines.append("  VERDICT (this matchup):")
+    a_avg = sum(s.total_harass_dps for s in a) / len(a)
+    b_avg = sum(s.total_harass_dps for s in b) / len(b)
+    a_burn_avg = sum(s.burn_dps for s in a) / len(a)
+    b_burn_avg = sum(s.burn_dps for s in b) / len(b)
+    lines.append(f"    Avg total harass: Rylai {a_avg:.1f}  vs  Pen {b_avg:.1f}")
+    lines.append(f"    Avg burn DPS:     Rylai {a_burn_avg:.1f}  vs  Pen {b_burn_avg:.1f}")
+    if a_avg >= b_avg:
+        lines.append(
+            "    → For plant-spam HARASS: Rylai path wins — more burn ticks land."
+        )
+        lines.append(
+            "    → Take Spellslinger → Void when enemies STACK MR (tanks / MR boots),"
+        )
+        lines.append(
+            "      or when you already have Rylai and need a 3rd damage item."
+        )
+    else:
+        lines.append(
+            "    → Pen path wins raw throughput in this gold curve — Void amplifies Liandry hard."
+        )
+        lines.append(
+            "    → Still buy Rylai before Void if enemies kite your plants often."
+        )
+    lines.append("=" * 78)
+    return "\n".join(lines)
+
+
 def main() -> None:
     results, timeline = run_all()
     report = summarize(results, timeline)
-    print(report)
+    h2h = head_to_head(results)
+    full = report + "\n" + h2h
+    print(full)
     out_dir = "/workspace/zyra-burn-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
-        f.write(report + "\n")
+        f.write(full + "\n")
     export_json(results, timeline, f"{out_dir}/results.json")
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 

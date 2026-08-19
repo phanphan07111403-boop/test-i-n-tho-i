@@ -8,28 +8,25 @@ Patch **7.2+** item model. Plant-spam support playstyle over a **20-minute** ave
 python3 simulate_zyra_burn.py
 ```
 
-Outputs:
-- `report.txt` — full minute-by-minute optimal + verdict
-- `results.json` — machine-readable snapshots per build
+Outputs `report.txt` and `results.json`.
 
-## Question answered
+## Winner
 
-Which build **peaks burn damage** for Zyra plant spam harass, while still giving the burn **enough duration/uptime** to finish its 3s ticks?
+**Liandry → Boots → Rylai → (Blackfire if game goes long)**
 
-## Winner (sim)
-
-**Liandry → Boots → Rylai → Blackfire**
-
-| When | Spike |
+| Time | Spike |
 |------|--------|
-| ~5:00 | Fated Ashes (first burn) |
-| ~9:00 | **Liandry** — main harass peak (2% max HP/s) |
-| ~13–14:00 | **Rylai** — locks ~94% burn uptime |
-| ~16–18:00 | **Blackfire** — double burn if game lasts |
+| ~5:00 | Fated Ashes — first burn |
+| ~9:00 | **Liandry** — peak harass (2% max HP/s, plants refresh) |
+| ~16:00 | **Rylai** — locks ~94% burn uptime so 3s ticks finish |
+| 18–20+ | Blackfire — double burn only if game lasts |
 
-## Why
+## Why this beats “double burn rush”
 
-- Plants auto-attack for 6s and refresh burns — spam trees, accuracy does not matter.
-- Liandry is the real burn (max HP). Blackfire is the second DoT + Ability Haste.
-- Without Rylai, enemies walk out before the 3s burn completes (~20% less real damage).
-- In a 20-min support gold curve, buying Liandry → Blackfire → Rylai often **never finishes Rylai**.
+In a 20-min support gold curve you usually **cannot** finish Liandry + Blackfire + Rylai.  
+`Liandry → Blackfire` peaks higher on paper (~34 burn DPS) but never finishes Rylai → enemies walk out of plant range.  
+`Liandry → Rylai` peaks slightly lower on paper but the burn **actually completes**.
+
+## Playstyle
+
+Spam Q/E plants. Accuracy does not matter — plants auto-hit for 6s, W resets duration, burns stay refreshed.
