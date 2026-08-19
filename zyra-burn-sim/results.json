@@ -1,0 +1,2918 @@
+{
+  "meta": {
+    "champion": "Zyra",
+    "role": "Support",
+    "patch": "7.2+",
+    "game_minutes": 20,
+    "playstyle": "plant spam burn harass"
+  },
+  "timeline": [
+    {
+      "minute": 1,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 0.0,
+      "total_dps": 19.9,
+      "uptime": 0.72,
+      "items": [
+        "Spectral Sickle"
+      ],
+      "ap": 20.0,
+      "notes": "burn window incomplete"
+    },
+    {
+      "minute": 2,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 0.0,
+      "total_dps": 27.6,
+      "uptime": 0.72,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "notes": "burn window incomplete"
+    },
+    {
+      "minute": 3,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 0.0,
+      "total_dps": 35.5,
+      "uptime": 0.72,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "notes": "burn window incomplete"
+    },
+    {
+      "minute": 4,
+      "winner": "Rylai \u2192 Liandry \u2192 BF (Uptime First)",
+      "burn_dps": 0.0,
+      "total_dps": 49.1,
+      "uptime": 0.72,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Mana"
+      ],
+      "ap": 45.0,
+      "notes": "burn window incomplete"
+    },
+    {
+      "minute": 5,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 2.7,
+      "total_dps": 60.8,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Fated Ashes"
+      ],
+      "ap": 68.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 6,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 2.7,
+      "total_dps": 69.8,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Fated Ashes"
+      ],
+      "ap": 72.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 7,
+      "winner": "BF \u2192 Liandry \u2192 Rylai (Peak Burn)",
+      "burn_dps": 2.7,
+      "total_dps": 84.7,
+      "uptime": 0.786,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Fated Ashes",
+        "Lost Chapter"
+      ],
+      "ap": 116.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 8,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 2.8,
+      "total_dps": 88.6,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Fated Ashes",
+        "Haunting Guise"
+      ],
+      "ap": 115.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 9,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 15.4,
+      "total_dps": 112.8,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Liandry's Torment"
+      ],
+      "ap": 114.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 10,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 16.1,
+      "total_dps": 124.0,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Liandry's Torment"
+      ],
+      "ap": 118.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 11,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 17.3,
+      "total_dps": 137.6,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana"
+      ],
+      "ap": 147.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 12,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 16.5,
+      "total_dps": 141.8,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blasting Wand"
+      ],
+      "ap": 196.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 13,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 16.8,
+      "total_dps": 146.0,
+      "uptime": 0.786,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Lost Chapter"
+      ],
+      "ap": 195.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 14,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 17.5,
+      "total_dps": 157.6,
+      "uptime": 0.786,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Lost Chapter"
+      ],
+      "ap": 199.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 15,
+      "winner": "Liandry \u2192 Rylai \u2192 BF (Best 20m)",
+      "burn_dps": 17.7,
+      "total_dps": 162.5,
+      "uptime": 0.783,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Giant's Belt",
+        "Blasting Wand",
+        "Amplifying Tome"
+      ],
+      "ap": 228.0,
+      "notes": "3s burn fully utilized"
+    },
+    {
+      "minute": 16,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 31.7,
+      "total_dps": 195.5,
+      "uptime": 0.788,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blackfire Torch"
+      ],
+      "ap": 264.4,
+      "notes": "DOUBLE BURN, 3s burn fully utilized"
+    },
+    {
+      "minute": 17,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 32.5,
+      "total_dps": 205.9,
+      "uptime": 0.788,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Blasting Wand"
+      ],
+      "ap": 313.3,
+      "notes": "DOUBLE BURN, 3s burn fully utilized"
+    },
+    {
+      "minute": 18,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 32.7,
+      "total_dps": 213.5,
+      "uptime": 0.788,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Giant's Belt",
+        "Amplifying Tome"
+      ],
+      "ap": 286.1,
+      "notes": "DOUBLE BURN, 3s burn fully utilized"
+    },
+    {
+      "minute": 19,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 33.3,
+      "total_dps": 221.0,
+      "uptime": 0.788,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "ap": 313.3,
+      "notes": "DOUBLE BURN, 3s burn fully utilized"
+    },
+    {
+      "minute": 20,
+      "winner": "Liandry \u2192 BF \u2192 Rylai",
+      "burn_dps": 34.0,
+      "total_dps": 236.3,
+      "uptime": 0.788,
+      "items": [
+        "Black Mist Scythe",
+        "Liandry's Torment",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Giant's Belt",
+        "Blasting Wand",
+        "Amplifying Tome"
+      ],
+      "ap": 335.1,
+      "notes": "DOUBLE BURN, 3s burn fully utilized"
+    }
+  ],
+  "builds": {
+    "Liandry \u2192 Rylai \u2192 BF (Best 20m)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 76.0,
+        "ah": 10.0,
+        "plant_dps": 76.3,
+        "burn_dps": 2.7,
+        "total_harass_dps": 79.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 115.0,
+        "ah": 10.0,
+        "plant_dps": 85.8,
+        "burn_dps": 2.8,
+        "total_harass_dps": 88.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 114.0,
+        "ah": 10.0,
+        "plant_dps": 97.4,
+        "burn_dps": 15.4,
+        "total_harass_dps": 112.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 118.0,
+        "ah": 10.0,
+        "plant_dps": 107.8,
+        "burn_dps": 16.1,
+        "total_harass_dps": 124.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 147.0,
+        "ah": 10.0,
+        "plant_dps": 120.3,
+        "burn_dps": 17.3,
+        "total_harass_dps": 137.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blasting Wand"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 196.0,
+        "ah": 10.0,
+        "plant_dps": 125.4,
+        "burn_dps": 16.5,
+        "total_harass_dps": 141.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Amplifying Tome"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 175.0,
+        "ah": 10.0,
+        "plant_dps": 125.1,
+        "burn_dps": 16.7,
+        "total_harass_dps": 141.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 204.0,
+        "ah": 10.0,
+        "plant_dps": 139.1,
+        "burn_dps": 17.4,
+        "total_harass_dps": 156.5,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 228.0,
+        "ah": 10.0,
+        "plant_dps": 144.8,
+        "burn_dps": 17.7,
+        "total_harass_dps": 162.5,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 166.4,
+        "burn_dps": 22.1,
+        "total_harass_dps": 188.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 169.2,
+        "burn_dps": 22.4,
+        "total_harass_dps": 191.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Lost Chapter"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 188.5,
+        "burn_dps": 23.3,
+        "total_harass_dps": 211.8,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Lost Chapter"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 191.5,
+        "burn_dps": 23.6,
+        "total_harass_dps": 215.1,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Lost Chapter"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 203.3,
+        "burn_dps": 24.4,
+        "total_harass_dps": 227.7,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      }
+    ],
+    "Liandry \u2192 BF \u2192 Rylai": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 76.0,
+        "ah": 10.0,
+        "plant_dps": 76.3,
+        "burn_dps": 2.7,
+        "total_harass_dps": 79.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 115.0,
+        "ah": 10.0,
+        "plant_dps": 85.8,
+        "burn_dps": 2.8,
+        "total_harass_dps": 88.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 114.0,
+        "ah": 10.0,
+        "plant_dps": 97.4,
+        "burn_dps": 15.4,
+        "total_harass_dps": 112.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 118.0,
+        "ah": 10.0,
+        "plant_dps": 107.8,
+        "burn_dps": 16.1,
+        "total_harass_dps": 124.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 147.0,
+        "ah": 10.0,
+        "plant_dps": 120.3,
+        "burn_dps": 17.3,
+        "total_harass_dps": 137.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 151.0,
+        "ah": 10.0,
+        "plant_dps": 119.7,
+        "burn_dps": 16.5,
+        "total_harass_dps": 136.2,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 195.0,
+        "ah": 20.0,
+        "plant_dps": 129.2,
+        "burn_dps": 16.8,
+        "total_harass_dps": 146.0,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 199.0,
+        "ah": 20.0,
+        "plant_dps": 140.1,
+        "burn_dps": 17.5,
+        "total_harass_dps": 157.6,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 203.0,
+        "ah": 20.0,
+        "plant_dps": 143.2,
+        "burn_dps": 17.7,
+        "total_harass_dps": 160.9,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 264.4,
+        "ah": 30.0,
+        "plant_dps": 163.8,
+        "burn_dps": 31.7,
+        "total_harass_dps": 195.5,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Blasting Wand"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 313.3,
+        "ah": 30.0,
+        "plant_dps": 173.4,
+        "burn_dps": 32.5,
+        "total_harass_dps": 205.9,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Giant's Belt",
+          "Amplifying Tome"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 286.1,
+        "ah": 30.0,
+        "plant_dps": 180.8,
+        "burn_dps": 32.7,
+        "total_harass_dps": 213.5,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 313.3,
+        "ah": 30.0,
+        "plant_dps": 187.7,
+        "burn_dps": 33.3,
+        "total_harass_dps": 221.0,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Giant's Belt",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 335.1,
+        "ah": 30.0,
+        "plant_dps": 202.3,
+        "burn_dps": 34.0,
+        "total_harass_dps": 236.3,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      }
+    ],
+    "Liandry \u2192 Rylai \u2192 Cap (Classic)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 76.0,
+        "ah": 10.0,
+        "plant_dps": 76.3,
+        "burn_dps": 2.7,
+        "total_harass_dps": 79.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 115.0,
+        "ah": 10.0,
+        "plant_dps": 85.8,
+        "burn_dps": 2.8,
+        "total_harass_dps": 88.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 114.0,
+        "ah": 10.0,
+        "plant_dps": 97.4,
+        "burn_dps": 15.4,
+        "total_harass_dps": 112.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 118.0,
+        "ah": 10.0,
+        "plant_dps": 107.8,
+        "burn_dps": 16.1,
+        "total_harass_dps": 124.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 147.0,
+        "ah": 10.0,
+        "plant_dps": 120.3,
+        "burn_dps": 17.3,
+        "total_harass_dps": 137.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Blasting Wand"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 196.0,
+        "ah": 10.0,
+        "plant_dps": 125.4,
+        "burn_dps": 16.5,
+        "total_harass_dps": 141.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Amplifying Tome"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 175.0,
+        "ah": 10.0,
+        "plant_dps": 125.1,
+        "burn_dps": 16.7,
+        "total_harass_dps": 141.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 204.0,
+        "ah": 10.0,
+        "plant_dps": 139.1,
+        "burn_dps": 17.4,
+        "total_harass_dps": 156.5,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 228.0,
+        "ah": 10.0,
+        "plant_dps": 144.8,
+        "burn_dps": 17.7,
+        "total_harass_dps": 162.5,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 166.4,
+        "burn_dps": 22.1,
+        "total_harass_dps": 188.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 169.2,
+        "burn_dps": 22.4,
+        "total_harass_dps": 191.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 180.6,
+        "burn_dps": 23.2,
+        "total_harass_dps": 203.8,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 183.5,
+        "burn_dps": 23.5,
+        "total_harass_dps": 207.1,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 195.2,
+        "burn_dps": 24.3,
+        "total_harass_dps": 219.5,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      }
+    ],
+    "BF \u2192 Liandry \u2192 Rylai (Peak Burn)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Lost Chapter"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 116.0,
+        "ah": 20.0,
+        "plant_dps": 82.0,
+        "burn_dps": 2.7,
+        "total_harass_dps": 84.7,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Lost Chapter"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 120.0,
+        "ah": 20.0,
+        "plant_dps": 84.2,
+        "burn_dps": 2.7,
+        "total_harass_dps": 86.8,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Blackfire Torch"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 131.4,
+        "ah": 30.0,
+        "plant_dps": 95.8,
+        "burn_dps": 12.0,
+        "total_harass_dps": 107.8,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 162.2,
+        "ah": 30.0,
+        "plant_dps": 115.2,
+        "burn_dps": 12.9,
+        "total_harass_dps": 128.1,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 166.4,
+        "ah": 30.0,
+        "plant_dps": 118.0,
+        "burn_dps": 12.9,
+        "total_harass_dps": 130.9,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 175.2,
+        "ah": 30.0,
+        "plant_dps": 117.2,
+        "burn_dps": 11.7,
+        "total_harass_dps": 128.9,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Haunting Guise"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 217.6,
+        "ah": 30.0,
+        "plant_dps": 129.6,
+        "burn_dps": 12.6,
+        "total_harass_dps": 142.2,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 265.5,
+        "ah": 30.0,
+        "plant_dps": 145.9,
+        "burn_dps": 13.0,
+        "total_harass_dps": 158.8,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 269.8,
+        "ah": 30.0,
+        "plant_dps": 149.1,
+        "burn_dps": 13.0,
+        "total_harass_dps": 162.1,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Liandry's Torment"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 264.4,
+        "ah": 30.0,
+        "plant_dps": 163.8,
+        "burn_dps": 31.7,
+        "total_harass_dps": 195.5,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Blasting Wand"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 313.3,
+        "ah": 30.0,
+        "plant_dps": 173.4,
+        "burn_dps": 32.5,
+        "total_harass_dps": 205.9,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Giant's Belt",
+          "Amplifying Tome"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 286.1,
+        "ah": 30.0,
+        "plant_dps": 180.8,
+        "burn_dps": 32.7,
+        "total_harass_dps": 213.5,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 313.3,
+        "ah": 30.0,
+        "plant_dps": 187.7,
+        "burn_dps": 33.3,
+        "total_harass_dps": 221.0,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Giant's Belt",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 335.1,
+        "ah": 30.0,
+        "plant_dps": 202.3,
+        "burn_dps": 34.0,
+        "total_harass_dps": 236.3,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "DOUBLE BURN, 3s burn fully utilized"
+      }
+    ],
+    "Rylai \u2192 Liandry \u2192 BF (Uptime First)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Mana"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 45.0,
+        "ah": 0.0,
+        "plant_dps": 49.1,
+        "burn_dps": 0.0,
+        "total_harass_dps": 49.1,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 73.0,
+        "ah": 10.0,
+        "plant_dps": 62.1,
+        "burn_dps": 0.0,
+        "total_harass_dps": 62.1,
+        "burn_uptime": 0.723,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Giant's Belt"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 57.0,
+        "ah": 10.0,
+        "plant_dps": 69.2,
+        "burn_dps": 0.0,
+        "total_harass_dps": 69.2,
+        "burn_uptime": 0.723,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Giant's Belt"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 61.0,
+        "ah": 10.0,
+        "plant_dps": 78.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 78.9,
+        "burn_uptime": 0.723,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 110.0,
+        "ah": 10.0,
+        "plant_dps": 86.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 86.6,
+        "burn_uptime": 0.723,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 134.0,
+        "ah": 10.0,
+        "plant_dps": 99.2,
+        "burn_dps": 0.0,
+        "total_harass_dps": 99.2,
+        "burn_uptime": 0.723,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 143.0,
+        "ah": 10.0,
+        "plant_dps": 118.3,
+        "burn_dps": 0.0,
+        "total_harass_dps": 118.3,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 147.0,
+        "ah": 10.0,
+        "plant_dps": 121.0,
+        "burn_dps": 0.0,
+        "total_harass_dps": 121.0,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 191.0,
+        "ah": 10.0,
+        "plant_dps": 124.7,
+        "burn_dps": 3.0,
+        "total_harass_dps": 127.7,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 195.0,
+        "ah": 10.0,
+        "plant_dps": 127.5,
+        "burn_dps": 3.0,
+        "total_harass_dps": 130.5,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 234.0,
+        "ah": 10.0,
+        "plant_dps": 148.3,
+        "burn_dps": 3.1,
+        "total_harass_dps": 151.3,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 238.0,
+        "ah": 10.0,
+        "plant_dps": 151.4,
+        "burn_dps": 3.1,
+        "total_harass_dps": 154.4,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 166.4,
+        "burn_dps": 22.1,
+        "total_harass_dps": 188.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 10.0,
+        "plant_dps": 169.2,
+        "burn_dps": 22.4,
+        "total_harass_dps": 191.6,
+        "burn_uptime": 0.944,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment",
+          "Lost Chapter"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 188.5,
+        "burn_dps": 23.3,
+        "total_harass_dps": 211.8,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment",
+          "Lost Chapter"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 191.5,
+        "burn_dps": 23.6,
+        "total_harass_dps": 215.1,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment",
+          "Lost Chapter"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 273.0,
+        "ah": 20.0,
+        "plant_dps": 203.3,
+        "burn_dps": 24.4,
+        "total_harass_dps": 227.7,
+        "burn_uptime": 0.947,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      }
+    ],
+    "BF \u2192 Rylai \u2192 Liandry (Duration Peak)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Lost Chapter"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 116.0,
+        "ah": 20.0,
+        "plant_dps": 82.0,
+        "burn_dps": 2.7,
+        "total_harass_dps": 84.7,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Lost Chapter"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 120.0,
+        "ah": 20.0,
+        "plant_dps": 84.2,
+        "burn_dps": 2.7,
+        "total_harass_dps": 86.8,
+        "burn_uptime": 0.786,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Blackfire Torch"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 131.4,
+        "ah": 30.0,
+        "plant_dps": 95.8,
+        "burn_dps": 12.0,
+        "total_harass_dps": 107.8,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 162.2,
+        "ah": 30.0,
+        "plant_dps": 115.2,
+        "burn_dps": 12.9,
+        "total_harass_dps": 128.1,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 187.6,
+        "ah": 30.0,
+        "plant_dps": 120.8,
+        "burn_dps": 13.2,
+        "total_harass_dps": 134.0,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Giant's Belt"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 175.2,
+        "ah": 30.0,
+        "plant_dps": 117.2,
+        "burn_dps": 11.7,
+        "total_harass_dps": 128.9,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Amplifying Tome"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 201.3,
+        "ah": 30.0,
+        "plant_dps": 122.6,
+        "burn_dps": 11.9,
+        "total_harass_dps": 134.5,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 232.8,
+        "ah": 30.0,
+        "plant_dps": 136.2,
+        "burn_dps": 12.1,
+        "total_harass_dps": 148.4,
+        "burn_uptime": 0.788,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 264.4,
+        "ah": 30.0,
+        "plant_dps": 152.2,
+        "burn_dps": 15.0,
+        "total_harass_dps": 167.2,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 264.4,
+        "ah": 30.0,
+        "plant_dps": 162.7,
+        "burn_dps": 14.9,
+        "total_harass_dps": 177.6,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 264.4,
+        "ah": 30.0,
+        "plant_dps": 165.4,
+        "burn_dps": 14.9,
+        "total_harass_dps": 180.3,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Haunting Guise"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 302.5,
+        "ah": 30.0,
+        "plant_dps": 188.7,
+        "burn_dps": 15.8,
+        "total_harass_dps": 204.5,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 346.0,
+        "ah": 30.0,
+        "plant_dps": 198.1,
+        "burn_dps": 16.3,
+        "total_harass_dps": 214.4,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 346.0,
+        "ah": 30.0,
+        "plant_dps": 209.6,
+        "burn_dps": 16.2,
+        "total_harass_dps": 225.8,
+        "burn_uptime": 0.95,
+        "burn_full_cycle_ok": true,
+        "notes": "locked uptime, 3s burn fully utilized"
+      }
+    ],
+    "Liandry \u2192 Morello \u2192 Cap (Antiheal)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 820,
+        "level": 2,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 19.9,
+        "burn_dps": 0.0,
+        "total_harass_dps": 19.9,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1140,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 27.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 27.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1460,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 35.5,
+        "burn_dps": 0.0,
+        "total_harass_dps": 35.5,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1780,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 0.0,
+        "plant_dps": 43.6,
+        "burn_dps": 0.0,
+        "total_harass_dps": 43.6,
+        "burn_uptime": 0.72,
+        "burn_full_cycle_ok": false,
+        "notes": "burn window incomplete"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2240,
+        "level": 6,
+        "ap": 68.0,
+        "ah": 10.0,
+        "plant_dps": 58.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 60.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2700,
+        "level": 7,
+        "ap": 72.0,
+        "ah": 10.0,
+        "plant_dps": 67.1,
+        "burn_dps": 2.7,
+        "total_harass_dps": 69.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 3160,
+        "level": 8,
+        "ap": 76.0,
+        "ah": 10.0,
+        "plant_dps": 76.3,
+        "burn_dps": 2.7,
+        "total_harass_dps": 79.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 3620,
+        "level": 8,
+        "ap": 115.0,
+        "ah": 10.0,
+        "plant_dps": 85.8,
+        "burn_dps": 2.8,
+        "total_harass_dps": 88.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4080,
+        "level": 9,
+        "ap": 114.0,
+        "ah": 10.0,
+        "plant_dps": 97.4,
+        "burn_dps": 15.4,
+        "total_harass_dps": 112.8,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 4540,
+        "level": 10,
+        "ap": 118.0,
+        "ah": 10.0,
+        "plant_dps": 107.8,
+        "burn_dps": 16.1,
+        "total_harass_dps": 124.0,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5100,
+        "level": 10,
+        "ap": 147.0,
+        "ah": 10.0,
+        "plant_dps": 120.3,
+        "burn_dps": 17.3,
+        "total_harass_dps": 137.6,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 5660,
+        "level": 11,
+        "ap": 151.0,
+        "ah": 10.0,
+        "plant_dps": 119.7,
+        "burn_dps": 16.5,
+        "total_harass_dps": 136.2,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 6220,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 10.0,
+        "plant_dps": 122.5,
+        "burn_dps": 16.7,
+        "total_harass_dps": 139.2,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 6780,
+        "level": 12,
+        "ap": 159.0,
+        "ah": 10.0,
+        "plant_dps": 133.3,
+        "burn_dps": 17.4,
+        "total_harass_dps": 150.7,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 7340,
+        "level": 12,
+        "ap": 163.0,
+        "ah": 10.0,
+        "plant_dps": 136.2,
+        "burn_dps": 17.7,
+        "total_harass_dps": 153.9,
+        "burn_uptime": 0.783,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Morellonomicon"
+        ],
+        "gold": 7900,
+        "level": 13,
+        "ap": 238.0,
+        "ah": 25.0,
+        "plant_dps": 159.4,
+        "burn_dps": 18.4,
+        "total_harass_dps": 177.9,
+        "burn_uptime": 0.787,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Morellonomicon"
+        ],
+        "gold": 8460,
+        "level": 13,
+        "ap": 238.0,
+        "ah": 25.0,
+        "plant_dps": 162.2,
+        "burn_dps": 18.7,
+        "total_harass_dps": 180.9,
+        "burn_uptime": 0.787,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Morellonomicon"
+        ],
+        "gold": 9020,
+        "level": 14,
+        "ap": 238.0,
+        "ah": 25.0,
+        "plant_dps": 173.3,
+        "burn_dps": 19.4,
+        "total_harass_dps": 192.6,
+        "burn_uptime": 0.787,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Morellonomicon"
+        ],
+        "gold": 9580,
+        "level": 14,
+        "ap": 238.0,
+        "ah": 25.0,
+        "plant_dps": 176.2,
+        "burn_dps": 19.6,
+        "total_harass_dps": 195.8,
+        "burn_uptime": 0.787,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Morellonomicon"
+        ],
+        "gold": 10140,
+        "level": 15,
+        "ap": 238.0,
+        "ah": 25.0,
+        "plant_dps": 187.5,
+        "burn_dps": 20.3,
+        "total_harass_dps": 207.8,
+        "burn_uptime": 0.787,
+        "burn_full_cycle_ok": true,
+        "notes": "3s burn fully utilized"
+      }
+    ]
+  }
+}

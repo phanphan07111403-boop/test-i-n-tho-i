@@ -1,0 +1,133 @@
+==============================================================================
+ZYRA SUPPORT — BURN HARASS SIMULATION (Wild Rift Patch 7.2+)
+Playstyle: plant spam (no aim stress) | Game length: 20:00
+Metric: burn DPS on a typical botlane target, with uptime model
+==============================================================================
+
+GOLD / LEVEL CURVE (support poke Zyra)
+  Min    Gold  Lvl  Target HP
+    1     820    2        785
+    2    1140    3        865
+    3    1460    4        945
+    4    1780    5       1025
+    5    2240    6       1105
+    6    2700    7       1185
+    7    3160    8       1265
+    8    3620    8       1290
+    9    4080    9       1370
+   10    4540   10       1450
+   11    5100   10       1475
+   12    5660   11       1555
+   13    6220   11       1580
+   14    6780   12       1660
+   15    7340   12       1685
+   16    7900   13       1765
+   17    8460   13       1790
+   18    9020   14       1870
+   19    9580   14       1895
+   20   10140   15       1975
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (highest burn DPS with workable duration)
+------------------------------------------------------------------------------
+   1:00 | burn    0.0 | total   19.9 | uptime   72% | Liandry → Rylai → BF (Best 20m)
+         items: Spectral Sickle
+         burn window incomplete
+   2:00 | burn    0.0 | total   27.6 | uptime   72% | Liandry → Rylai → BF (Best 20m)
+         items: Spectral Sickle › Boots of Speed
+         burn window incomplete
+   3:00 | burn    0.0 | total   35.5 | uptime   72% | Liandry → Rylai → BF (Best 20m)
+         items: Spectral Sickle › Boots of Speed
+         burn window incomplete
+   4:00 | burn    0.0 | total   49.1 | uptime   72% | Rylai → Liandry → BF (Uptime First)
+         items: Spectral Sickle › Boots of Mana
+         burn window incomplete
+   5:00 | burn    2.7 | total   60.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Boots of Speed › Fated Ashes
+         3s burn fully utilized
+   6:00 | burn    2.7 | total   69.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Boots of Speed › Fated Ashes
+         3s burn fully utilized
+   7:00 | burn    2.7 | total   84.7 | uptime   79% | BF → Liandry → Rylai (Peak Burn)
+         items: Black Mist Scythe › Boots of Speed › Fated Ashes › Lost Chapter
+         3s burn fully utilized
+   8:00 | burn    2.8 | total   88.6 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Boots of Speed › Fated Ashes › Haunting Guise
+         3s burn fully utilized
+   9:00 | burn   15.4 | total  112.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Boots of Speed › Liandry's Torment
+         3s burn fully utilized
+  10:00 | burn   16.1 | total  124.0 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Boots of Speed › Liandry's Torment
+         3s burn fully utilized
+  11:00 | burn   17.3 | total  137.6 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana
+         3s burn fully utilized
+  12:00 | burn   16.5 | total  141.8 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blasting Wand
+         3s burn fully utilized
+  13:00 | burn   16.8 | total  146.0 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Lost Chapter
+         3s burn fully utilized
+  14:00 | burn   17.5 | total  157.6 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Lost Chapter
+         3s burn fully utilized
+  15:00 | burn   17.7 | total  162.5 | uptime   78% | Liandry → Rylai → BF (Best 20m)
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Giant's Belt › Blasting Wand › …
+         3s burn fully utilized
+  16:00 | burn   31.7 | total  195.5 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch
+         DOUBLE BURN, 3s burn fully utilized
+  17:00 | burn   32.5 | total  205.9 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Blasting Wand
+         DOUBLE BURN, 3s burn fully utilized
+  18:00 | burn   32.7 | total  213.5 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
+         DOUBLE BURN, 3s burn fully utilized
+  19:00 | burn   33.3 | total  221.0 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
+         DOUBLE BURN, 3s burn fully utilized
+  20:00 | burn   34.0 | total  236.3 | uptime   79% | Liandry → BF → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Boots of Mana › Blackfire Torch › Giant's Belt › …
+         DOUBLE BURN, 3s burn fully utilized
+
+------------------------------------------------------------------------------
+BUILD COMPARISON — BURN DPS @ key spikes
+------------------------------------------------------------------------------
+  Build                                   8:00   12:00   16:00   20:00  EffBurn    Peak
+  Liandry → Rylai → BF (Best 20m)          2.8    16.5    22.1    24.4     13.6    24.4
+  Liandry → BF → Rylai                     2.8    16.5    31.7    34.0     14.6    34.0
+  Liandry → Rylai → Cap (Classic)          2.8    16.5    22.1    24.3     13.6    24.3
+  BF → Liandry → Rylai (Peak Burn)         2.7    11.7    31.7    34.0     13.1    34.0
+  Rylai → Liandry → BF (Uptime First)      0.0     3.0    22.1    24.4      7.8    24.4
+  BF → Rylai → Liandry (Duration Peak)     2.7    11.7    14.9    16.2      8.8    16.3
+  Liandry → Morello → Cap (Antiheal)       2.8    16.5    18.4    20.3     11.2    20.3
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Best path (peak burn WITH duration lock): Liandry → Rylai → BF (Best 20m)
+  Duration-weighted avg: 13.6 | Peak raw burn DPS: 24.4
+  Rylai uptime lock online: ~16:00
+  Note: Liandry + Rylai + Blackfire rarely all finish in a 20-min support game.
+
+  WHY THIS PEAKS AND STILL HAS DURATION:
+  • Liandry = 2% max HP / sec for 3s — THE harass burn (plants refresh it)
+  • Blackfire = (20 + 2% AP)/s + 20 AH — second burn + more plant spam
+  • Plants auto-hit 6s (W resets) — spam trees, accuracy does not matter
+  • Rylai 30% slow = enemies cannot walk out before 3s burn finishes
+  • 20-min support gold forces a choice: double-burn OR Rylai lock — not both early
+  • Winner prioritizes Liandry spike (~9:00) then Rylai (~16:00) so burn works.
+
+  RECOMMENDED PURCHASE ORDER (20-min plant-spam Zyra support):
+  1) Spectral Sickle → Black Mist Scythe
+  2) Boots of Speed + Fated Ashes (~5:00 first burn)
+  3) Haunting Guise → Liandry's Torment (~9:00 PEAK harass spike)
+  4) Boots of Mana
+  5) Rylai's Crystal Scepter (LOCK duration — mandatory for burn to work)
+  6) Blackfire Torch only if game goes past ~18–20
+  7) Long game: Deathcap / Void / Morello
+
+  Trap: Liandry → Blackfire skips Rylai → higher paper burn, enemies walk out.
+  Trap: Rylai first delays Liandry → you lose the mid-game harass peak.
+==============================================================================
