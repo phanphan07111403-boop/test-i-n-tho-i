@@ -1,0 +1,141 @@
+==============================================================================
+SONA BUFF-MAX SIM + RUNES (Wild Rift Patch 7.2+)
+20-minute game | Metric: heal + shield aura + combat buff DPS
+==============================================================================
+
+SONA RUNES (recommended — buff / heal max)
+==========================================
+Keystone:  Aery
+  → Extra shield when you W allies + poke when you Q. Best for aura spam.
+
+Primary (Resolve / support tree — names vary by client):
+  Font of Life  → Your CC / Power Chord marks enemies; ADC heals when hitting them
+  Bone Plating  → Survive all-ins (Sona is fragile)
+  Revitalize    → +heal & shield power (huge on W heal + W shield aura)
+
+Secondary:
+  Transcendence → Ability Haste (more auras = permanent buffs)
+
+Summoners: Flash + Heal  (or Exhaust vs heavy dive / Ignite if ADC already Heal)
+
+Skill order: W max (heal/shield) → Q max (aura damage buff) → E → R whenever
+  Early: put 1–2 points Q for lane poke, then max W for buff-max.
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL
+------------------------------------------------------------------------------
+   1:00 | score   28.8 | heal   4.1 | sh   6.2 | buff  12.1 | aura  62%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle
+         building
+   2:00 | score   36.6 | heal   5.7 | sh  11.6 | buff  12.1 | aura  62%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         building
+   3:00 | score   36.6 | heal   5.7 | sh  11.6 | buff  12.1 | aura  62%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         building
+   4:00 | score   44.5 | heal   7.2 | sh  17.1 | buff  12.1 | aura  62%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Spectral Sickle › Boots of Speed
+         building
+   5:00 | score   58.0 | heal   8.5 | sh  20.1 | buff  18.6 | aura  68%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol
+         building
+   6:00 | score   68.2 | heal  10.4 | sh  26.5 | buff  19.2 | aura  68%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol
+         building
+   7:00 | score   83.7 | heal  11.8 | sh  29.5 | buff  27.1 | aura  71%
+         Harmonic → Ardent → Redemption → Staff (Heal First)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol › Lost Chapter
+         building
+   8:00 | score   84.9 | heal  11.9 | sh  29.7 | buff  27.7 | aura  71%
+         Harmonic → Ardent → Redemption → Staff (Heal First)
+         Black Mist Scythe › Boots of Speed › Forbidden Idol › Lost Chapter
+         building
+   9:00 | score  130.9 | heal  11.7 | sh  32.5 | buff  59.4 | aura  76%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Boots of Speed › Ardent Censer
+         Ardent
+  10:00 | score  140.7 | heal  12.6 | sh  34.7 | buff  64.2 | aura  81%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity
+         Ardent
+  11:00 | score  147.7 | heal  13.5 | sh  37.3 | buff  66.4 | aura  83%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Forbidden Idol
+         Ardent
+  12:00 | score  149.7 | heal  13.6 | sh  37.5 | buff  67.6 | aura  83%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Forbidden Idol
+         Ardent
+  13:00 | score  166.5 | heal  15.0 | sh  40.5 | buff  76.4 | aura  84%
+         Ardent → Redemption → Staff → Harmonic (Teamfight)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Forbidden Idol › Fiendish Codex
+         Ardent
+  14:00 | score  196.5 | heal  16.2 | sh  43.1 | buff  95.5 | aura  84%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water
+         DOUBLE BUFF
+  15:00 | score  197.9 | heal  16.4 | sh  43.3 | buff  96.3 | aura  84%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water
+         DOUBLE BUFF
+  16:00 | score  205.7 | heal  17.4 | sh  46.1 | buff  99.0 | aura  85%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Forbidden Idol
+         DOUBLE BUFF
+  17:00 | score  205.7 | heal  17.4 | sh  46.1 | buff  99.0 | aura  85%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Forbidden Idol
+         DOUBLE BUFF
+  18:00 | score  225.1 | heal  18.9 | sh  49.4 | buff 109.4 | aura  86%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Forbidden Idol › …
+         DOUBLE BUFF
+  19:00 | score  244.1 | heal  36.0 | sh  49.6 | buff 110.6 | aura  86%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Harmonic Echo
+         DOUBLE BUFF, Echo
+  20:00 | score  245.8 | heal  36.4 | sh  49.7 | buff 111.5 | aura  86%
+         Ardent → Staff → Harmonic → Redemption (Buff Max)
+         Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Staff of Flowing Water › Harmonic Echo
+         DOUBLE BUFF, Echo
+
+------------------------------------------------------------------------------
+BUILD COMPARISON (Buff Score)
+------------------------------------------------------------------------------
+  Build                                                     8     12     16     20     Avg
+  Ardent → Staff → Harmonic → Redemption (Buff Max)      73.0  149.7  205.7  245.8   133.4
+  Ardent → Redemption → Staff → Harmonic (Teamfight)     73.0  149.7  190.4  239.7   128.3
+  Harmonic → Ardent → Redemption → Staff (Heal First)    84.9  120.4  195.6  229.2   118.8
+  Tear → Ardent → Harmonic → Staff (Mana Scale)          70.5  143.9  189.1  229.4   118.5
+  Ardent → Harmonic → Staff → Redemption (Guide-ish)     73.0  149.7  195.6  245.8   129.2
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Best buff path: Ardent → Staff → Harmonic → Redemption (Buff Max)
+  Avg Buff Score: 133.4
+  Ardent online: ~9:00
+  Staff online: ~14:00
+  Harmonic online: ~19:00
+
+  RECOMMENDED BUILD ORDER:
+  1) Sickle → Scythe
+  2) Boots + Forbidden Idol
+  3) Ardent Censer (~9–11) — AS/on-hit on every W
+  4) Ionian Boots — permanent aura uptime
+  5) Staff of Flowing Water — double buff with Ardent
+  6) Harmonic Echo — heal amp
+  7) Redemption — teamfight heal
+
+  Optional: Tear early if you OOMan a lot, then Seraph later
+  (mana path delays Ardent — lower early buff score).
+
+  PLAY: rotate Q→W→E so auras never drop; W even at full HP
+  (Ardent/Staff still proc). Power Chord for Font of Life marks.
+==============================================================================

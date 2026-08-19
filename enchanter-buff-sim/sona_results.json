@@ -1,0 +1,1825 @@
+{
+  "champion": "Sona",
+  "runes": {
+    "keystone": "Aery",
+    "primary": [
+      "Font of Life",
+      "Bone Plating",
+      "Revitalize"
+    ],
+    "secondary": [
+      "Transcendence"
+    ],
+    "summoners": [
+      "Flash",
+      "Heal"
+    ],
+    "skill_order": "W max > Q max > E, R whenever"
+  },
+  "timeline": [
+    {
+      "minute": 1,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 28.8,
+      "heal_hps": 4.1,
+      "shield_hps": 6.2,
+      "combat_buff_dps": 12.1,
+      "aura_uptime": 0.62,
+      "items": [
+        "Spectral Sickle"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 2,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 36.6,
+      "heal_hps": 5.7,
+      "shield_hps": 11.6,
+      "combat_buff_dps": 12.1,
+      "aura_uptime": 0.62,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 3,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 36.6,
+      "heal_hps": 5.7,
+      "shield_hps": 11.6,
+      "combat_buff_dps": 12.1,
+      "aura_uptime": 0.62,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 4,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 44.5,
+      "heal_hps": 7.2,
+      "shield_hps": 17.1,
+      "combat_buff_dps": 12.1,
+      "aura_uptime": 0.62,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 5,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 58.0,
+      "heal_hps": 8.5,
+      "shield_hps": 20.1,
+      "combat_buff_dps": 18.6,
+      "aura_uptime": 0.684,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Forbidden Idol"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 6,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 68.2,
+      "heal_hps": 10.4,
+      "shield_hps": 26.5,
+      "combat_buff_dps": 19.2,
+      "aura_uptime": 0.684,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Forbidden Idol"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 7,
+      "winner": "Harmonic \u2192 Ardent \u2192 Redemption \u2192 Staff (Heal First)",
+      "buff_score": 83.7,
+      "heal_hps": 11.8,
+      "shield_hps": 29.5,
+      "combat_buff_dps": 27.1,
+      "aura_uptime": 0.709,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Forbidden Idol",
+        "Lost Chapter"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 8,
+      "winner": "Harmonic \u2192 Ardent \u2192 Redemption \u2192 Staff (Heal First)",
+      "buff_score": 84.9,
+      "heal_hps": 11.9,
+      "shield_hps": 29.7,
+      "combat_buff_dps": 27.7,
+      "aura_uptime": 0.709,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Forbidden Idol",
+        "Lost Chapter"
+      ],
+      "notes": "building"
+    },
+    {
+      "minute": 9,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 130.9,
+      "heal_hps": 11.7,
+      "shield_hps": 32.5,
+      "combat_buff_dps": 59.4,
+      "aura_uptime": 0.764,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Speed",
+        "Ardent Censer"
+      ],
+      "notes": "Ardent"
+    },
+    {
+      "minute": 10,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 140.7,
+      "heal_hps": 12.6,
+      "shield_hps": 34.7,
+      "combat_buff_dps": 64.2,
+      "aura_uptime": 0.81,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity"
+      ],
+      "notes": "Ardent"
+    },
+    {
+      "minute": 11,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 147.7,
+      "heal_hps": 13.5,
+      "shield_hps": 37.3,
+      "combat_buff_dps": 66.4,
+      "aura_uptime": 0.828,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol"
+      ],
+      "notes": "Ardent"
+    },
+    {
+      "minute": 12,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 149.7,
+      "heal_hps": 13.6,
+      "shield_hps": 37.5,
+      "combat_buff_dps": 67.6,
+      "aura_uptime": 0.828,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol"
+      ],
+      "notes": "Ardent"
+    },
+    {
+      "minute": 13,
+      "winner": "Ardent \u2192 Redemption \u2192 Staff \u2192 Harmonic (Teamfight)",
+      "buff_score": 166.5,
+      "heal_hps": 15.0,
+      "shield_hps": 40.5,
+      "combat_buff_dps": 76.4,
+      "aura_uptime": 0.844,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol",
+        "Fiendish Codex"
+      ],
+      "notes": "Ardent"
+    },
+    {
+      "minute": 14,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 196.5,
+      "heal_hps": 16.2,
+      "shield_hps": 43.1,
+      "combat_buff_dps": 95.5,
+      "aura_uptime": 0.837,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water"
+      ],
+      "notes": "DOUBLE BUFF"
+    },
+    {
+      "minute": 15,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 197.9,
+      "heal_hps": 16.4,
+      "shield_hps": 43.3,
+      "combat_buff_dps": 96.3,
+      "aura_uptime": 0.837,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water"
+      ],
+      "notes": "DOUBLE BUFF"
+    },
+    {
+      "minute": 16,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 205.7,
+      "heal_hps": 17.4,
+      "shield_hps": 46.1,
+      "combat_buff_dps": 99.0,
+      "aura_uptime": 0.852,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Forbidden Idol"
+      ],
+      "notes": "DOUBLE BUFF"
+    },
+    {
+      "minute": 17,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 205.7,
+      "heal_hps": 17.4,
+      "shield_hps": 46.1,
+      "combat_buff_dps": 99.0,
+      "aura_uptime": 0.852,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Forbidden Idol"
+      ],
+      "notes": "DOUBLE BUFF"
+    },
+    {
+      "minute": 18,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 225.1,
+      "heal_hps": 18.9,
+      "shield_hps": 49.4,
+      "combat_buff_dps": 109.4,
+      "aura_uptime": 0.865,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Forbidden Idol",
+        "Lost Chapter"
+      ],
+      "notes": "DOUBLE BUFF"
+    },
+    {
+      "minute": 19,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 244.1,
+      "heal_hps": 36.0,
+      "shield_hps": 49.6,
+      "combat_buff_dps": 110.6,
+      "aura_uptime": 0.859,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Harmonic Echo"
+      ],
+      "notes": "DOUBLE BUFF, Echo"
+    },
+    {
+      "minute": 20,
+      "winner": "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)",
+      "buff_score": 245.8,
+      "heal_hps": 36.4,
+      "shield_hps": 49.7,
+      "combat_buff_dps": 111.5,
+      "aura_uptime": 0.859,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Harmonic Echo"
+      ],
+      "notes": "DOUBLE BUFF, Echo"
+    }
+  ],
+  "builds": {
+    "Ardent \u2192 Staff \u2192 Harmonic \u2192 Redemption (Buff Max)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "buff_score": 28.8,
+        "heal_hps": 4.1,
+        "shield_hps": 6.2,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 44.5,
+        "heal_hps": 7.2,
+        "shield_hps": 17.1,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 58.0,
+        "heal_hps": 8.5,
+        "shield_hps": 20.1,
+        "combat_buff_dps": 18.6,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 68.2,
+        "heal_hps": 10.4,
+        "shield_hps": 26.5,
+        "combat_buff_dps": 19.2,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 71.8,
+        "heal_hps": 10.8,
+        "shield_hps": 27.7,
+        "combat_buff_dps": 20.5,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 73.0,
+        "heal_hps": 10.9,
+        "shield_hps": 27.9,
+        "combat_buff_dps": 21.2,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "buff_score": 130.9,
+        "heal_hps": 11.7,
+        "shield_hps": 32.5,
+        "combat_buff_dps": 59.4,
+        "aura_uptime": 0.764,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 140.7,
+        "heal_hps": 12.6,
+        "shield_hps": 34.7,
+        "combat_buff_dps": 64.2,
+        "aura_uptime": 0.81,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 147.7,
+        "heal_hps": 13.5,
+        "shield_hps": 37.3,
+        "combat_buff_dps": 66.4,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 149.7,
+        "heal_hps": 13.6,
+        "shield_hps": 37.5,
+        "combat_buff_dps": 67.6,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "buff_score": 161.6,
+        "heal_hps": 14.6,
+        "shield_hps": 39.5,
+        "combat_buff_dps": 74.0,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 196.5,
+        "heal_hps": 16.2,
+        "shield_hps": 43.1,
+        "combat_buff_dps": 95.5,
+        "aura_uptime": 0.837,
+        "notes": "DOUBLE BUFF"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 197.9,
+        "heal_hps": 16.4,
+        "shield_hps": 43.3,
+        "combat_buff_dps": 96.3,
+        "aura_uptime": 0.837,
+        "notes": "DOUBLE BUFF"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water",
+          "Forbidden Idol"
+        ],
+        "buff_score": 205.7,
+        "heal_hps": 17.4,
+        "shield_hps": 46.1,
+        "combat_buff_dps": 99.0,
+        "aura_uptime": 0.852,
+        "notes": "DOUBLE BUFF"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water",
+          "Forbidden Idol"
+        ],
+        "buff_score": 205.7,
+        "heal_hps": 17.4,
+        "shield_hps": 46.1,
+        "combat_buff_dps": 99.0,
+        "aura_uptime": 0.852,
+        "notes": "DOUBLE BUFF"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water",
+          "Forbidden Idol",
+          "Lost Chapter"
+        ],
+        "buff_score": 225.1,
+        "heal_hps": 18.9,
+        "shield_hps": 49.4,
+        "combat_buff_dps": 109.4,
+        "aura_uptime": 0.865,
+        "notes": "DOUBLE BUFF"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water",
+          "Harmonic Echo"
+        ],
+        "buff_score": 244.1,
+        "heal_hps": 36.0,
+        "shield_hps": 49.6,
+        "combat_buff_dps": 110.6,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Staff of Flowing Water",
+          "Harmonic Echo"
+        ],
+        "buff_score": 245.8,
+        "heal_hps": 36.4,
+        "shield_hps": 49.7,
+        "combat_buff_dps": 111.5,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Echo"
+      }
+    ],
+    "Ardent \u2192 Redemption \u2192 Staff \u2192 Harmonic (Teamfight)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "buff_score": 28.8,
+        "heal_hps": 4.1,
+        "shield_hps": 6.2,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 44.5,
+        "heal_hps": 7.2,
+        "shield_hps": 17.1,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 58.0,
+        "heal_hps": 8.5,
+        "shield_hps": 20.1,
+        "combat_buff_dps": 18.6,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 68.2,
+        "heal_hps": 10.4,
+        "shield_hps": 26.5,
+        "combat_buff_dps": 19.2,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 71.8,
+        "heal_hps": 10.8,
+        "shield_hps": 27.7,
+        "combat_buff_dps": 20.5,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 73.0,
+        "heal_hps": 10.9,
+        "shield_hps": 27.9,
+        "combat_buff_dps": 21.2,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "buff_score": 130.9,
+        "heal_hps": 11.7,
+        "shield_hps": 32.5,
+        "combat_buff_dps": 59.4,
+        "aura_uptime": 0.764,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 140.7,
+        "heal_hps": 12.6,
+        "shield_hps": 34.7,
+        "combat_buff_dps": 64.2,
+        "aura_uptime": 0.81,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 147.7,
+        "heal_hps": 13.5,
+        "shield_hps": 37.3,
+        "combat_buff_dps": 66.4,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 149.7,
+        "heal_hps": 13.6,
+        "shield_hps": 37.5,
+        "combat_buff_dps": 67.6,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "buff_score": 166.5,
+        "heal_hps": 15.0,
+        "shield_hps": 40.5,
+        "combat_buff_dps": 76.4,
+        "aura_uptime": 0.844,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "buff_score": 168.5,
+        "heal_hps": 15.1,
+        "shield_hps": 40.8,
+        "combat_buff_dps": 77.6,
+        "aura_uptime": 0.844,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption"
+        ],
+        "buff_score": 183.1,
+        "heal_hps": 24.9,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 80.6,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Redemption"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption",
+          "Forbidden Idol"
+        ],
+        "buff_score": 190.4,
+        "heal_hps": 26.7,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Redemption"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption",
+          "Forbidden Idol"
+        ],
+        "buff_score": 190.4,
+        "heal_hps": 26.7,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Redemption"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "buff_score": 202.4,
+        "heal_hps": 28.1,
+        "shield_hps": 45.9,
+        "combat_buff_dps": 88.8,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Redemption"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 237.8,
+        "heal_hps": 29.8,
+        "shield_hps": 49.6,
+        "combat_buff_dps": 110.6,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Redemption"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Redemption",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 239.7,
+        "heal_hps": 30.3,
+        "shield_hps": 49.7,
+        "combat_buff_dps": 111.5,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Redemption"
+      }
+    ],
+    "Harmonic \u2192 Ardent \u2192 Redemption \u2192 Staff (Heal First)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "buff_score": 28.8,
+        "heal_hps": 4.1,
+        "shield_hps": 6.2,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 44.5,
+        "heal_hps": 7.2,
+        "shield_hps": 17.1,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 58.0,
+        "heal_hps": 8.5,
+        "shield_hps": 20.1,
+        "combat_buff_dps": 18.6,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 68.2,
+        "heal_hps": 10.4,
+        "shield_hps": 26.5,
+        "combat_buff_dps": 19.2,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Lost Chapter"
+        ],
+        "buff_score": 83.7,
+        "heal_hps": 11.8,
+        "shield_hps": 29.5,
+        "combat_buff_dps": 27.1,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Lost Chapter"
+        ],
+        "buff_score": 84.9,
+        "heal_hps": 11.9,
+        "shield_hps": 29.7,
+        "combat_buff_dps": 27.7,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Harmonic Echo"
+        ],
+        "buff_score": 105.0,
+        "heal_hps": 24.0,
+        "shield_hps": 29.9,
+        "combat_buff_dps": 33.5,
+        "aura_uptime": 0.697,
+        "notes": "Echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 112.3,
+        "heal_hps": 25.2,
+        "shield_hps": 31.9,
+        "combat_buff_dps": 36.2,
+        "aura_uptime": 0.739,
+        "notes": "Echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 113.6,
+        "heal_hps": 25.3,
+        "shield_hps": 32.1,
+        "combat_buff_dps": 36.9,
+        "aura_uptime": 0.739,
+        "notes": "Echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 120.4,
+        "heal_hps": 27.3,
+        "shield_hps": 34.5,
+        "combat_buff_dps": 38.5,
+        "aura_uptime": 0.757,
+        "notes": "Echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 123.9,
+        "heal_hps": 27.7,
+        "shield_hps": 35.4,
+        "combat_buff_dps": 39.9,
+        "aura_uptime": 0.772,
+        "notes": "Echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 125.6,
+        "heal_hps": 28.2,
+        "shield_hps": 35.7,
+        "combat_buff_dps": 40.6,
+        "aura_uptime": 0.772,
+        "notes": "Echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer"
+        ],
+        "buff_score": 188.1,
+        "heal_hps": 29.9,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 80.6,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer",
+          "Forbidden Idol"
+        ],
+        "buff_score": 195.6,
+        "heal_hps": 31.9,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer",
+          "Forbidden Idol"
+        ],
+        "buff_score": 195.6,
+        "heal_hps": 31.9,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "buff_score": 212.8,
+        "heal_hps": 34.1,
+        "shield_hps": 46.9,
+        "combat_buff_dps": 91.2,
+        "aura_uptime": 0.865,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "buff_score": 212.8,
+        "heal_hps": 34.1,
+        "shield_hps": 46.9,
+        "combat_buff_dps": 91.2,
+        "aura_uptime": 0.865,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Harmonic Echo",
+          "Ionian Boots of Lucidity",
+          "Ardent Censer",
+          "Redemption"
+        ],
+        "buff_score": 229.2,
+        "heal_hps": 46.1,
+        "shield_hps": 47.5,
+        "combat_buff_dps": 93.9,
+        "aura_uptime": 0.859,
+        "notes": "Ardent, Echo, Redemption"
+      }
+    ],
+    "Tear \u2192 Ardent \u2192 Harmonic \u2192 Staff (Mana Scale)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "buff_score": 28.8,
+        "heal_hps": 4.1,
+        "shield_hps": 6.2,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 44.5,
+        "heal_hps": 7.2,
+        "shield_hps": 17.1,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess"
+        ],
+        "buff_score": 54.2,
+        "heal_hps": 7.8,
+        "shield_hps": 18.3,
+        "combat_buff_dps": 17.8,
+        "aura_uptime": 0.655,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess",
+          "Forbidden Idol"
+        ],
+        "buff_score": 68.2,
+        "heal_hps": 10.4,
+        "shield_hps": 26.5,
+        "combat_buff_dps": 19.2,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess",
+          "Forbidden Idol"
+        ],
+        "buff_score": 69.3,
+        "heal_hps": 10.5,
+        "shield_hps": 26.7,
+        "combat_buff_dps": 19.8,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess",
+          "Forbidden Idol"
+        ],
+        "buff_score": 70.5,
+        "heal_hps": 10.6,
+        "shield_hps": 26.9,
+        "combat_buff_dps": 20.5,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 79.7,
+        "heal_hps": 11.0,
+        "shield_hps": 28.0,
+        "combat_buff_dps": 25.9,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Tear of the Goddess",
+          "Ardent Censer"
+        ],
+        "buff_score": 132.7,
+        "heal_hps": 11.8,
+        "shield_hps": 32.7,
+        "combat_buff_dps": 60.5,
+        "aura_uptime": 0.764,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 142.0,
+        "heal_hps": 12.7,
+        "shield_hps": 34.9,
+        "combat_buff_dps": 64.9,
+        "aura_uptime": 0.81,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 143.9,
+        "heal_hps": 12.8,
+        "shield_hps": 35.1,
+        "combat_buff_dps": 66.1,
+        "aura_uptime": 0.81,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 151.1,
+        "heal_hps": 13.7,
+        "shield_hps": 37.8,
+        "combat_buff_dps": 68.3,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 153.0,
+        "heal_hps": 13.9,
+        "shield_hps": 38.0,
+        "combat_buff_dps": 69.5,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Lost Chapter"
+        ],
+        "buff_score": 171.7,
+        "heal_hps": 15.3,
+        "shield_hps": 41.3,
+        "combat_buff_dps": 79.4,
+        "aura_uptime": 0.844,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo"
+        ],
+        "buff_score": 189.1,
+        "heal_hps": 30.3,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 81.0,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo"
+        ],
+        "buff_score": 189.1,
+        "heal_hps": 30.3,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 81.0,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo"
+        ],
+        "buff_score": 190.0,
+        "heal_hps": 30.7,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 81.4,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Tear of the Goddess",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo"
+        ],
+        "buff_score": 190.0,
+        "heal_hps": 30.7,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 81.4,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Seraph's Embrace"
+        ],
+        "buff_score": 229.4,
+        "heal_hps": 35.0,
+        "shield_hps": 47.6,
+        "combat_buff_dps": 101.3,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo, Seraph"
+      }
+    ],
+    "Ardent \u2192 Harmonic \u2192 Staff \u2192 Redemption (Guide-ish)": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "buff_score": 28.8,
+        "heal_hps": 4.1,
+        "shield_hps": 6.2,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 36.6,
+        "heal_hps": 5.7,
+        "shield_hps": 11.6,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "buff_score": 44.5,
+        "heal_hps": 7.2,
+        "shield_hps": 17.1,
+        "combat_buff_dps": 12.1,
+        "aura_uptime": 0.62,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 58.0,
+        "heal_hps": 8.5,
+        "shield_hps": 20.1,
+        "combat_buff_dps": 18.6,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "buff_score": 68.2,
+        "heal_hps": 10.4,
+        "shield_hps": 26.5,
+        "combat_buff_dps": 19.2,
+        "aura_uptime": 0.684,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 71.8,
+        "heal_hps": 10.8,
+        "shield_hps": 27.7,
+        "combat_buff_dps": 20.5,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "buff_score": 73.0,
+        "heal_hps": 10.9,
+        "shield_hps": 27.9,
+        "combat_buff_dps": 21.2,
+        "aura_uptime": 0.709,
+        "notes": "building"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "buff_score": 130.9,
+        "heal_hps": 11.7,
+        "shield_hps": 32.5,
+        "combat_buff_dps": 59.4,
+        "aura_uptime": 0.764,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "buff_score": 140.7,
+        "heal_hps": 12.6,
+        "shield_hps": 34.7,
+        "combat_buff_dps": 64.2,
+        "aura_uptime": 0.81,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 147.7,
+        "heal_hps": 13.5,
+        "shield_hps": 37.3,
+        "combat_buff_dps": 66.4,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 149.7,
+        "heal_hps": 13.6,
+        "shield_hps": 37.5,
+        "combat_buff_dps": 67.6,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol"
+        ],
+        "buff_score": 151.1,
+        "heal_hps": 13.7,
+        "shield_hps": 37.8,
+        "combat_buff_dps": 68.3,
+        "aura_uptime": 0.828,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Forbidden Idol",
+          "Lost Chapter"
+        ],
+        "buff_score": 170.3,
+        "heal_hps": 15.2,
+        "shield_hps": 41.0,
+        "combat_buff_dps": 78.6,
+        "aura_uptime": 0.844,
+        "notes": "Ardent"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo"
+        ],
+        "buff_score": 188.1,
+        "heal_hps": 29.9,
+        "shield_hps": 41.5,
+        "combat_buff_dps": 80.6,
+        "aura_uptime": 0.837,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "buff_score": 195.6,
+        "heal_hps": 31.9,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "buff_score": 195.6,
+        "heal_hps": 31.9,
+        "shield_hps": 44.1,
+        "combat_buff_dps": 82.5,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "buff_score": 207.9,
+        "heal_hps": 33.6,
+        "shield_hps": 45.9,
+        "combat_buff_dps": 88.8,
+        "aura_uptime": 0.852,
+        "notes": "Ardent, Echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 244.1,
+        "heal_hps": 36.0,
+        "shield_hps": 49.6,
+        "combat_buff_dps": 110.6,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Staff of Flowing Water"
+        ],
+        "buff_score": 245.8,
+        "heal_hps": 36.4,
+        "shield_hps": 49.7,
+        "combat_buff_dps": 111.5,
+        "aura_uptime": 0.859,
+        "notes": "DOUBLE BUFF, Echo"
+      }
+    ]
+  }
+}
