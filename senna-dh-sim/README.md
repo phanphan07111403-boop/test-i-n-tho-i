@@ -51,3 +51,19 @@ Living Extraction marks on hit 1, consumes on hit 2 for Mist + **% current HP**.
 | Q → AA | Fine for max-range poke/heal only. Q drops HP first → weaker % current HP consume. |
 
 Aggressive DH pattern: **AA → Q → AA…**, finish under 50% for the soul, then look for the next target (1s reset).
+
+## DH build vs IE + Muramana
+
+```bash
+python3 compare_dh_vs_ie_mura.py
+```
+
+| | **DH (Drak/Collector/Magnetic)** | **IE + Muramana** |
+|--|--|--|
+| Keystone | Dark Harvest | Fleet/Grasp (no DH) |
+| Overall dmg @20 | **Wins** (~+50% if you keep fighting) | Behind unless snowball fails |
+| 8s teamfight | **Wins** (burst + DH resets) | Closer late, still usually behind |
+| 12s slugfest | Still ahead, **gap shrinks** | Crit + Shock catch up |
+| Best when | Dive, short fights, snowball | Long TF, safe range DPS |
+
+See `compare_dh_vs_ie_report.txt` for the full minute table.
