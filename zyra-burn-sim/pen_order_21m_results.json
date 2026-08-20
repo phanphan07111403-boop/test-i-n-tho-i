@@ -1,0 +1,2453 @@
+{
+  "builds": {
+    "B1: Liandry\u2192Mana\u2192Spellslinger\u2192Amethyst\u2192Void": {
+      "0": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 742,
+          "target_mr": 34.8,
+          "pen_mult": 0.742,
+          "plant_dps": 21.2,
+          "ability_dps": 9.0,
+          "burn_dps": 0.0,
+          "total_dps": 30.2,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 812,
+          "target_mr": 36.2,
+          "pen_mult": 0.734,
+          "plant_dps": 29.3,
+          "ability_dps": 8.9,
+          "burn_dps": 0.0,
+          "total_dps": 38.2,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 882,
+          "target_mr": 37.6,
+          "pen_mult": 0.727,
+          "plant_dps": 37.5,
+          "ability_dps": 14.6,
+          "burn_dps": 0.0,
+          "total_dps": 52.1,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 952,
+          "target_mr": 39.0,
+          "pen_mult": 0.719,
+          "plant_dps": 45.9,
+          "ability_dps": 14.4,
+          "burn_dps": 0.0,
+          "total_dps": 60.3,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1022,
+          "target_mr": 40.4,
+          "pen_mult": 0.712,
+          "plant_dps": 60.7,
+          "ability_dps": 19.8,
+          "burn_dps": 2.8,
+          "total_dps": 83.3,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1092,
+          "target_mr": 41.8,
+          "pen_mult": 0.705,
+          "plant_dps": 69.9,
+          "ability_dps": 26.8,
+          "burn_dps": 2.8,
+          "total_dps": 99.5,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1162,
+          "target_mr": 43.2,
+          "pen_mult": 0.698,
+          "plant_dps": 79.3,
+          "ability_dps": 26.8,
+          "burn_dps": 2.7,
+          "total_dps": 108.9,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1180,
+          "target_mr": 43.2,
+          "pen_mult": 0.698,
+          "plant_dps": 88.9,
+          "ability_dps": 31.0,
+          "burn_dps": 2.8,
+          "total_dps": 122.7,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1250,
+          "target_mr": 44.6,
+          "pen_mult": 0.692,
+          "plant_dps": 98.3,
+          "ability_dps": 30.6,
+          "burn_dps": 14.0,
+          "total_dps": 143.0,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1320,
+          "target_mr": 46.0,
+          "pen_mult": 0.685,
+          "plant_dps": 108.5,
+          "ability_dps": 40.3,
+          "burn_dps": 14.7,
+          "total_dps": 163.5,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1338,
+          "target_mr": 46.0,
+          "pen_mult": 0.725,
+          "plant_dps": 120.8,
+          "ability_dps": 45.1,
+          "burn_dps": 15.7,
+          "total_dps": 181.7,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 151.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1408,
+          "target_mr": 47.4,
+          "pen_mult": 0.717,
+          "plant_dps": 131.8,
+          "ability_dps": 45.0,
+          "burn_dps": 16.4,
+          "total_dps": 193.2,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Amplifying Tome"
+          ],
+          "ap": 190.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.08,
+          "target_hp": 1426,
+          "target_mr": 47.4,
+          "pen_mult": 0.796,
+          "plant_dps": 154.8,
+          "ability_dps": 53.7,
+          "burn_dps": 18.4,
+          "total_dps": 226.9,
+          "notes": "Liandry, Spellslinger, squishy (no tank)"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 194.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 1496,
+          "target_mr": 56.8,
+          "pen_mult": 0.778,
+          "plant_dps": 165.1,
+          "ability_dps": 52.8,
+          "burn_dps": 18.9,
+          "total_dps": 236.9,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 1514,
+          "target_mr": 56.8,
+          "pen_mult": 0.778,
+          "plant_dps": 168.4,
+          "ability_dps": 53.2,
+          "burn_dps": 19.1,
+          "total_dps": 240.7,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 1584,
+          "target_mr": 58.2,
+          "pen_mult": 0.771,
+          "plant_dps": 180.6,
+          "ability_dps": 52.8,
+          "burn_dps": 19.8,
+          "total_dps": 253.2,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 268.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 1602,
+          "target_mr": 58.2,
+          "pen_mult": 0.771,
+          "plant_dps": 194.7,
+          "ability_dps": 59.2,
+          "burn_dps": 20.0,
+          "total_dps": 273.9,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1672,
+          "target_mr": 59.6,
+          "pen_mult": 0.885,
+          "plant_dps": 241.0,
+          "ability_dps": 70.3,
+          "burn_dps": 24.0,
+          "total_dps": 335.3,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1690,
+          "target_mr": 59.6,
+          "pen_mult": 0.885,
+          "plant_dps": 244.6,
+          "ability_dps": 70.3,
+          "burn_dps": 24.3,
+          "total_dps": 339.1,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1760,
+          "target_mr": 61.0,
+          "pen_mult": 0.879,
+          "plant_dps": 260.0,
+          "ability_dps": 69.9,
+          "burn_dps": 25.1,
+          "total_dps": 355.0,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1778,
+          "target_mr": 61.0,
+          "pen_mult": 0.879,
+          "plant_dps": 263.8,
+          "ability_dps": 69.9,
+          "burn_dps": 25.4,
+          "total_dps": 359.0,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        }
+      ],
+      "1": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 989,
+          "target_mr": 40.1,
+          "pen_mult": 0.714,
+          "plant_dps": 20.4,
+          "ability_dps": 8.6,
+          "burn_dps": 0.0,
+          "total_dps": 29.0,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1115,
+          "target_mr": 42.1,
+          "pen_mult": 0.704,
+          "plant_dps": 28.1,
+          "ability_dps": 8.5,
+          "burn_dps": 0.0,
+          "total_dps": 36.6,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1241,
+          "target_mr": 44.0,
+          "pen_mult": 0.694,
+          "plant_dps": 35.8,
+          "ability_dps": 13.9,
+          "burn_dps": 0.0,
+          "total_dps": 49.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1367,
+          "target_mr": 46.0,
+          "pen_mult": 0.685,
+          "plant_dps": 43.7,
+          "ability_dps": 13.7,
+          "burn_dps": 0.0,
+          "total_dps": 57.4,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1493,
+          "target_mr": 48.0,
+          "pen_mult": 0.676,
+          "plant_dps": 57.6,
+          "ability_dps": 18.8,
+          "burn_dps": 2.6,
+          "total_dps": 79.0,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1619,
+          "target_mr": 49.9,
+          "pen_mult": 0.667,
+          "plant_dps": 66.2,
+          "ability_dps": 25.4,
+          "burn_dps": 2.6,
+          "total_dps": 94.1,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1745,
+          "target_mr": 51.9,
+          "pen_mult": 0.658,
+          "plant_dps": 74.8,
+          "ability_dps": 25.3,
+          "burn_dps": 2.6,
+          "total_dps": 102.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1789,
+          "target_mr": 51.9,
+          "pen_mult": 0.658,
+          "plant_dps": 83.8,
+          "ability_dps": 29.2,
+          "burn_dps": 2.7,
+          "total_dps": 115.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1915,
+          "target_mr": 53.8,
+          "pen_mult": 0.65,
+          "plant_dps": 92.4,
+          "ability_dps": 28.8,
+          "burn_dps": 20.2,
+          "total_dps": 141.4,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2041,
+          "target_mr": 73.3,
+          "pen_mult": 0.577,
+          "plant_dps": 91.4,
+          "ability_dps": 33.9,
+          "burn_dps": 19.1,
+          "total_dps": 144.5,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2085,
+          "target_mr": 73.3,
+          "pen_mult": 0.605,
+          "plant_dps": 100.8,
+          "ability_dps": 37.7,
+          "burn_dps": 20.5,
+          "total_dps": 159.0,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 151.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2211,
+          "target_mr": 75.3,
+          "pen_mult": 0.598,
+          "plant_dps": 109.9,
+          "ability_dps": 37.5,
+          "burn_dps": 21.4,
+          "total_dps": 168.8,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Amplifying Tome"
+          ],
+          "ap": 190.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.08,
+          "target_hp": 2255,
+          "target_mr": 75.3,
+          "pen_mult": 0.661,
+          "plant_dps": 128.6,
+          "ability_dps": 44.6,
+          "burn_dps": 24.2,
+          "total_dps": 197.4,
+          "notes": "Liandry, Spellslinger, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 194.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2381,
+          "target_mr": 79.6,
+          "pen_mult": 0.679,
+          "plant_dps": 144.2,
+          "ability_dps": 46.1,
+          "burn_dps": 26.2,
+          "total_dps": 216.5,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2425,
+          "target_mr": 79.6,
+          "pen_mult": 0.679,
+          "plant_dps": 147.0,
+          "ability_dps": 46.5,
+          "burn_dps": 26.7,
+          "total_dps": 220.2,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2551,
+          "target_mr": 106.1,
+          "pen_mult": 0.592,
+          "plant_dps": 138.6,
+          "ability_dps": 40.5,
+          "burn_dps": 24.5,
+          "total_dps": 203.6,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 268.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2595,
+          "target_mr": 106.1,
+          "pen_mult": 0.592,
+          "plant_dps": 149.4,
+          "ability_dps": 45.5,
+          "burn_dps": 24.9,
+          "total_dps": 219.8,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2721,
+          "target_mr": 108.0,
+          "pen_mult": 0.724,
+          "plant_dps": 197.0,
+          "ability_dps": 57.5,
+          "burn_dps": 31.9,
+          "total_dps": 286.5,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2764,
+          "target_mr": 108.0,
+          "pen_mult": 0.724,
+          "plant_dps": 200.0,
+          "ability_dps": 57.5,
+          "burn_dps": 32.5,
+          "total_dps": 289.9,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2890,
+          "target_mr": 110.0,
+          "pen_mult": 0.718,
+          "plant_dps": 212.4,
+          "ability_dps": 57.1,
+          "burn_dps": 33.7,
+          "total_dps": 303.2,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2934,
+          "target_mr": 110.0,
+          "pen_mult": 0.718,
+          "plant_dps": 215.5,
+          "ability_dps": 57.1,
+          "burn_dps": 34.2,
+          "total_dps": 306.8,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        }
+      ],
+      "2": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1042,
+          "target_mr": 41.3,
+          "pen_mult": 0.708,
+          "plant_dps": 20.2,
+          "ability_dps": 8.6,
+          "burn_dps": 0.0,
+          "total_dps": 28.8,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1180,
+          "target_mr": 43.3,
+          "pen_mult": 0.698,
+          "plant_dps": 27.8,
+          "ability_dps": 8.5,
+          "burn_dps": 0.0,
+          "total_dps": 36.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1318,
+          "target_mr": 45.4,
+          "pen_mult": 0.688,
+          "plant_dps": 35.5,
+          "ability_dps": 13.8,
+          "burn_dps": 0.0,
+          "total_dps": 49.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1456,
+          "target_mr": 47.5,
+          "pen_mult": 0.678,
+          "plant_dps": 43.2,
+          "ability_dps": 13.6,
+          "burn_dps": 0.0,
+          "total_dps": 56.8,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1594,
+          "target_mr": 49.6,
+          "pen_mult": 0.669,
+          "plant_dps": 57.0,
+          "ability_dps": 18.6,
+          "burn_dps": 2.6,
+          "total_dps": 78.2,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1732,
+          "target_mr": 51.7,
+          "pen_mult": 0.659,
+          "plant_dps": 65.4,
+          "ability_dps": 25.1,
+          "burn_dps": 2.6,
+          "total_dps": 93.0,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1870,
+          "target_mr": 53.7,
+          "pen_mult": 0.65,
+          "plant_dps": 73.9,
+          "ability_dps": 25.0,
+          "burn_dps": 2.5,
+          "total_dps": 101.4,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1920,
+          "target_mr": 53.7,
+          "pen_mult": 0.65,
+          "plant_dps": 82.8,
+          "ability_dps": 28.9,
+          "burn_dps": 2.6,
+          "total_dps": 114.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2058,
+          "target_mr": 55.8,
+          "pen_mult": 0.642,
+          "plant_dps": 91.3,
+          "ability_dps": 28.4,
+          "burn_dps": 21.4,
+          "total_dps": 141.1,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2196,
+          "target_mr": 79.2,
+          "pen_mult": 0.558,
+          "plant_dps": 88.5,
+          "ability_dps": 32.8,
+          "burn_dps": 19.9,
+          "total_dps": 141.2,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2245,
+          "target_mr": 79.2,
+          "pen_mult": 0.584,
+          "plant_dps": 97.4,
+          "ability_dps": 36.4,
+          "burn_dps": 21.3,
+          "total_dps": 155.1,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 151.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2383,
+          "target_mr": 81.2,
+          "pen_mult": 0.577,
+          "plant_dps": 106.1,
+          "ability_dps": 36.2,
+          "burn_dps": 22.3,
+          "total_dps": 164.6,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Amplifying Tome"
+          ],
+          "ap": 190.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.08,
+          "target_hp": 2432,
+          "target_mr": 81.2,
+          "pen_mult": 0.638,
+          "plant_dps": 124.0,
+          "ability_dps": 43.0,
+          "burn_dps": 25.2,
+          "total_dps": 192.3,
+          "notes": "Liandry, Spellslinger, 2-tank heavy frontline"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 194.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2570,
+          "target_mr": 94.5,
+          "pen_mult": 0.627,
+          "plant_dps": 133.1,
+          "ability_dps": 42.6,
+          "burn_dps": 26.1,
+          "total_dps": 201.9,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2620,
+          "target_mr": 94.5,
+          "pen_mult": 0.627,
+          "plant_dps": 135.7,
+          "ability_dps": 42.9,
+          "burn_dps": 26.6,
+          "total_dps": 205.3,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst"
+          ],
+          "ap": 198.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2758,
+          "target_mr": 126.3,
+          "pen_mult": 0.539,
+          "plant_dps": 126.2,
+          "ability_dps": 36.9,
+          "burn_dps": 24.1,
+          "total_dps": 187.2,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 268.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.18,
+          "target_hp": 2807,
+          "target_mr": 126.3,
+          "pen_mult": 0.539,
+          "plant_dps": 136.1,
+          "ability_dps": 41.4,
+          "burn_dps": 24.5,
+          "total_dps": 202.0,
+          "notes": "Liandry, Spellslinger, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2945,
+          "target_mr": 128.4,
+          "pen_mult": 0.672,
+          "plant_dps": 183.0,
+          "ability_dps": 53.4,
+          "burn_dps": 32.1,
+          "total_dps": 268.5,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2995,
+          "target_mr": 128.4,
+          "pen_mult": 0.672,
+          "plant_dps": 185.7,
+          "ability_dps": 53.4,
+          "burn_dps": 32.7,
+          "total_dps": 271.8,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 3133,
+          "target_mr": 130.5,
+          "pen_mult": 0.667,
+          "plant_dps": 197.3,
+          "ability_dps": 53.0,
+          "burn_dps": 33.9,
+          "total_dps": 284.2,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Spellslinger's Shoes",
+            "Void Staff"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 3182,
+          "target_mr": 130.5,
+          "pen_mult": 0.667,
+          "plant_dps": 200.2,
+          "ability_dps": 53.0,
+          "burn_dps": 34.5,
+          "total_dps": 287.6,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        }
+      ]
+    },
+    "B2: Liandry\u2192Mana\u2192Amethyst\u2192Void\u2192Spellslinger": {
+      "0": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 742,
+          "target_mr": 34.8,
+          "pen_mult": 0.742,
+          "plant_dps": 21.2,
+          "ability_dps": 9.0,
+          "burn_dps": 0.0,
+          "total_dps": 30.2,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 812,
+          "target_mr": 36.2,
+          "pen_mult": 0.734,
+          "plant_dps": 29.3,
+          "ability_dps": 8.9,
+          "burn_dps": 0.0,
+          "total_dps": 38.2,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 882,
+          "target_mr": 37.6,
+          "pen_mult": 0.727,
+          "plant_dps": 37.5,
+          "ability_dps": 14.6,
+          "burn_dps": 0.0,
+          "total_dps": 52.1,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 952,
+          "target_mr": 39.0,
+          "pen_mult": 0.719,
+          "plant_dps": 45.9,
+          "ability_dps": 14.4,
+          "burn_dps": 0.0,
+          "total_dps": 60.3,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1022,
+          "target_mr": 40.4,
+          "pen_mult": 0.712,
+          "plant_dps": 60.7,
+          "ability_dps": 19.8,
+          "burn_dps": 2.8,
+          "total_dps": 83.3,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1092,
+          "target_mr": 41.8,
+          "pen_mult": 0.705,
+          "plant_dps": 69.9,
+          "ability_dps": 26.8,
+          "burn_dps": 2.8,
+          "total_dps": 99.5,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1162,
+          "target_mr": 43.2,
+          "pen_mult": 0.698,
+          "plant_dps": 79.3,
+          "ability_dps": 26.8,
+          "burn_dps": 2.7,
+          "total_dps": 108.9,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1180,
+          "target_mr": 43.2,
+          "pen_mult": 0.698,
+          "plant_dps": 88.9,
+          "ability_dps": 31.0,
+          "burn_dps": 2.8,
+          "total_dps": 122.7,
+          "notes": "squishy (no tank)"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1250,
+          "target_mr": 44.6,
+          "pen_mult": 0.692,
+          "plant_dps": 98.3,
+          "ability_dps": 30.6,
+          "burn_dps": 14.0,
+          "total_dps": 143.0,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1320,
+          "target_mr": 46.0,
+          "pen_mult": 0.685,
+          "plant_dps": 108.5,
+          "ability_dps": 40.3,
+          "burn_dps": 14.7,
+          "total_dps": 163.5,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1338,
+          "target_mr": 46.0,
+          "pen_mult": 0.725,
+          "plant_dps": 120.8,
+          "ability_dps": 45.1,
+          "burn_dps": 15.7,
+          "total_dps": 181.7,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Amplifying Tome"
+          ],
+          "ap": 171.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1408,
+          "target_mr": 47.4,
+          "pen_mult": 0.717,
+          "plant_dps": 134.6,
+          "ability_dps": 46.8,
+          "burn_dps": 16.4,
+          "total_dps": 197.7,
+          "notes": "Liandry, squishy (no tank)"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 175.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 1426,
+          "target_mr": 47.4,
+          "pen_mult": 0.743,
+          "plant_dps": 142.2,
+          "ability_dps": 48.8,
+          "burn_dps": 17.2,
+          "total_dps": 208.1,
+          "notes": "Liandry, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 179.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 1496,
+          "target_mr": 56.8,
+          "pen_mult": 0.699,
+          "plant_dps": 146.3,
+          "ability_dps": 46.2,
+          "burn_dps": 17.0,
+          "total_dps": 209.4,
+          "notes": "Liandry, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 253.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 1514,
+          "target_mr": 56.8,
+          "pen_mult": 0.699,
+          "plant_dps": 159.1,
+          "ability_dps": 52.4,
+          "burn_dps": 17.2,
+          "total_dps": 228.7,
+          "notes": "Liandry, Amethyst 10%, squishy (no tank)"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 1584,
+          "target_mr": 58.2,
+          "pen_mult": 0.788,
+          "plant_dps": 194.3,
+          "ability_dps": 59.6,
+          "burn_dps": 20.2,
+          "total_dps": 274.2,
+          "notes": "Liandry, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 1602,
+          "target_mr": 58.2,
+          "pen_mult": 0.788,
+          "plant_dps": 197.3,
+          "ability_dps": 59.6,
+          "burn_dps": 20.5,
+          "total_dps": 277.4,
+          "notes": "Liandry, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1672,
+          "target_mr": 59.6,
+          "pen_mult": 0.885,
+          "plant_dps": 241.0,
+          "ability_dps": 70.3,
+          "burn_dps": 24.0,
+          "total_dps": 335.3,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1690,
+          "target_mr": 59.6,
+          "pen_mult": 0.885,
+          "plant_dps": 244.6,
+          "ability_dps": 70.3,
+          "burn_dps": 24.3,
+          "total_dps": 339.1,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1760,
+          "target_mr": 61.0,
+          "pen_mult": 0.879,
+          "plant_dps": 260.0,
+          "ability_dps": 69.9,
+          "burn_dps": 25.1,
+          "total_dps": 355.0,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 1778,
+          "target_mr": 61.0,
+          "pen_mult": 0.879,
+          "plant_dps": 263.8,
+          "ability_dps": 69.9,
+          "burn_dps": 25.4,
+          "total_dps": 359.0,
+          "notes": "Liandry, Spellslinger, Void 40%, squishy (no tank)"
+        }
+      ],
+      "1": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 989,
+          "target_mr": 40.1,
+          "pen_mult": 0.714,
+          "plant_dps": 20.4,
+          "ability_dps": 8.6,
+          "burn_dps": 0.0,
+          "total_dps": 29.0,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1115,
+          "target_mr": 42.1,
+          "pen_mult": 0.704,
+          "plant_dps": 28.1,
+          "ability_dps": 8.5,
+          "burn_dps": 0.0,
+          "total_dps": 36.6,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1241,
+          "target_mr": 44.0,
+          "pen_mult": 0.694,
+          "plant_dps": 35.8,
+          "ability_dps": 13.9,
+          "burn_dps": 0.0,
+          "total_dps": 49.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1367,
+          "target_mr": 46.0,
+          "pen_mult": 0.685,
+          "plant_dps": 43.7,
+          "ability_dps": 13.7,
+          "burn_dps": 0.0,
+          "total_dps": 57.4,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1493,
+          "target_mr": 48.0,
+          "pen_mult": 0.676,
+          "plant_dps": 57.6,
+          "ability_dps": 18.8,
+          "burn_dps": 2.6,
+          "total_dps": 79.0,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1619,
+          "target_mr": 49.9,
+          "pen_mult": 0.667,
+          "plant_dps": 66.2,
+          "ability_dps": 25.4,
+          "burn_dps": 2.6,
+          "total_dps": 94.1,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1745,
+          "target_mr": 51.9,
+          "pen_mult": 0.658,
+          "plant_dps": 74.8,
+          "ability_dps": 25.3,
+          "burn_dps": 2.6,
+          "total_dps": 102.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1789,
+          "target_mr": 51.9,
+          "pen_mult": 0.658,
+          "plant_dps": 83.8,
+          "ability_dps": 29.2,
+          "burn_dps": 2.7,
+          "total_dps": 115.7,
+          "notes": "1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1915,
+          "target_mr": 53.8,
+          "pen_mult": 0.65,
+          "plant_dps": 92.4,
+          "ability_dps": 28.8,
+          "burn_dps": 20.2,
+          "total_dps": 141.4,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2041,
+          "target_mr": 73.3,
+          "pen_mult": 0.577,
+          "plant_dps": 91.4,
+          "ability_dps": 33.9,
+          "burn_dps": 19.1,
+          "total_dps": 144.5,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2085,
+          "target_mr": 73.3,
+          "pen_mult": 0.605,
+          "plant_dps": 100.8,
+          "ability_dps": 37.7,
+          "burn_dps": 20.5,
+          "total_dps": 159.0,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Amplifying Tome"
+          ],
+          "ap": 171.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2211,
+          "target_mr": 75.3,
+          "pen_mult": 0.598,
+          "plant_dps": 112.2,
+          "ability_dps": 39.0,
+          "burn_dps": 21.4,
+          "total_dps": 172.6,
+          "notes": "Liandry, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 175.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2255,
+          "target_mr": 75.3,
+          "pen_mult": 0.626,
+          "plant_dps": 119.9,
+          "ability_dps": 41.1,
+          "burn_dps": 22.9,
+          "total_dps": 183.9,
+          "notes": "Liandry, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 179.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2381,
+          "target_mr": 79.6,
+          "pen_mult": 0.611,
+          "plant_dps": 127.9,
+          "ability_dps": 40.4,
+          "burn_dps": 23.6,
+          "total_dps": 191.9,
+          "notes": "Liandry, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 253.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2425,
+          "target_mr": 79.6,
+          "pen_mult": 0.611,
+          "plant_dps": 139.1,
+          "ability_dps": 45.9,
+          "burn_dps": 24.0,
+          "total_dps": 209.0,
+          "notes": "Liandry, Amethyst 10%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 2551,
+          "target_mr": 106.1,
+          "pen_mult": 0.642,
+          "plant_dps": 158.5,
+          "ability_dps": 48.6,
+          "burn_dps": 26.6,
+          "total_dps": 233.7,
+          "notes": "Liandry, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 2595,
+          "target_mr": 106.1,
+          "pen_mult": 0.642,
+          "plant_dps": 160.9,
+          "ability_dps": 48.6,
+          "burn_dps": 27.0,
+          "total_dps": 236.6,
+          "notes": "Liandry, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2721,
+          "target_mr": 108.0,
+          "pen_mult": 0.724,
+          "plant_dps": 197.0,
+          "ability_dps": 57.5,
+          "burn_dps": 31.9,
+          "total_dps": 286.5,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2764,
+          "target_mr": 108.0,
+          "pen_mult": 0.724,
+          "plant_dps": 200.0,
+          "ability_dps": 57.5,
+          "burn_dps": 32.5,
+          "total_dps": 289.9,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2890,
+          "target_mr": 110.0,
+          "pen_mult": 0.718,
+          "plant_dps": 212.4,
+          "ability_dps": 57.1,
+          "burn_dps": 33.7,
+          "total_dps": 303.2,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2934,
+          "target_mr": 110.0,
+          "pen_mult": 0.718,
+          "plant_dps": 215.5,
+          "ability_dps": 57.1,
+          "burn_dps": 34.2,
+          "total_dps": 306.8,
+          "notes": "Liandry, Spellslinger, Void 40%, 1-tank mix (mostly frontline)"
+        }
+      ],
+      "2": [
+        {
+          "minute": 1,
+          "items": [
+            "Spectral Sickle"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1042,
+          "target_mr": 41.3,
+          "pen_mult": 0.708,
+          "plant_dps": 20.2,
+          "ability_dps": 8.6,
+          "burn_dps": 0.0,
+          "total_dps": 28.8,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1180,
+          "target_mr": 43.3,
+          "pen_mult": 0.698,
+          "plant_dps": 27.8,
+          "ability_dps": 8.5,
+          "burn_dps": 0.0,
+          "total_dps": 36.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1318,
+          "target_mr": 45.4,
+          "pen_mult": 0.688,
+          "plant_dps": 35.5,
+          "ability_dps": 13.8,
+          "burn_dps": 0.0,
+          "total_dps": 49.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Spectral Sickle",
+            "Boots of Speed"
+          ],
+          "ap": 20.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1456,
+          "target_mr": 47.5,
+          "pen_mult": 0.678,
+          "plant_dps": 43.2,
+          "ability_dps": 13.6,
+          "burn_dps": 0.0,
+          "total_dps": 56.8,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 68.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1594,
+          "target_mr": 49.6,
+          "pen_mult": 0.669,
+          "plant_dps": 57.0,
+          "ability_dps": 18.6,
+          "burn_dps": 2.6,
+          "total_dps": 78.2,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 72.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1732,
+          "target_mr": 51.7,
+          "pen_mult": 0.659,
+          "plant_dps": 65.4,
+          "ability_dps": 25.1,
+          "burn_dps": 2.6,
+          "total_dps": 93.0,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes"
+          ],
+          "ap": 76.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1870,
+          "target_mr": 53.7,
+          "pen_mult": 0.65,
+          "plant_dps": 73.9,
+          "ability_dps": 25.0,
+          "burn_dps": 2.5,
+          "total_dps": 101.4,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Fated Ashes",
+            "Haunting Guise"
+          ],
+          "ap": 115.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 1920,
+          "target_mr": 53.7,
+          "pen_mult": 0.65,
+          "plant_dps": 82.8,
+          "ability_dps": 28.9,
+          "burn_dps": 2.6,
+          "total_dps": 114.3,
+          "notes": "2-tank heavy frontline"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 114.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2058,
+          "target_mr": 55.8,
+          "pen_mult": 0.642,
+          "plant_dps": 91.3,
+          "ability_dps": 28.4,
+          "burn_dps": 21.4,
+          "total_dps": 141.1,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Black Mist Scythe",
+            "Boots of Speed",
+            "Liandry's Torment"
+          ],
+          "ap": 118.0,
+          "flat_mpen": 0.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2196,
+          "target_mr": 79.2,
+          "pen_mult": 0.558,
+          "plant_dps": 88.5,
+          "ability_dps": 32.8,
+          "burn_dps": 19.9,
+          "total_dps": 141.2,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana"
+          ],
+          "ap": 147.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2245,
+          "target_mr": 79.2,
+          "pen_mult": 0.584,
+          "plant_dps": 97.4,
+          "ability_dps": 36.4,
+          "burn_dps": 21.3,
+          "total_dps": 155.1,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Amplifying Tome"
+          ],
+          "ap": 171.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.0,
+          "target_hp": 2383,
+          "target_mr": 81.2,
+          "pen_mult": 0.577,
+          "plant_dps": 108.3,
+          "ability_dps": 37.6,
+          "burn_dps": 22.3,
+          "total_dps": 168.3,
+          "notes": "Liandry, 2-tank heavy frontline"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 175.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2432,
+          "target_mr": 81.2,
+          "pen_mult": 0.606,
+          "plant_dps": 116.0,
+          "ability_dps": 39.8,
+          "burn_dps": 23.9,
+          "total_dps": 179.6,
+          "notes": "Liandry, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst"
+          ],
+          "ap": 179.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2570,
+          "target_mr": 94.5,
+          "pen_mult": 0.565,
+          "plant_dps": 118.2,
+          "ability_dps": 37.4,
+          "burn_dps": 23.6,
+          "total_dps": 179.1,
+          "notes": "Liandry, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Amethyst",
+            "Needlessly Large Rod"
+          ],
+          "ap": 253.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.1,
+          "target_hp": 2620,
+          "target_mr": 94.5,
+          "pen_mult": 0.565,
+          "plant_dps": 128.6,
+          "ability_dps": 42.4,
+          "burn_dps": 24.0,
+          "total_dps": 195.0,
+          "notes": "Liandry, Amethyst 10%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 2758,
+          "target_mr": 126.3,
+          "pen_mult": 0.596,
+          "plant_dps": 147.0,
+          "ability_dps": 45.1,
+          "burn_dps": 26.7,
+          "total_dps": 218.7,
+          "notes": "Liandry, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Boots of Mana",
+            "Void Staff"
+          ],
+          "ap": 258.0,
+          "flat_mpen": 8.0,
+          "pct_mpen": 0.4,
+          "target_hp": 2807,
+          "target_mr": 126.3,
+          "pen_mult": 0.596,
+          "plant_dps": 149.2,
+          "ability_dps": 45.1,
+          "burn_dps": 27.1,
+          "total_dps": 221.5,
+          "notes": "Liandry, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2945,
+          "target_mr": 128.4,
+          "pen_mult": 0.672,
+          "plant_dps": 183.0,
+          "ability_dps": 53.4,
+          "burn_dps": 32.1,
+          "total_dps": 268.5,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 2995,
+          "target_mr": 128.4,
+          "pen_mult": 0.672,
+          "plant_dps": 185.7,
+          "ability_dps": 53.4,
+          "burn_dps": 32.7,
+          "total_dps": 271.8,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 3133,
+          "target_mr": 130.5,
+          "pen_mult": 0.667,
+          "plant_dps": 197.3,
+          "ability_dps": 53.0,
+          "burn_dps": 33.9,
+          "total_dps": 284.2,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        },
+        {
+          "minute": 21,
+          "items": [
+            "Black Mist Scythe",
+            "Liandry's Torment",
+            "Void Staff",
+            "Spellslinger's Shoes"
+          ],
+          "ap": 273.0,
+          "flat_mpen": 18.0,
+          "pct_mpen": 0.48000000000000004,
+          "target_hp": 3182,
+          "target_mr": 130.5,
+          "pen_mult": 0.667,
+          "plant_dps": 200.2,
+          "ability_dps": 53.0,
+          "burn_dps": 34.5,
+          "total_dps": 287.6,
+          "notes": "Liandry, Spellslinger, Void 40%, 2-tank heavy frontline"
+        }
+      ]
+    }
+  }
+}

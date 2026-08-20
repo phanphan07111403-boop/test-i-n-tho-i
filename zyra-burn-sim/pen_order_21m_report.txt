@@ -1,0 +1,149 @@
+================================================================================
+ZYRA SUPPORT — PEN ORDER SIM (to 21:00)
+B1: Liandry → Boots of Mana → Spellslinger → Void Amethyst → Void Staff
+B2: Liandry → Boots of Mana → Void Amethyst → Void Staff → Spellslinger
+Targets: 0 tank / 1 tank / 2 tanks (MR + HP profiles)
+================================================================================
+
+--------------------------------------------------------------------------------
+ITEM TIMELINE (by gold)
+--------------------------------------------------------------------------------
+  B1: Liandry→Mana→Spellslinger→Amethyst→Void
+     1:00  gold   820  → Spectral Sickle
+     2:00  gold  1140  → Spectral Sickle › Boots of Speed
+     5:00  gold  2240  → Black Mist Scythe › Boots of Speed › Fated Ashes
+     8:00  gold  3620  → Black Mist Scythe › Boots of Speed › Fated Ashes › Haunting Guise
+     9:00  gold  4080  → Black Mist Scythe › Boots of Speed › Liandry's Torment
+    11:00  gold  5100  → Black Mist Scythe › Liandry's Torment › Boots of Mana
+    13:00  gold  6220  → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Amplifying Tome
+    14:00  gold  6780  → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Void Amethyst
+    17:00  gold  8460  → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Void Amethyst › Needlessly Large Rod
+    18:00  gold  9020  → Black Mist Scythe › Liandry's Torment › Spellslinger's Shoes › Void Staff
+  B2: Liandry→Mana→Amethyst→Void→Spellslinger
+     1:00  gold   820  → Spectral Sickle
+     2:00  gold  1140  → Spectral Sickle › Boots of Speed
+     5:00  gold  2240  → Black Mist Scythe › Boots of Speed › Fated Ashes
+     8:00  gold  3620  → Black Mist Scythe › Boots of Speed › Fated Ashes › Haunting Guise
+     9:00  gold  4080  → Black Mist Scythe › Boots of Speed › Liandry's Torment
+    11:00  gold  5100  → Black Mist Scythe › Liandry's Torment › Boots of Mana
+    12:00  gold  5660  → Black Mist Scythe › Liandry's Torment › Boots of Mana › Amplifying Tome
+    13:00  gold  6220  → Black Mist Scythe › Liandry's Torment › Boots of Mana › Void Amethyst
+    15:00  gold  7340  → Black Mist Scythe › Liandry's Torment › Boots of Mana › Void Amethyst › Needlessly Large Rod
+    16:00  gold  7900  → Black Mist Scythe › Liandry's Torment › Boots of Mana › Void Staff
+    18:00  gold  9020  → Black Mist Scythe › Liandry's Torment › Void Staff › Spellslinger's Shoes
+
+================================================================================
+DAMAGE DPS — 0 TANK TEAM
+================================================================================
+  Min |  B1 tot B1 burn B1 MR |  B2 tot B2 burn B2 MR | edge
+    1 |    30.2     0.0    35 |    30.2     0.0    35 | tie
+    2 |    38.2     0.0    36 |    38.2     0.0    36 | tie
+    3 |    52.1     0.0    38 |    52.1     0.0    38 | tie
+    4 |    60.3     0.0    39 |    60.3     0.0    39 | tie
+    5 |    83.3     2.8    40 |    83.3     2.8    40 | tie
+    6 |    99.5     2.8    42 |    99.5     2.8    42 | tie
+    7 |   108.9     2.7    43 |   108.9     2.7    43 | tie
+    8 |   122.7     2.8    43 |   122.7     2.8    43 | tie
+    9 |   143.0    14.0    45 |   143.0    14.0    45 | tie
+   10 |   163.5    14.7    46 |   163.5    14.7    46 | tie
+   11 |   181.7    15.7    46 |   181.7    15.7    46 | tie
+   12 |   193.2    16.4    47 |   197.7    16.4    47 | B2
+   13 |   226.9    18.4    47 |   208.1    17.2    47 | B1
+   14 |   236.9    18.9    57 |   209.4    17.0    57 | B1
+   15 |   240.7    19.1    57 |   228.7    17.2    57 | B1
+   16 |   253.2    19.8    58 |   274.2    20.2    58 | B2
+   17 |   273.9    20.0    58 |   277.4    20.5    58 | tie
+   18 |   335.3    24.0    60 |   335.3    24.0    60 | tie
+   19 |   339.1    24.3    60 |   339.1    24.3    60 | tie
+   20 |   355.0    25.1    61 |   355.0    25.1    61 | tie
+   21 |   359.0    25.4    61 |   359.0    25.4    61 | tie
+  Avg total DPS: B1 185.6  |  B2 184.2  |  minute-wins B1:3 B2:2 tie:16
+  @12:00: B1 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana'] | tot 193.2 (pen 0%+8 flat, mult 0.717)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Amplifying Tome'] | tot 197.7 (pen 0%+8 flat, mult 0.717)
+  @16:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Amethyst'] | tot 253.2 (pen 18%+18 flat, mult 0.771)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Void Staff'] | tot 274.2 (pen 40%+8 flat, mult 0.788)
+  @21:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Staff'] | tot 359.0 (pen 48%+18 flat, mult 0.879)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Void Staff', "Spellslinger's Shoes"] | tot 359.0 (pen 48%+18 flat, mult 0.879)
+
+================================================================================
+DAMAGE DPS — 1 TANK TEAM
+================================================================================
+  Min |  B1 tot B1 burn B1 MR |  B2 tot B2 burn B2 MR | edge
+    1 |    29.0     0.0    40 |    29.0     0.0    40 | tie
+    2 |    36.6     0.0    42 |    36.6     0.0    42 | tie
+    3 |    49.7     0.0    44 |    49.7     0.0    44 | tie
+    4 |    57.4     0.0    46 |    57.4     0.0    46 | tie
+    5 |    79.0     2.6    48 |    79.0     2.6    48 | tie
+    6 |    94.1     2.6    50 |    94.1     2.6    50 | tie
+    7 |   102.7     2.6    52 |   102.7     2.6    52 | tie
+    8 |   115.7     2.7    52 |   115.7     2.7    52 | tie
+    9 |   141.4    20.2    54 |   141.4    20.2    54 | tie
+   10 |   144.5    19.1    73 |   144.5    19.1    73 | tie
+   11 |   159.0    20.5    73 |   159.0    20.5    73 | tie
+   12 |   168.8    21.4    75 |   172.6    21.4    75 | B2
+   13 |   197.4    24.2    75 |   183.9    22.9    75 | B1
+   14 |   216.5    26.2    80 |   191.9    23.6    80 | B1
+   15 |   220.2    26.7    80 |   209.0    24.0    80 | B1
+   16 |   203.6    24.5   106 |   233.7    26.6   106 | B2
+   17 |   219.8    24.9   106 |   236.6    27.0   106 | B2
+   18 |   286.5    31.9   108 |   286.5    31.9   108 | tie
+   19 |   289.9    32.5   108 |   289.9    32.5   108 | tie
+   20 |   303.2    33.7   110 |   303.2    33.7   110 | tie
+   21 |   306.8    34.2   110 |   306.8    34.2   110 | tie
+  Avg total DPS: B1 162.9  |  B2 163.0  |  minute-wins B1:3 B2:3 tie:15
+  @12:00: B1 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana'] | tot 168.8 (pen 0%+8 flat, mult 0.598)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Amplifying Tome'] | tot 172.6 (pen 0%+8 flat, mult 0.598)
+  @16:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Amethyst'] | tot 203.6 (pen 18%+18 flat, mult 0.592)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Void Staff'] | tot 233.7 (pen 40%+8 flat, mult 0.642)
+  @21:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Staff'] | tot 306.8 (pen 48%+18 flat, mult 0.718)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Void Staff', "Spellslinger's Shoes"] | tot 306.8 (pen 48%+18 flat, mult 0.718)
+
+================================================================================
+DAMAGE DPS — 2 TANK TEAM
+================================================================================
+  Min |  B1 tot B1 burn B1 MR |  B2 tot B2 burn B2 MR | edge
+    1 |    28.8     0.0    41 |    28.8     0.0    41 | tie
+    2 |    36.3     0.0    43 |    36.3     0.0    43 | tie
+    3 |    49.3     0.0    45 |    49.3     0.0    45 | tie
+    4 |    56.8     0.0    48 |    56.8     0.0    48 | tie
+    5 |    78.2     2.6    50 |    78.2     2.6    50 | tie
+    6 |    93.0     2.6    52 |    93.0     2.6    52 | tie
+    7 |   101.4     2.5    54 |   101.4     2.5    54 | tie
+    8 |   114.3     2.6    54 |   114.3     2.6    54 | tie
+    9 |   141.1    21.4    56 |   141.1    21.4    56 | tie
+   10 |   141.2    19.9    79 |   141.2    19.9    79 | tie
+   11 |   155.1    21.3    79 |   155.1    21.3    79 | tie
+   12 |   164.6    22.3    81 |   168.3    22.3    81 | B2
+   13 |   192.3    25.2    81 |   179.6    23.9    81 | B1
+   14 |   201.9    26.1    94 |   179.1    23.6    94 | B1
+   15 |   205.3    26.6    94 |   195.0    24.0    94 | B1
+   16 |   187.2    24.1   126 |   218.7    26.7   126 | B2
+   17 |   202.0    24.5   126 |   221.5    27.1   126 | B2
+   18 |   268.5    32.1   128 |   268.5    32.1   128 | tie
+   19 |   271.8    32.7   128 |   271.8    32.7   128 | tie
+   20 |   284.2    33.9   130 |   284.2    33.9   130 | tie
+   21 |   287.6    34.5   130 |   287.6    34.5   130 | tie
+  Avg total DPS: B1 155.3  |  B2 155.7  |  minute-wins B1:3 B2:3 tie:15
+  @12:00: B1 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana'] | tot 164.6 (pen 0%+8 flat, mult 0.577)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Amplifying Tome'] | tot 168.3 (pen 0%+8 flat, mult 0.577)
+  @16:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Amethyst'] | tot 187.2 (pen 18%+18 flat, mult 0.539)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Boots of Mana', 'Void Staff'] | tot 218.7 (pen 40%+8 flat, mult 0.596)
+  @21:00: B1 items=['Black Mist Scythe', "Liandry's Torment", "Spellslinger's Shoes", 'Void Staff'] | tot 287.6 (pen 48%+18 flat, mult 0.667)
+           B2 items=['Black Mist Scythe', "Liandry's Torment", 'Void Staff', "Spellslinger's Shoes"] | tot 287.6 (pen 48%+18 flat, mult 0.667)
+
+================================================================================
+VERDICT
+================================================================================
+  0 tank: avg B1 185.6 vs B2 184.2 → B1 (Spellslinger before Void)
+           late(16–21) B1 319.2 vs B2 323.3
+  1 tank: avg B1 162.9 vs B2 163.0 → B2 (Void before Spellslinger)
+           late(16–21) B1 268.3 vs B2 276.1
+  2 tank: avg B1 155.3 vs B2 155.7 → B2 (Void before Spellslinger)
+           late(16–21) B1 250.2 vs B2 258.7
+
+  How to read:
+  • B1 gets flat+%% pen earlier (Spellslinger @10+) → better mid spike on squishies.
+  • B2 finishes Void Staff sooner → bigger %% pen vs tanks once online.
+  • Vs 2 tanks, earlier Void (B2) usually wins once Amethyst/Void complete.
+  • Vs 0 tanks, Spellslinger-first (B1) often wins mid game before Void.
+================================================================================
