@@ -1,0 +1,976 @@
+{
+  "meta": {
+    "dh_build": "Draktharr \u2192 Collector \u2192 Magnetic (DH Farm)",
+    "ie_mura_build": "Manamune \u2192 Magnetic \u2192 IE (Crit Scale)",
+    "dh_rune": true,
+    "ie_rune": "Fleet/Grasp (no Dark Harvest)"
+  },
+  "overall": {
+    "dh": [
+      {
+        "minute": 1,
+        "skirmish": 192.9,
+        "teamfight_contrib": 65.2,
+        "minute_total": 258.1,
+        "cumulative": 258.1,
+        "items": [
+          "Long Sword"
+        ],
+        "mist": 6,
+        "bonus_ad": 19.5
+      },
+      {
+        "minute": 2,
+        "skirmish": 229.3,
+        "teamfight_contrib": 78.5,
+        "minute_total": 307.8,
+        "cumulative": 565.9,
+        "items": [
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 12,
+        "bonus_ad": 27.0
+      },
+      {
+        "minute": 3,
+        "skirmish": 265.8,
+        "teamfight_contrib": 88.8,
+        "minute_total": 354.6,
+        "cumulative": 920.5,
+        "items": [
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 18,
+        "bonus_ad": 34.5
+      },
+      {
+        "minute": 4,
+        "skirmish": 313.7,
+        "teamfight_contrib": 106.3,
+        "minute_total": 420.0,
+        "cumulative": 1340.5,
+        "items": [
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 24,
+        "bonus_ad": 42.0
+      },
+      {
+        "minute": 5,
+        "skirmish": 677.2,
+        "teamfight_contrib": 154.5,
+        "minute_total": 831.7,
+        "cumulative": 2172.2,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Serrated Dirk"
+        ],
+        "mist": 33,
+        "bonus_ad": 78.2
+      },
+      {
+        "minute": 6,
+        "skirmish": 797.7,
+        "teamfight_contrib": 182.8,
+        "minute_total": 980.5,
+        "cumulative": 3152.7,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Serrated Dirk"
+        ],
+        "mist": 43,
+        "bonus_ad": 90.8
+      },
+      {
+        "minute": 7,
+        "skirmish": 985.5,
+        "teamfight_contrib": 227.5,
+        "minute_total": 1212.9,
+        "cumulative": 4365.6,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Serrated Dirk",
+          "Caulfield's Warhammer"
+        ],
+        "mist": 52,
+        "bonus_ad": 127.0
+      },
+      {
+        "minute": 8,
+        "skirmish": 1919.4,
+        "teamfight_contrib": 1109.4,
+        "minute_total": 3028.8,
+        "cumulative": 7394.4,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Duskblade of Draktharr"
+        ],
+        "mist": 67,
+        "bonus_ad": 150.8
+      },
+      {
+        "minute": 9,
+        "skirmish": 2274.3,
+        "teamfight_contrib": 1311.7,
+        "minute_total": 3586.0,
+        "cumulative": 10980.4,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism"
+        ],
+        "mist": 77,
+        "bonus_ad": 173.2
+      },
+      {
+        "minute": 10,
+        "skirmish": 2628.6,
+        "teamfight_contrib": 1539.5,
+        "minute_total": 4168.2,
+        "cumulative": 15148.6,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "Pickaxe"
+        ],
+        "mist": 88,
+        "bonus_ad": 212.0
+      },
+      {
+        "minute": 11,
+        "skirmish": 2678.3,
+        "teamfight_contrib": 1702.9,
+        "minute_total": 4381.2,
+        "cumulative": 19529.7,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "Pickaxe"
+        ],
+        "mist": 100,
+        "bonus_ad": 227.0
+      },
+      {
+        "minute": 12,
+        "skirmish": 2856.0,
+        "teamfight_contrib": 1771.5,
+        "minute_total": 4627.5,
+        "cumulative": 24157.2,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "Pickaxe",
+          "Cloak of Agility"
+        ],
+        "mist": 113,
+        "bonus_ad": 243.2
+      },
+      {
+        "minute": 13,
+        "skirmish": 3549.6,
+        "teamfight_contrib": 2184.6,
+        "minute_total": 5734.2,
+        "cumulative": 29891.4,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector"
+        ],
+        "mist": 127,
+        "bonus_ad": 280.8
+      },
+      {
+        "minute": 14,
+        "skirmish": 3773.1,
+        "teamfight_contrib": 3601.2,
+        "minute_total": 7374.3,
+        "cumulative": 37265.7,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector"
+        ],
+        "mist": 140,
+        "bonus_ad": 297.0
+      },
+      {
+        "minute": 15,
+        "skirmish": 3993.7,
+        "teamfight_contrib": 3794.4,
+        "minute_total": 7788.1,
+        "cumulative": 45053.8,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Cloak of Agility"
+        ],
+        "mist": 152,
+        "bonus_ad": 312.0
+      },
+      {
+        "minute": 16,
+        "skirmish": 4212.3,
+        "teamfight_contrib": 3994.8,
+        "minute_total": 8207.1,
+        "cumulative": 53260.9,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Cloak of Agility"
+        ],
+        "mist": 165,
+        "bonus_ad": 328.2
+      },
+      {
+        "minute": 17,
+        "skirmish": 4457.9,
+        "teamfight_contrib": 4209.0,
+        "minute_total": 8666.9,
+        "cumulative": 61927.8,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Cloak of Agility"
+        ],
+        "mist": 178,
+        "bonus_ad": 344.5
+      },
+      {
+        "minute": 18,
+        "skirmish": 5631.1,
+        "teamfight_contrib": 5639.8,
+        "minute_total": 11271.0,
+        "cumulative": 73198.7,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Magnetic Blaster"
+        ],
+        "mist": 193,
+        "bonus_ad": 363.2
+      },
+      {
+        "minute": 19,
+        "skirmish": 6093.5,
+        "teamfight_contrib": 6133.7,
+        "minute_total": 12227.2,
+        "cumulative": 85425.9,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Magnetic Blaster",
+          "Caulfield's Warhammer"
+        ],
+        "mist": 206,
+        "bonus_ad": 404.5
+      },
+      {
+        "minute": 20,
+        "skirmish": 6973.5,
+        "teamfight_contrib": 6959.5,
+        "minute_total": 13933.0,
+        "cumulative": 99359.0,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Magnetic Blaster",
+          "Last Whisper"
+        ],
+        "mist": 218,
+        "bonus_ad": 414.5
+      }
+    ],
+    "ie_mura": [
+      {
+        "minute": 1,
+        "skirmish": 113.3,
+        "teamfight_contrib": 47.9,
+        "minute_total": 161.2,
+        "cumulative": 161.2,
+        "items": [
+          "Tear of the Goddess"
+        ],
+        "mist": 6,
+        "bonus_ad": 7.5
+      },
+      {
+        "minute": 2,
+        "skirmish": 160.1,
+        "teamfight_contrib": 68.7,
+        "minute_total": 228.9,
+        "cumulative": 390.0,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "mist": 12,
+        "bonus_ad": 27.0
+      },
+      {
+        "minute": 3,
+        "skirmish": 176.7,
+        "teamfight_contrib": 75.5,
+        "minute_total": 252.3,
+        "cumulative": 642.3,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "mist": 18,
+        "bonus_ad": 34.5
+      },
+      {
+        "minute": 4,
+        "skirmish": 211.9,
+        "teamfight_contrib": 91.3,
+        "minute_total": 303.3,
+        "cumulative": 945.6,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 24,
+        "bonus_ad": 42.0
+      },
+      {
+        "minute": 5,
+        "skirmish": 349.6,
+        "teamfight_contrib": 101.9,
+        "minute_total": 451.6,
+        "cumulative": 1397.1,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 33,
+        "bonus_ad": 53.2
+      },
+      {
+        "minute": 6,
+        "skirmish": 423.5,
+        "teamfight_contrib": 123.8,
+        "minute_total": 547.3,
+        "cumulative": 1944.4,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword",
+          "Boots of Speed"
+        ],
+        "mist": 43,
+        "bonus_ad": 65.8
+      },
+      {
+        "minute": 7,
+        "skirmish": 665.4,
+        "teamfight_contrib": 193.8,
+        "minute_total": 859.2,
+        "cumulative": 2803.6,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism"
+        ],
+        "mist": 55,
+        "bonus_ad": 113.5
+      },
+      {
+        "minute": 8,
+        "skirmish": 748.2,
+        "teamfight_contrib": 650.2,
+        "minute_total": 1398.5,
+        "cumulative": 4202.1,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism"
+        ],
+        "mist": 65,
+        "bonus_ad": 126.0
+      },
+      {
+        "minute": 9,
+        "skirmish": 848.9,
+        "teamfight_contrib": 733.5,
+        "minute_total": 1582.4,
+        "cumulative": 5784.5,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism",
+          "Cloak of Agility"
+        ],
+        "mist": 75,
+        "bonus_ad": 138.5
+      },
+      {
+        "minute": 10,
+        "skirmish": 936.8,
+        "teamfight_contrib": 806.8,
+        "minute_total": 1743.6,
+        "cumulative": 7528.1,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism",
+          "Cloak of Agility"
+        ],
+        "mist": 85,
+        "bonus_ad": 151.0
+      },
+      {
+        "minute": 11,
+        "skirmish": 927.6,
+        "teamfight_contrib": 866.3,
+        "minute_total": 1793.9,
+        "cumulative": 9322.0,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism",
+          "Cloak of Agility"
+        ],
+        "mist": 97,
+        "bonus_ad": 166.0
+      },
+      {
+        "minute": 12,
+        "skirmish": 1505.7,
+        "teamfight_contrib": 1444.8,
+        "minute_total": 2950.5,
+        "cumulative": 12272.5,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster"
+        ],
+        "mist": 112,
+        "bonus_ad": 196.8
+      },
+      {
+        "minute": 13,
+        "skirmish": 1567.3,
+        "teamfight_contrib": 1500.8,
+        "minute_total": 3068.2,
+        "cumulative": 15340.6,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster"
+        ],
+        "mist": 122,
+        "bonus_ad": 209.2
+      },
+      {
+        "minute": 14,
+        "skirmish": 1862.5,
+        "teamfight_contrib": 2756.9,
+        "minute_total": 4619.5,
+        "cumulative": 19960.1,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "B.F. Sword"
+        ],
+        "mist": 134,
+        "bonus_ad": 264.2
+      },
+      {
+        "minute": 15,
+        "skirmish": 1937.7,
+        "teamfight_contrib": 2863.3,
+        "minute_total": 4801.0,
+        "cumulative": 24761.2,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "B.F. Sword"
+        ],
+        "mist": 146,
+        "bonus_ad": 279.2
+      },
+      {
+        "minute": 16,
+        "skirmish": 2162.7,
+        "teamfight_contrib": 3186.0,
+        "minute_total": 5348.7,
+        "cumulative": 30109.9,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "B.F. Sword",
+          "Pickaxe"
+        ],
+        "mist": 158,
+        "bonus_ad": 319.2
+      },
+      {
+        "minute": 17,
+        "skirmish": 3019.7,
+        "teamfight_contrib": 4379.1,
+        "minute_total": 7398.8,
+        "cumulative": 37508.7,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge"
+        ],
+        "mist": 168,
+        "bonus_ad": 326.8
+      },
+      {
+        "minute": 18,
+        "skirmish": 3161.5,
+        "teamfight_contrib": 4583.3,
+        "minute_total": 7744.8,
+        "cumulative": 45253.5,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge",
+          "Cloak of Agility"
+        ],
+        "mist": 180,
+        "bonus_ad": 341.8
+      },
+      {
+        "minute": 19,
+        "skirmish": 3724.6,
+        "teamfight_contrib": 5378.4,
+        "minute_total": 9103.1,
+        "cumulative": 54356.5,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge",
+          "Last Whisper"
+        ],
+        "mist": 192,
+        "bonus_ad": 376.8
+      },
+      {
+        "minute": 20,
+        "skirmish": 3844.2,
+        "teamfight_contrib": 5546.7,
+        "minute_total": 9390.9,
+        "cumulative": 63747.5,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge",
+          "Last Whisper",
+          "Cloak of Agility"
+        ],
+        "mist": 204,
+        "bonus_ad": 391.8
+      }
+    ]
+  },
+  "teamfights": {
+    "dh": {
+      "8": {
+        "minute": 8,
+        "fight_seconds": 8.0,
+        "primary": 2130.6,
+        "splash": 334.8,
+        "tf_total": 2465.4,
+        "dps": 308.2,
+        "dh_procs": 1.9,
+        "dh_damage": 494.3,
+        "autos": 6.48,
+        "qs": 0.7,
+        "mist": 67,
+        "bonus_ad": 150.8,
+        "crit": 0.45,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Duskblade of Draktharr"
+        ],
+        "use_dh": true
+      },
+      "12": {
+        "minute": 12,
+        "fight_seconds": 8.0,
+        "primary": 3448.9,
+        "splash": 487.7,
+        "tf_total": 3936.6,
+        "dps": 492.1,
+        "dh_procs": 2.35,
+        "dh_damage": 899.1,
+        "autos": 6.96,
+        "qs": 0.7,
+        "mist": 113,
+        "bonus_ad": 243.2,
+        "crit": 0.95,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "Pickaxe",
+          "Cloak of Agility"
+        ],
+        "use_dh": true
+      },
+      "16": {
+        "minute": 16,
+        "fight_seconds": 8.0,
+        "primary": 5011.1,
+        "splash": 695.8,
+        "tf_total": 5706.9,
+        "dps": 713.4,
+        "dh_procs": 2.35,
+        "dh_damage": 1402.0,
+        "autos": 7.28,
+        "qs": 0.7,
+        "mist": 165,
+        "bonus_ad": 328.2,
+        "crit": 1.0,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Cloak of Agility"
+        ],
+        "use_dh": true
+      },
+      "20": {
+        "minute": 20,
+        "fight_seconds": 8.0,
+        "primary": 8747.0,
+        "splash": 1195.2,
+        "tf_total": 9942.2,
+        "dps": 1242.8,
+        "dh_procs": 2.35,
+        "dh_damage": 2113.3,
+        "autos": 10.04,
+        "qs": 0.7,
+        "mist": 218,
+        "bonus_ad": 414.5,
+        "crit": 1.0,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Magnetic Blaster",
+          "Last Whisper"
+        ],
+        "use_dh": true
+      }
+    },
+    "ie_mura": {
+      "8": {
+        "minute": 8,
+        "fight_seconds": 8.0,
+        "primary": 1342.7,
+        "splash": 102.2,
+        "tf_total": 1444.9,
+        "dps": 180.6,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 6.48,
+        "qs": 0.74,
+        "mist": 65,
+        "bonus_ad": 126.0,
+        "crit": 0.45,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism"
+        ],
+        "use_dh": false
+      },
+      "12": {
+        "minute": 12,
+        "fight_seconds": 8.0,
+        "primary": 2920.0,
+        "splash": 290.6,
+        "tf_total": 3210.6,
+        "dps": 401.3,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 9.4,
+        "qs": 0.78,
+        "mist": 112,
+        "bonus_ad": 196.8,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster"
+        ],
+        "use_dh": false
+      },
+      "16": {
+        "minute": 16,
+        "fight_seconds": 8.0,
+        "primary": 4214.3,
+        "splash": 337.2,
+        "tf_total": 4551.5,
+        "dps": 568.9,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 9.83,
+        "qs": 0.78,
+        "mist": 158,
+        "bonus_ad": 319.2,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "B.F. Sword",
+          "Pickaxe"
+        ],
+        "use_dh": false
+      },
+      "20": {
+        "minute": 20,
+        "fight_seconds": 8.0,
+        "primary": 7546.4,
+        "splash": 377.4,
+        "tf_total": 7923.9,
+        "dps": 990.5,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 10.04,
+        "qs": 0.78,
+        "mist": 204,
+        "bonus_ad": 391.8,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge",
+          "Last Whisper",
+          "Cloak of Agility"
+        ],
+        "use_dh": false
+      }
+    }
+  },
+  "teamfights_12s": {
+    "dh": {
+      "8": {
+        "minute": 8,
+        "fight_seconds": 12.0,
+        "primary": 2905.0,
+        "splash": 434.4,
+        "tf_total": 3339.4,
+        "dps": 278.3,
+        "dh_procs": 1.9,
+        "dh_damage": 494.3,
+        "autos": 9.72,
+        "qs": 1.05,
+        "mist": 67,
+        "bonus_ad": 150.8,
+        "crit": 0.45,
+        "items": [
+          "Long Sword",
+          "Boots of Speed",
+          "Duskblade of Draktharr"
+        ],
+        "use_dh": true
+      },
+      "12": {
+        "minute": 12,
+        "fight_seconds": 12.0,
+        "primary": 4677.7,
+        "splash": 613.5,
+        "tf_total": 5291.2,
+        "dps": 440.9,
+        "dh_procs": 2.35,
+        "dh_damage": 899.1,
+        "autos": 10.44,
+        "qs": 1.05,
+        "mist": 113,
+        "bonus_ad": 243.2,
+        "crit": 0.95,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "Pickaxe",
+          "Cloak of Agility"
+        ],
+        "use_dh": true
+      },
+      "16": {
+        "minute": 16,
+        "fight_seconds": 12.0,
+        "primary": 6741.7,
+        "splash": 863.4,
+        "tf_total": 7605.1,
+        "dps": 633.8,
+        "dh_procs": 2.35,
+        "dh_damage": 1402.0,
+        "autos": 10.92,
+        "qs": 1.05,
+        "mist": 165,
+        "bonus_ad": 328.2,
+        "crit": 1.0,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Cloak of Agility"
+        ],
+        "use_dh": true
+      },
+      "20": {
+        "minute": 20,
+        "fight_seconds": 12.0,
+        "primary": 11980.5,
+        "splash": 1570.1,
+        "tf_total": 13550.5,
+        "dps": 1129.2,
+        "dh_procs": 2.35,
+        "dh_damage": 2113.3,
+        "autos": 15.07,
+        "qs": 1.05,
+        "mist": 218,
+        "bonus_ad": 414.5,
+        "crit": 1.0,
+        "items": [
+          "Long Sword",
+          "Duskblade of Draktharr",
+          "Boots of Dynamism",
+          "The Collector",
+          "Magnetic Blaster",
+          "Last Whisper"
+        ],
+        "use_dh": true
+      }
+    },
+    "ie_mura": {
+      "8": {
+        "minute": 8,
+        "fight_seconds": 12.0,
+        "primary": 2014.1,
+        "splash": 175.2,
+        "tf_total": 2189.3,
+        "dps": 182.4,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 9.72,
+        "qs": 1.11,
+        "mist": 65,
+        "bonus_ad": 126.0,
+        "crit": 0.45,
+        "items": [
+          "Manamune",
+          "Boots of Dynamism"
+        ],
+        "use_dh": false
+      },
+      "12": {
+        "minute": 12,
+        "fight_seconds": 12.0,
+        "primary": 4380.0,
+        "splash": 498.2,
+        "tf_total": 4878.2,
+        "dps": 406.5,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 14.09,
+        "qs": 1.17,
+        "mist": 112,
+        "bonus_ad": 196.8,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster"
+        ],
+        "use_dh": false
+      },
+      "16": {
+        "minute": 16,
+        "fight_seconds": 12.0,
+        "primary": 6321.4,
+        "splash": 578.0,
+        "tf_total": 6899.4,
+        "dps": 575.0,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 14.74,
+        "qs": 1.17,
+        "mist": 158,
+        "bonus_ad": 319.2,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "B.F. Sword",
+          "Pickaxe"
+        ],
+        "use_dh": false
+      },
+      "20": {
+        "minute": 20,
+        "fight_seconds": 12.0,
+        "primary": 11319.7,
+        "splash": 647.0,
+        "tf_total": 11966.7,
+        "dps": 997.2,
+        "dh_procs": 0,
+        "dh_damage": 0.0,
+        "autos": 15.07,
+        "qs": 1.17,
+        "mist": 204,
+        "bonus_ad": 391.8,
+        "crit": 1.0,
+        "items": [
+          "Muramana",
+          "Boots of Dynamism",
+          "Magnetic Blaster",
+          "Infinity Edge",
+          "Last Whisper",
+          "Cloak of Agility"
+        ],
+        "use_dh": false
+      }
+    }
+  },
+  "totals": {
+    "dh_cumulative_20": 99359.0,
+    "ie_cumulative_20": 63747.5,
+    "dh_tf_12": 3936.6,
+    "ie_tf_12": 3210.6,
+    "dh_tf_20": 9942.2,
+    "ie_tf_20": 7923.9,
+    "dh_tf12s_20": 13550.5,
+    "ie_tf12s_20": 11966.7
+  }
+}

@@ -1,0 +1,111 @@
+==============================================================================
+SENNA HEAD-TO-HEAD: DH BUILD vs IE + MURAMANA
+Wild Rift Patch 7.2+ | Aggressive ADC | 20:00 game
+==============================================================================
+
+BUILDS
+  DH BUILD : Dark Harvest + Draktharr → Collector → Magnetic (DH Farm)
+             Draktharr → Dynamism → Collector → Magnetic → Serylda/IE
+  IE+MURA  : Fleet/Grasp (NO Dark Harvest) + Manamune → Magnetic → IE (Crit Scale)
+             Manamune → Dynamism → Magnetic → IE → Mortal Reminder
+  Combo both: AA → Q weave
+
+------------------------------------------------------------------------------
+1) OVERALL DAMAGE DEALT (skirmish + teamfight windows, cumulative)
+------------------------------------------------------------------------------
+  Min   DH skirm     DH TF     DH cum  |   IE skirm     IE TF     IE cum  | leader
+    1        193        65        258  |        113        48        161  | DH
+    2        229        78        566  |        160        69        390  | DH
+    3        266        89        920  |        177        76        642  | DH
+    4        314       106       1340  |        212        91        946  | DH
+    5        677       154       2172  |        350       102       1397  | DH
+    6        798       183       3153  |        424       124       1944  | DH
+    7        986       228       4366  |        665       194       2804  | DH
+    8       1919      1109       7394  |        748       650       4202  | DH
+    9       2274      1312      10980  |        849       734       5784  | DH
+   10       2629      1540      15149  |        937       807       7528  | DH
+   11       2678      1703      19530  |        928       866       9322  | DH
+   12       2856      1772      24157  |       1506      1445      12272  | DH
+   13       3550      2185      29891  |       1567      1501      15341  | DH
+   14       3773      3601      37266  |       1862      2757      19960  | DH
+   15       3994      3794      45054  |       1938      2863      24761  | DH
+   16       4212      3995      53261  |       2163      3186      30110  | DH
+   17       4458      4209      61928  |       3020      4379      37509  | DH
+   18       5631      5640      73199  |       3162      4583      45254  | DH
+   19       6094      6134      85426  |       3725      5378      54356  | DH
+   20       6974      6960      99359  |       3844      5547      63748  | DH
+
+  @ 20:00 total damage dealt:
+    DH BUILD : 99,359
+    IE+MURA  : 63,748
+    → DH leads by 35,612 (+55.9%)
+    DH stays ahead on cumulative damage for the full 20:00
+
+------------------------------------------------------------------------------
+2) TEAMFIGHT DAMAGE (8s objective fight, 1 primary + ~1.4 splash)
+------------------------------------------------------------------------------
+  Min   DH primary   DH splash   DH total   DH DPS  |   IE primary   IE splash   IE total   IE DPS
+    8         2131         335       2465      308  |         1343         102       1445      181
+       DH items: Long Sword › Boots of Speed › Duskblade of Draktharr
+       IE items: Manamune › Boots of Dynamism
+       DH procs in TF: ~1.9 (+494 dmg from souls)
+   12         3449         488       3937      492  |         2920         291       3211      401
+       DH items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › Pickaxe › Cloak of Agility
+       IE items: Muramana › Boots of Dynamism › Magnetic Blaster
+       DH procs in TF: ~2.4 (+899 dmg from souls)
+   16         5011         696       5707      713  |         4214         337       4552      569
+       DH items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector › Cloak of Agility
+       IE items: Muramana › Boots of Dynamism › Magnetic Blaster › B.F. Sword › Pickaxe
+       DH procs in TF: ~2.4 (+1402 dmg from souls)
+   20         8747        1195       9942     1243  |         7546         377       7924      990
+       DH items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector › Magnetic Blaster › …
+       IE items: Muramana › Boots of Dynamism › Magnetic Blaster › Infinity Edge › Last Whisper › …
+       DH procs in TF: ~2.4 (+2113 dmg from souls)
+
+------------------------------------------------------------------------------
+2b) EXTENDED TEAMFIGHT (12s slugfest — favors sustained crit)
+------------------------------------------------------------------------------
+  Min   DH 12s TF   IE 12s TF       gap  winner
+    8        3339        2189     +1150  DH
+   12        5291        4878      +413  DH
+   16        7605        6899      +706  DH
+   20       13550       11967     +1584  DH
+
+------------------------------------------------------------------------------
+3) PEAK EXECUTE vs SUSTAINED (same minute snapshots)
+------------------------------------------------------------------------------
+  Min   DH peak exec   DH combo  DH souls  |   IE peak*  IE combo*  IE crit
+  (* IE+Mura numbers exclude Dark Harvest — Fleet/Grasp keystone)
+    8            778        778        35  |        382        382      45%
+   12           1042       1042        60  |        547        547     100%
+   16           1492       1440        92  |        714        714     100%
+   20           2112       2056       128  |       1089       1089     100%
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+
+  OVERALL DAMAGE DEALT (full game):
+    WINNER → DH BUILD (99,359 vs 63,748, +55.9%)
+    Early/mid skirmish resets print souls AND kills → snowball damage.
+
+  TEAMFIGHT:
+    8s @12:00   DH 3,937  vs  IE+Mura 3,211  → DH
+    8s @20:00   DH 9,942  vs  IE+Mura 7,924  → DH
+    12s @20:00  DH 13,550  vs  IE+Mura 11,967  → DH
+    Gap shrinks in longer fights: 8s +25% → 12s +13%
+
+  WHEN TO PICK WHICH:
+    DH BUILD  — snowball games, dive comps, short skirmishes, want to
+                delete a carry then chain the next (reset engine).
+                Stronger mid game + overall if you keep fighting.
+    IE+MURA   — longer teamfights, need sustained DPS + Q poke/heal,
+                safer range carry. Closes the gap as fights drag;
+                wins if you cannot collect DH resets / fall behind.
+
+  KEY TRADEOFF:
+    DH = front-loaded burst + soul scaling on executes
+    IE+Mura = back-loaded crit DPS + Muramana Shock every Q
+    Splash (Q pierce / Magnetic bounce): IE+Mura gains in long TF;
+    DH still wins multi-kill TFs when Nightstalker + DH reset twice.
+==============================================================================
