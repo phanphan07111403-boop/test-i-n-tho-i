@@ -133,10 +133,18 @@ VERDICT — MOST DAMAGE PEAK + MAX DARK HARVEST FARM
 
   PLAY PATTERN TO MAX DH SOULS:
   • Look for 2v2 / river fights early — every takedown = free soul
-  • AA → Q to apply Living Extraction, then finish with DH window
+  • COMBO: AA → Q (not Q → AA) — see COMBO ORDER below
   • After first kill, immediately look for next <50% target (1s CD)
   • Wraiths from kills = Mist AD = stronger DH (10% bonus AD)
   • Trap: pure crit IE path — higher paper late DPS, fewer early resets
   • Trap: Manamune-first — safer poke, slower reset engine vs Drak rush
   • Trap: playing like enchanter Senna — you will starve Dark Harvest
+
+  COMBO ORDER — AA → Q IS BETTER (aggressive):
+  • Living Extraction: 1st hit marks, 2nd hit consumes for Mist + % current HP
+  • AA marks → Q consumes while HP is still high → MORE extraction damage
+  • Q → AA burns HP with Q first → consume hits lower current HP → less Mist damage
+  • Q applies on-hits, so AA→Q packs Relic Cannon + Extraction + Muramana Shock on Q
+  • After Q, keep autoing — each AA refunds 1s Q CD for the next trade
+  • Use Q → AA only when you need max-range poke/heal and AA cannot reach yet
 ==============================================================================

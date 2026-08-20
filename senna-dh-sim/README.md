@@ -40,3 +40,14 @@ Which build **peaks execute damage** for aggressive Senna while **farming the mo
 - Draktharr + Collector is the **reset engine** that maxes DH stacks.
 - Magnetic keeps you alive long enough to chain the next proc.
 - Pure crit IE path peaks paper DPS later but farms fewer early souls.
+
+## Combo: **AA → Q** (better than Q → AA)
+
+Living Extraction marks on hit 1, consumes on hit 2 for Mist + **% current HP**.
+
+| Order | Why |
+|-------|-----|
+| **AA → Q** | Mark with AA, consume with Q while HP is still high → more extraction. Q also carries on-hits (Relic Cannon / Muramana Shock). Then keep AA'ing for Q CD refund. |
+| Q → AA | Fine for max-range poke/heal only. Q drops HP first → weaker % current HP consume. |
+
+Aggressive DH pattern: **AA → Q → AA…**, finish under 50% for the soul, then look for the next target (1s reset).
