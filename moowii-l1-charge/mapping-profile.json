@@ -1,0 +1,68 @@
+{
+  "name": "MOBA L1 charge skill 1 + walk",
+  "app": "MooWii Gaming",
+  "intent": "Hold L1 to charge skill 1, release L1 to cast, left stick still moves the champion at the same time.",
+  "recommended_platform": "android",
+  "ios_limitation": "iOS AssistiveTouch / virtual mouse is one pointer. Holding L1 occupies that pointer, so the stick cannot move at the same time. Charge-while-walking is not reliably possible on iOS.",
+  "controller_mode": "dual_side",
+  "keys": [
+    {
+      "bind": "LEFT_STICK",
+      "moowii_type": "joystick",
+      "vi_menu": "Joystick",
+      "target": "movement_wheel",
+      "independent_pointer": true,
+      "notes": "Map onto the in-game movement wheel (bottom-left). Must stay a joystick, not D-pad clicks. Must NOT be stolen when L1 is held."
+    },
+    {
+      "bind": "L1",
+      "moowii_type": "normal",
+      "vi_menu": "Gán phím",
+      "en_menu": "Normal / L1Key property: normal",
+      "zh_menu": "普通按键",
+      "target": "skill_1",
+      "behavior": "press_hold_release",
+      "independent_pointer": true,
+      "radius": "small",
+      "press": "touch DOWN on skill 1 icon — start charge",
+      "hold": "keep that same finger down — keep charging",
+      "release": "touch UP — cast the skill",
+      "notes": "One dedicated finger on skill 1. Do not attach this key to the left stick."
+    }
+  ],
+  "forbidden_l1_types": [
+    {
+      "moowii_type": "consecutive_clicks",
+      "vi_menu": "Nhấp liên tục",
+      "why": "Auto-taps instead of holding. Charge never builds, and tap stream fights the stick."
+    },
+    {
+      "moowii_type": "click_on_the_straight",
+      "vi_menu": "Vuốt thẳng / Click on the straight",
+      "why": "Fixed-duration swipe, not hold-time. Occupies the pointer for a scripted drag so you cannot walk for that whole swipe."
+    },
+    {
+      "moowii_type": "fire_button",
+      "vi_menu": "Phím bắn",
+      "why": "FPS fire/recoil. Tap speed or recoil slide replaces a real hold."
+    },
+    {
+      "moowii_type": "macro",
+      "vi_menu": "Macro / Ghi âm macro",
+      "why": "Macros run a timed sequence on one pointer. Hold duration is not your finger, and movement is usually blocked until the macro finishes."
+    },
+    {
+      "moowii_type": "skill_stick_takeover",
+      "vi_menu": "Liên kết joystick / skill joystick ăn stick trái",
+      "why": "Holding L1 hijacks the left stick to aim the skill. That is the exact 'cannot walk while charging' bug."
+    }
+  ],
+  "verify": {
+    "moowii_tool": "Kiểm tra phím",
+    "expect": [
+      "Hold L1: a touch marker stays on skill 1 and does not lift until you release L1.",
+      "While L1 is still down, move the left stick: a second marker must move on the movement wheel.",
+      "Release L1: skill-1 marker lifts (cast). Stick marker is unaffected."
+    ]
+  }
+}
