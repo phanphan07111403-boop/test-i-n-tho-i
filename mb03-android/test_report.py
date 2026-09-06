@@ -14,6 +14,7 @@ class ReportTests(unittest.TestCase):
         self.assertIsNone(data["gace_cloud_codes"]["toc_chien_android"])
         self.assertEqual(data["wild_rift_1to1_layout"][1]["bind"], "L1")
         self.assertEqual(data["wild_rift_1to1_layout"][1]["type"], "normal_hold")
+        self.assertIn("incompatible", data["play_store_on_s24_ultra"]["meaning"])
 
     def test_print_report_runs(self):
         out = subprocess.check_output(["python3", str(ROOT / "print_report.py")], text=True)

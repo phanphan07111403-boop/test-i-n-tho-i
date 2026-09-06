@@ -16,6 +16,13 @@ def main() -> int:
     print()
     print(f"Best app: {app['name']}  ({app['package']})  {app['version_shop_spec']}")
     print(f"Why: {app['why']}")
+    block = data.get("play_store_on_s24_ultra") or {}
+    if block:
+        print()
+        print("Play Store on S24 Ultra:")
+        print(f"  {block.get('banner')}")
+        print(f"  {block.get('meaning')}")
+        print(f"  Next: {block.get('next_step')}")
     print()
     print(f"Play/AppBrain score: {data['reviews']['play_appbrain_score']} / 5")
     print("Do not use:")

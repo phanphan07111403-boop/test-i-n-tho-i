@@ -7,7 +7,16 @@
     "package": "com.geekwon.moyuplayer.global",
     "version_shop_spec": "G2.4.5",
     "store": "Google Play",
+    "sideload_shop": "https://www.pgyer.com/6TIP",
     "why": "Only app Gace documents for MB03 mapping, macros, overlay multi-touch on Android."
+  },
+  "play_store_on_s24_ultra": {
+    "banner": "Ứng dụng này chỉ dùng được trên các thiết bị khác của bạn",
+    "meaning": "Play Store marks S24 Ultra incompatible. Install is offered only to other Google-account devices.",
+    "other_device_shown": "Qualcomm Ss80x_64",
+    "retry_button": "Sends the app to Ss80x_64, not to the S24 Ultra. Network warning means that other device is offline.",
+    "likely_cause": "S24 Snapdragon 8 Gen 3 is 64-bit only; MooWii Play build last updated 2024-10-30 and is missing from the S24 device catalog (often 32-bit native libs).",
+    "next_step": "Ask Gace for arm64 APK / pgyer 6TIP. If sideload also fails NO_MATCHING_ABIS, this phone cannot run official MooWii."
   },
   "not_compatible": [
     "com.geekwon.moyuplayer (China 墨鱼 2.7.x) — Bluetooth name whitelist",

@@ -17,6 +17,24 @@ Tốc Chiến trên Android **chưa có code cloud Gace**. Shop ghi “ĐANG C�
 
 ---
 
+## Play Store: “Ứng dụng này chỉ dùng được trên các thiết bị khác của bạn”
+
+**Không phải lỗi mạng của S24 Ultra.** Play đang nói: *MooWii không cài được trên máy đang cầm*, chỉ cài được trên **máy khác** gắn cùng tài khoản Google.
+
+| Chữ trên màn | Nghĩa |
+|---|---|
+| Ứng dụng này chỉ dùng được trên các thiết bị khác của bạn | S24 Ultra bị Play đánh dấu **không tương thích** |
+| Cài đặt được trên thiết bị khác → **Qualcomm Ss80x_64** | Một máy/emulator/box Qualcomm khác trên cùng tài khoản Google **được** phép cài |
+| Hãy kiểm tra để đảm bảo thiết bị đã kết nối mạng + **Thử lại** | Nút đó gửi app **sang Ss80x_64**, không cài lên S24. Máy kia đang offline nên đỏ |
+
+S24 series (Snapdragon 8 Gen 3) **bỏ 32-bit**. MooWii trên Play lần cập nhật **30/10/2024**, catalog thiết bị không nhận S24 Ultra. Pin 12% không liên quan.
+
+**Làm gì:** đừng bấm Thử lại. Xin APK từ shop Gace (họ host Android tại [pgyer.com/6TIP](https://www.pgyer.com/6TIP)). Cài ngoài Play: Cài đặt → Bảo mật → cho phép nguồn không xác định cho trình cài.
+
+Nếu APK báo “không tương thích với thiết bị” / `NO_MATCHING_ABIS` thì app **chỉ 32-bit** — S24 Ultra không chạy được, cần APK **arm64** từ shop/dev, hoặc máy Android cũ hơn (S23 trở xuống còn 32-bit).
+
+---
+
 ## Review cộng đồng (không phải lời shop)
 
 **App yếu, tay cầm tạm được.** AppBrain/Play: khoảng **2.9/5** (~2.000 review), 100K+ lượt cài. Phần lớn 1★ là phần mềm, không phải analog stick.
