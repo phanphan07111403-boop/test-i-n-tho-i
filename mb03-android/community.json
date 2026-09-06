@@ -1,0 +1,65 @@
+{
+  "device": "Samsung Galaxy S24 Ultra",
+  "controller": "Gace / MEMO MB03",
+  "game": "Wild Rift / Tốc Chiến",
+  "best_app": {
+    "name": "MooWii Gaming (global)",
+    "package": "com.geekwon.moyuplayer.global",
+    "version_shop_spec": "G2.4.5",
+    "store": "Google Play",
+    "why": "Only app Gace documents for MB03 mapping, macros, overlay multi-touch on Android."
+  },
+  "not_compatible": [
+    "com.geekwon.moyuplayer (China 墨鱼 2.7.x) — Bluetooth name whitelist",
+    "Panda Gamepad / Octopus / Mantis / GameSir apps — different protocol",
+    "MB03 white HID/Xbox mode — Wild Rift has no native skill gamepad map"
+  ],
+  "reviews": {
+    "play_appbrain_score": 2.97,
+    "review_count_approx": 2000,
+    "downloads_play": "100K+",
+    "downloads_appbrain_all_time_approx": "480K",
+    "last_play_update": "2024-10-30",
+    "praise": [
+      "Overlay binding actually works on Android",
+      "Joystick nicer than thumbs once aligned",
+      "FPS autotap/recoil is why most buyers exist"
+    ],
+    "complaints": [
+      "Account SMS: failed to send code",
+      "Must reconnect/scan every session",
+      "USB/wireless debugging required",
+      "Configs overwrite or vanish",
+      "Slide duration is fixed, not hold-time",
+      "MEMO MB03 PUBG AI recoil broken (ID reviews)",
+      "Overlay shows on every app"
+    ]
+  },
+  "s24_ultra": {
+    "panel": "6.8in 3120x1440 19.5:9 120Hz",
+    "must": [
+      "Developer options + USB debugging",
+      "Display over other apps",
+      "Battery unrestricted for MooWii",
+      "Game Booster: allow overlay, Auto touch protection Never",
+      "Android (blue) LED mode on MB03",
+      "Map on this phone in practice tool — do not reuse AOV cloud codes"
+    ]
+  },
+  "gace_cloud_codes": {
+    "free_fire_android": "aeqfnwjy",
+    "lien_quan_android": "okljkhm0 / p08mhlly",
+    "toc_chien_android": null,
+    "note": "Tốc Chiến still listed as updating. Screen ratio mismatch if you import another game."
+  },
+  "wild_rift_1to1_layout": [
+    {"bind": "LEFT_STICK", "action": "move", "type": "joystick"},
+    {"bind": "L1", "action": "skill_1", "type": "normal_hold"},
+    {"bind": "L2", "action": "skill_2", "type": "normal"},
+    {"bind": "L3", "action": "skill_3", "type": "normal"},
+    {"bind": "L4", "action": "ultimate", "type": "normal"},
+    {"bind": "A", "action": "attack", "type": "normal"},
+    {"bind": "B", "action": "flash", "type": "normal"}
+  ],
+  "tos": "Riot forbids unauthorized third-party programs, scripts, bots, and automation. One-button skill combos are ban-risk. Prefer 1:1 mapping."
+}
