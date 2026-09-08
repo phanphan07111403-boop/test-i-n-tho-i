@@ -24,6 +24,8 @@ Map mặc định (đổi theo tướng ở bảng dưới):
 
 Trong game: Enemy Target Lock = **No Minion/Structure**, Force Attack Follow **tắt**.
 
+Ưu tiên tướng (khi đã lọc tướng): **Ryze = gần nhất**, không phải thấp máu — xem mục Ryze.
+
 ---
 
 ## Đường Baron
@@ -141,6 +143,26 @@ Choáng = **Q bóng rồi E đẩy**. E trước khi có bóng = không stun (7.
 - L4 = R
 
 Trình tự burst: L1 → L2 → R. Q và E **hai nút**, không chung một ngón trên HUD.
+
+### Ryze — ưu tiên tướng **gần nhất**
+
+Không để **máu thấp** (tuyệt đối hay %). Combo Ryze cần W/E dính **cùng một người đang đứng cạnh**, rồi xả Q.
+
+Riot đã gắn sẵn: Q (Overload) smart-cast **ưu tiên mục tiêu Flux gần nhất**. Setting “gần nhất” cùng hướng kit; thấp máu thì lock nhảy sang ADC/support 20% máu phía sau → W trói nhầm, E không chồng Flux, Q không nảy.
+
+| Cài đặt | Ryze |
+|---|---|
+| Ưu tiên tướng | **Gần nhất** |
+| Máu thấp (tuyệt đối) | Không — nhảy mục tiêu giữa E và W |
+| Máu thấp (%) | Không — hay khóa tank 15% máu |
+| Portrait Lock | **Bật** — tap avatar khi muốn W người cụ thể (không phải người gần nhất) |
+| Force Attack Follow | Tắt |
+
+Lane: đứng gần mid đối phương, E → W (Flux = root) → xả Q. Teamfight: đi vào người cần burst, đừng để thấp máu kéo skill sang người đang chạy thoát ở mép.
+
+Khi cần E **lính** để lan Flux sang tướng: chạm tay vào lính, hoặc tạm bỏ khóa tướng-only cho nhịp đó — đừng đổi ưu tiên sang thấp máu.
+
+MB03: L1 = Q xả, L2 = E (trước), L3 = W, L4 = R. Trình tự: L2 → L3 → L1. Không macro một nút.
 
 ---
 
