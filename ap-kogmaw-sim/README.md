@@ -10,15 +10,17 @@ python3 compare_seraph.py
 python3 compare_mix.py
 python3 compare_pen.py
 python3 compare_40.py
+python3 compare_mf_poke.py
 ```
 
 Outputs:
-- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix + magic-pen + 40:00 appendix
+- `report.txt` — minute-by-minute optimal + appendices
 - `results.json` — machine-readable snapshots per build
 - `seraph_compare.txt` / `seraph_compare.json` — full 5-item with vs without Seraph
 - `mix_compare.txt` / `mix_compare.json` — Muramana / Serylda / Rylai vs full AP
 - `pen_compare.txt` / `pen_compare.json` — Void / Shadowflame / Cryptbloom vs burn core
 - `overtime_40.txt` / `overtime_40.json` — proposed core vs BF → Boots of Mana → Liandry → Malig → Infinity Orb → Cap, minutes 1–40
+- `mf_poke_compare.txt` / `mf_poke_compare.json` — Luden+BF+Liandry+Muramana (MF poke) vs Kog core
 
 ## Question answered
 
@@ -120,6 +122,19 @@ Farmer gold through a 40-minute game. Boots of Mana (25 AP / 8 pen) and Infinity
 | ~32 | Horizon | Deathcap |
 
 Mix 70/30 tank: core is ahead **37/40 minutes**, **+25%** area-under-curve, **+35% at 28:00**, **+30% at 40:00**. Squishy late (Orb+Cap execute): BF path **+10% at 40:00**. Infinity Orb does not proc on a healthy fog tank; missing Void is the tank hole.
+
+## Luden + BF + Liandry + Muramana (poke Miss Fortune)?
+
+**Too many overlapping poke items, and it is the wrong kit for Kog.** MF Double Up is physical and infrequent — one Luden Echo is the whole trade, Muramana Shock matches Q. Kog R is magic and dumps 8–10 shots; Echo is still one proc / 12s.
+
+| Build | Fog 8s tank | W 8s tank | Mix 70/30 tank |
+|-------|-------------|-----------|----------------|
+| Core (Malig+Void+Cap+Horizon) | baseline | baseline | baseline |
+| Luden+BF+Liandry+Mura+Cap | **−7.1%** | **−20.2%** | **−13.0%** |
+| Same 4-pack + Void (drop Cap) | +6.5% | −9.8% | — |
+| PC-legal: Luden *or* BF + Mura+Liandry+Void+Cap | ~+6–7% fog | ~−4% W | ~+2% |
+
+Luden+Blackfire is **two Manaflow items** (illegal on PC). On Kog keep **one** Lost Chapter (**Malignance**), Liandry, Void, Cap. Muramana is a 5th-slot mana dump, not a fourth poke item.
 
 ## Runes
 

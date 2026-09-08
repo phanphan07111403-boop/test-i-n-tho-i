@@ -1004,3 +1004,150 @@ VERDICT 40:00
   Nếu game kéo 40 phút và BF path kịp Cap, khoảng cách hẹp
   lại trên squishy (Orb+Cap AP), tank vẫn thua vì thiếu %pen.
 ========================================================================================
+
+==================================================================================
+KOG'MAW vs POKE MISS FORTUNE  (Luden + BF + Liandry + Muramana)
+Full 5 legendary + Sorcs | level 18 | target @ 28:00
+Tank 4440 HP / 224 MR / 286 armor  |  Squishy 3016 HP / 78 MR / 144 armor
+==================================================================================
+
+TẠI SAO MF BUILD ĐƯỢC, KOG THÌ KHÁC
+  • MF Q Double Up = VẬT LÝ, 1–2 hit / lượt poke. Luden Echo
+    (12s) ≈ cả trade. Muramana Shock 3% mana là vật lý, chồng
+    đúng damage type Q. Awe AD scale thẳng Q.
+  • Kog R = PHÉP, dump 8–10 shot / 8s. Echo vẫn 1 proc — còn
+    lại 7 R không có Echo. Shock R là vật lý (~10% cửa sổ),
+    không xuyên giáp vì kit này không Serylda.
+  • Luden + Blackfire = 2 Lost Chapter / Manaflow. PC: unique,
+    KHÔNG đeo cùng. WR: thường cho. Sim vẫn tính 4-pack.
+  • Muramana (sau transform) không còn Manaflow → đeo được với
+    MỘT món Lost Chapter nếu transform trước.
+  • Liandry là món chung (2% HP) — hợp cả hai tướng.
+  • BF burn = (20+2% AP)/s, không phải max HP. Vs tank nhỏ.
+  • 4-pack không có Malig (Hatefog) và thường không có Void.
+
+----------------------------------------------------------------------------------
+STATS
+----------------------------------------------------------------------------------
+  Build                     AP   bAD   AH  UH  Mana  LC  %pen  flat
+  Core Kog                 647     0   40  20  1880   1   40%    12
+  MF 4-pack + Cap          563   105   45   0  3480   2    0%    12
+  MF 4-pack + Void         401   105   45   0  3480   2   40%    12
+  PC-legal Luden poke      563    93   25   0  2880   1   40%    12
+  PC-legal BF poke         557    93   35   0  2880   1   40%    12
+  4-pack không Mura        692     0   30   0  2480   2   40%    12
+  LC = số item Lost Chapter / Manaflow (Luden, BF, Malig, Manamune).
+
+----------------------------------------------------------------------------------
+DAMAGE  (Δ vs Core Kog)  | Echo và BF burn đã cộng
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK]
+    Core Kog                   4735  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap            4397     -7.1%  echo    68 BF   110 phys 11%  CD-cap 11 R
+    MF 4-pack + Void           5041     +6.5%  echo    83 BF   133 phys 9%  CD-cap 11 R
+    PC-legal Luden poke        5040     +6.4%  echo    90 BF     0 phys 7%  CD-cap 10 R
+    PC-legal BF poke           5073     +7.1%  echo     0 BF   147 phys 7%  mana-cap 10/11 R
+    4-pack không Mura          4498     -5.0%  echo    96 BF   160 phys 0%  mana-cap 9/10 R
+
+  [Fog 8s vs SQUISHY]
+    Core Kog                   7026  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap            7332     +4.4%  echo   106 BF   174 phys 9%  CD-cap 11 R
+    MF 4-pack + Void           7457     +6.1%  echo   115 BF   183 phys 9%  CD-cap 11 R
+    PC-legal Luden poke        7484     +6.5%  echo   125 BF     0 phys 7%  CD-cap 10 R
+    PC-legal BF poke           7526     +7.1%  echo     0 BF   204 phys 7%  mana-cap 10/11 R
+    4-pack không Mura          6652     -5.3%  echo   133 BF   221 phys 0%  mana-cap 9/10 R
+
+  [W 8s vs TANK]
+    Core Kog                   8964  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap            7151    -20.2%  echo    69 BF   112 phys 9%  CD-cap 11 R
+    MF 4-pack + Void           8088     -9.8%  echo    85 BF   135 phys 8%  CD-cap 11 R
+    PC-legal Luden poke        8621     -3.8%  echo    92 BF     0 phys 6%  CD-cap 10 R
+    PC-legal BF poke           8633     -3.7%  echo     0 BF   150 phys 6%  mana-cap 10/11 R
+    4-pack không Mura          8373     -6.6%  echo    98 BF   163 phys 0%  mana-cap 9/10 R
+
+  [W 8s vs SQUISHY]
+    Core Kog                  11102  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap           10367     -6.6%  echo   108 BF   177 phys 9%  CD-cap 11 R
+    MF 4-pack + Void          10435     -6.0%  echo   118 BF   187 phys 9%  CD-cap 11 R
+    PC-legal Luden poke       10950     -1.4%  echo   128 BF     0 phys 6%  CD-cap 10 R
+    PC-legal BF poke          10973     -1.2%  echo     0 BF   208 phys 6%  mana-cap 10/11 R
+    4-pack không Mura         10325     -7.0%  echo   136 BF   226 phys 0%  mana-cap 9/10 R
+
+  [Fog 20s vs TANK]
+    Core Kog                   5932  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap            5071    -14.5%  echo    68 BF   286 phys 9%  mana-cap 11/12 R
+    MF 4-pack + Void           5919     -0.2%  echo    83 BF   343 phys 8%  mana-cap 11/12 R
+    PC-legal Luden poke        5707     -3.8%  echo    90 BF     0 phys 6%  mana-cap 10/12 R
+    PC-legal BF poke           5975     +0.7%  echo     0 BF   381 phys 6%  mana-cap 10/12 R
+    4-pack không Mura          5419     -8.6%  echo    96 BF   414 phys 0%  mana-cap 9/12 R
+
+  [Fog 20s vs SQUISHY]
+    Core Kog                   8369  baseline  echo     0 BF     0 phys 0%  mana-cap 8/12 R
+    MF 4-pack + Cap            8141     -2.7%  echo   106 BF   450 phys 8%  mana-cap 11/12 R
+    MF 4-pack + Void           8376     +0.1%  echo   115 BF   475 phys 8%  mana-cap 11/12 R
+    PC-legal Luden poke        8111     -3.1%  echo   125 BF     0 phys 6%  mana-cap 10/12 R
+    PC-legal BF poke           8477     +1.3%  echo     0 BF   528 phys 6%  mana-cap 10/12 R
+    4-pack không Mura          7631     -8.8%  echo   133 BF   573 phys 0%  mana-cap 9/12 R
+
+----------------------------------------------------------------------------------
+BREAKDOWN fog 8s TANK  (sau MR/armor, trước mult)
+----------------------------------------------------------------------------------
+  Core Kog  AP 647 bAD 0  mult x1.236  final 4735
+    MAGIC Q 470 | R 2426 (8s) | Liandry 387 | Hatefog 402 | Comet 148 | Echo 0 | BF 0
+    PHYS  Shock Q 0 R 0 (raw 0/R)
+  MF 4-pack + Cap  AP 563 bAD 105  mult x1.123  final 4397
+    MAGIC Q 319 | R 2626 (11s) | Liandry 279 | Hatefog 0 | Comet 107 | Echo 60 | BF 98
+    PHYS  Shock Q 35 R 390 (raw 104/R)
+  PC-legal Luden poke  AP 563 bAD 93  mult x1.123  final 5040
+    MAGIC Q 427 | R 3140 (10s) | Liandry 374 | Hatefog 0 | Comet 143 | Echo 81 | BF 0
+    PHYS  Shock Q 29 R 294 (raw 86/R)
+  PC-legal BF poke  AP 557 bAD 93  mult x1.123  final 5073
+    MAGIC Q 424 | R 3122 (10s) | Liandry 374 | Hatefog 0 | Comet 143 | Echo 0 | BF 131
+    PHYS  Shock Q 29 R 294 (raw 86/R)
+
+----------------------------------------------------------------------------------
+MẠNH / YẾU
+----------------------------------------------------------------------------------
+  1) FULL 4-PACK + CAP  (đúng MF poke, 2× Lost Chapter)
+     Fog tank 8s:  -7.1%  (4397 vs 4735)
+     Fog squish:   +4.4%
+     W tank:       -20.2%
+     Fog 20s tank: -14.5%
+     Mix 70/30 tank:-13.0%
+     Echo fog tank: 68  |  BF burn: 110  |  Shock phys: 478
+     NHIỀU QUÁ: 2 mana item chồng AH/mana, BF burn nhỏ vs tank,
+     Echo 1 lần / 8s trong khi R bắn 10 shot, không Hatefog,
+     không Void. Mana cao → nhiều R, không bù %pen + zone.
+
+  2) 4-PACK + VOID (bỏ Cap)
+     Fog tank: +6.5%
+     W tank:   -9.8%
+     Void cứu tank hơn Cap trên 4-pack, vẫn thiếu Malig 10%.
+
+  3) PC-LEGAL: một Lost Chapter + Mura + Liandry + Void + Cap
+     Luden version mix tank: +1.8%  fog +6.4%
+     BF version mix tank:    +2.3%  fog +7.1%
+     Fog nhỉnh nhờ Mura +2 R (mana-cap). W-tank thua vì mất
+     Horizon 10% trên W %HP. Mix gần hòa. Thua core+Mura 5th
+     (~+9% mix) vì Luden/BF ≠ Hatefog zone. Echo/BF burn nhỏ.
+
+  4) BỎ MURAMANA, GIỮ VOID+CAP
+     Fog tank: -5.0%
+     Tách Shock: Mura không cứu 4-pack vs tank.
+
+----------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------
+  4-pack Luden+BF+Liandry+Mura+Cap vs core, mix 70/30 tank: -13.0%
+  Có, NHIỀU QUÁ — ba món poke chồng cùng một việc (mana +
+  burn AP + Shock) và thiếu identity Kog (Hatefog + Void).
+  Trên MF: Q vật lý + 1 Echo/trade = kit đúng. Trên Kog: R
+  phép spam → Echo loãng, Shock vật lý, 2× LC illegal PC.
+
+  Nếu thích 'mana poke' trên Kog:
+    • Một Lost Chapter thôi: Malignance (không Luden/BF).
+    • Liandry vs tank. Void vs MR. Cap.
+    • Muramana = flex món 5 nếu dump R OOM (như Seraph),
+      transform trước Malig. Không stack Luden+BF.
+  Default vẫn: Malig → Liandry → Void → Cap → Horizon.
+==================================================================================

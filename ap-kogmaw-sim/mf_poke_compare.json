@@ -1,0 +1,405 @@
+{
+  "level": 18,
+  "minute": 28,
+  "manaflow_note": "Luden+Blackfire unique on PC; simulated anyway",
+  "kits": {
+    "Core Kog": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 647.4,
+      "bonus_ad": 0.0,
+      "max_mana": 1880.0,
+      "manaflow_count": 1,
+      "note": "Malig + Liandry + Void + Cap + Horizon"
+    },
+    "MF 4-pack + Cap": {
+      "items": [
+        "Luden's Echo",
+        "Blackfire Torch",
+        "Liandry's Torment",
+        "Muramana",
+        "Rabadon's Deathcap",
+        "Sorcerer's Shoes"
+      ],
+      "ap": 563.5,
+      "bonus_ad": 104.6,
+      "max_mana": 3480.0,
+      "manaflow_count": 2,
+      "note": "Luden+BF+Liandry+Mura+Cap \u2014 poke MF. 2\u00d7 Lost Chapter, kh\u00f4ng Void/Malig."
+    },
+    "MF 4-pack + Void": {
+      "items": [
+        "Luden's Echo",
+        "Blackfire Torch",
+        "Liandry's Torment",
+        "Muramana",
+        "Void Staff",
+        "Sorcerer's Shoes"
+      ],
+      "ap": 401.4,
+      "bonus_ad": 104.6,
+      "max_mana": 3480.0,
+      "manaflow_count": 2,
+      "note": "Gi\u1eef 4-pack, Void thay Cap."
+    },
+    "PC-legal Luden poke": {
+      "items": [
+        "Luden's Echo",
+        "Liandry's Torment",
+        "Muramana",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Sorcerer's Shoes"
+      ],
+      "ap": 562.9,
+      "bonus_ad": 92.6,
+      "max_mana": 2880.0,
+      "manaflow_count": 1,
+      "note": "M\u1ed9t Lost Chapter (Luden). Mura sau transform. C\u00f3 Void+Cap."
+    },
+    "PC-legal BF poke": {
+      "items": [
+        "Blackfire Torch",
+        "Liandry's Torment",
+        "Muramana",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Sorcerer's Shoes"
+      ],
+      "ap": 556.7,
+      "bonus_ad": 92.6,
+      "max_mana": 2880.0,
+      "manaflow_count": 1,
+      "note": "M\u1ed9t Lost Chapter (BF). Mura sau transform. C\u00f3 Void+Cap."
+    },
+    "4-pack kh\u00f4ng Mura": {
+      "items": [
+        "Luden's Echo",
+        "Blackfire Torch",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Sorcerer's Shoes"
+      ],
+      "ap": 691.5,
+      "bonus_ad": 0.0,
+      "max_mana": 2480.0,
+      "manaflow_count": 2,
+      "note": "Luden+BF+Liandry+Void+Cap \u2014 b\u1ecf Shock, gi\u1eef %pen."
+    }
+  },
+  "scenarios": {
+    "Fog 8s vs TANK": {
+      "Core Kog": {
+        "damage": 4735.1,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 4396.9,
+        "echo": 67.5,
+        "blackfire": 110.4,
+        "physical": 478.1,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "MF 4-pack + Void": {
+        "damage": 5040.9,
+        "echo": 83.4,
+        "blackfire": 132.5,
+        "physical": 478.1,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "PC-legal Luden poke": {
+        "damage": 5039.9,
+        "echo": 90.4,
+        "blackfire": 0.0,
+        "physical": 362.7,
+        "shots": 10,
+        "mana_capped": false
+      },
+      "PC-legal BF poke": {
+        "damage": 5073.3,
+        "echo": 0.0,
+        "blackfire": 147.2,
+        "physical": 362.7,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 4497.7,
+        "echo": 96.1,
+        "blackfire": 160.0,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    },
+    "Fog 8s vs SQUISHY": {
+      "Core Kog": {
+        "damage": 7026.4,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 7332.3,
+        "echo": 106.3,
+        "blackfire": 173.7,
+        "physical": 658.3,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "MF 4-pack + Void": {
+        "damage": 7456.9,
+        "echo": 115.4,
+        "blackfire": 183.4,
+        "physical": 658.3,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "PC-legal Luden poke": {
+        "damage": 7483.7,
+        "echo": 125.2,
+        "blackfire": 0.0,
+        "physical": 499.4,
+        "shots": 10,
+        "mana_capped": false
+      },
+      "PC-legal BF poke": {
+        "damage": 7526.1,
+        "echo": 0.0,
+        "blackfire": 203.7,
+        "physical": 499.4,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 6651.7,
+        "echo": 133.0,
+        "blackfire": 221.4,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    },
+    "W 8s vs TANK": {
+      "Core Kog": {
+        "damage": 8964.2,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 7150.6,
+        "echo": 68.8,
+        "blackfire": 112.5,
+        "physical": 661.8,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "MF 4-pack + Void": {
+        "damage": 8088.1,
+        "echo": 85.0,
+        "blackfire": 135.1,
+        "physical": 661.8,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "PC-legal Luden poke": {
+        "damage": 8621.0,
+        "echo": 92.2,
+        "blackfire": 0.0,
+        "physical": 514.1,
+        "shots": 10,
+        "mana_capped": false
+      },
+      "PC-legal BF poke": {
+        "damage": 8633.5,
+        "echo": 0.0,
+        "blackfire": 150.0,
+        "physical": 514.1,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 8373.1,
+        "echo": 97.9,
+        "blackfire": 163.0,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    },
+    "W 8s vs SQUISHY": {
+      "Core Kog": {
+        "damage": 11101.8,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 10367.4,
+        "echo": 108.3,
+        "blackfire": 177.1,
+        "physical": 911.4,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "MF 4-pack + Void": {
+        "damage": 10434.8,
+        "echo": 117.6,
+        "blackfire": 186.9,
+        "physical": 911.4,
+        "shots": 11,
+        "mana_capped": false
+      },
+      "PC-legal Luden poke": {
+        "damage": 10950.0,
+        "echo": 127.6,
+        "blackfire": 0.0,
+        "physical": 708.0,
+        "shots": 10,
+        "mana_capped": false
+      },
+      "PC-legal BF poke": {
+        "damage": 10973.0,
+        "echo": 0.0,
+        "blackfire": 207.7,
+        "physical": 708.0,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 10324.5,
+        "echo": 135.5,
+        "blackfire": 225.6,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    },
+    "Fog 20s vs TANK": {
+      "Core Kog": {
+        "damage": 5932.4,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 5070.5,
+        "echo": 67.5,
+        "blackfire": 285.8,
+        "physical": 478.1,
+        "shots": 11,
+        "mana_capped": true
+      },
+      "MF 4-pack + Void": {
+        "damage": 5918.9,
+        "echo": 83.4,
+        "blackfire": 343.2,
+        "physical": 478.1,
+        "shots": 11,
+        "mana_capped": true
+      },
+      "PC-legal Luden poke": {
+        "damage": 5707.3,
+        "echo": 90.4,
+        "blackfire": 0.0,
+        "physical": 362.7,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "PC-legal BF poke": {
+        "damage": 5974.7,
+        "echo": 0.0,
+        "blackfire": 381.2,
+        "physical": 362.7,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 5419.3,
+        "echo": 96.1,
+        "blackfire": 414.2,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    },
+    "Fog 20s vs SQUISHY": {
+      "Core Kog": {
+        "damage": 8369.4,
+        "echo": 0.0,
+        "blackfire": 0.0,
+        "physical": 0.0,
+        "shots": 8,
+        "mana_capped": true
+      },
+      "MF 4-pack + Cap": {
+        "damage": 8141.2,
+        "echo": 106.3,
+        "blackfire": 449.9,
+        "physical": 658.3,
+        "shots": 11,
+        "mana_capped": true
+      },
+      "MF 4-pack + Void": {
+        "damage": 8375.8,
+        "echo": 115.4,
+        "blackfire": 474.9,
+        "physical": 658.3,
+        "shots": 11,
+        "mana_capped": true
+      },
+      "PC-legal Luden poke": {
+        "damage": 8111.1,
+        "echo": 125.2,
+        "blackfire": 0.0,
+        "physical": 499.4,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "PC-legal BF poke": {
+        "damage": 8477.4,
+        "echo": 0.0,
+        "blackfire": 527.6,
+        "physical": 499.4,
+        "shots": 10,
+        "mana_capped": true
+      },
+      "4-pack kh\u00f4ng Mura": {
+        "damage": 7631.0,
+        "echo": 133.0,
+        "blackfire": 573.3,
+        "physical": 0.0,
+        "shots": 9,
+        "mana_capped": true
+      }
+    }
+  },
+  "mix_70_30_tank": {
+    "Core Kog": 6003.8,
+    "MF 4-pack + Cap": 5223.0,
+    "PC-legal Luden poke": 6114.3,
+    "PC-legal BF poke": 6141.4
+  }
+}

@@ -1551,6 +1551,12 @@ def main() -> None:
         report = report + "\n\n" + ot_text
     except Exception as exc:  # pragma: no cover
         report = report + f"\n\n[40m overtime skipped: {exc}]\n"
+    try:
+        from compare_mf_poke import compare as mf_compare
+        mf_text, _ = mf_compare()
+        report = report + "\n\n" + mf_text
+    except Exception as exc:  # pragma: no cover
+        report = report + f"\n\n[mf poke compare skipped: {exc}]\n"
     print(report)
     out_dir = "/workspace/ap-kogmaw-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
