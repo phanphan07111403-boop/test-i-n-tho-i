@@ -103,6 +103,18 @@ def tank_mr(m: int) -> float:
     return 32 + 2.05 * lv + extra
 
 
+def squishy_armor(m: int) -> float:
+    lv = level_at_minute(m)
+    extra = 0.0 if m < 14 else (18.0 if m < 22 else 35.0)
+    return 28.0 + 4.5 * lv + extra
+
+
+def tank_armor(m: int) -> float:
+    lv = level_at_minute(m)
+    extra = 0.0 if m < 8 else min(9.0 * (m - 8), 170.0)
+    return 33.0 + 4.6 * lv + extra
+
+
 # ---------------------------------------------------------------------------
 # Items
 # ---------------------------------------------------------------------------
@@ -131,6 +143,13 @@ class Item:
     horizon: bool = False
     seraph: bool = False
     archangel: bool = False
+    ad: float = 0
+    pct_armor_pen: float = 0
+    lethality: float = 0
+    muramana: bool = False
+    manamune: bool = False
+    serylda: bool = False
+    rylai: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -244,6 +263,41 @@ ITEMS: Dict[str, Item] = {
         seraph=True,
         tags=("mana", "shield"),
     ),
+    "Manamune": Item(
+        "Manamune",
+        2900,
+        ad=35,
+        ah=15,
+        mana=500,
+        manamune=True,
+        tags=("mana", "ad"),
+    ),
+    "Muramana": Item(
+        "Muramana",
+        2900,
+        ad=35,
+        ah=15,
+        mana=1000,
+        muramana=True,
+        tags=("mana", "ad"),
+    ),
+    "Serylda's Grudge": Item(
+        "Serylda's Grudge",
+        3000,
+        ad=45,
+        ah=15,
+        pct_armor_pen=0.45,
+        serylda=True,
+        tags=("pen", "ad", "slow"),
+    ),
+    "Rylai's Crystal Scepter": Item(
+        "Rylai's Crystal Scepter",
+        2600,
+        ap=65,
+        hp=400,
+        rylai=True,
+        tags=("slow",),
+    ),
 }
 
 
@@ -264,6 +318,10 @@ UPGRADE_COMPONENTS = {
     "Banshee's Veil": ("Needlessly Large Rod",),
     "Archangel's Staff": ("Tear of the Goddess", "Lost Chapter", "Fiendish Codex"),
     "Seraph's Embrace": ("Archangel's Staff",),
+    "Manamune": ("Tear of the Goddess",),
+    "Muramana": ("Manamune",),
+    "Serylda's Grudge": ("Last Whisper",),
+    "Rylai's Crystal Scepter": ("Blasting Wand",),
 }
 
 NEXT_COMPONENTS = {
@@ -653,8 +711,24 @@ def apply_pen(
     return max(0.0, reduced)
 
 
+def apply_armor_pen(
+    armor: float,
+    q_shred: float,
+    pct_pen: float,
+    lethality: float = 0.0,
+) -> float:
+    # Q shred (armor AND MR) → % armor pen → lethality
+    reduced = armor * (1.0 - q_shred)
+    reduced = reduced * (1.0 - pct_pen) - lethality
+    return max(0.0, reduced)
+
+
 def magic_mult(eff_mr: float) -> float:
     return 100.0 / (100.0 + eff_mr)
+
+
+def physical_mult(eff_armor: float) -> float:
+    return 100.0 / (100.0 + eff_armor)
 
 
 def sum_stats(inv: List[Item]) -> dict:
@@ -759,13 +833,28 @@ def w_pct(level: int, ap: float) -> float:
     return base + 0.015 * (ap / 100.0)
 
 
-def r_min_damage(level: int, ap: float) -> float:
+def r_min_damage(level: int, ap: float, bonus_ad: float = 0.0) -> float:
+    """Living Artillery is MAGIC damage: base + 75% bonus AD + 35/40/45% AP."""
     rank = skill_rank(level, "R")
     if rank <= 0:
         return 0.0
     base = [0, 100, 140, 180][rank]
     ratio = [0, 0.35, 0.40, 0.45][rank]
-    return base + ratio * ap
+    return base + ratio * ap + 0.75 * bonus_ad
+
+
+def r_min_breakdown(
+    level: int, ap: float, bonus_ad: float = 0.0
+) -> Tuple[float, float, float, float]:
+    """Returns (base, from_bonus_ad, from_ap, total) before missing-HP amp / MR."""
+    rank = skill_rank(level, "R")
+    if rank <= 0:
+        return 0.0, 0.0, 0.0, 0.0
+    base = [0, 100.0, 140.0, 180.0][rank]
+    ratio = [0, 0.35, 0.40, 0.45][rank]
+    from_ad = 0.75 * bonus_ad
+    from_ap = ratio * ap
+    return base, from_ad, from_ap, base + from_ad + from_ap
 
 
 def q_damage(level: int, ap: float) -> float:
@@ -827,7 +916,8 @@ def window_damage(
     dmg += q_damage(level, ap) * m_pre
 
     # R shots — first without curse, rest with
-    r_hit = r_min_damage(level, ap) * r_amp
+    # R is magic; bonus AD is a ratio on magic damage, not physical.
+    r_hit = r_min_damage(level, ap, stats.get("bonus_ad", 0.0)) * r_amp
     for i in range(shots):
         dmg += r_hit * (m_pre if i == 0 else m_post)
 
@@ -1403,6 +1493,12 @@ def main() -> None:
         report = report + "\n\n" + seraph_text
     except Exception as exc:  # pragma: no cover
         report = report + f"\n\n[seraph compare skipped: {exc}]\n"
+    try:
+        from compare_mix import compare as mix_compare
+        mix_text, _ = mix_compare()
+        report = report + "\n\n" + mix_text
+    except Exception as exc:  # pragma: no cover
+        report = report + f"\n\n[mix compare skipped: {exc}]\n"
     print(report)
     out_dir = "/workspace/ap-kogmaw-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:

@@ -411,3 +411,265 @@ VERDICT SERAPH
   Default vẫn: Malig → Liandry → Void → Cap → Horizon.
   Seraph = flex món 5 NẾU bạn dump R đến OOM; không phải core.
 ==================================================================================
+
+==================================================================================
+AP KOG'MAW — MIX MURAMANA / XUYÊN GIÁP / SLOW vs FULL AP
+Full build (5 legendary + Sorcs) | level 18 | target @ 28:00
+Tank 4440 HP / 224 MR / 286 armor  |  Squishy 3016 HP / 78 MR / 144 armor
+==================================================================================
+
+LUẬT QUAN TRỌNG (hay hiểu nhầm)
+  • R Living Artillery = SÁT THƯƠNG PHÉP. Ratio 75% bonus AD
+    nằm TRÊN hit phép — không đổi R thành vật lý.
+  • Xuyên giáp (Serylda 45%, LDR, lethality) KHÔNG ăn R/Q/W/
+    Liandry/Hatefog/Comet. Chỉ ăn Shock Muramana + auto.
+  • Q Caustic Spittle shred 16–32% ARMOR và MR — đã có sẵn
+    trên full AP, không cần Serylda để shred tank.
+  • Muramana Shock = vật lý: 3% max mana / chiêu vs tướng
+    (ranged), 1.2% / auto. DoT không proc lại.
+  • Manamune = Manaflow → không đeo cùng Malignance.
+    Muramana (sau transform) không còn Manaflow → được đeo
+    cùng Malig NẾU transform xong rồi mới mua Malig (Tear delay).
+  • Serylda Bitter Cold: 30% slow / 1s CHỈ khi đích <60% HP
+    (patch 26.17: ngưỡng 50%→60%, pen 40%→45%). Fog poke
+    tank ~85% HP → KHÔNG slow. Rylai slow 30% luôn trên R.
+  • E Kog đã slow 40–60% — mạnh hơn Serylda/Rylai. Slow
+    không cộng dồn; cái mạnh nhất thắng. Serylda/Rylai chỉ
+    có giá khi núp R mà không ném E.
+
+----------------------------------------------------------------------------------
+R MIN (trước missing-HP amp / MR) — TẠI SAO 75% AD NGHE CAO
+----------------------------------------------------------------------------------
+  AP (baseline)            AP    647  bAD     0  R=   471  (base 180 + AD 0 0% + AP 291 62%)
+  Mix Mura+Serylda         AP    293  bAD   138  R=   415  (base 180 + AD 103 25% + AP 132 32%)
+  AP + Muramana 5th        AP    550  bAD    93  R=   497  (base 180 + AD 69 14% + AP 247 50%)
+  AP + Serylda 5th         AP    550  bAD    45  R=   461  (base 180 + AD 34 7% + AP 247 54%)
+  75% bAD của mix (~100 dmg) < 45% AP của Deathcap kit (~290).
+  Mix R raw THẤP hơn full AP — AD không bù nổi mất Cap/Horizon.
+
+----------------------------------------------------------------------------------
+STATS FULL BUILD
+----------------------------------------------------------------------------------
+  Build                       AP   bAD   AH  UH  Mana  AweAD ArPen    HP
+  AP (baseline)              647     0   40  20  1880      0    0%  2618
+  Mix Mura+Serylda           293   138   45  20  2880     58   45%  2618
+  Mix Mura+Rylai             358    93   30  20  2880     58    0%  3018
+  Mix Mura+Serylda+Cap       426   138   45  20  2880     58   45%  2618
+  AP + Muramana 5th          550    93   30  20  2880     58    0%  2618
+  AP + Rylai 5th             634     0   15  20  1880      0    0%  3018
+  AP + Serylda 5th           550    45   30  20  1880      0   45%  2618
+  Mix không Malig            433   126   30   0  2280     46   45%  2618
+
+  Slow fog-R (không E):
+    AP (baseline)            không (E 40–60% nếu rời fog)
+    Mix Mura+Serylda         Serylda 30%/1s CHỈ khi đích <60% HP
+    Mix Mura+Rylai           Rylai 30% luôn trên R
+    Mix Mura+Serylda+Cap     Serylda 30%/1s CHỈ khi đích <60% HP
+    AP + Muramana 5th        không (E 40–60% nếu rời fog)
+    AP + Rylai 5th           Rylai 30% luôn trên R
+    AP + Serylda 5th         Serylda 30%/1s CHỈ khi đích <60% HP
+    Mix không Malig          Serylda 30%/1s CHỈ khi đích <60% HP
+
+----------------------------------------------------------------------------------
+DAMAGE THEO CỬA SỔ  (Δ vs full AP)  |  magic / physical sau mit
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    AP (baseline)                4735  baseline  mag   4735 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             4789     +1.1%  mag   4273 phys   516 (11%)  mana-cap 10/12 R
+    Mix Mura+Rylai               4660     -1.6%  mag   4297 phys   363 (8%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         4142    -12.5%  mag   3626 phys   516 (12%)  mana-cap 10/12 R
+    AP + Muramana 5th            5451    +15.1%  mag   5089 phys   363 (7%)  mana-cap 10/12 R
+    AP + Rylai 5th               4259    -10.0%  mag   4259 phys     0 (0%)  mana-cap 8/11 R
+    AP + Serylda 5th             4161    -12.1%  mag   4161 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              4311     -9.0%  mag   3940 phys   371 (9%)  mana-cap 9/10 R
+
+  [Fog 8s vs SQUISHY]
+    AP (baseline)                7026  baseline  mag   7026 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             7048     +0.3%  mag   6405 phys   642 (9%)  mana-cap 10/12 R
+    Mix Mura+Rylai               6931     -1.4%  mag   6432 phys   499 (7%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         6924     -1.5%  mag   6281 phys   642 (9%)  mana-cap 10/12 R
+    AP + Muramana 5th            8167    +16.2%  mag   7668 phys   499 (6%)  mana-cap 10/12 R
+    AP + Rylai 5th               6318    -10.1%  mag   6318 phys     0 (0%)  mana-cap 8/11 R
+    AP + Serylda 5th             6176    -12.1%  mag   6176 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              6314    -10.1%  mag   5852 phys   462 (7%)  mana-cap 9/10 R
+
+  [W siege 8s vs TANK (brush autos)]
+    AP (baseline)                8964  baseline  mag   8964 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             7568    -15.6%  mag   6836 phys   731 (10%)  mana-cap 10/12 R
+    Mix Mura+Rylai               7610    -15.1%  mag   7096 phys   514 (7%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         6658    -25.7%  mag   5927 phys   731 (11%)  mana-cap 10/12 R
+    AP + Muramana 5th            9110     +1.6%  mag   8596 phys   514 (6%)  mana-cap 10/12 R
+    AP + Rylai 5th               8056    -10.1%  mag   8056 phys     0 (0%)  mana-cap 8/11 R
+    AP + Serylda 5th             7651    -14.7%  mag   7651 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              7442    -17.0%  mag   6901 phys   541 (7%)  mana-cap 9/10 R
+
+  [W siege 8s vs SQUISHY]
+    AP (baseline)               11102  baseline  mag  11102 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             9799    -11.7%  mag   8888 phys   911 (9%)  mana-cap 10/12 R
+    Mix Mura+Rylai               9847    -11.3%  mag   9139 phys   708 (7%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         9761    -12.1%  mag   8851 phys   911 (9%)  mana-cap 10/12 R
+    AP + Muramana 5th           11769     +6.0%  mag  11061 phys   708 (6%)  mana-cap 10/12 R
+    AP + Rylai 5th               9976    -10.1%  mag   9976 phys     0 (0%)  mana-cap 8/11 R
+    AP + Serylda 5th             9540    -14.1%  mag   9540 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              9336    -15.9%  mag   8662 phys   674 (7%)  mana-cap 9/10 R
+
+  [Fog 20s vs TANK (siege R kéo dài)]
+    AP (baseline)                5932  baseline  mag   5932 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             5956     +0.4%  mag   5440 phys   516 (9%)  mana-cap 10/12 R
+    Mix Mura+Rylai               5847     -1.4%  mag   5485 phys   363 (6%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         5052    -14.8%  mag   4536 phys   516 (10%)  mana-cap 10/12 R
+    AP + Muramana 5th            6700    +12.9%  mag   6338 phys   363 (5%)  mana-cap 10/12 R
+    AP + Rylai 5th               5345     -9.9%  mag   5345 phys     0 (0%)  mana-cap 8/12 R
+    AP + Serylda 5th             5229    -11.9%  mag   5229 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              4978    -16.1%  mag   4607 phys   371 (7%)  mana-cap 9/12 R
+
+  [Fog 20s vs SQUISHY]
+    AP (baseline)                8369  baseline  mag   8369 phys     0 (0%)  mana-cap 8/12 R
+    Mix Mura+Serylda             8379     +0.1%  mag   7737 phys   642 (8%)  mana-cap 10/12 R
+    Mix Mura+Rylai               8292     -0.9%  mag   7792 phys   499 (6%)  mana-cap 10/12 R
+    Mix Mura+Serylda+Cap         8132     -2.8%  mag   7489 phys   642 (8%)  mana-cap 10/12 R
+    AP + Muramana 5th            9614    +14.9%  mag   9114 phys   499 (5%)  mana-cap 10/12 R
+    AP + Rylai 5th               7535    -10.0%  mag   7535 phys     0 (0%)  mana-cap 8/12 R
+    AP + Serylda 5th             7367    -12.0%  mag   7367 phys     0 (0%)  mana-cap 8/12 R
+    Mix không Malig              6941    -17.1%  mag   6479 phys   462 (7%)  mana-cap 9/12 R
+
+----------------------------------------------------------------------------------
+BREAKDOWN  (sau MR/armor, trước Horizon/Cut Down/Madness)
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    AP (baseline)  AP 647 bAD 0  mult x1.236  final 4735
+      MAGIC  Q    470 | R   2426 (8 shot) | W      0 | Liandry    387 | Hatefog    402 | Comet   148
+      PHYS   Shock Q     0 | R     0 (raw 0/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 0 + AP 291 = 471
+    Mix Mura+Serylda  AP 293 bAD 138  mult x1.123  final 4789
+      MAGIC  Q    292 | R   2673 (10 shot) | W      0 | Liandry    387 | Hatefog    325 | Comet   128
+      PHYS   Shock Q    42 | R   418 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 103 + AP 132 = 415
+    AP + Muramana 5th  AP 550 bAD 93  mult x1.123  final 5451
+      MAGIC  Q    421 | R   3200 (10 shot) | W      0 | Liandry    387 | Hatefog    381 | Comet   142
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 69 + AP 247 = 497
+    Mix Mura+Rylai  AP 358 bAD 93  mult x1.123  final 4660
+      MAGIC  Q    325 | R   2644 (10 shot) | W      0 | Liandry    387 | Hatefog    339 | Comet   131
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 69 + AP 161 = 411
+
+  [W siege 8s vs TANK (brush autos)]
+    AP (baseline)  AP 647 bAD 0  mult x1.259  final 8964
+      MAGIC  Q    470 | R   2426 (8 shot) | W   3319 | Liandry    387 | Hatefog    402 | Comet   114
+      PHYS   Shock Q     0 | R     0 (raw 0/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 0 + AP 291 = 471
+    Mix Mura+Serylda  AP 293 bAD 138  mult x1.145  final 7568
+      MAGIC  Q    292 | R   2673 (10 shot) | W   2196 | Liandry    387 | Hatefog    325 | Comet    99
+      PHYS   Shock Q    42 | R   418 (raw 86/shot) | W    42 | auto   138
+      R raw split: base 180 + 75%AD 103 + AP 132 = 415
+    AP + Muramana 5th  AP 550 bAD 93  mult x1.145  final 9110
+      MAGIC  Q    421 | R   3200 (10 shot) | W   3010 | Liandry    387 | Hatefog    381 | Comet   110
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W    29 | auto    97
+      R raw split: base 180 + 75%AD 69 + AP 247 = 497
+    Mix Mura+Rylai  AP 358 bAD 93  mult x1.145  final 7610
+      MAGIC  Q    325 | R   2644 (10 shot) | W   2402 | Liandry    387 | Hatefog    339 | Comet   102
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W    29 | auto    97
+      R raw split: base 180 + 75%AD 69 + AP 161 = 411
+
+  [Fog 20s vs TANK (siege R kéo dài)]
+    AP (baseline)  AP 647 bAD 0  mult x1.236  final 5932
+      MAGIC  Q    470 | R   2426 (8 shot) | W      0 | Liandry   1001 | Hatefog    757 | Comet   148
+      PHYS   Shock Q     0 | R     0 (raw 0/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 0 + AP 291 = 471
+    Mix Mura+Serylda  AP 293 bAD 138  mult x1.123  final 5956
+      MAGIC  Q    292 | R   2673 (10 shot) | W      0 | Liandry   1001 | Hatefog    749 | Comet   128
+      PHYS   Shock Q    42 | R   418 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 103 + AP 132 = 415
+    AP + Muramana 5th  AP 550 bAD 93  mult x1.123  final 6700
+      MAGIC  Q    421 | R   3200 (10 shot) | W      0 | Liandry   1001 | Hatefog    878 | Comet   142
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 69 + AP 247 = 497
+    Mix Mura+Rylai  AP 358 bAD 93  mult x1.123  final 5847
+      MAGIC  Q    325 | R   2644 (10 shot) | W      0 | Liandry   1001 | Hatefog    782 | Comet   131
+      PHYS   Shock Q    29 | R   294 (raw 86/shot) | W     0 | auto     0
+      R raw split: base 180 + 75%AD 69 + AP 161 = 411
+
+----------------------------------------------------------------------------------
+MẠNH CHỖ NÀO / YẾU CHỖ NÀO
+----------------------------------------------------------------------------------
+  1) MIX MURAMANA + SERYLDA (thay Cap + Horizon)
+     Fog 8s tank:   +1.1%  (4789 vs 4735)
+     Fog 8s squish: +0.3%
+     W 8s tank:     -15.6%
+     W 8s squish:   -11.7%
+     Fog 20s tank:  +0.4%
+     Mix 70/30 tank:-6.3%  (5623 vs 6004)
+     Physical share fog tank: 11%  | W tank: 10%
+     Tank armor sau Q shred: 194 → +Serylda 45%: 107 (Shock ăn ~48% dmg).
+     Tank MR sau Q+Hatefog+Void+Sorcs: 73 (R magic ăn ~58%).
+     YẾU: mất Deathcap 30% AP (W %HP + R AP ratio + Hatefog).
+           mất Horizon 10% trên CẢ cửa sổ (Liandry + W).
+           R raw thấp hơn dù có 75% bAD. Slow fog không proc
+           trên tank đầy máu (Bitter Cold <60% HP).
+     MẠNH: Shock cho mỗi R; mana cao hơn một chút; 45 AD + Awe
+           trên R magic. Không đủ bù 2 slot AP.
+
+  2) MURAMANA SLOT 5 (giữ Malig+Liandry+Void+Cap)
+     Fog 8s tank:   +15.1%  (5451 vs 4735)
+     W 8s tank:     +1.6%
+     Mix 70/30 tank:+9.1%
+     Đây là test công bằng nhất: chỉ đổi Horizon → Muramana.
+     Rank 3 R bị mana-cap (8 vs 10 shot) giống Seraph.
+     Fog: +2 R + Shock + 75% bAD > 75 AP Horizon + 10%.
+     W-tank gần hòa: Horizon 10% ăn W %HP; Muramana bù bằng
+     Shock auto + 2 R. Không shield (Seraph có Lifeline).
+     Chỉ thắng nếu bạn thật sự dump R đến OOM. Ít R hơn thì
+     Horizon 10% thắng.
+
+  3) SERYLDA SLOT 5 KHÔNG MURAMANA
+     Fog 8s tank:   -12.1%
+     W 8s tank:     -14.7%
+     Xuyên giáp gần như phí: không Shock, R vẫn phép.
+     45 AD * 0.75 = +34 R raw — thua 75 AP Horizon + 10%.
+     Slow fog không proc tank đầy máu.
+
+  4) RYlai (slow phép) vs SERYLDA (slow + pen vật lý)
+     Mix Mura+Rylai fog tank: -1.6%  |  vs Mura+Serylda -2.7%
+     AP + Rylai 5th fog tank: -10.0%
+     Rylai: 65 AP + 400 HP + 30% slow LUÔN trên R fog.
+     Serylda thắng DPS Shock vs armor; Rylai thắng utility fog
+     (slow không cần E, không cần đích thấp máu) + AP cho R/W.
+     E Kog 40–60% vẫn mạnh hơn cả hai nếu bạn chịu ném E.
+
+  5) MIX + CAP BỎ VOID / MIX BỎ MALIG
+     Mura+Serylda+Cap (không Void) fog tank: -12.5%
+     Mix không Malig fog tank: -9.0%  /  20s -16.1%
+     Đừng bỏ Void vs tank MR. Đừng bỏ Malig — Hatefog là identity núp.
+
+  TIMING: Manamune/Tear TRƯỚC Malig nếu muốn cả hai.
+     Mất spike Hatefog phút 7. Giống tax Seraph. Mid-game mix TỤT.
+
+----------------------------------------------------------------------------------
+VERDICT MIX
+----------------------------------------------------------------------------------
+  Mix Muramana+Serylda vs full AP, mix 70/30 tank: -6.3%
+  Fog 8s tank +1.1%  |  W 8s tank -15.6%
+  Không hiệu quả hơn nếu thay Cap+Horizon bằng Mura+Serylda.
+  75% bonus AD nghe lớn nhưng:
+    (1) nó là ratio PHÉP — xuyên giáp không nhân R;
+    (2) AP Deathcap kit cho ~3× damage R từ ratio so với AD mix;
+    (3) Shock chỉ ~10% total sau armor tank;
+    (4) Serylda slow không proc fog tank đầy máu;
+    (5) E đã slow mạnh hơn; Q đã shred armor+MR.
+
+  Fog thuần gần hòa (+1%) vì mix bắn 10 R + Shock, full AP
+  bắn 8 R nhưng có Cap+Horizon. W siege -16%: mất 30% AP
+  trên W %HP. Mix 70/30 tank -6%.
+
+  Nếu vẫn muốn 'adap':
+    • Slot 5 Muramana (giữ Malig+Liandry+Void+Cap) — dump R
+      mana-cap, Shock mỗi shot. KHÔNG mua Serylda. Boots Sorcs.
+      Fog tank +15% / W tank +2% / mix +9% vs Horizon 5th,
+      cùng lý do Seraph (+2 R). Không có shield.
+    • Slow fog: Rylai slot 5/6, không phải Serylda.
+    • Serylda chỉ khi W-siege auto nhiều VÀ địch giáp dày
+      — không phải kit núp R.
+  Default damage peak vẫn: Malig → Liandry → Void → Cap →
+  Horizon, trừ khi bạn OOM rank 3 thì Muramana/Seraph flex 5.
+==================================================================================

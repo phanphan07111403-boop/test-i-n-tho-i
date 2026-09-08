@@ -7,12 +7,14 @@ PC League of Legends, patch **~26.x**. Fog-of-war Living Artillery poke over a *
 ```bash
 python3 simulate_ap_kogmaw.py
 python3 compare_seraph.py
+python3 compare_mix.py
 ```
 
 Outputs:
-- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph appendix
+- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix appendix
 - `results.json` — machine-readable snapshots per build
 - `seraph_compare.txt` / `seraph_compare.json` — full 5-item with vs without Seraph
+- `mix_compare.txt` / `mix_compare.json` — Muramana / Serylda / Rylai vs full AP
 
 ## Question answered
 
@@ -65,6 +67,23 @@ At equal finished items (Malig + Liandry + Void + Deathcap + slot 5), **Seraph i
 Cost: Tear → Archangel → Seraph **before** Malignance, so you lose the minute-7 Hatefog spike and delay Liandry/Void. Mid-game the Seraph path is behind; late dump-R it can go ahead.
 
 Default still Malig → Liandry → Void → Cap → Horizon. Seraph is a 5th-slot flex if you actually OOM on R, or a 6th item if you have an extra slot.
+
+## Mix Muramana + armor pen + slow?
+
+**Not as a 2-item package.** Living Artillery is still **magic damage**. The 75% bonus AD ratio rides on that magic hit — **armor pen does not apply to R** (or Q / W / Liandry / Hatefog). Muramana Shock is the only physical chunk (~10% of the window after tank armor). Serylda's 45% pen only helps Shock.
+
+Serylda Bitter Cold (30% slow / 1s) only procs below **60% HP**, so fog poke on a healthy tank gets **no slow**. Kog **E is already 40–60%** and does not stack with item slows. Rylai (30% always on R) is the fog-slow item if you refuse to land E.
+
+Equal 5 legendaries + Sorcs, lvl 18 @ 28:00:
+
+| Build | Fog 8s tank | W 8s tank | Mix 70/30 tank |
+|-------|-------------|-----------|----------------|
+| Full AP (Cap+Horizon) | baseline | baseline | baseline |
+| Muramana + Serylda (drop Cap+Horizon) | **+1.1%** | **−15.6%** | **−6.3%** |
+| Muramana 5th (keep AP core) | **+15.1%** | **+1.6%** | **+9.1%** |
+| Serylda 5th (no Shock) | −12.1% | −14.7% | — |
+
+Muramana 5th wins for the same reason Seraph does: rank-3 R is **mana-capped** (10 shots vs 8). Do not buy Serylda on this kit. Do not drop Malig or Void. Tear/Manamune before Malig delays the minute-7 Hatefog spike.
 
 ## Runes
 
