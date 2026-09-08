@@ -9,14 +9,16 @@ python3 simulate_ap_kogmaw.py
 python3 compare_seraph.py
 python3 compare_mix.py
 python3 compare_pen.py
+python3 compare_40.py
 ```
 
 Outputs:
-- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix + magic-pen appendix
+- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix + magic-pen + 40:00 appendix
 - `results.json` — machine-readable snapshots per build
 - `seraph_compare.txt` / `seraph_compare.json` — full 5-item with vs without Seraph
 - `mix_compare.txt` / `mix_compare.json` — Muramana / Serylda / Rylai vs full AP
 - `pen_compare.txt` / `pen_compare.json` — Void / Shadowflame / Cryptbloom vs burn core
+- `overtime_40.txt` / `overtime_40.json` — proposed core vs BF → Boots of Mana → Liandry → Malig → Infinity Orb → Cap, minutes 1–40
 
 ## Question answered
 
@@ -103,6 +105,21 @@ Equal 5 legendaries + Sorcs, lvl 18 @ 28:00 vs Burn+Void+Cap+Horizon:
 | Cryptbloom instead of Void | −9.6% | −9.3% | −5.9% | — |
 
 **Kill ADC / shields:** same core, Shadowflame 5th instead of Horizon. **Hurt tanks / long fog R:** keep Liandry, keep Void, keep Deathcap. Do not skip Void for "more pen."
+
+## 40:00 — proposed core vs BF → Boots of Mana → Liandry → Malig → Infinity Orb → Cap
+
+Farmer gold through a 40-minute game. Boots of Mana (25 AP / 8 pen) and Infinity Orb (110 AP / 15 pen / +20% below 35% HP) use the Wild Rift names from the question.
+
+| When | Core (Malig→Liandry→Void→Cap→Horizon) | BF path |
+|------|----------------------------------------|---------|
+| ~7 | **Malignance** | Blackfire |
+| ~10 | Sorcs | Boots of Mana |
+| ~16 | Liandry | Liandry |
+| ~21 | **Void** | Malignance (late Hatefog) |
+| ~28 | Deathcap | Infinity Orb |
+| ~32 | Horizon | Deathcap |
+
+Mix 70/30 tank: core is ahead **37/40 minutes**, **+25%** area-under-curve, **+35% at 28:00**, **+30% at 40:00**. Squishy late (Orb+Cap execute): BF path **+10% at 40:00**. Infinity Orb does not proc on a healthy fog tank; missing Void is the tank hole.
 
 ## Runes
 

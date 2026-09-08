@@ -1,0 +1,120 @@
+========================================================================================
+40:00 OVER TIME — CORE ĐỀ XUẤT vs BF → BOOTS OF MANA → LIANDRY → MALIG → ORB → CAP
+Mix 70% fog R / 30% W siege | farmer gold | núp bắn
+========================================================================================
+
+ITEM MAP
+  Core đề xuất (PC, 6 slot): Malignance → Sorcs → Liandry → Void
+    → Deathcap → Horizon Focus
+  Path bạn: Blackfire → Boots of Mana → Liandry → Malignance
+    → Infinity Orb → Deathcap
+  Boots of Mana (WR): 1200g, 25 AP, 8 flat pen, mana regen.
+  Infinity Orb (WR): 3100g, 110 AP, 15 flat pen, +20% dmg khi
+    đích <35% HP (fog tank đầy máu = 0 execute).
+  BF+Malig = 2 Lost Chapter. WR cho phép; PC Manaflow unique
+    thì không — sim vẫn cho mua để so đúng thứ tự bạn hỏi.
+
+SPIKE ONLINE
+  Core đề xuất (Malig→Liandry→Void→Cap)
+    Malignance             ~7:00
+    Sorcerer's Shoes       ~10:00
+    Liandry's Torment      ~16:00
+    Void Staff             ~21:00
+    Rabadon's Deathcap     ~28:00
+    Horizon Focus          ~32:00
+  BF→BoM→Liandry→Malig→Orb→Cap
+    Blackfire Torch        ~7:00
+    Boots of Mana          ~10:00
+    Liandry's Torment      ~16:00
+    Malignance             ~21:00
+    Infinity Orb           ~27:00
+    Rabadon's Deathcap     ~32:00
+
+----------------------------------------------------------------------------------------
+GOLD / LEVEL / TANK
+----------------------------------------------------------------------------------------
+    m    gold   lv   tankHP  tankMR    sqHP   sqMR
+    8    3310    9     1850      50    1720     42
+   12    5150   12     2500      91    2104     46
+   16    7150   14     3040     129    2384     60
+   20    9310   16     3580     167    2664     63
+   22   10390   17     3850     186    2804     77
+   24   11550   17     4010     203    2840     77
+   28   13870   18     4440     224    3016     78
+   32   16350   18     4760     240    3088     83
+   36   18830   18     5080     256    3160     88
+   40   21310   18     5400     272    3232     93
+
+----------------------------------------------------------------------------------------
+DAMAGE / 8s WINDOW THEO PHÚT   Δ = core − BF path  (dương = core thắng)
+----------------------------------------------------------------------------------------
+    m   core mixT    BF mixT    ΔmixT   core fogT   BF fogT    ΔfogT   core sq    BF sq      Δsq
+    2         162        224      -62         106       162      -55       152      211      -59
+    4         245        265      -19         152       174      -22       234      253      -18
+    6         682        681       +1         537       541       -4       708      705       +3
+    8        1485       1139     +346        1255       929     +326      1519     1172     +346
+   10        1770       1454     +316        1486      1186     +299      2023     1650     +373
+   12        1842       1427     +415        1522      1142     +380      2265     1728     +536
+   14        1994       1580     +414        1604      1230     +374      2426     1892     +534
+   16        2176       1887     +289        1774      1502     +272      2730     2310     +420
+   18        2321       1941     +380        1858      1513     +345      2978     2498     +480
+   20        2569       2171     +397        2053      1696     +358      3503     2972     +531
+   22        3088       2501     +587        2427      1982     +445      3801     3431     +370
+   24        3239       2535     +703        2512      1987     +525      4127     3638     +489
+   26        3186       2648     +537        2433      2033     +400      4182     3962     +220
+   28        3852       2848    +1003        2880      2171     +709      5060     5353     -294
+   30        4039       3012    +1028        2986      2266     +719      5316     5680     -364
+   32        4571       3591     +979        3345      2647     +698      6024     6822     -798
+   34        4547       3552     +995        3302      2598     +704      5992     6755     -762
+   36        4523       3514    +1010        3261      2551     +710      5961     6689     -727
+   38        4500       3477    +1023        3221      2506     +715      5931     6625     -694
+   40        4479       3442    +1036        3183      2464     +719      5901     6562     -661
+
+  Items @ spike phút:
+     8:00 CORE  90 AP  Malignance › Boots
+         BF    84 AP  Blackfire Torch › Boots
+    12:00 CORE  120 AP  Malignance › Sorcerer's Shoes › Fated Ashes
+         BF    110 AP  Blackfire Torch › Boots of Mana
+    16:00 CORE  150 AP  Malignance › Sorcerer's Shoes › Liandry's Torment
+         BF    173 AP  Blackfire Torch › Boots of Mana › Liandry's Torment
+    20:00 CORE  220 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Blighting Jewel › Blasting Wand
+         BF    262 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Lost Chapter › Blasting Wand
+    22:00 CORE  245 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff
+         BF    267 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance
+    24:00 CORE  310 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Needlessly Large Rod
+         BF    314 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance › Hextech Alternator
+    28:00 CORE  488 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Rabadon's Deathcap
+         BF    382 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance › Infinity Orb
+    32:00 CORE  585 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Rabadon's Deathcap › Horizon Focus
+         BF    667 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance › Infinity Orb › Rabadon's Deathcap
+    36:00 CORE  585 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Rabadon's Deathcap › Horizon Focus
+         BF    667 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance › Infinity Orb › Rabadon's Deathcap
+    40:00 CORE  585 AP  Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Rabadon's Deathcap › Horizon Focus
+         BF    667 AP  Blackfire Torch › Boots of Mana › Liandry's Torment › Malignance › Infinity Orb › Rabadon's Deathcap
+
+----------------------------------------------------------------------------------------
+PHASE
+----------------------------------------------------------------------------------------
+  Lane / first item  1–10  mix-tank core 829 vs BF 697 (+19.0%)  |  squish 872 vs 731 (+19.3%)
+  Mid spike          11–20  mix-tank core 2085 vs BF 1732 (+20.3%)  |  squish 2654 vs 2181 (+21.7%)
+  3–4 món            21–28  mix-tank core 3241 vs BF 2647 (+22.4%)  |  squish 4160 vs 4119 (+1.0%)
+  Siêu trễ           29–40  mix-tank core 4395 vs BF 3389 (+29.7%)  |  squish 5790 vs 6438 (-10.1%)
+
+  Phút core ≥ BF vs tank: 37/40  | vs squishy: 23/40
+  Diện tích mix-tank (tổng 40 cửa sổ): core 107801 vs BF 86137  (+25.1%)
+  Diện tích mix-squishy: core 138012 vs BF 139325  (-0.9%)
+
+----------------------------------------------------------------------------------------
+VERDICT 40:00
+----------------------------------------------------------------------------------------
+  @28:00 mix tank  core 3852 vs BF 2848  (+35.2%)
+  @40:00 mix tank  core 4479 vs BF 3442  (+30.1%)
+  @40:00 mix squish core 5901 vs BF 6562  (-10.1%)
+
+  Core đề xuất thắng phần lớn game vì Malig sớm (~7) + Void
+  vs tank MR. Path BF mua Malig muộn (Lost Chapter thứ 2) nên
+  mất Hatefog cả mid-game; Infinity Orb là anti-squishy
+  execute, fog tank không proc <35% HP; không có Void.
+  Nếu game kéo 40 phút và BF path kịp Cap, khoảng cách hẹp
+  lại trên squishy (Orb+Cap AP), tank vẫn thua vì thiếu %pen.
+========================================================================================

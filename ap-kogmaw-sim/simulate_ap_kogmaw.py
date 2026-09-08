@@ -37,8 +37,10 @@ def gold_at_minute(m: int) -> int:
             total += 500
         elif t <= 22:
             total += 540
-        else:
+        elif t <= 28:
             total += 580
+        else:
+            total += 620
     return total
 
 
@@ -85,6 +87,7 @@ def squishy_mr(m: int) -> float:
     lv = level_at_minute(m)
     # Cloth / null-magic later
     extra = 0.0 if m < 14 else (12.0 if m < 22 else 25.0)
+    extra += 1.2 * max(0, m - 28)
     return 30 + 1.3 * lv + extra
 
 
@@ -100,18 +103,21 @@ def tank_mr(m: int) -> float:
     # Linear MR items after first back — avoids a fake "3rd item drop"
     # when the target's FoN/Visage spike lands on the same minute.
     extra = 0.0 if m < 8 else min(8.5 * (m - 8), 155.0)
+    extra += 4.0 * max(0, m - 28)
     return 32 + 2.05 * lv + extra
 
 
 def squishy_armor(m: int) -> float:
     lv = level_at_minute(m)
     extra = 0.0 if m < 14 else (18.0 if m < 22 else 35.0)
+    extra += 1.5 * max(0, m - 28)
     return 28.0 + 4.5 * lv + extra
 
 
 def tank_armor(m: int) -> float:
     lv = level_at_minute(m)
     extra = 0.0 if m < 8 else min(9.0 * (m - 8), 170.0)
+    extra += 4.0 * max(0, m - 28)
     return 33.0 + 4.6 * lv + extra
 
 
@@ -150,6 +156,7 @@ class Item:
     manamune: bool = False
     serylda: bool = False
     rylai: bool = False
+    infinity_orb: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -167,6 +174,13 @@ ITEMS: Dict[str, Item] = {
     "Boots": Item("Boots", 300, tags=("boots",)),
     "Sorcerer's Shoes": Item(
         "Sorcerer's Shoes", 1100, flat_mpen=12, tags=("boots",)
+    ),
+    "Boots of Mana": Item(
+        "Boots of Mana",
+        1200,
+        ap=25,
+        flat_mpen=8,
+        tags=("boots",),
     ),
     "Malignance": Item(
         "Malignance",
@@ -298,11 +312,20 @@ ITEMS: Dict[str, Item] = {
         rylai=True,
         tags=("slow",),
     ),
+    "Infinity Orb": Item(
+        "Infinity Orb",
+        3100,
+        ap=110,
+        flat_mpen=15,
+        infinity_orb=True,
+        tags=("squishy", "execute"),
+    ),
 }
 
 
 UPGRADE_COMPONENTS = {
     "Sorcerer's Shoes": ("Boots",),
+    "Boots of Mana": ("Boots",),
     "Malignance": ("Lost Chapter", "Blasting Wand"),
     "Luden's Echo": ("Lost Chapter", "Hextech Alternator"),
     "Blackfire Torch": ("Lost Chapter", "Fated Ashes"),
@@ -310,6 +333,7 @@ UPGRADE_COMPONENTS = {
     "Void Staff": ("Blighting Jewel", "Blasting Wand"),
     "Cryptbloom": ("Blighting Jewel", "Fiendish Codex", "Fiendish Codex"),
     "Shadowflame": ("Hextech Alternator", "Needlessly Large Rod"),
+    "Infinity Orb": ("Hextech Alternator", "Needlessly Large Rod"),
     "Rabadon's Deathcap": ("Needlessly Large Rod", "Needlessly Large Rod"),
     "Nashor's Tooth": ("Recurve Bow", "Blasting Wand", "Fiendish Codex"),
     "Horizon Focus": ("Fiendish Codex", "Fiendish Codex", "Amplifying Tome"),
@@ -332,9 +356,11 @@ NEXT_COMPONENTS = {
     "Void Staff": ["Blighting Jewel", "Blasting Wand"],
     "Cryptbloom": ["Blighting Jewel", "Fiendish Codex"],
     "Shadowflame": ["Hextech Alternator", "Needlessly Large Rod"],
+    "Infinity Orb": ["Hextech Alternator", "Needlessly Large Rod"],
     "Rabadon's Deathcap": ["Needlessly Large Rod"],
     "Nashor's Tooth": ["Recurve Bow", "Fiendish Codex", "Blasting Wand"],
     "Sorcerer's Shoes": ["Boots"],
+    "Boots of Mana": ["Boots"],
     "Horizon Focus": ["Fiendish Codex", "Amplifying Tome"],
     "Zhonya's Hourglass": ["Seeker's Armguard", "Needlessly Large Rod"],
     "Morellonomicon": ["Oblivion Orb"],
@@ -504,6 +530,7 @@ LEGENDARIES = {
     "Banshee's Veil",
     "Archangel's Staff",
     "Seraph's Embrace",
+    "Infinity Orb",
 }
 
 CORE_MALIG_LIANDRY_VOID: List[str] = [
@@ -590,10 +617,10 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
 
     def buy(item_name: str) -> bool:
         nonlocal gold_pool
-        # Boots slot: Sorcs replace Boots
-        if item_name == "Sorcerer's Shoes" and "Sorcerer's Shoes" in owned:
+        BOOT_UPGRADES = ("Sorcerer's Shoes", "Boots of Mana")
+        if item_name in BOOT_UPGRADES and item_name in owned:
             return False
-        if item_name != "Sorcerer's Shoes" and item_name in owned:
+        if item_name not in BOOT_UPGRADES and item_name in owned:
             return False
         cost = remaining_cost(item_name)
         if cost > gold_pool:
@@ -650,6 +677,8 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
                         break
 
     if "Sorcerer's Shoes" in owned and "Boots" in owned:
+        owned.remove("Boots")
+    if "Boots of Mana" in owned and "Boots" in owned:
         owned.remove("Boots")
 
     return [ITEMS[n] for n in owned]
@@ -746,6 +775,7 @@ def sum_stats(inv: List[Item]) -> dict:
         "void": False,
         "crypt": False,
         "horizon": False,
+        "orb": False,
     }
     names = []
     for it in inv:
@@ -781,6 +811,8 @@ def sum_stats(inv: List[Item]) -> dict:
             flags["crypt"] = True
         if it.horizon:
             flags["horizon"] = True
+        if it.infinity_orb:
+            flags["orb"] = True
 
     # Blackfire 4% AP per burning champ — fog poke usually 1, fights ~1.4
     bf_targets = 1.2
@@ -908,7 +940,13 @@ def window_damage(
         cinder = 1.0
     else:
         r_amp = 1.28
-        cinder = 1.12 if stats["sf"] else 1.0  # more time below 40%
+        cinder = 1.0
+        if stats.get("orb"):
+            # Inevitable Demise: +20% when target <35% HP — squishy poke hits
+            # execute range more often than a full-HP tank.
+            cinder = 1.20
+        elif stats["sf"]:
+            cinder = 1.12
 
     dmg = 0.0
 
@@ -1018,6 +1056,8 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         notes.append("on-hit")
     if st.get("horizon"):
         notes.append("Hypershot 10%")
+    if st.get("orb"):
+        notes.append("Orb execute")
     if n_leg == 0:
         notes.append("pre-legendary")
 
@@ -1505,6 +1545,12 @@ def main() -> None:
         report = report + "\n\n" + pen_text
     except Exception as exc:  # pragma: no cover
         report = report + f"\n\n[pen compare skipped: {exc}]\n"
+    try:
+        from compare_40 import compare as overtime_compare
+        ot_text, _ = overtime_compare()
+        report = report + "\n\n" + ot_text
+    except Exception as exc:  # pragma: no cover
+        report = report + f"\n\n[40m overtime skipped: {exc}]\n"
     print(report)
     out_dir = "/workspace/ap-kogmaw-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:

@@ -1,0 +1,1141 @@
+{
+  "game_minutes": 40,
+  "paths": {
+    "Core \u0111\u1ec1 xu\u1ea5t (Malig\u2192Liandry\u2192Void\u2192Cap)": [
+      "Lost Chapter",
+      "Blasting Wand",
+      "Malignance",
+      "Boots",
+      "Sorcerer's Shoes",
+      "Fated Ashes",
+      "Haunting Guise",
+      "Liandry's Torment",
+      "Blighting Jewel",
+      "Void Staff",
+      "Needlessly Large Rod",
+      "Rabadon's Deathcap",
+      "Fiendish Codex",
+      "Horizon Focus"
+    ],
+    "BF\u2192BoM\u2192Liandry\u2192Malig\u2192Orb\u2192Cap": [
+      "Fated Ashes",
+      "Lost Chapter",
+      "Blackfire Torch",
+      "Boots",
+      "Boots of Mana",
+      "Haunting Guise",
+      "Liandry's Torment",
+      "Lost Chapter",
+      "Blasting Wand",
+      "Malignance",
+      "Hextech Alternator",
+      "Needlessly Large Rod",
+      "Infinity Orb",
+      "Needlessly Large Rod",
+      "Rabadon's Deathcap"
+    ]
+  },
+  "spikes": {
+    "Core \u0111\u1ec1 xu\u1ea5t (Malig\u2192Liandry\u2192Void\u2192Cap)": {
+      "Malignance": 7,
+      "Sorcerer's Shoes": 10,
+      "Liandry's Torment": 16,
+      "Void Staff": 21,
+      "Rabadon's Deathcap": 28,
+      "Horizon Focus": 32
+    },
+    "BF\u2192BoM\u2192Liandry\u2192Malig\u2192Orb\u2192Cap": {
+      "Blackfire Torch": 7,
+      "Boots of Mana": 10,
+      "Liandry's Torment": 16,
+      "Malignance": 21,
+      "Infinity Orb": 27,
+      "Rabadon's Deathcap": 32
+    }
+  },
+  "gold_28": 13870,
+  "gold_40": 21310,
+  "ahead_minutes_tank": 37,
+  "ahead_minutes_squish": 23,
+  "area_mix_tank": {
+    "Core \u0111\u1ec1 xu\u1ea5t (Malig\u2192Liandry\u2192Void\u2192Cap)": 107800.7,
+    "BF\u2192BoM\u2192Liandry\u2192Malig\u2192Orb\u2192Cap": 86137.4
+  },
+  "minutes": [
+    {
+      "minute": 1,
+      "core_items": [],
+      "bf_items": [],
+      "core_mix_tank": 138.3,
+      "bf_mix_tank": 138.3,
+      "core_fog_tank": 99.4,
+      "bf_fog_tank": 99.4,
+      "core_siege_tank": 229.1,
+      "bf_siege_tank": 229.1,
+      "core_mix_squish": 128.8,
+      "bf_mix_squish": 128.8,
+      "core_ap": 0.0,
+      "bf_ap": 0.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 2,
+      "core_items": [],
+      "bf_items": [
+        "Fated Ashes"
+      ],
+      "core_mix_tank": 161.7,
+      "bf_mix_tank": 223.9,
+      "core_fog_tank": 106.3,
+      "bf_fog_tank": 161.7,
+      "core_siege_tank": 290.9,
+      "bf_siege_tank": 369.0,
+      "core_mix_squish": 151.6,
+      "bf_mix_squish": 210.6,
+      "core_ap": 0.0,
+      "bf_ap": 30.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 3,
+      "core_items": [
+        "Lost Chapter"
+      ],
+      "bf_items": [
+        "Fated Ashes"
+      ],
+      "core_mix_tank": 217.2,
+      "bf_mix_tank": 237.1,
+      "core_fog_tank": 145.3,
+      "bf_fog_tank": 167.7,
+      "core_siege_tank": 384.9,
+      "bf_siege_tank": 398.9,
+      "core_mix_squish": 205.7,
+      "bf_mix_squish": 224.8,
+      "core_ap": 40.0,
+      "bf_ap": 30.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 4,
+      "core_items": [
+        "Lost Chapter"
+      ],
+      "bf_items": [
+        "Fated Ashes"
+      ],
+      "core_mix_tank": 245.3,
+      "bf_mix_tank": 264.6,
+      "core_fog_tank": 151.5,
+      "bf_fog_tank": 173.6,
+      "core_siege_tank": 464.2,
+      "bf_siege_tank": 476.9,
+      "core_mix_squish": 234.2,
+      "bf_mix_squish": 252.7,
+      "core_ap": 40.0,
+      "bf_ap": 30.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 5,
+      "core_items": [
+        "Lost Chapter",
+        "Blasting Wand"
+      ],
+      "bf_items": [
+        "Fated Ashes"
+      ],
+      "core_mix_tank": 652.9,
+      "bf_mix_tank": 571.3,
+      "core_fog_tank": 536.0,
+      "bf_fog_tank": 471.5,
+      "core_siege_tank": 925.7,
+      "bf_siege_tank": 804.2,
+      "core_mix_squish": 676.3,
+      "bf_mix_squish": 590.7,
+      "core_ap": 85.0,
+      "bf_ap": 30.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 6,
+      "core_items": [
+        "Lost Chapter",
+        "Blasting Wand"
+      ],
+      "bf_items": [
+        "Fated Ashes",
+        "Lost Chapter"
+      ],
+      "core_mix_tank": 681.8,
+      "bf_mix_tank": 680.7,
+      "core_fog_tank": 537.1,
+      "bf_fog_tank": 541.1,
+      "core_siege_tank": 1019.3,
+      "bf_siege_tank": 1006.3,
+      "core_mix_squish": 707.7,
+      "bf_mix_squish": 704.7,
+      "core_ap": 85.0,
+      "bf_ap": 70.0,
+      "core_notes": "pre-legendary",
+      "bf_notes": "pre-legendary"
+    },
+    {
+      "minute": 7,
+      "core_items": [
+        "Malignance"
+      ],
+      "bf_items": [
+        "Blackfire Torch"
+      ],
+      "core_mix_tank": 1445.7,
+      "bf_mix_tank": 1098.6,
+      "core_fog_tank": 1262.8,
+      "bf_fog_tank": 931.8,
+      "core_siege_tank": 1872.3,
+      "bf_siege_tank": 1488.0,
+      "core_mix_squish": 1485.1,
+      "bf_mix_squish": 1138.4,
+      "core_ap": 90.0,
+      "bf_ap": 83.8,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 8,
+      "core_items": [
+        "Malignance",
+        "Boots"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots"
+      ],
+      "core_mix_tank": 1484.6,
+      "bf_mix_tank": 1138.8,
+      "core_fog_tank": 1254.9,
+      "bf_fog_tank": 928.6,
+      "core_siege_tank": 2020.6,
+      "bf_siege_tank": 1629.2,
+      "core_mix_squish": 1519.0,
+      "bf_mix_squish": 1172.5,
+      "core_ap": 90.0,
+      "bf_ap": 83.8,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 9,
+      "core_items": [
+        "Malignance",
+        "Boots"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots"
+      ],
+      "core_mix_tank": 1488.6,
+      "bf_mix_tank": 1158.1,
+      "core_fog_tank": 1241.4,
+      "bf_fog_tank": 931.1,
+      "core_siege_tank": 2065.6,
+      "bf_siege_tank": 1687.7,
+      "core_mix_squish": 1588.2,
+      "bf_mix_squish": 1237.7,
+      "core_ap": 90.0,
+      "bf_ap": 83.8,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 10,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana"
+      ],
+      "core_mix_tank": 1770.1,
+      "bf_mix_tank": 1453.7,
+      "core_fog_tank": 1485.9,
+      "bf_fog_tank": 1186.5,
+      "core_siege_tank": 2433.3,
+      "bf_siege_tank": 2077.2,
+      "core_mix_squish": 2022.7,
+      "bf_mix_squish": 1649.7,
+      "core_ap": 90.0,
+      "bf_ap": 110.0,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 11,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana"
+      ],
+      "core_mix_tank": 1699.1,
+      "bf_mix_tank": 1401.7,
+      "core_fog_tank": 1418.2,
+      "bf_fog_tank": 1136.4,
+      "core_siege_tank": 2354.6,
+      "bf_siege_tank": 2020.8,
+      "core_mix_squish": 2025.3,
+      "bf_mix_squish": 1652.1,
+      "core_ap": 90.0,
+      "bf_ap": 110.0,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 12,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Fated Ashes"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana"
+      ],
+      "core_mix_tank": 1841.8,
+      "bf_mix_tank": 1427.2,
+      "core_fog_tank": 1522.5,
+      "bf_fog_tank": 1142.4,
+      "core_siege_tank": 2586.8,
+      "bf_siege_tank": 2091.6,
+      "core_mix_squish": 2264.8,
+      "bf_mix_squish": 1728.4,
+      "core_ap": 120.0,
+      "bf_ap": 110.0,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 13,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Fated Ashes"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Haunting Guise"
+      ],
+      "core_mix_tank": 1777.5,
+      "bf_mix_tank": 1542.8,
+      "core_fog_tank": 1461.3,
+      "bf_fog_tank": 1216.9,
+      "core_siege_tank": 2515.4,
+      "bf_siege_tank": 2303.1,
+      "core_mix_squish": 2267.6,
+      "bf_mix_squish": 1930.9,
+      "core_ap": 120.0,
+      "bf_ap": 141.5,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 14,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Fated Ashes",
+        "Haunting Guise"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Haunting Guise"
+      ],
+      "core_mix_tank": 1993.8,
+      "bf_mix_tank": 1580.0,
+      "core_fog_tank": 1604.3,
+      "bf_fog_tank": 1230.5,
+      "core_siege_tank": 2902.7,
+      "bf_siege_tank": 2395.3,
+      "core_mix_squish": 2425.9,
+      "bf_mix_squish": 1892.2,
+      "core_ap": 150.0,
+      "bf_ap": 141.5,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 15,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Fated Ashes",
+        "Haunting Guise"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Haunting Guise",
+        "Fated Ashes"
+      ],
+      "core_mix_tank": 1933.0,
+      "bf_mix_tank": 1626.7,
+      "core_fog_tank": 1547.0,
+      "bf_fog_tank": 1258.7,
+      "core_siege_tank": 2833.8,
+      "bf_siege_tank": 2485.2,
+      "core_mix_squish": 2428.9,
+      "bf_mix_squish": 2006.5,
+      "core_ap": 150.0,
+      "bf_ap": 172.9,
+      "core_notes": "Hatefog+UH",
+      "bf_notes": "-"
+    },
+    {
+      "minute": 16,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment"
+      ],
+      "core_mix_tank": 2175.9,
+      "bf_mix_tank": 1887.0,
+      "core_fog_tank": 1773.5,
+      "bf_fog_tank": 1501.9,
+      "core_siege_tank": 3115.0,
+      "bf_siege_tank": 2785.6,
+      "core_mix_squish": 2729.9,
+      "bf_mix_squish": 2309.6,
+      "core_ap": 150.0,
+      "bf_ap": 172.9,
+      "core_notes": "Hatefog+UH, %HP burn",
+      "bf_notes": "%HP burn"
+    },
+    {
+      "minute": 17,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment"
+      ],
+      "core_mix_tank": 2121.6,
+      "bf_mix_tank": 1845.3,
+      "core_fog_tank": 1722.5,
+      "bf_fog_tank": 1462.4,
+      "core_siege_tank": 3052.7,
+      "bf_siege_tank": 2738.9,
+      "core_mix_squish": 2735.3,
+      "bf_mix_squish": 2314.5,
+      "core_ap": 150.0,
+      "bf_ap": 172.9,
+      "core_notes": "Hatefog+UH, %HP burn",
+      "bf_notes": "%HP burn"
+    },
+    {
+      "minute": 18,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Blighting Jewel"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Lost Chapter"
+      ],
+      "core_mix_tank": 2321.1,
+      "bf_mix_tank": 1940.7,
+      "core_fog_tank": 1858.3,
+      "bf_fog_tank": 1513.4,
+      "core_siege_tank": 3400.7,
+      "bf_siege_tank": 2937.8,
+      "core_mix_squish": 2978.5,
+      "bf_mix_squish": 2498.2,
+      "core_ap": 175.0,
+      "bf_ap": 214.8,
+      "core_notes": "Hatefog+UH, %HP burn",
+      "bf_notes": "%HP burn"
+    },
+    {
+      "minute": 19,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Blighting Jewel",
+        "Blasting Wand"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Lost Chapter"
+      ],
+      "core_mix_tank": 2413.2,
+      "bf_mix_tank": 1901.0,
+      "core_fog_tank": 1917.0,
+      "bf_fog_tank": 1476.1,
+      "core_siege_tank": 3571.1,
+      "bf_siege_tank": 2892.5,
+      "core_mix_squish": 3176.8,
+      "bf_mix_squish": 2503.4,
+      "core_ap": 220.0,
+      "bf_ap": 214.8,
+      "core_notes": "Hatefog+UH, %HP burn",
+      "bf_notes": "%HP burn"
+    },
+    {
+      "minute": 20,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Blighting Jewel",
+        "Blasting Wand"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Lost Chapter",
+        "Blasting Wand"
+      ],
+      "core_mix_tank": 2568.7,
+      "bf_mix_tank": 2171.3,
+      "core_fog_tank": 2053.4,
+      "bf_fog_tank": 1695.7,
+      "core_siege_tank": 3771.1,
+      "bf_siege_tank": 3280.8,
+      "core_mix_squish": 3503.4,
+      "bf_mix_squish": 2972.5,
+      "core_ap": 220.0,
+      "bf_ap": 262.0,
+      "core_notes": "Hatefog+UH, %HP burn",
+      "bf_notes": "%HP burn"
+    },
+    {
+      "minute": 21,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance"
+      ],
+      "core_mix_tank": 3101.4,
+      "bf_mix_tank": 2532.7,
+      "core_fog_tank": 2466.0,
+      "bf_fog_tank": 2030.4,
+      "core_siege_tank": 4584.0,
+      "bf_siege_tank": 3704.7,
+      "core_mix_squish": 3938.7,
+      "bf_mix_squish": 3636.2,
+      "core_ap": 245.0,
+      "bf_ap": 267.2,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 22,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance"
+      ],
+      "core_mix_tank": 3087.7,
+      "bf_mix_tank": 2500.7,
+      "core_fog_tank": 2426.7,
+      "bf_fog_tank": 1982.0,
+      "core_siege_tank": 4630.2,
+      "bf_siege_tank": 3710.9,
+      "core_mix_squish": 3800.8,
+      "bf_mix_squish": 3430.9,
+      "core_ap": 245.0,
+      "bf_ap": 267.2,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 23,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Hextech Alternator"
+      ],
+      "core_mix_tank": 3043.7,
+      "bf_mix_tank": 2585.6,
+      "core_fog_tank": 2383.5,
+      "bf_fog_tank": 2034.0,
+      "core_siege_tank": 4584.3,
+      "bf_siege_tank": 3872.9,
+      "core_mix_squish": 3807.3,
+      "bf_mix_squish": 3632.2,
+      "core_ap": 245.0,
+      "bf_ap": 314.4,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 24,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Needlessly Large Rod"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Hextech Alternator"
+      ],
+      "core_mix_tank": 3238.6,
+      "bf_mix_tank": 2535.4,
+      "core_fog_tank": 2512.4,
+      "bf_fog_tank": 1987.3,
+      "core_siege_tank": 4933.2,
+      "bf_siege_tank": 3814.2,
+      "core_mix_squish": 4126.7,
+      "bf_mix_squish": 3638.1,
+      "core_ap": 310.0,
+      "bf_ap": 314.4,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 25,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Needlessly Large Rod"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Hextech Alternator",
+        "Needlessly Large Rod"
+      ],
+      "core_mix_tank": 3228.1,
+      "bf_mix_tank": 2697.6,
+      "core_fog_tank": 2474.6,
+      "bf_fog_tank": 2078.5,
+      "core_siege_tank": 4986.5,
+      "bf_siege_tank": 4142.3,
+      "core_mix_squish": 4174.5,
+      "bf_mix_squish": 3955.8,
+      "core_ap": 310.0,
+      "bf_ap": 382.5,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 26,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Needlessly Large Rod"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Hextech Alternator",
+        "Needlessly Large Rod"
+      ],
+      "core_mix_tank": 3185.6,
+      "bf_mix_tank": 2648.5,
+      "core_fog_tank": 2433.2,
+      "bf_fog_tank": 2033.3,
+      "core_siege_tank": 4941.4,
+      "bf_siege_tank": 4084.1,
+      "core_mix_squish": 4181.5,
+      "bf_mix_squish": 3962.0,
+      "core_ap": 310.0,
+      "bf_ap": 382.5,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA"
+    },
+    {
+      "minute": 27,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Needlessly Large Rod"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb"
+      ],
+      "core_mix_tank": 3192.5,
+      "bf_mix_tank": 2830.1,
+      "core_fog_tank": 2429.7,
+      "bf_fog_tank": 2164.4,
+      "core_siege_tank": 4972.6,
+      "bf_siege_tank": 4383.4,
+      "core_mix_squish": 4188.4,
+      "bf_mix_squish": 5345.0,
+      "core_ap": 310.0,
+      "bf_ap": 382.5,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 28,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb"
+      ],
+      "core_mix_tank": 3851.8,
+      "bf_mix_tank": 2848.5,
+      "core_fog_tank": 2879.9,
+      "bf_fog_tank": 2170.6,
+      "core_siege_tank": 6119.4,
+      "bf_siege_tank": 4430.2,
+      "core_mix_squish": 5059.6,
+      "bf_mix_squish": 5353.3,
+      "core_ap": 487.5,
+      "bf_ap": 382.5,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 29,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Fiendish Codex"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Needlessly Large Rod"
+      ],
+      "core_mix_tank": 3957.4,
+      "bf_mix_tank": 3028.9,
+      "core_fog_tank": 2941.4,
+      "bf_fog_tank": 2287.8,
+      "core_siege_tank": 6328.2,
+      "bf_siege_tank": 4758.1,
+      "core_mix_squish": 5204.0,
+      "bf_mix_squish": 5709.0,
+      "core_ap": 520.0,
+      "bf_ap": 450.6,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 30,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Needlessly Large Rod"
+      ],
+      "core_mix_tank": 4039.2,
+      "bf_mix_tank": 3011.5,
+      "core_fog_tank": 2985.8,
+      "bf_fog_tank": 2266.4,
+      "core_siege_tank": 6497.3,
+      "bf_siege_tank": 4749.9,
+      "core_mix_squish": 5316.2,
+      "bf_mix_squish": 5680.2,
+      "core_ap": 546.0,
+      "bf_ap": 450.6,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 31,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Needlessly Large Rod"
+      ],
+      "core_mix_tank": 4028.2,
+      "bf_mix_tank": 2994.5,
+      "core_fog_tank": 2966.3,
+      "bf_fog_tank": 2245.6,
+      "core_siege_tank": 6506.0,
+      "bf_siege_tank": 4741.8,
+      "core_mix_squish": 5302.2,
+      "bf_mix_squish": 5651.8,
+      "core_ap": 546.0,
+      "bf_ap": 450.6,
+      "core_notes": "Hatefog+UH, %HP burn, %pen",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 32,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4570.9,
+      "bf_mix_tank": 3591.4,
+      "core_fog_tank": 3345.0,
+      "bf_fog_tank": 2646.7,
+      "core_siege_tank": 7431.2,
+      "bf_siege_tank": 5795.8,
+      "core_mix_squish": 6023.6,
+      "bf_mix_squish": 6822.0,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 33,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4558.7,
+      "bf_mix_tank": 3571.3,
+      "core_fog_tank": 3323.5,
+      "bf_fog_tank": 2622.0,
+      "core_siege_tank": 7440.7,
+      "bf_siege_tank": 5786.4,
+      "core_mix_squish": 6007.8,
+      "bf_mix_squish": 6788.0,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 34,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4546.6,
+      "bf_mix_tank": 3551.6,
+      "core_fog_tank": 3302.3,
+      "bf_fog_tank": 2597.8,
+      "core_siege_tank": 7450.0,
+      "bf_siege_tank": 5777.1,
+      "core_mix_squish": 5992.2,
+      "bf_mix_squish": 6754.6,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 35,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4534.8,
+      "bf_mix_tank": 3532.4,
+      "core_fog_tank": 3281.5,
+      "bf_fog_tank": 2574.2,
+      "core_siege_tank": 7459.2,
+      "bf_siege_tank": 5768.1,
+      "core_mix_squish": 5976.7,
+      "bf_mix_squish": 6721.5,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 36,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4523.2,
+      "bf_mix_tank": 3513.6,
+      "core_fog_tank": 3261.0,
+      "bf_fog_tank": 2551.1,
+      "core_siege_tank": 7468.2,
+      "bf_siege_tank": 5759.2,
+      "core_mix_squish": 5961.4,
+      "bf_mix_squish": 6688.8,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 37,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4511.8,
+      "bf_mix_tank": 3495.2,
+      "core_fog_tank": 3240.9,
+      "bf_fog_tank": 2528.6,
+      "core_siege_tank": 7477.0,
+      "bf_siege_tank": 5750.6,
+      "core_mix_squish": 5946.1,
+      "bf_mix_squish": 6656.6,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 38,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4500.5,
+      "bf_mix_tank": 3477.2,
+      "core_fog_tank": 3221.2,
+      "bf_fog_tank": 2506.5,
+      "core_siege_tank": 7485.7,
+      "bf_siege_tank": 5742.1,
+      "core_mix_squish": 5931.0,
+      "bf_mix_squish": 6624.7,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 39,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4489.5,
+      "bf_mix_tank": 3459.6,
+      "core_fog_tank": 3201.8,
+      "bf_fog_tank": 2484.9,
+      "core_siege_tank": 7494.2,
+      "bf_siege_tank": 5733.8,
+      "core_mix_squish": 5916.0,
+      "bf_mix_squish": 6593.3,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    },
+    {
+      "minute": 40,
+      "core_items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "bf_items": [
+        "Blackfire Torch",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Malignance",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "core_mix_tank": 4478.6,
+      "bf_mix_tank": 3442.3,
+      "core_fog_tank": 3182.7,
+      "bf_fog_tank": 2463.7,
+      "core_siege_tank": 7502.6,
+      "bf_siege_tank": 5725.7,
+      "core_mix_squish": 5901.2,
+      "bf_mix_squish": 6562.2,
+      "core_ap": 585.0,
+      "bf_ap": 667.3,
+      "core_notes": "Hatefog+UH, %HP burn, %pen, Hypershot 10%",
+      "bf_notes": "Hatefog+UH, %HP burn, DOUBLE MANA, Orb execute"
+    }
+  ]
+}
