@@ -296,6 +296,55 @@ Q không sạc: AA chồng Snippy rồi dump nón. Sát thương mạnh ở **t�
 
 ---
 
+## Chống chịu, skill giống gồng / xả
+
+Vladimir mỏng. Tank/bruiser **cùng kiểu giữ–nhả** trên Tốc Chiến:
+
+| Tướng | Skill giống | Lane | MB03 |
+|---|---|---|---|
+| **Galio** | W gồng khiên, nhả taunt — gần E Vladimir nhất | Giữa / Baron | **Lấy trước** |
+| **Sion** | Q gồng smash, R gồng đâm | Baron | Đã lấy |
+| **Poppy** | R gồng búa 4s, nhả đẩy về nhà; tap R = knockup gần | Baron / rừng | Lấy |
+| **Zac** | E gồng bật, analog chỉnh góc, nhả đáp | Rừng | Lấy |
+| **Rammus** | Q lăn (analog lái), đụng người rồi W cuộn | Rừng | Lấy |
+| **Nunu** | W gồng cầu tuyết | Rừng | Đã lấy |
+| **Alistar** | Không gồng: **W húc rồi Q giẫm** (đỡ nhầm thứ tự) | Hỗ trợ | Lấy |
+| **Malphite** | E rồi R (all-in trình tự) | Baron | Được |
+| **Braum** | E giữ khiên chặn đạn (giữ hướng analog) | Hỗ trợ | Được |
+
+**Không** có tank nào hồ máu + gồng E đúng như Vladimir. Gần nhất là **Galio W**: giữ = giảm sát thương + đi chậm analog, nhả = xả taunt. Có thể Flash lúc đang gồng rồi nhả.
+
+### Galio — tank gồng W
+
+- L1 = W (giữ–nhả, sạc ~1.25s taunt max)
+- L2 = E (đấm bay)
+- L3 = Q
+- L4 = R (nhảy tới đồng đội)
+
+Gồng từ bụi. Trình tự: giữ L1 → (Flash) → nhả → L2. Ưu tiên tướng **gần nhất**.
+
+### Poppy — tank gồng R
+
+- L1 = Q
+- L2 = E (húc tường)
+- L3 = W (cắt dash)
+- L4 = R (giữ–nhả; tap = knockup gấp)
+
+### Alistar — combo trình tự, không gồng
+
+W trước, Q sau. Q trước = giẫm tại chỗ, W húc bay đội bạn.
+
+- L1 = Q (giẫm — **sau**)
+- L2 = W (húc — **trước**)
+- L3 = E
+- L4 = R
+
+Trình tự: L2 → L1.
+
+K'Sante / Ambessa chống chịu nhưng combo dash dày — bỏ, cùng họ Gwen.
+
+---
+
 ## Không lấy trên MB03 (lợi âm)
 
 Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne all-in, Fiora, Kalista, **Gwen** — quá nhiều nút / wall-dash / AA nhịp / nhắm tâm Q mà 6 nút + một analog không gỡ.
