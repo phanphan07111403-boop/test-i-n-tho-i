@@ -254,3 +254,160 @@ FULL BUY ORDER
   tank không chết, món 3 cảm giác tuột.
   Trap: Liandry first delay Malig → mất spike fog R phút 8–12.
 ================================================================================
+
+==================================================================================
+AP KOG'MAW — SERAPH'S EMBRACE vs KHÔNG SERAPH
+Full build (5 legendary + Sorcs) | level 18 | target @ 28:00
+Tank 4440 HP / 224 MR   |  Squishy 3016 HP / 78 MR
+==================================================================================
+
+LUẬT ITEM (quan trọng)
+  • Archangel's Staff = Manaflow → KHÔNG đeo cùng Malignance/Luden/BF.
+  • Seraph (sau transform) KHÔNG còn Manaflow (patch 26.1) → được
+    đeo cùng Malignance, NHƯNG phải transform xong rồi mới mua Malig.
+  • Hệ quả: muốn Malig+Seraph thì Tear/Archangel TRƯỚC, Malig sau
+    ~12–16:00. Mất spike Malig phút 7. Liandry/Void delayed.
+  • Seraph: 70 AP, 1000 mana, 25 AH, Awe 2% bonus mana,
+    Lifeline 18% max mana shield / 3s / 90s CD.
+
+----------------------------------------------------------------------------------
+STATS FULL BUILD
+----------------------------------------------------------------------------------
+  Build                                AP   AH  UH  Mana  AweAP  Shield    HP
+  KHÔNG Seraph (hiện tại)             647   40  20  1880      0       0  2618
+  CÓ Seraph (thay Horizon)            689   40  20  2880     48     518  2618
+  CÓ Seraph (thay Malig)              654   50   0  2280     32     410  2618
+  CÓ Seraph (thay Deathcap)           475   65  20  2880     37     518  2618
+
+  Slot 5 so với Horizon (75 AP + 25 AH + 10% Hypershot):
+    Seraph: 70 AP + 37 Awe raw (48 sau Deathcap) + 1000 mana + 518 shield. Cùng 25 AH. Mất 10% amp.
+
+----------------------------------------------------------------------------------
+DAMAGE THEO CỬA SỔ  (Δ vs KHÔNG Seraph)
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    KHÔNG Seraph (hiện tại)              4735  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)             5160     +9.0%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)               4522     -4.5%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)            4705     -0.6%  mana-cap 10/12 R
+
+  [Fog 8s vs SQUISHY]
+    KHÔNG Seraph (hiện tại)              7026  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)             7756    +10.4%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)               6705     -4.6%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)            7016     -0.1%  mana-cap 10/12 R
+
+  [W siege 8s vs TANK (brush autos)]
+    KHÔNG Seraph (hiện tại)              8964  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)             9172     +2.3%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)               8633     -3.7%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)            8249     -8.0%  mana-cap 10/12 R
+
+  [W siege 8s vs SQUISHY]
+    KHÔNG Seraph (hiện tại)             11102  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)            11631     +4.8%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)              10598     -4.5%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)           10437     -6.0%  mana-cap 10/12 R
+
+  [Fog 20s vs TANK (siege R kéo dài)]
+    KHÔNG Seraph (hiện tại)              5932  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)             6454     +8.8%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)               5256    -11.4%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)            6053     +2.0%  mana-cap 10/12 R
+
+  [Fog 20s vs SQUISHY]
+    KHÔNG Seraph (hiện tại)              8369  baseline  mana-cap 8/12 R
+    CÓ Seraph (thay Horizon)             9266    +10.7%  mana-cap 10/12 R
+    CÓ Seraph (thay Malig)               7395    -11.6%  mana-cap 9/12 R
+    CÓ Seraph (thay Deathcap)            8570     +2.4%  mana-cap 10/12 R
+
+----------------------------------------------------------------------------------
+BREAKDOWN NGUỒN DAMAGE  (sau MR, trước Horizon/Cut Down/Suffering)
+  Rồi nhân multiplier (Horizon 10% / Cut Down 8% / Madness).
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    KHÔNG Seraph (hiện tại)  AP 647  mult x1.236  final 4735
+      Q     470 | R    2426 (8 shot) | W       0 | Liandry     387 | Hatefog     402 | Comet    148
+    CÓ Seraph (thay Horizon)  AP 689  mult x1.123  final 5160
+      Q     491 | R    3156 (10 shot) | W       0 | Liandry     387 | Hatefog     411 | Comet    150
+    Seraph−baseline (pre-mult):
+      Q +21 | R +730 | W +0 | Liandry +0 | Hatefog +9 | Comet +2
+
+  [W siege 8s vs TANK (brush autos)]
+    KHÔNG Seraph (hiện tại)  AP 647  mult x1.259  final 8964
+      Q     470 | R    2426 (8 shot) | W    3319 | Liandry     387 | Hatefog     402 | Comet    114
+    CÓ Seraph (thay Horizon)  AP 689  mult x1.145  final 9172
+      Q     491 | R    3156 (10 shot) | W    3451 | Liandry     387 | Hatefog     411 | Comet    116
+    Seraph−baseline (pre-mult):
+      Q +21 | R +730 | W +132 | Liandry +0 | Hatefog +9 | Comet +2
+
+  [Fog 20s vs TANK (siege R kéo dài)]
+    KHÔNG Seraph (hiện tại)  AP 647  mult x1.236  final 5932
+      Q     470 | R    2426 (8 shot) | W       0 | Liandry    1001 | Hatefog     757 | Comet    148
+    CÓ Seraph (thay Horizon)  AP 689  mult x1.123  final 6454
+      Q     491 | R    3156 (10 shot) | W       0 | Liandry    1001 | Hatefog     948 | Comet    150
+    Seraph−baseline (pre-mult):
+      Q +21 | R +730 | W +0 | Liandry +0 | Hatefog +191 | Comet +2
+
+----------------------------------------------------------------------------------
+MẠNH CHỖ NÀO / YẾU CHỖ NÀO
+----------------------------------------------------------------------------------
+  1) Seraph THAY HORIZON (giữ Malig+Liandry+Void+Cap)
+     Fog 8s tank:   +9.0%  (5160 vs 4735)
+     Fog 8s squish: +10.4%
+     W 8s tank:     +2.3%
+     Fog 20s tank:  +8.8%
+     R shots 8s fog: 10 vs 8  | 20s: 10 vs 8
+     Shield: 518 HP-equivalent / 90s (dưới 30% HP).
+     MẠNH: +2 R (8→10) vì trần là mana; Awe+Cap +48 AP; shield 518.
+     YẾU: mất Horizon 10% trên Liandry + W %HP. Liandry pre-mult
+           không tăng (burn không scale AP). W-tank gần hòa.
+           Fog thuần (không W) thì Seraph thắng rõ.
+
+  2) Seraph THAY MALIGNANCE (giữ Horizon)
+     Fog 8s tank:   -4.5%  (4522 vs 4735)
+     Fog 20s tank:  -11.4%
+     YẾU NẶNG: mất Hatefog 60(+5% AP)/s + 10 MR shred + 20 UH.
+     Zone R là identity núp bắn. Seraph không thay được.
+     MẠNH hơn một chút ở shield + mana thuần, không đủ bù zone.
+
+  3) Seraph THAY DEATHCAP (giữ Malig+Horizon)
+     Fog 8s tank:   -0.6%
+     W 8s tank:     -8.0%
+     YẾU: W %HP và R scale AP mất 30% multiplier. Đau tank giảm.
+     Chỉ cân nhắc nếu bạn OOM liên tục và không bao giờ đủ gold Cap.
+
+  TIMING (không hiện trên bảng full-build):
+     Tear 400g từ back đầu → Archangel ~11:00 → Seraph transform
+     ~14–16:00 → Malig ~18–20:00 → Liandry ~24:00. Path không
+     Seraph đã có Liandry ~16 và Void ~21. Mid-game tank damage
+     của path Seraph+Malig TỤT cho đến khi 4 món xong.
+
+----------------------------------------------------------------------------------
+VERDICT SERAPH
+----------------------------------------------------------------------------------
+  LATE GAME (cả 5 món xong, so slot 5 Seraph vs Horizon):
+    Fog 8s tank +425 (+9.0%)  | W-tank +208 (+2.3%)
+    Mix 70/30 núp+siege vs tank: 6364 vs 6004  (+6.0%)
+    Seraph thắng DPS vì +2 R (8→10) — mana là trần, không phải CD.
+    W vs tank gần hòa: Horizon 10% ăn vào W %HP (cột W to),
+    bù gần hết 2 R thêm. Fog thuần (không W) thì Seraph rõ hơn.
+
+  KHÔNG đổi Malignance: fog tank -4.5% / 20s -11.4%.
+  KHÔNG đổi Deathcap: W tank -8.0% — mất 30% AP.
+
+  GIÁ PHẢI TRẢ: Tear → Archangel → Seraph TRƯỚC Malig.
+    Mất spike Hatefog phút 7–16, Liandry/Void muộn ~4–6 phút.
+    Bảng trên là full-build đã xong; mid-game path Seraph TỤT.
+
+  Nên Seraph khi:
+    • Bạn chấp nhận late (4–5 món) và núp R dump — mana-cap thật;
+    • Bị dive, cần Lifeline ~518 shield / 90s;
+    • Có slot 6/7 (bot quest): giữ Horizon + thêm Seraph, không thay.
+  Không Seraph khi:
+    • Game hay kết 20–25 phút (chưa tới 5 món / Tear delay);
+    • Play W siege tank nhiều hơn dump R;
+    • Phải thay Malig hoặc Deathcap.
+  Default vẫn: Malig → Liandry → Void → Cap → Horizon.
+  Seraph = flex món 5 NẾU bạn dump R đến OOM; không phải core.
+==================================================================================

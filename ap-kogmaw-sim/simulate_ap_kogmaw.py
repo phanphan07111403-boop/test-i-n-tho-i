@@ -129,6 +129,8 @@ class Item:
     ashes: bool = False
     guise: bool = False
     horizon: bool = False
+    seraph: bool = False
+    archangel: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -223,6 +225,25 @@ ITEMS: Dict[str, Item] = {
     "Banshee's Veil": Item(
         "Banshee's Veil", 3000, ap=105, tags=("defense",)
     ),
+    "Tear of the Goddess": Item("Tear of the Goddess", 400, mana=240),
+    "Archangel's Staff": Item(
+        "Archangel's Staff",
+        2900,
+        ap=70,
+        ah=25,
+        mana=600,
+        archangel=True,
+        tags=("mana",),
+    ),
+    "Seraph's Embrace": Item(
+        "Seraph's Embrace",
+        2900,
+        ap=70,
+        ah=25,
+        mana=1000,
+        seraph=True,
+        tags=("mana", "shield"),
+    ),
 }
 
 
@@ -241,6 +262,8 @@ UPGRADE_COMPONENTS = {
     "Zhonya's Hourglass": ("Needlessly Large Rod", "Seeker's Armguard"),
     "Morellonomicon": ("Oblivion Orb",),
     "Banshee's Veil": ("Needlessly Large Rod",),
+    "Archangel's Staff": ("Tear of the Goddess", "Lost Chapter", "Fiendish Codex"),
+    "Seraph's Embrace": ("Archangel's Staff",),
 }
 
 NEXT_COMPONENTS = {
@@ -258,6 +281,8 @@ NEXT_COMPONENTS = {
     "Zhonya's Hourglass": ["Seeker's Armguard", "Needlessly Large Rod"],
     "Morellonomicon": ["Oblivion Orb"],
     "Banshee's Veil": ["Needlessly Large Rod"],
+    "Archangel's Staff": ["Tear of the Goddess", "Lost Chapter", "Fiendish Codex"],
+    "Seraph's Embrace": ["Archangel's Staff"],
 }
 
 
@@ -419,6 +444,8 @@ LEGENDARIES = {
     "Zhonya's Hourglass",
     "Morellonomicon",
     "Banshee's Veil",
+    "Archangel's Staff",
+    "Seraph's Embrace",
 }
 
 CORE_MALIG_LIANDRY_VOID: List[str] = [
@@ -1370,6 +1397,12 @@ def main() -> None:
     results, timeline = run_all()
     self_check(results)
     report = summarize(results, timeline)
+    try:
+        from compare_seraph import compare as seraph_compare
+        seraph_text, _ = seraph_compare()
+        report = report + "\n\n" + seraph_text
+    except Exception as exc:  # pragma: no cover
+        report = report + f"\n\n[seraph compare skipped: {exc}]\n"
     print(report)
     out_dir = "/workspace/ap-kogmaw-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:

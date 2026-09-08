@@ -6,11 +6,13 @@ PC League of Legends, patch **~26.x**. Fog-of-war Living Artillery poke over a *
 
 ```bash
 python3 simulate_ap_kogmaw.py
+python3 compare_seraph.py
 ```
 
 Outputs:
-- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks
+- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph appendix
 - `results.json` — machine-readable snapshots per build
+- `seraph_compare.txt` / `seraph_compare.json` — full 5-item with vs without Seraph
 
 ## Question answered
 
@@ -43,6 +45,26 @@ At 22:00 vs a tank (~3850 HP / 186 MR), this path deals **~32% more** mix damage
 | Banshee | ~27:00 | AP pick |
 
 5th–6th: remaining flex. Do not sell Void.
+
+## Seraph's Embrace vs no Seraph (full 5-item)
+
+Seraph (70 AP / 1000 mana / 25 AH / Awe 2% bonus mana / 18% max-mana shield) is **not** Manaflow-exclusive after patch 26.1, but **Archangel's Staff still is**. Malignance + Seraph only works if Seraph has already transformed.
+
+At equal finished items (Malig + Liandry + Void + Deathcap + slot 5), **Seraph instead of Horizon**:
+
+| Window | vs no-Seraph |
+|--------|----------------|
+| Fog 8s tank | **+9.0%** (10 R vs 8 — mana cap, not CD) |
+| Fog 8s squishy | **+10.4%** |
+| W siege 8s tank | **+2.3%** (Horizon 10% on W %HP almost ties) |
+| Mix 70/30 tank | ~**+7%** |
+| Shield | **+518** (Lifeline, 90s, below 30% HP) |
+
+**Do not** replace Malignance (−4.5% fog / −11% 20s tank — lose Hatefog) or Deathcap (−8% W tank).
+
+Cost: Tear → Archangel → Seraph **before** Malignance, so you lose the minute-7 Hatefog spike and delay Liandry/Void. Mid-game the Seraph path is behind; late dump-R it can go ahead.
+
+Default still Malig → Liandry → Void → Cap → Horizon. Seraph is a 5th-slot flex if you actually OOM on R, or a 6th item if you have an extra slot.
 
 ## Runes
 

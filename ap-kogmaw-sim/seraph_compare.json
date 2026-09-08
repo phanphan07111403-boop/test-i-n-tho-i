@@ -1,0 +1,484 @@
+{
+  "level": 18,
+  "minute": 28,
+  "tank": {
+    "hp": 4440,
+    "mr": 223.9
+  },
+  "squishy": {
+    "hp": 3016,
+    "mr": 78.4
+  },
+  "kits": {
+    "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 647.4,
+      "ah": 40.0,
+      "ult_haste": 20.0,
+      "max_mana": 1880.0,
+      "awe_ap": 0.0,
+      "shield": 0.0,
+      "kog_hp": 2618.0,
+      "note": "Malig + Liandry + Void + Cap + Horizon \u2014 m\u00f3n 5 l\u00e0 Hypershot 10%"
+    },
+    "C\u00d3 Seraph (thay Horizon)": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Seraph's Embrace"
+      ],
+      "ap": 689.0,
+      "ah": 40.0,
+      "ult_haste": 20.0,
+      "max_mana": 2880.0,
+      "awe_ap": 48.1,
+      "shield": 518.4,
+      "kog_hp": 2618.0,
+      "note": "Gi\u1eef Malig+Liandry+Void+Cap; Seraph thay Horizon. Ph\u1ea3i transform Seraph TR\u01af\u1edaC Malig."
+    },
+    "C\u00d3 Seraph (thay Malig)": {
+      "items": [
+        "Seraph's Embrace",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 653.9,
+      "ah": 50.0,
+      "ult_haste": 0.0,
+      "max_mana": 2280.0,
+      "awe_ap": 32.5,
+      "shield": 410.4,
+      "kog_hp": 2618.0,
+      "note": "Seraph l\u00e0m mana item, gi\u1eef Horizon 10%. M\u1ea5t Hatefog + 20 ult haste."
+    },
+    "C\u00d3 Seraph (thay Deathcap)": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Horizon Focus",
+        "Seraph's Embrace"
+      ],
+      "ap": 475.0,
+      "ah": 65.0,
+      "ult_haste": 20.0,
+      "max_mana": 2880.0,
+      "awe_ap": 37.0,
+      "shield": 518.4,
+      "kog_hp": 2618.0,
+      "note": "Gi\u1eef fog kit (Malig+Horizon) nh\u01b0ng m\u1ea5t 30% AP amp."
+    }
+  },
+  "scenarios": {
+    "Fog 8s vs TANK (n\u00fap R, kh\u00f4ng W)": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 4735.1,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 0.0,
+          "Liandry": 386.8,
+          "Hatefog": 402.3,
+          "Comet": 147.6,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 5160.3,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.1232,
+        "parts": {
+          "Q": 490.7,
+          "R": 3155.6,
+          "W": 0.0,
+          "Liandry": 386.8,
+          "Hatefog": 411.4,
+          "Comet": 149.9,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 4522.4,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 473.1,
+          "R": 2665.4,
+          "W": 0.0,
+          "Liandry": 373.8,
+          "Hatefog": 0.0,
+          "Comet": 148.0,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 4705.2,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 383.3,
+          "R": 2535.5,
+          "W": 0.0,
+          "Liandry": 386.8,
+          "Hatefog": 364.8,
+          "Comet": 138.0,
+          "shots": 10
+        }
+      }
+    },
+    "Fog 8s vs SQUISHY": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 7026.4,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 0.0,
+          "Liandry": 399.5,
+          "Hatefog": 611.8,
+          "Comet": 220.6,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 7756.5,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.04,
+        "parts": {
+          "Q": 733.5,
+          "R": 5475.4,
+          "W": 0.0,
+          "Liandry": 399.5,
+          "Hatefog": 625.6,
+          "Comet": 224.1,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 6705.3,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 707.2,
+          "R": 4553.3,
+          "W": 0.0,
+          "Liandry": 379.6,
+          "Hatefog": 0.0,
+          "Comet": 221.2,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 7016.1,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 573.0,
+          "R": 4399.4,
+          "W": 0.0,
+          "Liandry": 399.5,
+          "Hatefog": 554.7,
+          "Comet": 206.3,
+          "shots": 10
+        }
+      }
+    },
+    "W siege 8s vs TANK (brush autos)": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 8964.2,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 3319.3,
+          "Liandry": 386.8,
+          "Hatefog": 402.3,
+          "Comet": 114.4,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 9171.8,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.1448,
+        "parts": {
+          "Q": 490.7,
+          "R": 3155.6,
+          "W": 3451.1,
+          "Liandry": 386.8,
+          "Hatefog": 411.4,
+          "Comet": 116.2,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 8632.6,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 473.1,
+          "R": 2665.4,
+          "W": 3228.1,
+          "Liandry": 373.8,
+          "Hatefog": 0.0,
+          "Comet": 114.7,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 8248.5,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 383.3,
+          "R": 2535.5,
+          "W": 2772.9,
+          "Liandry": 386.8,
+          "Hatefog": 364.8,
+          "Comet": 106.9,
+          "shots": 10
+        }
+      }
+    },
+    "W siege 8s vs SQUISHY": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 11101.8,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.166,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 3429.0,
+          "Liandry": 399.5,
+          "Hatefog": 611.8,
+          "Comet": 171.0,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 11631.2,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.06,
+        "parts": {
+          "Q": 733.5,
+          "R": 5475.4,
+          "W": 3565.1,
+          "Liandry": 399.5,
+          "Hatefog": 625.6,
+          "Comet": 173.7,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 10598.0,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.166,
+        "parts": {
+          "Q": 707.2,
+          "R": 4553.3,
+          "W": 3277.7,
+          "Liandry": 379.6,
+          "Hatefog": 0.0,
+          "Comet": 171.4,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 10437.0,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.166,
+        "parts": {
+          "Q": 573.0,
+          "R": 4399.4,
+          "W": 2864.6,
+          "Liandry": 399.5,
+          "Hatefog": 554.7,
+          "Comet": 159.9,
+          "shots": 10
+        }
+      }
+    },
+    "Fog 20s vs TANK (siege R k\u00e9o d\u00e0i)": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 5932.4,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 0.0,
+          "Liandry": 1001.5,
+          "Hatefog": 756.6,
+          "Comet": 147.6,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 6453.6,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.1232,
+        "parts": {
+          "Q": 490.7,
+          "R": 3155.6,
+          "W": 0.0,
+          "Liandry": 1001.5,
+          "Hatefog": 948.0,
+          "Comet": 149.9,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 5256.5,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 473.1,
+          "R": 2665.4,
+          "W": 0.0,
+          "Liandry": 968.0,
+          "Hatefog": 0.0,
+          "Comet": 148.0,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 6052.7,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 383.3,
+          "R": 2535.5,
+          "W": 0.0,
+          "Liandry": 1001.5,
+          "Hatefog": 840.6,
+          "Comet": 138.0,
+          "shots": 10
+        }
+      }
+    },
+    "Fog 20s vs SQUISHY": {
+      "KH\u00d4NG Seraph (hi\u1ec7n t\u1ea1i)": {
+        "damage": 8369.4,
+        "shots": 8,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 0.0,
+          "Liandry": 1034.6,
+          "Hatefog": 1150.7,
+          "Comet": 220.6,
+          "shots": 8
+        }
+      },
+      "C\u00d3 Seraph (thay Horizon)": {
+        "damage": 9265.7,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.04,
+        "parts": {
+          "Q": 733.5,
+          "R": 5475.4,
+          "W": 0.0,
+          "Liandry": 1034.6,
+          "Hatefog": 1441.8,
+          "Comet": 224.1,
+          "shots": 10
+        }
+      },
+      "C\u00d3 Seraph (thay Malig)": {
+        "damage": 7395.4,
+        "shots": 9,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 707.2,
+          "R": 4553.3,
+          "W": 0.0,
+          "Liandry": 982.8,
+          "Hatefog": 0.0,
+          "Comet": 221.2,
+          "shots": 9
+        }
+      },
+      "C\u00d3 Seraph (thay Deathcap)": {
+        "damage": 8570.5,
+        "shots": 10,
+        "cd_cap": 12,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 573.0,
+          "R": 4399.4,
+          "W": 0.0,
+          "Liandry": 1034.6,
+          "Hatefog": 1278.4,
+          "Comet": 206.3,
+          "shots": 10
+        }
+      }
+    }
+  }
+}
