@@ -246,11 +246,59 @@ Trình tự gank: L1 dính → L2. Đèn chỉ L3 khi đồng đội cần. Q2 b
 
 ---
 
-## Không lấy trên MB03 (lợi âm)
+## Gwen · Volibear · Vladimir · Rumble
 
-Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne all-in, Fiora, Kalista — quá nhiều nút / wall-dash / AA nhịp mà 6 nút + một analog không gỡ.
+Hỏi thêm: bốn tướng này có khớp MB03 (gồng / xả / combo tách nút) không.
+
+| Tướng | MB03 | Vì sao |
+|---|---|---|
+| **Vladimir** | **Có — mạnh nhất trong 4** | E gồng 1.5s rồi nhả; W hồ máu đi analog; Q xả chọn người |
+| **Rumble** | **Có** | Q bật nón 3s, analog giữ nón dính người; E 2 phát, giữ phát 2 |
+| **Volibear** | **Chơi được** | Q tăng tốc 4s rồi analog lao vào + A choáng; không phải giữ–nhả sạc |
+| **Gwen** | **Kém** | Phải AA 4 stack rồi xả Q nón, nhắm **tâm kéo**; nhịp AA không gỡ bằng 6 nút |
+
+### Vladimir — lấy
+
+Cùng họ Sion/Varus: **giữ L1 = sạc E**, nhả = xả nova. Có thể gồng E rồi bấm W (hồ), analog lách, **nhả E lúc đang hồ**.
+
+- L1 = E (giữ–nhả, sạc ~1s rồi xả)
+- L2 = W (hồ — analog đi 2s)
+- L3 = Q (xả hút máu)
+- L4 = R
+
+Ưu tiên tướng: **gần nhất** (Q chọn người, giống Ryze). Trình tự: Q chồng Bloodthirst → giữ L1 → L2 nếu cần né → nhả L1. Không macro E+W một nút.
+
+### Rumble — lấy (Baron / mid)
+
+Q **không** giữ sạc: tap L1 bật Flamespitter 3s, analog **đi theo** kẻ địch. E hai phát: bắn 1, giữ phát 2 sau khi chúng dash.
+
+- L1 = Q (xả nón)
+- L2 = E (harpoon)
+- L3 = W
+- L4 = R (aim tay phải hoặc hướng analog)
+
+Giữ Heat Danger Zone trước trade. Overheat sớm = mất chiêu.
+
+### Volibear — lấy nếu thích đấu sĩ đơn giản
+
+Q tap = chạy 4s, analog hướng mặt tướng, A đấm choáng, rồi W cắn. Khác Sion: không giữ nút để sạc smash.
+
+- L1 = Q
+- L2 = W (cắn)
+- L3 = E (sét)
+- L4 = R
+
+Trình tự: L1 → A → L2. W execute: có thể **máu thấp** lúc all-in; lane thường **gần nhất**.
+
+### Gwen — bỏ nếu mục tiêu là gồng/xả MB03
+
+Q không sạc: AA chồng Snippy rồi dump nón. Sát thương mạnh ở **tâm kéo** — vẫn phải nhắm tay phải. E dash + AA, W sương. Gần Irelia hơn Sion: analog giúp đứng trong sương, nhưng không phải lợi thế giữ–nhả.
 
 ---
+
+## Không lấy trên MB03 (lợi âm)
+
+Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne all-in, Fiora, Kalista, **Gwen** — quá nhiều nút / wall-dash / AA nhịp / nhắm tâm Q mà 6 nút + một analog không gỡ.
 
 ## Năm tướng tập trước (mỗi lane một)
 
