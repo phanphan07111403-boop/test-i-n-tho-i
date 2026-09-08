@@ -21,61 +21,61 @@ GOLD / LEVEL / TARGETS
 --------------------------------------------------------------------------------
 MINUTE-BY-MINUTE OPTIMAL (tank-mix score, fog identity kept)
 --------------------------------------------------------------------------------
-   1:00 | tank     126 | squish     126 | fog-tank     88 | Luden → Malig → SF
+   1:00 | tank     138 | squish     129 | fog-tank     99 | Luden → Malig → SF
          items: 
          pre-legendary
-   2:00 | tank     207 | squish     210 | fog-tank    146 | BF → Malig → SF
+   2:00 | tank     224 | squish     211 | fog-tank    162 | BF → Malig → SF
          items: Fated Ashes
          pre-legendary
-   4:00 | tank     236 | squish     244 | fog-tank    148 | BF → Malig → SF
+   4:00 | tank     265 | squish     253 | fog-tank    174 | BF → Malig → SF
          items: Fated Ashes
          pre-legendary
-   6:00 | tank     630 | squish     706 | fog-tank    489 | Liandry → Malig → Void
+   6:00 | tank     693 | squish     717 | fog-tank    545 | Liandry → Malig → Void
          items: Fated Ashes › Haunting Guise
          pre-legendary
-   8:00 | tank    1362 | squish    1506 | fog-tank   1144 | Malig → Liandry → Void
+   8:00 | tank    1485 | squish    1519 | fog-tank   1255 | Malig → Liandry → Void
          items: Malignance › Boots
          Hatefog+UH
-   9:00 | tank    1363 | squish    1571 | fog-tank   1128 | Malig → Liandry → Void
+   9:00 | tank    1489 | squish    1588 | fog-tank   1241 | Malig → Liandry → Void
          items: Malignance › Boots
          Hatefog+UH
-  10:00 | tank    1619 | squish    2000 | fog-tank   1350 | Malig → Liandry → Void
+  10:00 | tank    1770 | squish    2023 | fog-tank   1486 | Malig → Liandry → Void
          items: Malignance › Sorcerer's Shoes
          Hatefog+UH
-  11:00 | tank    1584 | squish    2033 | fog-tank   1288 | Malig → Nashor → Liandry
+  11:00 | tank    1731 | squish    2056 | fog-tank   1418 | Malig → Nashor → Liandry
          items: Malignance › Sorcerer's Shoes › Recurve Bow
          Hatefog+UH
-  12:00 | tank    1736 | squish    2253 | fog-tank   1420 | Malig → Void → Liandry
+  12:00 | tank    1894 | squish    2276 | fog-tank   1562 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Blighting Jewel
          Hatefog+UH
-  14:00 | tank    1857 | squish    2389 | fog-tank   1491 | Malig → Void → Liandry
+  14:00 | tank    2020 | squish    2406 | fog-tank   1633 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Blighting Jewel › Blasting Wand
          Hatefog+UH
-  15:00 | tank    1805 | squish    2392 | fog-tank   1442 | Malig → Void → Liandry
+  15:00 | tank    1964 | squish    2409 | fog-tank   1579 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Blighting Jewel › Blasting Wand
          Hatefog+UH
-  16:00 | tank    2137 | squish    2724 | fog-tank   1680 | Malig → Void → Liandry
+  16:00 | tank    2323 | squish    2742 | fog-tank   1839 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Void Staff
          Hatefog+UH, %pen
-  18:00 | tank    2203 | squish    2924 | fog-tank   1699 | Malig → Void → Liandry
+  18:00 | tank    2392 | squish    2940 | fog-tank   1857 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Void Staff › Fated Ashes
          Hatefog+UH, %pen
-  20:00 | tank    2556 | squish    3564 | fog-tank   1960 | Malig → Void → Liandry
+  20:00 | tank    2771 | squish    3578 | fog-tank   2137 | Malig → Void → Liandry
          items: Malignance › Sorcerer's Shoes › Void Staff › Fated Ashes › Haunting Guise
          Hatefog+UH, %pen
-  21:00 | tank    2862 | squish    3925 | fog-tank   2265 | Malig → Liandry → Void
+  21:00 | tank    3101 | squish    3939 | fog-tank   2466 | Malig → Liandry → Void
          items: Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff
          Hatefog+UH, %HP burn, %pen
-  22:00 | tank    2846 | squish    3783 | fog-tank   2225 | Malig → Liandry → Void
+  22:00 | tank    3088 | squish    3801 | fog-tank   2427 | Malig → Liandry → Void
          items: Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff
          Hatefog+UH, %HP burn, %pen
-  24:00 | tank    2997 | squish    4124 | fog-tank   2315 | Malig → Liandry → Void
+  24:00 | tank    3239 | squish    4127 | fog-tank   2512 | Malig → Liandry → Void
          items: Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Needlessly Large Rod
          Hatefog+UH, %HP burn, %pen
-  26:00 | tank    3353 | squish    4685 | fog-tank   2276 | Malig → Nashor → Liandry
+  26:00 | tank    3624 | squish    4689 | fog-tank   2471 | Malig → Nashor → Liandry
          items: Malignance › Sorcerer's Shoes › Nashor's Tooth › Liandry's Torment › Void Staff
          Hatefog+UH, %HP burn, %pen, on-hit
-  28:00 | tank    3588 | squish    5092 | fog-tank   2678 | Malig → Liandry → Void
+  28:00 | tank    3852 | squish    5060 | fog-tank   2880 | Malig → Liandry → Void
          items: Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff › Rabadon's Deathcap
          Hatefog+UH, %HP burn, %pen
 
@@ -83,72 +83,72 @@ MINUTE-BY-MINUTE OPTIMAL (tank-mix score, fog identity kept)
 BUILD COMPARISON — TANK MIX DAMAGE / 8s @ spikes
 --------------------------------------------------------------------------------
   Build                               9:00   16:00   22:00   28:00  EffTank    3rdΔ
-  Luden → Malig → SF                  1063    1812    2169    2689     1453    +470
-  BF → Malig → SF                     1056    1817    2190    2717     1435    +491
-  Luden → Malig → Liandry             1063    1812    2267    3397     1655    +553
-  BF → Malig → Liandry                1056    1817    2278    3443     1658    +564
-  Malig → Liandry → Void              1363    1998    2846    3588     2078    +911
-  Malig → Liandry → Cryptbloom        1363    1998    2581    3230     1973    +650
-  Malig → Liandry → SF                1363    1998    2410    3421     1932    +484
-  Malig → Void → Liandry              1363    2137    2846    3588     2068    +704
-  Liandry → Malig → Void               951    1998    2846    3588     1905    +911
-  Malig → Nashor → Liandry            1363    1887    2384    3386     1914    +586
-  Luden → SF → Cap (no Malig)         1063    1632    1741    3184     1425    +596
-  Malig → Liandry → Cap               1363    1998    2527    3588     1916    +601
+  Luden → Malig → SF                  1163    1968    2346    2877     1574    +493
+  BF → Malig → SF                     1158    1976    2370    2908     1557    +515
+  Luden → Malig → Liandry             1163    1968    2458    3658     1795    +589
+  BF → Malig → Liandry                1158    1976    2471    3708     1800    +601
+  Malig → Liandry → Void              1489    2176    3088    3852     2256    +973
+  Malig → Liandry → Cryptbloom        1489    2176    2804    3471     2144    +694
+  Malig → Liandry → SF                1489    2176    2612    3693     2096    +509
+  Malig → Void → Liandry              1489    2323    3088    3852     2244    +750
+  Liandry → Malig → Void              1050    2176    3088    3852     2070    +973
+  Malig → Nashor → Liandry            1489    2053    2588    3660     2078    +626
+  Luden → SF → Cap (no Malig)         1163    1772    1887    3402     1541    +613
+  Malig → Liandry → Cap               1489    2176    2724    3852     2076    +620
 
 --------------------------------------------------------------------------------
 3RD ITEM SPIKE vs TANK  (isolated Δ: same minute with vs without 3rd)
 --------------------------------------------------------------------------------
-  Malig → Liandry → Void           2nd ~16:00  3rd ~21:00  tank Δ +911  [Malignance, Liandry's Torment, Void Staff]
-  Malig → Void → Liandry           2nd ~16:00  3rd ~21:00  tank Δ +704  [Malignance, Void Staff, Liandry's Torment]
-  Malig → Liandry → Cryptbloom     2nd ~16:00  3rd ~21:00  tank Δ +650  [Malignance, Liandry's Torment, Cryptbloom]
-  Malig → Liandry → SF             2nd ~16:00  3rd ~22:00  tank Δ +484  [Malignance, Liandry's Torment, Shadowflame]
-  Malig → Liandry → Cap            2nd ~16:00  3rd ~22:00  tank Δ +601  [Malignance, Liandry's Torment, Rabadon's Deathcap]
-  Malig → Nashor → Liandry         2nd ~16:00  3rd ~21:00  tank Δ +586  [Malignance, Nashor's Tooth, Liandry's Torment]
-  Liandry → Malig → Void           2nd ~16:00  3rd ~21:00  tank Δ +911  [Liandry's Torment, Malignance, Void Staff]
-  BF → Malig → Liandry             2nd ~15:00  3rd ~21:00  tank Δ +564  [Blackfire Torch, Malignance, Liandry's Torment]
-  Luden → Malig → Liandry          2nd ~15:00  3rd ~21:00  tank Δ +553  [Luden's Echo, Malignance, Liandry's Torment]
-  Luden → Malig → SF               2nd ~15:00  3rd ~21:00  tank Δ +470  [Luden's Echo, Malignance, Shadowflame]
-  BF → Malig → SF                  2nd ~15:00  3rd ~21:00  tank Δ +491  [Blackfire Torch, Malignance, Shadowflame]
-  Luden → SF → Cap (no Malig)      2nd ~16:00  3rd ~23:00  tank Δ +596  [Luden's Echo, Shadowflame, Rabadon's Deathcap]
+  Malig → Liandry → Void           2nd ~16:00  3rd ~21:00  tank Δ +973  [Malignance, Liandry's Torment, Void Staff]
+  Malig → Void → Liandry           2nd ~16:00  3rd ~21:00  tank Δ +750  [Malignance, Void Staff, Liandry's Torment]
+  Malig → Liandry → Cryptbloom     2nd ~16:00  3rd ~21:00  tank Δ +694  [Malignance, Liandry's Torment, Cryptbloom]
+  Malig → Liandry → SF             2nd ~16:00  3rd ~22:00  tank Δ +509  [Malignance, Liandry's Torment, Shadowflame]
+  Malig → Nashor → Liandry         2nd ~16:00  3rd ~21:00  tank Δ +626  [Malignance, Nashor's Tooth, Liandry's Torment]
+  Malig → Liandry → Cap            2nd ~16:00  3rd ~22:00  tank Δ +620  [Malignance, Liandry's Torment, Rabadon's Deathcap]
+  Liandry → Malig → Void           2nd ~16:00  3rd ~21:00  tank Δ +973  [Liandry's Torment, Malignance, Void Staff]
+  BF → Malig → Liandry             2nd ~15:00  3rd ~21:00  tank Δ +601  [Blackfire Torch, Malignance, Liandry's Torment]
+  Luden → Malig → Liandry          2nd ~15:00  3rd ~21:00  tank Δ +589  [Luden's Echo, Malignance, Liandry's Torment]
+  Luden → Malig → SF               2nd ~15:00  3rd ~21:00  tank Δ +493  [Luden's Echo, Malignance, Shadowflame]
+  BF → Malig → SF                  2nd ~15:00  3rd ~21:00  tank Δ +515  [Blackfire Torch, Malignance, Shadowflame]
+  Luden → SF → Cap (no Malig)      2nd ~16:00  3rd ~23:00  tank Δ +613  [Luden's Echo, Shadowflame, Rabadon's Deathcap]
 
 --------------------------------------------------------------------------------
 FOG R vs TANK  (pure núp bắn, no W) @ 16 / 22 / 28
 --------------------------------------------------------------------------------
-  Malig → Liandry → Void              1618    2225    2678   R shots @22: 5
-  Malig → Void → Liandry              1680    2225    2678   R shots @22: 5
-  Malig → Liandry → Cryptbloom        1618    2020    2414   R shots @22: 5
-  Malig → Liandry → SF                1618    1880    2574   R shots @22: 5
-  Malig → Liandry → Cap               1618    1959    2678   R shots @22: 5
-  Malig → Nashor → Liandry            1324    1682    2280   R shots @22: 5
-  Liandry → Malig → Void              1618    2225    2678   R shots @22: 5
-  BF → Malig → Liandry                1450    1800    2612   R shots @22: 5
-  Luden → Malig → Liandry             1437    1783    2566   R shots @22: 5
-  Luden → Malig → SF                  1437    1650    1954   R shots @22: 5
-  BF → Malig → SF                     1450    1676    1987   R shots @22: 5
-  Luden → SF → Cap (no Malig)         1233    1265    2216   R shots @22: 5
+  Malig → Liandry → Void              1774    2427    2880   R shots @22: 5
+  Malig → Void → Liandry              1839    2427    2880   R shots @22: 5
+  Malig → Liandry → Cryptbloom        1774    2207    2600   R shots @22: 5
+  Malig → Liandry → SF                1774    2048    2789   R shots @22: 5
+  Malig → Nashor → Liandry            1452    1837    2475   R shots @22: 5
+  Malig → Liandry → Cap               1774    2119    2880   R shots @22: 5
+  Liandry → Malig → Void              1774    2427    2880   R shots @22: 5
+  BF → Malig → Liandry                1587    1963    2821   R shots @22: 5
+  Luden → Malig → Liandry             1571    1943    2770   R shots @22: 5
+  Luden → Malig → SF                  1571    1793    2093   R shots @22: 5
+  BF → Malig → SF                     1587    1822    2129   R shots @22: 5
+  Luden → SF → Cap (no Malig)         1348    1381    2368   R shots @22: 5
 
 --------------------------------------------------------------------------------
 W SIEGE vs TANK  (max-range brush autos) @ 16 / 22 / 28
 --------------------------------------------------------------------------------
-  Malig → Liandry → Void              2884    4296    5711
-  Malig → Void → Liandry              3204    4296    5711
-  Malig → Liandry → Cryptbloom        2884    3890    5135
-  Malig → Liandry → SF                2884    3646    5400
-  Malig → Liandry → Cap               2884    3852    5711
-  Malig → Nashor → Liandry            3202    4023    5969
-  Liandry → Malig → Void              2884    4296    5711
-  BF → Malig → Liandry                2674    3392    5379
-  Luden → Malig → Liandry             2686    3396    5336
-  Luden → Malig → SF                  2686    3381    4402
-  BF → Malig → SF                     2674    3390    4419
-  Luden → SF → Cap (no Malig)         2564    2851    5444
+  Malig → Liandry → Void              3115    4630    6119
+  Malig → Void → Liandry              3454    4630    6119
+  Malig → Liandry → Cryptbloom        3115    4195    5505
+  Malig → Liandry → SF                3115    3928    5804
+  Malig → Nashor → Liandry            3455    4340    6427
+  Malig → Liandry → Cap               3115    4136    6119
+  Liandry → Malig → Void              3115    4630    6119
+  BF → Malig → Liandry                2884    3656    5775
+  Luden → Malig → Liandry             2895    3659    5728
+  Luden → Malig → SF                  2895    3636    4708
+  BF → Malig → SF                     2884    3647    4727
+  Luden → SF → Cap (no Malig)         2759    3067    5815
 
 --------------------------------------------------------------------------------
 VERDICT
 --------------------------------------------------------------------------------
   Best path (núp bắn + đau tank): Malig → Liandry → Void
-  Tank-weighted avg: 2078 | 22:00 tank-mix: 2846
+  Tank-weighted avg: 2256 | 22:00 tank-mix: 3088
   Malignance online: ~7:00  (R haste + Hatefog zone)
   Liandry online:    ~16:00  (2% max HP/s — this is the tank burn)
   %pen online:       ~21:00  (this is the 3rd-item spike vs tank MR)
@@ -160,30 +160,89 @@ VERDICT
   • Hatefog + Echo/BF burn scale theo AP, KHÔNG theo max HP.
     Tank ~3850 HP / ~186 MR lúc món 3 xong nuốt burst đó.
   • Món 3 sau 2 mana item thường là Shadowflame (15 flat pen +
-    crit <40% HP). Isolated spike vs tank chỉ +470 / 8s;
+    crit <40% HP). Isolated spike vs tank chỉ +493 / 8s;
     Cinderbloom không proc khi núp bắn tank đầy máu.
-  • Cùng phút 22:00, Luden→Malig→SF tank-mix 2169;
-    Malig → Liandry → Void 2846 (+31%). W-siege 3381 vs 4296 —
+  • Cùng phút 22:00, Luden→Malig→SF tank-mix 2346;
+    Malig → Liandry → Void 3088 (+32%). W-siege 3636 vs 4630 —
     path cũ không giết kịp tank trong cửa sổ W.
 
   TẠI SAO RUSH MALIGNANCE:
   • Rẻ hơn Luden/BF (2700), online ~7:00 — đúng spike R cấp 1.
-    Phút 9 tank-mix đã +28% so với Luden first (1363 vs 1063).
+    Phút 9 tank-mix đã +28% so với Luden first (1489 vs 1163).
   • 20 ultimate haste + Hatefog 60(+5% AP)/s / 10 MR shred:
     fog R giữ zone trong cửa sổ 8s. Đây là món núp bắn.
   • Món 2 rảnh slot cho Liandry (không share Lost Chapter) →
     2% max HP/s refresh bằng R. Đây là món đau tank.
-  • Món 3 Void Staff: isolated Δ +911 vs tank (gần gấp đôi
+  • Món 3 Void Staff: isolated Δ +973 vs tank (gần gấp đôi
     Shadowflame). Q shred 16–32% cộng dồn trước %pen.
 
+--------------------------------------------------------------------------------
+MÓN 4 SAU VOID  (cùng core Malig → Liandry → Void)
+--------------------------------------------------------------------------------
+  4th item                 24:00   26:00 28:00 tank fog-tank  squish  online
+  4th Deathcap              3239    3186       3852     2880    5060  ~28:00 Rabadon's Deathcap
+  4th Shadowflame           3166    3346       3693     2789    5639  ~27:00 Shadowflame
+  4th Horizon Focus         3166    3544       3575     2709    4668  ~26:00 Horizon Focus
+  4th Zhonya                3166    3346       3358     2537    4390  ~27:00 Zhonya's Hourglass
+  4th Banshee               3239    3186       3358     2537    4390  ~27:00 Banshee's Veil
+  4th Morello               3111    3221       3250     2462    4244  ~26:00 Morellonomicon
+
+  Default món 4: Deathcap nếu game kéo ~28+ (3850 tank-mix @28).
+  Horizon Focus xong sớm hơn (~26:00) — 25 AH + 10% Hypershot
+  trên R fog; thắng Deathcap ở phút 26 (3544 vs 3186).
+  Lấy Horizon nếu fight trước khi đủ gold Cap; lấy Cap nếu
+  chắc 4 món full. Shadowflame 4th nếu cần giết ADC/shield.
+  Zhonya nếu bị dive (Zed/Rengar/Kayn) — không phải món damage.
+  Morello nếu Aatrox/WW/Yuumi/Soraka. Banshee vs AP pick.
+  Món 5–6: món flex còn lại. Đừng bán Void.
+
+--------------------------------------------------------------------------------
+RUNES / KEYSTONE  (núp bắn R + đau tank)
+--------------------------------------------------------------------------------
+  KEYSTONE: Arcane Comet
+    Comet giờ scale 0–100% theo distance. R 1300–1800 = max
+    range → comet gần gấp đôi. Liandry/Hatefog không giảm CD
+    comet nữa, nên ~1 proc / cửa sổ 8s — vẫn đúng artillery.
+    First Strike (7%/3s + gold) chỉ khi bạn LUÔN đánh trước
+    từ fog và không bị tag lane; kém Comet trên R max range.
+    Dark Harvest / PTA / Lethal Tempo: ADC hoặc snowball,
+    không phải kit núp R vs tank.
+
+  PRIMARY — Sorcery
+    Comet → Manaflow Band → Absolute Focus → Scorch
+    Manaflow: R stack mana 40→400. Absolute Focus: núp thì
+    đứng >70% HP. Scorch: lane poke. Swap Gathering Storm
+    nếu game chắc 4–5 món / even.
+    Transcendence nếu cần AH (ít Malig AH). Axiom Arcanist
+    chỉ khi bạn one-shot bằng R, không phải default tank kit.
+
+  SECONDARY — Precision
+    Presence of Mind + Cut Down
+    PoM: refund mana khi combat, giữ 4–5 R/cửa sổ.
+    Cut Down: +8% vs champion >60% HP — tank fog poke luôn proc.
+
+  ALT secondary — Domination (nếu thiếu R haste hơn tank amp)
+    Ultimate Hunter + Cheap Shot
+    UH chồng 20 ult haste Malignance → R gần không downtime.
+    Cheap Shot: Hatefog/E slow. Trade Cut Down.
+
+  SHARDS: AS / Adaptive AP / HP (flat)
+    AS cho cửa sổ W siege. HP flat vì AP Kog mỏng.
+
+  SUMMONERS: Flash + Teleport (mid) hoặc Flash + Barrier/Ghost
+
+--------------------------------------------------------------------------------
+FULL BUY ORDER
+--------------------------------------------------------------------------------
   RECOMMENDED (núp bắn, output phải đau tank):
   1) Doran's Ring → Lost Chapter
   2) Malignance  (~8:00)     — fog R identity
   3) Sorcerer's Shoes
   4) Liandry's Torment (~16:00) — %HP burn, refresh bằng R/W
   5) Void Staff        (~22:00) — món 3 spike vs tank
-     (Cryptbloom nếu cần AH/heal; Void nếu team nhiều HP/MR)
-  6) Deathcap / Zhonya / Morello
+  6) Món 4 mặc định: Deathcap. Flex: Horizon (núp rẻ hơn),
+     Zhonya (dive), Morello (heal), Shadowflame (squishy).
+  7) Món 5–6: món flex còn lại / Banshee vs AP pick
 
   Skill: max W (đau tank khi siege) → Q (shred) → E.
   Núp: R từ fog vào chân tank — zone Hatefog + Liandry tick.

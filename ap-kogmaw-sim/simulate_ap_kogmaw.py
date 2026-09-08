@@ -128,6 +128,7 @@ class Item:
     liandry: bool = False
     ashes: bool = False
     guise: bool = False
+    horizon: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -203,6 +204,25 @@ ITEMS: Dict[str, Item] = {
         nashor=True,
         tags=("onhit",),
     ),
+    "Seeker's Armguard": Item("Seeker's Armguard", 1600, ap=45),
+    "Oblivion Orb": Item("Oblivion Orb", 800, ap=30),
+    "Horizon Focus": Item(
+        "Horizon Focus",
+        2700,
+        ap=75,
+        ah=25,
+        horizon=True,
+        tags=("fog",),
+    ),
+    "Zhonya's Hourglass": Item(
+        "Zhonya's Hourglass", 3250, ap=105, tags=("defense",)
+    ),
+    "Morellonomicon": Item(
+        "Morellonomicon", 2850, ap=75, ah=15, hp=350, tags=("antiheal",)
+    ),
+    "Banshee's Veil": Item(
+        "Banshee's Veil", 3000, ap=105, tags=("defense",)
+    ),
 }
 
 
@@ -217,6 +237,10 @@ UPGRADE_COMPONENTS = {
     "Shadowflame": ("Hextech Alternator", "Needlessly Large Rod"),
     "Rabadon's Deathcap": ("Needlessly Large Rod", "Needlessly Large Rod"),
     "Nashor's Tooth": ("Recurve Bow", "Blasting Wand", "Fiendish Codex"),
+    "Horizon Focus": ("Fiendish Codex", "Fiendish Codex", "Amplifying Tome"),
+    "Zhonya's Hourglass": ("Needlessly Large Rod", "Seeker's Armguard"),
+    "Morellonomicon": ("Oblivion Orb",),
+    "Banshee's Veil": ("Needlessly Large Rod",),
 }
 
 NEXT_COMPONENTS = {
@@ -230,6 +254,10 @@ NEXT_COMPONENTS = {
     "Rabadon's Deathcap": ["Needlessly Large Rod"],
     "Nashor's Tooth": ["Recurve Bow", "Fiendish Codex", "Blasting Wand"],
     "Sorcerer's Shoes": ["Boots"],
+    "Horizon Focus": ["Fiendish Codex", "Amplifying Tome"],
+    "Zhonya's Hourglass": ["Seeker's Armguard", "Needlessly Large Rod"],
+    "Morellonomicon": ["Oblivion Orb"],
+    "Banshee's Veil": ["Needlessly Large Rod"],
 }
 
 
@@ -387,6 +415,50 @@ LEGENDARIES = {
     "Shadowflame",
     "Rabadon's Deathcap",
     "Nashor's Tooth",
+    "Horizon Focus",
+    "Zhonya's Hourglass",
+    "Morellonomicon",
+    "Banshee's Veil",
+}
+
+CORE_MALIG_LIANDRY_VOID: List[str] = [
+    "Lost Chapter",
+    "Blasting Wand",
+    "Malignance",
+    "Boots",
+    "Sorcerer's Shoes",
+    "Fated Ashes",
+    "Haunting Guise",
+    "Liandry's Torment",
+    "Blighting Jewel",
+    "Void Staff",
+]
+
+FOURTH_PATHS: Dict[str, List[str]] = {
+    "4th Deathcap": CORE_MALIG_LIANDRY_VOID + [
+        "Needlessly Large Rod",
+        "Rabadon's Deathcap",
+    ],
+    "4th Horizon Focus": CORE_MALIG_LIANDRY_VOID + [
+        "Fiendish Codex",
+        "Horizon Focus",
+    ],
+    "4th Shadowflame": CORE_MALIG_LIANDRY_VOID + [
+        "Hextech Alternator",
+        "Shadowflame",
+    ],
+    "4th Zhonya": CORE_MALIG_LIANDRY_VOID + [
+        "Seeker's Armguard",
+        "Zhonya's Hourglass",
+    ],
+    "4th Morello": CORE_MALIG_LIANDRY_VOID + [
+        "Oblivion Orb",
+        "Morellonomicon",
+    ],
+    "4th Banshee": CORE_MALIG_LIANDRY_VOID + [
+        "Needlessly Large Rod",
+        "Banshee's Veil",
+    ],
 }
 
 
@@ -572,6 +644,7 @@ def sum_stats(inv: List[Item]) -> dict:
         "sf": False,
         "void": False,
         "crypt": False,
+        "horizon": False,
     }
     names = []
     for it in inv:
@@ -605,6 +678,8 @@ def sum_stats(inv: List[Item]) -> dict:
             flags["void"] = True
         if it.name == "Cryptbloom":
             flags["crypt"] = True
+        if it.horizon:
+            flags["horizon"] = True
 
     # Blackfire 4% AP per burning champ — fog poke usually 1, fights ~1.4
     bf_targets = 1.2
@@ -735,8 +810,11 @@ def window_damage(
         echo = 105.0 + 0.07 * ap
         dmg += echo * m_pre
 
-    # Comet ~1 proc / window on artillery
-    comet = (30 + 4 * (level - 1)) + 0.35 * ap
+    # Comet: 15–100, +5% AP, then 0–100% from distance.
+    # Fog R is max range → ~2.0x. Max-range W ~1.5x.
+    comet_base = 15.0 + 85.0 * (level - 1) / 17.0
+    dist = 2.0 if not use_w else 1.55
+    comet = (comet_base + 0.05 * ap) * dist
     dmg += comet * m_pre
 
     # Burns over the window (after first ability ~0.4s)
@@ -768,6 +846,12 @@ def window_damage(
             dmg += autos * onhit * m_post
 
     dmg *= suffer * cinder
+    if stats.get("horizon"):
+        # Hypershot: R always ≥600 range; W siege from brush also marks.
+        dmg *= 1.10
+    if vs_tank:
+        # Cut Down: +8% vs champions above 60% HP (fog poke / siege open)
+        dmg *= 1.08
     return dmg, shots
 
 
@@ -815,6 +899,8 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         notes.append("DOUBLE MANA")
     if st["nashor"]:
         notes.append("on-hit")
+    if st.get("horizon"):
+        notes.append("Hypershot 10%")
     if n_leg == 0:
         notes.append("pre-legendary")
 
@@ -893,6 +979,89 @@ def first_minute_with(snaps: List[Snapshot], pred) -> Optional[int]:
         if pred(s):
             return s.minute
     return None
+
+
+def fourth_item_lines() -> List[str]:
+    """After Malig → Liandry → Void, what 4th item actually does."""
+    lines = []
+    lines.append("-" * 80)
+    lines.append("MÓN 4 SAU VOID  (cùng core Malig → Liandry → Void)")
+    lines.append("-" * 80)
+    rows = []
+    for name, path in FOURTH_PATHS.items():
+        s24 = compute_snapshot(name, path, 24)
+        s26 = compute_snapshot(name, path, 26)
+        s28 = compute_snapshot(name, path, 28)
+        fourth = next((n for n in s28.items if n in LEGENDARIES and n not in {
+            "Malignance", "Liandry's Torment", "Void Staff",
+        }), s28.items[-1] if s28.items else "?")
+        online = first_minute_with(
+            [compute_snapshot(name, path, m) for m in range(20, 29)],
+            lambda s, item=fourth: item in s.items,
+        )
+        rows.append((s28.mix_tank, s28.fog_tank, s28.mix_squish, name, s24, s26, s28, fourth, online))
+    rows.sort(key=lambda r: r[0], reverse=True)
+    lines.append(
+        f"  {'4th item':<22} {'24:00':>7} {'26:00':>7} {'28:00 tank':>10} "
+        f"{'fog-tank':>8} {'squish':>7}  online"
+    )
+    for mix, fog, sq, name, s24, s26, s28, fourth, online in rows:
+        when = f"~{online}:00" if online else "—"
+        lines.append(
+            f"  {name:<22} {s24.mix_tank:>7.0f} {s26.mix_tank:>7.0f} "
+            f"{s28.mix_tank:>10.0f} {fog:>8.0f} {sq:>7.0f}  {when} {fourth}"
+        )
+    lines.append("")
+    lines.append("  Default món 4: Deathcap nếu game kéo ~28+ (3850 tank-mix @28).")
+    lines.append("  Horizon Focus xong sớm hơn (~26:00) — 25 AH + 10% Hypershot")
+    lines.append("  trên R fog; thắng Deathcap ở phút 26 (3544 vs 3186).")
+    lines.append("  Lấy Horizon nếu fight trước khi đủ gold Cap; lấy Cap nếu")
+    lines.append("  chắc 4 món full. Shadowflame 4th nếu cần giết ADC/shield.")
+    lines.append("  Zhonya nếu bị dive (Zed/Rengar/Kayn) — không phải món damage.")
+    lines.append("  Morello nếu Aatrox/WW/Yuumi/Soraka. Banshee vs AP pick.")
+    lines.append("  Món 5–6: món flex còn lại. Đừng bán Void.")
+    lines.append("")
+    return lines
+
+
+def rune_page_lines() -> List[str]:
+    lines = []
+    lines.append("-" * 80)
+    lines.append("RUNES / KEYSTONE  (núp bắn R + đau tank)")
+    lines.append("-" * 80)
+    lines.append("  KEYSTONE: Arcane Comet")
+    lines.append("    Comet giờ scale 0–100% theo distance. R 1300–1800 = max")
+    lines.append("    range → comet gần gấp đôi. Liandry/Hatefog không giảm CD")
+    lines.append("    comet nữa, nên ~1 proc / cửa sổ 8s — vẫn đúng artillery.")
+    lines.append("    First Strike (7%/3s + gold) chỉ khi bạn LUÔN đánh trước")
+    lines.append("    từ fog và không bị tag lane; kém Comet trên R max range.")
+    lines.append("    Dark Harvest / PTA / Lethal Tempo: ADC hoặc snowball,")
+    lines.append("    không phải kit núp R vs tank.")
+    lines.append("")
+    lines.append("  PRIMARY — Sorcery")
+    lines.append("    Comet → Manaflow Band → Absolute Focus → Scorch")
+    lines.append("    Manaflow: R stack mana 40→400. Absolute Focus: núp thì")
+    lines.append("    đứng >70% HP. Scorch: lane poke. Swap Gathering Storm")
+    lines.append("    nếu game chắc 4–5 món / even.")
+    lines.append("    Transcendence nếu cần AH (ít Malig AH). Axiom Arcanist")
+    lines.append("    chỉ khi bạn one-shot bằng R, không phải default tank kit.")
+    lines.append("")
+    lines.append("  SECONDARY — Precision")
+    lines.append("    Presence of Mind + Cut Down")
+    lines.append("    PoM: refund mana khi combat, giữ 4–5 R/cửa sổ.")
+    lines.append("    Cut Down: +8% vs champion >60% HP — tank fog poke luôn proc.")
+    lines.append("")
+    lines.append("  ALT secondary — Domination (nếu thiếu R haste hơn tank amp)")
+    lines.append("    Ultimate Hunter + Cheap Shot")
+    lines.append("    UH chồng 20 ult haste Malignance → R gần không downtime.")
+    lines.append("    Cheap Shot: Hatefog/E slow. Trade Cut Down.")
+    lines.append("")
+    lines.append("  SHARDS: AS / Adaptive AP / HP (flat)")
+    lines.append("    AS cho cửa sổ W siege. HP flat vì AP Kog mỏng.")
+    lines.append("")
+    lines.append("  SUMMONERS: Flash + Teleport (mid) hoặc Flash + Barrier/Ghost")
+    lines.append("")
+    return lines
 
 
 def third_item_isolated_delta(name: str, path: List[str], snaps: List[Snapshot]) -> Tuple[float, int, List[str]]:
@@ -1097,14 +1266,20 @@ def summarize(results, timeline) -> str:
     )
     lines.append("    Shadowflame). Q shred 16–32% cộng dồn trước %pen.")
     lines.append("")
+    lines.extend(fourth_item_lines())
+    lines.extend(rune_page_lines())
+    lines.append("-" * 80)
+    lines.append("FULL BUY ORDER")
+    lines.append("-" * 80)
     lines.append("  RECOMMENDED (núp bắn, output phải đau tank):")
     lines.append("  1) Doran's Ring → Lost Chapter")
     lines.append("  2) Malignance  (~8:00)     — fog R identity")
     lines.append("  3) Sorcerer's Shoes")
     lines.append("  4) Liandry's Torment (~16:00) — %HP burn, refresh bằng R/W")
     lines.append("  5) Void Staff        (~22:00) — món 3 spike vs tank")
-    lines.append("     (Cryptbloom nếu cần AH/heal; Void nếu team nhiều HP/MR)")
-    lines.append("  6) Deathcap / Zhonya / Morello")
+    lines.append("  6) Món 4 mặc định: Deathcap. Flex: Horizon (núp rẻ hơn),")
+    lines.append("     Zhonya (dive), Morello (heal), Shadowflame (squishy).")
+    lines.append("  7) Món 5–6: món flex còn lại / Banshee vs AP pick")
     lines.append("")
     lines.append("  Skill: max W (đau tank khi siege) → Q (shred) → E.")
     lines.append("  Núp: R từ fog vào chân tank — zone Hatefog + Liandry tick.")

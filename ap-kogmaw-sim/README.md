@@ -20,7 +20,7 @@ Luden or Blackfire first, then Malignance, then 3rd item **feels like damage fal
 
 **Malignance → Sorcerer's Shoes → Liandry's Torment → Void Staff**
 
-At 22:00 vs a tank (~3850 HP / 186 MR), this path deals **31% more** mix damage than Luden → Malignance → Shadowflame (2846 vs 2169 per 8s window). Isolated 3rd-item spike: Void **+911**, Shadowflame **+470**.
+At 22:00 vs a tank (~3850 HP / 186 MR), this path deals **~32% more** mix damage than Luden → Malignance → Shadowflame. Isolated 3rd-item spike: Void nearly double Shadowflame.
 
 | When | Spike |
 |------|--------|
@@ -28,6 +28,37 @@ At 22:00 vs a tank (~3850 HP / 186 MR), this path deals **31% more** mix damage 
 | ~10:00 | Sorcerer's Shoes |
 | ~16:00 | **Liandry** — 2% max HP/s, refreshed by R/W |
 | ~21:00 | **Void Staff** — the 3rd-item spike vs tank MR |
+| ~26:00 | **Horizon Focus** if fights are now (cheaper, 10% Hypershot on R) |
+| ~28:00 | **Deathcap** if the game lasts — peak tank mix |
+
+## 4th after Void
+
+| 4th | When | Take it |
+|-----|------|---------|
+| Deathcap | ~28:00 | Default peak damage (W %HP + R + Hatefog) |
+| Horizon Focus | ~26:00 | Earlier spike, 25 AH, 10% on max-range R |
+| Shadowflame | ~27:00 | Need to kill ADC / shields |
+| Zhonya | ~27:00 | Dive (Zed, Rengar, Kayn) |
+| Morello | ~26:00 | Heavy healing |
+| Banshee | ~27:00 | AP pick |
+
+5th–6th: remaining flex. Do not sell Void.
+
+## Runes
+
+**Keystone: Arcane Comet** (distance amp — R at 1300–1800 is max range).
+
+Primary (Sorcery): Comet → Manaflow Band → Absolute Focus → Scorch  
+(Gathering Storm if the game is even / 4–5 items)
+
+Secondary (Precision): Presence of Mind + **Cut Down** (+8% vs >60% HP tanks)
+
+Alt secondary (Domination): Ultimate Hunter + Cheap Shot (more R, less tank amp)
+
+Shards: AS / Adaptive AP / HP  
+Summoners: Flash + TP (mid) or Flash + Barrier/Ghost
+
+First Strike only if you always hit first from fog and never get tagged in lane. PTA / LT are ADC pages, not this kit.
 
 ## Why Luden/BF → Malig 3rd-item feels weak
 
