@@ -1,0 +1,209 @@
+==================================================================================
+AP KOG'MAW — MAGIC PEN (Void / Shadowflame / Cryptbloom)
+Full build (5 legendary + Sorcs) | level 18 | target @ 28:00
+Tank 4440 HP / 224 MR   |  Squishy 3016 HP / 78 MR
+==================================================================================
+
+LUẬT PEN (Kog đã xuyên sẵn)
+  • Thứ tự: Q shred % MR → Hatefog −10 MR → %pen item → flat pen.
+  • Q max = 32% shred ARMOR và MR — Kog không phải mage 0% pen.
+  • Void Staff 40% và Cryptbloom 30% = 1 Void Pen item.
+    Không mua cả hai. %pen không cộng 40+30.
+  • Shadowflame = 15 flat + Cinderbloom (crit khi đích <40% HP).
+    Fog poke tank đầy máu: Cinderbloom = 0. Chỉ còn 15 flat.
+  • Sorcs 12 flat sau %pen. Vs squishy, Q+Void+Hatefog+Sorcs
+    đã gần về 0 MR — thêm SF 15 flat gần như phí.
+  • Liandry 2% max HP/s không cần pen để 'tồn tại'; chỉ bị MR
+    giảm khi tick. Bỏ Liandry = mất cột tank lớn nhất.
+
+----------------------------------------------------------------------------------
+MR HIỆU DỤNG SAU FULL PEN  (có Q + Hatefog curse)
+----------------------------------------------------------------------------------
+  Build                       AP  %pen  flat  tankMR  take%   sqMR  sqTake
+  Burn+Void (baseline)       647   40%    12      73    58%     14     88%
+  SF thay Liandry            712   40%    27      58    63%      0    100%
+  SF thay Horizon            693   40%    27      58    63%      0    100%
+  SF thay Void               667    0%    27     115    46%     16     86%
+  Crypt thay Void            621   30%    12      88    53%     18     85%
+  SF thay Deathcap           478   40%    27      58    63%      0    100%
+
+  Pipeline tank, Burn+Void (baseline):
+    raw                    MR  223.9  → eat 31%
+    Q shred 32%            MR  152.3  → eat 40%
+    Hatefog −10            MR  142.3  → eat 41%
+    Void 40%               MR   85.4  → eat 54%
+    flat −12               MR   73.4  → eat 58%
+  Pipeline tank, SF thay Liandry (thêm 15 flat, cùng 40%):
+    raw                    MR  223.9  → eat 31%
+    Q shred 32%            MR  152.3  → eat 40%
+    Hatefog −10            MR  142.3  → eat 41%
+    Void 40%               MR   85.4  → eat 54%
+    flat −27               MR   58.4  → eat 63%
+  Pipeline squishy, baseline (Q+Void+Sorcs đã gần cap):
+    raw                    MR   78.4  → eat 56%
+    Q shred 32%            MR   53.3  → eat 65%
+    Hatefog −10            MR   43.3  → eat 70%
+    Void 40%               MR   26.0  → eat 79%
+    flat −12               MR   14.0  → eat 88%
+
+----------------------------------------------------------------------------------
+DAMAGE THEO CỬA SỔ  (Δ vs Burn+Void)
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    Burn+Void (baseline)         4735  baseline  mana-cap 8/12 R
+    SF thay Liandry              4739     +0.1%  mana-cap 8/12 R
+    SF thay Horizon              4882     +3.1%  mana-cap 8/11 R
+    SF thay Void                 3863    -18.4%  mana-cap 8/12 R
+    Crypt thay Void              4282     -9.6%  mana-cap 8/12 R
+    SF thay Deathcap             4472     -5.6%  mana-cap 8/12 R
+
+  [Fog 8s vs SQUISHY]
+    Burn+Void (baseline)         7026  baseline  mana-cap 8/12 R
+    SF thay Liandry              8543    +21.6%  mana-cap 8/12 R
+    SF thay Horizon              8473    +20.6%  mana-cap 8/11 R
+    SF thay Void                 7783    +10.8%  mana-cap 8/12 R
+    Crypt thay Void              6611     -5.9%  mana-cap 8/12 R
+    SF thay Deathcap             7693     +9.5%  mana-cap 8/12 R
+
+  [W siege 8s vs TANK (brush autos)]
+    Burn+Void (baseline)         8964  baseline  mana-cap 8/12 R
+    SF thay Liandry              9279     +3.5%  mana-cap 8/12 R
+    SF thay Horizon              9274     +3.5%  mana-cap 8/11 R
+    SF thay Void                 7333    -18.2%  mana-cap 8/12 R
+    Crypt thay Void              8093     -9.7%  mana-cap 8/12 R
+    SF thay Deathcap             8351     -6.8%  mana-cap 8/12 R
+
+  [W siege 8s vs SQUISHY]
+    Burn+Void (baseline)        11102  baseline  mana-cap 8/12 R
+    SF thay Liandry             13585    +22.4%  mana-cap 8/12 R
+    SF thay Horizon             13409    +20.8%  mana-cap 8/11 R
+    SF thay Void                12341    +11.2%  mana-cap 8/12 R
+    Crypt thay Void             10440     -6.0%  mana-cap 8/12 R
+    SF thay Deathcap            12050     +8.5%  mana-cap 8/12 R
+
+  [Fog 20s vs TANK (siege R kéo dài)]
+    Burn+Void (baseline)         5932  baseline  mana-cap 8/12 R
+    SF thay Liandry              5216    -12.1%  mana-cap 8/12 R
+    SF thay Horizon              6084     +2.6%  mana-cap 8/12 R
+    SF thay Void                 4831    -18.6%  mana-cap 8/12 R
+    Crypt thay Void              5382     -9.3%  mana-cap 8/12 R
+    SF thay Deathcap             5739     -3.3%  mana-cap 8/12 R
+
+  [Fog 20s vs SQUISHY]
+    Burn+Void (baseline)         8369  baseline  mana-cap 8/12 R
+    SF thay Liandry              9326    +11.4%  mana-cap 8/12 R
+    SF thay Horizon             10049    +20.1%  mana-cap 8/12 R
+    SF thay Void                 9264    +10.7%  mana-cap 8/12 R
+    Crypt thay Void              7897     -5.6%  mana-cap 8/12 R
+    SF thay Deathcap             9335    +11.5%  mana-cap 8/12 R
+
+----------------------------------------------------------------------------------
+BREAKDOWN  (sau MR, trước Horizon/Cut Down/Madness)
+----------------------------------------------------------------------------------
+  [Fog 8s vs TANK (núp R, không W)]
+    Burn+Void (baseline)  AP 647  MR→73  mult x1.236  final 4735
+      Q     470 | R    2426 (8 shot) | W       0 | Liandry     387 | Hatefog     402 | Comet    148
+    SF thay Liandry  AP 712  MR→58  mult x1.188  final 4739
+      Q     548 | R    2820 (8 shot) | W       0 | Liandry       0 | Hatefog     456 | Comet    165
+    SF thay Horizon  AP 693  MR→58  mult x1.123  final 4882
+      Q     538 | R    2770 (8 shot) | W       0 | Liandry     423 | Hatefog     451 | Comet    164
+    SF thay Void  AP 667  MR→115  mult x1.236  final 3863
+      Q     382 | R    1987 (8 shot) | W       0 | Liandry     311 | Hatefog     327 | Comet    118
+
+  [W siege 8s vs TANK (brush autos)]
+    Burn+Void (baseline)  AP 647  MR→73  mult x1.259  final 8964
+      Q     470 | R    2426 (8 shot) | W    3319 | Liandry     387 | Hatefog     402 | Comet    114
+    SF thay Liandry  AP 712  MR→58  mult x1.188  final 9279
+      Q     548 | R    2820 (8 shot) | W    3859 | Liandry       0 | Hatefog     456 | Comet    128
+    SF thay Horizon  AP 693  MR→58  mult x1.145  final 9274
+      Q     538 | R    2770 (8 shot) | W    3792 | Liandry     423 | Hatefog     451 | Comet    127
+    SF thay Void  AP 667  MR→115  mult x1.259  final 7333
+      Q     382 | R    1987 (8 shot) | W    2723 | Liandry     311 | Hatefog     327 | Comet     92
+
+  [Fog 8s vs SQUISHY]
+    Burn+Void (baseline)  AP 647  MR→14  mult x1.144  final 7026
+      Q     702 | R    4208 (8 shot) | W       0 | Liandry     400 | Hatefog     612 | Comet    221
+    SF thay Liandry  AP 712  MR→0  mult x1.232  final 8543
+      Q     858 | R    5096 (8 shot) | W       0 | Liandry       0 | Hatefog     722 | Comet    258
+    SF thay Horizon  AP 693  MR→0  mult x1.165  final 8473
+      Q     842 | R    5006 (8 shot) | W       0 | Liandry     455 | Hatefog     715 | Comet    256
+    SF thay Void  AP 667  MR→16  mult x1.281  final 7783
+      Q     681 | R    4185 (8 shot) | W       0 | Liandry     392 | Hatefog     606 | Comet    211
+
+----------------------------------------------------------------------------------
+MẠNH CHỖ NÀO / YẾU CHỖ NÀO
+----------------------------------------------------------------------------------
+  1) SHADOWFLAME THAY LIANDRY  (kit 'magic pen mage')
+     Fog 8s tank:   +0.1%  (4739 vs 4735)
+     Fog 8s squish: +21.6%
+     W 8s tank:     +3.5%
+     W 8s squish:   +22.4%
+     Fog 20s tank:  -12.1%
+     Mix 70/30 tank:+1.6%  (6101 vs 6004)
+     Tank MR 73→58 (eat 58%→63%). Squishy 14→0 (đã gần 0).
+     8s gần hòa vs tank vì SF 110 AP + 15 flat bù Liandry
+     tick. Fog 20s −12%: burn 2% HP là cột núp kéo dài.
+     MẠNH vs squishy (+22%): Cinderbloom <40% HP + AP cao hơn.
+     Đó là kit giết ADC, không phải kit đau tank / siege R.
+
+  2) SHADOWFLAME THAY HORIZON  (thêm pen, giữ Liandry+Void+Cap)
+     Fog 8s tank:   +3.1%
+     Fog 8s squish: +20.6%
+     W 8s tank:     +3.5%
+     Mix 70/30 tank:+3.3%
+     Flex món 5 khi địch squishy/shield: +21% fog ADC, tank 8s
+     vẫn +3% (110 AP + 15 flat > Horizon 75 AP + 10%).
+     Núp tank thuần / Hypershot R max range thì Horizon ổn hơn
+     về cảm giác mark; DPS 8s SF thắng trên giấy.
+
+  3) SHADOWFLAME THAY VOID  (bỏ %pen)
+     Fog 8s tank:   -18.4%
+     W 8s tank:     -18.2%
+     Mix 70/30 tank:-18.3%
+     YẾU NẶNG vs tank: 15 flat + Q 32% không thay 40% Void.
+     Đây là trap món 3 cũ (Luden→Malig→SF).
+
+  4) CRYPTBLOOM THAY VOID
+     Fog 8s tank:   -9.6%
+     W 8s tank:     -9.7%
+     30% vs 40% + ít AP hơn. Đổi DPS lấy 20 AH + heal nova.
+     Chỉ khi team cần Life from Death / thiếu haste, không phải
+     default đau tank.
+
+  5) SHADOWFLAME THAY DEATHCAP
+     Fog 8s tank:   -5.6%
+     W 8s tank:     -6.8%
+     Mất 30% AP trên W %HP + R + Hatefog. Pen không bù amp.
+
+  GOLD CURVE (đã có ở sim chính): món 3 Void sau Liandry
+     isolated Δ vs tank gấp đôi Shadowflame. Pen stack sớm
+     (Malig→Void) thắng phút 12–16 fog, rồi Liandry bắt kịp.
+
+----------------------------------------------------------------------------------
+VERDICT MAGIC PEN
+----------------------------------------------------------------------------------
+  Kit 'full magic pen' (Void+SF, bỏ Liandry) mix 70/30 tank: +1.6%
+  Fog tank +0.1%  |  W tank +3.5%  |  fog squish +21.6%
+  Kog núp bắn ĐÃ LÀ magic-pen champion: Q 32% + Void 40% +
+  Hatefog −10 + Sorcs 12. Thêm Shadowflame không phải build
+  mới vs tank — 15 flat sau %pen chỉ 73→58 MR (eat 58%→63%).
+  Vs squishy, Q+Void+Sorcs đã gần 0 MR; giá trị SF là
+  Cinderbloom khi chúng <40% HP (+22% fog ADC), không phải
+  thêm 'xuyên phép'.
+
+  Void+SF bỏ Liandry: mix 8s tank +1.6% (AP SF bù tick),
+  nhưng fog 20s −12% — siege R cần burn. Squishy thì +22%.
+
+  Làm:
+    • Magic pen của Kog = Void (hoặc Crypt nếu cần heal/AH)
+      + Sorcs + Q shred. Đó là cả kit pen.
+    • Giữ Liandry nếu núp tank / R kéo dài.
+    • SF = flex món 5 thay Horizon khi team địch squishy
+      (+21% ADC, tank 8s vẫn +3%). Không thay Void / Cap.
+  Không làm:
+    • Luden + Malig + SF (trap món 3, −18% tank nếu bỏ Void).
+    • Void + Cryptbloom (unique, không chồng).
+    • Bỏ Liandry chỉ để 'stack pen' nếu bạn siege tank 15s+.
+  Default đau tank: Malig → Liandry → Void → Cap → Horizon.
+  Default giết ADC: cùng core, SF món 5 thay Horizon.
+==================================================================================

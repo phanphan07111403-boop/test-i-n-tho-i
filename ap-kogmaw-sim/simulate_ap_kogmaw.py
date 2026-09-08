@@ -1499,6 +1499,12 @@ def main() -> None:
         report = report + "\n\n" + mix_text
     except Exception as exc:  # pragma: no cover
         report = report + f"\n\n[mix compare skipped: {exc}]\n"
+    try:
+        from compare_pen import compare as pen_compare
+        pen_text, _ = pen_compare()
+        report = report + "\n\n" + pen_text
+    except Exception as exc:  # pragma: no cover
+        report = report + f"\n\n[pen compare skipped: {exc}]\n"
     print(report)
     out_dir = "/workspace/ap-kogmaw-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:

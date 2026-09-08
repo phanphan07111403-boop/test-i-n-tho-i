@@ -8,13 +8,15 @@ PC League of Legends, patch **~26.x**. Fog-of-war Living Artillery poke over a *
 python3 simulate_ap_kogmaw.py
 python3 compare_seraph.py
 python3 compare_mix.py
+python3 compare_pen.py
 ```
 
 Outputs:
-- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix appendix
+- `report.txt` — minute-by-minute optimal + 3rd-item spike vs tanks + Seraph + mix + magic-pen appendix
 - `results.json` — machine-readable snapshots per build
 - `seraph_compare.txt` / `seraph_compare.json` — full 5-item with vs without Seraph
 - `mix_compare.txt` / `mix_compare.json` — Muramana / Serylda / Rylai vs full AP
+- `pen_compare.txt` / `pen_compare.json` — Void / Shadowflame / Cryptbloom vs burn core
 
 ## Question answered
 
@@ -84,6 +86,23 @@ Equal 5 legendaries + Sorcs, lvl 18 @ 28:00:
 | Serylda 5th (no Shock) | −12.1% | −14.7% | — |
 
 Muramana 5th wins for the same reason Seraph does: rank-3 R is **mana-capped** (10 shots vs 8). Do not buy Serylda on this kit. Do not drop Malig or Void. Tear/Manamune before Malig delays the minute-7 Hatefog spike.
+
+## Magic pen Kog'Maw?
+
+You already are one. Q shreds **32% MR**, then Hatefog **−10**, Void **40%**, Sorcs **12** flat. Tank 224 MR → **73** (you deal 58% of raw magic). Squishy 78 MR → **14** (88%) — a second flat-pen item is almost wasted.
+
+Void Staff and Cryptbloom are **1 Void Pen item**; they do not stack.
+
+Equal 5 legendaries + Sorcs, lvl 18 @ 28:00 vs Burn+Void+Cap+Horizon:
+
+| Swap | Fog 8s tank | Fog 20s tank | Fog 8s squishy | Mix 70/30 tank |
+|------|-------------|--------------|----------------|----------------|
+| Shadowflame instead of Liandry | +0.1% | **−12.1%** | **+21.6%** | +1.6% |
+| Shadowflame instead of Horizon | +3.1% | +2.6% | **+20.6%** | +3.3% |
+| Shadowflame instead of Void | **−18.4%** | −18.6% | +10.8% | −18.3% |
+| Cryptbloom instead of Void | −9.6% | −9.3% | −5.9% | — |
+
+**Kill ADC / shields:** same core, Shadowflame 5th instead of Horizon. **Hurt tanks / long fog R:** keep Liandry, keep Void, keep Deathcap. Do not skip Void for "more pen."
 
 ## Runes
 

@@ -1,0 +1,671 @@
+{
+  "level": 18,
+  "minute": 28,
+  "tank": {
+    "hp": 4440,
+    "mr": 223.9
+  },
+  "squishy": {
+    "hp": 3016,
+    "mr": 78.4
+  },
+  "void_crypt_unique": true,
+  "kits": {
+    "Burn+Void (baseline)": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 647.4,
+      "pct_mpen": 0.4,
+      "flat_mpen": 12.0,
+      "eff_mr_tank": 73.4,
+      "eff_mr_squishy": 14.0,
+      "note": "Malig + Liandry + Void + Cap + Horizon \u2014 core n\u00fap + tank"
+    },
+    "SF thay Liandry": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Void Staff",
+        "Shadowflame",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 712.4,
+      "pct_mpen": 0.4,
+      "flat_mpen": 27.0,
+      "eff_mr_tank": 58.4,
+      "eff_mr_squishy": 0.0,
+      "note": "Magic-pen mage: Void 40% + SF 15 flat, b\u1ecf 2% max HP burn."
+    },
+    "SF thay Horizon": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Shadowflame"
+      ],
+      "ap": 692.9,
+      "pct_mpen": 0.4,
+      "flat_mpen": 27.0,
+      "eff_mr_tank": 58.4,
+      "eff_mr_squishy": 0.0,
+      "note": "Gi\u1eef burn+Void+Cap; SF 15 flat + Cinderbloom thay Hypershot 10%."
+    },
+    "SF thay Void": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Shadowflame",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 666.9,
+      "pct_mpen": 0.0,
+      "flat_mpen": 27.0,
+      "eff_mr_tank": 115.3,
+      "eff_mr_squishy": 16.3,
+      "note": "Ch\u1ec9 flat pen. Q shred + Sorcs + SF, kh\u00f4ng %pen."
+    },
+    "Crypt thay Void": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "ap": 621.4,
+      "pct_mpen": 0.3,
+      "flat_mpen": 12.0,
+      "eff_mr_tank": 87.6,
+      "eff_mr_squishy": 18.3,
+      "note": "30% pen + 20 AH + Life from Death. Void Pen unique: kh\u00f4ng \u0111eo c\u00f9ng Void."
+    },
+    "SF thay Deathcap": {
+      "items": [
+        "Malignance",
+        "Sorcerer's Shoes",
+        "Liandry's Torment",
+        "Void Staff",
+        "Horizon Focus",
+        "Shadowflame"
+      ],
+      "ap": 478.0,
+      "pct_mpen": 0.4,
+      "flat_mpen": 27.0,
+      "eff_mr_tank": 58.4,
+      "eff_mr_squishy": 0.0,
+      "note": "Gi\u1eef fog kit + Void; m\u1ea5t 30% AP amp."
+    }
+  },
+  "scenarios": {
+    "Fog 8s vs TANK (n\u00fap R, kh\u00f4ng W)": {
+      "Burn+Void (baseline)": {
+        "damage": 4735.1,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 0.0,
+          "Liandry": 386.8,
+          "Hatefog": 402.3,
+          "Comet": 147.6,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 4738.7,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.188,
+        "parts": {
+          "Q": 548.3,
+          "R": 2819.5,
+          "W": 0.0,
+          "Liandry": 0.0,
+          "Hatefog": 455.9,
+          "Comet": 165.0,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 4881.7,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1232,
+        "parts": {
+          "Q": 537.6,
+          "R": 2770.1,
+          "W": 0.0,
+          "Liandry": 423.4,
+          "Hatefog": 451.3,
+          "Comet": 163.9,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 3862.9,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 381.9,
+          "R": 1987.4,
+          "W": 0.0,
+          "Liandry": 311.5,
+          "Hatefog": 327.4,
+          "Comet": 118.4,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 4281.6,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 421.0,
+          "R": 2185.7,
+          "W": 0.0,
+          "Liandry": 357.4,
+          "Hatefog": 366.6,
+          "Comet": 134.7,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 4472.0,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 420.0,
+          "R": 2225.4,
+          "W": 0.0,
+          "Liandry": 423.4,
+          "Hatefog": 400.0,
+          "Comet": 150.8,
+          "shots": 8
+        }
+      }
+    },
+    "Fog 8s vs SQUISHY": {
+      "Burn+Void (baseline)": {
+        "damage": 7026.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 0.0,
+          "Liandry": 399.5,
+          "Hatefog": 611.8,
+          "Comet": 220.6,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 8542.9,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.232,
+        "parts": {
+          "Q": 858.4,
+          "R": 5095.5,
+          "W": 0.0,
+          "Liandry": 0.0,
+          "Hatefog": 721.9,
+          "Comet": 258.4,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 8473.1,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1648,
+        "parts": {
+          "Q": 841.6,
+          "R": 5006.2,
+          "W": 0.0,
+          "Liandry": 455.4,
+          "Hatefog": 714.6,
+          "Comet": 256.5,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 7783.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2813,
+        "parts": {
+          "Q": 681.0,
+          "R": 4185.0,
+          "W": 0.0,
+          "Liandry": 391.5,
+          "Hatefog": 605.9,
+          "Comet": 211.1,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 6611.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 653.7,
+          "R": 3950.1,
+          "W": 0.0,
+          "Liandry": 384.9,
+          "Hatefog": 581.1,
+          "Comet": 209.2,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 7692.9,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2813,
+        "parts": {
+          "Q": 657.4,
+          "R": 4021.8,
+          "W": 0.0,
+          "Liandry": 455.4,
+          "Hatefog": 633.4,
+          "Comet": 236.0,
+          "shots": 8
+        }
+      }
+    },
+    "W siege 8s vs TANK (brush autos)": {
+      "Burn+Void (baseline)": {
+        "damage": 8964.2,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 3319.3,
+          "Liandry": 386.8,
+          "Hatefog": 402.3,
+          "Comet": 114.4,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 9279.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.188,
+        "parts": {
+          "Q": 548.3,
+          "R": 2819.5,
+          "W": 3859.2,
+          "Liandry": 0.0,
+          "Hatefog": 455.9,
+          "Comet": 127.9,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 9273.9,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1448,
+        "parts": {
+          "Q": 537.6,
+          "R": 2770.1,
+          "W": 3791.5,
+          "Liandry": 423.4,
+          "Hatefog": 451.3,
+          "Comet": 127.0,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 7332.6,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 381.9,
+          "R": 1987.4,
+          "W": 2722.9,
+          "Liandry": 311.5,
+          "Hatefog": 327.4,
+          "Comet": 91.8,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 8092.8,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 421.0,
+          "R": 2185.7,
+          "W": 2991.4,
+          "Liandry": 357.4,
+          "Hatefog": 366.6,
+          "Comet": 104.4,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 8351.1,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2593,
+        "parts": {
+          "Q": 420.0,
+          "R": 2225.4,
+          "W": 3046.0,
+          "Liandry": 423.4,
+          "Hatefog": 400.0,
+          "Comet": 116.9,
+          "shots": 8
+        }
+      }
+    },
+    "W siege 8s vs SQUISHY": {
+      "Burn+Void (baseline)": {
+        "damage": 11101.8,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.166,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 3429.0,
+          "Liandry": 399.5,
+          "Hatefog": 611.8,
+          "Comet": 171.0,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 13585.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.232,
+        "parts": {
+          "Q": 858.4,
+          "R": 5095.5,
+          "W": 4151.1,
+          "Liandry": 0.0,
+          "Hatefog": 721.9,
+          "Comet": 200.2,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 13409.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1872,
+        "parts": {
+          "Q": 841.6,
+          "R": 5006.2,
+          "W": 4078.4,
+          "Liandry": 455.4,
+          "Hatefog": 714.6,
+          "Comet": 198.8,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 12341.0,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.3059,
+        "parts": {
+          "Q": 681.0,
+          "R": 4185.0,
+          "W": 3423.0,
+          "Liandry": 391.5,
+          "Hatefog": 605.9,
+          "Comet": 163.6,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 10439.7,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.166,
+        "parts": {
+          "Q": 653.7,
+          "R": 3950.1,
+          "W": 3221.4,
+          "Liandry": 384.9,
+          "Hatefog": 581.1,
+          "Comet": 162.1,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 12050.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.3059,
+        "parts": {
+          "Q": 657.4,
+          "R": 4021.8,
+          "W": 3276.4,
+          "Liandry": 455.4,
+          "Hatefog": 633.4,
+          "Comet": 182.9,
+          "shots": 8
+        }
+      }
+    },
+    "Fog 20s vs TANK (siege R k\u00e9o d\u00e0i)": {
+      "Burn+Void (baseline)": {
+        "damage": 5932.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 469.8,
+          "R": 2426.0,
+          "W": 0.0,
+          "Liandry": 1001.5,
+          "Hatefog": 756.6,
+          "Comet": 147.6,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 5215.7,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.188,
+        "parts": {
+          "Q": 548.3,
+          "R": 2819.5,
+          "W": 0.0,
+          "Liandry": 0.0,
+          "Hatefog": 857.5,
+          "Comet": 165.0,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 6083.9,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1232,
+        "parts": {
+          "Q": 537.6,
+          "R": 2770.1,
+          "W": 0.0,
+          "Liandry": 1096.3,
+          "Hatefog": 848.7,
+          "Comet": 163.9,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 4830.8,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 381.9,
+          "R": 1987.4,
+          "W": 0.0,
+          "Liandry": 806.5,
+          "Hatefog": 615.8,
+          "Comet": 118.4,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 5382.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 421.0,
+          "R": 2185.7,
+          "W": 0.0,
+          "Liandry": 925.5,
+          "Hatefog": 689.4,
+          "Comet": 134.7,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 5738.8,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2355,
+        "parts": {
+          "Q": 420.0,
+          "R": 2225.4,
+          "W": 0.0,
+          "Liandry": 1096.3,
+          "Hatefog": 752.4,
+          "Comet": 150.8,
+          "shots": 8
+        }
+      }
+    },
+    "Fog 20s vs SQUISHY": {
+      "Burn+Void (baseline)": {
+        "damage": 8369.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 702.3,
+          "R": 4207.7,
+          "W": 0.0,
+          "Liandry": 1034.6,
+          "Hatefog": 1150.7,
+          "Comet": 220.6,
+          "shots": 8
+        }
+      },
+      "SF thay Liandry": {
+        "damage": 9326.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.232,
+        "parts": {
+          "Q": 858.4,
+          "R": 5095.5,
+          "W": 0.0,
+          "Liandry": 0.0,
+          "Hatefog": 1357.8,
+          "Comet": 258.4,
+          "shots": 8
+        }
+      },
+      "SF thay Horizon": {
+        "damage": 10049.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.1648,
+        "parts": {
+          "Q": 841.6,
+          "R": 5006.2,
+          "W": 0.0,
+          "Liandry": 1179.3,
+          "Hatefog": 1344.0,
+          "Comet": 256.5,
+          "shots": 8
+        }
+      },
+      "SF thay Void": {
+        "damage": 9264.4,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2813,
+        "parts": {
+          "Q": 681.0,
+          "R": 4185.0,
+          "W": 0.0,
+          "Liandry": 1013.9,
+          "Hatefog": 1139.6,
+          "Comet": 211.1,
+          "shots": 8
+        }
+      },
+      "Crypt thay Void": {
+        "damage": 7896.7,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.144,
+        "parts": {
+          "Q": 653.7,
+          "R": 3950.1,
+          "W": 0.0,
+          "Liandry": 996.7,
+          "Hatefog": 1093.0,
+          "Comet": 209.2,
+          "shots": 8
+        }
+      },
+      "SF thay Deathcap": {
+        "damage": 9335.3,
+        "shots": 8,
+        "mana_capped": true,
+        "mult": 1.2813,
+        "parts": {
+          "Q": 657.4,
+          "R": 4021.8,
+          "W": 0.0,
+          "Liandry": 1179.3,
+          "Hatefog": 1191.4,
+          "Comet": 236.0,
+          "shots": 8
+        }
+      }
+    }
+  },
+  "mix_70_30_tank": {
+    "Burn+Void (baseline)": 6003.8,
+    "SF thay Liandry": 6100.8,
+    "SF thay Horizon": 6199.3,
+    "SF thay Void": 4903.8
+  }
+}
