@@ -345,6 +345,38 @@ K'Sante / Ambessa chống chịu nhưng combo dash dày — bỏ, cùng họ Gwe
 
 ---
 
+## Combo nhuần nhuyễn (MB03 đỡ nhầm thứ tự)
+
+Có. Gồng giữ–nhả là một nhóm. Nhóm kia là **combo 2–4 nút theo đúng thứ tự** — bấm ngược là húc đồng đội, mất choáng, mất EQ.
+
+MB03 giúp vì mỗi skill một ngón. **Không** phải Riven/Yasuo (hủy animation, quá nhiều nhịp AA).
+
+| Lane | Tướng | Combo phải mượt | Nút (trước → sau) | Sai thì sao |
+|---|---|---|---|---|
+| Baron | **Pantheon** | W choáng → Q giáo → A | L2 → L1 → A | Q trước = giáo không khóa người |
+| Baron | **Renekton** | W choáng → Q cleave (hoặc W–A–Q) | L2 → L1 | Q trước = mất stun lock |
+| Rừng | **Jarvan** | E cờ → Q kéo | L2 → L1 | Q trước = không knockup |
+| Rừng | **Xin Zhao** | E nhảy → W kéo → Q 3 đòn | L2 → L3 → L1 | Sai thứ tự = không khóa |
+| Giữa | **Ryze** | E Flux → W trói → xả Q | L2 → L3 → L1 | W không Flux = chỉ chậm, Q không nảy |
+| Giữa | **Syndra** | Q bóng → E đẩy | L1 → L2 | E trước = không choáng |
+| Giữa | **Annie** | Q/W chồng stun → R Gấu | L1/L3 → L4 | R trước khi stun = Gấu không choáng |
+| Rồng | **Lucian** | A → E dash → A → Q | A → L2 → A → L1 | Dump skill không AA = mất nổ |
+| Rồng | **Caitlyn** | E lưới → Q đầu | L2 → L1 | Q trước = không headshot lưới |
+| Hỗ trợ | **Alistar** | W húc → Q giẫm | L2 → L1 | Q trước = giẫm tại chỗ, W húc bay |
+| Hỗ trợ | **Leona** | E lao → Q choáng | L2 → L1 | Q trước = choáng không dính dash |
+
+Tập combo (cùng layout, không macro một nút):
+
+1. **Alistar** — W–Q là bài “nhuần” rõ nhất: Q phải **trong lúc W đang bay**
+2. **Jarvan** — E–Q
+3. **Ryze** — E–W–Q
+4. **Syndra** — Q–E
+5. **Leona** — E–Q
+
+Macro gộp W+Q thành một nút thì hết “nhuần”: Alistar húc góc sai, Jarvan cắm cờ chỗ cũ. Hai nút, bấm tay cho mượt.
+
+---
+
 ## Không lấy trên MB03 (lợi âm)
 
 Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne all-in, Fiora, Kalista, **Gwen** — quá nhiều nút / wall-dash / AA nhịp / nhắm tâm Q mà 6 nút + một analog không gỡ.
