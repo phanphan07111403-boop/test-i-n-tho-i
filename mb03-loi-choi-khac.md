@@ -24,6 +24,8 @@ Không lấy thêm: sát thủ dash dày, ADC all-in (Vayne), phù thủy phải
 
 Force Attack Follow tắt + analog + nút A tướng = đi vòng max range, đòn không trượt thành đánh lính. Chạm tay: ngón cái vừa kéo vừa tap AA → đứng lại / đánh nhầm lính.
 
+Hướng dẫn nhịp + map + bài tập: **`mb03-kite.md`**. Tóm tắt: analog **kéo ra sau suốt**, tới đòn **tap A một cái**, không giữ A, không nhả stick.
+
 ### Baron — Kayle
 
 Muộn game DPS là AA. E buff đòn, analog lùi khi chúng walk-up. Q chậm là dump, không phải gồng.
