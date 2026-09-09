@@ -2,6 +2,8 @@
 
 Tốc Chiến **7.2+**, Baron. **Không chủ động combat.** Chỉ crash wave vào trụ trống, Demolish, Skipper, rồi đi trụ khác.
 
+**Tướng khớp kit nhất không phải Pantheon — là Sion.** So sánh: `compare_siege_champs.py` / `champions.md`.
+
 ```bash
 python3 simulate_pantheon_siege.py
 ```

@@ -14,4 +14,5 @@ League itemization sims + MB03 playstyle notes.
 python3 zyra-burn-sim/simulate_zyra_burn.py
 python3 ap-kogmaw-sim/simulate_ap_kogmaw.py
 python3 pantheon-hull-demolish-sim/simulate_pantheon_siege.py
+python3 pantheon-hull-demolish-sim/compare_siege_champs.py
 ```
