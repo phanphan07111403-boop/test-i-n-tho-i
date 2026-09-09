@@ -1,0 +1,517 @@
+{
+  "ranking": [
+    "Hull → Trinity → Titanic (Siege)",
+    "Hull → Trinity → Warmog",
+    "Hull → Titanic → Warmog (HP)",
+    "Trinity → Hull → Titanic",
+    "Hull → Warmog → DMP (tank circle)",
+    "Eclipse → Cleaver → Youmuu (combat)"
+  ],
+  "avg_outer_8_20": {
+    "Hull → Trinity → Titanic (Siege)": 2540,
+    "Hull → Titanic → Warmog (HP)": 2392,
+    "Hull → Trinity → Warmog": 2469,
+    "Hull → Warmog → DMP (tank circle)": 2188,
+    "Trinity → Hull → Titanic": 2306,
+    "Eclipse → Cleaver → Youmuu (combat)": 1940
+  },
+  "snapshots": {
+    "Hull → Trinity → Titanic (Siege)": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Jaurim's Fist",
+          "Boots",
+          "Jaurim's Fist"
+        ],
+        "hp": 2172,
+        "ad": 122.8,
+        "as": 1.04,
+        "outer": 1054,
+        "inner": 1393,
+        "demolish": 390,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 31.9
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Sheen"
+        ],
+        "hp": 2556,
+        "ad": 153.6,
+        "as": 1.09,
+        "outer": 2168,
+        "inner": 2865,
+        "demolish": 448,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 15.5
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Trinity Force"
+        ],
+        "hp": 3248,
+        "ad": 190.8,
+        "as": 1.36,
+        "outer": 3150,
+        "inner": 4048,
+        "demolish": 574,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 10.7
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Trinity Force",
+          "Titanic Hydra"
+        ],
+        "hp": 3859,
+        "ad": 234.4,
+        "as": 1.38,
+        "outer": 3879,
+        "inner": 4984,
+        "demolish": 668,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 8.7
+      }
+    },
+    "Hull → Titanic → Warmog (HP)": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Jaurim's Fist",
+          "Boots",
+          "Jaurim's Fist"
+        ],
+        "hp": 2172,
+        "ad": 122.8,
+        "as": 1.04,
+        "outer": 1054,
+        "inner": 1393,
+        "demolish": 390,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 31.9
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Ruby Crystal"
+        ],
+        "hp": 2706,
+        "ad": 153.6,
+        "as": 1.09,
+        "outer": 2069,
+        "inner": 2734,
+        "demolish": 470,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 16.2
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Titanic Hydra"
+        ],
+        "hp": 3368,
+        "ad": 200.8,
+        "as": 1.12,
+        "outer": 2873,
+        "inner": 3691,
+        "demolish": 592,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 11.7
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Titanic Hydra",
+          "Warmog's Armor"
+        ],
+        "hp": 4237,
+        "ad": 204.4,
+        "as": 1.14,
+        "outer": 3232,
+        "inner": 4153,
+        "demolish": 727,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 10.4
+      }
+    },
+    "Hull → Trinity → Warmog": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Jaurim's Fist",
+          "Mercury's Treads",
+          "Sheen"
+        ],
+        "hp": 1972,
+        "ad": 107.8,
+        "as": 1.04,
+        "outer": 1006,
+        "inner": 1330,
+        "demolish": 361,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 33.4
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Sheen"
+        ],
+        "hp": 2556,
+        "ad": 153.6,
+        "as": 1.09,
+        "outer": 2168,
+        "inner": 2865,
+        "demolish": 448,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 15.5
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Trinity Force"
+        ],
+        "hp": 3248,
+        "ad": 190.8,
+        "as": 1.36,
+        "outer": 3150,
+        "inner": 4048,
+        "demolish": 574,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 10.7
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Trinity Force",
+          "Warmog's Armor"
+        ],
+        "hp": 4117,
+        "ad": 194.4,
+        "as": 1.38,
+        "outer": 3445,
+        "inner": 4427,
+        "demolish": 708,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 9.8
+      }
+    },
+    "Hull → Warmog → DMP (tank circle)": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Jaurim's Fist",
+          "Mercury's Treads",
+          "Ruby Crystal"
+        ],
+        "hp": 2122,
+        "ad": 107.8,
+        "as": 1.04,
+        "outer": 966,
+        "inner": 1276,
+        "demolish": 383,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 34.8
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Ruby Crystal"
+        ],
+        "hp": 2706,
+        "ad": 153.6,
+        "as": 1.09,
+        "outer": 2069,
+        "inner": 2734,
+        "demolish": 470,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 16.2
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Warmog's Armor"
+        ],
+        "hp": 3626,
+        "ad": 160.8,
+        "as": 1.12,
+        "outer": 2485,
+        "inner": 3194,
+        "demolish": 632,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 13.5
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Hullbreaker",
+          "Mercury's Treads",
+          "Warmog's Armor",
+          "Dead Man's Plate"
+        ],
+        "hp": 4134,
+        "ad": 164.4,
+        "as": 1.14,
+        "outer": 2720,
+        "inner": 3495,
+        "demolish": 711,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 12.4
+      }
+    },
+    "Trinity → Hull → Titanic": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Sheen",
+          "Phage",
+          "Mercury's Treads"
+        ],
+        "hp": 1972,
+        "ad": 107.8,
+        "as": 1.04,
+        "outer": 1006,
+        "inner": 1330,
+        "demolish": 361,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 33.4
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Trinity Force",
+          "Mercury's Treads",
+          "Jaurim's Fist"
+        ],
+        "hp": 2689,
+        "ad": 148.6,
+        "as": 1.33,
+        "outer": 1852,
+        "inner": 2447,
+        "demolish": 467,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 18.1
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Trinity Force",
+          "Mercury's Treads",
+          "Hullbreaker"
+        ],
+        "hp": 3248,
+        "ad": 190.8,
+        "as": 1.36,
+        "outer": 3150,
+        "inner": 4048,
+        "demolish": 574,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 10.7
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Trinity Force",
+          "Mercury's Treads",
+          "Hullbreaker",
+          "Titanic Hydra"
+        ],
+        "hp": 3859,
+        "ad": 234.4,
+        "as": 1.38,
+        "outer": 3879,
+        "inner": 4984,
+        "demolish": 668,
+        "skippers": 2,
+        "kill_outer": false,
+        "tta_outer": 8.7
+      }
+    },
+    "Eclipse → Cleaver → Youmuu (combat)": {
+      "m8": {
+        "minute": 8,
+        "gold": 3800,
+        "level": 9,
+        "items": [
+          "Doran's Shield",
+          "Boots",
+          "Eclipse"
+        ],
+        "hp": 1772,
+        "ad": 152.8,
+        "as": 1.04,
+        "outer": 1282,
+        "inner": 1712,
+        "demolish": 367,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 26.2
+      },
+      "m12": {
+        "minute": 12,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Doran's Shield",
+          "Eclipse",
+          "Mercury's Treads",
+          "Phage"
+        ],
+        "hp": 2356,
+        "ad": 178.6,
+        "as": 1.09,
+        "outer": 1666,
+        "inner": 2226,
+        "demolish": 463,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 20.2
+      },
+      "m16": {
+        "minute": 16,
+        "gold": 8940,
+        "level": 14,
+        "items": [
+          "Doran's Shield",
+          "Eclipse",
+          "Mercury's Treads",
+          "Black Cleaver"
+        ],
+        "hp": 2853,
+        "ad": 210.8,
+        "as": 1.12,
+        "outer": 2029,
+        "inner": 2625,
+        "demolish": 562,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 16.6
+      },
+      "m20": {
+        "minute": 20,
+        "gold": 11180,
+        "level": 15,
+        "items": [
+          "Doran's Shield",
+          "Eclipse",
+          "Mercury's Treads",
+          "Black Cleaver",
+          "Youmuu's Ghostblade"
+        ],
+        "hp": 3001,
+        "ad": 269.4,
+        "as": 1.14,
+        "outer": 2727,
+        "inner": 3185,
+        "demolish": 651,
+        "skippers": 0,
+        "kill_outer": false,
+        "tta_outer": 12.3
+      }
+    }
+  }
+}

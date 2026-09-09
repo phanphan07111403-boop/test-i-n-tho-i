@@ -1,0 +1,122 @@
+==============================================================================
+PANTHEON — HULLBREAKER + DEMOLISH  (Wild Rift 7.2+)
+Playstyle: no all-in. Circle empty turrets. Cannon wave 8s window.
+Metric: physical damage to outer turret / 8s  |  HP fuels Demolish + Skipper
+==============================================================================
+
+GOLD / LEVEL (no kill gold)
+  Min    Gold  Lvl
+     1     860    2
+     4    1940    5
+     6    2800    7
+     8    3800    9
+    10    4800   11
+    12    6250   12
+    16    8940   14
+    20   11180   15
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (outer turret 8s)
+------------------------------------------------------------------------------
+   1:00 | outer   481 | inner   669 | HP  890 | Demo 185 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield
+   2:00 | outer   566 | inner   788 | HP 1016 | Demo 202 | Eclipse → Cleaver → Youmuu (combat)
+         items: Doran's Shield › Long Sword
+   3:00 | outer   687 | inner   956 | HP 1142 | Demo 220 | Trinity → Hull → Titanic
+         items: Doran's Shield › Sheen
+         Sheen
+   4:00 | outer   760 | inner  1031 | HP 1468 | Demo 275 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Jaurim's Fist
+   5:00 | outer   797 | inner  1081 | HP 1594 | Demo 293 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Jaurim's Fist › Boots
+   6:00 | outer   889 | inner  1206 | HP 1720 | Demo 311 | Trinity → Hull → Titanic
+         items: Doran's Shield › Sheen › Boots › Phage
+         Sheen
+   7:00 | outer   932 | inner  1265 | HP 1846 | Demo 329 | Eclipse → Cleaver → Youmuu (combat)
+         items: Doran's Shield › Long Sword › Mercury's Treads › Phage
+   8:00 | outer  1282 | inner  1712 | HP 1772 | Demo 367 | Eclipse → Cleaver → Youmuu (combat)
+         items: Doran's Shield › Boots › Eclipse
+   9:00 | outer  1793 | inner  2369 | HP 2298 | Demo 409 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Boots › Hullbreaker
+         Skipper
+  10:00 | outer  1959 | inner  2589 | HP 2424 | Demo 428 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads
+         Skipper
+  11:00 | outer  2096 | inner  2770 | HP 2430 | Demo 429 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Sheen
+         Skipper, Sheen
+  12:00 | outer  2168 | inner  2865 | HP 2556 | Demo 448 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Sheen
+         Skipper, Sheen
+  13:00 | outer  2315 | inner  3060 | HP 2762 | Demo 478 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Sheen › Phage
+         Skipper, Sheen
+  14:00 | outer  2489 | inner  3198 | HP 2888 | Demo 518 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Sheen › Phage
+         Skipper, Sheen
+  15:00 | outer  2763 | inner  3551 | HP 3144 | Demo 558 | Hull → Titanic → Warmog (HP)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Titanic Hydra
+         Skipper, Titanic
+  16:00 | outer  3150 | inner  4048 | HP 3248 | Demo 574 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Trinity Force
+         Skipper, Sheen
+  17:00 | outer  3152 | inner  4050 | HP 3254 | Demo 575 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Trinity Force
+         Skipper, Sheen
+  18:00 | outer  3238 | inner  4162 | HP 3384 | Demo 595 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Trinity Force
+         Skipper, Sheen
+  19:00 | outer  3240 | inner  4164 | HP 3390 | Demo 596 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Trinity Force
+         Skipper, Sheen
+  20:00 | outer  3879 | inner  4984 | HP 3859 | Demo 668 | Hull → Trinity → Titanic (Siege)
+         items: Doran's Shield › Hullbreaker › Mercury's Treads › Trinity Force › Titanic Hydra
+         Skipper, Sheen, Titanic
+
+------------------------------------------------------------------------------
+BUILD COMPARISON — OUTER TURRET / 8s
+------------------------------------------------------------------------------
+  Build                                      8:00  12:00  16:00  20:00  avg
+  Hull → Trinity → Titanic (Siege)           1054   2168   3150   3879  2540
+  Hull → Trinity → Warmog                    1006   2168   3150   3445  2469
+  Hull → Titanic → Warmog (HP)               1054   2069   2873   3232  2392
+  Trinity → Hull → Titanic                   1006   1852   3150   3879  2306
+  Hull → Warmog → DMP (tank circle)           966   2069   2485   2720  2188
+  Eclipse → Cleaver → Youmuu (combat)        1282   1666   2029   2727  1940
+
+------------------------------------------------------------------------------
+DEMOLISH PROC (after armor) @ 12 / 16 / 20
+------------------------------------------------------------------------------
+  Hull → Trinity → Titanic (Siege)          448  574  668   HP 3859
+  Hull → Trinity → Warmog                   448  574  708   HP 4117
+  Hull → Titanic → Warmog (HP)              470  592  727   HP 4237
+  Trinity → Hull → Titanic                  467  574  668   HP 3859
+  Hull → Warmog → DMP (tank circle)         470  632  711   HP 4134
+  Eclipse → Cleaver → Youmuu (combat)       463  562  651   HP 3001
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Best path (turret window, still Hull+Demolish): Hull → Trinity → Titanic (Siege)
+  20:00 outer/8s: 3879   HP 3859   Demolish 668
+  Combat Eclipse path 20:00 outer/8s: 2727   HP 3001
+
+  WHY HULL + HP, NOT ECLIPSE:
+  • Demolish = 100 + 22% max HP / 30s. More HP = bigger proc.
+  • Hullbreaker Skipper = 4th AA vs turret: 240% base AD + 9% max HP.
+  • Both want the same stat. Lethality does not feed Demolish.
+  • Trinity Sheen (200% base AD) after Q is extra turret hit, not combat.
+  • Titanic Cleave tooltip: also applies to turrets, scales bonus HP.
+  • Warmog is Demolish juice + regen while circling; slower autos.
+  • Eclipse/Youmuu: AD/lethality for W-Q all-in. You asked not to take
+    that fight. They lose Skipper and ~700–1000 HP on the proc.
+
+  PLAY (đi vòng, không chủ động combat):
+  1) Q ném wave, không W nhảy người.
+  2) Crash lính đại bác vào trụ trống. Đứng 3s cạnh trụ → AA = Demolish.
+  3) AA đến Skipper (đòn 4). Q đâm trụ nếu Trinity (Sheen).
+  4) Thấy 1 người rotate: analog ra rừng / Ghost. E chặn đòn người,
+     E KHÔNG chặn đạn trụ.
+  5) R = nhảy sang trụ trống lane kia, không R vào 5v5.
+  6) Một mình (Boarding Party). Đồng đội đứng cạnh = mất buff lính.
+
