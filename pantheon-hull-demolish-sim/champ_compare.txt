@@ -1,0 +1,27 @@
+============================================================================
+HULLBREAKER + DEMOLISH — tướng nào khớp 'không đánh, đi vòng phá trụ'
+Cùng path: Hullbreaker → Trinity → Titanic. Cửa sổ 8s lính đại bác.
+============================================================================
+
+  Tướng             8:00   12:00   16:00   20:00  HP@20  Demo
+  Pantheon          1054    2168    3150    3879  3859  668
+  Sion              1057    2145    2750    3836  4976  747
+  Nasus             1151    1813    2940    3612  3818  588
+  Tryndamere         908    1940    2736    3356  3475  540
+
+  Sion Glory HP @20: 1368
+  Nasus Q stacks @20: 421  Q in window: 2
+  Tryndamere: crit không ăn trụ — chỉ AS + Skipper.
+
+  Sion Hull→Warmog→DMP @20: outer 2697  HP 5251  Demo 785  items: Doran's Shield, Hullbreaker, Mercury's Treads, Warmog's Armor, Dead Man's Plate
+
+FIT (lối chơi, không chỉ DPS):
+  Sion     — last-hit = HP = Demolish. R analog đi trụ khác. Q gồng wave.
+             Chết vẫn zombie AA trụ (50% dmg). Đã map MB03 gồng.
+  Nasus    — Q stack ăn trụ, Wither nếu chúng tới (phản ứng, không all-in).
+             Không dash; đi vòng chậm. Ngồi một trụ hơn là xoay map.
+  Trynd    — AA nhanh, E thoát. Kit sống nhờ 1v1 + R bất tử = chủ động đánh.
+             Crit phí trên trụ. Fury kém nếu không combat.
+  Pantheon — W-Q và R vào fight. Pen trụ có, nhưng kit kéo bạn all-in.
+
+VERDICT: Sion.

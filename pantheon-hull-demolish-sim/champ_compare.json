@@ -1,0 +1,302 @@
+{
+  "Pantheon": {
+    "8": {
+      "items": [
+        "Doran's Shield",
+        "Jaurim's Fist",
+        "Boots",
+        "Jaurim's Fist"
+      ],
+      "hp": 2172,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.04,
+      "outer": 1054,
+      "inner": 1393,
+      "demolish": 390,
+      "skippers": 0,
+      "qs": 0,
+      "tta_outer": 31.9
+    },
+    "12": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Sheen"
+      ],
+      "hp": 2556,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.09,
+      "outer": 2168,
+      "inner": 2865,
+      "demolish": 448,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 15.5
+    },
+    "16": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force"
+      ],
+      "hp": 3248,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.36,
+      "outer": 3150,
+      "inner": 4048,
+      "demolish": 574,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 10.7
+    },
+    "20": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force",
+        "Titanic Hydra"
+      ],
+      "hp": 3859,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.38,
+      "outer": 3879,
+      "inner": 4984,
+      "demolish": 668,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 8.7
+    }
+  },
+  "Sion": {
+    "8": {
+      "items": [
+        "Doran's Shield",
+        "Jaurim's Fist",
+        "Boots",
+        "Jaurim's Fist"
+      ],
+      "hp": 2488,
+      "glory": 504,
+      "stacks": 0,
+      "as": 0.94,
+      "outer": 1057,
+      "inner": 1470,
+      "demolish": 405,
+      "skippers": 0,
+      "qs": 0,
+      "tta_outer": 31.8
+    },
+    "12": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Sheen"
+      ],
+      "hp": 3112,
+      "glory": 792,
+      "stacks": 0,
+      "as": 0.97,
+      "outer": 2145,
+      "inner": 2985,
+      "demolish": 490,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 15.7
+    },
+    "16": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force"
+      ],
+      "hp": 4084,
+      "glory": 1080,
+      "stacks": 0,
+      "as": 1.18,
+      "outer": 2750,
+      "inner": 3826,
+      "demolish": 624,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 12.2
+    },
+    "20": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force",
+        "Titanic Hydra"
+      ],
+      "hp": 4976,
+      "glory": 1368,
+      "stacks": 0,
+      "as": 1.19,
+      "outer": 3836,
+      "inner": 5337,
+      "demolish": 747,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 8.8
+    }
+  },
+  "Nasus": {
+    "8": {
+      "items": [
+        "Doran's Shield",
+        "Jaurim's Fist",
+        "Boots",
+        "Jaurim's Fist"
+      ],
+      "hp": 2132,
+      "glory": 0,
+      "stacks": 136,
+      "as": 0.88,
+      "outer": 1151,
+      "inner": 1602,
+      "demolish": 356,
+      "skippers": 0,
+      "qs": 2,
+      "tta_outer": 29.2
+    },
+    "12": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Sheen"
+      ],
+      "hp": 2516,
+      "glory": 0,
+      "stacks": 225,
+      "as": 0.92,
+      "outer": 1813,
+      "inner": 2522,
+      "demolish": 408,
+      "skippers": 1,
+      "qs": 2,
+      "tta_outer": 18.5
+    },
+    "16": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force"
+      ],
+      "hp": 3206,
+      "glory": 0,
+      "stacks": 322,
+      "as": 1.16,
+      "outer": 2940,
+      "inner": 4090,
+      "demolish": 503,
+      "skippers": 2,
+      "qs": 2,
+      "tta_outer": 11.4
+    },
+    "20": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force",
+        "Titanic Hydra"
+      ],
+      "hp": 3818,
+      "glory": 0,
+      "stacks": 421,
+      "as": 1.17,
+      "outer": 3612,
+      "inner": 5026,
+      "demolish": 588,
+      "skippers": 2,
+      "qs": 2,
+      "tta_outer": 9.3
+    }
+  },
+  "Tryndamere": {
+    "8": {
+      "items": [
+        "Doran's Shield",
+        "Jaurim's Fist",
+        "Boots",
+        "Jaurim's Fist"
+      ],
+      "hp": 1931,
+      "glory": 0,
+      "stacks": 0,
+      "as": 0.94,
+      "outer": 908,
+      "inner": 1263,
+      "demolish": 328,
+      "skippers": 0,
+      "qs": 0,
+      "tta_outer": 37.0
+    },
+    "12": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Sheen"
+      ],
+      "hp": 2249,
+      "glory": 0,
+      "stacks": 0,
+      "as": 0.99,
+      "outer": 1940,
+      "inner": 2700,
+      "demolish": 372,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 17.3
+    },
+    "16": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force"
+      ],
+      "hp": 2886,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.23,
+      "outer": 2736,
+      "inner": 3807,
+      "demolish": 459,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 12.3
+    },
+    "20": {
+      "items": [
+        "Doran's Shield",
+        "Hullbreaker",
+        "Mercury's Treads",
+        "Trinity Force",
+        "Titanic Hydra"
+      ],
+      "hp": 3475,
+      "glory": 0,
+      "stacks": 0,
+      "as": 1.25,
+      "outer": 3356,
+      "inner": 4670,
+      "demolish": 540,
+      "skippers": 2,
+      "qs": 0,
+      "tta_outer": 10.0
+    }
+  }
+}
