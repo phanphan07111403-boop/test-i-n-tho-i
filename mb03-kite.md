@@ -122,6 +122,8 @@ Cách mượt (Ashe / Sivir / Kayle):
 
 Jhin / MF R / kênh: **không** dùng nhịp này lúc reload hoặc R.
 
+**Kalista: cấm nhịp này.** Windup cần analog đang kéo mới hop. Xem `mb03-kalista.md`.
+
 ---
 
 ## 6. Lỗi hay gặp

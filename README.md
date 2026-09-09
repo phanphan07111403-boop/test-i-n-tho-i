@@ -8,7 +8,8 @@ League itemization sims + MB03 playstyle notes.
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
 | `mb03-loi-choi-khac.md` | MB03 (Tốc Chiến) | Còn lối nào khớp ngoài gồng / xả Q / combo? Kite AA, đặt trụ-cây, bám người |
 | `mb03-kite.md` | MB03 kite AA | Analog luôn lùi + tap A; cài Follow tắt; tập Ashe/Sivir |
-| `pantheon-hull-demolish-sim/` | Pantheon Baron (Wild Rift 7.2+) | Hullbreaker + Demolish, không combat, chỉ đi vòng phá trụ |
+| `mb03-kalista.md` | Kalista + MB03 | Hop dễ hơn chạm nếu analog không nhấc; cấm nhịp Ashe nhả stick |
+| `pantheon-hull-demolish-sim/` | Hullbreaker + Demolish (WR 7.2+) | Không combat, đi vòng phá trụ. Tướng khớp: **Sion** (Pantheon kit all-in) |
 
 ```bash
 python3 zyra-burn-sim/simulate_zyra_burn.py

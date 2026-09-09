@@ -270,4 +270,6 @@ Thứ tự học nếu đã xong 5 tướng gồng/xả:
 | Alistar W–Q | Combo trình tự |
 | Braum E khiên | Chống chịu, giữ hướng — phụ, không đủ một lối lane |
 
-Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne, Fiora, Kalista, Gwen — vẫn bỏ.
+Yasuo, Yone, Irelia, Akali, Zed, Lee Sin, Riven, Samira, Vayne, Fiora, Gwen — vẫn bỏ.
+
+**Kalista:** hop dễ hơn chạm tay (analog không nhấc lúc A) nhưng vẫn khó hơn Ashe/Sivir. Setting: `mb03-kalista.md`.
