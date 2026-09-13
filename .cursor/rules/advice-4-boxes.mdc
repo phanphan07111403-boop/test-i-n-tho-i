@@ -1,0 +1,20 @@
+---
+description: Bắt buộc điền 4 ô trước khi khuyên build, giày, máy HA, hoặc mua đồ — chặn trộn sample và default meta.
+alwaysApply: true
+---
+
+# 4 ô trước khi kết luận
+
+Trước khi khuyên (giày, item, máy Home Assistant, SKU, tay cầm), điền 4 ô — mỗi ô một câu có số. Thiếu ô thì nói thiếu, **không** đổ highest-WR / official-minimum / “thường phù hợp”.
+
+1. **Client** — Tốc Chiến vs PC LoL (patch); hoặc HAOS vs Docker vs máy user đã có; SKU đang bán VN. Nêu món **không tồn tại** trên client đó.
+2. **Role + quy mô** — mid vs support (vàng/XP khác); nhà 0 cam vs NVR. Cấm lấy sample role/nhà khác.
+3. **Đúng cặp + constraint** — so đúng A vs B user nêu, không tự đổi thành A vs C. Constraint (farm/CS/mana, watt, nhiệt, ngân sách) phải **đổi số**, không chỉ được nhắc.
+4. **Đúng metric** — WR phải có n, rank, nguồn, và đang so với cái gì. Tối ưu metric user nêu, không tối ưu WR/DPS/FPS ngầm.
+
+Lỗi đã mắc trên repo này:
+
+- Morgana **mid** bị khuyên Ionia vì WR vs Mercury + pick support; farm mid không vào model.
+- Home Assistant: không tìm được máy đã đề xuất, vẫn đưa Pi / Green / VM 2 GB.
+
+Nếu user hỏi follow-up, **khóa lại** client + role + cặp so sánh. Không giữ giả định lượt trước khi họ đổi game hoặc đổi máy.

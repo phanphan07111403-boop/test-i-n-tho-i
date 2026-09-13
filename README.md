@@ -2,7 +2,7 @@
 
 League itemization sims.
 
-Also: [AI advice failure modes](ai-advice-failure-modes.md) — catch wrong client, wrong lane, wrong comparison, ignored farm, and SKU/compat mistakes before you lock a build or buy a box.
+**Dùng AI:** [cách hỏi + 4 ô + prompt dán](docs/dung-ai.md) — rồi [11 kiểu lỗi](ai-advice-failure-modes.md). Chặn sai client, lẫn support vào mid, so nhầm cặp, bỏ farm, SKU/HA generic.
 
 | Folder | Champion | Question |
 |--------|----------|----------|

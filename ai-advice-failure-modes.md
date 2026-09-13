@@ -1,5 +1,7 @@
 # AI advice: 11 failure modes (catch them before you buy / lock a build)
 
+**Cách dùng (hỏi + prompt dán + 4 ô):** [`docs/dung-ai.md`](docs/dung-ai.md)
+
 AI will give a fluent answer even when it solved the **wrong problem**. Force one catch question per mode. If the AI cannot answer it in one sentence with numbers, discard the advice.
 
 Grounded in real prior asks on this repo: Home Assistant PC, Xiaomi gaming VN, thiết bị Tốc Chiến, Morgana mid (Ionian vs mana, support WR mixed into mid, Ionian vs Mercury instead of Mana, farm ignored), Morgana build order (PC then WR), AP Kog'Maw (PC/WR mix), Zyra support vs mid boots.
