@@ -2,6 +2,8 @@
 
 League itemization sims.
 
+**Dùng AI:** [cách hỏi + 4 ô + prompt dán](docs/dung-ai.md) — rồi [11 kiểu lỗi](ai-advice-failure-modes.md). Chặn sai client, lẫn support vào mid, so nhầm cặp, bỏ farm, SKU/HA generic.
+
 | Folder | Champion | Question |
 |--------|----------|----------|
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
