@@ -1,0 +1,112 @@
+==============================================================================
+MORGANA — IONIAN vs BOOTS OF MANA (Wild Rift 7.2e)
+Câu hỏi: mid vẫn lên Ionia? Đã tính farm chưa?
+20:00 · W max · Blackfire → Liandry → Rylai · chỉ đổi dòng giày
+==============================================================================
+
+FARM FACTOR (mid vs support) — đây là thứ lần trước không mô hình
+------------------------------------------------------------------------------
+  Mid farm W mỗi wave (2 W/phút). Ionia T2 = 0% mana regen, 0 AP, 0 pen.
+  Boots of Mana T2 = 75% regen + 25 AP + 8 pen + Big Bully 18.
+  7.2: đồ mage T3 mất 7% pen. Core BF/Liandry/Rylai/Cap = 0 pen.
+  Spellslinger là pen rẻ duy nhất trước Void/Cryptbloom.
+
+  Gold tích lũy (base CS/assist + Big Bully − CS miss vì OOM)
+  Mid Mana                     8:00  4140  12:00  6492  16:00  9040  20:00 11856  bully+996 miss-160
+  Mid Ionian                   8:00  3812  12:00  5972  16:00  8292  20:00 10772  bully+0 miss-248
+  Support Mana                 8:00  3060  12:00  4640  16:00  6360  20:00  8280  bully+0 miss-0
+  Support Ionian               8:00  3060  12:00  4640  16:00  6360  20:00  8280  bully+0 miss-0
+  Δ mid @20:00: Mana +1084g  (bully +996, miss +88 tiết kiệm)
+
+  OOM farm W (mid) — phút nào Ionia bỏ wave vì hết mana
+    Mana path OOM:   [1, 2]
+    Ionian path OOM: [1, 2, 3, 4]
+
+------------------------------------------------------------------------------
+MID — COMBO Q+W+burn (10s) vs đối thủ mid
+------------------------------------------------------------------------------
+   6:00 | Mana    474  Ionia    448  Δ  +5.8%  MANA  | Q/min 8.1 vs 9.1 | pen×0.75 vs ×0.71
+         Mana : Boots of Mana › Lost Chapter
+         Ionia: Ionian Boots of Lucidity › Lost Chapter
+   8:00 | Mana    785  Ionia    753  Δ  +4.3%  MANA  | Q/min 9.3 vs 10.3 | pen×0.74 vs ×0.70
+         Mana : Boots of Mana › Blackfire Torch
+         Ionia: Ionian Boots of Lucidity › Blackfire Torch
+  10:00 | Mana   1126  Ionia   1040  Δ  +8.3%  MANA  | Q/min 9.3 vs 10.3 | pen×0.73 vs ×0.69
+         Mana : Boots of Mana › Blackfire Torch › Haunting Guise
+         Ionia: Ionian Boots of Lucidity › Blackfire Torch
+  12:00 | Mana   1117  Ionia   1020  Δ  +9.5%  MANA  | Q/min 9.3 vs 10.3 | pen×0.66 vs ×0.63
+         Mana : Boots of Mana › Blackfire Torch › Haunting Guise › Fated Ashes
+         Ionia: Ionian Boots of Lucidity › Blackfire Torch › Haunting Guise
+  14:00 | Mana   1305  Ionia   1288  Δ  +1.3%  MANA  | Q/min 9.3 vs 10.3 | pen×0.66 vs ×0.62
+         Mana : Boots of Mana › Blackfire Torch › Liandry's Torment
+         Ionia: Ionian Boots of Lucidity › Blackfire Torch › Liandry's Torment
+  16:00 | Mana   1486  Ionia   1359  Δ  +9.4%  MANA  | Q/min 9.3 vs 11.0 | pen×0.72 vs ×0.62
+         Mana : Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Giant's Belt
+         Ionia: Blackfire Torch › Liandry's Torment › Crimson Lucidity
+  18:00 | Mana   1538  Ionia   1328  Δ +15.8%  MANA  | Q/min 9.3 vs 11.0 | pen×0.67 vs ×0.58
+         Mana : Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Giant's Belt › Blasting Wand
+         Ionia: Blackfire Torch › Liandry's Torment › Crimson Lucidity › Giant's Belt
+  20:00 | Mana   1907  Ionia   1661  Δ +14.8%  MANA  | Q/min 9.3 vs 11.0 | pen×0.67 vs ×0.58
+         Mana : Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Rylai's Crystal Scepter › Blasting Wand
+         Ionia: Blackfire Torch › Liandry's Torment › Crimson Lucidity › Rylai's Crystal Scepter
+
+  Spike món
+    Mana: Boots~3:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rylai's~19:00
+    Ionia: Ionian~2:00, Blackfire~8:00, Liandry's~14:00, Crimson~16:00, Rylai's~20:00
+
+  Diện tích combo 20p: Mana 19864  vs  Ionia 18021  (+10.2%)
+  Q/phút trung bình:   Mana 8.71  vs  Ionia 9.87  (Ionia +13.4% roots)
+  Flash CD @20:        Mana 150s  vs  Ionia 120s
+
+------------------------------------------------------------------------------
+SUPPORT — cùng 2 dòng giày, vàng không farm (đối chứng)
+------------------------------------------------------------------------------
+   8:00 | Mana    645  Ionia    620  Δ  +3.9% | gold 3060 vs 3060 | Q/min 8.8 vs 9.8
+         Ionia items: Ionian Boots of Lucidity › Black Mist Scythe › Lost Chapter
+         Mana  items: Black Mist Scythe › Boots of Mana › Lost Chapter
+  12:00 | Mana    989  Ionia    968  Δ  +2.2% | gold 4640 vs 4640 | Q/min 10.0 vs 11.0
+         Ionia items: Ionian Boots of Lucidity › Black Mist Scythe › Blackfire Torch
+         Mana  items: Black Mist Scythe › Boots of Mana › Blackfire Torch
+  16:00 | Mana   1274  Ionia   1206  Δ  +5.6% | gold 6360 vs 6360 | Q/min 10.0 vs 11.7
+         Ionia items: Black Mist Scythe › Blackfire Torch › Crimson Lucidity
+         Mana  items: Black Mist Scythe › Blackfire Torch › Spellslinger's Shoes
+  20:00 | Mana   1442  Ionia   1335  Δ  +8.0% | gold 8280 vs 8280 | Q/min 10.0 vs 11.7
+         Ionia items: Black Mist Scythe › Blackfire Torch › Crimson Lucidity › Haunting Guise › Fated Ashes
+         Mana  items: Black Mist Scythe › Blackfire Torch › Spellslinger's Shoes › Haunting Guise › Fated Ashes
+  Diện tích combo support: Mana 16829 vs Ionia 16006 (+5.1%)
+  Ionia rẻ 200g T2 / 200g T3. Support 20 phút không xong Liandry ở cả hai
+  nhánh — 200g không mua thêm một món. Q haste + Flash mới là lý do Ionia support.
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  MID: Boots of Mana → Spellslinger thắng 18/20 phút combat.
+  SUPPORT: damage vẫn nghiêng Spellslinger (+5%), nhưng kit support là Q/E/Flash.
+           Diamond+ support Ionia 92% pick — đúng vai, không copy số liệu đó sang mid.
+
+  Lần trước chọn Ionia vì Diamond+ 57% WR / 68% pick, và Q haste.
+  Bảng đó so Ionia với Mercury, KHÔNG có WR Boots of Mana.
+  wrchina Top-30 (19 build thật, 2026-09-11): Spellslinger 63%, Crimson 32%.
+  Support Diamond+ Ionia 92% pick — lẫn số liệu support vào mid.
+
+  FARM ĐỔI KẾT QUẢ VÌ:
+  1) Mid W-max mỗi wave. Ionia T2 không regen mana → OOM, mất CS.
+  2) Big Bully + AP trên Boots of Mana last-hit wave; Ionia không.
+  3) +200g T2 là ~nửa wave mid, không phải 'đắt' như support.
+  4) 7.2 rút pen khỏi Liandry/Rylai/Cap. Không Spellslinger thì 0 pen
+     cho đến món 4–5. Mid kịp hoàn thành 3 món — pen nhân cả kit.
+  5) Blackfire (20 AH) + Transcendence (12) đã che bớt mất 15 AH Ionia.
+     Q/phút Ionia hơn, nhưng không bù damage W+%HP Liandry khi có pen.
+
+  KHI NÀO VẪN IONIA MID:
+  • Matchup all-in / cần Flash-R (Crimson 20% summoner haste + MS).
+  • Bạn đã đấm Ionia T2 — không cross-upgrade sang Mana.
+  • Bị gank tới chết, Q haste + Black Shield > damage.
+
+  MUA MID MẶC ĐỊNH:
+  1) Boots of Speed + Amplifying Tome → Boots of Mana (~3:00)
+  2) Lost Chapter → Fated Ashes → Blackfire (~8:00)
+  3) Liandry (~13:00)
+  4) Spellslinger sau 10:00, cùng back Liandry (~15:00)
+  5) Rylai (~19:00) → Deathcap / Void nếu tank
+==============================================================================
