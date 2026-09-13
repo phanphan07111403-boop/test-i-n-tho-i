@@ -2,6 +2,8 @@
 
 League itemization sims.
 
+Also: [AI advice failure modes](ai-advice-failure-modes.md) — catch wrong client, wrong lane, wrong comparison, ignored farm, and SKU/compat mistakes before you lock a build or buy a box.
+
 | Folder | Champion | Question |
 |--------|----------|----------|
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
