@@ -18,7 +18,7 @@ Outputs: `report.txt`, `results.json`
 |---|------|
 | Client | Tốc Chiến 7.2e. Pen sống ở Spellslinger / Void / Cryptbloom / Bloodletter / Orb 15 flat. |
 | Role | Mid. E waveclear. Không Smite, không Scythe. |
-| Cặp | **Luden → Infinity Orb → Cap** vs **Blackfire → Liandry → Void**. Constraint: poke E full HP vs all-in 5.5s (R). |
+| Cặp | **Luden → Orb → Cap** vs **BF → Liandry → Void** vs **BF → Orb → Cap**. Poke E vs all-in 5.5s. |
 | Metric | Poke squishy, all-in squishy, all-in tank. Không dùng Diamond+ WR làm winner. |
 
 Diamond+ (2026-09-06): Luden→Orb→Cap **54.66% WR / 25% pick**; BF→Liandry→Void **51.91% WR / 7.6% pick**. WR so với cả pool mid, không phải cặp này. Mercury 39% pick so Ionia = **A vs C**, bỏ.
@@ -45,21 +45,32 @@ Spellslinger · Blackfire · Liandry · Void Staff
 | ~15:00 | **Spellslinger** |
 | ~19:00 | **Void** — 40% pen |
 
+**C — hybrid BF → Orb → Cap**  
+Spellslinger · Blackfire · Infinity Orb · Deathcap
+
+| Spike | Món |
+|-------|-----|
+| ~8:00 | **Blackfire** |
+| ~13:00 | **Infinity Orb** |
+| ~15:00 | **Spellslinger** |
+| ~20:00 | **Deathcap** |
+
+Burn + 20 AH + execute + Cap. Không Echo, không Liandry, không Void.
+
 ## Winner theo metric (sim)
 
-| Metric | Thắng | 20 phút |
-|--------|--------|---------|
-| E poke squishy (full HP) | **Pen / Luden+Orb** | Burn **−9.6%** |
-| All-in 5.5s squishy | **Pen / Luden+Orb** | Burn **−8.2%** |
-| All-in 5.5s tank | **Burn / BF+Liandry+Void** | Burn **+2.2%** |
-| E/phút @20 | Burn (11.3 vs 10.5) | BF 20 AH vs Luden 10 |
+| Metric | Pen Luden+Orb | Hybrid BF+Orb+Cap | Burn BF+Liandry+Void |
+|--------|---------------|-------------------|----------------------|
+| E poke squishy | **8834** | 7736 (−12.4%) | 7982 (−9.6%) |
+| All-in 5.5s squishy | **32556** | 31595 (−3.0%) | 29891 (−8.2%) |
+| All-in 5.5s tank | 23643 | 22987 (−2.8%) | **24174 (+2.2%)** |
+| E/phút @20 | 10.5 | 11.3 | 11.3 |
 
-Orb execute **không** giúp poke full HP (chưa xuống 35%). Echo + AP + flat pen thắng poke. Liandry + R 5.5s + Void thắng tank **muộn** (Void ~19:00). Phút 8–15 pen vẫn hơn cả tank vì Luden spike.
-
-Pen đổi Cap → Void: tank all-in 20p **23909** vs Burn Void **24174** — Liandry vẫn hơn một nhịp. Burn đổi Void → Cap: thua tank.
+**BF→Orb→Cap không phải best of both.** Poke thua Luden (mất Echo; Liandry 3s poke còn hơn Orb trên full HP). Tank thua BF+Liandry+Void (mất %HP và Void). All-in squishy gần Luden (−3%) nhờ Orb execute + BF burn + Cap.
 
 ## Khi nào lên gì
 
-- Lane poke, đội squishy, cần Echo/execute → **Luden → Orb → Cap**.
+- Lane poke, đội squishy → **Luden → Orb → Cap**.
 - 2+ tank, fight kéo quanh R → **BF → Liandry → Void**.
-- Spellslinger **cả hai** path. Core 7.2 không có 7% pen.
+- **BF → Orb → Cap** chỉ khi đã đấm BF (AH/clear) rồi muốn execute, chấp nhận thua hai đầu. Đừng pick sẵn như “cả burn lẫn pen”.
+- Spellslinger **mọi** path. Core 7.2 không có 7% pen.

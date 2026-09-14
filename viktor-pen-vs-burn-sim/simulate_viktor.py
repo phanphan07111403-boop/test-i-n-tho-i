@@ -8,6 +8,7 @@ Locked:
   Role: mid (E-max waveclear). Not jungle / support.
   Pair: Luden → Infinity Orb → Cap
         vs Blackfire → Liandry → Void
+        vs Blackfire → Infinity Orb → Cap  (hybrid: burn + execute, no Liandry)
   Metric: E poke (full HP) vs 5.5s all-in (R storm) on squishy AND tank.
 
 Diamond+ (riftpatchnotes, 2026-09-06) has both cores. That WR is not
@@ -165,6 +166,9 @@ BUILD_PATHS: Dict[str, List[str]] = {
     ),
     "Burn · BF → Liandry → Cap": core(
         "Blackfire Torch", "Liandry's Torment", "Rabadon's Deathcap",
+    ),
+    "Hybrid · BF → Orb → Cap": core(
+        "Blackfire Torch", "Infinity Orb", "Rabadon's Deathcap",
     ),
 }
 
@@ -492,19 +496,22 @@ def summarize(results: Dict[str, List[Snap]]) -> str:
     burn = "Burn · BF → Liandry → Void"
     pen_v = "Pen · Luden → Orb → Void"
     burn_c = "Burn · BF → Liandry → Cap"
-    a, b, c, d = results[pen], results[burn], results[pen_v], results[burn_c]
+    hyb = "Hybrid · BF → Orb → Cap"
+    a, b, c, d, h = (
+        results[pen], results[burn], results[pen_v], results[burn_c], results[hyb],
+    )
     L: List[str] = []
     L.append("=" * 78)
-    L.append("VIKTOR MID — MAGIC PEN / BURST vs BF + LIANDRY (Wild Rift 7.2e)")
+    L.append("VIKTOR MID — LUDEN+ORB vs BF+LIANDRY vs BF+ORB+CAP (WR 7.2e)")
     L.append("Role: mid · E-max poke then R 5.5s · 5 ô (giày + 4)")
-    L.append("Cặp: Luden→Orb→Cap  vs  Blackfire→Liandry→Void")
+    L.append("Cặp: Luden→Orb→Cap  vs  BF→Liandry→Void  vs  BF→Orb→Cap")
     L.append("=" * 78)
     L.append("")
     L.append("4 Ô")
     L.append("-" * 78)
     L.append("  Client : Tốc Chiến 7.2e. T3 mage mất 7% pen. Không PC Shadowflame.")
     L.append("  Role   : mid. E waveclear + Big Bully. Không copy jungle/support.")
-    L.append("  Cặp    : Luden+Orb (burst/execute) vs BF+Liandry (burn). Cùng Spellslinger.")
+    L.append("  Cặp    : Luden+Orb vs BF+Liandry vs BF+Orb+Cap. Cùng Spellslinger.")
     L.append("  Metric : E poke full HP, và all-in 5.5s (E+Q+AA+R) lên squishy vs tank.")
     L.append("")
     L.append("  Diamond+ (2026-09-06): Luden→Orb→Cap 54.66% WR / 25% pick;")
@@ -516,7 +523,7 @@ def summarize(results: Dict[str, List[Snap]]) -> str:
         t = first(snaps, item)
         return f"~{t}:00" if t else "không xong 20p"
 
-    L.append("PATH A — magic pen / burst")
+    L.append("PATH A — Luden → Orb → Cap")
     L.append("-" * 78)
     L.append("  Spellslinger · Luden's Echo · Infinity Orb · Deathcap")
     L.append(
@@ -524,66 +531,87 @@ def summarize(results: Dict[str, List[Snap]]) -> str:
         f"Spell {spike(a, "Spellslinger's Shoes")}  Cap {spike(a, "Rabadon's Deathcap")}"
     )
     L.append("  Luden = Echo 140+15% AP / 9s (7.2b), 0% pen (T3 stripped).")
-    L.append("  Orb = 110 AP + 15 flat + 20% dmg khi <35% HP. Không phải Void.")
     L.append("")
-    L.append("PATH B — BF + Liandry")
+    L.append("PATH B — BF → Liandry → Void")
     L.append("-" * 78)
     L.append("  Spellslinger · Blackfire · Liandry · Void Staff")
     L.append(
         f"  BF {spike(b, 'Blackfire Torch')}  Liandry {spike(b, "Liandry's Torment")}  "
         f"Spell {spike(b, "Spellslinger's Shoes")}  Void {spike(b, 'Void Staff')}"
     )
-    L.append("  BF 20+2% AP/s + 20 AH (nhiều E hơn). Liandry 2% max HP/s. Void 40%.")
+    L.append("  BF 20+2% AP/s + 20 AH. Liandry 2% max HP/s. Void 40%.")
+    L.append("")
+    L.append("PATH C — BF → Orb → Cap  (hybrid, câu hỏi follow-up)")
+    L.append("-" * 78)
+    L.append("  Spellslinger · Blackfire · Infinity Orb · Deathcap")
+    L.append(
+        f"  BF {spike(h, 'Blackfire Torch')}  Orb {spike(h, 'Infinity Orb')}  "
+        f"Spell {spike(h, "Spellslinger's Shoes")}  Cap {spike(h, "Rabadon's Deathcap")}"
+    )
+    L.append("  Có burn + 20 AH + Orb execute + Cap. Không Echo, không Liandry, không Void.")
     L.append("")
     L.append("-" * 78)
-    L.append("E POKE (full HP, laser + aftershock + 3s burn / 1 Echo)")
+    L.append("E POKE (full HP)")
     L.append("-" * 78)
     for m in (6, 8, 10, 12, 14, 16, 18, 20):
-        x, y = a[m - 1], b[m - 1]
+        x, y, z = a[m - 1], b[m - 1], h[m - 1]
         L.append(
-            f"  {m:>2}:00 | Pen sq {x.poke_sq:>5.0f}  Burn sq {y.poke_sq:>5.0f}"
-            f"  | Pen tank {x.poke_tk:>5.0f}  Burn tank {y.poke_tk:>5.0f}"
+            f"  {m:>2}:00 | Pen {x.poke_sq:>5.0f}  BF-Orb {z.poke_sq:>5.0f}"
+            f"  Burn {y.poke_sq:>5.0f}  | tank Pen {x.poke_tk:>5.0f}"
+            f"  BF-Orb {z.poke_tk:>5.0f}  Burn {y.poke_tk:>5.0f}"
         )
-        L.append(f"         pen: {short(x.items)}")
-        L.append(f"         burn:{short(y.items)}")
+        L.append(f"         BF-Orb: {short(z.items)}")
     L.append("")
     L.append(
-        f"  Diện tích poke squishy 20p: Pen {area(a,'poke_sq'):.0f}  "
+        f"  Poke squishy 20p: Pen {area(a,'poke_sq'):.0f}  "
+        f"BF-Orb {area(h,'poke_sq'):.0f} "
+        f"({100*(area(h,'poke_sq')/area(a,'poke_sq')-1):+.1f}% vs Pen)  "
         f"Burn {area(b,'poke_sq'):.0f} "
-        f"({100*(area(b,'poke_sq')/area(a,'poke_sq')-1):+.1f}%)"
+        f"({100*(area(b,'poke_sq')/area(a,'poke_sq')-1):+.1f}% vs Pen)"
     )
     L.append(
-        f"  E/phút @20: Pen {a[19].e_per_min:.1f}  Burn {b[19].e_per_min:.1f} "
-        f"(BF 20 AH vs Luden 10 AH)"
+        f"  E/phút @20: Pen {a[19].e_per_min:.1f}  BF-Orb {h[19].e_per_min:.1f}  "
+        f"Burn {b[19].e_per_min:.1f}"
     )
     L.append("")
     L.append("-" * 78)
     L.append("ALL-IN 5.5s (E + Q + empowered AA + R storm + burns)")
     L.append("-" * 78)
     for m in (8, 10, 12, 14, 16, 18, 20):
-        x, y = a[m - 1], b[m - 1]
+        x, y, z = a[m - 1], b[m - 1], h[m - 1]
         L.append(
-            f"  {m:>2}:00 | Pen sq {x.allin_sq:>5.0f}  Burn sq {y.allin_sq:>5.0f}"
-            f"  | Pen tank {x.allin_tk:>5.0f}  Burn tank {y.allin_tk:>5.0f}"
+            f"  {m:>2}:00 | Pen sq {x.allin_sq:>5.0f}  BF-Orb {z.allin_sq:>5.0f}"
+            f"  Burn {y.allin_sq:>5.0f}"
+        )
+        L.append(
+            f"         tank | Pen {x.allin_tk:>5.0f}  BF-Orb {z.allin_tk:>5.0f}"
+            f"  Burn {y.allin_tk:>5.0f}"
         )
     L.append("")
     L.append(
         f"  All-in squishy 20p: Pen {area(a,'allin_sq'):.0f}  "
+        f"BF-Orb {area(h,'allin_sq'):.0f} "
+        f"({100*(area(h,'allin_sq')/area(a,'allin_sq')-1):+.1f}%)  "
         f"Burn {area(b,'allin_sq'):.0f} "
         f"({100*(area(b,'allin_sq')/area(a,'allin_sq')-1):+.1f}%)"
     )
     L.append(
         f"  All-in tank 20p:    Pen {area(a,'allin_tk'):.0f}  "
+        f"BF-Orb {area(h,'allin_tk'):.0f} "
+        f"({100*(area(h,'allin_tk')/area(a,'allin_tk')-1):+.1f}%)  "
         f"Burn {area(b,'allin_tk'):.0f} "
         f"({100*(area(b,'allin_tk')/area(a,'allin_tk')-1):+.1f}%)"
     )
     L.append(
-        f"  Pen+Void tank all-in: {area(c,'allin_tk'):.0f}  "
+        f"  Pen+Void tank: {area(c,'allin_tk'):.0f}  "
         f"Burn+Cap tank: {area(d,'allin_tk'):.0f}"
     )
     L.append("")
     L.append("  Spike")
-    for label, snaps in (("Pen Cap", a), ("Burn Void", b), ("Pen Void", c), ("Burn Cap", d)):
+    for label, snaps in (
+        ("Pen Cap", a), ("Burn Void", b), ("BF-Orb Cap", h),
+        ("Pen Void", c), ("Burn Cap", d),
+    ):
         bits = []
         for it in (
             "Boots of Mana", "Luden's Echo", "Infinity Orb",
@@ -598,24 +626,22 @@ def summarize(results: Dict[str, List[Snap]]) -> str:
     L.append("-" * 78)
     L.append("VERDICT")
     L.append("-" * 78)
-    poke_burn = area(b, "poke_sq") / area(a, "poke_sq") - 1
-    tank_burn = area(b, "allin_tk") / area(a, "allin_tk") - 1
-    sq_allin = area(b, "allin_sq") / area(a, "allin_sq") - 1
-    if poke_burn < 0:
-        L.append("  Poke squishy: PEN thắng (Echo + Orb AP + flat pen, chúng full HP).")
-    else:
-        L.append("  Poke squishy: BURN thắng (nhiều E + 3s DoT).")
-    if tank_burn > 0:
-        L.append("  All-in tank 5.5s: BURN thắng (Liandry %HP + Void, R giữ burn).")
-        L.append("  Phút 8–15 Pen vẫn hơn hoặc hòa tank — Burn chỉ lật sau Void ~19:00.")
-    else:
-        L.append("  All-in tank 5.5s: PEN không thua %HP — kiểm tra lại model.")
-    if sq_allin < 0:
-        L.append("  All-in squishy: PEN (Orb execute <35% + Echo).")
-    else:
-        L.append("  All-in squishy: BURN (R 5.5s cho Liandry/BF chạy hết).")
-    L.append("  Default: đội nhiều squishy / poke lane → Luden Orb Cap.")
-    L.append("  Default: 2+ tank / fight dài quanh R → BF Liandry Void.")
+    L.append(
+        f"  Poke squishy vs Pen: BF-Orb {100*(area(h,'poke_sq')/area(a,'poke_sq')-1):+.1f}%  "
+        f"Burn {100*(area(b,'poke_sq')/area(a,'poke_sq')-1):+.1f}%"
+    )
+    L.append(
+        f"  All-in squishy vs Pen: BF-Orb {100*(area(h,'allin_sq')/area(a,'allin_sq')-1):+.1f}%  "
+        f"Burn {100*(area(b,'allin_sq')/area(a,'allin_sq')-1):+.1f}%"
+    )
+    L.append(
+        f"  All-in tank vs Pen: BF-Orb {100*(area(h,'allin_tk')/area(a,'allin_tk')-1):+.1f}%  "
+        f"Burn {100*(area(b,'allin_tk')/area(a,'allin_tk')-1):+.1f}%"
+    )
+    L.append("  BF→Orb→Cap = burn + execute, mất Echo và mất Liandry/%HP.")
+    L.append("  Không phải 'best of both': poke/squishy thua Luden; tank thua BF+Liandry+Void.")
+    L.append("  Default squishy/poke → Luden Orb Cap. 2+ tank → BF Liandry Void.")
+    L.append("  BF Orb Cap chỉ khi muốn AH/burn first-item mà vẫn execute, chấp nhận thua hai đầu.")
     L.append("  Đừng thay Spellslinger: core 7.2 = 0 pen nếu không giày/% Void.")
     L.append("=" * 78)
     return "\n".join(L)
@@ -627,7 +653,7 @@ def export_json(results: Dict[str, List[Snap]], path: str) -> None:
             "champion": "Viktor",
             "role": "Mid",
             "patch": "7.2e",
-            "pair": "Luden+Orb+Cap vs BF+Liandry+Void",
+            "pair": "Luden+Orb+Cap vs BF+Liandry+Void vs BF+Orb+Cap",
             "ranked_note": (
                 "Diamond+ Luden-Orb-Cap 54.66% WR / 25% pick vs "
                 "BF-Liandry-Void 51.91% WR / 7.6% pick (2026-09-06). "
@@ -663,16 +689,25 @@ def self_check(results: Dict[str, List[Snap]]) -> None:
         for s in snaps:
             if s.minute < 10:
                 assert "Spellslinger's Shoes" not in s.items
-    lu, orb, bf, li = (
+    h = results["Hybrid · BF → Orb → Cap"]
+    lu, orb, bf, li, h_orb, h_cap = (
         first(a, "Luden's Echo"),
         first(a, "Infinity Orb"),
         first(b, "Blackfire Torch"),
         first(b, "Liandry's Torment"),
+        first(h, "Infinity Orb"),
+        first(h, "Rabadon's Deathcap"),
     )
     assert lu is not None and 6 <= lu <= 10, lu
     assert bf is not None and 6 <= bf <= 10, bf
     assert orb is not None and 11 <= orb <= 17, orb
     assert li is not None and 11 <= li <= 16, li
+    assert first(h, "Blackfire Torch") == bf
+    assert h_orb is not None and 11 <= h_orb <= 17, h_orb
+    assert h_cap is not None and 18 <= h_cap <= 20, h_cap
+    # Hybrid has Orb+BF, never Liandry.
+    assert first(h, "Liandry's Torment") is None
+    assert first(h, "Luden's Echo") is None
     # Path-row Tome must not leak back after Spellslinger (500g/min bug).
     for snaps in results.values():
         for s in snaps:

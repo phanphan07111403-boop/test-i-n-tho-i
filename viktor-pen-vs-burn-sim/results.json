@@ -3,7 +3,7 @@
     "champion": "Viktor",
     "role": "Mid",
     "patch": "7.2e",
-    "pair": "Luden+Orb+Cap vs BF+Liandry+Void",
+    "pair": "Luden+Orb+Cap vs BF+Liandry+Void vs BF+Orb+Cap",
     "ranked_note": "Diamond+ Luden-Orb-Cap 54.66% WR / 25% pick vs BF-Liandry-Void 51.91% WR / 7.6% pick (2026-09-06). Unconditioned; not this sim's metric."
   },
   "builds": {
@@ -1215,6 +1215,309 @@
         "allin_tk": 1915.0,
         "e_per_min": 11.31,
         "notes": "BF burn, Liandry %HP"
+      }
+    ],
+    "Hybrid \u00b7 BF \u2192 Orb \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "gold": 930,
+        "poke_sq": 93.7,
+        "poke_tk": 91.3,
+        "allin_sq": 195.2,
+        "allin_tk": 190.2,
+        "e_per_min": 7.07,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "gold": 1360,
+        "poke_sq": 99.8,
+        "poke_tk": 96.6,
+        "allin_sq": 212.1,
+        "allin_tk": 205.3,
+        "e_per_min": 7.07,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 1790,
+        "poke_sq": 138.4,
+        "poke_tk": 133.2,
+        "allin_sq": 263.2,
+        "allin_tk": 253.4,
+        "e_per_min": 7.95,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "gold": 2220,
+        "poke_sq": 137.0,
+        "poke_tk": 131.2,
+        "allin_sq": 648.0,
+        "allin_tk": 620.6,
+        "e_per_min": 8.78,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 2740,
+        "poke_sq": 173.4,
+        "poke_tk": 165.2,
+        "allin_sq": 722.1,
+        "allin_tk": 688.0,
+        "e_per_min": 10.46,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "gold": 3260,
+        "poke_sq": 325.4,
+        "poke_tk": 308.6,
+        "allin_sq": 924.3,
+        "allin_tk": 876.4,
+        "e_per_min": 10.46,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3780,
+        "poke_sq": 347.0,
+        "poke_tk": 327.5,
+        "allin_sq": 1030.6,
+        "allin_tk": 972.5,
+        "e_per_min": 10.46,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 4300,
+        "poke_sq": 388.0,
+        "poke_tk": 364.5,
+        "allin_sq": 1341.6,
+        "allin_tk": 1260.1,
+        "e_per_min": 11.31,
+        "notes": "BF burn"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 4870,
+        "poke_sq": 384.5,
+        "poke_tk": 340.8,
+        "allin_sq": 1357.5,
+        "allin_tk": 1203.2,
+        "e_per_min": 11.31,
+        "notes": "BF burn"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod"
+        ],
+        "gold": 5440,
+        "poke_sq": 428.1,
+        "poke_tk": 359.6,
+        "allin_sq": 1594.5,
+        "allin_tk": 1339.2,
+        "e_per_min": 11.31,
+        "notes": "BF burn"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6010,
+        "poke_sq": 428.1,
+        "poke_tk": 342.9,
+        "allin_sq": 1594.5,
+        "allin_tk": 1277.0,
+        "e_per_min": 11.31,
+        "notes": "BF burn"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod",
+          "Hextech Alternator"
+        ],
+        "gold": 6580,
+        "poke_sq": 409.5,
+        "poke_tk": 348.7,
+        "allin_sq": 1555.4,
+        "allin_tk": 1324.7,
+        "e_per_min": 11.31,
+        "notes": "BF burn"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb"
+        ],
+        "gold": 7200,
+        "poke_sq": 453.3,
+        "poke_tk": 362.7,
+        "allin_sq": 1807.3,
+        "allin_tk": 1377.7,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb"
+        ],
+        "gold": 7820,
+        "poke_sq": 449.3,
+        "poke_tk": 343.1,
+        "allin_sq": 2027.9,
+        "allin_tk": 1464.6,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes"
+        ],
+        "gold": 8440,
+        "poke_sq": 515.1,
+        "poke_tk": 374.0,
+        "allin_sq": 2368.9,
+        "allin_tk": 1600.2,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "gold": 9060,
+        "poke_sq": 545.8,
+        "poke_tk": 379.7,
+        "allin_sq": 2532.6,
+        "allin_tk": 1637.0,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "gold": 9720,
+        "poke_sq": 545.8,
+        "poke_tk": 365.0,
+        "allin_sq": 2530.3,
+        "allin_tk": 1573.7,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "gold": 10380,
+        "poke_sq": 591.4,
+        "poke_tk": 380.7,
+        "allin_sq": 2778.5,
+        "allin_tk": 1655.7,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "gold": 11040,
+        "poke_sq": 591.4,
+        "poke_tk": 367.2,
+        "allin_sq": 2776.1,
+        "allin_tk": 1596.8,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 11700,
+        "poke_sq": 691.0,
+        "poke_tk": 425.2,
+        "allin_sq": 3334.8,
+        "allin_tk": 1870.4,
+        "e_per_min": 11.31,
+        "notes": "Orb execute, BF burn"
       }
     ]
   }
