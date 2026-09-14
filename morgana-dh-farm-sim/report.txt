@@ -1,0 +1,169 @@
+================================================================================
+MORGANA DH FARM — TỪ ĐẦU TỚI CUỐI  (Wild Rift 7.2e)
+Mid. W-max. Dark Harvest. 30 phút. 6 slot = Spellslinger + 5 legendary.
+Soul cộng dồn từ Q/W chip → cửa <50% → DH. Không khóa core, không cấm món.
+================================================================================
+
+GIẢ ĐỊNH (không phải khóa 4 ô)
+--------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP, <50%, CD 35s (AH không giảm).
+           Takedown → 1s. Gathering Storm + Transcendence + Cheap Shot.
+  Role   : mid farmer. Tome start, không đồ support, không bán slot.
+  Search : mọi 5-legendary sau BF / Luden / Liandry. Crypt XOR Void.
+  Metric : mix chip-từ-90% + farm60 @45% (QPM×Q + WPM×W + DH/35s).
+           Echo/Squall/R không cộng vào hit. Orb 20% chỉ <35%.
+  Pen 7.2: Spellslinger 18+8%, Crypt 30%, Void 40%, Bloodletter shred 30%.
+           HF / Rylai / Cap = 0% pen (patch rút 7% khỏi T3 mage).
+
+--------------------------------------------------------------------------------
+BUILD ORDER — winner
+--------------------------------------------------------------------------------
+  BF → Rylai → Crypt → Orb → HF
+  0:00  Amplifying Tome → Boots of Speed → Boots of Mana → Lost Chapter / Ashes
+   8:00  Blackfire Torch
+  10:00  Spellslinger's Shoes
+  14:00  Rylai's Crystal Scepter
+  19:00  Cryptbloom
+  24:00  Infinity Orb
+  27:00  Horizon Focus
+  Mid không mua đồ support. Slot 6 = legendary, không phải sell-back.
+
+--------------------------------------------------------------------------------
+TOP 12 — Σ score phút 1–30 (chip mở cửa + execute farm + soul stacking)
+--------------------------------------------------------------------------------
+  Path                                                   Σscore  Σfarm60  soul30  open    vs#1
+  BF → Rylai → Crypt → Orb → HF                          241845   308352    40.5    17   +0.0%
+  BF → Rylai → Orb → Crypt → HF                          241681   308086    40.5    17   -0.1%
+  BF → Rylai → Crypt → Orb → Cap                         241546   307956    40.5    17   -0.1%
+  BF → Rylai → Orb → Crypt → Cap                         241381   307690    40.5    17   -0.2%
+  BF → Rylai → Crypt → Bloodletter → Cap                 241118   308164    40.5    17   -0.3%
+  BF → Rylai → Crypt → Cap → Orb                         239893   306055    40.5    17   -0.8%
+  BF → Rylai → Crypt → Cap → Bloodletter                 239724   306279    40.5    17   -0.9%
+  BF → Rylai → Crypt → HF → Orb                          239451   305532    40.5    17   -1.0%
+  BF → Rylai → Crypt → Bloodletter → HF                  238901   305368    40.5    17   -1.2%
+  BF → Rylai → Crypt → Cap → HF                          238721   304870    40.5    17   -1.3%
+  BF → Rylai → Crypt → HF → Bloodletter                  237886   303948    40.5    17   -1.6%
+  BF → Rylai → Orb → HF → Crypt                          237565   303032    40.5    17   -1.8%
+  … searched 13104 full 5-item paths
+
+--------------------------------------------------------------------------------
+ĐỐI CHỨNG (build người chơi hay hỏi)
+--------------------------------------------------------------------------------
+  BF → Crypt → Rylai → HF → Cap                          232216  souls  36.5  open 12/30  -4.0%
+  BF → Crypt → HF → Rylai → Cap                          224479  souls  34.1  open  9/30  -7.2%
+  BF → HF → Crypt → Rylai → Cap                          223340  souls  34.1  open  9/30  -7.7%
+  BF → Void → HF → Rylai → Cap                           221428  souls  38.9  open 15/30  -8.4%
+  BF → Crypt → HF → Rylai → Liandry                      217255  souls  34.1  open  9/30  -10.2%
+  BF → Orb → Cap → Crypt → Rylai                         215599  souls  36.5  open 12/30  -10.9%
+  BF → Crypt → HF → Cap → Rylai                          214858  souls  35.7  open 11/30  -11.2%
+  BF → Crypt → HF → Bloodletter → Cap                    210849  souls  34.9  open 10/30  -12.8%
+  BF → Liandry → Rylai → Crypt → Cap                     209709  souls  36.5  open 12/30  -13.3%
+  BF → Crypt → HF → Orb → Cap                            208711  souls  34.9  open 10/30  -13.7%
+  Liandry → Rylai → Crypt → HF → Cap                     207524  souls  39.7  open 16/30  -14.2%
+  Liandry → BF → Rylai → Crypt → Cap                     206711  souls  36.5  open 12/30  -14.5%
+  BF → Crypt → HF → Cosmic → Cap                         201427  souls  34.9  open 10/30  -16.7%
+  BF → Liandry → Rylai → HF → Cap                        198169  souls  36.5  open 12/30  -18.1%
+  Luden → HF → Crypt → Rylai → Cap                       197965  souls  33.3  open  8/30  -18.1%
+  BF → Storm → Orb → Cap → Crypt                         190107  souls  36.5  open 12/30  -21.4%
+  Luden → Orb → Cap → HF → Crypt                         179197  souls  35.7  open 11/30  -25.9%
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE — winner (mỗi 2 phút)
+--------------------------------------------------------------------------------
+   1:00 | score     470 | farm60     942 | souls   0.0 | chip | AP     20 AH    6
+         Amplifying Tome, Boots of Speed
+   2:00 | score     516 | farm60    1035 | souls   0.0 | chip | AP     25 AH    6
+         Mana
+   4:00 | score     809 | farm60    1676 | souls   0.0 | chip | AP     45 AH   17
+         Mana
+   6:00 | score     976 | farm60    2028 | souls   0.4 | chip | AP     84 AH   22
+         Mana · Chapter
+   8:00 | score    2751 | farm60    4346 | souls   1.2 | chip | AP    113 AH   32
+         Mana · BF
+   9:00 | score    3121 | farm60    4926 | souls   1.7 | chip | AP    120 AH   32
+         Mana · BF
+  10:00 | score    3561 | farm60    5617 | souls   2.6 | chip | AP    135 AH   32
+         BF · Spell
+  11:00 | score    3567 | farm60    5630 | souls   3.5 | chip | AP    135 AH   32
+         BF · Spell · Belt
+  12:00 | score    3533 | farm60    5585 | souls   4.4 | chip | AP    164 AH   32
+         BF · Spell · Belt
+  14:00 | score    6184 | farm60    8198 | souls   7.0 | OPEN | AP    211 AH   32
+         BF · Spell · Rylai
+  15:00 | score    6491 | farm60    8588 | souls   8.7 | OPEN | AP    242 AH   32
+         BF · Spell · Rylai
+  16:00 | score    6800 | farm60    8987 | souls  10.7 | OPEN | AP    250 AH   32
+         BF · Spell · Rylai · Amethyst
+  18:00 | score    7876 | farm60   10424 | souls  14.7 | OPEN | AP    311 AH   42
+         BF · Spell · Rylai · Amethyst · Codex
+  20:00 | score    9350 | farm60   12356 | souls  18.7 | OPEN | AP    316 AH   52
+         BF · Spell · Rylai · Crypt
+  21:00 | score   11108 | farm60   13425 | souls  20.7 | OPEN | AP    379 AH   52
+         BF · Spell · Rylai · Crypt · Alt
+  22:00 | score   11074 | farm60   13373 | souls  22.9 | OPEN | AP    379 AH   52
+         BF · Spell · Rylai · Crypt · Alt
+  24:00 | score   15422 | farm60   18566 | souls  27.3 | OPEN | AP    488 AH   52
+         BF · Spell · Rylai · Crypt · Orb
+  25:00 | score   16404 | farm60   19778 | souls  29.5 | OPEN | AP    493 AH   62
+         BF · Spell · Rylai · Crypt · Orb · Codex
+  26:00 | score   17804 | farm60   21495 | souls  31.7 | OPEN | AP    520 AH   72
+         BF · Spell · Rylai · Crypt · Orb · Codex
+  28:00 | score   19354 | farm60   23185 | souls  36.1 | OPEN | AP    571 AH   77
+         BF · Spell · Rylai · Crypt · Orb · HF
+  30:00 | score   19613 | farm60   23470 | souls  40.5 | OPEN | AP    593 AH   77
+         BF · Spell · Rylai · Crypt · Orb · HF
+
+--------------------------------------------------------------------------------
+SOULS — farm DH từ phút 1, không cap 14
+--------------------------------------------------------------------------------
+  Path                                                     s8    s12    s20    s30  open
+  BF → Rylai → Crypt → Orb → HF                           1.2    4.4   18.7   40.5    17
+  BF → Crypt → HF → Rylai → Cap                           1.2    4.4   13.1   34.1     9
+  BF → Orb → Cap → Crypt → Rylai                          1.2    4.4   14.7   36.5    12
+  Luden → HF → Crypt → Rylai → Cap                        1.2    4.4   13.1   33.3     8
+  BF → Liandry → Rylai → Crypt → Cap                      1.2    4.4   14.7   36.5    12
+  BF → Storm → Orb → Cap → Crypt                          1.2    4.4   14.7   36.5    12
+  Soul sớm hơn → DH 11 dmg/stack mạnh hơn phần còn lại của trận.
+
+--------------------------------------------------------------------------------
+SPIKE 8 / 12 / 20 / 30 — farm60
+--------------------------------------------------------------------------------
+  Path                                                       8      12      20      30
+  BF → Rylai → Crypt → Orb → HF                           4346    5585   12356   23470
+  BF → Rylai → Orb → Crypt → HF                           4346    5585   13157   23470
+  BF → Rylai → Crypt → Orb → Cap                          4346    5585   12356   25472
+  BF → Rylai → Orb → Crypt → Cap                          4346    5585   13157   25472
+  BF → Rylai → Crypt → Bloodletter → Cap                  4346    5585   13653   24301
+  BF → Rylai → Crypt → Cap → Orb                          4346    5585   13211   25472
+  BF → Rylai → Crypt → Cap → Bloodletter                  4346    5585   13211   24301
+  BF → Rylai → Crypt → HF → Orb                           4346    5585   13653   23470
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Full build: Spellslinger · BF · Rylai · Crypt · Orb · HF
+  Σ1–30 241845 | farm60 308352 | souls @30 40.5 | mở cửa 17/30 phút (lần đầu 14:00)
+  5 legendary xong phút 27 (không bán support — mid không mua Frostfang).
+  Cụm ≤1%: BF → Rylai → Crypt → Orb → HF, BF → Rylai → Orb → Crypt → HF, BF → Rylai → Crypt → Orb → Cap, BF → Rylai → Orb → Crypt → Cap, BF → Rylai → Crypt → Bloodletter → Cap, BF → Rylai → Crypt → Cap → Orb…
+
+  TẠI SAO FARM DH TỪ ĐẦU TỚI CUỐI CHỌN PATH NÀY:
+  • Mỗi Q và mỗi tick W là cửa Harvest. AH không giảm CD 35s —
+    AH để Q/W sẵn sàng khi target vừa rớt <50%.
+  • Chip từ 90% phải TỰ mở cửa. Snapshot 'đã 45%' giấu điều này.
+  • Khóa thật: BF → Rylai. Top 12 đều Rylai món 2. W dwell 2.75s→5s
+    từ ~14:00 mở cửa 17/30 phút (soul chồng cho cả trận).
+  • Core Crypt→HF→Rylai→Cap (giả định sẵn 45%): -7.2%, chỉ mở 9/30. Rylai muộn = ít soul.
+  • Không bắt Luden: best Luden-first Luden → Rylai → Crypt → BF → Bloodletter -10.4%. Echo không đếm; BF burn + 20 AH mở cửa.
+  • Rush Orb→Cap trước Rylai -10.9%. Orb 20% chỉ <35%; farm cần dwell trước, execute amp sau.
+  • Stormsurge burst -21.4%. Squall không vào metric.
+  • Liandry first -13.3%. 2% HP cần dwell; dwell 5s chỉ sau Rylai.
+  • Best Void-first BF → Void → Rylai → Orb → HF -4.4%. 40% pen / 0 AH — ít Q/W hơn Crypt 30%+20 AH trên dummy mid.
+  • Orb sau khi cửa đã mở: 110 AP + 15 flat giúp chip 90%→35% (20% bật trên tick cuối). Không phải Squall combo.
+  • HF 10% sau Q đánh vào W ticks trong dwell 5s. 25 AH = thêm Q/W trong cửa, không giảm CD Harvest 35s.
+
+  CHƠI:
+  • Lane: W wave + Q khi mid <70%. Rylai giữ chân trong pool 5s, chip <50%, DH.
+  • Roam/fight: Q root → W → DH. Takedown reset 1s = soul tiếp.
+  • Không all-in R để one-shot. R chỉ giữ người trong pool.
+  • Đừng mua 2 Lost Chapter. Đừng delay Rylai để rush Crypt/HF/Cap.
+================================================================================
