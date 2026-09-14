@@ -3,8 +3,9 @@
     "patch": "7.2e",
     "client": "Wild Rift",
     "gold": "ignored",
-    "pair": "Spellslinger vs Crimson Lucidity on maximize DPM",
-    "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke"
+    "pair": "Spell vs Crimson; add Rylai scepter by replacing one legendary",
+    "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke",
+    "rylai": "65 AP, 7% pen, 350 HP, 30% slow. Slow not in DPM (100% hit)."
   },
   "morgana": {
     "spell_best_dpm": {
@@ -97,6 +98,192 @@
     },
     "crimson_best_vs_spell_best": "-10.9%",
     "crimson_swap_vs_spell": "-13.0%"
+  },
+  "morgana_rylai": {
+    "max_without_rylai": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "cpm": 13.123,
+      "dpm": 10558.0,
+      "per_cast": 804.6
+    },
+    "max_with_rylai": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Void Staff",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 374.4,
+      "ah": 57.0,
+      "cpm": 11.018,
+      "dpm": 8968.9,
+      "per_cast": 814.1
+    },
+    "with_vs_without": "-15.1%",
+    "naive_swaps": {
+      "Luden's Echo": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Horizon Focus",
+          "Blackfire Torch",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 348.4,
+        "ah": 77.0,
+        "cpm": 12.421,
+        "dpm": 8896.3,
+        "per_cast": 716.2,
+        "vs_max": "-15.7%"
+      },
+      "Horizon Focus": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Blackfire Torch",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 369.2,
+        "ah": 62.0,
+        "cpm": 11.368,
+        "dpm": 8411.5,
+        "per_cast": 739.9,
+        "vs_max": "-20.3%"
+      },
+      "Blackfire Torch": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 355.0,
+        "ah": 67.0,
+        "cpm": 11.719,
+        "dpm": 8447.5,
+        "per_cast": 720.8,
+        "vs_max": "-20.0%"
+      },
+      "Cryptbloom": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Blackfire Torch",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 379.6,
+        "ah": 67.0,
+        "cpm": 11.719,
+        "dpm": 8228.8,
+        "per_cast": 702.2,
+        "vs_max": "-22.1%"
+      }
+    }
+  },
+  "viktor_rylai": {
+    "max_without_rylai": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "cpm": 16.029,
+      "dpm": 13490.2,
+      "per_cast": 841.6
+    },
+    "max_with_rylai": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 348.4,
+      "ah": 77.0,
+      "cpm": 15.171,
+      "dpm": 11616.2,
+      "per_cast": 765.7
+    },
+    "with_vs_without": "-13.9%",
+    "naive_swaps": {
+      "Luden's Echo": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Horizon Focus",
+          "Blackfire Torch",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 348.4,
+        "ah": 77.0,
+        "cpm": 15.171,
+        "dpm": 11616.2,
+        "per_cast": 765.7,
+        "vs_max": "-13.9%"
+      },
+      "Horizon Focus": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Blackfire Torch",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 369.2,
+        "ah": 62.0,
+        "cpm": 13.886,
+        "dpm": 9955.9,
+        "per_cast": 717.0,
+        "vs_max": "-26.2%"
+      },
+      "Blackfire Torch": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Cryptbloom",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 355.0,
+        "ah": 67.0,
+        "cpm": 14.314,
+        "dpm": 10718.7,
+        "per_cast": 748.8,
+        "vs_max": "-20.5%"
+      },
+      "Cryptbloom": {
+        "items": [
+          "Spellslinger's Shoes",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Blackfire Torch",
+          "Rylai's Crystal Scepter"
+        ],
+        "ap": 379.6,
+        "ah": 67.0,
+        "cpm": 14.314,
+        "dpm": 10423.3,
+        "per_cast": 728.2,
+        "vs_max": "-22.7%"
+      }
+    }
   },
   "morgana_max_qpm": {
     "items": [

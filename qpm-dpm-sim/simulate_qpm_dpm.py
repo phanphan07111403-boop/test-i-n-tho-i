@@ -46,6 +46,7 @@ class Item:
     horizon: bool = False
     blackfire: bool = False
     liandry: bool = False
+    rylai: bool = False
     boots: bool = False
 
 
@@ -69,6 +70,9 @@ ITEMS: Dict[str, Item] = {
     "Stormsurge": Item("Stormsurge", ap=90, flat_mpen=15),
     "Seraph's Embrace": Item("Seraph's Embrace", ap=60, ah=25),
     "Liandry's Torment": Item("Liandry's Torment", ap=70, liandry=True),
+    "Rylai's Crystal Scepter": Item(
+        "Rylai's Crystal Scepter", ap=65, pct_mpen=0.07, rylai=True,
+    ),
 }
 
 BOOTS = ["Spellslinger's Shoes", "Crimson Lucidity"]
@@ -76,12 +80,27 @@ LEGENDS = [
     "Luden's Echo", "Infinity Orb", "Horizon Focus", "Rabadon's Deathcap",
     "Blackfire Torch", "Void Staff", "Cryptbloom", "Cosmic Drive",
     "Stormsurge", "Seraph's Embrace", "Liandry's Torment",
+    "Rylai's Crystal Scepter",
 ]
 PCT_EXCLUSIVE = {"Void Staff", "Cryptbloom"}
 
 
+DAMAGE_BOOT = "Spellslinger's Shoes"
+DAMAGE_FOUR = [
+    "Luden's Echo", "Horizon Focus", "Blackfire Torch", "Cryptbloom",
+]
+
+
 def trans_ah() -> float:
     return 12.0
+
+
+def exact(rows: List[Row], names: List[str]) -> Optional[Row]:
+    want = set(names)
+    for r in rows:
+        if set(r.items) == want:
+            return r
+    return None
 
 
 @dataclass
@@ -255,6 +274,7 @@ def short(items: List[str]) -> str:
         "Stormsurge": "Storm",
         "Seraph's Embrace": "Seraph",
         "Liandry's Torment": "Liandry",
+        "Rylai's Crystal Scepter": "Rylai",
     }
     return " · ".join(nick[n] for n in items)
 
@@ -347,6 +367,45 @@ def boots_block(L: List[str], title: str, rows: List[Row], unit: str) -> None:
     L.append("")
 
 
+def rylai_block(L: List[str], title: str, rows: List[Row], unit: str) -> None:
+    base = exact(rows, [DAMAGE_BOOT, *DAMAGE_FOUR])
+    forced = [
+        r for r in under_boot(rows, DAMAGE_BOOT)
+        if "Rylai's Crystal Scepter" in r.items
+    ]
+    best = pick_max(forced, "dpm")
+    kept = [n for n in best.items if n not in (DAMAGE_BOOT, "Rylai's Crystal Scepter")]
+    dropped = [n for n in DAMAGE_FOUR if n not in kept]
+    L.append("-" * 78)
+    L.append(title)
+    L.append("-" * 78)
+    L.append("  Specter = Rylai's Crystal Scepter (65 AP, 7% pen, 350 HP, 30% slow).")
+    L.append("  5 slot đầy. Thêm Rylai = thế 1 legendary. Slow không vào DPM (giả định hit).")
+    if base:
+        L.append(f"  Max DPM không Rylai: {base.dpm:.0f}  {short(base.items)}")
+    L.append(f"  Max DPM có Rylai:    {best.dpm:.0f}  {short(best.items)}")
+    if base:
+        L.append(f"  Rẻ nhất (tự chọn món thay): {pct(best.dpm, base.dpm)}  — bỏ {', '.join(dropped)}")
+    L.append("")
+    L.append("  Thế từng món trên set Spell·Luden·HF·BF·Crypt")
+    if base:
+        ranked = []
+        for drop in DAMAGE_FOUR:
+            names = [DAMAGE_BOOT] + [
+                "Rylai's Crystal Scepter" if x == drop else x for x in DAMAGE_FOUR
+            ]
+            row = exact(rows, names)
+            if row:
+                ranked.append((drop, row))
+        ranked.sort(key=lambda t: t[1].dpm, reverse=True)
+        for drop, row in ranked:
+            L.append(
+                f"    thế {short([drop]):<8} {row.dpm:7.0f} DPM  {row.cpm:5.2f} {unit}  "
+                f"{pct(row.dpm, base.dpm)}  {short(row.items)}"
+            )
+    L.append("")
+
+
 def summarize(morg: List[Row], vik: List[Row]) -> str:
     mq, md = pick_max(morg, "cpm"), pick_max(morg, "dpm")
     vq, vd = pick_max(vik, "cpm"), pick_max(vik, "dpm")
@@ -360,8 +419,8 @@ def summarize(morg: List[Row], vik: List[Row]) -> str:
     L.append("-" * 78)
     L.append("  Client : Tốc Chiến 7.2e. Không PC. T3 mage = 0 pen.")
     L.append("  Role   : mid. Bỏ vàng. Không copy support Ionia WR.")
-    L.append("  Cặp    : Spellslinger vs Crimson Lucidity trên maximize DPM.")
-    L.append("           (1) cùng 4 đồ  (2) 4 đồ tốt nhất dưới từng giày.")
+    L.append("  Cặp    : Spell vs Crimson; thêm Rylai (specter/scepter) thế món nào.")
+    L.append("           Maximize DPM. Cùng 4 đồ / 4 đồ tốt nhất / Rylai forced.")
     L.append("  Metric : DPM poke squishy 90%. CPM chỉ để giải thích AH.")
     L.append("")
     L.append("  Spell : 40 AP, 18 flat, 8% pen, 0 AH.")
@@ -370,6 +429,8 @@ def summarize(morg: List[Row], vik: List[Row]) -> str:
 
     boots_block(L, "MORGANA — Spell vs Crimson (maximize DPM)", morg, "QPM")
     boots_block(L, "VIKTOR — Spell vs Crimson (maximize DPM)", vik, "EPM")
+    rylai_block(L, "MORGANA — thêm Rylai (specter)", morg, "QPM")
+    rylai_block(L, "VIKTOR — thêm Rylai (specter)", vik, "EPM")
 
     L.append("-" * 78)
     L.append("VERDICT — maximize damage: Spellslinger hay Crimson?")
@@ -385,6 +446,31 @@ def summarize(morg: List[Row], vik: List[Row]) -> str:
     L.append("  Crimson tự chọn 4 đồ khác (HF·BF·Crypt·Liandry) vẫn thua Spell ~10%.")
     L.append("  Crimson thắng cadence (+13% CPM), thua per-cast (~−25%) nên thua DPM.")
     L.append("  Crimson chỉ khi metric là QPM/EPM, không phải maximize damage.")
+    L.append("")
+    mb = exact(morg, [DAMAGE_BOOT, *DAMAGE_FOUR])
+    vb = exact(vik, [DAMAGE_BOOT, *DAMAGE_FOUR])
+    mr = pick_max(
+        [r for r in under_boot(morg, DAMAGE_BOOT) if "Rylai's Crystal Scepter" in r.items],
+        "dpm",
+    )
+    vr = pick_max(
+        [r for r in under_boot(vik, DAMAGE_BOOT) if "Rylai's Crystal Scepter" in r.items],
+        "dpm",
+    )
+    L.append("VERDICT — thêm Rylai (specter) thế món nào?")
+    L.append("-" * 78)
+    L.append("  Một slot: thế Luden. Giữ HF·BF·Crypt. Slow không cộng DPM khi đã hit.")
+    if mb:
+        lud = exact(morg, [DAMAGE_BOOT, "Rylai's Crystal Scepter", "Horizon Focus", "Blackfire Torch", "Cryptbloom"])
+        if lud:
+            L.append(f"  Morgana thế Luden: {pct(lud.dpm, mb.dpm)}  ({mb.dpm:.0f} → {lud.dpm:.0f})")
+    if vb:
+        ludv = exact(vik, [DAMAGE_BOOT, "Rylai's Crystal Scepter", "Horizon Focus", "Blackfire Torch", "Cryptbloom"])
+        if ludv:
+            L.append(f"  Viktor  thế Luden: {pct(ludv.dpm, vb.dpm)}  ({vb.dpm:.0f} → {ludv.dpm:.0f})")
+    L.append("  Đừng thế Crypt (−22%) hay HF (Viktor −26%). BF −20%.")
+    L.append("  Tự tối ưu 3 món + Rylai: Morgana Spell·HF·BF·Void·Rylai −15.1% (bỏ Echo+Crypt).")
+    L.append("  Rylai = 30% slow + HP. Poke DPM giả định hit 100%.")
     L.append("=" * 78)
     L.append("")
     L.append("Context — max cadence (không phải câu damage)")
@@ -417,16 +503,45 @@ def export_json(morg: List[Row], vik: List[Row], path: str) -> None:
             "crimson_swap_vs_spell": pct(swap.dpm, spell.dpm) if swap else None,
         }
 
+    def rylai_payload(rows: List[Row]) -> dict:
+        base = exact(rows, [DAMAGE_BOOT, *DAMAGE_FOUR])
+        forced = [
+            r for r in under_boot(rows, DAMAGE_BOOT)
+            if "Rylai's Crystal Scepter" in r.items
+        ]
+        best = pick_max(forced, "dpm")
+        swaps = {}
+        if base:
+            for drop in DAMAGE_FOUR:
+                names = [DAMAGE_BOOT] + [
+                    "Rylai's Crystal Scepter" if x == drop else x for x in DAMAGE_FOUR
+                ]
+                row = exact(rows, names)
+                if row:
+                    swaps[drop] = {
+                        **pack(row),
+                        "vs_max": pct(row.dpm, base.dpm),
+                    }
+        return {
+            "max_without_rylai": pack(base) if base else None,
+            "max_with_rylai": pack(best),
+            "with_vs_without": pct(best.dpm, base.dpm) if base else None,
+            "naive_swaps": swaps,
+        }
+
     payload = {
         "meta": {
             "patch": "7.2e",
             "client": "Wild Rift",
             "gold": "ignored",
-            "pair": "Spellslinger vs Crimson Lucidity on maximize DPM",
+            "pair": "Spell vs Crimson; add Rylai scepter by replacing one legendary",
             "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke",
+            "rylai": "65 AP, 7% pen, 350 HP, 30% slow. Slow not in DPM (100% hit).",
         },
         "morgana": boots_payload(morg),
         "viktor": boots_payload(vik),
+        "morgana_rylai": rylai_payload(morg),
+        "viktor_rylai": rylai_payload(vik),
         "morgana_max_qpm": pack(pick_max(morg, "cpm")),
         "viktor_max_epm": pack(pick_max(vik, "cpm")),
     }
@@ -448,6 +563,12 @@ def self_check(morg: List[Row], vik: List[Row]) -> None:
     assert swap_m.cpm > ms.cpm
     assert "Spellslinger's Shoes" in ms.items
     assert "Crimson Lucidity" in mc.items
+    mb = exact(morg, [DAMAGE_BOOT, *DAMAGE_FOUR])
+    mr = pick_max(
+        [r for r in under_boot(morg, DAMAGE_BOOT) if "Rylai's Crystal Scepter" in r.items],
+        "dpm",
+    )
+    assert mb is not None and mr.dpm < mb.dpm
     print("self-check OK")
 
 

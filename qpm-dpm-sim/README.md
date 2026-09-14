@@ -36,3 +36,21 @@ Cùng 4 đồ Spell-max: Crimson **+13.4%** casts, **−25% / −23%** damage m�
 Crimson tự đổi 4 đồ (bỏ Luden, lấy Liandry) vẫn thua ~10%. 18 flat + 8% + 40 AP > 25 AH trên squishy.
 
 Crimson chỉ khi metric là spam QPM/EPM, không phải maximize damage.
+
+## Thêm Rylai (specter / scepter)
+
+5 slot đầy: Spell · Luden · HF · BF · Crypt. Thêm Rylai = thế 1 món. Rylai 7.2: 65 AP, 7% pen, 350 HP, 30% slow. Slow **không** vào DPM (hit 100%).
+
+**Thế Luden** — rẻ damage nhất.
+
+| Thế món | Morgana | Viktor |
+|---------|---------|--------|
+| **Luden** | 8896 (**−15.7%**) | **11616 (−13.9%)** |
+| BF | 8448 (−20.0%) | 10719 (−20.5%) |
+| HF | 8411 (−20.3%) | 9956 (−26.2%) |
+| Crypt | 8229 (−22.1%) | 10423 (−22.7%) |
+
+Giữ HF · BF · Crypt. Đừng thế Crypt hay HF.
+
+Morgana nếu tối ưu lại 3 món: Spell · HF · BF · Void · Rylai (−15.1%), vẫn gần mức thế Luden.
+
