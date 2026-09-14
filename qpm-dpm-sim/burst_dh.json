@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "patch": "7.2e",
+    "keep_luden": true,
+    "boot": "Spellslinger's Shoes",
+    "souls": 8,
+    "dh_reset_s": 1.0,
+    "dump_n": 4,
+    "metric": "combo from 70% + 4 DH dumps at 40% after takedown reset"
+  },
+  "morgana": {
+    "burst_winner": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "ap": 611.0,
+      "ah": 22.0,
+      "burst70": 2851.1,
+      "burst40": 2851.1,
+      "dump40": 541.6,
+      "dump32": 649.9,
+      "total": 3392.7,
+      "hp_left_70": 0.0
+    },
+    "dump_winner": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "ap": 611.0,
+      "ah": 22.0,
+      "burst70": 2851.1,
+      "burst40": 2851.1,
+      "dump40": 541.6,
+      "dump32": 649.9,
+      "total": 3392.7,
+      "hp_left_70": 0.0
+    },
+    "poke_set": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "burst70": 1954.3,
+      "burst40": 1954.3,
+      "dump40": 527.2,
+      "dump32": 527.2,
+      "total": 2481.5,
+      "hp_left_70": 0.0
+    }
+  },
+  "viktor": {
+    "burst_winner": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "ap": 611.0,
+      "ah": 22.0,
+      "burst70": 2700.3,
+      "burst40": 2850.9,
+      "dump40": 541.6,
+      "dump32": 649.9,
+      "total": 3241.8,
+      "hp_left_70": 0.0
+    },
+    "dump_winner": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "ap": 611.0,
+      "ah": 22.0,
+      "burst70": 2700.3,
+      "burst40": 2850.9,
+      "dump40": 541.6,
+      "dump32": 649.9,
+      "total": 3241.8,
+      "hp_left_70": 0.0
+    },
+    "poke_set": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "burst70": 1937.7,
+      "burst40": 1937.7,
+      "dump40": 527.2,
+      "dump32": 527.2,
+      "total": 2464.9,
+      "hp_left_70": 0.0
+    }
+  }
+}

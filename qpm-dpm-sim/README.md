@@ -13,6 +13,7 @@ Crimson Lucidity: 0 AP, 0 pen, **25 AH**, 8% MS.
 ```bash
 python3 simulate_qpm_dpm.py
 python3 simulate_dh_comet.py
+python3 simulate_burst_dh.py
 ```
 
 ## 4 ô
@@ -68,6 +69,7 @@ Comet CD **8s @lv15, không giảm bởi AH**. Cả hai build đều 8 Comet/ph�
 
 Spam mất Spell 18+8% + Luden Echo → kit **và** Comet đều yếu (~−29% Comet).
 
+## DH vs Comet (giữ Luden, cùng 5 slot)
 
 Cùng Spell · Luden · HF · BF · Crypt. Keystone only. Cả hai +5% AP sau 7.2.
 
@@ -81,5 +83,27 @@ Cùng Spell · Luden · HF · BF · Crypt. Keystone only. Cả hai +5% AP sau 7.
 | 3 Comet / soul | **14** |
 
 Poke 90% (cửa maximize DPM): **Comet luôn** — DH không proc (>50% HP). Execute không reset: Comet vẫn hơn (CD 8s vs 35s). DH hơn trên **tổng** damage khi takedown reset CD 1s, không phải vì stack.
+
+## DH burst (takedown reset 1s)
+
+Giữ Luden. Spellslinger. Bỏ vàng. Metric = **combo 70%+R**, không phải poke DPM.
+
+**Spell · Luden · Orb · Cap · Storm**
+
+Morgana combo 2851, Viktor 2700. Poke set (Luden·HF·BF·Crypt) **−31.5% / −28.2%**.
+
+Reset 1s = spam DH, không spam Q. AH không giảm DH CD → đừng lấy HF/Crypt/BF/Crimson cho burst.
+
+| Slot 4 sau Orb·Cap | Morgana combo | vs Storm |
+|--------------------|---------------|----------|
+| **Storm** | **2851** | — |
+| Void | 2804 | −1.6% |
+| Crypt | 2708 | −5.0% |
+| HF | 2555 | −10.4% |
+| BF | 2452 | −14.0% |
+
+Storm vs Void: Storm thắng combo nhờ Squall (125+10% AP nếu ≥25% HP / 2.5s). Void thắng 4×DH dump nhờ 40% pen (~+5%), không lật tổng vì combo Storm lớn hơn. Một tank → Void gần burst (−1.6%), không đủ để bỏ Storm khi metric là burst squishy.
+
+Đừng mua set poke DPM cho DH all-in. Cap + Orb + Squall mới amp DH và one-shot.
 
 
