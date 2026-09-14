@@ -3,25 +3,11 @@
     "patch": "7.2e",
     "client": "Wild Rift",
     "gold": "ignored",
-    "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke",
-    "morgana_spell": "Q Dark Binding",
-    "viktor_spell": "E Death Ray (evolved)"
+    "pair": "Spellslinger vs Crimson Lucidity on maximize DPM",
+    "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke"
   },
   "morgana": {
-    "max_qpm": {
-      "items": [
-        "Crimson Lucidity",
-        "Horizon Focus",
-        "Blackfire Torch",
-        "Cosmic Drive",
-        "Seraph's Embrace"
-      ],
-      "ap": 301.6,
-      "ah": 132.0,
-      "cpm": 16.281,
-      "dpm": 7683.6
-    },
-    "max_dpm": {
+    "spell_best_dpm": {
       "items": [
         "Spellslinger's Shoes",
         "Luden's Echo",
@@ -32,236 +18,42 @@
       "ap": 384.8,
       "ah": 87.0,
       "cpm": 13.123,
-      "dpm": 10558.0
+      "dpm": 10558.0,
+      "per_cast": 804.6
     },
-    "top_qpm": [
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 301.6,
-        "ah": 132.0,
-        "cpm": 16.281,
-        "dpm": 7683.6
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Cryptbloom",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 280.0,
-        "ah": 132.0,
-        "cpm": 16.281,
-        "dpm": 7489.6
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Cosmic Drive"
-        ],
-        "ap": 312.0,
-        "ah": 127.0,
-        "cpm": 15.93,
-        "dpm": 8371.3
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Seraph's Embrace"
-        ],
-        "ap": 301.6,
-        "ah": 127.0,
-        "cpm": 15.93,
-        "dpm": 8248.3
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 291.2,
-        "ah": 127.0,
-        "cpm": 15.93,
-        "dpm": 7192.3
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 310.0,
-        "ah": 122.0,
-        "cpm": 15.579,
-        "dpm": 7215.5
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cosmic Drive"
-        ],
-        "ap": 343.2,
-        "ah": 117.0,
-        "cpm": 15.228,
-        "dpm": 8428.3
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Seraph's Embrace"
-        ],
-        "ap": 332.8,
-        "ah": 117.0,
-        "cpm": 15.228,
-        "dpm": 8314.2
-      }
-    ],
-    "top_dpm": [
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 384.8,
-        "ah": 87.0,
-        "cpm": 13.123,
-        "dpm": 10558.0
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Void Staff",
-          "Liandry's Torment"
-        ],
-        "ap": 379.6,
-        "ah": 57.0,
-        "cpm": 11.018,
-        "dpm": 10391.3
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Liandry's Torment"
-        ],
-        "ap": 353.6,
-        "ah": 77.0,
-        "cpm": 12.421,
-        "dpm": 10332.0
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Rabadon's Deathcap",
-          "Blackfire Torch",
-          "Void Staff"
-        ],
-        "ap": 520.0,
-        "ah": 57.0,
-        "cpm": 11.018,
-        "dpm": 10280.1
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Void Staff"
-        ],
-        "ap": 410.8,
-        "ah": 67.0,
-        "cpm": 11.719,
-        "dpm": 10224.0
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Rabadon's Deathcap",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 494.0,
-        "ah": 77.0,
-        "cpm": 12.421,
-        "dpm": 10218.1
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Rabadon's Deathcap",
-          "Void Staff"
-        ],
-        "ap": 550.0,
-        "ah": 47.0,
-        "cpm": 10.316,
-        "dpm": 10020.1
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Infinity Orb",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 395.2,
-        "ah": 77.0,
-        "cpm": 12.421,
-        "dpm": 9984.6
-      }
-    ]
-  },
-  "viktor": {
-    "max_epm": {
+    "crimson_best_dpm": {
       "items": [
         "Crimson Lucidity",
         "Horizon Focus",
         "Blackfire Torch",
-        "Cosmic Drive",
-        "Seraph's Embrace"
+        "Cryptbloom",
+        "Liandry's Torment"
       ],
-      "ap": 301.6,
-      "ah": 132.0,
-      "cpm": 19.886,
-      "dpm": 9612.5
+      "ap": 312.0,
+      "ah": 102.0,
+      "cpm": 14.175,
+      "dpm": 9511.0,
+      "per_cast": 671.0
     },
-    "max_dpm": {
+    "crimson_on_spell_four": {
+      "items": [
+        "Crimson Lucidity",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 343.2,
+      "ah": 112.0,
+      "cpm": 14.877,
+      "dpm": 8918.8,
+      "per_cast": 599.5
+    },
+    "crimson_best_vs_spell_best": "-9.9%",
+    "crimson_swap_vs_spell": "-15.5%"
+  },
+  "viktor": {
+    "spell_best_dpm": {
       "items": [
         "Spellslinger's Shoes",
         "Luden's Echo",
@@ -272,219 +64,66 @@
       "ap": 384.8,
       "ah": 87.0,
       "cpm": 16.029,
-      "dpm": 13490.2
+      "dpm": 13490.2,
+      "per_cast": 841.6
     },
-    "top_epm": [
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 301.6,
-        "ah": 132.0,
-        "cpm": 19.886,
-        "dpm": 9612.5
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Cryptbloom",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 280.0,
-        "ah": 132.0,
-        "cpm": 19.886,
-        "dpm": 9457.5
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Cosmic Drive"
-        ],
-        "ap": 312.0,
-        "ah": 127.0,
-        "cpm": 19.457,
-        "dpm": 11122.0
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Seraph's Embrace"
-        ],
-        "ap": 301.6,
-        "ah": 127.0,
-        "cpm": 19.457,
-        "dpm": 10967.6
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 291.2,
-        "ah": 127.0,
-        "cpm": 19.457,
-        "dpm": 9535.6
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Cosmic Drive",
-          "Seraph's Embrace"
-        ],
-        "ap": 310.0,
-        "ah": 122.0,
-        "cpm": 19.029,
-        "dpm": 9276.3
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cosmic Drive"
-        ],
-        "ap": 343.2,
-        "ah": 117.0,
-        "cpm": 18.6,
-        "dpm": 10283.1
-      },
-      {
-        "items": [
-          "Crimson Lucidity",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Seraph's Embrace"
-        ],
-        "ap": 332.8,
-        "ah": 117.0,
-        "cpm": 18.6,
-        "dpm": 10149.4
-      }
+    "crimson_best_dpm": {
+      "items": [
+        "Crimson Lucidity",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom",
+        "Liandry's Torment"
+      ],
+      "ap": 312.0,
+      "ah": 102.0,
+      "cpm": 17.314,
+      "dpm": 12019.0,
+      "per_cast": 694.2
+    },
+    "crimson_on_spell_four": {
+      "items": [
+        "Crimson Lucidity",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 343.2,
+      "ah": 112.0,
+      "cpm": 18.171,
+      "dpm": 11732.7,
+      "per_cast": 645.7
+    },
+    "crimson_best_vs_spell_best": "-10.9%",
+    "crimson_swap_vs_spell": "-13.0%"
+  },
+  "morgana_max_qpm": {
+    "items": [
+      "Crimson Lucidity",
+      "Horizon Focus",
+      "Blackfire Torch",
+      "Cosmic Drive",
+      "Seraph's Embrace"
     ],
-    "top_dpm": [
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 384.8,
-        "ah": 87.0,
-        "cpm": 16.029,
-        "dpm": 13490.2
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Liandry's Torment"
-        ],
-        "ap": 353.6,
-        "ah": 77.0,
-        "cpm": 15.171,
-        "dpm": 13372.2
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Rabadon's Deathcap",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 494.0,
-        "ah": 77.0,
-        "cpm": 15.171,
-        "dpm": 13227.6
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Infinity Orb",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "ap": 395.2,
-        "ah": 77.0,
-        "cpm": 15.171,
-        "dpm": 12996.7
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Luden's Echo",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Void Staff"
-        ],
-        "ap": 410.8,
-        "ah": 67.0,
-        "cpm": 14.314,
-        "dpm": 12935.4
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Void Staff",
-          "Liandry's Torment"
-        ],
-        "ap": 379.6,
-        "ah": 57.0,
-        "cpm": 13.457,
-        "dpm": 12736.7
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Stormsurge"
-        ],
-        "ap": 374.4,
-        "ah": 77.0,
-        "cpm": 15.171,
-        "dpm": 12671.9
-      },
-      {
-        "items": [
-          "Spellslinger's Shoes",
-          "Horizon Focus",
-          "Blackfire Torch",
-          "Cryptbloom",
-          "Cosmic Drive"
-        ],
-        "ap": 353.6,
-        "ah": 102.0,
-        "cpm": 17.314,
-        "dpm": 12640.3
-      }
-    ]
+    "ap": 301.6,
+    "ah": 132.0,
+    "cpm": 16.281,
+    "dpm": 7683.6,
+    "per_cast": 471.9
+  },
+  "viktor_max_epm": {
+    "items": [
+      "Crimson Lucidity",
+      "Horizon Focus",
+      "Blackfire Torch",
+      "Cosmic Drive",
+      "Seraph's Embrace"
+    ],
+    "ap": 301.6,
+    "ah": 132.0,
+    "cpm": 19.886,
+    "dpm": 9612.5,
+    "per_cast": 483.4
   }
 }

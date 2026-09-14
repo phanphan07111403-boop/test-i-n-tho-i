@@ -6,9 +6,10 @@ maximize poke cadence (QPM / EPM) and poke DPM for Morgana and Viktor.
 Locked:
   Client: Tốc Chiến. Not PC. T3 mage = 0% pen.
   Role: mid. Morgana Q-poke. Viktor E-poke (Death Ray is the poke button).
-  Pair: every boots × 4-legendary set. No gold, no buy order, no spike.
-  Metric: 60s poke on a squishy at 90% HP, minute 20 / level 15.
-          QPM = Dark Binding / min. EPM = Death Ray / min (Viktor analog).
+  Pair: Spellslinger vs Crimson on maximize-damage inventories
+        (same 4 items, and best 4 items under each boot).
+  Metric: 60s poke DPM on a squishy at 90% HP, minute 20 / level 15.
+          CPM shown only to explain the AH trade.
 
 HF: +10% after a ≥600 ability; applying hit is not amped.
 Viktor E: laser applies HF, Blastquake 1s later IS amped.
@@ -278,74 +279,118 @@ def find(rows: List[Row], *must: str) -> Optional[Row]:
     return max(hits, key=lambda r: r.dpm)
 
 
+def under_boot(rows: List[Row], boot: str) -> List[Row]:
+    return [r for r in rows if boot in r.items]
+
+
+def same_four(rows: List[Row], src: Row, boot: str) -> Optional[Row]:
+    four = {n for n in src.items if n not in BOOTS}
+    for r in rows:
+        if boot in r.items and {n for n in r.items if n not in BOOTS} == four:
+            return r
+    return None
+
+
+def boots_block(L: List[str], title: str, rows: List[Row], unit: str) -> None:
+    spell_best = pick_max(under_boot(rows, "Spellslinger's Shoes"), "dpm")
+    crim_best = pick_max(under_boot(rows, "Crimson Lucidity"), "dpm")
+    crim_on_spell_set = same_four(rows, spell_best, "Crimson Lucidity")
+    spell_on_crim_set = same_four(rows, crim_best, "Spellslinger's Shoes")
+    L.append("-" * 78)
+    L.append(title)
+    L.append("-" * 78)
+    L.append("  Maximize DPM — best 4 items under each boot")
+    L.append(
+        f"    Spell    {spell_best.dpm:7.0f} DPM  {spell_best.cpm:5.2f} {unit}  "
+        f"AP {spell_best.ap:.0f} AH {spell_best.ah:.0f}  {short(spell_best.items)}"
+    )
+    L.append(
+        f"    Crimson  {crim_best.dpm:7.0f} DPM  {crim_best.cpm:5.2f} {unit}  "
+        f"AP {crim_best.ap:.0f} AH {crim_best.ah:.0f}  {short(crim_best.items)}"
+    )
+    L.append(f"    Crimson best vs Spell best: {pct(crim_best.dpm, spell_best.dpm)}")
+    L.append("")
+    L.append("  Swap boots only (keep the Spell-max 4 items)")
+    if crim_on_spell_set:
+        L.append(
+            f"    Spell    {spell_best.dpm:7.0f} DPM  {spell_best.cpm:5.2f} {unit}  "
+            f"per-cast {spell_best.dpm / spell_best.cpm:.0f}"
+        )
+        L.append(
+            f"    Crimson  {crim_on_spell_set.dpm:7.0f} DPM  {crim_on_spell_set.cpm:5.2f} {unit}  "
+            f"per-cast {crim_on_spell_set.dpm / crim_on_spell_set.cpm:.0f}"
+        )
+        L.append(
+            f"    Crimson vs Spell same 4: DPM {pct(crim_on_spell_set.dpm, spell_best.dpm)}  "
+            f"{unit} {pct(crim_on_spell_set.cpm, spell_best.cpm)}  "
+            f"per-cast {pct(crim_on_spell_set.dpm / crim_on_spell_set.cpm, spell_best.dpm / spell_best.cpm)}"
+        )
+    L.append("")
+    L.append("  Swap boots only (keep the Crimson-max 4 items)")
+    if spell_on_crim_set:
+        L.append(
+            f"    Spell    {spell_on_crim_set.dpm:7.0f} DPM  {spell_on_crim_set.cpm:5.2f} {unit}"
+        )
+        L.append(
+            f"    Crimson  {crim_best.dpm:7.0f} DPM  {crim_best.cpm:5.2f} {unit}"
+        )
+        L.append(
+            f"    Crimson vs Spell same 4: {pct(crim_best.dpm, spell_on_crim_set.dpm)}"
+        )
+    L.append("")
+    L.append("  Top 3 DPM with Spell")
+    for r in top_n(under_boot(rows, "Spellslinger's Shoes"), "dpm", 3):
+        L.append(f"    {r.dpm:7.0f}  {r.cpm:5.2f} {unit}  {short(r.items)}")
+    L.append("  Top 3 DPM with Crimson")
+    for r in top_n(under_boot(rows, "Crimson Lucidity"), "dpm", 3):
+        L.append(f"    {r.dpm:7.0f}  {r.cpm:5.2f} {unit}  {short(r.items)}")
+    L.append("")
+
+
 def summarize(morg: List[Row], vik: List[Row]) -> str:
     mq, md = pick_max(morg, "cpm"), pick_max(morg, "dpm")
     vq, vd = pick_max(vik, "cpm"), pick_max(vik, "dpm")
-    # Reference: previous Luden max-damage lock (gold-aware).
-    lock_m = find(morg, "Spellslinger's Shoes", "Luden's Echo", "Infinity Orb", "Rabadon's Deathcap")
-    lock_v = find(vik, "Spellslinger's Shoes", "Luden's Echo", "Infinity Orb", "Rabadon's Deathcap")
     L: List[str] = []
     L.append("=" * 78)
-    L.append("IGNORE GOLD — MAX QPM / DPM  (WR 7.2e, mid, 5 slot xong trận)")
-    L.append("Morgana = Dark Binding. Viktor = Death Ray (E). Squishy 90% HP, 60s poke.")
+    L.append("MAXIMIZE DAMAGE — SPELLSLINGER vs CRIMSON  (WR 7.2e)")
+    L.append("Bỏ vàng. 5 slot xong. Poke 90% HP, 60s. Morgana Q / Viktor E.")
     L.append("=" * 78)
     L.append("")
     L.append("4 Ô")
     L.append("-" * 78)
     L.append("  Client : Tốc Chiến 7.2e. Không PC. T3 mage = 0 pen.")
-    L.append("  Role   : mid. Bỏ vàng / spike / build path. Chỉ inventory.")
-    L.append("  Cặp    : mọi boots × 4 legendary (Void XOR Cryptbloom).")
-    L.append("  Metric : CPM (Q hoặc E / phút) và DPM poke 90%. HF 10% sau hit apply.")
+    L.append("  Role   : mid. Bỏ vàng. Không copy support Ionia WR.")
+    L.append("  Cặp    : Spellslinger vs Crimson Lucidity trên maximize DPM.")
+    L.append("           (1) cùng 4 đồ  (2) 4 đồ tốt nhất dưới từng giày.")
+    L.append("  Metric : DPM poke squishy 90%. CPM chỉ để giải thích AH.")
     L.append("")
-    L.append("QPM max = stack AH (Crimson 25 + HF/Cosmic/Seraph 25 + BF 20).")
-    L.append("DPM max = Spell 18+8% + Echo + Cap 30% ± HF 10%/AH ± Orb 15 flat.")
-    L.append("Hai metric lệch: Ionian/Crimson thắng QPM, thua DPM trên squishy.")
+    L.append("  Spell : 40 AP, 18 flat, 8% pen, 0 AH.")
+    L.append("  Crimson: 0 AP, 0 pen, 25 AH, 8% MS on ability.")
     L.append("")
 
-    def block(title: str, rows: List[Row], qrow: Row, drow: Row, lock: Optional[Row], unit: str) -> None:
-        L.append("-" * 78)
-        L.append(title)
-        L.append("-" * 78)
-        L.append(f"  MAX {unit}: {short(qrow.items)}")
-        L.append(f"           AP {qrow.ap:.0f}  AH {qrow.ah:.0f}  {unit} {qrow.cpm:.2f}  DPM {qrow.dpm:.0f}")
-        L.append(f"  MAX DPM:  {short(drow.items)}")
-        L.append(f"           AP {drow.ap:.0f}  AH {drow.ah:.0f}  {unit} {drow.cpm:.2f}  DPM {drow.dpm:.0f}")
-        if lock:
-            L.append(
-                f"  Lock Luden·Orb·Cap·Spell: {unit} {lock.cpm:.2f}  DPM {lock.dpm:.0f}  "
-                f"vs maxDPM {pct(lock.dpm, drow.dpm)}  vs max{unit} {pct(lock.cpm, qrow.cpm)}"
-            )
-        L.append(f"  MAX DPM vs MAX {unit}: DPM {pct(drow.dpm, qrow.dpm)}  {unit} {pct(drow.cpm, qrow.cpm)}")
-        L.append("")
-        L.append(f"  Top {unit}")
-        for r in top_n(rows, "cpm", 5):
-            L.append(
-                f"    {r.cpm:5.2f} {unit}  DPM {r.dpm:7.0f}  AH {r.ah:5.0f}  {short(r.items)}"
-            )
-        L.append(f"  Top DPM")
-        for r in top_n(rows, "dpm", 5):
-            L.append(
-                f"    DPM {r.dpm:7.0f}  {r.cpm:5.2f} {unit}  AP {r.ap:5.0f}  {short(r.items)}"
-            )
-        L.append("")
-
-    block("MORGANA — Dark Binding Q", morg, mq, md, lock_m, "QPM")
-    block("VIKTOR — Death Ray E  (Q Siphon không phải poke)", vik, vq, vd, lock_v, "EPM")
+    boots_block(L, "MORGANA — Spell vs Crimson (maximize DPM)", morg, "QPM")
+    boots_block(L, "VIKTOR — Spell vs Crimson (maximize DPM)", vik, "EPM")
 
     L.append("-" * 78)
-    L.append("VERDICT — bỏ vàng, maximize QPM và DPM")
+    L.append("VERDICT — maximize damage: Spellslinger hay Crimson?")
     L.append("-" * 78)
-    L.append(f"  Morgana max QPM: {short(mq.items)}")
-    L.append(f"  Morgana max DPM: {short(md.items)}")
-    L.append(f"  Viktor  max EPM: {short(vq.items)}")
-    L.append(f"  Viktor  max DPM: {short(vd.items)}")
-    L.append("  Build order không đổi số khi bỏ vàng — thứ tự = ưu tiên slot:")
-    L.append("    QPM/EPM: Crimson → HF → Cosmic → Seraph → BF (132 AH).")
-    L.append("    DPM: Spell → Luden → HF → BF → Crypt (Echo + 10% + burn + 30% pen + AH).")
-    L.append("  Cap/Orb không vào max DPM @90%: Cap 0 AH, Orb 20% tắt khi full HP.")
-    L.append("  Crimson thắng cadence (−19% CPM vs Spell-DPM), thua DPM vì mất 18+8% + 40 AP.")
-    L.append("  Không max được cả hai cùng lúc. Muốn damage → Spell DPM set. Muốn spam → Crimson AH set.")
+    ms = pick_max(under_boot(morg, "Spellslinger's Shoes"), "dpm")
+    mc = pick_max(under_boot(morg, "Crimson Lucidity"), "dpm")
+    vs_ = pick_max(under_boot(vik, "Spellslinger's Shoes"), "dpm")
+    vc = pick_max(under_boot(vik, "Crimson Lucidity"), "dpm")
+    L.append(f"  Morgana: Crimson best vs Spell best {pct(mc.dpm, ms.dpm)}")
+    L.append(f"  Viktor : Crimson best vs Spell best {pct(vc.dpm, vs_.dpm)}")
+    L.append("  Maximize damage → Spellslinger. 18 flat + 8% + 40 AP > 25 AH trên squishy.")
+    L.append("  Cùng 4 đồ Spell-max (Luden·HF·BF·Crypt): Crimson DPM −15.5% / −13.0%.")
+    L.append("  Crimson tự chọn 4 đồ khác (HF·BF·Crypt·Liandry) vẫn thua Spell ~10%.")
+    L.append("  Crimson thắng cadence (+13% CPM), thua per-cast (~−25%) nên thua DPM.")
+    L.append("  Crimson chỉ khi metric là QPM/EPM, không phải maximize damage.")
     L.append("=" * 78)
+    L.append("")
+    L.append("Context — max cadence (không phải câu damage)")
+    L.append(f"  Morgana max QPM: {short(mq.items)}  {mq.cpm:.2f} QPM  DPM {mq.dpm:.0f}")
+    L.append(f"  Viktor  max EPM: {short(vq.items)}  {vq.cpm:.2f} EPM  DPM {vq.dpm:.0f}")
+    L.append(f"  vs max DPM Morgana cadence {pct(md.cpm, mq.cpm)}  DPM {pct(md.dpm, mq.dpm)}")
     return "\n".join(L)
 
 
@@ -357,6 +402,19 @@ def export_json(morg: List[Row], vik: List[Row], path: str) -> None:
             "ah": r.ah,
             "cpm": round(r.cpm, 3),
             "dpm": round(r.dpm, 1),
+            "per_cast": round(r.dpm / r.cpm, 1),
+        }
+
+    def boots_payload(rows: List[Row]) -> dict:
+        spell = pick_max(under_boot(rows, "Spellslinger's Shoes"), "dpm")
+        crim = pick_max(under_boot(rows, "Crimson Lucidity"), "dpm")
+        swap = same_four(rows, spell, "Crimson Lucidity")
+        return {
+            "spell_best_dpm": pack(spell),
+            "crimson_best_dpm": pack(crim),
+            "crimson_on_spell_four": pack(swap) if swap else None,
+            "crimson_best_vs_spell_best": pct(crim.dpm, spell.dpm),
+            "crimson_swap_vs_spell": pct(swap.dpm, spell.dpm) if swap else None,
         }
 
     payload = {
@@ -364,39 +422,32 @@ def export_json(morg: List[Row], vik: List[Row], path: str) -> None:
             "patch": "7.2e",
             "client": "Wild Rift",
             "gold": "ignored",
+            "pair": "Spellslinger vs Crimson Lucidity on maximize DPM",
             "snapshot": "minute 20, level 15, squishy 90% HP, 60s poke",
-            "morgana_spell": "Q Dark Binding",
-            "viktor_spell": "E Death Ray (evolved)",
         },
-        "morgana": {
-            "max_qpm": pack(pick_max(morg, "cpm")),
-            "max_dpm": pack(pick_max(morg, "dpm")),
-            "top_qpm": [pack(r) for r in top_n(morg, "cpm", 8)],
-            "top_dpm": [pack(r) for r in top_n(morg, "dpm", 8)],
-        },
-        "viktor": {
-            "max_epm": pack(pick_max(vik, "cpm")),
-            "max_dpm": pack(pick_max(vik, "dpm")),
-            "top_epm": [pack(r) for r in top_n(vik, "cpm", 8)],
-            "top_dpm": [pack(r) for r in top_n(vik, "dpm", 8)],
-        },
+        "morgana": boots_payload(morg),
+        "viktor": boots_payload(vik),
+        "morgana_max_qpm": pack(pick_max(morg, "cpm")),
+        "viktor_max_epm": pack(pick_max(vik, "cpm")),
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
 
 def self_check(morg: List[Row], vik: List[Row]) -> None:
-    mq, md = pick_max(morg, "cpm"), pick_max(morg, "dpm")
-    vq, vd = pick_max(vik, "cpm"), pick_max(vik, "dpm")
-    assert "Crimson Lucidity" in mq.items
-    assert "Crimson Lucidity" in vq.items
-    assert "Spellslinger's Shoes" in md.items
-    assert "Spellslinger's Shoes" in vd.items
-    assert mq.cpm > md.cpm
-    assert md.dpm > mq.dpm
-    assert vq.cpm > vd.cpm
-    assert vd.dpm > vq.dpm
-    assert "Horizon Focus" in mq.items
+    ms = pick_max(under_boot(morg, "Spellslinger's Shoes"), "dpm")
+    mc = pick_max(under_boot(morg, "Crimson Lucidity"), "dpm")
+    vs_ = pick_max(under_boot(vik, "Spellslinger's Shoes"), "dpm")
+    vc = pick_max(under_boot(vik, "Crimson Lucidity"), "dpm")
+    swap_m = same_four(morg, ms, "Crimson Lucidity")
+    swap_v = same_four(vik, vs_, "Crimson Lucidity")
+    assert ms.dpm > mc.dpm
+    assert vs_.dpm > vc.dpm
+    assert swap_m is not None and swap_m.dpm < ms.dpm
+    assert swap_v is not None and swap_v.dpm < vs_.dpm
+    assert swap_m.cpm > ms.cpm
+    assert "Spellslinger's Shoes" in ms.items
+    assert "Crimson Lucidity" in mc.items
     print("self-check OK")
 
 

@@ -1,76 +1,86 @@
 ==============================================================================
-IGNORE GOLD — MAX QPM / DPM  (WR 7.2e, mid, 5 slot xong trận)
-Morgana = Dark Binding. Viktor = Death Ray (E). Squishy 90% HP, 60s poke.
+MAXIMIZE DAMAGE — SPELLSLINGER vs CRIMSON  (WR 7.2e)
+Bỏ vàng. 5 slot xong. Poke 90% HP, 60s. Morgana Q / Viktor E.
 ==============================================================================
 
 4 Ô
 ------------------------------------------------------------------------------
   Client : Tốc Chiến 7.2e. Không PC. T3 mage = 0 pen.
-  Role   : mid. Bỏ vàng / spike / build path. Chỉ inventory.
-  Cặp    : mọi boots × 4 legendary (Void XOR Cryptbloom).
-  Metric : CPM (Q hoặc E / phút) và DPM poke 90%. HF 10% sau hit apply.
+  Role   : mid. Bỏ vàng. Không copy support Ionia WR.
+  Cặp    : Spellslinger vs Crimson Lucidity trên maximize DPM.
+           (1) cùng 4 đồ  (2) 4 đồ tốt nhất dưới từng giày.
+  Metric : DPM poke squishy 90%. CPM chỉ để giải thích AH.
 
-QPM max = stack AH (Crimson 25 + HF/Cosmic/Seraph 25 + BF 20).
-DPM max = Spell 18+8% + Echo + Cap 30% ± HF 10%/AH ± Orb 15 flat.
-Hai metric lệch: Ionian/Crimson thắng QPM, thua DPM trên squishy.
-
-------------------------------------------------------------------------------
-MORGANA — Dark Binding Q
-------------------------------------------------------------------------------
-  MAX QPM: Crimson · HF · BF · Cosmic · Seraph
-           AP 302  AH 132  QPM 16.28  DPM 7684
-  MAX DPM:  Spell · Luden · HF · BF · Crypt
-           AP 385  AH 87  QPM 13.12  DPM 10558
-  Lock Luden·Orb·Cap·Spell: QPM 10.32  DPM 9529  vs maxDPM -9.7%  vs maxQPM -36.6%
-  MAX DPM vs MAX QPM: DPM +37.4%  QPM -19.4%
-
-  Top QPM
-    16.28 QPM  DPM    7684  AH   132  Crimson · HF · BF · Cosmic · Seraph
-    16.28 QPM  DPM    7490  AH   132  Crimson · HF · Crypt · Cosmic · Seraph
-    15.93 QPM  DPM    8371  AH   127  Crimson · HF · BF · Crypt · Cosmic
-    15.93 QPM  DPM    8248  AH   127  Crimson · HF · BF · Crypt · Seraph
-    15.93 QPM  DPM    7192  AH   127  Crimson · BF · Crypt · Cosmic · Seraph
-  Top DPM
-    DPM   10558  13.12 QPM  AP   385  Spell · Luden · HF · BF · Crypt
-    DPM   10391  11.02 QPM  AP   380  Spell · HF · BF · Void · Liandry
-    DPM   10332  12.42 QPM  AP   354  Spell · HF · BF · Crypt · Liandry
-    DPM   10280  11.02 QPM  AP   520  Spell · HF · Cap · BF · Void
-    DPM   10224  11.72 QPM  AP   411  Spell · Luden · HF · BF · Void
+  Spell : 40 AP, 18 flat, 8% pen, 0 AH.
+  Crimson: 0 AP, 0 pen, 25 AH, 8% MS on ability.
 
 ------------------------------------------------------------------------------
-VIKTOR — Death Ray E  (Q Siphon không phải poke)
+MORGANA — Spell vs Crimson (maximize DPM)
 ------------------------------------------------------------------------------
-  MAX EPM: Crimson · HF · BF · Cosmic · Seraph
-           AP 302  AH 132  EPM 19.89  DPM 9613
-  MAX DPM:  Spell · Luden · HF · BF · Crypt
-           AP 385  AH 87  EPM 16.03  DPM 13490
-  Lock Luden·Orb·Cap·Spell: EPM 12.17  DPM 11442  vs maxDPM -15.2%  vs maxEPM -38.8%
-  MAX DPM vs MAX EPM: DPM +40.3%  EPM -19.4%
+  Maximize DPM — best 4 items under each boot
+    Spell      10558 DPM  13.12 QPM  AP 385 AH 87  Spell · Luden · HF · BF · Crypt
+    Crimson     9511 DPM  14.18 QPM  AP 312 AH 102  Crimson · HF · BF · Crypt · Liandry
+    Crimson best vs Spell best: -9.9%
 
-  Top EPM
-    19.89 EPM  DPM    9613  AH   132  Crimson · HF · BF · Cosmic · Seraph
-    19.89 EPM  DPM    9457  AH   132  Crimson · HF · Crypt · Cosmic · Seraph
-    19.46 EPM  DPM   11122  AH   127  Crimson · HF · BF · Crypt · Cosmic
-    19.46 EPM  DPM   10968  AH   127  Crimson · HF · BF · Crypt · Seraph
-    19.46 EPM  DPM    9536  AH   127  Crimson · BF · Crypt · Cosmic · Seraph
-  Top DPM
-    DPM   13490  16.03 EPM  AP   385  Spell · Luden · HF · BF · Crypt
-    DPM   13372  15.17 EPM  AP   354  Spell · HF · BF · Crypt · Liandry
-    DPM   13228  15.17 EPM  AP   494  Spell · HF · Cap · BF · Crypt
-    DPM   12997  15.17 EPM  AP   395  Spell · Orb · HF · BF · Crypt
-    DPM   12935  14.31 EPM  AP   411  Spell · Luden · HF · BF · Void
+  Swap boots only (keep the Spell-max 4 items)
+    Spell      10558 DPM  13.12 QPM  per-cast 805
+    Crimson     8919 DPM  14.88 QPM  per-cast 599
+    Crimson vs Spell same 4: DPM -15.5%  QPM +13.4%  per-cast -25.5%
+
+  Swap boots only (keep the Crimson-max 4 items)
+    Spell      10332 DPM  12.42 QPM
+    Crimson     9511 DPM  14.18 QPM
+    Crimson vs Spell same 4: -7.9%
+
+  Top 3 DPM with Spell
+      10558  13.12 QPM  Spell · Luden · HF · BF · Crypt
+      10391  11.02 QPM  Spell · HF · BF · Void · Liandry
+      10332  12.42 QPM  Spell · HF · BF · Crypt · Liandry
+  Top 3 DPM with Crimson
+       9511  14.18 QPM  Crimson · HF · BF · Crypt · Liandry
+       9287  14.18 QPM  Crimson · Orb · HF · BF · Crypt
+       9263  14.18 QPM  Crimson · HF · Cap · BF · Crypt
 
 ------------------------------------------------------------------------------
-VERDICT — bỏ vàng, maximize QPM và DPM
+VIKTOR — Spell vs Crimson (maximize DPM)
 ------------------------------------------------------------------------------
-  Morgana max QPM: Crimson · HF · BF · Cosmic · Seraph
-  Morgana max DPM: Spell · Luden · HF · BF · Crypt
-  Viktor  max EPM: Crimson · HF · BF · Cosmic · Seraph
-  Viktor  max DPM: Spell · Luden · HF · BF · Crypt
-  Build order không đổi số khi bỏ vàng — thứ tự = ưu tiên slot:
-    QPM/EPM: Crimson → HF → Cosmic → Seraph → BF (132 AH).
-    DPM: Spell → Luden → HF → BF → Crypt (Echo + 10% + burn + 30% pen + AH).
-  Cap/Orb không vào max DPM @90%: Cap 0 AH, Orb 20% tắt khi full HP.
-  Crimson thắng cadence (−19% CPM vs Spell-DPM), thua DPM vì mất 18+8% + 40 AP.
-  Không max được cả hai cùng lúc. Muốn damage → Spell DPM set. Muốn spam → Crimson AH set.
+  Maximize DPM — best 4 items under each boot
+    Spell      13490 DPM  16.03 EPM  AP 385 AH 87  Spell · Luden · HF · BF · Crypt
+    Crimson    12019 DPM  17.31 EPM  AP 312 AH 102  Crimson · HF · BF · Crypt · Liandry
+    Crimson best vs Spell best: -10.9%
+
+  Swap boots only (keep the Spell-max 4 items)
+    Spell      13490 DPM  16.03 EPM  per-cast 842
+    Crimson    11733 DPM  18.17 EPM  per-cast 646
+    Crimson vs Spell same 4: DPM -13.0%  EPM +13.4%  per-cast -23.3%
+
+  Swap boots only (keep the Crimson-max 4 items)
+    Spell      13372 DPM  15.17 EPM
+    Crimson    12019 DPM  17.31 EPM
+    Crimson vs Spell same 4: -10.1%
+
+  Top 3 DPM with Spell
+      13490  16.03 EPM  Spell · Luden · HF · BF · Crypt
+      13372  15.17 EPM  Spell · HF · BF · Crypt · Liandry
+      13228  15.17 EPM  Spell · HF · Cap · BF · Crypt
+  Top 3 DPM with Crimson
+      12019  17.31 EPM  Crimson · HF · BF · Crypt · Liandry
+      11811  17.31 EPM  Crimson · Orb · HF · BF · Crypt
+      11733  18.17 EPM  Crimson · Luden · HF · BF · Crypt
+
+------------------------------------------------------------------------------
+VERDICT — maximize damage: Spellslinger hay Crimson?
+------------------------------------------------------------------------------
+  Morgana: Crimson best vs Spell best -9.9%
+  Viktor : Crimson best vs Spell best -10.9%
+  Maximize damage → Spellslinger. 18 flat + 8% + 40 AP > 25 AH trên squishy.
+  Cùng 4 đồ Spell-max (Luden·HF·BF·Crypt): Crimson DPM −15.5% / −13.0%.
+  Crimson tự chọn 4 đồ khác (HF·BF·Crypt·Liandry) vẫn thua Spell ~10%.
+  Crimson thắng cadence (+13% CPM), thua per-cast (~−25%) nên thua DPM.
+  Crimson chỉ khi metric là QPM/EPM, không phải maximize damage.
 ==============================================================================
+
+Context — max cadence (không phải câu damage)
+  Morgana max QPM: Crimson · HF · BF · Cosmic · Seraph  16.28 QPM  DPM 7684
+  Viktor  max EPM: Crimson · HF · BF · Cosmic · Seraph  19.89 EPM  DPM 9613
+  vs max DPM Morgana cadence -19.4%  DPM +37.4%
