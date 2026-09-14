@@ -16,6 +16,7 @@ python3 simulate_dh_comet.py
 python3 simulate_burst_dh.py
 python3 simulate_scorch_gs.py
 python3 simulate_cut_coup_ih.py
+python3 simulate_morgana_dh_farm.py
 ```
 
 ## 4 ô
@@ -138,5 +139,42 @@ DH burst (Spell · Luden · Orb · Cap · Storm, GS 70 AP @25):
 Q all-in hạ dưới 40% → R/W/DH/Squall ăn Coup. Cut chỉ dính hit đầu >60%. IH không giảm CD Q/E/R/DH; Echo vẫn 1 lần trong combo.
 
 **DH burst → Coup.** Cut khi poke 90%. IH khi muốn thêm Echo (và chỉ khi Echo CD thực sự thêm proc). Giữ GS; 70 AP lớn hơn Cut/Coup trên combo.
+
+## Morgana DH farm Q/W — không burst, không khóa Luden
+
+Metric: 60s khi target **đã <50%** = QPM×Q + WPM×W + DH mỗi 35s. Không R, Echo, Squall, Stormsurge.
+
+**Blackfire → Spellslinger → Cryptbloom → Horizon Focus**
+
+| Bước | Phút |
+|------|------|
+| Lost Chapter | 6 |
+| Fated Ashes | 8 |
+| Blackfire Torch | 9 |
+| Spellslinger | 11 |
+| Cryptbloom | 16 |
+| Horizon Focus | 20 |
+
+Luden **−9.4%**. Orb→Cap burst **−8.9%** (Orb tắt @45%, 0 AH). Crypt trước HF vì 30% pen lên mọi Q/W/DH sớm hơn (+1.4% vs HF trước). AH không giảm DH 35s — AH để Q và W sẵn sàng trong cửa execute.
+
+### 2 món cuối (slot 5 + bán đồ support slot 6)
+
+WR 6 slot = giày + 5 legendary. Core 4 món xong ~phút 20. Bán đồ support (70% Shard of True Ice = **1120g**) ngay khi món 5 xong. GS đã khóa. Cấm Void (exclusive Crypt). Không Stormsurge.
+
+**Rylai @24 → Deathcap @27** (bán support @24, ngồi NLR+Wand tới lúc combine).
+
+| | Σ farm60 21–30 | vs Rylai→Cap |
+|--|----------------|--------------|
+| **Rylai → Cap** | **193783** | — |
+| Rylai → Orb | −4.1% | Orb 20% tắt @45% |
+| Rylai → Cosmic | −5.8% | 25 AH, ít AP hơn Cap |
+| Rylai → Bloodletter | −6.0% | 30% shred + Crypt, vẫn thua 30% amp |
+| Cap → Rylai | −6.8% | cùng full build, Rylai muộn 3 phút |
+| Rylai → Luden | −6.9% | Echo không đếm |
+| Rylai → Liandry | −8.2% | burn < Cap amp trên W 5s |
+
+Món 5 nếu game chết 25m (chưa xong Cap): **Rylai** (+0%). Bloodletter −6.3%, Cap −7.6% (xong phút 25, mất cửa W 5s phút 24–25), Liandry **−11.6%** (burn mà W vẫn 2.75s).
+
+Rylai thắng vì farm DH cần W dính đủ 5s trong cửa <50%, không phải vì slow vào DPM hit. Cap sau vì 130 AP + 30% (kể cả GS 70 @24 và DH 5% AP).
 
 

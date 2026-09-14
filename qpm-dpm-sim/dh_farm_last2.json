@@ -1,0 +1,2667 @@
+{
+  "meta": {
+    "patch": "7.2e",
+    "core": [
+      "Spellslinger's Shoes",
+      "Blackfire Torch",
+      "Cryptbloom",
+      "Horizon Focus"
+    ],
+    "support_sell": 1120,
+    "gathering_storm": true,
+    "metric": "farm60 @45% after Crypt+HF",
+    "void_banned": true
+  },
+  "fifth_only": [
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": null,
+      "label": "Rylai",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 69331.7,
+      "sum_21_30": 159327.7,
+      "farm60_25": 17573.3,
+      "farm60_30": 18454.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": null,
+      "label": "Bloodletter",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 64994.1,
+      "sum_21_30": 139068.2,
+      "farm60_25": 14465.7,
+      "farm60_30": 15188.5,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": null,
+      "label": "Cap",
+      "t5": 25,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 64044.4,
+      "sum_21_30": 143279.0,
+      "farm60_25": 15465.5,
+      "farm60_30": 16254.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": null,
+      "label": "Orb",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 63871.1,
+      "sum_21_30": 138542.1,
+      "farm60_25": 14601.9,
+      "farm60_30": 15290.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": null,
+      "label": "Cosmic",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 62991.3,
+      "sum_21_30": 134170.8,
+      "farm60_25": 13902.3,
+      "farm60_30": 14592.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": null,
+      "label": "Luden",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 62705.1,
+      "sum_21_30": 131273.0,
+      "farm60_25": 13404.6,
+      "farm60_30": 14044.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": null,
+      "label": "Liandry",
+      "t5": 24,
+      "t6": null,
+      "sold_at": null,
+      "sum_21_25": 61275.0,
+      "sum_21_30": 128777.3,
+      "farm60_25": 13187.0,
+      "farm60_30": 13827.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment"
+      ]
+    }
+  ],
+  "pairs_by_21_25": [
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Rylai \u2192 Cap",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 73422.8,
+      "sum_21_30": 193783.0,
+      "farm60_25": 20145.2,
+      "farm60_30": 25507.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Needlessly Large Rod",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Luden's Echo",
+      "label": "Rylai \u2192 Luden",
+      "t5": 24,
+      "t6": 26,
+      "sold_at": 24,
+      "sum_21_25": 73005.4,
+      "sum_21_30": 180334.8,
+      "farm60_25": 19410.0,
+      "farm60_30": 21947.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Bloodletter's Curse",
+      "label": "Rylai \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 72363.0,
+      "sum_21_30": 182106.5,
+      "farm60_25": 19903.8,
+      "farm60_30": 22859.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Haunting Guise",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Cosmic Drive",
+      "label": "Rylai \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71745.8,
+      "sum_21_30": 182614.1,
+      "farm60_25": 19286.6,
+      "farm60_30": 22877.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Liandry's Torment",
+      "label": "Rylai \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71668.3,
+      "sum_21_30": 177908.7,
+      "farm60_25": 19209.1,
+      "farm60_30": 22127.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Haunting Guise",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Infinity Orb",
+      "label": "Rylai \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71434.3,
+      "sum_21_30": 185830.2,
+      "farm60_25": 18624.5,
+      "farm60_30": 23960.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Luden's Echo",
+      "label": "Bloodletter \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 67878.7,
+      "sum_21_30": 155436.0,
+      "farm60_25": 15907.9,
+      "farm60_30": 17986.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Cosmic Drive",
+      "label": "Bloodletter \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66912.0,
+      "sum_21_30": 157278.7,
+      "farm60_25": 15806.7,
+      "farm60_30": 18640.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Bloodletter \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 66725.2,
+      "sum_21_30": 162196.5,
+      "farm60_25": 15331.2,
+      "farm60_30": 20985.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Infinity Orb",
+      "label": "Bloodletter \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66725.2,
+      "sum_21_30": 153514.8,
+      "farm60_25": 15331.2,
+      "farm60_30": 17846.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Bloodletter's Curse",
+      "label": "Orb \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66448.2,
+      "sum_21_30": 153125.9,
+      "farm60_25": 15890.4,
+      "farm60_30": 17846.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Liandry's Torment",
+      "label": "Bloodletter \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66147.8,
+      "sum_21_30": 151625.2,
+      "farm60_25": 15042.5,
+      "farm60_30": 17714.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Bloodletter \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65859.5,
+      "sum_21_30": 171415.3,
+      "farm60_25": 15331.2,
+      "farm60_30": 22859.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Cosmic Drive",
+      "label": "Orb \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65807.1,
+      "sum_21_30": 155993.4,
+      "farm60_25": 15987.3,
+      "farm60_30": 18860.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Luden's Echo",
+      "label": "Cosmic \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65682.9,
+      "sum_21_30": 149557.9,
+      "farm60_25": 15248.0,
+      "farm60_30": 17227.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Luden's Echo",
+      "label": "Cap \u2192 Luden",
+      "t5": 25,
+      "t6": 27,
+      "sold_at": 25,
+      "sum_21_25": 65670.6,
+      "sum_21_30": 158886.5,
+      "farm60_25": 17091.6,
+      "farm60_30": 19361.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Orb \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 65523.1,
+      "sum_21_30": 162705.7,
+      "farm60_25": 15427.8,
+      "farm60_30": 21366.5,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Luden's Echo",
+      "label": "Orb \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65523.1,
+      "sum_21_30": 154630.2,
+      "farm60_25": 15427.8,
+      "farm60_30": 18329.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Liandry's Torment",
+      "label": "Orb \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65339.4,
+      "sum_21_30": 152185.6,
+      "farm60_25": 15336.0,
+      "farm60_30": 18029.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Bloodletter's Curse",
+      "label": "Cosmic \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65297.5,
+      "sum_21_30": 154196.1,
+      "farm60_25": 15055.4,
+      "farm60_30": 18640.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Infinity Orb",
+      "label": "Cap \u2192 Orb",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64984.5,
+      "sum_21_30": 162666.3,
+      "farm60_25": 16405.5,
+      "farm60_30": 21366.5,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Luden \u2192 Cap",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64918.5,
+      "sum_21_30": 156321.2,
+      "farm60_25": 14511.2,
+      "farm60_30": 19361.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Needlessly Large Rod"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Orb \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64697.0,
+      "sum_21_30": 174742.7,
+      "farm60_25": 15427.8,
+      "farm60_30": 23960.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Liandry's Torment",
+      "label": "Cap \u2192 Liandry",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 153327.8,
+      "farm60_25": 16092.1,
+      "farm60_30": 18705.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Cosmic Drive",
+      "label": "Cap \u2192 Cosmic",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 160075.1,
+      "farm60_25": 16092.1,
+      "farm60_30": 20168.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Aether Wisp"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Bloodletter's Curse",
+      "label": "Cap \u2192 Bloodletter",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 160653.6,
+      "farm60_25": 16092.1,
+      "farm60_30": 20985.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Cosmic \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 64643.5,
+      "sum_21_30": 156373.7,
+      "farm60_25": 14728.4,
+      "farm60_30": 20168.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Infinity Orb",
+      "label": "Cosmic \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64643.5,
+      "sum_21_30": 154766.8,
+      "farm60_25": 14728.4,
+      "farm60_30": 18860.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Cap \u2192 Rylai",
+      "t5": 25,
+      "t6": 27,
+      "sold_at": 25,
+      "sum_21_25": 64462.1,
+      "sum_21_30": 180560.9,
+      "farm60_25": 15883.2,
+      "farm60_30": 25507.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Giant's Belt",
+        "Amplifying Tome"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Liandry's Torment",
+      "label": "Cosmic \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64459.8,
+      "sum_21_30": 146570.1,
+      "farm60_25": 14636.5,
+      "farm60_30": 17015.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Cosmic Drive",
+      "label": "Luden \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64452.0,
+      "sum_21_30": 148049.1,
+      "farm60_25": 14641.0,
+      "farm60_30": 17227.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Infinity Orb",
+      "label": "Luden \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64236.9,
+      "sum_21_30": 151667.9,
+      "farm60_25": 14170.5,
+      "farm60_30": 18329.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Luden's Echo",
+      "label": "Liandry \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63917.8,
+      "sum_21_30": 143285.9,
+      "farm60_25": 14508.8,
+      "farm60_30": 16286.4,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Cosmic \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63817.3,
+      "sum_21_30": 168832.3,
+      "farm60_25": 14728.4,
+      "farm60_30": 22877.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Liandry's Torment",
+      "label": "Luden \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63726.0,
+      "sum_21_30": 142411.2,
+      "farm60_25": 13915.0,
+      "farm60_30": 16286.4,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Bloodletter's Curse",
+      "label": "Luden \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63726.0,
+      "sum_21_30": 149553.5,
+      "farm60_25": 13915.0,
+      "farm60_30": 17986.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Bloodletter's Curse",
+      "label": "Liandry \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63578.9,
+      "sum_21_30": 148099.4,
+      "farm60_25": 14339.2,
+      "farm60_30": 17714.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Luden \u2192 Rylai",
+      "t5": 24,
+      "t6": 26,
+      "sold_at": 24,
+      "sum_21_25": 63470.9,
+      "sum_21_30": 170800.3,
+      "farm60_25": 14170.5,
+      "farm60_30": 21947.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Cosmic Drive",
+      "label": "Liandry \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 62995.5,
+      "sum_21_30": 144349.7,
+      "farm60_25": 14424.1,
+      "farm60_30": 17015.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Liandry \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 62723.3,
+      "sum_21_30": 148202.4,
+      "farm60_25": 13911.4,
+      "farm60_30": 18705.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Infinity Orb",
+      "label": "Liandry \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 62723.3,
+      "sum_21_30": 148645.1,
+      "farm60_25": 13911.4,
+      "farm60_30": 18029.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Liandry \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 61999.4,
+      "sum_21_30": 163270.4,
+      "farm60_25": 13911.4,
+      "farm60_30": 22127.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    }
+  ],
+  "pairs_by_21_30": [
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Rylai \u2192 Cap",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 73422.8,
+      "sum_21_30": 193783.0,
+      "farm60_25": 20145.2,
+      "farm60_30": 25507.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Needlessly Large Rod",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Infinity Orb",
+      "label": "Rylai \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71434.3,
+      "sum_21_30": 185830.2,
+      "farm60_25": 18624.5,
+      "farm60_30": 23960.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Cosmic Drive",
+      "label": "Rylai \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71745.8,
+      "sum_21_30": 182614.1,
+      "farm60_25": 19286.6,
+      "farm60_30": 22877.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Bloodletter's Curse",
+      "label": "Rylai \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 72363.0,
+      "sum_21_30": 182106.5,
+      "farm60_25": 19903.8,
+      "farm60_30": 22859.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Haunting Guise",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Cap \u2192 Rylai",
+      "t5": 25,
+      "t6": 27,
+      "sold_at": 25,
+      "sum_21_25": 64462.1,
+      "sum_21_30": 180560.9,
+      "farm60_25": 15883.2,
+      "farm60_30": 25507.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Giant's Belt",
+        "Amplifying Tome"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Luden's Echo",
+      "label": "Rylai \u2192 Luden",
+      "t5": 24,
+      "t6": 26,
+      "sold_at": 24,
+      "sum_21_25": 73005.4,
+      "sum_21_30": 180334.8,
+      "farm60_25": 19410.0,
+      "farm60_30": 21947.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Rylai's Crystal Scepter",
+      "sixth": "Liandry's Torment",
+      "label": "Rylai \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 71668.3,
+      "sum_21_30": 177908.7,
+      "farm60_25": 19209.1,
+      "farm60_30": 22127.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Haunting Guise",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rylai's Crystal Scepter",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Orb \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64697.0,
+      "sum_21_30": 174742.7,
+      "farm60_25": 15427.8,
+      "farm60_30": 23960.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Bloodletter \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65859.5,
+      "sum_21_30": 171415.3,
+      "farm60_25": 15331.2,
+      "farm60_30": 22859.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Luden \u2192 Rylai",
+      "t5": 24,
+      "t6": 26,
+      "sold_at": 24,
+      "sum_21_25": 63470.9,
+      "sum_21_30": 170800.3,
+      "farm60_25": 14170.5,
+      "farm60_30": 21947.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Cosmic \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63817.3,
+      "sum_21_30": 168832.3,
+      "farm60_25": 14728.4,
+      "farm60_30": 22877.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Rylai's Crystal Scepter",
+      "label": "Liandry \u2192 Rylai",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 61999.4,
+      "sum_21_30": 163270.4,
+      "farm60_25": 13911.4,
+      "farm60_30": 22127.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Orb \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 65523.1,
+      "sum_21_30": 162705.7,
+      "farm60_25": 15427.8,
+      "farm60_30": 21366.5,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Infinity Orb",
+      "label": "Cap \u2192 Orb",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64984.5,
+      "sum_21_30": 162666.3,
+      "farm60_25": 16405.5,
+      "farm60_30": 21366.5,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Bloodletter \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 66725.2,
+      "sum_21_30": 162196.5,
+      "farm60_25": 15331.2,
+      "farm60_30": 20985.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Bloodletter's Curse",
+      "label": "Cap \u2192 Bloodletter",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 160653.6,
+      "farm60_25": 16092.1,
+      "farm60_30": 20985.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Cosmic Drive",
+      "label": "Cap \u2192 Cosmic",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 160075.1,
+      "farm60_25": 16092.1,
+      "farm60_30": 20168.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Aether Wisp"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Luden's Echo",
+      "label": "Cap \u2192 Luden",
+      "t5": 25,
+      "t6": 27,
+      "sold_at": 25,
+      "sum_21_25": 65670.6,
+      "sum_21_30": 158886.5,
+      "farm60_25": 17091.6,
+      "farm60_30": 19361.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Cosmic Drive",
+      "label": "Bloodletter \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66912.0,
+      "sum_21_30": 157278.7,
+      "farm60_25": 15806.7,
+      "farm60_30": 18640.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Cosmic \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 64643.5,
+      "sum_21_30": 156373.7,
+      "farm60_25": 14728.4,
+      "farm60_30": 20168.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Luden \u2192 Cap",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64918.5,
+      "sum_21_30": 156321.2,
+      "farm60_25": 14511.2,
+      "farm60_30": 19361.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Needlessly Large Rod"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Cosmic Drive",
+      "label": "Orb \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65807.1,
+      "sum_21_30": 155993.4,
+      "farm60_25": 15987.3,
+      "farm60_30": 18860.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Luden's Echo",
+      "label": "Bloodletter \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 67878.7,
+      "sum_21_30": 155436.0,
+      "farm60_25": 15907.9,
+      "farm60_30": 17986.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Infinity Orb",
+      "label": "Cosmic \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64643.5,
+      "sum_21_30": 154766.8,
+      "farm60_25": 14728.4,
+      "farm60_30": 18860.2,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Luden's Echo",
+      "label": "Orb \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65523.1,
+      "sum_21_30": 154630.2,
+      "farm60_25": 15427.8,
+      "farm60_30": 18329.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Bloodletter's Curse",
+      "label": "Cosmic \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65297.5,
+      "sum_21_30": 154196.1,
+      "farm60_25": 15055.4,
+      "farm60_30": 18640.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Infinity Orb",
+      "label": "Bloodletter \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66725.2,
+      "sum_21_30": 153514.8,
+      "farm60_25": 15331.2,
+      "farm60_30": 17846.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Rabadon's Deathcap",
+      "sixth": "Liandry's Torment",
+      "label": "Cap \u2192 Liandry",
+      "t5": 25,
+      "t6": 28,
+      "sold_at": 25,
+      "sum_21_25": 64671.1,
+      "sum_21_30": 153327.8,
+      "farm60_25": 16092.1,
+      "farm60_30": 18705.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Bloodletter's Curse",
+      "label": "Orb \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66448.2,
+      "sum_21_30": 153125.9,
+      "farm60_25": 15890.4,
+      "farm60_30": 17846.7,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Infinity Orb",
+      "sixth": "Liandry's Torment",
+      "label": "Orb \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65339.4,
+      "sum_21_30": 152185.6,
+      "farm60_25": 15336.0,
+      "farm60_30": 18029.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Infinity Orb",
+      "label": "Luden \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64236.9,
+      "sum_21_30": 151667.9,
+      "farm60_25": 14170.5,
+      "farm60_30": 18329.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Bloodletter's Curse",
+      "sixth": "Liandry's Torment",
+      "label": "Bloodletter \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 66147.8,
+      "sum_21_30": 151625.2,
+      "farm60_25": 15042.5,
+      "farm60_30": 17714.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Luden's Echo",
+      "label": "Cosmic \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 65682.9,
+      "sum_21_30": 149557.9,
+      "farm60_25": 15248.0,
+      "farm60_30": 17227.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Bloodletter's Curse",
+      "label": "Luden \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63726.0,
+      "sum_21_30": 149553.5,
+      "farm60_25": 13915.0,
+      "farm60_30": 17986.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Infinity Orb",
+      "label": "Liandry \u2192 Orb",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 62723.3,
+      "sum_21_30": 148645.1,
+      "farm60_25": 13911.4,
+      "farm60_30": 18029.1,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Hextech Alternator"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Infinity Orb"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Rabadon's Deathcap",
+      "label": "Liandry \u2192 Cap",
+      "t5": 24,
+      "t6": 28,
+      "sold_at": 24,
+      "sum_21_25": 62723.3,
+      "sum_21_30": 148202.4,
+      "farm60_25": 13911.4,
+      "farm60_30": 18705.9,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Blasting Wand"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Bloodletter's Curse",
+      "label": "Liandry \u2192 Bloodletter",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63578.9,
+      "sum_21_30": 148099.4,
+      "farm60_25": 14339.2,
+      "farm60_30": 17714.6,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Fiendish Codex"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Bloodletter's Curse"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Cosmic Drive",
+      "label": "Luden \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64452.0,
+      "sum_21_30": 148049.1,
+      "farm60_25": 14641.0,
+      "farm60_30": 17227.3,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Cosmic Drive",
+      "sixth": "Liandry's Torment",
+      "label": "Cosmic \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 64459.8,
+      "sum_21_30": 146570.1,
+      "farm60_25": 14636.5,
+      "farm60_30": 17015.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Fated Ashes"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Cosmic Drive",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Cosmic Drive",
+      "label": "Liandry \u2192 Cosmic",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 62995.5,
+      "sum_21_30": 144349.7,
+      "farm60_25": 14424.1,
+      "farm60_30": 17015.8,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Aether Wisp",
+        "Kindlegem"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Cosmic Drive"
+      ]
+    },
+    {
+      "fifth": "Liandry's Torment",
+      "sixth": "Luden's Echo",
+      "label": "Liandry \u2192 Luden",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63917.8,
+      "sum_21_30": 143285.9,
+      "farm60_25": 14508.8,
+      "farm60_30": 16286.4,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Lost Chapter"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Liandry's Torment",
+        "Luden's Echo"
+      ]
+    },
+    {
+      "fifth": "Luden's Echo",
+      "sixth": "Liandry's Torment",
+      "label": "Luden \u2192 Liandry",
+      "t5": 24,
+      "t6": 27,
+      "sold_at": 24,
+      "sum_21_25": 63726.0,
+      "sum_21_30": 142411.2,
+      "farm60_25": 13915.0,
+      "farm60_30": 16286.4,
+      "items_25": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Haunting Guise"
+      ],
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Luden's Echo",
+        "Liandry's Torment"
+      ]
+    }
+  ],
+  "winner_25": {
+    "fifth": "Rylai's Crystal Scepter",
+    "sixth": "Rabadon's Deathcap",
+    "label": "Rylai \u2192 Cap",
+    "t5": 24,
+    "t6": 27,
+    "sold_at": 24,
+    "sum_21_25": 73422.8,
+    "sum_21_30": 193783.0,
+    "farm60_25": 20145.2,
+    "farm60_30": 25507.7,
+    "items_25": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter",
+      "Needlessly Large Rod",
+      "Blasting Wand"
+    ],
+    "items_30": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter",
+      "Rabadon's Deathcap"
+    ]
+  },
+  "winner_30": {
+    "fifth": "Rylai's Crystal Scepter",
+    "sixth": "Rabadon's Deathcap",
+    "label": "Rylai \u2192 Cap",
+    "t5": 24,
+    "t6": 27,
+    "sold_at": 24,
+    "sum_21_25": 73422.8,
+    "sum_21_30": 193783.0,
+    "farm60_25": 20145.2,
+    "farm60_30": 25507.7,
+    "items_25": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter",
+      "Needlessly Large Rod",
+      "Blasting Wand"
+    ],
+    "items_30": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter",
+      "Rabadon's Deathcap"
+    ]
+  },
+  "winner_fifth": {
+    "fifth": "Rylai's Crystal Scepter",
+    "sixth": null,
+    "label": "Rylai",
+    "t5": 24,
+    "t6": null,
+    "sold_at": null,
+    "sum_21_25": 69331.7,
+    "sum_21_30": 159327.7,
+    "farm60_25": 17573.3,
+    "farm60_30": 18454.3,
+    "items_25": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter"
+    ],
+    "items_30": [
+      "Blackfire Torch",
+      "Spellslinger's Shoes",
+      "Cryptbloom",
+      "Horizon Focus",
+      "Rylai's Crystal Scepter"
+    ]
+  }
+}

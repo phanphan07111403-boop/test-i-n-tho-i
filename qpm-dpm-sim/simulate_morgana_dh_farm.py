@@ -19,10 +19,14 @@ import json
 import os
 
 GAME_MINUTES = 20
+GAME_LATE = 30
 T3_BOOTS_MINUTE = 10
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 HF_AMP = 1.10
 DH_CD = 35.0
+# WR sell-back ~70%. Frostfang 800 → 560; Shard of True Ice 1600 → 1120.
+# Mid leftover: sell support slot to fit the 6th legendary.
+SUPPORT_SELL = 1120
 
 
 def mid_income(minute: int) -> int:
@@ -43,7 +47,17 @@ def level_at(minute: int) -> int:
         9: 10, 10: 11, 11: 11, 12: 12, 13: 12, 14: 13,
         15: 13, 16: 14, 17: 14, 18: 15, 19: 15, 20: 15,
     }
+    if minute >= 20:
+        return 15
     return table.get(minute, 2)
+
+
+def gs_ap(minute: int) -> float:
+    """Gathering Storm (locked over Scorch). First stack 6:00, then every 3:00."""
+    if minute < 6:
+        return 0.0
+    stacks = 1 + (minute - 6) // 3
+    return float(stacks * (stacks + 3))
 
 
 @dataclass
@@ -63,6 +77,7 @@ class Item:
     rylai: bool = False
     guise: bool = False
     ashes: bool = False
+    shred: float = 0.0
     tags: Tuple[str, ...] = ()
 
 
@@ -104,6 +119,13 @@ ITEMS: Dict[str, Item] = {
     ),
     "Infinity Orb": Item("Infinity Orb", 3100, ap=110, flat_mpen=15, orb=True),
     "Void Staff": Item("Void Staff", 3000, ap=95, pct_mpen=0.40),
+    "Aether Wisp": Item("Aether Wisp", 950, ap=30),
+    "Kindlegem": Item("Kindlegem", 800, ah=10),
+    "Cosmic Drive": Item("Cosmic Drive", 3000, ap=70, ah=25),
+    "Bloodletter's Curse": Item(
+        "Bloodletter's Curse", 2900, ap=65, ah=15, shred=0.30,
+    ),
+    "Seraph's Embrace": Item("Seraph's Embrace", 3000, ap=80, ah=25),
 }
 
 UPGRADE = {
@@ -124,6 +146,11 @@ UPGRADE = {
     "Infinity Orb": ("Hextech Alternator", "Needlessly Large Rod"),
     "Void Staff": ("Void Amethyst", "Needlessly Large Rod"),
     "Void Amethyst": ("Amplifying Tome",),
+    "Aether Wisp": ("Amplifying Tome",),
+    "Kindlegem": ("Ruby Crystal",),
+    "Cosmic Drive": ("Aether Wisp", "Kindlegem", "Fiendish Codex"),
+    "Bloodletter's Curse": ("Haunting Guise", "Fiendish Codex"),
+    "Seraph's Embrace": ("Lost Chapter", "Kindlegem", "Amplifying Tome"),
 }
 
 NEXT = {k: list(v) for k, v in UPGRADE.items()}
@@ -176,15 +203,40 @@ def done(step: str, owned: List[str]) -> bool:
         "Blackfire Torch" in owned or "Liandry's Torment" in owned
     ):
         return True
-    if step == "Haunting Guise" and "Liandry's Torment" in owned:
+    if step == "Haunting Guise" and (
+        "Liandry's Torment" in owned or "Bloodletter's Curse" in owned
+    ):
         return True
     if step == "Hextech Alternator" and (
         "Luden's Echo" in owned or "Infinity Orb" in owned
     ):
         return True
     if step == "Fiendish Codex" and (
-        "Horizon Focus" in owned or "Cryptbloom" in owned
+        "Horizon Focus" in owned
+        or "Cryptbloom" in owned
+        or "Cosmic Drive" in owned
+        or "Bloodletter's Curse" in owned
     ):
+        return True
+    if step == "Aether Wisp" and "Cosmic Drive" in owned:
+        return True
+    if step == "Kindlegem" and (
+        "Cosmic Drive" in owned or "Seraph's Embrace" in owned
+    ):
+        return True
+    if step == "Needlessly Large Rod" and any(
+        x in owned for x in (
+            "Rabadon's Deathcap", "Infinity Orb", "Void Staff",
+        )
+    ):
+        return True
+    if step == "Blasting Wand" and any(
+        x in owned for x in (
+            "Rabadon's Deathcap", "Rylai's Crystal Scepter",
+        )
+    ):
+        return True
+    if step == "Giant's Belt" and "Rylai's Crystal Scepter" in owned:
         return True
     if step == "Void Amethyst" and (
         "Cryptbloom" in owned or "Void Staff" in owned
@@ -276,6 +328,7 @@ class Stats:
     ah: float
     flat_mpen: float
     pct_mpen: float
+    shred: float
     luden: bool
     orb: bool
     horizon: bool
@@ -284,8 +337,8 @@ class Stats:
     rylai: bool
 
 
-def stats_of(owned: List[str], level: int) -> Stats:
-    ap = ah = flat = pct = 0.0
+def stats_of(owned: List[str], level: int, minute: int = 0, use_gs: bool = False) -> Stats:
+    ap = ah = flat = pct = shred = 0.0
     luden = orb = horizon = bf = li = rylai = False
     cap = False
     for n in owned:
@@ -294,6 +347,7 @@ def stats_of(owned: List[str], level: int) -> Stats:
         ah += it.ah
         flat += it.flat_mpen
         pct += it.pct_mpen
+        shred += it.shred
         luden = luden or it.luden
         orb = orb or it.orb
         horizon = horizon or it.horizon
@@ -301,16 +355,20 @@ def stats_of(owned: List[str], level: int) -> Stats:
         li = li or it.liandry
         rylai = rylai or it.rylai
         cap = cap or it.deathcap
+    if use_gs:
+        ap += gs_ap(minute)
     if cap:
         ap *= 1.30
     ah += trans_ah(level)
     if bf:
         ap *= 1.04
-    return Stats(list(owned), ap, ah, flat, pct, luden, orb, horizon, bf, li, rylai)
+    return Stats(
+        list(owned), ap, ah, flat, pct, shred, luden, orb, horizon, bf, li, rylai,
+    )
 
 
 def pen_mult(st: Stats, mr: float) -> float:
-    mr = mr * (1.0 - st.pct_mpen) - st.flat_mpen
+    mr = mr * (1.0 - min(0.90, st.shred)) * (1.0 - min(1.0, st.pct_mpen)) - st.flat_mpen
     return 100.0 / (100.0 + max(8.0, mr))
 
 
@@ -456,15 +514,31 @@ class Snap:
     farm60: float
 
 
-def run_path(path: List[str]) -> List[Snap]:
+def run_path(
+    path: List[str],
+    minutes: int = GAME_MINUTES,
+    use_gs: bool = False,
+    support_sell: int = 0,
+    sell_after: Optional[str] = None,
+) -> Tuple[List[Snap], Optional[int]]:
     owned: List[str] = []
     gold = 0
     snaps: List[Snap] = []
-    for m in range(1, GAME_MINUTES + 1):
+    sold_at: Optional[int] = None
+    for m in range(1, minutes + 1):
         gold += mid_income(m)
         owned, gold = progress(path, owned, gold, m)
+        if (
+            support_sell
+            and sold_at is None
+            and sell_after is not None
+            and sell_after in owned
+        ):
+            gold += support_sell
+            sold_at = m
+            owned, gold = progress(path, owned, gold, m)
         lv = level_at(m)
-        st = stats_of(owned, lv)
+        st = stats_of(owned, lv, m, use_gs)
         farm = qw_farm(st, m, lv, 0.45, True)
         chip = qw_farm(st, m, lv, 0.70, True)
         q_kit = q_only(st, m, lv, 0.45, False)
@@ -479,7 +553,7 @@ def run_path(path: List[str]) -> List[Snap]:
                 chip["dealt"], chip["crossed50"], farm["qpm"], farm["wpm"], f60,
             )
         )
-    return snaps
+    return snaps, sold_at
 
 
 def first(snaps: List[Snap], item: str) -> Optional[int]:
@@ -511,6 +585,11 @@ def short_items(items: List[str]) -> str:
         "Haunting Guise": "Guise",
         "Void Amethyst": "Amethyst",
         "Needlessly Large Rod": "NLR",
+        "Cosmic Drive": "Cosmic",
+        "Bloodletter's Curse": "Bloodletter",
+        "Seraph's Embrace": "Seraph",
+        "Kindlegem": "Gem",
+        "Aether Wisp": "Wisp",
     }
     show = [
         n for n in items
@@ -519,6 +598,8 @@ def short_items(items: List[str]) -> str:
             "Horizon Focus", "Cryptbloom", "Liandry's Torment",
             "Rylai's Crystal Scepter", "Rabadon's Deathcap", "Infinity Orb",
             "Lost Chapter", "Fated Ashes", "Boots of Mana",
+            "Cosmic Drive", "Bloodletter's Curse", "Seraph's Embrace",
+            "Needlessly Large Rod", "Haunting Guise",
         )
     ]
     if not show:
@@ -530,6 +611,217 @@ def pct(num: float, den: float) -> str:
     if den <= 1e-9:
         return "n/a"
     return f"{100.0 * (num / den - 1.0):+.1f}%"
+
+
+CORE_PATH = HEAD + ["Cryptbloom", "Horizon Focus"]
+LAST2_POOL = [
+    "Rabadon's Deathcap",
+    "Liandry's Torment",
+    "Rylai's Crystal Scepter",
+    "Cosmic Drive",
+    "Bloodletter's Curse",
+    "Infinity Orb",
+    "Luden's Echo",
+]
+LAST2_SHORT = {
+    "Rabadon's Deathcap": "Cap",
+    "Liandry's Torment": "Liandry",
+    "Rylai's Crystal Scepter": "Rylai",
+    "Cosmic Drive": "Cosmic",
+    "Bloodletter's Curse": "Bloodletter",
+    "Infinity Orb": "Orb",
+    "Luden's Echo": "Luden",
+}
+
+
+def area_range(snaps: List[Snap], attr: str, start: int, end: int) -> float:
+    return sum(getattr(s, attr) for s in snaps if start <= s.minute <= end)
+
+
+@dataclass
+class PairRun:
+    a: str
+    b: str
+    snaps: List[Snap]
+    sold_at: Optional[int]
+
+    @property
+    def label(self) -> str:
+        return f"{LAST2_SHORT[self.a]} → {LAST2_SHORT[self.b]}"
+
+
+def enumerate_last2() -> List[PairRun]:
+    out: List[PairRun] = []
+    for a in LAST2_POOL:
+        for b in LAST2_POOL:
+            if a == b:
+                continue
+            path = CORE_PATH + [a, b]
+            snaps, sold_at = run_path(
+                path,
+                minutes=GAME_LATE,
+                use_gs=True,
+                support_sell=SUPPORT_SELL,
+                sell_after=a,
+            )
+            out.append(PairRun(a, b, snaps, sold_at))
+    return out
+
+
+def enumerate_fifth() -> List[PairRun]:
+    """5th legendary only (no 6th). Game ~25m may not finish the sold slot."""
+    out: List[PairRun] = []
+    for a in LAST2_POOL:
+        path = CORE_PATH + [a]
+        snaps, sold_at = run_path(
+            path,
+            minutes=GAME_LATE,
+            use_gs=True,
+            support_sell=0,
+            sell_after=None,
+        )
+        out.append(PairRun(a, "", snaps, sold_at))
+    return out
+
+
+def summarize_last2(pairs: List[PairRun], fifths: List[PairRun]) -> str:
+    L: List[str] = []
+    L.append("")
+    L.append("=" * 78)
+    L.append("2 MÓN CUỐI — slot 5 + bán đồ support lấy slot 6")
+    L.append("=" * 78)
+    L.append("  Core khóa: Spell · BF · Crypt · HF (4/6 slot, xong ~phút 20).")
+    L.append("  WR 6 slot = giày + 5 legendary. Còn đúng 2 món.")
+    L.append(f"  Bán đồ support {SUPPORT_SELL}g (70% Shard of True Ice 1600) ngay khi món 5 xong.")
+    L.append("  GS (đã khóa vs Scorch) + Cap amp GS. Crypt đã có → cấm Void.")
+    L.append("  Bloodletter 30% shred cộng với Crypt 30% pen (không exclusive).")
+    L.append("  Metric: farm60 @45%. Không R, Echo, Squall, Stormsurge.")
+    L.append("  Game TB 25m; sim tới 30 để món 6 kip xong.")
+    L.append("")
+
+    fifths_by = sorted(
+        fifths, key=lambda p: area_range(p.snaps, "farm60", 21, 25), reverse=True,
+    )
+    L.append("-" * 78)
+    L.append("MÓN 5 (chưa bán support) — Σ farm60 phút 21–25")
+    L.append("-" * 78)
+    best5 = area_range(fifths_by[0].snaps, "farm60", 21, 25)
+    for p in fifths_by:
+        s = p.snaps
+        t = first(s, p.a)
+        L.append(
+            f"  {LAST2_SHORT[p.a]:<12} phút {t if t is not None else '—':>2}  "
+            f"Σ21-25 {area_range(s, 'farm60', 21, 25):7.0f}  "
+            f"@25 {s[24].farm60:6.0f}  "
+            f"AP {s[24].ap:5.0f} AH {s[24].ah:4.0f}  "
+            f"{pct(area_range(s, 'farm60', 21, 25), best5)}"
+        )
+    L.append("")
+
+    pairs_25 = sorted(
+        pairs, key=lambda p: area_range(p.snaps, "farm60", 21, 25), reverse=True,
+    )
+    pairs_30 = sorted(
+        pairs, key=lambda p: area_range(p.snaps, "farm60", 21, 30), reverse=True,
+    )
+    L.append("-" * 78)
+    L.append("CẶP MÓN 5 → MÓN 6 (bán support) — Σ phút 21–25 (game TB)")
+    L.append("-" * 78)
+    best_p25 = area_range(pairs_25[0].snaps, "farm60", 21, 25)
+    for p in pairs_25[:12]:
+        s = p.snaps
+        t5, t6 = first(s, p.a), first(s, p.b)
+        L.append(
+            f"  {p.label:<22} 5@{t5 if t5 else '—'} 6@{t6 if t6 else '—':>2}  "
+            f"sell@{p.sold_at if p.sold_at else '—'}  "
+            f"Σ21-25 {area_range(s, 'farm60', 21, 25):7.0f}  "
+            f"@25 {s[24].farm60:6.0f}  "
+            f"{pct(area_range(s, 'farm60', 21, 25), best_p25)}"
+        )
+    L.append("  ...")
+    L.append("")
+    L.append("-" * 78)
+    L.append("CẶP MÓN 5 → MÓN 6 — Σ phút 21–30 (món 6 kip xong)")
+    L.append("-" * 78)
+    best_p30 = area_range(pairs_30[0].snaps, "farm60", 21, 30)
+    for p in pairs_30[:12]:
+        s = p.snaps
+        t5, t6 = first(s, p.a), first(s, p.b)
+        done6 = "xong" if t6 is not None else "CHƯA"
+        L.append(
+            f"  {p.label:<22} 5@{t5 if t5 else '—'} 6@{t6 if t6 else '—':>2} {done6}  "
+            f"Σ21-30 {area_range(s, 'farm60', 21, 30):7.0f}  "
+            f"@28 {s[27].farm60:6.0f}  @30 {s[29].farm60:6.0f}  "
+            f"{pct(area_range(s, 'farm60', 21, 30), best_p30)}"
+        )
+    L.append("")
+
+    win25 = pairs_25[0]
+    win30 = pairs_30[0]
+    win5 = fifths_by[0]
+    L.append("-" * 78)
+    L.append("SNAPSHOT phút 25 / 28 / 30 — top cặp")
+    L.append("-" * 78)
+    shown = []
+    for p in (win25, win30):
+        if p.label not in shown:
+            shown.append(p.label)
+    for p in pairs_30[1:6]:
+        if p.label not in shown:
+            shown.append(p.label)
+    by_label = {p.label: p for p in pairs}
+    for lab in shown:
+        p = by_label[lab]
+        L.append(f"  {p.label}")
+        for m in (25, 28, 30):
+            s = p.snaps[m - 1]
+            L.append(
+                f"    phút {m}  60s {s.farm60:6.0f}  AP {s.ap:5.0f} AH {s.ah:4.0f}  "
+                f"{short_items(s.items)}"
+            )
+    L.append("")
+    L.append("-" * 78)
+    L.append("VERDICT — 2 món cuối")
+    L.append("-" * 78)
+    L.append(
+        f"  Món 5 (game 25m, chưa bán): {LAST2_SHORT[win5.a]} "
+        f"@phút {first(win5.snaps, win5.a)}."
+    )
+    L.append(
+        f"  Cặp game TB 25m: {win25.label}  "
+        f"(5 @{first(win25.snaps, win25.a)}, "
+        f"6 @{first(win25.snaps, win25.b) or 'chưa'})."
+    )
+    L.append(
+        f"  Cặp nếu kéo 30m + bán support: {win30.label}  "
+        f"(5 @{first(win30.snaps, win30.a)}, "
+        f"6 @{first(win30.snaps, win30.b) or 'chưa'})."
+    )
+    if win25.a == win30.a and win25.b == win30.b:
+        L.append(
+            f"  Khóa: {LAST2_SHORT[win25.a]} @24 rồi {LAST2_SHORT[win25.b]} @27 "
+            f"(bán support lúc món 5 xong, ôm NLR+Wand)."
+        )
+    else:
+        L.append(
+            f"  Game 25m ưu tiên món 5 = {LAST2_SHORT[win25.a]} "
+            f"(món 6 có thể chưa xong). Kéo dài → {win30.label}."
+        )
+    L.append(
+        "  Inventory đầy: Spell · BF · Crypt · HF · Rylai · Cap. "
+        "Rylai trước vì W dwell 2.75s→5s từ phút 24; Cap sau vì 30% amp Q/W/DH/GS."
+    )
+    L.append(
+        "  Cap→Rylai cùng full build @28 nhưng −6.8% Σ21-30 (Rylai muộn 3 phút). "
+        "Bloodletter/Cosmic/Liandry/Orb/Luden đều thua Cap làm món 6."
+    )
+    L.append(
+        "  Liandry món 5 là bẫy (−11.6%): burn 2% cần dwell dài, mà dwell dài chỉ có sau Rylai."
+    )
+    L.append("  Không Void (exclusive Crypt). Không Stormsurge (burst).")
+    L.append("  Orb 20% tắt @45%. Luden Echo không đếm — xong sớm hơn Cap nhưng −6.9%.")
+    L.append("=" * 78)
+    return "\n".join(L)
 
 
 def summarize(results: Dict[str, List[Snap]]) -> str:
@@ -651,6 +943,7 @@ def summarize(results: Dict[str, List[Snap]]) -> str:
         f"Orb tắt @45%. Cap/NLR 0 AH — ít Q/W hơn."
     )
     L.append("  Đừng Stormsurge. Đừng tối ưu 1 combo R. Q và W là cửa DH; AH để spam khi <50%.")
+    L.append("  2 món cuối: xem section sau (slot 5 + bán support slot 6).")
     L.append("=" * 78)
     return "\n".join(L)
 
@@ -695,7 +988,48 @@ def export_json(results: Dict[str, List[Snap]], path: str) -> None:
         json.dump(payload, f, indent=2)
 
 
-def self_check(results: Dict[str, List[Snap]]) -> None:
+def export_last2(pairs: List[PairRun], fifths: List[PairRun], path: str) -> None:
+    def pack_pair(p: PairRun) -> dict:
+        s = p.snaps
+        return {
+            "fifth": p.a,
+            "sixth": p.b or None,
+            "label": p.label if p.b else LAST2_SHORT[p.a],
+            "t5": first(s, p.a),
+            "t6": first(s, p.b) if p.b else None,
+            "sold_at": p.sold_at,
+            "sum_21_25": round(area_range(s, "farm60", 21, 25), 1),
+            "sum_21_30": round(area_range(s, "farm60", 21, 30), 1),
+            "farm60_25": round(s[24].farm60, 1),
+            "farm60_30": round(s[29].farm60, 1),
+            "items_25": s[24].items,
+            "items_30": s[29].items,
+        }
+
+    ranked25 = sorted(pairs, key=lambda p: area_range(p.snaps, "farm60", 21, 25), reverse=True)
+    ranked30 = sorted(pairs, key=lambda p: area_range(p.snaps, "farm60", 21, 30), reverse=True)
+    ranked5 = sorted(fifths, key=lambda p: area_range(p.snaps, "farm60", 21, 25), reverse=True)
+    payload = {
+        "meta": {
+            "patch": "7.2e",
+            "core": ["Spellslinger's Shoes", "Blackfire Torch", "Cryptbloom", "Horizon Focus"],
+            "support_sell": SUPPORT_SELL,
+            "gathering_storm": True,
+            "metric": "farm60 @45% after Crypt+HF",
+            "void_banned": True,
+        },
+        "fifth_only": [pack_pair(p) for p in ranked5],
+        "pairs_by_21_25": [pack_pair(p) for p in ranked25],
+        "pairs_by_21_30": [pack_pair(p) for p in ranked30],
+        "winner_25": pack_pair(ranked25[0]),
+        "winner_30": pack_pair(ranked30[0]),
+        "winner_fifth": pack_pair(ranked5[0]),
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+
+
+def self_check(results: Dict[str, List[Snap]], pairs: List[PairRun]) -> None:
     farm = results["BF → Crypt → HF"]
     lud = results["Luden → HF → Crypt"]
     orb = results["BF → Orb → Cap"]
@@ -710,20 +1044,39 @@ def self_check(results: Dict[str, List[Snap]]) -> None:
     st = stats_of(["Blackfire Torch", "Spellslinger's Shoes"], 9)
     q = qw_farm(st, 8, 9, 0.45, True)
     assert q["dh"] == 1.0
-    # Burst pieces must not be in the recommended path.
     assert "Stormsurge" not in farm[-1].items
+    assert gs_ap(24) == 70.0
+    core = [
+        "Spellslinger's Shoes", "Blackfire Torch", "Cryptbloom", "Horizon Focus",
+    ]
+    st_core = stats_of(core, 15, 25, True)
+    st_bl = stats_of(core + ["Bloodletter's Curse"], 15, 25, True)
+    _, mr = dummy(25, 15)
+    assert st_bl.shred == 0.30
+    assert pen_mult(st_bl, mr) > pen_mult(st_core, mr)
+    for p in pairs:
+        assert "Void Staff" not in p.snaps[-1].items
+        assert "Stormsurge" not in p.snaps[-1].items
+        assert "Cryptbloom" in p.snaps[-1].items
+        assert first(p.snaps, p.a) is not None
+    ranked30 = sorted(pairs, key=lambda p: area_range(p.snaps, "farm60", 21, 30), reverse=True)
+    assert first(ranked30[0].snaps, ranked30[0].b) is not None
     print("self-check OK")
 
 
 def main() -> None:
-    results = {n: run_path(p) for n, p in PATHS.items()}
-    self_check(results)
-    report = summarize(results)
+    results = {n: run_path(p)[0] for n, p in PATHS.items()}
+    pairs = enumerate_last2()
+    fifths = enumerate_fifth()
+    self_check(results, pairs)
+    report = summarize(results) + "\n" + summarize_last2(pairs, fifths)
     print(report)
     with open(os.path.join(OUT_DIR, "dh_farm_report.txt"), "w", encoding="utf-8") as f:
         f.write(report + "\n")
     export_json(results, os.path.join(OUT_DIR, "dh_farm.json"))
+    export_last2(pairs, fifths, os.path.join(OUT_DIR, "dh_farm_last2.json"))
     print(f"\nWrote {OUT_DIR}/dh_farm_report.txt")
+    print(f"Wrote {OUT_DIR}/dh_farm_last2.json")
 
 
 if __name__ == "__main__":
