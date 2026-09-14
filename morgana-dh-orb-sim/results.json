@@ -4,7 +4,20 @@
     "keystone": "Dark Harvest",
     "role": "Mid (Viktor gold curve)",
     "patch": "7.2e",
-    "pair": "BF+Liandry+Rylai vs BF+Orb+Cap vs Luden+Orb+Cap"
+    "pair": "BF+Orb+Cap vs BF+Orb+Void on 5 squishy and 4 squishy + 1 tank",
+    "metric": "Teamfight: Q carry + W/R splash, 70% HP, R on, BF 5 stacks. Orb +20% only if target already <35% before the hit."
+  },
+  "verdict": {
+    "void_vs_cap_1_squishy_20": "-1.6%",
+    "void_vs_cap_1_tank_20": "+17.5%",
+    "void_vs_cap_team_5sq_20": "-0.3%",
+    "void_vs_cap_team_4sq_1tank_20": "+1.2%",
+    "void_vs_cap_1_squishy_area": "-1.5%",
+    "void_vs_cap_1_tank_area": "+1.0%",
+    "void_vs_cap_team_5sq_area": "-1.0%",
+    "void_vs_cap_team_4sq_1tank_area": "-0.8%",
+    "bf_orb_vs_rylai_70": "+5.9%",
+    "fit": "5 squishy: Cap. 4+1 full item: Void by a thin splash-tank margin; 20p area still Cap (same T4 minute). 1 tank is not enough to force Void. Void when 2+ tanks / stacked MR / Q the tank."
   },
   "builds": {
     "DH \u00b7 BF \u2192 Liandry \u2192 Rylai": [
@@ -20,6 +33,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 154.6,
+        "tank70": 150.2,
+        "team5": 395.3,
+        "team41": 393.8,
         "notes": "\u2014"
       },
       {
@@ -33,6 +50,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 169.4,
+        "tank70": 163.6,
+        "team5": 429.4,
+        "team41": 427.3,
         "notes": "\u2014"
       },
       {
@@ -47,7 +68,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 246.7,
+        "tank70": 209.3,
+        "team5": 624.1,
+        "team41": 620.6,
+        "notes": "\u2014"
       },
       {
         "minute": 4,
@@ -62,6 +87,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 217.2,
+        "tank70": 207.9,
+        "team5": 590.9,
+        "team41": 587.0,
         "notes": "\u2014"
       },
       {
@@ -76,7 +105,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 299.3,
+        "tank70": 246.4,
+        "team5": 780.7,
+        "team41": 775.0,
+        "notes": "\u2014"
       },
       {
         "minute": 6,
@@ -91,7 +124,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 481.6,
+        "tank70": 456.8,
+        "team5": 1791.8,
+        "team41": 1730.5,
+        "notes": "\u2014"
       },
       {
         "minute": 7,
@@ -106,7 +143,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 590.3,
+        "tank70": 555.9,
+        "team5": 2011.1,
+        "team41": 1941.2,
+        "notes": "\u2014"
       },
       {
         "minute": 8,
@@ -120,7 +161,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 715.7,
+        "tank70": 670.4,
+        "team5": 2561.7,
+        "team41": 2533.7,
+        "notes": "BF"
       },
       {
         "minute": 9,
@@ -135,7 +180,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 828.4,
+        "tank70": 731.1,
+        "team5": 2849.5,
+        "team41": 2735.2,
+        "notes": "BF"
       },
       {
         "minute": 10,
@@ -150,7 +199,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 1012.5,
+        "tank70": 844.5,
+        "team5": 3306.3,
+        "team41": 3151.8,
+        "notes": "BF"
       },
       {
         "minute": 11,
@@ -165,7 +218,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 1018.0,
+        "tank70": 809.6,
+        "team5": 3335.5,
+        "team41": 3155.6,
+        "notes": "BF"
       },
       {
         "minute": 12,
@@ -181,7 +238,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 989.8,
+        "tank70": 837.2,
+        "team5": 3244.9,
+        "team41": 3094.4,
+        "notes": "BF"
       },
       {
         "minute": 13,
@@ -196,7 +257,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1062.8,
+        "tank70": 878.2,
+        "team5": 3611.7,
+        "team41": 3442.4,
+        "notes": "BF"
       },
       {
         "minute": 14,
@@ -211,7 +276,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1114.5,
+        "tank70": 885.0,
+        "team5": 3882.8,
+        "team41": 3679.9,
+        "notes": "BF"
       },
       {
         "minute": 15,
@@ -226,7 +295,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1273.3,
+        "tank70": 966.4,
+        "team5": 4436.2,
+        "team41": 4179.1,
+        "notes": "BF"
       },
       {
         "minute": 16,
@@ -242,7 +315,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1272.8,
+        "tank70": 932.8,
+        "team5": 4450.0,
+        "team41": 4169.7,
+        "notes": "BF"
       },
       {
         "minute": 17,
@@ -259,7 +336,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1322.6,
+        "tank70": 934.8,
+        "team5": 4620.4,
+        "team41": 4309.3,
+        "notes": "BF"
       },
       {
         "minute": 18,
@@ -277,7 +358,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, DH@70"
+        "sq70": 1419.4,
+        "tank70": 968.0,
+        "team5": 4942.4,
+        "team41": 4591.9,
+        "notes": "BF"
       },
       {
         "minute": 19,
@@ -293,7 +378,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, Rylai, DH@70"
+        "sq70": 2011.4,
+        "tank70": 1326.1,
+        "team5": 7683.0,
+        "team41": 7229.7,
+        "notes": "BF"
       },
       {
         "minute": 20,
@@ -309,7 +398,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 0.0,
-        "notes": "BF, Liandry, Rylai, DH@70"
+        "sq70": 2017.6,
+        "tank70": 1322.0,
+        "team5": 7717.3,
+        "team41": 7256.4,
+        "notes": "BF"
       }
     ],
     "DH \u00b7 BF \u2192 Orb \u2192 Cap": [
@@ -325,6 +418,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 154.6,
+        "tank70": 150.2,
+        "team5": 395.3,
+        "team41": 393.8,
         "notes": "\u2014"
       },
       {
@@ -338,6 +435,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 169.4,
+        "tank70": 163.6,
+        "team5": 429.4,
+        "team41": 427.3,
         "notes": "\u2014"
       },
       {
@@ -352,7 +453,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 246.7,
+        "tank70": 209.3,
+        "team5": 624.1,
+        "team41": 620.6,
+        "notes": "\u2014"
       },
       {
         "minute": 4,
@@ -367,6 +472,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 217.2,
+        "tank70": 207.9,
+        "team5": 590.9,
+        "team41": 587.0,
         "notes": "\u2014"
       },
       {
@@ -381,7 +490,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 299.3,
+        "tank70": 246.4,
+        "team5": 780.7,
+        "team41": 775.0,
+        "notes": "\u2014"
       },
       {
         "minute": 6,
@@ -396,7 +509,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 481.6,
+        "tank70": 456.8,
+        "team5": 1791.8,
+        "team41": 1730.5,
+        "notes": "\u2014"
       },
       {
         "minute": 7,
@@ -411,7 +528,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 590.3,
+        "tank70": 555.9,
+        "team5": 2011.1,
+        "team41": 1941.2,
+        "notes": "\u2014"
       },
       {
         "minute": 8,
@@ -425,7 +546,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 715.7,
+        "tank70": 670.4,
+        "team5": 2561.7,
+        "team41": 2533.7,
+        "notes": "BF"
       },
       {
         "minute": 9,
@@ -439,7 +564,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 828.4,
+        "tank70": 731.1,
+        "team5": 2849.5,
+        "team41": 2735.2,
+        "notes": "BF"
       },
       {
         "minute": 10,
@@ -454,7 +583,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 1029.8,
+        "tank70": 858.5,
+        "team5": 3355.8,
+        "team41": 3202.3,
+        "notes": "BF"
       },
       {
         "minute": 11,
@@ -469,7 +602,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 1034.9,
+        "tank70": 822.6,
+        "team5": 3383.3,
+        "team41": 3204.3,
+        "notes": "BF"
       },
       {
         "minute": 12,
@@ -485,7 +622,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "BF, DH@70"
+        "sq70": 1009.3,
+        "tank70": 853.2,
+        "team5": 3301.3,
+        "team41": 3151.9,
+        "notes": "BF"
       },
       {
         "minute": 13,
@@ -500,7 +641,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 2.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1206.3,
+        "tank70": 890.4,
+        "team5": 3765.9,
+        "team41": 3566.5,
+        "notes": "Orb, BF"
       },
       {
         "minute": 14,
@@ -515,7 +660,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 1.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1251.8,
+        "tank70": 888.4,
+        "team5": 4022.9,
+        "team41": 3787.4,
+        "notes": "Orb, BF"
       },
       {
         "minute": 15,
@@ -530,7 +679,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 3.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1492.6,
+        "tank70": 973.2,
+        "team5": 4696.7,
+        "team41": 4395.8,
+        "notes": "Orb, BF"
       },
       {
         "minute": 16,
@@ -546,7 +699,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 3.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1600.9,
+        "tank70": 999.8,
+        "team5": 5025.7,
+        "team41": 4682.3,
+        "notes": "Orb, BF"
       },
       {
         "minute": 17,
@@ -562,7 +719,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 3.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1607.0,
+        "tank70": 965.3,
+        "team5": 5056.1,
+        "team41": 4686.8,
+        "notes": "Orb, BF"
       },
       {
         "minute": 18,
@@ -579,7 +740,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 4.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1765.4,
+        "tank70": 1018.6,
+        "team5": 5530.3,
+        "team41": 5109.3,
+        "notes": "Orb, BF"
       },
       {
         "minute": 19,
@@ -596,7 +761,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 4.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 1771.5,
+        "tank70": 986.3,
+        "team5": 5560.4,
+        "team41": 5114.8,
+        "notes": "Orb, BF"
       },
       {
         "minute": 20,
@@ -612,7 +781,392 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Orb, BF, DH@70, OrbHits@70"
+        "sq70": 2137.1,
+        "tank70": 1154.5,
+        "team5": 6706.5,
+        "team41": 6155.5,
+        "notes": "Orb, BF, Cap"
+      }
+    ],
+    "DH \u00b7 BF \u2192 Orb \u2192 Void": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "d70": 154.6,
+        "d40": 201.3,
+        "d90": 141.0,
+        "dh70": 0.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 154.6,
+        "tank70": 150.2,
+        "team5": 395.3,
+        "team41": 393.8,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "d70": 169.4,
+        "d40": 219.5,
+        "d90": 154.7,
+        "dh70": 0.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 169.4,
+        "tank70": 163.6,
+        "team5": 429.4,
+        "team41": 427.3,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "d70": 246.7,
+        "d40": 277.9,
+        "d90": 196.6,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 246.7,
+        "tank70": 209.3,
+        "team5": 624.1,
+        "team41": 620.6,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "d70": 217.2,
+        "d40": 283.5,
+        "d90": 196.1,
+        "dh70": 0.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 217.2,
+        "tank70": 207.9,
+        "team5": 590.9,
+        "team41": 587.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "d70": 299.3,
+        "d40": 340.2,
+        "d90": 231.6,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 299.3,
+        "tank70": 246.4,
+        "team5": 780.7,
+        "team41": 775.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "d70": 481.6,
+        "d40": 524.0,
+        "d90": 251.4,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 481.6,
+        "tank70": 456.8,
+        "team5": 1791.8,
+        "team41": 1730.5,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "d70": 590.3,
+        "d40": 628.2,
+        "d90": 343.8,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 590.3,
+        "tank70": 555.9,
+        "team5": 2011.1,
+        "team41": 1941.2,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "d70": 687.5,
+        "d40": 726.8,
+        "d90": 376.5,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 715.7,
+        "tank70": 670.4,
+        "team5": 2561.7,
+        "team41": 2533.7,
+        "notes": "BF"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "d70": 798.6,
+        "d40": 842.6,
+        "d90": 477.3,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 828.4,
+        "tank70": 731.1,
+        "team5": 2849.5,
+        "team41": 2735.2,
+        "notes": "BF"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod"
+        ],
+        "d70": 981.2,
+        "d40": 1022.1,
+        "d90": 614.6,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 1029.8,
+        "tank70": 858.5,
+        "team5": 3355.8,
+        "team41": 3202.3,
+        "notes": "BF"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod"
+        ],
+        "d70": 986.4,
+        "d40": 1027.7,
+        "d90": 614.2,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 1034.9,
+        "tank70": 822.6,
+        "team5": 3383.3,
+        "team41": 3204.3,
+        "notes": "BF"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Needlessly Large Rod",
+          "Hextech Alternator"
+        ],
+        "d70": 955.1,
+        "d40": 998.8,
+        "d90": 593.2,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 0.0,
+        "sq70": 1009.3,
+        "tank70": 853.2,
+        "team5": 3301.3,
+        "team41": 3151.9,
+        "notes": "BF"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb"
+        ],
+        "d70": 1129.1,
+        "d40": 1247.1,
+        "d90": 656.6,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 2.0,
+        "sq70": 1206.3,
+        "tank70": 890.4,
+        "team5": 3765.9,
+        "team41": 3566.5,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb"
+        ],
+        "d70": 1176.5,
+        "d40": 1308.9,
+        "d90": 650.7,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 1.0,
+        "sq70": 1251.8,
+        "tank70": 888.4,
+        "team5": 4022.9,
+        "team41": 3787.4,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes"
+        ],
+        "d70": 1383.4,
+        "d40": 1503.1,
+        "d90": 748.8,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 3.0,
+        "sq70": 1492.6,
+        "tank70": 973.2,
+        "team5": 4696.7,
+        "team41": 4395.8,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes"
+        ],
+        "d70": 1362.9,
+        "d40": 1499.3,
+        "d90": 741.6,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 2.0,
+        "sq70": 1453.3,
+        "tank70": 930.2,
+        "team5": 4652.7,
+        "team41": 4327.9,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Void Amethyst"
+        ],
+        "d70": 1521.1,
+        "d40": 1634.0,
+        "d90": 809.5,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 3.0,
+        "sq70": 1628.1,
+        "tank70": 997.0,
+        "team5": 5132.2,
+        "team41": 4764.8,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Void Amethyst"
+        ],
+        "d70": 1496.4,
+        "d40": 1630.4,
+        "d90": 802.0,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 3.0,
+        "sq70": 1602.9,
+        "tank70": 958.9,
+        "team5": 5102.8,
+        "team41": 4713.9,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Void Amethyst",
+          "Needlessly Large Rod"
+        ],
+        "d70": 1688.2,
+        "d40": 1792.4,
+        "d90": 890.5,
+        "dh70": 1.0,
+        "dh90": 0.0,
+        "orb70": 4.0,
+        "sq70": 1803.4,
+        "tank70": 1026.0,
+        "team5": 5669.1,
+        "team41": 5224.1,
+        "notes": "Orb, BF"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Void Staff"
+        ],
+        "d70": 1965.5,
+        "d40": 2050.2,
+        "d90": 1192.3,
+        "dh70": 1.0,
+        "dh90": 1.0,
+        "orb70": 5.0,
+        "sq70": 2103.5,
+        "tank70": 1356.2,
+        "team5": 6685.7,
+        "team41": 6230.1,
+        "notes": "Orb, BF, Void 40%"
       }
     ],
     "DH \u00b7 Luden \u2192 Orb \u2192 Cap": [
@@ -628,6 +1182,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 154.6,
+        "tank70": 150.2,
+        "team5": 395.3,
+        "team41": 393.8,
         "notes": "\u2014"
       },
       {
@@ -641,6 +1199,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 169.4,
+        "tank70": 163.6,
+        "team5": 429.4,
+        "team41": 427.3,
         "notes": "\u2014"
       },
       {
@@ -655,7 +1217,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 246.7,
+        "tank70": 209.3,
+        "team5": 624.1,
+        "team41": 620.6,
+        "notes": "\u2014"
       },
       {
         "minute": 4,
@@ -670,6 +1236,10 @@
         "dh70": 0.0,
         "dh90": 0.0,
         "orb70": 0.0,
+        "sq70": 217.2,
+        "tank70": 207.9,
+        "team5": 590.9,
+        "team41": 587.0,
         "notes": "\u2014"
       },
       {
@@ -684,7 +1254,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 299.3,
+        "tank70": 246.4,
+        "team5": 780.7,
+        "team41": 775.0,
+        "notes": "\u2014"
       },
       {
         "minute": 6,
@@ -699,7 +1273,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 481.6,
+        "tank70": 456.8,
+        "team5": 1791.8,
+        "team41": 1730.5,
+        "notes": "\u2014"
       },
       {
         "minute": 7,
@@ -714,7 +1292,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "DH@70"
+        "sq70": 591.1,
+        "tank70": 556.6,
+        "team5": 1787.5,
+        "team41": 1770.6,
+        "notes": "\u2014"
       },
       {
         "minute": 8,
@@ -728,7 +1310,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "Echo, DH@70"
+        "sq70": 809.3,
+        "tank70": 756.5,
+        "team5": 2518.7,
+        "team41": 2437.3,
+        "notes": "\u2014"
       },
       {
         "minute": 9,
@@ -742,7 +1328,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "Echo, DH@70"
+        "sq70": 921.7,
+        "tank70": 804.7,
+        "team5": 2774.0,
+        "team41": 2664.6,
+        "notes": "\u2014"
       },
       {
         "minute": 10,
@@ -757,7 +1347,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "Echo, DH@70"
+        "sq70": 1106.8,
+        "tank70": 912.9,
+        "team5": 3206.0,
+        "team41": 3062.0,
+        "notes": "\u2014"
       },
       {
         "minute": 11,
@@ -772,7 +1366,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "Echo, DH@70"
+        "sq70": 1112.3,
+        "tank70": 873.9,
+        "team5": 3233.9,
+        "team41": 3066.6,
+        "notes": "\u2014"
       },
       {
         "minute": 12,
@@ -788,7 +1386,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 0.0,
-        "notes": "Echo, DH@70"
+        "sq70": 1066.3,
+        "tank70": 892.5,
+        "team5": 3120.1,
+        "team41": 2980.2,
+        "notes": "\u2014"
       },
       {
         "minute": 13,
@@ -803,7 +1405,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 4.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1278.3,
+        "tank70": 931.3,
+        "team5": 3574.1,
+        "team41": 3388.6,
+        "notes": "Orb"
       },
       {
         "minute": 14,
@@ -818,7 +1424,11 @@
         "dh70": 1.0,
         "dh90": 0.0,
         "orb70": 4.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1334.6,
+        "tank70": 926.5,
+        "team5": 3844.3,
+        "team41": 3624.8,
+        "notes": "Orb"
       },
       {
         "minute": 15,
@@ -833,7 +1443,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1553.7,
+        "tank70": 1011.0,
+        "team5": 4450.0,
+        "team41": 4171.1,
+        "notes": "Orb"
       },
       {
         "minute": 16,
@@ -849,7 +1463,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1647.3,
+        "tank70": 1026.6,
+        "team5": 4722.4,
+        "team41": 4406.6,
+        "notes": "Orb"
       },
       {
         "minute": 17,
@@ -865,7 +1483,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1653.3,
+        "tank70": 990.7,
+        "team5": 4752.6,
+        "team41": 4413.2,
+        "notes": "Orb"
       },
       {
         "minute": 18,
@@ -882,7 +1504,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1791.1,
+        "tank70": 1031.1,
+        "team5": 5145.5,
+        "team41": 4762.3,
+        "notes": "Orb"
       },
       {
         "minute": 19,
@@ -899,7 +1525,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 5.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 1797.0,
+        "tank70": 998.1,
+        "team5": 5175.5,
+        "team41": 4770.0,
+        "notes": "Orb"
       },
       {
         "minute": 20,
@@ -915,7 +1545,11 @@
         "dh70": 1.0,
         "dh90": 1.0,
         "orb70": 6.0,
-        "notes": "Echo, Orb, DH@70, OrbHits@70"
+        "sq70": 2134.5,
+        "tank70": 1151.5,
+        "team5": 6070.6,
+        "team41": 5600.7,
+        "notes": "Orb, Cap"
       }
     ]
   }
