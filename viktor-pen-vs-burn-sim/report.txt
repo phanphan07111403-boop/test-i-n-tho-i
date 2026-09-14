@@ -1,0 +1,99 @@
+==============================================================================
+VIKTOR MID — LUDEN+ORB vs BF+LIANDRY vs BF+ORB+CAP (WR 7.2e)
+Role: mid · E-max poke then R 5.5s · 5 ô (giày + 4)
+Cặp: Luden→Orb→Cap  vs  BF→Liandry→Void  vs  BF→Orb→Cap
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. T3 mage mất 7% pen. Không PC Shadowflame.
+  Role   : mid. E waveclear + Big Bully. Không copy jungle/support.
+  Cặp    : Luden+Orb vs BF+Liandry vs BF+Orb+Cap. Cùng Spellslinger.
+  Metric : E poke full HP, và all-in 5.5s (E+Q+AA+R) lên squishy vs tank.
+
+  Diamond+ (2026-09-06): Luden→Orb→Cap 54.66% WR / 25% pick;
+  BF→Liandry→Void 51.91% WR / 7.6% pick. WR không phải metric cặp này.
+  Mercury 39% pick so với Ionia — A vs C, không dùng cho cặp này.
+
+PATH A — Luden → Orb → Cap
+------------------------------------------------------------------------------
+  Spellslinger · Luden's Echo · Infinity Orb · Deathcap
+  Luden ~8:00  Orb ~13:00  Spell ~15:00  Cap ~20:00
+  Luden = Echo 140+15% AP / 9s (7.2b), 0% pen (T3 stripped).
+
+PATH B — BF → Liandry → Void
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Liandry · Void Staff
+  BF ~8:00  Liandry ~13:00  Spell ~15:00  Void ~19:00
+  BF 20+2% AP/s + 20 AH. Liandry 2% max HP/s. Void 40%.
+
+PATH C — BF → Orb → Cap  (hybrid, câu hỏi follow-up)
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Infinity Orb · Deathcap
+  BF ~8:00  Orb ~13:00  Spell ~15:00  Cap ~20:00
+  Có burn + 20 AH + Orb execute + Cap. Không Echo, không Liandry, không Void.
+
+------------------------------------------------------------------------------
+E POKE (full HP)
+------------------------------------------------------------------------------
+   6:00 | Pen   325  BF-Orb   325  Burn   325  | tank Pen   309  BF-Orb   309  Burn   309
+         BF-Orb: Boots of Mana › Lost Chapter
+   8:00 | Pen   467  BF-Orb   388  Burn   388  | tank Pen   438  BF-Orb   364  Burn   364
+         BF-Orb: Boots of Mana › Blackfire Torch
+  10:00 | Pen   508  BF-Orb   428  Burn   411  | tank Pen   426  BF-Orb   360  Burn   345
+         BF-Orb: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+  12:00 | Pen   482  BF-Orb   410  Burn   391  | tank Pen   410  BF-Orb   349  Burn   333
+         BF-Orb: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+  14:00 | Pen   529  BF-Orb   449  Burn   471  | tank Pen   404  BF-Orb   343  Burn   388
+         BF-Orb: Boots of Mana › Blackfire Torch › Infinity Orb
+  16:00 | Pen   636  BF-Orb   546  Burn   574  | tank Pen   443  BF-Orb   380  Burn   447
+         BF-Orb: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Blasting Wand
+  18:00 | Pen   684  BF-Orb   591  Burn   576  | tank Pen   440  BF-Orb   381  Burn   422
+         BF-Orb: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Blasting Wand › Needlessly Large Rod
+  20:00 | Pen   793  BF-Orb   691  Burn   742  | tank Pen   488  BF-Orb   425  Burn   574
+         BF-Orb: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Rabadon's Deathcap
+
+  Poke squishy 20p: Pen 8834  BF-Orb 7736 (-12.4% vs Pen)  Burn 7982 (-9.6% vs Pen)
+  E/phút @20: Pen 10.5  BF-Orb 11.3  Burn 11.3
+
+------------------------------------------------------------------------------
+ALL-IN 5.5s (E + Q + empowered AA + R storm + burns)
+------------------------------------------------------------------------------
+   8:00 | Pen sq  1420  BF-Orb  1342  Burn  1342
+         tank | Pen  1334  BF-Orb  1260  Burn  1260
+  10:00 | Pen sq  1665  BF-Orb  1594  Burn  1564
+         tank | Pen  1398  BF-Orb  1339  Burn  1314
+  12:00 | Pen sq  1614  BF-Orb  1555  Burn  1520
+         tank | Pen  1375  BF-Orb  1325  Burn  1295
+  14:00 | Pen sq  2105  BF-Orb  2028  Burn  1868
+         tank | Pen  1514  BF-Orb  1465  Burn  1498
+  16:00 | Pen sq  2610  BF-Orb  2533  Burn  2293
+         tank | Pen  1682  BF-Orb  1637  Burn  1730
+  18:00 | Pen sq  2847  BF-Orb  2778  Burn  2290
+         tank | Pen  1692  BF-Orb  1656  Burn  1620
+  20:00 | Pen sq  3412  BF-Orb  3335  Burn  3006
+         tank | Pen  1910  BF-Orb  1870  Burn  2241
+
+  All-in squishy 20p: Pen 32556  BF-Orb 31595 (-3.0%)  Burn 29891 (-8.2%)
+  All-in tank 20p:    Pen 23643  BF-Orb 22987 (-2.8%)  Burn 24174 (+2.2%)
+  Pen+Void tank: 23909  Burn+Cap tank: 23269
+
+  Spike
+    Pen Cap: Boots~2:00, Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+    Burn Void: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Void~19:00
+    BF-Orb Cap: Boots~2:00, Infinity~13:00, Blackfire~8:00, Spellslinger's~15:00, Rabadon's~20:00
+    Pen Void: Boots~2:00, Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Void~20:00
+    Burn Cap: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rabadon's~20:00
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Poke squishy vs Pen: BF-Orb -12.4%  Burn -9.6%
+  All-in squishy vs Pen: BF-Orb -3.0%  Burn -8.2%
+  All-in tank vs Pen: BF-Orb -2.8%  Burn +2.2%
+  BF→Orb→Cap = burn + execute, mất Echo và mất Liandry/%HP.
+  Không phải 'best of both': poke/squishy thua Luden; tank thua BF+Liandry+Void.
+  Default squishy/poke → Luden Orb Cap. 2+ tank → BF Liandry Void.
+  BF Orb Cap chỉ khi muốn AH/burn first-item mà vẫn execute, chấp nhận thua hai đầu.
+  Đừng thay Spellslinger: core 7.2 = 0 pen nếu không giày/% Void.
+==============================================================================
