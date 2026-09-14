@@ -1,0 +1,106 @@
+==============================================================================
+MORGANA DH — BF→ORB→CAP vs BF→ORB→VOID (WR 7.2e)
+Mid gold, DH, Spellslinger 18+8%. Teamfight BF 5 stack. 5 slot.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Không PC. T3 mage = 0 pen.
+  Role   : mid + DH (execute). Không copy support Ionia WR.
+  Cặp    : BF→Orb→Cap  vs  BF→Orb→Void
+           đội 5 squishy  vs  4 squishy + 1 tank
+  Metric : TF phút 20 / diện tích 20p. Q carry + W/R splash.
+           70% HP, R on, BF 5 stack. Orb chỉ amp hit khi đã <35%.
+
+PATH A — DH lock (mặc định kit W)
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Liandry · Rylai
+  BF ~8:00  Liandry ~13:00  Rylai ~19:00
+
+PATH B — BF → Orb → Cap
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Infinity Orb · Deathcap
+  BF ~8:00  Orb ~13:00  Cap ~20:00
+  Orb +20% khi <35%. DH nổ khi <50% — thường là Q, TRƯỚC cửa Orb.
+
+PATH D — BF → Orb → Void  (câu hỏi magic pen)
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Infinity Orb · Void Staff
+  BF ~8:00  Orb ~13:00  Void ~20:00
+  Spell 18+8% + Orb 15 flat đã gần cap MR squishy. Void 40% trên 1 tank.
+
+PATH C — Luden → Orb → Cap (context burst)
+------------------------------------------------------------------------------
+  Luden ~8:00  Orb ~13:00  Cap ~20:00
+
+------------------------------------------------------------------------------
+1 TARGET — squishy Q+W+R  (BF 5 stack, 70% HP)
+------------------------------------------------------------------------------
+  12:00 | Cap  1009  Void  1009  Void vs Cap +0.0%
+  16:00 | Cap  1601  Void  1453  Void vs Cap -9.2%
+  20:00 | Cap  2137  Void  2104  Void vs Cap -1.6%
+  Diện tích 20p: Cap 19610  Void 19319 (-1.5%)
+
+------------------------------------------------------------------------------
+1 TARGET — tank Q+W+R  (BF 5 stack, 70% HP)
+------------------------------------------------------------------------------
+  12:00 | Cap   853  Void   853  Void vs Cap +0.0%
+  16:00 | Cap  1000  Void   930  Void vs Cap -7.0%
+  20:00 | Cap  1154  Void  1356  Void vs Cap +17.5%
+  Diện tích 20p: Cap 13802  Void 13946 (+1.0%)
+
+------------------------------------------------------------------------------
+TEAMFIGHT — Q carry + W/R splash, 70% HP, R on, BF 5
+------------------------------------------------------------------------------
+  5 squishy = 1 full Q combo + 4 splash.
+  4 squishy + 1 tank = 1 full Q + 3 splash sq + 1 splash tank.
+  12:00 | 5sq  Cap   3301  Void   3301  +0.0%
+         | 4+1  Cap   3152  Void   3152  +0.0%
+           Cap: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+           Void: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+  16:00 | 5sq  Cap   5026  Void   4653  -7.4%
+         | 4+1  Cap   4682  Void   4328  -7.6%
+           Cap: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Blasting Wand
+           Void: Blackfire Torch › Infinity Orb › Spellslinger's Shoes
+  20:00 | 5sq  Cap   6706  Void   6686  -0.3%
+         | 4+1  Cap   6156  Void   6230  +1.2%
+           Cap: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Rabadon's Deathcap
+           Void: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Void Staff
+
+  Diện tích 5 squishy 20p: Cap 62439  Void 61803 (-1.0%)
+  Diện tích 4sq+1tank 20p: Cap 58801  Void 58313 (-0.8%)
+
+  Spike
+    BF-Orb Cap: Blackfire~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+    BF-Orb Void: Blackfire~8:00, Infinity~13:00, Spellslinger's~15:00, Void~20:00
+    Rylai: Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rylai's~19:00
+    Luden-Orb: Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+
+------------------------------------------------------------------------------
+VERDICT — Cap hay Void?
+------------------------------------------------------------------------------
+  Full item 20:00 (cả hai xong T4 cùng phút):
+    1 squishy:        Void vs Cap -1.6%
+    1 tank:           Void vs Cap +17.5%
+    đội 5 squishy:    Void vs Cap -0.3%
+    đội 4 sq + 1 tank: Void vs Cap +1.2%
+  Diện tích 20p (Wand Cap ngồi phút 16; Amethyst Void phút 17; T4 cùng 20):
+    1 squishy:        Void vs Cap -1.5%
+    1 tank:           Void vs Cap +1.0%
+    đội 5 squishy:    Void vs Cap -1.0%
+    đội 4 sq + 1 tank: Void vs Cap -0.8%
+  Spell 18+8% + Orb 15 flat đã gần cap effective MR squishy.
+  Cap 30% amp trên đống AP BF5×Orb. Void 40% pen trả tiền trên tank.
+  5 squishy: Cap. 4+1: gần hòa — Void +mỏng lúc full item nếu splash tank.
+  1 tank không đủ bắt Void. Void khi 2+ tank / stacked MR / Q vào tank.
+  Cryptbloom = Void nhẹ (30%+AH), không thay Cap 5sq.
+
+------------------------------------------------------------------------------
+CONTEXT — DH vs Rylai (báo cáo trước, 1 stack BF, 1 squishy)
+------------------------------------------------------------------------------
+  70%+R: BF-Orb-Cap vs Rylai +5.9%
+  40%+R: BF-Orb-Cap vs Rylai +7.7%
+  90% noR: BF-Orb-Cap vs Rylai -1.0%
+  DH@90% phút 12–20: Rylai 2.0  BF-Orb 1.0
+  Giữ Liandry+Rylai nếu W-zone người còn máu, không phải Q-execute.
+==============================================================================
