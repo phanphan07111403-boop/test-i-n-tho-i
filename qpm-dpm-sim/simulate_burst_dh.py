@@ -43,8 +43,8 @@ BURST_S = 2.5
 POKE_SET = [DAMAGE_BOOT, *DAMAGE_FOUR]
 
 
-def stats_of(names: List[str]) -> Stats:
-    """Deathcap amps total AP, including items listed after Cap."""
+def stats_of(names: List[str], extra_ap: float = 0.0) -> Stats:
+    """Deathcap amps total AP, including items listed after Cap and rune AP."""
     ap = ah = flat = pct = 0.0
     luden = orb = horizon = bf = li = False
     cap = False
@@ -60,6 +60,7 @@ def stats_of(names: List[str]) -> Stats:
         bf = bf or it.blackfire
         li = li or it.liandry
         cap = cap or it.deathcap
+    ap += extra_ap
     if cap:
         ap *= 1.30
     ah += trans_ah()

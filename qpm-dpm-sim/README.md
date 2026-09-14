@@ -14,6 +14,7 @@ Crimson Lucidity: 0 AP, 0 pen, **25 AH**, 8% MS.
 python3 simulate_qpm_dpm.py
 python3 simulate_dh_comet.py
 python3 simulate_burst_dh.py
+python3 simulate_scorch_gs.py
 ```
 
 ## 4 ô
@@ -105,5 +106,20 @@ Reset 1s = spam DH, không spam Q. AH không giảm DH CD → đừng lấy HF/C
 Storm vs Void: Storm thắng combo nhờ Squall (125+10% AP nếu ≥25% HP / 2.5s). Void thắng 4×DH dump nhờ 40% pen (~+5%), không lật tổng vì combo Storm lớn hơn. Một tank → Void gần burst (−1.6%), không đủ để bỏ Storm khi metric là burst squishy.
 
 Đừng mua set poke DPM cho DH all-in. Cap + Orb + Squall mới amp DH và one-shot.
+
+## Scorch vs Gathering Storm (game TB 25m)
+
+Cùng Sorcery slot 3 (7.1). Scorch 21–49, CD **8s** (AH không giảm). GS stack 6:00 rồi mỗi 3 phút, AP = x(x+3) → **70 AP @24:00–26:59**. Cap ×1.30 GS.
+
+**Gathering Storm** cho game 25m. @25:00 GS thắng combo và poke DPM trên burst set và poke set.
+
+| Burst Orb·Cap·Storm @25 | GS Δcombo | 1 Scorch | GS Δpoke DPM | Scorch DPM |
+|-------------------------|-----------|----------|--------------|------------|
+| Morgana | **240** | 43 | **710** | 346 |
+| Viktor | **221** | 43 | **867** | 346 |
+
+Breakpoint (5-slot xong): combo GS từ **phút 12**, poke DPM từ **15–18**. Scorch chỉ thắng lane trước stack / trước Cap. Game sống 25m → 70 AP.
+
+Không copy PC (10 phút/stack). WR first stack 6:00, +3:00.
 
 

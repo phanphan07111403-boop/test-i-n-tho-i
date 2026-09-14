@@ -1,0 +1,114 @@
+==============================================================================
+SCORCH vs GATHERING STORM — game average 25:00  (WR 7.2e)
+Sorcery slot 3. Giữ Luden. Spell. Bỏ vàng (5-slot xong).
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Scorch 21–49 / 8s. GS 6:00 rồi +3:00, AP=x(x+3).
+           24:00–26:59 = 70 AP. Cap amp GS. Không copy PC 10-phút stack.
+  Role   : mid. Game TB 25m. Giữ Luden. Spellslinger.
+  Cặp    : Scorch vs Gathering Storm trên (1) burst Orb·Cap·Storm
+           (2) poke Luden·HF·BF·Crypt.
+  Metric : @25:00 combo 70%+R và 60s poke DPM. Breakpoint phút GS vượt Scorch.
+           Scorch: pen only, CD không giảm bởi AH. 8 proc / 60s.
+
+  5-slot xong cả game (ignore gold). Cap phút 6 chưa có → GS early yếu hơn bảng.
+
+------------------------------------------------------------------------------
+BURST — Spell · Luden · Orb · Cap · Storm  (Morgana)
+------------------------------------------------------------------------------
+  Build Spell · Luden · Orb · Cap · Storm  AP 611 → GS 702 (+70 pre-amp)
+  @25:00  combo0 2851  GS 3091  Δ 240  Scorch×1 43
+          dump Δ 16  poke Δ 710 DPM  Scorch 8×/60s 346 DPM
+  GS vs Scorch @25: combo +197  poke 60s +364  (GS combo, GS poke)
+
+   min  lv  GS AP   Δcombo  Scorch    Δpoke   S-DPM  combo   poke
+     6   7      4       14      29       41     233 Scorch Scorch
+     9  10     10       34      34      101     275 Scorch Scorch
+    12  12     18       62      38      183     303     GS Scorch
+    15  13     28       96      40      284     317     GS Scorch
+    18  15     40      137      43      406     346     GS     GS
+    21  15     54      185      43      548     346     GS     GS
+    24  15     70      240      43      710     346     GS     GS
+    25  15     70      240      43      710     346     GS     GS
+
+  GS > Scorch combo from minute 12
+  GS > Scorch poke  from minute 18
+
+------------------------------------------------------------------------------
+BURST — Spell · Luden · Orb · Cap · Storm  (Viktor)
+------------------------------------------------------------------------------
+  Build Spell · Luden · Orb · Cap · Storm  AP 611 → GS 702 (+70 pre-amp)
+  @25:00  combo0 2700  GS 2922  Δ 221  Scorch×1 43
+          dump Δ 16  poke Δ 867 DPM  Scorch 8×/60s 346 DPM
+  GS vs Scorch @25: combo +178  poke 60s +521  (GS combo, GS poke)
+
+   min  lv  GS AP   Δcombo  Scorch    Δpoke   S-DPM  combo   poke
+     6   7      4       13      29       50     233 Scorch Scorch
+     9  10     10       32      34      124     275 Scorch Scorch
+    12  12     18       57      38      223     303     GS Scorch
+    15  13     28       89      40      347     317     GS     GS
+    18  15     40      127      43      495     346     GS     GS
+    21  15     54      171      43      669     346     GS     GS
+    24  15     70      221      43      867     346     GS     GS
+    25  15     70      221      43      867     346     GS     GS
+
+  GS > Scorch combo from minute 12
+  GS > Scorch poke  from minute 15
+
+------------------------------------------------------------------------------
+POKE — Spell · Luden · HF · BF · Crypt  (Morgana)
+------------------------------------------------------------------------------
+  Build Spell · Luden · HF · BF · Crypt  AP 385 → GS 458 (+70 pre-amp)
+  @25:00  combo0 1954  GS 2125  Δ 170  Scorch×1 41
+          dump Δ 13  poke Δ 950 DPM  Scorch 8×/60s 330 DPM
+  GS vs Scorch @25: combo +129  poke 60s +620  (GS combo, GS poke)
+
+   min  lv  GS AP   Δcombo  Scorch    Δpoke   S-DPM  combo   poke
+     6   7      4       10      28       54     222 Scorch Scorch
+     9  10     10       24      33      136     263 Scorch Scorch
+    12  12     18       44      36      244     290     GS Scorch
+    15  13     28       68      38      380     303     GS     GS
+    18  15     40       97      41      543     330     GS     GS
+    21  15     54      131      41      733     330     GS     GS
+    24  15     70      170      41      950     330     GS     GS
+    25  15     70      170      41      950     330     GS     GS
+
+  GS > Scorch combo from minute 12
+  GS > Scorch poke  from minute 15
+
+------------------------------------------------------------------------------
+POKE — Spell · Luden · HF · BF · Crypt  (Viktor)
+------------------------------------------------------------------------------
+  Build Spell · Luden · HF · BF · Crypt  AP 385 → GS 458 (+70 pre-amp)
+  @25:00  combo0 1938  GS 2100  Δ 163  Scorch×1 41
+          dump Δ 13  poke Δ 1159 DPM  Scorch 8×/60s 330 DPM
+  GS vs Scorch @25: combo +121  poke 60s +829  (GS combo, GS poke)
+
+   min  lv  GS AP   Δcombo  Scorch    Δpoke   S-DPM  combo   poke
+     6   7      4        9      28       66     222 Scorch Scorch
+     9  10     10       23      33      166     263 Scorch Scorch
+    12  12     18       42      36      298     290     GS     GS
+    15  13     28       65      38      464     303     GS     GS
+    18  15     40       93      41      662     330     GS     GS
+    21  15     54      125      41      894     330     GS     GS
+    24  15     70      163      41     1159     330     GS     GS
+    25  15     70      163      41     1159     330     GS     GS
+
+  GS > Scorch combo from minute 12
+  GS > Scorch poke  from minute 12
+
+------------------------------------------------------------------------------
+VERDICT — Scorch hay Gathering Storm, game TB 25m?
+------------------------------------------------------------------------------
+  Gathering Storm. @25:00 GS thắng combo và poke DPM trên cả hai 5-slot.
+  Burst Morgana @25: GS combo Δ 240 vs Scorch 43  poke Δ 710 vs 346
+  Burst Viktor  @25: GS combo Δ 221 vs Scorch 43  poke Δ 867 vs 346
+  Poke  Morgana @25: GS combo Δ 170 vs Scorch 41  poke Δ 950 vs 330
+  Poke  Viktor  @25: GS combo Δ 163 vs Scorch 41  poke Δ 1159 vs 330
+  Breakpoint burst Morgana: combo phút 12  poke phút 18
+  Breakpoint poke Morgana:  combo phút 12  poke phút 15
+  Scorch thắng lane trước stack đầu / trước Cap. Game 25m sống tới 70 AP → GS.
+  AH không thêm Scorch proc (8s). Cap ×1.30 GS trên burst set.
+==============================================================================
