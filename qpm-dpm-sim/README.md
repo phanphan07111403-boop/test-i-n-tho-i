@@ -15,6 +15,7 @@ python3 simulate_qpm_dpm.py
 python3 simulate_dh_comet.py
 python3 simulate_burst_dh.py
 python3 simulate_scorch_gs.py
+python3 simulate_cut_coup_ih.py
 ```
 
 ## 4 ô

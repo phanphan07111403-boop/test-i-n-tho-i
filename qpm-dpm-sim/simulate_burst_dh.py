@@ -91,9 +91,10 @@ def strike(raw: float, st: Stats, mr: float, frac: float, hf: bool) -> float:
 
 
 class Fight:
-    def __init__(self, st: Stats, start_frac: float, souls: int):
+    def __init__(self, st: Stats, start_frac: float, souls: int, hp_rune: str = ""):
         self.st = st
         self.souls = souls
+        self.hp_rune = hp_rune
         hp_max, mr = squishy()
         self.hp_max = hp_max
         self.mr = mr
@@ -109,11 +110,18 @@ class Fight:
     def frac(self) -> float:
         return self.hp / self.hp_max
 
+    def rune_mult(self, frac: float) -> float:
+        if self.hp_rune == "cut" and frac > 0.60:
+            return 1.0657
+        if self.hp_rune == "coup" and frac < 0.40:
+            return 1.08
+        return 1.0
+
     def hit(self, raw: float, apply_hf: bool = False, allow_dh: bool = True) -> float:
         frac = self.frac
         if self.st.orb and frac <= 0.35:
             self.orb_hits += 1
-        dmg = strike(raw, self.st, self.mr, frac, self.hf)
+        dmg = strike(raw, self.st, self.mr, frac, self.hf) * self.rune_mult(frac)
         self.hp -= dmg
         self.dealt += dmg
         self.window += dmg
@@ -128,7 +136,7 @@ class Fight:
         raw = dh_raw(self.st.ap, self.souls)
         if self.st.orb and frac <= 0.35:
             self.orb_hits += 1
-        dmg = strike(raw, self.st, self.mr, frac, self.hf)
+        dmg = strike(raw, self.st, self.mr, frac, self.hf) * self.rune_mult(frac)
         self.hp -= dmg
         self.dealt += dmg
         self.window += dmg
@@ -141,6 +149,7 @@ class Fight:
         if self.window + 1e-9 < SQUALL_NEED * self.hp_max:
             return 0.0
         dmg = strike(squall_raw(self.st.ap), self.st, self.mr, self.frac, self.hf)
+        dmg *= self.rune_mult(self.frac)
         self.hp -= dmg
         self.dealt += dmg
         self.squall = dmg
@@ -156,9 +165,9 @@ def burn_lump(st: Stats, hp_max: float, seconds: float) -> float:
     return dps * seconds
 
 
-def morgana_combo(st: Stats, start_frac: float, souls: int = SOULS) -> Fight:
+def morgana_combo(st: Stats, start_frac: float, souls: int = SOULS, hp_rune: str = "") -> Fight:
     """Q+Echo (HF apply) → DH → R → W ticks in the root → burn → Squall."""
-    f = Fight(st, start_frac, souls)
+    f = Fight(st, start_frac, souls, hp_rune=hp_rune)
     q = 320.0 + 0.90 * st.ap + echo_raw(st)
     f.hit(q, apply_hf=True)
     f.hit(300.0 + 0.70 * st.ap)
@@ -176,12 +185,12 @@ def morgana_combo(st: Stats, start_frac: float, souls: int = SOULS) -> Fight:
     return f
 
 
-def viktor_combo(st: Stats, start_frac: float, souls: int = SOULS) -> Fight:
+def viktor_combo(st: Stats, start_frac: float, souls: int = SOULS, hp_rune: str = "") -> Fight:
     """E laser+Echo (HF apply) → DH → Q+AA → Blastquake → R initial → burn → Squall.
 
     No 5.5s Chaos Storm ticks — that is dwell, not burst.
     """
-    f = Fight(st, start_frac, souls)
+    f = Fight(st, start_frac, souls, hp_rune=hp_rune)
     laser = 210.0 + 0.30 * st.ap + echo_raw(st)
     f.hit(laser, apply_hf=True)
     q = 90.0 + 0.30 * st.ap
@@ -194,7 +203,7 @@ def viktor_combo(st: Stats, start_frac: float, souls: int = SOULS) -> Fight:
     return f
 
 
-def dump_dh(st: Stats, frac: float, n: int, souls: int, hf_on: bool) -> float:
+def dump_dh(st: Stats, frac: float, n: int, souls: int, hf_on: bool, hp_rune: str = "") -> float:
     """n Dark Harvest procs after a takedown (1s CD). Fresh target at `frac`."""
     _, mr = squishy()
     total = 0.0
@@ -203,6 +212,10 @@ def dump_dh(st: Stats, frac: float, n: int, souls: int, hf_on: bool) -> float:
     for _ in range(n):
         f = hp / hp_max
         dmg = strike(dh_raw(st.ap, souls), st, mr, f, hf_on)
+        if hp_rune == "cut" and f > 0.60:
+            dmg *= 1.0657
+        elif hp_rune == "coup" and f < 0.40:
+            dmg *= 1.08
         hp -= dmg
         total += dmg
         hp = frac * hp_max
