@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "patch": "7.2e",
+    "burst": false,
+    "luden_required": false,
+    "metric": "Q+W+DH at 45% HP, mid gold minutes 1-20"
+  },
+  "areas": {
+    "BF \u2192 HF \u2192 Crypt": 92950.7,
+    "BF \u2192 Crypt \u2192 HF": 94316.4,
+    "BF \u2192 HF \u2192 Cap": 91606.2,
+    "BF \u2192 Liandry \u2192 Rylai": 84161.4,
+    "Luden \u2192 HF \u2192 Crypt": 85480.7,
+    "BF \u2192 Orb \u2192 Cap": 85899.6
+  },
+  "spikes": {
+    "BF \u2192 HF \u2192 Crypt": {
+      "BF": 9,
+      "Luden": null,
+      "Spell": 11,
+      "HF": 15,
+      "Crypt": 20
+    },
+    "BF \u2192 Crypt \u2192 HF": {
+      "BF": 9,
+      "Luden": null,
+      "Spell": 11,
+      "HF": 20,
+      "Crypt": 16
+    },
+    "BF \u2192 HF \u2192 Cap": {
+      "BF": 9,
+      "Luden": null,
+      "Spell": 11,
+      "HF": 15,
+      "Crypt": null
+    },
+    "BF \u2192 Liandry \u2192 Rylai": {
+      "BF": 9,
+      "Luden": null,
+      "Spell": 11,
+      "HF": null,
+      "Crypt": null
+    },
+    "Luden \u2192 HF \u2192 Crypt": {
+      "BF": null,
+      "Luden": 9,
+      "Spell": 11,
+      "HF": 15,
+      "Crypt": 20
+    },
+    "BF \u2192 Orb \u2192 Cap": {
+      "BF": 9,
+      "Luden": null,
+      "Spell": 11,
+      "HF": null,
+      "Crypt": null
+    }
+  },
+  "minute_12": {
+    "BF \u2192 HF \u2192 Crypt": {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Fiendish Codex"
+      ],
+      "ap": 150.8,
+      "ah": 42.0,
+      "qw45": 701.3,
+      "q45": 405.5,
+      "w45": 356.9,
+      "farm60": 5348.5,
+      "crossed": true
+    },
+    "BF \u2192 Crypt \u2192 HF": {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Amethyst"
+      ],
+      "ap": 145.6,
+      "ah": 32.0,
+      "qw45": 727.5,
+      "q45": 420.9,
+      "w45": 371.0,
+      "farm60": 5166.8,
+      "crossed": true
+    },
+    "BF \u2192 HF \u2192 Cap": {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Fiendish Codex"
+      ],
+      "ap": 150.8,
+      "ah": 42.0,
+      "qw45": 701.3,
+      "q45": 405.5,
+      "w45": 356.9,
+      "farm60": 5348.5,
+      "crossed": true
+    },
+    "BF \u2192 Liandry \u2192 Rylai": {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Amplifying Tome",
+        "Ruby Crystal"
+      ],
+      "ap": 145.6,
+      "ah": 32.0,
+      "qw45": 694.8,
+      "q45": 402.0,
+      "w45": 353.8,
+      "farm60": 4930.9,
+      "crossed": true
+    },
+    "Luden \u2192 HF \u2192 Crypt": {
+      "minute": 12,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Fiendish Codex"
+      ],
+      "ap": 165.0,
+      "ah": 32.0,
+      "qw45": 677.6,
+      "q45": 415.2,
+      "w45": 322.1,
+      "farm60": 4833.7,
+      "crossed": true
+    },
+    "BF \u2192 Orb \u2192 Cap": {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 124.8,
+      "ah": 32.0,
+      "qw45": 668.5,
+      "q45": 387.9,
+      "w45": 341.4,
+      "farm60": 4728.4,
+      "crossed": true
+    }
+  },
+  "minute_18": {
+    "BF \u2192 HF \u2192 Crypt": {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Void Amethyst",
+        "Fiendish Codex"
+      ],
+      "ap": 254.8,
+      "ah": 67.0,
+      "qw45": 967.5,
+      "q45": 551.9,
+      "w45": 478.0,
+      "farm60": 8066.7,
+      "crossed": true
+    },
+    "BF \u2192 Crypt \u2192 HF": {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 249.6,
+      "ah": 72.0,
+      "qw45": 974.4,
+      "q45": 573.5,
+      "w45": 509.2,
+      "farm60": 8797.2,
+      "crossed": true
+    },
+    "BF \u2192 HF \u2192 Cap": {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Blasting Wand"
+      ],
+      "ap": 254.8,
+      "ah": 57.0,
+      "qw45": 921.0,
+      "q45": 525.4,
+      "w45": 454.3,
+      "farm60": 7226.6,
+      "crossed": true
+    },
+    "BF \u2192 Liandry \u2192 Rylai": {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Liandry's Torment",
+        "Amplifying Tome",
+        "Giant's Belt"
+      ],
+      "ap": 218.4,
+      "ah": 32.0,
+      "qw45": 882.5,
+      "q45": 472.8,
+      "w45": 503.5,
+      "farm60": 6109.8,
+      "crossed": true
+    },
+    "Luden \u2192 HF \u2192 Crypt": {
+      "minute": 18,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Void Amethyst",
+        "Fiendish Codex"
+      ],
+      "ap": 265.0,
+      "ah": 57.0,
+      "qw45": 929.1,
+      "q45": 559.3,
+      "w45": 434.4,
+      "farm60": 7330.3,
+      "crossed": true
+    },
+    "BF \u2192 Orb \u2192 Cap": {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Blasting Wand"
+      ],
+      "ap": 286.0,
+      "ah": 32.0,
+      "qw45": 1093.7,
+      "q45": 603.7,
+      "w45": 528.7,
+      "farm60": 7027.8,
+      "crossed": true
+    }
+  },
+  "minute_20": {
+    "BF \u2192 HF \u2192 Crypt": {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Cryptbloom"
+      ],
+      "ap": 280.8,
+      "ah": 77.0,
+      "qw45": 1131.2,
+      "q45": 649.2,
+      "w45": 565.0,
+      "farm60": 9937.3,
+      "crossed": true
+    },
+    "BF \u2192 Crypt \u2192 HF": {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus"
+      ],
+      "ap": 280.8,
+      "ah": 77.0,
+      "qw45": 1131.2,
+      "q45": 649.2,
+      "w45": 565.0,
+      "farm60": 9937.3,
+      "crossed": true
+    },
+    "BF \u2192 HF \u2192 Cap": {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 446.2,
+      "ah": 57.0,
+      "qw45": 1188.8,
+      "q45": 669.3,
+      "w45": 582.6,
+      "farm60": 9494.2,
+      "crossed": true
+    },
+    "BF \u2192 Liandry \u2192 Rylai": {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 265.2,
+      "ah": 32.0,
+      "qw45": 1436.7,
+      "q45": 531.8,
+      "w45": 1014.2,
+      "farm60": 9793.2,
+      "crossed": true
+    },
+    "Luden \u2192 HF \u2192 Crypt": {
+      "minute": 20,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Cryptbloom"
+      ],
+      "ap": 290.0,
+      "ah": 67.0,
+      "qw45": 1085.8,
+      "q45": 656.6,
+      "w45": 514.5,
+      "farm60": 9049.5,
+      "crossed": true
+    },
+    "BF \u2192 Orb \u2192 Cap": {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Blasting Wand",
+        "Needlessly Large Rod"
+      ],
+      "ap": 353.6,
+      "ah": 32.0,
+      "qw45": 1210.2,
+      "q45": 668.6,
+      "w45": 605.3,
+      "farm60": 7900.3,
+      "crossed": true
+    }
+  }
+}

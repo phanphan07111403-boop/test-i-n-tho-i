@@ -123,4 +123,20 @@ Breakpoint (5-slot xong): combo GS từ **phút 12**, poke DPM từ **15–18**.
 
 Không copy PC (10 phút/stack). WR first stack 6:00, +3:00.
 
+## Cut Down vs Coup de Grace vs Ingenious Hunter
+
+**Không cùng slot.** Cut / Coup = Precision 2 (7.2 Cut **6.57%** >60% HP; Coup **8%** <40% HP). Ingenious = Domination 3 (20 + 5×takedown item haste, max 45). DH + GS → primary Dom (IH) **hoặc** Precision (Cut/Coup), không cả hai.
+
+DH burst (Spell · Luden · Orb · Cap · Storm, GS 70 AP @25):
+
+| | Combo 70%+R | Combo 40% | Poke 90% | DH dump 35% |
+|--|-------------|-----------|----------|-------------|
+| **Coup** | **+5.3% / +6.0%** | **+5.3% / +6.5%** | 0 | **+8%** |
+| Cut | +2.2% / +1.3% | 0 | **+6.6%** | 0 |
+| IH 45 | 0 | 0 | Morgana **+10%** Echo 5→9; Viktor **0** | 0 |
+
+Q all-in hạ dưới 40% → R/W/DH/Squall ăn Coup. Cut chỉ dính hit đầu >60%. IH không giảm CD Q/E/R/DH; Echo vẫn 1 lần trong combo.
+
+**DH burst → Coup.** Cut khi poke 90%. IH khi muốn thêm Echo (và chỉ khi Echo CD thực sự thêm proc). Giữ GS; 70 AP lớn hơn Cut/Coup trên combo.
+
 
