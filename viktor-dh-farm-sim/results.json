@@ -1,0 +1,1026 @@
+{
+  "meta": {
+    "champion": "Viktor",
+    "role": "mid",
+    "patch": "7.2e",
+    "game_minutes": 30,
+    "playstyle": "farm Dark Harvest from minute 1 to 30 with E+Q",
+    "souls": "endogenous E/Q chip + takedown",
+    "pen_7_2": "Spellslinger / Crypt / Void / Bloodletter only",
+    "paths_searched": 13104
+  },
+  "winner": "BF \u2192 Crypt \u2192 HF \u2192 Bloodletter \u2192 Cap",
+  "ranking": [
+    {
+      "label": "BF \u2192 Crypt \u2192 HF \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 334597.6,
+      "farm60_1_30": 450695.3,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19562.8,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Crypt \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 333989.5,
+      "farm60_1_30": 449861.2,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 19562.8,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Bloodletter \u2192 HF \u2192 Cap",
+      "score_1_30": 333843.7,
+      "farm60_1_30": 449593.3,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 18432.9,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 HF \u2192 Cap \u2192 Bloodletter",
+      "score_1_30": 332922.0,
+      "farm60_1_30": 448524.0,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19037.8,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Crypt \u2192 Cap \u2192 Bloodletter",
+      "score_1_30": 332313.9,
+      "farm60_1_30": 447689.9,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 19037.8,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Cap \u2192 HF \u2192 Bloodletter",
+      "score_1_30": 332304.9,
+      "farm60_1_30": 446853.9,
+      "souls_30": 38.1,
+      "opened": 14,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 18331.1,
+        "m30": 33736.8
+      }
+    },
+    {
+      "label": "BF \u2192 Bloodletter \u2192 Crypt \u2192 HF \u2192 Cap",
+      "score_1_30": 332221.6,
+      "farm60_1_30": 446849.6,
+      "souls_30": 38.1,
+      "opened": 14,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Bloodletter's Curse",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9891.1,
+        "m20": 18460.0,
+        "m30": 33736.8
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Cap \u2192 Bloodletter \u2192 HF",
+      "score_1_30": 331654.7,
+      "farm60_1_30": 446178.5,
+      "souls_30": 38.1,
+      "opened": 14,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 18331.1,
+        "m30": 33736.8
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Bloodletter \u2192 Cap \u2192 HF",
+      "score_1_30": 331597.9,
+      "farm60_1_30": 447019.0,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19076.8,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Bloodletter \u2192 HF \u2192 Crypt \u2192 Cap",
+      "score_1_30": 331296.6,
+      "farm60_1_30": 445994.6,
+      "souls_30": 37.3,
+      "opened": 13,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Bloodletter's Curse",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9891.1,
+        "m20": 18246.0,
+        "m30": 33722.6
+      }
+    },
+    {
+      "label": "BF \u2192 Bloodletter \u2192 Crypt \u2192 Cap \u2192 HF",
+      "score_1_30": 329955.2,
+      "farm60_1_30": 444262.1,
+      "souls_30": 38.1,
+      "opened": 14,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Bloodletter's Curse",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9891.1,
+        "m20": 19103.8,
+        "m30": 33736.8
+      }
+    },
+    {
+      "label": "BF \u2192 Cap \u2192 Crypt \u2192 HF \u2192 Bloodletter",
+      "score_1_30": 329738.2,
+      "farm60_1_30": 442265.6,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rabadon's Deathcap",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9537.7,
+        "m20": 18367.5,
+        "m30": 33779.4
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Bloodletter \u2192 Crypt \u2192 Cap",
+      "score_1_30": 329096.4,
+      "farm60_1_30": 442993.7,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 18232.3,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Cap \u2192 Crypt \u2192 Bloodletter \u2192 HF",
+      "score_1_30": 329088.6,
+      "farm60_1_30": 441593.2,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rabadon's Deathcap",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9537.7,
+        "m20": 18367.5,
+        "m30": 33779.4
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 HF \u2192 Cap \u2192 Orb",
+      "score_1_30": 327358.7,
+      "farm60_1_30": 441033.1,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19037.8,
+        "m30": 32720.9
+      }
+    },
+    {
+      "label": "BF \u2192 Cap \u2192 HF \u2192 Crypt \u2192 Bloodletter",
+      "score_1_30": 326751.4,
+      "farm60_1_30": 438443.1,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rabadon's Deathcap",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9537.7,
+        "m20": 17509.3,
+        "m30": 33779.4
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Crypt \u2192 Cap \u2192 Orb",
+      "score_1_30": 326750.5,
+      "farm60_1_30": 440199.0,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 19037.8,
+        "m30": 32720.9
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Cap \u2192 HF \u2192 Orb",
+      "score_1_30": 326738.7,
+      "farm60_1_30": 439363.2,
+      "souls_30": 38.1,
+      "opened": 14,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Horizon Focus",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 18331.1,
+        "m30": 32749.3
+      }
+    },
+    {
+      "label": "BF \u2192 Void \u2192 HF \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 326642.3,
+      "farm60_1_30": 438366.7,
+      "souls_30": 39.7,
+      "opened": 16,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9515.6,
+        "m20": 19207.0,
+        "m30": 32755.9
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Void \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 326189.1,
+      "farm60_1_30": 438839.3,
+      "souls_30": 37.3,
+      "opened": 13,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Void Staff",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 19164.6,
+        "m30": 32711.1
+      }
+    },
+    {
+      "label": "BF \u2192 HF \u2192 Cap \u2192 Crypt \u2192 Bloodletter",
+      "score_1_30": 325953.9,
+      "farm60_1_30": 438753.3,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Cryptbloom",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 10239.9,
+        "m20": 17452.0,
+        "m30": 33708.4
+      }
+    },
+    {
+      "label": "BF \u2192 Void \u2192 HF \u2192 Cap \u2192 Bloodletter",
+      "score_1_30": 325600.9,
+      "farm60_1_30": 436956.2,
+      "souls_30": 39.7,
+      "opened": 16,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9515.6,
+        "m20": 18553.6,
+        "m30": 32755.9
+      }
+    },
+    {
+      "label": "BF \u2192 Bloodletter \u2192 HF \u2192 Void \u2192 Cap",
+      "score_1_30": 325438.3,
+      "farm60_1_30": 438200.9,
+      "souls_30": 37.3,
+      "opened": 13,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Bloodletter's Curse",
+        "Horizon Focus",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9891.1,
+        "m20": 18246.0,
+        "m30": 32711.1
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 HF \u2192 Cap \u2192 Cosmic",
+      "score_1_30": 325289.9,
+      "farm60_1_30": 438996.8,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Cosmic Drive"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19037.8,
+        "m30": 31586.3
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 HF \u2192 Bloodletter \u2192 Cosmic",
+      "score_1_30": 325188.2,
+      "farm60_1_30": 438937.2,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Cosmic Drive"
+      ],
+      "spikes": {
+        "m8": 6305.4,
+        "m12": 9854.0,
+        "m20": 19562.8,
+        "m30": 30359.3
+      }
+    }
+  ],
+  "winner_timeline": [
+    {
+      "minute": 1,
+      "items": [
+        "Amplifying Tome",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 1468.8,
+      "score": 693.1,
+      "legendaries": 0
+    },
+    {
+      "minute": 2,
+      "items": [
+        "Boots of Mana"
+      ],
+      "ap": 25.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 1598.3,
+      "score": 753.9,
+      "legendaries": 0
+    },
+    {
+      "minute": 3,
+      "items": [
+        "Boots of Mana",
+        "Amplifying Tome"
+      ],
+      "ap": 45.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 2092.3,
+      "score": 987.7,
+      "legendaries": 0
+    },
+    {
+      "minute": 4,
+      "items": [
+        "Boots of Mana",
+        "Amplifying Tome",
+        "Ring of Revelation"
+      ],
+      "ap": 45.0,
+      "ah": 17.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 2328.0,
+      "score": 1076.8,
+      "legendaries": 0
+    },
+    {
+      "minute": 5,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter"
+      ],
+      "ap": 60.0,
+      "ah": 22.0,
+      "souls": 0.2,
+      "opened": false,
+      "farm60": 3072.5,
+      "score": 1409.7,
+      "legendaries": 0
+    },
+    {
+      "minute": 6,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter",
+        "Amplifying Tome"
+      ],
+      "ap": 84.0,
+      "ah": 22.0,
+      "souls": 0.4,
+      "opened": false,
+      "farm60": 4504.6,
+      "score": 2058.0,
+      "legendaries": 0
+    },
+    {
+      "minute": 7,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter",
+        "Fated Ashes"
+      ],
+      "ap": 104.0,
+      "ah": 22.0,
+      "souls": 0.6,
+      "opened": false,
+      "farm60": 5306.4,
+      "score": 3223.2,
+      "legendaries": 0
+    },
+    {
+      "minute": 8,
+      "items": [
+        "Boots of Mana",
+        "Blackfire Torch"
+      ],
+      "ap": 113.4,
+      "ah": 32.0,
+      "souls": 1.15,
+      "opened": false,
+      "farm60": 6305.4,
+      "score": 3803.4,
+      "legendaries": 1
+    },
+    {
+      "minute": 9,
+      "items": [
+        "Boots of Mana",
+        "Blackfire Torch"
+      ],
+      "ap": 119.6,
+      "ah": 32.0,
+      "souls": 1.7,
+      "opened": false,
+      "farm60": 7074.6,
+      "score": 4223.6,
+      "legendaries": 1
+    },
+    {
+      "minute": 10,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 135.2,
+      "ah": 32.0,
+      "souls": 2.6,
+      "opened": false,
+      "farm60": 9189.1,
+      "score": 5408.9,
+      "legendaries": 1
+    },
+    {
+      "minute": 11,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Amethyst"
+      ],
+      "ap": 156.0,
+      "ah": 32.0,
+      "souls": 3.5,
+      "opened": false,
+      "farm60": 9915.0,
+      "score": 5834.6,
+      "legendaries": 1
+    },
+    {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Amethyst",
+        "Amplifying Tome"
+      ],
+      "ap": 185.1,
+      "ah": 32.0,
+      "souls": 4.4,
+      "opened": false,
+      "farm60": 9854.0,
+      "score": 5796.6,
+      "legendaries": 1
+    },
+    {
+      "minute": 13,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Amethyst",
+        "Fiendish Codex"
+      ],
+      "ap": 190.3,
+      "ah": 42.0,
+      "souls": 5.3,
+      "opened": false,
+      "farm60": 10614.2,
+      "score": 7535.0,
+      "legendaries": 1
+    },
+    {
+      "minute": 14,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Void Amethyst",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 211.1,
+      "ah": 42.0,
+      "souls": 6.2,
+      "opened": false,
+      "farm60": 10864.7,
+      "score": 7711.6,
+      "legendaries": 1
+    },
+    {
+      "minute": 15,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom"
+      ],
+      "ap": 226.7,
+      "ah": 52.0,
+      "souls": 7.1,
+      "opened": false,
+      "farm60": 13018.0,
+      "score": 9218.8,
+      "legendaries": 2
+    },
+    {
+      "minute": 16,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Fiendish Codex"
+      ],
+      "ap": 260.5,
+      "ah": 62.0,
+      "souls": 8.3,
+      "opened": false,
+      "farm60": 14469.5,
+      "score": 10225.7,
+      "legendaries": 2
+    },
+    {
+      "minute": 17,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 281.9,
+      "ah": 62.0,
+      "souls": 9.5,
+      "opened": false,
+      "farm60": 14847.4,
+      "score": 10491.7,
+      "legendaries": 2
+    },
+    {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 300.2,
+      "ah": 72.0,
+      "souls": 10.7,
+      "opened": false,
+      "farm60": 16350.1,
+      "score": 11535.9,
+      "legendaries": 2
+    },
+    {
+      "minute": 19,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus"
+      ],
+      "ap": 332.3,
+      "ah": 77.0,
+      "souls": 12.7,
+      "opened": true,
+      "farm60": 17974.6,
+      "score": 12863.9,
+      "legendaries": 3
+    },
+    {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Fiendish Codex"
+      ],
+      "ap": 359.1,
+      "ah": 87.0,
+      "souls": 14.7,
+      "opened": true,
+      "farm60": 19562.8,
+      "score": 13990.9,
+      "legendaries": 3
+    },
+    {
+      "minute": 21,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Fiendish Codex"
+      ],
+      "ap": 374.1,
+      "ah": 87.0,
+      "souls": 16.7,
+      "opened": true,
+      "farm60": 19851.2,
+      "score": 15823.5,
+      "legendaries": 3
+    },
+    {
+      "minute": 22,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Fiendish Codex",
+        "Haunting Guise"
+      ],
+      "ap": 406.3,
+      "ah": 87.0,
+      "souls": 18.9,
+      "opened": true,
+      "farm60": 20558.4,
+      "score": 16395.4,
+      "legendaries": 3
+    },
+    {
+      "minute": 23,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "ap": 417.0,
+      "ah": 92.0,
+      "souls": 21.1,
+      "opened": true,
+      "farm60": 23795.0,
+      "score": 18981.0,
+      "legendaries": 4
+    },
+    {
+      "minute": 24,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand"
+      ],
+      "ap": 482.4,
+      "ah": 92.0,
+      "souls": 23.3,
+      "opened": true,
+      "farm60": 25554.5,
+      "score": 20388.6,
+      "legendaries": 4
+    },
+    {
+      "minute": 25,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand"
+      ],
+      "ap": 482.4,
+      "ah": 92.0,
+      "souls": 25.5,
+      "opened": true,
+      "farm60": 25478.0,
+      "score": 20342.9,
+      "legendaries": 4
+    },
+    {
+      "minute": 26,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand",
+        "Needlessly Large Rod"
+      ],
+      "ap": 552.1,
+      "ah": 92.0,
+      "souls": 27.7,
+      "opened": true,
+      "farm60": 27332.8,
+      "score": 21825.6,
+      "legendaries": 4
+    },
+    {
+      "minute": 27,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Blasting Wand",
+        "Needlessly Large Rod"
+      ],
+      "ap": 571.4,
+      "ah": 92.0,
+      "souls": 29.9,
+      "opened": true,
+      "farm60": 27781.1,
+      "score": 22195.1,
+      "legendaries": 4
+    },
+    {
+      "minute": 28,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 770.7,
+      "ah": 92.0,
+      "souls": 32.1,
+      "opened": true,
+      "farm60": 33167.4,
+      "score": 26472.5,
+      "legendaries": 5
+    },
+    {
+      "minute": 29,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 770.7,
+      "ah": 92.0,
+      "souls": 34.3,
+      "opened": true,
+      "farm60": 33058.2,
+      "score": 26400.5,
+      "legendaries": 5
+    },
+    {
+      "minute": 30,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 798.5,
+      "ah": 92.0,
+      "souls": 36.5,
+      "opened": true,
+      "farm60": 33708.4,
+      "score": 26929.3,
+      "legendaries": 5
+    }
+  ]
+}
