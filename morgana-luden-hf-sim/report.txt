@@ -1,0 +1,84 @@
+==============================================================================
+MORGANA LUDEN — HORIZON FOCUS GIÚP HAY BỎ? (WR 7.2e)
+Mid DH, Spellslinger, 5 slot. HF thế Orb hoặc Cap — không slot 6.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. HF = Hypershot 10%/8s, không PC immobilize proc.
+  Role   : mid Luden maximize damage. Không copy support Ionia WR.
+  Cặp    : Luden→Orb→Cap vs Orb→HF vs HF→Cap vs HF→Orb
+  Metric : combo 70%+R, 40%+R, poke DPM 90% (Q spam, Echo 10s).
+           Q ≥600 apply HF; hit apply KHÔNG amp. R melee không apply.
+
+PATH A lock max dmg
+------------------------------------------------------------------------------
+  Luden's ~8:00  Infinity ~13:00  Rabadon's ~20:00
+
+PATH B HF thế Cap
+------------------------------------------------------------------------------
+  Luden's ~8:00  Infinity ~13:00  Horizon ~19:00
+
+PATH C HF thế Orb
+------------------------------------------------------------------------------
+  Luden's ~8:00  Horizon ~13:00  Rabadon's ~20:00
+
+PATH D HF rồi Orb
+------------------------------------------------------------------------------
+  Luden's ~8:00  Horizon ~13:00  Infinity ~19:00
+
+------------------------------------------------------------------------------
+COMBO 70% HP + R  (all-in sau Q range — HF amp W/R/DH, không amp Q)
+------------------------------------------------------------------------------
+  10:00 | Cap  1068  Orb-HF  1068  HF-Cap  1068  HF-Orb  1068
+         lock: Boots of Mana › Luden's Echo
+         Orb-HF: Boots of Mana › Luden's Echo
+  13:00 | Cap  1278  Orb-HF  1278  HF-Cap  1109  HF-Orb  1109
+         lock: Boots of Mana › Luden's Echo › Infinity Orb
+         Orb-HF: Boots of Mana › Luden's Echo › Infinity Orb
+  16:00 | Cap  1647  Orb-HF  1601  HF-Cap  1414  HF-Orb  1414
+         lock: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Blasting Wand
+         Orb-HF: Luden's Echo › Infinity Orb › Spellslinger's Shoes
+  20:00 | Cap  2134  Orb-HF  1932  HF-Cap  1812  HF-Orb  1932
+         lock: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Rabadon's Deathcap
+         Orb-HF: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Horizon Focus
+  Diện tích 20p: Cap 20328  Orb-HF 20070 (-1.3%)  HF-Cap 18580 (-8.6%)  HF-Orb 19115 (-6.0%)
+
+------------------------------------------------------------------------------
+COMBO 40% HP + R  (cửa Orb 20% mở từ Q)
+------------------------------------------------------------------------------
+  13:00 | Cap  1342  Orb-HF  1342  HF-Cap  1134  HF-Orb  1134
+  16:00 | Cap  1705  Orb-HF  1660  HF-Cap  1438  HF-Orb  1438
+  20:00 | Cap  2166  Orb-HF  1983  HF-Cap  1826  HF-Orb  1983
+  Diện tích 20p: Cap 21215  Orb-HF 20968 (-1.2%)  HF-Cap 19195 (-9.5%)
+
+------------------------------------------------------------------------------
+POKE DPM 90% HP  (Q spam 60s, Echo 10s. HF 10% chỉ Q sau Q đầu nếu CD < 8s)
+------------------------------------------------------------------------------
+  10:00 | Cap   3999 (QPM 8.6)  Orb-HF   3999 (QPM 8.6)  HF-Cap   4376 (QPM 9.3)  HF-Orb   4376 (QPM 9.3)
+  13:00 | Cap   4370 (QPM 8.6)  Orb-HF   4370 (QPM 8.6)  HF-Cap   5158 (QPM 10.3)  HF-Orb   5158 (QPM 10.3)
+  16:00 | Cap   5232 (QPM 8.6)  Orb-HF   5580 (QPM 9.3)  HF-Cap   6165 (QPM 10.3)  HF-Orb   6165 (QPM 10.3)
+  20:00 | Cap   6580 (QPM 8.6)  Orb-HF   7452 (QPM 10.3)  HF-Cap   7758 (QPM 10.3)  HF-Orb   7452 (QPM 10.3)
+  Diện tích 20p: Cap 67610  Orb-HF 71216 (+5.3%)  HF-Cap 76746 (+13.5%)  HF-Orb 77366 (+14.4%)
+
+  Spike
+    Orb-Cap: Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+    Orb-HF: Luden's~8:00, Infinity~13:00, Horizon~19:00, Spellslinger's~15:00
+    HF-Cap: Luden's~8:00, Horizon~13:00, Spellslinger's~14:00, Rabadon's~20:00
+    HF-Orb: Luden's~8:00, Infinity~19:00, Horizon~13:00, Spellslinger's~14:00
+
+------------------------------------------------------------------------------
+VERDICT — Horizon Focus giúp hay bỏ?
+------------------------------------------------------------------------------
+  Full item 20:00 vs Luden→Orb→Cap:
+    Orb-HF combo70 -9.5%  pokeDPM +13.3%
+    HF-Cap combo70 -15.1%  pokeDPM +17.9%
+    HF-Orb combo70 -9.5%  pokeDPM +13.3%
+  Diện tích combo70: Orb-HF -1.3%  HF-Cap -8.6%
+  Burst/all-in (Q+Echo+W+R): KHÔNG mua HF.
+  Poke Q spam (Luden identity): HF giúp — thay Orb, giữ Cap.
+  HF 10% không amp Q đầu. Luden Echo nằm trên Q → burst đầu không ăn Hypershot.
+  Spell 18+8% + Orb 15 flat đã pen squishy. HF 7% pen trùng slot với Orb/Cap.
+  5 slot: mua HF = bỏ Orb (mất 15 flat + 20% execute) hoặc bỏ Cap (mất 30% AP).
+  Reveal 1200 (Focus) không phải damage — không cứu slot burst.
+==============================================================================
