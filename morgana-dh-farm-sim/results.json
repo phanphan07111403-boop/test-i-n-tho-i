@@ -1,0 +1,1024 @@
+{
+  "meta": {
+    "champion": "Morgana",
+    "role": "mid",
+    "patch": "7.2e",
+    "game_minutes": 30,
+    "playstyle": "farm Dark Harvest from minute 1 to 30",
+    "souls": "endogenous Q/W chip + takedown",
+    "pen_7_2": "Spellslinger / Crypt / Void / Bloodletter only",
+    "paths_searched": 13104
+  },
+  "winner": "BF \u2192 Rylai \u2192 Crypt \u2192 Orb \u2192 HF",
+  "ranking": [
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Orb \u2192 HF",
+      "score_1_30": 241845.0,
+      "farm60_1_30": 308352.4,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 12356.0,
+        "m30": 23469.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Crypt \u2192 HF",
+      "score_1_30": 241680.6,
+      "farm60_1_30": 308086.3,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Cryptbloom",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 23469.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Orb \u2192 Cap",
+      "score_1_30": 241545.7,
+      "farm60_1_30": 307956.0,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 12356.0,
+        "m30": 25472.3
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Crypt \u2192 Cap",
+      "score_1_30": 241381.3,
+      "farm60_1_30": 307689.9,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 25472.3
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 241118.5,
+      "farm60_1_30": 308164.1,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 24300.6
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Cap \u2192 Orb",
+      "score_1_30": 239893.4,
+      "farm60_1_30": 306054.8,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13210.8,
+        "m30": 25472.3
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Cap \u2192 Bloodletter",
+      "score_1_30": 239724.3,
+      "farm60_1_30": 306279.0,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13210.8,
+        "m30": 24300.6
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 HF \u2192 Orb",
+      "score_1_30": 239451.2,
+      "farm60_1_30": 305532.2,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 23469.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Bloodletter \u2192 HF",
+      "score_1_30": 238901.0,
+      "farm60_1_30": 305367.9,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 22362.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Cap \u2192 HF",
+      "score_1_30": 238721.4,
+      "farm60_1_30": 304870.3,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13210.8,
+        "m30": 23250.1
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 HF \u2192 Bloodletter",
+      "score_1_30": 237886.1,
+      "farm60_1_30": 303947.6,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 22362.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 HF \u2192 Crypt",
+      "score_1_30": 237565.4,
+      "farm60_1_30": 303032.4,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Cryptbloom"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 23469.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Bloodletter \u2192 Crypt",
+      "score_1_30": 237170.7,
+      "farm60_1_30": 302839.5,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Bloodletter's Curse",
+        "Cryptbloom"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 23551.5
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 HF \u2192 Cap",
+      "score_1_30": 237143.6,
+      "farm60_1_30": 302874.5,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 23250.1
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Bloodletter \u2192 Crypt \u2192 Cap",
+      "score_1_30": 237111.2,
+      "farm60_1_30": 302810.8,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Bloodletter's Curse",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 12557.2,
+        "m30": 24300.6
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Crypt \u2192 Bloodletter \u2192 Orb",
+      "score_1_30": 237056.1,
+      "farm60_1_30": 303211.3,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Bloodletter's Curse",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13653.4,
+        "m30": 23551.5
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Rylai \u2192 Orb \u2192 HF",
+      "score_1_30": 236890.4,
+      "farm60_1_30": 303313.1,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 6055.3,
+        "m20": 12295.4,
+        "m30": 23398.5
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Rylai \u2192 Orb \u2192 Cap",
+      "score_1_30": 236619.3,
+      "farm60_1_30": 302942.8,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 6055.3,
+        "m20": 12295.4,
+        "m30": 25407.7
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Cap \u2192 Crypt",
+      "score_1_30": 236563.9,
+      "farm60_1_30": 301574.7,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 12591.8,
+        "m30": 25472.3
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 236526.9,
+      "farm60_1_30": 301729.5,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 24119.0
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 Orb \u2192 Bloodletter \u2192 HF",
+      "score_1_30": 236522.8,
+      "farm60_1_30": 301787.9,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Infinity Orb",
+        "Bloodletter's Curse",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 13156.5,
+        "m30": 22332.3
+      }
+    },
+    {
+      "label": "BF \u2192 Rylai \u2192 HF \u2192 Crypt \u2192 Orb",
+      "score_1_30": 236453.9,
+      "farm60_1_30": 301615.5,
+      "souls_30": 40.5,
+      "opened": 17,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Horizon Focus",
+        "Cryptbloom",
+        "Infinity Orb"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5585.4,
+        "m20": 12032.4,
+        "m30": 23469.5
+      }
+    },
+    {
+      "label": "BF \u2192 Orb \u2192 Rylai \u2192 Crypt \u2192 HF",
+      "score_1_30": 236282.0,
+      "farm60_1_30": 302262.3,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5853.8,
+        "m20": 13098.4,
+        "m30": 23398.5
+      }
+    },
+    {
+      "label": "BF \u2192 Crypt \u2192 Rylai \u2192 Bloodletter \u2192 Cap",
+      "score_1_30": 236185.4,
+      "farm60_1_30": 303146.9,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Cryptbloom",
+        "Rylai's Crystal Scepter",
+        "Bloodletter's Curse",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 6055.3,
+        "m20": 13592.8,
+        "m30": 24236.1
+      }
+    },
+    {
+      "label": "BF \u2192 Orb \u2192 Rylai \u2192 Crypt \u2192 Cap",
+      "score_1_30": 236010.8,
+      "farm60_1_30": 301892.0,
+      "souls_30": 36.5,
+      "opened": 12,
+      "items_30": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 4345.6,
+        "m12": 5853.8,
+        "m20": 13098.4,
+        "m30": 25407.7
+      }
+    }
+  ],
+  "winner_timeline": [
+    {
+      "minute": 1,
+      "items": [
+        "Amplifying Tome",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 941.6,
+      "score": 469.5,
+      "legendaries": 0
+    },
+    {
+      "minute": 2,
+      "items": [
+        "Boots of Mana"
+      ],
+      "ap": 25.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 1034.6,
+      "score": 516.0,
+      "legendaries": 0
+    },
+    {
+      "minute": 3,
+      "items": [
+        "Boots of Mana",
+        "Amplifying Tome"
+      ],
+      "ap": 45.0,
+      "ah": 6.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 1338.4,
+      "score": 665.2,
+      "legendaries": 0
+    },
+    {
+      "minute": 4,
+      "items": [
+        "Boots of Mana",
+        "Amplifying Tome",
+        "Ring of Revelation"
+      ],
+      "ap": 45.0,
+      "ah": 17.0,
+      "souls": 0.0,
+      "opened": false,
+      "farm60": 1675.5,
+      "score": 808.8,
+      "legendaries": 0
+    },
+    {
+      "minute": 5,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter"
+      ],
+      "ap": 60.0,
+      "ah": 22.0,
+      "souls": 0.2,
+      "opened": false,
+      "farm60": 1853.3,
+      "score": 889.4,
+      "legendaries": 0
+    },
+    {
+      "minute": 6,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter",
+        "Amplifying Tome"
+      ],
+      "ap": 84.0,
+      "ah": 22.0,
+      "souls": 0.4,
+      "opened": false,
+      "farm60": 2028.4,
+      "score": 975.9,
+      "legendaries": 0
+    },
+    {
+      "minute": 7,
+      "items": [
+        "Boots of Mana",
+        "Lost Chapter",
+        "Fated Ashes"
+      ],
+      "ap": 104.0,
+      "ah": 22.0,
+      "souls": 0.6,
+      "opened": false,
+      "farm60": 2654.1,
+      "score": 1686.0,
+      "legendaries": 0
+    },
+    {
+      "minute": 8,
+      "items": [
+        "Boots of Mana",
+        "Blackfire Torch"
+      ],
+      "ap": 113.4,
+      "ah": 32.0,
+      "souls": 1.15,
+      "opened": false,
+      "farm60": 4345.6,
+      "score": 2751.0,
+      "legendaries": 1
+    },
+    {
+      "minute": 9,
+      "items": [
+        "Boots of Mana",
+        "Blackfire Torch"
+      ],
+      "ap": 119.6,
+      "ah": 32.0,
+      "souls": 1.7,
+      "opened": false,
+      "farm60": 4926.4,
+      "score": 3121.1,
+      "legendaries": 1
+    },
+    {
+      "minute": 10,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 135.2,
+      "ah": 32.0,
+      "souls": 2.6,
+      "opened": false,
+      "farm60": 5617.4,
+      "score": 3561.4,
+      "legendaries": 1
+    },
+    {
+      "minute": 11,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Giant's Belt"
+      ],
+      "ap": 135.2,
+      "ah": 32.0,
+      "souls": 3.5,
+      "opened": false,
+      "farm60": 5630.2,
+      "score": 3567.1,
+      "legendaries": 1
+    },
+    {
+      "minute": 12,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Giant's Belt",
+        "Amplifying Tome"
+      ],
+      "ap": 164.3,
+      "ah": 32.0,
+      "souls": 4.4,
+      "opened": false,
+      "farm60": 5585.4,
+      "score": 3533.5,
+      "legendaries": 1
+    },
+    {
+      "minute": 13,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Giant's Belt",
+        "Amplifying Tome"
+      ],
+      "ap": 164.3,
+      "ah": 32.0,
+      "souls": 5.3,
+      "opened": false,
+      "farm60": 5550.5,
+      "score": 4121.3,
+      "legendaries": 1
+    },
+    {
+      "minute": 14,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 211.1,
+      "ah": 32.0,
+      "souls": 7.0,
+      "opened": true,
+      "farm60": 8197.9,
+      "score": 6183.7,
+      "legendaries": 2
+    },
+    {
+      "minute": 15,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Amplifying Tome"
+      ],
+      "ap": 242.3,
+      "ah": 32.0,
+      "souls": 8.7,
+      "opened": true,
+      "farm60": 8587.8,
+      "score": 6490.9,
+      "legendaries": 2
+    },
+    {
+      "minute": 16,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Void Amethyst"
+      ],
+      "ap": 249.8,
+      "ah": 32.0,
+      "souls": 10.7,
+      "opened": true,
+      "farm60": 8987.0,
+      "score": 6800.3,
+      "legendaries": 2
+    },
+    {
+      "minute": 17,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Void Amethyst",
+        "Fiendish Codex"
+      ],
+      "ap": 276.6,
+      "ah": 42.0,
+      "souls": 12.7,
+      "opened": true,
+      "farm60": 10019.6,
+      "score": 7564.7,
+      "legendaries": 2
+    },
+    {
+      "minute": 18,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Void Amethyst",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 310.9,
+      "ah": 42.0,
+      "souls": 14.7,
+      "opened": true,
+      "farm60": 10423.9,
+      "score": 7875.7,
+      "legendaries": 2
+    },
+    {
+      "minute": 19,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom"
+      ],
+      "ap": 316.2,
+      "ah": 52.0,
+      "souls": 16.7,
+      "opened": true,
+      "farm60": 12402.1,
+      "score": 9373.4,
+      "legendaries": 3
+    },
+    {
+      "minute": 20,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom"
+      ],
+      "ap": 316.2,
+      "ah": 52.0,
+      "souls": 18.7,
+      "opened": true,
+      "farm60": 12356.0,
+      "score": 9350.0,
+      "legendaries": 3
+    },
+    {
+      "minute": 21,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Hextech Alternator"
+      ],
+      "ap": 379.5,
+      "ah": 52.0,
+      "souls": 20.7,
+      "opened": true,
+      "farm60": 13424.6,
+      "score": 11108.4,
+      "legendaries": 3
+    },
+    {
+      "minute": 22,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Hextech Alternator"
+      ],
+      "ap": 379.5,
+      "ah": 52.0,
+      "souls": 22.9,
+      "opened": true,
+      "farm60": 13372.7,
+      "score": 11073.5,
+      "legendaries": 3
+    },
+    {
+      "minute": 23,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Hextech Alternator",
+        "Needlessly Large Rod"
+      ],
+      "ap": 449.2,
+      "ah": 52.0,
+      "souls": 25.1,
+      "opened": true,
+      "farm60": 14535.2,
+      "score": 12052.8,
+      "legendaries": 3
+    },
+    {
+      "minute": 24,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Amplifying Tome"
+      ],
+      "ap": 487.8,
+      "ah": 52.0,
+      "souls": 27.3,
+      "opened": true,
+      "farm60": 18566.2,
+      "score": 15421.7,
+      "legendaries": 4
+    },
+    {
+      "minute": 25,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Fiendish Codex"
+      ],
+      "ap": 493.1,
+      "ah": 62.0,
+      "souls": 29.5,
+      "opened": true,
+      "farm60": 19778.0,
+      "score": 16403.9,
+      "legendaries": 4
+    },
+    {
+      "minute": 26,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 519.9,
+      "ah": 72.0,
+      "souls": 31.7,
+      "opened": true,
+      "farm60": 21495.2,
+      "score": 17804.4,
+      "legendaries": 4
+    },
+    {
+      "minute": 27,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 571.4,
+      "ah": 77.0,
+      "souls": 33.9,
+      "opened": true,
+      "farm60": 23298.9,
+      "score": 19436.7,
+      "legendaries": 5
+    },
+    {
+      "minute": 28,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 571.4,
+      "ah": 77.0,
+      "souls": 36.1,
+      "opened": true,
+      "farm60": 23184.7,
+      "score": 19353.8,
+      "legendaries": 5
+    },
+    {
+      "minute": 29,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 571.4,
+      "ah": 77.0,
+      "souls": 38.3,
+      "opened": true,
+      "farm60": 23071.9,
+      "score": 19272.0,
+      "legendaries": 5
+    },
+    {
+      "minute": 30,
+      "items": [
+        "Blackfire Torch",
+        "Spellslinger's Shoes",
+        "Rylai's Crystal Scepter",
+        "Cryptbloom",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 592.8,
+      "ah": 77.0,
+      "souls": 40.5,
+      "opened": true,
+      "farm60": 23469.5,
+      "score": 19612.8,
+      "legendaries": 5
+    }
+  ]
+}
