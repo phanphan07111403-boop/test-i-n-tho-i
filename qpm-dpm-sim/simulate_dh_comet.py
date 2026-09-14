@@ -33,6 +33,41 @@ MAX_SOULS = 20
 DH_CD = 35.0
 DH_RESET_CD = 1.0
 BUILD = [DAMAGE_BOOT, *DAMAGE_FOUR]
+SPAM_BUILD = [
+    "Crimson Lucidity", "Horizon Focus", "Blackfire Torch",
+    "Cosmic Drive", "Seraph's Embrace",
+]
+
+
+def comet_dpm_60s(st, level: int = LEVEL) -> Tuple[int, float]:
+    """Comet every rune CD. AH does not reduce Comet CD. HF mark assumed on."""
+    cd = comet_cd(level)
+    t = 0.0
+    stacks = 0
+    total = 0.0
+    n = 0
+    while t < 60.0 - 1e-9:
+        total += hit(st, comet_raw(st.ap, level, stacks), True)
+        stacks += 1
+        n += 1
+        t += cd
+    return n, total
+
+
+def pack_build(names: List[str], champ: str) -> dict:
+    st = stats_of(names)
+    cpm, kit = (morgana_dpm if champ == "Morgana" else viktor_dpm)(st)
+    n, comet = comet_dpm_60s(st)
+    return {
+        "items": names,
+        "ap": round(st.ap, 1),
+        "ah": round(st.ah, 1),
+        "cpm": round(cpm, 3),
+        "kit_dpm": round(kit, 1),
+        "comet_n": n,
+        "comet_dpm": round(comet, 1),
+        "total_dpm": round(kit + comet, 1),
+    }
 
 
 def comet_base(level: int) -> float:
@@ -110,10 +145,35 @@ def summarize() -> str:
     L.append("-" * 78)
     L.append("  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP. Comet 15–100+2×stack+5% AP.")
     L.append("  Role   : mid. Giữ Luden. Không Cheap Shot / Scorch.")
-    L.append("  Cặp    : Dark Harvest vs Arcane Comet, cùng 5 slot.")
+    L.append("  Cặp    : Comet + spam-Q build vs Comet + maximize-damage build.")
+    L.append("           DH vs Comet breakpoint giữ làm context.")
     L.append("  Metric : 1 proc (HF đã mark). Breakpoint soul. 60s poke vs execute DPM.")
     L.append("")
-    L.append(f"  Build AP {st.ap:.0f}  AH {st.ah:.0f}  Morgana {mdpm:.0f} DPM kit  Viktor {vdpm:.0f}")
+    L.append("")
+    L.append("-" * 78)
+    L.append("COMET — spam Q vs maximize damage  (kit 90% poke + Comet 60s)")
+    L.append("-" * 78)
+    L.append("  Comet CD 8s @lv15, không giảm bởi AH. Spam Q không proc thêm Comet.")
+    L.append(f"  Cả hai build đều HF → Comet ăn 10% sau Q/E đầu.")
+    for champ, unit in (("Morgana", "QPM"), ("Viktor", "EPM")):
+        dmg = pack_build(BUILD, champ)
+        spam = pack_build(SPAM_BUILD, champ)
+        L.append(f"  {champ}")
+        L.append(
+            f"    Max DPM  {dmg['total_dpm']:7.0f}  kit {dmg['kit_dpm']:.0f} + Comet {dmg['comet_dpm']:.0f}  "
+            f"({dmg['comet_n']} proc)  {dmg['cpm']:.2f} {unit}  AP {dmg['ap']:.0f}"
+        )
+        L.append(
+            f"    Spam Q   {spam['total_dpm']:7.0f}  kit {spam['kit_dpm']:.0f} + Comet {spam['comet_dpm']:.0f}  "
+            f"({spam['comet_n']} proc)  {spam['cpm']:.2f} {unit}  AP {spam['ap']:.0f}"
+        )
+        L.append(
+            f"    Spam vs Max: total {100*(spam['total_dpm']/dmg['total_dpm']-1):+.1f}%  "
+            f"kit {100*(spam['kit_dpm']/dmg['kit_dpm']-1):+.1f}%  "
+            f"Comet {100*(spam['comet_dpm']/dmg['comet_dpm']-1):+.1f}%  "
+            f"{unit} {100*(spam['cpm']/dmg['cpm']-1):+.1f}%"
+        )
+    L.append("")
     L.append(f"  Comet lv{LEVEL} base {comet_base(LEVEL):.0f}  CD {ccd:.1f}s. DH CD {DH_CD:.0f}s / 1s takedown.")
     L.append("  Cả hai +5% AP → breakpoint gần như không đổi theo đồ.")
     L.append("")
@@ -161,16 +221,12 @@ def summarize() -> str:
     )
     L.append("")
     L.append("-" * 78)
-    L.append("VERDICT")
+    L.append("VERDICT — Comet: spam Q hay maximize damage?")
     L.append("-" * 78)
-    L.append(f"  Một hit, stack bằng nhau: DH thắng từ {br_eq} souls.")
-    L.append(f"  Một hit vs Comet chưa stack: DH thắng từ {br_fresh} souls.")
-    L.append("  Average lane (Comet stack mỗi poke, ~2 Comet / 1 DH soul): DH thắng từ 10 souls.")
-    L.append("  3+ Comet / soul: DH không bắt per-hit trong 20 souls.")
-    L.append("  Poke 90% (maximize DPM window): Comet luôn hơn — DH = 0.")
-    L.append("  Execute không reset: Comet vẫn hơn vì 8s vs 35s.")
-    L.append("  DH hơn Comet trên tổng damage khi có takedown reset, không phải vì số soul.")
-    L.append("  Giữ Luden. Keystone không đổi 4 đồ.")
+    L.append("  Maximize damage (Spell·Luden·HF·BF·Crypt). Không spam Crimson.")
+    L.append("  Comet CD 8s không ăn AH → +QPM không thêm proc, chỉ thêm Q yếu hơn.")
+    L.append("  Spam mất Spell 18+8% + Echo; Comet và kit cùng yếu.")
+    L.append("  DH breakpoint (context): equal 8 souls / average 10 / poke 90% Comet luôn.")
     L.append("=" * 78)
     return "\n".join(L)
 
@@ -187,22 +243,23 @@ def export_json(path: str) -> None:
                 found = s
                 break
         br[label] = found
+    dmg_m = pack_build(BUILD, "Morgana")
+    spam_m = pack_build(SPAM_BUILD, "Morgana")
+    dmg_v = pack_build(BUILD, "Viktor")
+    spam_v = pack_build(SPAM_BUILD, "Viktor")
     payload = {
         "meta": {
             "patch": "7.2e",
-            "build": BUILD,
             "keep_luden": True,
-            "dh": "35 + 11*souls + 5% AP, <50% HP, 35s CD",
-            "comet": "15-100(level) + 2*stacks + 5% AP, 16-8s CD",
+            "comet_cd_lv15": comet_cd(LEVEL),
+            "note": "Comet CD is not reduced by ability haste",
         },
-        "ap": round(st.ap, 1),
+        "morgana": {"max_dpm": dmg_m, "spam_q": spam_m},
+        "viktor": {"max_dpm": dmg_v, "spam_q": spam_v},
         "breakpoints_souls": br,
         "verdict": (
-            "Per hit equal stacks: 8 souls. Vs fresh Comet: 6. "
-            "Average 2 Comet stacks per DH soul: 10. "
-            "Poke 90%: Comet always (DH cannot proc). "
-            "No-reset execute DPM: Comet (8s vs 35s). "
-            "DH wins total damage on takedown 1s reset, not on soul count."
+            "With Comet, use maximize-damage (Spell Luden HF BF Crypt), not spam Q. "
+            "AH does not add Comet procs. Spam loses Spell pen and Echo."
         ),
     }
     with open(path, "w", encoding="utf-8") as f:
@@ -217,6 +274,14 @@ def self_check() -> None:
     assert dh_raw(st.ap, 8) > comet_raw(st.ap, LEVEL, 8)
     assert dh_raw(st.ap, 6) > comet_raw(st.ap, LEVEL, 0)
     assert dh_raw(st.ap, 5) <= comet_raw(st.ap, LEVEL, 0)
+    dm = pack_build(BUILD, "Morgana")
+    sm = pack_build(SPAM_BUILD, "Morgana")
+    dv = pack_build(BUILD, "Viktor")
+    sv = pack_build(SPAM_BUILD, "Viktor")
+    assert dm["comet_n"] == sm["comet_n"] == dv["comet_n"] == sv["comet_n"]
+    assert dm["total_dpm"] > sm["total_dpm"]
+    assert dv["total_dpm"] > sv["total_dpm"]
+    assert sm["cpm"] > dm["cpm"]
     print("self-check OK")
 
 

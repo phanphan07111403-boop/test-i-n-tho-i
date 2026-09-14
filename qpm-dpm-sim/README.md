@@ -55,3 +55,31 @@ Giữ HF · BF · Crypt. Đừng thế Crypt hay HF.
 
 Morgana nếu tối ưu lại 3 món: Spell · HF · BF · Void · Rylai (−15.1%), vẫn gần mức thế Luden.
 
+## Comet: spam Q hay maximize damage?
+
+**Maximize damage.** Spell · Luden · HF · BF · Crypt. Không Crimson spam.
+
+Comet CD **8s @lv15, không giảm bởi AH**. Cả hai build đều 8 Comet/phút. Spam +24% QPM không thêm proc.
+
+| | Morgana kit+Comet | Viktor kit+Comet |
+|--|-------------------|------------------|
+| **Max DPM** | **11494** (10558+936) | **14426** (13490+936) |
+| Spam Q | 8346 (**−27.4%**) | 10275 (**−28.8%**) |
+
+Spam mất Spell 18+8% + Luden Echo → kit **và** Comet đều yếu (~−29% Comet).
+
+
+Cùng Spell · Luden · HF · BF · Crypt. Keystone only. Cả hai +5% AP sau 7.2.
+
+**Một hit, DH thắng Comet từ:**
+
+| So với Comet | Souls |
+|--------------|-------|
+| Comet 0 stack (fresh) | **6** |
+| Cùng số stack | **8** |
+| Average ~2 Comet poke / 1 DH soul | **10** |
+| 3 Comet / soul | **14** |
+
+Poke 90% (cửa maximize DPM): **Comet luôn** — DH không proc (>50% HP). Execute không reset: Comet vẫn hơn (CD 8s vs 35s). DH hơn trên **tổng** damage khi takedown reset CD 1s, không phải vì stack.
+
+
