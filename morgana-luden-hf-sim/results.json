@@ -1,0 +1,1405 @@
+{
+  "meta": {
+    "champion": "Morgana",
+    "keystone": "Dark Harvest",
+    "role": "Mid",
+    "patch": "7.2e",
+    "pair": "Luden+Orb+Cap vs replacing Orb or Cap with Horizon Focus",
+    "horizon": "2700g, 80 AP, 25 AH, 7% pen. Hypershot +10% for 8s after ability damage from \u2265600. Applying hit is not amped. R does not apply."
+  },
+  "verdict": {
+    "orb_hf_vs_cap_combo70_20": "-9.5%",
+    "hf_cap_vs_cap_combo70_20": "-15.1%",
+    "hf_orb_vs_cap_combo70_20": "-9.5%",
+    "orb_hf_vs_cap_dpm_20": "+13.3%",
+    "hf_cap_vs_cap_dpm_20": "+17.9%",
+    "orb_hf_vs_cap_combo70_area": "-1.3%",
+    "hf_cap_vs_cap_combo70_area": "-8.6%",
+    "hf_cap_vs_cap_dpm_area": "+13.5%",
+    "fit": "Burst/all-in: do not buy HF (Orb-HF combo70 -9.5% at 20, HF-Cap -15.1%). Poke DPM: HF helps; Luden\u2192HF\u2192Cap +17.9% vs Orb\u2192Cap from 25 AH. Hypershot misses the Q+Echo apply hit."
+  },
+  "builds": {
+    "Luden \u2192 Orb \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "ap": 20.0,
+        "ah": 6.0,
+        "d70": 154.6,
+        "d40": 201.3,
+        "poke": 141.0,
+        "dpm": 698.1,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "ap": 25.0,
+        "ah": 6.0,
+        "d70": 169.4,
+        "d40": 219.5,
+        "poke": 154.7,
+        "dpm": 774.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "ap": 45.0,
+        "ah": 6.0,
+        "d70": 246.7,
+        "d40": 277.9,
+        "poke": 196.6,
+        "dpm": 897.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "ap": 45.0,
+        "ah": 17.0,
+        "d70": 217.2,
+        "d40": 283.5,
+        "poke": 196.1,
+        "dpm": 908.1,
+        "qpm": 7.8,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "ap": 60.0,
+        "ah": 22.0,
+        "d70": 299.3,
+        "d40": 340.2,
+        "poke": 231.6,
+        "dpm": 1125.9,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "ap": 80.0,
+        "ah": 22.0,
+        "d70": 481.6,
+        "d40": 524.0,
+        "poke": 251.4,
+        "dpm": 1259.1,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "ap": 105.0,
+        "ah": 22.0,
+        "d70": 591.1,
+        "d40": 629.2,
+        "poke": 341.5,
+        "dpm": 1957.7,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "ap": 125.0,
+        "ah": 22.0,
+        "d70": 809.3,
+        "d40": 837.8,
+        "poke": 488.4,
+        "dpm": 2668.4,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Amplifying Tome"
+        ],
+        "ap": 145.0,
+        "ah": 22.0,
+        "d70": 960.0,
+        "d40": 983.8,
+        "poke": 608.5,
+        "dpm": 3323.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator"
+        ],
+        "ap": 170.0,
+        "ah": 22.0,
+        "d70": 1068.4,
+        "d40": 1087.6,
+        "poke": 698.1,
+        "dpm": 3998.9,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator"
+        ],
+        "ap": 170.0,
+        "ah": 22.0,
+        "d70": 1074.0,
+        "d40": 1093.2,
+        "poke": 697.6,
+        "dpm": 3998.9,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator",
+          "Needlessly Large Rod"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1066.3,
+        "d40": 1090.2,
+        "poke": 690.0,
+        "dpm": 3979.1,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1278.3,
+        "d40": 1342.0,
+        "poke": 765.3,
+        "dpm": 4370.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1334.6,
+        "d40": 1402.9,
+        "poke": 757.4,
+        "dpm": 4354.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes"
+        ],
+        "ap": 250.0,
+        "ah": 22.0,
+        "d70": 1553.7,
+        "d40": 1608.2,
+        "poke": 982.3,
+        "dpm": 4940.6,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "ap": 295.0,
+        "ah": 22.0,
+        "d70": 1647.3,
+        "d40": 1704.9,
+        "poke": 1041.7,
+        "dpm": 5231.8,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "ap": 295.0,
+        "ah": 22.0,
+        "d70": 1653.3,
+        "d40": 1712.2,
+        "poke": 1047.1,
+        "dpm": 5231.8,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "ap": 360.0,
+        "ah": 22.0,
+        "d70": 1791.1,
+        "d40": 1851.9,
+        "poke": 1133.6,
+        "dpm": 5656.1,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "ap": 360.0,
+        "ah": 22.0,
+        "d70": 1797.0,
+        "d40": 1859.1,
+        "poke": 1138.9,
+        "dpm": 5656.1,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Rabadon's Deathcap"
+        ],
+        "ap": 494.0,
+        "ah": 22.0,
+        "d70": 2134.5,
+        "d40": 2165.8,
+        "poke": 1336.7,
+        "dpm": 6579.6,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb, Cap"
+      }
+    ],
+    "Luden \u2192 Orb \u2192 HF": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "ap": 20.0,
+        "ah": 6.0,
+        "d70": 154.6,
+        "d40": 201.3,
+        "poke": 141.0,
+        "dpm": 698.1,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "ap": 25.0,
+        "ah": 6.0,
+        "d70": 169.4,
+        "d40": 219.5,
+        "poke": 154.7,
+        "dpm": 774.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "ap": 45.0,
+        "ah": 6.0,
+        "d70": 246.7,
+        "d40": 277.9,
+        "poke": 196.6,
+        "dpm": 897.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "ap": 45.0,
+        "ah": 17.0,
+        "d70": 217.2,
+        "d40": 283.5,
+        "poke": 196.1,
+        "dpm": 908.1,
+        "qpm": 7.8,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "ap": 60.0,
+        "ah": 22.0,
+        "d70": 299.3,
+        "d40": 340.2,
+        "poke": 231.6,
+        "dpm": 1125.9,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "ap": 80.0,
+        "ah": 22.0,
+        "d70": 481.6,
+        "d40": 524.0,
+        "poke": 251.4,
+        "dpm": 1259.1,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "ap": 105.0,
+        "ah": 22.0,
+        "d70": 591.1,
+        "d40": 629.2,
+        "poke": 341.5,
+        "dpm": 1957.7,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "ap": 125.0,
+        "ah": 22.0,
+        "d70": 809.3,
+        "d40": 837.8,
+        "poke": 488.4,
+        "dpm": 2668.4,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Amplifying Tome"
+        ],
+        "ap": 145.0,
+        "ah": 22.0,
+        "d70": 960.0,
+        "d40": 983.8,
+        "poke": 608.5,
+        "dpm": 3323.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator"
+        ],
+        "ap": 170.0,
+        "ah": 22.0,
+        "d70": 1068.4,
+        "d40": 1087.6,
+        "poke": 698.1,
+        "dpm": 3998.9,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator"
+        ],
+        "ap": 170.0,
+        "ah": 22.0,
+        "d70": 1074.0,
+        "d40": 1093.2,
+        "poke": 697.6,
+        "dpm": 3998.9,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Hextech Alternator",
+          "Needlessly Large Rod"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1066.3,
+        "d40": 1090.2,
+        "poke": 690.0,
+        "dpm": 3979.1,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1278.3,
+        "d40": 1342.0,
+        "poke": 765.3,
+        "dpm": 4370.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb"
+        ],
+        "ap": 235.0,
+        "ah": 22.0,
+        "d70": 1334.6,
+        "d40": 1402.9,
+        "poke": 757.4,
+        "dpm": 4354.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes"
+        ],
+        "ap": 250.0,
+        "ah": 22.0,
+        "d70": 1553.7,
+        "d40": 1608.2,
+        "poke": 982.3,
+        "dpm": 4940.6,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Fiendish Codex"
+        ],
+        "ap": 275.0,
+        "ah": 32.0,
+        "d70": 1601.0,
+        "d40": 1659.8,
+        "poke": 1013.2,
+        "dpm": 5579.5,
+        "qpm": 9.26,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "ap": 295.0,
+        "ah": 32.0,
+        "d70": 1653.3,
+        "d40": 1712.2,
+        "poke": 1047.1,
+        "dpm": 5732.7,
+        "qpm": 9.26,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "ap": 300.0,
+        "ah": 42.0,
+        "d70": 1653.4,
+        "d40": 1717.8,
+        "poke": 920.1,
+        "dpm": 5745.0,
+        "qpm": 9.96,
+        "hf70": 0.0,
+        "notes": "Luden, Orb"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Horizon Focus"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1925.4,
+        "d40": 1974.4,
+        "poke": 1183.8,
+        "dpm": 7452.1,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, Orb, HF"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Infinity Orb",
+          "Spellslinger's Shoes",
+          "Horizon Focus"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1932.3,
+        "d40": 1982.6,
+        "poke": 1189.9,
+        "dpm": 7452.1,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, Orb, HF"
+      }
+    ],
+    "Luden \u2192 HF \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "ap": 20.0,
+        "ah": 6.0,
+        "d70": 154.6,
+        "d40": 201.3,
+        "poke": 141.0,
+        "dpm": 698.1,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "ap": 25.0,
+        "ah": 6.0,
+        "d70": 169.4,
+        "d40": 219.5,
+        "poke": 154.7,
+        "dpm": 774.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "ap": 45.0,
+        "ah": 6.0,
+        "d70": 246.7,
+        "d40": 277.9,
+        "poke": 196.6,
+        "dpm": 897.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "ap": 45.0,
+        "ah": 17.0,
+        "d70": 217.2,
+        "d40": 283.5,
+        "poke": 196.1,
+        "dpm": 908.1,
+        "qpm": 7.8,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "ap": 60.0,
+        "ah": 22.0,
+        "d70": 299.3,
+        "d40": 340.2,
+        "poke": 231.6,
+        "dpm": 1125.9,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "ap": 80.0,
+        "ah": 22.0,
+        "d70": 481.6,
+        "d40": 524.0,
+        "poke": 251.4,
+        "dpm": 1259.1,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "ap": 105.0,
+        "ah": 22.0,
+        "d70": 591.1,
+        "d40": 629.2,
+        "poke": 341.5,
+        "dpm": 1957.7,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "ap": 125.0,
+        "ah": 22.0,
+        "d70": 809.3,
+        "d40": 837.8,
+        "poke": 488.4,
+        "dpm": 2668.4,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Amplifying Tome"
+        ],
+        "ap": 145.0,
+        "ah": 22.0,
+        "d70": 960.0,
+        "d40": 983.8,
+        "poke": 608.5,
+        "dpm": 3323.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "ap": 170.0,
+        "ah": 32.0,
+        "d70": 1068.4,
+        "d40": 1087.6,
+        "poke": 698.1,
+        "dpm": 4376.5,
+        "qpm": 9.26,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "ap": 175.0,
+        "ah": 42.0,
+        "d70": 1083.6,
+        "d40": 1102.5,
+        "poke": 703.9,
+        "dpm": 4411.9,
+        "qpm": 9.96,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "ap": 195.0,
+        "ah": 42.0,
+        "d70": 999.0,
+        "d40": 1023.9,
+        "poke": 645.9,
+        "dpm": 4106.7,
+        "qpm": 9.96,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Horizon Focus"
+        ],
+        "ap": 205.0,
+        "ah": 47.0,
+        "d70": 1108.7,
+        "d40": 1134.0,
+        "poke": 695.0,
+        "dpm": 5157.6,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes"
+        ],
+        "ap": 220.0,
+        "ah": 47.0,
+        "d70": 1321.5,
+        "d40": 1345.0,
+        "poke": 786.7,
+        "dpm": 5797.8,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes"
+        ],
+        "ap": 220.0,
+        "ah": 47.0,
+        "d70": 1327.8,
+        "d40": 1351.2,
+        "poke": 786.2,
+        "dpm": 5797.8,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "ap": 265.0,
+        "ah": 47.0,
+        "d70": 1413.7,
+        "d40": 1438.2,
+        "poke": 837.6,
+        "dpm": 6165.4,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Blasting Wand"
+        ],
+        "ap": 265.0,
+        "ah": 47.0,
+        "d70": 1419.9,
+        "d40": 1444.4,
+        "poke": 837.0,
+        "dpm": 6165.4,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1544.8,
+        "d40": 1569.3,
+        "poke": 913.6,
+        "dpm": 6697.5,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Blasting Wand",
+          "Needlessly Large Rod"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1550.9,
+        "d40": 1575.4,
+        "poke": 913.0,
+        "dpm": 6697.5,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Rabadon's Deathcap"
+        ],
+        "ap": 455.0,
+        "ah": 47.0,
+        "d70": 1812.3,
+        "d40": 1826.4,
+        "poke": 1226.7,
+        "dpm": 7758.4,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF, Cap"
+      }
+    ],
+    "Luden \u2192 HF \u2192 Orb": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "ap": 20.0,
+        "ah": 6.0,
+        "d70": 154.6,
+        "d40": 201.3,
+        "poke": 141.0,
+        "dpm": 698.1,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "ap": 25.0,
+        "ah": 6.0,
+        "d70": 169.4,
+        "d40": 219.5,
+        "poke": 154.7,
+        "dpm": 774.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "ap": 45.0,
+        "ah": 6.0,
+        "d70": 246.7,
+        "d40": 277.9,
+        "poke": 196.6,
+        "dpm": 897.7,
+        "qpm": 7.07,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "ap": 45.0,
+        "ah": 17.0,
+        "d70": 217.2,
+        "d40": 283.5,
+        "poke": 196.1,
+        "dpm": 908.1,
+        "qpm": 7.8,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "ap": 60.0,
+        "ah": 22.0,
+        "d70": 299.3,
+        "d40": 340.2,
+        "poke": 231.6,
+        "dpm": 1125.9,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "ap": 80.0,
+        "ah": 22.0,
+        "d70": 481.6,
+        "d40": 524.0,
+        "poke": 251.4,
+        "dpm": 1259.1,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "ap": 105.0,
+        "ah": 22.0,
+        "d70": 591.1,
+        "d40": 629.2,
+        "poke": 341.5,
+        "dpm": 1957.7,
+        "qpm": 8.13,
+        "hf70": 0.0,
+        "notes": "\u2014"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "ap": 125.0,
+        "ah": 22.0,
+        "d70": 809.3,
+        "d40": 837.8,
+        "poke": 488.4,
+        "dpm": 2668.4,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Amplifying Tome"
+        ],
+        "ap": 145.0,
+        "ah": 22.0,
+        "d70": 960.0,
+        "d40": 983.8,
+        "poke": 608.5,
+        "dpm": 3323.3,
+        "qpm": 8.56,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "ap": 170.0,
+        "ah": 32.0,
+        "d70": 1068.4,
+        "d40": 1087.6,
+        "poke": 698.1,
+        "dpm": 4376.5,
+        "qpm": 9.26,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "ap": 175.0,
+        "ah": 42.0,
+        "d70": 1083.6,
+        "d40": 1102.5,
+        "poke": 703.9,
+        "dpm": 4411.9,
+        "qpm": 9.96,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "ap": 195.0,
+        "ah": 42.0,
+        "d70": 999.0,
+        "d40": 1023.9,
+        "poke": 645.9,
+        "dpm": 4106.7,
+        "qpm": 9.96,
+        "hf70": 0.0,
+        "notes": "Luden"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Horizon Focus"
+        ],
+        "ap": 205.0,
+        "ah": 47.0,
+        "d70": 1108.7,
+        "d40": 1134.0,
+        "poke": 695.0,
+        "dpm": 5157.6,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes"
+        ],
+        "ap": 220.0,
+        "ah": 47.0,
+        "d70": 1321.5,
+        "d40": 1345.0,
+        "poke": 786.7,
+        "dpm": 5797.8,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Amplifying Tome"
+        ],
+        "ap": 240.0,
+        "ah": 47.0,
+        "d70": 1368.7,
+        "d40": 1391.0,
+        "poke": 812.5,
+        "dpm": 5970.2,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Hextech Alternator"
+        ],
+        "ap": 265.0,
+        "ah": 47.0,
+        "d70": 1413.7,
+        "d40": 1438.2,
+        "poke": 837.6,
+        "dpm": 6165.4,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Hextech Alternator"
+        ],
+        "ap": 265.0,
+        "ah": 47.0,
+        "d70": 1419.9,
+        "d40": 1444.4,
+        "poke": 837.0,
+        "dpm": 6165.4,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Hextech Alternator",
+          "Needlessly Large Rod"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1544.8,
+        "d40": 1569.3,
+        "poke": 913.6,
+        "dpm": 6697.5,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, HF"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Infinity Orb"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1925.4,
+        "d40": 1974.4,
+        "poke": 1183.8,
+        "dpm": 7452.1,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, Orb, HF"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Horizon Focus",
+          "Spellslinger's Shoes",
+          "Infinity Orb"
+        ],
+        "ap": 330.0,
+        "ah": 47.0,
+        "d70": 1932.3,
+        "d40": 1982.6,
+        "poke": 1189.9,
+        "dpm": 7452.1,
+        "qpm": 10.32,
+        "hf70": 7.0,
+        "notes": "Luden, Orb, HF"
+      }
+    ]
+  }
+}
