@@ -1,0 +1,75 @@
+==============================================================================
+MORGANA JUNGLE — DARK HARVEST FULL BUILD (Wild Rift 7.2e)
+Role: đi rừng · Keystone: Dark Harvest · Clear then gank <50%
+Không có Diamond+ jungle WR — đây là kit, không copy mid/support.
+==============================================================================
+
+FULL BUILD (mặc định)
+------------------------------------------------------------------------------
+  Summoner : Flash + Smite
+  Skill    : W > Q > E   |  R @ 5 / 9 / 13
+  Ngọc     : Dark Harvest · Cheap Shot · Manaflow
+             Transcendence · Relentless Hunter
+  Start    : Amplifying Tome  (WR không có món rừng — Smite chứa clear)
+  Slot     : 5 ô (giày + 4 món). Đừng list món 6 như PC.
+
+  1. Lost Chapter → Fated Ashes → Blackfire Torch   (~8:00)
+  2. Boots of Mana                                 (~2:00 T2)
+  3. Liandry's Torment                             (~13:00)
+  4. Spellslinger's Shoes                          (sau 10:00, ~15:00)
+  5. Rylai's Crystal Scepter                       (~19:00)  ← giữ W / DH@90%
+  Full 5 ô: Spellslinger · Blackfire · Liandry · Rylai · Deathcap
+  Deathcap không xong trong 20p vàng rừng. Zhonya/Void thay Cap.
+
+  Vì sao không copy mid:
+  • Smite Recoup = 4 mana/s trong rừng — OOM clear nhẹ hơn mid.
+  • Big Bully không ăn camp. Spellslinger vẫn lấy vì 7.2 core = 0 pen.
+  • Blackfire burn quái 40+2% AP/s + stack trên large monster.
+  • DH proc tướng <50%. Gank 70%: Q thường đã execute — DH nổ trên Q.
+  • Gank 90% (lane còn máu): không Rylai → họ bước ra pool trước 50%.
+  • Rylai là ô 4 vì giữ W/teamfight, không vì 70% gank hụt DH.
+
+------------------------------------------------------------------------------
+GANK 70% HP (execute) + DH@90% (healthy — Rylai quyết proc)
+------------------------------------------------------------------------------
+   6:00 | Spell+Rylai    491 (DH70 40% / DH90 10%)  Ionia    464  noRylai    491 (DH90 10%)
+         items: Boots of Mana › Lost Chapter
+   8:00 | Spell+Rylai    708 (DH70 100% / DH90 10%)  Ionia    622  noRylai    708 (DH90 10%)
+         items: Boots of Mana › Blackfire Torch
+  10:00 | Spell+Rylai    961 (DH70 100% / DH90 10%)  Ionia    860  noRylai    961 (DH90 10%)
+         items: Boots of Mana › Blackfire Torch › Haunting Guise
+  12:00 | Spell+Rylai   1027 (DH70 100% / DH90 10%)  Ionia    931  noRylai   1027 (DH90 10%)
+         items: Boots of Mana › Blackfire Torch › Haunting Guise › Fated Ashes
+  14:00 | Spell+Rylai   1118 (DH70 100% / DH90 10%)  Ionia   1053  noRylai   1118 (DH90 10%)
+         items: Boots of Mana › Blackfire Torch › Liandry's Torment
+  16:00 | Spell+Rylai   1396 (DH70 100% / DH90 40%)  Ionia   1208  noRylai   1396 (DH90 40%)
+         items: Blackfire Torch › Liandry's Torment › Spellslinger's Shoes
+  18:00 | Spell+Rylai   1496 (DH70 100% / DH90 40%)  Ionia   1632  noRylai   1513 (DH90 40%)
+         items: Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Giant's Belt › Blasting Wand
+  20:00 | Spell+Rylai   2069 (DH70 100% / DH90 100%)  Ionia   1790  noRylai   1965 (DH90 100%)
+         items: Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Rylai's Crystal Scepter
+
+  Diện tích gank 70% 20p: Spell+Rylai 18520  |  Ionia 16604 (-10.3%)  |  noRylai 18188 (-1.8%)
+  DH@90% phút 12–20: Rylai 3.9  noRylai 3.6  (dwell @20 5.0s vs 2.8s)
+  Q/phút @20: Spell 9.3  Ionia 11.0
+  Clear camp @8 (sau BF): Spell 1034  Ionia 982
+
+  Spike
+    Spell+Rylai: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rylai's~19:00
+    Ionia: Ionian~3:00, Blackfire~8:00, Liandry's~13:00, Crimson~15:00, Rylai's~18:00
+    noRylai: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Void~20:00
+    Zhonya: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rylai's~19:00
+
+------------------------------------------------------------------------------
+SITUATIONAL
+------------------------------------------------------------------------------
+  Zhonya     thay Cap nếu assassin / cần R-stasis (ô 5).
+  Void       thay Cap nếu 2+ tank (40% pen). Đừng thay Rylai.
+  Bloodletter  thay Cap vs tank/burn — shred 30% từ tick W.
+  Cryptbloom  nếu cần 30% pen + 20 AH, không cần max Void.
+  Ionia/Crimson  nếu Flash-R / Q haste > pen (ít gank execute).
+  Mercury     chỉ khi CC nặng — không phải default DH.
+
+  PLAY: full clear W (để W tick hết bãi, đừng AA cắt CDR) →
+  gank lane đã thê → Q → W dưới chân → Cheap Shot + DH khi <50%.
+==============================================================================

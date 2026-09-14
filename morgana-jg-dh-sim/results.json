@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "champion": "Morgana",
+    "role": "Jungle",
+    "keystone": "Dark Harvest",
+    "patch": "7.2e",
+    "note": "No Diamond+ jungle WR sample; mechanism build."
+  },
+  "builds": {
+    "DH \u00b7 Mana \u2192 Spellslinger \u2192 Rylai \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "gold": 930,
+        "gank": 145.2,
+        "camp": 339.7,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "gold": 1360,
+        "gank": 190.8,
+        "camp": 475.3,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 1790,
+        "gank": 211.0,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "gold": 2220,
+        "gank": 213.4,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.7,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 2730,
+        "gank": 252.8,
+        "camp": 664.2,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 1.4,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "gold": 3240,
+        "gank": 491.1,
+        "camp": 699.7,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 2.1,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3750,
+        "gank": 642.3,
+        "camp": 793.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 2.8,
+        "notes": "DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 4260,
+        "gank": 708.5,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 3.5,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Ruby Crystal"
+        ],
+        "gold": 4835,
+        "gank": 786.4,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.2,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5410,
+        "gank": 961.1,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.9,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5985,
+        "gank": 946.0,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 5.6,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 6560,
+        "gank": 1027.0,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 6.3,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7200,
+        "gank": 1111.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.0,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7840,
+        "gank": 1117.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.7,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes"
+        ],
+        "gold": 8480,
+        "gank": 1348.8,
+        "camp": 1208.5,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 8.4,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome"
+        ],
+        "gold": 9120,
+        "gank": 1396.5,
+        "camp": 1249.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.1,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Giant's Belt"
+        ],
+        "gold": 9820,
+        "gank": 1397.2,
+        "camp": 1249.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.8,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 10520,
+        "gank": 1495.6,
+        "camp": 1342.2,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 10.5,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 11220,
+        "gank": 2008.7,
+        "camp": 1342.2,
+        "dh_p": 1.0,
+        "dh_p90": 1.0,
+        "souls": 11.2,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Rylai's Crystal Scepter",
+          "Amplifying Tome"
+        ],
+        "gold": 11920,
+        "gank": 2068.9,
+        "camp": 1383.3,
+        "dh_p": 1.0,
+        "dh_p90": 1.0,
+        "souls": 11.9,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      }
+    ],
+    "DH \u00b7 Ionian \u2192 Crimson \u2192 Rylai \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "gold": 930,
+        "gank": 145.2,
+        "camp": 339.7,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed",
+          "Ring of Revelation"
+        ],
+        "gold": 1360,
+        "gank": 166.9,
+        "camp": 466.4,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Amplifying Tome",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 1790,
+        "gank": 167.0,
+        "camp": 466.4,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Lost Chapter"
+        ],
+        "gold": 2220,
+        "gank": 181.8,
+        "camp": 493.1,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.7,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "gold": 2730,
+        "gank": 233.6,
+        "camp": 655.3,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 1.4,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3240,
+        "gank": 464.2,
+        "camp": 749.3,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 2.1,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3750,
+        "gank": 552.0,
+        "camp": 749.3,
+        "dh_p": 0.75,
+        "dh_p90": 0.1,
+        "souls": 2.8,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch"
+        ],
+        "gold": 4260,
+        "gank": 622.2,
+        "camp": 982.2,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 3.5,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Amplifying Tome",
+          "Ruby Crystal"
+        ],
+        "gold": 4835,
+        "gank": 718.4,
+        "camp": 1023.4,
+        "dh_p": 0.75,
+        "dh_p90": 0.1,
+        "souls": 4.2,
+        "notes": "BF camp burn, DH@90% walks out"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5410,
+        "gank": 859.5,
+        "camp": 1044.0,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.9,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5985,
+        "gank": 853.9,
+        "camp": 1044.0,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 5.6,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 6560,
+        "gank": 930.8,
+        "camp": 1126.2,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 6.3,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7200,
+        "gank": 1011.9,
+        "camp": 1126.2,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.0,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Amplifying Tome"
+        ],
+        "gold": 7840,
+        "gank": 1053.2,
+        "camp": 1167.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.7,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Amplifying Tome",
+          "Crimson Lucidity"
+        ],
+        "gold": 8480,
+        "gank": 1122.7,
+        "camp": 1167.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 8.4,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Amplifying Tome",
+          "Crimson Lucidity",
+          "Blasting Wand"
+        ],
+        "gold": 9120,
+        "gank": 1207.9,
+        "camp": 1259.9,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 9.1,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Amplifying Tome",
+          "Crimson Lucidity",
+          "Blasting Wand"
+        ],
+        "gold": 9820,
+        "gank": 1209.1,
+        "camp": 1259.9,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 9.8,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Crimson Lucidity",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 10520,
+        "gank": 1632.4,
+        "camp": 1259.9,
+        "dh_p": 1.0,
+        "dh_p90": 0.75,
+        "souls": 10.5,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Crimson Lucidity",
+          "Rylai's Crystal Scepter",
+          "Amplifying Tome"
+        ],
+        "gold": 11220,
+        "gank": 1681.2,
+        "camp": 1301.1,
+        "dh_p": 1.0,
+        "dh_p90": 0.75,
+        "souls": 11.2,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Crimson Lucidity",
+          "Rylai's Crystal Scepter",
+          "Amplifying Tome",
+          "Blasting Wand"
+        ],
+        "gold": 11920,
+        "gank": 1789.8,
+        "camp": 1393.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.75,
+        "souls": 11.9,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      }
+    ],
+    "DH \u00b7 Spellslinger \u2192 Void (no Rylai)": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "gold": 930,
+        "gank": 145.2,
+        "camp": 339.7,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "gold": 1360,
+        "gank": 190.8,
+        "camp": 475.3,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 1790,
+        "gank": 211.0,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "gold": 2220,
+        "gank": 213.4,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.7,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 2730,
+        "gank": 252.8,
+        "camp": 664.2,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 1.4,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "gold": 3240,
+        "gank": 491.1,
+        "camp": 699.7,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 2.1,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3750,
+        "gank": 642.3,
+        "camp": 793.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 2.8,
+        "notes": "DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 4260,
+        "gank": 708.5,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 3.5,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Ruby Crystal"
+        ],
+        "gold": 4835,
+        "gank": 786.4,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.2,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5410,
+        "gank": 961.1,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.9,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5985,
+        "gank": 946.0,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 5.6,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 6560,
+        "gank": 1027.0,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 6.3,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7200,
+        "gank": 1111.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.0,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7840,
+        "gank": 1117.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.7,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes"
+        ],
+        "gold": 8480,
+        "gank": 1348.8,
+        "camp": 1208.5,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 8.4,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome"
+        ],
+        "gold": 9120,
+        "gank": 1396.5,
+        "camp": 1249.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.1,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Void Amethyst"
+        ],
+        "gold": 9820,
+        "gank": 1506.7,
+        "camp": 1290.8,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.8,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Void Amethyst"
+        ],
+        "gold": 10520,
+        "gank": 1513.4,
+        "camp": 1290.8,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 10.5,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Void Amethyst",
+          "Needlessly Large Rod"
+        ],
+        "gold": 11220,
+        "gank": 1652.6,
+        "camp": 1424.5,
+        "dh_p": 1.0,
+        "dh_p90": 0.75,
+        "souls": 11.2,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% holds"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Void Staff"
+        ],
+        "gold": 11920,
+        "gank": 1965.1,
+        "camp": 1445.0,
+        "dh_p": 1.0,
+        "dh_p90": 1.0,
+        "souls": 11.9,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% holds"
+      }
+    ],
+    "DH \u00b7 Spellslinger \u2192 Rylai \u2192 Zhonya": [
+      {
+        "minute": 1,
+        "items": [
+          "Amplifying Tome",
+          "Boots of Speed"
+        ],
+        "gold": 930,
+        "gank": 145.2,
+        "camp": 339.7,
+        "dh_p": 0.1,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@70% misses, DH@90% walks out"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Mana"
+        ],
+        "gold": 1360,
+        "gank": 190.8,
+        "camp": 475.3,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 1790,
+        "gank": 211.0,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.0,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Mana",
+          "Amplifying Tome",
+          "Ring of Revelation"
+        ],
+        "gold": 2220,
+        "gank": 213.4,
+        "camp": 510.8,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 0.7,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 2730,
+        "gank": 252.8,
+        "camp": 664.2,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 1.4,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Amplifying Tome"
+        ],
+        "gold": 3240,
+        "gank": 491.1,
+        "camp": 699.7,
+        "dh_p": 0.4,
+        "dh_p90": 0.1,
+        "souls": 2.1,
+        "notes": "DH@90% walks out"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Mana",
+          "Lost Chapter",
+          "Fated Ashes"
+        ],
+        "gold": 3750,
+        "gank": 642.3,
+        "camp": 793.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 2.8,
+        "notes": "DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch"
+        ],
+        "gold": 4260,
+        "gank": 708.5,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 3.5,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Ruby Crystal"
+        ],
+        "gold": 4835,
+        "gank": 786.4,
+        "camp": 1033.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.2,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5410,
+        "gank": 961.1,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 4.9,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise"
+        ],
+        "gold": 5985,
+        "gank": 946.0,
+        "camp": 1095.4,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 5.6,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Haunting Guise",
+          "Fated Ashes"
+        ],
+        "gold": 6560,
+        "gank": 1027.0,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 6.3,
+        "notes": "BF camp burn, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7200,
+        "gank": 1111.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.0,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "gold": 7840,
+        "gank": 1117.5,
+        "camp": 1177.7,
+        "dh_p": 1.0,
+        "dh_p90": 0.1,
+        "souls": 7.7,
+        "notes": "BF camp burn, Liandry, DH@70% on Q, DH@90% walks out"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes"
+        ],
+        "gold": 8480,
+        "gank": 1348.8,
+        "camp": 1208.5,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 8.4,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome"
+        ],
+        "gold": 9120,
+        "gank": 1396.5,
+        "camp": 1249.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.1,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Giant's Belt"
+        ],
+        "gold": 9820,
+        "gank": 1397.2,
+        "camp": 1249.6,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 9.8,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Amplifying Tome",
+          "Giant's Belt",
+          "Blasting Wand"
+        ],
+        "gold": 10520,
+        "gank": 1495.6,
+        "camp": 1342.2,
+        "dh_p": 1.0,
+        "dh_p90": 0.4,
+        "souls": 10.5,
+        "notes": "BF camp burn, Liandry, DH@70% on Q"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 11220,
+        "gank": 2008.7,
+        "camp": 1342.2,
+        "dh_p": 1.0,
+        "dh_p90": 1.0,
+        "souls": 11.2,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Spellslinger's Shoes",
+          "Rylai's Crystal Scepter",
+          "Amplifying Tome"
+        ],
+        "gold": 11920,
+        "gank": 2068.9,
+        "camp": 1383.3,
+        "dh_p": 1.0,
+        "dh_p90": 1.0,
+        "souls": 11.9,
+        "notes": "BF camp burn, Liandry, rylai lock, DH@70% on Q, DH@90% holds"
+      }
+    ]
+  }
+}
