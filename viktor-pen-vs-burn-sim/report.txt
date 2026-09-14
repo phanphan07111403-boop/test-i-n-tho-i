@@ -1,0 +1,93 @@
+==============================================================================
+VIKTOR MID — MAGIC PEN / BURST vs BF + LIANDRY (Wild Rift 7.2e)
+Role: mid · E-max poke then R 5.5s · 5 ô (giày + 4)
+Cặp: Luden→Orb→Cap  vs  Blackfire→Liandry→Void
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. T3 mage mất 7% pen. Không PC Shadowflame.
+  Role   : mid. E waveclear + Big Bully. Không copy jungle/support.
+  Cặp    : Luden+Orb (burst/execute) vs BF+Liandry (burn). Cùng Spellslinger.
+  Metric : E poke full HP, và all-in 5.5s (E+Q+AA+R) lên squishy vs tank.
+
+  Diamond+ (2026-09-06): Luden→Orb→Cap 54.66% WR / 25% pick;
+  BF→Liandry→Void 51.91% WR / 7.6% pick. WR không phải metric cặp này.
+  Mercury 39% pick so với Ionia — A vs C, không dùng cho cặp này.
+
+PATH A — magic pen / burst
+------------------------------------------------------------------------------
+  Spellslinger · Luden's Echo · Infinity Orb · Deathcap
+  Luden ~8:00  Orb ~13:00  Spell ~15:00  Cap ~20:00
+  Luden = Echo 140+15% AP / 9s (7.2b), 0% pen (T3 stripped).
+  Orb = 110 AP + 15 flat + 20% dmg khi <35% HP. Không phải Void.
+
+PATH B — BF + Liandry
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Liandry · Void Staff
+  BF ~8:00  Liandry ~13:00  Spell ~15:00  Void ~19:00
+  BF 20+2% AP/s + 20 AH (nhiều E hơn). Liandry 2% max HP/s. Void 40%.
+
+------------------------------------------------------------------------------
+E POKE (full HP, laser + aftershock + 3s burn / 1 Echo)
+------------------------------------------------------------------------------
+   6:00 | Pen sq   325  Burn sq   325  | Pen tank   309  Burn tank   309
+         pen: Boots of Mana › Lost Chapter
+         burn:Boots of Mana › Lost Chapter
+   8:00 | Pen sq   467  Burn sq   388  | Pen tank   438  Burn tank   364
+         pen: Boots of Mana › Luden's Echo
+         burn:Boots of Mana › Blackfire Torch
+  10:00 | Pen sq   508  Burn sq   411  | Pen tank   426  Burn tank   345
+         pen: Boots of Mana › Luden's Echo › Needlessly Large Rod
+         burn:Boots of Mana › Blackfire Torch › Haunting Guise
+  12:00 | Pen sq   482  Burn sq   391  | Pen tank   410  Burn tank   333
+         pen: Boots of Mana › Luden's Echo › Needlessly Large Rod
+         burn:Boots of Mana › Blackfire Torch › Haunting Guise › Fated Ashes
+  14:00 | Pen sq   529  Burn sq   471  | Pen tank   404  Burn tank   388
+         pen: Boots of Mana › Luden's Echo › Infinity Orb
+         burn:Boots of Mana › Blackfire Torch › Liandry's Torment
+  16:00 | Pen sq   636  Burn sq   574  | Pen tank   443  Burn tank   447
+         pen: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Blasting Wand
+         burn:Blackfire Torch › Liandry's Torment › Spellslinger's Shoes
+  18:00 | Pen sq   684  Burn sq   576  | Pen tank   440  Burn tank   422
+         pen: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Blasting Wand › Needlessly Large Rod
+         burn:Blackfire Torch › Liandry's Torment › Spellslinger's Shoes
+  20:00 | Pen sq   793  Burn sq   742  | Pen tank   488  Burn tank   574
+         pen: Luden's Echo › Infinity Orb › Spellslinger's Shoes › Rabadon's Deathcap
+         burn:Blackfire Torch › Liandry's Torment › Spellslinger's Shoes › Void Staff
+
+  Diện tích poke squishy 20p: Pen 8834  Burn 7982 (-9.6%)
+  E/phút @20: Pen 10.5  Burn 11.3 (BF 20 AH vs Luden 10 AH)
+
+------------------------------------------------------------------------------
+ALL-IN 5.5s (E + Q + empowered AA + R storm + burns)
+------------------------------------------------------------------------------
+   8:00 | Pen sq  1420  Burn sq  1342  | Pen tank  1334  Burn tank  1260
+  10:00 | Pen sq  1665  Burn sq  1564  | Pen tank  1398  Burn tank  1314
+  12:00 | Pen sq  1614  Burn sq  1520  | Pen tank  1375  Burn tank  1295
+  14:00 | Pen sq  2105  Burn sq  1868  | Pen tank  1514  Burn tank  1498
+  16:00 | Pen sq  2610  Burn sq  2293  | Pen tank  1682  Burn tank  1730
+  18:00 | Pen sq  2847  Burn sq  2290  | Pen tank  1692  Burn tank  1620
+  20:00 | Pen sq  3412  Burn sq  3006  | Pen tank  1910  Burn tank  2241
+
+  All-in squishy 20p: Pen 32556  Burn 29891 (-8.2%)
+  All-in tank 20p:    Pen 23643  Burn 24174 (+2.2%)
+  Pen+Void tank all-in: 23909  Burn+Cap tank: 23269
+
+  Spike
+    Pen Cap: Boots~2:00, Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+    Burn Void: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Void~19:00
+    Pen Void: Boots~2:00, Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Void~20:00
+    Burn Cap: Boots~2:00, Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rabadon's~20:00
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Poke squishy: PEN thắng (Echo + Orb AP + flat pen, chúng full HP).
+  All-in tank 5.5s: BURN thắng (Liandry %HP + Void, R giữ burn).
+  Phút 8–15 Pen vẫn hơn hoặc hòa tank — Burn chỉ lật sau Void ~19:00.
+  All-in squishy: PEN (Orb execute <35% + Echo).
+  Default: đội nhiều squishy / poke lane → Luden Orb Cap.
+  Default: 2+ tank / fight dài quanh R → BF Liandry Void.
+  Đừng thay Spellslinger: core 7.2 = 0 pen nếu không giày/% Void.
+==============================================================================
