@@ -1,0 +1,205 @@
+==============================================================================
+MORGANA DH FARM — Q + W  (WR 7.2e)
+Bỏ burst: không R, Echo, Squall, Stormsurge. Không khóa Luden.
+Mỗi Q và W là cửa DH (<50%). Mid gold. W-max. Spell lúc 10:00.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP, <50%, 35s CD.
+  Role   : mid. Farm soul bằng Q/W chip → execute. Không jungle camp.
+  Cặp    : BF→HF→Crypt vs BF→Liandry→Rylai vs Luden→HF→Crypt
+           vs BF→Orb→Cap (burst path, đối chứng).
+  Metric : 60s farm @45% = QPM×Q + WPM×W + DH mỗi 35s. Q-only / W-only.
+           Chip 70% Q+W không R. Tổng phút 1–20. Không combo burst.
+
+  DH CD 35s không giảm bởi AH. AH để Q/W chip vào cửa thường hơn.
+  HF: Q apply, W ticks +10%. W amp mạnh khi thiếu máu (cửa DH).
+
+------------------------------------------------------------------------------
+BUILD ORDER — BF → Spell → Crypt → HF
+------------------------------------------------------------------------------
+  Chapter  phút 6
+  Ashes    phút 8
+  BF       phút 9
+  Spell    phút 11
+  HF       phút 20
+  Crypt    phút 16
+  1) Tome → Boots of Speed → Boots of Mana → Lost Chapter
+  2) Fated Ashes → Blackfire Torch
+  3) Spellslinger's Shoes (T3 mở 10:00)
+  4) Cryptbloom (Void Amethyst + Codex + Tome) — pen cho mọi Q/W/DH
+  5) Horizon Focus (2× Codex + Tome) — Q apply, W +10%
+  HF trước Crypt: −1.4% Σ60s (AH sớm, pen muộn).
+
+------------------------------------------------------------------------------
+Q+W farm 60s @45%  (QPM×Q + WPM×W + DH/35s)  — metric chính
+------------------------------------------------------------------------------
+  path                        Σ1-20      m8     m12     m18     m20
+  BF → Crypt → HF             94316    3571    5167    8797    9937  +0.0%
+  BF → HF → Crypt             92951    3571    5349    8067    9937  -1.4%
+  BF → HF → Cap               91606    3571    5349    7227    9494  -2.9%
+  BF → Orb → Cap              85900    3571    4728    7028    7900  -8.9%
+  Luden → HF → Crypt          85481    3558    4834    7330    9049  -9.4%
+  BF → Liandry → Rylai        84161    3571    4931    6110    9793  -10.8%
+
+------------------------------------------------------------------------------
+Q-only / W-only @45%  — từng skill là cửa DH
+------------------------------------------------------------------------------
+  BF → Crypt → HF          ΣQ    7101  ΣW    6626  QPM@12 9.26  WPM@12 6.60
+  BF → HF → Crypt          ΣQ    6961  ΣW    6444  QPM@12 9.96  WPM@12 7.10
+  BF → HF → Cap            ΣQ    6971  ΣW    6451  QPM@12 9.96  WPM@12 7.10
+  BF → Orb → Cap           ΣQ    7211  ΣW    6754  QPM@12 9.26  WPM@12 6.60
+  Luden → HF → Crypt       ΣQ    7071  ΣW    5965  QPM@12 9.26  WPM@12 6.60
+  BF → Liandry → Rylai     ΣQ    6576  ΣW    7040  QPM@12 9.26  WPM@12 6.60
+
+------------------------------------------------------------------------------
+CHIP 70% bằng Q+W (không R) — vào cửa <50%?
+------------------------------------------------------------------------------
+  BF → Crypt → HF          vào cửa 14/20 phút  chip@8 514  @12 697  crossed@12 yes
+  BF → HF → Crypt          vào cửa 14/20 phút  chip@8 514  @12 670  crossed@12 yes
+  BF → HF → Cap            vào cửa 14/20 phút  chip@8 514  @12 670  crossed@12 yes
+  BF → Orb → Cap           vào cửa 14/20 phút  chip@8 514  @12 637  crossed@12 yes
+  Luden → HF → Crypt       vào cửa 14/20 phút  chip@8 511  @12 645  crossed@12 yes
+  BF → Liandry → Rylai     vào cửa 14/20 phút  chip@8 514  @12 663  crossed@12 yes
+
+------------------------------------------------------------------------------
+SNAPSHOT phút 8 / 12 / 18 / 20
+------------------------------------------------------------------------------
+  phút 8
+    BF → Crypt → HF          60s   3571  QW   546  AP   100 AH   22  Mana · Chapter · Ashes
+    BF → HF → Crypt          60s   3571  QW   546  AP   100 AH   22  Mana · Chapter · Ashes
+    BF → HF → Cap            60s   3571  QW   546  AP   100 AH   22  Mana · Chapter · Ashes
+    BF → Orb → Cap           60s   3571  QW   546  AP   100 AH   22  Mana · Chapter · Ashes
+    Luden → HF → Crypt       60s   3558  QW   543  AP   105 AH   22  Mana · Chapter
+    BF → Liandry → Rylai     60s   3571  QW   546  AP   100 AH   22  Mana · Chapter · Ashes
+  phút 12
+    BF → Crypt → HF          60s   5167  QW   728  AP   146 AH   32  BF · Spell
+    BF → HF → Crypt          60s   5349  QW   701  AP   151 AH   42  BF · Spell
+    BF → HF → Cap            60s   5349  QW   701  AP   151 AH   42  BF · Spell
+    BF → Orb → Cap           60s   4728  QW   669  AP   125 AH   32  BF · Spell
+    Luden → HF → Crypt       60s   4834  QW   678  AP   165 AH   32  Luden · Spell
+    BF → Liandry → Rylai     60s   4931  QW   695  AP   146 AH   32  BF · Spell
+  phút 18
+    BF → Crypt → HF          60s   8797  QW   974  AP   250 AH   72  BF · Spell · Crypt
+    BF → HF → Crypt          60s   8067  QW   968  AP   255 AH   67  BF · Spell · HF
+    BF → HF → Cap            60s   7227  QW   921  AP   255 AH   57  BF · Spell · HF
+    BF → Orb → Cap           60s   7028  QW  1094  AP   286 AH   32  BF · Spell · Orb
+    Luden → HF → Crypt       60s   7330  QW   929  AP   265 AH   57  Luden · Spell · HF
+    BF → Liandry → Rylai     60s   6110  QW   883  AP   218 AH   32  BF · Spell · Liandry
+  phút 20
+    BF → Crypt → HF          60s   9937  QW  1131  AP   281 AH   77  BF · Spell · Crypt · HF
+    BF → HF → Crypt          60s   9937  QW  1131  AP   281 AH   77  BF · Spell · HF · Crypt
+    BF → HF → Cap            60s   9494  QW  1189  AP   446 AH   57  BF · Spell · HF · Cap
+    BF → Orb → Cap           60s   7900  QW  1210  AP   354 AH   32  BF · Spell · Orb · NLR
+    Luden → HF → Crypt       60s   9049  QW  1086  AP   290 AH   67  Luden · Spell · HF · Crypt
+    BF → Liandry → Rylai     60s   9793  QW  1437  AP   265 AH   32  BF · Spell · Liandry · Rylai
+
+------------------------------------------------------------------------------
+VERDICT — farm DH, không burst
+------------------------------------------------------------------------------
+  Winner 60s farm: BF → Crypt → HF
+  Build: Blackfire → Spellslinger → Cryptbloom → Horizon Focus.
+  vs Luden core  +10.3% Σ60s. Echo không đếm (burst). Không bắt Luden.
+  vs Liandry-Rylai +12.1%.
+  vs Orb-Cap burst +9.8%. Orb tắt @45%. Cap/NLR 0 AH — ít Q/W hơn.
+  Đừng Stormsurge. Đừng tối ưu 1 combo R. Q và W là cửa DH; AH để spam khi <50%.
+  2 món cuối: xem section sau (slot 5 + bán support slot 6).
+==============================================================================
+
+==============================================================================
+2 MÓN CUỐI — slot 5 + bán đồ support lấy slot 6
+==============================================================================
+  Core khóa: Spell · BF · Crypt · HF (4/6 slot, xong ~phút 20).
+  WR 6 slot = giày + 5 legendary. Còn đúng 2 món.
+  Bán đồ support 1120g (70% Shard of True Ice 1600) ngay khi món 5 xong.
+  GS (đã khóa vs Scorch) + Cap amp GS. Crypt đã có → cấm Void.
+  Bloodletter 30% shred cộng với Crypt 30% pen (không exclusive).
+  Metric: farm60 @45%. Không R, Echo, Squall, Stormsurge.
+  Game TB 25m; sim tới 30 để món 6 kip xong.
+
+------------------------------------------------------------------------------
+MÓN 5 (chưa bán support) — Σ farm60 phút 21–25
+------------------------------------------------------------------------------
+  Rylai        phút 24  Σ21-25   69332  @25  17573  AP   421 AH   77  +0.0%
+  Bloodletter  phút 24  Σ21-25   64994  @25  14466  AP   421 AH   92  -6.3%
+  Cap          phút 25  Σ21-25   64044  @25  15465  AP   635 AH   77  -7.6%
+  Orb          phút 24  Σ21-25   63871  @25  14602  AP   468 AH   77  -7.9%
+  Cosmic       phút 24  Σ21-25   62991  @25  13902  AP   426 AH  102  -9.1%
+  Luden        phút 24  Σ21-25   62705  @25  13405  AP   458 AH   87  -9.6%
+  Liandry      phút 24  Σ21-25   61275  @25  13187  AP   426 AH   77  -11.6%
+
+------------------------------------------------------------------------------
+CẶP MÓN 5 → MÓN 6 (bán support) — Σ phút 21–25 (game TB)
+------------------------------------------------------------------------------
+  Rylai → Cap            5@24 6@27  sell@24  Σ21-25   73423  @25  20145  +0.0%
+  Rylai → Luden          5@24 6@26  sell@24  Σ21-25   73005  @25  19410  -0.6%
+  Rylai → Bloodletter    5@24 6@27  sell@24  Σ21-25   72363  @25  19904  -1.4%
+  Rylai → Cosmic         5@24 6@27  sell@24  Σ21-25   71746  @25  19287  -2.3%
+  Rylai → Liandry        5@24 6@27  sell@24  Σ21-25   71668  @25  19209  -2.4%
+  Rylai → Orb            5@24 6@27  sell@24  Σ21-25   71434  @25  18625  -2.7%
+  Bloodletter → Luden    5@24 6@27  sell@24  Σ21-25   67879  @25  15908  -7.6%
+  Bloodletter → Cosmic   5@24 6@27  sell@24  Σ21-25   66912  @25  15807  -8.9%
+  Bloodletter → Cap      5@24 6@28  sell@24  Σ21-25   66725  @25  15331  -9.1%
+  Bloodletter → Orb      5@24 6@27  sell@24  Σ21-25   66725  @25  15331  -9.1%
+  Orb → Bloodletter      5@24 6@27  sell@24  Σ21-25   66448  @25  15890  -9.5%
+  Bloodletter → Liandry  5@24 6@27  sell@24  Σ21-25   66148  @25  15043  -9.9%
+  ...
+
+------------------------------------------------------------------------------
+CẶP MÓN 5 → MÓN 6 — Σ phút 21–30 (món 6 kip xong)
+------------------------------------------------------------------------------
+  Rylai → Cap            5@24 6@27 xong  Σ21-30  193783  @28  24903  @30  25508  +0.0%
+  Rylai → Orb            5@24 6@27 xong  Σ21-30  185830  @28  23431  @30  23960  -4.1%
+  Rylai → Cosmic         5@24 6@27 xong  Σ21-30  182614  @28  22348  @30  22878  -5.8%
+  Rylai → Bloodletter    5@24 6@27 xong  Σ21-30  182106  @28  22327  @30  22860  -6.0%
+  Cap → Rylai            5@25 6@27 xong  Σ21-30  180561  @28  24903  @30  25508  -6.8%
+  Rylai → Luden          5@24 6@26 xong  Σ21-30  180335  @28  21456  @30  21947  -6.9%
+  Rylai → Liandry        5@24 6@27 xong  Σ21-30  177909  @28  21635  @30  22128  -8.2%
+  Orb → Rylai            5@24 6@27 xong  Σ21-30  174743  @28  23431  @30  23960  -9.8%
+  Bloodletter → Rylai    5@24 6@27 xong  Σ21-30  171415  @28  22327  @30  22860  -11.5%
+  Luden → Rylai          5@24 6@26 xong  Σ21-30  170800  @28  21456  @30  21947  -11.9%
+  Cosmic → Rylai         5@24 6@27 xong  Σ21-30  168832  @28  22348  @30  22878  -12.9%
+  Liandry → Rylai        5@24 6@27 xong  Σ21-30  163270  @28  21635  @30  22128  -15.7%
+
+------------------------------------------------------------------------------
+SNAPSHOT phút 25 / 28 / 30 — top cặp
+------------------------------------------------------------------------------
+  Rylai → Cap
+    phút 25  60s  20145  AP   536 AH   77  BF · Spell · Crypt · HF · Rylai · NLR
+    phút 28  60s  24903  AP   748 AH   77  BF · Spell · Crypt · HF · Rylai · Cap
+    phút 30  60s  25508  AP   775 AH   77  BF · Spell · Crypt · HF · Rylai · Cap
+  Rylai → Orb
+    phút 25  60s  18625  AP   468 AH   77  BF · Spell · Crypt · HF · Rylai
+    phút 28  60s  23431  AP   554 AH   77  BF · Spell · Crypt · HF · Rylai · Orb
+    phút 30  60s  23960  AP   575 AH   77  BF · Spell · Crypt · HF · Rylai · Orb
+  Rylai → Cosmic
+    phút 25  60s  19287  AP   452 AH   87  BF · Spell · Crypt · HF · Rylai
+    phút 28  60s  22348  AP   513 AH  102  BF · Spell · Crypt · HF · Rylai · Cosmic
+    phút 30  60s  22878  AP   534 AH  102  BF · Spell · Crypt · HF · Rylai · Cosmic
+  Rylai → Bloodletter
+    phút 25  60s  19904  AP   478 AH   87  BF · Spell · Crypt · HF · Rylai · Guise
+    phút 28  60s  22327  AP   508 AH   92  BF · Spell · Crypt · HF · Rylai · Bloodletter
+    phút 30  60s  22860  AP   528 AH   92  BF · Spell · Crypt · HF · Rylai · Bloodletter
+  Cap → Rylai
+    phút 25  60s  15883  AP   662 AH   77  BF · Spell · Crypt · HF · Cap
+    phút 28  60s  24903  AP   748 AH   77  BF · Spell · Crypt · HF · Cap · Rylai
+    phút 30  60s  25508  AP   775 AH   77  BF · Spell · Crypt · HF · Cap · Rylai
+  Rylai → Luden
+    phút 25  60s  19410  AP   458 AH   87  BF · Spell · Crypt · HF · Rylai · Chapter
+    phút 28  60s  21456  AP   544 AH   87  BF · Spell · Crypt · HF · Rylai · Luden
+    phút 30  60s  21947  AP   565 AH   87  BF · Spell · Crypt · HF · Rylai · Luden
+
+------------------------------------------------------------------------------
+VERDICT — 2 món cuối
+------------------------------------------------------------------------------
+  Món 5 (game 25m, chưa bán): Rylai @phút 24.
+  Cặp game TB 25m: Rylai → Cap  (5 @24, 6 @27).
+  Cặp nếu kéo 30m + bán support: Rylai → Cap  (5 @24, 6 @27).
+  Khóa: Rylai @24 rồi Cap @27 (bán support lúc món 5 xong, ôm NLR+Wand).
+  Inventory đầy: Spell · BF · Crypt · HF · Rylai · Cap. Rylai trước vì W dwell 2.75s→5s từ phút 24; Cap sau vì 30% amp Q/W/DH/GS.
+  Cap→Rylai cùng full build @28 nhưng −6.8% Σ21-30 (Rylai muộn 3 phút). Bloodletter/Cosmic/Liandry/Orb/Luden đều thua Cap làm món 6.
+  Liandry món 5 là bẫy (−11.6%): burn 2% cần dwell dài, mà dwell dài chỉ có sau Rylai.
+  Không Void (exclusive Crypt). Không Stormsurge (burst).
+  Orb 20% tắt @45%. Luden Echo không đếm — xong sớm hơn Cap nhưng −6.9%.
+==============================================================================

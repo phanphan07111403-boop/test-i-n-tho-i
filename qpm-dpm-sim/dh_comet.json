@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "patch": "7.2e",
+    "keep_luden": true,
+    "comet_cd_lv15": 8.0,
+    "note": "Comet CD is not reduced by ability haste"
+  },
+  "morgana": {
+    "max_dpm": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "cpm": 13.123,
+      "kit_dpm": 10558.0,
+      "comet_n": 8,
+      "comet_dpm": 935.8,
+      "total_dpm": 11493.8
+    },
+    "spam_q": {
+      "items": [
+        "Crimson Lucidity",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cosmic Drive",
+        "Seraph's Embrace"
+      ],
+      "ap": 301.6,
+      "ah": 132.0,
+      "cpm": 16.281,
+      "kit_dpm": 7683.6,
+      "comet_n": 8,
+      "comet_dpm": 662.8,
+      "total_dpm": 8346.4
+    }
+  },
+  "viktor": {
+    "max_dpm": {
+      "items": [
+        "Spellslinger's Shoes",
+        "Luden's Echo",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cryptbloom"
+      ],
+      "ap": 384.8,
+      "ah": 87.0,
+      "cpm": 16.029,
+      "kit_dpm": 13490.2,
+      "comet_n": 8,
+      "comet_dpm": 935.8,
+      "total_dpm": 14426.0
+    },
+    "spam_q": {
+      "items": [
+        "Crimson Lucidity",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Cosmic Drive",
+        "Seraph's Embrace"
+      ],
+      "ap": 301.6,
+      "ah": 132.0,
+      "cpm": 19.886,
+      "kit_dpm": 9612.5,
+      "comet_n": 8,
+      "comet_dpm": 662.8,
+      "total_dpm": 10275.4
+    }
+  },
+  "breakpoints_souls": {
+    "equal": 8,
+    "fresh": 6,
+    "avg_2x": 10,
+    "avg_3x": 14
+  },
+  "verdict": "With Comet, use maximize-damage (Spell Luden HF BF Crypt), not spam Q. AH does not add Comet procs. Spam loses Spell pen and Echo."
+}

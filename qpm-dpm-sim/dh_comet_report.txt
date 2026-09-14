@@ -1,0 +1,73 @@
+==============================================================================
+DH vs COMET — same maximize-damage Luden build (WR 7.2e)
+Spell · Luden · HF · BF · Crypt. Bỏ vàng. Keystone only.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP. Comet 15–100+2×stack+5% AP.
+  Role   : mid. Giữ Luden. Không Cheap Shot / Scorch.
+  Cặp    : Comet + spam-Q build vs Comet + maximize-damage build.
+           DH vs Comet breakpoint giữ làm context.
+  Metric : 1 proc (HF đã mark). Breakpoint soul. 60s poke vs execute DPM.
+
+
+------------------------------------------------------------------------------
+COMET — spam Q vs maximize damage  (kit 90% poke + Comet 60s)
+------------------------------------------------------------------------------
+  Comet CD 8s @lv15, không giảm bởi AH. Spam Q không proc thêm Comet.
+  Cả hai build đều HF → Comet ăn 10% sau Q/E đầu.
+  Morgana
+    Max DPM    11494  kit 10558 + Comet 936  (8 proc)  13.12 QPM  AP 385
+    Spam Q      8346  kit 7684 + Comet 663  (8 proc)  16.28 QPM  AP 302
+    Spam vs Max: total -27.4%  kit -27.2%  Comet -29.2%  QPM +24.1%
+  Viktor
+    Max DPM    14426  kit 13490 + Comet 936  (8 proc)  16.03 EPM  AP 385
+    Spam Q     10275  kit 9612 + Comet 663  (8 proc)  19.89 EPM  AP 302
+    Spam vs Max: total -28.8%  kit -28.7%  Comet -29.2%  EPM +24.1%
+
+  Comet lv15 base 100  CD 8.0s. DH CD 35s / 1s takedown.
+  Cả hai +5% AP → breakpoint gần như không đổi theo đồ.
+
+------------------------------------------------------------------------------
+1 PROC  (cùng HF 10%, cùng pen. DH chỉ khi target <50%)
+------------------------------------------------------------------------------
+  soul      DH   C=soul     C=0  C=2×soul  C=3×soul
+     0    54.2    119.2   119.2     119.2     119.2
+     1    65.2    121.2   119.2     123.2     125.2
+     2    76.2    123.2   119.2     127.2     131.2
+     3    87.2    125.2   119.2     131.2     137.2
+     4    98.2    127.2   119.2     135.2     143.2
+     5   109.2    129.2   119.2     139.2     149.2
+     6   120.2    131.2   119.2     143.2     155.2
+     7   131.2    133.2   119.2     147.2     161.2
+     8   142.2    135.2   119.2     151.2     167.2
+     9   153.2    137.2   119.2     155.2     173.2
+    10   164.2    139.2   119.2     159.2     179.2
+    11   175.2    141.2   119.2     163.2     185.2
+    12   186.2    143.2   119.2     167.2     191.2
+    13   197.2    145.2   119.2     171.2     197.2
+    14   208.2    147.2   119.2     175.2     203.2
+    15   219.2    149.2   119.2     179.2     209.2
+
+  DH > Comet equal stacks:     8 souls
+  DH > fresh Comet (0 stack):  6 souls
+  DH > Comet với 2 poke/soul: 10 souls
+  DH > Comet với 3 poke/soul: 14 souls
+
+------------------------------------------------------------------------------
+60s KEYSTONE DPM  (lv15, DH 8 souls / Comet 8 stacks unless noted)
+------------------------------------------------------------------------------
+  Poke 90% HP:     DH 0   Comet 940   DH never (cửa <50% đóng)
+  Execute 40% HP:  DH 226   Comet 940   DH -76%  (CD 35s vs 8s)
+  Execute + reset: DH 7908   Comet 940   DH wins if takedown (1s CD)
+  Average ⅔ poke + ⅓ execute, 8 souls: DH 75  Comet 940  DH -92%
+
+------------------------------------------------------------------------------
+VERDICT — Comet: spam Q hay maximize damage?
+------------------------------------------------------------------------------
+  Maximize damage (Spell·Luden·HF·BF·Crypt). Không spam Crimson.
+  Comet CD 8s không ăn AH → +QPM không thêm proc, chỉ thêm Q yếu hơn.
+  Spam mất Spell 18+8% + Echo; Comet và kit cùng yếu.
+  DH breakpoint (context): equal 8 souls / average 10 / poke 90% Comet luôn.
+==============================================================================

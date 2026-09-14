@@ -1,0 +1,105 @@
+==============================================================================
+CUT DOWN vs COUP DE GRACE vs INGENIOUS HUNTER  (WR 7.2e)
+DH + GS locked. Spell · Luden · Orb · Cap · Storm. Game 25m.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Cut 6.57% >60% HP. Coup 8% <40% HP.
+           IH 20 + 5×takedown (max 45) item haste. Không copy PC Giant Slayer.
+  Role   : mid. DH keystone. GS secondary (70 AP @25:00). Giữ Luden.
+  Cặp    : Cut vs Coup (Precision 2). IH (Domination 3) vs Cut/Coup
+           khi primary đổi để giữ GS.
+  Metric : combo 70%+R (burst), combo 40% (execute), poke 90% 60s,
+           4×DH dump @35% (cửa Coup+Orb). Echo count cho IH.
+
+  Slot: Cut và Coup loại nhau. IH không cùng slot.
+  DH + GS → primary Domination (IH) hoặc Precision (Cut/Coup), không cả hai.
+
+------------------------------------------------------------------------------
+BURST — Morgana
+------------------------------------------------------------------------------
+  Spell · Luden · Orb · Cap · Storm  GS 70 AP @25:00  AP 702
+  rune              70%+R    40%+R      90%   dump35  poke DPM  Echo/60
+  None               3091     3091     2924      669      8635        5
+  Cut Down           3160     3091     2993      669      9202        5
+  Coup de Grace      3254     3254     3006      723      8635        5
+  IH 20 (base)       3091     3091     2924      669      8635        5
+  IH 45 (max)        3091     3091     2924      669      9500        9
+
+  vs no Precision/IH rune
+    Cut  combo70 +2.2%  combo40 +0.0%  poke +6.6%  dump35 +0.0%
+    Coup combo70 +5.3%  combo40 +5.3%  poke +0.0%  dump35 +8.0%
+    IH20 combo70 +0.0%  poke +0.0%  Echo 5→5
+    IH45 combo70 +0.0%  poke +10.0%  Echo 5→9
+  Cut vs Coup: combo70 -2.9%  combo40 -5.0%  poke +6.6%
+
+------------------------------------------------------------------------------
+BURST — Viktor
+------------------------------------------------------------------------------
+  Spell · Luden · Orb · Cap · Storm  GS 70 AP @25:00  AP 702
+  rune              70%+R    40%+R      90%   dump35  poke DPM  Echo/60
+  None               2922     3084     2922      669     10918        6
+  Cut Down           2960     3084     3032      669     11635        6
+  Coup de Grace      3097     3284     3055      723     10918        6
+  IH 20 (base)       2922     3084     2922      669     10918        6
+  IH 45 (max)        2922     3084     2922      669     10918        6
+
+  vs no Precision/IH rune
+    Cut  combo70 +1.3%  combo40 +0.0%  poke +6.6%  dump35 +0.0%
+    Coup combo70 +6.0%  combo40 +6.5%  poke +0.0%  dump35 +8.0%
+    IH20 combo70 +0.0%  poke +0.0%  Echo 6→6
+    IH45 combo70 +0.0%  poke +0.0%  Echo 6→6
+  Cut vs Coup: combo70 -4.4%  combo40 -6.1%  poke +6.6%
+
+------------------------------------------------------------------------------
+POKE SET — Morgana
+------------------------------------------------------------------------------
+  Spell · Luden · HF · BF · Crypt  GS 70 AP @25:00  AP 458
+  rune              70%+R    40%+R      90%   dump35  poke DPM  Echo/60
+  None               2125     2125     2125      541     11508        5
+  Cut Down           2177     2125     2177      541     12264        5
+  Coup de Grace      2231     2231     2185      584     11508        5
+  IH 20 (base)       2125     2125     2125      541     11895        7
+  IH 45 (max)        2125     2125     2125      541     11895        7
+
+  vs no Precision/IH rune
+    Cut  combo70 +2.4%  combo40 +0.0%  poke +6.6%  dump35 +0.0%
+    Coup combo70 +5.0%  combo40 +5.0%  poke +0.0%  dump35 +8.0%
+    IH20 combo70 +0.0%  poke +3.4%  Echo 5→7
+    IH45 combo70 +0.0%  poke +3.4%  Echo 5→7
+  Cut vs Coup: combo70 -2.4%  combo40 -4.8%  poke +6.6%
+
+------------------------------------------------------------------------------
+POKE SET — Viktor
+------------------------------------------------------------------------------
+  Spell · Luden · HF · BF · Crypt  GS 70 AP @25:00  AP 458
+  rune              70%+R    40%+R      90%   dump35  poke DPM  Echo/60
+  None               2100     2100     2100      541     14649        6
+  Cut Down           2131     2100     2167      541     15612        6
+  Coup de Grace      2187     2231     2145      584     14649        6
+  IH 20 (base)       2100     2100     2100      541     14649        6
+  IH 45 (max)        2100     2100     2100      541     15229        9
+
+  vs no Precision/IH rune
+    Cut  combo70 +1.5%  combo40 +0.0%  poke +6.6%  dump35 +0.0%
+    Coup combo70 +4.1%  combo40 +6.2%  poke +0.0%  dump35 +8.0%
+    IH20 combo70 +0.0%  poke +0.0%  Echo 6→6
+    IH45 combo70 +0.0%  poke +4.0%  Echo 6→9
+  Cut vs Coup: combo70 -2.6%  combo40 -5.9%  poke +6.6%
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Không chọn 1 trong 3 trên cùng slot. Cut vs Coup = Precision 2.
+  IH = Domination 3. Với DH+GS: primary Dom (IH) hoặc Precision (Cut/Coup).
+  Burst combo 70%+R: Coup de Grace (Q hạ dưới 40%, phần còn lại + DH dump).
+    Morgana Cut vs Coup combo70 -2.9%  combo40 -5.0%  poke +6.6%
+    Viktor  Cut vs Coup combo70 -4.4%  combo40 -6.1%  poke +6.6%
+  Poke 90%: Cut +6.57% cả kit. Coup = 0 (cửa 40% đóng).
+  DH dump @35% (Orb+Coup): Coup +8%, Cut 0. Coup đúng cửa DH/Orb.
+  Ingenious: 0 trên 1 combo (Echo CD vẫn > burst). Burst Morgana IH45 Echo 5→9 poke +10.0%. Viktor burst IH45 +0.0% (E đã nhanh hơn Echo).
+  Giữ GS (70 AP > Cut +2% / Coup +5% combo). DH burst → Precision Coup.
+  IH (Dom primary) chỉ khi muốn Echo/poke; 0 damage trên all-in.
+  Cut chỉ khi metric là poke 90%. Đừng Coup cho poke; đừng Cut cho execute.
+==============================================================================

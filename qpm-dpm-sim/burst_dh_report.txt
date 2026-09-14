@@ -1,0 +1,86 @@
+==============================================================================
+DH BURST — takedown reset 1s  (WR 7.2e)
+Giữ Luden. Spellslinger. Bỏ vàng. lv15 / phút 20 / 8 souls.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP, <50%, 35s / 1s takedown.
+  Role   : mid. Giữ Luden. Spell (max-damage boot). Không copy support Ionia.
+  Cặp    : 5-slot burst nhất vs poke-DPM set (Spell·Luden·HF·BF·Crypt).
+  Metric : combo Q/E+R trên squishy 70% (Orb cửa 35%, DH cửa 50%),
+           rồi 4 DH dump 1s trên target 40% (HF 10% chỉ khi có HF). Không phải DPM poke.
+
+  Morgana: Q+Echo → DH → R → W 2.75s root. Viktor: E laser+Echo → Q+AA
+           → Blastquake → R initial (không 5.5s tick). Stormsurge Squall
+           nếu combo ≥25% max HP / 2.5s (125+10% AP, delay 2s).
+  Orb 20% chỉ khi target đã <35% TRƯỚC hit. HF 10% không amp hit apply.
+
+------------------------------------------------------------------------------
+MORGANA — burst 5-slot (Spell · Luden · ?)
+------------------------------------------------------------------------------
+  Burst 70%+R        2851  AP 611  AH 22  HP left 0%  Spell · Luden · Orb · Cap · Storm
+  Burst+4 DH dump    3393  combo 2851 + dump40 542  Spell · Luden · Orb · Cap · Storm
+  Poke-DPM set       1954  combo  -31.5%  dump40 -2.7%  Spell · Luden · HF · BF · Crypt
+
+  Top 5 combo @70%+R
+       2851  @40%    2851  dump40   542  dump32   650  AP 611  Spell · Luden · Orb · Cap · Storm
+       2804  @40%    2804  dump40   570  dump32   684  AP 618  Spell · Luden · Orb · Cap · Void
+       2708  @40%    2708  dump40   562  dump32   674  AP 585  Spell · Luden · Orb · Cap · Crypt
+       2617  @40%    2617  dump40   565  dump32   565  AP 592  Spell · Luden · Cap · Void · Storm
+       2581  @40%    2610  dump40   583  dump32   699  AP 420  Spell · Luden · Orb · HF · Storm
+
+  Featured Luden 3-sets vs winner
+       2851 (+0.0%)  dump40 542  dump32 650  Spell · Luden · Orb · Cap · Storm
+       2555 (-10.4%)  dump40 544  dump32 652  Spell · Luden · Orb · HF · Cap
+       2804 (-1.6%)  dump40 570  dump32 684  Spell · Luden · Orb · Cap · Void
+       2452 (-14.0%)  dump40 480  dump32 576  Spell · Luden · Orb · Cap · BF
+       2708 (-5.0%)  dump40 562  dump32 674  Spell · Luden · Orb · Cap · Crypt
+       2581 (-9.5%)  dump40 583  dump32 699  Spell · Luden · Orb · HF · Storm
+       2380 (-16.5%)  dump40 539  dump32 539  Spell · Luden · HF · Cap · Storm
+       2617 (-8.2%)  dump40 565  dump32 565  Spell · Luden · Cap · Void · Storm
+       2507 (-12.1%)  dump40 536  dump32 643  Spell · Luden · Orb · Void · Storm
+       1954 (-31.5%)  dump40 527  dump32 527  Spell · Luden · HF · BF · Crypt  ← poke DPM set
+
+------------------------------------------------------------------------------
+VIKTOR — burst 5-slot (Spell · Luden · ?)
+------------------------------------------------------------------------------
+  Burst 70%+R        2700  AP 611  AH 22  HP left 0%  Spell · Luden · Orb · Cap · Storm
+  Burst+4 DH dump    3242  combo 2700 + dump40 542  Spell · Luden · Orb · Cap · Storm
+  Poke-DPM set       1938  combo  -28.2%  dump40 -2.7%  Spell · Luden · HF · BF · Crypt
+
+  Top 5 combo @70%+R
+       2700  @40%    2851  dump40   542  dump32   650  AP 611  Spell · Luden · Orb · Cap · Storm
+       2645  @40%    2804  dump40   570  dump32   684  AP 618  Spell · Luden · Orb · Cap · Void
+       2556  @40%    2710  dump40   562  dump32   674  AP 585  Spell · Luden · Orb · Cap · Crypt
+       2546  @40%    2546  dump40   565  dump32   565  AP 592  Spell · Luden · Cap · Void · Storm
+       2515  @40%    2659  dump40   583  dump32   699  AP 420  Spell · Luden · Orb · HF · Storm
+
+  Featured Luden 3-sets vs winner
+       2700 (+0.0%)  dump40 542  dump32 650  Spell · Luden · Orb · Cap · Storm
+       2443 (-9.5%)  dump40 544  dump32 652  Spell · Luden · Orb · HF · Cap
+       2645 (-2.1%)  dump40 570  dump32 684  Spell · Luden · Orb · Cap · Void
+       2309 (-14.5%)  dump40 480  dump32 576  Spell · Luden · Orb · Cap · BF
+       2556 (-5.3%)  dump40 562  dump32 674  Spell · Luden · Orb · Cap · Crypt
+       2515 (-6.9%)  dump40 583  dump32 699  Spell · Luden · Orb · HF · Storm
+       2352 (-12.9%)  dump40 539  dump32 539  Spell · Luden · HF · Cap · Storm
+       2546 (-5.7%)  dump40 565  dump32 565  Spell · Luden · Cap · Void · Storm
+       2386 (-11.6%)  dump40 536  dump32 643  Spell · Luden · Orb · Void · Storm
+       1938 (-28.2%)  dump40 527  dump32 527  Spell · Luden · HF · BF · Crypt  ← poke DPM set
+
+------------------------------------------------------------------------------
+VERDICT — burst nhất khi DH reset 1s
+------------------------------------------------------------------------------
+  Morgana: Spell · Luden · Orb · Cap · Storm
+    combo70 2851  combo40 2851  4×DH@40% 542  total 3393
+    vs poke set -31.5% combo  -2.7% dump40  Spell · Luden · HF · BF · Crypt
+  Viktor : Spell · Luden · Orb · Cap · Storm
+    combo70 2700  combo40 2851  4×DH@40% 542  total 3242
+    vs poke set -28.2% combo  -2.7% dump40  Spell · Luden · HF · BF · Crypt
+  Combo @70% và combo+dump chọn cùng 5-slot.
+  Reset 1s = spam DH, không spam Q. AH (HF/Crypt/BF/Crimson) không giảm DH CD.
+  Cap amp mỗi DH. Orb 20% trên dump nếu target đã <35%. HF 10% chỉ khi có HF.
+  Slot 4 Storm vs Void: combo70 Morgana -1.6%  Viktor -2.1%.
+    dump@40% Void +5.2%  dump@32% Void +5.2%  (cùng Orb — gap là 40% pen, không phải execute 20%).
+  Poke set thắng 60s DPM 90%; thua burst vì 0 Cap / 0 Orb / 0 Storm.
+==============================================================================
