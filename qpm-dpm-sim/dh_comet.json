@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "patch": "7.2e",
+    "build": [
+      "Spellslinger's Shoes",
+      "Luden's Echo",
+      "Horizon Focus",
+      "Blackfire Torch",
+      "Cryptbloom"
+    ],
+    "keep_luden": true,
+    "dh": "35 + 11*souls + 5% AP, <50% HP, 35s CD",
+    "comet": "15-100(level) + 2*stacks + 5% AP, 16-8s CD"
+  },
+  "ap": 384.8,
+  "breakpoints_souls": {
+    "equal": 8,
+    "fresh": 6,
+    "avg_2x": 10,
+    "avg_3x": 14
+  },
+  "verdict": "Per hit equal stacks: 8 souls. Vs fresh Comet: 6. Average 2 Comet stacks per DH soul: 10. Poke 90%: Comet always (DH cannot proc). No-reset execute DPM: Comet (8s vs 35s). DH wins total damage on takedown 1s reset, not on soul count."
+}

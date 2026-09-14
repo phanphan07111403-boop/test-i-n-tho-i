@@ -12,6 +12,7 @@ Crimson Lucidity: 0 AP, 0 pen, **25 AH**, 8% MS.
 
 ```bash
 python3 simulate_qpm_dpm.py
+python3 simulate_dh_comet.py
 ```
 
 ## 4 ô

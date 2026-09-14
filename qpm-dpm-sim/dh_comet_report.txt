@@ -1,0 +1,62 @@
+==============================================================================
+DH vs COMET — same maximize-damage Luden build (WR 7.2e)
+Spell · Luden · HF · BF · Crypt. Bỏ vàng. Keystone only.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. DH 35+11×soul+5% AP. Comet 15–100+2×stack+5% AP.
+  Role   : mid. Giữ Luden. Không Cheap Shot / Scorch.
+  Cặp    : Dark Harvest vs Arcane Comet, cùng 5 slot.
+  Metric : 1 proc (HF đã mark). Breakpoint soul. 60s poke vs execute DPM.
+
+  Build AP 385  AH 87  Morgana 10558 DPM kit  Viktor 13490
+  Comet lv15 base 100  CD 8.0s. DH CD 35s / 1s takedown.
+  Cả hai +5% AP → breakpoint gần như không đổi theo đồ.
+
+------------------------------------------------------------------------------
+1 PROC  (cùng HF 10%, cùng pen. DH chỉ khi target <50%)
+------------------------------------------------------------------------------
+  soul      DH   C=soul     C=0  C=2×soul  C=3×soul
+     0    54.2    119.2   119.2     119.2     119.2
+     1    65.2    121.2   119.2     123.2     125.2
+     2    76.2    123.2   119.2     127.2     131.2
+     3    87.2    125.2   119.2     131.2     137.2
+     4    98.2    127.2   119.2     135.2     143.2
+     5   109.2    129.2   119.2     139.2     149.2
+     6   120.2    131.2   119.2     143.2     155.2
+     7   131.2    133.2   119.2     147.2     161.2
+     8   142.2    135.2   119.2     151.2     167.2
+     9   153.2    137.2   119.2     155.2     173.2
+    10   164.2    139.2   119.2     159.2     179.2
+    11   175.2    141.2   119.2     163.2     185.2
+    12   186.2    143.2   119.2     167.2     191.2
+    13   197.2    145.2   119.2     171.2     197.2
+    14   208.2    147.2   119.2     175.2     203.2
+    15   219.2    149.2   119.2     179.2     209.2
+
+  DH > Comet equal stacks:     8 souls
+  DH > fresh Comet (0 stack):  6 souls
+  DH > Comet với 2 poke/soul: 10 souls
+  DH > Comet với 3 poke/soul: 14 souls
+
+------------------------------------------------------------------------------
+60s KEYSTONE DPM  (lv15, DH 8 souls / Comet 8 stacks unless noted)
+------------------------------------------------------------------------------
+  Poke 90% HP:     DH 0   Comet 940   DH never (cửa <50% đóng)
+  Execute 40% HP:  DH 226   Comet 940   DH -76%  (CD 35s vs 8s)
+  Execute + reset: DH 7908   Comet 940   DH wins if takedown (1s CD)
+  Average ⅔ poke + ⅓ execute, 8 souls: DH 75  Comet 940  DH -92%
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Một hit, stack bằng nhau: DH thắng từ 8 souls.
+  Một hit vs Comet chưa stack: DH thắng từ 6 souls.
+  Average lane (Comet stack mỗi poke, ~2 Comet / 1 DH soul): DH thắng từ 10 souls.
+  3+ Comet / soul: DH không bắt per-hit trong 20 souls.
+  Poke 90% (maximize DPM window): Comet luôn hơn — DH = 0.
+  Execute không reset: Comet vẫn hơn vì 8s vs 35s.
+  DH hơn Comet trên tổng damage khi có takedown reset, không phải vì số soul.
+  Giữ Luden. Keystone không đổi 4 đồ.
+==============================================================================
