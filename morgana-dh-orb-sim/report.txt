@@ -1,0 +1,81 @@
+==============================================================================
+MORGANA DARK HARVEST — BF→LIANDRY→RYLAI vs BF→ORB→CAP (WR 7.2e)
+Thay Viktor: mid gold, DH keystone. Orb <35% nằm trong cửa DH <50%.
+==============================================================================
+
+4 Ô
+------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Không PC. T3 mage = 0 pen.
+  Role   : mid + DH (execute). Không copy support Ionia WR.
+  Cặp    : BF→Liandry→Rylai  vs  BF→Orb→Cap  vs  Luden→Orb→Cap
+  Metric : combo 70% (DH), 40% (DH+Orb), 90% (dwell). Orb chỉ amp hit khi đã <35%.
+
+PATH A — DH lock (mặc định kit W)
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Liandry · Rylai
+  BF ~8:00  Liandry ~13:00  Rylai ~19:00
+
+PATH B — BF → Orb → Cap  (câu hỏi)
+------------------------------------------------------------------------------
+  Spellslinger · Blackfire · Infinity Orb · Deathcap
+  BF ~8:00  Orb ~13:00  Cap ~20:00
+  Orb +20% khi <35%. DH nổ khi <50% — thường là Q, TRƯỚC cửa Orb.
+
+PATH C — Luden → Orb → Cap
+------------------------------------------------------------------------------
+  Luden ~8:00  Orb ~13:00  Cap ~20:00
+
+------------------------------------------------------------------------------
+COMBO 70% HP + R  (DH identity — lane đã thê)
+------------------------------------------------------------------------------
+   8:00 | Rylai   688 (DH 100% OrbHits 0)  BF-Orb   688 (DH 100% OrbHits 0)  Luden   809
+         BF-Orb items: Boots of Mana › Blackfire Torch
+  10:00 | Rylai   972 (DH 100% OrbHits 0)  BF-Orb   981 (DH 100% OrbHits 0)  Luden  1107
+         BF-Orb items: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+  12:00 | Rylai   943 (DH 100% OrbHits 0)  BF-Orb   955 (DH 100% OrbHits 0)  Luden  1066
+         BF-Orb items: Boots of Mana › Blackfire Torch › Needlessly Large Rod
+  14:00 | Rylai  1068 (DH 100% OrbHits 0)  BF-Orb  1176 (DH 100% OrbHits 1)  Luden  1335
+         BF-Orb items: Boots of Mana › Blackfire Torch › Infinity Orb
+  16:00 | Rylai  1218 (DH 100% OrbHits 0)  BF-Orb  1490 (DH 100% OrbHits 3)  Luden  1647
+         BF-Orb items: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Blasting Wand
+  18:00 | Rylai  1346 (DH 100% OrbHits 0)  BF-Orb  1648 (DH 100% OrbHits 4)  Luden  1791
+         BF-Orb items: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Blasting Wand › Needlessly Large Rod
+  20:00 | Rylai  1912 (DH 100% OrbHits 0)  BF-Orb  1970 (DH 100% OrbHits 5)  Luden  2134
+         BF-Orb items: Blackfire Torch › Infinity Orb › Spellslinger's Shoes › Rabadon's Deathcap
+
+  Diện tích 70% 20p: Rylai 17481  BF-Orb 18515 (+5.9%)  Luden 20366 (+16.5%)
+
+------------------------------------------------------------------------------
+COMBO 40% HP + R  (cửa DH và Orb chồng — execute thật)
+------------------------------------------------------------------------------
+   8:00 | Rylai   727  BF-Orb   727  Luden   838
+  12:00 | Rylai   986  BF-Orb   999  Luden  1090
+  16:00 | Rylai  1267  BF-Orb  1602  Luden  1705
+  20:00 | Rylai  2019  BF-Orb  2053  Luden  2166
+  Diện tích 40% 20p: Rylai 18506  BF-Orb 19923 (+7.7%)  Luden 21252 (+14.8%)
+
+------------------------------------------------------------------------------
+COMBO 90% HP không R  (lane còn máu — DH/Orb dễ hụt)
+------------------------------------------------------------------------------
+  Diện tích 90% 20p: Rylai 10901  BF-Orb 10792 (-1.0%)  Luden 12924
+  DH@90% phút 12–20: Rylai 2.0  BF-Orb 1.0
+
+  Spike
+    Rylai: Blackfire~8:00, Liandry's~13:00, Spellslinger's~15:00, Rylai's~19:00
+    BF-Orb Cap: Blackfire~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+    Luden-Orb: Luden's~8:00, Infinity~13:00, Spellslinger's~15:00, Rabadon's~20:00
+
+------------------------------------------------------------------------------
+VERDICT — DH có hợp BF→Orb→Cap không?
+------------------------------------------------------------------------------
+  70% (DH identity): BF-Orb vs Rylai +5.9%
+  40% (DH+Orb chồng): BF-Orb vs Rylai +7.7%
+  90% (dwell):        BF-Orb vs Rylai -1.0%
+  Cơ chế: DH <50% và Orb <35% cùng tầng execute. Cửa Orb hẹp hơn.
+  Gank 70%: Q+DH nổ ~50% (OrbHits 0 lúc Q). Sau đó W/R mới vào cửa 35%.
+  Gank 40%: Orb amp Q+DH ngay — đây là lúc hybrid 'hợp' DH nhất.
+  Gank 90%: Rylai giữ W để TẠO cửa 50%. BF-Orb mất nửa DH proc muộn.
+  Paper 70%/40%: BF-Orb+Cap > Liandry+Rylai (AP/pen/execute > slow/%HP).
+  Vẫn Luden→Orb nếu poke/Echo. BF→Orb→Cap khi đã đấm BF và chỉ gank người thấp máu.
+  Giữ Liandry+Rylai nếu DH của bạn là W-zone người còn máu, không phải Q-execute.
+==============================================================================
