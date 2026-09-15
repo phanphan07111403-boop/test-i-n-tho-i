@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "champion": "Morgana",
+    "patch": "7.2e",
+    "core": "Rylai \u2192 Spell \u2192 Void \u2192 Orb \u2192 HF \u2192 Cap",
+    "late_minutes": "20-30",
+    "mix": "50% @90% HP + 50% @32% HP",
+    "loadout": "1 keystone + 3 primary + 1 secondary"
+  },
+  "winner": {
+    "name": "Comet / Sorc Trans\u00b7GS / Coup",
+    "keystone": "Comet",
+    "primary": "Sorcery",
+    "runes": [
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm"
+    ],
+    "secondary": "Coup de Grace",
+    "late": 62190.1
+  },
+  "ranking": [
+    {
+      "name": "Comet / Sorc Trans\u00b7GS / Coup",
+      "keystone": "Comet",
+      "late_20_30": 62190.1,
+      "full_1_30": 92150.4,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Trans\u00b7GS / Cut",
+      "keystone": "Comet",
+      "late_20_30": 60937.1,
+      "full_1_30": 90456.3,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Trans\u00b7GS / Cheap",
+      "keystone": "Comet",
+      "late_20_30": 60704.0,
+      "full_1_30": 90734.6,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Dom Cheap\u00b7Tyrant\u00b7Eye / GS",
+      "keystone": "Comet",
+      "late_20_30": 59380.3,
+      "full_1_30": 88451.2,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Coup",
+      "keystone": "Comet",
+      "late_20_30": 58722.2,
+      "full_1_30": 86811.6,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Prec Brutal\u00b7Coup / GS",
+      "keystone": "Comet",
+      "late_20_30": 58535.1,
+      "full_1_30": 86389.2,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Cut",
+      "keystone": "Comet",
+      "late_20_30": 57605.0,
+      "full_1_30": 85322.9,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Axiom",
+      "keystone": "Comet",
+      "late_20_30": 57605.0,
+      "full_1_30": 85322.9,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Eyeball",
+      "keystone": "Comet",
+      "late_20_30": 57545.3,
+      "full_1_30": 85003.1,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Cheap",
+      "keystone": "Comet",
+      "late_20_30": 57428.8,
+      "full_1_30": 85690.6,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Prec Brutal\u00b7Cut / GS",
+      "keystone": "Comet",
+      "late_20_30": 57363.0,
+      "full_1_30": 84811.0,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7GS / Tyrant",
+      "keystone": "Comet",
+      "late_20_30": 57293.5,
+      "full_1_30": 84966.3,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Aery / Sorc Focus\u00b7GS / Cut",
+      "keystone": "Aery",
+      "late_20_30": 57094.1,
+      "full_1_30": 86068.5,
+      "stacks_30": 0.0,
+      "souls_30": 0.0
+    },
+    {
+      "name": "DH / Sorc Focus\u00b7GS / Coup",
+      "keystone": "Dark Harvest",
+      "late_20_30": 57005.2,
+      "full_1_30": 82713.2,
+      "stacks_30": 0.0,
+      "souls_30": 33.5
+    },
+    {
+      "name": "Comet / Dom Cheap\u00b7Tyrant\u00b7Eye / Cut",
+      "keystone": "Comet",
+      "late_20_30": 56228.9,
+      "full_1_30": 85182.3,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "DH / Sorc Focus\u00b7GS / Cut",
+      "keystone": "Dark Harvest",
+      "late_20_30": 55593.4,
+      "full_1_30": 80876.8,
+      "stacks_30": 0.0,
+      "souls_30": 33.5
+    },
+    {
+      "name": "Electro / Sorc Focus\u00b7GS / Cut",
+      "keystone": "Electrocute",
+      "late_20_30": 55233.1,
+      "full_1_30": 82764.5,
+      "stacks_30": 0.0,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7Scorch / Cut",
+      "keystone": "Comet",
+      "late_20_30": 54510.4,
+      "full_1_30": 82692.6,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "Comet / Sorc Focus\u00b7Scorch / Cheap",
+      "keystone": "Comet",
+      "late_20_30": 54407.7,
+      "full_1_30": 83115.9,
+      "stacks_30": 61.46,
+      "souls_30": 0.0
+    },
+    {
+      "name": "First Strike / Sorc Focus\u00b7GS / Cut",
+      "keystone": "First Strike",
+      "late_20_30": 52726.3,
+      "full_1_30": 78082.2,
+      "stacks_30": 0.0,
+      "souls_30": 0.0
+    }
+  ]
+}

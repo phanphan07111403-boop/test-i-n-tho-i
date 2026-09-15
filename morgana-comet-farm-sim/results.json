@@ -1,0 +1,1049 @@
+{
+  "meta": {
+    "champion": "Morgana",
+    "role": "mid",
+    "patch": "7.2e",
+    "game_minutes": 30,
+    "playstyle": "farm Arcane Comet from minute 1 to 30",
+    "comet": "15-100 + 2*hits + 5% AP, CD 16-8s, 0.8s delay, 1 stack per landing",
+    "metric": "comet60 mix 75% @90% HP + 25% @32% HP",
+    "pen_7_2": "Spellslinger / Crypt / Void / Bloodletter only",
+    "paths_searched": 17472
+  },
+  "winner": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Cap",
+  "ranking": [
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Cap",
+      "comet_1_30": 9565.3,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 Cap",
+      "comet_1_30": 9543.8,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 BF",
+      "comet_1_30": 9487.0,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Blackfire Torch"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 656.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 Cap",
+      "comet_1_30": 9486.4,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Luden",
+      "comet_1_30": 9470.7,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Luden's Echo"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 654.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 BF",
+      "comet_1_30": 9465.5,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Blackfire Torch"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 656.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Bloodletter",
+      "comet_1_30": 9455.2,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 654.1
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Liandry",
+      "comet_1_30": 9453.5,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Liandry's Torment"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 Luden",
+      "comet_1_30": 9449.3,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Luden's Echo"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 654.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 HF \u2192 Cosmic",
+      "comet_1_30": 9448.2,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Cosmic Drive"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 447.6,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 Bloodletter",
+      "comet_1_30": 9433.7,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 654.1
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 Liandry",
+      "comet_1_30": 9432.0,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Liandry's Torment"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 HF \u2192 Cosmic",
+      "comet_1_30": 9426.7,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Horizon Focus",
+        "Cosmic Drive"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 447.6,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 BF",
+      "comet_1_30": 9408.0,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Blackfire Torch"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 656.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 HF \u2192 Void \u2192 Cap",
+      "comet_1_30": 9395.1,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 430.4,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 Luden",
+      "comet_1_30": 9391.8,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Luden's Echo"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 654.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 Orb \u2192 Cap \u2192 HF",
+      "comet_1_30": 9388.9,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 445.2,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 HF \u2192 Void \u2192 Orb \u2192 Cap",
+      "comet_1_30": 9388.1,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Void Staff",
+        "Infinity Orb",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 430.3,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 Bloodletter",
+      "comet_1_30": 9376.3,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Bloodletter's Curse"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 654.1
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 Liandry",
+      "comet_1_30": 9374.6,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Liandry's Torment"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Void \u2192 HF \u2192 Orb \u2192 Cosmic",
+      "comet_1_30": 9369.3,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Cosmic Drive"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 211.5,
+        "m20": 430.3,
+        "m30": 650.0
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 Void \u2192 Cap \u2192 HF",
+      "comet_1_30": 9367.4,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 445.2,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 HF \u2192 Orb \u2192 Void \u2192 Cap",
+      "comet_1_30": 9331.1,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Infinity Orb",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 430.4,
+        "m30": 682.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 Orb \u2192 HF \u2192 Void \u2192 BF",
+      "comet_1_30": 9316.7,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Void Staff",
+        "Blackfire Torch"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 430.4,
+        "m30": 656.8
+      }
+    },
+    {
+      "label": "Rylai \u2192 HF \u2192 Void \u2192 Orb \u2192 BF",
+      "comet_1_30": 9309.8,
+      "hits_1_30": 61.46,
+      "stacks_30": 61.46,
+      "rylai_minutes": 23,
+      "items_30": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Void Staff",
+        "Infinity Orb",
+        "Blackfire Torch"
+      ],
+      "spikes": {
+        "m8": 110.8,
+        "m12": 204.8,
+        "m20": 430.3,
+        "m30": 656.8
+      }
+    }
+  ],
+  "winner_timeline": [
+    {
+      "minute": 1,
+      "items": [
+        "Amplifying Tome",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "ah": 6.0,
+      "stacks": 1.14,
+      "land": 0.696,
+      "hits": 1.137,
+      "comet_hit": 16.4,
+      "comet60": 18.7,
+      "legendaries": 0
+    },
+    {
+      "minute": 2,
+      "items": [
+        "Boots of Mana"
+      ],
+      "ap": 25.0,
+      "ah": 6.0,
+      "stacks": 2.32,
+      "land": 0.696,
+      "hits": 1.181,
+      "comet_hit": 24.0,
+      "comet60": 28.3,
+      "legendaries": 0
+    },
+    {
+      "minute": 3,
+      "items": [
+        "Boots of Mana"
+      ],
+      "ap": 25.0,
+      "ah": 6.0,
+      "stacks": 3.55,
+      "land": 0.696,
+      "hits": 1.228,
+      "comet_hit": 30.3,
+      "comet60": 37.2,
+      "legendaries": 0
+    },
+    {
+      "minute": 4,
+      "items": [
+        "Boots of Mana",
+        "Giant's Belt"
+      ],
+      "ap": 25.0,
+      "ah": 12.0,
+      "stacks": 4.64,
+      "land": 0.696,
+      "hits": 1.096,
+      "comet_hit": 36.6,
+      "comet60": 40.1,
+      "legendaries": 0
+    },
+    {
+      "minute": 5,
+      "items": [
+        "Boots of Mana",
+        "Giant's Belt"
+      ],
+      "ap": 25.0,
+      "ah": 12.0,
+      "stacks": 5.79,
+      "land": 0.696,
+      "hits": 1.144,
+      "comet_hit": 42.5,
+      "comet60": 48.6,
+      "legendaries": 0
+    },
+    {
+      "minute": 6,
+      "items": [
+        "Boots of Mana",
+        "Giant's Belt",
+        "Blasting Wand"
+      ],
+      "ap": 74.0,
+      "ah": 12.0,
+      "stacks": 7.15,
+      "land": 0.696,
+      "hits": 1.37,
+      "comet_hit": 50.2,
+      "comet60": 68.8,
+      "legendaries": 0
+    },
+    {
+      "minute": 7,
+      "items": [
+        "Boots of Mana",
+        "Giant's Belt",
+        "Blasting Wand",
+        "Amplifying Tome"
+      ],
+      "ap": 94.0,
+      "ah": 12.0,
+      "stacks": 8.44,
+      "land": 0.696,
+      "hits": 1.288,
+      "comet_hit": 57.1,
+      "comet60": 73.5,
+      "legendaries": 0
+    },
+    {
+      "minute": 8,
+      "items": [
+        "Boots of Mana",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 94.0,
+      "ah": 12.0,
+      "stacks": 10.2,
+      "land": 0.912,
+      "hits": 1.76,
+      "comet_hit": 63.0,
+      "comet60": 110.8,
+      "legendaries": 1
+    },
+    {
+      "minute": 9,
+      "items": [
+        "Boots of Mana",
+        "Rylai's Crystal Scepter"
+      ],
+      "ap": 100.0,
+      "ah": 12.0,
+      "stacks": 12.04,
+      "land": 0.912,
+      "hits": 1.841,
+      "comet_hit": 69.6,
+      "comet60": 128.2,
+      "legendaries": 1
+    },
+    {
+      "minute": 10,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 115.0,
+      "ah": 12.0,
+      "stacks": 14.16,
+      "land": 0.912,
+      "hits": 2.113,
+      "comet_hit": 85.1,
+      "comet60": 179.7,
+      "legendaries": 1
+    },
+    {
+      "minute": 11,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Amethyst"
+      ],
+      "ap": 135.0,
+      "ah": 12.0,
+      "stacks": 16.27,
+      "land": 0.912,
+      "hits": 2.113,
+      "comet_hit": 92.7,
+      "comet60": 195.8,
+      "legendaries": 1
+    },
+    {
+      "minute": 12,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Amethyst"
+      ],
+      "ap": 143.0,
+      "ah": 12.0,
+      "stacks": 18.48,
+      "land": 0.912,
+      "hits": 2.213,
+      "comet_hit": 95.6,
+      "comet60": 211.5,
+      "legendaries": 1
+    },
+    {
+      "minute": 13,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Amethyst"
+      ],
+      "ap": 143.0,
+      "ah": 12.0,
+      "stacks": 20.47,
+      "land": 0.912,
+      "hits": 1.988,
+      "comet_hit": 98.3,
+      "comet60": 195.4,
+      "legendaries": 1
+    },
+    {
+      "minute": 14,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Amethyst",
+        "Needlessly Large Rod"
+      ],
+      "ap": 208.0,
+      "ah": 12.0,
+      "stacks": 22.56,
+      "land": 0.912,
+      "hits": 2.086,
+      "comet_hit": 107.0,
+      "comet60": 223.2,
+      "legendaries": 1
+    },
+    {
+      "minute": 15,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff"
+      ],
+      "ap": 228.0,
+      "ah": 12.0,
+      "stacks": 24.64,
+      "land": 0.912,
+      "hits": 2.086,
+      "comet_hit": 127.6,
+      "comet60": 266.2,
+      "legendaries": 2
+    },
+    {
+      "minute": 16,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Hextech Alternator"
+      ],
+      "ap": 273.0,
+      "ah": 12.0,
+      "stacks": 26.98,
+      "land": 0.912,
+      "hits": 2.335,
+      "comet_hit": 137.1,
+      "comet60": 320.1,
+      "legendaries": 2
+    },
+    {
+      "minute": 17,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Hextech Alternator"
+      ],
+      "ap": 273.0,
+      "ah": 12.0,
+      "stacks": 29.31,
+      "land": 0.912,
+      "hits": 2.335,
+      "comet_hit": 140.4,
+      "comet60": 327.9,
+      "legendaries": 2
+    },
+    {
+      "minute": 18,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Hextech Alternator"
+      ],
+      "ap": 285.0,
+      "ah": 12.0,
+      "stacks": 31.77,
+      "land": 0.912,
+      "hits": 2.462,
+      "comet_hit": 148.7,
+      "comet60": 366.0,
+      "legendaries": 2
+    },
+    {
+      "minute": 19,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb"
+      ],
+      "ap": 350.0,
+      "ah": 12.0,
+      "stacks": 34.24,
+      "land": 0.912,
+      "hits": 2.462,
+      "comet_hit": 167.6,
+      "comet60": 433.4,
+      "legendaries": 3
+    },
+    {
+      "minute": 20,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Amplifying Tome"
+      ],
+      "ap": 370.0,
+      "ah": 12.0,
+      "stacks": 36.7,
+      "land": 0.912,
+      "hits": 2.462,
+      "comet_hit": 173.1,
+      "comet60": 447.6,
+      "legendaries": 3
+    },
+    {
+      "minute": 21,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Fiendish Codex"
+      ],
+      "ap": 389.0,
+      "ah": 22.0,
+      "stacks": 39.09,
+      "land": 0.912,
+      "hits": 2.394,
+      "comet_hit": 178.6,
+      "comet60": 448.9,
+      "legendaries": 3
+    },
+    {
+      "minute": 22,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 414.0,
+      "ah": 32.0,
+      "stacks": 41.58,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 184.2,
+      "comet60": 480.5,
+      "legendaries": 3
+    },
+    {
+      "minute": 23,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 444.0,
+      "ah": 37.0,
+      "stacks": 44.06,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 209.2,
+      "comet60": 545.8,
+      "legendaries": 4
+    },
+    {
+      "minute": 24,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus"
+      ],
+      "ap": 460.0,
+      "ah": 37.0,
+      "stacks": 46.55,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 215.0,
+      "comet60": 561.1,
+      "legendaries": 4
+    },
+    {
+      "minute": 25,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Needlessly Large Rod"
+      ],
+      "ap": 525.0,
+      "ah": 37.0,
+      "stacks": 49.03,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 223.4,
+      "comet60": 583.0,
+      "legendaries": 4
+    },
+    {
+      "minute": 26,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Needlessly Large Rod"
+      ],
+      "ap": 525.0,
+      "ah": 37.0,
+      "stacks": 51.52,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 228.5,
+      "comet60": 596.2,
+      "legendaries": 4
+    },
+    {
+      "minute": 27,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Needlessly Large Rod",
+        "Blasting Wand"
+      ],
+      "ap": 588.0,
+      "ah": 37.0,
+      "stacks": 54.0,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 236.7,
+      "comet60": 617.8,
+      "legendaries": 4
+    },
+    {
+      "minute": 28,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 790.4,
+      "ah": 37.0,
+      "stacks": 56.49,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 252.1,
+      "comet60": 657.9,
+      "legendaries": 5
+    },
+    {
+      "minute": 29,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 790.4,
+      "ah": 37.0,
+      "stacks": 58.97,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 256.8,
+      "comet60": 670.1,
+      "legendaries": 5
+    },
+    {
+      "minute": 30,
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Spellslinger's Shoes",
+        "Void Staff",
+        "Infinity Orb",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 816.4,
+      "ah": 37.0,
+      "stacks": 61.46,
+      "land": 0.912,
+      "hits": 2.485,
+      "comet_hit": 261.7,
+      "comet60": 682.8,
+      "legendaries": 5
+    }
+  ]
+}

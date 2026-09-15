@@ -1,0 +1,109 @@
+================================================================================
+MORGANA LATE PAGE — keystone + rune  (WR 7.2e)
+Core khóa: Rylai → Spell → Void → Orb → HF → Cap. Gold timeline.
+Late = Σ phút 20–30. Mix 50% poke 90% HP + 50% fight 32% HP.
+================================================================================
+
+GIẢ ĐỊNH (không phải khóa 4 ô)
+--------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Keystone độc lập với path.
+           Loadout = 1 keystone + 3 primary (mỗi slot) + 1 secondary path khác.
+           Comet 15–100+2×hit+5% AP. DH 35+11×soul+5% AP, <50%, CD 35s.
+           Aery 15–70+5% AP. Electro 40–210+5% AP, CD 20–13s.
+           First Strike 7% true / 3s, CD 20–13s. GS x(x+3) AP, Cap ×1.30.
+           Focus 2–30 AP khi >65% HP. Cut 6.57% >60%. Coup 8% <40%.
+           Cheap Shot 10–45 true / 7s (slow Rylai cũng impair). Scorch 21–49 / 8s.
+  Role   : mid. Build late Rylai-first. W-max. Không đồ support.
+  Cặp    : Comet vs DH / Aery / Electro / First Strike trên cùng GS+Focus.
+           Secondary Cut vs Coup vs Cheap. Focus vs Trans. GS vs Scorch.
+           Dom Cheap·Tyrant·Eye vs Sorc Focus·GS.
+  Metric : Σ20–30 (Q+W cadence + keystone DPM + Scorch/Cheap leftover).
+           Cùng uptime combat với farm Comet. AH không giảm CD Comet/Scorch.
+
+--------------------------------------------------------------------------------
+WINNER PAGE
+--------------------------------------------------------------------------------
+  Comet / Sorc Trans·GS / Coup
+  Keystone : Comet
+  Primary  : Sorcery — Manaflow Band, Transcendence, Gathering Storm
+  Secondary: Coup de Grace
+  Σ20–30 62190 | Σ1–30 92150 | stacks/souls @30 61.5/0.0
+
+--------------------------------------------------------------------------------
+RANK — Σ phút 20–30
+--------------------------------------------------------------------------------
+  Page                                             late     full   @30 ks  vs#1
+  Comet / Sorc Trans·GS / Coup                    62190    92150      747  +0.0%
+  Comet / Sorc Trans·GS / Cut                     60937    90456      737  -2.0%
+  Comet / Sorc Trans·GS / Cheap                   60704    90735      715  -2.4%
+  Comet / Dom Cheap·Tyrant·Eye / GS               59380    88451      720  -4.5%
+  Comet / Sorc Focus·GS / Coup                    58722    86812      749  -5.6%
+  Comet / Prec Brutal·Coup / GS                   58535    86389      747  -5.9%
+  Comet / Sorc Focus·GS / Cut                     57605    85323      739  -7.4%
+  Comet / Sorc Focus·GS / Axiom                   57605    85323      739  -7.4%
+  Comet / Sorc Focus·GS / Eyeball                 57545    85003      722  -7.5%
+  Comet / Sorc Focus·GS / Cheap                   57429    85691      718  -7.7%
+  Comet / Prec Brutal·Cut / GS                    57363    84811      737  -7.8%
+  Comet / Sorc Focus·GS / Tyrant                  57294    84966      718  -7.9%
+  Aery / Sorc Focus·GS / Cut                      57094    86069      663  -8.2%
+  DH / Sorc Focus·GS / Coup                       57005    82713      651  -8.3%
+  Comet / Dom Cheap·Tyrant·Eye / Cut              56229    85182      721  -9.6%
+  DH / Sorc Focus·GS / Cut                        55593    80877      603  -10.6%
+  Electro / Sorc Focus·GS / Cut                   55233    82765      435  -11.2%
+  Comet / Sorc Focus·Scorch / Cut                 54510    82693      719  -12.3%
+  Comet / Sorc Focus·Scorch / Cheap               54408    83116      698  -12.5%
+  First Strike / Sorc Focus·GS / Cut              52726    78082      227  -15.2%
+
+--------------------------------------------------------------------------------
+KEYSTONE — cùng page Sorc Focus·GS / Cut
+--------------------------------------------------------------------------------
+  Keystone                                         late    ks20    ks24    ks30
+  Comet                                           57605     485     607     739
+  Dark Harvest                                    55593     227     422     603
+  Aery                                            57094     480     560     663
+  Electrocute                                     55233     360     407     435
+  First Strike                                    52726     134     160     227
+
+--------------------------------------------------------------------------------
+MINUTE 20 / 24 / 28 / 30 — winner vs đối chứng
+--------------------------------------------------------------------------------
+  Page                                              20      24      28      30
+  Comet / Sorc Trans·GS / Coup                    3665    5267    7319    7451
+  Comet / Sorc Focus·GS / Cut                     3362    4892    6780    6901
+  Comet / Sorc Focus·GS / Coup                    3425    4986    6913    7036
+  Comet / Sorc Focus·GS / Cheap                   3394    4885    6724    6842
+  Comet / Sorc Trans·GS / Cut                     3593    5161    7170    7299
+  Comet / Sorc Focus·Scorch / Cut                 3335    4648    6293    6276
+  Comet / Dom Cheap·Tyrant·Eye / GS               3522    5063    6935    7052
+  DH / Sorc Focus·GS / Coup                       3179    4827    6788    6939
+  Aery / Sorc Focus·GS / Cut                      3357    4844    6727    6824
+  First Strike / Sorc Focus·GS / Cut              3011    4445    6292    6389
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Comet + Sorcery: Manaflow Band, Transcendence, Gathering Storm
+  Secondary Coup de Grace.
+
+  KEYSTONE (build late, stack/soul từ phút 1):
+  • Comet vs Aery +0.9%. Aery 5% AP / 70 base, không stack. Comet +2/hit suốt trận.
+  • Comet vs Electro +4.3%. Electro CD 13s @15, 5% AP — không farm stack.
+  • Comet vs First Strike +9.3%. 7% true chỉ 3s đầu combat / CD 13s. Siege late không retrigger.
+  • Comet vs DH+Coup +1.1%. DH cửa <50% đóng lúc poke 90%. Takedown 1s chỉ 1 phần fight.
+  • Comet giữ: farm stack từ Rylai 8:00, late hit = base+2×stack+pen.
+
+  MINOR (late):
+  • GS vs Scorch +5.7%. GS 70 AP @24, 88 @27, 108 @30, Cap ×1.30. Q 90% AP. Comet chỉ 5% AP nhưng kit late thắng Scorch 49/8s.
+  • Transcendence vs Focus +5.8%. Focus 30 AP tắt dưới 65% HP (cửa fight 32%). Trans 10 AH tăng Q/W cả hai cửa. AH vẫn không giảm CD Comet — chỉ cadence kit.
+  • Trans+Coup vs Trans+Cut +2.1%. Mix 50/50 late: Coup 8% @32%+Orb thắng Cut 6.57% @90%.
+  • Cut vs Coup (cùng Focus+GS) +1.9%. Poke-only → Cut. Fight/Orb late → Coup.
+  • Cut vs Cheap Shot -0.3%. Cheap 45 true / 7s trên Rylai slow. Cut nhân Q+W+Comet @90%.
+  • Trans+GS+Cut vs Dom Cheap+Tyrant+Eye+GS -2.6%. Dom giữ GS; Cheap/Tyrant mạnh cửa 32%.
+
+  PAGE:
+  • Keystone Comet
+  • Primary Sorcery: Manaflow Band · Transcendence · Gathering Storm
+  • Secondary Coup de Grace
+  • Fork: Cut Down nếu siege poke 90%. Coup de Grace nếu fight/Orb.
+  • Không Scorch (game late). Không First Strike. Không Electro.
+================================================================================
