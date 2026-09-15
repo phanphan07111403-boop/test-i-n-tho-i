@@ -12,4 +12,5 @@ League itemization sims.
 python3 zyra-burn-sim/simulate_zyra_burn.py
 python3 ap-kogmaw-sim/simulate_ap_kogmaw.py
 python3 morgana-comet-farm-sim/simulate_morgana_comet.py
+python3 morgana-comet-farm-sim/simulate_morgana_comet_runes.py
 ```

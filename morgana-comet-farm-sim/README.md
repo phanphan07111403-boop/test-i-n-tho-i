@@ -49,3 +49,24 @@ The gold-agnostic Luden max-DPM core (Luden → HF → BF → Crypt, no Rylai) i
 ## Play
 
 Lane: W the wave so mid walks in the pool — Comet fires even if Q misses. Q when they step up; 2s root covers the 0.8s delay. After Rylai, W under them and stack. Do not buy two Lost Chapter items. Do not delay Rylai to rush Cap / Luden / HF.
+
+## Late rune page
+
+Lock this core. Loadout = **1 keystone + 3 primary + 1 secondary** (7.2e). Metric = Σ minutes 20–30 of Q+W + keystone (50% poke at 90% HP, 50% fight at 32% HP).
+
+```bash
+python3 simulate_morgana_comet_runes.py
+```
+
+**Page:** Arcane Comet · Manaflow Band · **Transcendence** · **Gathering Storm** · **Coup de Grace**
+
+| Slot | Pick | Why late |
+|------|------|----------|
+| Keystone | **Comet** | Stacks from 8:00; Aery −1%, DH+Coup −8%, Electro −11%, First Strike −15% |
+| Sorcery 1 | Manaflow Band | Mana to keep W on the wave |
+| Sorcery 2 | **Transcendence** | 10 AH on Q/W in both HP windows. Absolute Focus’s 30 AP turns off below 65% (the 32% fight) |
+| Sorcery 3 | **Gathering Storm** | 70 AP @24, 88 @27, 108 @30, Deathcap ×1.30. Scorch is −12% |
+| Secondary | **Coup de Grace** | 8% below 40% + Orb. Cut Down if you only siege at 90% (−2%) |
+
+AH still does **not** reduce Comet CD. Transcendence is for Q/W cadence on the finished core, not extra Comet procs.
+

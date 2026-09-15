@@ -313,7 +313,10 @@ def progress(
 
 
 def trans_ah(level: int) -> float:
-    return 12.0 if level >= 5 else 6.0
+    """7.2 Transcendence: 5 AH, +5 at 5 (total 10)."""
+    if level >= 5:
+        return 10.0
+    return 5.0
 
 
 @dataclass
@@ -332,7 +335,15 @@ class Stats:
     rylai: bool
 
 
-def stats_of(owned: List[str], level: int, minute: int) -> Stats:
+def stats_of(
+    owned: List[str],
+    level: int,
+    minute: int,
+    extra_ap: float = 0.0,
+    extra_ah: float = 0.0,
+    gs: bool = True,
+    trans: bool = True,
+) -> Stats:
     ap = ah = flat = pct = shred = 0.0
     luden = orb = horizon = bf = li = rylai = False
     cap = False
@@ -350,13 +361,17 @@ def stats_of(owned: List[str], level: int, minute: int) -> Stats:
         li = li or it.liandry
         rylai = rylai or it.rylai
         cap = cap or it.deathcap
-    ap += gs_ap(minute)
+    if gs:
+        ap += gs_ap(minute)
+    ap += extra_ap
     bf_targets = 1.0 if minute < 16 else 1.8
     if bf:
         ap *= 1.0 + 0.04 * bf_targets
     if cap:
         ap *= 1.30
-    ah += trans_ah(level)
+    if trans:
+        ah += trans_ah(level)
+    ah += extra_ah
     return Stats(
         list(owned), ap, ah, flat, pct, shred, luden, orb, horizon, bf, li, rylai,
     )
