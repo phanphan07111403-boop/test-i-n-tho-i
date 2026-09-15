@@ -1,0 +1,186 @@
+================================================================================
+MORGANA COMET FARM — TỪ ĐẦU TỚI CUỐI  (Wild Rift 7.2e)
+Mid. W-max. Arcane Comet. 30 phút. 6 slot = Spellslinger + 5 legendary.
+Stack cộng dồn từ comet TRÚNG. Không khóa core, không cấm món.
+================================================================================
+
+GIẢ ĐỊNH (không phải khóa 4 ô)
+--------------------------------------------------------------------------------
+  Client : Tốc Chiến 7.2e. Comet 15–100 + 2×hit + 5% AP, CD 16–8s
+           (AH không giảm). Delay 0.8s. 1 stack / comet trúng ≥1 tướng.
+           Patch 7.2: AP 20%→5%, stack 3→2. Gathering Storm + Transcendence.
+  Role   : mid farmer. Tome start, không đồ support, không bán slot.
+  Search : mọi 5-legendary sau BF / Luden / Liandry / Rylai. Crypt XOR Void.
+  Metric : Σ comet60 phút 1–30 (0.75 poke 90% HP + 0.25 <35% Orb).
+           Hits = (60/CD × uptime lane + fight) × P(trúng delay).
+           Echo/Squall/R không phải Comet. Q+W kit không xếp hạng.
+  Trúng  : Q root 96%. Rylai + Q 60%/walk 84%. Không Rylai Q 45%/walk 48%.
+  Pen 7.2: Spellslinger 18+8%, Crypt 30%, Void 40%, Bloodletter shred 30%.
+           HF / Rylai / Cap = 0% pen.
+
+--------------------------------------------------------------------------------
+BUILD ORDER — winner
+--------------------------------------------------------------------------------
+  Rylai → Void → Orb → HF → Cap
+  0:00  Amplifying Tome → Boots of Speed → Boots of Mana
+   8:00  Rylai's Crystal Scepter
+  10:00  Spellslinger's Shoes
+  15:00  Void Staff
+  19:00  Infinity Orb
+  23:00  Horizon Focus
+  28:00  Rabadon's Deathcap
+  Mid không mua đồ support. Slot 6 = legendary, không phải sell-back.
+
+--------------------------------------------------------------------------------
+TOP 12 — Σ comet damage phút 1–30 (farm stack × sát thương / hit)
+--------------------------------------------------------------------------------
+  Path                                                   Σcomet    hits  stk30 rylai  vs#1
+  Rylai → Void → Orb → HF → Cap                            9565    61.5   61.5    23  +0.0%
+  Rylai → Orb → Void → HF → Cap                            9544    61.5   61.5    23  -0.2%
+  Rylai → Void → Orb → HF → BF                             9487    61.5   61.5    23  -0.8%
+  Rylai → Void → HF → Orb → Cap                            9486    61.5   61.5    23  -0.8%
+  Rylai → Void → Orb → HF → Luden                          9471    61.5   61.5    23  -1.0%
+  Rylai → Orb → Void → HF → BF                             9465    61.5   61.5    23  -1.0%
+  Rylai → Void → Orb → HF → Bloodletter                    9455    61.5   61.5    23  -1.2%
+  Rylai → Void → Orb → HF → Liandry                        9454    61.5   61.5    23  -1.2%
+  Rylai → Orb → Void → HF → Luden                          9449    61.5   61.5    23  -1.2%
+  Rylai → Void → Orb → HF → Cosmic                         9448    61.5   61.5    23  -1.2%
+  Rylai → Orb → Void → HF → Bloodletter                    9434    61.5   61.5    23  -1.4%
+  Rylai → Orb → Void → HF → Liandry                        9432    61.5   61.5    23  -1.4%
+  … searched 17472 full 5-item paths
+
+--------------------------------------------------------------------------------
+ĐỐI CHỨNG (build người chơi hay hỏi)
+--------------------------------------------------------------------------------
+  Rylai → Void → HF → BF → Cap                            8749  stacks  61.5  rylai 23/30  -8.5%
+  Rylai → Void → HF → Orb → Cap                           9486  stacks  61.5  rylai 23/30  -0.8%
+  Rylai → Void → HF → Luden → Cap                         8733  stacks  61.5  rylai 23/30  -8.7%
+  Rylai → Crypt → HF → BF → Cap                           8299  stacks  61.5  rylai 23/30  -13.2%
+  Rylai → BF → Void → HF → Cap                            8378  stacks  61.5  rylai 23/30  -12.4%
+  BF → Rylai → Void → HF → Cap                            7931  stacks  58.6  rylai 17/30  -17.1%
+  BF → Rylai → Crypt → Orb → HF                           7942  stacks  58.6  rylai 17/30  -17.0%
+  BF → Rylai → Crypt → Orb → Cap                          7816  stacks  58.6  rylai 17/30  -18.3%
+  BF → Void → HF → Rylai → Cap                            7322  stacks  53.6  rylai  8/30  -23.5%
+  BF → Crypt → HF → Rylai → Cap                           6935  stacks  53.6  rylai  8/30  -27.5%
+  BF → Crypt → HF → Orb → Cap                             6502  stacks  48.9  rylai  0/30  -32.0%
+  BF → Orb → Cap → Void → HF                              6539  stacks  48.9  rylai  0/30  -31.6%
+  Luden → HF → BF → Crypt → Cap                           5893  stacks  48.9  rylai  0/30  -38.4%
+  Luden → Rylai → Void → HF → Cap                         7917  stacks  58.6  rylai 17/30  -17.2%
+  Luden → HF → Crypt → Rylai → Cap                        6911  stacks  53.6  rylai  8/30  -27.8%
+  Liandry → Rylai → Void → HF → Cap                       7778  stacks  58.1  rylai 16/30  -18.7%
+  BF → Storm → Orb → Cap → Void                           6361  stacks  48.9  rylai  0/30  -33.5%
+  BF → Rylai → Cosmic → HF → Cap                          6751  stacks  58.6  rylai 17/30  -29.4%
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE — winner (mỗi 2 phút)
+--------------------------------------------------------------------------------
+   1:00 | comet60      19 | hit     16 | stacks   1.1 | land   70% | AP     20 AH    6
+         Tome · Boots
+   2:00 | comet60      28 | hit     24 | stacks   2.3 | land   70% | AP     25 AH    6
+         Mana
+   4:00 | comet60      40 | hit     37 | stacks   4.6 | land   70% | AP     25 AH   12
+         Mana · Belt
+   6:00 | comet60      69 | hit     50 | stacks   7.2 | land   70% | AP     74 AH   12
+         Mana · Belt · Wand
+   8:00 | comet60     111 | hit     63 | stacks  10.2 | land   91% | AP     94 AH   12
+         Mana · Rylai
+   9:00 | comet60     128 | hit     70 | stacks  12.0 | land   91% | AP    100 AH   12
+         Mana · Rylai
+  10:00 | comet60     180 | hit     85 | stacks  14.2 | land   91% | AP    115 AH   12
+         Rylai · Spell
+  11:00 | comet60     196 | hit     93 | stacks  16.3 | land   91% | AP    135 AH   12
+         Rylai · Spell · Amethyst
+  12:00 | comet60     211 | hit     96 | stacks  18.5 | land   91% | AP    143 AH   12
+         Rylai · Spell · Amethyst
+  14:00 | comet60     223 | hit    107 | stacks  22.6 | land   91% | AP    208 AH   12
+         Rylai · Spell · Amethyst · NLR
+  15:00 | comet60     266 | hit    128 | stacks  24.6 | land   91% | AP    228 AH   12
+         Rylai · Spell · Void
+  16:00 | comet60     320 | hit    137 | stacks  27.0 | land   91% | AP    273 AH   12
+         Rylai · Spell · Void · Alt
+  18:00 | comet60     366 | hit    149 | stacks  31.8 | land   91% | AP    285 AH   12
+         Rylai · Spell · Void · Alt
+  20:00 | comet60     448 | hit    173 | stacks  36.7 | land   91% | AP    370 AH   12
+         Rylai · Spell · Void · Orb · Tome
+  21:00 | comet60     449 | hit    179 | stacks  39.1 | land   91% | AP    389 AH   22
+         Rylai · Spell · Void · Orb · Codex
+  22:00 | comet60     481 | hit    184 | stacks  41.6 | land   91% | AP    414 AH   32
+         Rylai · Spell · Void · Orb · Codex
+  24:00 | comet60     561 | hit    215 | stacks  46.5 | land   91% | AP    460 AH   37
+         Rylai · Spell · Void · Orb · HF
+  25:00 | comet60     583 | hit    223 | stacks  49.0 | land   91% | AP    525 AH   37
+         Rylai · Spell · Void · Orb · HF · NLR
+  26:00 | comet60     596 | hit    228 | stacks  51.5 | land   91% | AP    525 AH   37
+         Rylai · Spell · Void · Orb · HF · NLR
+  28:00 | comet60     658 | hit    252 | stacks  56.5 | land   91% | AP    790 AH   37
+         Rylai · Spell · Void · Orb · HF · Cap
+  30:00 | comet60     683 | hit    262 | stacks  61.5 | land   91% | AP    816 AH   37
+         Rylai · Spell · Void · Orb · HF · Cap
+
+--------------------------------------------------------------------------------
+STACKS — farm Comet từ phút 1 (không cap thấp; game thật ~40–60)
+--------------------------------------------------------------------------------
+  Path                                                     s8    s12    s20    s30   ryl
+  Rylai → Void → Orb → HF → Cap                          10.2   18.5   36.7   61.5    23
+  Rylai → Void → HF → BF → Cap                           10.2   18.5   36.7   61.5    23
+  Rylai → Void → HF → Orb → Cap                          10.2   18.5   36.7   61.5    23
+  BF → Rylai → Void → HF → Cap                            9.8   16.1   33.9   58.6    17
+  BF → Rylai → Crypt → Orb → HF                           9.8   16.1   33.9   58.6    17
+  Luden → HF → BF → Crypt → Cap                           9.8   16.1   30.0   48.9     0
+  BF → Crypt → HF → Orb → Cap                             9.8   16.1   30.0   48.9     0
+  BF → Orb → Cap → Void → HF                              9.8   16.1   30.0   48.9     0
+  Luden → Rylai → Void → HF → Cap                         9.8   16.1   33.9   58.6    17
+  Liandry → Rylai → Void → HF → Cap                       9.8   16.1   33.4   58.1    16
+  BF → Storm → Orb → Cap → Void                           9.8   16.1   30.0   48.9     0
+  Stack sớm hơn → mỗi comet sau đó +2 dmg. 5% AP không đuổi kịp.
+
+--------------------------------------------------------------------------------
+SPIKE 8 / 12 / 20 / 30 — comet60
+--------------------------------------------------------------------------------
+  Path                                                       8      12      20      30
+  Rylai → Void → Orb → HF → Cap                            111     211     448     683
+  Rylai → Orb → Void → HF → Cap                            111     205     448     683
+  Rylai → Void → Orb → HF → BF                             111     211     448     657
+  Rylai → Void → HF → Orb → Cap                            111     211     430     683
+  Rylai → Void → Orb → HF → Luden                          111     211     448     654
+  Rylai → Orb → Void → HF → BF                             111     205     448     657
+  Rylai → Void → Orb → HF → Bloodletter                    111     211     448     654
+  Rylai → Void → Orb → HF → Liandry                        111     211     448     650
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Full build: Spellslinger · Rylai · Void · Orb · HF · Cap
+  Σ1–30 comet 9565 | hits 61.5 | stacks @30 61.5 | Rylai 23/30 phút (lần đầu 8:00)
+  5 legendary xong phút 28 (không bán support — mid không mua Frostfang).
+  Cụm ≤1%: Rylai → Void → Orb → HF → Cap, Rylai → Orb → Void → HF → Cap, Rylai → Void → Orb → HF → BF, Rylai → Void → HF → Orb → Cap, Rylai → Void → Orb → HF → Luden
+
+  TẠI SAO FARM COMET + SÁT THƯƠNG COMET CHỌN PATH NÀY:
+  • 7.2 cắt AP Comet xuống 5%. 100 AP = +5 raw. 1 stack = +2 raw
+    suốt phần còn lại của trận. Farm trúng > mua AP.
+  • CD 16–8s không ăn AH. Spam Q / Cosmic / Crimson không thêm proc.
+    Trần proc = 60/CD. Cửa thắt là delay 0.8s — Q root hoặc Rylai.
+  • W tick / burn vẫn TRIGGER comet khi Q hụt. Projectile mới miss.
+  • Rylai phút 8:00 nâng P(trúng) ~70%→91%. Đó là farm stack.
+  • Winner land 91% sau Rylai (61 stacks @30).
+  • Rylai-first (best Rylai → Void → Orb → HF → Cap) vs best BF-first BF → Rylai → Void → Orb → HF -13.1%. Stack từ ~8:00, không chờ 14:00.
+  • Void phút 15:00 — 40% pen nhân cả base+stack. Crypt 30%+20 AH thua vì AH không giảm CD Comet.
+  • HF phút 23:00: Q mark → comet đáp 0.8s sau, +10%. 25 AH không thêm stack.
+  • Best không Rylai BF → Void → Orb → HF → Cap -27.9%, stacks 48.9 vs 61.5.
+  • Rylai sau Crypt+HF -27.5% — stack muộn, Comet yếu cả trận.
+  • Winner farm DH (BF→Rylai→Crypt→Orb→HF) -17.0% trên metric Comet. Crypt/Orb là cửa DH, không phải 5% AP Comet.
+  • Core Luden max-DPM cũ (Luden→HF→BF→Crypt, bỏ vàng) -38.4%. Echo không phải Comet; không Rylai = miss delay.
+  • Best Luden-first Luden → Rylai → Void → Orb → HF -13.2%. Echo không trigger Comet.
+  • Best Liandry-first Liandry → Rylai → Void → Orb → HF -15.2%. 2% HP không vào Comet; Liandry chỉ giúp trigger (đã đủ từ W).
+  • Rush Orb/Cap/Storm -31.6%. Orb 20% tắt ở 90% poke; Storm Squall không phải Comet.
+  • Cosmic Drive (AH) -29.4% — AH không farm Comet.
+  • Orb: 15 flat + 110 AP. 20% chỉ khi chip ≤35% (25% metric). Không phải lý do mua sớm.
+  • Cap 30% AP gồm GS. 5% của đó ≈ 3–5 extra Comet. Mua sau pen + Rylai.
+
+  CHƠI:
+  • Lane: W wave sao cho mid dẫm pool. Comet bắn dù Q hụt.
+  • Q khi họ bước vào — root 2s > delay 0.8s = stack chắc.
+  • Rylai xong: thả W dưới chân, Comet farm không cần aim Q.
+  • Đừng spam Q vì AH. Trần là CD Comet. Đừng delay Rylai để rush Cap.
+  • Đừng mua 2 Lost Chapter. Echo không phải Comet.
+================================================================================
