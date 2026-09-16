@@ -1,0 +1,92 @@
+================================================================================
+POKE MAGES — HIGHEST RANGE × SHORTEST COOLDOWN  (PC LoL ~26.18)
+Equal AP/AH curve | 12s siege window | kits, not builds
+================================================================================
+
+SHARED STATS
+  Min  Lvl      AP     AH           Pen
+    6    7      82     20  0 flat
+    8    9     150     30  0 flat
+   10   11     158     30  12 flat
+   12   12     166     30  12 flat
+   16   14     257     55  12 flat
+   22   17     381     65  12 flat + 40%
+   28   18     485     65  12 flat + 40%
+
+--------------------------------------------------------------------------------
+RANGE / CYCLE  (this is the question: range you can refresh per second)
+--------------------------------------------------------------------------------
+  Kit              Rng   CD16  n16    RF16   CD22  n22    RF22
+  Kog'Maw R       1800   1.22    9    1478   0.86    9    2103
+  Karthus Q        875   0.90   14     978   0.86   14    1022
+  Ezreal Q        1200   2.40    5     499   2.23    6     539
+  Ziggs Q         1400   2.83    5     495   2.67    5     524
+  Hwei QW         1900   4.37    3     435   4.14    3     459
+  Nidalee Q       1500   4.12    3     364   3.89    4     386
+  Jayce Q+E       1600   5.37    3     298   5.06    3     316
+  Xerath Q        1450   4.98    3     291   4.78    3     303
+  Hwei QQ         1075   4.37    3     246   4.14    3     260
+  Vel'Koz Q       1100   4.77    3     231   4.49    3     245
+  Mel Q            950   4.22    3     225   3.99    3     238
+  Lux E           1100   5.41    3     203   5.10    3     216
+
+--------------------------------------------------------------------------------
+EXPECTED DAMAGE / 12s  (hit rate × shots × one-hit)
+--------------------------------------------------------------------------------
+  Kit                16s     16t     22s     22t   HitS  Raw22
+  Karthus Q         1673    1354    2243    1786    42%    493
+  Kog'Maw R          855     630    1351     980    48%    394
+  Ziggs Q            880     692    1171     906    50%    585
+  Nidalee Q          584     616    1041    1078    32%   1022
+  Ezreal Q           646     483     994     731    50%    408
+  Mel Q              655     532     889     711    50%    729
+  Hwei QQ            604     512     824     702    50%    671
+  Vel'Koz Q          606     476     814     629    45%    739
+  Lux E              586     449     784     590    55%    575
+  Xerath Q           423     357     579     481    40%    573
+  Jayce Q+E          367     276     417     308    38%    415
+  Hwei QW            321     273     414     346    38%    412
+
+--------------------------------------------------------------------------------
+ARTILLERY FILTER  (range ≥ 1400 — the spear-spam fantasy)
+--------------------------------------------------------------------------------
+  Kog'Maw R      range 1800 | cycle 0.86s | 9 shots/12s | RF 2103 | squish 1351
+  Ziggs Q        range 1400 | cycle 2.67s | 5 shots/12s | RF 524 | squish 1171
+  Hwei QW        range 1900 | cycle 4.14s | 3 shots/12s | RF 459 | squish 414
+  Nidalee Q      range 1500 | cycle 3.89s | 4 shots/12s | RF 386 | squish 1041
+  Jayce Q+E      range 1600 | cycle 5.06s | 3 shots/12s | RF 316 | squish 417
+  Xerath Q       range 1450 | cycle 4.78s | 3 shots/12s | RF 303 | squish 579
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best poke mage for HIGHEST RANGE + SHORT COOLDOWN:  Kog'Maw (AP) R
+  • Living Artillery: 1800 range, 0.86s cycle @22:00, 9 shots / 12s.
+  • Range-frequency 2103 vs Ziggs 524, Hwei QW 459, Xerath Q 303, Nidalee 386.
+  • Expected squish damage / 12s: Kog 1351, Ziggs 1171 (-13%), Xerath 579.
+
+  IF YOU WANTED SPEAR-ONLY NIDALEE, LOCK ONE OF THESE INSTEAD:
+  1) AP Kog'Maw  — the actual 'spam long-range skillshot' champion.
+     R is 1800 with a 1s CD (mana is the real limiter, not cooldown).
+     Hide in fog, drop R on feet. You already have a Malignance sim.
+  2) Ziggs       — best BASIC-ability Q spam. 1400 bounce, 4s CD
+     (5 bombs / 12s). Siege, waveclear, turret. Easier than Xerath.
+  3) Xerath      — longest *identity* as an artillery mage (1450 Q +
+     5000 R). Range is real; 'short cooldown' is not: max Q still
+     costs 1.75s charge, cycle 4.78s, only 3 beams / 12s.
+  4) Hwei QW     — longest basic spell (1900) but 1s delay + 6s CD.
+     Great poke, not a spam button.
+
+  NOT THE ANSWER:
+  • Nidalee Q: 1500 range looks close to Xerath, but 6s CD, ~32% hit, and Hunt wants cougar. RF 386 vs Kog 2103.
+  • Karthus Q: shortest CD in the table (0.86s, 14 ticks) but 875 range — that's a melee-adjacent circle, not artillery.
+  • Ezreal Q: spam (6 shots, RF 539) at 1200 — ADC/hybrid, not a mage, and not highest range.
+  • Jayce Q+E: 1600 gated, 8s CD, physical. Cannon poke, not a mage.
+  • Lux / Mel / Vel'Koz: fine poke mages, shorter range or longer CD.
+
+  HOW TO READ THE TWO WINNERS:
+  • Want the NUMBER (range × 1/CD):     AP Kog'Maw R.
+  • Want a mage whose Q is the spam:    Ziggs.
+  • Want to never enter vision:         Xerath (Q from fog + R).
+  Do not lock Nidalee for this job.
+================================================================================
