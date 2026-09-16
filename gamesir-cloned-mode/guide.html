@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameSir Cloned Mode — nhấn một, hai chỗ cùng lúc</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      background: #10141c;
+      color: #e8edf5;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 1.45rem; margin: 0 0 8px; }
+    p, li { line-height: 1.45; }
+    .muted { color: #9aa8bd; }
+    .row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+    button {
+      background: #243044;
+      color: inherit;
+      border: 1px solid #3a4d68;
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    button.active { background: #2f6fed; border-color: #2f6fed; }
+    .stage {
+      position: relative;
+      height: 280px;
+      border-radius: 16px;
+      background: linear-gradient(#1b2433, #151b26);
+      border: 1px solid #2c3a50;
+      overflow: hidden;
+    }
+    .hud {
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 2px solid #6f86a8;
+      display: grid;
+      place-items: center;
+      font-size: 12px;
+      color: #c5d4ea;
+    }
+    #spot1 { left: 70px; bottom: 70px; }
+    #spot2 { right: 70px; bottom: 70px; }
+    .pad {
+      position: absolute;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      width: 88px;
+      height: 44px;
+      border-radius: 10px;
+      background: #2a3548;
+      border: 1px solid #4a5d78;
+      display: grid;
+      place-items: center;
+      user-select: none;
+    }
+    .flash {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #3ee0a0;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .log {
+      margin-top: 14px;
+      min-height: 4.5em;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #0c1016;
+      border: 1px solid #2c3a50;
+      font-family: ui-monospace, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cloned Mode trong GameSir World</h1>
+    <p class="muted">
+      Giữ nút ảo <strong>A</strong> bên dưới. Đổi mode để thấy khác biệt.
+      Cloned = hai HUD chớp <em>cùng lúc</em> lúc nhấn <em>và</em> lúc thả.
+    </p>
+    <div class="row">
+      <button data-mode="normal">Normal</button>
+      <button data-mode="separated">Separated press &amp; release</button>
+      <button data-mode="cloned" class="active">Cloned Mode</button>
+    </div>
+    <div class="stage" id="stage">
+      <div class="hud" id="spot1">HUD 1</div>
+      <div class="hud" id="spot2">HUD 2</div>
+      <div class="flash" id="f1"></div>
+      <div class="flash" id="f2"></div>
+      <div class="pad" id="pad">A</div>
+    </div>
+    <div class="log" id="log">Mode: Cloned — nhấn A sẽ chạm HUD 1 và HUD 2 cùng lúc.</div>
+    <p class="muted">
+      Trong app thật: icon nổi GameSir → 调整键位 → chọn nút → ⚙️ → Click Mode → Cloned Mode,
+      rồi kéo hai nút con ra hai chỗ.
+    </p>
+  </main>
+  <script>
+    const modes = {
+      normal: "Normal — một chấm, một tap (chỉ HUD 1 lúc nhấn).",
+      separated: "Separated — nhấn = HUD 1, thả = HUD 2. Không cùng lúc.",
+      cloned: "Cloned — nhấn và thả đều bấm HUD 1 + HUD 2 cùng lúc.",
+    };
+    let mode = "cloned";
+    const log = document.getElementById("log");
+    const pad = document.getElementById("pad");
+    const f1 = document.getElementById("f1");
+    const f2 = document.getElementById("f2");
+    const s1 = document.getElementById("spot1");
+    const s2 = document.getElementById("spot2");
+
+    function place(flash, hud) {
+      const r = hud.getBoundingClientRect();
+      const stage = document.getElementById("stage").getBoundingClientRect();
+      flash.style.left = (r.left - stage.left + r.width / 2 - 9) + "px";
+      flash.style.top = (r.top - stage.top + r.height / 2 - 9) + "px";
+    }
+    function blink(el) {
+      el.style.transition = "none";
+      el.style.opacity = "1";
+      requestAnimationFrame(() => {
+        el.style.transition = "opacity 280ms ease";
+        el.style.opacity = "0";
+      });
+    }
+    function fire(which, label) {
+      place(f1, s1);
+      place(f2, s2);
+      const hits = [];
+      if (which.includes(1)) { blink(f1); hits.push("HUD 1"); }
+      if (which.includes(2)) { blink(f2); hits.push("HUD 2"); }
+      log.textContent = `${label}: ${hits.join(" + ") || "(không chạm)"}`;
+    }
+
+    document.querySelectorAll("button[data-mode]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        mode = btn.dataset.mode;
+        document.querySelectorAll("button[data-mode]").forEach((b) => b.classList.toggle("active", b === btn));
+        log.textContent = "Mode: " + modes[mode];
+      });
+    });
+
+    function onDown(ev) {
+      ev.preventDefault();
+      pad.style.background = "#3d5a86";
+      if (mode === "cloned") fire([1, 2], "Nhấn");
+      else if (mode === "separated") fire([1], "Nhấn");
+      else fire([1], "Nhấn");
+    }
+    function onUp(ev) {
+      ev.preventDefault();
+      pad.style.background = "";
+      if (mode === "cloned") fire([1, 2], "Thả");
+      else if (mode === "separated") fire([2], "Thả");
+      else log.textContent = "Thả: Normal không tap lần hai.";
+    }
+    pad.addEventListener("pointerdown", onDown);
+    pad.addEventListener("pointerup", onUp);
+    pad.addEventListener("pointerleave", onUp);
+  </script>
+</body>
+</html>
