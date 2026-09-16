@@ -1,0 +1,89 @@
+{
+  "name": "Wild Rift D-pad — tiện ích lane",
+  "game": "Wild Rift",
+  "intent": "D-pad vật lý = 4 tap HUD. Stick trái mới là đi. Không dùng D-pad như WASD.",
+  "recommended_platform": "android",
+  "layout": "lane_utility",
+  "analog_dpad": false,
+  "hud_first": true,
+  "movement": {
+    "bind": "LEFT_STICK",
+    "hud": "movement_wheel",
+    "type": "joystick"
+  },
+  "hud_prerequisites": {
+    "scoreboard": {
+      "vi": "Bảng điểm",
+      "default_spot": "thanh trên, giữa/phải"
+    },
+    "recall": {
+      "vi": "Hồi thành",
+      "default_spot": "gần shop, cụm dưới phải"
+    },
+    "attack_minion": {
+      "vi": "Đánh lính / quái",
+      "default_spot": "icon nhỏ dưới nút đánh thường"
+    },
+    "attack_turret": {
+      "vi": "Đánh trụ / cây",
+      "default_spot": "icon nhỏ trên nút đánh thường"
+    }
+  },
+  "dpad": [
+    {
+      "bind": "DPAD_UP",
+      "hud": "scoreboard",
+      "vi": "Bảng điểm",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_DOWN",
+      "hud": "recall",
+      "vi": "Hồi thành",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_LEFT",
+      "hud": "attack_minion",
+      "vi": "Đánh lính / quái",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_RIGHT",
+      "hud": "attack_turret",
+      "vi": "Đánh trụ / cây",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    }
+  ],
+  "alt_layouts": {
+    "skill_upgrade": {
+      "DPAD_UP": "upgrade_q",
+      "DPAD_LEFT": "upgrade_w",
+      "DPAD_DOWN": "upgrade_e",
+      "DPAD_RIGHT": "upgrade_r",
+      "note": "Chỉ dùng lúc hồi thành / base. Trong 5v5 dễ cộng nhầm skill."
+    },
+    "portrait_lock": {
+      "DPAD_UP": "enemy_portrait_1",
+      "DPAD_RIGHT": "enemy_portrait_2",
+      "DPAD_DOWN": "enemy_portrait_3",
+      "DPAD_LEFT": "enemy_portrait_4",
+      "note": "Cần bật Khóa chân dung. Tướng 5 để L3."
+    }
+  },
+  "forbidden_dpad_types": [
+    "joystick",
+    "movement_wheel",
+    "cloned",
+    "turbo",
+    "macro",
+    "skill_stick",
+    "separated",
+    "gesture",
+    "sliding"
+  ]
+}

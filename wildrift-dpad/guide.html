@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D-pad Tốc Chiến</title>
+  <style>
+    :root { color-scheme: dark; --bg: #10141c; --card: #182033; --line: #2c3a50; --muted: #9aa8bd; --accent: #2f6fed; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, sans-serif; background: var(--bg); color: #e8edf5; }
+    main { max-width: 720px; margin: 0 auto; padding: 24px 16px 56px; }
+    h1 { font-size: 1.4rem; margin: 0 0 8px; }
+    h2 { font-size: 1rem; margin: 28px 0 10px; }
+    .muted { color: var(--muted); line-height: 1.45; }
+    .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+    .tabs button {
+      background: var(--card); color: inherit; border: 1px solid var(--line);
+      border-radius: 999px; padding: 8px 14px; cursor: pointer; font: inherit;
+    }
+    .tabs button.on { background: var(--accent); border-color: var(--accent); }
+    .pad { width: 228px; height: 228px; margin: 8px auto 20px; position: relative; }
+    .dir {
+      position: absolute; width: 68px; height: 68px; border-radius: 14px;
+      background: #243044; border: 1px solid #3a4d68; display: grid; place-items: center;
+      text-align: center; font-size: 12px; line-height: 1.2; cursor: pointer; user-select: none;
+    }
+    .dir:active, .dir.on { background: var(--accent); border-color: var(--accent); }
+    #up { left: 80px; top: 0; }
+    #down { left: 80px; bottom: 0; }
+    #left { left: 0; top: 80px; }
+    #right { right: 0; top: 80px; }
+    .stick {
+      position: absolute; left: 88px; top: 88px; width: 52px; height: 52px; border-radius: 50%;
+      background: #3d5a86; display: grid; place-items: center; font-size: 10px; text-align: center;
+    }
+    .log {
+      min-height: 3.2em; padding: 10px 12px; border-radius: 10px;
+      background: #0c1016; border: 1px solid var(--line); font-family: ui-monospace, monospace; font-size: 13px;
+    }
+    ol, ul { padding-left: 1.2em; }
+    li { margin: 6px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    td, th { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+    th { background: #151c28; }
+    .warn { color: #ffb4b4; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>D-pad Tốc Chiến — không dùng để đi</h1>
+    <p class="muted">Stick giữa là đi. Bấm 4 hướng = tap HUD. Chỉnh icon trong game trước, rồi mới map tay cầm.</p>
+
+    <div class="tabs" role="tablist">
+      <button type="button" class="on" data-layout="lane">Lane: lính / trụ</button>
+      <button type="button" data-layout="upgrade">Cộng skill</button>
+      <button type="button" data-layout="portrait">Khóa chân dung</button>
+    </div>
+
+    <div class="pad" aria-label="D-pad">
+      <button type="button" class="dir" id="up"></button>
+      <button type="button" class="dir" id="left"></button>
+      <div class="stick">Stick<br>đi</div>
+      <button type="button" class="dir" id="right"></button>
+      <button type="button" class="dir" id="down"></button>
+    </div>
+    <div class="log" id="log">Sẵn sàng. Layout lane.</div>
+
+    <h2>Thứ tự setup</h2>
+    <ol>
+      <li>Tốc Chiến: Cài đặt → Điều khiển → Tùy chỉnh bố cục — kéo lính / trụ / hồi thành / bảng điểm ra chỗ trống.</li>
+      <li>GameSir World hoặc MooWii: gán ↑↓←→ kiểu <strong>Normal / Gán phím</strong> lên đúng 4 icon.</li>
+      <li>Công cụ tập luyện: stick vẫn đi 360°; ← last-hit lính khi tướng trong tầm; → không dính tướng dưới trụ.</li>
+    </ol>
+
+    <h2>Cấm</h2>
+    <table>
+      <tr><th>Gán D-pad vào</th><th>Hỏng gì</th></tr>
+      <tr><td>Bánh xe đi</td><td>Trùng stick trái, đi 8 hướng</td></tr>
+      <tr><td>Skill 1–4</td><td>Mất analog aim trên L1/R1</td></tr>
+      <tr><td>Cloned / Turbo / Macro</td><td>Hai chỗ cùng lúc, hoặc spam AA</td></tr>
+    </table>
+    <p class="muted warn">Đừng trộn layout. Một bộ D-pad = một việc.</p>
+  </main>
+  <script>
+    const LAYOUTS = {
+      lane: {
+        up: "↑ Bảng điểm",
+        down: "↓ Hồi thành",
+        left: "← Đánh lính",
+        right: "→ Đánh trụ",
+        ready: "Layout lane: bảng điểm / hồi thành / lính / trụ.",
+      },
+      upgrade: {
+        up: "↑ +Q",
+        down: "↓ +E",
+        left: "← +W",
+        right: "→ +R",
+        ready: "Layout cộng skill — chỉ lúc base.",
+      },
+      portrait: {
+        up: "↑ Tướng 1",
+        down: "↓ Tướng 3",
+        left: "← Tướng 4",
+        right: "→ Tướng 2",
+        ready: "Layout khóa chân dung. Cần bật Portrait Lock.",
+      },
+    };
+    const log = document.getElementById("log");
+    const dirs = {
+      up: document.getElementById("up"),
+      down: document.getElementById("down"),
+      left: document.getElementById("left"),
+      right: document.getElementById("right"),
+    };
+    let layout = "lane";
+
+    function paint() {
+      const pack = LAYOUTS[layout];
+      for (const [id, btn] of Object.entries(dirs)) {
+        const label = pack[id];
+        btn.dataset.label = label;
+        btn.innerHTML = label.replace(" ", "<br>");
+      }
+      log.textContent = pack.ready + " Stick vẫn đi.";
+    }
+
+    document.querySelectorAll(".tabs button").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        document.querySelectorAll(".tabs button").forEach((item) => item.classList.remove("on"));
+        tab.classList.add("on");
+        layout = tab.dataset.layout;
+        paint();
+      });
+    });
+
+    Object.values(dirs).forEach((btn) => {
+      const fire = (on) => {
+        btn.classList.toggle("on", on);
+        log.textContent = on
+          ? "Tap: " + btn.dataset.label + " (stick vẫn đi)"
+          : "Thả. Không phải WASD.";
+      };
+      btn.addEventListener("pointerdown", (e) => { e.preventDefault(); fire(true); });
+      btn.addEventListener("pointerup", (e) => { e.preventDefault(); fire(false); });
+      btn.addEventListener("pointercancel", () => fire(false));
+      btn.addEventListener("pointerleave", () => fire(false));
+    });
+
+    paint();
+  </script>
+</body>
+</html>
