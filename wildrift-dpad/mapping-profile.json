@@ -1,0 +1,66 @@
+{
+  "name": "Wild Rift D-pad — lane utilities",
+  "game": "Wild Rift",
+  "intent": "Map the physical D-pad to four HUD taps. Never use it as a movement stick.",
+  "recommended_platform": "android",
+  "layout": "lane_utility",
+  "movement": {
+    "bind": "LEFT_STICK",
+    "hud": "movement_wheel",
+    "type": "joystick"
+  },
+  "dpad": [
+    {
+      "bind": "DPAD_UP",
+      "hud": "scoreboard",
+      "vi": "Bảng điểm",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_DOWN",
+      "hud": "recall",
+      "vi": "Hồi thành",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_LEFT",
+      "hud": "attack_minion",
+      "vi": "Đánh lính / quái",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    },
+    {
+      "bind": "DPAD_RIGHT",
+      "hud": "attack_turret",
+      "vi": "Đánh trụ / cây",
+      "type": "normal",
+      "behavior": "press_hold_release"
+    }
+  ],
+  "alt_layouts": {
+    "skill_upgrade": {
+      "DPAD_UP": "+Q",
+      "DPAD_LEFT": "+W",
+      "DPAD_DOWN": "+E",
+      "DPAD_RIGHT": "+R",
+      "note": "Use at fountain. Easy to mis-tap in a fight."
+    },
+    "portrait_lock": {
+      "DPAD_UP": "enemy_portrait_1",
+      "DPAD_RIGHT": "enemy_portrait_2",
+      "DPAD_DOWN": "enemy_portrait_3",
+      "DPAD_LEFT": "enemy_portrait_4",
+      "note": "Needs Portrait Lock on. Fifth portrait on L3."
+    }
+  },
+  "forbidden_dpad_types": [
+    "joystick",
+    "movement_wheel",
+    "cloned",
+    "turbo",
+    "macro",
+    "skill_stick"
+  ]
+}
