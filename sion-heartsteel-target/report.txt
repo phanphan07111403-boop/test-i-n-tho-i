@@ -1,0 +1,10 @@
+Sion Heartsteel targeting — WR 6.0+
+Fight 40s, start HP 3200, charge 2.5s, CD 20s/target
+
+No. Closest / lowest HP do not read Colossal Consumption marks. Lock the marked portrait.
+
+auto_closest: 2 procs, +75.8 HP (tank)
+auto_lowest_hp: 2 procs, +75.8 HP (adc)
+portrait_cycle_ready: 10 procs, +387.1 HP (adc, bruiser, mid, sup, tank)
+
+Portrait cycle vs auto-closest: 5.11x bonus HP (10 vs 2 procs).

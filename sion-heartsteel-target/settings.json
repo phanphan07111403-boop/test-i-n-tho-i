@@ -1,0 +1,44 @@
+{
+  "question": "Sion Heartsteel — is there an attack mode that prefers Colossal Consumption marks?",
+  "answer": "no",
+  "game": "Wild Rift",
+  "champion": "Sion",
+  "item": "Heartsteel",
+  "passive": "Colossal Consumption",
+  "patch": "WR 6.0+",
+  "why_no": "Ưu tiên tấn công only reads range and HP. It does not read per-target Heartsteel stacks or the 20s per-champion cooldown.",
+  "settings": {
+    "path_vi": "Cài đặt → Điều khiển (Controls)",
+    "portrait_lock": {
+      "en": "Portrait Lock",
+      "vi": "Khóa mục tiêu / chân dung tướng",
+      "value": "On, Fixed Display",
+      "why": "Tap the portrait of the champion whose Heartsteel mark is full. That is the only way to prefer a ready proc."
+    },
+    "target_lock_filtering": {
+      "en": "Target Lock Filtering",
+      "vi": "Bộ lọc khóa mục tiêu",
+      "value": "No minions/structures / Không lính-trụ",
+      "why": "Dragging the attack button stays on champions. Heartsteel only procs on champions; this stops the drag from snapping to a wave."
+    },
+    "targeting_priority": {
+      "en": "Targeting Priority",
+      "vi": "Ưu tiên tấn công",
+      "value": "Closest (Gần nhất) for melee Sion, or Low Health Absolute if you want carries — neither is Heartsteel-aware",
+      "why": "Closest keeps AAing the tank in your face even if that tank is on the 20s Heartsteel CD."
+    },
+    "do_not_use": [
+      "Quick Cast Empowered Attacks — Sion Q is not a Heartsteel proc",
+      "Follow attack / Đeo theo đòn tấn công — walks you onto whoever auto picked, often the same frontliner"
+    ]
+  },
+  "how_to_proc": [
+    "Stand within 700 of an enemy champion for 2.5s until their mark fills.",
+    "Basic-attack THAT champion (not a minion, not Q).",
+    "That champion is on a 20s Heartsteel cooldown. Cycle to another marked champion."
+  ],
+  "controller": {
+    "gamesir_cloned_mode": "Does not help. Cloned Mode taps two HUD spots at once; it cannot read Heartsteel marks.",
+    "useful_map": "Map extra paddles to enemy portraits 1–5 so you can lock the marked champ without lifting the left stick."
+  }
+}
