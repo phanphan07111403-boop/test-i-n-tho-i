@@ -5,6 +5,8 @@
   "recommended_platform": "android",
   "layout": "lane_utility",
   "analog_dpad": false,
+  "dpad_widget": false,
+  "map_as": "four_buttons",
   "hud_first": true,
   "movement": {
     "bind": "LEFT_STICK",
@@ -34,6 +36,7 @@
       "bind": "DPAD_UP",
       "hud": "scoreboard",
       "vi": "Bảng điểm",
+      "widget": "button",
       "type": "normal",
       "behavior": "press_hold_release"
     },
@@ -41,6 +44,7 @@
       "bind": "DPAD_DOWN",
       "hud": "recall",
       "vi": "Hồi thành",
+      "widget": "button",
       "type": "normal",
       "behavior": "press_hold_release"
     },
@@ -48,6 +52,7 @@
       "bind": "DPAD_LEFT",
       "hud": "attack_minion",
       "vi": "Đánh lính / quái",
+      "widget": "button",
       "type": "normal",
       "behavior": "press_hold_release"
     },
@@ -55,6 +60,7 @@
       "bind": "DPAD_RIGHT",
       "hud": "attack_turret",
       "vi": "Đánh trụ / cây",
+      "widget": "button",
       "type": "normal",
       "behavior": "press_hold_release"
     }

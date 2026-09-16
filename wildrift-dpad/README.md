@@ -36,11 +36,25 @@ Chỉ sau bước này mới mở editor GameSir / MooWii.
 
 1. Android. Mở Tốc Chiến **từ GameSir World**, mode **Hardware Mapping (G-Touch)** (ưu tiên) hoặc V-Touch.
 2. Icon nổi → **Adjust buttons / 调整键位**.
-3. **Add Button**, bấm **D-pad ↑** trên tay, kéo chấm lên icon **bảng điểm**.
-4. Lặp ↓ hồi thành, ← đánh lính, → đánh trụ.
-5. ⚙️ từng phím → **Click Mode = Normal**. Tắt Turbo / Cloned / Macro / Skill Wheel. Lưu.
+3. **Add Button / 添加按键** (nút tròn thường). **Không** chọn Add D-pad / 十字键.
+4. Bấm **một** hướng trên D-pad vật lý (↑). Phải ra **chấm tròn**, không phải chữ thập. Kéo lên icon **bảng điểm**.
+5. Lặp ↓ hồi thành, ← đánh lính, → đánh trụ — mỗi hướng một chấm riêng.
+6. ⚙️ từng chấm (nếu mở được) → **Click Mode = Normal**. Tắt Turbo / Cloned / Macro / Skill Wheel. Lưu.
 
 Nguồn Click Mode: [FAQ GameSir — mapping extra features](https://gamesir.com/support/faq) (Normal = một tap). iOS 13.4+ không map G-Touch/V-Touch.
+
+#### Lỗi: *Property setting is not available for D-pad button*
+
+Không phải hỏng tay cầm. ⚙️ / Click Mode **chỉ có trên nút thường (常规键)**. Chữ thập D-pad là widget analog — app từ chối property.
+
+Làm ngay:
+
+1. Trong **调整键位**, kéo **chữ thập D-pad** vào thùng rác / ô xóa. Đừng bấm ⚙️ trên nó.
+2. **Add Button**, không Add D-pad.
+3. Bấm dứt khoát **một** hướng (đừng lướt ngón). Nếu lại ra chữ thập → xóa, thêm lại.
+4. Bốn chấm tròn lên bốn icon HUD. Mặc định đã là Normal tap — **không cần ⚙️** nếu chỉ tap HUD.
+
+Không tách được 4 nút thì để D-pad trống: dùng L3/R3 hoặc M1/M2 cho hồi thành / bảng điểm, last-hit bằng nút đánh thường. Đừng gán chữ thập vào bánh xe đi.
 
 ### MooWii (MB03)
 

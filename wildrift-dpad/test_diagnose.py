@@ -156,7 +156,10 @@ class DpadTests(unittest.TestCase):
         self.assertEqual(by_bind["DPAD_RIGHT"], "attack_turret")
         self.assertEqual(raw["movement"]["type"], "joystick")
         self.assertFalse(raw["analog_dpad"])
+        self.assertFalse(raw["dpad_widget"])
+        self.assertEqual(raw["map_as"], "four_buttons")
         self.assertTrue(raw["hud_first"])
+        self.assertTrue(all(item.get("widget") == "button" for item in raw["dpad"]))
 
     def test_readme_has_hud_first_and_binds(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -168,6 +171,8 @@ class DpadTests(unittest.TestCase):
             "Bảng điểm",
             "Gán phím",
             "Công cụ tập luyện",
+            "Property setting is not available for D-pad button",
+            "Add Button",
         ):
             self.assertIn(needle, text)
 
@@ -178,6 +183,29 @@ class DpadTests(unittest.TestCase):
         self.assertIn("Đánh lính", html)
         self.assertIn("Đánh trụ", html)
         self.assertIn("pointerdown", html)
+
+    def test_dpad_widget_blocked(self):
+        profile = load_profile(ROOT / "mapping-profile.json")
+        profile["dpad_widget"] = True
+        problems = diagnose(profile)
+        self.assertTrue(any("Property setting is not available" in item for item in problems))
+
+    def test_hat_widget_on_key_blocked(self):
+        profile = load_profile(ROOT / "mapping-profile.json")
+        profile["dpad"][0]["widget"] = "hat"
+        problems = diagnose(profile)
+        self.assertTrue(any("Property setting is not available" in item for item in problems))
+
+    def test_map_as_cross_blocked(self):
+        profile = load_profile(ROOT / "mapping-profile.json")
+        profile["map_as"] = "cross"
+        problems = diagnose(profile)
+        self.assertTrue(any("Add Button" in item for item in problems))
+
+    def test_guide_html_has_property_error(self):
+        html = (ROOT / "guide.html").read_text(encoding="utf-8")
+        self.assertIn("Property setting is not available for D-pad button", html)
+        self.assertIn("Add Button", html)
 
     def test_diagnose_does_not_mutate(self):
         profile = load_profile(ROOT / "mapping-profile.json")

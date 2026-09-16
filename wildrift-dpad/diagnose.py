@@ -51,6 +51,11 @@ FORBIDDEN_HUD = {
     "skill_4",
     "skill_stick",
 }
+FORBIDDEN_WIDGETS = {"dpad", "hat", "cross", "dpad_widget", "joystick"}
+DPAD_WIDGET_MSG = (
+    "Property setting is not available for D-pad button. "
+    "Delete the D-pad cross widget and Add Button four times (↑ ↓ ← → as 常规键)."
+)
 LANE_PREREQS = ("scoreboard", "recall", "attack_minion", "attack_turret")
 
 
@@ -65,6 +70,11 @@ def diagnose(profile: dict) -> list[str]:
         problems.append(
             "Analog D-pad is on. Diagonals fire two taps at once. Turn analog / hat-stick off."
         )
+
+    widget_flag = profile.get("dpad_widget")
+    map_as = (profile.get("map_as") or "four_buttons").lower()
+    if widget_flag is True or widget_flag in FORBIDDEN_WIDGETS or map_as in FORBIDDEN_WIDGETS:
+        problems.append(DPAD_WIDGET_MSG)
 
     move = profile.get("movement") or {}
     if (move.get("type") or "").lower() != "joystick":
@@ -111,7 +121,10 @@ def diagnose(profile: dict) -> list[str]:
             continue
         key_type = (key.get("type") or "").lower()
         hud = key.get("hud") or ""
+        widget = (key.get("widget") or "button").lower()
         used_hud.append(hud)
+        if widget in FORBIDDEN_WIDGETS:
+            problems.append(f"{name}: {DPAD_WIDGET_MSG}")
         if key_type in forbidden_list:
             problems.append(
                 f"{name}: type '{key_type}' is not a HUD tap. Use Gán phím / Normal."
@@ -154,7 +167,7 @@ def main() -> int:
     profile = load_profile(profile_path)
     problems = diagnose(profile)
     print(f"Profile: {profile.get('name', profile_path.name)}")
-    print("Wanted: HUD first, then D-pad = 4 Normal taps. Stick walks.")
+    print("Wanted: HUD first, then 4 regular buttons (not a D-pad widget). Stick walks.")
     if problems:
         print("Status: BLOCKED")
         for item in problems:
