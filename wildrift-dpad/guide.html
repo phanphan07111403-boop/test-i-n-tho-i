@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D-pad Tốc Chiến</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, sans-serif; background: #10141c; color: #e8edf5; }
+    main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 1.35rem; margin: 0 0 8px; }
+    .muted { color: #9aa8bd; }
+    .pad {
+      width: 220px; height: 220px; margin: 24px auto; position: relative;
+    }
+    .dir {
+      position: absolute; width: 64px; height: 64px; border-radius: 12px;
+      background: #243044; border: 1px solid #3a4d68; display: grid; place-items: center;
+      text-align: center; font-size: 12px; line-height: 1.2; cursor: pointer; user-select: none;
+    }
+    .dir:active, .dir.on { background: #2f6fed; border-color: #2f6fed; }
+    #up { left: 78px; top: 0; }
+    #down { left: 78px; bottom: 0; }
+    #left { left: 0; top: 78px; }
+    #right { right: 0; top: 78px; }
+    .stick {
+      position: absolute; left: 86px; top: 86px; width: 48px; height: 48px; border-radius: 50%;
+      background: #3d5a86; display: grid; place-items: center; font-size: 10px;
+    }
+    .log {
+      min-height: 3em; padding: 10px 12px; border-radius: 10px;
+      background: #0c1016; border: 1px solid #2c3a50; font-family: ui-monospace, monospace; font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>D-pad Tốc Chiến — không dùng để đi</h1>
+    <p class="muted">Bấm 4 hướng. Stick giữa là đi. Layout lane: bảng điểm / hồi thành / lính / trụ.</p>
+    <div class="pad">
+      <button class="dir" id="up" data-label="↑ Bảng điểm">↑<br>Bảng điểm</button>
+      <button class="dir" id="left" data-label="← Đánh lính">←<br>Đánh lính</button>
+      <div class="stick">Stick<br>đi</div>
+      <button class="dir" id="right" data-label="→ Đánh trụ">→<br>Đánh trụ</button>
+      <button class="dir" id="down" data-label="↓ Hồi thành">↓<br>Hồi thành</button>
+    </div>
+    <div class="log" id="log">Sẵn sàng.</div>
+  </main>
+  <script>
+    const log = document.getElementById("log");
+    document.querySelectorAll(".dir").forEach((btn) => {
+      const fire = (on) => {
+        btn.classList.toggle("on", on);
+        log.textContent = on ? "Tap: " + btn.dataset.label + " (stick vẫn đi)" : "Thả. Không phải WASD.";
+      };
+      btn.addEventListener("pointerdown", (e) => { e.preventDefault(); fire(true); });
+      btn.addEventListener("pointerup", (e) => { e.preventDefault(); fire(false); });
+      btn.addEventListener("pointerleave", () => fire(false));
+    });
+  </script>
+</body>
+</html>
