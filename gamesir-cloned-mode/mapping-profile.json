@@ -1,0 +1,79 @@
+{
+  "name": "GameSir Cloned Mode — two outputs, same time",
+  "app": "GameSir World",
+  "zh_app": "小鸡游戏世界",
+  "intent": "One physical button duplicates its mapped function: two on-screen targets fire together on press and on release.",
+  "recommended_platform": "android",
+  "ios_limitation": "Apple blocked third-party mapping from iOS 13.4. GameSir World has no game library or Cloned Mode on iPhone/iPad.",
+  "mapping_backend": "g_touch",
+  "click_mode": "cloned",
+  "en_menu": "Click Mode → Cloned Mode",
+  "zh_menu": "点击模式 → 两个完全一样的按钮，按下/弹起同时响应",
+  "vi_menu": "Click Mode / 点击模式 → Cloned Mode",
+  "how_to_edit": [
+    "Launch the game from GameSir World with G-Touch or V-Touch mapping enabled.",
+    "Tap the floating GameSir icon → Adjust buttons / 调整键位.",
+    "Select the mapped button → tap ⚙️ (or double-tap the overlay button).",
+    "Set Click Mode to Cloned Mode. Two identical child buttons appear.",
+    "Drag each child onto a different HUD target. Save / 保存外设.",
+    "To retarget later: reopen 调整键位 and drag the two children; do not switch mode.",
+    "To disable: ⚙️ → Click Mode → Normal, or delete the button and remap."
+  ],
+  "keys": [
+    {
+      "bind": "A",
+      "gamesir_type": "cloned",
+      "behavior": "press_and_release_both",
+      "outputs": [
+        {
+          "id": "clone_a",
+          "target": "hud_spot_1",
+          "fires_on": ["press", "release"]
+        },
+        {
+          "id": "clone_b",
+          "target": "hud_spot_2",
+          "fires_on": ["press", "release"]
+        }
+      ],
+      "simultaneous": true,
+      "independent_from_stick": true,
+      "notes": "Both clone children must occupy real screen coordinates. Overlapping them on the same pixel is a Normal tap, not a useful clone."
+    }
+  ],
+  "not_cloned": [
+    {
+      "gamesir_type": "normal",
+      "vi_menu": "Normal / DownClick",
+      "why": "Single target, single tap. No second output to edit."
+    },
+    {
+      "gamesir_type": "separated_press_release",
+      "vi_menu": "Separated press & release / 按下弹起分离",
+      "why": "Two targets, but press taps the first and release taps the second. Not simultaneous."
+    },
+    {
+      "gamesir_type": "turbo",
+      "vi_menu": "Turbo",
+      "why": "Repeats one target. Does not duplicate onto a second spot."
+    },
+    {
+      "gamesir_type": "macro",
+      "vi_menu": "One-button Macro / 魔术键",
+      "why": "Timed sequence. Interval 0s can look like a clone but it is a different editor (add child keys, record timing)."
+    },
+    {
+      "gamesir_type": "hardware_l4_r4",
+      "vi_menu": "M + L4/R4 remap",
+      "why": "Copies a HID button value onto a back paddle. The game sees two controller buttons, not two screen touches."
+    }
+  ],
+  "verify": {
+    "gamesir_tool": "Test / 测试 inside 调整键位",
+    "expect": [
+      "Press the bound button: two touch markers appear at the same instant.",
+      "Release the bound button: both markers fire again together (clone is press and release).",
+      "Separated mode would show marker 1 on press and marker 2 only on release."
+    ]
+  }
+}
