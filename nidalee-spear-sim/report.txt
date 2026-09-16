@@ -1,0 +1,177 @@
+================================================================================
+NIDALEE — SPEAR-ONLY Q SPAM vs CONVERT  (PC LoL ~patch 26.18)
+Role: jungle | Game: 28:00 | Window: 12s skirmish/siege
+SO = stay human, mix of mid/max Q spam | CV = Hunt spear → cougar combo
+================================================================================
+
+GOLD / LEVEL / TARGETS
+  Min    Gold  Lvl   Tank HP  Tank MR  Squish HP
+    1     780    2       920       36        866
+    4    1620    5      1250       42       1232
+    6    2270    6      1360       44       1372
+    8    3010    8      1740       48       1616
+   10    3750    9      2010       67       1756
+   12    4580   11      2390       89       2000
+   16    6420   13      2930      127       2280
+   20    8380   15      3470      165       2560
+   22    9420   16      3740      184       2700
+   24   10460   16      3900      201       2736
+   28   12700   18      4440      224       3016
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (0.62 squish + 0.38 tank expected dmg)
+--------------------------------------------------------------------------------
+   1:00 | squish     288 (33% HP) | tank     204 | CV Lich → Belt → SF
+         items: 
+         pre-legendary
+   2:00 | squish     335 (34% HP) | tank     433 | SO Liandry → Horizon → Void
+         items: Fated Ashes
+         pre-legendary
+   4:00 | squish     390 (32% HP) | tank     498 | SO Stormsurge → SF → Cap
+         items: Hextech Alternator
+         pre-legendary
+   6:00 | squish     621 (45% HP) | tank     423 | CV Liandry → Lich → Horizon
+         items: Fated Ashes › Haunting Guise
+         pre-legendary
+   8:00 | squish     759 (47% HP) | tank     508 | CV Lich → Belt → SF
+         items: Lich Bane
+         Lich+Takedown
+   9:00 | squish     758 (46% HP) | tank     478 | CV Lich → Belt → SF
+         items: Lich Bane › Boots
+         Lich+Takedown
+  10:00 | squish     650 (37% HP) | tank     753 | SO Liandry → Horizon → Void
+         items: Liandry's Torment › Boots
+         %HP burn
+  11:00 | squish     717 (38% HP) | tank     778 | SO Liandry → Horizon → Void
+         items: Liandry's Torment › Sorcerer's Shoes
+         %HP burn
+  12:00 | squish     980 (49% HP) | tank     499 | CV Lich → Belt → SF
+         items: Lich Bane › Sorcerer's Shoes
+         Lich+Takedown
+  14:00 | squish     984 (46% HP) | tank     498 | CV Lich → Belt → SF
+         items: Lich Bane › Sorcerer's Shoes › Hextech Alternator › Ruby Crystal
+         Lich+Takedown
+  15:00 | squish     983 (46% HP) | tank     476 | CV Lich → Belt → SF
+         items: Lich Bane › Sorcerer's Shoes › Hextech Alternator › Ruby Crystal
+         Lich+Takedown
+  16:00 | squish    1070 (47% HP) | tank     494 | CV Lich → Liandry → Void
+         items: Lich Bane › Sorcerer's Shoes › Fated Ashes › Haunting Guise
+         Lich+Takedown
+  18:00 | squish    1150 (48% HP) | tank     496 | CV Lich → Liandry → Void
+         items: Lich Bane › Sorcerer's Shoes › Liandry's Torment
+         Lich+Takedown, %HP burn
+  20:00 | squish    1277 (50% HP) | tank     530 | CV Lich → Liandry → Void
+         items: Lich Bane › Sorcerer's Shoes › Liandry's Torment › Blighting Jewel
+         Lich+Takedown, %HP burn
+  21:00 | squish    1333 (52% HP) | tank     521 | CV Lich → Belt → Void
+         items: Lich Bane › Sorcerer's Shoes › Hextech Rocketbelt › Blighting Jewel › Blasting Wand
+         Lich+Takedown, Belt dash
+  22:00 | squish    1392 (52% HP) | tank     574 | CV Lich → Liandry → Void
+         items: Lich Bane › Sorcerer's Shoes › Liandry's Torment › Blighting Jewel › Blasting Wand
+         Lich+Takedown, %HP burn
+  24:00 | squish    1775 (65% HP) | tank     717 | CV Lich → Liandry → Void
+         items: Lich Bane › Sorcerer's Shoes › Liandry's Torment › Void Staff
+         Lich+Takedown, %HP burn, %pen
+  26:00 | squish    1870 (65% HP) | tank     725 | CV Liandry → Horizon → Void
+         items: Liandry's Torment › Sorcerer's Shoes › Horizon Focus › Void Staff › Needlessly Large Rod
+         Hypershot, %HP burn, %pen
+  28:00 | squish    2160 (72% HP) | tank     822 | CV Liandry → Lich → Horizon
+         items: Liandry's Torment › Sorcerer's Shoes › Lich Bane › Horizon Focus › Void Staff
+         Lich+Takedown, Hypershot, %HP burn, %pen
+
+--------------------------------------------------------------------------------
+BUILD COMPARISON — expected dmg / 12s @ spikes
+--------------------------------------------------------------------------------
+  Build                                  9s     9t    16s    16t    22s    22t  Kill22    Eff
+  CV Lich → Belt → Void                 758    478   1030    478   1334    536     49%    840
+  CV Lich → Liandry → Void              758    478   1070    494   1392    574     52%    826
+  CV Liandry → Horizon → Void           705    449    990    469   1324    555     49%    824
+  CV Horizon → Liandry → Void           682    442    989    467   1324    555     49%    818
+  CV Liandry → Lich → Horizon           705    449    978    458   1247    501     46%    802
+  CV Lich → Belt → SF                   758    478   1030    478   1329    519     49%    790
+  SO Liandry → Horizon → Void           593    722    781    760    922    840     34%    763
+  SO Horizon → Liandry → Void           496    598    688    643    922    840     34%    721
+  SO Stormsurge → SF → Cap              615    652    828    680    923    637     34%    716
+  SO Luden → Horizon → Void             577    673    719    652    825    689     31%    688
+  SO Luden → SF → Cap                   577    673    768    697    852    656     32%    685
+  SO Lich → Belt → SF                   507    604    650    600    713    580     26%    575
+
+--------------------------------------------------------------------------------
+LANDED HIT (100% accuracy) — one max spear vs one convert combo
+--------------------------------------------------------------------------------
+  Build                               Spear16  Combo16  Spear22  Combo22
+  CV Lich → Belt → Void                   489      946      535     1260
+  CV Lich → Liandry → Void                479      985      525     1319
+  CV Liandry → Horizon → Void             448      909      501     1235
+  CV Horizon → Liandry → Void             453      890      501     1235
+  CV Liandry → Lich → Horizon             407      912      471     1181
+  CV Lich → Belt → SF                     489      946      539     1253
+  SO Liandry → Horizon → Void             458      925      510     1252
+  SO Horizon → Liandry → Void             463      908      510     1252
+  SO Stormsurge → SF → Cap                589     1167      654     1434
+  SO Luden → Horizon → Void               498      941      549     1244
+  SO Luden → SF → Cap                     539     1014      598     1247
+  SO Lich → Belt → SF                     498      964      548     1271
+
+--------------------------------------------------------------------------------
+A/B — SAME ITEMS, DIFFERENT PLAYSTYLE  @ 16:00 / 22:00
+--------------------------------------------------------------------------------
+  Lich → Belt → SF (her real build)
+    16:00 squish  SO 650  vs  CV 1030  (-37%)   kill 28% vs 45%
+    16:00 tank    SO 600  vs  CV 478  (+26%)
+    22:00 squish  SO 713  vs  CV 1329  (-46%)   kill 26% vs 49%
+    22:00 tank    SO 580  vs  CV 519  (+12%)
+  Liandry → Horizon → Void (poke items)
+    16:00 squish  SO 781  vs  CV 990  (-21%)   kill 34% vs 43%
+    16:00 tank    SO 760  vs  CV 469  (+62%)
+    22:00 squish  SO 922  vs  CV 1324  (-30%)   kill 34% vs 49%
+    22:00 tank    SO 840  vs  CV 555  (+51%)
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best convert path: CV Lich → Belt → Void   (weighted avg 840)
+  Best spear-only:   SO Liandry → Horizon → Void   (weighted avg 763)
+  At 22:00 vs squishy: convert 1334 (49% HP) vs spear-only 922 (34% HP), -31%.
+  At 22:00 vs tank:    convert 536 vs spear-only 840, +57%.
+
+  IS SPEAR-ONLY Q SPAM WORTH PLAYING?
+  No — not as Nidalee's identity. Yes — as the setup / siege phase.
+
+  WHY SPEAR-ONLY LOSES THE CHAMPION:
+  • Hunt exists to buff Takedown (+30%) and Pounce range. If you
+    never convert, you spent the kit's payoff button on a mark
+    you refuse to cash.
+  • A landed max spear is a chunk, not a kill. At 16:00 the spear
+    is 458 into a 2280 HP squishy (20% HP).
+    The convert combo is 946 (41% HP) — that's a pick
+    once they're already tagged, or with ignite / a teammate.
+  • Expected max-range accuracy is ~32% vs mobile targets. Even a
+    charitable mix (70% mid-range / 30% max) still loses the
+    squishy window because you never cash Hunt. Convert uses a
+    short Hunt spear (~68% hit) then melee that almost always lands.
+  • Lich Bane (~91% pick, her actual core) is Spellblade
+    on the Takedown auto. Spear-only never attacks, so the item is
+    dead. Same Lich path @22 squish: SO 713 vs CV 1329.
+  • Jungle clear / scuttle / 2v2 still needs cougar QWE. Spear-only
+    as a full-game plan is a different (worse) champion.
+
+  WHEN Q SPAM *IS* THE CORRECT BUTTON:
+  • Pre-objective poke and vs tanks you should not melee.
+    Liandry+Horizon spear-only vs tank @22: 840 vs Lich-convert 519 (+62%).
+    Convert onto a healthy tank is discounted (55% commit) because
+    you often just die. Spear-only is the tank pattern.
+  • Horizon Focus 10% is real on long spears AND on the convert
+    that follows a ≥600-range Hunt mark (6s). Don't skip cougar
+    just because you bought a poke item.
+
+  HOW TO PLAY IT:
+  1) Clear and fight cougar. Human is for spears / heal / traps.
+  2) Spam Q to apply Hunt, not to farm poke damage. Short spears
+     that land beat max-range spears that miss.
+  3) Convert: Pounce (Hunt range) → Swipe → Takedown+Lich.
+  4) Vs tanks / siege: stay human, Liandry ticks, don't dive.
+  5) Build: Lich Bane → Sorcs → Rocketbelt → Shadowflame/Zhonya
+     into squishies. Swap Liandry/Horizon/Void when they stack HP.
+     Do not rush Lich if you refuse to auto.
+================================================================================
