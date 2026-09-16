@@ -1,0 +1,150 @@
+{
+  "patch": "WR 6.0+",
+  "question": "Does Wild Rift have an attack mode that prefers Heartsteel-ready champions?",
+  "answer": "No. Closest / lowest HP do not read Colossal Consumption marks. Lock the marked portrait.",
+  "fight_s": 40.0,
+  "start_hp": 3200.0,
+  "charge_s": 2.5,
+  "per_target_cd": 20.0,
+  "results": {
+    "auto_closest": {
+      "policy": "auto_closest",
+      "procs": 2,
+      "unique_targets": [
+        "tank"
+      ],
+      "bonus_hp": 75.8,
+      "end_hp": 3275.8,
+      "wasted_aa_on_cd": 30,
+      "hits": [
+        {
+          "t": 2.5,
+          "target": "tank",
+          "damage": 252.0,
+          "bonus_hp": 37.8,
+          "sion_hp": 3237.8
+        },
+        {
+          "t": 22.9,
+          "target": "tank",
+          "damage": 253.3,
+          "bonus_hp": 38.0,
+          "sion_hp": 3275.8
+        }
+      ]
+    },
+    "auto_lowest_hp": {
+      "policy": "auto_lowest_hp",
+      "procs": 2,
+      "unique_targets": [
+        "adc"
+      ],
+      "bonus_hp": 75.8,
+      "end_hp": 3275.8,
+      "wasted_aa_on_cd": 30,
+      "hits": [
+        {
+          "t": 2.5,
+          "target": "adc",
+          "damage": 252.0,
+          "bonus_hp": 37.8,
+          "sion_hp": 3237.8
+        },
+        {
+          "t": 22.9,
+          "target": "adc",
+          "damage": 253.3,
+          "bonus_hp": 38.0,
+          "sion_hp": 3275.8
+        }
+      ]
+    },
+    "portrait_cycle_ready": {
+      "policy": "portrait_cycle_ready",
+      "procs": 10,
+      "unique_targets": [
+        "adc",
+        "bruiser",
+        "mid",
+        "sup",
+        "tank"
+      ],
+      "bonus_hp": 387.1,
+      "end_hp": 3587.1,
+      "wasted_aa_on_cd": 0,
+      "hits": [
+        {
+          "t": 2.5,
+          "target": "tank",
+          "damage": 252.0,
+          "bonus_hp": 37.8,
+          "sion_hp": 3237.8
+        },
+        {
+          "t": 3.7,
+          "target": "bruiser",
+          "damage": 253.3,
+          "bonus_hp": 38.0,
+          "sion_hp": 3275.8
+        },
+        {
+          "t": 4.9,
+          "target": "mid",
+          "damage": 254.7,
+          "bonus_hp": 38.2,
+          "sion_hp": 3314.0
+        },
+        {
+          "t": 6.1,
+          "target": "adc",
+          "damage": 256.0,
+          "bonus_hp": 38.4,
+          "sion_hp": 3352.4
+        },
+        {
+          "t": 7.3,
+          "target": "sup",
+          "damage": 257.3,
+          "bonus_hp": 38.6,
+          "sion_hp": 3391.0
+        },
+        {
+          "t": 22.5,
+          "target": "tank",
+          "damage": 258.7,
+          "bonus_hp": 38.8,
+          "sion_hp": 3429.8
+        },
+        {
+          "t": 23.7,
+          "target": "bruiser",
+          "damage": 260.0,
+          "bonus_hp": 39.0,
+          "sion_hp": 3468.8
+        },
+        {
+          "t": 24.9,
+          "target": "mid",
+          "damage": 261.4,
+          "bonus_hp": 39.2,
+          "sion_hp": 3508.0
+        },
+        {
+          "t": 26.1,
+          "target": "adc",
+          "damage": 262.8,
+          "bonus_hp": 39.4,
+          "sion_hp": 3547.4
+        },
+        {
+          "t": 27.3,
+          "target": "sup",
+          "damage": 264.2,
+          "bonus_hp": 39.6,
+          "sion_hp": 3587.1
+        }
+      ]
+    }
+  },
+  "best_policy": "portrait_cycle_ready"
+}
