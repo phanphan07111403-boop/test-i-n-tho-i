@@ -1,0 +1,113 @@
+================================================================================
+ZIGGS Q-SPAM — DARK HARVEST vs COMET  (PC LoL ~patch 26.18)
+Max-range Bouncing Bomb on CD | 12s window | mid gold
+Mix: 45% full-HP poke / 35% chunked (65%) / 20% execute (40%)
+================================================================================
+
+GOLD / LEVEL / TARGET
+  Min    Gold  Lvl  Squish HP  Q throws
+    1     810    2        866         3
+    6    2470    7       1476         3
+    8    3310    9       1720         4
+   10    4150   11       1964         4
+   12    5150   12       2104         4
+   16    7150   14       2384         5
+   20    9310   16       2664         5
+   22   10390   17       2804         5
+   28   13870   18       3016         5
+
+--------------------------------------------------------------------------------
+BUILD × KEYSTONE — squish mix / 12s
+--------------------------------------------------------------------------------
+  Page                               9mix  16full   16chk   16ex  22mix   22ex    Eff
+  Comet | Liandry → Horizon → Void    546     892     892    892   1228   1228    829
+  DH snow | Liandry → Horizon → Void    532     851     914   1064   1216   1453    828
+  DH snow | BF → SF → Cap             638     803     864   1194    910   1250    795
+  Comet | BF → SF → Cap               638     892     892   1028    913   1021    793
+  DH | Liandry → Horizon → Void       521     851     888    916   1153   1214    790
+  DH snow | Luden → SF → Cap          608     753     844   1157    861   1210    758
+  DH | BF → SF → Cap                  620     803     839   1020    854   1026    757
+  Comet | Luden → SF → Cap            604     842     842    990    864    980    754
+  DH snow | Luden → Horizon → Void    608     682     742    885    993   1202    732
+  Comet | Luden → Horizon → Void      604     721     721    721    989    989    725
+  DH | Luden → SF → Cap               589     753     807    982    805    985    717
+  DH snow | Luden → Horizon → SF      608     682     742    885    934   1309    714
+  Comet | Luden → Horizon → SF        604     721     721    721    935   1061    706
+  DH | Luden → Horizon → Void         589     682     717    745    926    975    693
+  DH | Luden → Horizon → SF           589     682     717    745    873   1066    675
+  DH snow | Stormsurge → SF → Cap     471     592     660   1089    661    997    662
+  Comet | Stormsurge → SF → Cap       474     641     641    893    704    794    660
+  DH | Stormsurge → SF → Cap          454     592     632    928    620    792    626
+
+--------------------------------------------------------------------------------
+HARVEST PROCS  (expected harvests in the 12s window; 1.0 = one proc)
+--------------------------------------------------------------------------------
+  Page                              16 full  16 chunk  16 exec  souls22
+  DH snow | Liandry → Horizon → Void       0%       50%     175%       17
+  DH snow | BF → SF → Cap                0%       50%     175%       17
+  DH | Liandry → Horizon → Void          0%       50%      94%        8
+  DH snow | Luden → SF → Cap             0%       75%     175%       17
+  DH | BF → SF → Cap                     0%       50%      94%        8
+  DH snow | Luden → Horizon → Void       0%       50%     175%       17
+  DH | Luden → SF → Cap                  0%       75%      94%        8
+  DH snow | Luden → Horizon → SF         0%       50%     175%       17
+  DH | Luden → Horizon → Void            0%       50%      94%        8
+  DH | Luden → Horizon → SF              0%       50%      94%        8
+  DH snow | Stormsurge → SF → Cap        0%       50%     150%       17
+  DH | Stormsurge → SF → Cap             0%       50%      88%        8
+
+--------------------------------------------------------------------------------
+A/B — SAME ITEMS, COMET vs HARVEST  (Luden → Shadowflame → Cap)
+--------------------------------------------------------------------------------
+  9:00 mix   Comet 604  |  DH 589 (-3%)  |  DH snow 608 (+1%)
+         full  Comet 604  |  DH 574 (-5%)
+         exec  Comet 604  |  DH 605 (+0%)  souls 1/4
+  16:00 mix   Comet 872  |  DH 818 (-6%)  |  DH snow 866 (-1%)
+         full  Comet 842  |  DH 753 (-11%)
+         exec  Comet 990  |  DH 982 (-1%)  souls 5/11
+  22:00 mix   Comet 864  |  DH 805 (-7%)  |  DH snow 861 (-0%)
+         full  Comet 835  |  DH 740 (-11%)
+         exec  Comet 980  |  DH 985 (+0%)  souls 8/17
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best Comet path:    Comet | Liandry → Horizon → Void   (avg mix 829)
+  Best DH path:       DH | Liandry → Horizon → Void   (avg mix 790)
+  Best DH snowball:   DH snow | Liandry → Horizon → Void   (avg mix 828)
+
+  IS DARK HARVEST WORTH IT ON Q-SPAM ZIGGS?
+  No as the default. Yes only if you are already snowballing squishies.
+
+  WHY HARVEST LOSES THE SPAM PATTERN:
+  • Harvest needs the target below 50% HP, then 35s CD (1s on takedown).
+    Q-spam's job is chunking people who start the window at full HP.
+    At 16:00 a full-HP squishy: DH proc chance 0% — mean path never crosses 50% in 12s.
+  • Comet doesn't care about HP. Long bombs also travel far, so the
+    V26.09 distance amp is real on bounce-Q. It ticks every ~8–12s.
+    Same Luden+SF items @22 mix: Comet 864 vs DH 805 (-7%).
+  • Short Fuse is proc damage — it does NOT harvest. Stay at 1400 and
+    only the bomb itself can proc DH.
+  • Live data still locks Comet (Manaflow / Transcendence / Scorch).
+
+  WHEN HARVEST IS THE PAGE:
+  • Not on the first poke. Comet's long-travel bomb (V26.09 distance
+    amp) is a bigger proc than Harvest at average souls, and it repeats.
+    Execute @22 same items: Comet 980 vs DH 985 (+0%).
+  • Snowball + takedown reset (second harvest in the 12s window)
+    @22 mix: DH snow 861 vs Comet 864 (-0%), souls 17.
+    That's a fed fight with a kill in the window — not Q-spam lane.
+  • Item for DH: Shadowflame (Cinderbloom <40%). Item for Comet poke:
+    Horizon (10% on every bomb after the first) or Liandry vs HP.
+
+  HOW TO PLAY Q-SPAM ZIGGS:
+  1) Runes: Arcane Comet, Manaflow, Transcendence, Scorch.
+     Precision: Presence of Mind + Cut Down / Coup de Grace.
+  2) Items: Luden's Echo → Sorcs → Shadowflame → Deathcap
+     (Horizon / Void if they stack HP/MR; Liandry vs tanks).
+  3) Max Q. Throw bounce bombs on CD from 1400. Don't walk up
+     for Short Fuse unless they already can't punish.
+  4) Take Dark Harvest only into 4+ squishies when you will get
+     takedown resets. Then rush Luden + Shadowflame and look for
+     the bomb that lands below 50%, not the one that starts the poke.
+================================================================================
