@@ -1,40 +1,70 @@
 # Top 5 hỗ trợ Tốc Chiến 7.3 — hưởng patch + fit pad
 
-Patch **7.3** (22/09/2026). ADC crit 175%→**200%**, AS cap 2.5→**3**, đồ xạ thủ làm lại. Đồ hỗ trợ: **Echoes of Helia**, Ardent Censer 30% AS + 25 on-hit, Diadem of Songs, **Yordle Trap** cho AS đồng đội khi CC.
-
-Pad = GameSir / **MB03** (gồng / xả Q / combo 2–4 nút) + D-pad `←` lính / `→` trụ / `↓` hồi / `↑` bảng.
-
-## Run
+Patch **7.3** (22/09/2026). ADC crit 175%→**200%**, AS cap 2.5→**3**. Pad = MB03 + D-pad `←` lính / `→` trụ / `↓` hồi / `↑` bảng.
 
 ```bash
 python3 simulate_support_73.py
 python3 test_support_73.py
 ```
 
-Outputs:
-- `report.txt` — ranking + vì sao từng tướng
-- `results.json` — snapshot 8/12/16/20
+## Full build (6 ô)
 
-## Câu hỏi
+### 1. Lulu — Relic / Ionia / Ardent / Harmonic / Redemption / Vow
 
-Support nào **hưởng nhiều nhất update 7.3**, và **đánh được trên pad**?
+| | |
+|---|---|
+| **Max** | W > E > Q |
+| **Spell** | Flash + Heal |
+| **Runes** | Aery · Font of Life · Bone Plating · Revitalize · Transcendence |
+| **Pad** | L1 W (portrait ADC) · L2 E · L3 Q · L4 R · Portrait Lock **bật** |
+| **Swap** | Mikael vs CC · Mercury vs AP · Flowing Waters nếu ADC AP |
 
-## Winner (sim)
+W ADC + E proc Ardent (30% AS + 25 on-hit). Đừng max Q.
 
-| # | Tướng | Vì sao 7.3 | Pad |
-|---|--------|------------|-----|
-| 1 | **Lulu** | Ardent 2400g + W 25–40% AS trên ADC crit 200%. Pix on-hit. | W/E/R lock, Relic `←` |
-| 2 | **Leona** | Yordle Trap 20% AS khi CC. 2v2 khi jungle farm. WRF S. | E→Q đã dạy |
-| 3 | **Milio** | Fired Up! (Ardent gắn kit) + tầm đánh + Helia. | E/W tether, Q optional |
-| 4 | **Braum** | Giữ E chặn crit 200%. Q slow proc Trap. WRF S. | Gồng E, W lock |
-| 5 | **Sona** | Helia (Q→heal) + Tear/Circlet/Diadem. WRF S. | Xả QWE, không aim |
+### 2. Leona — Relic / Steelcaps / Yordle Trap / Mantle / Virtue / Vow
 
-Không vào top dù meta: **Nami** (bong bóng), **Thresh** (móc+đèn), **Pyke** (không buff ADC).
+| | |
+|---|---|
+| **Max** | E > Q > W |
+| **Spell** | Flash + Ignite |
+| **Runes** | Ice Overlord · Unshakeable · Second Wind · Perseverance · Hexflash |
+| **Pad** | L2 E **trước** · L1 Q **sau** · L3 W · L4 R · combo L2→L1→A |
+| **Swap** | Mercury vs AP · Frozen Heart vs ADC AS · Thornmail vs heal |
 
-## Build nhanh
+Yordle Trap = 20% AS cho ADC khi CC. D-pad `←` Relic.
 
-- Lulu: Relic → Ionia → **Ardent** → Harmonic Echo
-- Leona: Relic → Steelcaps → **Yordle Trap** → Mantle
-- Milio: Sickle → Ionia → **Helia** → Harmonic → Ardent
-- Braum: Relic → Steelcaps → Vow → **Yordle Trap**
-- Sona: Sickle → Ionia → Tear → **Helia** → Circlet (Ardent nếu 20+)
+### 3. Sona — Sickle / Ionia / Helia / Diadem / Ardent / Harmonic
+
+| | |
+|---|---|
+| **Max** | Q > W > E |
+| **Spell** | Flash + Heal |
+| **Runes** | Aery · Manaflow Band · Transcendence · Scorch · Bone Plating |
+| **Pad** | L1 Q xả · L2 W dump Helia · L3 E · L4 R · A = Power Chord |
+| **Swap** | Redemption vs engage · Mikael vs CC (mất Ardent) |
+
+Tear → Circlet **tự** Diadem (cùng ô). Q farm Helia, W dump vào ADC.
+
+### 4. Milio — Sickle / Ionia / Helia / Harmonic / Ardent / Redemption
+
+| | |
+|---|---|
+| **Max** | E > W > Q |
+| **Spell** | Flash + Heal |
+| **Runes** | Aery · Font of Life · Bone Plating · Revitalize · Transcendence |
+| **Pad** | L1 E · L2 W tether ADC · L3 Q optional · L4 R · Portrait Lock **bật** |
+| **Swap** | Mikael vs CC · Flowing Waters nếu ADC AP · Shurelya nếu cần engage |
+
+Giữ W tether ADC cả trận. Q không bắt buộc để thắng.
+
+### 5. Braum — Relic / Steelcaps / Vow / Yordle Trap / Virtue / Frozen Heart
+
+| | |
+|---|---|
+| **Max** | Q > E > W |
+| **Spell** | Flash + Heal |
+| **Runes** | Guardian · Font of Life · Second Wind · Perseverance · Transcendence |
+| **Pad** | L1 E **giữ** · L2 Q · L3 W ADC · L4 R |
+| **Swap** | Thornmail vs heal · Mercury vs AP |
+
+Giữ E chặn crit 200%. Q slow proc Trap.

@@ -122,6 +122,12 @@ ITEMS = {
     "Knight's Vow": {"cost": 2300, "hp": 250},
     "Mantle of the Twelfth Hour": {"cost": 2550, "hp": 600, "ah": 20},
     "Radiant Virtue": {"cost": 2650, "armor": 30, "mr": 30, "ah": 10},
+    "Mercury's Treads": {"cost": 1100},
+    "Frozen Heart": {"cost": 2550, "mana": 400},
+    "Thornmail": {"cost": 2700},
+    "Mikael's Blessing": {"cost": 2300, "hsp": 0.08, "ah": 15},
+    "Shurelya's Battlesong": {"cost": 2500, "ap": 40, "ah": 20},
+    "Randuin's Omen": {"cost": 2700},
 }
 
 
@@ -132,6 +138,8 @@ def buy_order_owned(gold: int, order: List[str], start: str) -> List[str]:
     # First back upgrades start item conceptually; ignore upgrade gold (souls).
     for name in order:
         cost = ITEMS[name]["cost"]
+        if name == "Whispering Circlet" and "Tear of the Goddess" in owned:
+            cost -= ITEMS["Tear of the Goddess"]["cost"]
         if spent + cost <= gold:
             owned.append(name)
             spent += cost
@@ -281,7 +289,7 @@ CHAMPS: List[Champ] = [
     Champ(
         "sona", "Sona", "Sona", "enchanter", "S",
         "Spectral Sickle",
-        ["Ionian Boots", "Tear of the Goddess", "Echoes of Helia", "Whispering Circlet", "Ardent Censer"],
+        ["Ionian Boots", "Tear of the Goddess", "Echoes of Helia", "Whispering Circlet", "Ardent Censer", "Harmonic Echo"],
         PadProfile("qspam", aim=0.18, combo_buttons=1, relic_dpad=False,
                    notes="QWE tự buff, không nhắm. R đường thẳng. MB03 xả Q."),
         "sona",
@@ -289,7 +297,7 @@ CHAMPS: List[Champ] = [
     Champ(
         "lulu", "Lulu", "Lulu", "enchanter", "A",
         "Relic Shield",
-        ["Ionian Boots", "Ardent Censer", "Harmonic Echo", "Redemption"],
+        ["Ionian Boots", "Ardent Censer", "Harmonic Echo", "Redemption", "Knight's Vow"],
         PadProfile("targeted", aim=0.22, combo_buttons=1, relic_dpad=True,
                    notes="W/E/R lock đồng đội. Q optional. D-pad ← Relic."),
         "lulu",
@@ -297,7 +305,7 @@ CHAMPS: List[Champ] = [
     Champ(
         "milio", "Milio", "Milio", "enchanter", "A",
         "Spectral Sickle",
-        ["Ionian Boots", "Echoes of Helia", "Harmonic Echo", "Ardent Censer"],
+        ["Ionian Boots", "Echoes of Helia", "Harmonic Echo", "Ardent Censer", "Redemption"],
         PadProfile("targeted", aim=0.35, combo_buttons=1, relic_dpad=False,
                    notes="E/W lock đồng đội (tether). Q nảy — khó hơn, không bắt buộc."),
         "milio",
@@ -305,7 +313,7 @@ CHAMPS: List[Champ] = [
     Champ(
         "leona", "Leona", "Leona", "tank", "S",
         "Relic Shield",
-        ["Plated Steelcaps", "Yordle Trap", "Mantle of the Twelfth Hour", "Radiant Virtue"],
+        ["Plated Steelcaps", "Yordle Trap", "Mantle of the Twelfth Hour", "Radiant Virtue", "Knight's Vow"],
         PadProfile("combo", aim=0.28, combo_buttons=2, relic_dpad=True, taught=True,
                    notes="E→Q hai nút (đã dạy MB03). D-pad ← Relic, → trụ plating."),
         "leona",
@@ -313,7 +321,7 @@ CHAMPS: List[Champ] = [
     Champ(
         "braum", "Braum", "Braum", "tank", "S",
         "Relic Shield",
-        ["Plated Steelcaps", "Knight's Vow", "Yordle Trap", "Radiant Virtue"],
+        ["Plated Steelcaps", "Knight's Vow", "Yordle Trap", "Radiant Virtue", "Frozen Heart"],
         PadProfile("hold", aim=0.25, combo_buttons=1, relic_dpad=True,
                    notes="Giữ E = gồng MB03. W nhảy đồng đội. Q đường thẳng."),
         "braum",
@@ -380,6 +388,171 @@ CHAMPS: List[Champ] = [
 # Pyke items not in ITEMS — he is scored as "does not use 7.3 support items".
 for _name, _cost in [("Youmuu's Ghostblade", 2700), ("The Collector", 3000), ("Edge of Night", 2800)]:
     ITEMS.setdefault(_name, {"cost": _cost})
+
+
+# ---------------------------------------------------------------------------
+# Full 6-slot pages for the top 5 (start + boots + 4 legendaries)
+# Tear→Circlet occupies one slot and upgrades into Diadem for free.
+# ---------------------------------------------------------------------------
+
+@dataclass
+class FullBuild:
+    key: str
+    start: str
+    start_up: str
+    boots: str
+    core: List[str]          # purchase order of legendaries (Circlet listed, not Diadem)
+    page: List[str]          # 6 slots as they appear finished
+    skill_max: str
+    spells: str
+    runes: List[str]
+    pad: Dict[str, str]
+    combo: str
+    sit: List[str]
+    gold: int = 0
+
+    def __post_init__(self) -> None:
+        spent = ITEMS[self.boots]["cost"]
+        for name in self.core:
+            spent += ITEMS[name]["cost"]
+        if "Tear of the Goddess" in self.core and "Whispering Circlet" in self.core:
+            spent -= ITEMS["Tear of the Goddess"]["cost"]
+        self.gold = spent
+
+
+FULL_BUILDS: Dict[str, FullBuild] = {
+    "lulu": FullBuild(
+        "lulu",
+        "Relic Shield", "Bulwark of the Mountain", "Ionian Boots",
+        ["Ardent Censer", "Harmonic Echo", "Redemption", "Knight's Vow"],
+        ["Bulwark of the Mountain", "Ionian Boots", "Ardent Censer",
+         "Harmonic Echo", "Redemption", "Knight's Vow"],
+        "W > E > Q   (R mọi cấp)   — W AS cho ADC 7.3; E khiên proc Ardent",
+        "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+        ["Aery", "Font of Life", "Bone Plating", "Revitalize", "Transcendence"],
+        {"L1": "W Whimsy (tap portrait ADC)", "L2": "E Help, Pix!",
+         "L3": "Q Glitterlance (optional)", "L4": "R Wild Growth",
+         "A": "AA tướng", "lock": "Portrait Lock BẬT"},
+        "L2 khiên ADC (Ardent) → L1 W ADC. Gấu: L1 polymorph địch. Save: L4 ADC.",
+        [
+            "vs CC nặng: Mikael's Blessing thay Vow",
+            "vs AP burst: Mercury's Treads thay Ionia",
+            "ADC AP (Kaisa/Ez AP): Staff of Flowing Waters thay Ardent",
+            "Đừng Helia — Lulu ít tự damage, Ardent mới là món 7.3",
+        ],
+    ),
+    "leona": FullBuild(
+        "leona",
+        "Relic Shield", "Bulwark of the Mountain", "Plated Steelcaps",
+        ["Yordle Trap", "Mantle of the Twelfth Hour", "Radiant Virtue", "Knight's Vow"],
+        ["Bulwark of the Mountain", "Plated Steelcaps", "Yordle Trap",
+         "Mantle of the Twelfth Hour", "Radiant Virtue", "Knight's Vow"],
+        "E > Q > W   (R mọi cấp)   — E max để all-in 2v2",
+        "Flash + Ignite",
+        ["Ice Overlord", "Unshakeable", "Second Wind", "Perseverance", "Hextech Flashtraption"],
+        {"L1": "Q Shield of Daybreak (SAU E)", "L2": "E Zenith Blade (TRƯỚC)",
+         "L3": "W Eclipse", "L4": "R Solar Flare",
+         "A": "AA tướng (reset sau Q)", "lock": "No Minion/Structure"},
+        "L2 dính → L1 stun → A → L3. R (L4) sau Q stun để tâm R trúng. Trap proc AS.",
+        [
+            "vs AP/CC: Mercury's Treads",
+            "vs ADC AS: Frozen Heart thay Virtue",
+            "vs heal: Thornmail thay Vow",
+            "R từ bụi: Zeke's Convergence delay Frostfire — được, không bắt buộc",
+            "D-pad ← Relic đại bác; → trụ plating 7.3",
+        ],
+    ),
+    "milio": FullBuild(
+        "milio",
+        "Spectral Sickle", "Black Mist Scythe", "Ionian Boots",
+        ["Echoes of Helia", "Harmonic Echo", "Ardent Censer", "Redemption"],
+        ["Black Mist Scythe", "Ionian Boots", "Echoes of Helia",
+         "Harmonic Echo", "Ardent Censer", "Redemption"],
+        "E > W > Q   (R mọi cấp)   — E 2 charge proc Helia/Ardent",
+        "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+        ["Aery", "Font of Life", "Bone Plating", "Revitalize", "Transcendence"],
+        {"L1": "E Warm Hugs (tap ADC / self)", "L2": "W Cozy Campfire (tether ADC)",
+         "L3": "Q Fire Kick (optional, nảy lính)", "L4": "R Breath of Life",
+         "A": "AA tướng", "lock": "Portrait Lock BẬT"},
+        "L2 tether ADC cả trận. Spam L1 khiên. R khi team dính CC. Q không bắt buộc.",
+        [
+            "vs CC: Mikael's Blessing thay Redemption",
+            "ADC AP: Flowing Waters thay Ardent",
+            "Cần engage: Shurelya's Battlesong thay Harmonic",
+            "W self-cast chỉ khi ADC đứng sát; còn lại luôn tether",
+        ],
+    ),
+    "braum": FullBuild(
+        "braum",
+        "Relic Shield", "Bulwark of the Mountain", "Plated Steelcaps",
+        ["Knight's Vow", "Yordle Trap", "Radiant Virtue", "Frozen Heart"],
+        ["Bulwark of the Mountain", "Plated Steelcaps", "Knight's Vow",
+         "Yordle Trap", "Radiant Virtue", "Frozen Heart"],
+        "Q > E > W   (R mọi cấp)   — Q slow proc Trap + Font of Life",
+        "Flash + Heal",
+        ["Guardian", "Font of Life", "Second Wind", "Perseverance", "Transcendence"],
+        {"L1": "E Unbreakable (GIỮ — gồng)", "L2": "Q Winter's Bite",
+         "L3": "W Stand Behind Me (tap ADC)", "L4": "R Glacial Fissure",
+         "A": "AA tướng (stack passive)", "lock": "No Minion/Structure"},
+        "L2 Q dính → A stack. L3 nhảy ADC. Giữ L1 ăn crit 200%. R peel/engage.",
+        [
+            "vs heal: Thornmail thay Frozen Heart",
+            "vs AP: Mercury's Treads + giữ Virtue",
+            "vs burst: Bone Plating (rune) thay Second Wind",
+            "Q không xuyên lính — D-pad ← để khỏi AA nhầm trước khi Q",
+        ],
+    ),
+    "sona": FullBuild(
+        "sona",
+        "Spectral Sickle", "Black Mist Scythe", "Ionian Boots",
+        ["Tear of the Goddess", "Echoes of Helia", "Whispering Circlet",
+         "Ardent Censer", "Harmonic Echo"],
+        ["Black Mist Scythe", "Ionian Boots", "Echoes of Helia",
+         "Diadem of Songs", "Ardent Censer", "Harmonic Echo"],
+        "Q > W > E   (R mọi cấp)   — Q farm Helia, W dump fragment",
+        "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+        ["Aery", "Manaflow Band", "Transcendence", "Scorch", "Bone Plating"],
+        {"L1": "Q Hymn of Valor (xả)", "L2": "W Aria (dump Helia)",
+         "L3": "E Celerity", "L4": "R Crescendo (đường thẳng)",
+         "A": "AA Power Chord (stun 0.5s)", "lock": "No Minion/Structure"},
+        "Xả L1 → Power Chord A. L2 khi ADC thấp / dump Helia. R từ bụi, analog lái.",
+        [
+            "Circlet tự lên Diadem (cùng ô, free) — đừng bán",
+            "vs engage nặng: Redemption thay Harmonic",
+            "vs CC: Mikael's thay Ardent (mất AS, chỉ khi team sắp chết vì stun)",
+            "Manaflow + Tear bắt buộc. Đừng all-in cấp 1–3",
+        ],
+    ),
+}
+
+
+def full_build_block(fb: FullBuild) -> List[str]:
+    lines = []
+    a = lines.append
+    a(f"  Ô đồ (6 slot, xong ~{fb.gold}g):")
+    a(f"    {' › '.join(fb.page)}")
+    a("  Mua theo thứ tự:")
+    a(f"    1) {fb.start} → {fb.start_up}")
+    a(f"    2) {fb.boots}")
+    n = 3
+    for name in fb.core:
+        if name == "Tear of the Goddess":
+            a("    2b) Tear of the Goddess (back đầu, cùng Ionia)")
+            continue
+        note = "  → tự Diadem" if name == "Whispering Circlet" else ""
+        a(f"    {n}) {name}{note}")
+        n += 1
+    a(f"  Chiêu: {fb.skill_max}")
+    a(f"  Spell: {fb.spells}")
+    a(f"  Runes: {' · '.join(fb.runes)}")
+    a("  Pad:")
+    for k in ("L1", "L2", "L3", "L4", "A", "lock"):
+        a(f"    {k:<4} {fb.pad[k]}")
+    a(f"  Combo: {fb.combo}")
+    a("  Situational:")
+    for s in fb.sit:
+        a(f"    • {s}")
+    return lines
 
 
 def kit_amp(champ: Champ, flags: Dict[str, float], lvl: int, minute: int) -> Dict[str, float]:
@@ -801,8 +974,24 @@ def write_report(rows: List[Dict], path: str) -> None:
         a("  Vì sao vào top:")
         for bullet in reasons.get(r["key"], [r["pad_notes"]]):
             a(f"    • {bullet}")
+        fb = FULL_BUILDS.get(r["key"])
+        if fb:
+            a("")
+            a("  FULL BUILD 7.3")
+            for line in full_build_block(fb):
+                a(line)
         a("")
 
+    a("")
+    a("-" * 78)
+    a("FULL BUILD NHANH (6 ô)")
+    a("-" * 78)
+    for i, r in enumerate(top, 1):
+        fb = FULL_BUILDS[r["key"]]
+        a(f"  {i}) {r['name']:<8}  {fb.spells}")
+        a(f"     {' › '.join(fb.page)}")
+        a(f"     max {fb.skill_max.split('   ')[0].strip()}   |  ~{fb.gold}g")
+    a("")
     a("-" * 78)
     a("BẢNG ĐỦ 12 TƯỚNG  (gạch chân = trượt pad_min, không vào top 5 fit-pad)")
     a("-" * 78)
@@ -859,6 +1048,20 @@ def main() -> None:
         "question": "Top 5 supports that benefit most from 7.3 AND fit MB03/D-pad",
         "pad_min": PAD_MIN,
         "top5": [r["name"] for r in top],
+        "full_builds": {
+            k: {
+                "page": fb.page,
+                "buy_order": [fb.start, fb.start_up, fb.boots] + fb.core,
+                "skill_max": fb.skill_max,
+                "spells": fb.spells,
+                "runes": fb.runes,
+                "pad": fb.pad,
+                "combo": fb.combo,
+                "situational": fb.sit,
+                "gold": fb.gold,
+            }
+            for k, fb in FULL_BUILDS.items()
+        },
         "ranking": slim,
     }
     with open(os.path.join(here, "results.json"), "w", encoding="utf-8") as f:
@@ -868,6 +1071,10 @@ def main() -> None:
     print("Top 5 (pad-fit):")
     for i, r in enumerate(top, 1):
         print(f"  {i}. {r['name']:10}  pad={r['pad_score']:.0f}  Δ={r['avg_patch_delta']:.1f}  comb={r['combined']:.1f}")
+    print("Full 6-slot pages:")
+    for i, r in enumerate(top, 1):
+        fb = FULL_BUILDS[r["key"]]
+        print(f"  {i}. {r['name']:10}  {' › '.join(fb.page[1:])}")
     print("Wrote report.txt and results.json")
 
 

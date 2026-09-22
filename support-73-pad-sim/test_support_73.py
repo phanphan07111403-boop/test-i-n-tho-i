@@ -27,7 +27,7 @@ class TestSupport73(unittest.TestCase):
             self.assertGreaterEqual(self.by_name[name]["pad_score"], PAD_MIN)
 
     def test_top5_order(self):
-        self.assertEqual(self.top5, ["Lulu", "Leona", "Milio", "Braum", "Sona"])
+        self.assertEqual(self.top5, ["Lulu", "Leona", "Sona", "Milio", "Braum"])
 
     def test_nami_and_thresh_fail_pad(self):
         self.assertFalse(self.by_name["Nami"]["pad_fit"])
@@ -56,6 +56,24 @@ class TestSupport73(unittest.TestCase):
     def test_ranking_deterministic(self):
         again = [r["name"] for r in rank_all() if r["pad_fit"]][:5]
         self.assertEqual(again, self.top5)
+
+    def test_full_builds_six_slots(self):
+        from simulate_support_73 import FULL_BUILDS
+        for name in self.top5:
+            fb = FULL_BUILDS[name.lower()]
+            self.assertEqual(len(fb.page), 6, name)
+            self.assertGreater(fb.gold, 8000)
+            self.assertEqual(len(fb.runes), 5)
+            self.assertIn("Flash", fb.spells)
+
+    def test_full_build_patch_items(self):
+        from simulate_support_73 import FULL_BUILDS
+        self.assertIn("Ardent Censer", FULL_BUILDS["lulu"].page)
+        self.assertIn("Yordle Trap", FULL_BUILDS["leona"].page)
+        self.assertIn("Echoes of Helia", FULL_BUILDS["milio"].page)
+        self.assertIn("Yordle Trap", FULL_BUILDS["braum"].page)
+        self.assertIn("Diadem of Songs", FULL_BUILDS["sona"].page)
+        self.assertIn("Echoes of Helia", FULL_BUILDS["sona"].page)
 
 
 if __name__ == "__main__":

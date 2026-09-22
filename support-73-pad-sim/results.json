@@ -6,10 +6,234 @@
   "top5": [
     "Lulu",
     "Leona",
+    "Sona",
     "Milio",
-    "Braum",
-    "Sona"
+    "Braum"
   ],
+  "full_builds": {
+    "lulu": {
+      "page": [
+        "Bulwark of the Mountain",
+        "Ionian Boots",
+        "Ardent Censer",
+        "Harmonic Echo",
+        "Redemption",
+        "Knight's Vow"
+      ],
+      "buy_order": [
+        "Relic Shield",
+        "Bulwark of the Mountain",
+        "Ionian Boots",
+        "Ardent Censer",
+        "Harmonic Echo",
+        "Redemption",
+        "Knight's Vow"
+      ],
+      "skill_max": "W > E > Q   (R mọi cấp)   — W AS cho ADC 7.3; E khiên proc Ardent",
+      "spells": "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+      "runes": [
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence"
+      ],
+      "pad": {
+        "L1": "W Whimsy (tap portrait ADC)",
+        "L2": "E Help, Pix!",
+        "L3": "Q Glitterlance (optional)",
+        "L4": "R Wild Growth",
+        "A": "AA tướng",
+        "lock": "Portrait Lock BẬT"
+      },
+      "combo": "L2 khiên ADC (Ardent) → L1 W ADC. Gấu: L1 polymorph địch. Save: L4 ADC.",
+      "situational": [
+        "vs CC nặng: Mikael's Blessing thay Vow",
+        "vs AP burst: Mercury's Treads thay Ionia",
+        "ADC AP (Kaisa/Ez AP): Staff of Flowing Waters thay Ardent",
+        "Đừng Helia — Lulu ít tự damage, Ardent mới là món 7.3"
+      ],
+      "gold": 10550
+    },
+    "leona": {
+      "page": [
+        "Bulwark of the Mountain",
+        "Plated Steelcaps",
+        "Yordle Trap",
+        "Mantle of the Twelfth Hour",
+        "Radiant Virtue",
+        "Knight's Vow"
+      ],
+      "buy_order": [
+        "Relic Shield",
+        "Bulwark of the Mountain",
+        "Plated Steelcaps",
+        "Yordle Trap",
+        "Mantle of the Twelfth Hour",
+        "Radiant Virtue",
+        "Knight's Vow"
+      ],
+      "skill_max": "E > Q > W   (R mọi cấp)   — E max để all-in 2v2",
+      "spells": "Flash + Ignite",
+      "runes": [
+        "Ice Overlord",
+        "Unshakeable",
+        "Second Wind",
+        "Perseverance",
+        "Hextech Flashtraption"
+      ],
+      "pad": {
+        "L1": "Q Shield of Daybreak (SAU E)",
+        "L2": "E Zenith Blade (TRƯỚC)",
+        "L3": "W Eclipse",
+        "L4": "R Solar Flare",
+        "A": "AA tướng (reset sau Q)",
+        "lock": "No Minion/Structure"
+      },
+      "combo": "L2 dính → L1 stun → A → L3. R (L4) sau Q stun để tâm R trúng. Trap proc AS.",
+      "situational": [
+        "vs AP/CC: Mercury's Treads",
+        "vs ADC AS: Frozen Heart thay Virtue",
+        "vs heal: Thornmail thay Vow",
+        "R từ bụi: Zeke's Convergence delay Frostfire — được, không bắt buộc",
+        "D-pad ← Relic đại bác; → trụ plating 7.3"
+      ],
+      "gold": 10900
+    },
+    "milio": {
+      "page": [
+        "Black Mist Scythe",
+        "Ionian Boots",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer",
+        "Redemption"
+      ],
+      "buy_order": [
+        "Spectral Sickle",
+        "Black Mist Scythe",
+        "Ionian Boots",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer",
+        "Redemption"
+      ],
+      "skill_max": "E > W > Q   (R mọi cấp)   — E 2 charge proc Helia/Ardent",
+      "spells": "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+      "runes": [
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence"
+      ],
+      "pad": {
+        "L1": "E Warm Hugs (tap ADC / self)",
+        "L2": "W Cozy Campfire (tether ADC)",
+        "L3": "Q Fire Kick (optional, nảy lính)",
+        "L4": "R Breath of Life",
+        "A": "AA tướng",
+        "lock": "Portrait Lock BẬT"
+      },
+      "combo": "L2 tether ADC cả trận. Spam L1 khiên. R khi team dính CC. Q không bắt buộc.",
+      "situational": [
+        "vs CC: Mikael's Blessing thay Redemption",
+        "ADC AP: Flowing Waters thay Ardent",
+        "Cần engage: Shurelya's Battlesong thay Harmonic",
+        "W self-cast chỉ khi ADC đứng sát; còn lại luôn tether"
+      ],
+      "gold": 10650
+    },
+    "braum": {
+      "page": [
+        "Bulwark of the Mountain",
+        "Plated Steelcaps",
+        "Knight's Vow",
+        "Yordle Trap",
+        "Radiant Virtue",
+        "Frozen Heart"
+      ],
+      "buy_order": [
+        "Relic Shield",
+        "Bulwark of the Mountain",
+        "Plated Steelcaps",
+        "Knight's Vow",
+        "Yordle Trap",
+        "Radiant Virtue",
+        "Frozen Heart"
+      ],
+      "skill_max": "Q > E > W   (R mọi cấp)   — Q slow proc Trap + Font of Life",
+      "spells": "Flash + Heal",
+      "runes": [
+        "Guardian",
+        "Font of Life",
+        "Second Wind",
+        "Perseverance",
+        "Transcendence"
+      ],
+      "pad": {
+        "L1": "E Unbreakable (GIỮ — gồng)",
+        "L2": "Q Winter's Bite",
+        "L3": "W Stand Behind Me (tap ADC)",
+        "L4": "R Glacial Fissure",
+        "A": "AA tướng (stack passive)",
+        "lock": "No Minion/Structure"
+      },
+      "combo": "L2 Q dính → A stack. L3 nhảy ADC. Giữ L1 ăn crit 200%. R peel/engage.",
+      "situational": [
+        "vs heal: Thornmail thay Frozen Heart",
+        "vs AP: Mercury's Treads + giữ Virtue",
+        "vs burst: Bone Plating (rune) thay Second Wind",
+        "Q không xuyên lính — D-pad ← để khỏi AA nhầm trước khi Q"
+      ],
+      "gold": 10900
+    },
+    "sona": {
+      "page": [
+        "Black Mist Scythe",
+        "Ionian Boots",
+        "Echoes of Helia",
+        "Diadem of Songs",
+        "Ardent Censer",
+        "Harmonic Echo"
+      ],
+      "buy_order": [
+        "Spectral Sickle",
+        "Black Mist Scythe",
+        "Ionian Boots",
+        "Tear of the Goddess",
+        "Echoes of Helia",
+        "Whispering Circlet",
+        "Ardent Censer",
+        "Harmonic Echo"
+      ],
+      "skill_max": "Q > W > E   (R mọi cấp)   — Q farm Helia, W dump fragment",
+      "spells": "Flash + Heal  (Ignite nếu ADC cũng Heal)",
+      "runes": [
+        "Aery",
+        "Manaflow Band",
+        "Transcendence",
+        "Scorch",
+        "Bone Plating"
+      ],
+      "pad": {
+        "L1": "Q Hymn of Valor (xả)",
+        "L2": "W Aria (dump Helia)",
+        "L3": "E Celerity",
+        "L4": "R Crescendo (đường thẳng)",
+        "A": "AA Power Chord (stun 0.5s)",
+        "lock": "No Minion/Structure"
+      },
+      "combo": "Xả L1 → Power Chord A. L2 khi ADC thấp / dump Helia. R từ bụi, analog lái.",
+      "situational": [
+        "Circlet tự lên Diadem (cùng ô, free) — đừng bán",
+        "vs engage nặng: Redemption thay Harmonic",
+        "vs CC: Mikael's thay Ardent (mất AS, chỉ khi team sắp chết vì stun)",
+        "Manaflow + Tear bắt buộc. Đừng all-in cấp 1–3"
+      ],
+      "gold": 10600
+    }
+  },
   "ranking": [
     {
       "key": "lulu",
@@ -27,7 +251,8 @@
         "Ionian Boots",
         "Ardent Censer",
         "Harmonic Echo",
-        "Redemption"
+        "Redemption",
+        "Knight's Vow"
       ],
       "avg_patch_delta": 172.9,
       "avg_teamfight": 682.0,
@@ -222,7 +447,8 @@
         "Plated Steelcaps",
         "Yordle Trap",
         "Mantle of the Twelfth Hour",
-        "Radiant Virtue"
+        "Radiant Virtue",
+        "Knight's Vow"
       ],
       "avg_patch_delta": 75.2,
       "avg_teamfight": 673.6,
@@ -401,6 +627,209 @@
       }
     },
     {
+      "key": "sona",
+      "name": "Sona",
+      "name_vi": "Sona",
+      "klass": "enchanter",
+      "wrf_tier": "S",
+      "pad_score": 87.0,
+      "pad_style": "qspam",
+      "pad_notes": "QWE tự buff, không nhắm. R đường thẳng. MB03 xả Q.",
+      "taught": false,
+      "relic_dpad": false,
+      "start": "Spectral Sickle",
+      "build": [
+        "Ionian Boots",
+        "Tear of the Goddess",
+        "Echoes of Helia",
+        "Whispering Circlet",
+        "Ardent Censer",
+        "Harmonic Echo"
+      ],
+      "avg_patch_delta": 63.4,
+      "avg_teamfight": 539.4,
+      "avg_extra_dps": 84.5,
+      "patch_score": 73.5,
+      "combined": 69.2,
+      "pad_fit": true,
+      "first_item_min": 9,
+      "spike_12": {
+        "minute": 12,
+        "gold": 5240,
+        "level": 11,
+        "items": [
+          "Spectral Sickle",
+          "Ionian Boots",
+          "Tear of the Goddess",
+          "Echoes of Helia"
+        ],
+        "adc_dps_73": 320.4,
+        "adc_dps_72": 306.6,
+        "naked_73": 274.2,
+        "naked_72": 260.5,
+        "extra_dps": 46.1,
+        "patch_delta": 52.7,
+        "heal_hps": 74.1,
+        "cc_lock": 0.11,
+        "teamfight": 409.3,
+        "helia": true,
+        "ardent": false,
+        "yordle": false,
+        "diadem": false
+      },
+      "spike_16": {
+        "minute": 16,
+        "gold": 7320,
+        "level": 13,
+        "items": [
+          "Spectral Sickle",
+          "Ionian Boots",
+          "Tear of the Goddess",
+          "Echoes of Helia",
+          "Whispering Circlet"
+        ],
+        "adc_dps_73": 804.0,
+        "adc_dps_72": 724.3,
+        "naked_73": 743.9,
+        "naked_72": 664.2,
+        "extra_dps": 60.1,
+        "patch_delta": 55.9,
+        "heal_hps": 78.3,
+        "cc_lock": 0.11,
+        "teamfight": 901.8,
+        "helia": true,
+        "ardent": false,
+        "yordle": false,
+        "diadem": true
+      },
+      "spike_20": {
+        "minute": 20,
+        "gold": 9400,
+        "level": 15,
+        "items": [
+          "Spectral Sickle",
+          "Ionian Boots",
+          "Tear of the Goddess",
+          "Echoes of Helia",
+          "Whispering Circlet",
+          "Ardent Censer"
+        ],
+        "adc_dps_73": 1176.2,
+        "adc_dps_72": 906.4,
+        "naked_73": 802.7,
+        "naked_72": 716.7,
+        "extra_dps": 373.5,
+        "patch_delta": 249.9,
+        "heal_hps": 89.6,
+        "cc_lock": 0.11,
+        "teamfight": 1290.1,
+        "helia": true,
+        "ardent": true,
+        "yordle": false,
+        "diadem": false
+      },
+      "snaps_key": {
+        "8": {
+          "minute": 8,
+          "gold": 3340,
+          "level": 8,
+          "items": [
+            "Spectral Sickle",
+            "Ionian Boots",
+            "Tear of the Goddess"
+          ],
+          "adc_dps_73": 233.0,
+          "adc_dps_72": 228.3,
+          "naked_73": 208.2,
+          "naked_72": 203.4,
+          "extra_dps": 24.8,
+          "patch_delta": 0.1,
+          "heal_hps": 11.9,
+          "cc_lock": 0.11,
+          "teamfight": 271.7,
+          "helia": false,
+          "ardent": false,
+          "yordle": false,
+          "diadem": false
+        },
+        "12": {
+          "minute": 12,
+          "gold": 5240,
+          "level": 11,
+          "items": [
+            "Spectral Sickle",
+            "Ionian Boots",
+            "Tear of the Goddess",
+            "Echoes of Helia"
+          ],
+          "adc_dps_73": 320.4,
+          "adc_dps_72": 306.6,
+          "naked_73": 274.2,
+          "naked_72": 260.5,
+          "extra_dps": 46.1,
+          "patch_delta": 52.7,
+          "heal_hps": 74.1,
+          "cc_lock": 0.11,
+          "teamfight": 409.3,
+          "helia": true,
+          "ardent": false,
+          "yordle": false,
+          "diadem": false
+        },
+        "16": {
+          "minute": 16,
+          "gold": 7320,
+          "level": 13,
+          "items": [
+            "Spectral Sickle",
+            "Ionian Boots",
+            "Tear of the Goddess",
+            "Echoes of Helia",
+            "Whispering Circlet"
+          ],
+          "adc_dps_73": 804.0,
+          "adc_dps_72": 724.3,
+          "naked_73": 743.9,
+          "naked_72": 664.2,
+          "extra_dps": 60.1,
+          "patch_delta": 55.9,
+          "heal_hps": 78.3,
+          "cc_lock": 0.11,
+          "teamfight": 901.8,
+          "helia": true,
+          "ardent": false,
+          "yordle": false,
+          "diadem": true
+        },
+        "20": {
+          "minute": 20,
+          "gold": 9400,
+          "level": 15,
+          "items": [
+            "Spectral Sickle",
+            "Ionian Boots",
+            "Tear of the Goddess",
+            "Echoes of Helia",
+            "Whispering Circlet",
+            "Ardent Censer"
+          ],
+          "adc_dps_73": 1176.2,
+          "adc_dps_72": 906.4,
+          "naked_73": 802.7,
+          "naked_72": 716.7,
+          "extra_dps": 373.5,
+          "patch_delta": 249.9,
+          "heal_hps": 89.6,
+          "cc_lock": 0.11,
+          "teamfight": 1290.1,
+          "helia": true,
+          "ardent": true,
+          "yordle": false,
+          "diadem": false
+        }
+      }
+    },
+    {
       "key": "milio",
       "name": "Milio",
       "name_vi": "Milio",
@@ -416,7 +845,8 @@
         "Ionian Boots",
         "Echoes of Helia",
         "Harmonic Echo",
-        "Ardent Censer"
+        "Ardent Censer",
+        "Redemption"
       ],
       "avg_patch_delta": 57.2,
       "avg_teamfight": 558.1,
@@ -611,7 +1041,8 @@
         "Plated Steelcaps",
         "Knight's Vow",
         "Yordle Trap",
-        "Radiant Virtue"
+        "Radiant Virtue",
+        "Frozen Heart"
       ],
       "avg_patch_delta": 55.4,
       "avg_teamfight": 602.8,
@@ -786,208 +1217,6 @@
           "helia": false,
           "ardent": false,
           "yordle": true,
-          "diadem": false
-        }
-      }
-    },
-    {
-      "key": "sona",
-      "name": "Sona",
-      "name_vi": "Sona",
-      "klass": "enchanter",
-      "wrf_tier": "S",
-      "pad_score": 87.0,
-      "pad_style": "qspam",
-      "pad_notes": "QWE tự buff, không nhắm. R đường thẳng. MB03 xả Q.",
-      "taught": false,
-      "relic_dpad": false,
-      "start": "Spectral Sickle",
-      "build": [
-        "Ionian Boots",
-        "Tear of the Goddess",
-        "Echoes of Helia",
-        "Whispering Circlet",
-        "Ardent Censer"
-      ],
-      "avg_patch_delta": 53.9,
-      "avg_teamfight": 523.4,
-      "avg_extra_dps": 69.2,
-      "patch_score": 62.2,
-      "combined": 58.5,
-      "pad_fit": true,
-      "first_item_min": 9,
-      "spike_12": {
-        "minute": 12,
-        "gold": 5240,
-        "level": 11,
-        "items": [
-          "Spectral Sickle",
-          "Ionian Boots",
-          "Tear of the Goddess",
-          "Echoes of Helia"
-        ],
-        "adc_dps_73": 320.4,
-        "adc_dps_72": 306.6,
-        "naked_73": 274.2,
-        "naked_72": 260.5,
-        "extra_dps": 46.1,
-        "patch_delta": 52.7,
-        "heal_hps": 74.1,
-        "cc_lock": 0.11,
-        "teamfight": 409.3,
-        "helia": true,
-        "ardent": false,
-        "yordle": false,
-        "diadem": false
-      },
-      "spike_16": {
-        "minute": 16,
-        "gold": 7320,
-        "level": 13,
-        "items": [
-          "Spectral Sickle",
-          "Ionian Boots",
-          "Tear of the Goddess",
-          "Echoes of Helia",
-          "Whispering Circlet"
-        ],
-        "adc_dps_73": 804.0,
-        "adc_dps_72": 724.3,
-        "naked_73": 743.9,
-        "naked_72": 664.2,
-        "extra_dps": 60.1,
-        "patch_delta": 55.9,
-        "heal_hps": 78.3,
-        "cc_lock": 0.11,
-        "teamfight": 901.8,
-        "helia": true,
-        "ardent": false,
-        "yordle": false,
-        "diadem": true
-      },
-      "spike_20": {
-        "minute": 20,
-        "gold": 9400,
-        "level": 15,
-        "items": [
-          "Spectral Sickle",
-          "Ionian Boots",
-          "Tear of the Goddess",
-          "Echoes of Helia",
-          "Whispering Circlet",
-          "Ardent Censer"
-        ],
-        "adc_dps_73": 1176.2,
-        "adc_dps_72": 906.4,
-        "naked_73": 802.7,
-        "naked_72": 716.7,
-        "extra_dps": 373.5,
-        "patch_delta": 249.9,
-        "heal_hps": 89.6,
-        "cc_lock": 0.11,
-        "teamfight": 1290.1,
-        "helia": true,
-        "ardent": true,
-        "yordle": false,
-        "diadem": false
-      },
-      "snaps_key": {
-        "8": {
-          "minute": 8,
-          "gold": 3340,
-          "level": 8,
-          "items": [
-            "Spectral Sickle",
-            "Ionian Boots",
-            "Tear of the Goddess"
-          ],
-          "adc_dps_73": 233.0,
-          "adc_dps_72": 228.3,
-          "naked_73": 208.2,
-          "naked_72": 203.4,
-          "extra_dps": 24.8,
-          "patch_delta": 0.1,
-          "heal_hps": 11.9,
-          "cc_lock": 0.11,
-          "teamfight": 271.7,
-          "helia": false,
-          "ardent": false,
-          "yordle": false,
-          "diadem": false
-        },
-        "12": {
-          "minute": 12,
-          "gold": 5240,
-          "level": 11,
-          "items": [
-            "Spectral Sickle",
-            "Ionian Boots",
-            "Tear of the Goddess",
-            "Echoes of Helia"
-          ],
-          "adc_dps_73": 320.4,
-          "adc_dps_72": 306.6,
-          "naked_73": 274.2,
-          "naked_72": 260.5,
-          "extra_dps": 46.1,
-          "patch_delta": 52.7,
-          "heal_hps": 74.1,
-          "cc_lock": 0.11,
-          "teamfight": 409.3,
-          "helia": true,
-          "ardent": false,
-          "yordle": false,
-          "diadem": false
-        },
-        "16": {
-          "minute": 16,
-          "gold": 7320,
-          "level": 13,
-          "items": [
-            "Spectral Sickle",
-            "Ionian Boots",
-            "Tear of the Goddess",
-            "Echoes of Helia",
-            "Whispering Circlet"
-          ],
-          "adc_dps_73": 804.0,
-          "adc_dps_72": 724.3,
-          "naked_73": 743.9,
-          "naked_72": 664.2,
-          "extra_dps": 60.1,
-          "patch_delta": 55.9,
-          "heal_hps": 78.3,
-          "cc_lock": 0.11,
-          "teamfight": 901.8,
-          "helia": true,
-          "ardent": false,
-          "yordle": false,
-          "diadem": true
-        },
-        "20": {
-          "minute": 20,
-          "gold": 9400,
-          "level": 15,
-          "items": [
-            "Spectral Sickle",
-            "Ionian Boots",
-            "Tear of the Goddess",
-            "Echoes of Helia",
-            "Whispering Circlet",
-            "Ardent Censer"
-          ],
-          "adc_dps_73": 1176.2,
-          "adc_dps_72": 906.4,
-          "naked_73": 802.7,
-          "naked_72": 716.7,
-          "extra_dps": 373.5,
-          "patch_delta": 249.9,
-          "heal_hps": 89.6,
-          "cc_lock": 0.11,
-          "teamfight": 1290.1,
-          "helia": true,
-          "ardent": true,
-          "yordle": false,
           "diadem": false
         }
       }
