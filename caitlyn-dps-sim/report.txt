@@ -1,0 +1,88 @@
+==============================================================================
+TỐC CHIẾN 7.3 — CAITLYN HIGHEST DAMAGE BUY ORDER
+Headshot + R scale crit chance VÀ crit damage (200% / IE 230%).
+8s all-in: trap Headshot → Q full → net Headshot → autos → R.
+==============================================================================
+
+PLAY THIS  (highest 8s damage)
+  Path   Hex → Collector → IE → LDR → BT
+  Ô:     Hexoptics C44 › Berserker's Greaves › The Collector › Infinity Edge › Lord Dominik's Regards › Bloodthirster
+  Mua:   Long Sword › Berserker's Greaves › Hexoptics C44 › The Collector › Infinity Edge › Lord Dominik's Regards › Bloodthirster
+  Max    Q > W > E   (R mọi cấp)
+  Spell  Flash + Ghost
+  Runes  Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+  Pad    L1 Q Peacemaker (xả)
+         L2 W Trap (tap gần địch)
+         L3 E Net (lùi analog)
+         L4 R Ace (lock)
+         A  AA — Headshot từ bụi / trap
+  Combo  L2 trap → A Headshot → L1 Q full → L3 net Headshot → A kite max tầm. L4 R khi thiếu máu (scale crit + IE).
+
+  Swap:
+    · RFC 3rd thay Collector nếu cần range (WRF; late squish DPS cao hơn một chút)
+    · Hex → IE thẳng nếu farm đủ 3500g trước 12:00 (bỏ lỗ Collector)
+    · Mortal thay LDR vs heal
+    · Shieldbow / GA ô 6 vs burst (mất 75 AD BT)
+    · Galeforce dash — không phải max damage
+    · Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA
+    · Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT
+
+------------------------------------------------------------------------------
+BUY ORDER (vì sao thứ tự này)
+------------------------------------------------------------------------------
+  1. Long Sword — component Hexoptics.
+  2. Berserkers — 35% AS. Cait ratio 0.625: boots AS đủ, đừng AS-item first.
+  3. Hexoptics C44 (55 AD / 25% crit / +10% dmg tầm xa) ~8:00. Headshot bắt đầu scale crit.
+  4. Collector (50 AD / 25% crit / 12 leth / execute) — đan lỗ IE 3500g @12.
+     50% crit sớm. Yun Tal / Stormrazor / Collector-first thua Hex.
+  5. Infinity Edge (75 AD / 25% crit / 230% crit dmg) ~17:00. Headshot + R nổ.
+  6. LDR (35 AD / 25% crit / 35% pen) — cap 100% crit. Pen thắng Collector 4th vs giáp.
+  7. Bloodthirster (75 AD, 0% crit) — ô 6. Không mua crit item thứ 5.
+
+------------------------------------------------------------------------------
+BẢNG PATH  (squishy DPS = damage / TTK)
+------------------------------------------------------------------------------
+  #  Path                                            8     12     16     20     24  score
+  1  Hex → Collector → IE → LDR → BT               374    573    506    945   2148  4478 <<
+  2  Hex → IE → Collector → LDR → BT               374    283    565    945   2148  4254
+  3  Hex → RFC → IE → LDR → BT                     374    444    413    728   2260  4150
+  4  Hex → IE → RFC → LDR → BT                     374    283    565    728   2260  4145
+  5  Hex → IE → RFC → LDR → Collector              374    283    565    728   2212  4095
+  6  Yun Tal → IE → RFC → LDR → BT                 196    285    590    851   2046  3946
+  7  Galeforce → IE → RFC → LDR → BT               356    256    542    690   2137  3906
+  8  Stormrazor → IE → RFC → LDR → BT              196    331    598    730   1787  3633
+  9  Collector → IE → RFC → LDR → BT               196    304    577    724   1854  3621
+  10 Hex → IE → RFC → Collector → BT               374    283    565    728   1760  3594
+
+  Tank DPS @12 / @16 / @20 / @24
+    Hex → Collector → IE → LDR → BT             279 / 266 / 374 / 1104
+    Hex → IE → Collector → LDR → BT             191 / 303 / 374 / 1104
+    Hex → RFC → IE → LDR → BT                   270 / 247 / 378 / 1062
+    Hex → IE → RFC → LDR → BT                   191 / 303 / 378 / 1062
+    Hex → IE → RFC → LDR → Collector            191 / 303 / 378 / 1022
+
+------------------------------------------------------------------------------
+SPIKE MUA ĐỒ  (path thắng)
+------------------------------------------------------------------------------
+  08:00  lv9    4500g  crit  25%/200%  AS 1.35  AD 158.6  dps 374/216  ttk 4.5  squish 1683
+         Berserker's Greaves › Hexoptics C44
+  12:00  lv12   7220g  crit  50%/200%  AS 1.43  AD 221.2  dps 573/279  ttk 3.6  squish 2063
+         Berserker's Greaves › Hexoptics C44 › The Collector
+  16:00  lv14  10180g  crit  50%/200%  AS 1.52  AD 229.6  dps 506/266  ttk 4.75  squish 2402
+         Berserker's Greaves › Hexoptics C44 › The Collector
+  20:00  lv15  13140g  crit  75%/230%  AS 1.49  AD 308.8  dps 945/374  ttk 2.75  squish 2598
+         Berserker's Greaves › Hexoptics C44 › The Collector › Infinity Edge
+  24:00  lv15  17140g  crit 100%/230%  AS 1.46  AD 418.8  dps 2148/1104  ttk 1.4  squish 3007
+         Berserker's Greaves › Hexoptics C44 › The Collector › Infinity Edge › Lord Dominik's Regards › Bloodthirster
+
+------------------------------------------------------------------------------
+GHI CHÚ 7.3
+------------------------------------------------------------------------------
+  • Hexoptics first, không Yun Tal — Headshot/R cần crit ngay, không stack 125 AA.
+  • Collector second đan lỗ IE 3500g @12. IE third ~17:00.
+  • RFC 3rd (WRF) = late squish DPS cao hơn, mất 50 AD Collector.
+  • 4 item crit = 100%. Ô 6 = BT 75 AD, không Collector/Galeforce (overcap).
+  • Trap Headshot +40–190 (+30% bAD) mới 7.3. Combo trap→AA→Q.
+  • WRF RFC-page @24 dps 2260/1062.
+  • Winner @24 dps 2148/1104  squish 3007 tank 5187.
+==============================================================================
