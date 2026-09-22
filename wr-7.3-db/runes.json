@@ -1,0 +1,75 @@
+{
+  "patch": "7.3",
+  "runes": {
+    "lethal_tempo": {
+      "name": "Lethal Tempo",
+      "slot": "keystone",
+      "rewritten_in_7_3": true,
+      "as_per_stack_melee": 0.08,
+      "as_per_stack_ranged": 0.064,
+      "max_stacks": 6,
+      "duration": 6,
+      "bolt_melee": [
+        9,
+        30
+      ],
+      "bolt_ranged": [
+        6,
+        24
+      ],
+      "bolt_as_amp_melee": 0.01,
+      "bolt_as_amp_ranged": 0.0067,
+      "notes": "No longer grants huge free AS/range. Scales with built AS."
+    },
+    "conqueror": {
+      "name": "Conqueror",
+      "slot": "keystone",
+      "ad_per_stack": [
+        3,
+        5
+      ],
+      "ap_per_stack": [
+        5,
+        8.33
+      ],
+      "notes": "AP ratio standardized to 1.667x AD."
+    },
+    "legend_alacrity": {
+      "name": "Legend: Alacrity",
+      "slot": "legend",
+      "as_cap": 0.15,
+      "approx": true
+    },
+    "legend_haste": {
+      "name": "Legend: Haste",
+      "slot": "legend",
+      "new_in_7_3": true,
+      "ah_cap": 15,
+      "ah_per_stack": 1.5,
+      "replaces": "Legend: Tenacity"
+    },
+    "cut_down": {
+      "name": "Cut Down",
+      "slot": "precision",
+      "bonus_damage_vs_higher_hp": 0.08,
+      "approx": true,
+      "notes": "Used vs tanks. Exact WR curve is HP-diff based; sim uses 8% vs tanks, 0% vs equal squishy."
+    },
+    "coup_de_grace": {
+      "name": "Coup de Grace",
+      "slot": "precision",
+      "bonus_damage_below_40": 0.08,
+      "approx": true
+    },
+    "brutal": {
+      "name": "Brutal",
+      "slot": "domination",
+      "onhit_phys": [
+        12,
+        18
+      ],
+      "approx": true,
+      "notes": "Early auto bonus. Sim uses 15 physical on-hit."
+    }
+  }
+}
