@@ -4,66 +4,747 @@
   "as_of": "2026-09-22",
   "basis": "Official patch notes (day-1 inference, no ranked sample)",
   "notes_url": "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3/",
+  "rune_rules": {
+    "loadout": "1 keystone + 3 primary-path runes (one per slot) + 1 secondary rune",
+    "changed_in_7_3": ["Legend: Haste replaces Legend: Tenacity", "Ingenious Hunter removed", "Lethal Tempo bullet scales with bonus attack speed"]
+  },
   "roles": {
     "adc": [
-      {"rank": 1, "playstyle": "Trap-headshot sniper", "champs": ["Caitlyn"], "core": ["Yun Tal or Stormrazor", "Infinity Edge", "Hexoptics C44"]},
-      {"rank": 2, "playstyle": "Shove-and-siege ricochet", "champs": ["Sivir"], "core": ["Yun Tal", "Infinity Edge", "RFC/PD"]},
-      {"rank": 3, "playstyle": "Bomb-jump all-in", "champs": ["Tristana"], "core": ["Stormrazor/Yun Tal", "Infinity Edge", "Fiendhunter or Collector"]},
-      {"rank": 4, "playstyle": "Feather-recall crit", "champs": ["Xayah"], "core": ["Yun Tal", "Infinity Edge", "Fiendhunter Bolts"]},
-      {"rank": 5, "playstyle": "Stealth-ambush burst", "champs": ["Twitch"], "core": ["Yun Tal/Stormrazor", "Fiendhunter Bolts", "Infinity Edge"]},
-      {"rank": 6, "playstyle": "Lightslinger tempo crit", "champs": ["Lucian"], "core": ["Essence Reaver or Stormrazor", "Infinity Edge", "Collector/Shieldbow"]},
-      {"rank": 7, "playstyle": "On-hit true-damage duelist", "champs": ["Vayne"], "core": ["Kraken/BotRK", "Rageblade", "Terminus/Wit's End/Statikk"]},
-      {"rank": 8, "playstyle": "Overload surge carry", "champs": ["Zeri"], "core": ["Yun Tal/Stormrazor", "Fiendhunter Bolts", "Infinity Edge"]},
-      {"rank": 9, "playstyle": "Frost-crit kiter", "champs": ["Ashe"], "core": ["Yun Tal/Stormrazor", "Infinity Edge", "Hexoptics or RFC"]},
-      {"rank": 10, "playstyle": "Yun Tal stack-scaler", "champs": ["Jinx", "Yunara"], "core": ["Yun Tal Wildarrows", "Infinity Edge"]}
+      {
+        "rank": 1,
+        "playstyle": "Trap-headshot sniper",
+        "champs": ["Caitlyn"],
+        "runes": {
+          "keystone": "Fleet Footwork",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards"],
+        "swap": "Stormrazor first for lane MS. Shieldbow vs dive. Mortal vs healing. Bloodthirster if fed."
+      },
+      {
+        "rank": 2,
+        "playstyle": "Shove-and-siege ricochet",
+        "champs": ["Sivir"],
+        "runes": {
+          "keystone": "Phase Rush",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Manaflow Band"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Rapid Firecannon", "Lord Dominik's Regards"],
+        "swap": "Phantom Dancer last for MS. Navori if spell-weave. Lethal Tempo for all-ins."
+      },
+      {
+        "rank": 3,
+        "playstyle": "Bomb-jump all-in",
+        "champs": ["Tristana"],
+        "runes": {
+          "keystone": "Empowerment",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Coup de Grace", "Legend: Alacrity"],
+          "secondary": "Sudden Impact"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Stormrazor", "Infinity Edge", "Fiendhunter Bolts", "The Collector"],
+        "swap": "Yun Tal first if you auto before the all-in. Shieldbow vs burst. LDR vs armor."
+      },
+      {
+        "rank": 4,
+        "playstyle": "Feather-recall crit",
+        "champs": ["Xayah"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Coup de Grace", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Fiendhunter Bolts", "Lord Dominik's Regards"],
+        "swap": "Navori 3rd for E uptime. Shieldbow vs dive. Bloodthirster if fed."
+      },
+      {
+        "rank": 5,
+        "playstyle": "Stealth-ambush burst",
+        "champs": ["Twitch"],
+        "runes": {
+          "keystone": "Dark Harvest",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Tyrant", "Eyeball Collection"],
+          "secondary": "Coup de Grace"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Fiendhunter Bolts", "Infinity Edge", "Lord Dominik's Regards"],
+        "swap": "Stormrazor first for lane. Runaan's vs clump. First Strike from fog."
+      },
+      {
+        "rank": 6,
+        "playstyle": "Lightslinger tempo crit",
+        "champs": ["Lucian"],
+        "runes": {
+          "keystone": "Empowerment",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Coup de Grace", "Legend: Haste"],
+          "secondary": "Sudden Impact"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Ionian Boots of Lucidity", "Essence Reaver", "Infinity Edge", "The Collector", "Lord Dominik's Regards"],
+        "swap": "Stormrazor first if auto-heavy. Berserker's if ER+Haste is enough CD. Shieldbow vs dive."
+      },
+      {
+        "rank": 7,
+        "playstyle": "On-hit true-damage duelist",
+        "champs": ["Vayne"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Kraken Slayer", "Guinsoo's Rageblade", "Terminus", "Blade of the Ruined King"],
+        "swap": "BotRK first vs HP. Statikk 3rd vs clump. Wit's End vs AP. Shieldbow vs burst."
+      },
+      {
+        "rank": 8,
+        "playstyle": "Overload surge carry",
+        "champs": ["Zeri"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Fiendhunter Bolts", "Infinity Edge", "Rapid Firecannon"],
+        "swap": "Stormrazor first for lane. Runaan's vs melee clump. LDR vs armor. Shieldbow vs dive."
+      },
+      {
+        "rank": 9,
+        "playstyle": "Frost-crit kiter",
+        "champs": ["Ashe"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Manaflow Band"
+        },
+        "spells": ["Flash", "Heal"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Hexoptics C44", "Rapid Firecannon"],
+        "swap": "Stormrazor first for Energized lane. LDR vs armor. Runaan's vs clump. Comet if W-poke."
+      },
+      {
+        "rank": 10,
+        "playstyle": "Yun Tal stack-scaler",
+        "champs": ["Jinx", "Yunara"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Rapid Firecannon", "Lord Dominik's Regards"],
+        "items_yunara": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Fiendhunter Bolts", "Infinity Edge", "Lord Dominik's Regards"],
+        "swap": "Runaan's 3rd on Jinx vs clump. Stormrazor if you cannot stack Yun Tal."
+      }
     ],
     "support": [
-      {"rank": 1, "playstyle": "Mandate CC-mage", "champs": ["Nami", "Lulu", "Morgana", "Seraphine", "Zyra", "Brand", "Thresh"], "core": ["Bandleglass Mirror", "Imperial Mandate"]},
-      {"rank": 2, "playstyle": "Helia poke-into-heal", "champs": ["Karma", "Nami", "Sona", "Seraphine", "Lulu", "Milio"], "core": ["Bandleglass Mirror", "Echoes of Helia"]},
-      {"rank": 3, "playstyle": "Ardent hypercarry leash", "champs": ["Lulu", "Nami", "Milio", "Sona", "Janna", "Yuumi"], "core": ["Ardent Censer"]},
-      {"rank": 4, "playstyle": "Harmonic chain-heal", "champs": ["Soraka", "Sona", "Nami", "Seraphine", "Milio"], "core": ["Harmonic Echo"]},
-      {"rank": 5, "playstyle": "Diadem mana-enchanter", "champs": ["Sona", "Nami", "Seraphine"], "core": ["Tear", "Whispering Circlet", "Diadem of Songs"]},
-      {"rank": 6, "playstyle": "Abyssal aura tank", "champs": ["Leona", "Nautilus", "Alistar", "Rell", "Braum", "Amumu"], "core": ["Abyssal Mask"]},
-      {"rank": 7, "playstyle": "Zeke delayed engage", "champs": ["Nautilus", "Leona", "Alistar", "Rell", "Thresh", "Blitzcrank"], "core": ["Zeke's Convergence"]},
-      {"rank": 8, "playstyle": "Catcher AS-buff peel", "champs": ["Thresh", "Rell", "Leona", "Nautilus", "Rakan"], "core": ["Yordle Trap"]},
-      {"rank": 9, "playstyle": "Frozen Heart walk-in peel", "champs": ["Braum", "Leona", "Nautilus", "Galio", "Rammus"], "core": ["Frozen Heart"]},
-      {"rank": 10, "playstyle": "Flowing Waters AP-haste", "champs": ["Karma", "Lulu", "Sona", "Janna"], "core": ["Staff of Flowing Waters"]}
+      {
+        "rank": 1,
+        "playstyle": "Mandate CC-mage",
+        "champs": ["Nami", "Lulu", "Morgana", "Seraphine", "Zyra", "Brand", "Thresh"],
+        "runes": {
+          "keystone": "Arcane Comet",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Font of Life",
+          "secondary_mage": "Cheap Shot"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Spectral Sickle", "Boots of Mana", "Imperial Mandate", "Staff of Flowing Waters", "Harmonic Echo", "Rabadon's Deathcap"],
+        "swap": "Ardent 2nd with a crit ADC. Aery on Nami/Lulu if you shield more than Comet. Ionian if haste > mpen."
+      },
+      {
+        "rank": 2,
+        "playstyle": "Helia poke-into-heal",
+        "champs": ["Karma", "Nami", "Sona", "Seraphine", "Lulu", "Milio"],
+        "runes": {
+          "keystone": "Aery",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Font of Life"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Spectral Sickle", "Ionian Boots of Lucidity", "Echoes of Helia", "Ardent Censer", "Harmonic Echo", "Salvation"],
+        "swap": "Boots of Mana on Karma. Morello 3rd vs healing. Guardian if you never poke."
+      },
+      {
+        "rank": 3,
+        "playstyle": "Ardent hypercarry leash",
+        "champs": ["Lulu", "Nami", "Milio", "Sona", "Janna", "Yuumi"],
+        "runes": {
+          "keystone": "Aery",
+          "primary": "Resolve",
+          "primary_runes": ["Font of Life", "Bone Plating", "Revitalize"],
+          "secondary": "Transcendence"
+        },
+        "spells": ["Flash", "Heal"],
+        "items": ["Spectral Sickle", "Ionian Boots of Lucidity", "Ardent Censer", "Staff of Flowing Waters", "Harmonic Echo", "Salvation"],
+        "swap": "Mandate first if you have real CC. Helia first if you poke. Yuumi skips boots."
+      },
+      {
+        "rank": 4,
+        "playstyle": "Harmonic chain-heal",
+        "champs": ["Soraka", "Sona", "Nami", "Seraphine", "Milio"],
+        "runes": {
+          "keystone": "Aery",
+          "primary": "Resolve",
+          "primary_runes": ["Font of Life", "Bone Plating", "Revitalize"],
+          "secondary": "Legend: Haste"
+        },
+        "spells": ["Flash", "Heal"],
+        "items": ["Spectral Sickle", "Ionian Boots of Lucidity", "Harmonic Echo", "Ardent Censer", "Salvation", "Whispering Circlet"],
+        "swap": "Guardian on Soraka vs assassins. Morello vs healing."
+      },
+      {
+        "rank": 5,
+        "playstyle": "Diadem mana-enchanter",
+        "champs": ["Sona", "Nami", "Seraphine"],
+        "runes": {
+          "keystone": "Aery",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Gathering Storm"],
+          "secondary": "Revitalize"
+        },
+        "spells": ["Flash", "Heal"],
+        "items": ["Spectral Sickle", "Tear of the Goddess", "Ionian Boots of Lucidity", "Whispering Circlet", "Diadem of Songs", "Ardent Censer", "Harmonic Echo"],
+        "swap": "Mandate 2nd if you land CC. Helia 2nd if you poke. One Tear only."
+      },
+      {
+        "rank": 6,
+        "playstyle": "Abyssal aura tank",
+        "champs": ["Leona", "Nautilus", "Alistar", "Rell", "Braum", "Amumu"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Courage of the Colossus", "Bone Plating", "Unshakeable"],
+          "secondary": "Cheap Shot"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Relic Shield", "Plated Steelcaps", "Abyssal Mask", "Zeke's Convergence", "Frozen Heart", "Amaranth's Twinguard"],
+        "swap": "Mercury's vs AP/CC. Radiant Virtue if backline explodes. Thornmail vs lifesteal."
+      },
+      {
+        "rank": 7,
+        "playstyle": "Zeke delayed engage",
+        "champs": ["Nautilus", "Leona", "Alistar", "Rell", "Thresh", "Blitzcrank"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Courage of the Colossus", "Bone Plating", "Unshakeable"],
+          "secondary": "Relentless Hunter"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Relic Shield", "Plated Steelcaps", "Zeke's Convergence", "Abyssal Mask", "Mantle of the Twelfth Hour", "Amaranth's Twinguard"],
+        "swap": "Thresh can Sickle start. Dead Man's 3rd if you walk the map."
+      },
+      {
+        "rank": 8,
+        "playstyle": "Catcher AS-buff peel",
+        "champs": ["Thresh", "Rell", "Leona", "Nautilus", "Rakan"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Font of Life", "Bone Plating", "Unshakeable"],
+          "secondary": "Relentless Hunter"
+        },
+        "spells": ["Flash", "Exhaust"],
+        "items": ["Relic Shield", "Ionian Boots of Lucidity", "Yordle Trap", "Zeke's Convergence", "Frozen Heart", "Mantle of the Twelfth Hour"],
+        "swap": "Rakan: Aery/Guardian, Yordle Trap then Staff/Ardent if you shield."
+      },
+      {
+        "rank": 9,
+        "playstyle": "Frozen Heart walk-in peel",
+        "champs": ["Braum", "Leona", "Nautilus", "Galio", "Rammus"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Font of Life", "Bone Plating", "Unshakeable"],
+          "secondary": "Cheap Shot"
+        },
+        "spells": ["Flash", "Exhaust"],
+        "items": ["Relic Shield", "Plated Steelcaps", "Frozen Heart", "Abyssal Mask", "Mantle of the Twelfth Hour", "Amaranth's Twinguard"],
+        "swap": "Mercury's vs AP/CC. Thornmail vs BT ADCs."
+      },
+      {
+        "rank": 10,
+        "playstyle": "Flowing Waters AP-haste",
+        "champs": ["Karma", "Lulu", "Sona", "Janna"],
+        "runes": {
+          "keystone": "Aery",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Revitalize"
+        },
+        "spells": ["Flash", "Heal"],
+        "items": ["Spectral Sickle", "Ionian Boots of Lucidity", "Staff of Flowing Waters", "Harmonic Echo", "Salvation", "Zhonya's Hourglass"],
+        "swap": "Mandate first if CC is the identity. Helia first if you poke."
+      }
     ],
     "mid": [
-      {"rank": 1, "playstyle": "Palette control-mage", "champs": ["Hwei"], "core": ["Blackfire or Luden", "Horizon/Orb", "Deathcap"]},
-      {"rank": 2, "playstyle": "Ult-steal AP fighter", "champs": ["Sylas"], "core": ["Rocketbelt/Riftmaker", "Cosmic Drive", "Zhonya"]},
-      {"rank": 3, "playstyle": "Luden's isolated burst", "champs": ["Ahri", "Syndra", "Veigar", "LeBlanc", "Zoe", "Orianna"], "core": ["Luden's Echo", "pen", "Deathcap"]},
-      {"rank": 4, "playstyle": "DoT battle mage vs tanks", "champs": ["Ryze", "Cassiopeia", "Vladimir", "Swain", "Taliyah", "Hwei"], "core": ["Blackfire/Liandry", "Demonic/Cosmic"]},
-      {"rank": 5, "playstyle": "Legend: Haste weaver", "champs": ["Ryze", "Cassiopeia", "Syndra", "Orianna", "Hwei", "Ahri", "Vladimir"], "core": ["Legend: Haste"]},
-      {"rank": 6, "playstyle": "Nashor AP on-hit", "champs": ["Kayle", "Azir", "Kennen", "Teemo", "Gwen", "Cassiopeia"], "core": ["Nashor's Tooth"]},
-      {"rank": 7, "playstyle": "Essence Reaver AD caster", "champs": ["Lucian", "Corki"], "core": ["Essence Reaver", "Infinity Edge/Manamune"]},
-      {"rank": 8, "playstyle": "Youmuu's roam assassin", "champs": ["Talon", "Zed", "Qiyana", "Pantheon", "Naafiri"], "core": ["Youmuu's Ghostblade"]},
-      {"rank": 9, "playstyle": "HP-growth energy assassin", "champs": ["Akali", "Katarina", "Kassadin", "Ekko"], "core": ["Protobelt/Stormsurge", "pen"]},
-      {"rank": 10, "playstyle": "Conqueror AP bruiser-mid", "champs": ["Sylas", "Gwen", "Kayle", "Vladimir", "Gragas"], "core": ["Conqueror", "Riftmaker/Nashor"]}
+      {
+        "rank": 1,
+        "playstyle": "Palette control-mage",
+        "champs": ["Hwei"],
+        "runes": {
+          "keystone": "Arcane Comet",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Boots of Mana", "Blackfire Torch", "Horizon Focus", "Rabadon's Deathcap", "Void Staff"],
+        "swap": "Luden's first for isolated burst. Mandate 2nd in CC drafts. Zhonya 3rd vs dive."
+      },
+      {
+        "rank": 2,
+        "playstyle": "Ult-steal AP fighter",
+        "champs": ["Sylas"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Haste"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Mercury's Treads", "Hextech Rocketbelt", "Riftmaker", "Cosmic Drive", "Zhonya's Hourglass"],
+        "swap": "Riftmaker first vs tanks. Nashor 2nd if you auto. Luden's vs squishy."
+      },
+      {
+        "rank": 3,
+        "playstyle": "Luden's isolated burst",
+        "champs": ["Ahri", "Syndra", "Veigar", "LeBlanc", "Zoe", "Orianna"],
+        "runes": {
+          "keystone": "Arcane Comet",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Bone Plating",
+          "assassin_page": {
+            "keystone": "Electrocute",
+            "primary": "Domination",
+            "primary_runes": ["Sudden Impact", "Eyeball Collection", "Relentless Hunter"],
+            "secondary": "Scorch"
+          }
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Boots of Mana", "Luden's Echo", "Horizon Focus", "Rabadon's Deathcap", "Void Staff"],
+        "swap": "Electrocute page on Ahri/LeBlanc. First Strike on Syndra/Zoe."
+      },
+      {
+        "rank": 4,
+        "playstyle": "DoT battle mage vs tanks",
+        "champs": ["Ryze", "Cassiopeia", "Vladimir", "Swain", "Taliyah", "Hwei"],
+        "runes": {
+          "keystone": "Arcane Comet",
+          "primary": "Sorcery",
+          "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Boots of Mana", "Blackfire Torch", "Rylai's Crystal Scepter", "Riftmaker", "Void Staff"],
+        "swap": "Liandry instead of Blackfire vs HP. Vlad Conqueror + Riftmaker. Ryze Phase Rush + Seraph's."
+      },
+      {
+        "rank": 5,
+        "playstyle": "Legend: Haste weaver",
+        "champs": ["Ryze", "Cassiopeia", "Syndra", "Orianna", "Hwei", "Ahri", "Vladimir"],
+        "runes": {
+          "keystone": "Phase Rush",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Coup de Grace", "Legend: Haste"],
+          "secondary": "Manaflow Band"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Ionian Boots of Lucidity", "Luden's Echo", "Cosmic Drive", "Rabadon's Deathcap", "Zhonya's Hourglass"],
+        "swap": "Drop this rune page onto #1/#3/#4 item paths. Mercury's vs CC."
+      },
+      {
+        "rank": 6,
+        "playstyle": "Nashor AP on-hit",
+        "champs": ["Kayle", "Azir", "Kennen", "Teemo", "Gwen", "Cassiopeia"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Barrier"],
+        "items": ["Doran's Ring", "Berserker's Greaves", "Nashor's Tooth", "Riftmaker", "Rabadon's Deathcap", "Zhonya's Hourglass"],
+        "swap": "Conqueror on Gwen/Cassio. Boots of Mana on Azir/Kennen. Liandry 2nd on Teemo."
+      },
+      {
+        "rank": 7,
+        "playstyle": "Essence Reaver AD caster",
+        "champs": ["Lucian", "Corki"],
+        "runes": {
+          "keystone": "Empowerment",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Coup de Grace", "Legend: Haste"],
+          "secondary": "Sudden Impact"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Ionian Boots of Lucidity", "Essence Reaver", "Infinity Edge", "Manamune", "Lord Dominik's Regards"],
+        "swap": "Tear start if Muramana finishes this game. Stormrazor first on Lucian if auto-heavy."
+      },
+      {
+        "rank": 8,
+        "playstyle": "Youmuu's roam assassin",
+        "champs": ["Talon", "Zed", "Qiyana", "Pantheon", "Naafiri"],
+        "runes": {
+          "keystone": "Electrocute",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Hubris", "Relentless Hunter"],
+          "secondary": "Coup de Grace"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Serrated Dirk", "Ionian Boots of Lucidity", "Youmuu's Ghostblade", "The Collector", "Edge of Night", "Serylda's Grudge"],
+        "swap": "Eclipse first vs HP. First Strike from fog. Pantheon Conqueror + Cleaver."
+      },
+      {
+        "rank": 9,
+        "playstyle": "HP-growth energy assassin",
+        "champs": ["Akali", "Katarina", "Kassadin", "Ekko"],
+        "runes": {
+          "keystone": "Electrocute",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Eyeball Collection", "Relentless Hunter"],
+          "secondary": "Bone Plating",
+          "katarina": {
+            "keystone": "Conqueror",
+            "primary": "Precision",
+            "primary_runes": ["Triumph", "Coup de Grace", "Legend: Haste"],
+            "secondary": "Sudden Impact"
+          }
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Shield", "Boots of Mana", "Hextech Rocketbelt", "Luden's Echo", "Zhonya's Hourglass", "Rabadon's Deathcap"],
+        "swap": "Kassadin Tear → Seraph's → Riftmaker. Kat Rocketbelt → Nashor/Luden → Zhonya."
+      },
+      {
+        "rank": 10,
+        "playstyle": "Conqueror AP bruiser-mid",
+        "champs": ["Sylas", "Gwen", "Kayle", "Vladimir", "Gragas"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Haste"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Ring", "Mercury's Treads", "Riftmaker", "Cosmic Drive", "Zhonya's Hourglass", "Rabadon's Deathcap"],
+        "swap": "Rocketbelt first on Sylas/Gragas. Nashor on Kayle/Gwen. Liandry 2nd vs tanks."
+      }
     ],
     "jungle": [
-      {"rank": 1, "playstyle": "Tank burn-clear / engage", "champs": ["Amumu", "Rammus", "Sejuani", "Zac", "Maokai", "Nunu", "Rell", "Skarner"], "core": ["Bami's", "Sunfire or skip", "Frozen Heart/Twinguard/Abyssal"]},
-      {"rank": 2, "playstyle": "Mage jungle AP-clear", "champs": ["Fiddlesticks", "Lillia", "Karthus", "Brand", "Evelynn", "Taliyah", "Diana", "Morgana"], "core": ["Liandry/Blackfire/Luden", "Rylai/Void"]},
-      {"rank": 3, "playstyle": "Tunnel-gank fighter", "champs": ["Rek'Sai"], "core": ["Warrior/Eclipse/Youmuu", "Sterak/Death's Dance"]},
-      {"rank": 4, "playstyle": "Objective-setup tank", "champs": ["Jarvan", "Amumu", "Sejuani", "Nautilus", "Rek'Sai", "Xin Zhao"], "core": ["tank mythic", "Zeke/Abyssal/Radiant"]},
-      {"rank": 5, "playstyle": "Protected full-clear farmer", "champs": ["Master Yi", "Bel'Veth", "Graves", "Kindred", "Kha'Zix", "Shyvana"], "core": ["Kraken/IE/Rageblade"]},
-      {"rank": 6, "playstyle": "Kindred mark-hunt ADC", "champs": ["Kindred"], "core": ["Kraken/Yun Tal", "IE/Collector"]},
-      {"rank": 7, "playstyle": "Graves shotgun crit", "champs": ["Graves"], "core": ["Youmuu/Collector", "IE/LDR"]},
-      {"rank": 8, "playstyle": "Cover-lane / catch-up jungler", "champs": ["Lee Sin", "Xin Zhao", "Pantheon", "Jarvan", "Nunu", "Wukong"], "core": ["Warrior/Eclipse"]},
-      {"rank": 9, "playstyle": "Zed / Yone monster-clear", "champs": ["Zed", "Yone"], "core": ["Youmuu/Eclipse"]},
-      {"rank": 10, "playstyle": "On-hit Statikk fighter", "champs": ["Master Yi", "Xin Zhao", "Warwick", "Viego"], "core": ["Statikk Shiv or Rageblade", "BotRK/Terminus"]}
+      {
+        "rank": 1,
+        "playstyle": "Tank burn-clear / engage",
+        "champs": ["Amumu", "Rammus", "Sejuani", "Zac", "Maokai", "Nunu", "Rell", "Skarner"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Unshakeable", "Bone Plating", "Overgrowth"],
+          "secondary": "Cheap Shot"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Bami's Cinder", "Mercury's Treads", "Sunfire Aegis", "Frozen Heart", "Mantle of the Twelfth Hour", "Amaranth's Twinguard"],
+        "swap": "Skip Sunfire if Smite burn already clears — Abyssal/FH first. Grasp on Zac."
+      },
+      {
+        "rank": 2,
+        "playstyle": "Mage jungle AP-clear",
+        "champs": ["Fiddlesticks", "Lillia", "Karthus", "Brand", "Evelynn", "Taliyah", "Diana", "Morgana"],
+        "runes": {
+          "keystone": "Dark Harvest",
+          "primary": "Domination",
+          "primary_runes": ["Cheap Shot", "Eyeball Collection", "Relentless Hunter"],
+          "secondary": "Scorch",
+          "control_page": {
+            "keystone": "Arcane Comet",
+            "primary": "Sorcery",
+            "primary_runes": ["Manaflow Band", "Transcendence", "Scorch"],
+            "secondary": "Cheap Shot"
+          }
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Haunting Guise", "Boots of Mana", "Liandry's Torment", "Rylai's Crystal Scepter", "Void Staff", "Zhonya's Hourglass"],
+        "swap": "Eve: Luden's → Void → Deathcap. Lillia: Liandry → Cosmic → Rylai. Diana: Rocketbelt."
+      },
+      {
+        "rank": 3,
+        "playstyle": "Tunnel-gank fighter",
+        "champs": ["Rek'Sai"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Alacrity"],
+          "secondary": "Sudden Impact"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Long Sword", "Plated Steelcaps", "Eclipse", "Black Cleaver", "Sterak's Gage", "Death's Dance"],
+        "swap": "Youmuu first if gank-pathing. Titanic 2nd vs waves. Edge of Night vs mage CC."
+      },
+      {
+        "rank": 4,
+        "playstyle": "Objective-setup tank",
+        "champs": ["Jarvan", "Amumu", "Sejuani", "Nautilus", "Rek'Sai", "Xin Zhao"],
+        "runes": {
+          "keystone": "Ice Overlord",
+          "primary": "Resolve",
+          "primary_runes": ["Font of Life", "Bone Plating", "Overgrowth"],
+          "secondary": "Relentless Hunter"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Bami's Cinder", "Mercury's Treads", "Sunfire Aegis", "Zeke's Convergence", "Abyssal Mask", "Amaranth's Twinguard"],
+        "swap": "Jarvan/Xin: Eclipse → Cleaver → Sterak, then Zeke."
+      },
+      {
+        "rank": 5,
+        "playstyle": "Protected full-clear farmer",
+        "champs": ["Master Yi", "Bel'Veth", "Graves", "Kindred", "Kha'Zix", "Shyvana"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Sudden Impact"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Kraken Slayer", "Berserker's Greaves", "Guinsoo's Rageblade", "Terminus", "Death's Dance", "Guardian Angel"],
+        "swap": "Graves/Kha'Zix: Youmuu → Collector → IE/Serylda. See #6 and #7."
+      },
+      {
+        "rank": 6,
+        "playstyle": "Kindred mark-hunt ADC",
+        "champs": ["Kindred"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Brutal", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Kraken Slayer", "Berserker's Greaves", "Infinity Edge", "The Collector", "Lord Dominik's Regards", "Immortal Shieldbow"],
+        "swap": "Yun Tal first vs squishy. Stormrazor for Energized MS. Runaan's vs clump."
+      },
+      {
+        "rank": 7,
+        "playstyle": "Graves shotgun crit",
+        "champs": ["Graves"],
+        "runes": {
+          "keystone": "First Strike",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Eyeball Collection", "Relentless Hunter"],
+          "secondary": "Coup de Grace"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Youmuu's Ghostblade", "Ionian Boots of Lucidity", "The Collector", "Infinity Edge", "Lord Dominik's Regards", "Edge of Night"],
+        "swap": "Fleet Footwork for duel sustain. Eclipse first vs HP. Bloodthirster last if solo carry."
+      },
+      {
+        "rank": 8,
+        "playstyle": "Cover-lane / catch-up jungler",
+        "champs": ["Lee Sin", "Xin Zhao", "Pantheon", "Jarvan", "Nunu", "Wukong"],
+        "runes": {
+          "keystone": "Electrocute",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Hubris", "Relentless Hunter"],
+          "secondary": "Triumph"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Long Sword", "Plated Steelcaps", "Eclipse", "Black Cleaver", "Sterak's Gage", "Death's Dance"],
+        "swap": "Conqueror on Xin/Wukong. Nunu uses tank #1 path. Ionian on Pantheon."
+      },
+      {
+        "rank": 9,
+        "playstyle": "Zed / Yone monster-clear",
+        "champs": ["Zed", "Yone"],
+        "runes": {
+          "keystone": "Electrocute",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Eyeball Collection", "Relentless Hunter"],
+          "secondary": "Coup de Grace",
+          "yone": {
+            "keystone": "Conqueror",
+            "primary": "Precision",
+            "primary_runes": ["Triumph", "Last Stand", "Legend: Alacrity"],
+            "secondary": "Bone Plating"
+          }
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Youmuu's Ghostblade", "Ionian Boots of Lucidity", "Serylda's Grudge", "Edge of Night", "The Collector", "Guardian Angel"],
+        "items_yone": ["Berserker's Greaves", "Blade of the Ruined King", "Infinity Edge", "Death's Dance", "Guardian Angel"],
+        "swap": "Yone should not full-send 7.3 crit (90% modifier). Conqueror + BotRK is more honest."
+      },
+      {
+        "rank": 10,
+        "playstyle": "On-hit Statikk fighter",
+        "champs": ["Master Yi", "Xin Zhao", "Warwick", "Viego"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Cut Down", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Smite", "Flash"],
+        "items": ["Kraken Slayer", "Berserker's Greaves", "Statikk Shiv", "Terminus", "Death's Dance", "Guardian Angel"],
+        "swap": "Statikk 2nd vs 3+ melee. Warwick: BotRK → Wit's → Sterak. Viego can Rageblade → IE."
+      }
     ],
     "top": [
-      {"rank": 1, "playstyle": "Heavy-crit split Trynd", "champs": ["Tryndamere"], "core": ["Infinity Edge/Yun Tal/Stormrazor", "Collector/BT/LDR"]},
-      {"rank": 2, "playstyle": "Twinguard tank frontline", "champs": ["Ornn", "Sion", "Malphite", "Cho'Gath", "Maokai", "Shen", "Poppy", "K'Sante"], "core": ["Sunfire/Hollow Radiance", "Amaranth's Twinguard"]},
-      {"rank": 3, "playstyle": "Fimbulwinter mana-tank", "champs": ["Sion", "Ornn", "Shen", "K'Sante", "Poppy"], "core": ["Tear", "Fimbulwinter"]},
-      {"rank": 4, "playstyle": "Trinity Force skirmisher", "champs": ["Irelia", "Jax", "Camille", "Fiora"], "core": ["Trinity Force", "Sterak/DD/Wit's"]},
-      {"rank": 5, "playstyle": "Death's Dance bruiser", "champs": ["Darius", "Aatrox", "Riven", "Garen", "Sett", "Olaf", "Renekton"], "core": ["Death's Dance"]},
-      {"rank": 6, "playstyle": "Crystal split-pusher", "champs": ["Fiora", "Jax", "Tryndamere", "Yorick", "Nasus", "Camille", "Sett"], "core": ["Trinity/Divine/IE", "Demolish"]},
-      {"rank": 7, "playstyle": "Rek'Sai dive top", "champs": ["Rek'Sai"], "core": ["Eclipse/Youmuu", "Sterak/DD"]},
-      {"rank": 8, "playstyle": "Youmuu's tempo fighter", "champs": ["Riven", "Pantheon", "Kled", "Aatrox", "Jayce", "Quinn"], "core": ["Youmuu's Ghostblade"]},
-      {"rank": 9, "playstyle": "Legend: Haste ability fighter", "champs": ["Riven", "Camille", "Fiora", "Aatrox", "K'Sante", "Gwen", "Renekton"], "core": ["Legend: Haste"]},
-      {"rank": 10, "playstyle": "Sunfire HP-tank", "champs": ["Sion", "Cho'Gath", "Dr. Mundo", "Ornn", "Malphite", "Zac"], "core": ["Sunfire Aegis"]}
+      {
+        "rank": 1,
+        "playstyle": "Heavy-crit split Trynd",
+        "champs": ["Tryndamere"],
+        "runes": {
+          "keystone": "Lethal Tempo",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Alacrity"],
+          "secondary": "Demolish"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Berserker's Greaves", "Yun Tal Wildarrows", "Infinity Edge", "Lord Dominik's Regards", "Bloodthirster"],
+        "swap": "Do not Rageblade. Stormrazor first for lane. Gunmetal Greaves for lifesteal boots. Conqueror if no LT stacks."
+      },
+      {
+        "rank": 2,
+        "playstyle": "Twinguard tank frontline",
+        "champs": ["Ornn", "Sion", "Malphite", "Cho'Gath", "Maokai", "Shen", "Poppy", "K'Sante"],
+        "runes": {
+          "keystone": "Grasp of the Undying",
+          "primary": "Resolve",
+          "primary_runes": ["Demolish", "Second Wind", "Overgrowth"],
+          "secondary": "Legend: Haste"
+        },
+        "spells": ["Flash", "Teleport"],
+        "items": ["Doran's Shield", "Mercury's Treads", "Sunfire Aegis", "Frozen Heart", "Mantle of the Twelfth Hour", "Amaranth's Twinguard"],
+        "swap": "Ice Overlord on Malph/Maokai/Poppy. FoN is no longer %DR. K'Sante can Trinity into Twinguard."
+      },
+      {
+        "rank": 3,
+        "playstyle": "Fimbulwinter mana-tank",
+        "champs": ["Sion", "Ornn", "Shen", "K'Sante", "Poppy"],
+        "runes": {
+          "keystone": "Grasp of the Undying",
+          "primary": "Resolve",
+          "primary_runes": ["Demolish", "Second Wind", "Overgrowth"],
+          "secondary": "Manaflow Band"
+        },
+        "spells": ["Flash", "Teleport"],
+        "items": ["Tear of the Goddess", "Doran's Shield", "Plated Steelcaps", "Winter's Approach", "Fimbulwinter", "Sunfire Aegis", "Amaranth's Twinguard"],
+        "swap": "One Tear only. Mantle 4th vs burst ADC. Ice Overlord if you lock people."
+      },
+      {
+        "rank": 4,
+        "playstyle": "Trinity Force skirmisher",
+        "champs": ["Irelia", "Jax", "Camille", "Fiora"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Alacrity"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Mercury's Treads", "Trinity Force", "Blade of the Ruined King", "Sterak's Gage", "Death's Dance"],
+        "swap": "Fiora Grasp+Demolish if splitting. Jax BotRK 2nd vs HP. Camille Eclipse 1st vs squishy. Legend: Haste if CD-limited."
+      },
+      {
+        "rank": 5,
+        "playstyle": "Death's Dance bruiser",
+        "champs": ["Darius", "Aatrox", "Riven", "Garen", "Sett", "Olaf", "Renekton"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Bloodline"],
+          "secondary": "Bone Plating"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Plated Steelcaps", "Black Cleaver", "Death's Dance", "Sterak's Gage", "Guardian Angel"],
+        "swap": "Darius Grasp into tanks. Riven Youmuu then DD. Olaf BotRK/Trinity into DD."
+      },
+      {
+        "rank": 6,
+        "playstyle": "Crystal split-pusher",
+        "champs": ["Fiora", "Jax", "Tryndamere", "Yorick", "Nasus", "Camille", "Sett"],
+        "runes": {
+          "keystone": "Grasp of the Undying",
+          "primary": "Resolve",
+          "primary_runes": ["Demolish", "Second Wind", "Overgrowth"],
+          "secondary": "Legend: Alacrity"
+        },
+        "spells": ["Flash", "Teleport"],
+        "items": ["Doran's Shield", "Plated Steelcaps", "Trinity Force", "Black Cleaver", "Sterak's Gage", "Death's Dance"],
+        "swap": "Trynd uses #1 items but keep Demolish. Nasus Trinity → Frozen Heart → Twinguard."
+      },
+      {
+        "rank": 7,
+        "playstyle": "Rek'Sai dive top",
+        "champs": ["Rek'Sai"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Alacrity"],
+          "secondary": "Demolish"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Plated Steelcaps", "Eclipse", "Black Cleaver", "Sterak's Gage", "Death's Dance"],
+        "swap": "Youmuu first if you roam Herald. Titanic 2nd vs waves."
+      },
+      {
+        "rank": 8,
+        "playstyle": "Youmuu's tempo fighter",
+        "champs": ["Riven", "Pantheon", "Kled", "Aatrox", "Jayce", "Quinn"],
+        "runes": {
+          "keystone": "Electrocute",
+          "primary": "Domination",
+          "primary_runes": ["Sudden Impact", "Hubris", "Relentless Hunter"],
+          "secondary": "Coup de Grace"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Long Sword", "Ionian Boots of Lucidity", "Youmuu's Ghostblade", "Black Cleaver", "Death's Dance", "Guardian Angel"],
+        "swap": "Conqueror on Riven/Aatrox if you fight not roam. Jayce Youmuu → Manamune → Serylda. Quinn Lethal Tempo after Youmuu."
+      },
+      {
+        "rank": 9,
+        "playstyle": "Legend: Haste ability fighter",
+        "champs": ["Riven", "Camille", "Fiora", "Aatrox", "K'Sante", "Gwen", "Renekton"],
+        "runes": {
+          "keystone": "Conqueror",
+          "primary": "Precision",
+          "primary_runes": ["Triumph", "Last Stand", "Legend: Haste"],
+          "secondary": "Transcendence"
+        },
+        "spells": ["Flash", "Ignite"],
+        "items": ["Doran's Blade", "Ionian Boots of Lucidity", "Trinity Force", "Death's Dance", "Sterak's Gage", "Guardian Angel"],
+        "swap": "Drop this rune page on #4/#5/#8 items. Gwen Riftmaker+Nashor. Mercury's vs CC."
+      },
+      {
+        "rank": 10,
+        "playstyle": "Sunfire HP-tank",
+        "champs": ["Sion", "Cho'Gath", "Dr. Mundo", "Ornn", "Malphite", "Zac"],
+        "runes": {
+          "keystone": "Grasp of the Undying",
+          "primary": "Resolve",
+          "primary_runes": ["Demolish", "Second Wind", "Overgrowth"],
+          "secondary": "Unshakeable"
+        },
+        "spells": ["Flash", "Teleport"],
+        "items": ["Doran's Shield", "Plated Steelcaps", "Sunfire Aegis", "Warmog's Armor", "Mantle of the Twelfth Hour", "Amaranth's Twinguard"],
+        "swap": "Mundo Heartsteel/Titanic into Sunfire. Thornmail vs crit ADC. Frozen Heart vs Yun Tal/Lethal."
+      }
     ]
   }
 }
