@@ -1,0 +1,69 @@
+{
+  "patch": "7.3",
+  "game": "Wild Rift",
+  "as_of": "2026-09-22",
+  "basis": "Official patch notes (day-1 inference, no ranked sample)",
+  "notes_url": "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3/",
+  "roles": {
+    "adc": [
+      {"rank": 1, "playstyle": "Trap-headshot sniper", "champs": ["Caitlyn"], "core": ["Yun Tal or Stormrazor", "Infinity Edge", "Hexoptics C44"]},
+      {"rank": 2, "playstyle": "Shove-and-siege ricochet", "champs": ["Sivir"], "core": ["Yun Tal", "Infinity Edge", "RFC/PD"]},
+      {"rank": 3, "playstyle": "Bomb-jump all-in", "champs": ["Tristana"], "core": ["Stormrazor/Yun Tal", "Infinity Edge", "Fiendhunter or Collector"]},
+      {"rank": 4, "playstyle": "Feather-recall crit", "champs": ["Xayah"], "core": ["Yun Tal", "Infinity Edge", "Fiendhunter Bolts"]},
+      {"rank": 5, "playstyle": "Stealth-ambush burst", "champs": ["Twitch"], "core": ["Yun Tal/Stormrazor", "Fiendhunter Bolts", "Infinity Edge"]},
+      {"rank": 6, "playstyle": "Lightslinger tempo crit", "champs": ["Lucian"], "core": ["Essence Reaver or Stormrazor", "Infinity Edge", "Collector/Shieldbow"]},
+      {"rank": 7, "playstyle": "On-hit true-damage duelist", "champs": ["Vayne"], "core": ["Kraken/BotRK", "Rageblade", "Terminus/Wit's End/Statikk"]},
+      {"rank": 8, "playstyle": "Overload surge carry", "champs": ["Zeri"], "core": ["Yun Tal/Stormrazor", "Fiendhunter Bolts", "Infinity Edge"]},
+      {"rank": 9, "playstyle": "Frost-crit kiter", "champs": ["Ashe"], "core": ["Yun Tal/Stormrazor", "Infinity Edge", "Hexoptics or RFC"]},
+      {"rank": 10, "playstyle": "Yun Tal stack-scaler", "champs": ["Jinx", "Yunara"], "core": ["Yun Tal Wildarrows", "Infinity Edge"]}
+    ],
+    "support": [
+      {"rank": 1, "playstyle": "Mandate CC-mage", "champs": ["Nami", "Lulu", "Morgana", "Seraphine", "Zyra", "Brand", "Thresh"], "core": ["Bandleglass Mirror", "Imperial Mandate"]},
+      {"rank": 2, "playstyle": "Helia poke-into-heal", "champs": ["Karma", "Nami", "Sona", "Seraphine", "Lulu", "Milio"], "core": ["Bandleglass Mirror", "Echoes of Helia"]},
+      {"rank": 3, "playstyle": "Ardent hypercarry leash", "champs": ["Lulu", "Nami", "Milio", "Sona", "Janna", "Yuumi"], "core": ["Ardent Censer"]},
+      {"rank": 4, "playstyle": "Harmonic chain-heal", "champs": ["Soraka", "Sona", "Nami", "Seraphine", "Milio"], "core": ["Harmonic Echo"]},
+      {"rank": 5, "playstyle": "Diadem mana-enchanter", "champs": ["Sona", "Nami", "Seraphine"], "core": ["Tear", "Whispering Circlet", "Diadem of Songs"]},
+      {"rank": 6, "playstyle": "Abyssal aura tank", "champs": ["Leona", "Nautilus", "Alistar", "Rell", "Braum", "Amumu"], "core": ["Abyssal Mask"]},
+      {"rank": 7, "playstyle": "Zeke delayed engage", "champs": ["Nautilus", "Leona", "Alistar", "Rell", "Thresh", "Blitzcrank"], "core": ["Zeke's Convergence"]},
+      {"rank": 8, "playstyle": "Catcher AS-buff peel", "champs": ["Thresh", "Rell", "Leona", "Nautilus", "Rakan"], "core": ["Yordle Trap"]},
+      {"rank": 9, "playstyle": "Frozen Heart walk-in peel", "champs": ["Braum", "Leona", "Nautilus", "Galio", "Rammus"], "core": ["Frozen Heart"]},
+      {"rank": 10, "playstyle": "Flowing Waters AP-haste", "champs": ["Karma", "Lulu", "Sona", "Janna"], "core": ["Staff of Flowing Waters"]}
+    ],
+    "mid": [
+      {"rank": 1, "playstyle": "Palette control-mage", "champs": ["Hwei"], "core": ["Blackfire or Luden", "Horizon/Orb", "Deathcap"]},
+      {"rank": 2, "playstyle": "Ult-steal AP fighter", "champs": ["Sylas"], "core": ["Rocketbelt/Riftmaker", "Cosmic Drive", "Zhonya"]},
+      {"rank": 3, "playstyle": "Luden's isolated burst", "champs": ["Ahri", "Syndra", "Veigar", "LeBlanc", "Zoe", "Orianna"], "core": ["Luden's Echo", "pen", "Deathcap"]},
+      {"rank": 4, "playstyle": "DoT battle mage vs tanks", "champs": ["Ryze", "Cassiopeia", "Vladimir", "Swain", "Taliyah", "Hwei"], "core": ["Blackfire/Liandry", "Demonic/Cosmic"]},
+      {"rank": 5, "playstyle": "Legend: Haste weaver", "champs": ["Ryze", "Cassiopeia", "Syndra", "Orianna", "Hwei", "Ahri", "Vladimir"], "core": ["Legend: Haste"]},
+      {"rank": 6, "playstyle": "Nashor AP on-hit", "champs": ["Kayle", "Azir", "Kennen", "Teemo", "Gwen", "Cassiopeia"], "core": ["Nashor's Tooth"]},
+      {"rank": 7, "playstyle": "Essence Reaver AD caster", "champs": ["Lucian", "Corki"], "core": ["Essence Reaver", "Infinity Edge/Manamune"]},
+      {"rank": 8, "playstyle": "Youmuu's roam assassin", "champs": ["Talon", "Zed", "Qiyana", "Pantheon", "Naafiri"], "core": ["Youmuu's Ghostblade"]},
+      {"rank": 9, "playstyle": "HP-growth energy assassin", "champs": ["Akali", "Katarina", "Kassadin", "Ekko"], "core": ["Protobelt/Stormsurge", "pen"]},
+      {"rank": 10, "playstyle": "Conqueror AP bruiser-mid", "champs": ["Sylas", "Gwen", "Kayle", "Vladimir", "Gragas"], "core": ["Conqueror", "Riftmaker/Nashor"]}
+    ],
+    "jungle": [
+      {"rank": 1, "playstyle": "Tank burn-clear / engage", "champs": ["Amumu", "Rammus", "Sejuani", "Zac", "Maokai", "Nunu", "Rell", "Skarner"], "core": ["Bami's", "Sunfire or skip", "Frozen Heart/Twinguard/Abyssal"]},
+      {"rank": 2, "playstyle": "Mage jungle AP-clear", "champs": ["Fiddlesticks", "Lillia", "Karthus", "Brand", "Evelynn", "Taliyah", "Diana", "Morgana"], "core": ["Liandry/Blackfire/Luden", "Rylai/Void"]},
+      {"rank": 3, "playstyle": "Tunnel-gank fighter", "champs": ["Rek'Sai"], "core": ["Warrior/Eclipse/Youmuu", "Sterak/Death's Dance"]},
+      {"rank": 4, "playstyle": "Objective-setup tank", "champs": ["Jarvan", "Amumu", "Sejuani", "Nautilus", "Rek'Sai", "Xin Zhao"], "core": ["tank mythic", "Zeke/Abyssal/Radiant"]},
+      {"rank": 5, "playstyle": "Protected full-clear farmer", "champs": ["Master Yi", "Bel'Veth", "Graves", "Kindred", "Kha'Zix", "Shyvana"], "core": ["Kraken/IE/Rageblade"]},
+      {"rank": 6, "playstyle": "Kindred mark-hunt ADC", "champs": ["Kindred"], "core": ["Kraken/Yun Tal", "IE/Collector"]},
+      {"rank": 7, "playstyle": "Graves shotgun crit", "champs": ["Graves"], "core": ["Youmuu/Collector", "IE/LDR"]},
+      {"rank": 8, "playstyle": "Cover-lane / catch-up jungler", "champs": ["Lee Sin", "Xin Zhao", "Pantheon", "Jarvan", "Nunu", "Wukong"], "core": ["Warrior/Eclipse"]},
+      {"rank": 9, "playstyle": "Zed / Yone monster-clear", "champs": ["Zed", "Yone"], "core": ["Youmuu/Eclipse"]},
+      {"rank": 10, "playstyle": "On-hit Statikk fighter", "champs": ["Master Yi", "Xin Zhao", "Warwick", "Viego"], "core": ["Statikk Shiv or Rageblade", "BotRK/Terminus"]}
+    ],
+    "top": [
+      {"rank": 1, "playstyle": "Heavy-crit split Trynd", "champs": ["Tryndamere"], "core": ["Infinity Edge/Yun Tal/Stormrazor", "Collector/BT/LDR"]},
+      {"rank": 2, "playstyle": "Twinguard tank frontline", "champs": ["Ornn", "Sion", "Malphite", "Cho'Gath", "Maokai", "Shen", "Poppy", "K'Sante"], "core": ["Sunfire/Hollow Radiance", "Amaranth's Twinguard"]},
+      {"rank": 3, "playstyle": "Fimbulwinter mana-tank", "champs": ["Sion", "Ornn", "Shen", "K'Sante", "Poppy"], "core": ["Tear", "Fimbulwinter"]},
+      {"rank": 4, "playstyle": "Trinity Force skirmisher", "champs": ["Irelia", "Jax", "Camille", "Fiora"], "core": ["Trinity Force", "Sterak/DD/Wit's"]},
+      {"rank": 5, "playstyle": "Death's Dance bruiser", "champs": ["Darius", "Aatrox", "Riven", "Garen", "Sett", "Olaf", "Renekton"], "core": ["Death's Dance"]},
+      {"rank": 6, "playstyle": "Crystal split-pusher", "champs": ["Fiora", "Jax", "Tryndamere", "Yorick", "Nasus", "Camille", "Sett"], "core": ["Trinity/Divine/IE", "Demolish"]},
+      {"rank": 7, "playstyle": "Rek'Sai dive top", "champs": ["Rek'Sai"], "core": ["Eclipse/Youmuu", "Sterak/DD"]},
+      {"rank": 8, "playstyle": "Youmuu's tempo fighter", "champs": ["Riven", "Pantheon", "Kled", "Aatrox", "Jayce", "Quinn"], "core": ["Youmuu's Ghostblade"]},
+      {"rank": 9, "playstyle": "Legend: Haste ability fighter", "champs": ["Riven", "Camille", "Fiora", "Aatrox", "K'Sante", "Gwen", "Renekton"], "core": ["Legend: Haste"]},
+      {"rank": 10, "playstyle": "Sunfire HP-tank", "champs": ["Sion", "Cho'Gath", "Dr. Mundo", "Ornn", "Malphite", "Zac"], "core": ["Sunfire Aegis"]}
+    ]
+  }
+}
