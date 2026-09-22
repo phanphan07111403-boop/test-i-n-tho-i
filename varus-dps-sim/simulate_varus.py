@@ -213,6 +213,8 @@ class FightResult:
     crit: float = 0.0
     ad: float = 0.0
     overkill: float = 0.0
+    splash: float = 0.0  # extra-target damage (Runaan / Statikk / AoE)
+    extra_targets: int = 0
 
 
 def lerp(lo: float, hi: float, level: int) -> float:
@@ -226,6 +228,7 @@ def simulate_fight(
     target: Target,
     style: str,
     yun_tal_crit: float,
+    extra_targets: int = 0,
 ) -> FightResult:
     level = level_at_minute(minute)
     base_ad, base_hp, level_as, as_ratio = champ_base(level)
@@ -259,6 +262,10 @@ def simulate_fight(
     yun = "yun_tal_wildarrows" in has
     ldr = "lord_dominiks_regards" in has
     collector = "the_collector" in has
+    runaan = "runaans_hurricane" in has
+    n_side = max(0, extra_targets)
+    side_hp = [target.hp for _ in range(n_side)]
+    side_blight = [0 for _ in range(n_side)]
 
     # Combat AS buffs assumed up for an 8s all-in.
     combat_as = 0.0
@@ -366,6 +373,51 @@ def simulate_fight(
             if killed_at is None:
                 killed_at = t
 
+    def deal_side(i: int, amount: float, kind: str) -> None:
+        if amount <= 0 or i >= n_side:
+            return
+        if kind == "phys":
+            leth, pct, _ = pens()
+            amount *= phys_mult(armor, leth, pct)
+        elif kind == "magic":
+            _, _, mp = pens()
+            amount *= mag_mult(mr, mp)
+        a = 1.0 + hex_amp
+        varus_hp = base_hp + st.hp
+        if ldr and target.hp > varus_hp:
+            a *= 1.0 + min(0.25, (target.hp - varus_hp) / 2000.0 * 0.25)
+        if target.name == "tank":
+            a *= 1.0 + RUNES["cut_down"]["bonus_damage_vs_higher_hp"]
+        if side_hp[i] / target.hp <= 0.40:
+            a *= 1.0 + RUNES["coup_de_grace"]["bonus_damage_below_40"]
+        amount *= a
+        res.splash += amount
+        side_hp[i] -= amount
+
+    def onhit_side(i: int) -> None:
+        ap = total_ap()
+        if w_rank:
+            deal_side(i, w_onhit + 0.35 * ap, "magic")
+            side_blight[i] = min(3, side_blight[i] + 1)
+        if rage:
+            deal_side(i, 30.0, "magic")
+        if terminus:
+            deal_side(i, 30.0, "magic")
+        if wits:
+            deal_side(i, 40.0, "magic")
+        if bork:
+            deal_side(i, 0.07 * max(side_hp[i], 0.0), "phys")
+        deal_side(i, brutal, "phys")
+
+    def detonate_side(i: int, charge_amp: float) -> None:
+        if side_blight[i] <= 0 or w_rank == 0:
+            return
+        ap = total_ap()
+        per = blight_pct + 0.012 * (ap / 100.0)
+        dmg = side_blight[i] * per * target.hp * (1.0 + charge_amp)
+        deal_side(i, dmg, "magic")
+        side_blight[i] = 0
+
     def onhit(is_phantom: bool) -> None:
         nonlocal blight, kraken_n, terminus_hits, terminus_dark
         ap = total_ap()
@@ -422,6 +474,22 @@ def simulate_fight(
                 deal(80.0, "magic")
             elif statikk:
                 deal(60.0, "magic")
+                # 7.3: secondary bounces also take on-hit. 3/4/5/6 bounces at 1/5/9/13.
+                bounces = 3
+                if level >= 5:
+                    bounces = 4
+                if level >= 9:
+                    bounces = 5
+                if level >= 13:
+                    bounces = 6
+                for i in range(min(n_side, bounces)):
+                    deal_side(i, 60.0, "magic")
+                    onhit_side(i)
+        if runaan and n_side:
+            bolt_ad = ad * 0.55 * crit_ev
+            for i in range(min(2, n_side)):
+                deal_side(i, bolt_ad, "phys")
+                onhit_side(i)
 
     def detonate(charge_amp: float) -> None:
         nonlocal blight
@@ -469,6 +537,10 @@ def simulate_fight(
                 ad = total_ad()
                 deal((q_base + q_ad * ad) * (1.0 + charge), "phys")
                 detonate(charge)
+                # Line shot: one extra body in a clump, 15% falloff.
+                if n_side:
+                    deal_side(0, (q_base + q_ad * ad) * (1.0 + charge) * 0.85, "phys")
+                    detonate_side(0, charge)
                 q_cd = q["cd"][q_rank - 1] if q_rank else 12
                 next_auto = max(next_auto, t + 0.15)
         elif casting_e > 0:
@@ -476,6 +548,9 @@ def simulate_fight(
             if casting_e <= 0:
                 deal(e_base + 0.90 * st.ad, "phys")
                 detonate(0.0)
+                for i in range(n_side):
+                    deal_side(i, e_base + 0.90 * st.ad, "phys")
+                    detonate_side(i, 0.0)
                 e_cd = e["cd"][e_rank - 1] if e_rank else 12
                 next_auto = max(next_auto, t + 0.10)
         else:
@@ -492,6 +567,7 @@ def simulate_fight(
     res.as_avg = as_samples / max(1, as_n)
     res.crit = st.crit
     res.ad = total_ad()
+    res.extra_targets = n_side
     if killed_at is not None:
         res.overkill = max(0.0, res.damage - target.hp)
     return res
@@ -535,6 +611,54 @@ PATHS: Dict[str, Dict[str, object]] = {
             "guinsoos_rageblade",
             "terminus",
             "blade_of_the_ruined_king",
+            "bloodthirster",
+        ],
+    },
+    "onhit_bork_rage_runaan": {
+        "style": "onhit",
+        "label": "On-hit BotRK → Rageblade → Runaan → Terminus → BT",
+        "path": [
+            "blade_of_the_ruined_king",
+            "berserkers_greaves",
+            "guinsoos_rageblade",
+            "runaans_hurricane",
+            "terminus",
+            "bloodthirster",
+        ],
+    },
+    "onhit_bork_rage_statikk": {
+        "style": "onhit",
+        "label": "On-hit BotRK → Rageblade → Statikk → Terminus → BT",
+        "path": [
+            "blade_of_the_ruined_king",
+            "berserkers_greaves",
+            "guinsoos_rageblade",
+            "statikk_shiv",
+            "terminus",
+            "bloodthirster",
+        ],
+    },
+    "onhit_statikk_rage_runaan": {
+        "style": "onhit",
+        "label": "On-hit Statikk → Rageblade → Runaan → Terminus → BT",
+        "path": [
+            "statikk_shiv",
+            "berserkers_greaves",
+            "guinsoos_rageblade",
+            "runaans_hurricane",
+            "terminus",
+            "bloodthirster",
+        ],
+    },
+    "onhit_kraken_rage_runaan": {
+        "style": "onhit",
+        "label": "On-hit Kraken → Rageblade → Runaan → Terminus → BT",
+        "path": [
+            "kraken_slayer",
+            "berserkers_greaves",
+            "guinsoos_rageblade",
+            "runaans_hurricane",
+            "terminus",
             "bloodthirster",
         ],
     },
@@ -599,6 +723,25 @@ def yun_tal_crit_at(path: List[str], minute: int) -> float:
     return min(0.25, autos * 0.002)
 
 
+def pack_fight(fr: FightResult, tgt: Target) -> Dict[str, object]:
+    dps = fr.damage / FIGHT_SECONDS
+    aoe = (fr.damage + fr.splash) / FIGHT_SECONDS
+    return {
+        "hp": round(tgt.hp),
+        "armor": round(tgt.armor, 1),
+        "dps": round(dps, 1),
+        "dmg_8s": round(fr.damage, 1),
+        "splash_8s": round(fr.splash, 1),
+        "aoe_dps": round(aoe, 1),
+        "ttk": None if fr.ttk is None else round(fr.ttk, 2),
+        "autos": fr.autos,
+        "detonations": fr.detonations,
+        "as": round(fr.as_avg, 3),
+        "crit": round(fr.crit, 3),
+        "ad": round(fr.ad, 1),
+    }
+
+
 def run_path(key: str) -> Dict[str, object]:
     cfg = PATHS[key]
     path: List[str] = list(cfg["path"])  # type: ignore
@@ -608,38 +751,20 @@ def run_path(key: str) -> Dict[str, object]:
         gold = gold_at_minute(m)
         owned = owned_at_gold(path, gold)
         yt = yun_tal_crit_at(path, m)
-        sq = simulate_fight(owned, m, squishy(m), style, yt)
-        tk = simulate_fight(owned, m, tank(m), style, yt)
+        sq = simulate_fight(owned, m, squishy(m), style, yt, extra_targets=0)
+        tk = simulate_fight(owned, m, tank(m), style, yt, extra_targets=0)
+        sq3 = simulate_fight(owned, m, squishy(m), style, yt, extra_targets=2)
+        tk3 = simulate_fight(owned, m, tank(m), style, yt, extra_targets=2)
         snapshots.append({
             "minute": m,
             "gold": gold,
             "level": level_at_minute(m),
             "items": [ITEMS[i]["name"] for i in owned],
             "yun_tal_crit": round(yt, 4),
-            "squishy": {
-                "hp": round(squishy(m).hp),
-                "armor": round(squishy(m).armor, 1),
-                "dps": round(sq.damage / FIGHT_SECONDS, 1),
-                "dmg_8s": round(sq.damage, 1),
-                "ttk": None if sq.ttk is None else round(sq.ttk, 2),
-                "autos": sq.autos,
-                "detonations": sq.detonations,
-                "as": round(sq.as_avg, 3),
-                "crit": round(sq.crit, 3),
-                "ad": round(sq.ad, 1),
-            },
-            "tank": {
-                "hp": round(tank(m).hp),
-                "armor": round(tank(m).armor, 1),
-                "dps": round(tk.damage / FIGHT_SECONDS, 1),
-                "dmg_8s": round(tk.damage, 1),
-                "ttk": None if tk.ttk is None else round(tk.ttk, 2),
-                "autos": tk.autos,
-                "detonations": tk.detonations,
-                "as": round(tk.as_avg, 3),
-                "crit": round(tk.crit, 3),
-                "ad": round(tk.ad, 1),
-            },
+            "squishy": pack_fight(sq, squishy(m)),
+            "tank": pack_fight(tk, tank(m)),
+            "squishy_3v": pack_fight(sq3, squishy(m)),
+            "tank_3v": pack_fight(tk3, tank(m)),
         })
     return {
         "key": key,
@@ -698,8 +823,15 @@ def main() -> None:
         late = [snaps[m - 1] for m in (16, 18, 20, 22, 24)]
         return sum(s["squishy"]["dps"] + s["tank"]["dps"] for s in late)
 
+    def late_score_aoe(k: str) -> float:
+        snaps = results[k]["snapshots"]
+        late = [snaps[m - 1] for m in (16, 18, 20, 22, 24)]
+        return sum(s["squishy_3v"]["aoe_dps"] + s["tank_3v"]["aoe_dps"] for s in late)
+
     best_onhit = max(onhit_keys, key=late_score)
     best_crit = max(crit_keys, key=late_score)
+    best_onhit_3v = max(onhit_keys, key=late_score_aoe)
+    best_crit_3v = max(crit_keys, key=late_score_aoe)
 
     lines: List[str] = []
     a = lines.append
@@ -712,8 +844,9 @@ def main() -> None:
     a("=" * 72)
     a("WINNERS")
     a("=" * 72)
-    a(f"On-hit: {results[best_onhit]['label']}")
-    a(f"Crit:   {results[best_crit]['label']}")
+    a(f"On-hit 1v1:       {results[best_onhit]['label']}")
+    a(f"On-hit teamfight: {results[best_onhit_3v]['label']}")
+    a(f"Crit 1v1:         {results[best_crit]['label']}")
     a("")
 
     def row(minute: int) -> str:
@@ -890,15 +1023,39 @@ def main() -> None:
     a("- Crit: keep autos up, charge Q on 3 Blight. Yun Tal needs ~125 autos (≈10 min of farming) to finish 25% crit.")
     a("- Do not mix: Rageblade phantom is the on-hit engine; IE wants 100% crit. 7.3 removed Rageblade's crit tax but phantom still does not replace IE.")
     a("")
-    a("All paths (24:00 DPS squishy / tank)")
+    a("=" * 72)
+    a("WHY RUNAAN / STATIKK (teamfight, 2 extra targets)")
+    a("=" * 72)
+    a("1v1 hid these items. Runaan bolts need two nearby champions; Statikk's 7.3 identity is")
+    a("on-hit lightning on bounce targets. Below is the same 8s window with 2 extra bodies.")
+    a("Runaan: 2 bolts × 55% AD (can crit) + full on-hit (W / BotRK / Rageblade / Terminus).")
+    a("Statikk: energized 60 magic on main, then bounce 60 magic + on-hit onto extras.")
+    a("E hits the clump. Q tags one extra body.")
+    a("")
+    a(f"Teamfight on-hit pick: {results[best_onhit_3v]['label']}")
+    a("")
+    a("All paths 24:00  |  1v1 squishy/tank DPS  |  3-target AoE DPS (main+2)")
     for k, r in results.items():
         s = r["snapshots"][-1]
         mark = ""
         if k == best_onhit:
-            mark = "  ← on-hit pick"
-        elif k == best_crit:
-            mark = "  ← crit pick"
-        a(f"  {s['squishy']['dps']:7.0f} / {s['tank']['dps']:7.0f}   {r['label']}{mark}")
+            mark += "  ← 1v1 on-hit"
+        if k == best_onhit_3v:
+            mark += "  ← teamfight on-hit"
+        if k == best_crit:
+            mark += "  ← 1v1 crit"
+        a(
+            f"  1v1 {s['squishy']['dps']:6.0f}/{s['tank']['dps']:6.0f}   "
+            f"3v {s['squishy_3v']['aoe_dps']:7.0f}/{s['tank_3v']['aoe_dps']:6.0f}   "
+            f"{r['label']}{mark}"
+        )
+    o3 = results[best_onhit_3v]["snapshots"][-1]
+    c3 = results[best_crit_3v]["snapshots"][-1]
+    a("")
+    a(
+        f"24:00 teamfight AoE: on-hit {o3['squishy_3v']['aoe_dps']:.0f}/{o3['tank_3v']['aoe_dps']:.0f}  "
+        f"vs crit {c3['squishy_3v']['aoe_dps']:.0f}/{c3['tank_3v']['aoe_dps']:.0f}"
+    )
 
     report = "\n".join(lines) + "\n"
     (OUT_DIR / "report.txt").write_text(report, encoding="utf-8")
@@ -908,7 +1065,9 @@ def main() -> None:
                 "patch": PATCH,
                 "fight_seconds": FIGHT_SECONDS,
                 "best_onhit": best_onhit,
+                "best_onhit_3v": best_onhit_3v,
                 "best_crit": best_crit,
+                "best_crit_3v": best_crit_3v,
                 "paths": results,
             },
             indent=2,

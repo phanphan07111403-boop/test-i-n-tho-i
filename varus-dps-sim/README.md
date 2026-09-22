@@ -22,6 +22,13 @@ On-hit (W max):
 - BotRK → Berserkers → Rageblade → Terminus → Kraken → Bloodthirster
 - Kraken → Rageblade → Terminus → BotRK → BT
 - Statikk Shiv → Rageblade → Terminus → BotRK → BT
+- BotRK → Rageblade → Runaan → Terminus → BT
+- BotRK → Rageblade → Statikk → Terminus → BT
+- Statikk → Rageblade → Runaan → Terminus → BT
+- Kraken → Rageblade → Runaan → Terminus → BT
+
+1v1 hides Runaan (bolts need two nearby champions) and undersells 7.3 Statikk
+(on-hit lightning on bounce targets). The sim also runs a 3-target clump.
 
 Crit (Q max):
 - Yun Tal → Berserkers → Infinity Edge → Rapid Firecannon → LDR → BT

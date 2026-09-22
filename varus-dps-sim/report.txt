@@ -7,8 +7,9 @@ Goal: late-game scale, DPS still rising after each purchase.
 ========================================================================
 WINNERS
 ========================================================================
-On-hit: On-hit BotRK → Rageblade → Terminus → Kraken → BT
-Crit:   Crit Yun Tal → IE → RFC → LDR → BT
+On-hit 1v1:       On-hit BotRK → Rageblade → Terminus → Kraken → BT
+On-hit teamfight: On-hit BotRK → Rageblade → Runaan → Terminus → BT
+Crit 1v1:         Crit Yun Tal → IE → RFC → LDR → BT
 
 Minute   on-hit squishy/tank DPS   items                                   crit squishy/tank   winner
 --------------------------------------------------------------------------------------------------------------
@@ -78,11 +79,28 @@ Play pattern
 - Crit: keep autos up, charge Q on 3 Blight. Yun Tal needs ~125 autos (≈10 min of farming) to finish 25% crit.
 - Do not mix: Rageblade phantom is the on-hit engine; IE wants 100% crit. 7.3 removed Rageblade's crit tax but phantom still does not replace IE.
 
-All paths (24:00 DPS squishy / tank)
-      830 /     599   On-hit Kraken → Rageblade → Terminus → BotRK → BT
-      830 /     599   On-hit BotRK → Rageblade → Terminus → Kraken → BT  ← on-hit pick
-      758 /     563   On-hit Statikk → Rageblade → Terminus → BotRK → BT
-      881 /     676   Crit Yun Tal → IE → RFC → LDR → BT  ← crit pick
-      866 /     667   Crit Yun Tal → IE → PD → LDR → BT
-      840 /     643   Crit Stormrazor → IE → RFC → LDR → BT
-      943 /     728   Crit Yun Tal → Hexoptics → IE → LDR → BT
+========================================================================
+WHY RUNAAN / STATIKK (teamfight, 2 extra targets)
+========================================================================
+1v1 hid these items. Runaan bolts need two nearby champions; Statikk's 7.3 identity is
+on-hit lightning on bounce targets. Below is the same 8s window with 2 extra bodies.
+Runaan: 2 bolts × 55% AD (can crit) + full on-hit (W / BotRK / Rageblade / Terminus).
+Statikk: energized 60 magic on main, then bounce 60 magic + on-hit onto extras.
+E hits the clump. Q tags one extra body.
+
+Teamfight on-hit pick: On-hit BotRK → Rageblade → Runaan → Terminus → BT
+
+All paths 24:00  |  1v1 squishy/tank DPS  |  3-target AoE DPS (main+2)
+  1v1    830/   599   3v     898/   641   On-hit Kraken → Rageblade → Terminus → BotRK → BT
+  1v1    830/   599   3v     898/   641   On-hit BotRK → Rageblade → Terminus → Kraken → BT  ← 1v1 on-hit
+  1v1    758/   563   3v    1022/   769   On-hit Statikk → Rageblade → Terminus → BotRK → BT
+  1v1    750/   563   3v    1703/  1344   On-hit BotRK → Rageblade → Runaan → Terminus → BT  ← teamfight on-hit
+  1v1    758/   563   3v    1022/   769   On-hit BotRK → Rageblade → Statikk → Terminus → BT
+  1v1    766/   480   3v    1835/  1135   On-hit Statikk → Rageblade → Runaan → Terminus → BT
+  1v1    805/   493   3v    1666/  1031   On-hit Kraken → Rageblade → Runaan → Terminus → BT
+  1v1    881/   676   3v     965/   740   Crit Yun Tal → IE → RFC → LDR → BT  ← 1v1 crit
+  1v1    866/   667   3v     950/   731   Crit Yun Tal → IE → PD → LDR → BT
+  1v1    840/   643   3v     923/   707   Crit Stormrazor → IE → RFC → LDR → BT
+  1v1    943/   728   3v    1044/   806   Crit Yun Tal → Hexoptics → IE → LDR → BT
+
+24:00 teamfight AoE: on-hit 1703/1344  vs crit 965/740
