@@ -1,0 +1,1731 @@
+{
+  "patch": "7.3",
+  "items": {
+    "long_sword": {
+      "id": "long_sword",
+      "name": "Long Sword",
+      "cost": 500,
+      "tier": "basic",
+      "class": "ad",
+      "stats": {
+        "ad": 12
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "Unchanged component.",
+      "approx_stats": [
+        "ad"
+      ]
+    },
+    "dagger": {
+      "id": "dagger",
+      "name": "Dagger",
+      "cost": 400,
+      "tier": "basic",
+      "class": "as",
+      "stats": {
+        "as": 0.12
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "7.3: 500\u2192400g, AS 15%\u219212%.",
+      "approx_stats": []
+    },
+    "brawlers_gloves": {
+      "id": "brawlers_gloves",
+      "name": "Brawler's Gloves",
+      "cost": 500,
+      "tier": "basic",
+      "class": "crit",
+      "stats": {
+        "crit": 0.12
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "Crit gloves. Cloak of Agility removed.",
+      "approx_stats": [
+        "crit"
+      ]
+    },
+    "bf_sword": {
+      "id": "bf_sword",
+      "name": "B.F. Sword",
+      "cost": 1500,
+      "tier": "epic",
+      "class": "ad",
+      "stats": {
+        "ad": 40
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ad"
+      ]
+    },
+    "pickaxe": {
+      "id": "pickaxe",
+      "name": "Pickaxe",
+      "cost": 800,
+      "tier": "epic",
+      "class": "ad",
+      "stats": {
+        "ad": 20
+      },
+      "build_path": "Long Sword (500) + 300",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "new"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "recurve_bow": {
+      "id": "recurve_bow",
+      "name": "Recurve Bow",
+      "cost": 900,
+      "tier": "epic",
+      "class": "onhit",
+      "stats": {
+        "as": 0.2
+      },
+      "build_path": "Dagger (400) + 500",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "onhit"
+      ],
+      "notes": "7.3: 1400\u2192900g, AS 30%\u219220%.",
+      "approx_stats": []
+    },
+    "noonquiver": {
+      "id": "noonquiver",
+      "name": "Noonquiver",
+      "cost": 1300,
+      "tier": "epic",
+      "class": "crit",
+      "stats": {
+        "ad": 20,
+        "crit": 0.15
+      },
+      "build_path": "Long Sword (500) + Brawler's Gloves (500) + 300",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "crit"
+      ],
+      "notes": "7.3: AD 25\u219220, AS removed, +15% crit.",
+      "approx_stats": []
+    },
+    "hearthbound_axe": {
+      "id": "hearthbound_axe",
+      "name": "Hearthbound Axe",
+      "cost": 1200,
+      "tier": "epic",
+      "class": "onhit",
+      "stats": {
+        "ad": 20,
+        "as": 0.15
+      },
+      "build_path": "Long Sword (500) + Dagger (400) + 300",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "onhit",
+        "new"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "kircheis_shard": {
+      "id": "kircheis_shard",
+      "name": "Kircheis Shard",
+      "cost": 800,
+      "tier": "epic",
+      "class": "energized",
+      "stats": {
+        "as": 0.2
+      },
+      "build_path": "Dagger (400) + 400",
+      "passives": [
+        {
+          "name": "Shock",
+          "magic": 40,
+          "cd": 25,
+          "cd_refund_per_auto": 1
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "energized"
+      ],
+      "notes": "7.3: AD removed, +20% AS.",
+      "approx_stats": []
+    },
+    "last_whisper": {
+      "id": "last_whisper",
+      "name": "Last Whisper",
+      "cost": 1200,
+      "tier": "epic",
+      "class": "pen",
+      "stats": {
+        "ad": 15,
+        "armor_pen": 0.15
+      },
+      "build_path": "Long Sword (500) + 700",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "pen"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "vampiric_scepter": {
+      "id": "vampiric_scepter",
+      "name": "Vampiric Scepter",
+      "cost": 1200,
+      "tier": "epic",
+      "class": "lifesteal",
+      "stats": {
+        "ad": 15,
+        "lifesteal": 0.08
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "Physical vamp \u2192 8% lifesteal.",
+      "approx_stats": [
+        "ad"
+      ]
+    },
+    "zeal": {
+      "id": "zeal",
+      "name": "Zeal",
+      "cost": 1400,
+      "tier": "epic",
+      "class": "crit",
+      "stats": {
+        "as": 0.2,
+        "crit": 0.15,
+        "ms_pct": 0.04
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "crit"
+      ],
+      "notes": "MS 5%\u21924%. AS/crit leftover from pre-7.3 Zeal.",
+      "approx_stats": [
+        "as",
+        "crit"
+      ]
+    },
+    "serrated_dirk": {
+      "id": "serrated_dirk",
+      "name": "Serrated Dirk",
+      "cost": 1000,
+      "tier": "epic",
+      "class": "lethality",
+      "stats": {
+        "ad": 20,
+        "lethality": 12
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ad",
+        "lethality"
+      ]
+    },
+    "caulfields_warhammer": {
+      "id": "caulfields_warhammer",
+      "name": "Caulfield's Warhammer",
+      "cost": 1200,
+      "tier": "epic",
+      "class": "ad",
+      "stats": {
+        "ad": 20,
+        "ah": 20
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ad",
+        "ah"
+      ]
+    },
+    "sheen": {
+      "id": "sheen",
+      "name": "Sheen",
+      "cost": 800,
+      "tier": "epic",
+      "class": "spellblade",
+      "stats": {},
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Spellblade",
+          "phys_from_base_ad": 1.0,
+          "cd": 1.5
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "executioners_calling": {
+      "id": "executioners_calling",
+      "name": "Executioner's Calling",
+      "cost": 800,
+      "tier": "epic",
+      "class": "antiheal",
+      "stats": {
+        "ad": 15
+      },
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Sepsis",
+          "grievous": 0.5,
+          "duration": 3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ad"
+      ]
+    },
+    "amplifying_tome": {
+      "id": "amplifying_tome",
+      "name": "Amplifying Tome",
+      "cost": 500,
+      "tier": "basic",
+      "class": "ap",
+      "stats": {
+        "ap": 20
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "negatron_cloak": {
+      "id": "negatron_cloak",
+      "name": "Negatron Cloak",
+      "cost": 900,
+      "tier": "epic",
+      "class": "mr",
+      "stats": {
+        "mr": 35
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "mr"
+      ]
+    },
+    "aether_wisp": {
+      "id": "aether_wisp",
+      "name": "Aether Wisp",
+      "cost": 950,
+      "tier": "epic",
+      "class": "ap",
+      "stats": {
+        "ap": 30,
+        "ms_pct": 0.04
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "MS 5%\u21924%.",
+      "approx_stats": [
+        "ap"
+      ]
+    },
+    "tear_of_the_goddess": {
+      "id": "tear_of_the_goddess",
+      "name": "Tear of the Goddess",
+      "cost": 400,
+      "tier": "epic",
+      "class": "mana",
+      "stats": {
+        "mana": 240
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "7.3 Manamune path uses Tear 400\u2013500.",
+      "approx_stats": [
+        "mana"
+      ]
+    },
+    "ruby_crystal": {
+      "id": "ruby_crystal",
+      "name": "Ruby Crystal",
+      "cost": 500,
+      "tier": "basic",
+      "class": "hp",
+      "stats": {
+        "hp": 200
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "kindlegem": {
+      "id": "kindlegem",
+      "name": "Kindlegem",
+      "cost": 1000,
+      "tier": "epic",
+      "class": "hp",
+      "stats": {
+        "hp": 200,
+        "ah": 10
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "hp",
+        "ah"
+      ]
+    },
+    "forbidden_idol": {
+      "id": "forbidden_idol",
+      "name": "Forbidden Idol",
+      "cost": 700,
+      "tier": "epic",
+      "class": "enchanter",
+      "stats": {
+        "heal_shield": 0.06
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "component"
+      ],
+      "notes": "7.3: 900\u2192700g, HSP 4%\u21926%, HP and AH removed.",
+      "approx_stats": []
+    },
+    "bandleglass_mirror": {
+      "id": "bandleglass_mirror",
+      "name": "Bandleglass Mirror",
+      "cost": 900,
+      "tier": "epic",
+      "class": "enchanter",
+      "stats": {
+        "ap": 20,
+        "mana_regen": 0.5,
+        "ah": 10
+      },
+      "build_path": "Amplifying Tome (500) + Ring of Revelation (300) + 100",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "component",
+        "new"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "boots_of_speed": {
+      "id": "boots_of_speed",
+      "name": "Boots of Speed",
+      "cost": 400,
+      "tier": "basic",
+      "class": "boots",
+      "stats": {
+        "ms": 25
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "boots"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ms"
+      ]
+    },
+    "berserkers_greaves": {
+      "id": "berserkers_greaves",
+      "name": "Berserker's Greaves",
+      "cost": 1200,
+      "tier": "boots",
+      "class": "boots",
+      "stats": {
+        "ad": 10,
+        "as": 0.35,
+        "ms": 45
+      },
+      "build_path": "Boots of Speed (400) + Dagger (400) + 400",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "boots"
+      ],
+      "notes": "7.2c: AS 30%\u219235%. Unchanged in 7.3 notes.",
+      "approx_stats": [
+        "ad",
+        "ms"
+      ]
+    },
+    "plated_steelcaps": {
+      "id": "plated_steelcaps",
+      "name": "Plated Steelcaps",
+      "cost": 900,
+      "tier": "boots",
+      "class": "boots",
+      "stats": {
+        "armor": 15,
+        "ms": 45
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "boots"
+      ],
+      "notes": "Unchanged in 7.3 notes.",
+      "approx_stats": [
+        "armor",
+        "ms"
+      ]
+    },
+    "ionian_boots": {
+      "id": "ionian_boots",
+      "name": "Ionian Boots of Lucidity",
+      "cost": 900,
+      "tier": "boots",
+      "class": "boots",
+      "stats": {
+        "ah": 20,
+        "ms": 45
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "boots"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ah",
+        "ms"
+      ]
+    },
+    "hexoptics_c44": {
+      "id": "hexoptics_c44",
+      "name": "Hexoptics C44",
+      "cost": 2900,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 55,
+        "crit": 0.25
+      },
+      "build_path": "Pickaxe (800) + Noonquiver (1300) + Long Sword (500) + 300",
+      "passives": [
+        {
+          "name": "Magnification",
+          "bonus_damage_min": 0.0,
+          "bonus_damage_max": 0.1,
+          "max_range": 550
+        },
+        {
+          "name": "Arcane Aim",
+          "bonus_range": 100,
+          "duration": 8,
+          "takedown_window": 3
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "range"
+      ],
+      "notes": "Distance amp on attacks. Takedown grants +100 range for 8s.",
+      "approx_stats": []
+    },
+    "yun_tal_wildarrows": {
+      "id": "yun_tal_wildarrows",
+      "name": "Yun Tal Wildarrows",
+      "cost": 3100,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 50,
+        "crit": 0.0,
+        "as": 0.25
+      },
+      "build_path": "Noonquiver (1300) + Pickaxe (800) + Kircheis Shard (800) + 200",
+      "passives": [
+        {
+          "name": "Practice Makes Perfect",
+          "crit_per_auto_melee": 0.004,
+          "crit_per_auto_ranged": 0.002,
+          "crit_cap": 0.25
+        },
+        {
+          "name": "Flurry",
+          "as": 0.25,
+          "duration": 6,
+          "cd": 20,
+          "cd_refund_auto": 1,
+          "cd_refund_crit": 2
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "first_item",
+        "scaling"
+      ],
+      "notes": "Starts at 0% crit. Ranged needs 125 autos to cap 25% crit.",
+      "approx_stats": []
+    },
+    "stormrazor": {
+      "id": "stormrazor",
+      "name": "Stormrazor",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 50,
+        "crit": 0.25,
+        "as": 0.2
+      },
+      "build_path": "B.F. Sword (1500) + Kircheis Shard (800) + Brawler's Gloves (500) + 200",
+      "passives": [
+        {
+          "name": "Energized",
+          "kind": "move_and_attack"
+        },
+        {
+          "name": "Bolt",
+          "magic": 120,
+          "ms_pct": 0.45,
+          "ms_duration": 1.5
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "energized",
+        "first_item"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "rapid_firecannon": {
+      "id": "rapid_firecannon",
+      "name": "Rapid Firecannon",
+      "cost": 2650,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "crit": 0.25,
+        "as": 0.4,
+        "ms_pct": 0.04
+      },
+      "build_path": "Zeal (1400) + Kircheis Shard (800) + 450",
+      "passives": [
+        {
+          "name": "Energized",
+          "kind": "move_and_attack"
+        },
+        {
+          "name": "Sharpshooter",
+          "magic": 80,
+          "range_pct": 0.35,
+          "range_cap": 150
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "energized",
+        "zeal",
+        "range"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "fiendhunter_bolts": {
+      "id": "fiendhunter_bolts",
+      "name": "Fiendhunter Bolts",
+      "cost": 2650,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "crit": 0.25,
+        "as": 0.45,
+        "ms_pct": 0.04,
+        "ult_haste": 20
+      },
+      "build_path": "Zeal (1400) + Kircheis Shard (800) + 450",
+      "passives": [
+        {
+          "name": "Night Vigil",
+          "ult_haste": 20
+        },
+        {
+          "name": "Opening Barrage",
+          "after_ult_attacks": 3,
+          "as": 0.5,
+          "guaranteed_crit": true,
+          "crit_damage_factor": 0.8,
+          "already_crit_true_pct": 0.15,
+          "window": 8,
+          "cd": 45
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "zeal",
+        "ultimate"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "immortal_shieldbow": {
+      "id": "immortal_shieldbow",
+      "name": "Immortal Shieldbow",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 55,
+        "crit": 0.25
+      },
+      "build_path": "Noonquiver (1300) + Pickaxe (800) + 900",
+      "passives": [
+        {
+          "name": "Lifeline",
+          "hp_threshold": 0.35,
+          "duration": 3,
+          "shield_melee": [
+            350,
+            650
+          ],
+          "shield_ranged": [
+            300,
+            550
+          ],
+          "cd": 70
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "new",
+        "defensive"
+      ],
+      "notes": "Official EN uses 35% HP; CN notes said 30%. Using EN 35%.",
+      "approx_stats": []
+    },
+    "statikk_shiv": {
+      "id": "statikk_shiv",
+      "name": "Statikk Shiv",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "ad": 40,
+        "ap": 40,
+        "as": 0.3,
+        "ms_pct": 0.04
+      },
+      "build_path": "Aether Wisp (950) + Pickaxe (800) + Kircheis Shard (800) + 450",
+      "passives": [
+        {
+          "name": "Energized",
+          "kind": "move_and_attack"
+        },
+        {
+          "name": "Electroshock",
+          "bounces": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "bounce_levels": [
+            1,
+            5,
+            9,
+            13
+          ],
+          "magic": 60,
+          "magic_minion": 90,
+          "bounces_apply_onhit": true
+        },
+        {
+          "name": "Electrotherapy",
+          "bonus_energized_per_auto": 5
+        }
+      ],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "new",
+        "energized",
+        "waveclear"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "bloodthirster": {
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "cost": 3200,
+      "tier": "legendary",
+      "class": "ad",
+      "stats": {
+        "ad": 75,
+        "lifesteal": 0.15
+      },
+      "build_path": "Vampiric Scepter (1200) + B.F. Sword (1500) + 500",
+      "passives": [
+        {
+          "name": "Ichorshield",
+          "overheal_shield": [
+            165,
+            345
+          ]
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [
+        "crit 25%",
+        "hp 250",
+        "physical_vamp 8%"
+      ],
+      "tags": [
+        "ad",
+        "lifesteal",
+        "no_crit"
+      ],
+      "notes": "No longer a crit item. High AD + lifesteal capstone.",
+      "approx_stats": []
+    },
+    "essence_reaver": {
+      "id": "essence_reaver",
+      "name": "Essence Reaver",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 50,
+        "crit": 0.25,
+        "ah": 20
+      },
+      "build_path": "Sheen (800) + Caulfield's Warhammer (1200) + Brawler's Gloves (500) + 500",
+      "passives": [
+        {
+          "name": "Spellblade",
+          "phys": "1.35 * base_ad + 0 to 80 from crit (0.8 per 1% crit)",
+          "mana_restore": 0.5,
+          "cd": 1.5,
+          "window": 10
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "spellblade"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "crit",
+        "ah",
+        "cost"
+      ]
+    },
+    "galeforce": {
+      "id": "galeforce",
+      "name": "Galeforce",
+      "cost": 3100,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 60,
+        "crit": 0.25,
+        "ms_pct": 0.04
+      },
+      "build_path": "Noonquiver (1300) + Pickaxe (800) + Long Sword (500) + 500",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [
+        "as 15%"
+      ],
+      "tags": [
+        "crit",
+        "mobility"
+      ],
+      "notes": "Dash active. AS removed, AD 50\u219260.",
+      "approx_stats": [
+        "crit",
+        "cost"
+      ]
+    },
+    "the_collector": {
+      "id": "the_collector",
+      "name": "The Collector",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 50,
+        "crit": 0.25,
+        "lethality": 12
+      },
+      "build_path": "Serrated Dirk (1000) + Noonquiver (1300) + 700",
+      "passives": [
+        {
+          "name": "Death and Taxes",
+          "execute_pct": 0.05,
+          "execute_growth": 0.001,
+          "bonus_gold": 25
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "lethality",
+        "execute"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "crit",
+        "lethality"
+      ]
+    },
+    "kraken_slayer": {
+      "id": "kraken_slayer",
+      "name": "Kraken Slayer",
+      "cost": 2900,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "ad": 45,
+        "as": 0.35,
+        "ms_pct": 0.04
+      },
+      "build_path": "Recurve Bow (900) + Hearthbound Axe (1200) + Long Sword (500) + 300",
+      "passives": [
+        {
+          "name": "Bring It Down",
+          "every": 3,
+          "phys_melee": [
+            150,
+            210
+          ],
+          "phys_ranged": [
+            120,
+            168
+          ],
+          "missing_hp_amp_per_pct": 0.0075,
+          "missing_hp_amp_cap": 0.75
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "first_item"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "blade_of_the_ruined_king": {
+      "id": "blade_of_the_ruined_king",
+      "name": "Blade of the Ruined King",
+      "cost": 3100,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "ad": 40,
+        "as": 0.3,
+        "lifesteal": 0.12
+      },
+      "build_path": "Vampiric Scepter (1200) + Pickaxe (800) + Recurve Bow (900) + 200",
+      "passives": [
+        {
+          "name": "Ruined Strike",
+          "current_hp_ranged": 0.07,
+          "current_hp_melee": 0.085,
+          "min": 15,
+          "monster_cap": 100
+        },
+        {
+          "name": "Drain",
+          "hits": 3,
+          "slow": 0.3,
+          "duration": 1.5,
+          "cd": 30
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "lifesteal",
+        "first_item"
+      ],
+      "notes": "CN notes AD 25\u219240. Lifesteal 12% replaces omnivamp.",
+      "approx_stats": []
+    },
+    "guinsoos_rageblade": {
+      "id": "guinsoos_rageblade",
+      "name": "Guinsoo's Rageblade",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "ad": 35,
+        "ap": 30
+      },
+      "build_path": "Amplifying Tome (500) + Recurve Bow (900) + Pickaxe (800) + 800",
+      "passives": [
+        {
+          "name": "Wrath",
+          "magic": 30
+        },
+        {
+          "name": "Seething Strike",
+          "as_per_stack": 0.08,
+          "max_stacks": 4,
+          "phantom_every": 3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "core"
+      ],
+      "notes": "Crit restriction removed. No innate AS; AS comes from Seething Strike stacks. No MS.",
+      "approx_stats": []
+    },
+    "wits_end": {
+      "id": "wits_end",
+      "name": "Wit's End",
+      "cost": 2800,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "as": 0.5,
+        "mr": 40,
+        "tenacity": 0.2
+      },
+      "build_path": "Recurve Bow (900) + Negatron Cloak (900) + Dagger (400) + 600",
+      "passives": [
+        {
+          "name": "At Wit's End",
+          "magic": 40
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "mr"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "mr",
+        "cost"
+      ]
+    },
+    "terminus": {
+      "id": "terminus",
+      "name": "Terminus",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "ad": 35,
+        "as": 0.35
+      },
+      "build_path": "Recurve Bow (900) + Hearthbound Axe (1200) + 900",
+      "passives": [
+        {
+          "name": "Shadow",
+          "magic": 30
+        },
+        {
+          "name": "Juxtaposition",
+          "light_armor_mr": [
+            5,
+            8
+          ],
+          "dark_pen": 0.1,
+          "max_stacks": 3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "pen"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "phantom_dancer": {
+      "id": "phantom_dancer",
+      "name": "Phantom Dancer",
+      "cost": 2650,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "as": 0.4,
+        "crit": 0.25,
+        "ms_pct": 0.07
+      },
+      "build_path": "Zeal (1400) + Dagger (400) + Dagger (400) + 450",
+      "passives": [
+        {
+          "name": "Spectral Waltz",
+          "as_per_stack": 0.06,
+          "ms_per_stack": 0.01,
+          "max_stacks": 5,
+          "duration": 6
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [
+        "ad 20"
+      ],
+      "tags": [
+        "crit",
+        "zeal",
+        "kiting"
+      ],
+      "notes": "AD removed. MS 5%\u21927%. AS/crit inferred from Zeal + 2 Daggers.",
+      "approx_stats": [
+        "as",
+        "crit"
+      ]
+    },
+    "runaans_hurricane": {
+      "id": "runaans_hurricane",
+      "name": "Runaan's Hurricane",
+      "cost": 2650,
+      "tier": "legendary",
+      "class": "onhit",
+      "stats": {
+        "as": 0.4,
+        "crit": 0.25,
+        "ms_pct": 0.04
+      },
+      "build_path": "Zeal (1400) + Kircheis Shard (800) + 450",
+      "passives": [
+        {
+          "name": "Wind's Fury",
+          "bolts": 2,
+          "ad_ratio": 0.55,
+          "can_crit": true,
+          "apply_onhit": true
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "onhit",
+        "crit",
+        "aoe",
+        "zeal"
+      ],
+      "notes": "Wind's Edge removed. Bolts can crit and apply on-hit.",
+      "approx_stats": [
+        "crit"
+      ]
+    },
+    "mortal_reminder": {
+      "id": "mortal_reminder",
+      "name": "Mortal Reminder",
+      "cost": 3000,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 35,
+        "crit": 0.25,
+        "armor_pen": 0.3
+      },
+      "build_path": "Last Whisper (1200) + Executioner's Calling (800) + Brawler's Gloves (500) + 500",
+      "passives": [
+        {
+          "name": "Sepsis",
+          "grievous": 0.5,
+          "duration": 3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [
+        "as 15%"
+      ],
+      "tags": [
+        "crit",
+        "pen",
+        "antiheal"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "crit"
+      ]
+    },
+    "infinity_edge": {
+      "id": "infinity_edge",
+      "name": "Infinity Edge",
+      "cost": 3500,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 75,
+        "crit": 0.25,
+        "crit_damage": 0.3
+      },
+      "build_path": "B.F. Sword (1500) + Pickaxe (800) + Brawler's Gloves (500) + 700",
+      "passives": [
+        {
+          "name": "Infinity",
+          "crit_damage": 2.3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "capstone"
+      ],
+      "notes": "Crit damage 200%\u2192230%. Break the Limit removed. Cost from build path.",
+      "approx_stats": []
+    },
+    "manamune": {
+      "id": "manamune",
+      "name": "Manamune",
+      "cost": 2900,
+      "tier": "legendary",
+      "class": "mana",
+      "stats": {
+        "ad": 40,
+        "mana": 500,
+        "ah": 15
+      },
+      "build_path": "Caulfield's Warhammer (1200) + Tear of the Goddess (400) + Long Sword (500) + 800",
+      "passives": [
+        {
+          "name": "Awe",
+          "ad_from_mana": 0.02,
+          "mana_refund": 0.15
+        },
+        {
+          "name": "Mana Charge",
+          "mana_per_proc": 14,
+          "cap": 700,
+          "max_per_10s": 3
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "mana",
+        "ad"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "muramana": {
+      "id": "muramana",
+      "name": "Muramana",
+      "cost": 2900,
+      "tier": "legendary",
+      "class": "mana",
+      "stats": {
+        "ad": 40,
+        "mana": 1200,
+        "ah": 15
+      },
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Awe",
+          "ad_from_mana": 0.02,
+          "mana_refund": 0.15
+        },
+        {
+          "name": "Shock",
+          "auto_mana": 0.015,
+          "ability_mana_melee": 0.035,
+          "ability_mana_ranged": 0.03
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "mana",
+        "ad",
+        "onhit"
+      ],
+      "notes": "Tear transform. Shock is on-hit + ability.",
+      "approx_stats": []
+    },
+    "seryldas_grudge": {
+      "id": "seryldas_grudge",
+      "name": "Serylda's Grudge",
+      "cost": 3100,
+      "tier": "legendary",
+      "class": "pen",
+      "stats": {
+        "ad": 50,
+        "ah": 20,
+        "armor_pen": 0.35
+      },
+      "build_path": "Caulfield's Warhammer (1200) + Last Whisper (1200) + 700",
+      "passives": [
+        {
+          "name": "Icy",
+          "slow": 0.3,
+          "duration": 1,
+          "hp_threshold": 0.6
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "pen",
+        "ability"
+      ],
+      "notes": "Frostbite removed. Slow only below 60% HP.",
+      "approx_stats": [
+        "ah"
+      ]
+    },
+    "navori_quickblades": {
+      "id": "navori_quickblades",
+      "name": "Navori Quickblades",
+      "cost": 2650,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "as": 0.4,
+        "crit": 0.25,
+        "ms_pct": 0.04
+      },
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Deft Strikes",
+          "basic_cdr_remaining": 0.15
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "zeal",
+        "haste"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "crit"
+      ]
+    },
+    "lord_dominiks_regards": {
+      "id": "lord_dominiks_regards",
+      "name": "Lord Dominik's Regards",
+      "cost": 3300,
+      "tier": "legendary",
+      "class": "crit",
+      "stats": {
+        "ad": 35,
+        "crit": 0.25,
+        "armor_pen": 0.35
+      },
+      "build_path": "Last Whisper (1200) + Noonquiver (1300) + 800",
+      "passives": [
+        {
+          "name": "Giant Slayer",
+          "max_bonus_damage": 0.25,
+          "vs_higher_hp": true,
+          "approx": true
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "crit",
+        "pen",
+        "vs_tanks"
+      ],
+      "notes": "CN notes AD 25\u219235; EN 30\u219235. Using 35. Giant Slayer leftover.",
+      "approx_stats": [
+        "crit"
+      ]
+    },
+    "mercurial_scimitar": {
+      "id": "mercurial_scimitar",
+      "name": "Mercurial Scimitar",
+      "cost": 2900,
+      "tier": "legendary",
+      "class": "ad",
+      "stats": {
+        "ad": 40,
+        "mr": 40,
+        "lifesteal": 0.12
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "qss",
+        "lifesteal"
+      ],
+      "notes": "Physical vamp \u2192 12% lifesteal. QSS active unchanged.",
+      "approx_stats": [
+        "ad",
+        "mr",
+        "cost"
+      ]
+    },
+    "whispering_circlet": {
+      "id": "whispering_circlet",
+      "name": "Whispering Circlet",
+      "cost": 2400,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "hp": 200,
+        "mana": 500,
+        "mana_regen": 0.5,
+        "heal_shield": 0.08
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "enchanter",
+        "new",
+        "mana"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "diadem_of_songs": {
+      "id": "diadem_of_songs",
+      "name": "Diadem of Songs",
+      "cost": 2400,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "hp": 200,
+        "mana": 1200,
+        "mana_regen": 0.5,
+        "heal_shield": 0.08
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "enchanter",
+        "new",
+        "mana"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "echoes_of_helia": {
+      "id": "echoes_of_helia",
+      "name": "Echoes of Helia",
+      "cost": 2400,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "hp": 200,
+        "ap": 40,
+        "ah": 20,
+        "mana_regen": 0.5
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": true,
+      "removed_stats": [],
+      "tags": [
+        "enchanter",
+        "new"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "ardent_censer": {
+      "id": "ardent_censer",
+      "name": "Ardent Censer",
+      "cost": 2400,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "ap": 50,
+        "heal_shield": 0.08,
+        "ms_pct": 0.04
+      },
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Censer",
+          "as": 0.3,
+          "onhit_magic": 25,
+          "duration": 6
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "enchanter"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "staff_of_flowing_waters": {
+      "id": "staff_of_flowing_waters",
+      "name": "Staff of Flowing Waters",
+      "cost": 2400,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "ap": 50,
+        "heal_shield": 0.08,
+        "ah": 10,
+        "ms_pct": 0.04
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "enchanter"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ap",
+        "ms_pct"
+      ]
+    },
+    "harmonic_echo": {
+      "id": "harmonic_echo",
+      "name": "Harmonic Echo",
+      "cost": 2500,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "hp": 200,
+        "ap": 40,
+        "ah": 20
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "enchanter"
+      ],
+      "notes": "",
+      "approx_stats": []
+    },
+    "imperial_mandate": {
+      "id": "imperial_mandate",
+      "name": "Imperial Mandate",
+      "cost": 2600,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "ap": 60,
+        "ah": 20,
+        "mana_regen": 0.5
+      },
+      "build_path": "",
+      "passives": [
+        {
+          "name": "Control",
+          "cc_haste": 20,
+          "mark_amp": 0.07,
+          "mark_duration": 4
+        }
+      ],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "enchanter"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ah"
+      ]
+    },
+    "shurelyas_battlesong": {
+      "id": "shurelyas_battlesong",
+      "name": "Shurelya's Battlesong",
+      "cost": 2500,
+      "tier": "legendary",
+      "class": "enchanter",
+      "stats": {
+        "ap": 40,
+        "ah": 20,
+        "ms_pct": 0.04,
+        "mana_regen": 0.5
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "enchanter"
+      ],
+      "notes": "",
+      "approx_stats": [
+        "ap",
+        "ah",
+        "cost"
+      ]
+    },
+    "bamis_cinder": {
+      "id": "bamis_cinder",
+      "name": "Bami's Cinder",
+      "cost": 1200,
+      "tier": "epic",
+      "class": "tank",
+      "stats": {
+        "hp": 200,
+        "ah": 5
+      },
+      "build_path": "",
+      "passives": [],
+      "new_in_7_3": false,
+      "removed_stats": [],
+      "tags": [
+        "tank"
+      ],
+      "notes": "",
+      "approx_stats": []
+    }
+  }
+}

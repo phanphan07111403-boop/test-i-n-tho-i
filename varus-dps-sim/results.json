@@ -1,0 +1,5859 @@
+{
+  "patch": "7.3",
+  "fight_seconds": 8.0,
+  "best_onhit": "onhit_bork_rage_term",
+  "best_crit": "crit_yuntal_ie_rfc",
+  "paths": {
+    "onhit_kraken_rage_term": {
+      "key": "onhit_kraken_rage_term",
+      "label": "On-hit Kraken \u2192 Rageblade \u2192 Terminus \u2192 BotRK \u2192 BT",
+      "style": "onhit",
+      "path": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Blade of the Ruined King",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 95.2,
+            "dmg_8s": 761.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 91.9,
+            "dmg_8s": 734.9,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.2,
+            "dmg_8s": 841.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.9,
+            "dmg_8s": 775.3,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 132.1,
+            "dmg_8s": 1056.8,
+            "ttk": 7.8,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 120.2,
+            "dmg_8s": 961.7,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 132.7,
+            "dmg_8s": 1061.3,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 117.8,
+            "dmg_8s": 942.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 145.9,
+            "dmg_8s": 1167.6,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 127.3,
+            "dmg_8s": 1018.0,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Kraken Slayer"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 277.7,
+            "dmg_8s": 2221.7,
+            "ttk": 4.45,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.39,
+            "crit": 0.0,
+            "ad": 127.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 219.3,
+            "dmg_8s": 1754.6,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.39,
+            "crit": 0.0,
+            "ad": 127.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Kraken Slayer"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 316.1,
+            "dmg_8s": 2528.6,
+            "ttk": 4.5,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.425,
+            "crit": 0.0,
+            "ad": 131.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 240.9,
+            "dmg_8s": 1927.6,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.425,
+            "crit": 0.0,
+            "ad": 131.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 343.4,
+            "dmg_8s": 2747.2,
+            "ttk": 4.5,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.696,
+            "crit": 0.0,
+            "ad": 145.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 253.6,
+            "dmg_8s": 2028.7,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.696,
+            "crit": 0.0,
+            "ad": 145.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 362.6,
+            "dmg_8s": 2901.2,
+            "ttk": 4.4,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.73,
+            "crit": 0.0,
+            "ad": 149.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 261.9,
+            "dmg_8s": 2095.3,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.73,
+            "crit": 0.0,
+            "ad": 149.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 366.8,
+            "dmg_8s": 2934.6,
+            "ttk": 4.95,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.763,
+            "crit": 0.0,
+            "ad": 153.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 257.9,
+            "dmg_8s": 2062.9,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.763,
+            "crit": 0.0,
+            "ad": 153.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 367.6,
+            "dmg_8s": 2940.9,
+            "ttk": 4.85,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.782,
+            "crit": 0.0,
+            "ad": 157.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 253.0,
+            "dmg_8s": 2023.8,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.782,
+            "crit": 0.0,
+            "ad": 157.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 333.7,
+            "dmg_8s": 2670.0,
+            "ttk": 5.4,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.782,
+            "crit": 0.0,
+            "ad": 157.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 244.0,
+            "dmg_8s": 1952.2,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.782,
+            "crit": 0.0,
+            "ad": 157.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 503.9,
+            "dmg_8s": 4030.9,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.994,
+            "crit": 0.0,
+            "ad": 196.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 355.5,
+            "dmg_8s": 2844.3,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.994,
+            "crit": 0.0,
+            "ad": 196.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 498.6,
+            "dmg_8s": 3988.8,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.994,
+            "crit": 0.0,
+            "ad": 196.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 343.5,
+            "dmg_8s": 2747.7,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.994,
+            "crit": 0.0,
+            "ad": 196.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 498.2,
+            "dmg_8s": 3985.9,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.013,
+            "crit": 0.0,
+            "ad": 200.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 335.9,
+            "dmg_8s": 2687.2,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.013,
+            "crit": 0.0,
+            "ad": 200.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 493.1,
+            "dmg_8s": 3945.0,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.013,
+            "crit": 0.0,
+            "ad": 200.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 325.3,
+            "dmg_8s": 2602.0,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.013,
+            "crit": 0.0,
+            "ad": 200.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 699.0,
+            "dmg_8s": 5592.2,
+            "ttk": 3.1,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 480.5,
+            "dmg_8s": 3843.8,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 692.7,
+            "dmg_8s": 5541.6,
+            "ttk": 3.1,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 467.2,
+            "dmg_8s": 3737.2,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 686.7,
+            "dmg_8s": 5493.3,
+            "ttk": 3.55,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 455.5,
+            "dmg_8s": 3644.2,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 680.8,
+            "dmg_8s": 5446.0,
+            "ttk": 3.55,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 443.9,
+            "dmg_8s": 3551.2,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 674.8,
+            "dmg_8s": 5398.5,
+            "ttk": 3.55,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 432.7,
+            "dmg_8s": 3461.7,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.272,
+            "crit": 0.0,
+            "ad": 239.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 842.5,
+            "dmg_8s": 6740.4,
+            "ttk": 2.85,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 614.4,
+            "dmg_8s": 4914.9,
+            "ttk": 7.4,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 836.3,
+            "dmg_8s": 6690.3,
+            "ttk": 2.85,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 606.2,
+            "dmg_8s": 4849.7,
+            "ttk": 7.4,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Kraken Slayer",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 829.8,
+            "dmg_8s": 6638.8,
+            "ttk": 3.0,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 598.9,
+            "dmg_8s": 4791.1,
+            "ttk": 7.8,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        }
+      ]
+    },
+    "onhit_bork_rage_term": {
+      "key": "onhit_bork_rage_term",
+      "label": "On-hit BotRK \u2192 Rageblade \u2192 Terminus \u2192 Kraken \u2192 BT",
+      "style": "onhit",
+      "path": [
+        "Blade of the Ruined King",
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Kraken Slayer",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 95.2,
+            "dmg_8s": 761.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 91.9,
+            "dmg_8s": 734.9,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.2,
+            "dmg_8s": 841.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.9,
+            "dmg_8s": 775.3,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 132.1,
+            "dmg_8s": 1056.8,
+            "ttk": 7.8,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 120.2,
+            "dmg_8s": 961.7,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 132.7,
+            "dmg_8s": 1061.3,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 117.8,
+            "dmg_8s": 942.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 145.9,
+            "dmg_8s": 1167.6,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 127.3,
+            "dmg_8s": 1018.0,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 253.4,
+            "dmg_8s": 2027.5,
+            "ttk": 4.7,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.357,
+            "crit": 0.0,
+            "ad": 122.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 233.6,
+            "dmg_8s": 1868.9,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.357,
+            "crit": 0.0,
+            "ad": 122.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 261.9,
+            "dmg_8s": 2095.3,
+            "ttk": 4.65,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.389,
+            "crit": 0.0,
+            "ad": 126.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 238.0,
+            "dmg_8s": 1904.2,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.389,
+            "crit": 0.0,
+            "ad": 126.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 308.0,
+            "dmg_8s": 2463.6,
+            "ttk": 4.5,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.663,
+            "crit": 0.0,
+            "ad": 140.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 272.1,
+            "dmg_8s": 2176.8,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.663,
+            "crit": 0.0,
+            "ad": 140.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 316.0,
+            "dmg_8s": 2527.6,
+            "ttk": 4.5,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.695,
+            "crit": 0.0,
+            "ad": 144.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 275.8,
+            "dmg_8s": 2206.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.695,
+            "crit": 0.0,
+            "ad": 144.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 337.8,
+            "dmg_8s": 2702.5,
+            "ttk": 5.0,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.729,
+            "crit": 0.0,
+            "ad": 148.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 292.4,
+            "dmg_8s": 2339.5,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.729,
+            "crit": 0.0,
+            "ad": 148.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 342.2,
+            "dmg_8s": 2737.2,
+            "ttk": 4.95,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 293.5,
+            "dmg_8s": 2347.9,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 317.7,
+            "dmg_8s": 2541.6,
+            "ttk": 5.55,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 287.4,
+            "dmg_8s": 2299.1,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 450.7,
+            "dmg_8s": 3605.6,
+            "ttk": 4.05,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 383.6,
+            "dmg_8s": 3069.0,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 447.0,
+            "dmg_8s": 3575.9,
+            "ttk": 4.05,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 377.0,
+            "dmg_8s": 3016.1,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 469.3,
+            "dmg_8s": 3754.5,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 392.5,
+            "dmg_8s": 3140.3,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 463.4,
+            "dmg_8s": 3707.1,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 385.9,
+            "dmg_8s": 3087.5,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 655.1,
+            "dmg_8s": 5241.0,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 528.1,
+            "dmg_8s": 4225.1,
+            "ttk": 7.65,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 650.4,
+            "dmg_8s": 5203.2,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 521.5,
+            "dmg_8s": 4172.3,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 645.8,
+            "dmg_8s": 5166.1,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 515.3,
+            "dmg_8s": 4122.4,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 641.1,
+            "dmg_8s": 5128.7,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 509.2,
+            "dmg_8s": 4073.9,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 636.5,
+            "dmg_8s": 5091.7,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 503.4,
+            "dmg_8s": 4027.6,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Kraken Slayer"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 842.5,
+            "dmg_8s": 6740.4,
+            "ttk": 2.85,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 614.4,
+            "dmg_8s": 4914.9,
+            "ttk": 7.4,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Kraken Slayer"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 836.3,
+            "dmg_8s": 6690.3,
+            "ttk": 2.85,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 606.2,
+            "dmg_8s": 4849.7,
+            "ttk": 7.4,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Blade of the Ruined King",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Kraken Slayer"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 829.8,
+            "dmg_8s": 6638.8,
+            "ttk": 3.0,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 598.9,
+            "dmg_8s": 4791.1,
+            "ttk": 7.8,
+            "autos": 19,
+            "detonations": 2,
+            "as": 2.473,
+            "crit": 0.0,
+            "ad": 279.0
+          }
+        }
+      ]
+    },
+    "onhit_statikk_rage_term": {
+      "key": "onhit_statikk_rage_term",
+      "label": "On-hit Statikk \u2192 Rageblade \u2192 Terminus \u2192 BotRK \u2192 BT",
+      "style": "onhit",
+      "path": [
+        "Statikk Shiv",
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Blade of the Ruined King",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 95.2,
+            "dmg_8s": 761.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 91.9,
+            "dmg_8s": 734.9,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.986,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.2,
+            "dmg_8s": 841.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.9,
+            "dmg_8s": 775.3,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.01,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 132.1,
+            "dmg_8s": 1056.8,
+            "ttk": 7.8,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 120.2,
+            "dmg_8s": 961.7,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.045,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 132.7,
+            "dmg_8s": 1061.3,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 117.8,
+            "dmg_8s": 942.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.078,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 145.9,
+            "dmg_8s": 1167.6,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 127.3,
+            "dmg_8s": 1018.0,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.113,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Statikk Shiv"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 261.3,
+            "dmg_8s": 2090.1,
+            "ttk": 4.7,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.357,
+            "crit": 0.0,
+            "ad": 122.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 214.6,
+            "dmg_8s": 1717.1,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.357,
+            "crit": 0.0,
+            "ad": 122.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Statikk Shiv"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 267.6,
+            "dmg_8s": 2140.9,
+            "ttk": 4.65,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.389,
+            "crit": 0.0,
+            "ad": 126.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 213.4,
+            "dmg_8s": 1707.0,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.389,
+            "crit": 0.0,
+            "ad": 126.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 311.9,
+            "dmg_8s": 2495.0,
+            "ttk": 4.5,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.663,
+            "crit": 0.0,
+            "ad": 140.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 241.0,
+            "dmg_8s": 1928.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.663,
+            "crit": 0.0,
+            "ad": 140.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 317.4,
+            "dmg_8s": 2539.1,
+            "ttk": 5.1,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.695,
+            "crit": 0.0,
+            "ad": 144.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 239.0,
+            "dmg_8s": 1911.7,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.695,
+            "crit": 0.0,
+            "ad": 144.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 340.5,
+            "dmg_8s": 2724.0,
+            "ttk": 5.0,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.729,
+            "crit": 0.0,
+            "ad": 148.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 249.3,
+            "dmg_8s": 1994.7,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.729,
+            "crit": 0.0,
+            "ad": 148.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 342.3,
+            "dmg_8s": 2738.6,
+            "ttk": 5.55,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 244.7,
+            "dmg_8s": 1957.8,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 315.9,
+            "dmg_8s": 2527.1,
+            "ttk": 6.15,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 237.3,
+            "dmg_8s": 1898.4,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.75,
+            "crit": 0.0,
+            "ad": 152.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 459.5,
+            "dmg_8s": 3675.9,
+            "ttk": 4.05,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 330.5,
+            "dmg_8s": 2643.7,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 455.2,
+            "dmg_8s": 3641.3,
+            "ttk": 4.55,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 319.9,
+            "dmg_8s": 2558.9,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 1.958,
+            "crit": 0.0,
+            "ad": 191.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 476.5,
+            "dmg_8s": 3812.1,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 327.9,
+            "dmg_8s": 2623.3,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 472.2,
+            "dmg_8s": 3777.2,
+            "ttk": 4.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 318.2,
+            "dmg_8s": 2545.3,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 1.981,
+            "crit": 0.0,
+            "ad": 195.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 668.8,
+            "dmg_8s": 5350.2,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 467.7,
+            "dmg_8s": 3741.9,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 663.0,
+            "dmg_8s": 5303.8,
+            "ttk": 3.15,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 455.2,
+            "dmg_8s": 3642.0,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 654.5,
+            "dmg_8s": 5236.0,
+            "ttk": 3.6,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 444.7,
+            "dmg_8s": 3557.5,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 649.5,
+            "dmg_8s": 5195.8,
+            "ttk": 3.6,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 433.5,
+            "dmg_8s": 3467.8,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 644.5,
+            "dmg_8s": 5156.4,
+            "ttk": 3.6,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 423.6,
+            "dmg_8s": 3389.1,
+            "ttk": null,
+            "autos": 17,
+            "detonations": 2,
+            "as": 2.238,
+            "crit": 0.0,
+            "ad": 234.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 768.9,
+            "dmg_8s": 6151.0,
+            "ttk": 2.85,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 575.4,
+            "dmg_8s": 4603.3,
+            "ttk": 7.95,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 763.7,
+            "dmg_8s": 6109.5,
+            "ttk": 3.0,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 569.3,
+            "dmg_8s": 4554.5,
+            "ttk": null,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Statikk Shiv",
+            "Berserker's Greaves",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Blade of the Ruined King"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 758.2,
+            "dmg_8s": 6065.7,
+            "ttk": 3.0,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 563.2,
+            "dmg_8s": 4505.3,
+            "ttk": null,
+            "autos": 18,
+            "detonations": 2,
+            "as": 2.44,
+            "crit": 0.0,
+            "ad": 274.0
+          }
+        }
+      ]
+    },
+    "crit_yuntal_ie_rfc": {
+      "key": "crit_yuntal_ie_rfc",
+      "label": "Crit Yun Tal \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "style": "crit",
+      "path": [
+        "Yun Tal Wildarrows",
+        "Berserker's Greaves",
+        "Infinity Edge",
+        "Rapid Firecannon",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 97.1,
+            "dmg_8s": 777.1,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 94.1,
+            "dmg_8s": 752.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.7,
+            "dmg_8s": 845.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.8,
+            "dmg_8s": 774.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 120.6,
+            "dmg_8s": 964.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 109.0,
+            "dmg_8s": 872.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 121.0,
+            "dmg_8s": 968.2,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 106.8,
+            "dmg_8s": 854.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 139.0,
+            "dmg_8s": 1112.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 117.7,
+            "dmg_8s": 941.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 219.6,
+            "dmg_8s": 1756.9,
+            "ttk": 5.55,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 173.1,
+            "dmg_8s": 1384.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.024,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 235.3,
+            "dmg_8s": 1882.8,
+            "ttk": 6.15,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 182.0,
+            "dmg_8s": 1455.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.048,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 280.7,
+            "dmg_8s": 2245.7,
+            "ttk": 5.45,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 209.6,
+            "dmg_8s": 1677.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.072,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 298.0,
+            "dmg_8s": 2383.6,
+            "ttk": 5.35,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 219.4,
+            "dmg_8s": 1755.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.096,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 316.3,
+            "dmg_8s": 2530.4,
+            "ttk": 5.3,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 230.1,
+            "dmg_8s": 1841.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.12,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 321.0,
+            "dmg_8s": 2567.9,
+            "ttk": 5.85,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 229.2,
+            "dmg_8s": 1833.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.144,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 297.1,
+            "dmg_8s": 2376.9,
+            "ttk": 6.4,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 224.1,
+            "dmg_8s": 1793.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.168,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 298.2,
+            "dmg_8s": 2385.7,
+            "ttk": 6.95,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.168,
+            "ad": 166.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 222.4,
+            "dmg_8s": 1779.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.168,
+            "ad": 166.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.192,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 431.3,
+            "dmg_8s": 3450.3,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 241.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 306.1,
+            "dmg_8s": 2448.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 241.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.216,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 436.0,
+            "dmg_8s": 3487.7,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 303.2,
+            "dmg_8s": 2425.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.24,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 436.2,
+            "dmg_8s": 3489.9,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 298.0,
+            "dmg_8s": 2384.3,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 463.1,
+            "dmg_8s": 3704.6,
+            "ttk": 5.25,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 311.4,
+            "dmg_8s": 2491.0,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 594.5,
+            "dmg_8s": 4755.9,
+            "ttk": 4.3,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 389.1,
+            "dmg_8s": 3113.2,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 588.4,
+            "dmg_8s": 4707.1,
+            "ttk": 4.3,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 377.8,
+            "dmg_8s": 3022.6,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 582.4,
+            "dmg_8s": 4659.4,
+            "ttk": 4.3,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 367.9,
+            "dmg_8s": 2943.5,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 576.6,
+            "dmg_8s": 4612.8,
+            "ttk": 4.3,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 358.0,
+            "dmg_8s": 2863.8,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 890.9,
+            "dmg_8s": 7127.0,
+            "ttk": 3.35,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 708.6,
+            "dmg_8s": 5668.7,
+            "ttk": 6.55,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 886.0,
+            "dmg_8s": 7087.7,
+            "ttk": 3.35,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 692.9,
+            "dmg_8s": 5543.4,
+            "ttk": 7.0,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 881.2,
+            "dmg_8s": 7049.3,
+            "ttk": 3.35,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 675.7,
+            "dmg_8s": 5405.3,
+            "ttk": 7.0,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.2,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        }
+      ]
+    },
+    "crit_yuntal_ie_pd": {
+      "key": "crit_yuntal_ie_pd",
+      "label": "Crit Yun Tal \u2192 IE \u2192 PD \u2192 LDR \u2192 BT",
+      "style": "crit",
+      "path": [
+        "Yun Tal Wildarrows",
+        "Berserker's Greaves",
+        "Infinity Edge",
+        "Phantom Dancer",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 97.1,
+            "dmg_8s": 777.1,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 94.1,
+            "dmg_8s": 752.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.7,
+            "dmg_8s": 845.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.8,
+            "dmg_8s": 774.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 120.6,
+            "dmg_8s": 964.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 109.0,
+            "dmg_8s": 872.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 121.0,
+            "dmg_8s": 968.2,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 106.8,
+            "dmg_8s": 854.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 139.0,
+            "dmg_8s": 1112.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 117.7,
+            "dmg_8s": 941.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 219.6,
+            "dmg_8s": 1756.9,
+            "ttk": 5.55,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 173.1,
+            "dmg_8s": 1384.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.024,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 235.3,
+            "dmg_8s": 1882.8,
+            "ttk": 6.15,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 182.0,
+            "dmg_8s": 1455.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.048,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 280.7,
+            "dmg_8s": 2245.7,
+            "ttk": 5.45,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 209.6,
+            "dmg_8s": 1677.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.072,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 298.0,
+            "dmg_8s": 2383.6,
+            "ttk": 5.35,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 219.4,
+            "dmg_8s": 1755.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.096,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 316.3,
+            "dmg_8s": 2530.4,
+            "ttk": 5.3,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 230.1,
+            "dmg_8s": 1841.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.12,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 321.0,
+            "dmg_8s": 2567.9,
+            "ttk": 5.85,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 229.2,
+            "dmg_8s": 1833.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.144,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 297.1,
+            "dmg_8s": 2376.9,
+            "ttk": 6.4,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 224.1,
+            "dmg_8s": 1793.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.168,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 298.2,
+            "dmg_8s": 2385.7,
+            "ttk": 6.95,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.168,
+            "ad": 166.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 222.4,
+            "dmg_8s": 1779.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.168,
+            "ad": 166.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.192,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 431.3,
+            "dmg_8s": 3450.3,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 241.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 306.1,
+            "dmg_8s": 2448.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 241.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.216,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 436.0,
+            "dmg_8s": 3487.7,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 303.2,
+            "dmg_8s": 2425.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.24,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 436.2,
+            "dmg_8s": 3489.9,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 298.0,
+            "dmg_8s": 2384.3,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 463.1,
+            "dmg_8s": 3704.6,
+            "ttk": 5.25,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 311.4,
+            "dmg_8s": 2491.0,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 579.3,
+            "dmg_8s": 4634.1,
+            "ttk": 4.2,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 380.5,
+            "dmg_8s": 3043.6,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 573.3,
+            "dmg_8s": 4586.2,
+            "ttk": 4.2,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 369.3,
+            "dmg_8s": 2954.8,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 567.2,
+            "dmg_8s": 4537.5,
+            "ttk": 4.2,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 358.9,
+            "dmg_8s": 2870.9,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 559.7,
+            "dmg_8s": 4478.0,
+            "ttk": 4.65,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 348.9,
+            "dmg_8s": 2791.6,
+            "ttk": null,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 876.0,
+            "dmg_8s": 7007.9,
+            "ttk": 3.25,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 699.3,
+            "dmg_8s": 5594.3,
+            "ttk": 6.45,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 871.1,
+            "dmg_8s": 6969.2,
+            "ttk": 3.25,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 683.6,
+            "dmg_8s": 5468.6,
+            "ttk": 6.9,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Phantom Dancer",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 866.4,
+            "dmg_8s": 6931.2,
+            "ttk": 3.25,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 666.8,
+            "dmg_8s": 5334.3,
+            "ttk": 6.9,
+            "autos": 16,
+            "detonations": 2,
+            "as": 2.366,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        }
+      ]
+    },
+    "crit_storm_ie_rfc": {
+      "key": "crit_storm_ie_rfc",
+      "label": "Crit Stormrazor \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "style": "crit",
+      "path": [
+        "Stormrazor",
+        "Berserker's Greaves",
+        "Infinity Edge",
+        "Rapid Firecannon",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 97.1,
+            "dmg_8s": 777.1,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 94.1,
+            "dmg_8s": 752.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.7,
+            "dmg_8s": 845.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.8,
+            "dmg_8s": 774.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 120.6,
+            "dmg_8s": 964.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 109.0,
+            "dmg_8s": 872.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 121.0,
+            "dmg_8s": 968.2,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 106.8,
+            "dmg_8s": 854.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 139.0,
+            "dmg_8s": 1112.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 117.7,
+            "dmg_8s": 941.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Stormrazor"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 250.9,
+            "dmg_8s": 2007.2,
+            "ttk": 5.45,
+            "autos": 10,
+            "detonations": 2,
+            "as": 1.28,
+            "crit": 0.25,
+            "ad": 132.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 197.5,
+            "dmg_8s": 1580.4,
+            "ttk": null,
+            "autos": 10,
+            "detonations": 2,
+            "as": 1.28,
+            "crit": 0.25,
+            "ad": 132.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Stormrazor"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 261.8,
+            "dmg_8s": 2094.0,
+            "ttk": 5.4,
+            "autos": 10,
+            "detonations": 2,
+            "as": 1.312,
+            "crit": 0.25,
+            "ad": 136.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 202.6,
+            "dmg_8s": 1620.5,
+            "ttk": null,
+            "autos": 10,
+            "detonations": 2,
+            "as": 1.312,
+            "crit": 0.25,
+            "ad": 136.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 318.8,
+            "dmg_8s": 2550.5,
+            "ttk": 4.7,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.585,
+            "crit": 0.25,
+            "ad": 150.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 237.6,
+            "dmg_8s": 1901.0,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.585,
+            "crit": 0.25,
+            "ad": 150.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 332.1,
+            "dmg_8s": 2656.4,
+            "ttk": 4.65,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.617,
+            "crit": 0.25,
+            "ad": 154.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 244.0,
+            "dmg_8s": 1952.1,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.617,
+            "crit": 0.25,
+            "ad": 154.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 344.8,
+            "dmg_8s": 2758.6,
+            "ttk": 5.15,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.65,
+            "crit": 0.25,
+            "ad": 158.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 250.5,
+            "dmg_8s": 2003.8,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.65,
+            "crit": 0.25,
+            "ad": 158.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 345.9,
+            "dmg_8s": 2766.9,
+            "ttk": 5.15,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.67,
+            "crit": 0.25,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 245.1,
+            "dmg_8s": 1961.1,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.67,
+            "crit": 0.25,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 319.2,
+            "dmg_8s": 2554.0,
+            "ttk": 6.35,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.67,
+            "crit": 0.25,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 237.7,
+            "dmg_8s": 1901.9,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.67,
+            "crit": 0.25,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 317.7,
+            "dmg_8s": 2541.8,
+            "ttk": 6.25,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.692,
+            "crit": 0.25,
+            "ad": 166.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 233.5,
+            "dmg_8s": 1868.4,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.692,
+            "crit": 0.25,
+            "ad": 166.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 443.9,
+            "dmg_8s": 3551.5,
+            "ttk": 4.45,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.692,
+            "crit": 0.5,
+            "ad": 241.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 312.9,
+            "dmg_8s": 2503.5,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.692,
+            "crit": 0.5,
+            "ad": 241.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 441.5,
+            "dmg_8s": 3531.8,
+            "ttk": 4.45,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.711,
+            "crit": 0.5,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 306.4,
+            "dmg_8s": 2451.3,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.711,
+            "crit": 0.5,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 437.0,
+            "dmg_8s": 3496.0,
+            "ttk": 5.05,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.711,
+            "crit": 0.5,
+            "ad": 245.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 297.4,
+            "dmg_8s": 2378.9,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.711,
+            "crit": 0.5,
+            "ad": 245.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 436.6,
+            "dmg_8s": 3492.7,
+            "ttk": 5.05,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.731,
+            "crit": 0.5,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 293.2,
+            "dmg_8s": 2345.4,
+            "ttk": null,
+            "autos": 12,
+            "detonations": 2,
+            "as": 1.731,
+            "crit": 0.5,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 570.5,
+            "dmg_8s": 4563.8,
+            "ttk": 4.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 373.1,
+            "dmg_8s": 2985.0,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 564.7,
+            "dmg_8s": 4517.4,
+            "ttk": 4.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 362.3,
+            "dmg_8s": 2898.2,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 559.0,
+            "dmg_8s": 4472.2,
+            "ttk": 4.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 352.7,
+            "dmg_8s": 2821.8,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 553.5,
+            "dmg_8s": 4428.0,
+            "ttk": 4.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 343.3,
+            "dmg_8s": 2746.5,
+            "ttk": null,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 0.75,
+            "ad": 249.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 849.1,
+            "dmg_8s": 6792.6,
+            "ttk": 3.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 674.5,
+            "dmg_8s": 5396.0,
+            "ttk": 7.0,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 844.4,
+            "dmg_8s": 6755.6,
+            "ttk": 3.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 659.6,
+            "dmg_8s": 5277.1,
+            "ttk": 7.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Stormrazor",
+            "Berserker's Greaves",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 839.9,
+            "dmg_8s": 6719.3,
+            "ttk": 3.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 643.2,
+            "dmg_8s": 5145.2,
+            "ttk": 7.5,
+            "autos": 15,
+            "detonations": 2,
+            "as": 2.0,
+            "crit": 1.0,
+            "ad": 284.0
+          }
+        }
+      ]
+    },
+    "crit_yuntal_hex_ie": {
+      "key": "crit_yuntal_hex_ie",
+      "label": "Crit Yun Tal \u2192 Hexoptics \u2192 IE \u2192 LDR \u2192 BT",
+      "style": "crit",
+      "path": [
+        "Yun Tal Wildarrows",
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "snapshots": [
+        {
+          "minute": 1,
+          "gold": 940,
+          "level": 2,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 798,
+            "armor": 43.9,
+            "dps": 97.1,
+            "dmg_8s": 777.1,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          },
+          "tank": {
+            "hp": 1060,
+            "armor": 66.0,
+            "dps": 94.1,
+            "dmg_8s": 752.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 0.982,
+            "crit": 0.0,
+            "ad": 62.0
+          }
+        },
+        {
+          "minute": 2,
+          "gold": 1380,
+          "level": 3,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 921,
+            "armor": 51.6,
+            "dps": 105.7,
+            "dmg_8s": 845.5,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          },
+          "tank": {
+            "hp": 1275,
+            "armor": 85.0,
+            "dps": 96.8,
+            "dmg_8s": 774.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 1,
+            "as": 1.005,
+            "crit": 0.0,
+            "ad": 66.0
+          }
+        },
+        {
+          "minute": 3,
+          "gold": 1820,
+          "level": 4,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1044,
+            "armor": 59.3,
+            "dps": 120.6,
+            "dmg_8s": 964.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          },
+          "tank": {
+            "hp": 1490,
+            "armor": 104.0,
+            "dps": 109.0,
+            "dmg_8s": 872.0,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.04,
+            "crit": 0.0,
+            "ad": 70.0
+          }
+        },
+        {
+          "minute": 4,
+          "gold": 2260,
+          "level": 5,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1167,
+            "armor": 67.0,
+            "dps": 121.0,
+            "dmg_8s": 968.2,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          },
+          "tank": {
+            "hp": 1705,
+            "armor": 123.0,
+            "dps": 106.8,
+            "dmg_8s": 854.6,
+            "ttk": null,
+            "autos": 8,
+            "detonations": 2,
+            "as": 1.072,
+            "crit": 0.0,
+            "ad": 74.0
+          }
+        },
+        {
+          "minute": 5,
+          "gold": 2820,
+          "level": 6,
+          "items": [],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1290,
+            "armor": 74.7,
+            "dps": 139.0,
+            "dmg_8s": 1112.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          },
+          "tank": {
+            "hp": 1920,
+            "armor": 142.0,
+            "dps": 117.7,
+            "dmg_8s": 941.4,
+            "ttk": null,
+            "autos": 9,
+            "detonations": 2,
+            "as": 1.107,
+            "crit": 0.0,
+            "ad": 78.0
+          }
+        },
+        {
+          "minute": 6,
+          "gold": 3380,
+          "level": 7,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.0,
+          "squishy": {
+            "hp": 1413,
+            "armor": 82.4,
+            "dps": 219.6,
+            "dmg_8s": 1756.9,
+            "ttk": 5.55,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          },
+          "tank": {
+            "hp": 2135,
+            "armor": 161.0,
+            "dps": 173.1,
+            "dmg_8s": 1384.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.485,
+            "crit": 0.0,
+            "ad": 132.0
+          }
+        },
+        {
+          "minute": 7,
+          "gold": 3940,
+          "level": 8,
+          "items": [
+            "Yun Tal Wildarrows"
+          ],
+          "yun_tal_crit": 0.024,
+          "squishy": {
+            "hp": 1536,
+            "armor": 90.1,
+            "dps": 235.3,
+            "dmg_8s": 1882.8,
+            "ttk": 6.15,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          },
+          "tank": {
+            "hp": 2350,
+            "armor": 180.0,
+            "dps": 182.0,
+            "dmg_8s": 1455.8,
+            "ttk": null,
+            "autos": 11,
+            "detonations": 2,
+            "as": 1.517,
+            "crit": 0.024,
+            "ad": 136.0
+          }
+        },
+        {
+          "minute": 8,
+          "gold": 4500,
+          "level": 9,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.048,
+          "squishy": {
+            "hp": 1659,
+            "armor": 97.8,
+            "dps": 280.7,
+            "dmg_8s": 2245.7,
+            "ttk": 5.45,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          },
+          "tank": {
+            "hp": 2565,
+            "armor": 199.0,
+            "dps": 209.6,
+            "dmg_8s": 1677.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.787,
+            "crit": 0.048,
+            "ad": 150.0
+          }
+        },
+        {
+          "minute": 9,
+          "gold": 5060,
+          "level": 10,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.072,
+          "squishy": {
+            "hp": 1782,
+            "armor": 105.5,
+            "dps": 298.0,
+            "dmg_8s": 2383.6,
+            "ttk": 5.35,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          },
+          "tank": {
+            "hp": 2780,
+            "armor": 218.0,
+            "dps": 219.4,
+            "dmg_8s": 1755.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.82,
+            "crit": 0.072,
+            "ad": 154.0
+          }
+        },
+        {
+          "minute": 10,
+          "gold": 5700,
+          "level": 11,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.096,
+          "squishy": {
+            "hp": 1905,
+            "armor": 113.2,
+            "dps": 316.3,
+            "dmg_8s": 2530.4,
+            "ttk": 5.3,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          },
+          "tank": {
+            "hp": 2995,
+            "armor": 237.0,
+            "dps": 230.1,
+            "dmg_8s": 1841.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.853,
+            "crit": 0.096,
+            "ad": 158.0
+          }
+        },
+        {
+          "minute": 11,
+          "gold": 6340,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.12,
+          "squishy": {
+            "hp": 2028,
+            "armor": 120.9,
+            "dps": 321.0,
+            "dmg_8s": 2567.9,
+            "ttk": 5.85,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3210,
+            "armor": 256.0,
+            "dps": 229.2,
+            "dmg_8s": 1833.2,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.12,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 12,
+          "gold": 6980,
+          "level": 12,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves"
+          ],
+          "yun_tal_crit": 0.144,
+          "squishy": {
+            "hp": 2056,
+            "armor": 149.4,
+            "dps": 297.1,
+            "dmg_8s": 2376.9,
+            "ttk": 6.4,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          },
+          "tank": {
+            "hp": 3300,
+            "armor": 270.0,
+            "dps": 224.1,
+            "dmg_8s": 1793.1,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.873,
+            "crit": 0.144,
+            "ad": 162.0
+          }
+        },
+        {
+          "minute": 13,
+          "gold": 7620,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "yun_tal_crit": 0.168,
+          "squishy": {
+            "hp": 2179,
+            "armor": 157.1,
+            "dps": 416.6,
+            "dmg_8s": 3332.4,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.418,
+            "ad": 221.0
+          },
+          "tank": {
+            "hp": 3515,
+            "armor": 289.0,
+            "dps": 304.5,
+            "dmg_8s": 2436.3,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.418,
+            "ad": 221.0
+          }
+        },
+        {
+          "minute": 14,
+          "gold": 8260,
+          "level": 13,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "yun_tal_crit": 0.192,
+          "squishy": {
+            "hp": 2207,
+            "armor": 160.6,
+            "dps": 415.9,
+            "dmg_8s": 3327.2,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 221.0
+          },
+          "tank": {
+            "hp": 3605,
+            "armor": 303.0,
+            "dps": 296.9,
+            "dmg_8s": 2375.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.892,
+            "crit": 0.442,
+            "ad": 221.0
+          }
+        },
+        {
+          "minute": 15,
+          "gold": 8900,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "yun_tal_crit": 0.216,
+          "squishy": {
+            "hp": 2330,
+            "armor": 168.3,
+            "dps": 420.0,
+            "dmg_8s": 3360.4,
+            "ttk": 4.75,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 225.0
+          },
+          "tank": {
+            "hp": 3820,
+            "armor": 322.0,
+            "dps": 294.2,
+            "dmg_8s": 2353.4,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.466,
+            "ad": 225.0
+          }
+        },
+        {
+          "minute": 16,
+          "gold": 9600,
+          "level": 14,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "yun_tal_crit": 0.24,
+          "squishy": {
+            "hp": 2358,
+            "armor": 171.8,
+            "dps": 419.4,
+            "dmg_8s": 3355.1,
+            "ttk": 5.3,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 225.0
+          },
+          "tank": {
+            "hp": 3910,
+            "armor": 336.0,
+            "dps": 288.3,
+            "dmg_8s": 2306.5,
+            "ttk": null,
+            "autos": 13,
+            "detonations": 2,
+            "as": 1.912,
+            "crit": 0.49,
+            "ad": 225.0
+          }
+        },
+        {
+          "minute": 17,
+          "gold": 10300,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2481,
+            "armor": 179.5,
+            "dps": 445.5,
+            "dmg_8s": 3564.0,
+            "ttk": 5.25,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 229.0
+          },
+          "tank": {
+            "hp": 4125,
+            "armor": 355.0,
+            "dps": 301.3,
+            "dmg_8s": 2410.2,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.5,
+            "ad": 229.0
+          }
+        },
+        {
+          "minute": 18,
+          "gold": 11000,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2509,
+            "armor": 183.0,
+            "dps": 634.5,
+            "dmg_8s": 5075.8,
+            "ttk": 4.0,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          },
+          "tank": {
+            "hp": 4215,
+            "armor": 369.0,
+            "dps": 418.7,
+            "dmg_8s": 3350.0,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          }
+        },
+        {
+          "minute": 19,
+          "gold": 11700,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2537,
+            "armor": 186.5,
+            "dps": 627.9,
+            "dmg_8s": 5022.9,
+            "ttk": 4.0,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          },
+          "tank": {
+            "hp": 4305,
+            "armor": 383.0,
+            "dps": 406.3,
+            "dmg_8s": 3250.3,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          }
+        },
+        {
+          "minute": 20,
+          "gold": 12400,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2565,
+            "armor": 190.0,
+            "dps": 621.4,
+            "dmg_8s": 4971.2,
+            "ttk": 4.0,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          },
+          "tank": {
+            "hp": 4395,
+            "armor": 397.0,
+            "dps": 394.5,
+            "dmg_8s": 3156.2,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          }
+        },
+        {
+          "minute": 21,
+          "gold": 13100,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2593,
+            "armor": 193.5,
+            "dps": 615.1,
+            "dmg_8s": 4920.8,
+            "ttk": 4.15,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          },
+          "tank": {
+            "hp": 4485,
+            "armor": 411.0,
+            "dps": 384.9,
+            "dmg_8s": 3079.4,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          }
+        },
+        {
+          "minute": 22,
+          "gold": 13800,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2621,
+            "armor": 197.0,
+            "dps": 608.9,
+            "dmg_8s": 4871.5,
+            "ttk": 4.15,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          },
+          "tank": {
+            "hp": 4575,
+            "armor": 425.0,
+            "dps": 374.5,
+            "dmg_8s": 2995.9,
+            "ttk": null,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 0.75,
+            "ad": 304.0
+          }
+        },
+        {
+          "minute": 23,
+          "gold": 14500,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2649,
+            "armor": 200.5,
+            "dps": 948.5,
+            "dmg_8s": 7588.2,
+            "ttk": 3.05,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 1.0,
+            "ad": 339.0
+          },
+          "tank": {
+            "hp": 4665,
+            "armor": 439.0,
+            "dps": 744.2,
+            "dmg_8s": 5953.4,
+            "ttk": 6.35,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 1.0,
+            "ad": 339.0
+          }
+        },
+        {
+          "minute": 24,
+          "gold": 15200,
+          "level": 15,
+          "items": [
+            "Yun Tal Wildarrows",
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Lord Dominik's Regards"
+          ],
+          "yun_tal_crit": 0.25,
+          "squishy": {
+            "hp": 2677,
+            "armor": 204.0,
+            "dps": 943.4,
+            "dmg_8s": 7546.9,
+            "ttk": 3.05,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 1.0,
+            "ad": 339.0
+          },
+          "tank": {
+            "hp": 4755,
+            "armor": 453.0,
+            "dps": 728.3,
+            "dmg_8s": 5826.6,
+            "ttk": 6.35,
+            "autos": 14,
+            "detonations": 2,
+            "as": 1.933,
+            "crit": 1.0,
+            "ad": 339.0
+          }
+        }
+      ]
+    }
+  }
+}
