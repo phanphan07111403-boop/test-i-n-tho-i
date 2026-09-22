@@ -1,0 +1,98 @@
+==============================================================================
+TỐC CHIẾN 7.3 — KAI'SA ON-HIT FULL BUILD
+WRF A · evolve = hoàn thành legendary · Mag Blaster gỡ · Statikk on-hit mới
+Pad MB03 + D-pad. DPS 8s all-in (E charge → W → AA → Q isolated).
+==============================================================================
+
+PLAY THIS  (WRF 7.3 + sim 1v1)
+  Ô:     Kraken Slayer › Berserker's Greaves › Guinsoo's Rageblade › Terminus › Nashor's Tooth › Zhonya's Hourglass
+  Mua:   Long Sword › Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Nashor's Tooth › Zhonya's Hourglass
+  Max    Q > E > W   (R mọi cấp)
+  Evolve Q rồi E rồi W   (mỗi legendary hoàn thành = 1 evolve)
+  Spell  Flash + Ghost
+  Runes  Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating
+  Pad    L1 Q Icathian Rain (xả)
+         L2 W Void Seeker (aim)
+         L3 E Supercharge (GIỮ ~1s)
+         L4 R Killer Instinct (lock plasma)
+         A  AA tướng
+  Combo  L3 giữ E → L2 W (2/3 plasma) → A A A (pop 5) → L1 Q đơn mục tiêu → L4 R nhảy / né. Ghost + E kite analog.
+  Pad score 78  Q tap, E giữ, R lock plasma. W aim nặng hơn Ashe. Analog kite + Supercharge. D-pad ← lính farm, → trụ.
+
+  Swap:
+    · BotRK first vs 2+ tank (12% lifesteal)
+    · Statikk first nếu teamfight / wave — bounce 7.3 apply on-hit + plasma
+    · Wit's End ô 5/6 vs AP poke (thay Nashor hoặc Zhonya)
+    · Runaan ô 5 nếu cần AoE plasma (crit 25% không phải identity)
+    · Steelcaps vs AD all-in
+    · Zhonya 6th = stasis sau R dive, không phải DPS
+
+------------------------------------------------------------------------------
+VÌ SAO KRAKEN FIRST (không phải crit 7.3)
+------------------------------------------------------------------------------
+  • Magnetic Blaster gỡ — không còn 1 item range+wave+burst.
+  • Evolve Q lúc legendary 1 (~phút 8). Kraken Recurve path + Long Sword.
+  • Rageblade 7.3: 35 AD / 30 AP, Wrath 30 magic, Seething 8% AS×4,
+    phantom mỗi 3 hit. Bỏ khóa crit → on-hit không bị phạt.
+  • Terminus 3000g, 35 AD / 35% AS, Shadow 30 + 30% pen @3 stack.
+  • Plasma 7.3 scale AP + stack — Nashor/Zhonya 4th/6th bơm pop.
+  • Supercharge MS = bonus AS (cap 100–130%) — AS cap 3.0 giúp E.
+  • Base AD 62→59 — không đi crit; identity on-hit.
+
+------------------------------------------------------------------------------
+FIRST ITEM  (1v1, 8s)
+------------------------------------------------------------------------------
+  Path                                              8     12     16     20     24  ready
+  Kraken → Rage → Terminus → Nashor → Zhonya     1865   2223   2420   2805   2786  8:00
+  Statikk → Rage → Terminus → Nashor → Zhonya    1421   2279   2666   2650   2795  9:00
+  BotRK → Rage → Terminus → Kraken → Wit's End   1421   2317   2711   2690   2718  9:00
+
+  Tank 1v1 @12 / @16 / @20
+    Kraken → Rage → Terminus → Nashor → Zhonya    2736 / 4086 / 4413
+    Statikk → Rage → Terminus → Nashor → Zhonya   1670 / 2370 / 3795
+    BotRK → Rage → Terminus → Kraken → Wit's End  2188 / 3059 / 4397
+
+  Teamfight 3 mục tiêu @16 (main + splash)
+    Kraken → Rage → Terminus → Nashor → Zhonya    main 2420 + splash 0 = 2420
+    Statikk → Rage → Terminus → Nashor → Zhonya   main 2666 + splash 471 = 3137
+    BotRK → Rage → Terminus → Kraken → Wit's End  main 2711 + splash 0 = 2711
+
+  1v1 weighted winner: Kraken → Rage → Terminus → Nashor → Zhonya
+  Teamfight @16: Statikk thắng splash (bounce apply on-hit + plasma).
+
+------------------------------------------------------------------------------
+SPIKE MUA ĐỒ  (path Kraken mặc định)
+------------------------------------------------------------------------------
+  08:00  lv9    4500g  evo Q··  AS 1.94  squish 1865   tank 1846
+         Berserker's Greaves › Kraken Slayer
+  12:00  lv12   7220g  evo QE·  AS 2.30  squish 2223   tank 2736
+         Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade
+  16:00  lv14  10180g  evo QEW  AS 2.58  squish 2420   tank 4086
+         Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus
+  20:00  lv15  13140g  evo QEW  AS 2.82  squish 2805   tank 4413
+         Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Nashor's Tooth
+  24:00  lv15  16340g  evo QEW  AS 2.77  squish 2786   tank 4938
+         Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Nashor's Tooth › Zhonya's Hourglass
+
+------------------------------------------------------------------------------
+4TH ITEM SAU TERMINUS  (Kraken+Rage+Terminus core, @20)
+------------------------------------------------------------------------------
+  Nashor   squish 2805  tank 4413  AS 2.82
+  BotRK    squish 2735  tank 3878  AS 2.63
+  WRF giữ Nashor (AS 45% + Gnaw + AP/AD fang → plasma).
+  BotRK 4th nếu team tank và cần 12% lifesteal.
+
+------------------------------------------------------------------------------
+PAD MB03
+------------------------------------------------------------------------------
+  Analog di chuyển. A = AA tướng. D-pad ↑ bảng  ↓ hồi  ← lính  → trụ.
+  Đừng bind Q vào analog. E là gồng–nhả (giống Vi Q), không tap.
+  R chỉ lock được tướng đang có Plasma — W hoặc AA trước.
+
+KIT 7.3 (nhớ khi chơi)
+  Plasma on-hit: 4 + 1×lv + 12% AP + stacks×(1 + 0.2×lv + 2% AP)
+  Pop 5: (15 + 5% AP)% missing HP.
+  W: 30–120 + 130% AD + 50% AP. Evolve = 3 stack + refund 70% CD.
+  E MS: bonus AS (cap 100/110/120/130%). Invisible khi evolve.
+  R shield: 100–150 + 80/120/160% AD + 100% AP. Landing 5.5.
+==============================================================================
