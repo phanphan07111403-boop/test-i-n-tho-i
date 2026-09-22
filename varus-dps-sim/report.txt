@@ -10,6 +10,7 @@ WINNERS
 On-hit 1v1:       On-hit BotRK → Rageblade → Terminus → Kraken → BT
 On-hit teamfight: On-hit BotRK → Rageblade → Runaan → Terminus → BT
 Crit 1v1:         Crit Yun Tal → IE → RFC → LDR → BT
+Crit teamfight:   Crit Yun Tal → IE → Runaan → LDR → BT
 
 Minute   on-hit squishy/tank DPS   items                                   crit squishy/tank   winner
 --------------------------------------------------------------------------------------------------------------
@@ -66,7 +67,7 @@ VERDICT
 Until LDR (~22:00) on-hit BotRK is ahead vs both targets: %HP + Blight + Rageblade phantom.
 Late vs squishy TTK: on-hit still faster (3.00s vs 3.35s). Crit's higher 8s DPS (881 vs 830) is mostly overkill after the kill.
 Late vs tank TTK: crit + LDR wins (7.00s vs 7.80s) — 100% crit at 230% crit damage plus 35% armor pen.
-For games that end 15–20 min, buy on-hit. For games that reach 5 items, Yun Tal → IE → RFC → LDR is the 7.3 scaler (≈4x DPS from 6:00 vs ≈3.3x on-hit).
+For games that end 15–20 min, buy on-hit. For 1v1 games that reach 5 items, Crit Yun Tal → IE → RFC → LDR → BT is the 7.3 scaler.
 Highest 24:00 ceiling is Yun Tal → Hexoptics → IE (943/728 DPS) because Hexoptics is 55 AD, but it delays Infinity Edge ~4 min, so the mid-game curve is worse.
 
 Crit 8s-DPS lead vs squishy holds from: 22:00
@@ -80,27 +81,45 @@ Play pattern
 - Do not mix: Rageblade phantom is the on-hit engine; IE wants 100% crit. 7.3 removed Rageblade's crit tax but phantom still does not replace IE.
 
 ========================================================================
-WHY RUNAAN / STATIKK (teamfight, 2 extra targets)
+TEAMFIGHT — 2 extra targets (Runaan / Statikk / new 7.3 crit)
 ========================================================================
-1v1 hid these items. Runaan bolts need two nearby champions; Statikk's 7.3 identity is
-on-hit lightning on bounce targets. Below is the same 8s window with 2 extra bodies.
-Runaan: 2 bolts × 55% AD (can crit) + full on-hit (W / BotRK / Rageblade / Terminus).
-Statikk: energized 60 magic on main, then bounce 60 magic + on-hit onto extras.
-E hits the clump. Q tags one extra body.
+Same 8s window, 2 extra bodies. Chain of Corruption hits the clump at 0.25s
+and infects extras at 2.0s; first E/Q waits for that spread. Hexoptics uses max
+distance amp. Fiendhunter Opening Barrage after R: +50% AS and 3 special crits.
 
 Teamfight on-hit pick: On-hit BotRK → Rageblade → Runaan → Terminus → BT
+Teamfight crit pick:   Crit Yun Tal → IE → Runaan → LDR → BT
 
-All paths 24:00  |  1v1 squishy/tank DPS  |  3-target AoE DPS (main+2)
-  1v1    830/   599   3v     898/   641   On-hit Kraken → Rageblade → Terminus → BotRK → BT
-  1v1    830/   599   3v     898/   641   On-hit BotRK → Rageblade → Terminus → Kraken → BT  ← 1v1 on-hit
-  1v1    758/   563   3v    1022/   769   On-hit Statikk → Rageblade → Terminus → BotRK → BT
-  1v1    750/   563   3v    1703/  1344   On-hit BotRK → Rageblade → Runaan → Terminus → BT  ← teamfight on-hit
-  1v1    758/   563   3v    1022/   769   On-hit BotRK → Rageblade → Statikk → Terminus → BT
-  1v1    766/   480   3v    1835/  1135   On-hit Statikk → Rageblade → Runaan → Terminus → BT
-  1v1    805/   493   3v    1666/  1031   On-hit Kraken → Rageblade → Runaan → Terminus → BT
-  1v1    881/   676   3v     965/   740   Crit Yun Tal → IE → RFC → LDR → BT  ← 1v1 crit
-  1v1    866/   667   3v     950/   731   Crit Yun Tal → IE → PD → LDR → BT
-  1v1    840/   643   3v     923/   707   Crit Stormrazor → IE → RFC → LDR → BT
-  1v1    943/   728   3v    1044/   806   Crit Yun Tal → Hexoptics → IE → LDR → BT
+On-hit paths 24:00  |  1v1 squishy/tank  |  3-target AoE
+  1v1    830/   599   3v    1010/   726   On-hit Kraken → Rageblade → Terminus → BotRK → BT
+  1v1    830/   599   3v    1010/   726   On-hit BotRK → Rageblade → Terminus → Kraken → BT  ← 1v1
+  1v1    758/   563   3v    1075/   811   On-hit Statikk → Rageblade → Terminus → BotRK → BT
+  1v1    750/   563   3v    1702/  1325   On-hit BotRK → Rageblade → Runaan → Terminus → BT  ← teamfight
+  1v1    758/   563   3v    1075/   811   On-hit BotRK → Rageblade → Statikk → Terminus → BT
+  1v1    766/   480   3v    1814/  1116   On-hit Statikk → Rageblade → Runaan → Terminus → BT
+  1v1    805/   493   3v    1678/  1032   On-hit Kraken → Rageblade → Runaan → Terminus → BT
 
-24:00 teamfight AoE: on-hit 1703/1344  vs crit 965/740
+Crit paths 24:00  |  1v1 squishy/tank  |  3-target AoE
+  1v1    881/   676   3v    1049/   821   Crit Yun Tal → IE → RFC → LDR → BT  ← 1v1
+  1v1    866/   667   3v    1034/   813   Crit Yun Tal → IE → PD → LDR → BT
+  1v1    840/   643   3v     964/   754   Crit Stormrazor → IE → RFC → LDR → BT
+  1v1    943/   728   3v    1099/   867   Crit Yun Tal → Hexoptics → IE → LDR → BT
+  1v1    863/   664   3v    1815/  1383   Crit Yun Tal → IE → Runaan → LDR → BT  ← teamfight
+  1v1    864/   665   3v    1127/   904   Crit Yun Tal → IE → Fiendhunter → LDR → BT
+  1v1    668/   396   3v    1611/   972   Crit Yun Tal → IE → Runaan → Fiendhunter → BT
+  1v1    745/   444   3v    1641/   977   Crit Yun Tal → Hexoptics → IE → Runaan → BT
+  1v1    745/   444   3v    1032/   655   Crit Yun Tal → Hexoptics → IE → Fiendhunter → LDR
+  1v1    840/   643   3v    1644/  1252   Crit Stormrazor → IE → Runaan → LDR → BT
+  1v1    840/   644   3v    1103/   883   Crit Stormrazor → IE → Fiendhunter → LDR → BT
+  1v1    853/   656   3v    1056/   832   Crit Stormrazor → Hexoptics → IE → LDR → BT
+  1v1    652/   386   3v    1385/   826   Crit Yun Tal → IE → RFC → Runaan → BT
+  1v1    797/   615   3v    1009/   794   Crit Hexoptics → IE → RFC → LDR → BT
+  1v1    756/   600   3v     933/   722   Crit Collector → IE → RFC → LDR → BT
+  1v1    721/   556   3v     984/   774   Crit Yun Tal → IE → Navori → LDR → BT
+  1v1    892/   686   3v    1009/   793   Crit Yun Tal → IE → Galeforce → LDR → BT
+  1v1    879/   678   3v     999/   786   Crit Yun Tal → Shieldbow → IE → LDR → BT
+  1v1    714/   422   3v     869/   532   Crit Yun Tal → Stormrazor → IE → RFC → LDR
+
+24:00 teamfight AoE: on-hit 1702/1325  vs crit 1815/1383
+Runaan is the clump item for both styles (bolts crit + apply W). Fiendhunter is the
+ult window. Shieldbow / Galeforce are survival, not DPS. RFC is 1v1 range, not splash.

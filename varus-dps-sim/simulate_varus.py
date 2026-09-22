@@ -263,9 +263,23 @@ def simulate_fight(
     ldr = "lord_dominiks_regards" in has
     collector = "the_collector" in has
     runaan = "runaans_hurricane" in has
+    fiend = "fiendhunter_bolts" in has
+    navori = "navori_quickblades" in has
     n_side = max(0, extra_targets)
     side_hp = [target.hp for _ in range(n_side)]
     side_blight = [0 for _ in range(n_side)]
+    teamfight = n_side >= 2
+
+    r = VARUS["abilities"]["R"]
+    r_rank = skill_rank(level, "R", style)
+    r_base = r["base"][r_rank - 1] if r_rank else 0.0
+    # Teamfight: R into the clump. Fiendhunter also ults in 1v1 so Opening Barrage exists.
+    use_r = r_rank > 0 and teamfight
+    fiend_shots = 0
+    fiend_as_on = False
+    r_cast_left = 0.25 if use_r else 0.0
+    r_hit_main = False
+    r_spread_at = 2.0 if use_r and teamfight else -1.0
 
     # Combat AS buffs assumed up for an 8s all-in.
     combat_as = 0.0
@@ -276,7 +290,7 @@ def simulate_fight(
 
     lt = RUNES["lethal_tempo"]
     brutal = 15.0  # physical on-hit
-    hex_amp = 0.07 if hexoptics else 0.0
+    hex_amp = (0.10 if teamfight else 0.07) if hexoptics else 0.0
 
     # Energized: kiting ADC. Charge 20/s moving + 12/auto (+5 Statikk).
     energized_per_auto = 12 + (5 if statikk else 0)
@@ -313,6 +327,8 @@ def simulate_fight(
             bonus += 0.08 * rage_stacks
         if pd:
             bonus += 0.06 * pd_stacks
+        if fiend_as_on:
+            bonus += 0.50
         raw = VARUS["stats"]["base_as"] + bonus * as_ratio
         return min(AS_CAP, raw)
 
@@ -323,6 +339,8 @@ def simulate_fight(
             bonus += 0.08 * rage_stacks
         if pd:
             bonus += 0.06 * pd_stacks
+        if fiend_as_on:
+            bonus += 0.50
         return bonus
 
     def total_ad() -> float:
@@ -447,11 +465,25 @@ def simulate_fight(
 
     def auto_attack() -> None:
         nonlocal rage_stacks, rage_hits, lt_stacks, pd_stacks, energized, blight
+        nonlocal fiend_shots, q_cd, e_cd
         ad = total_ad()
-        crit_ev = 1.0 + min(1.0, st.crit) * (st.crit_dmg - 1.0)
-        deal(ad * crit_ev, "phys")
+        c = min(1.0, st.crit)
+        crit_ev = 1.0 + c * (st.crit_dmg - 1.0)
+        if fiend_shots > 0:
+            fiend_shots -= 1
+            # Opening Barrage: forced crit at 80% of crit damage if the auto
+            # would miss; if it would already crit, full crit + 15% true.
+            phys = c * ad * st.crit_dmg + (1.0 - c) * ad * 0.80 * st.crit_dmg
+            deal(phys, "phys")
+            if c > 0:
+                deal(c * 0.15 * ad * st.crit_dmg, "true")
+        else:
+            deal(ad * crit_ev, "phys")
         res.autos += 1
         onhit(False)
+        if navori:
+            q_cd *= 0.85
+            e_cd *= 0.85
         if rage:
             rage_stacks = min(4, rage_stacks + 1)
             if rage_stacks >= 4:
@@ -504,7 +536,10 @@ def simulate_fight(
 
     def try_ability() -> None:
         nonlocal charging_q, casting_e, q_cd, e_cd, next_auto
-        if charging_q > 0 or casting_e > 0:
+        if charging_q > 0 or casting_e > 0 or r_cast_left > 0:
+            return
+        # Hold the first detonate until Chain of Corruption infects the clump.
+        if teamfight and use_r and t < 1.95:
             return
         if blight < 3:
             return
@@ -530,6 +565,22 @@ def simulate_fight(
         if e_cd > 0:
             e_cd = max(0.0, e_cd - dt)
 
+        if r_cast_left > 0:
+            r_cast_left -= dt
+            if r_cast_left <= 0 and not r_hit_main:
+                deal(r_base + 0.85 * total_ap(), "magic")
+                blight = 3
+                r_hit_main = True
+                if fiend:
+                    fiend_shots = 3
+                    fiend_as_on = True
+                next_auto = max(next_auto, t + 0.10)
+        if r_spread_at >= 0 and t + 1e-9 >= r_spread_at:
+            for i in range(n_side):
+                deal_side(i, r_base + 0.85 * total_ap(), "magic")
+                side_blight[i] = 3
+            r_spread_at = -1.0
+
         if charging_q > 0:
             charging_q -= dt
             if charging_q <= 0:
@@ -554,7 +605,9 @@ def simulate_fight(
                 e_cd = e["cd"][e_rank - 1] if e_rank else 12
                 next_auto = max(next_auto, t + 0.10)
         else:
-            if t + 1e-9 >= next_auto:
+            if r_cast_left > 0:
+                pass  # locked in ult windup
+            elif t + 1e-9 >= next_auto:
                 auto_attack()
                 next_auto = t + 1.0 / max(0.20, current_as())
             try_ability()
@@ -710,6 +763,186 @@ PATHS: Dict[str, Dict[str, object]] = {
             "bloodthirster",
         ],
     },
+    "crit_yuntal_ie_runaan": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → Runaan → LDR → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "runaans_hurricane",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_ie_fiend": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → Fiendhunter → LDR → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "fiendhunter_bolts",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_ie_runaan_fiend": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → Runaan → Fiendhunter → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "runaans_hurricane",
+            "fiendhunter_bolts",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_hex_runaan": {
+        "style": "crit",
+        "label": "Crit Yun Tal → Hexoptics → IE → Runaan → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "runaans_hurricane",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_hex_fiend": {
+        "style": "crit",
+        "label": "Crit Yun Tal → Hexoptics → IE → Fiendhunter → LDR",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "fiendhunter_bolts",
+            "lord_dominiks_regards",
+        ],
+    },
+    "crit_storm_ie_runaan": {
+        "style": "crit",
+        "label": "Crit Stormrazor → IE → Runaan → LDR → BT",
+        "path": [
+            "stormrazor",
+            "berserkers_greaves",
+            "infinity_edge",
+            "runaans_hurricane",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_storm_ie_fiend": {
+        "style": "crit",
+        "label": "Crit Stormrazor → IE → Fiendhunter → LDR → BT",
+        "path": [
+            "stormrazor",
+            "berserkers_greaves",
+            "infinity_edge",
+            "fiendhunter_bolts",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_storm_hex_ie": {
+        "style": "crit",
+        "label": "Crit Stormrazor → Hexoptics → IE → LDR → BT",
+        "path": [
+            "stormrazor",
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_ie_rfc_runaan": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → RFC → Runaan → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "rapid_firecannon",
+            "runaans_hurricane",
+            "bloodthirster",
+        ],
+    },
+    "crit_hex_ie_rfc": {
+        "style": "crit",
+        "label": "Crit Hexoptics → IE → RFC → LDR → BT",
+        "path": [
+            "hexoptics_c44",
+            "berserkers_greaves",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_collector_ie_rfc": {
+        "style": "crit",
+        "label": "Crit Collector → IE → RFC → LDR → BT",
+        "path": [
+            "the_collector",
+            "berserkers_greaves",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_ie_navori": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → Navori → LDR → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "navori_quickblades",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_ie_galeforce": {
+        "style": "crit",
+        "label": "Crit Yun Tal → IE → Galeforce → LDR → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "infinity_edge",
+            "galeforce",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_shieldbow_ie": {
+        "style": "crit",
+        "label": "Crit Yun Tal → Shieldbow → IE → LDR → BT",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "immortal_shieldbow",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster",
+        ],
+    },
+    "crit_yuntal_storm_ie": {
+        "style": "crit",
+        "label": "Crit Yun Tal → Stormrazor → IE → RFC → LDR",
+        "path": [
+            "yun_tal_wildarrows",
+            "berserkers_greaves",
+            "stormrazor",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+        ],
+    },
 }
 
 
@@ -847,6 +1080,7 @@ def main() -> None:
     a(f"On-hit 1v1:       {results[best_onhit]['label']}")
     a(f"On-hit teamfight: {results[best_onhit_3v]['label']}")
     a(f"Crit 1v1:         {results[best_crit]['label']}")
+    a(f"Crit teamfight:   {results[best_crit_3v]['label']}")
     a("")
 
     def row(minute: int) -> str:
@@ -997,8 +1231,8 @@ def main() -> None:
     else:
         a(f"Late vs tank TTK: on-hit still faster ({tk_ttk_o:.2f}s vs {tk_ttk_c:.2f}s).")
     a(
-        "For games that end 15–20 min, buy on-hit. For games that reach 5 items, "
-        "Yun Tal → IE → RFC → LDR is the 7.3 scaler (≈4x DPS from 6:00 vs ≈3.3x on-hit)."
+        "For games that end 15–20 min, buy on-hit. For 1v1 games that reach 5 items, "
+        f"{results[best_crit]['label']} is the 7.3 scaler."
     )
     hex_k = "crit_yuntal_hex_ie"
     if hex_k in results:
@@ -1024,26 +1258,41 @@ def main() -> None:
     a("- Do not mix: Rageblade phantom is the on-hit engine; IE wants 100% crit. 7.3 removed Rageblade's crit tax but phantom still does not replace IE.")
     a("")
     a("=" * 72)
-    a("WHY RUNAAN / STATIKK (teamfight, 2 extra targets)")
+    a("TEAMFIGHT — 2 extra targets (Runaan / Statikk / new 7.3 crit)")
     a("=" * 72)
-    a("1v1 hid these items. Runaan bolts need two nearby champions; Statikk's 7.3 identity is")
-    a("on-hit lightning on bounce targets. Below is the same 8s window with 2 extra bodies.")
-    a("Runaan: 2 bolts × 55% AD (can crit) + full on-hit (W / BotRK / Rageblade / Terminus).")
-    a("Statikk: energized 60 magic on main, then bounce 60 magic + on-hit onto extras.")
-    a("E hits the clump. Q tags one extra body.")
+    a("Same 8s window, 2 extra bodies. Chain of Corruption hits the clump at 0.25s")
+    a("and infects extras at 2.0s; first E/Q waits for that spread. Hexoptics uses max")
+    a("distance amp. Fiendhunter Opening Barrage after R: +50% AS and 3 special crits.")
     a("")
     a(f"Teamfight on-hit pick: {results[best_onhit_3v]['label']}")
+    a(f"Teamfight crit pick:   {results[best_crit_3v]['label']}")
     a("")
-    a("All paths 24:00  |  1v1 squishy/tank DPS  |  3-target AoE DPS (main+2)")
+    a("On-hit paths 24:00  |  1v1 squishy/tank  |  3-target AoE")
     for k, r in results.items():
+        if r["style"] != "onhit":
+            continue
         s = r["snapshots"][-1]
         mark = ""
         if k == best_onhit:
-            mark += "  ← 1v1 on-hit"
+            mark += "  ← 1v1"
         if k == best_onhit_3v:
-            mark += "  ← teamfight on-hit"
+            mark += "  ← teamfight"
+        a(
+            f"  1v1 {s['squishy']['dps']:6.0f}/{s['tank']['dps']:6.0f}   "
+            f"3v {s['squishy_3v']['aoe_dps']:7.0f}/{s['tank_3v']['aoe_dps']:6.0f}   "
+            f"{r['label']}{mark}"
+        )
+    a("")
+    a("Crit paths 24:00  |  1v1 squishy/tank  |  3-target AoE")
+    for k, r in results.items():
+        if r["style"] != "crit":
+            continue
+        s = r["snapshots"][-1]
+        mark = ""
         if k == best_crit:
-            mark += "  ← 1v1 crit"
+            mark += "  ← 1v1"
+        if k == best_crit_3v:
+            mark += "  ← teamfight"
         a(
             f"  1v1 {s['squishy']['dps']:6.0f}/{s['tank']['dps']:6.0f}   "
             f"3v {s['squishy_3v']['aoe_dps']:7.0f}/{s['tank_3v']['aoe_dps']:6.0f}   "
@@ -1056,6 +1305,8 @@ def main() -> None:
         f"24:00 teamfight AoE: on-hit {o3['squishy_3v']['aoe_dps']:.0f}/{o3['tank_3v']['aoe_dps']:.0f}  "
         f"vs crit {c3['squishy_3v']['aoe_dps']:.0f}/{c3['tank_3v']['aoe_dps']:.0f}"
     )
+    a("Runaan is the clump item for both styles (bolts crit + apply W). Fiendhunter is the")
+    a("ult window. Shieldbow / Galeforce are survival, not DPS. RFC is 1v1 range, not splash.")
 
     report = "\n".join(lines) + "\n"
     (OUT_DIR / "report.txt").write_text(report, encoding="utf-8")

@@ -30,11 +30,11 @@ On-hit (W max):
 1v1 hides Runaan (bolts need two nearby champions) and undersells 7.3 Statikk
 (on-hit lightning on bounce targets). The sim also runs a 3-target clump.
 
-Crit (Q max):
-- Yun Tal → Berserkers → Infinity Edge → Rapid Firecannon → LDR → BT
-- Yun Tal → IE → Phantom Dancer → LDR → BT
-- Stormrazor → IE → RFC → LDR → BT
-- Yun Tal → Hexoptics C44 → IE → LDR → BT
+Crit (Q max), including every 7.3 crit item:
+- Yun Tal → IE → RFC / PD / Hexoptics / Runaan / Fiendhunter / Navori / Galeforce / Shieldbow
+- Stormrazor first (instant 25% crit) → IE → RFC / Runaan / Fiendhunter / Hexoptics
+- Hexoptics first, Collector first
+- Teamfight: Runaan bolts crit; Fiendhunter Opening Barrage after R; R infects the clump
 
 ## Model
 
