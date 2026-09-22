@@ -1,0 +1,5618 @@
+{
+  "meta": {
+    "item": "Statikk Shiv",
+    "patch": "7.3",
+    "game": "Wild Rift",
+    "game_minutes": 20,
+    "fight_seconds": 8.0,
+    "question": "Which champions convert 7.3 Statikk Shiv's on-hit bounce? Top 5."
+  },
+  "ranking": [
+    {
+      "name": "Varus",
+      "role": "ADC",
+      "ap_want": 1.0,
+      "kit_bounces": true,
+      "notes": "W on-hit + Blight stacks bounce, then one Q detonates the clump. Innate turns AS into AD+AP.",
+      "online_at": 9,
+      "unique": 1666.1818181818182,
+      "vs_kraken": 1335.4636363636364,
+      "bounce_pkg": 1499.4545454545455,
+      "total_20": 4173.7,
+      "kraken_20": 2329.1,
+      "bounce_20": 1989.1999999999998,
+      "total_16": 3348.9,
+      "energized_20": 2.98,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 239.2,
+      "ap_20": 94.8,
+      "attacks_20": 12.52
+    },
+    {
+      "name": "Kog'Maw",
+      "role": "ADC",
+      "ap_want": 0.95,
+      "kit_bounces": true,
+      "notes": "W Bio-Arcane is %max HP on-hit for 8s. Bounce copies W onto the whole pit.",
+      "online_at": 9,
+      "unique": 1395.5636363636365,
+      "vs_kraken": 1025.9363636363637,
+      "bounce_pkg": 1156.609090909091,
+      "total_20": 5101.9,
+      "kraken_20": 3579.1,
+      "bounce_20": 1598.6,
+      "total_16": 4049.4,
+      "energized_20": 3.25,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 213.0,
+      "ap_20": 70.0,
+      "attacks_20": 13.65
+    },
+    {
+      "name": "Kalista",
+      "role": "ADC",
+      "ap_want": 0.1,
+      "kit_bounces": true,
+      "notes": "Rend spears bounce; one E rips the whole clump. 40 AP is mostly wasted.",
+      "online_at": 9,
+      "unique": 1338.009090909091,
+      "vs_kraken": 997.5090909090909,
+      "bounce_pkg": 1254.9272727272728,
+      "total_20": 3350.2,
+      "kraken_20": 1957.6,
+      "bounce_20": 1645.5,
+      "total_16": 2563.0,
+      "energized_20": 3.25,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 227.0,
+      "ap_20": 70.0,
+      "attacks_20": 13.65
+    },
+    {
+      "name": "Teemo",
+      "role": "Top/Mid",
+      "ap_want": 1.0,
+      "kit_bounces": true,
+      "notes": "Toxic Shot on-hit + 4s poison bounce. 40 AP is fully spent. Nashor core.",
+      "online_at": 9,
+      "unique": 1268.5727272727274,
+      "vs_kraken": 957.6818181818181,
+      "bounce_pkg": 1134.3999999999999,
+      "total_20": 3307.5,
+      "kraken_20": 1870.1,
+      "bounce_20": 1542.1,
+      "total_16": 2544.8,
+      "energized_20": 2.76,
+      "items_20": [
+        "Boots of Mana",
+        "Statikk Shiv",
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade"
+      ],
+      "ad_20": 177.4,
+      "ap_20": 175.0,
+      "attacks_20": 11.6
+    },
+    {
+      "name": "Twitch",
+      "role": "ADC",
+      "ap_want": 0.7,
+      "kit_bounces": true,
+      "notes": "Venom stacks bounce, then E (7.3 hybrid). Spray and Pray already applies on-hit in a line \u2014 overlap.",
+      "online_at": 9,
+      "unique": 1053.6909090909091,
+      "vs_kraken": 696.6363636363636,
+      "bounce_pkg": 965.8090909090909,
+      "total_20": 3127.5,
+      "kraken_20": 2038.7,
+      "bounce_20": 1351.9,
+      "total_16": 2352.3,
+      "energized_20": 3.42,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 224.0,
+      "ap_20": 70.0,
+      "attacks_20": 14.35
+    },
+    {
+      "name": "Kayle",
+      "role": "Top/Mid",
+      "ap_want": 1.0,
+      "kit_bounces": true,
+      "notes": "E on-hit + 40/40/30% is her dream stat line. Aflame waves already splash E after 9, so kit overlap.",
+      "online_at": 9,
+      "unique": 682.1090909090909,
+      "vs_kraken": 346.45454545454544,
+      "bounce_pkg": 536.5909090909091,
+      "total_20": 2646.6,
+      "kraken_20": 1887.2,
+      "bounce_20": 871.1,
+      "total_16": 1923.1,
+      "energized_20": 3.1,
+      "items_20": [
+        "Boots of Mana",
+        "Statikk Shiv",
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade"
+      ],
+      "ad_20": 171.0,
+      "ap_20": 175.0,
+      "attacks_20": 13.01
+    },
+    {
+      "name": "Kai'Sa",
+      "role": "ADC",
+      "ap_want": 0.9,
+      "kit_bounces": true,
+      "notes": "Plasma on-hit bounces (7.3 AP ratios). Secondaries rarely reach a 5-stack pop from Shiv alone.",
+      "online_at": 9,
+      "unique": 627.1818181818181,
+      "vs_kraken": 316.51818181818186,
+      "bounce_pkg": 512.0909090909091,
+      "total_20": 2542.7,
+      "kraken_20": 1955.5,
+      "bounce_20": 774.1,
+      "total_16": 1899.3,
+      "energized_20": 2.93,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 218.0,
+      "ap_20": 70.0,
+      "attacks_20": 12.32
+    },
+    {
+      "name": "Ashe",
+      "role": "ADC",
+      "ap_want": 0.15,
+      "kit_bounces": true,
+      "notes": "Frost Shot slow bounces \u2014 utility, almost no extra damage. 7.3 Frost bonus is crit-scaled.",
+      "online_at": 9,
+      "unique": 528.0272727272727,
+      "vs_kraken": 203.5181818181818,
+      "bounce_pkg": 449.5,
+      "total_20": 2381.0,
+      "kraken_20": 1917.0,
+      "bounce_20": 705.4,
+      "total_16": 1730.0,
+      "energized_20": 3.07,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 228.8,
+      "ap_20": 70.0,
+      "attacks_20": 12.89
+    },
+    {
+      "name": "Vayne",
+      "role": "ADC",
+      "ap_want": 0.0,
+      "kit_bounces": false,
+      "notes": "Silver Bolts do not apply to extra targets (same as Runaan's) and expire on switch. AP wasted.",
+      "online_at": 9,
+      "unique": 469.49090909090904,
+      "vs_kraken": 133.79090909090905,
+      "bounce_pkg": 394.82727272727277,
+      "total_20": 3936.6,
+      "kraken_20": 3569.0,
+      "bounce_20": 625.3,
+      "total_16": 2995.9,
+      "energized_20": 2.91,
+      "items_20": [
+        "Berserker's Greaves",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ad_20": 212.0,
+      "ap_20": 70.0,
+      "attacks_20": 12.22
+    }
+  ],
+  "top5": [
+    "Varus",
+    "Kog'Maw",
+    "Kalista",
+    "Teemo",
+    "Twitch"
+  ],
+  "champions": {
+    "Kog'Maw": {
+      "role": "ADC",
+      "notes": "W Bio-Arcane is %max HP on-hit for 8s. Bounce copies W onto the whole pit.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 57.5,
+          "ap": 0.0,
+          "attacks": 5.77,
+          "energized": 0.0,
+          "primary_dmg": 286.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 286.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 61.0,
+          "ap": 0.0,
+          "attacks": 6.12,
+          "energized": 0.0,
+          "primary_dmg": 380.4,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 380.4,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 64.5,
+          "ap": 0.0,
+          "attacks": 7.15,
+          "energized": 0.0,
+          "primary_dmg": 475.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 475.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 68.0,
+          "ap": 0.0,
+          "attacks": 8.85,
+          "energized": 0.0,
+          "primary_dmg": 626.4,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 626.4,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 71.5,
+          "ap": 0.0,
+          "attacks": 9.2,
+          "energized": 0.0,
+          "primary_dmg": 810.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 810.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 95.0,
+          "ap": 0.0,
+          "attacks": 9.32,
+          "energized": 0.0,
+          "primary_dmg": 980.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 980.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 98.5,
+          "ap": 0.0,
+          "attacks": 9.45,
+          "energized": 0.0,
+          "primary_dmg": 1038.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 1038.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 98.5,
+          "ap": 30.0,
+          "attacks": 9.45,
+          "energized": 0.0,
+          "primary_dmg": 1119.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 1119.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 122.0,
+          "ap": 40.0,
+          "attacks": 10.25,
+          "energized": 2.44,
+          "primary_dmg": 1617.1,
+          "bounce_dmg": 771.1,
+          "detonate_dmg": 0.0,
+          "total": 2388.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 125.5,
+          "ap": 40.0,
+          "attacks": 10.37,
+          "energized": 2.47,
+          "primary_dmg": 1632.0,
+          "bounce_dmg": 800.2,
+          "detonate_dmg": 0.0,
+          "total": 2432.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 129.0,
+          "ap": 60.0,
+          "attacks": 11.4,
+          "energized": 2.71,
+          "primary_dmg": 1847.4,
+          "bounce_dmg": 930.0,
+          "detonate_dmg": 0.0,
+          "total": 2777.4,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 149.0,
+          "ap": 40.0,
+          "attacks": 11.4,
+          "energized": 2.71,
+          "primary_dmg": 1860.2,
+          "bounce_dmg": 893.0,
+          "detonate_dmg": 0.0,
+          "total": 2753.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 152.5,
+          "ap": 60.0,
+          "attacks": 11.52,
+          "energized": 2.74,
+          "primary_dmg": 1932.6,
+          "bounce_dmg": 954.3,
+          "detonate_dmg": 0.0,
+          "total": 2886.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 167.5,
+          "ap": 70.0,
+          "attacks": 11.7,
+          "energized": 2.79,
+          "primary_dmg": 2625.2,
+          "bounce_dmg": 1140.7,
+          "detonate_dmg": 0.0,
+          "total": 3765.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 171.0,
+          "ap": 70.0,
+          "attacks": 11.82,
+          "energized": 2.81,
+          "primary_dmg": 2644.1,
+          "bounce_dmg": 1167.1,
+          "detonate_dmg": 0.0,
+          "total": 3811.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 171.0,
+          "ap": 70.0,
+          "attacks": 12.72,
+          "energized": 3.03,
+          "primary_dmg": 2798.0,
+          "bounce_dmg": 1251.4,
+          "detonate_dmg": 0.0,
+          "total": 4049.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 174.5,
+          "ap": 70.0,
+          "attacks": 12.85,
+          "energized": 3.06,
+          "primary_dmg": 2818.9,
+          "bounce_dmg": 1278.5,
+          "detonate_dmg": 0.0,
+          "total": 4097.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 194.5,
+          "ap": 70.0,
+          "attacks": 13.53,
+          "energized": 3.22,
+          "primary_dmg": 3021.7,
+          "bounce_dmg": 1340.7,
+          "detonate_dmg": 0.0,
+          "total": 4362.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 198.0,
+          "ap": 70.0,
+          "attacks": 13.65,
+          "energized": 3.25,
+          "primary_dmg": 3041.3,
+          "bounce_dmg": 1368.2,
+          "detonate_dmg": 0.0,
+          "total": 4409.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 213.0,
+          "ap": 70.0,
+          "attacks": 13.65,
+          "energized": 3.25,
+          "primary_dmg": 3503.3,
+          "bounce_dmg": 1598.6,
+          "detonate_dmg": 0.0,
+          "total": 5101.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 286.2,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 380.4,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 475.5,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 626.4,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 894.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 952.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 1112.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 1219.2,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1808.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1960.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 2017.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 2021.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 2081.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 2740.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 2745.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 2896.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 2904.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 3103.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 3111.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 3579.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Varus": {
+      "role": "ADC",
+      "notes": "W on-hit + Blight stacks bounce, then one Q detonates the clump. Innate turns AS into AD+AP.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 61.2,
+          "ap": 3.6,
+          "attacks": 5.48,
+          "energized": 0.0,
+          "primary_dmg": 283.1,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 283.1,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 65.2,
+          "ap": 4.0,
+          "attacks": 5.62,
+          "energized": 0.0,
+          "primary_dmg": 338.3,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 338.3,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 72.3,
+          "ap": 7.5,
+          "attacks": 6.6,
+          "energized": 0.0,
+          "primary_dmg": 425.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 425.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 81.6,
+          "ap": 13.2,
+          "attacks": 8.23,
+          "energized": 0.0,
+          "primary_dmg": 578.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 578.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 85.7,
+          "ap": 13.7,
+          "attacks": 8.36,
+          "energized": 0.0,
+          "primary_dmg": 653.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 653.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 109.8,
+          "ap": 14.2,
+          "attacks": 8.5,
+          "energized": 0.0,
+          "primary_dmg": 776.1,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 776.1,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 113.9,
+          "ap": 14.7,
+          "attacks": 8.64,
+          "energized": 0.0,
+          "primary_dmg": 796.4,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 796.4,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 113.9,
+          "ap": 44.7,
+          "attacks": 8.64,
+          "energized": 0.0,
+          "primary_dmg": 853.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 853.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 139.5,
+          "ap": 56.7,
+          "attacks": 9.2,
+          "energized": 2.19,
+          "primary_dmg": 1144.3,
+          "bounce_dmg": 554.2,
+          "detonate_dmg": 480.0,
+          "total": 2178.4,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 143.5,
+          "ap": 57.1,
+          "attacks": 9.33,
+          "energized": 2.22,
+          "primary_dmg": 1119.3,
+          "bounce_dmg": 554.1,
+          "detonate_dmg": 512.8,
+          "total": 2186.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 150.6,
+          "ap": 80.6,
+          "attacks": 10.32,
+          "energized": 2.46,
+          "primary_dmg": 1256.6,
+          "bounce_dmg": 639.1,
+          "detonate_dmg": 623.0,
+          "total": 2518.7,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 170.6,
+          "ap": 60.6,
+          "attacks": 10.32,
+          "energized": 2.46,
+          "primary_dmg": 1271.0,
+          "bounce_dmg": 598.8,
+          "detonate_dmg": 596.2,
+          "total": 2466.0,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 174.7,
+          "ap": 81.1,
+          "attacks": 10.45,
+          "energized": 2.49,
+          "primary_dmg": 1284.2,
+          "bounce_dmg": 628.1,
+          "detonate_dmg": 656.7,
+          "total": 2569.0,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 186.7,
+          "ap": 88.1,
+          "attacks": 10.62,
+          "energized": 2.53,
+          "primary_dmg": 1671.1,
+          "bounce_dmg": 785.1,
+          "detonate_dmg": 678.0,
+          "total": 3134.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 190.8,
+          "ap": 88.6,
+          "attacks": 10.76,
+          "energized": 2.56,
+          "primary_dmg": 1639.5,
+          "bounce_dmg": 780.3,
+          "detonate_dmg": 711.5,
+          "total": 3131.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 193.8,
+          "ap": 91.6,
+          "attacks": 11.61,
+          "energized": 2.76,
+          "primary_dmg": 1737.6,
+          "bounce_dmg": 838.6,
+          "detonate_dmg": 772.7,
+          "total": 3348.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 197.9,
+          "ap": 92.1,
+          "attacks": 11.75,
+          "energized": 2.8,
+          "primary_dmg": 1707.5,
+          "bounce_dmg": 833.1,
+          "detonate_dmg": 807.8,
+          "total": 3348.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 220.1,
+          "ap": 94.3,
+          "attacks": 12.38,
+          "energized": 2.95,
+          "primary_dmg": 1857.7,
+          "bounce_dmg": 873.7,
+          "detonate_dmg": 855.6,
+          "total": 3587.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 224.2,
+          "ap": 94.8,
+          "attacks": 12.52,
+          "energized": 2.98,
+          "primary_dmg": 1827.4,
+          "bounce_dmg": 867.9,
+          "detonate_dmg": 891.7,
+          "total": 3586.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 239.2,
+          "ap": 94.8,
+          "attacks": 12.52,
+          "energized": 2.98,
+          "primary_dmg": 2184.5,
+          "bounce_dmg": 1057.8,
+          "detonate_dmg": 931.4,
+          "total": 4173.7,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 283.1,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 338.3,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 425.2,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 578.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 730.3,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 750.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 872.0,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 953.6,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1327.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1430.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1434.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1442.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1449.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1815.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1778.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1879.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1843.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1996.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1961.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 2329.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Kalista": {
+      "role": "ADC",
+      "notes": "Rend spears bounce; one E rips the whole clump. 40 AP is mostly wasted.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 58.5,
+          "ap": 0.0,
+          "attacks": 5.84,
+          "energized": 0.0,
+          "primary_dmg": 225.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 225.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 63.0,
+          "ap": 0.0,
+          "attacks": 5.99,
+          "energized": 0.0,
+          "primary_dmg": 244.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 244.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 67.5,
+          "ap": 0.0,
+          "attacks": 7.08,
+          "energized": 0.0,
+          "primary_dmg": 303.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 303.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 72.0,
+          "ap": 0.0,
+          "attacks": 8.89,
+          "energized": 0.0,
+          "primary_dmg": 397.4,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 397.4,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 76.5,
+          "ap": 0.0,
+          "attacks": 9.04,
+          "energized": 0.0,
+          "primary_dmg": 421.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 421.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 101.0,
+          "ap": 0.0,
+          "attacks": 9.19,
+          "energized": 0.0,
+          "primary_dmg": 554.4,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 554.4,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 105.5,
+          "ap": 0.0,
+          "attacks": 9.34,
+          "energized": 0.0,
+          "primary_dmg": 577.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 577.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 105.5,
+          "ap": 30.0,
+          "attacks": 9.34,
+          "energized": 0.0,
+          "primary_dmg": 577.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 577.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 130.0,
+          "ap": 40.0,
+          "attacks": 9.96,
+          "energized": 2.37,
+          "primary_dmg": 798.2,
+          "bounce_dmg": 288.5,
+          "detonate_dmg": 542.9,
+          "total": 1629.6,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 134.5,
+          "ap": 40.0,
+          "attacks": 10.11,
+          "energized": 2.41,
+          "primary_dmg": 787.8,
+          "bounce_dmg": 288.2,
+          "detonate_dmg": 542.2,
+          "total": 1618.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 139.0,
+          "ap": 60.0,
+          "attacks": 11.21,
+          "energized": 2.67,
+          "primary_dmg": 850.8,
+          "bounce_dmg": 312.7,
+          "detonate_dmg": 760.3,
+          "total": 1923.8,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 159.0,
+          "ap": 40.0,
+          "attacks": 11.21,
+          "energized": 2.67,
+          "primary_dmg": 924.9,
+          "bounce_dmg": 309.2,
+          "detonate_dmg": 817.0,
+          "total": 2051.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 163.5,
+          "ap": 60.0,
+          "attacks": 11.36,
+          "energized": 2.7,
+          "primary_dmg": 914.0,
+          "bounce_dmg": 307.0,
+          "detonate_dmg": 810.5,
+          "total": 2031.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 178.5,
+          "ap": 70.0,
+          "attacks": 11.55,
+          "energized": 2.75,
+          "primary_dmg": 1199.9,
+          "bounce_dmg": 463.1,
+          "detonate_dmg": 848.5,
+          "total": 2511.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 183.0,
+          "ap": 70.0,
+          "attacks": 11.7,
+          "energized": 2.79,
+          "primary_dmg": 1183.5,
+          "bounce_dmg": 460.0,
+          "detonate_dmg": 841.6,
+          "total": 2485.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 183.0,
+          "ap": 70.0,
+          "attacks": 12.64,
+          "energized": 3.01,
+          "primary_dmg": 1239.5,
+          "bounce_dmg": 492.0,
+          "detonate_dmg": 831.5,
+          "total": 2563.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 187.5,
+          "ap": 70.0,
+          "attacks": 12.79,
+          "energized": 3.05,
+          "primary_dmg": 1224.7,
+          "bounce_dmg": 488.4,
+          "detonate_dmg": 825.4,
+          "total": 2538.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 207.5,
+          "ap": 70.0,
+          "attacks": 13.5,
+          "energized": 3.21,
+          "primary_dmg": 1355.4,
+          "bounce_dmg": 510.3,
+          "detonate_dmg": 875.6,
+          "total": 2741.2,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 212.0,
+          "ap": 70.0,
+          "attacks": 13.65,
+          "energized": 3.25,
+          "primary_dmg": 1339.6,
+          "bounce_dmg": 506.5,
+          "detonate_dmg": 868.7,
+          "total": 2714.7,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 227.0,
+          "ap": 70.0,
+          "attacks": 13.65,
+          "energized": 3.25,
+          "primary_dmg": 1704.7,
+          "bounce_dmg": 698.5,
+          "detonate_dmg": 947.0,
+          "total": 3350.2,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 225.6,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 244.0,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 303.0,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 397.4,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 503.6,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 526.9,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 621.3,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 709.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1066.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1139.3,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1116.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1182.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1161.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1447.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1422.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1487.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1464.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1600.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1577.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 1957.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Teemo": {
+      "role": "Top/Mid",
+      "notes": "Toxic Shot on-hit + 4s poison bounce. 40 AP is fully spent. Nashor core.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 55.6,
+          "ap": 0.0,
+          "attacks": 5.38,
+          "energized": 0.0,
+          "primary_dmg": 234.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 234.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 59.2,
+          "ap": 0.0,
+          "attacks": 5.48,
+          "energized": 0.0,
+          "primary_dmg": 254.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 254.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 62.8,
+          "ap": 0.0,
+          "attacks": 6.53,
+          "energized": 0.0,
+          "primary_dmg": 321.1,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 321.1,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 66.4,
+          "ap": 25.0,
+          "attacks": 6.63,
+          "energized": 0.0,
+          "primary_dmg": 370.8,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 370.8,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 70.0,
+          "ap": 25.0,
+          "attacks": 6.73,
+          "energized": 0.0,
+          "primary_dmg": 393.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 393.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 93.6,
+          "ap": 25.0,
+          "attacks": 6.84,
+          "energized": 0.0,
+          "primary_dmg": 498.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 498.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 97.2,
+          "ap": 25.0,
+          "attacks": 6.94,
+          "energized": 0.0,
+          "primary_dmg": 520.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 520.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 97.2,
+          "ap": 55.0,
+          "attacks": 6.94,
+          "energized": 0.0,
+          "primary_dmg": 548.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 548.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 120.8,
+          "ap": 65.0,
+          "attacks": 7.51,
+          "energized": 1.79,
+          "primary_dmg": 743.3,
+          "bounce_dmg": 371.9,
+          "detonate_dmg": 350.2,
+          "total": 1465.4,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 124.4,
+          "ap": 65.0,
+          "attacks": 7.62,
+          "energized": 1.81,
+          "primary_dmg": 735.3,
+          "bounce_dmg": 378.2,
+          "detonate_dmg": 369.6,
+          "total": 1483.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 128.0,
+          "ap": 65.0,
+          "attacks": 8.66,
+          "energized": 2.06,
+          "primary_dmg": 817.4,
+          "bounce_dmg": 428.9,
+          "detonate_dmg": 386.1,
+          "total": 1632.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Blasting Wand"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 128.0,
+          "ap": 110.0,
+          "attacks": 8.66,
+          "energized": 2.06,
+          "primary_dmg": 831.0,
+          "bounce_dmg": 461.7,
+          "detonate_dmg": 414.6,
+          "total": 1707.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 131.6,
+          "ap": 100.0,
+          "attacks": 8.76,
+          "energized": 2.09,
+          "primary_dmg": 814.9,
+          "bounce_dmg": 457.2,
+          "detonate_dmg": 422.4,
+          "total": 1694.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Fiendish Codex",
+            "Blasting Wand"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 131.6,
+          "ap": 145.0,
+          "attacks": 8.76,
+          "energized": 2.09,
+          "primary_dmg": 828.4,
+          "bounce_dmg": 489.0,
+          "detonate_dmg": 449.6,
+          "total": 1767.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Amplifying Tome"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 135.2,
+          "ap": 165.0,
+          "attacks": 10.27,
+          "energized": 2.45,
+          "primary_dmg": 1217.7,
+          "bounce_dmg": 816.3,
+          "detonate_dmg": 477.4,
+          "total": 2511.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 135.2,
+          "ap": 145.0,
+          "attacks": 11.21,
+          "energized": 2.67,
+          "primary_dmg": 1245.7,
+          "bounce_dmg": 840.6,
+          "detonate_dmg": 458.5,
+          "total": 2544.8,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 138.8,
+          "ap": 165.0,
+          "attacks": 11.31,
+          "energized": 2.69,
+          "primary_dmg": 1274.4,
+          "bounce_dmg": 881.8,
+          "detonate_dmg": 485.3,
+          "total": 2641.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 158.8,
+          "ap": 165.0,
+          "attacks": 11.31,
+          "energized": 2.69,
+          "primary_dmg": 1322.3,
+          "bounce_dmg": 872.6,
+          "detonate_dmg": 480.2,
+          "total": 2675.1,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 162.4,
+          "ap": 165.0,
+          "attacks": 11.42,
+          "energized": 2.72,
+          "primary_dmg": 1308.5,
+          "bounce_dmg": 873.5,
+          "detonate_dmg": 492.8,
+          "total": 2674.8,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 177.4,
+          "ap": 175.0,
+          "attacks": 11.6,
+          "energized": 2.76,
+          "primary_dmg": 1765.4,
+          "bounce_dmg": 1047.8,
+          "detonate_dmg": 494.3,
+          "total": 3307.5,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, nashor"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 234.9,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 254.9,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 321.1,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 343.7,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 393.7,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 477.8,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 573.4,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 640.6,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 913.6,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 897.4,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 987.9,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 985.9,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 972.7,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1327.7,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1349.1,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1380.6,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1450.6,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1450.4,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1432.3,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 1870.1,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ]
+        }
+      ]
+    },
+    "Kai'Sa": {
+      "role": "ADC",
+      "notes": "Plasma on-hit bounces (7.3 AP ratios). Secondaries rarely reach a 5-stack pop from Shiv alone.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 62.5,
+          "ap": 0.0,
+          "attacks": 5.07,
+          "energized": 0.0,
+          "primary_dmg": 240.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 240.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 66.0,
+          "ap": 0.0,
+          "attacks": 5.21,
+          "energized": 0.0,
+          "primary_dmg": 258.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 258.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 69.5,
+          "ap": 0.0,
+          "attacks": 6.22,
+          "energized": 0.0,
+          "primary_dmg": 322.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 322.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 73.0,
+          "ap": 0.0,
+          "attacks": 7.9,
+          "energized": 0.0,
+          "primary_dmg": 426.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 426.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 76.5,
+          "ap": 0.0,
+          "attacks": 8.04,
+          "energized": 0.0,
+          "primary_dmg": 449.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 449.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 100.0,
+          "ap": 0.0,
+          "attacks": 8.18,
+          "energized": 0.0,
+          "primary_dmg": 571.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 571.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 103.5,
+          "ap": 0.0,
+          "attacks": 8.32,
+          "energized": 0.0,
+          "primary_dmg": 595.3,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 595.3,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 103.5,
+          "ap": 30.0,
+          "attacks": 8.32,
+          "energized": 0.0,
+          "primary_dmg": 620.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 620.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 127.0,
+          "ap": 40.0,
+          "attacks": 8.89,
+          "energized": 2.12,
+          "primary_dmg": 832.1,
+          "bounce_dmg": 334.0,
+          "detonate_dmg": 0.0,
+          "total": 1166.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 130.5,
+          "ap": 40.0,
+          "attacks": 9.03,
+          "energized": 2.15,
+          "primary_dmg": 822.1,
+          "bounce_dmg": 338.1,
+          "detonate_dmg": 0.0,
+          "total": 1160.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 134.0,
+          "ap": 60.0,
+          "attacks": 10.05,
+          "energized": 2.39,
+          "primary_dmg": 909.3,
+          "bounce_dmg": 384.1,
+          "detonate_dmg": 0.0,
+          "total": 1293.4,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 154.0,
+          "ap": 40.0,
+          "attacks": 10.05,
+          "energized": 2.39,
+          "primary_dmg": 954.1,
+          "bounce_dmg": 368.7,
+          "detonate_dmg": 0.0,
+          "total": 1322.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 157.5,
+          "ap": 60.0,
+          "attacks": 10.19,
+          "energized": 2.43,
+          "primary_dmg": 960.7,
+          "bounce_dmg": 381.9,
+          "detonate_dmg": 0.0,
+          "total": 1342.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 172.5,
+          "ap": 70.0,
+          "attacks": 10.37,
+          "energized": 2.47,
+          "primary_dmg": 1281.8,
+          "bounce_dmg": 528.4,
+          "detonate_dmg": 0.0,
+          "total": 1810.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 176.0,
+          "ap": 70.0,
+          "attacks": 10.51,
+          "energized": 2.5,
+          "primary_dmg": 1267.3,
+          "bounce_dmg": 529.6,
+          "detonate_dmg": 0.0,
+          "total": 1796.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 176.0,
+          "ap": 70.0,
+          "attacks": 11.38,
+          "energized": 2.71,
+          "primary_dmg": 1331.5,
+          "bounce_dmg": 567.9,
+          "detonate_dmg": 0.0,
+          "total": 1899.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 179.5,
+          "ap": 70.0,
+          "attacks": 11.52,
+          "energized": 2.74,
+          "primary_dmg": 1318.5,
+          "bounce_dmg": 568.8,
+          "detonate_dmg": 0.0,
+          "total": 1887.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 199.5,
+          "ap": 70.0,
+          "attacks": 12.18,
+          "energized": 2.9,
+          "primary_dmg": 1444.7,
+          "bounce_dmg": 595.3,
+          "detonate_dmg": 0.0,
+          "total": 2040.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 203.0,
+          "ap": 70.0,
+          "attacks": 12.32,
+          "energized": 2.93,
+          "primary_dmg": 1431.1,
+          "bounce_dmg": 596.1,
+          "detonate_dmg": 0.0,
+          "total": 2027.2,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 218.0,
+          "ap": 70.0,
+          "attacks": 12.32,
+          "energized": 2.93,
+          "primary_dmg": 1768.6,
+          "bounce_dmg": 774.1,
+          "detonate_dmg": 0.0,
+          "total": 2542.7,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 240.0,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 258.5,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 322.6,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 426.0,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 523.3,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 547.1,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 642.3,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 721.2,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1040.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1117.3,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1115.3,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1153.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1152.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1465.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1443.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1513.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1494.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1624.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1605.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 1955.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Kayle": {
+      "role": "Top/Mid",
+      "notes": "E on-hit + 40/40/30% is her dream stat line. Aflame waves already splash E after 9, so kit overlap.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 57.0,
+          "ap": 0.0,
+          "attacks": 5.96,
+          "energized": 0.0,
+          "primary_dmg": 257.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 257.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 60.0,
+          "ap": 0.0,
+          "attacks": 6.06,
+          "energized": 0.0,
+          "primary_dmg": 280.8,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 280.8,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 63.0,
+          "ap": 0.0,
+          "attacks": 7.07,
+          "energized": 0.0,
+          "primary_dmg": 334.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 334.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 66.0,
+          "ap": 25.0,
+          "attacks": 7.22,
+          "energized": 0.0,
+          "primary_dmg": 370.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 370.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 69.0,
+          "ap": 25.0,
+          "attacks": 7.32,
+          "energized": 0.0,
+          "primary_dmg": 396.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 396.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 92.0,
+          "ap": 25.0,
+          "attacks": 7.42,
+          "energized": 0.0,
+          "primary_dmg": 501.9,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 501.9,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 95.0,
+          "ap": 25.0,
+          "attacks": 7.52,
+          "energized": 0.0,
+          "primary_dmg": 512.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 512.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Boots of Mana",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 95.0,
+          "ap": 55.0,
+          "attacks": 7.57,
+          "energized": 0.0,
+          "primary_dmg": 539.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 539.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 118.0,
+          "ap": 65.0,
+          "attacks": 8.32,
+          "energized": 1.98,
+          "primary_dmg": 767.2,
+          "bounce_dmg": 297.6,
+          "detonate_dmg": 0.0,
+          "total": 1064.8,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 121.0,
+          "ap": 65.0,
+          "attacks": 8.42,
+          "energized": 2.01,
+          "primary_dmg": 746.4,
+          "bounce_dmg": 296.1,
+          "detonate_dmg": 0.0,
+          "total": 1042.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 124.0,
+          "ap": 65.0,
+          "attacks": 9.43,
+          "energized": 2.25,
+          "primary_dmg": 805.6,
+          "bounce_dmg": 324.1,
+          "detonate_dmg": 0.0,
+          "total": 1129.6,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Blasting Wand"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 124.0,
+          "ap": 110.0,
+          "attacks": 9.51,
+          "energized": 2.26,
+          "primary_dmg": 818.6,
+          "bounce_dmg": 334.0,
+          "detonate_dmg": 0.0,
+          "total": 1152.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 127.0,
+          "ap": 100.0,
+          "attacks": 9.59,
+          "energized": 2.28,
+          "primary_dmg": 791.2,
+          "bounce_dmg": 327.2,
+          "detonate_dmg": 0.0,
+          "total": 1118.4,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Fiendish Codex",
+            "Blasting Wand"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 127.0,
+          "ap": 145.0,
+          "attacks": 9.67,
+          "energized": 2.3,
+          "primary_dmg": 804.9,
+          "bounce_dmg": 337.0,
+          "detonate_dmg": 0.0,
+          "total": 1141.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Amplifying Tome"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 130.0,
+          "ap": 165.0,
+          "attacks": 11.7,
+          "energized": 2.79,
+          "primary_dmg": 1239.3,
+          "bounce_dmg": 662.8,
+          "detonate_dmg": 0.0,
+          "total": 1902.1,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 130.0,
+          "ap": 145.0,
+          "attacks": 12.56,
+          "energized": 2.99,
+          "primary_dmg": 1248.0,
+          "bounce_dmg": 675.1,
+          "detonate_dmg": 0.0,
+          "total": 1923.1,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 133.0,
+          "ap": 165.0,
+          "attacks": 12.71,
+          "energized": 3.03,
+          "primary_dmg": 1267.0,
+          "bounce_dmg": 697.9,
+          "detonate_dmg": 0.0,
+          "total": 1964.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 153.0,
+          "ap": 165.0,
+          "attacks": 12.71,
+          "energized": 3.03,
+          "primary_dmg": 1331.0,
+          "bounce_dmg": 692.6,
+          "detonate_dmg": 0.0,
+          "total": 2023.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 156.0,
+          "ap": 165.0,
+          "attacks": 12.81,
+          "energized": 3.05,
+          "primary_dmg": 1304.3,
+          "bounce_dmg": 684.6,
+          "detonate_dmg": 0.0,
+          "total": 1988.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, nashor"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 171.0,
+          "ap": 175.0,
+          "attacks": 13.01,
+          "energized": 3.1,
+          "primary_dmg": 1775.5,
+          "bounce_dmg": 871.1,
+          "detonate_dmg": 0.0,
+          "total": 2646.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, nashor"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 257.6,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 280.8,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 334.6,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 346.2,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 396.9,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 478.5,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 559.1,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 635.3,
+          "items": [
+            "Recurve Bow",
+            "Boots of Mana",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 954.5,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 924.1,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 991.0,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 988.7,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 962.9,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Fiendish Codex"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1313.9,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1383.6,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1395.9,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1467.2,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1470.2,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1438.4,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 1887.2,
+          "items": [
+            "Boots of Mana",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ]
+        }
+      ]
+    },
+    "Twitch": {
+      "role": "ADC",
+      "notes": "Venom stacks bounce, then E (7.3 hybrid). Spray and Pray already applies on-hit in a line \u2014 overlap.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 62.0,
+          "ap": 0.0,
+          "attacks": 6.57,
+          "energized": 0.0,
+          "primary_dmg": 269.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 269.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 66.0,
+          "ap": 0.0,
+          "attacks": 6.71,
+          "energized": 0.0,
+          "primary_dmg": 286.3,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 286.3,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 70.0,
+          "ap": 0.0,
+          "attacks": 7.77,
+          "energized": 0.0,
+          "primary_dmg": 344.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 344.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 74.0,
+          "ap": 0.0,
+          "attacks": 9.52,
+          "energized": 0.0,
+          "primary_dmg": 437.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 437.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 78.0,
+          "ap": 0.0,
+          "attacks": 9.66,
+          "energized": 0.0,
+          "primary_dmg": 459.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 459.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 102.0,
+          "ap": 0.0,
+          "attacks": 9.8,
+          "energized": 0.0,
+          "primary_dmg": 597.1,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 597.1,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 106.0,
+          "ap": 0.0,
+          "attacks": 9.94,
+          "energized": 0.0,
+          "primary_dmg": 617.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 617.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 106.0,
+          "ap": 30.0,
+          "attacks": 9.94,
+          "energized": 0.0,
+          "primary_dmg": 617.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 617.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 130.0,
+          "ap": 40.0,
+          "attacks": 10.67,
+          "energized": 2.54,
+          "primary_dmg": 854.6,
+          "bounce_dmg": 308.9,
+          "detonate_dmg": 360.6,
+          "total": 1524.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 134.0,
+          "ap": 40.0,
+          "attacks": 10.8,
+          "energized": 2.57,
+          "primary_dmg": 838.8,
+          "bounce_dmg": 307.9,
+          "detonate_dmg": 365.9,
+          "total": 1512.7,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 138.0,
+          "ap": 60.0,
+          "attacks": 11.87,
+          "energized": 2.83,
+          "primary_dmg": 895.0,
+          "bounce_dmg": 331.0,
+          "detonate_dmg": 432.9,
+          "total": 1658.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 158.0,
+          "ap": 40.0,
+          "attacks": 11.87,
+          "energized": 2.83,
+          "primary_dmg": 973.6,
+          "bounce_dmg": 327.3,
+          "detonate_dmg": 414.1,
+          "total": 1715.0,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 162.0,
+          "ap": 60.0,
+          "attacks": 12.0,
+          "energized": 2.86,
+          "primary_dmg": 957.9,
+          "bounce_dmg": 324.4,
+          "detonate_dmg": 455.6,
+          "total": 1737.9,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 177.0,
+          "ap": 70.0,
+          "attacks": 12.19,
+          "energized": 2.9,
+          "primary_dmg": 1258.7,
+          "bounce_dmg": 488.9,
+          "detonate_dmg": 492.9,
+          "total": 2240.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 181.0,
+          "ap": 70.0,
+          "attacks": 12.45,
+          "energized": 2.97,
+          "primary_dmg": 1249.7,
+          "bounce_dmg": 489.7,
+          "detonate_dmg": 502.1,
+          "total": 2241.5,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 181.0,
+          "ap": 70.0,
+          "attacks": 13.38,
+          "energized": 3.19,
+          "primary_dmg": 1301.0,
+          "bounce_dmg": 520.6,
+          "detonate_dmg": 530.8,
+          "total": 2352.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 185.0,
+          "ap": 70.0,
+          "attacks": 13.52,
+          "energized": 3.22,
+          "primary_dmg": 1281.0,
+          "bounce_dmg": 516.0,
+          "detonate_dmg": 536.2,
+          "total": 2333.1,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 205.0,
+          "ap": 70.0,
+          "attacks": 14.21,
+          "energized": 3.38,
+          "primary_dmg": 1413.3,
+          "bounce_dmg": 537.0,
+          "detonate_dmg": 580.3,
+          "total": 2530.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 209.0,
+          "ap": 70.0,
+          "attacks": 14.35,
+          "energized": 3.42,
+          "primary_dmg": 1392.5,
+          "bounce_dmg": 532.3,
+          "detonate_dmg": 586.1,
+          "total": 2510.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 224.0,
+          "ap": 70.0,
+          "attacks": 14.35,
+          "energized": 3.42,
+          "primary_dmg": 1775.6,
+          "bounce_dmg": 734.1,
+          "detonate_dmg": 617.8,
+          "total": 3127.5,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 269.0,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 286.3,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 344.6,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 437.7,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 547.2,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 567.9,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 660.5,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 754.0,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1140.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1203.3,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1174.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1243.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1217.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1518.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1501.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1560.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1531.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1669.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1640.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 2038.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Vayne": {
+      "role": "ADC",
+      "notes": "Silver Bolts do not apply to extra targets (same as Runaan's) and expire on switch. AP wasted.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 63.0,
+          "ap": 0.0,
+          "attacks": 5.46,
+          "energized": 0.0,
+          "primary_dmg": 340.8,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 340.8,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 66.0,
+          "ap": 0.0,
+          "attacks": 5.58,
+          "energized": 0.0,
+          "primary_dmg": 396.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 396.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 69.0,
+          "ap": 0.0,
+          "attacks": 6.54,
+          "energized": 0.0,
+          "primary_dmg": 499.6,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 499.6,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 72.0,
+          "ap": 0.0,
+          "attacks": 8.14,
+          "energized": 0.0,
+          "primary_dmg": 664.3,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 664.3,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 75.0,
+          "ap": 0.0,
+          "attacks": 8.26,
+          "energized": 0.0,
+          "primary_dmg": 764.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 764.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 98.0,
+          "ap": 0.0,
+          "attacks": 8.37,
+          "energized": 0.0,
+          "primary_dmg": 923.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 923.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 101.0,
+          "ap": 0.0,
+          "attacks": 8.49,
+          "energized": 0.0,
+          "primary_dmg": 982.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 982.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 101.0,
+          "ap": 30.0,
+          "attacks": 8.49,
+          "energized": 0.0,
+          "primary_dmg": 998.0,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 998.0,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 124.0,
+          "ap": 40.0,
+          "attacks": 9.03,
+          "energized": 2.15,
+          "primary_dmg": 1335.2,
+          "bounce_dmg": 261.4,
+          "detonate_dmg": 0.0,
+          "total": 1596.6,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 127.0,
+          "ap": 40.0,
+          "attacks": 9.14,
+          "energized": 2.18,
+          "primary_dmg": 1375.8,
+          "bounce_dmg": 260.5,
+          "detonate_dmg": 0.0,
+          "total": 1636.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 130.0,
+          "ap": 60.0,
+          "attacks": 10.11,
+          "energized": 2.41,
+          "primary_dmg": 1550.2,
+          "bounce_dmg": 281.9,
+          "detonate_dmg": 0.0,
+          "total": 1832.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 150.0,
+          "ap": 40.0,
+          "attacks": 10.11,
+          "energized": 2.41,
+          "primary_dmg": 1639.9,
+          "bounce_dmg": 278.8,
+          "detonate_dmg": 0.0,
+          "total": 1918.7,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 153.0,
+          "ap": 60.0,
+          "attacks": 10.22,
+          "energized": 2.43,
+          "primary_dmg": 1688.0,
+          "bounce_dmg": 276.2,
+          "detonate_dmg": 0.0,
+          "total": 1964.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 168.0,
+          "ap": 70.0,
+          "attacks": 10.39,
+          "energized": 2.47,
+          "primary_dmg": 2297.0,
+          "bounce_dmg": 416.7,
+          "detonate_dmg": 0.0,
+          "total": 2713.7,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 171.0,
+          "ap": 70.0,
+          "attacks": 10.51,
+          "energized": 2.5,
+          "primary_dmg": 2364.6,
+          "bounce_dmg": 413.0,
+          "detonate_dmg": 0.0,
+          "total": 2777.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 171.0,
+          "ap": 70.0,
+          "attacks": 11.36,
+          "energized": 2.7,
+          "primary_dmg": 2554.0,
+          "bounce_dmg": 441.9,
+          "detonate_dmg": 0.0,
+          "total": 2995.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 174.0,
+          "ap": 70.0,
+          "attacks": 11.47,
+          "energized": 2.73,
+          "primary_dmg": 2631.4,
+          "bounce_dmg": 437.8,
+          "detonate_dmg": 0.0,
+          "total": 3069.2,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 194.0,
+          "ap": 70.0,
+          "attacks": 12.11,
+          "energized": 2.88,
+          "primary_dmg": 2869.8,
+          "bounce_dmg": 457.6,
+          "detonate_dmg": 0.0,
+          "total": 3327.4,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 197.0,
+          "ap": 70.0,
+          "attacks": 12.22,
+          "energized": 2.91,
+          "primary_dmg": 2952.9,
+          "bounce_dmg": 453.4,
+          "detonate_dmg": 0.0,
+          "total": 3406.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 212.0,
+          "ap": 70.0,
+          "attacks": 12.22,
+          "energized": 2.91,
+          "primary_dmg": 3311.3,
+          "bounce_dmg": 625.3,
+          "detonate_dmg": 0.0,
+          "total": 3936.6,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 340.8,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 396.7,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 499.6,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 664.3,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 840.1,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 898.2,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 1056.0,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 1153.2,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1592.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1770.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1806.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1888.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1928.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 2545.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 2605.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 2803.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 2874.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 3118.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 3196.3,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 3569.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    },
+    "Ashe": {
+      "role": "ADC",
+      "notes": "Frost Shot slow bounces \u2014 utility, almost no extra damage. 7.3 Frost bonus is crit-scaled.",
+      "shiv": [
+        {
+          "minute": 1,
+          "items": [
+            "Boots"
+          ],
+          "gold": 880,
+          "level": 2,
+          "ad": 64.2,
+          "ap": 0.0,
+          "attacks": 5.59,
+          "energized": 0.0,
+          "primary_dmg": 246.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 246.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 2,
+          "items": [
+            "Boots"
+          ],
+          "gold": 1260,
+          "level": 3,
+          "ad": 68.4,
+          "ap": 0.0,
+          "attacks": 5.73,
+          "energized": 0.0,
+          "primary_dmg": 263.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 263.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 3,
+          "items": [
+            "Boots",
+            "Kircheis Shard"
+          ],
+          "gold": 1640,
+          "level": 4,
+          "ad": 72.6,
+          "ap": 0.0,
+          "attacks": 6.76,
+          "energized": 0.0,
+          "primary_dmg": 323.3,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 323.3,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 4,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2020,
+          "level": 5,
+          "ad": 76.8,
+          "ap": 0.0,
+          "attacks": 8.46,
+          "energized": 0.0,
+          "primary_dmg": 419.5,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 419.5,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 5,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves"
+          ],
+          "gold": 2400,
+          "level": 6,
+          "ad": 81.0,
+          "ap": 0.0,
+          "attacks": 8.59,
+          "energized": 0.0,
+          "primary_dmg": 440.7,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 440.7,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 6,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 2890,
+          "level": 7,
+          "ad": 105.2,
+          "ap": 0.0,
+          "attacks": 8.73,
+          "energized": 0.0,
+          "primary_dmg": 570.2,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 570.2,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 7,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe"
+          ],
+          "gold": 3380,
+          "level": 8,
+          "ad": 109.4,
+          "ap": 0.0,
+          "attacks": 8.86,
+          "energized": 0.0,
+          "primary_dmg": 590.8,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 590.8,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 8,
+          "items": [
+            "Kircheis Shard",
+            "Berserker's Greaves",
+            "Pickaxe",
+            "Aether Wisp"
+          ],
+          "gold": 3870,
+          "level": 8,
+          "ad": 109.4,
+          "ap": 30.0,
+          "attacks": 8.86,
+          "energized": 0.0,
+          "primary_dmg": 590.8,
+          "bounce_dmg": 0.0,
+          "detonate_dmg": 0.0,
+          "total": 590.8,
+          "shiv_online": false,
+          "notes": "components"
+        },
+        {
+          "minute": 9,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4360,
+          "level": 9,
+          "ad": 133.6,
+          "ap": 40.0,
+          "attacks": 9.44,
+          "energized": 2.25,
+          "primary_dmg": 802.9,
+          "bounce_dmg": 296.6,
+          "detonate_dmg": 0.0,
+          "total": 1099.5,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 10,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "gold": 4850,
+          "level": 10,
+          "ad": 137.8,
+          "ap": 40.0,
+          "attacks": 9.58,
+          "energized": 2.28,
+          "primary_dmg": 789.6,
+          "bounce_dmg": 296.5,
+          "detonate_dmg": 0.0,
+          "total": 1086.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 11,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ],
+          "gold": 5410,
+          "level": 11,
+          "ad": 142.0,
+          "ap": 60.0,
+          "attacks": 10.6,
+          "energized": 2.52,
+          "primary_dmg": 850.1,
+          "bounce_dmg": 322.1,
+          "detonate_dmg": 0.0,
+          "total": 1172.2,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 12,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe"
+          ],
+          "gold": 5970,
+          "level": 11,
+          "ad": 162.0,
+          "ap": 40.0,
+          "attacks": 10.6,
+          "energized": 2.52,
+          "primary_dmg": 922.4,
+          "bounce_dmg": 322.1,
+          "detonate_dmg": 0.0,
+          "total": 1244.6,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 13,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ],
+          "gold": 6530,
+          "level": 12,
+          "ad": 166.2,
+          "ap": 60.0,
+          "attacks": 10.74,
+          "energized": 2.56,
+          "primary_dmg": 909.0,
+          "bounce_dmg": 320.2,
+          "detonate_dmg": 0.0,
+          "total": 1229.1,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce"
+        },
+        {
+          "minute": 14,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7090,
+          "level": 12,
+          "ad": 181.2,
+          "ap": 70.0,
+          "attacks": 10.92,
+          "energized": 2.6,
+          "primary_dmg": 1192.7,
+          "bounce_dmg": 470.6,
+          "detonate_dmg": 0.0,
+          "total": 1663.3,
+          "shiv_online": true,
+          "notes": "shiv 5-bounce, rageblade"
+        },
+        {
+          "minute": 15,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "gold": 7650,
+          "level": 13,
+          "ad": 185.4,
+          "ap": 70.0,
+          "attacks": 11.05,
+          "energized": 2.63,
+          "primary_dmg": 1173.9,
+          "bounce_dmg": 467.6,
+          "detonate_dmg": 0.0,
+          "total": 1641.5,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 16,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8210,
+          "level": 13,
+          "ad": 185.4,
+          "ap": 70.0,
+          "attacks": 11.95,
+          "energized": 2.84,
+          "primary_dmg": 1229.7,
+          "bounce_dmg": 500.3,
+          "detonate_dmg": 0.0,
+          "total": 1730.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 17,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ],
+          "gold": 8770,
+          "level": 14,
+          "ad": 189.6,
+          "ap": 70.0,
+          "attacks": 12.08,
+          "energized": 2.88,
+          "primary_dmg": 1212.7,
+          "bounce_dmg": 496.9,
+          "detonate_dmg": 0.0,
+          "total": 1709.5,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 18,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9330,
+          "level": 14,
+          "ad": 209.6,
+          "ap": 70.0,
+          "attacks": 12.75,
+          "energized": 3.04,
+          "primary_dmg": 1342.8,
+          "bounce_dmg": 523.2,
+          "detonate_dmg": 0.0,
+          "total": 1865.9,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 19,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ],
+          "gold": 9890,
+          "level": 15,
+          "ad": 213.8,
+          "ap": 70.0,
+          "attacks": 12.89,
+          "energized": 3.07,
+          "primary_dmg": 1324.8,
+          "bounce_dmg": 519.6,
+          "detonate_dmg": 0.0,
+          "total": 1844.3,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade"
+        },
+        {
+          "minute": 20,
+          "items": [
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "gold": 10450,
+          "level": 15,
+          "ad": 228.8,
+          "ap": 70.0,
+          "attacks": 12.89,
+          "energized": 3.07,
+          "primary_dmg": 1675.7,
+          "bounce_dmg": 705.4,
+          "detonate_dmg": 0.0,
+          "total": 2381.0,
+          "shiv_online": true,
+          "notes": "shiv 6-bounce, rageblade, terminus"
+        }
+      ],
+      "kraken": [
+        {
+          "minute": 1,
+          "total": 246.7,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 2,
+          "total": 263.5,
+          "items": [
+            "Boots"
+          ]
+        },
+        {
+          "minute": 3,
+          "total": 323.3,
+          "items": [
+            "Boots",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 4,
+          "total": 419.5,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves"
+          ]
+        },
+        {
+          "minute": 5,
+          "total": 522.4,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 6,
+          "total": 543.1,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 7,
+          "total": 635.6,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 8,
+          "total": 722.8,
+          "items": [
+            "Recurve Bow",
+            "Berserker's Greaves",
+            "Hearthbound Axe",
+            "Long Sword"
+          ]
+        },
+        {
+          "minute": 9,
+          "total": 1059.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ]
+        },
+        {
+          "minute": 10,
+          "total": 1128.7,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 11,
+          "total": 1103.4,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 12,
+          "total": 1167.9,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe"
+          ]
+        },
+        {
+          "minute": 13,
+          "total": 1144.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Recurve Bow",
+            "Pickaxe",
+            "Amplifying Tome"
+          ]
+        },
+        {
+          "minute": 14,
+          "total": 1429.6,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 15,
+          "total": 1402.2,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ]
+        },
+        {
+          "minute": 16,
+          "total": 1466.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 17,
+          "total": 1441.1,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow"
+          ]
+        },
+        {
+          "minute": 18,
+          "total": 1576.8,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 19,
+          "total": 1551.5,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Recurve Bow",
+            "Hearthbound Axe"
+          ]
+        },
+        {
+          "minute": 20,
+          "total": 1917.0,
+          "items": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ]
+        }
+      ]
+    }
+  }
+}

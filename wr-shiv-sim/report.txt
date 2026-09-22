@@ -1,0 +1,130 @@
+==============================================================================
+WILD RIFT — STATIKK SHIV SUITABILITY  (Patch 7.3)
+Playstyle: 8s dragon-pit clump (4 champs) | Game length: 20:00
+Metric: unique Shiv package = bounce on-hits + 40 AP  (Shiv − stat stick)
+==============================================================================
+
+ITEM (7.3 rework)
+  3000g · 40 AD · 40 AP · 30% AS · 4% MS
+  Energized lightning bounces 3/4/5/6 (lv 1/5/9/13), 60 magic
+  Applies on-hit effects to secondary bounce targets.
+  Magnetic Blaster removed — this is the on-hit teamfight item.
+
+GOLD / LEVEL (farmer)
+  Min    Gold  Lvl  Bounces
+    4    2020    5        4
+    8    3870    8        4
+   10    4850   10        5
+   12    5970   11        5
+   16    8210   13        6
+   20   10450   15        6
+
+------------------------------------------------------------------------------
+FULL RANKING  (avg unique Shiv damage, minutes 10–20 while item is online)
+------------------------------------------------------------------------------
+  #   Champion     Role       Unique  Bounce+E  vsKraken    20:00    On
+  1   Varus        ADC          1666      1499      1335     4174  9:00
+  2   Kog'Maw      ADC          1396      1157      1026     5102  9:00
+  3   Kalista      ADC          1338      1255       998     3350  9:00
+  4   Teemo        Top/Mid      1269      1134       958     3308  9:00
+  5   Twitch       ADC          1054       966       697     3128  9:00
+  6   Kayle        Top/Mid       682       537       346     2647  9:00
+  7   Kai'Sa       ADC           627       512       317     2543  9:00
+  8   Ashe         ADC           528       450       204     2381  9:00
+  9   Vayne        ADC           469       395       134     3937  9:00
+
+------------------------------------------------------------------------------
+TOP 5 — WHY SHIV
+------------------------------------------------------------------------------
+  1. Varus (ADC)
+     Unique Shiv package: 1666  |  Bounce+detonate: 1499  |  vs Kraken: +1335
+     20:00 clump: 4174  (Kraken path 2329)  AP 95  AD 239
+     Items: Berserker's Greaves › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     W on-hit + Blight stacks bounce, then one Q detonates the clump. Innate turns AS into AD+AP.
+
+  2. Kog'Maw (ADC)
+     Unique Shiv package: 1396  |  Bounce+detonate: 1157  |  vs Kraken: +1026
+     20:00 clump: 5102  (Kraken path 3579)  AP 70  AD 213
+     Items: Berserker's Greaves › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     W Bio-Arcane is %max HP on-hit for 8s. Bounce copies W onto the whole pit.
+
+  3. Kalista (ADC)
+     Unique Shiv package: 1338  |  Bounce+detonate: 1255  |  vs Kraken: +998
+     20:00 clump: 3350  (Kraken path 1958)  AP 70  AD 227
+     Items: Berserker's Greaves › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     Rend spears bounce; one E rips the whole clump. 40 AP is mostly wasted.
+
+  4. Teemo (Top/Mid)
+     Unique Shiv package: 1269  |  Bounce+detonate: 1134  |  vs Kraken: +958
+     20:00 clump: 3308  (Kraken path 1870)  AP 175  AD 177
+     Items: Boots of Mana › Statikk Shiv › Nashor's Tooth › Guinsoo's Rageblade
+     Toxic Shot on-hit + 4s poison bounce. 40 AP is fully spent. Nashor core.
+
+  5. Twitch (ADC)
+     Unique Shiv package: 1054  |  Bounce+detonate: 966  |  vs Kraken: +697
+     20:00 clump: 3128  (Kraken path 2039)  AP 70  AD 224
+     Items: Berserker's Greaves › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     Venom stacks bounce, then E (7.3 hybrid). Spray and Pray already applies on-hit in a line — overlap.
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE  unique Shiv package (Shiv − stick) for the top 5
+------------------------------------------------------------------------------
+   Min      Varus    Kog'Maw    Kalista      Teemo     Twitch   leader
+  8:00          0          0          0          0          0   —
+  9:00       1191        958        917        828        761   Varus
+  10:00       1219        988        914        850        763   Varus
+  11:00       1422       1135       1161        926        857   Varus
+  12:00       1350       1094       1211        983        832   Varus
+  13:00       1435       1156       1200        983        867   Varus
+  14:00       1636       1382       1393       1039       1068   Varus
+  15:00       1660       1410       1381       1447       1076   Varus
+  16:00       1788       1510       1407       1462       1140   Varus
+  17:00       1813       1539       1395       1525       1138   Varus
+  18:00       1906       1611       1469       1507       1205   Varus
+  19:00       1932       1641       1457       1516       1204   Varus
+  20:00       2168       1885       1730       1716       1441   Varus
+
+------------------------------------------------------------------------------
+BOUNCE ANATOMY @ 16:00  (what the lightning actually copies)
+------------------------------------------------------------------------------
+  Champion      Energ  Extra  Lightning+OH  Detonate  Primary
+  Varus           2.8      3           839       773     1738
+  Kog'Maw         3.0      3          1251         0     2798
+  Kalista         3.0      3           492       832     1240
+  Teemo           2.7      3           841       458     1246
+  Twitch          3.2      3           521       531     1301
+  Kayle           3.0      3           675         0     1248
+  Kai'Sa          2.7      3           568         0     1332
+  Ashe            2.8      3           500         0     1230
+  Vayne           2.7      3           442         0     2554
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Top 5 Statikk Shiv users (Wild Rift 7.3, on-hit bounce rework):
+    1) Varus
+    2) Kog'Maw
+    3) Kalista
+    4) Teemo
+    5) Twitch
+
+  WHY THIS ORDER:
+  • Shiv's unique job is copying on-hit onto the people you did not auto.
+  • %HP on-hits (Kog W, Varus Blight) scale with tank HP in a 4-man pit.
+  • Stack-then-detonate kits (Varus Q, Kalista E, Twitch E) cash extras in one spell.
+  • 40 AP is real on Kog / Varus / Teemo / Kayle / Kai'Sa, dead on Vayne / Kalista.
+  • Vayne Silver Bolts do not apply to extra targets (same rule as Runaan's).
+  • Ashe's Frost is a slow, not a damage on-hit — Shiv is a utility toy on her.
+  • vs Kraken: Kraken wins pure single-target. Shiv wins the clump. Buy Shiv
+    when fights are grouped (dragon, Baron, mid siege), not for 1v1 lane.
+
+  RECOMMENDED BUYS when the champ is in the top 5:
+  1) Kircheis Shard + Berserker's (or Boots of Mana on Teemo/Kayle)
+  2) Statikk Shiv (~9–11:00) — bounce comes online
+  3) Guinsoo's Rageblade — phantom hit multiplies the on-hits Shiv copies
+  4) Terminus (AD on-hit) or Nashor's Tooth (AP on-hit)
+  5) BotRK if the frontline is thick
+
+  Trap: buying Shiv on crit ADCs (Jinx, Caitlyn, Miss Fortune, Jhin).
+  They wanted Magnetic Blaster. In 7.3 they want Stormrazor / RFC / IE.
+==============================================================================
