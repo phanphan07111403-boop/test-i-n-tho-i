@@ -4,6 +4,7 @@ League itemization sims.
 
 | Folder | Champion | Question |
 |--------|----------|----------|
+| `wr-7.3-playstyles/` | Wild Rift 7.3, all roles | Top 10 build/playstyles that benefit most in ADC, support, mid, jungle, top |
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
 
