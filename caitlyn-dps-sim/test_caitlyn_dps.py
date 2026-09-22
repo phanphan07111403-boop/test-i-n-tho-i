@@ -100,6 +100,18 @@ class TestCaitlynDps(unittest.TestCase):
         self.assertGreaterEqual(gold_at_minute(20), 13000)
         self.assertLess(gold_at_minute(20), 14000)
 
+    def test_lt_wins_extended_teamfight(self):
+        from simulate_caitlyn_dps import score_keystone, KEYSTONES
+        ext = {k: score_keystone(k, "hex_col_ie_ldr_bt", False) for k in KEYSTONES}
+        self.assertEqual(max(ext, key=ext.get), "lt")
+        self.assertGreater(ext["lt"], ext["conqueror"])
+        self.assertGreater(ext["lt"], ext["dark_harvest"])
+
+    def test_first_strike_wins_3s_poke(self):
+        lt = snapshot("hex_col_ie_ldr_bt", 12, "lt", True)
+        fs = snapshot("hex_col_ie_ldr_bt", 12, "first_strike", True)
+        self.assertGreater(fs["sq_3s"], lt["sq_3s"])
+
 
 if __name__ == "__main__":
     unittest.main()

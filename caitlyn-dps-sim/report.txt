@@ -26,6 +26,7 @@ PLAY THIS  (highest 8s damage)
     · Galeforce dash — không phải max damage
     · Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA
     · Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT
+    · Keystone: Lethal Tempo mặc định. First Strike poke/lane. Conqueror/DH không
 
 ------------------------------------------------------------------------------
 BUY ORDER (vì sao thứ tự này)
@@ -43,36 +44,36 @@ BUY ORDER (vì sao thứ tự này)
 BẢNG PATH  (squishy DPS = damage / TTK)
 ------------------------------------------------------------------------------
   #  Path                                            8     12     16     20     24  score
-  1  Hex → Collector → IE → LDR → BT               374    573    506    945   2148  4478 <<
-  2  Hex → IE → Collector → LDR → BT               374    283    565    945   2148  4254
-  3  Hex → RFC → IE → LDR → BT                     374    444    413    728   2260  4150
-  4  Hex → IE → RFC → LDR → BT                     374    283    565    728   2260  4145
-  5  Hex → IE → RFC → LDR → Collector              374    283    565    728   2212  4095
-  6  Yun Tal → IE → RFC → LDR → BT                 196    285    590    851   2046  3946
-  7  Galeforce → IE → RFC → LDR → BT               356    256    542    690   2137  3906
-  8  Stormrazor → IE → RFC → LDR → BT              196    331    598    730   1787  3633
-  9  Collector → IE → RFC → LDR → BT               196    304    577    724   1854  3621
-  10 Hex → IE → RFC → Collector → BT               374    283    565    728   1760  3594
+  1  Hex → Collector → IE → LDR → BT               399    612    555    980   2227  4697 <<
+  2  Hex → IE → Collector → LDR → BT               399    295    599    980   2227  4431
+  3  Hex → RFC → IE → LDR → BT                     399    466    427    760   2260  4251
+  4  Hex → IE → RFC → LDR → BT                     399    295    599    760   2260  4251
+  5  Hex → IE → RFC → LDR → Collector              399    295    599    760   2212  4199
+  6  Yun Tal → IE → RFC → LDR → BT                 200    294    615    894   2046  4038
+  7  Galeforce → IE → RFC → LDR → BT               388    285    573    717   2137  4022
+  8  Stormrazor → IE → RFC → LDR → BT              200    345    629    760   1787  3738
+  9  Collector → IE → RFC → LDR → BT               200    346    607    756   1854  3730
+  10 Hex → IE → RFC → Collector → BT               399    295    599    760   1760  3690
 
   Tank DPS @12 / @16 / @20 / @24
-    Hex → Collector → IE → LDR → BT             279 / 266 / 374 / 1104
-    Hex → IE → Collector → LDR → BT             191 / 303 / 374 / 1104
-    Hex → RFC → IE → LDR → BT                   270 / 247 / 378 / 1062
-    Hex → IE → RFC → LDR → BT                   191 / 303 / 378 / 1062
-    Hex → IE → RFC → LDR → Collector            191 / 303 / 378 / 1022
+    Hex → Collector → IE → LDR → BT             298 / 269 / 377 / 1161
+    Hex → IE → Collector → LDR → BT             205 / 306 / 377 / 1161
+    Hex → RFC → IE → LDR → BT                   286 / 262 / 381 / 1093
+    Hex → IE → RFC → LDR → BT                   205 / 306 / 381 / 1093
+    Hex → IE → RFC → LDR → Collector            205 / 306 / 381 / 1049
 
 ------------------------------------------------------------------------------
 SPIKE MUA ĐỒ  (path thắng)
 ------------------------------------------------------------------------------
-  08:00  lv9    4500g  crit  25%/200%  AS 1.35  AD 158.6  dps 374/216  ttk 4.5  squish 1683
+  08:00  lv9    4500g  crit  25%/200%  AS 1.43  AD 158.6  dps 399/218  ttk 4.3  squish 1715
          Berserker's Greaves › Hexoptics C44
-  12:00  lv12   7220g  crit  50%/200%  AS 1.43  AD 221.2  dps 573/279  ttk 3.6  squish 2063
+  12:00  lv12   7220g  crit  50%/200%  AS 1.50  AD 221.2  dps 612/298  ttk 3.4  squish 2080
          Berserker's Greaves › Hexoptics C44 › The Collector
-  16:00  lv14  10180g  crit  50%/200%  AS 1.52  AD 229.6  dps 506/266  ttk 4.75  squish 2402
+  16:00  lv14  10180g  crit  50%/200%  AS 1.58  AD 229.6  dps 555/269  ttk 4.55  squish 2523
          Berserker's Greaves › Hexoptics C44 › The Collector
-  20:00  lv15  13140g  crit  75%/230%  AS 1.49  AD 308.8  dps 945/374  ttk 2.75  squish 2598
+  20:00  lv15  13140g  crit  75%/230%  AS 1.56  AD 308.8  dps 980/377  ttk 2.65  squish 2598
          Berserker's Greaves › Hexoptics C44 › The Collector › Infinity Edge
-  24:00  lv15  17140g  crit 100%/230%  AS 1.46  AD 418.8  dps 2148/1104  ttk 1.4  squish 3007
+  24:00  lv15  17140g  crit 100%/230%  AS 1.52  AD 418.8  dps 2227/1161  ttk 1.35  squish 3007
          Berserker's Greaves › Hexoptics C44 › The Collector › Infinity Edge › Lord Dominik's Regards › Bloodthirster
 
 ------------------------------------------------------------------------------
@@ -83,6 +84,28 @@ GHI CHÚ 7.3
   • RFC 3rd (WRF) = late squish DPS cao hơn, mất 50 AD Collector.
   • 4 item crit = 100%. Ô 6 = BT 75 AD, không Collector/Galeforce (overcap).
   • Trap Headshot +40–190 (+30% bAD) mới 7.3. Combo trap→AA→Q.
-  • WRF RFC-page @24 dps 2260/1062.
-  • Winner @24 dps 2148/1104  squish 3007 tank 5187.
+  • WRF RFC-page @24 dps 2260/1093.
+  • Winner @24 dps 2227/1161  squish 3007 tank 5223.
+
+------------------------------------------------------------------------------
+KEYSTONE  (cùng path thắng)
+------------------------------------------------------------------------------
+  Mặc định: Lethal Tempo. First Strike ĐƯỢC (poke/lane). Conqueror / DH — không.
+  8s sponge (không dừng khi chết) — teamfight
+  Keystone                8     12     16     20     24  score
+  Lethal Tempo          309    431    420    616   1187  3149 <<
+  Conqueror             302    388    399    599   1166  3035
+  First Strike          293    380    389    596   1145  2979
+  Dark Harvest          285    374    388    593   1123  2926
+
+  Burst 3s @12 (trap HS + Q + net HS + R trong First Strike window)
+    Lethal Tempo        3s 1814   ttk 3.4
+    First Strike        3s 1949   ttk 3.7
+    Conqueror           3s 1876   ttk 3.7
+    Dark Harvest        3s 1871   ttk 3.7
+
+  • Lethal Tempo 7.3: AS stack + bolt. Teamfight / Headshot cadence. WRF default.
+  • First Strike: 7% true 3s + gold (45% ranged). Combo Cait nằm gọn trong 3s — poke ĐƯỢC.
+  • Conqueror: 3–5 AD×6 (18–30 AD) + 5% vamp. Bruiser all-in, không phải Cait kite.
+  • Dark Harvest: 1 proc <50% HP (35+11×soul+10% bAD), CD 20s. Snowball execute, không DPS.
 ==============================================================================

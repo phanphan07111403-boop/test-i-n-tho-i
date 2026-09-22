@@ -337,6 +337,7 @@ class FightResult:
     damage: float = 0.0
     physical: float = 0.0
     magic: float = 0.0
+    true_dmg: float = 0.0
     autos: int = 0
     headshots: int = 0
     ttk: Optional[float] = None
@@ -345,7 +346,25 @@ class FightResult:
     ad: float = 0.0
     crit: float = 0.0
     crit_dmg: float = CRIT_BASE
+    dmg_3s: float = 0.0
+    keystone: str = "lt"
     items: List[str] = field(default_factory=list)
+
+
+KEYSTONES = ("lt", "first_strike", "conqueror", "dark_harvest")
+KEYSTONE_LABEL = {
+    "lt": "Lethal Tempo",
+    "first_strike": "First Strike",
+    "conqueror": "Conqueror",
+    "dark_harvest": "Dark Harvest",
+}
+CONQ_AD = (3.0, 5.0)
+CONQ_MAX = 6
+FS_WINDOW = 3.0
+FS_TRUE = 0.07
+DH_BASE = 35.0
+DH_PER_SOUL = 11.0
+DH_AD = 0.10
 
 
 def headshot_bonus(ad: float, crit: float, crit_dmg: float, level: int) -> float:
@@ -359,6 +378,8 @@ def simulate_fight(
     minute: int,
     target: Target,
     yun_crit: float = 0.0,
+    keystone: str = "lt",
+    stop_on_kill: bool = True,
 ) -> FightResult:
     level = level_at_minute(minute)
     st = aggregate(owned, yun_crit)
@@ -385,6 +406,9 @@ def simulate_fight(
     mr = target.mr
     hs_stacks = 0
     lt_stacks = 0
+    conq_stacks = 0
+    dh_proc = False
+    recorded_3s = False
     energized = 55.0
     energized_per_auto = 12
     q_used = False
@@ -394,17 +418,25 @@ def simulate_fight(
     t = 0.0
     dt = 0.05
     next_auto = 0.25
-    res = FightResult(items=list(owned), crit=st.crit, crit_dmg=st.crit_dmg)
+    res = FightResult(
+        items=list(owned), crit=st.crit, crit_dmg=st.crit_dmg, keystone=keystone
+    )
     as_sum = 0.0
     as_n = 0
     killed_at: Optional[float] = None
     execute_pct = 0.05 if collector else 0.0
 
     def total_ad() -> float:
-        return base_ad + st.ad
+        extra = 0.0
+        if keystone == "conqueror":
+            extra = lerp(CONQ_AD[0], CONQ_AD[1], level) * conq_stacks
+        return base_ad + st.ad + extra
 
     def bonus_as() -> float:
-        return level_as + st.bonus_as + alacrity + LT_AS_STACK * lt_stacks
+        b = level_as + st.bonus_as + alacrity
+        if keystone == "lt":
+            b += LT_AS_STACK * lt_stacks
+        return b
 
     def current_as() -> float:
         return min(AS_CAP, BASE_AS + bonus_as() * AS_RATIO)
@@ -416,7 +448,7 @@ def simulate_fight(
         return 0.10 if rfc else 0.08
 
     def deal(amount: float, kind: str, basic: bool = False) -> None:
-        nonlocal hp, killed_at
+        nonlocal hp, killed_at, dh_proc
         if amount <= 0:
             return
         if kind == "phys":
@@ -438,6 +470,26 @@ def simulate_fight(
                 amount *= 1.0 + min(0.25, (target.hp - cait_hp) / 2000.0 * 0.25)
         res.damage += amount
         hp -= amount
+        if keystone == "first_strike" and t <= FS_WINDOW:
+            extra = amount * FS_TRUE
+            res.true_dmg += extra
+            res.damage += extra
+            hp -= extra
+        if (
+            keystone == "dark_harvest"
+            and (not dh_proc)
+            and hp / max(target.hp, 1.0) <= 0.50
+            and hp > 0
+        ):
+            dh_proc = True
+            souls = min(15.0, max(0.0, float(minute - 5)))
+            dh = DH_BASE + DH_PER_SOUL * souls + DH_AD * st.ad
+            dh *= phys_mult(armor, st.lethality, st.armor_pen)
+            if target.name == "tank":
+                dh *= 1.0 + CUT_DOWN
+            res.physical += dh
+            res.damage += dh
+            hp -= dh
         if collector and hp > 0 and hp / target.hp <= execute_pct:
             res.damage += hp
             hp = 0
@@ -449,6 +501,7 @@ def simulate_fight(
         return ad * (1.0 + c * (st.crit_dmg - 1.0))
 
     def do_headshot(trap: bool) -> None:
+        nonlocal conq_stacks, lt_stacks
         ad = total_ad()
         deal(expected_auto(ad), "phys", basic=True)
         deal(headshot_bonus(ad, st.crit, st.crit_dmg, level), "phys", basic=True)
@@ -458,8 +511,13 @@ def simulate_fight(
         deal(BRUTAL, "phys", basic=True)
         res.autos += 1
         res.headshots += 1
+        if keystone == "conqueror":
+            conq_stacks = min(CONQ_MAX, conq_stacks + 1)
+        if keystone == "lt":
+            lt_stacks = min(LT_MAX, lt_stacks + 1)
 
     def fire_q() -> None:
+        nonlocal conq_stacks
         if q_rank <= 0:
             return
         bases = [50.0, 100.0, 150.0, 200.0]
@@ -468,8 +526,11 @@ def simulate_fight(
         if er:
             # Spellblade: 1.35×base AD + 0.8 per 1% crit (up to 80)
             deal(1.35 * base_ad + 80.0 * st.crit, "phys")
+        if keystone == "conqueror":
+            conq_stacks = min(CONQ_MAX, conq_stacks + 1)
 
     def fire_r() -> None:
+        nonlocal conq_stacks
         if r_rank <= 0:
             return
         bases = [250.0, 450.0, 650.0]
@@ -477,9 +538,11 @@ def simulate_fight(
         raw = bases[r_rank - 1] + 1.00 * st.ad + 0.20 * missing
         mult = 1.0 + st.crit * 0.30 * (st.crit_dmg - 1.0)
         deal(raw * mult, "phys")
+        if keystone == "conqueror":
+            conq_stacks = min(CONQ_MAX, conq_stacks + 1)
 
     def auto_attack() -> None:
-        nonlocal hs_stacks, lt_stacks, energized
+        nonlocal hs_stacks, lt_stacks, energized, conq_stacks
         ad = total_ad()
         hs_stacks += 1
         if hs_stacks >= 6:
@@ -489,8 +552,10 @@ def simulate_fight(
             deal(expected_auto(ad), "phys", basic=True)
             deal(BRUTAL, "phys", basic=True)
             res.autos += 1
-        lt_stacks = min(LT_MAX, lt_stacks + 1)
-        if lt_stacks >= LT_MAX:
+        lt_stacks = min(LT_MAX, lt_stacks + 1) if keystone == "lt" else lt_stacks
+        if keystone == "conqueror":
+            conq_stacks = min(CONQ_MAX, conq_stacks + 1)
+        if keystone == "lt" and lt_stacks >= LT_MAX:
             bolt = lerp(LT_BOLT[0], LT_BOLT[1], level)
             bolt *= 1.0 + bonus_as() * 100.0 * LT_BOLT_AS_AMP
             deal(bolt, "phys")
@@ -500,10 +565,15 @@ def simulate_fight(
             deal(80.0 if rfc else 120.0, "magic")
 
     # Max-damage combo: trap HS → Q → net HS → autos → R
-    while t < FIGHT_SECONDS and (killed_at is None or t < killed_at + 0.01):
+    while t < FIGHT_SECONDS and (
+        (not stop_on_kill) or killed_at is None or t < killed_at + 0.01
+    ):
         as_sum += current_as()
         as_n += 1
         res.as_peak = max(res.as_peak, current_as())
+        if (not recorded_3s) and t >= 3.0:
+            res.dmg_3s = res.damage
+            recorded_3s = True
         if (not trap_hs_done) and t >= 0.15:
             do_headshot(True)
             trap_hs_done = True
@@ -527,6 +597,8 @@ def simulate_fight(
         t += dt
 
     res.ttk = killed_at
+    if not recorded_3s:
+        res.dmg_3s = res.damage
     res.as_avg = as_sum / max(1, as_n)
     res.ad = total_ad()
     res.crit = st.crit
@@ -583,6 +655,7 @@ PAGE = {
         "Galeforce dash — không phải max damage",
         "Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA",
         "Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT",
+        "Keystone: Lethal Tempo mặc định. First Strike poke/lane. Conqueror/DH không",
     ],
     "pad_score": 78,
     "pad_note": "Trap tap gần. RFC/Hexoptics kite analog. R lock.",
@@ -598,26 +671,36 @@ def yun_crit_at(path_key: str, minute: int) -> float:
     return min(0.25, held * 10 * 0.002)
 
 
-def snapshot(path_key: str, minute: int) -> Dict:
+def snapshot(
+    path_key: str,
+    minute: int,
+    keystone: str = "lt",
+    stop_on_kill: bool = True,
+) -> Dict:
     path = PATHS[path_key]
     gold = gold_at_minute(minute)
     owned = owned_at_gold(path, gold)
     yc = yun_crit_at(path_key, minute)
-    sq = simulate_fight(owned, minute, squishy(minute), yc)
-    tk = simulate_fight(owned, minute, tank(minute), yc)
+    sq = simulate_fight(owned, minute, squishy(minute), yc, keystone, stop_on_kill)
+    tk = simulate_fight(owned, minute, tank(minute), yc, keystone, stop_on_kill)
     st = aggregate(owned, yc)
+    fight_t = FIGHT_SECONDS if not stop_on_kill else (sq.ttk if sq.ttk else FIGHT_SECONDS)
+    tank_t = FIGHT_SECONDS if not stop_on_kill else (tk.ttk if tk.ttk else FIGHT_SECONDS)
     return {
         "minute": minute,
         "level": level_at_minute(minute),
         "gold": gold,
         "owned": [item_name(i) for i in owned],
         "ids": owned,
+        "keystone": keystone,
         "squishy": round(sq.damage),
         "tank": round(tk.damage),
+        "sq_3s": round(sq.dmg_3s),
+        "tk_3s": round(tk.dmg_3s),
         "sq_ttk": None if sq.ttk is None else round(sq.ttk, 2),
         "tk_ttk": None if tk.ttk is None else round(tk.ttk, 2),
-        "sq_dps": round(sq.damage / (sq.ttk if sq.ttk else FIGHT_SECONDS)),
-        "tk_dps": round(tk.damage / (tk.ttk if tk.ttk else FIGHT_SECONDS)),
+        "sq_dps": round(sq.damage / max(0.3, fight_t)),
+        "tk_dps": round(tk.damage / max(0.3, tank_t)),
         "autos": sq.autos,
         "headshots": sq.headshots,
         "as_avg": round(sq.as_avg, 2),
@@ -636,14 +719,22 @@ def first_item_ready(path_key: str) -> int:
     return 24
 
 
-def score_path(path_key: str) -> float:
-    """Highest damage: squishy DPS 70% (delete ADC) + tank DPS 30%."""
+def score_keystone(
+    keystone: str,
+    path_key: str = "hex_col_ie_ldr_bt",
+    stop_on_kill: bool = True,
+) -> float:
     total = 0.0
     weights = {8: 0.9, 12: 1.3, 16: 1.4, 20: 1.2, 24: 1.1}
     for m, w in weights.items():
-        s = snapshot(path_key, m)
+        s = snapshot(path_key, m, keystone, stop_on_kill)
         total += w * (0.70 * s["sq_dps"] + 0.30 * s["tk_dps"])
     return total
+
+
+def score_path(path_key: str) -> float:
+    """Highest damage: squishy DPS 70% (delete ADC) + tank DPS 30%."""
+    return score_keystone("lt", path_key)
 
 
 def six_slot(owned: List[str]) -> List[str]:
@@ -759,6 +850,34 @@ def write_report(path: str) -> Dict:
     a(f"  • WRF RFC-page @24 dps {wrf_s['sq_dps']}/{wrf_s['tk_dps']}.")
     a(f"  • Winner @24 dps {win_s['sq_dps']}/{win_s['tk_dps']}  "
       f"squish {win_s['squishy']} tank {win_s['tank']}.")
+    a("")
+
+    ks_burst = {k: score_keystone(k, winner, True) for k in KEYSTONES}
+    ks_ext = {k: score_keystone(k, winner, False) for k in KEYSTONES}
+    ks_rank = sorted(KEYSTONES, key=lambda k: ks_ext[k], reverse=True)
+    a("-" * 78)
+    a("KEYSTONE  (cùng path thắng)")
+    a("-" * 78)
+    a("  Mặc định: Lethal Tempo. First Strike ĐƯỢC (poke/lane). Conqueror / DH — không.")
+    a("  8s sponge (không dừng khi chết) — teamfight")
+    a(f"  {'Keystone':<18}{'8':>7}{'12':>7}{'16':>7}{'20':>7}{'24':>7}  score")
+    for k in ks_rank:
+        cells = []
+        for m in MINUTES:
+            s = snapshot(winner, m, k, False)
+            cells.append(f"{s['sq_dps']:>7}")
+        mark = " <<" if k == ks_rank[0] else ""
+        a(f"  {KEYSTONE_LABEL[k]:<18}{''.join(cells)}  {round(ks_ext[k])}{mark}")
+    a("")
+    a("  Burst 3s @12 (trap HS + Q + net HS + R trong First Strike window)")
+    for k in KEYSTONES:
+        s = snapshot(winner, 12, k, True)
+        a(f"    {KEYSTONE_LABEL[k]:<18}  3s {s['sq_3s']:<5}  ttk {s['sq_ttk']}")
+    a("")
+    a("  • Lethal Tempo 7.3: AS stack + bolt. Teamfight / Headshot cadence. WRF default.")
+    a("  • First Strike: 7% true 3s + gold (45% ranged). Combo Cait nằm gọn trong 3s — poke ĐƯỢC.")
+    a("  • Conqueror: 3–5 AD×6 (18–30 AD) + 5% vamp. Bruiser all-in, không phải Cait kite.")
+    a("  • Dark Harvest: 1 proc <50% HP (35+11×soul+10% bAD), CD 20s. Snowball execute, không DPS.")
     a("=" * 78)
 
     payload = {
@@ -779,6 +898,18 @@ def write_report(path: str) -> Dict:
             for k in COMPARE
         },
         "winner_spikes": [snapshot(winner, m) for m in MINUTES],
+        "keystones": {
+            k: {
+                "label": KEYSTONE_LABEL[k],
+                "score_burst": round(ks_burst[k]),
+                "score_extended": round(ks_ext[k]),
+                "by_minute": {str(m): snapshot(winner, m, k, False) for m in MINUTES},
+                "burst12": snapshot(winner, 12, k, True),
+            }
+            for k in KEYSTONES
+        },
+        "keystone_extended_winner": ks_rank[0],
+        "keystone_burst_winner": max(KEYSTONES, key=lambda k: ks_burst[k]),
     }
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
@@ -801,6 +932,11 @@ def main() -> None:
             f"{' › '.join(s['owned'])}"
         )
     print("Wrote report.txt and results.json")
+    print("Keystone 8s sponge:", ", ".join(
+        f"{KEYSTONE_LABEL[k]} {payload['keystones'][k]['score_extended']}"
+        for k in KEYSTONES
+    ))
+    print("Keystone burst:", payload["keystone_burst_winner"])
 
 
 if __name__ == "__main__":

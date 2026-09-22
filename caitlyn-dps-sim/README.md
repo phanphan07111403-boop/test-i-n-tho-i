@@ -16,9 +16,19 @@ Long Sword → Berserkers → **Hexoptics C44** → **Collector** → **Infinity
 | **6 ô** | Hexoptics C44 · Berserker's Greaves · The Collector · Infinity Edge · Lord Dominik's Regards · Bloodthirster |
 | **Max** | Q > W > E (R mọi cấp) |
 | **Spell** | Flash + Ghost |
-| **Runes** | Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating |
+| **Runes** | **Lethal Tempo** · Brutal · Cut Down · Legend: Alacrity · Bone Plating |
 | **Pad** | L1 Q · L2 W trap tap · L3 E net lùi · L4 R lock · A AA Headshot |
 | **Combo** | Trap → Headshot → Q full → net Headshot → R khi thiếu máu |
+
+### Keystone — Dark Harvest / First Strike / Conqueror?
+
+**Mặc định Lethal Tempo.** 7.3 LT = AS stack + bolt, teamfight / Headshot cadence.
+
+| Keystone | Được? | Khi nào |
+|---|---|---|
+| **First Strike** | Có (poke/lane) | 7% true 3s + gold. Combo trap→Q→net→R nằm trong cửa sổ |
+| **Conqueror** | Không | 18–30 AD + 5% vamp. Bruiser all-in, Cait kite |
+| **Dark Harvest** | Không (trừ snowball) | 1 proc khi <50% HP, CD 20s. Execute, không DPS |
 
 ### Vì sao thứ tự này
 
