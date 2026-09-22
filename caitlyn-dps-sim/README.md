@@ -44,5 +44,6 @@ Long Sword → Berserkers → **Hexoptics C44** → **Collector** → **Infinity
 - Hex→IE thẳng nếu farm đủ 3500g trước 12
 - Mortal vs heal · Shieldbow/GA ô 6 vs burst
 - **Đừng Yun Tal** — stack 125 AA, Headshot đói crit
+- **Youmuu first rồi full crit** — 0% crit @8, Headshot/R 7.3 đói crit. Thua Hex. 15 leth không bù Magnification
 
 Pad MB03: trap tap gần địch, analog kite max tầm Hexoptics. D-pad `←` lính / `→` trụ.

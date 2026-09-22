@@ -141,6 +141,12 @@ ITEMS: Dict[str, Dict] = {
         "name": "Immortal Shieldbow", "cost": 3000, "tier": "legendary",
         "stats": {"ad": 55, "crit": 0.25},
     },
+    "youmuus_ghostblade": {
+        "name": "Youmuu's Ghostblade", "cost": 3000, "tier": "legendary",
+        "stats": {"ad": 55, "ah": 15, "lethality": 15},
+        "credits": ["long_sword"],
+        "notes": "Spectral Haste: 25% AS 4s after full Momentum auto.",
+    },
 }
 
 
@@ -204,6 +210,22 @@ PATHS: Dict[str, List[str]] = {
         "rapid_firecannon", "infinity_edge", "lord_dominiks_regards",
         "bloodthirster",
     ],
+    # Youmuu first then full crit (100% from Hex+IE+RFC+LDR)
+    "youmuu_hex_ie_rfc_ldr": [
+        "long_sword", "berserkers_greaves", "youmuus_ghostblade",
+        "hexoptics_c44", "infinity_edge", "rapid_firecannon",
+        "lord_dominiks_regards",
+    ],
+    "youmuu_ie_hex_rfc_ldr": [
+        "long_sword", "berserkers_greaves", "youmuus_ghostblade",
+        "infinity_edge", "hexoptics_c44", "rapid_firecannon",
+        "lord_dominiks_regards",
+    ],
+    "youmuu_col_ie_hex_ldr": [
+        "long_sword", "berserkers_greaves", "youmuus_ghostblade",
+        "the_collector", "infinity_edge", "hexoptics_c44",
+        "lord_dominiks_regards",
+    ],
 }
 
 PATH_LABEL = {
@@ -217,6 +239,9 @@ PATH_LABEL = {
     "yun_ie_rfc_ldr_bt": "Yun Tal → IE → RFC → LDR → BT",
     "gale_ie_rfc_ldr_bt": "Galeforce → IE → RFC → LDR → BT",
     "hex_rfc_ie_ldr_bt": "Hex → RFC → IE → LDR → BT",
+    "youmuu_hex_ie_rfc_ldr": "Youmuu → Hex → IE → RFC → LDR",
+    "youmuu_ie_hex_rfc_ldr": "Youmuu → IE → Hex → RFC → LDR",
+    "youmuu_col_ie_hex_ldr": "Youmuu → Collector → IE → Hex → LDR",
 }
 
 COMPARE = [
@@ -230,6 +255,9 @@ COMPARE = [
     "yun_ie_rfc_ldr_bt",
     "gale_ie_rfc_ldr_bt",
     "hex_rfc_ie_ldr_bt",
+    "youmuu_hex_ie_rfc_ldr",
+    "youmuu_ie_hex_rfc_ldr",
+    "youmuu_col_ie_hex_ldr",
 ]
 
 
@@ -390,6 +418,7 @@ def simulate_fight(
     ldr = "lord_dominiks_regards" in has
     collector = "the_collector" in has
     er = "essence_reaver" in has
+    youmuu = "youmuus_ghostblade" in has
 
     q_rank = skill_rank(level, "Q")
     w_rank = skill_rank(level, "W")
@@ -436,6 +465,9 @@ def simulate_fight(
         b = level_as + st.bonus_as + alacrity
         if keystone == "lt":
             b += LT_AS_STACK * lt_stacks
+        # Spectral Haste: first auto with full Momentum — kite in, 4s.
+        if youmuu and t < 4.0:
+            b += 0.25
         return b
 
     def current_as() -> float:
@@ -656,6 +688,7 @@ PAGE = {
         "Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA",
         "Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT",
         "Keystone: Lethal Tempo mặc định. First Strike poke/lane. Conqueror/DH không",
+        "Youmuu first rồi crit — 0% crit @8, Headshot/R đói crit. Thua Hex",
     ],
     "pad_score": 78,
     "pad_note": "Trap tap gần. RFC/Hexoptics kite analog. R lock.",
@@ -707,6 +740,7 @@ def snapshot(
         "ad": round(sq.ad, 1),
         "crit": round(100 * st.crit),
         "crit_dmg": round(100 * st.crit_dmg),
+        "lethality": round(st.lethality),
     }
 
 
@@ -878,6 +912,36 @@ def write_report(path: str) -> Dict:
     a("  • First Strike: 7% true 3s + gold (45% ranged). Combo Cait nằm gọn trong 3s — poke ĐƯỢC.")
     a("  • Conqueror: 3–5 AD×6 (18–30 AD) + 5% vamp. Bruiser all-in, không phải Cait kite.")
     a("  • Dark Harvest: 1 proc <50% HP (35+11×soul+10% bAD), CD 20s. Snowball execute, không DPS.")
+    a("")
+    a("-" * 78)
+    a("YOUMUU FIRST → FULL CRIT")
+    a("-" * 78)
+    a("  Youmuu 3000g: 55 AD / 15 leth / 15 AH / Spectral Haste 25% AS 4s. 0% crit.")
+    a("  Full crit sau đó: Hex + IE + RFC + LDR = 100%. (Collector 2nd = thêm 12 leth.)")
+    a(f"  {'Path':<42}{'8':>7}{'12':>7}{'16':>7}{'20':>7}{'24':>7}  crit8/24")
+    for key in ("hex_col_ie_ldr_bt", "youmuu_hex_ie_rfc_ldr",
+                "youmuu_ie_hex_rfc_ldr", "youmuu_col_ie_hex_ldr"):
+        cells = []
+        for m in MINUTES:
+            s = snapshot(key, m)
+            cells.append(f"{s['sq_dps']:>7}")
+        s8 = snapshot(key, 8)
+        s24 = snapshot(key, 24)
+        mark = "  << default" if key == "hex_col_ie_ldr_bt" else ""
+        a(
+            f"  {PATH_LABEL[key]:<42}{''.join(cells)}  "
+            f"{s8['crit']}%/{s24['crit']}% leth {s24['lethality']}{mark}"
+        )
+    a("")
+    y8 = snapshot("youmuu_hex_ie_rfc_ldr", 8)
+    h8 = snapshot("hex_col_ie_ldr_bt", 8)
+    y24 = snapshot("youmuu_hex_ie_rfc_ldr", 24)
+    h24 = snapshot("hex_col_ie_ldr_bt", 24)
+    a(f"  @8   Youmuu dps {y8['sq_dps']} crit {y8['crit']}%  vs Hex {h8['sq_dps']} crit {h8['crit']}%")
+    a(f"  @24  Youmuu dps {y24['sq_dps']} crit {y24['crit']}% leth {y24['lethality']}  "
+      f"vs Hex-col {h24['sq_dps']} crit {h24['crit']}% leth {h24['lethality']}")
+    a("  Headshot + R 7.3 scale crit chance — Youmuu first trễ crit 1 item (~4 phút).")
+    a("  15 leth giúp squishy trần, thua Hex 25% crit + Magnification trên Headshot.")
     a("=" * 78)
 
     payload = {

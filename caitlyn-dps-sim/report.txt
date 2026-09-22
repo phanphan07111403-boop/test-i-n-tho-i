@@ -27,6 +27,7 @@ PLAY THIS  (highest 8s damage)
     · Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA
     · Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT
     · Keystone: Lethal Tempo mặc định. First Strike poke/lane. Conqueror/DH không
+    · Youmuu first rồi crit — 0% crit @8, Headshot/R đói crit. Thua Hex
 
 ------------------------------------------------------------------------------
 BUY ORDER (vì sao thứ tự này)
@@ -45,22 +46,25 @@ BẢNG PATH  (squishy DPS = damage / TTK)
 ------------------------------------------------------------------------------
   #  Path                                            8     12     16     20     24  score
   1  Hex → Collector → IE → LDR → BT               399    612    555    980   2227  4697 <<
-  2  Hex → IE → Collector → LDR → BT               399    295    599    980   2227  4431
-  3  Hex → RFC → IE → LDR → BT                     399    466    427    760   2260  4251
-  4  Hex → IE → RFC → LDR → BT                     399    295    599    760   2260  4251
-  5  Hex → IE → RFC → LDR → Collector              399    295    599    760   2212  4199
-  6  Yun Tal → IE → RFC → LDR → BT                 200    294    615    894   2046  4038
-  7  Galeforce → IE → RFC → LDR → BT               388    285    573    717   2137  4022
-  8  Stormrazor → IE → RFC → LDR → BT              200    345    629    760   1787  3738
-  9  Collector → IE → RFC → LDR → BT               200    346    607    756   1854  3730
-  10 Hex → IE → RFC → Collector → BT               399    295    599    760   1760  3690
+  2  Youmuu → Collector → IE → Hex → LDR           379    500    497    850   2310  4462
+  3  Hex → IE → Collector → LDR → BT               399    295    599    980   2227  4431
+  4  Youmuu → Hex → IE → RFC → LDR                 379    509    463    773   2260  4318
+  5  Hex → RFC → IE → LDR → BT                     399    466    427    760   2260  4251
+  6  Hex → IE → RFC → LDR → BT                     399    295    599    760   2260  4251
+  7  Hex → IE → RFC → LDR → Collector              399    295    599    760   2212  4199
+  8  Youmuu → IE → Hex → RFC → LDR                 379    246    516    773   2260  4101
+  9  Yun Tal → IE → RFC → LDR → BT                 200    294    615    894   2046  4038
+  10 Galeforce → IE → RFC → LDR → BT               388    285    573    717   2137  4022
+  11 Stormrazor → IE → RFC → LDR → BT              200    345    629    760   1787  3738
+  12 Collector → IE → RFC → LDR → BT               200    346    607    756   1854  3730
+  13 Hex → IE → RFC → Collector → BT               399    295    599    760   1760  3690
 
   Tank DPS @12 / @16 / @20 / @24
     Hex → Collector → IE → LDR → BT             298 / 269 / 377 / 1161
+    Youmuu → Collector → IE → Hex → LDR         256 / 251 / 347 / 1237
     Hex → IE → Collector → LDR → BT             205 / 306 / 377 / 1161
+    Youmuu → Hex → IE → RFC → LDR               266 / 262 / 365 / 1144
     Hex → RFC → IE → LDR → BT                   286 / 262 / 381 / 1093
-    Hex → IE → RFC → LDR → BT                   205 / 306 / 381 / 1093
-    Hex → IE → RFC → LDR → Collector            205 / 306 / 381 / 1049
 
 ------------------------------------------------------------------------------
 SPIKE MUA ĐỒ  (path thắng)
@@ -108,4 +112,20 @@ KEYSTONE  (cùng path thắng)
   • First Strike: 7% true 3s + gold (45% ranged). Combo Cait nằm gọn trong 3s — poke ĐƯỢC.
   • Conqueror: 3–5 AD×6 (18–30 AD) + 5% vamp. Bruiser all-in, không phải Cait kite.
   • Dark Harvest: 1 proc <50% HP (35+11×soul+10% bAD), CD 20s. Snowball execute, không DPS.
+
+------------------------------------------------------------------------------
+YOUMUU FIRST → FULL CRIT
+------------------------------------------------------------------------------
+  Youmuu 3000g: 55 AD / 15 leth / 15 AH / Spectral Haste 25% AS 4s. 0% crit.
+  Full crit sau đó: Hex + IE + RFC + LDR = 100%. (Collector 2nd = thêm 12 leth.)
+  Path                                            8     12     16     20     24  crit8/24
+  Hex → Collector → IE → LDR → BT               399    612    555    980   2227  25%/100% leth 12  << default
+  Youmuu → Hex → IE → RFC → LDR                 379    509    463    773   2260  0%/100% leth 15
+  Youmuu → IE → Hex → RFC → LDR                 379    246    516    773   2260  0%/100% leth 15
+  Youmuu → Collector → IE → Hex → LDR           379    500    497    850   2310  0%/100% leth 27
+
+  @8   Youmuu dps 379 crit 0%  vs Hex 399 crit 25%
+  @24  Youmuu dps 2260 crit 100% leth 15  vs Hex-col 2227 crit 100% leth 12
+  Headshot + R 7.3 scale crit chance — Youmuu first trễ crit 1 item (~4 phút).
+  15 leth giúp squishy trần, thua Hex 25% crit + Magnification trên Headshot.
 ==============================================================================

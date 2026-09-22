@@ -112,6 +112,17 @@ class TestCaitlynDps(unittest.TestCase):
         fs = snapshot("hex_col_ie_ldr_bt", 12, "first_strike", True)
         self.assertGreater(fs["sq_3s"], lt["sq_3s"])
 
+    def test_youmuu_first_then_crit_loses(self):
+        y = snapshot("youmuu_hex_ie_rfc_ldr", 8)
+        h = snapshot("hex_col_ie_ldr_bt", 8)
+        self.assertEqual(y["crit"], 0)
+        self.assertGreaterEqual(h["crit"], 25)
+        self.assertIn("Youmuu's Ghostblade", y["owned"])
+        self.assertLess(self.scores["youmuu_hex_ie_rfc_ldr"], self.scores[self.winner])
+        s24 = snapshot("youmuu_hex_ie_rfc_ldr", 24)
+        self.assertEqual(s24["crit"], 100)
+        self.assertGreaterEqual(s24["lethality"], 15)
+
 
 if __name__ == "__main__":
     unittest.main()
