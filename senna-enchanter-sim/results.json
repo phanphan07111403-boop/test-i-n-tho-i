@@ -4,12 +4,21 @@
     "role": "Enchanter support",
     "patch": "7.3",
     "game_minutes": 20,
+    "fourth_minutes": 24,
     "playstyle": "Q-max enchanter, auto to refund Q, heal ADC",
     "items": [
       "Echoes of Helia",
       "Whispering Circlet / Diadem of Songs",
       "Ardent Censer",
       "Harmonic Echo"
+    ],
+    "fourth_options": [
+      "Whispering Circlet",
+      "Staff of Flowing Waters",
+      "Imperial Mandate",
+      "Salvation",
+      "Shurelya's Battlesong",
+      "Mikael's Blessing"
     ]
   },
   "timeline": [
@@ -26730,6 +26739,2800 @@
         "impact": 8721.3,
         "gold_eff": 856.71,
         "notes": "Ardent 30% AS, Circlet stacking, Harmonic chain"
+      }
+    ]
+  },
+  "fourth_item_comparison": {
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Whisper": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Tear of the Goddess"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 70.0,
+        "hsp": 0.08,
+        "sustain": 3670.6,
+        "damage_enabled": 6778.5,
+        "impact": 8599.0,
+        "gold_eff": 893.86,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Tear of the Goddess",
+          "Forbidden Idol"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 70.0,
+        "hsp": 0.14,
+        "sustain": 4124.5,
+        "damage_enabled": 7121.0,
+        "impact": 9023.4,
+        "gold_eff": 886.39,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Tear of the Goddess",
+          "Forbidden Idol",
+          "Ruby Crystal"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 70.0,
+        "hsp": 0.14,
+        "sustain": 4163.2,
+        "damage_enabled": 7311.5,
+        "impact": 9220.0,
+        "gold_eff": 858.48,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Whispering Circlet"
+        ],
+        "gold": 11300,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.249,
+        "sustain": 4513.0,
+        "damage_enabled": 7345.0,
+        "impact": 9305.9,
+        "gold_eff": 823.53,
+        "notes": "Ardent 30% AS, Helia Q-dump, Circlet stacking, Harmonic chain"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Whispering Circlet"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.253,
+        "sustain": 4567.9,
+        "damage_enabled": 7423.4,
+        "impact": 9391.7,
+        "gold_eff": 791.88,
+        "notes": "Ardent 30% AS, Helia Q-dump, Circlet stacking, Harmonic chain"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Whispering Circlet"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.256,
+        "sustain": 4623.1,
+        "damage_enabled": 7501.7,
+        "impact": 9477.3,
+        "gold_eff": 763.07,
+        "notes": "Ardent 30% AS, Helia Q-dump, Circlet stacking, Harmonic chain"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Staff": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 3794.4,
+        "damage_enabled": 6735.1,
+        "impact": 8579.2,
+        "gold_eff": 891.81,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 4041.6,
+        "damage_enabled": 7076.7,
+        "impact": 8964.0,
+        "gold_eff": 880.55,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 233.0,
+        "ah": 75.0,
+        "hsp": 0.14,
+        "sustain": 4380.7,
+        "damage_enabled": 7382.5,
+        "impact": 9326.0,
+        "gold_eff": 868.34,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Staff of Flowing Waters"
+        ],
+        "gold": 11300,
+        "legendary_count": 4,
+        "ap": 248.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 4955.4,
+        "damage_enabled": 7854.2,
+        "impact": 9877.0,
+        "gold_eff": 874.07,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Staff Rapids"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Staff of Flowing Waters"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 248.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 4996.5,
+        "damage_enabled": 7935.1,
+        "impact": 9962.5,
+        "gold_eff": 840.0,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Staff Rapids"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Staff of Flowing Waters"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 248.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 5037.6,
+        "damage_enabled": 8016.1,
+        "impact": 10047.8,
+        "gold_eff": 809.01,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Staff Rapids"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Mandate": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Blasting Wand"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 243.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3750.8,
+        "damage_enabled": 6768.5,
+        "impact": 8603.3,
+        "gold_eff": 894.32,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Bandleglass Mirror"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 218.0,
+        "ah": 75.0,
+        "hsp": 0.08,
+        "sustain": 4058.8,
+        "damage_enabled": 7180.3,
+        "impact": 9072.3,
+        "gold_eff": 891.19,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 263.0,
+        "ah": 75.0,
+        "hsp": 0.08,
+        "sustain": 4258.7,
+        "damage_enabled": 7404.7,
+        "impact": 9328.9,
+        "gold_eff": 868.61,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "gold": 11300,
+        "legendary_count": 3,
+        "ap": 263.0,
+        "ah": 75.0,
+        "hsp": 0.08,
+        "sustain": 4295.8,
+        "damage_enabled": 7484.2,
+        "impact": 9413.8,
+        "gold_eff": 833.08,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Imperial Mandate"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 258.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 4485.0,
+        "damage_enabled": 8613.0,
+        "impact": 10573.0,
+        "gold_eff": 891.49,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Mandate 7% mark"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Imperial Mandate"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 258.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 4523.0,
+        "damage_enabled": 8698.3,
+        "impact": 10663.4,
+        "gold_eff": 858.57,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Mandate 7% mark"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Salvation": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 3794.4,
+        "damage_enabled": 6735.1,
+        "impact": 8579.2,
+        "gold_eff": 891.81,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 4041.6,
+        "damage_enabled": 7076.7,
+        "impact": 8964.0,
+        "gold_eff": 880.55,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol",
+          "Fiendish Codex"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 233.0,
+        "ah": 75.0,
+        "hsp": 0.14,
+        "sustain": 4380.7,
+        "damage_enabled": 7382.5,
+        "impact": 9326.0,
+        "gold_eff": 868.34,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Salvation"
+        ],
+        "gold": 11300,
+        "legendary_count": 4,
+        "ap": 238.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 5433.1,
+        "damage_enabled": 7871.5,
+        "impact": 9926.3,
+        "gold_eff": 878.43,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Salvation active"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Salvation"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 238.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 5472.9,
+        "damage_enabled": 7954.1,
+        "impact": 10012.5,
+        "gold_eff": 844.22,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Salvation active"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Salvation"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 238.0,
+        "ah": 75.0,
+        "hsp": 0.16,
+        "sustain": 5512.7,
+        "damage_enabled": 8036.7,
+        "impact": 10098.6,
+        "gold_eff": 813.09,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Salvation active"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Shurelya": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3594.7,
+        "damage_enabled": 6735.1,
+        "impact": 8539.0,
+        "gold_eff": 887.63,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Aether Wisp"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 228.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3933.6,
+        "damage_enabled": 7098.9,
+        "impact": 8966.6,
+        "gold_eff": 880.81,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Aether Wisp",
+          "Bandleglass Mirror"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 248.0,
+        "ah": 75.0,
+        "hsp": 0.08,
+        "sustain": 4204.4,
+        "damage_enabled": 7393.6,
+        "impact": 9309.2,
+        "gold_eff": 866.78,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Shurelya's Battlesong"
+        ],
+        "gold": 11300,
+        "legendary_count": 4,
+        "ap": 233.0,
+        "ah": 85.0,
+        "hsp": 0.08,
+        "sustain": 4353.5,
+        "damage_enabled": 8065.8,
+        "impact": 10006.9,
+        "gold_eff": 885.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Shurelya MS"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Shurelya's Battlesong"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 233.0,
+        "ah": 85.0,
+        "hsp": 0.08,
+        "sustain": 4391.4,
+        "damage_enabled": 8148.9,
+        "impact": 10095.3,
+        "gold_eff": 851.21,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Shurelya MS"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Shurelya's Battlesong"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 233.0,
+        "ah": 85.0,
+        "hsp": 0.08,
+        "sustain": 4429.4,
+        "damage_enabled": 8231.9,
+        "impact": 10183.7,
+        "gold_eff": 819.95,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Shurelya MS"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Harmonic \u2192 Mikael": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "gold": 830,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 89.6,
+        "damage_enabled": 337.0,
+        "impact": 424.6,
+        "gold_eff": 424.65,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1160,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 147.0,
+        "damage_enabled": 406.7,
+        "impact": 548.5,
+        "gold_eff": 472.86,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "gold": 1490,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.0,
+        "sustain": 151.7,
+        "damage_enabled": 472.1,
+        "impact": 618.2,
+        "gold_eff": 414.91,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 1820,
+        "legendary_count": 0,
+        "ap": 20.0,
+        "ah": 0.0,
+        "hsp": 0.06,
+        "sustain": 223.8,
+        "damage_enabled": 567.2,
+        "impact": 779.1,
+        "gold_eff": 428.05,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "gold": 2280,
+        "legendary_count": 0,
+        "ap": 28.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 430.1,
+        "damage_enabled": 742.8,
+        "impact": 1111.7,
+        "gold_eff": 487.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 2740,
+        "legendary_count": 0,
+        "ap": 62.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 543.2,
+        "damage_enabled": 841.1,
+        "impact": 1293.7,
+        "gold_eff": 472.17,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Aether Wisp"
+        ],
+        "gold": 3200,
+        "legendary_count": 0,
+        "ap": 66.0,
+        "ah": 10.0,
+        "hsp": 0.06,
+        "sustain": 561.7,
+        "damage_enabled": 925.6,
+        "impact": 1390.6,
+        "gold_eff": 434.57,
+        "notes": "Idol HSP, pre-legendary"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Speed",
+          "Ardent Censer"
+        ],
+        "gold": 3660,
+        "legendary_count": 1,
+        "ap": 90.0,
+        "ah": 10.0,
+        "hsp": 0.08,
+        "sustain": 1040.2,
+        "damage_enabled": 2891.9,
+        "impact": 3688.4,
+        "gold_eff": 1007.76,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4120,
+        "legendary_count": 1,
+        "ap": 94.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1157.3,
+        "damage_enabled": 3090.9,
+        "impact": 3955.5,
+        "gold_eff": 960.08,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "gold": 4580,
+        "legendary_count": 1,
+        "ap": 98.0,
+        "ah": 25.0,
+        "hsp": 0.08,
+        "sustain": 1193.9,
+        "damage_enabled": 3611.2,
+        "impact": 4495.3,
+        "gold_eff": 981.51,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5140,
+        "legendary_count": 1,
+        "ap": 122.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1323.4,
+        "damage_enabled": 3748.8,
+        "impact": 4701.4,
+        "gold_eff": 914.67,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "gold": 5700,
+        "legendary_count": 1,
+        "ap": 126.0,
+        "ah": 35.0,
+        "hsp": 0.08,
+        "sustain": 1446.0,
+        "damage_enabled": 3988.5,
+        "impact": 4996.6,
+        "gold_eff": 876.59,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 6260,
+        "legendary_count": 1,
+        "ap": 130.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 1540.3,
+        "damage_enabled": 4185.2,
+        "impact": 5238.6,
+        "gold_eff": 836.84,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "gold": 6820,
+        "legendary_count": 2,
+        "ap": 154.0,
+        "ah": 45.0,
+        "hsp": 0.08,
+        "sustain": 2575.1,
+        "damage_enabled": 5454.5,
+        "impact": 6989.4,
+        "gold_eff": 1024.84,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7380,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2794.3,
+        "damage_enabled": 5707.6,
+        "impact": 7310.6,
+        "gold_eff": 990.6,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "gold": 7940,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 55.0,
+        "hsp": 0.08,
+        "sustain": 2877.6,
+        "damage_enabled": 5872.9,
+        "impact": 7500.5,
+        "gold_eff": 944.64,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "gold": 8500,
+        "legendary_count": 2,
+        "ap": 178.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3038.2,
+        "damage_enabled": 6082.4,
+        "impact": 7755.1,
+        "gold_eff": 912.37,
+        "notes": "Ardent 30% AS, Helia Q-dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo"
+        ],
+        "gold": 9060,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.08,
+        "sustain": 3558.6,
+        "damage_enabled": 6661.4,
+        "impact": 8458.0,
+        "gold_eff": 933.56,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 9620,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 3794.4,
+        "damage_enabled": 6735.1,
+        "impact": 8579.2,
+        "gold_eff": 891.81,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol"
+        ],
+        "gold": 10180,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 65.0,
+        "hsp": 0.14,
+        "sustain": 4041.6,
+        "damage_enabled": 7076.7,
+        "impact": 8964.0,
+        "gold_eff": 880.55,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Forbidden Idol",
+          "Kindlegem"
+        ],
+        "gold": 10740,
+        "legendary_count": 3,
+        "ap": 198.0,
+        "ah": 75.0,
+        "hsp": 0.14,
+        "sustain": 4247.1,
+        "damage_enabled": 7356.5,
+        "impact": 9279.8,
+        "gold_eff": 864.04,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Mikael's Blessing"
+        ],
+        "gold": 11300,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 80.0,
+        "hsp": 0.17,
+        "sustain": 5049.7,
+        "damage_enabled": 7578.7,
+        "impact": 9601.2,
+        "gold_eff": 849.67,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Mikael cleanse"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Mikael's Blessing"
+        ],
+        "gold": 11860,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 80.0,
+        "hsp": 0.17,
+        "sustain": 5092.9,
+        "damage_enabled": 7659.0,
+        "impact": 9686.1,
+        "gold_eff": 816.7,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Mikael cleanse"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Mikael's Blessing"
+        ],
+        "gold": 12420,
+        "legendary_count": 4,
+        "ap": 198.0,
+        "ah": 80.0,
+        "hsp": 0.17,
+        "sustain": 5136.1,
+        "damage_enabled": 7739.4,
+        "impact": 9770.9,
+        "gold_eff": 786.7,
+        "notes": "Ardent 30% AS, Helia Q-dump, Harmonic chain, Mikael cleanse"
       }
     ]
   }

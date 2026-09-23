@@ -171,4 +171,77 @@ VERDICT
   AH that Helia also buys — and Helia actually converts Senna's autos.
   Trap: Tear rush into item 1. Senna is not as mana-hungry as Sona;
   400g delays the first legendary. Only rush Tear if Circlet is 1st/2nd.
+
+  4th-item note: among Helia/Whisper/Ardent/Harmonic, Whisper is the
+  leftover slot. If the game lasts to 22:00+, Mandate / Staff / Salvation
+  / Shurelya / Mikael are compared in 4TH ITEM vs WHISPER below.
+================================================================================
+
+================================================================================
+4TH ITEM vs WHISPER  (Ardent → Helia → Harmonic locked)
+Clock: 24:00 — 20-min gold finishes ~3 legendaries; 4th completes ~22–23
+Score: time-weighted buff/impact from 18:00–24:00 (when leftover gold matters)
+================================================================================
+
+GOLD (support Senna, same curve)
+  18:00  gold   9060   lvl 14   mist   71   leftover vs 3-item+boots ~260
+  20:00  gold  10180   lvl 15   mist   78   leftover vs 3-item+boots ~1380
+  22:00  gold  11300   lvl 15   mist   85   leftover vs 3-item+boots ~2500
+  24:00  gold  12420   lvl 15   mist   92   leftover vs 3-item+boots ~3620
+
+  #   4th         Cost     On   20:00   22:00   24:00   Score  vs Whsp
+  1   Mandate     2600  23:00    9072    9414   10663   21063    +6.6%
+  2   Shurelya    2450  22:00    8967   10007   10184   20767    +5.1%
+  3   Salvation   2450  22:00    8964    9926   10099   20756    +5.1%
+  4   Staff       2400  22:00    8964    9877   10048   20529    +3.9%
+  5   Mikael      2500  22:00    8964    9601    9771   20209    +2.3%
+  6   Whisper     2400  22:00    9023    9306    9477   19751    +0.0%
+
+  WHAT EACH 4TH ACTUALLY DOES (patch 7.3)
+  Whisper   2400  8% HSP + Harmony (0.5% max mana as HSP, 25% mana refund).
+                  Tear leftover after Harmonic starts stacks ~19:00.
+                  Circlet ~22:00. Diadem (700 mana) does NOT finish by 24:00.
+                  Senna is not mana-hungry (15s Q + auto refunds) — HSP is
+                  the whole item, and Ardent already brought 8%.
+  Mandate    2600  60 AP, 50% mana regen. Control: CC spells +20 AH.
+                  Command: Q slow AND W root mark for 4s, 7% increased damage.
+                  Most expensive; finishes ~1 min later than 2400g 4ths.
+  Staff      2400  50 AP, 10 AH, 8% HSP. Rapids: 40 AP + 15 AH for 6s on
+                  Senna AND the healed ally. Strong if the carry is AP;
+                  on a crit ADC the 40 AP is mostly wasted.
+  Salvation  2450  40 AP, 10 AH, 8% HSP. Active: 2.5s delay, 150–350 heal
+                  (by level) + 10% max HP true in a circle, 60s CD.
+  Shurelya   2450  35 AP, 20 AH, 4% MS. Active: 30% MS for 4s (engage/peel).
+  Mikael     2500  300 HP, 15 AH, 9% HSP. Cleanse + 150–250 heal, 75s CD.
+                  HSP is the best of the 4ths; cleanse is CC-matchup gated.
+
+--------------------------------------------------------------------------------
+4TH-ITEM VERDICT
+--------------------------------------------------------------------------------
+  Yes — Mandate beats Whisper as the 4th item.
+  18–24 score: Mandate 21063 vs Whisper 19751 (+6.6%).
+  At 24:00 raw impact: Mandate 10663 vs Whisper 9477 (+12.5%).
+  Completes: Mandate ~23:00, Whisper ~22:00.
+  WHY MANDATE: Senna's Q slow and W root both apply Command.
+    7% more damage taken is team damage (ADC + Senna + mid),
+    60 AP is the biggest AP 4th, and +20 AH on CC shortens Q/W.
+    Whisper's Harmony HSP is real but Senna does not need the
+    mana refund, and Diadem is still not stacked at 24:00.
+    Mandate is 2600g (on ~23:00). If you complete a 4th at 22:00
+    and the game might end, Shurelya or Salvation are the 2450g cuts.
+
+  When to override:
+  • AP carry (Corki / AP Ezreal / hybrid Kai'Sa): Staff instead —
+    Rapids 40 AP / 15 AH actually lands on the person dealing damage.
+  • Heavy removable CC (Leona, Naut, Seraphine, Lulu): Mikael.
+  • 5v5 stall / Baron pit: Salvation's beam is the biggest single
+    heal+true-damage button; worse if they walk out of the delay.
+  • Engage/peel races (w/ a catch jungler): Shurelya MS.
+  • Whisper is the HSP/mana 4th. Buy it if you are dropping Qs from
+    mana (you shouldn't be) or you want Diadem HPS in a 28-min game.
+
+  RECOMMENDED 4TH (after Ardent → Helia → Harmonic, Wild Rift 7.3):
+  Imperial Mandate
+  Games that end at 20:00 never finish a 4th — don't greed leftover gold
+  into Tear unless you already know the match is going long.
 ================================================================================

@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """
 Wild Rift Enchanter Senna Support — Buff / Gold-Efficiency Simulation
-Patch 7.3 enchanter items. Average game: 20 minutes.
+Patch 7.3 enchanter items. Core order: 20 minutes. 4th-item bake-off: 24.
 
 Question:
   Given Echoes of Helia, Whispering Circlet (→ Diadem of Songs),
   Ardent Censer, and Harmonic Echo, which purchase ORDER converts
   the same support gold into the most ally buff + game impact?
+
+  After locking Ardent → Helia → Harmonic, is Whispering Circlet the
+  best 4th, or do Mandate / Staff / Salvation / Shurelya / Mikael win
+  on a clock long enough to finish a 4th (~22–24 min)?
 
 Senna-specific (vs Sona):
   Q (Piercing Darkness) damages enemies AND heals allies on the SAME cast,
@@ -26,6 +30,7 @@ import json
 import math
 
 GAME_MINUTES = 20
+FOURTH_MINUTES = 24
 
 # ---------------------------------------------------------------------------
 # Economy / XP (WR support Senna — Q poke + sickle, soul farming)
@@ -50,6 +55,7 @@ def level_at_minute(m: int) -> int:
         1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 8,
         9: 9, 10: 10, 11: 10, 12: 11, 13: 11, 14: 12,
         15: 12, 16: 13, 17: 13, 18: 14, 19: 14, 20: 15,
+        21: 15, 22: 15, 23: 15, 24: 15,
     }
     return table.get(m, min(15, 1 + m))
 
@@ -98,6 +104,11 @@ class Item:
     ardent: bool = False
     harmonic: bool = False
     tear: bool = False
+    staff: bool = False
+    mandate: bool = False
+    salvation: bool = False
+    shurelya: bool = False
+    mikael: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -125,6 +136,8 @@ ITEMS: Dict[str, Item] = {
         "Bandleglass Mirror", 900, ap=20, ah=10, mana_regen_pct=0.50
     ),
     "Aether Wisp": Item("Aether Wisp", 950, ap=30, ms_pct=0.04),
+    "Blasting Wand": Item("Blasting Wand", 800, ap=45),
+    "Fiendish Codex": Item("Fiendish Codex", 900, ap=35, ah=10),
     "Echoes of Helia": Item(
         "Echoes of Helia",
         2400,
@@ -175,6 +188,54 @@ ITEMS: Dict[str, Item] = {
         harmonic=True,
         tags=("legendary", "chain"),
     ),
+    "Staff of Flowing Waters": Item(
+        "Staff of Flowing Waters",
+        2400,
+        ap=50,
+        ah=10,
+        hsp=0.08,
+        mana_regen_pct=0.50,
+        staff=True,
+        tags=("legendary", "ap_buff"),
+    ),
+    "Imperial Mandate": Item(
+        "Imperial Mandate",
+        2600,
+        ap=60,
+        mana_regen_pct=0.50,
+        mandate=True,
+        tags=("legendary", "cc_amp"),
+    ),
+    "Salvation": Item(
+        "Salvation",
+        2450,
+        ap=40,
+        ah=10,
+        hsp=0.08,
+        mana_regen_pct=0.50,
+        salvation=True,
+        tags=("legendary", "team_active"),
+    ),
+    "Shurelya's Battlesong": Item(
+        "Shurelya's Battlesong",
+        2450,
+        ap=35,
+        ah=20,
+        mana_regen_pct=0.50,
+        ms_pct=0.04,
+        shurelya=True,
+        tags=("legendary", "engage"),
+    ),
+    "Mikael's Blessing": Item(
+        "Mikael's Blessing",
+        2500,
+        hp=300,
+        ah=15,
+        hsp=0.09,
+        mana_regen_pct=0.50,
+        mikael=True,
+        tags=("legendary", "cleanse"),
+    ),
 }
 
 LEGENDARIES = {
@@ -183,6 +244,11 @@ LEGENDARIES = {
     "Diadem of Songs",
     "Ardent Censer",
     "Harmonic Echo",
+    "Staff of Flowing Waters",
+    "Imperial Mandate",
+    "Salvation",
+    "Shurelya's Battlesong",
+    "Mikael's Blessing",
 }
 
 UPGRADE_COMPONENTS = {
@@ -196,6 +262,11 @@ UPGRADE_COMPONENTS = {
         "Ruby Crystal",
     ),
     "Diadem of Songs": ("Whispering Circlet",),
+    "Staff of Flowing Waters": ("Forbidden Idol", "Fiendish Codex"),
+    "Imperial Mandate": ("Bandleglass Mirror", "Blasting Wand"),
+    "Salvation": ("Forbidden Idol", "Fiendish Codex"),
+    "Shurelya's Battlesong": ("Bandleglass Mirror", "Aether Wisp"),
+    "Mikael's Blessing": ("Forbidden Idol", "Kindlegem"),
 }
 
 NEXT_COMPONENTS = {
@@ -208,6 +279,11 @@ NEXT_COMPONENTS = {
         "Ruby Crystal",
     ],
     "Ionian Boots of Lucidity": ["Boots of Speed"],
+    "Staff of Flowing Waters": ["Forbidden Idol", "Fiendish Codex"],
+    "Imperial Mandate": ["Bandleglass Mirror", "Blasting Wand"],
+    "Salvation": ["Forbidden Idol", "Fiendish Codex"],
+    "Shurelya's Battlesong": ["Aether Wisp", "Bandleglass Mirror"],
+    "Mikael's Blessing": ["Forbidden Idol", "Kindlegem"],
 }
 
 SHORT = {
@@ -216,6 +292,11 @@ SHORT = {
     "Diadem of Songs": "Diadem",
     "Ardent Censer": "Ardent",
     "Harmonic Echo": "Harmonic",
+    "Staff of Flowing Waters": "Staff",
+    "Imperial Mandate": "Mandate",
+    "Salvation": "Salvation",
+    "Shurelya's Battlesong": "Shurelya",
+    "Mikael's Blessing": "Mikael",
 }
 
 
@@ -535,6 +616,11 @@ class Snapshot:
     has_ardent: bool
     has_harmonic: bool
     has_idol: bool
+    has_staff: bool
+    has_mandate: bool
+    has_salvation: bool
+    has_shurelya: bool
+    has_mikael: bool
 
 
 def sum_stats(inv: List[Item], minute: int, charge_mana: float, is_diadem: bool) -> dict:
@@ -548,6 +634,11 @@ def sum_stats(inv: List[Item], minute: int, charge_mana: float, is_diadem: bool)
         "tear": False,
         "idol": False,
         "scythe": False,
+        "staff": False,
+        "mandate": False,
+        "salvation": False,
+        "shurelya": False,
+        "mikael": False,
     }
     names: List[str] = []
     for it in inv:
@@ -575,6 +666,16 @@ def sum_stats(inv: List[Item], minute: int, charge_mana: float, is_diadem: bool)
             flags["harmonic"] = True
         if it.tear:
             flags["tear"] = True
+        if it.staff:
+            flags["staff"] = True
+        if it.mandate:
+            flags["mandate"] = True
+        if it.salvation:
+            flags["salvation"] = True
+        if it.shurelya:
+            flags["shurelya"] = True
+        if it.mikael:
+            flags["mikael"] = True
         if it.name == "Forbidden Idol":
             flags["idol"] = True
         if it.name == "Black Mist Scythe":
@@ -620,6 +721,14 @@ def window_output(level: int, minute: int, st: dict, seconds: float, teamfight: 
     bonus_ad = st["bonus_ad"]
     mist = st["mist"]
     q_r, w_r, r_r = skill_rank(level, "Q"), skill_rank(level, "W"), skill_rank(level, "R")
+
+    # Mandate Control: CC abilities (Q slow, W root) gain 20 AH.
+    if st["mandate"]:
+        ah += 20.0
+    # Staff Rapids self-buff: 40 AP + 15 AH for 6s, refreshed on Q heal.
+    if st["staff"]:
+        ap += 40.0
+        ah += 15.0
 
     ardent_bonus_as = 0.30 if st["ardent"] else 0.0
     aspd = senna_attack_speed(level, ardent_bonus_as)
@@ -709,6 +818,64 @@ def window_output(level: int, minute: int, st: dict, seconds: float, teamfight: 
         tick = 0.008 * st["mana"] * (1.0 + hsp)
         diadem_heal = tick * seconds
 
+    # --- 4th-item combat (Mandate / Staff / Salvation / Shurelya / Mikael) ---
+    mandate_extra = 0.0
+    if st["mandate"]:
+        # Command: CC marks for 4s, 7% increased damage. Q slow + W root refresh.
+        mark_up = 0.88 if teamfight else 0.52
+        mandate_extra = pre_mit * 0.07 * mark_up
+        adc_on_mark = (
+            adc_as(minute, level)
+            * seconds
+            * adc_ad(minute, level)
+            * (1.0 + adc_crit(minute))
+            * (0.80 if teamfight else 0.40)
+        )
+        mandate_extra += adc_on_mark * 0.07 * mark_up
+        if teamfight:
+            # Mid/jg hit the same marked target some of the window.
+            mandate_extra += adc_on_mark * 0.70 * 0.07 * mark_up
+
+    staff_enabled = 0.0
+    if st["staff"]:
+        uptime = min(0.97, 6.0 / max(5.2, q_interval) * 1.10)
+        # Rapids on an AD carry is mostly wasted AP; a little hybrid (Kai'Sa etc.).
+        staff_enabled = 14.0 * uptime * seconds
+        if teamfight:
+            # 40 AP + 15 AH on the mid for 6s.
+            staff_enabled += (40.0 * 0.60 * 2.6 + 22.0) * uptime
+
+    salvation_heal = 0.0
+    salvation_dmg = 0.0
+    if st["salvation"] and teamfight:
+        # 7.3 Salvation active: 2.5s delay, 150–350 heal (by ally level),
+        # 10% max HP true, 60s CD. One beam per fight window.
+        sal_one = (150.0 + 200.0 * (level - 1) / 14.0) * (1.0 + hsp)
+        salvation_heal = sal_one * 3.2 * 0.82  # walk-out on the delay
+        enemy_hp = 900.0 + 95.0 * level + 22.0 * minute
+        salvation_dmg = 0.10 * enemy_hp * 2.1 * 0.80
+
+    shurelya_enabled = 0.0
+    if st["shurelya"] and teamfight:
+        # Inspiring Speech: 30% MS for 4s → chase/stick, not free AS.
+        # ~0.65 extra ADC autos + a bit of Senna, once per fight.
+        extra_adc = (
+            adc_as(minute, level)
+            * 0.65
+            * adc_ad(minute, level)
+            * (1.0 + adc_crit(minute))
+        )
+        extra_senna = aspd * 0.40 * avg_auto
+        shurelya_enabled = extra_adc + extra_senna
+
+    mikael_heal = 0.0
+    mikael_save = 0.0
+    adc_hp = 700 + 90 * level + 20 * minute
+    if st["mikael"] and teamfight:
+        mikael_heal = (150.0 + 100.0 * (level - 1) / 14.0) * (1.0 + hsp)
+        # Cleanseable CC on the ADC ~half of 5v5s; save is a chunk of ADC HP.
+        mikael_save = adc_hp * 0.28 * 0.52
+
     sustain = (
         ally_heal
         + 0.50 * self_heal
@@ -716,6 +883,9 @@ def window_output(level: int, minute: int, st: dict, seconds: float, teamfight: 
         + 0.40 * self_shield
         + harmonic_extra
         + diadem_heal
+        + salvation_heal
+        + mikael_heal
+        + mikael_save
     )
 
     ardent_dps = 0.0
@@ -734,18 +904,23 @@ def window_output(level: int, minute: int, st: dict, seconds: float, teamfight: 
 
     senna_dps = pre_mit / seconds if seconds else 0.0
 
-    adc_hp = 700 + 90 * level + 20 * minute
     survive = min(1.18, 0.92 + sustain / max(1.0, adc_hp * 0.85))
+    if st["mikael"] and teamfight:
+        survive = min(1.22, survive * 1.05)
     # Senna is a damage support — her own DPS counts more than Sona's poke.
     damage_enabled = (
         ardent_dps * seconds * survive
         + senna_dps * seconds * 0.88
+        + mandate_extra
+        + staff_enabled
+        + salvation_dmg
+        + shurelya_enabled
     )
     soft_sustain = 2400.0 * (1.0 - math.exp(-max(0.0, sustain) / 2400.0))
     impact = soft_sustain + damage_enabled
 
     return {
-        "heal_window": ally_heal + self_heal,
+        "heal_window": ally_heal + self_heal + salvation_heal + mikael_heal,
         "shield_window": ally_shield + self_shield,
         "helia_heal": helia_heal,
         "harmonic_extra": harmonic_extra,
@@ -796,7 +971,19 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         notes.append("Circlet stacking")
     if st["harmonic"]:
         notes.append("Harmonic chain")
-    if st["idol"] and not st["ardent"] and not st["circlet"]:
+    if st["mandate"]:
+        notes.append("Mandate 7% mark")
+    if st["staff"]:
+        notes.append("Staff Rapids")
+    if st["salvation"]:
+        notes.append("Salvation active")
+    if st["shurelya"]:
+        notes.append("Shurelya MS")
+    if st["mikael"]:
+        notes.append("Mikael cleanse")
+    if st["idol"] and not any(
+        st[k] for k in ("ardent", "circlet", "staff", "salvation", "mikael")
+    ):
         notes.append("Idol HSP")
     if n_leg == 0:
         notes.append("pre-legendary")
@@ -834,6 +1021,11 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         has_ardent=st["ardent"],
         has_harmonic=st["harmonic"],
         has_idol=st["idol"],
+        has_staff=st["staff"],
+        has_mandate=st["mandate"],
+        has_salvation=st["salvation"],
+        has_shurelya=st["shurelya"],
+        has_mikael=st["mikael"],
     )
 
 
@@ -849,6 +1041,21 @@ CORE = (
     "Harmonic Echo",
 )
 
+LOCKED_THREE = (
+    "Ardent Censer",
+    "Echoes of Helia",
+    "Harmonic Echo",
+)
+
+FOURTH_OPTIONS = (
+    "Whispering Circlet",
+    "Staff of Flowing Waters",
+    "Imperial Mandate",
+    "Salvation",
+    "Shurelya's Battlesong",
+    "Mikael's Blessing",
+)
+
 
 def all_paths() -> Dict[str, List[str]]:
     out: Dict[str, List[str]] = {}
@@ -860,6 +1067,16 @@ def all_paths() -> Dict[str, List[str]]:
                 continue
             name = path_label(order, tear_rush)
             out[name] = make_path(order, tear_rush)
+    return out
+
+
+def fourth_paths() -> Dict[str, List[str]]:
+    """Ardent → Helia → Harmonic locked; swap only the 4th legendary."""
+    out: Dict[str, List[str]] = {}
+    for fourth in FOURTH_OPTIONS:
+        order = LOCKED_THREE + (fourth,)
+        name = path_label(order, False)
+        out[name] = make_path(order, False)
     return out
 
 
@@ -888,16 +1105,26 @@ def snapshot_score(s: Snapshot) -> float:
         kit += 0.06  # Q same-cast store+dump is Senna's Helia identity
     if s.has_harmonic:
         kit += 0.03
+    if s.has_mandate:
+        kit += 0.05  # Q slow + W root both apply the 7% mark
+    if s.has_staff:
+        kit += 0.02
+    if s.has_salvation:
+        kit += 0.04
+    if s.has_shurelya:
+        kit += 0.03
+    if s.has_mikael:
+        kit += 0.03
     return s.impact * kit * (1.0 + 0.04 * (s.gold_eff / 40.0))
 
 
-def run_all(paths: Dict[str, List[str]]):
+def run_all(paths: Dict[str, List[str]], minutes: int = GAME_MINUTES):
     results: Dict[str, List[Snapshot]] = {}
     for name, path in paths.items():
-        results[name] = [compute_snapshot(name, path, m) for m in range(1, GAME_MINUTES + 1)]
+        results[name] = [compute_snapshot(name, path, m) for m in range(1, minutes + 1)]
 
     timeline = []
-    for m in range(1, GAME_MINUTES + 1):
+    for m in range(1, minutes + 1):
         cands = [(n, results[n][m - 1]) for n in results]
         best_n, best_s = max(cands, key=lambda x: snapshot_score(x[1]))
         timeline.append(
@@ -1236,17 +1463,240 @@ def summarize(results, timeline, paths) -> str:
     lines.append("  AH that Helia also buys — and Helia actually converts Senna's autos.")
     lines.append("  Trap: Tear rush into item 1. Senna is not as mana-hungry as Sona;")
     lines.append("  400g delays the first legendary. Only rush Tear if Circlet is 1st/2nd.")
+    lines.append("")
+    lines.append("  4th-item note: among Helia/Whisper/Ardent/Harmonic, Whisper is the")
+    lines.append("  leftover slot. If the game lasts to 22:00+, Mandate / Staff / Salvation")
+    lines.append("  / Shurelya / Mikael are compared in 4TH ITEM vs WHISPER below.")
     lines.append("=" * 80)
     return "\n".join(lines)
 
 
-def export_json(results, timeline, path: str) -> None:
+def _fourth_flag(snaps: List[Snapshot], short: str):
+    mapping = {
+        "Whisper": lambda s: s.has_circlet,
+        "Staff": lambda s: s.has_staff,
+        "Mandate": lambda s: s.has_mandate,
+        "Salvation": lambda s: s.has_salvation,
+        "Shurelya": lambda s: s.has_shurelya,
+        "Mikael": lambda s: s.has_mikael,
+    }
+    pred = mapping.get(short)
+    if pred is None:
+        return None
+    return first_minute_with(snaps, pred)
+
+
+def summarize_fourth(fourth_results: Dict[str, List[Snapshot]]) -> str:
+    """Bake-off: same first three, different 4th, clocked to 24:00."""
+    rows = []
+    for name, snaps in fourth_results.items():
+        short = name.split(" → ")[-1]
+        late = snaps[17:]  # 18:00–24:00, leftover gold + 4th completion
+        w_impact = w_eff = w_sum = 0.0
+        for s in late:
+            w = time_weight(s.minute)
+            w_impact += snapshot_score(s) * w
+            w_eff += s.gold_eff * w
+            w_sum += w
+        score = w_impact / w_sum if w_sum else 0.0
+        eff = w_eff / w_sum if w_sum else 0.0
+        online = _fourth_flag(snaps, short)
+        rows.append(
+            {
+                "name": name,
+                "short": short,
+                "snaps": snaps,
+                "score": score,
+                "eff": eff,
+                "online": online,
+                "cost": ITEMS[
+                    {
+                        "Whisper": "Whispering Circlet",
+                        "Staff": "Staff of Flowing Waters",
+                        "Mandate": "Imperial Mandate",
+                        "Salvation": "Salvation",
+                        "Shurelya": "Shurelya's Battlesong",
+                        "Mikael": "Mikael's Blessing",
+                    }[short]
+                ].cost,
+            }
+        )
+    rows.sort(key=lambda r: (r["score"], r["eff"]), reverse=True)
+
+    whisper = next((r for r in rows if r["short"] == "Whisper"), rows[-1])
+    best = rows[0]
+    w24 = whisper["snaps"][23].impact
+    b24 = best["snaps"][23].impact
+
+    lines: List[str] = []
+    lines.append("")
+    lines.append("=" * 80)
+    lines.append("4TH ITEM vs WHISPER  (Ardent → Helia → Harmonic locked)")
+    lines.append("Clock: 24:00 — 20-min gold finishes ~3 legendaries; 4th completes ~22–23")
+    lines.append("Score: time-weighted buff/impact from 18:00–24:00 (when leftover gold matters)")
+    lines.append("=" * 80)
+    lines.append("")
+    lines.append("GOLD (support Senna, same curve)")
+    for m in (18, 20, 22, 24):
+        leftover = gold_at_minute(m) - 8800  # sickle+boots+ionian+3 legendaries
+        lines.append(
+            f"  {m:>2}:00  gold {gold_at_minute(m):>6}   lvl {level_at_minute(m):>2}   "
+            f"mist {mist_stacks(m):>4.0f}   leftover vs 3-item+boots ~{leftover}"
+        )
+    lines.append("")
+    hdr = (
+        f"  {'#':<3} {'4th':<10} {'Cost':>5} {'On':>6} {'20:00':>7} {'22:00':>7} "
+        f"{'24:00':>7} {'Score':>7} {'vs Whsp':>8}"
+    )
+    lines.append(hdr)
+    for i, r in enumerate(rows, 1):
+        s20 = r["snaps"][19].impact
+        s22 = r["snaps"][21].impact
+        s24 = r["snaps"][23].impact
+        vs = 100.0 * (r["score"] / whisper["score"] - 1.0) if whisper["score"] else 0.0
+        on = f"{r['online']:>2}:00" if r["online"] else "  —  "
+        lines.append(
+            f"  {i:<3} {r['short']:<10} {r['cost']:>5} {on:>6} {s20:>7.0f} {s22:>7.0f} "
+            f"{s24:>7.0f} {r['score']:>7.0f} {vs:>+7.1f}%"
+        )
+
+    lines.append("")
+    lines.append("  WHAT EACH 4TH ACTUALLY DOES (patch 7.3)")
+    lines.append("  Whisper   2400  8% HSP + Harmony (0.5% max mana as HSP, 25% mana refund).")
+    lines.append("                  Tear leftover after Harmonic starts stacks ~19:00.")
+    lines.append("                  Circlet ~22:00. Diadem (700 mana) does NOT finish by 24:00.")
+    lines.append("                  Senna is not mana-hungry (15s Q + auto refunds) — HSP is")
+    lines.append("                  the whole item, and Ardent already brought 8%.")
+    lines.append("  Mandate    2600  60 AP, 50% mana regen. Control: CC spells +20 AH.")
+    lines.append("                  Command: Q slow AND W root mark for 4s, 7% increased damage.")
+    lines.append("                  Most expensive; finishes ~1 min later than 2400g 4ths.")
+    lines.append("  Staff      2400  50 AP, 10 AH, 8% HSP. Rapids: 40 AP + 15 AH for 6s on")
+    lines.append("                  Senna AND the healed ally. Strong if the carry is AP;")
+    lines.append("                  on a crit ADC the 40 AP is mostly wasted.")
+    lines.append("  Salvation  2450  40 AP, 10 AH, 8% HSP. Active: 2.5s delay, 150–350 heal")
+    lines.append("                  (by level) + 10% max HP true in a circle, 60s CD.")
+    lines.append("  Shurelya   2450  35 AP, 20 AH, 4% MS. Active: 30% MS for 4s (engage/peel).")
+    lines.append("  Mikael     2500  300 HP, 15 AH, 9% HSP. Cleanse + 150–250 heal, 75s CD.")
+    lines.append("                  HSP is the best of the 4ths; cleanse is CC-matchup gated.")
+    lines.append("")
+
+    lines.append("-" * 80)
+    lines.append("4TH-ITEM VERDICT")
+    lines.append("-" * 80)
+    if best["short"] == "Whisper":
+        runner = rows[1] if len(rows) > 1 else None
+        lines.append("  Whispering Circlet is still the best 4th on enchanter Senna.")
+        if runner:
+            gap = 100.0 * (best["score"] / runner["score"] - 1.0)
+            lines.append(
+                f"  Closest alternative: {runner['short']} ({gap:+.1f}% behind Whisper "
+                f"on the 18–24 window)."
+            )
+        lines.append("  Circlet's HSP + leftover Tear stacks beat a delayed 4th with no HSP.")
+    else:
+        vs_w = 100.0 * (best["score"] / whisper["score"] - 1.0)
+        vs24 = 100.0 * (b24 / w24 - 1.0) if w24 else 0.0
+        lines.append(
+            f"  Yes — {best['short']} beats Whisper as the 4th item."
+        )
+        lines.append(
+            f"  18–24 score: {best['short']} {best['score']:.0f} vs Whisper "
+            f"{whisper['score']:.0f} ({vs_w:+.1f}%)."
+        )
+        lines.append(
+            f"  At 24:00 raw impact: {best['short']} {b24:.0f} vs Whisper "
+            f"{w24:.0f} ({vs24:+.1f}%)."
+        )
+        on = best["online"]
+        won = whisper["online"]
+        if on and won:
+            lines.append(
+                f"  Completes: {best['short']} ~{on}:00, Whisper ~{won}:00."
+            )
+        paper = max(rows, key=lambda r: r["snaps"][23].impact)
+        if paper["short"] != best["short"]:
+            lines.append(
+                f"  Note: {paper['short']} has the highest 24:00 impact once finished "
+                f"({paper['snaps'][23].impact:.0f} vs {best['short']} "
+                f"{best['snaps'][23].impact:.0f}); {best['short']} wins the gold race "
+                f"because it completes earlier."
+            )
+        if best["short"] == "Mandate":
+            lines.append("  WHY MANDATE: Senna's Q slow and W root both apply Command.")
+            lines.append("    7% more damage taken is team damage (ADC + Senna + mid),")
+            lines.append("    60 AP is the biggest AP 4th, and +20 AH on CC shortens Q/W.")
+            lines.append("    Whisper's Harmony HSP is real but Senna does not need the")
+            lines.append("    mana refund, and Diadem is still not stacked at 24:00.")
+            lines.append("    Mandate is 2600g (on ~23:00). If you complete a 4th at 22:00")
+            lines.append("    and the game might end, Shurelya or Salvation are the 2450g cuts.")
+        elif best["short"] == "Staff":
+            lines.append("  WHY STAFF: 8% HSP (same as Circlet's item HSP) plus 50 AP / 10 AH")
+            lines.append("    and Rapids 40 AP + 15 AH on Senna. On a crit ADC the ally 40 AP")
+            lines.append("    is weak — swap is even bigger if the carry is AP.")
+        elif best["short"] == "Salvation":
+            lines.append("  WHY SALVATION: one fight-winning AoE heal + 10% max HP true")
+            lines.append("    per 5v5. 8% HSP matches Circlet's item HSP without waiting")
+            lines.append("    on Tear stacks. Walk-out on the 2.5s delay is already baked in.")
+        elif best["short"] == "Shurelya":
+            lines.append("  WHY SHURELYA: 20 AH always on (Mandate's +20 AH is only on CC")
+            lines.append("    spells) plus a 30% MS window for engage/peel. Finishes at 22:00.")
+            lines.append("    The MS is not extra attack speed — it is catch/stick value.")
+        elif best["short"] == "Mikael":
+            lines.append("  WHY MIKAEL: 9% HSP is the highest 4th-item HSP, plus a cleanse")
+            lines.append("    save on the ADC. Best when the enemy has removable CC;")
+            lines.append("    the sim prices an average 5v5, not a Leona/Naut game.")
+
+        # Situational notes for the losers
+        lines.append("")
+        lines.append("  When to override:")
+        staff_row = next((r for r in rows if r["short"] == "Staff"), None)
+        mikael_row = next((r for r in rows if r["short"] == "Mikael"), None)
+        sal_row = next((r for r in rows if r["short"] == "Salvation"), None)
+        shu_row = next((r for r in rows if r["short"] == "Shurelya"), None)
+        man_row = next((r for r in rows if r["short"] == "Mandate"), None)
+        if best["short"] != "Staff" and staff_row:
+            lines.append("  • AP carry (Corki / AP Ezreal / hybrid Kai'Sa): Staff instead —")
+            lines.append("    Rapids 40 AP / 15 AH actually lands on the person dealing damage.")
+        if best["short"] != "Mikael" and mikael_row:
+            lines.append("  • Heavy removable CC (Leona, Naut, Seraphine, Lulu): Mikael.")
+        if best["short"] != "Salvation" and sal_row:
+            lines.append("  • 5v5 stall / Baron pit: Salvation's beam is the biggest single")
+            lines.append("    heal+true-damage button; worse if they walk out of the delay.")
+        if best["short"] != "Shurelya" and shu_row:
+            lines.append("  • Engage/peel races (w/ a catch jungler): Shurelya MS.")
+        if best["short"] != "Mandate" and man_row:
+            lines.append("  • If you cannot land Q slow / W root, Mandate's 7% mark drops off")
+            lines.append("    and Whisper/Staff HSP is the safer 4th.")
+        if best["short"] != "Whisper":
+            lines.append("  • Whisper is the HSP/mana 4th. Buy it if you are dropping Qs from")
+            lines.append("    mana (you shouldn't be) or you want Diadem HPS in a 28-min game.")
+
+    rec_fourth = best["short"]
+    rec_full = {
+        "Whisper": "Whispering Circlet → Diadem",
+        "Staff": "Staff of Flowing Waters",
+        "Mandate": "Imperial Mandate",
+        "Salvation": "Salvation",
+        "Shurelya": "Shurelya's Battlesong",
+        "Mikael": "Mikael's Blessing",
+    }[rec_fourth]
+    lines.append("")
+    lines.append("  RECOMMENDED 4TH (after Ardent → Helia → Harmonic, Wild Rift 7.3):")
+    lines.append(f"  {rec_full}")
+    lines.append("  Games that end at 20:00 never finish a 4th — don't greed leftover gold")
+    lines.append("  into Tear unless you already know the match is going long.")
+    lines.append("=" * 80)
+    return "\n".join(lines)
+
+
+def export_json(results, timeline, path: str, fourth_results=None) -> None:
     payload = {
         "meta": {
             "champion": "Senna",
             "role": "Enchanter support",
             "patch": "7.3",
             "game_minutes": GAME_MINUTES,
+            "fourth_minutes": FOURTH_MINUTES,
             "playstyle": "Q-max enchanter, auto to refund Q, heal ADC",
             "items": [
                 "Echoes of Helia",
@@ -1254,6 +1704,7 @@ def export_json(results, timeline, path: str) -> None:
                 "Ardent Censer",
                 "Harmonic Echo",
             ],
+            "fourth_options": list(FOURTH_OPTIONS),
         },
         "timeline": timeline,
         "builds": {
@@ -1289,6 +1740,27 @@ def export_json(results, timeline, path: str) -> None:
             for name, snaps in results.items()
         },
     }
+    if fourth_results:
+        payload["fourth_item_comparison"] = {
+            name: [
+                {
+                    "minute": s.minute,
+                    "items": s.items,
+                    "gold": s.gold,
+                    "legendary_count": s.legendary_count,
+                    "ap": s.ap,
+                    "ah": s.ah,
+                    "hsp": s.hsp,
+                    "sustain": s.sustain,
+                    "damage_enabled": s.damage_enabled,
+                    "impact": s.impact,
+                    "gold_eff": s.gold_eff,
+                    "notes": s.notes,
+                }
+                for s in snaps
+            ]
+            for name, snaps in fourth_results.items()
+        }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
@@ -1317,16 +1789,40 @@ def self_check(results: Dict[str, List[Snapshot]]) -> None:
         assert hh_ard is None or hh_ard > ard10, (hh_ard, ard10)
 
 
+def self_check_fourth(fourth_results: Dict[str, List[Snapshot]]) -> None:
+    whisper = fourth_results.get("Ardent → Helia → Harmonic → Whisper")
+    assert whisper is not None, list(fourth_results)
+    # 3 legendaries must be online by 20; leftover gold should finish a 4th by 24.
+    assert whisper[19].legendary_count >= 3, whisper[19].items
+    any_fourth = False
+    for name, snaps in fourth_results.items():
+        if snaps[23].legendary_count >= 4:
+            any_fourth = True
+            break
+    assert any_fourth, "no 4th legendary finished by 24:00"
+    # First 18 minutes must be identical (locked 3-item path).
+    names = list(fourth_results)
+    base = fourth_results[names[0]]
+    for name in names[1:]:
+        for m in range(0, 17):
+            a, b = base[m], fourth_results[name][m]
+            assert a.items == b.items, (name, m + 1, a.items, b.items)
+
+
 def main() -> None:
     paths = all_paths()
     results, timeline = run_all(paths)
     self_check(results)
+    fpaths = fourth_paths()
+    fourth_results, _ = run_all(fpaths, minutes=FOURTH_MINUTES)
+    self_check_fourth(fourth_results)
     report = summarize(results, timeline, paths)
+    report += "\n" + summarize_fourth(fourth_results)
     print(report)
     out_dir = "/workspace/senna-enchanter-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
-    export_json(results, timeline, f"{out_dir}/results.json")
+    export_json(results, timeline, f"{out_dir}/results.json", fourth_results)
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 
 
