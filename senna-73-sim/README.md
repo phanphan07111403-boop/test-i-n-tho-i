@@ -26,6 +26,27 @@ Yun Tal/Stormrazor?
 Rune loadout: **1 keystone + 3 primary + 1 secondary**. Ingenious Hunter is
 gone. Legend: Haste replaced Legend: Tenacity. Lethal Tempo is the 7.3 rewrite.
 
+## Support Shiv rush — buy order (the live page)
+
+Rush **Statikk Shiv**, then these **last 5** (6-slot, Scythe + boots + 3 legendaries):
+
+| # | Buy | When | Why |
+|---|-----|------|-----|
+| — | Spectral Sickle → **Black Mist Scythe** | ~6:00 | Quest. Do not skip. |
+| 1 | **Berserker's Greaves** | ~8:00 | 7.3 AS ratio 0.4 finally converts. Charges Shiv. |
+| **2** | **Statikk Shiv** | **~11:00 RUSH** | On-hit lightning. Crash the wave. Copy Relic in the pit. |
+| 3 | **Essence Reaver** | ~16:00 | 50 AD + 20 AH + Spellblade on Q. AD feeds Relic bounces. |
+| 4 | **Infinity Edge** | ~22:00 | 230% crit (Senna autos still 90% of that). 3500g waits. |
+| 5 | **Lord Dominik's Regards** | ~28:00 | 35% pen. Mortal instead vs heal. |
+
+**Last 5 items:** Black Mist Scythe · Berserker's Greaves · Essence Reaver · Infinity Edge · Lord Dominik's Regards
+
+Runes: **Fleet Footwork · Font of Life · Bone Plating · Perseverance · Brutal**  
+Spells: Flash + Heal · Skill order **Q → W**, E 1-point, R at 5/9/13  
+Combo: Q through the minion/ally, then AA. Do not last-hit.
+
+Skip RFC — Shiv already owns Energized. Hexoptics is the range-amp swap on slot 3. Mortal 2nd vs healers (−1.1%). Serpent's 6th vs Lulu/Karma. GA/Shieldbow vs burst.
+
 ## Winners (sim)
 
 ### ADC — 24:00, Flash + Barrier

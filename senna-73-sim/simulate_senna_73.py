@@ -131,6 +131,8 @@ def level_at(minute: int, role: str) -> int:
             1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 8,
             9: 9, 10: 10, 11: 10, 12: 11, 13: 11, 14: 12,
             15: 12, 16: 13, 17: 13, 18: 14, 19: 14, 20: 15,
+            21: 15, 22: 15, 23: 15, 24: 15, 25: 15, 26: 15,
+            27: 15, 28: 15,
         }
     return table.get(minute, min(15, 1 + minute))
 
@@ -641,10 +643,10 @@ ADC_LABEL = {
 }
 
 SUP_PATHS: Dict[str, List[str]] = {
-    "statikk_rfc_ldr": [
+    "statikk_er_ie_ldr": [
         "spectral_sickle", "black_mist_scythe", "berserkers_greaves",
-        "statikk_shiv", "rapid_firecannon", "lord_dominiks_regards",
-        "infinity_edge",
+        "statikk_shiv", "essence_reaver", "infinity_edge",
+        "lord_dominiks_regards",
     ],
     "statikk_hex_rfc": [
         "spectral_sickle", "black_mist_scythe", "berserkers_greaves",
@@ -709,6 +711,7 @@ SUP_PATHS: Dict[str, List[str]] = {
 }
 
 SUP_LABEL = {
+    "statikk_er_ie_ldr": "Berserkers · Shiv → ER → IE → LDR",
     "statikk_rfc_ldr": "Berserkers · Statikk → RFC → LDR",
     "statikk_hex_rfc": "Berserkers · Statikk → Hex → RFC",
     "hex_mortal_rfc": "Berserkers · Hex → Mortal → RFC",
@@ -992,11 +995,18 @@ def simulate_fight(
     )
 
 
-def snapshot(role: str, path_key: str, minute: int, keystone: str = "fleet") -> Dict:
+def snapshot(
+    role: str,
+    path_key: str,
+    minute: int,
+    keystone: str = "fleet",
+    path: Optional[List[str]] = None,
+) -> Dict:
     paths = ADC_PATHS if role == "adc" else SUP_PATHS
-    path = paths[path_key]
+    labels = ADC_LABEL if role == "adc" else SUP_LABEL
+    use = path if path is not None else paths[path_key]
     gold = gold_at(minute, role)
-    owned = owned_at_gold(path, gold, minute, role)
+    owned = owned_at_gold(use, gold, minute, role)
     mist = mist_at(minute, role)
     sq = simulate_fight(owned, minute, role, squishy(minute, role), keystone)
     tk = simulate_fight(owned, minute, role, tank(minute, role), keystone)
@@ -1005,7 +1015,7 @@ def snapshot(role: str, path_key: str, minute: int, keystone: str = "fleet") -> 
     return {
         "role": role,
         "path": path_key,
-        "label": (ADC_LABEL if role == "adc" else SUP_LABEL)[path_key],
+        "label": labels.get(path_key, " · ".join(item_name(i) for i in use)),
         "minute": minute,
         "gold": gold,
         "level": level_at(minute, role),
@@ -1120,6 +1130,32 @@ SUP_PAGES = [
 ]
 
 
+SHIV_SUPPORT_CORE: List[str] = [
+    "spectral_sickle",
+    "black_mist_scythe",
+    "berserkers_greaves",
+    "statikk_shiv",
+]
+
+SHIV_SUPPORT_POOL: Tuple[str, ...] = (
+    "hexoptics_c44",
+    "rapid_firecannon",
+    "mortal_reminder",
+    "essence_reaver",
+    "black_cleaver",
+    "the_collector",
+    "navori_quickblades",
+    "lord_dominiks_regards",
+    "infinity_edge",
+    "galeforce",
+    "serpents_fang",
+    "fiendhunter_bolts",
+    "immortal_shieldbow",
+)
+
+SHIV_SUPPORT_MINUTES = (12, 16, 20, 24, 28)
+
+
 def six_slot(owned: List[str]) -> List[str]:
     """Display order: legendaries + boots, scythe counts as the support slot."""
     ordered = []
@@ -1127,6 +1163,36 @@ def six_slot(owned: List[str]) -> List[str]:
         if ITEMS[iid]["tier"] in ("legendary", "boots", "support"):
             ordered.append(item_name(iid))
     return ordered
+
+
+def shiv_support_score(path: List[str]) -> float:
+    """Shiv-rush identity: clump (Relic bounce) + wave crash, not 2v2 poke."""
+    total = 0.0
+    for m in SHIV_SUPPORT_MINUTES:
+        snap = snapshot("support", "shiv_rush", m, path=path)
+        total += snap["clump"] + 0.40 * snap["wave_4s"]
+    return total
+
+
+def greedy_shiv_support(extra: int = 3) -> Tuple[List[str], List[Tuple[str, float, List[Tuple[str, float]]]]]:
+    """Lock Scythe + Berserkers + Shiv, then pick follow-ups.
+
+    extra=3 fills the 6-slot (Scythe, boots, Shiv, +3). The five items
+    besides Shiv are Scythe, Berserkers, and those three legendaries.
+    """
+    path = list(SHIV_SUPPORT_CORE)
+    picks: List[Tuple[str, float, List[Tuple[str, float]]]] = []
+    pool = [i for i in SHIV_SUPPORT_POOL if i not in path]
+    for _ in range(extra):
+        ranked: List[Tuple[str, float]] = []
+        for cand in pool:
+            ranked.append((cand, shiv_support_score(path + [cand])))
+        ranked.sort(key=lambda kv: kv[1], reverse=True)
+        best, best_sc = ranked[0]
+        path.append(best)
+        pool.remove(best)
+        picks.append((best, best_sc, ranked[:6]))
+    return path, picks
 
 
 def write_report() -> Dict:
@@ -1174,6 +1240,73 @@ def write_report() -> Dict:
     p("HP 600→570. Extraction 1%–10% current HP.")
     p()
     p("Illegal in this sim: Magnetic Blaster, Cloak of Agility, Ingenious Hunter.")
+    p()
+
+    shiv_path, shiv_picks = greedy_shiv_support(3)
+    shiv_names = [item_name(i) for i in shiv_path]
+    last5 = [item_name(i) for i in shiv_path if i not in ("spectral_sickle", "statikk_shiv")]
+    p("-" * 72)
+    p("Senna support — rush Shiv, then the last 5 items")
+    p("-" * 72)
+    p("  Scored on clump + wave (the reason you rush Shiv), not 2v2 poke.")
+    p("  6 slots: Scythe, Berserkers, Shiv, then three legendaries.")
+    p()
+    p("  BUY ORDER")
+    p("    0. Spectral Sickle → Black Mist Scythe          (quest, ~6:00)")
+    p("    1. Berserker's Greaves                          (~8:00)")
+    p(f"    2. Statikk Shiv                                 RUSH (~11:00)")
+    timings = []
+    for iid in shiv_path:
+        if ITEMS[iid]["tier"] != "legendary" or iid == "statikk_shiv":
+            continue
+        minute_ready = None
+        for m in range(1, 29):
+            owned = owned_at_gold(shiv_path, gold_at(m, "support"), m, "support")
+            if iid in owned:
+                minute_ready = m
+                break
+        timings.append((iid, minute_ready))
+    for n, (iid, m) in enumerate(timings, start=3):
+        when = f"~{m}:00" if m else "late"
+        p(f"    {n}. {item_name(iid):<38} ({when})")
+    p()
+    p("  Last 5 (everything you hold besides Shiv):")
+    p("    " + " · ".join(last5))
+    p()
+    p("  Why this order after Shiv")
+    p("    • 2nd wants AD + Q cadence so Relic copies harder on bounces.")
+    p("    • Skip RFC: Shiv already owns Energized. RFC's 0 AD weakens the")
+    p("      Relic copy. Hex is the range-amp swap if you need Magnification.")
+    p("    • IE waits until it fits (~22:00, 3500g). LDR is the 28:00 pen capstone.")
+    p()
+    p("  2nd after Shiv (16:00 actually finishes these):")
+    for i, (cid, sc) in enumerate(shiv_picks[0][2][:6], 1):
+        delta = (sc / shiv_picks[0][1] - 1.0) * 100.0
+        p(f"    {i}. {item_name(cid):<24} {delta:+5.1f}%")
+    p("  3rd after ER:")
+    for i, (cid, sc) in enumerate(shiv_picks[1][2][:5], 1):
+        delta = (sc / shiv_picks[1][1] - 1.0) * 100.0
+        p(f"    {i}. {item_name(cid):<24} {delta:+5.1f}%")
+    p("  4th after ER+IE:")
+    for i, (cid, sc) in enumerate(shiv_picks[2][2][:5], 1):
+        delta = (sc / shiv_picks[2][1] - 1.0) * 100.0
+        p(f"    {i}. {item_name(cid):<24} {delta:+5.1f}%")
+    p()
+    p("  Minute table (this page)")
+    p(f"  {'min':>4} {'gold':>6} {'mist':>5} {'AD':>6} {'AS':>5} {'crit':>5} {'clump':>7} {'TTK':>5}  items")
+    for m in (8, 12, 16, 20, 24, 28):
+        s = snapshot("support", "shiv_rush", m, path=shiv_path)
+        items = " › ".join(s["owned"])
+        p(f"  {m:>4} {s['gold']:>6} {s['mist']:>5.0f} {s['ad']:>6.0f} {s['aspd']:>5.2f} {s['crit']:>4.0f}% {s['clump']:>7.0f} {s['wave_ttk']:>4.1f}s  {items}")
+    p()
+    p("  Runes: Fleet Footwork · Font of Life · Bone Plating · Perseverance · Brutal")
+    p("  Spells: Flash + Heal (Exhaust vs dive)")
+    p("  Skill order: Q → W, E 1-point, R at 5/9/13. Combo: Q through the")
+    p("  minion/ally, then AA. Do not last-hit — Shiv chips, ADC CS, wraiths spawn.")
+    p()
+    p("  Slot-6 swaps: Mortal vs heal · Serpent's vs Lulu/Karma/Janna")
+    p("  · Hexoptics if you need the range amp · GA/Shieldbow vs burst")
+    p("  · Cleaver if Shiv bounce is stacking Carve on a tank frontline.")
     p()
 
     p("-" * 72)
@@ -1407,6 +1540,17 @@ def write_report() -> Dict:
         "support_minutes": [snapshot("support", sup_win, m) for m in SUP_MINUTES],
         "adc_pages": ADC_PAGES,
         "support_pages": SUP_PAGES,
+        "shiv_support_path": [item_name(i) for i in shiv_path],
+        "shiv_support_last5": last5,
+        "shiv_support_picks": [
+            {
+                "slot": n + 2,
+                "item": item_name(iid),
+                "score": sc,
+                "runners": [{"item": item_name(c), "score": s} for c, s in ranked],
+            }
+            for n, (iid, sc, ranked) in enumerate(shiv_picks)
+        ],
     }
     json_path = os.path.join(OUT_DIR, "results.json")
     with open(json_path, "w", encoding="utf-8") as fh:
@@ -1418,7 +1562,8 @@ def write_report() -> Dict:
 def main() -> None:
     payload = write_report()
     print(f"ADC winner:      {payload['adc_label']}")
-    print(f"Support winner:  {payload['support_label']}")
+    print(f"Support poke:    {payload['support_label']}")
+    print(f"Support Shiv:    {' → '.join(payload['shiv_support_path'])}")
     print(f"wrote {os.path.join(OUT_DIR, 'report.txt')}")
     print(f"wrote {os.path.join(OUT_DIR, 'results.json')}")
 

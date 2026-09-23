@@ -167,6 +167,11 @@
       "area": 8119.199999999999
     },
     {
+      "key": "statikk_er_ie_ldr",
+      "label": "Berserkers \u00b7 Shiv \u2192 ER \u2192 IE \u2192 LDR",
+      "area": 7917.5
+    },
+    {
       "key": "steel_hex_mortal",
       "label": "Steelcaps \u00b7 Hex \u2192 Mortal \u2192 RFC",
       "area": 7915.300000000001
@@ -190,11 +195,6 @@
       "key": "statikk_cleaver_hex",
       "label": "Berserkers \u00b7 Statikk \u2192 Cleaver \u2192 Hex",
       "area": 7606.800000000001
-    },
-    {
-      "key": "statikk_rfc_ldr",
-      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
-      "area": 7412.8
     },
     {
       "key": "dyn_statikk_rfc",
@@ -436,6 +436,11 @@
   ],
   "support_clump": [
     {
+      "key": "statikk_er_ie_ldr",
+      "label": "Berserkers \u00b7 Shiv \u2192 ER \u2192 IE \u2192 LDR",
+      "area": 8951.6
+    },
+    {
       "key": "statikk_hex_rfc",
       "label": "Berserkers \u00b7 Statikk \u2192 Hex \u2192 RFC",
       "area": 8837.7
@@ -444,11 +449,6 @@
       "key": "statikk_cleaver_hex",
       "label": "Berserkers \u00b7 Statikk \u2192 Cleaver \u2192 Hex",
       "area": 8679.0
-    },
-    {
-      "key": "statikk_rfc_ldr",
-      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
-      "area": 8433.9
     },
     {
       "key": "hex_mortal_rfc",
@@ -503,14 +503,14 @@
   ],
   "support_wave": [
     {
+      "key": "statikk_er_ie_ldr",
+      "label": "Berserkers \u00b7 Shiv \u2192 ER \u2192 IE \u2192 LDR",
+      "area": 9806.2
+    },
+    {
       "key": "statikk_hex_rfc",
       "label": "Berserkers \u00b7 Statikk \u2192 Hex \u2192 RFC",
       "area": 9679.9
-    },
-    {
-      "key": "statikk_rfc_ldr",
-      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
-      "area": 9318.1
     },
     {
       "key": "statikk_cleaver_hex",
@@ -1009,6 +1009,117 @@
         "Zombie Ward"
       ],
       "secondary": "Bone Plating"
+    }
+  ],
+  "shiv_support_path": [
+    "Spectral Sickle",
+    "Black Mist Scythe",
+    "Berserker's Greaves",
+    "Statikk Shiv",
+    "Essence Reaver",
+    "Infinity Edge",
+    "Lord Dominik's Regards"
+  ],
+  "shiv_support_last5": [
+    "Black Mist Scythe",
+    "Berserker's Greaves",
+    "Essence Reaver",
+    "Infinity Edge",
+    "Lord Dominik's Regards"
+  ],
+  "shiv_support_picks": [
+    {
+      "slot": 2,
+      "item": "Essence Reaver",
+      "score": 21254.54,
+      "runners": [
+        {
+          "item": "Essence Reaver",
+          "score": 21254.54
+        },
+        {
+          "item": "Mortal Reminder",
+          "score": 21020.26
+        },
+        {
+          "item": "Infinity Edge",
+          "score": 20996.940000000002
+        },
+        {
+          "item": "Hexoptics C44",
+          "score": 20930.839999999997
+        },
+        {
+          "item": "The Collector",
+          "score": 20899.12
+        },
+        {
+          "item": "Galeforce",
+          "score": 20506.02
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "item": "Infinity Edge",
+      "score": 24589.1,
+      "runners": [
+        {
+          "item": "Infinity Edge",
+          "score": 24589.1
+        },
+        {
+          "item": "Lord Dominik's Regards",
+          "score": 23983.58
+        },
+        {
+          "item": "Mortal Reminder",
+          "score": 23770.379999999997
+        },
+        {
+          "item": "Hexoptics C44",
+          "score": 23628.760000000002
+        },
+        {
+          "item": "The Collector",
+          "score": 23567.780000000002
+        },
+        {
+          "item": "Fiendhunter Bolts",
+          "score": 23389.18
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "item": "Lord Dominik's Regards",
+      "score": 25872.7,
+      "runners": [
+        {
+          "item": "Lord Dominik's Regards",
+          "score": 25872.7
+        },
+        {
+          "item": "Black Cleaver",
+          "score": 25822.480000000003
+        },
+        {
+          "item": "Serpent's Fang",
+          "score": 25739.36
+        },
+        {
+          "item": "Mortal Reminder",
+          "score": 25733.4
+        },
+        {
+          "item": "Fiendhunter Bolts",
+          "score": 25612.020000000004
+        },
+        {
+          "item": "Hexoptics C44",
+          "score": 25610.480000000003
+        }
+      ]
     }
   ]
 }

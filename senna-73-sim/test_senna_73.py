@@ -93,7 +93,22 @@ class TestSenna73(unittest.TestCase):
         self.assertGreater(scores[self.adc_win], scores["hex_ie_rfc_ldr_bt"])
         self.assertLess(scores["yun_ie_rfc_ldr_bt"] / scores[self.adc_win], 0.90)
 
-    def test_shiv_bounce_schedule(self):
+    def test_shiv_support_last_five(self):
+        from simulate_senna_73 import greedy_shiv_support, item_name
+        path, picks = greedy_shiv_support(3)
+        names = [item_name(i) for i in path]
+        self.assertEqual(names[0], "Spectral Sickle")
+        self.assertEqual(names[2], "Berserker's Greaves")
+        self.assertEqual(names[3], "Statikk Shiv")
+        self.assertEqual(picks[0][0], "essence_reaver")
+        self.assertEqual(picks[1][0], "infinity_edge")
+        self.assertEqual(picks[2][0], "lord_dominiks_regards")
+        last5 = [item_name(i) for i in path if i not in ("spectral_sickle", "statikk_shiv")]
+        self.assertEqual(len(last5), 5)
+        self.assertIn("Black Mist Scythe", last5)
+        s16 = snapshot("support", "shiv_rush", 16, path=path)
+        self.assertIn("Essence Reaver", s16["owned"])
+        self.assertIn("Statikk Shiv", s16["owned"])
         from simulate_senna_73 import shiv_bounces
         self.assertEqual(shiv_bounces(1), 3)
         self.assertEqual(shiv_bounces(5), 4)
