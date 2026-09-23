@@ -68,33 +68,58 @@ Skill order: **Q → W**, E 1-point, R at 5/9/13.
 Essence Reaver 2nd is **−0.0%** — take it when the lane is Q-heal, Mortal when
 they have a healer. Ionian + Hex + ER is **−0.1%**.
 
-## Why Youmuu first (not Hex, not Statikk)
+## Why Youmuu still wins 1v1
 
 - Caitlyn rushes Hexoptics because Headshot scales with crit *immediately*.
   Senna's mist crit was cut to 10%/20, so at 8:00 she has ~10% crit from souls.
-  Lethality into a squishy beats 25% of a 180% auto.
-- Hexoptics is still the Magnetic replacement — it is **3rd**, once Collector
-  has put crit and execute on the page.
-- Statikk has **0% crit**. WildRiftFire's Statikk → RFC page is waveclear/clump.
-  1v1 poke wants AD + lethality + Hex.
+  Lethality into a squishy beats 25% of a 180% auto — if nobody else is nearby.
+- Hexoptics is still the Magnetic *range* replacement — 3rd on the poke page,
+  2nd on the Shiv page.
 - Yun Tal starts at 0% crit and needs 125 autos. Senna already gets crit from
   mist. Do not stack a second delayed engine.
-- IE 2nd is a 3500g hole at 12:00. Collector 3000g fills it.
-- AS ratio 0.4 is a real gift. It is not enough to beat the 8:00/12:00 lethality
-  windows. Spend it on Berserkers (support) or Spectral Haste (Youmuu), not on
-  a Shiv first item.
+- IE 2nd is a 3500g hole at 12:00. Collector 3000g fills it on the poke page.
+
+## Why the meta rushes Statikk Shiv
+
+7.3 split Magnetic Blaster into **Hexoptics** (range amp), **RFC** (energized
+range), and **Statikk Shiv** (waveclear + on-hit bounce). Senna's old page
+*was* Magnetic. Live pages reassemble it, **Shiv first**, because Shiv is the
+only piece that crashes a wave.
+
+Official Shiv copies **on-hit onto bounce targets** (3/4/5/6 extras at 1/5/9/13,
+60 magic, 90 vs minions). Relic Cannon is 20% AD on-hit. Brutal is on-hit.
+Extraction is on-hit. Q applies on-hit to champions. One energized auto into
+a wave dumps Relic+90 mag through 4–6 minions. One auto into dragon copies
+Relic+extract onto the two people you did not click.
+
+AS ratio **0.4** is why she can rush it. The old ~0.125 ratio could not charge
+Energized. Electrotherapy (+5 stacks per auto) plus Q refunds speed the next
+proc. Support: minions Senna does **not** last-hit spawn more wraiths — Shiv
+chips, the ADC CS's, souls pop. 40 AP feeds Q heal and R.
+
+| At 12:00 | 1v1 | 3-target clump | Wave TTK |
+|----------|-----|----------------|----------|
+| Youmuu + Collector | **2780** | 2780 | 6.3s |
+| Statikk + Hex | 2646 | **3040** | **4.2s** |
+
+Clump ranking over 24:00: **Statikk → Hex → RFC** beats Youmuu (**+2.8%**).
+Wave ranking: the four Shiv paths take the top four. 1v1 ranking: Youmuu.
+
+Rush Shiv when you shove, stack souls, and hit dragon pits. Buy Youmuu when
+the game is 2v2 poke and you never crash the wave.
 
 ## Traps
 
 - **Magnetic Blaster / Cloak of Agility** — deleted in 7.3.
-- **Hex first on ADC** copying Caitlyn (−6–7% area).
-- **Statikk → RFC** as the default WRF page (−20%+ on ADC).
+- **Hex first on ADC** copying Caitlyn (−6–7% 1v1 area).
+- **Shiv into a 2v2 poke lane that never shoves** — 0% crit, nowhere to bounce.
 - **Support IE/LDR** — the gold is not there by 20:00.
 - **Enchanter Ardent/Helia** — different sim; Mandate 4th lives in that file.
 
 ## Swaps
 
-- Youmuu → Hex (skip Collector) if you need Magnification at 12:00 (−2.8%).
+- **Statikk → Hex → RFC** when you actually shove (clump +2.8%, wave TTK 4.2s).
+- Youmuu → Hex (skip Collector) if you need Magnification at 12:00 (−2.8% 1v1).
 - Draktharr first on the DH dive Senna, not poke Senna.
 - Serpent's Fang 3rd vs Lulu/Karma/Janna shields.
 - Steelcaps into Leona/Naut/Rell (−5% poke).

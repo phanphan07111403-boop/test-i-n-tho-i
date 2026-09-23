@@ -220,6 +220,354 @@
       "area": 8147.9
     }
   ],
+  "adc_clump": [
+    {
+      "key": "statikk_hex_rfc_ldr",
+      "label": "Statikk \u2192 Hex \u2192 RFC \u2192 LDR \u2192 IE",
+      "area": 24079.4
+    },
+    {
+      "key": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 23413.2
+    },
+    {
+      "key": "youmuu_hex_ie_rfc_ldr",
+      "label": "Youmuu \u2192 Hex \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 22758.2
+    },
+    {
+      "key": "drak_col_hex_serylda",
+      "label": "Draktharr \u2192 Collector \u2192 Hex \u2192 Serylda",
+      "area": 22153.2
+    },
+    {
+      "key": "hex_col_ie_ldr_bt",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 21852.600000000002
+    },
+    {
+      "key": "statikk_rfc_hex_ie",
+      "label": "Statikk \u2192 RFC \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 21811.9
+    },
+    {
+      "key": "hex_col_ie_rfc_ldr",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21798.8
+    },
+    {
+      "key": "hex_col_rfc_ie_ldr",
+      "label": "Hex \u2192 Collector \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21670.2
+    },
+    {
+      "key": "fiend_hex_ie_rfc_ldr",
+      "label": "Hex \u2192 Fiendhunter \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21402.5
+    },
+    {
+      "key": "hex_navori_rfc_ie_ldr",
+      "label": "Hex \u2192 Navori \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21393.8
+    },
+    {
+      "key": "hex_er_rfc_ie_ldr",
+      "label": "Hex \u2192 ER \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21165.1
+    },
+    {
+      "key": "hex_col_ie_rfc_dyn",
+      "label": "Dynamism Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21112.100000000002
+    },
+    {
+      "key": "hex_ie_rfc_ldr_bt",
+      "label": "Hex \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 20699.7
+    },
+    {
+      "key": "hex_rfc_ie_ldr_bt",
+      "label": "Hex \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 20596.3
+    },
+    {
+      "key": "er_hex_rfc_ie_ldr",
+      "label": "ER \u2192 Hex \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 20580.0
+    },
+    {
+      "key": "statikk_rfc_ldr_ie",
+      "label": "Statikk \u2192 RFC \u2192 LDR \u2192 IE \u2192 Galeforce",
+      "area": 20532.9
+    },
+    {
+      "key": "col_ie_rfc_ldr_bt",
+      "label": "Collector \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 20417.4
+    },
+    {
+      "key": "statikk_rfc_ie_ldr",
+      "label": "Statikk \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 19879.2
+    },
+    {
+      "key": "gale_ie_rfc_ldr_bt",
+      "label": "Galeforce \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 19358.6
+    },
+    {
+      "key": "storm_ie_rfc_ldr_bt",
+      "label": "Stormrazor \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 19291.5
+    },
+    {
+      "key": "yun_ie_rfc_ldr_bt",
+      "label": "Yun Tal \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 18972.0
+    }
+  ],
+  "adc_wave": [
+    {
+      "key": "statikk_hex_rfc_ldr",
+      "label": "Statikk \u2192 Hex \u2192 RFC \u2192 LDR \u2192 IE",
+      "area": 18268.2
+    },
+    {
+      "key": "statikk_rfc_hex_ie",
+      "label": "Statikk \u2192 RFC \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 17364.0
+    },
+    {
+      "key": "statikk_rfc_ie_ldr",
+      "label": "Statikk \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 16929.8
+    },
+    {
+      "key": "statikk_rfc_ldr_ie",
+      "label": "Statikk \u2192 RFC \u2192 LDR \u2192 IE \u2192 Galeforce",
+      "area": 16663.7
+    },
+    {
+      "key": "hex_navori_rfc_ie_ldr",
+      "label": "Hex \u2192 Navori \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 15567.3
+    },
+    {
+      "key": "youmuu_hex_ie_rfc_ldr",
+      "label": "Youmuu \u2192 Hex \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 15179.9
+    },
+    {
+      "key": "gale_ie_rfc_ldr_bt",
+      "label": "Galeforce \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 15036.4
+    },
+    {
+      "key": "storm_ie_rfc_ldr_bt",
+      "label": "Stormrazor \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 14985.4
+    },
+    {
+      "key": "fiend_hex_ie_rfc_ldr",
+      "label": "Hex \u2192 Fiendhunter \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 14974.400000000001
+    },
+    {
+      "key": "yun_ie_rfc_ldr_bt",
+      "label": "Yun Tal \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 14939.9
+    },
+    {
+      "key": "hex_er_rfc_ie_ldr",
+      "label": "Hex \u2192 ER \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 14883.0
+    },
+    {
+      "key": "hex_ie_rfc_ldr_bt",
+      "label": "Hex \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 14822.9
+    },
+    {
+      "key": "hex_rfc_ie_ldr_bt",
+      "label": "Hex \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 14736.9
+    },
+    {
+      "key": "col_ie_rfc_ldr_bt",
+      "label": "Collector \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 14609.4
+    },
+    {
+      "key": "hex_col_ie_ldr_bt",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 14563.6
+    },
+    {
+      "key": "er_hex_rfc_ie_ldr",
+      "label": "ER \u2192 Hex \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 14560.4
+    },
+    {
+      "key": "hex_col_ie_rfc_ldr",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 14536.1
+    },
+    {
+      "key": "hex_col_rfc_ie_ldr",
+      "label": "Hex \u2192 Collector \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 14459.5
+    },
+    {
+      "key": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 13438.7
+    },
+    {
+      "key": "hex_col_ie_rfc_dyn",
+      "label": "Dynamism Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 13057.099999999999
+    },
+    {
+      "key": "drak_col_hex_serylda",
+      "label": "Draktharr \u2192 Collector \u2192 Hex \u2192 Serylda",
+      "area": 11966.0
+    }
+  ],
+  "support_clump": [
+    {
+      "key": "statikk_hex_rfc",
+      "label": "Berserkers \u00b7 Statikk \u2192 Hex \u2192 RFC",
+      "area": 8837.7
+    },
+    {
+      "key": "statikk_cleaver_hex",
+      "label": "Berserkers \u00b7 Statikk \u2192 Cleaver \u2192 Hex",
+      "area": 8679.0
+    },
+    {
+      "key": "statikk_rfc_ldr",
+      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
+      "area": 8433.9
+    },
+    {
+      "key": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 8346.2
+    },
+    {
+      "key": "hex_er_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 8345.0
+    },
+    {
+      "key": "ionian_hex_er",
+      "label": "Ionian \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 8333.7
+    },
+    {
+      "key": "dyn_statikk_rfc",
+      "label": "Dynamism \u00b7 Statikk \u2192 RFC \u2192 Hex",
+      "area": 8300.5
+    },
+    {
+      "key": "hex_col_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Collector \u2192 RFC",
+      "area": 8215.300000000001
+    },
+    {
+      "key": "dyn_drak_col",
+      "label": "Dynamism \u00b7 Draktharr \u2192 Collector \u2192 Hex",
+      "area": 8210.4
+    },
+    {
+      "key": "dyn_hex_mortal",
+      "label": "Dynamism \u00b7 Hex \u2192 Mortal \u2192 Collector",
+      "area": 8119.2
+    },
+    {
+      "key": "steel_hex_mortal",
+      "label": "Steelcaps \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 7915.3
+    },
+    {
+      "key": "hex_rfc_mortal",
+      "label": "Berserkers \u00b7 Hex \u2192 RFC \u2192 Mortal",
+      "area": 7835.8
+    },
+    {
+      "key": "dyn_hex_serpent",
+      "label": "Dynamism \u00b7 Hex \u2192 Serpent's \u2192 Mortal",
+      "area": 7719.4
+    }
+  ],
+  "support_wave": [
+    {
+      "key": "statikk_hex_rfc",
+      "label": "Berserkers \u00b7 Statikk \u2192 Hex \u2192 RFC",
+      "area": 9679.9
+    },
+    {
+      "key": "statikk_rfc_ldr",
+      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
+      "area": 9318.1
+    },
+    {
+      "key": "statikk_cleaver_hex",
+      "label": "Berserkers \u00b7 Statikk \u2192 Cleaver \u2192 Hex",
+      "area": 9176.8
+    },
+    {
+      "key": "dyn_statikk_rfc",
+      "label": "Dynamism \u00b7 Statikk \u2192 RFC \u2192 Hex",
+      "area": 8637.9
+    },
+    {
+      "key": "hex_er_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 7764.9
+    },
+    {
+      "key": "hex_col_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Collector \u2192 RFC",
+      "area": 7576.0
+    },
+    {
+      "key": "hex_rfc_mortal",
+      "label": "Berserkers \u00b7 Hex \u2192 RFC \u2192 Mortal",
+      "area": 7529.7
+    },
+    {
+      "key": "ionian_hex_er",
+      "label": "Ionian \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 7448.9
+    },
+    {
+      "key": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 7342.8
+    },
+    {
+      "key": "steel_hex_mortal",
+      "label": "Steelcaps \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 6810.400000000001
+    },
+    {
+      "key": "dyn_hex_mortal",
+      "label": "Dynamism \u00b7 Hex \u2192 Mortal \u2192 Collector",
+      "area": 6588.1
+    },
+    {
+      "key": "dyn_hex_serpent",
+      "label": "Dynamism \u00b7 Hex \u2192 Serpent's \u2192 Mortal",
+      "area": 6488.9
+    },
+    {
+      "key": "dyn_drak_col",
+      "label": "Dynamism \u00b7 Draktharr \u2192 Collector \u2192 Hex",
+      "area": 6394.4
+    }
+  ],
   "adc_minutes": [
     {
       "role": "adc",
@@ -248,6 +596,9 @@
       "q_casts": 1.24,
       "sq_dmg": 1746.8,
       "tk_dmg": 1413.1,
+      "clump": 1746.8,
+      "wave_4s": 1012.2,
+      "wave_ttk": 11.14,
       "heal": 221.7,
       "shield": 118.0,
       "impact": 1746.8,
@@ -283,6 +634,9 @@
       "q_casts": 1.3,
       "sq_dmg": 2780.1,
       "tk_dmg": 2126.0,
+      "clump": 2780.1,
+      "wave_4s": 1781.4,
+      "wave_ttk": 6.33,
       "heal": 307.8,
       "shield": 142.0,
       "impact": 2780.1,
@@ -320,6 +674,9 @@
       "q_casts": 1.32,
       "sq_dmg": 4454.7,
       "tk_dmg": 3353.3,
+      "clump": 4454.7,
+      "wave_4s": 2742.4,
+      "wave_ttk": 4.11,
       "heal": 384.8,
       "shield": 188.0,
       "impact": 4454.7,
@@ -359,6 +716,9 @@
       "q_casts": 1.34,
       "sq_dmg": 4998.3,
       "tk_dmg": 3750.5,
+      "clump": 4998.3,
+      "wave_4s": 3149.6,
+      "wave_ttk": 3.58,
       "heal": 420.0,
       "shield": 214.0,
       "impact": 4998.3,
@@ -402,6 +762,9 @@
       "q_casts": 1.34,
       "sq_dmg": 9433.3,
       "tk_dmg": 8305.0,
+      "clump": 9433.3,
+      "wave_4s": 4753.1,
+      "wave_ttk": 2.37,
       "heal": 488.8,
       "shield": 240.0,
       "impact": 9433.3,
@@ -440,6 +803,9 @@
       "q_casts": 1.23,
       "sq_dmg": 837.5,
       "tk_dmg": 719.5,
+      "clump": 1078.2,
+      "wave_4s": 863.9,
+      "wave_ttk": 13.06,
       "heal": 370.3,
       "shield": 268.8,
       "impact": 1078.2,
@@ -475,6 +841,9 @@
       "q_casts": 1.28,
       "sq_dmg": 1394.2,
       "tk_dmg": 1130.0,
+      "clump": 1708.0,
+      "wave_4s": 1574.0,
+      "wave_ttk": 7.17,
       "heal": 482.8,
       "shield": 364.0,
       "impact": 1708.0,
@@ -514,6 +883,9 @@
       "q_casts": 1.31,
       "sq_dmg": 2317.3,
       "tk_dmg": 1957.7,
+      "clump": 2686.0,
+      "wave_4s": 2327.6,
+      "wave_ttk": 4.85,
       "heal": 567.3,
       "shield": 459.2,
       "impact": 2686.0,
@@ -553,6 +925,9 @@
       "q_casts": 1.33,
       "sq_dmg": 2474.8,
       "tk_dmg": 2082.8,
+      "clump": 2874.0,
+      "wave_4s": 2577.3,
+      "wave_ttk": 4.38,
       "heal": 614.2,
       "shield": 498.4,
       "impact": 2874.0,

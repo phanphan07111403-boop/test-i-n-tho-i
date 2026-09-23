@@ -98,6 +98,70 @@ Support winner  (20:00, Flash + Heal, Fleet for the item rank)
     Empowered Attack (no keystone dmg)             8148   -4.6%
 
 ------------------------------------------------------------------------
+Why the live meta rushes Statikk Shiv
+------------------------------------------------------------------------
+  7.3 did not buff Senna's 1v1. It split Magnetic Blaster into three
+  items: Hexoptics (range amp), Rapid Firecannon (energized range),
+  Statikk Shiv (waveclear + on-hit bounce). Senna's pre-7.3 page WAS
+  Magnetic. The meta is putting that kit back together, Shiv first,
+  because Shiv is the only piece that crashes a wave.
+
+  Official Shiv: Energized lightning bounces to 3/4/5/6 extras at
+  1/5/9/13, 60 magic (90 vs minions), and COPIES ON-HIT onto bounce
+  targets. Senna's Relic Cannon is 20% AD on-hit. Brutal is on-hit.
+  Living Extraction is on-hit. Q applies on-hit to champions. One
+  energized auto into a wave dumps Relic+90 mag through 4–6 minions.
+  One energized auto into dragon copies Relic+extract onto the two
+  people you did not click.
+
+  AS ratio 0.4 is why she can rush it now. Old 0.125 ratio could not
+  charge Energized. 30% AS actually arrives; Electrotherapy +5 per
+  auto stacks it faster. Q refunds also speed the next proc.
+
+  Support specifically: minions Senna does not last-hit spawn more
+  wraiths. Shiv chips the wave, the ADC last-hits, souls pop. That
+  is the fasting-Senna income the 1v1 table never scores.
+
+  40 AP is live on this kit: Q heal 25% AP, R 70% AP. Youmuu has 0 AP.
+
+  What the 1v1 table misses — 3-target clump (Relic copied):
+   1. Statikk → Hex → RFC → LDR → IE                      24079   +0.0%
+   2. Youmuu → Collector → Hex → IE → LDR                 23413   -2.8%
+   3. Youmuu → Hex → IE → RFC → LDR                       22758   -5.5%
+   4. Draktharr → Collector → Hex → Serylda               22153   -8.0%
+   5. Hex → Collector → IE → LDR → BT                     21853   -9.2%
+   6. Statikk → RFC → Hex → IE → LDR                      21812   -9.4%
+   7. Hex → Collector → IE → RFC → LDR                    21799   -9.5%
+   8. Hex → Collector → RFC → IE → LDR                    21670  -10.0%
+
+  Wave crash (4s shove damage; lower TTK at 12:00 is the rush):
+  path                                              4s area  12:00 TTK
+   1. Statikk → Hex → RFC → LDR → IE                   18268     4.2s   +0.0%
+   2. Statikk → RFC → Hex → IE → LDR                   17364     5.2s   -4.9%
+   3. Statikk → RFC → IE → LDR → BT                    16930     5.2s   -7.3%
+   4. Statikk → RFC → LDR → IE → Galeforce             16664     5.2s   -8.8%
+   5. Hex → Navori → RFC → IE → LDR                    15567     5.9s  -14.8%
+   6. Youmuu → Hex → IE → RFC → LDR                    15180     5.6s  -16.9%
+   7. Galeforce → IE → RFC → LDR → BT                  15036     7.4s  -17.7%
+   8. Stormrazor → IE → RFC → LDR → BT                 14985     6.4s  -18.0%
+
+  Side-by-side at 12:00 (first legendary online on both):
+    Youmuu+Collector  1v1 2780  clump 2780  wave TTK 6.3s
+    Statikk+Hex       1v1 2646  clump 3040  wave TTK 4.2s
+
+  Support wave (why sickle pages buy Shiv over Hex on WRF):
+   1. Berserkers · Statikk → Hex → RFC                     9680  TTK 3.5s   +0.0%
+   2. Berserkers · Statikk → RFC → LDR                     9318  TTK 3.8s   -3.7%
+   3. Berserkers · Statikk → Cleaver → Hex                 9177  TTK 3.8s   -5.2%
+   4. Dynamism · Statikk → RFC → Hex                       8638  TTK 4.0s  -10.8%
+   5. Berserkers · Hex → ER → RFC                          7765  TTK 4.5s  -19.8%
+   6. Berserkers · Hex → Collector → RFC                   7576  TTK 4.6s  -21.7%
+
+  So: rush Shiv when you are crashing waves, stacking souls off
+  wraiths, and hitting dragon pits. Buy Youmuu when the game is
+  2v2 poke and you never shove. The live meta is the first game.
+
+------------------------------------------------------------------------
 Why 7.3 kept lethality first on ADC and moved support onto Hexoptics
 ------------------------------------------------------------------------
   • Mist crit 10%/20. At 8:00 an ADC has ~40 souls = 10% crit. Hexoptics'

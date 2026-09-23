@@ -91,8 +91,23 @@ class TestSenna73(unittest.TestCase):
         scores = dict(self.adc_rank)
         self.assertGreater(scores[self.adc_win], scores["hex_col_ie_ldr_bt"])
         self.assertGreater(scores[self.adc_win], scores["hex_ie_rfc_ldr_bt"])
+        self.assertLess(scores["yun_ie_rfc_ldr_bt"] / scores[self.adc_win], 0.90)
 
-    def test_yun_tal_and_statikk_rfc_are_traps(self):
+    def test_shiv_bounce_schedule(self):
+        from simulate_senna_73 import shiv_bounces
+        self.assertEqual(shiv_bounces(1), 3)
+        self.assertEqual(shiv_bounces(5), 4)
+        self.assertEqual(shiv_bounces(9), 5)
+        self.assertEqual(shiv_bounces(13), 6)
+
+    def test_meta_shiv_wins_the_wave_not_the_1v1(self):
+        you = snapshot("adc", "youmuu_col_hex_ie_ldr", 12)
+        shiv = snapshot("adc", "statikk_hex_rfc_ldr", 12)
+        self.assertGreater(you["sq_dmg"], shiv["sq_dmg"])
+        self.assertLess(shiv["wave_ttk"], you["wave_ttk"])
+        self.assertGreater(shiv["clump"], shiv["sq_dmg"])
+        # Bounce Relic has to show up: clump gap vs 1v1 is a Shiv thing.
+        self.assertGreater(shiv["clump"] - shiv["sq_dmg"], you["clump"] - you["sq_dmg"])
         scores = dict(self.adc_rank)
         self.assertLess(scores["yun_ie_rfc_ldr_bt"] / scores[self.adc_win], 0.90)
         self.assertLess(scores["statikk_rfc_ie_ldr"] / scores[self.adc_win], 0.90)

@@ -209,6 +209,17 @@ def extraction_pct(level: int) -> float:
     return 0.01 + 0.09 * (level - 1) / 14.0
 
 
+def shiv_bounces(level: int) -> int:
+    """7.3 Statikk: additional bounce targets 3/4/5/6 at 1/5/9/13."""
+    if level >= 13:
+        return 6
+    if level >= 9:
+        return 5
+    if level >= 5:
+        return 4
+    return 3
+
+
 def nightstalker(level: int) -> float:
     return 60.0 + 100.0 * (level - 1) / 14.0
 
@@ -755,6 +766,9 @@ class Fight:
     crit: float = 0.0
     crit_dmg: float = CRIT_BASE
     ad: float = 0.0
+    clump: float = 0.0
+    wave_4s: float = 0.0
+    wave_ttk: float = 0.0
     notes: List[str] = field(default_factory=list)
 
 
@@ -913,11 +927,43 @@ def simulate_fight(
         heal += (lerp(15.0, 110.0, level) + 0.15 * bonus_ad) * min(2.0, autos / 4.0)
     shield = r_shield(rr, st.ap, mist) * (1.4 if role == "support" else 0.5)
 
+    # 7.3 Shiv: lightning copies on-hit onto extra targets. Relic Cannon
+    # (20% AD) + Brutal ride every bounce. 1v1 has nowhere for that to go.
+    bounce_onhit = RELIC * total_ad + BRUTAL
+    clump_add = 0.0
+    if st.statikk and procs > 0.0:
+        extra_champs = min(2, shiv_bounces(level))  # 3-person dragon pit
+        per = mag(60.0 + 0.15 * st.ap) + phys(bounce_onhit, basic=True)
+        per += phys(extraction_pct(level) * 0.45 * target.hp)
+        clump_add = procs * extra_champs * per
+
+    # Wave crash, 4s: auto the melee, bounce 90 mag + Relic through the rest.
+    # Magnetic used to be this shove. Q line still tags ~3 minions.
+    wave_s = 4.0
+    wave_autos = aspd * wave_s
+    wave_q = wave_s / interval
+    w_per = 12.0 + (5.0 if st.statikk else 0.0)
+    w_procs = 0.0
+    if st.rfc or st.storm or st.statikk:
+        w_procs = min(2.4, 0.55 + (wave_autos + wave_q) * w_per / 100.0 * 0.55)
+    minion_p = 100.0 / (100.0 + 18.0)
+    q_wave = q_damage(qr, bonus_ad) * 3.0 * minion_p * wave_q
+    auto_wave = avg_auto * minion_p * wave_autos
+    bounce_wave = 0.0
+    if st.statikk:
+        extras = min(5, shiv_bounces(level))
+        bounce_wave = w_procs * extras * (90.0 + bounce_onhit * minion_p)
+    elif st.rfc or st.storm:
+        bounce_wave = w_procs * (80.0 if st.rfc else 120.0)
+    wave_4s = auto_wave + q_wave + bounce_wave
+    wave_hp = 6.0 * 470.0
+    wave_ttk = wave_hp / max(140.0, wave_4s / wave_s)
+
     notes = []
     if st.hex:
         notes.append(f"Hex +{hex_amp:.0%} far")
     if st.statikk:
-        notes.append("Statikk")
+        notes.append(f"Shiv {shiv_bounces(level)} bounce")
     if st.rfc:
         notes.append("RFC")
     if st.ie:
@@ -939,6 +985,9 @@ def simulate_fight(
         crit=crit,
         crit_dmg=st.crit_damage,
         ad=total_ad,
+        clump=total + clump_add,
+        wave_4s=wave_4s,
+        wave_ttk=wave_ttk,
         notes=notes,
     )
 
@@ -972,6 +1021,9 @@ def snapshot(role: str, path_key: str, minute: int, keystone: str = "fleet") -> 
         "q_casts": round(sq.q_casts, 2),
         "sq_dmg": round(sq.damage, 1),
         "tk_dmg": round(tk.damage, 1),
+        "clump": round(sq.clump + (0.65 * sq.heal if role == "support" else 0.0), 1),
+        "wave_4s": round(sq.wave_4s, 1),
+        "wave_ttk": round(sq.wave_ttk, 2),
         "heal": round(sq.heal, 1),
         "shield": round(sq.shield, 1),
         "impact": round(sq.damage + (0.65 * sq.heal if role == "support" else 0.0), 1),
@@ -987,6 +1039,11 @@ def area(role: str, path_key: str, keystone: str = "fleet") -> float:
         snap = snapshot(role, path_key, m, keystone)
         total += snap["impact"] if role == "support" else snap["sq_dmg"]
     return total
+
+
+def area_field(role: str, path_key: str, field: str, keystone: str = "fleet") -> float:
+    minutes = ADC_MINUTES if role == "adc" else SUP_MINUTES
+    return sum(snapshot(role, path_key, m, keystone)[field] for m in minutes)
 
 
 def first_legendary_minute(role: str, path_key: str) -> Optional[int]:
@@ -1083,6 +1140,27 @@ def write_report() -> Dict:
     sup_ks = [(ks, area("support", sup_win, ks)) for ks, _ in KEYSTONES]
     sup_ks.sort(key=lambda kv: kv[1], reverse=True)
 
+    adc_clump = sorted(
+        ((k, area_field("adc", k, "clump")) for k in ADC_PATHS),
+        key=lambda kv: kv[1],
+        reverse=True,
+    )
+    adc_wave = sorted(
+        ((k, area_field("adc", k, "wave_4s")) for k in ADC_PATHS),
+        key=lambda kv: kv[1],
+        reverse=True,
+    )
+    sup_clump = sorted(
+        ((k, area_field("support", k, "clump")) for k in SUP_PATHS),
+        key=lambda kv: kv[1],
+        reverse=True,
+    )
+    sup_wave = sorted(
+        ((k, area_field("support", k, "wave_4s")) for k in SUP_PATHS),
+        key=lambda kv: kv[1],
+        reverse=True,
+    )
+
     lines: List[str] = []
     def p(s: str = "") -> None:
         lines.append(s)
@@ -1168,6 +1246,65 @@ def write_report() -> Dict:
         label = dict(KEYSTONES)[ks]
         delta = (sc / sup_ks[0][1] - 1.0) * 100.0
         p(f"    {label:<42} {sc:>8.0f}  {delta:+5.1f}%")
+    p()
+
+    p("-" * 72)
+    p("Why the live meta rushes Statikk Shiv")
+    p("-" * 72)
+    p("  7.3 did not buff Senna's 1v1. It split Magnetic Blaster into three")
+    p("  items: Hexoptics (range amp), Rapid Firecannon (energized range),")
+    p("  Statikk Shiv (waveclear + on-hit bounce). Senna's pre-7.3 page WAS")
+    p("  Magnetic. The meta is putting that kit back together, Shiv first,")
+    p("  because Shiv is the only piece that crashes a wave.")
+    p()
+    p("  Official Shiv: Energized lightning bounces to 3/4/5/6 extras at")
+    p("  1/5/9/13, 60 magic (90 vs minions), and COPIES ON-HIT onto bounce")
+    p("  targets. Senna's Relic Cannon is 20% AD on-hit. Brutal is on-hit.")
+    p("  Living Extraction is on-hit. Q applies on-hit to champions. One")
+    p("  energized auto into a wave dumps Relic+90 mag through 4–6 minions.")
+    p("  One energized auto into dragon copies Relic+extract onto the two")
+    p("  people you did not click.")
+    p()
+    p("  AS ratio 0.4 is why she can rush it now. Old 0.125 ratio could not")
+    p("  charge Energized. 30% AS actually arrives; Electrotherapy +5 per")
+    p("  auto stacks it faster. Q refunds also speed the next proc.")
+    p()
+    p("  Support specifically: minions Senna does not last-hit spawn more")
+    p("  wraiths. Shiv chips the wave, the ADC last-hits, souls pop. That")
+    p("  is the fasting-Senna income the 1v1 table never scores.")
+    p()
+    p("  40 AP is live on this kit: Q heal 25% AP, R 70% AP. Youmuu has 0 AP.")
+    p()
+    p("  What the 1v1 table misses — 3-target clump (Relic copied):")
+    clump_win, clump_score = adc_clump[0]
+    for i, (k, sc) in enumerate(adc_clump[:8], 1):
+        delta = (sc / clump_score - 1.0) * 100.0
+        p(f"  {i:>2}. {ADC_LABEL[k]:<48} {sc:>8.0f}  {delta:+5.1f}%")
+    p()
+    p("  Wave crash (4s shove damage; lower TTK at 12:00 is the rush):")
+    wave_win, wave_score = adc_wave[0]
+    p(f"  {'path':<48} {'4s area':>8}  {'12:00 TTK':>9}")
+    for i, (k, sc) in enumerate(adc_wave[:8], 1):
+        ttk = snapshot("adc", k, 12)["wave_ttk"]
+        delta = (sc / wave_score - 1.0) * 100.0
+        p(f"  {i:>2}. {ADC_LABEL[k]:<45} {sc:>8.0f}  {ttk:>6.1f}s  {delta:+5.1f}%")
+    p()
+    you_12 = snapshot("adc", "youmuu_col_hex_ie_ldr", 12)
+    shiv_12 = snapshot("adc", "statikk_hex_rfc_ldr", 12)
+    p("  Side-by-side at 12:00 (first legendary online on both):")
+    p(f"    Youmuu+Collector  1v1 {you_12['sq_dmg']:.0f}  clump {you_12['clump']:.0f}  wave TTK {you_12['wave_ttk']:.1f}s")
+    p(f"    Statikk+Hex       1v1 {shiv_12['sq_dmg']:.0f}  clump {shiv_12['clump']:.0f}  wave TTK {shiv_12['wave_ttk']:.1f}s")
+    p()
+    p("  Support wave (why sickle pages buy Shiv over Hex on WRF):")
+    sw_win, sw_score = sup_wave[0]
+    for i, (k, sc) in enumerate(sup_wave[:6], 1):
+        ttk = snapshot("support", k, 16)["wave_ttk"]
+        delta = (sc / sw_score - 1.0) * 100.0
+        p(f"  {i:>2}. {SUP_LABEL[k]:<48} {sc:>8.0f}  TTK {ttk:.1f}s  {delta:+5.1f}%")
+    p()
+    p("  So: rush Shiv when you are crashing waves, stacking souls off")
+    p("  wraiths, and hitting dragon pits. Buy Youmuu when the game is")
+    p("  2v2 poke and you never shove. The live meta is the first game.")
     p()
 
     p("-" * 72)
@@ -1262,6 +1399,10 @@ def write_report() -> Dict:
         "support_score": sup_score,
         "support_rank": [{"key": k, "label": SUP_LABEL[k], "area": sc} for k, sc in sup_rank],
         "support_keystones": [{"key": k, "area": sc} for k, sc in sup_ks],
+        "adc_clump": [{"key": k, "label": ADC_LABEL[k], "area": sc} for k, sc in adc_clump],
+        "adc_wave": [{"key": k, "label": ADC_LABEL[k], "area": sc} for k, sc in adc_wave],
+        "support_clump": [{"key": k, "label": SUP_LABEL[k], "area": sc} for k, sc in sup_clump],
+        "support_wave": [{"key": k, "label": SUP_LABEL[k], "area": sc} for k, sc in sup_wave],
         "adc_minutes": [snapshot("adc", adc_win, m) for m in ADC_MINUTES],
         "support_minutes": [snapshot("support", sup_win, m) for m in SUP_MINUTES],
         "adc_pages": ADC_PAGES,
