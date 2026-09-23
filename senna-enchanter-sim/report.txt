@@ -1,0 +1,174 @@
+================================================================================
+ENCHANTER SENNA — BUFF GOLD EFFICIENCY  (Wild Rift Patch 7.3)
+Items: Helia · Whispering Circlet/Diadem · Ardent · Harmonic Echo
+Playstyle: Q-max enchanter, auto to refund Q, heal the ADC  |  Game: 20:00
+Metric: ally buff + fight impact from the SAME support gold curve
+================================================================================
+
+GOLD / LEVEL / MIST (support Senna)
+  Min    Gold  Lvl   Mist    bAD
+    1     830    2     12     14
+    4    1820    5     22     28
+    6    2740    7     29     36
+    8    3660    8     36     45
+   10    4580   10     43     54
+   12    5700   11     50     62
+   14    6820   12     57     71
+   16    7940   13     64     80
+   18    9060   14     71     89
+   20   10180   15     78     98
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (buff+impact score)
+--------------------------------------------------------------------------------
+   1:00 | impact     425 | sustain     90 | dmg+    337 | g/eff 424.6 | Helia → Whisper → Ardent → Harmonic (Tear rush)
+         items: Spectral Sickle
+         pre-legendary
+   2:00 | impact     565 | sustain    155 | dmg+    416 | g/eff 487.3 | Helia → Whisper → Ardent → Harmonic (Tear rush)
+         items: Spectral Sickle › Tear of the Goddess
+         pre-legendary
+   4:00 | impact     825 | sustain    244 | dmg+    595 | g/eff 453.2 | Helia → Whisper → Ardent → Harmonic
+         items: Spectral Sickle › Boots of Speed › Bandleglass Mirror
+         pre-legendary
+   6:00 | impact    1351 | sustain    551 | dmg+    890 | g/eff 493.1 | Helia → Whisper → Ardent → Harmonic (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Boots of Speed › Bandleglass Mirror
+         pre-legendary
+   8:00 | impact    3688 | sustain   1040 | dmg+   2892 | g/eff 1007.8 | Ardent → Helia → Whisper → Harmonic
+         items: Black Mist Scythe › Boots of Speed › Ardent Censer
+         Ardent 30% AS
+   9:00 | impact    3956 | sustain   1157 | dmg+   3091 | g/eff 960.1 | Ardent → Helia → Whisper → Harmonic
+         items: Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity
+         Ardent 30% AS
+  10:00 | impact    4547 | sustain   1223 | dmg+   3646 | g/eff 992.8 | Ardent → Helia → Whisper → Harmonic (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Ardent Censer › Ionian Boots of Lucidity
+         Ardent 30% AS
+  11:00 | impact    4701 | sustain   1323 | dmg+   3749 | g/eff 914.7 | Ardent → Helia → Whisper → Harmonic
+         items: Black Mist Scythe › Ardent Censer › Ionian Boots of Lucidity › Bandleglass Mirror
+         Ardent 30% AS
+  12:00 | impact    5046 | sustain   1478 | dmg+   4022 | g/eff 885.3 | Ardent → Helia → Whisper → Harmonic (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Ardent Censer › Ionian Boots of Lucidity › Bandleglass Mirror
+         Ardent 30% AS
+  14:00 | impact    7048 | sustain   2635 | dmg+   5494 | g/eff 1033.5 | Helia → Ardent → Whisper → Harmonic (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Echoes of Helia › Ionian Boots of Lucidity › Ardent Censer
+         Ardent 30% AS, Helia Q-dump
+  15:00 | impact    7311 | sustain   2794 | dmg+   5708 | g/eff 990.6 | Helia → Ardent → Harmonic → Whisper
+         items: Black Mist Scythe › Echoes of Helia › Ionian Boots of Lucidity › Ardent Censer › Bandleglass Mirror
+         Ardent 30% AS, Helia Q-dump
+  16:00 | impact    7560 | sustain   2942 | dmg+   5914 | g/eff 952.2 | Helia → Ardent → Harmonic → Whisper (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Echoes of Helia › Ionian Boots of Lucidity › Ardent Censer › …
+         Ardent 30% AS, Helia Q-dump
+  18:00 | impact    8458 | sustain   3559 | dmg+   6661 | g/eff 933.6 | Helia → Ardent → Harmonic → Whisper
+         items: Black Mist Scythe › Echoes of Helia › Ionian Boots of Lucidity › Ardent Censer › Harmonic Echo
+         Ardent 30% AS, Helia Q-dump, Harmonic chain
+  20:00 | impact    9023 | sustain   4124 | dmg+   7121 | g/eff 886.4 | Helia → Ardent → Harmonic → Whisper (Tear rush)
+         items: Black Mist Scythe › Tear of the Goddess › Echoes of Helia › Ionian Boots of Lucidity › Ardent Censer › …
+         Ardent 30% AS, Helia Q-dump, Harmonic chain
+
+--------------------------------------------------------------------------------
+BUILD ORDER RANKING — time-weighted buff/impact  (top 12)
+--------------------------------------------------------------------------------
+  #   Build                                        8:00  12:00  16:00  20:00   Score  g/eff
+  1   Ardent → Helia → Harmonic → Whisper          3688   4997   7500   9023   10393  804.4
+  2   Ardent → Harmonic → Helia → Whisper          3688   4997   7414   9023   10228  801.9
+  3   Ardent → Helia → Whisper → Harmonic          3688   4997   7454   8809   10218  799.4
+  4   Ardent → Helia → Harmonic → Whisper (Tear rush)   2127   5046   7560   9023   10105  782.2
+  5   Ardent → Helia → Whisper → Harmonic (Tear rush)   2127   5046   7454   8866   10070  778.5
+  6   Ardent → Harmonic → Whisper → Helia          3688   4997   7365   8721    9918  794.6
+  7   Ardent → Harmonic → Helia → Whisper (Tear rush)   2127   5046   7470   9023    9899  779.0
+  8   Ardent → Whisper → Helia → Harmonic          3688   4953   7124   8866    9885  788.3
+  9   Ardent → Whisper → Helia → Harmonic (Tear rush)   2127   4953   7216   8866    9821  769.1
+  10  Ardent → Harmonic → Whisper → Helia (Tear rush)   2127   5046   7365   8786    9772  773.9
+  11  Ardent → Whisper → Harmonic → Helia          3688   4953   7124   8786    9749  786.2
+  12  Ardent → Whisper → Harmonic → Helia (Tear rush)   2127   4953   7216   8786    9687  767.1
+
+--------------------------------------------------------------------------------
+WHEN EACH BUFF COMES ONLINE  (best path vs selected contrasts)
+--------------------------------------------------------------------------------
+  Ardent → Helia → Harmonic → Whisper        Ard  8:00  Hel 14:00  Whp   —    Dia   —    Harm 18:00
+  Ardent → Harmonic → Helia → Whisper        Ard  8:00  Hel 18:00  Whp   —    Dia   —    Harm 14:00
+  Ardent → Helia → Whisper → Harmonic        Ard  8:00  Hel 14:00  Whp 18:00  Dia   —    Harm   —  
+  Ardent → Helia → Harmonic → Whisper (Tear rush) Ard  9:00  Hel 14:00  Whp   —    Dia   —    Harm 19:00
+  Ardent → Helia → Whisper → Harmonic (Tear rush) Ard  9:00  Hel 14:00  Whp 18:00  Dia 18:00  Harm   —  
+  Helia → Harmonic → Ardent → Whisper        Ard 18:00  Hel  8:00  Whp   —    Dia   —    Harm 14:00
+  Harmonic → Helia → Ardent → Whisper        Ard 18:00  Hel 14:00  Whp   —    Dia   —    Harm  8:00
+  Helia → Harmonic → Ardent → Whisper (Tear rush) Ard 19:00  Hel  9:00  Whp   —    Dia   —    Harm 14:00
+
+--------------------------------------------------------------------------------
+FIRST-ITEM GOLD EFFICIENCY  (same gold, different 2400g spike @ 8–10)
+--------------------------------------------------------------------------------
+  Ardent      8:00 impact   3688 (g/eff 1007.8)   10:00 impact   4495 (g/eff  981.5)  Ardent 30% AS
+  Whisper     8:00 impact   2091 (g/eff  571.4)   10:00 impact   2501 (g/eff  546.0)  Circlet stacking
+  Helia       8:00 impact   2386 (g/eff  652.0)   10:00 impact   2835 (g/eff  619.0)  Helia Q-dump
+  Harmonic    8:00 impact   2315 (g/eff  632.6)   10:00 impact   2733 (g/eff  596.8)  Harmonic chain
+
+--------------------------------------------------------------------------------
+ITEM ROLES (why order matters)
+--------------------------------------------------------------------------------
+  Ardent  2400  50 AP, 8% HSP, NO haste. Buff: 30% AS + 25 on-hit for 6s
+                 on you AND the ally you Q. Senna autos, so she uses it too.
+                 AS also refunds Q CD (1s per auto) despite her 0.4 AS ratio.
+  Helia   2400  40 AP, 20 AH, 200 HP. 30% of champ damage stored
+                 (cap 80–250 by level). Senna Q damages THEN heals —
+                 store and dump in one cast. Autos between Qs fill shards.
+                 20 AH + auto refund = much shorter Q interval.
+                 Shares Bandleglass + Kindlegem with Harmonic.
+  Whisper 2400  8% HSP + Harmony (0.5% of max mana as HSP, 25% mana refund).
+                 Tear stacks transfer; 700 bonus mana → Diadem of Songs.
+                 Diadem: 0.8% max mana HPS in combat to lowest-HP ally.
+                 Senna is less mana-hungry than Sona (15s Q, auto refunds).
+  Harmonic 2500 40 AP, 20 AH, 200 HP, NO HSP. Chain 30% heal / 35% shield
+                 to a second ally (or extra on the ADC in 2v2).
+                 Same components as Helia — buying one delays the other
+                 by a full item.
+
+  20-min support gold finishes ~3 legendaries. The 4th is often leftover.
+  First two slots decide the game. Do not spend them on the two Kindlegem
+  items back-to-back.
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best order: Ardent → Helia → Harmonic → Whisper
+  Time-weighted buff/impact: 10393  |  gold-eff: 804.4 impact / 1k gold
+  Ardent online:   ~8:00   (ADC + Senna 30% AS / 25 on-hit)
+  Circlet/Diadem: NOT finished by 20:00 — 4th item on a 20-min clock
+  Helia online:    ~14:00   (Q store+dump + 20 AH for Q interval)
+  Harmonic online: ~18:00   (chain to the second ally in 5v5)
+
+  Vs double-Kindlegem first (Helia → Harmonic → Ardent → Whisper): +52% impact at 12:00 (4997 vs 3278), +60% at 16:00.
+  Ardent-first vs Whisper-first: 8:00 3688 vs 2091  |  16:00 7124 vs 7216.
+  Ardent-first vs Helia-first:   8:00 3688 vs 2386 (+55%). Helia is closer on Senna than on Sona (same-cast Q dump) but still loses the 8:00 spike.
+
+  WHY THIS ORDER:
+  • Patch 7.3 buffed marksmen (200% crit). Ardent is a flat 30% AS /
+    25 on-hit at 2400g. It buffs the ADC AND Senna's own autos, and
+    the extra AS refunds Q CD (1s per auto). First-item Ardent is the
+    8–14 dragon-window fight buff.
+  • Helia second adds 20 AH so Q interval drops (haste + auto refund)
+    and every Q becomes a Helia dump. 0 HSP; Ardent already brought 8%.
+  • Third (Harmonic) is the long-game slot — only live if the match
+    lasts. 20-min support gold usually finishes exactly three legendaries.
+  • Harmonic shares Bandleglass + Kindlegem with Helia. Buying both
+    before Ardent/Circlet means the ADC never gets the 7.3 fight buff.
+  • Tear rush before Ardent delays the 2400g spike by one component.
+    Skip Tear until Circlet is next if you are rushing Ardent.
+
+  RECOMMENDED PURCHASE ORDER (20-min enchanter Senna, Wild Rift 7.3):
+  1) Spectral Sickle → Black Mist Scythe  — quest gold / 10 AH
+  2) Boots of Speed                       — don't delay the first 2400g
+  3) Ardent Censer                        — ADC + Senna 30% AS / 25 on-hit
+  4) Ionian Boots of Lucidity             — 15 AH, shorter Q interval
+  5) Echoes of Helia                      — 20 AH + Q store-and-dump
+  6) Harmonic Echo                        — chain heal/shield in 5v5s
+  7) Whispering Circlet → Diadem          — HSP + mana refund + combat HPS
+
+  Swap Ardent → Staff of Flowing Waters (40 AP / 15 AH for 6s) if your
+  carry is AP (Kai'Sa hybrid, Corki, AP Ezreal). Same slot, same timing.
+
+  Trap: Helia → Harmonic. Same recipe, no ADC buff, Ardent never lands
+  for the 12:00 dragon. Shared Kindlegem is the least gold-efficient pair.
+  Trap: Harmonic first in lane. Chain has no second target; 2500g for
+  AH that Helia also buys — and Helia actually converts Senna's autos.
+  Trap: Tear rush into item 1. Senna is not as mana-hungry as Sona;
+  400g delays the first legendary. Only rush Tear if Circlet is 1st/2nd.
+================================================================================
