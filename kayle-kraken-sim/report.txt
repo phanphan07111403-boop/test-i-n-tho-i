@@ -1,0 +1,68 @@
+==============================================================================
+TỐC CHIẾN 7.3 — KRAKEN SLAYER HỢP KAYLE KHÔNG?
+WRF A: Nashor → Dusk and Dawn → Deathcap. Kayle ranged từ lv5.
+8s sponge: Q shred 20% → R blades → E active → AA on-hit (wave lv9 @5 stack).
+==============================================================================
+
+TRẢ LỜI: Không phải first item mặc định. Play Nashor → Dusk → Cap.
+  Kraken first thắng 8s DPS phút 8–16 (tank), thua AP @20+ khi Cap+Void.
+  Kit AP (W heal 30%, R 60% AP) + Diamond+ ~60% WR → giữ AP core.
+  Nếu đi Kraken: rush (Rage → Terminus). Đừng Nashor rồi Kraken — trễ Dusk lẫn Rage.
+  Lv5+ ranged → Bring It Down 120–168 (melee 150–210).
+
+  #  Path                                                       8    12    16    20    24  score
+  1  Nashor → Dusk → Cap → Void → Orb  (WRF AP)               201   347   593   896  1163  3480 <<
+  2  Kraken → Rageblade → Terminus → Nashor → Wit's End       288   421   670   850  1044  3412
+  3  Nashor → Kraken → Rageblade → Terminus  (Kraken 2nd)     241   374   584   850  1044  3216
+  4  Kraken → Nashor → Dusk → Cap → Void  (hybrid)            288   374   603   584  1196  3136
+
+  Tank 8s DPS @12 / @16 / @20 / @24
+    Nashor → Dusk → Cap → Void → Orb  (WRF AP)              255 / 400 / 635 / 894
+    Kraken → Rageblade → Terminus → Nashor → Wit's End      295 / 461 / 555 / 647
+    Nashor → Kraken → Rageblade → Terminus  (Kraken 2nd)    261 / 380 / 555 / 647
+    Kraken → Nashor → Dusk → Cap → Void  (hybrid)           261 / 394 / 356 / 784
+
+------------------------------------------------------------------------------
+SPIKE
+------------------------------------------------------------------------------
+  Nashor → Dusk → Cap → Void → Orb  (WRF AP)
+    08:00 lv9   AP 50.0  AD 78.0   dps 201/148  Boots of Mana › Nashor's Tooth
+    12:00 lv12  AP 120.0 AD 87.0   dps 347/255  Boots of Mana › Nashor's Tooth › Dusk and Dawn
+    16:00 lv14  AP 324.0 AD 93.0   dps 593/400  Boots of Mana › Nashor's Tooth › Dusk and Dawn › Rabadon's Deathcap
+    20:00 lv15  AP 432.0 AD 96.0   dps 896/635  Boots of Mana › Nashor's Tooth › Dusk and Dawn › Rabadon's Deathcap › Void Staff
+    24:00 lv15  AP 526.5 AD 96.0   dps 1163/894  Boots of Mana › Nashor's Tooth › Dusk and Dawn › Rabadon's Deathcap › Void Staff › Infinity Orb
+
+  Kraken → Rageblade → Terminus → Nashor → Wit's End
+    08:00 lv9   AP 0.0   AD 133.0  dps 288/197  Berserker's Greaves › Kraken Slayer
+    12:00 lv12  AP 30.0  AD 177.0  dps 421/295  Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade
+    16:00 lv14  AP 30.0  AD 218.0  dps 670/461  Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus
+    20:00 lv15  AP 30.0  AD 246.0  dps 850/555  Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Nashor's Tooth
+    24:00 lv15  AP 30.0  AD 246.0  dps 1044/647  Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Nashor's Tooth › Wit's End
+
+  Nashor → Kraken → Rageblade → Terminus  (Kraken 2nd)
+    08:00 lv9   AP 0.0   AD 113.0  dps 241/174  Berserker's Greaves › Nashor's Tooth
+    12:00 lv12  AP 0.0   AD 167.0  dps 374/261  Berserker's Greaves › Nashor's Tooth › Kraken Slayer
+    16:00 lv14  AP 30.0  AD 208.0  dps 584/380  Berserker's Greaves › Nashor's Tooth › Kraken Slayer › Guinsoo's Rageblade
+    20:00 lv15  AP 30.0  AD 246.0  dps 850/555  Berserker's Greaves › Nashor's Tooth › Kraken Slayer › Guinsoo's Rageblade › Terminus
+    24:00 lv15  AP 30.0  AD 246.0  dps 1044/647  Berserker's Greaves › Nashor's Tooth › Kraken Slayer › Guinsoo's Rageblade › Terminus › Wit's End
+
+TRANG MẶC ĐỊNH (WRF AP)
+  Ô:     Nashor's Tooth › Boots of Mana › Dusk and Dawn › Rabadon's Deathcap › Void Staff › Infinity Orb
+  Mua:   Amplifying Tome › Boots of Mana › Nashor's Tooth › Dusk and Dawn › Rabadon's Deathcap › Void Staff › Infinity Orb
+  Max:   E > Q > W (R mọi cấp)
+  Spell: Flash + Barrier
+  Runes: Conqueror · Botanist · Absolute Focus · Gathering Storm · Bone Plating
+  Pad:   L1 Q shred 20% giáp/MR · L2 W heal + MS · L3 E active missing HP · L4 R invuln / blades · A AA on-hit kite (ranged lv5)
+
+ALT KRAKEN 2ND (vs tank / full HP)
+  Ô:     Nashor's Tooth › Berserker's Greaves › Kraken Slayer › Guinsoo's Rageblade › Terminus › Wit's End
+  Mua:   Tome → Berserkers → Nashor → Kraken → Rageblade → Terminus
+
+VÌ SAO KHÔNG RUSH KRAKEN
+  • Kit 7.3 scale AP: E 15% AP, Q 50% AP, W heal 30% AP, R 60% AP,
+    passive AS +1% AP/stack. Nashor fang = 50 AP + Gnaw 30% AP.
+  • Lv5 ranged → Kraken Bring It Down 120–168 (melee 150–210).
+  • Dusk and Dawn = spellblade + extra on-hit (Nashor/E proc 2 lần).
+  • Diamond+ core Nashor→Dusk→Cap ~60% WR. Kraken là nhánh AD.
+  • Kraken 2nd/3rd sau Nashor nếu team full HP — không first item.
+==============================================================================

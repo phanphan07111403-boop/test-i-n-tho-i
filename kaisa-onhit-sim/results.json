@@ -1,0 +1,889 @@
+{
+  "patch": "7.3",
+  "champ": "Kai'Sa",
+  "winner_1v1": "kraken",
+  "scores": {
+    "kraken": 16505,
+    "statikk": 14134,
+    "botrk": 15372
+  },
+  "page": {
+    "champ": "Kai'Sa",
+    "role": "ADC",
+    "wrf": "A",
+    "page": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Guinsoo's Rageblade",
+      "Terminus",
+      "Nashor's Tooth",
+      "Zhonya's Hourglass"
+    ],
+    "buy": [
+      "Long Sword",
+      "Berserker's Greaves",
+      "Kraken Slayer",
+      "Guinsoo's Rageblade",
+      "Terminus",
+      "Nashor's Tooth",
+      "Zhonya's Hourglass"
+    ],
+    "skill": "Q > E > W   (R mọi cấp)",
+    "evolve": "Q rồi E rồi W   (mỗi legendary hoàn thành = 1 evolve)",
+    "spells": "Flash + Ghost",
+    "runes": [
+      "Lethal Tempo",
+      "Brutal",
+      "Cut Down",
+      "Legend: Bloodline",
+      "Bone Plating"
+    ],
+    "pad": {
+      "L1": "Q Icathian Rain (xả)",
+      "L2": "W Void Seeker (aim)",
+      "L3": "E Supercharge (GIỮ ~1s)",
+      "L4": "R Killer Instinct (lock plasma)",
+      "A": "AA tướng"
+    },
+    "combo": "L3 giữ E → L2 W (2/3 plasma) → A A A (pop 5) → L1 Q đơn mục tiêu → L4 R nhảy / né. Ghost + E kite analog.",
+    "sit": [
+      "BotRK first vs 2+ tank (12% lifesteal)",
+      "Statikk first nếu teamfight / wave — bounce 7.3 apply on-hit + plasma",
+      "Wit's End ô 5/6 vs AP poke (thay Nashor hoặc Zhonya)",
+      "Runaan ô 5 nếu cần AoE plasma (crit 25% không phải identity)",
+      "Steelcaps vs AD all-in",
+      "Zhonya 6th = stasis sau R dive, không phải DPS"
+    ],
+    "pad_score": 78,
+    "pad_note": "Q tap, E giữ, R lock plasma. W aim nặng hơn Ashe. Analog kite + Supercharge. D-pad ← lính farm, → trụ."
+  },
+  "first_item": {
+    "kraken": {
+      "ready": 8,
+      "label": "Kraken → Rage → Terminus → Nashor → Zhonya",
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": false,
+            "W": false
+          },
+          "squishy": 1865,
+          "tank": 1846,
+          "splash": 0,
+          "sq_ttk": 4.85,
+          "tk_ttk": null,
+          "autos": 9,
+          "pops": 2,
+          "as_avg": 1.94,
+          "ad": 142.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": false
+          },
+          "squishy": 2223,
+          "tank": 2736,
+          "splash": 0,
+          "sq_ttk": 4.1,
+          "tk_ttk": null,
+          "autos": 9,
+          "pops": 2,
+          "as_avg": 2.3,
+          "ad": 187.5,
+          "ap": 30.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2420,
+          "tank": 4086,
+          "splash": 0,
+          "sq_ttk": 3.35,
+          "tk_ttk": 7.2,
+          "autos": 8,
+          "pops": 2,
+          "as_avg": 2.58,
+          "ad": 229.5,
+          "ap": 30.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus",
+            "nashors_tooth"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2805,
+          "tank": 4413,
+          "splash": 0,
+          "sq_ttk": 3.1,
+          "tk_ttk": 7.0,
+          "autos": 8,
+          "pops": 2,
+          "as_avg": 2.82,
+          "ad": 258.0,
+          "ap": 30.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 16340,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Nashor's Tooth",
+            "Zhonya's Hourglass"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus",
+            "nashors_tooth",
+            "zhonyas_hourglass"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2786,
+          "tank": 4938,
+          "splash": 0,
+          "sq_ttk": 2.4,
+          "tk_ttk": 7.0,
+          "autos": 6,
+          "pops": 2,
+          "as_avg": 2.77,
+          "ad": 233.0,
+          "ap": 190.0
+        }
+      },
+      "teamfight16": {
+        "minute": 16,
+        "level": 14,
+        "gold": 10180,
+        "owned": [
+          "Berserker's Greaves",
+          "Kraken Slayer",
+          "Guinsoo's Rageblade",
+          "Terminus"
+        ],
+        "ids": [
+          "berserkers_greaves",
+          "kraken_slayer",
+          "guinsoos_rageblade",
+          "terminus"
+        ],
+        "evolved": {
+          "Q": true,
+          "E": true,
+          "W": true
+        },
+        "squishy": 2420,
+        "tank": 4086,
+        "splash": 0,
+        "sq_ttk": 3.35,
+        "tk_ttk": 7.2,
+        "autos": 8,
+        "pops": 2,
+        "as_avg": 2.58,
+        "ad": 229.5,
+        "ap": 30.0
+      }
+    },
+    "statikk": {
+      "ready": 9,
+      "label": "Statikk → Rage → Terminus → Nashor → Zhonya",
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves"
+          ],
+          "evolved": {
+            "Q": false,
+            "E": false,
+            "W": false
+          },
+          "squishy": 1421,
+          "tank": 1002,
+          "splash": 0,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "autos": 12,
+          "pops": 2,
+          "as_avg": 1.6,
+          "ad": 109.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Statikk Shiv"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "statikk_shiv"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": false,
+            "W": false
+          },
+          "squishy": 2279,
+          "tank": 1670,
+          "splash": 0,
+          "sq_ttk": 6.7,
+          "tk_ttk": null,
+          "autos": 13,
+          "pops": 3,
+          "as_avg": 2.06,
+          "ad": 159.5,
+          "ap": 40.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "statikk_shiv",
+            "guinsoos_rageblade"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": false
+          },
+          "squishy": 2666,
+          "tank": 2370,
+          "splash": 0,
+          "sq_ttk": 4.85,
+          "tk_ttk": null,
+          "autos": 11,
+          "pops": 3,
+          "as_avg": 2.33,
+          "ad": 201.5,
+          "ap": 70.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "statikk_shiv",
+            "guinsoos_rageblade",
+            "terminus"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2650,
+          "tank": 3795,
+          "splash": 0,
+          "sq_ttk": 3.7,
+          "tk_ttk": null,
+          "autos": 9,
+          "pops": 2,
+          "as_avg": 2.59,
+          "ad": 240.0,
+          "ap": 70.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 16340,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "statikk_shiv",
+            "guinsoos_rageblade",
+            "terminus",
+            "nashors_tooth"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2795,
+          "tank": 4289,
+          "splash": 0,
+          "sq_ttk": 3.1,
+          "tk_ttk": null,
+          "autos": 8,
+          "pops": 2,
+          "as_avg": 2.8,
+          "ad": 265.0,
+          "ap": 70.0
+        }
+      },
+      "teamfight16": {
+        "minute": 16,
+        "level": 14,
+        "gold": 10180,
+        "owned": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Guinsoo's Rageblade"
+        ],
+        "ids": [
+          "long_sword",
+          "berserkers_greaves",
+          "statikk_shiv",
+          "guinsoos_rageblade"
+        ],
+        "evolved": {
+          "Q": true,
+          "E": true,
+          "W": false
+        },
+        "squishy": 2666,
+        "tank": 2370,
+        "splash": 471,
+        "sq_ttk": 4.85,
+        "tk_ttk": null,
+        "autos": 11,
+        "pops": 3,
+        "as_avg": 2.33,
+        "ad": 201.5,
+        "ap": 70.0
+      }
+    },
+    "botrk": {
+      "ready": 9,
+      "label": "BotRK → Rage → Terminus → Kraken → Wit's End",
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves"
+          ],
+          "evolved": {
+            "Q": false,
+            "E": false,
+            "W": false
+          },
+          "squishy": 1421,
+          "tank": 1002,
+          "splash": 0,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "autos": 12,
+          "pops": 2,
+          "as_avg": 1.6,
+          "ad": 109.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Blade of the Ruined King"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "blade_of_the_ruined_king"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": false,
+            "W": false
+          },
+          "squishy": 2317,
+          "tank": 2188,
+          "splash": 0,
+          "sq_ttk": 6.7,
+          "tk_ttk": null,
+          "autos": 13,
+          "pops": 3,
+          "as_avg": 2.06,
+          "ad": 159.5,
+          "ap": 0.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "blade_of_the_ruined_king",
+            "guinsoos_rageblade"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": false
+          },
+          "squishy": 2711,
+          "tank": 3059,
+          "splash": 0,
+          "sq_ttk": 4.85,
+          "tk_ttk": null,
+          "autos": 11,
+          "pops": 3,
+          "as_avg": 2.33,
+          "ad": 201.5,
+          "ap": 30.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "blade_of_the_ruined_king",
+            "guinsoos_rageblade",
+            "terminus"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2690,
+          "tank": 4397,
+          "splash": 0,
+          "sq_ttk": 3.7,
+          "tk_ttk": 7.55,
+          "autos": 9,
+          "pops": 2,
+          "as_avg": 2.59,
+          "ad": 228.0,
+          "ap": 30.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 16340,
+          "owned": [
+            "Berserker's Greaves",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Kraken Slayer",
+            "Wit's End"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "blade_of_the_ruined_king",
+            "guinsoos_rageblade",
+            "terminus",
+            "kraken_slayer",
+            "wits_end"
+          ],
+          "evolved": {
+            "Q": true,
+            "E": true,
+            "W": true
+          },
+          "squishy": 2718,
+          "tank": 4957,
+          "splash": 0,
+          "sq_ttk": 2.7,
+          "tk_ttk": 7.0,
+          "autos": 7,
+          "pops": 2,
+          "as_avg": 2.89,
+          "ad": 273.0,
+          "ap": 30.0
+        }
+      },
+      "teamfight16": {
+        "minute": 16,
+        "level": 14,
+        "gold": 10180,
+        "owned": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Guinsoo's Rageblade"
+        ],
+        "ids": [
+          "long_sword",
+          "berserkers_greaves",
+          "blade_of_the_ruined_king",
+          "guinsoos_rageblade"
+        ],
+        "evolved": {
+          "Q": true,
+          "E": true,
+          "W": false
+        },
+        "squishy": 2711,
+        "tank": 3059,
+        "splash": 0,
+        "sq_ttk": 4.85,
+        "tk_ttk": null,
+        "autos": 11,
+        "pops": 3,
+        "as_avg": 2.33,
+        "ad": 201.5,
+        "ap": 30.0
+      }
+    }
+  },
+  "fourth_at_20": {
+    "nashor": {
+      "minute": 20,
+      "level": 15,
+      "gold": 13140,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade",
+        "terminus",
+        "nashors_tooth"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": true
+      },
+      "squishy": 2805,
+      "tank": 4413,
+      "splash": 0,
+      "sq_ttk": 3.1,
+      "tk_ttk": 7.0,
+      "autos": 8,
+      "pops": 2,
+      "as_avg": 2.82,
+      "ad": 258.0,
+      "ap": 30.0
+    },
+    "botrk": {
+      "minute": 20,
+      "level": 15,
+      "gold": 13140,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade",
+        "terminus"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": true
+      },
+      "squishy": 2735,
+      "tank": 3878,
+      "splash": 0,
+      "sq_ttk": 3.6,
+      "tk_ttk": null,
+      "autos": 9,
+      "pops": 2,
+      "as_avg": 2.63,
+      "ad": 233.0,
+      "ap": 30.0
+    }
+  },
+  "default_spikes": [
+    {
+      "minute": 8,
+      "level": 9,
+      "gold": 4500,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": false,
+        "W": false
+      },
+      "squishy": 1865,
+      "tank": 1846,
+      "splash": 0,
+      "sq_ttk": 4.85,
+      "tk_ttk": null,
+      "autos": 9,
+      "pops": 2,
+      "as_avg": 1.94,
+      "ad": 142.0,
+      "ap": 0.0
+    },
+    {
+      "minute": 12,
+      "level": 12,
+      "gold": 7220,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": false
+      },
+      "squishy": 2223,
+      "tank": 2736,
+      "splash": 0,
+      "sq_ttk": 4.1,
+      "tk_ttk": null,
+      "autos": 9,
+      "pops": 2,
+      "as_avg": 2.3,
+      "ad": 187.5,
+      "ap": 30.0
+    },
+    {
+      "minute": 16,
+      "level": 14,
+      "gold": 10180,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade",
+        "terminus"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": true
+      },
+      "squishy": 2420,
+      "tank": 4086,
+      "splash": 0,
+      "sq_ttk": 3.35,
+      "tk_ttk": 7.2,
+      "autos": 8,
+      "pops": 2,
+      "as_avg": 2.58,
+      "ad": 229.5,
+      "ap": 30.0
+    },
+    {
+      "minute": 20,
+      "level": 15,
+      "gold": 13140,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade",
+        "terminus",
+        "nashors_tooth"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": true
+      },
+      "squishy": 2805,
+      "tank": 4413,
+      "splash": 0,
+      "sq_ttk": 3.1,
+      "tk_ttk": 7.0,
+      "autos": 8,
+      "pops": 2,
+      "as_avg": 2.82,
+      "ad": 258.0,
+      "ap": 30.0
+    },
+    {
+      "minute": 24,
+      "level": 15,
+      "gold": 16340,
+      "owned": [
+        "Berserker's Greaves",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Zhonya's Hourglass"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "kraken_slayer",
+        "guinsoos_rageblade",
+        "terminus",
+        "nashors_tooth",
+        "zhonyas_hourglass"
+      ],
+      "evolved": {
+        "Q": true,
+        "E": true,
+        "W": true
+      },
+      "squishy": 2786,
+      "tank": 4938,
+      "splash": 0,
+      "sq_ttk": 2.4,
+      "tk_ttk": 7.0,
+      "autos": 6,
+      "pops": 2,
+      "as_avg": 2.77,
+      "ad": 233.0,
+      "ap": 190.0
+    }
+  ],
+  "notes": {
+    "nashor_talon_removed": true,
+    "magnetic_blaster_removed": true,
+    "evolve": "complete legendary"
+  }
+}

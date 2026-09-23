@@ -1,0 +1,311 @@
+==============================================================================
+TỐC CHIẾN 7.3 — TOP 5 HỖ TRỢ HƯỞNG PATCH + FIT PAD
+Patch 7.3 (22/09/2026)  |  Game 20:00  |  ADC crit 200% / AS cap 3.0
+Pad: MB03 (gồng / xả Q / combo 2–4 nút) + D-pad ↑bảng ↓hồi ←lín →trụ
+==============================================================================
+
+CÂU HỎI
+  Support nào hưởng NHIỀU NHẤT update 7.3, VÀ đánh được trên pad?
+  7.3 = ADC mạnh (crit 175→200, item mới) + đồ hỗ trợ làm lại
+        (Helia / Ardent 30% AS+25 on-hit / Diadem / Yordle Trap cho AS).
+  Jungle farm nhiều hơn → 2v2 đường. Trụ plating mọi nhà → siege.
+
+CÁCH TÍNH
+  • ADC generic crit (Jinx/Xayah/MF): DPS auto có/không buff support
+  • patch_delta = (DPS+heal+CC) 7.3 − cùng kit trên 7.2 (175% crit,
+    Ardent cũ, không Helia/Diadem, Yordle Trap không cho AS)
+  • pad_score từ style MB03 − penalize aim/combo dài + Relic dùng D-pad ←
+  • Top 5: pad_score ≥ 76, xếp theo combined (patch × pad)
+
+------------------------------------------------------------------------------
+TOP 5  (pad-fit)
+------------------------------------------------------------------------------
+  #  Tướng       Loại       WRF    Pad   Δpatch    ADC+   12:00   16:00   20:00
+  1  Lulu        enchanter  A       88    172.9   285.5     518    1297    1514
+  2  Leona       tank       S       87     75.2    97.4     500    1274    1409
+  3  Sona        enchanter  S       87     63.4    84.5     409     902    1290
+  4  Milio       enchanter  A       80     57.2   137.3     389     954    1363
+  5  Braum       tank       S       88     55.4   101.7     426    1146    1271
+
+  Δpatch = điểm HƯỞNG UPDATE (cao = kit/item 7.3 kéo ADC mạnh hơn 7.2).
+  ADC+   = DPS thêm cho xạ thủ so với ADC trần 7.3.
+  12/16/20 = teamfight score (ADC DPS + heal quy đổi + CC lock + poke).
+
+------------------------------------------------------------------------------
+#1  LULU   WRF A   pad 88   Δpatch 172.9   combined 195.8
+  Style pad: targeted  |  W/E/R lock đồng đội. Q optional. D-pad ← Relic.
+  Start Relic Shield → Ionian Boots → Ardent Censer → Harmonic Echo
+  Món 1 xong ~8:00
+  Spike ADC DPS (có buff) / extra vs ADC trần:
+    12:00  ADC 509 DPS  (+235)  heal/Helia 7/s  items: Ionian Boots › Ardent Censer
+    16:00  ADC 1273 DPS  (+529)  heal/Helia 16/s  items: Ionian Boots › Ardent Censer › Harmonic Echo
+    20:00  ADC 1484 DPS  (+682)  heal/Helia 20/s  items: Ionian Boots › Ardent Censer › Harmonic Echo › Redemption
+  Vì sao vào top:
+    • Ardent 2400g (rẻ hơn 300), HSP 8%, Censer 30% AS + 25 magic — cộng W 25–40% AS lên ADC crit 200%.
+    • Pix dính ADC = on-hit sẵn. E khiên proc Ardent + Harmonic Echo chain 30/35% sang người gần.
+    • 7.3 hypercarry (Jinx/Vayne/Kog/Xayah) là meta Lulu. Crit 200% biến buff AS thành sát thương thật.
+    • Pad: W/E/R targeted (portrait lock). Relic Shield → D-pad ← ăn đại bác. Q Glitterlance optional.
+    • Trap: max Q lane rồi quên W lúc teamfight — W mới là món 7.3.
+
+  FULL BUILD 7.3
+  Ô đồ (6 slot, xong ~10550g):
+    Bulwark of the Mountain › Ionian Boots › Ardent Censer › Harmonic Echo › Redemption › Knight's Vow
+  Mua theo thứ tự:
+    1) Relic Shield → Bulwark of the Mountain
+    2) Ionian Boots
+    3) Ardent Censer
+    4) Harmonic Echo
+    5) Redemption
+    6) Knight's Vow
+  Chiêu: W > E > Q   (R mọi cấp)   — W AS cho ADC 7.3; E khiên proc Ardent
+  Spell: Flash + Heal  (Ignite nếu ADC cũng Heal)
+  Runes: Aery · Font of Life · Bone Plating · Revitalize · Transcendence
+  Pad:
+    L1   W Whimsy (tap portrait ADC)
+    L2   E Help, Pix!
+    L3   Q Glitterlance (optional)
+    L4   R Wild Growth
+    A    AA tướng
+    lock Portrait Lock BẬT
+  Combo: L2 khiên ADC (Ardent) → L1 W ADC. Gấu: L1 polymorph địch. Save: L4 ADC.
+  Situational:
+    • vs CC nặng: Mikael's Blessing thay Vow
+    • vs AP burst: Mercury's Treads thay Ionia
+    • ADC AP (Kaisa/Ez AP): Staff of Flowing Waters thay Ardent
+    • Đừng Helia — Lulu ít tự damage, Ardent mới là món 7.3
+
+------------------------------------------------------------------------------
+#2  LEONA   WRF S   pad 87   Δpatch 75.2   combined 81.8
+  Style pad: combo  |  E→Q hai nút (đã dạy MB03). D-pad ← Relic, → trụ plating.
+  Start Relic Shield → Plated Steelcaps → Yordle Trap → Mantle of the Twelfth Hour
+  Món 1 xong ~9:00
+  Spike ADC DPS (có buff) / extra vs ADC trần:
+    12:00  ADC 359 DPS  (+85)  heal/Helia 0/s  items: Plated Steelcaps › Yordle Trap
+    16:00  ADC 923 DPS  (+179)  heal/Helia 0/s  items: Plated Steelcaps › Yordle Trap › Mantle of the Twelfth Hour
+    20:00  ADC 994 DPS  (+191)  heal/Helia 0/s  items: Plated Steelcaps › Yordle Trap › Mantle of the Twelfth Hour › Radiant Virtue
+  Vì sao vào top:
+    • Yordle Trap 7.3: CC → 20% AS cho đồng đội ranged 4s (mình melee 30%/8s). All-in giờ BUFF ADC, không chỉ khóa.
+    • Jungle 7.3 farm nhiều → ít gank. Leona thắng 2v2 cấp 2 (E→Q) đúng meta lane.
+    • Zeke delay Frostfire nếu R từ xa — R Leona từ bụi vẫn proc. Giá 2400, Armor+MR cân mage.
+    • Pad: combo 2 nút đã dạy (E rồi Q). Relic + D-pad ← lính, → trụ plating mọi nhà.
+    • WRF 7.3 S-tier. Build: Relic → Steelcaps → Yordle Trap → Mantle.
+
+  FULL BUILD 7.3
+  Ô đồ (6 slot, xong ~10900g):
+    Bulwark of the Mountain › Plated Steelcaps › Yordle Trap › Mantle of the Twelfth Hour › Radiant Virtue › Knight's Vow
+  Mua theo thứ tự:
+    1) Relic Shield → Bulwark of the Mountain
+    2) Plated Steelcaps
+    3) Yordle Trap
+    4) Mantle of the Twelfth Hour
+    5) Radiant Virtue
+    6) Knight's Vow
+  Chiêu: E > Q > W   (R mọi cấp)   — E max để all-in 2v2
+  Spell: Flash + Ignite
+  Runes: Ice Overlord · Unshakeable · Second Wind · Perseverance · Hextech Flashtraption
+  Pad:
+    L1   Q Shield of Daybreak (SAU E)
+    L2   E Zenith Blade (TRƯỚC)
+    L3   W Eclipse
+    L4   R Solar Flare
+    A    AA tướng (reset sau Q)
+    lock No Minion/Structure
+  Combo: L2 dính → L1 stun → A → L3. R (L4) sau Q stun để tâm R trúng. Trap proc AS.
+  Situational:
+    • vs AP/CC: Mercury's Treads
+    • vs ADC AS: Frozen Heart thay Virtue
+    • vs heal: Thornmail thay Vow
+    • R từ bụi: Zeke's Convergence delay Frostfire — được, không bắt buộc
+    • D-pad ← Relic đại bác; → trụ plating 7.3
+
+------------------------------------------------------------------------------
+#3  SONA   WRF S   pad 87   Δpatch 63.4   combined 69.2
+  Style pad: qspam  |  QWE tự buff, không nhắm. R đường thẳng. MB03 xả Q.
+  Start Spectral Sickle → Ionian Boots → Tear of the Goddess → Echoes of Helia
+  Món 1 xong ~9:00
+  Spike ADC DPS (có buff) / extra vs ADC trần:
+    12:00  ADC 320 DPS  (+46)  heal/Helia 74/s  items: Ionian Boots › Tear of the Goddess › Echoes of Helia
+    16:00  ADC 804 DPS  (+60)  heal/Helia 78/s  items: Ionian Boots › Tear of the Goddess › Echoes of Helia › Whispering Circlet
+    20:00  ADC 1176 DPS  (+374)  heal/Helia 90/s  items: Ionian Boots › Tear of the Goddess › Echoes of Helia › Whispering Circlet › Ardent Censer
+  Vì sao vào top:
+    • Helia sinh ra cho Sona: Q hai mục tiêu → 30% pre-mit thành Soul Fragment, W dump vào ADC.
+    • Tear → Circlet → Diadem: Harmony +0.5% HSP/100 mana + 0.8% max mana/s heal. Sona đói mana = item này.
+    • Ardent 7.3 phẳng 30% AS + 25 on-hit (không còn nhìn crit/level xạ thủ) — aura Q/W giữ uptime ~85%.
+    • Pad: QWE tự cast, không skill-stick. MB03 'xả Q'. R đường thẳng, không combo 3 nút.
+    • WRF 7.3 build: Sickle → Tear → Helia → Whispering Circlet. Đúng spike Diadem nếu trận dài.
+
+  FULL BUILD 7.3
+  Ô đồ (6 slot, xong ~10600g):
+    Black Mist Scythe › Ionian Boots › Echoes of Helia › Diadem of Songs › Ardent Censer › Harmonic Echo
+  Mua theo thứ tự:
+    1) Spectral Sickle → Black Mist Scythe
+    2) Ionian Boots
+    2b) Tear of the Goddess (back đầu, cùng Ionia)
+    3) Echoes of Helia
+    4) Whispering Circlet  → tự Diadem
+    5) Ardent Censer
+    6) Harmonic Echo
+  Chiêu: Q > W > E   (R mọi cấp)   — Q farm Helia, W dump fragment
+  Spell: Flash + Heal  (Ignite nếu ADC cũng Heal)
+  Runes: Aery · Manaflow Band · Transcendence · Scorch · Bone Plating
+  Pad:
+    L1   Q Hymn of Valor (xả)
+    L2   W Aria (dump Helia)
+    L3   E Celerity
+    L4   R Crescendo (đường thẳng)
+    A    AA Power Chord (stun 0.5s)
+    lock No Minion/Structure
+  Combo: Xả L1 → Power Chord A. L2 khi ADC thấp / dump Helia. R từ bụi, analog lái.
+  Situational:
+    • Circlet tự lên Diadem (cùng ô, free) — đừng bán
+    • vs engage nặng: Redemption thay Harmonic
+    • vs CC: Mikael's thay Ardent (mất AS, chỉ khi team sắp chết vì stun)
+    • Manaflow + Tear bắt buộc. Đừng all-in cấp 1–3
+
+------------------------------------------------------------------------------
+#4  MILIO   WRF A   pad 80   Δpatch 57.2   combined 67.1
+  Style pad: targeted  |  E/W lock đồng đội (tether). Q nảy — khó hơn, không bắt buộc.
+  Start Spectral Sickle → Ionian Boots → Echoes of Helia → Harmonic Echo
+  Món 1 xong ~8:00
+  Spike ADC DPS (có buff) / extra vs ADC trần:
+    12:00  ADC 356 DPS  (+82)  heal/Helia 53/s  items: Ionian Boots › Echoes of Helia
+    16:00  ADC 899 DPS  (+155)  heal/Helia 73/s  items: Ionian Boots › Echoes of Helia › Harmonic Echo
+    20:00  ADC 1293 DPS  (+491)  heal/Helia 84/s  items: Ionian Boots › Echoes of Helia › Harmonic Echo › Ardent Censer
+  Vì sao vào top:
+    • Fired Up! = Ardent gắn kit (10% AD magic + burn). 7.3 ADC auto nhiều hơn → proc nhiều hơn.
+    • W +9–20% tầm đánh — RFC/Hexoptics 7.3 cộng tầm, Milio cộng thêm. Hypercarry đứng lùi.
+    • Helia + E 2 charge dump nhanh. Harmonic Echo chain shield. WRF core: Helia → Harmonic → Ardent.
+    • Pad: E/W lock đồng đội, tether không giới hạn tầm. Q nảy minion (D-pad ← có thể setup) — không bắt buộc trúng Q để thắng.
+    • Season S23 skin Milio. Không phải S-tier WRF nhưng Δpatch cao vì kit = ADC patch.
+
+  FULL BUILD 7.3
+  Ô đồ (6 slot, xong ~10650g):
+    Black Mist Scythe › Ionian Boots › Echoes of Helia › Harmonic Echo › Ardent Censer › Redemption
+  Mua theo thứ tự:
+    1) Spectral Sickle → Black Mist Scythe
+    2) Ionian Boots
+    3) Echoes of Helia
+    4) Harmonic Echo
+    5) Ardent Censer
+    6) Redemption
+  Chiêu: E > W > Q   (R mọi cấp)   — E 2 charge proc Helia/Ardent
+  Spell: Flash + Heal  (Ignite nếu ADC cũng Heal)
+  Runes: Aery · Font of Life · Bone Plating · Revitalize · Transcendence
+  Pad:
+    L1   E Warm Hugs (tap ADC / self)
+    L2   W Cozy Campfire (tether ADC)
+    L3   Q Fire Kick (optional, nảy lính)
+    L4   R Breath of Life
+    A    AA tướng
+    lock Portrait Lock BẬT
+  Combo: L2 tether ADC cả trận. Spam L1 khiên. R khi team dính CC. Q không bắt buộc.
+  Situational:
+    • vs CC: Mikael's Blessing thay Redemption
+    • ADC AP: Flowing Waters thay Ardent
+    • Cần engage: Shurelya's Battlesong thay Harmonic
+    • W self-cast chỉ khi ADC đứng sát; còn lại luôn tether
+
+------------------------------------------------------------------------------
+#5  BRAUM   WRF S   pad 88   Δpatch 55.4   combined 63.9
+  Style pad: hold  |  Giữ E = gồng MB03. W nhảy đồng đội. Q đường thẳng.
+  Start Relic Shield → Plated Steelcaps → Knight's Vow → Yordle Trap
+  Món 1 xong ~8:00
+  Spike ADC DPS (có buff) / extra vs ADC trần:
+    12:00  ADC 337 DPS  (+62)  heal/Helia 12/s  items: Plated Steelcaps › Knight's Vow
+    16:00  ADC 942 DPS  (+198)  heal/Helia 12/s  items: Plated Steelcaps › Knight's Vow › Yordle Trap
+    20:00  ADC 1046 DPS  (+243)  heal/Helia 12/s  items: Plated Steelcaps › Knight's Vow › Yordle Trap › Radiant Virtue
+  Vì sao vào top:
+    • Peel cho ADC 7.3: giữ E chặn crit 200% (đạn thứ nhất miễn, sau giảm 35–50%). Đây là anti-update của địch.
+    • Q slow proc Yordle Trap 20% AS — không cần all-in như Leona. Uptime AS cao hơn engage thuần.
+    • W nhảy ADC (targeted) + Relic D-pad. Giữ E = đúng thế mạnh gồng MB03.
+    • WRF 7.3 S-tier. Knight's Vow hút damage crit mới. Frozen Heart 25% AS slow nếu địch nhiều ADC.
+    • Q không xuyên lính — D-pad ← để không AA nhầm khi Q.
+
+  FULL BUILD 7.3
+  Ô đồ (6 slot, xong ~10900g):
+    Bulwark of the Mountain › Plated Steelcaps › Knight's Vow › Yordle Trap › Radiant Virtue › Frozen Heart
+  Mua theo thứ tự:
+    1) Relic Shield → Bulwark of the Mountain
+    2) Plated Steelcaps
+    3) Knight's Vow
+    4) Yordle Trap
+    5) Radiant Virtue
+    6) Frozen Heart
+  Chiêu: Q > E > W   (R mọi cấp)   — Q slow proc Trap + Font of Life
+  Spell: Flash + Heal
+  Runes: Guardian · Font of Life · Second Wind · Perseverance · Transcendence
+  Pad:
+    L1   E Unbreakable (GIỮ — gồng)
+    L2   Q Winter's Bite
+    L3   W Stand Behind Me (tap ADC)
+    L4   R Glacial Fissure
+    A    AA tướng (stack passive)
+    lock No Minion/Structure
+  Combo: L2 Q dính → A stack. L3 nhảy ADC. Giữ L1 ăn crit 200%. R peel/engage.
+  Situational:
+    • vs heal: Thornmail thay Frozen Heart
+    • vs AP: Mercury's Treads + giữ Virtue
+    • vs burst: Bone Plating (rune) thay Second Wind
+    • Q không xuyên lính — D-pad ← để khỏi AA nhầm trước khi Q
+
+
+------------------------------------------------------------------------------
+FULL BUILD NHANH (6 ô)
+------------------------------------------------------------------------------
+  1) Lulu      Flash + Heal  (Ignite nếu ADC cũng Heal)
+     Bulwark of the Mountain › Ionian Boots › Ardent Censer › Harmonic Echo › Redemption › Knight's Vow
+     max W > E > Q   |  ~10550g
+  2) Leona     Flash + Ignite
+     Bulwark of the Mountain › Plated Steelcaps › Yordle Trap › Mantle of the Twelfth Hour › Radiant Virtue › Knight's Vow
+     max E > Q > W   |  ~10900g
+  3) Sona      Flash + Heal  (Ignite nếu ADC cũng Heal)
+     Black Mist Scythe › Ionian Boots › Echoes of Helia › Diadem of Songs › Ardent Censer › Harmonic Echo
+     max Q > W > E   |  ~10600g
+  4) Milio     Flash + Heal  (Ignite nếu ADC cũng Heal)
+     Black Mist Scythe › Ionian Boots › Echoes of Helia › Harmonic Echo › Ardent Censer › Redemption
+     max E > W > Q   |  ~10650g
+  5) Braum     Flash + Heal
+     Bulwark of the Mountain › Plated Steelcaps › Knight's Vow › Yordle Trap › Radiant Virtue › Frozen Heart
+     max Q > E > W   |  ~10900g
+
+------------------------------------------------------------------------------
+BẢNG ĐỦ 12 TƯỚNG  (gạch chân = trượt pad_min, không vào top 5 fit-pad)
+------------------------------------------------------------------------------
+  Tướng         Pad  Fit  Δpatch   ADC+  Combo  WRF  style
+  Lulu           88  yes   172.9  285.5  195.8    A  targeted
+  Leona          87  yes    75.2   97.4   81.8    S  combo
+  Sona           87  yes    63.4   84.5   69.2    S  qspam
+  Milio          80  yes    57.2  137.3   67.1    A  targeted
+  Braum          88  yes    55.4  101.7   63.9    S  hold
+  Alistar        92  yes    52.6   41.8   55.5    B  combo
+  Nami           70   NO    54.5  125.7   43.4    S  qspam
+  Nautilus       74   NO    50.8   53.2   36.3    A  hook
+  Seraphine      83  yes    20.6    0.0   19.0    A  qspam
+  Thresh         61   NO    27.5   24.4   18.1    S  hook
+  Karma          80  yes    15.1    0.0   13.8    A  qspam
+  Pyke           76  yes     1.7    0.0    1.5    S  charge
+
+KHÔNG VÀO TOP 5 DÙ META MẠNH
+  Nami     — Mandate+Ardent rất 7.3, bong bóng Q penalize analog (aim 0.78).
+  Thresh   — Yordle Trap + S-tier, nhưng móc+đèn 3 nút + aim 0.70.
+  Pyke     — Gồng Q đã dạy, pad ổn; không buff ADC nên Δpatch thấp.
+  Nautilus — Sát ngưỡng pad (hook + lính chặn). Runner-up nếu thích móc.
+  Alistar  — WQ pad đẹp, Yordle Trap 8s melee AS; WRF B, lane yếu hơn Leona.
+
+------------------------------------------------------------------------------
+MAP PAD (nhắc)
+  Analog = đi     L1 = skill chính (Q / gồng)     A = AA tướng
+  D-pad ← = đánh lính (Relic đại bác)   → = đánh trụ (plating 7.3 mọi nhà)
+  D-pad ↓ = hồi thành                   ↑ = bảng điểm
+  Force Attack Follow TẮT. Enemy lock = No Minion/Structure.
+
+KHUYÊN CHƠI 20 PHÚT
+  1) Lulu   — ADC hyper (Vayne, Kog, Jinx, Xayah). W ADC, E proc Ardent.
+  2) Leona  — ADC all-in (Lucian, Samira, Draven, MF). E→Q, Trap proc AS.
+  3) Milio  — ADC cần tầm (Cait, Kog, Twitch). Tether W cả trận.
+  4) Braum  — địch poke/engage, ADC cần sống. Giữ E ăn crit 200%.
+  5) Sona   — ADC crit/scale (Jinx, Xayah, Ashe, Jhin). Xả Q, Helia dump W.
+
+  Trap: pick Thresh/Nami 'vì meta' trên pad — miss hook/bubble mất 7.3 advantage.
+  Trap: Pyke/assassin support — ADC 7.3 không được buff, bạn gánh kill.
+==============================================================================

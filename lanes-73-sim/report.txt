@@ -1,0 +1,238 @@
+==============================================================================
+TỐC CHIẾN 7.3 — TOP 5 RỪNG / MID / ADC HƯỞNG PATCH
+Crit 200% · AS cap 3 · jungle farm · tướng mới Hwei / Sylas / Rek'Sai
+Pad = ghi chú MB03 (không phải filter). Hỗ trợ xem support-73-pad-sim.
+==============================================================================
+
+CÁCH TÍNH  patch_score = kit_buff (0–40) + system_7.3 (0–40) + 12 nếu tướng mới
+  kit     = Riot sửa CHÍNH tướng này
+  system  = dùng crit 200% / item mới / farm jungle / 2v2 khi jg farm
+
+------------------------------------------------------------------------------
+TOP 5 RỪNG
+------------------------------------------------------------------------------
+  #  Tướng         WRF    Kit  Sys New  Score  pad
+  1  Rek'Sai       new     26   28   Y     66  82  Q đào, W unburrow knockup (gần gồng/nhả). 
+  2  Nidalee       S+      16   34   -     50  58  Q giáo aim — đã có sim spear, vẫn khó anal
+  3  Lillia        S       14   30   -     44  74  Q spam vòng, E hạt aim vừa. R sleep.
+  4  Vi            S+      14   28   -     42  91  Đã dạy gồng Q xuyên bụi, nhả dính.
+  5  Jarvan IV     S       12   26   -     38  88  Đã dạy E rồi Q, hai nút. Không macro EQ.
+
+  #1 REK'SAI   WRF new   score 66   pad 82
+    • Tướng mới 7.3 jungle. Unburrow knockup, ult sense địch ẩn.
+    • Tunnel clear + gank đúng meta farm-then-crash.
+    • Smite burn 600→1400 giúp duel camp/epic. Pad: W nhả gần, R targeted.
+    Ô: Hunter's Machete › Plated Steelcaps › Warrior › Youmuu's Ghostblade › Black Cleaver › Death's Dance
+    Max Q > E > W   (R mọi cấp)   — W unburrow knockup
+    Spell Flash + Smite   Runes Conqueror · Brutal · Bone Plating · Legend: Alacrity · Triumph
+    Pad  L1 Q Prey Seeker / fury Q  |  L2 W Burrow/Unburrow (gồng–nhả)
+         L3 E Furious Bite  |  L4 R Void Rush (lock)
+    Combo: Đào L2 → Q dò. Gần địch nhả W knockup → AA → E. R execute.
+    Swap: Eclipse thay Youmuu vs tank · Sterak ô 6 · Mercury vs CC
+
+  #2 NIDALEE   WRF S+   score 50   pad 58
+    • WRF S+. Jungle 7.3 thưởng full-clear: Nidalee clear nhanh nhất meta.
+    • Spear + cougar. Camp gold + Smite stack = snowball mà không cần gank sớm.
+    • Pad giáo khó — rank hưởng farm, không phải pick pad.
+    Ô: Hunter's Machete › Ionian Boots › Luden's Echo › Liandry's Torment › Rabadon's Deathcap › Void Staff
+    Max Human Q max / Cougar Q max   — giáo rồi cougar
+    Spell Flash + Smite   Runes Electrocute · Sudden Impact · Eyeball Collector · Ultimate Hunter · Bone Plating
+    Pad  L1 Q Javelin (aim)  |  L2 W trap / pounce
+         L3 E heal / swipe  |  L4 R swap form
+    Combo: Full-clear trước. Giáo max tầm. Cougar dump. Pad khó — Syndra-jg không có.
+    Swap: Horizon nếu poke · Nashor nếu on-hit · Pad: pick Vi/Jarvan
+
+  #3 LILLIA   WRF S   score 44   pad 74
+    • Full-clear stacking. Liandry + camp gold 7.3 = tốc độ stack điên.
+    • Ít gank sớm — đúng design Lillia scale.
+    • Smite burn + Liandry chồng lên epic monster.
+    Ô: Hunter's Machete › Ionian Boots › Liandry's Torment › Riftmaker › Cosmic Drive › Rabadon's Deathcap
+    Max Q > E > W   (R mọi cấp)
+    Spell Flash + Smite   Runes Conqueror · Brutal · Bone Plating · Legend: Tenacity · Transcendence
+    Pad  L1 Q Blooming Blows (xả vòng)  |  L2 E seed (aim)
+         L3 W Watch Out  |  L4 R sleep
+    Combo: Full-clear Q spam. E seed đường. R sleep teamfight. Đừng gank cấp 2.
+    Swap: Zhonya · Void vs MR · Demonic nếu có
+
+  #4 VI   WRF S+   score 42   pad 91
+    • WRF S+. Gồng Q = MB03. Clear ổn, gank khi muốn (không bắt buộc spam).
+    • Farm gold 7.3 → Trinity/Cleaver online sớm. R lock ADC địch.
+    • Turret plating: Vi đấm trụ sau gank.
+    Ô: Hunter's Machete › Plated Steelcaps › Trinity Force › Black Cleaver › Sterak's Gage › Death's Dance
+    Max Q > E > W   (R mọi cấp)
+    Spell Flash + Smite   Runes Conqueror · Brutal · Bone Plating · Legend: Alacrity · Triumph
+    Pad  L1 Q Vault Breaker (GIỮ–NHẢ)  |  L2 E Denting
+         L3 W  |  L4 R lock
+    Combo: Giữ L1 xuyên bụi, analog góc, nhả. R ADC. Đã dạy MB03.
+    Swap: Divine Sunderer vs HP · Mercury vs CC · D-pad → trụ sau gank
+
+  #5 JARVAN IV   WRF S   score 38   pad 88
+    • EQ knockup. Flag chặn rút. Epic 7.3 scale level → Jarvan fight mục tiêu.
+    • Plating mọi nhà: sau gank đấm trụ D-pad →.
+    • Pad combo cứng L2 E → L1 Q.
+    Ô: Hunter's Machete › Plated Steelcaps › Eclipse › Black Cleaver › Sterak's Gage › Death's Dance
+    Max Q > E > W   (R mọi cấp)   — E cờ TRƯỚC, Q SAU
+    Spell Flash + Smite   Runes Conqueror · Brutal · Bone Plating · Legend: Alacrity · Triumph
+    Pad  L1 Q Dragon Strike (SAU E)  |  L2 E Flag (TRƯỚC)
+         L3 W  |  L4 R arena
+    Combo: L2 → L1 knockup. R nhốt. D-pad → trụ. Đã dạy MB03.
+    Swap: Sunderer vs HP · Randuin vs crit ADC · Mercury vs CC
+
+------------------------------------------------------------------------------
+TOP 5 MID
+------------------------------------------------------------------------------
+  #  Tướng         WRF    Kit  Sys New  Score  pad
+  1  Hwei          new     28   24   Y     64  48  10 chiêu (3 subject). Pad rất nặng — không
+  2  Sylas         new     22   18   Y     52  80  W choáng rồi Q — combo 2 nút kiểu Pantheon
+  3  Syndra        S+      18   30   -     48  88  Đã dạy Q rồi E, hai nút. R lock tướng.
+  4  Ahri          S+      12   28   -     40  86  Đã dạy E charm rồi xả Q. R dash analog.
+  5  Twisted Fate  S       10   26   -     36  78  W bài giữ–nhả. R global. Q 3 lá aim vừa.
+
+  #1 HWEI   WRF new   score 64   pad 48
+    • Tướng mới 7.3, mid poster. Disaster / Serenity / Torment = poke + CC + shield.
+    • Jungle farm → 1v1/siege mid. Hwei wave + zone trụ plating.
+    • Pad: quá nhiều nút — rank hưởng patch, không phải pick pad.
+    Ô: Doran's Ring › Ionian Boots › Luden's Echo › Horizon Focus › Rabadon's Deathcap › Void Staff
+    Max QQ poke / QW zone / EW CC  —  học 3 subject trước ranked
+    Spell Flash + Ignite   Runes First Strike · Manaflow Band · Transcendence · Scorch · Bone Plating
+    Pad  L1 Q subject  |  L2 W subject
+         L3 E subject  |  L4 R
+    Combo: Không khuyến pad. PC/tay: QQ poke, EW root, WW shield.
+    Swap: Liandry nếu team nhiều HP · Zhonya vs assassin · Pad: chọn Syndra/Ahri
+
+  #2 SYLAS   WRF new   score 52   pad 80
+    • Tướng mới 7.3. W stun → Q, R cướp ult ADC/jungler 7.3.
+    • Kingslayer heal missing HP. Pad combo ngắn.
+    • Riftmaker / Rocketbelt. Không skillshot dày như Hwei.
+    Ô: Doran's Ring › Mercury's Treads › Riftmaker › Zhonya's Hourglass › Cosmic Drive › Rabadon's Deathcap
+    Max W > Q > E   (R mọi cấp)   — W stun rồi Q
+    Spell Flash + Ignite   Runes Conqueror · Brutal · Bone Plating · Revitalize · Transcendence
+    Pad  L1 Q Chain Lash (SAU W)  |  L2 W Kingslayer (TRƯỚC — stun/heal)
+         L3 E dash  |  L4 R cướp ult (lock)
+    Combo: L2 → L1 → A. E vào. R cướp ult ADC/jg. Combo 2 nút.
+    Swap: Rocketbelt nếu cần gapclose · Ionian nếu CD R · Steelcaps vs AD
+
+  #3 SYNDRA   WRF S+   score 48   pad 88
+    • WRF S+. Jungle 7.3 farm → mid tự thắng lane. Syndra 2v1/1v1 mạnh.
+    • 7.2d Q 80–230, E CD 15s, W 60% AP — buff còn sống vào 7.3.
+    • Luden → Orb → Cap. Combo pad: L1 Q → L2 E stun.
+    Ô: Doran's Ring › Boots of Mana › Luden's Echo › Infinity Orb › Rabadon's Deathcap › Void Staff
+    Max Q > W > E   (R mọi cấp)   Transcendent: Q rồi W rồi E
+    Spell Flash + Ignite   Runes Electrocute · Hextech Flashtraption · Transcendence · Nimbus Cloak · Cut Down
+    Pad  L1 Q Dark Sphere (TRƯỚC)  |  L2 E Scatter (SAU — stun)
+         L3 W Force of Will  |  L4 R Unleashed (lock)
+    Combo: L1 → L2 stun. W ném bóng. R khi ≥5 bóng. Đã dạy MB03.
+    Swap: Zhonya ô 6 · Liandry vs tank · Bone Plating vs burst
+
+  #4 AHRI   WRF S+   score 40   pad 86
+    • WRF S+. Roam bot vì ADC 7.3 carry thật — Charm gank dragon.
+    • Malignance + Lich (WRF). Jungle ít gank → Ahri tự roam.
+    • Pad: L2 E trước, L1 Q sau.
+    Ô: Doran's Ring › Boots of Mana › Malignance › Lich Bane › Rabadon's Deathcap › Infinity Orb
+    Max Q > W > E   (R mọi cấp)
+    Spell Flash + Ignite   Runes Electrocute · Sudden Impact · Eyeball Collector · Ultimate Hunter · Bone Plating
+    Pad  L1 Q Orb (xả SAU charm)  |  L2 E Charm (TRƯỚC)
+         L3 W Fox-Fire  |  L4 R Spirit Rush (3 dash)
+    Combo: L2 dính → L1 → L3 → A. R đuổi/né. Roam bot sau 5. Đã dạy MB03.
+    Swap: Zhonya vs assassin · Void vs MR · Luden nếu muốn wave hơn Malig
+
+  #5 TWISTED FATE   WRF S   score 36   pad 78
+    • Gold card pick + R xuống bot. ADC 7.3 đáng gank hơn.
+    • WRF S. Luden/Lich. Jungle farm → TF roam không mất camp đồng đội.
+    Ô: Doran's Ring › Boots of Mana › Luden's Echo › Lich Bane › Rapid Firecannon › Rabadon's Deathcap
+    Max Q > W > E   (R mọi cấp)
+    Spell Flash + Ignite   Runes First Strike · Manaflow Band · Transcendence · Scorch · Bone Plating
+    Pad  L1 Q Wildcards  |  L2 W Pick a Card (GIỮ — vàng)
+         L3 E stacked AA  |  L4 R Destiny (global)
+    Combo: Giữ L2 ra bài vàng. R xem map → gold card bot. RFC + Lich AA.
+    Swap: Zhonya · Mejai nếu snowball · Ionian nếu CD R
+
+------------------------------------------------------------------------------
+TOP 5 ADC
+------------------------------------------------------------------------------
+  #  Tướng         WRF    Kit  Sys New  Score  pad
+  1  Caitlyn       B→up    38   36   -     74  78  Tầm dài, trap tap gần địch. RFC/Hexoptics 
+  2  Ashe          A       36   32   -     68  90  Đã dạy MB03: W setup, R giữ/lái, analog ki
+  3  Xayah         S       32   34   -     66  76  E rút lông: Q+1 AA = 3 lông root. R untarg
+  4  Lucian        A       30   30   -     60  82  Q xả, E dash analog. Combo 2–3 nút. R giữ 
+  5  Jinx          A       14   36   -     50  84  Rocket/minigun 1 nút. Zap đường thẳng. Cho
+
+  #1 CAITLYN   WRF B→up   score 74   pad 78
+    • Kit rebuild: Headshot + R scale crit chance VÀ crit damage (200% + IE 230%).
+    • AD 54→60. AS cho sẵn (growth 4%) nên mua AD/crit — Hexoptics→IE→RFC.
+    • Trap Headshot +40–190 (+30% bAD) mới. Cait 7.2d B-tier, đây là buff lớn nhất ADC.
+    Ô: Doran's Blade › Berserker's Greaves › Hexoptics C44 › Infinity Edge › Rapid Firecannon › Lord Dominik's Regards
+    Max Q > W > E   (R mọi cấp)
+    Spell Flash + Ghost   Runes Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+    Pad  L1 Q Peacemaker  |  L2 W Trap (tap gần / đặt tay)
+         L3 E Net (lùi analog)  |  L4 R Ace (lock)
+    Combo: Trap / net → AA Headshot → Q full dmg. Kite analog max tầm. R khi thiếu máu.
+    Swap: vs heal: Mortal Reminder · vs burst: Bloodthirster / GA · Hexoptics trước IE
+
+  #2 ASHE   WRF A   score 68   pad 90
+    • AD/level 2.65→4, base AD 60. Frost Shot chậm 20–30% (tăng).
+    • Frost bonus damage = crit rate + (crit dmg−2)×crit — đúng công thức 7.3.
+    • Volley CD 16/13.5/11/8.5 → 15/12/9/6. Ranger's Focus 30 mana. Pad kite.
+    Ô: Doran's Blade › Berserker's Greaves › Hexoptics C44 › Runaan's Hurricane › Infinity Edge › Lord Dominik's Regards
+    Max W > Q > E   (R mọi cấp)
+    Spell Flash + Ghost   Runes Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating
+    Pad  L1 W Volley (setup chậm)  |  L2 R Arrow (giữ/lái)
+         L3 Q Ranger's Focus (4 stack)  |  L4 E Hawkshot
+    Combo: L1 chậm → AA. 4 stack rồi L3. R từ bụi, analog lái. Đã dạy MB03.
+    Swap: vs heal: Mortal · Bloodthirster ô 6 · Đừng Kraken nếu đi crit 7.3 — Hexoptics/IE
+
+  #3 XAYAH   WRF S   score 66   pad 76
+    • Bladecaller × (1 + 50% crit + 50%×(crit dmg−2)×crit). Lông = crit item.
+    • AD 54→60. Yun Tal → Navori → IE (WRF 7.3 S-tier).
+    • W Plumage 25% feather dmg (tăng). Hypercarry 7.3.
+    Ô: Doran's Blade › Berserker's Greaves › Yun Tal Wildarrows › Navori Quickblades › Infinity Edge › Lord Dominik's Regards
+    Max Q > W > E   (R mọi cấp)
+    Spell Flash + Barrier   Runes Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+    Pad  L1 Q Double Daggers  |  L2 W Plumage
+         L3 E Bladecaller (rút lông)  |  L4 R Featherstorm
+    Combo: L1 + 1 AA = 3 lông → L3 root. W trước khi AA. R né skill.
+    Swap: vs heal: Mortal · BT ô 6 · Navori giảm CD E/W — đừng bỏ
+
+  #4 LUCIAN   WRF A   score 60   pad 82
+    • The Culling: 20 + 20×crit rate viên, cộng (crit dmg−2)×20×crit. IE = thêm đạn.
+    • Q 100% bAD mọi rank. Lightslinger 40/50/60%. Identity crit rõ.
+    • Fiendhunter Bolts (+50% AS, 3 crit sau R) sinh ra cho cửa sổ ult này.
+    Ô: Doran's Blade › Berserker's Greaves › Yun Tal Wildarrows › Infinity Edge › Fiendhunter Bolts › Lord Dominik's Regards
+    Max Q > E > W   (R mọi cấp)
+    Spell Flash + Ignite   Runes Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+    Pad  L1 Q Piercing Light (xả)  |  L2 E Relentless (dash analog)
+         L3 W Ardent  |  L4 R The Culling (giữ hướng)
+    Combo: Skill → A → skill → A. All-in: E→Q→A. R + Fiendhunter 3 crit.
+    Swap: Essence Reaver nếu thiếu mana · Navori nếu muốn CD E · BT vs poke
+
+  #5 JINX   WRF A   score 50   pad 84
+    • Get Excited vượt AS cap — cap 7.3 lên 3.0, Excited vẫn phá trần.
+    • Hexoptics + Runaan + IE. Rocket splash crit 200%.
+    • R bị cắt CD/ratio — Δpatch thấp hơn Cait/Ashe/Xayah nhưng hệ thống bơm hypercarry.
+    Ô: Doran's Blade › Berserker's Greaves › Hexoptics C44 › Runaan's Hurricane › Infinity Edge › Lord Dominik's Regards
+    Max Q > W > E   (R mọi cấp)
+    Spell Flash + Ghost   Runes Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+    Pad  L1 Q Switcheroo (rocket/minigun)  |  L2 W Zap
+         L3 E Chompers  |  L4 R Rocket (global)
+    Combo: Farm minigun. Teamfight rocket. W chậm rồi AA. E gốc chân mình khi bị nhảy.
+    Swap: BT ô 6 · Mortal vs heal · Excited vượt AS cap — đừng sợ cap 3.0
+
+------------------------------------------------------------------------------
+KHÔNG VÀO TOP DÙ META / PAD ĐẸP
+------------------------------------------------------------------------------
+  Twitch        (adc   ) Rework lớn nhưng pad/aim R nặng hơn Jinx; WRF còn thấp.
+  Zeri          (adc   ) Đã mạnh, kit 7.3 chỉnh nhẹ — không phải người hưởng nhiều nhất.
+  Jhin          (adc   ) Riot cắt crit dmg Jhin. Pad đẹp nhưng không phải winner 7.3.
+  Miss Fortune  (adc   ) Vẫn S+ nhưng Love Tap bị cắt — hưởng ít hơn Cait/Ashe.
+  Smolder       (adc   ) Stack Q, không mua crit 200%.
+  Yone          (mid   ) Crit bị cắt 90%. S+ sẵn, không phải winner 7.3.
+  Annie         (mid   ) Pad dễ nhưng Δpatch thấp hơn Hwei/Syndra/Ahri/Sylas/TF.
+  Nunu          (jungle) Pad/farm tốt nhưng Δpatch thấp hơn Rek'Sai/Nidalee/Lillia.
+  Warwick       (jungle) 7.3 giảm giá trị gank spam — WW hưởng ít hơn farmer.
+  Lee Sin       (jungle) Gank champion trong patch farm. Pad insec khó.
+
+PAD GỢI Ý (nếu chỉ chơi MB03)
+  Rừng: Vi · Jarvan · Rek'Sai     (Nidalee giáo khó)
+  Mid:  Syndra · Ahri · Sylas     (Hwei 10 chiêu — bỏ)
+  ADC:  Ashe · Jinx · Lucian      (Cait trap ổn; Xayah E cần tập)
+==============================================================================

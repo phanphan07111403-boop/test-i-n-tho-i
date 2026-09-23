@@ -1,0 +1,3237 @@
+{
+  "patch": "7.3",
+  "champ": "Caitlyn",
+  "winner": "hex_col_ie_ldr_bt",
+  "winner_label": "Hex → Collector → IE → LDR → BT",
+  "scores": {
+    "wrf": 4251,
+    "hex_ie_col_ldr_bt": 4431,
+    "hex_col_ie_ldr_bt": 4697,
+    "hex_ie_rfc_col_bt": 3690,
+    "hex_ie_rfc_ldr_col": 4199,
+    "storm_ie_rfc_ldr_bt": 3738,
+    "col_ie_rfc_ldr_bt": 3730,
+    "yun_ie_rfc_ldr_bt": 4038,
+    "gale_ie_rfc_ldr_bt": 4022,
+    "hex_rfc_ie_ldr_bt": 4251,
+    "youmuu_hex_ie_rfc_ldr": 4318,
+    "youmuu_ie_hex_rfc_ldr": 4101,
+    "youmuu_col_ie_hex_ldr": 4462
+  },
+  "ranked": [
+    "Hex → Collector → IE → LDR → BT",
+    "Youmuu → Collector → IE → Hex → LDR",
+    "Hex → IE → Collector → LDR → BT",
+    "Youmuu → Hex → IE → RFC → LDR",
+    "Hex → RFC → IE → LDR → BT",
+    "Hex → IE → RFC → LDR → BT",
+    "Hex → IE → RFC → LDR → Collector",
+    "Youmuu → IE → Hex → RFC → LDR",
+    "Yun Tal → IE → RFC → LDR → BT",
+    "Galeforce → IE → RFC → LDR → BT",
+    "Stormrazor → IE → RFC → LDR → BT",
+    "Collector → IE → RFC → LDR → BT",
+    "Hex → IE → RFC → Collector → BT"
+  ],
+  "page": {
+    "champ": "Caitlyn",
+    "role": "ADC",
+    "wrf": "B→up",
+    "page": [
+      "Hexoptics C44",
+      "Berserker's Greaves",
+      "The Collector",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster"
+    ],
+    "buy": [
+      "Long Sword",
+      "Berserker's Greaves",
+      "Hexoptics C44",
+      "The Collector",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster"
+    ],
+    "skill": "Q > W > E   (R mọi cấp)",
+    "spells": "Flash + Ghost",
+    "runes": [
+      "Lethal Tempo",
+      "Brutal",
+      "Cut Down",
+      "Legend: Alacrity",
+      "Bone Plating"
+    ],
+    "pad": {
+      "L1": "Q Peacemaker (xả)",
+      "L2": "W Trap (tap gần địch)",
+      "L3": "E Net (lùi analog)",
+      "L4": "R Ace (lock)",
+      "A": "AA — Headshot từ bụi / trap"
+    },
+    "combo": "L2 trap → A Headshot → L1 Q full → L3 net Headshot → A kite max tầm. L4 R khi thiếu máu (scale crit + IE).",
+    "sit": [
+      "RFC 3rd thay Collector nếu cần range (WRF; late squish DPS cao hơn một chút)",
+      "Hex → IE thẳng nếu farm đủ 3500g trước 12:00 (bỏ lỗ Collector)",
+      "Mortal thay LDR vs heal",
+      "Shieldbow / GA ô 6 vs burst (mất 75 AD BT)",
+      "Galeforce dash — không phải max damage",
+      "Đừng Yun Tal: Headshot/R cần crit ngay, Yun stack 125 AA",
+      "Đừng 5 item crit — IE 7.3 bỏ excess-crit→crit dmg. Ô 6 = BT",
+      "Keystone: Lethal Tempo mặc định. First Strike poke/lane. Conqueror/DH không",
+      "Youmuu first rồi crit — 0% crit @8, Headshot/R đói crit. Thua Hex"
+    ],
+    "pad_score": 78,
+    "pad_note": "Trap tap gần. RFC/Hexoptics kite analog. R lock."
+  },
+  "by_path": {
+    "wrf": {
+      "ready": 8,
+      "label": "Hex → IE → RFC → LDR → BT",
+      "score": 4251,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2152,
+          "tank": 1638,
+          "sq_3s": 1255,
+          "tk_3s": 900,
+          "sq_ttk": 7.3,
+          "tk_ttk": null,
+          "sq_dps": 295,
+          "tk_dps": 205,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 171.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2364,
+          "tank": 2450,
+          "sq_3s": 1983,
+          "tk_3s": 1312,
+          "sq_ttk": 3.95,
+          "tk_ttk": null,
+          "sq_dps": 599,
+          "tk_dps": 306,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.57,
+          "ad": 254.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2660,
+          "tank": 3048,
+          "sq_3s": 2440,
+          "tk_3s": 1508,
+          "sq_ttk": 3.5,
+          "tk_ttk": null,
+          "sq_dps": 760,
+          "tk_dps": 381,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.84,
+          "ad": 258.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 3503,
+          "tank": 5030,
+          "sq_3s": 3503,
+          "tk_3s": 3653,
+          "sq_ttk": 1.55,
+          "tk_ttk": 4.6,
+          "sq_dps": 2260,
+          "tk_dps": 1093,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 368.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 0
+        }
+      }
+    },
+    "hex_ie_col_ldr_bt": {
+      "ready": 8,
+      "label": "Hex → IE → Collector → LDR → BT",
+      "score": 4431,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2152,
+          "tank": 1638,
+          "sq_3s": 1255,
+          "tk_3s": 900,
+          "sq_ttk": 7.3,
+          "tk_ttk": null,
+          "sq_dps": 295,
+          "tk_dps": 205,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 171.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2364,
+          "tank": 2450,
+          "sq_3s": 1983,
+          "tk_3s": 1312,
+          "sq_ttk": 3.95,
+          "tk_ttk": null,
+          "sq_dps": 599,
+          "tk_dps": 306,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.57,
+          "ad": 254.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2598,
+          "tank": 3015,
+          "sq_3s": 2598,
+          "tk_3s": 1574,
+          "sq_ttk": 2.65,
+          "tk_ttk": null,
+          "sq_dps": 980,
+          "tk_dps": 377,
+          "autos": 5,
+          "headshots": 2,
+          "as_avg": 1.56,
+          "ad": 308.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "The Collector",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "the_collector",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 3007,
+          "tank": 5223,
+          "sq_3s": 3007,
+          "tk_3s": 3699,
+          "sq_ttk": 1.35,
+          "tk_ttk": 4.5,
+          "sq_dps": 2227,
+          "tk_dps": 1161,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.52,
+          "ad": 418.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      }
+    },
+    "hex_col_ie_ldr_bt": {
+      "ready": 8,
+      "label": "Hex → Collector → IE → LDR → BT",
+      "score": 4697,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2080,
+          "tank": 2384,
+          "sq_3s": 1814,
+          "tk_3s": 1277,
+          "sq_ttk": 3.4,
+          "tk_ttk": null,
+          "sq_dps": 612,
+          "tk_dps": 298,
+          "autos": 6,
+          "headshots": 2,
+          "as_avg": 1.5,
+          "ad": 221.2,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2523,
+          "tank": 2149,
+          "sq_3s": 1794,
+          "tk_3s": 1166,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 555,
+          "tk_dps": 269,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.58,
+          "ad": 229.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2598,
+          "tank": 3015,
+          "sq_3s": 2598,
+          "tk_3s": 1574,
+          "sq_ttk": 2.65,
+          "tk_ttk": null,
+          "sq_dps": 980,
+          "tk_dps": 377,
+          "autos": 5,
+          "headshots": 2,
+          "as_avg": 1.56,
+          "ad": 308.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 3007,
+          "tank": 5223,
+          "sq_3s": 3007,
+          "tk_3s": 3699,
+          "sq_ttk": 1.35,
+          "tk_ttk": 4.5,
+          "sq_dps": 2227,
+          "tk_dps": 1161,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.52,
+          "ad": 418.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      }
+    },
+    "hex_ie_rfc_col_bt": {
+      "ready": 8,
+      "label": "Hex → IE → RFC → Collector → BT",
+      "score": 3690,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2152,
+          "tank": 1638,
+          "sq_3s": 1255,
+          "tk_3s": 900,
+          "sq_ttk": 7.3,
+          "tk_ttk": null,
+          "sq_dps": 295,
+          "tk_dps": 205,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 171.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2364,
+          "tank": 2450,
+          "sq_3s": 1983,
+          "tk_3s": 1312,
+          "sq_ttk": 3.95,
+          "tk_ttk": null,
+          "sq_dps": 599,
+          "tk_dps": 306,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.57,
+          "ad": 254.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2660,
+          "tank": 3048,
+          "sq_3s": 2440,
+          "tk_3s": 1508,
+          "sq_ttk": 3.5,
+          "tk_ttk": null,
+          "sq_dps": 760,
+          "tk_dps": 381,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.84,
+          "ad": 258.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "The Collector",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon",
+            "the_collector",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 2728,
+          "tank": 4480,
+          "sq_3s": 2728,
+          "tk_3s": 2167,
+          "sq_ttk": 1.55,
+          "tk_ttk": null,
+          "sq_dps": 1760,
+          "tk_dps": 560,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 383.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      }
+    },
+    "hex_ie_rfc_ldr_col": {
+      "ready": 8,
+      "label": "Hex → IE → RFC → LDR → Collector",
+      "score": 4199,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2152,
+          "tank": 1638,
+          "sq_3s": 1255,
+          "tk_3s": 900,
+          "sq_ttk": 7.3,
+          "tk_ttk": null,
+          "sq_dps": 295,
+          "tk_dps": 205,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 171.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2364,
+          "tank": 2450,
+          "sq_3s": 1983,
+          "tk_3s": 1312,
+          "sq_ttk": 3.95,
+          "tk_ttk": null,
+          "sq_dps": 599,
+          "tk_dps": 306,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.57,
+          "ad": 254.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2660,
+          "tank": 3048,
+          "sq_3s": 2440,
+          "tk_3s": 1508,
+          "sq_ttk": 3.5,
+          "tk_ttk": null,
+          "sq_dps": 760,
+          "tk_dps": 381,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.84,
+          "ad": 258.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 3428,
+          "tank": 4826,
+          "sq_3s": 3428,
+          "tk_3s": 3510,
+          "sq_ttk": 1.55,
+          "tk_ttk": 4.6,
+          "sq_dps": 2212,
+          "tk_dps": 1049,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 343.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      }
+    },
+    "storm_ie_rfc_ldr_bt": {
+      "ready": 9,
+      "label": "Stormrazor → IE → RFC → LDR → BT",
+      "score": 3738,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves"
+          ],
+          "keystone": "lt",
+          "squishy": 1604,
+          "tank": 1134,
+          "sq_3s": 980,
+          "tk_3s": 688,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "sq_dps": 200,
+          "tk_dps": 142,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.47,
+          "ad": 115.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Stormrazor"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "stormrazor"
+          ],
+          "keystone": "lt",
+          "squishy": 2138,
+          "tank": 1892,
+          "sq_3s": 1303,
+          "tk_3s": 932,
+          "sq_ttk": 6.2,
+          "tk_ttk": null,
+          "sq_dps": 345,
+          "tk_dps": 237,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.69,
+          "ad": 178.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Stormrazor",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "stormrazor",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2358,
+          "tank": 2721,
+          "sq_3s": 1992,
+          "tk_3s": 1315,
+          "sq_ttk": 3.75,
+          "tk_ttk": null,
+          "sq_dps": 629,
+          "tk_dps": 340,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.7,
+          "ad": 261.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "stormrazor",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2925,
+          "tank": 3025,
+          "sq_3s": 2330,
+          "tk_3s": 1440,
+          "sq_ttk": 3.85,
+          "tk_ttk": null,
+          "sq_dps": 760,
+          "tk_dps": 378,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.98,
+          "ad": 265.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "stormrazor",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 2769,
+          "tank": 4954,
+          "sq_3s": 2769,
+          "tk_3s": 2854,
+          "sq_ttk": 1.55,
+          "tk_ttk": 6.35,
+          "sq_dps": 1787,
+          "tk_dps": 780,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.9,
+          "ad": 300.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 0
+        }
+      }
+    },
+    "col_ie_rfc_ldr_bt": {
+      "ready": 9,
+      "label": "Collector → IE → RFC → LDR → BT",
+      "score": 3730,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves"
+          ],
+          "keystone": "lt",
+          "squishy": 1604,
+          "tank": 1134,
+          "sq_3s": 980,
+          "tk_3s": 688,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "sq_dps": 200,
+          "tk_dps": 142,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.47,
+          "ad": 115.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "The Collector"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2074,
+          "tank": 1651,
+          "sq_3s": 1295,
+          "tk_3s": 913,
+          "sq_ttk": 6.0,
+          "tk_ttk": null,
+          "sq_dps": 346,
+          "tk_dps": 206,
+          "autos": 10,
+          "headshots": 3,
+          "as_avg": 1.56,
+          "ad": 178.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2397,
+          "tank": 2426,
+          "sq_3s": 2016,
+          "tk_3s": 1310,
+          "sq_ttk": 3.95,
+          "tk_ttk": null,
+          "sq_dps": 607,
+          "tk_dps": 303,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.57,
+          "ad": 261.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "The Collector",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "the_collector",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2647,
+          "tank": 2958,
+          "sq_3s": 2432,
+          "tk_3s": 1475,
+          "sq_ttk": 3.5,
+          "tk_ttk": null,
+          "sq_dps": 756,
+          "tk_dps": 370,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.84,
+          "ad": 265.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "The Collector",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "the_collector",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 2874,
+          "tank": 4781,
+          "sq_3s": 2874,
+          "tk_3s": 2913,
+          "sq_ttk": 1.55,
+          "tk_ttk": 6.25,
+          "sq_dps": 1854,
+          "tk_dps": 765,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 300.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      }
+    },
+    "yun_ie_rfc_ldr_bt": {
+      "ready": 9,
+      "label": "Yun Tal → IE → RFC → LDR → BT",
+      "score": 4038,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves"
+          ],
+          "keystone": "lt",
+          "squishy": 1604,
+          "tank": 1134,
+          "sq_3s": 980,
+          "tk_3s": 688,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "sq_dps": 200,
+          "tk_dps": 142,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.47,
+          "ad": 115.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Yun Tal Wildarrows"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "yun_tal_wildarrows"
+          ],
+          "keystone": "lt",
+          "squishy": 2164,
+          "tank": 1638,
+          "sq_3s": 1215,
+          "tk_3s": 874,
+          "sq_ttk": 7.35,
+          "tk_ttk": null,
+          "sq_dps": 294,
+          "tk_dps": 205,
+          "autos": 14,
+          "headshots": 4,
+          "as_avg": 1.89,
+          "ad": 178.2,
+          "crit": 6,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Yun Tal Wildarrows",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "yun_tal_wildarrows",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2460,
+          "tank": 2538,
+          "sq_3s": 1975,
+          "tk_3s": 1310,
+          "sq_ttk": 4.0,
+          "tk_ttk": null,
+          "sq_dps": 615,
+          "tk_dps": 317,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.9,
+          "ad": 261.6,
+          "crit": 39,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Yun Tal Wildarrows",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "yun_tal_wildarrows",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2728,
+          "tank": 3410,
+          "sq_3s": 2522,
+          "tk_3s": 1557,
+          "sq_ttk": 3.05,
+          "tk_ttk": null,
+          "sq_dps": 894,
+          "tk_dps": 426,
+          "autos": 8,
+          "headshots": 2,
+          "as_avg": 2.18,
+          "ad": 265.8,
+          "crit": 72,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Long Sword",
+            "Berserker's Greaves",
+            "Yun Tal Wildarrows",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "long_sword",
+            "berserkers_greaves",
+            "yun_tal_wildarrows",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 3171,
+          "tank": 4993,
+          "sq_3s": 3171,
+          "tk_3s": 3145,
+          "sq_ttk": 1.55,
+          "tk_ttk": 5.3,
+          "sq_dps": 2046,
+          "tk_dps": 942,
+          "autos": 4,
+          "headshots": 2,
+          "as_avg": 2.11,
+          "ad": 300.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 0
+        }
+      }
+    },
+    "gale_ie_rfc_ldr_bt": {
+      "ready": 8,
+      "label": "Galeforce → IE → RFC → LDR → BT",
+      "score": 4022,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Galeforce"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "galeforce"
+          ],
+          "keystone": "lt",
+          "squishy": 1670,
+          "tank": 1693,
+          "sq_3s": 1415,
+          "tk_3s": 993,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 388,
+          "tk_dps": 212,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 163.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Galeforce"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "galeforce"
+          ],
+          "keystone": "lt",
+          "squishy": 2080,
+          "tank": 1582,
+          "sq_3s": 1220,
+          "tk_3s": 875,
+          "sq_ttk": 7.3,
+          "tk_ttk": null,
+          "sq_dps": 285,
+          "tk_dps": 198,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 176.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Galeforce",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "galeforce",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2608,
+          "tank": 2343,
+          "sq_3s": 1911,
+          "tk_3s": 1265,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 573,
+          "tk_dps": 293,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.58,
+          "ad": 259.6,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Galeforce",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "galeforce",
+            "infinity_edge",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2904,
+          "tank": 2869,
+          "sq_3s": 2314,
+          "tk_3s": 1430,
+          "sq_ttk": 4.05,
+          "tk_ttk": null,
+          "sq_dps": 717,
+          "tk_dps": 359,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.86,
+          "ad": 263.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Galeforce",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "galeforce",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 3313,
+          "tank": 5028,
+          "sq_3s": 3313,
+          "tk_3s": 3434,
+          "sq_ttk": 1.55,
+          "tk_ttk": 5.15,
+          "sq_dps": 2137,
+          "tk_dps": 976,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 373.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 0
+        }
+      }
+    },
+    "hex_rfc_ie_ldr_bt": {
+      "ready": 8,
+      "label": "Hex → RFC → IE → LDR → BT",
+      "score": 4251,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 1715,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 218,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.43,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2190,
+          "tank": 2290,
+          "sq_3s": 1479,
+          "tk_3s": 1058,
+          "sq_ttk": 4.7,
+          "tk_ttk": null,
+          "sq_dps": 466,
+          "tk_dps": 286,
+          "autos": 9,
+          "headshots": 3,
+          "as_avg": 1.79,
+          "ad": 171.2,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Rapid Firecannon"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "rapid_firecannon"
+          ],
+          "keystone": "lt",
+          "squishy": 2453,
+          "tank": 2095,
+          "sq_3s": 1625,
+          "tk_3s": 1076,
+          "sq_ttk": 5.75,
+          "tk_ttk": null,
+          "sq_dps": 427,
+          "tk_dps": 262,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.86,
+          "ad": 179.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Rapid Firecannon",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "rapid_firecannon",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2660,
+          "tank": 3048,
+          "sq_3s": 2440,
+          "tk_3s": 1508,
+          "sq_ttk": 3.5,
+          "tk_ttk": null,
+          "sq_dps": 760,
+          "tk_dps": 381,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.84,
+          "ad": 258.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "Rapid Firecannon",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "rapid_firecannon",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 3503,
+          "tank": 5030,
+          "sq_3s": 3503,
+          "tk_3s": 3653,
+          "sq_ttk": 1.55,
+          "tk_ttk": 4.6,
+          "sq_dps": 2260,
+          "tk_dps": 1093,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.77,
+          "ad": 368.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 0
+        }
+      }
+    },
+    "youmuu_hex_ie_rfc_ldr": {
+      "ready": 8,
+      "label": "Youmuu → Hex → IE → RFC → LDR",
+      "score": 4318,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade"
+          ],
+          "keystone": "lt",
+          "squishy": 1726,
+          "tank": 1495,
+          "sq_3s": 1313,
+          "tk_3s": 895,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 379,
+          "tk_dps": 187,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 158.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2241,
+          "tank": 2132,
+          "sq_3s": 1652,
+          "tk_3s": 1159,
+          "sq_ttk": 4.4,
+          "tk_ttk": null,
+          "sq_dps": 509,
+          "tk_dps": 266,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.68,
+          "ad": 226.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2501,
+          "tank": 2100,
+          "sq_3s": 1635,
+          "tk_3s": 1059,
+          "sq_ttk": 5.4,
+          "tk_ttk": null,
+          "sq_dps": 463,
+          "tk_dps": 262,
+          "autos": 10,
+          "headshots": 3,
+          "as_avg": 1.72,
+          "ad": 234.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Hexoptics C44",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "hexoptics_c44",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2784,
+          "tank": 2920,
+          "sq_3s": 2325,
+          "tk_3s": 1403,
+          "sq_ttk": 3.6,
+          "tk_ttk": null,
+          "sq_dps": 773,
+          "tk_dps": 365,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.75,
+          "ad": 313.8,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 15
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "hexoptics_c44",
+            "infinity_edge",
+            "rapid_firecannon",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 3503,
+          "tank": 4917,
+          "sq_3s": 3503,
+          "tk_3s": 3574,
+          "sq_ttk": 1.55,
+          "tk_ttk": 4.3,
+          "sq_dps": 2260,
+          "tk_dps": 1144,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.93,
+          "ad": 348.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 15
+        }
+      }
+    },
+    "youmuu_ie_hex_rfc_ldr": {
+      "ready": 8,
+      "label": "Youmuu → IE → Hex → RFC → LDR",
+      "score": 4101,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade"
+          ],
+          "keystone": "lt",
+          "squishy": 1726,
+          "tank": 1495,
+          "sq_3s": 1313,
+          "tk_3s": 895,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 379,
+          "tk_dps": 187,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 158.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade"
+          ],
+          "keystone": "lt",
+          "squishy": 1966,
+          "tank": 1390,
+          "sq_3s": 1118,
+          "tk_3s": 786,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "sq_dps": 246,
+          "tk_dps": 174,
+          "autos": 13,
+          "headshots": 3,
+          "as_avg": 1.65,
+          "ad": 171.2,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2475,
+          "tank": 2210,
+          "sq_3s": 1720,
+          "tk_3s": 1113,
+          "sq_ttk": 4.8,
+          "tk_ttk": null,
+          "sq_dps": 516,
+          "tk_dps": 276,
+          "autos": 9,
+          "headshots": 3,
+          "as_avg": 1.73,
+          "ad": 254.6,
+          "crit": 25,
+          "crit_dmg": 230,
+          "lethality": 15
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Infinity Edge",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "infinity_edge",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2784,
+          "tank": 2920,
+          "sq_3s": 2325,
+          "tk_3s": 1403,
+          "sq_ttk": 3.6,
+          "tk_ttk": null,
+          "sq_dps": 773,
+          "tk_dps": 365,
+          "autos": 7,
+          "headshots": 2,
+          "as_avg": 1.75,
+          "ad": 313.8,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 15
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Rapid Firecannon",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "infinity_edge",
+            "hexoptics_c44",
+            "rapid_firecannon",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 3503,
+          "tank": 4917,
+          "sq_3s": 3503,
+          "tk_3s": 3574,
+          "sq_ttk": 1.55,
+          "tk_ttk": 4.3,
+          "sq_dps": 2260,
+          "tk_dps": 1144,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.93,
+          "ad": 348.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 15
+        }
+      }
+    },
+    "youmuu_col_ie_hex_ldr": {
+      "ready": 8,
+      "label": "Youmuu → Collector → IE → Hex → LDR",
+      "score": 4462,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade"
+          ],
+          "keystone": "lt",
+          "squishy": 1726,
+          "tank": 1495,
+          "sq_3s": 1313,
+          "tk_3s": 895,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 379,
+          "tk_dps": 187,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 158.6,
+          "crit": 0,
+          "crit_dmg": 200,
+          "lethality": 15
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2200,
+          "tank": 2045,
+          "sq_3s": 1632,
+          "tk_3s": 1122,
+          "sq_ttk": 4.4,
+          "tk_ttk": null,
+          "sq_dps": 500,
+          "tk_dps": 256,
+          "autos": 8,
+          "headshots": 3,
+          "as_avg": 1.68,
+          "ad": 221.2,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 27
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 2384,
+          "tank": 2006,
+          "sq_3s": 1612,
+          "tk_3s": 1023,
+          "sq_ttk": 4.8,
+          "tk_ttk": null,
+          "sq_dps": 497,
+          "tk_dps": 251,
+          "autos": 9,
+          "headshots": 3,
+          "as_avg": 1.73,
+          "ad": 229.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 27
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 2592,
+          "tank": 2775,
+          "sq_3s": 2278,
+          "tk_3s": 1347,
+          "sq_ttk": 3.05,
+          "tk_ttk": null,
+          "sq_dps": 850,
+          "tk_dps": 347,
+          "autos": 6,
+          "headshots": 2,
+          "as_avg": 1.73,
+          "ad": 308.8,
+          "crit": 50,
+          "crit_dmg": 230,
+          "lethality": 27
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Youmuu's Ghostblade",
+            "The Collector",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Lord Dominik's Regards"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "youmuus_ghostblade",
+            "the_collector",
+            "infinity_edge",
+            "hexoptics_c44",
+            "lord_dominiks_regards"
+          ],
+          "keystone": "lt",
+          "squishy": 3003,
+          "tank": 5135,
+          "sq_3s": 3003,
+          "tk_3s": 3640,
+          "sq_ttk": 1.3,
+          "tk_ttk": 4.15,
+          "sq_dps": 2310,
+          "tk_dps": 1237,
+          "autos": 3,
+          "headshots": 2,
+          "as_avg": 1.67,
+          "ad": 398.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 27
+        }
+      }
+    }
+  },
+  "winner_spikes": [
+    {
+      "minute": 8,
+      "level": 9,
+      "gold": 4500,
+      "owned": [
+        "Berserker's Greaves",
+        "Hexoptics C44"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "hexoptics_c44"
+      ],
+      "keystone": "lt",
+      "squishy": 1715,
+      "tank": 1747,
+      "sq_3s": 1450,
+      "tk_3s": 1017,
+      "sq_ttk": 4.3,
+      "tk_ttk": null,
+      "sq_dps": 399,
+      "tk_dps": 218,
+      "autos": 7,
+      "headshots": 2,
+      "as_avg": 1.43,
+      "ad": 158.6,
+      "crit": 25,
+      "crit_dmg": 200,
+      "lethality": 0
+    },
+    {
+      "minute": 12,
+      "level": 12,
+      "gold": 7220,
+      "owned": [
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "The Collector"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "the_collector"
+      ],
+      "keystone": "lt",
+      "squishy": 2080,
+      "tank": 2384,
+      "sq_3s": 1814,
+      "tk_3s": 1277,
+      "sq_ttk": 3.4,
+      "tk_ttk": null,
+      "sq_dps": 612,
+      "tk_dps": 298,
+      "autos": 6,
+      "headshots": 2,
+      "as_avg": 1.5,
+      "ad": 221.2,
+      "crit": 50,
+      "crit_dmg": 200,
+      "lethality": 12
+    },
+    {
+      "minute": 16,
+      "level": 14,
+      "gold": 10180,
+      "owned": [
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "The Collector"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "the_collector"
+      ],
+      "keystone": "lt",
+      "squishy": 2523,
+      "tank": 2149,
+      "sq_3s": 1794,
+      "tk_3s": 1166,
+      "sq_ttk": 4.55,
+      "tk_ttk": null,
+      "sq_dps": 555,
+      "tk_dps": 269,
+      "autos": 8,
+      "headshots": 3,
+      "as_avg": 1.58,
+      "ad": 229.6,
+      "crit": 50,
+      "crit_dmg": 200,
+      "lethality": 12
+    },
+    {
+      "minute": 20,
+      "level": 15,
+      "gold": 13140,
+      "owned": [
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "The Collector",
+        "Infinity Edge"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "the_collector",
+        "infinity_edge"
+      ],
+      "keystone": "lt",
+      "squishy": 2598,
+      "tank": 3015,
+      "sq_3s": 2598,
+      "tk_3s": 1574,
+      "sq_ttk": 2.65,
+      "tk_ttk": null,
+      "sq_dps": 980,
+      "tk_dps": 377,
+      "autos": 5,
+      "headshots": 2,
+      "as_avg": 1.56,
+      "ad": 308.8,
+      "crit": 75,
+      "crit_dmg": 230,
+      "lethality": 12
+    },
+    {
+      "minute": 24,
+      "level": 15,
+      "gold": 17140,
+      "owned": [
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "The Collector",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Bloodthirster"
+      ],
+      "ids": [
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "the_collector",
+        "infinity_edge",
+        "lord_dominiks_regards",
+        "bloodthirster"
+      ],
+      "keystone": "lt",
+      "squishy": 3007,
+      "tank": 5223,
+      "sq_3s": 3007,
+      "tk_3s": 3699,
+      "sq_ttk": 1.35,
+      "tk_ttk": 4.5,
+      "sq_dps": 2227,
+      "tk_dps": 1161,
+      "autos": 3,
+      "headshots": 2,
+      "as_avg": 1.52,
+      "ad": 418.8,
+      "crit": 100,
+      "crit_dmg": 230,
+      "lethality": 12
+    }
+  ],
+  "keystones": {
+    "lt": {
+      "label": "Lethal Tempo",
+      "score_burst": 4697,
+      "score_extended": 3149,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "lt",
+          "squishy": 2472,
+          "tank": 1747,
+          "sq_3s": 1450,
+          "tk_3s": 1017,
+          "sq_ttk": 4.3,
+          "tk_ttk": null,
+          "sq_dps": 309,
+          "tk_dps": 218,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.47,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 3450,
+          "tank": 2384,
+          "sq_3s": 1814,
+          "tk_3s": 1277,
+          "sq_ttk": 3.4,
+          "tk_ttk": null,
+          "sq_dps": 431,
+          "tk_dps": 298,
+          "autos": 13,
+          "headshots": 3,
+          "as_avg": 1.57,
+          "ad": 221.2,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "lt",
+          "squishy": 3363,
+          "tank": 2149,
+          "sq_3s": 1794,
+          "tk_3s": 1166,
+          "sq_ttk": 4.55,
+          "tk_ttk": null,
+          "sq_dps": 420,
+          "tk_dps": 269,
+          "autos": 13,
+          "headshots": 3,
+          "as_avg": 1.62,
+          "ad": 229.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "lt",
+          "squishy": 4926,
+          "tank": 3015,
+          "sq_3s": 2598,
+          "tk_3s": 1574,
+          "sq_ttk": 2.65,
+          "tk_ttk": null,
+          "sq_dps": 616,
+          "tk_dps": 377,
+          "autos": 13,
+          "headshots": 3,
+          "as_avg": 1.65,
+          "ad": 308.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "lt",
+          "squishy": 9495,
+          "tank": 7158,
+          "sq_3s": 4932,
+          "tk_3s": 3699,
+          "sq_ttk": 1.35,
+          "tk_ttk": 4.5,
+          "sq_dps": 1187,
+          "tk_dps": 895,
+          "autos": 13,
+          "headshots": 3,
+          "as_avg": 1.65,
+          "ad": 418.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      },
+      "burst12": {
+        "minute": 12,
+        "level": 12,
+        "gold": 7220,
+        "owned": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "The Collector"
+        ],
+        "ids": [
+          "berserkers_greaves",
+          "hexoptics_c44",
+          "the_collector"
+        ],
+        "keystone": "lt",
+        "squishy": 2080,
+        "tank": 2384,
+        "sq_3s": 1814,
+        "tk_3s": 1277,
+        "sq_ttk": 3.4,
+        "tk_ttk": null,
+        "sq_dps": 612,
+        "tk_dps": 298,
+        "autos": 6,
+        "headshots": 2,
+        "as_avg": 1.5,
+        "ad": 221.2,
+        "crit": 50,
+        "crit_dmg": 200,
+        "lethality": 12
+      }
+    },
+    "first_strike": {
+      "label": "First Strike",
+      "score_burst": 6055,
+      "score_extended": 2979,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "first_strike",
+          "squishy": 2342,
+          "tank": 1652,
+          "sq_3s": 1434,
+          "tk_3s": 1003,
+          "sq_ttk": 3.9,
+          "tk_ttk": null,
+          "sq_dps": 293,
+          "tk_dps": 206,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.29,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "first_strike",
+          "squishy": 3038,
+          "tank": 2151,
+          "sq_3s": 1949,
+          "tk_3s": 1371,
+          "sq_ttk": 3.7,
+          "tk_ttk": null,
+          "sq_dps": 380,
+          "tk_dps": 269,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.39,
+          "ad": 221.2,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "first_strike",
+          "squishy": 3113,
+          "tank": 2036,
+          "sq_3s": 1927,
+          "tk_3s": 1251,
+          "sq_ttk": 4.9,
+          "tk_ttk": null,
+          "sq_dps": 389,
+          "tk_dps": 255,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.44,
+          "ad": 229.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "first_strike",
+          "squishy": 4767,
+          "tank": 2887,
+          "sq_3s": 2831,
+          "tk_3s": 1688,
+          "sq_ttk": 2.1,
+          "tk_ttk": null,
+          "sq_dps": 596,
+          "tk_dps": 361,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 308.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "first_strike",
+          "squishy": 9163,
+          "tank": 6968,
+          "sq_3s": 5277,
+          "tk_3s": 3975,
+          "sq_ttk": 0.7,
+          "tk_ttk": 4.2,
+          "sq_dps": 1145,
+          "tk_dps": 871,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 418.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      },
+      "burst12": {
+        "minute": 12,
+        "level": 12,
+        "gold": 7220,
+        "owned": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "The Collector"
+        ],
+        "ids": [
+          "berserkers_greaves",
+          "hexoptics_c44",
+          "the_collector"
+        ],
+        "keystone": "first_strike",
+        "squishy": 2107,
+        "tank": 2151,
+        "sq_3s": 1949,
+        "tk_3s": 1371,
+        "sq_ttk": 3.7,
+        "tk_ttk": null,
+        "sq_dps": 569,
+        "tk_dps": 269,
+        "autos": 6,
+        "headshots": 2,
+        "as_avg": 1.39,
+        "ad": 221.2,
+        "crit": 50,
+        "crit_dmg": 200,
+        "lethality": 12
+      }
+    },
+    "conqueror": {
+      "label": "Conqueror",
+      "score_burst": 5777,
+      "score_extended": 3035,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "conqueror",
+          "squishy": 2415,
+          "tank": 1706,
+          "sq_3s": 1373,
+          "tk_3s": 962,
+          "sq_ttk": 4.7,
+          "tk_ttk": null,
+          "sq_dps": 302,
+          "tk_dps": 213,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.29,
+          "ad": 183.5,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "conqueror",
+          "squishy": 3105,
+          "tank": 2194,
+          "sq_3s": 1876,
+          "tk_3s": 1321,
+          "sq_ttk": 3.7,
+          "tk_ttk": null,
+          "sq_dps": 388,
+          "tk_dps": 274,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.39,
+          "ad": 248.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "conqueror",
+          "squishy": 3193,
+          "tank": 2087,
+          "sq_3s": 1854,
+          "tk_3s": 1206,
+          "sq_ttk": 4.9,
+          "tk_ttk": null,
+          "sq_dps": 399,
+          "tk_dps": 261,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.44,
+          "ad": 258.7,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "conqueror",
+          "squishy": 4794,
+          "tank": 2932,
+          "sq_3s": 2673,
+          "tk_3s": 1620,
+          "sq_ttk": 2.8,
+          "tk_ttk": null,
+          "sq_dps": 599,
+          "tk_dps": 367,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 338.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "conqueror",
+          "squishy": 9329,
+          "tank": 7124,
+          "sq_3s": 5168,
+          "tk_3s": 3784,
+          "sq_ttk": 0.7,
+          "tk_ttk": 4.2,
+          "sq_dps": 1166,
+          "tk_dps": 891,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 448.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      },
+      "burst12": {
+        "minute": 12,
+        "level": 12,
+        "gold": 7220,
+        "owned": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "The Collector"
+        ],
+        "ids": [
+          "berserkers_greaves",
+          "hexoptics_c44",
+          "the_collector"
+        ],
+        "keystone": "conqueror",
+        "squishy": 2063,
+        "tank": 2194,
+        "sq_3s": 1876,
+        "tk_3s": 1321,
+        "sq_ttk": 3.7,
+        "tk_ttk": null,
+        "sq_dps": 558,
+        "tk_dps": 274,
+        "autos": 6,
+        "headshots": 2,
+        "as_avg": 1.39,
+        "ad": 248.6,
+        "crit": 50,
+        "crit_dmg": 200,
+        "lethality": 12
+      }
+    },
+    "dark_harvest": {
+      "label": "Dark Harvest",
+      "score_burst": 5957,
+      "score_extended": 2926,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44"
+          ],
+          "keystone": "dark_harvest",
+          "squishy": 2284,
+          "tank": 1610,
+          "sq_3s": 1375,
+          "tk_3s": 934,
+          "sq_ttk": 4.7,
+          "tk_ttk": null,
+          "sq_dps": 285,
+          "tk_dps": 201,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.29,
+          "ad": 158.6,
+          "crit": 25,
+          "crit_dmg": 200,
+          "lethality": 0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7220,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "dark_harvest",
+          "squishy": 2994,
+          "tank": 2094,
+          "sq_3s": 1871,
+          "tk_3s": 1277,
+          "sq_ttk": 3.7,
+          "tk_ttk": null,
+          "sq_dps": 374,
+          "tk_dps": 262,
+          "autos": 11,
+          "headshots": 3,
+          "as_avg": 1.39,
+          "ad": 221.2,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10180,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector"
+          ],
+          "keystone": "dark_harvest",
+          "squishy": 3102,
+          "tank": 1951,
+          "sq_3s": 1859,
+          "tk_3s": 1166,
+          "sq_ttk": 4.9,
+          "tk_ttk": null,
+          "sq_dps": 388,
+          "tk_dps": 244,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.44,
+          "ad": 229.6,
+          "crit": 50,
+          "crit_dmg": 200,
+          "lethality": 12
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge"
+          ],
+          "keystone": "dark_harvest",
+          "squishy": 4744,
+          "tank": 2821,
+          "sq_3s": 2808,
+          "tk_3s": 1574,
+          "sq_ttk": 2.1,
+          "tk_ttk": null,
+          "sq_dps": 593,
+          "tk_dps": 353,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 308.8,
+          "crit": 75,
+          "crit_dmg": 230,
+          "lethality": 12
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17140,
+          "owned": [
+            "Berserker's Greaves",
+            "Hexoptics C44",
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Bloodthirster"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "hexoptics_c44",
+            "the_collector",
+            "infinity_edge",
+            "lord_dominiks_regards",
+            "bloodthirster"
+          ],
+          "keystone": "dark_harvest",
+          "squishy": 8982,
+          "tank": 6709,
+          "sq_3s": 5096,
+          "tk_3s": 3763,
+          "sq_ttk": 0.7,
+          "tk_ttk": 4.9,
+          "sq_dps": 1123,
+          "tk_dps": 839,
+          "autos": 12,
+          "headshots": 3,
+          "as_avg": 1.46,
+          "ad": 418.8,
+          "crit": 100,
+          "crit_dmg": 230,
+          "lethality": 12
+        }
+      },
+      "burst12": {
+        "minute": 12,
+        "level": 12,
+        "gold": 7220,
+        "owned": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "The Collector"
+        ],
+        "ids": [
+          "berserkers_greaves",
+          "hexoptics_c44",
+          "the_collector"
+        ],
+        "keystone": "dark_harvest",
+        "squishy": 2063,
+        "tank": 2094,
+        "sq_3s": 1871,
+        "tk_3s": 1277,
+        "sq_ttk": 3.7,
+        "tk_ttk": null,
+        "sq_dps": 558,
+        "tk_dps": 262,
+        "autos": 6,
+        "headshots": 2,
+        "as_avg": 1.39,
+        "ad": 221.2,
+        "crit": 50,
+        "crit_dmg": 200,
+        "lethality": 12
+      }
+    }
+  },
+  "keystone_extended_winner": "lt",
+  "keystone_burst_winner": "first_strike"
+}

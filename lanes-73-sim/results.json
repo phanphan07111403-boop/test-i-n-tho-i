@@ -1,0 +1,790 @@
+{
+  "patch": "7.3",
+  "roles": {
+    "jungle": [
+      {
+        "rank": 1,
+        "name": "Rek'Sai",
+        "score": 66,
+        "kit": 26,
+        "system": 28,
+        "new": true,
+        "pad": 82,
+        "why": [
+          "Tướng mới 7.3 jungle. Unburrow knockup, ult sense địch ẩn.",
+          "Tunnel clear + gank đúng meta farm-then-crash.",
+          "Smite burn 600→1400 giúp duel camp/epic. Pad: W nhả gần, R targeted."
+        ],
+        "page": [
+          "Hunter's Machete",
+          "Plated Steelcaps",
+          "Warrior",
+          "Youmuu's Ghostblade",
+          "Black Cleaver",
+          "Death's Dance"
+        ],
+        "buy": [
+          "Machete",
+          "Plated Steelcaps",
+          "Warrior",
+          "Youmuu's Ghostblade",
+          "Black Cleaver",
+          "Death's Dance"
+        ],
+        "skill": "Q > E > W   (R mọi cấp)   — W unburrow knockup",
+        "spells": "Flash + Smite",
+        "runes": [
+          "Conqueror",
+          "Brutal",
+          "Bone Plating",
+          "Legend: Alacrity",
+          "Triumph"
+        ],
+        "pad_map": {
+          "L1": "Q Prey Seeker / fury Q",
+          "L2": "W Burrow/Unburrow (gồng–nhả)",
+          "L3": "E Furious Bite",
+          "L4": "R Void Rush (lock)",
+          "A": "AA"
+        },
+        "combo": "Đào L2 → Q dò. Gần địch nhả W knockup → AA → E. R execute.",
+        "sit": [
+          "Eclipse thay Youmuu vs tank",
+          "Sterak ô 6",
+          "Mercury vs CC"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Nidalee",
+        "score": 50,
+        "kit": 16,
+        "system": 34,
+        "new": false,
+        "pad": 58,
+        "why": [
+          "WRF S+. Jungle 7.3 thưởng full-clear: Nidalee clear nhanh nhất meta.",
+          "Spear + cougar. Camp gold + Smite stack = snowball mà không cần gank sớm.",
+          "Pad giáo khó — rank hưởng farm, không phải pick pad."
+        ],
+        "page": [
+          "Hunter's Machete",
+          "Ionian Boots",
+          "Luden's Echo",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "buy": [
+          "Machete",
+          "Ionian Boots",
+          "Luden's Echo",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "skill": "Human Q max / Cougar Q max   — giáo rồi cougar",
+        "spells": "Flash + Smite",
+        "runes": [
+          "Electrocute",
+          "Sudden Impact",
+          "Eyeball Collector",
+          "Ultimate Hunter",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Javelin (aim)",
+          "L2": "W trap / pounce",
+          "L3": "E heal / swipe",
+          "L4": "R swap form",
+          "A": "AA"
+        },
+        "combo": "Full-clear trước. Giáo max tầm. Cougar dump. Pad khó — Syndra-jg không có.",
+        "sit": [
+          "Horizon nếu poke",
+          "Nashor nếu on-hit",
+          "Pad: pick Vi/Jarvan"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Lillia",
+        "score": 44,
+        "kit": 14,
+        "system": 30,
+        "new": false,
+        "pad": 74,
+        "why": [
+          "Full-clear stacking. Liandry + camp gold 7.3 = tốc độ stack điên.",
+          "Ít gank sớm — đúng design Lillia scale.",
+          "Smite burn + Liandry chồng lên epic monster."
+        ],
+        "page": [
+          "Hunter's Machete",
+          "Ionian Boots",
+          "Liandry's Torment",
+          "Riftmaker",
+          "Cosmic Drive",
+          "Rabadon's Deathcap"
+        ],
+        "buy": [
+          "Machete",
+          "Ionian Boots",
+          "Liandry's Torment",
+          "Riftmaker",
+          "Cosmic Drive",
+          "Rabadon's Deathcap"
+        ],
+        "skill": "Q > E > W   (R mọi cấp)",
+        "spells": "Flash + Smite",
+        "runes": [
+          "Conqueror",
+          "Brutal",
+          "Bone Plating",
+          "Legend: Tenacity",
+          "Transcendence"
+        ],
+        "pad_map": {
+          "L1": "Q Blooming Blows (xả vòng)",
+          "L2": "E seed (aim)",
+          "L3": "W Watch Out",
+          "L4": "R sleep",
+          "A": "AA"
+        },
+        "combo": "Full-clear Q spam. E seed đường. R sleep teamfight. Đừng gank cấp 2.",
+        "sit": [
+          "Zhonya",
+          "Void vs MR",
+          "Demonic nếu có"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Vi",
+        "score": 42,
+        "kit": 14,
+        "system": 28,
+        "new": false,
+        "pad": 91,
+        "why": [
+          "WRF S+. Gồng Q = MB03. Clear ổn, gank khi muốn (không bắt buộc spam).",
+          "Farm gold 7.3 → Trinity/Cleaver online sớm. R lock ADC địch.",
+          "Turret plating: Vi đấm trụ sau gank."
+        ],
+        "page": [
+          "Hunter's Machete",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Black Cleaver",
+          "Sterak's Gage",
+          "Death's Dance"
+        ],
+        "buy": [
+          "Machete",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Black Cleaver",
+          "Sterak's Gage",
+          "Death's Dance"
+        ],
+        "skill": "Q > E > W   (R mọi cấp)",
+        "spells": "Flash + Smite",
+        "runes": [
+          "Conqueror",
+          "Brutal",
+          "Bone Plating",
+          "Legend: Alacrity",
+          "Triumph"
+        ],
+        "pad_map": {
+          "L1": "Q Vault Breaker (GIỮ–NHẢ)",
+          "L2": "E Denting",
+          "L3": "W",
+          "L4": "R lock",
+          "A": "AA"
+        },
+        "combo": "Giữ L1 xuyên bụi, analog góc, nhả. R ADC. Đã dạy MB03.",
+        "sit": [
+          "Divine Sunderer vs HP",
+          "Mercury vs CC",
+          "D-pad → trụ sau gank"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Jarvan IV",
+        "score": 38,
+        "kit": 12,
+        "system": 26,
+        "new": false,
+        "pad": 88,
+        "why": [
+          "EQ knockup. Flag chặn rút. Epic 7.3 scale level → Jarvan fight mục tiêu.",
+          "Plating mọi nhà: sau gank đấm trụ D-pad →.",
+          "Pad combo cứng L2 E → L1 Q."
+        ],
+        "page": [
+          "Hunter's Machete",
+          "Plated Steelcaps",
+          "Eclipse",
+          "Black Cleaver",
+          "Sterak's Gage",
+          "Death's Dance"
+        ],
+        "buy": [
+          "Machete",
+          "Plated Steelcaps",
+          "Eclipse",
+          "Black Cleaver",
+          "Sterak's Gage",
+          "Death's Dance"
+        ],
+        "skill": "Q > E > W   (R mọi cấp)   — E cờ TRƯỚC, Q SAU",
+        "spells": "Flash + Smite",
+        "runes": [
+          "Conqueror",
+          "Brutal",
+          "Bone Plating",
+          "Legend: Alacrity",
+          "Triumph"
+        ],
+        "pad_map": {
+          "L1": "Q Dragon Strike (SAU E)",
+          "L2": "E Flag (TRƯỚC)",
+          "L3": "W",
+          "L4": "R arena",
+          "A": "AA"
+        },
+        "combo": "L2 → L1 knockup. R nhốt. D-pad → trụ. Đã dạy MB03.",
+        "sit": [
+          "Sunderer vs HP",
+          "Randuin vs crit ADC",
+          "Mercury vs CC"
+        ]
+      }
+    ],
+    "mid": [
+      {
+        "rank": 1,
+        "name": "Hwei",
+        "score": 64,
+        "kit": 28,
+        "system": 24,
+        "new": true,
+        "pad": 48,
+        "why": [
+          "Tướng mới 7.3, mid poster. Disaster / Serenity / Torment = poke + CC + shield.",
+          "Jungle farm → 1v1/siege mid. Hwei wave + zone trụ plating.",
+          "Pad: quá nhiều nút — rank hưởng patch, không phải pick pad."
+        ],
+        "page": [
+          "Doran's Ring",
+          "Ionian Boots",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "buy": [
+          "Amplifying Tome",
+          "Ionian Boots",
+          "Luden's Echo",
+          "Horizon Focus",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "skill": "QQ poke / QW zone / EW CC  —  học 3 subject trước ranked",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "First Strike",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q subject",
+          "L2": "W subject",
+          "L3": "E subject",
+          "L4": "R",
+          "A": "AA"
+        },
+        "combo": "Không khuyến pad. PC/tay: QQ poke, EW root, WW shield.",
+        "sit": [
+          "Liandry nếu team nhiều HP",
+          "Zhonya vs assassin",
+          "Pad: chọn Syndra/Ahri"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Sylas",
+        "score": 52,
+        "kit": 22,
+        "system": 18,
+        "new": true,
+        "pad": 80,
+        "why": [
+          "Tướng mới 7.3. W stun → Q, R cướp ult ADC/jungler 7.3.",
+          "Kingslayer heal missing HP. Pad combo ngắn.",
+          "Riftmaker / Rocketbelt. Không skillshot dày như Hwei."
+        ],
+        "page": [
+          "Doran's Ring",
+          "Mercury's Treads",
+          "Riftmaker",
+          "Zhonya's Hourglass",
+          "Cosmic Drive",
+          "Rabadon's Deathcap"
+        ],
+        "buy": [
+          "Amplifying Tome",
+          "Mercury's Treads",
+          "Riftmaker",
+          "Zhonya's Hourglass",
+          "Cosmic Drive",
+          "Rabadon's Deathcap"
+        ],
+        "skill": "W > Q > E   (R mọi cấp)   — W stun rồi Q",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "Conqueror",
+          "Brutal",
+          "Bone Plating",
+          "Revitalize",
+          "Transcendence"
+        ],
+        "pad_map": {
+          "L1": "Q Chain Lash (SAU W)",
+          "L2": "W Kingslayer (TRƯỚC — stun/heal)",
+          "L3": "E dash",
+          "L4": "R cướp ult (lock)",
+          "A": "AA"
+        },
+        "combo": "L2 → L1 → A. E vào. R cướp ult ADC/jg. Combo 2 nút.",
+        "sit": [
+          "Rocketbelt nếu cần gapclose",
+          "Ionian nếu CD R",
+          "Steelcaps vs AD"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Syndra",
+        "score": 48,
+        "kit": 18,
+        "system": 30,
+        "new": false,
+        "pad": 88,
+        "why": [
+          "WRF S+. Jungle 7.3 farm → mid tự thắng lane. Syndra 2v1/1v1 mạnh.",
+          "7.2d Q 80–230, E CD 15s, W 60% AP — buff còn sống vào 7.3.",
+          "Luden → Orb → Cap. Combo pad: L1 Q → L2 E stun."
+        ],
+        "page": [
+          "Doran's Ring",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "buy": [
+          "Amplifying Tome",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)   Transcendent: Q rồi W rồi E",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "Electrocute",
+          "Hextech Flashtraption",
+          "Transcendence",
+          "Nimbus Cloak",
+          "Cut Down"
+        ],
+        "pad_map": {
+          "L1": "Q Dark Sphere (TRƯỚC)",
+          "L2": "E Scatter (SAU — stun)",
+          "L3": "W Force of Will",
+          "L4": "R Unleashed (lock)",
+          "A": "AA"
+        },
+        "combo": "L1 → L2 stun. W ném bóng. R khi ≥5 bóng. Đã dạy MB03.",
+        "sit": [
+          "Zhonya ô 6",
+          "Liandry vs tank",
+          "Bone Plating vs burst"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Ahri",
+        "score": 40,
+        "kit": 12,
+        "system": 28,
+        "new": false,
+        "pad": 86,
+        "why": [
+          "WRF S+. Roam bot vì ADC 7.3 carry thật — Charm gank dragon.",
+          "Malignance + Lich (WRF). Jungle ít gank → Ahri tự roam.",
+          "Pad: L2 E trước, L1 Q sau."
+        ],
+        "page": [
+          "Doran's Ring",
+          "Boots of Mana",
+          "Malignance",
+          "Lich Bane",
+          "Rabadon's Deathcap",
+          "Infinity Orb"
+        ],
+        "buy": [
+          "Amplifying Tome",
+          "Boots of Mana",
+          "Malignance",
+          "Lich Bane",
+          "Rabadon's Deathcap",
+          "Infinity Orb"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "Electrocute",
+          "Sudden Impact",
+          "Eyeball Collector",
+          "Ultimate Hunter",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Orb (xả SAU charm)",
+          "L2": "E Charm (TRƯỚC)",
+          "L3": "W Fox-Fire",
+          "L4": "R Spirit Rush (3 dash)",
+          "A": "AA Lich Bane"
+        },
+        "combo": "L2 dính → L1 → L3 → A. R đuổi/né. Roam bot sau 5. Đã dạy MB03.",
+        "sit": [
+          "Zhonya vs assassin",
+          "Void vs MR",
+          "Luden nếu muốn wave hơn Malig"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Twisted Fate",
+        "score": 36,
+        "kit": 10,
+        "system": 26,
+        "new": false,
+        "pad": 78,
+        "why": [
+          "Gold card pick + R xuống bot. ADC 7.3 đáng gank hơn.",
+          "WRF S. Luden/Lich. Jungle farm → TF roam không mất camp đồng đội."
+        ],
+        "page": [
+          "Doran's Ring",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Lich Bane",
+          "Rapid Firecannon",
+          "Rabadon's Deathcap"
+        ],
+        "buy": [
+          "Amplifying Tome",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Lich Bane",
+          "Rapid Firecannon",
+          "Rabadon's Deathcap"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "First Strike",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Wildcards",
+          "L2": "W Pick a Card (GIỮ — vàng)",
+          "L3": "E stacked AA",
+          "L4": "R Destiny (global)",
+          "A": "AA Lich + RFC"
+        },
+        "combo": "Giữ L2 ra bài vàng. R xem map → gold card bot. RFC + Lich AA.",
+        "sit": [
+          "Zhonya",
+          "Mejai nếu snowball",
+          "Ionian nếu CD R"
+        ]
+      }
+    ],
+    "adc": [
+      {
+        "rank": 1,
+        "name": "Caitlyn",
+        "score": 74,
+        "kit": 38,
+        "system": 36,
+        "new": false,
+        "pad": 78,
+        "why": [
+          "Kit rebuild: Headshot + R scale crit chance VÀ crit damage (200% + IE 230%).",
+          "AD 54→60. AS cho sẵn (growth 4%) nên mua AD/crit — Hexoptics→IE→RFC.",
+          "Trap Headshot +40–190 (+30% bAD) mới. Cait 7.2d B-tier, đây là buff lớn nhất ADC."
+        ],
+        "page": [
+          "Doran's Blade",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Infinity Edge",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards"
+        ],
+        "buy": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Infinity Edge",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)",
+        "spells": "Flash + Ghost",
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Peacemaker",
+          "L2": "W Trap (tap gần / đặt tay)",
+          "L3": "E Net (lùi analog)",
+          "L4": "R Ace (lock)",
+          "A": "AA tướng — Headshot từ bụi"
+        },
+        "combo": "Trap / net → AA Headshot → Q full dmg. Kite analog max tầm. R khi thiếu máu.",
+        "sit": [
+          "vs heal: Mortal Reminder",
+          "vs burst: Bloodthirster / GA",
+          "Hexoptics trước IE"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Ashe",
+        "score": 68,
+        "kit": 36,
+        "system": 32,
+        "new": false,
+        "pad": 90,
+        "why": [
+          "AD/level 2.65→4, base AD 60. Frost Shot chậm 20–30% (tăng).",
+          "Frost bonus damage = crit rate + (crit dmg−2)×crit — đúng công thức 7.3.",
+          "Volley CD 16/13.5/11/8.5 → 15/12/9/6. Ranger's Focus 30 mana. Pad kite."
+        ],
+        "page": [
+          "Doran's Blade",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "buy": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "skill": "W > Q > E   (R mọi cấp)",
+        "spells": "Flash + Ghost",
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "W Volley (setup chậm)",
+          "L2": "R Arrow (giữ/lái)",
+          "L3": "Q Ranger's Focus (4 stack)",
+          "L4": "E Hawkshot",
+          "A": "AA kite — analog nhả nhẹ"
+        },
+        "combo": "L1 chậm → AA. 4 stack rồi L3. R từ bụi, analog lái. Đã dạy MB03.",
+        "sit": [
+          "vs heal: Mortal",
+          "Bloodthirster ô 6",
+          "Đừng Kraken nếu đi crit 7.3 — Hexoptics/IE"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Xayah",
+        "score": 66,
+        "kit": 32,
+        "system": 34,
+        "new": false,
+        "pad": 76,
+        "why": [
+          "Bladecaller × (1 + 50% crit + 50%×(crit dmg−2)×crit). Lông = crit item.",
+          "AD 54→60. Yun Tal → Navori → IE (WRF 7.3 S-tier).",
+          "W Plumage 25% feather dmg (tăng). Hypercarry 7.3."
+        ],
+        "page": [
+          "Doran's Blade",
+          "Berserker's Greaves",
+          "Yun Tal Wildarrows",
+          "Navori Quickblades",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "buy": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Yun Tal Wildarrows",
+          "Navori Quickblades",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)",
+        "spells": "Flash + Barrier",
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Double Daggers",
+          "L2": "W Plumage",
+          "L3": "E Bladecaller (rút lông)",
+          "L4": "R Featherstorm",
+          "A": "AA — 3 auto sau skill = lông"
+        },
+        "combo": "L1 + 1 AA = 3 lông → L3 root. W trước khi AA. R né skill.",
+        "sit": [
+          "vs heal: Mortal",
+          "BT ô 6",
+          "Navori giảm CD E/W — đừng bỏ"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Lucian",
+        "score": 60,
+        "kit": 30,
+        "system": 30,
+        "new": false,
+        "pad": 82,
+        "why": [
+          "The Culling: 20 + 20×crit rate viên, cộng (crit dmg−2)×20×crit. IE = thêm đạn.",
+          "Q 100% bAD mọi rank. Lightslinger 40/50/60%. Identity crit rõ.",
+          "Fiendhunter Bolts (+50% AS, 3 crit sau R) sinh ra cho cửa sổ ult này."
+        ],
+        "page": [
+          "Doran's Blade",
+          "Berserker's Greaves",
+          "Yun Tal Wildarrows",
+          "Infinity Edge",
+          "Fiendhunter Bolts",
+          "Lord Dominik's Regards"
+        ],
+        "buy": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Yun Tal Wildarrows",
+          "Infinity Edge",
+          "Fiendhunter Bolts",
+          "Lord Dominik's Regards"
+        ],
+        "skill": "Q > E > W   (R mọi cấp)",
+        "spells": "Flash + Ignite",
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Piercing Light (xả)",
+          "L2": "E Relentless (dash analog)",
+          "L3": "W Ardent",
+          "L4": "R The Culling (giữ hướng)",
+          "A": "AA sau mỗi skill (Lightslinger)"
+        },
+        "combo": "Skill → A → skill → A. All-in: E→Q→A. R + Fiendhunter 3 crit.",
+        "sit": [
+          "Essence Reaver nếu thiếu mana",
+          "Navori nếu muốn CD E",
+          "BT vs poke"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Jinx",
+        "score": 50,
+        "kit": 14,
+        "system": 36,
+        "new": false,
+        "pad": 84,
+        "why": [
+          "Get Excited vượt AS cap — cap 7.3 lên 3.0, Excited vẫn phá trần.",
+          "Hexoptics + Runaan + IE. Rocket splash crit 200%.",
+          "R bị cắt CD/ratio — Δpatch thấp hơn Cait/Ashe/Xayah nhưng hệ thống bơm hypercarry."
+        ],
+        "page": [
+          "Doran's Blade",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "buy": [
+          "Long Sword",
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "skill": "Q > W > E   (R mọi cấp)",
+        "spells": "Flash + Ghost",
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "pad_map": {
+          "L1": "Q Switcheroo (rocket/minigun)",
+          "L2": "W Zap",
+          "L3": "E Chompers",
+          "L4": "R Rocket (global)",
+          "A": "AA — minigun gần, rocket xa"
+        },
+        "combo": "Farm minigun. Teamfight rocket. W chậm rồi AA. E gốc chân mình khi bị nhảy.",
+        "sit": [
+          "BT ô 6",
+          "Mortal vs heal",
+          "Excited vượt AS cap — đừng sợ cap 3.0"
+        ]
+      }
+    ]
+  }
+}
