@@ -1539,7 +1539,10 @@ def _rune_why(rows: List[dict]) -> List[str]:
             f"  Keep Revitalize (do not drop HSP for Manaflow): +{d:.2f} GE on this path."
         )
     out.append("  7.3: Ingenious Hunter is gone (no Mandate/Redemption CDR rune).")
-    out.append("  Manaflow is the closest 5th-slot swap if you OOM before Helia.")
+    out.append(
+        "  If you actually OOM, swap the 5th slot to Manaflow "
+        "(ranks #6 here — only when mana is the bottleneck)."
+    )
     return out
 
 
