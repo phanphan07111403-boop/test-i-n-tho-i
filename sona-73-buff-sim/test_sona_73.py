@@ -11,9 +11,11 @@ from simulate_sona_73 import (
     ITEMS,
     LEGENDARIES,
     MAX_SLOTS,
+    RUNE_PAGES,
     SCYTHE_SELL,
     adc_base,
     auto_dps,
+    compare_runes,
     evaluate,
     finished_legendaries,
     flags_from,
@@ -24,6 +26,7 @@ from simulate_sona_73 import (
     search_full,
     simulate_core,
     support_level,
+    transcendence_ah,
 )
 
 
@@ -206,6 +209,85 @@ class TestFullPage(unittest.TestCase):
 
     def test_full_search_size(self) -> None:
         self.assertEqual(len(self.scored), 60)
+
+
+class TestRunes(unittest.TestCase):
+    """Rune pages ranked on the winning item path, not a generic Sona template."""
+
+    WIN_CORE = [
+        "Ardent Censer",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo",
+        "Staff of Flowing Waters",
+    ]
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.ranked = compare_runes(cls.WIN_CORE)
+
+    def test_compares_every_page(self) -> None:
+        self.assertEqual(len(self.ranked), len(RUNE_PAGES))
+        self.assertEqual(len(RUNE_PAGES), 9)
+
+    def test_aery_beats_guardian_comet_fleet(self) -> None:
+        winner = self.ranked[0]
+        self.assertEqual(winner["keystone"], "Aery")
+        for ks in ("Guardian", "Arcane Comet", "Fleet Footwork"):
+            other = next(r for r in self.ranked if r["keystone"] == ks)
+            self.assertGreater(
+                winner["combined"],
+                other["combined"],
+                f"{winner['name']} should beat {other['name']}",
+            )
+
+    def test_winner_has_revitalize_and_transcendence(self) -> None:
+        winner = self.ranked[0]
+        self.assertTrue(winner["revitalize"])
+        self.assertTrue(winner["transcendence"])
+        self.assertIn("Revitalize", winner["slots"])
+        self.assertIn("Transcendence", winner["slots"])
+
+    def test_transcendence_beats_legend_haste(self) -> None:
+        trans = next(
+            r
+            for r in self.ranked
+            if r["name"] == "Aery / FoL / Bone / Revitalize / Transcendence"
+        )
+        legend = next(
+            r
+            for r in self.ranked
+            if r["name"] == "Aery / FoL / Bone / Revitalize / Legend: Haste"
+        )
+        self.assertGreater(trans["combined"], legend["combined"])
+        self.assertGreater(trans["tw_ge"], legend["tw_ge"])
+
+    def test_revitalize_beats_dropping_it(self) -> None:
+        with_r = next(
+            r
+            for r in self.ranked
+            if r["name"] == "Aery / FoL / Bone / Revitalize / Transcendence"
+        )
+        without = next(
+            r
+            for r in self.ranked
+            if r["name"] == "Aery / FoL / Bone / Transcendence / Manaflow"
+        )
+        self.assertGreater(with_r["combined"], without["combined"])
+
+    def test_transcendence_adds_ah(self) -> None:
+        trans = next(p for p in RUNE_PAGES if p.transcendence and p.revitalize)
+        mana = next(
+            p
+            for p in RUNE_PAGES
+            if p.manaflow and p.revitalize and not p.transcendence and not p.legend_haste
+        )
+        owned = ["Black Mist Scythe", "Ionian Boots of Lucidity", "Ardent Censer"]
+        s_t = evaluate(owned, 12, 3700, trans)
+        s_m = evaluate(owned, 12, 3700, mana)
+        self.assertGreater(s_t.ah, s_m.ah)
+        self.assertGreaterEqual(s_t.hsp, 0.05)
+        self.assertEqual(transcendence_ah(11), 20.0)
 
 
 if __name__ == "__main__":

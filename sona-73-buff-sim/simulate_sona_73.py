@@ -28,11 +28,6 @@ IE_CRIT_DMG = 2.30
 MAX_SLOTS = 6
 SCYTHE_SELL = 280  # Wild Rift ~70% of the 400g sickle/scythe invest
 
-# Baseline runes baked into the kit (recommended page).
-REVITALIZE_HSP = 0.05
-TRANSCENDENCE_AH = 10.0
-AERY_HPS = 2.5  # extra shield/poke averaged over W cycle
-
 # Combat fraction of a minute spent in a real fight window.
 COMBAT_FRAC = {
     "lane": 0.32,   # minutes 1–8
@@ -126,6 +121,227 @@ def scythe_ap(minute: int) -> float:
     if minute < 6:
         return 0.0
     return 4.0 * min(10, minute - 5)
+
+
+# ---------------------------------------------------------------------------
+# Runes — Wild Rift 7.3 (5-slot page). Numbers from live tooltip text.
+# Ingenious Hunter is removed this patch. Legend: Haste replaced Tenacity.
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class RunePage:
+    name: str
+    keystone: str
+    slots: Tuple[str, ...]
+    font: bool = False
+    revitalize: bool = False
+    transcendence: bool = False
+    manaflow: bool = False
+    scorch: bool = False
+    bone: bool = False
+    legend_haste: bool = False
+    gathering: bool = False
+
+
+def _page(
+    name: str,
+    keystone: str,
+    *minors: str,
+    **flags: bool,
+) -> RunePage:
+    return RunePage(name=name, keystone=keystone, slots=(keystone, *minors), **flags)
+
+
+RUNE_PAGES: Tuple[RunePage, ...] = (
+    _page(
+        "Aery / FoL / Bone / Revitalize / Transcendence",
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence",
+        font=True,
+        bone=True,
+        revitalize=True,
+        transcendence=True,
+    ),
+    _page(
+        "Aery / FoL / Bone / Revitalize / Manaflow",
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Manaflow Band",
+        font=True,
+        bone=True,
+        revitalize=True,
+        manaflow=True,
+    ),
+    _page(
+        "Aery / FoL / Bone / Revitalize / Scorch",
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Scorch",
+        font=True,
+        bone=True,
+        revitalize=True,
+        scorch=True,
+    ),
+    _page(
+        "Aery / FoL / Bone / Revitalize / Legend: Haste",
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Legend: Haste",
+        font=True,
+        bone=True,
+        revitalize=True,
+        legend_haste=True,
+    ),
+    _page(
+        "Aery / Manaflow / Transcendence / Scorch / Bone",
+        "Aery",
+        "Manaflow Band",
+        "Transcendence",
+        "Scorch",
+        "Bone Plating",
+        manaflow=True,
+        transcendence=True,
+        scorch=True,
+        bone=True,
+    ),
+    _page(
+        "Aery / FoL / Bone / Transcendence / Manaflow",
+        "Aery",
+        "Font of Life",
+        "Bone Plating",
+        "Transcendence",
+        "Manaflow Band",
+        font=True,
+        bone=True,
+        transcendence=True,
+        manaflow=True,
+    ),
+    _page(
+        "Guardian / FoL / Bone / Revitalize / Transcendence",
+        "Guardian",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence",
+        font=True,
+        bone=True,
+        revitalize=True,
+        transcendence=True,
+    ),
+    _page(
+        "Comet / FoL / Bone / Revitalize / Transcendence",
+        "Arcane Comet",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence",
+        font=True,
+        bone=True,
+        revitalize=True,
+        transcendence=True,
+    ),
+    _page(
+        "Fleet / FoL / Bone / Revitalize / Transcendence",
+        "Fleet Footwork",
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize",
+        "Transcendence",
+        font=True,
+        bone=True,
+        revitalize=True,
+        transcendence=True,
+    ),
+)
+
+DEFAULT_RUNES = RUNE_PAGES[0]
+
+
+def transcendence_ah(level: int) -> float:
+    ah = 0.0
+    if level >= 1:
+        ah += 6.0
+    if level >= 5:
+        ah += 6.0
+    # L9: 10% CD refund on a basic every 8s ≈ extra haste on the W/Q cycle.
+    if level >= 9:
+        ah += 8.0
+    return ah
+
+
+def legend_haste_ah(minute: int) -> float:
+    # Support assists: slow stacks. 1.5 AH each, cap 15. 7.3 replaced Tenacity.
+    stacks = min(10.0, max(0.0, (minute - 6) * 0.45))
+    return min(15.0, 1.5 * stacks)
+
+
+def rune_effects(
+    page: RunePage, level: int, minute: int, ap: float, hp: float
+) -> Dict[str, float]:
+    ah = 0.0
+    hsp = 0.0
+    heal_hps = 0.0
+    poke_dps = 0.0
+    tank_hps = 0.0
+    aura_bonus = 0.0
+    if page.transcendence:
+        ah += transcendence_ah(level)
+    if page.legend_haste:
+        ah += legend_haste_ah(minute)
+    if page.revitalize:
+        # 5% always, +10% extra when target < 40% HP (~1/4 of fight heals).
+        hsp += 0.05 + 0.025 * combat_frac(minute)
+    if page.manaflow:
+        # 30 mana/champion hit, cap 300. Sona Q hits two → stacked by ~8:00.
+        # Extra mana = fewer OOM skips on W/Q.
+        if minute >= 8:
+            aura_bonus += 0.04
+        elif minute >= 4:
+            aura_bonus += 0.02
+    if page.keystone == "Aery":
+        shield = 30.0 + 110.0 * (level - 1) / 14.0 + 0.20 * ap
+        poke = 15.0 + 55.0 * (level - 1) / 14.0 + 0.10 * ap
+        cycle = 4.2  # linger 2s + return; Sona spam keeps it cycling
+        heal_hps += 0.62 * shield / cycle
+        poke_dps += 0.38 * poke / cycle
+    elif page.keystone == "Guardian":
+        shield = 55.0 + 6.0 * level + 0.12 * ap
+        heal_hps += shield / 18.0 * 0.45  # proc when ADC takes a hit nearby
+    elif page.keystone == "Arcane Comet":
+        comet = 35.0 + 4.0 * level + 0.20 * ap
+        poke_dps += comet / 9.0 * 0.70  # Q/R/Power Chord land it often
+    elif page.keystone == "Fleet Footwork":
+        heal_hps += (15.0 + 4.0 * level + 0.10 * ap) / 8.0 * 0.35  # mostly self
+        tank_hps += 4.0
+    if page.font:
+        # 3% Sona max HP + 15% AP to lowest-HP ally, 20s CD. Q/PC apply it.
+        font = 0.03 * hp + 0.15 * ap
+        heal_hps += font / 20.0
+    if page.scorch:
+        poke_dps += (20.0 + 1.5 * level) / 6.0 * 0.75
+    if page.bone:
+        tank_hps += 9.0 if minute <= 12 else 5.0
+    if page.gathering:
+        ap_gain = 8.0 * (minute // 10)
+        poke_dps += 0.05 * ap_gain
+    return {
+        "ah": ah,
+        "hsp": hsp,
+        "heal_hps": heal_hps,
+        "poke_dps": poke_dps,
+        "tank_hps": tank_hps,
+        "aura_bonus": aura_bonus,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -652,13 +868,16 @@ def flags_from(owned: List[str]) -> Dict[str, float]:
     }
 
 
-def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
+def evaluate(
+    owned: List[str],
+    minute: int,
+    spent: int,
+    runes: Optional[RunePage] = None,
+) -> Snap:
     gold = gold_at_minute(minute)
     level = support_level(minute)
     f = flags_from(owned)
     ap = f["ap"]
-    ah = f["ah"] + TRANSCENDENCE_AH
-    hsp = f["hsp"] + REVITALIZE_HSP
     mana = f["mana"]
     if f["scythe"]:
         ap += scythe_ap(minute)
@@ -668,7 +887,15 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
     if f["staff"]:
         staff_ap = 40.0
         ap += staff_ap * 0.70  # duty cycle ~70% with W spam
+
+    sona_hp = 530.0 + 90.0 * (level - 1) + f["hp"]
+    page = runes or DEFAULT_RUNES
+    re = rune_effects(page, level, minute, ap, sona_hp)
+
+    ah = f["ah"] + re["ah"]
+    if f["staff"]:
         ah += 15.0 * 0.70
+    hsp = f["hsp"] + re["hsp"]
 
     q_pts, w_pts, _e_pts, r_r = skill_ranks(level)
     q_i = min(3, max(0, q_pts - 1))
@@ -685,6 +912,7 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
     # AH + Sona passive pushes this to near-lock.
     if f["ionian"]:
         aura_uptime = min(0.98, aura_uptime + 0.06)
+    aura_uptime = min(0.98, aura_uptime + re["aura_bonus"])
 
     q_dmg = ([40, 80, 120, 160][q_i] + 0.40 * ap) if q_pts else 0.0
     q_aura = ([8, 13, 18, 23][q_i] + 0.20 * ap) if q_pts else 0.0
@@ -701,7 +929,7 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
 
     heal_hps = ally_heal / max(w_cd, 4.0)
     shield_hps = ally_shield * aura_uptime / 3.0
-    heal_hps += AERY_HPS * hsp_mult
+    heal_hps += re["heal_hps"] * (1.0 + hsp if page.revitalize else 1.0)
 
     # Harmonic Echo: 30% of that heal / 35% of that shield to a 2nd ally
     # (or the same target if nobody else is in range — lane case).
@@ -717,6 +945,8 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
         champ_dmg = q_dmg * 2.0 * (w_cd / max(q_cd, 1.0)) + pc
         stored = min(cap, 0.30 * champ_dmg)
         helia_hps = stored / max(w_cd, 4.0)
+        if page.revitalize:
+            helia_hps *= 1.0 + re["hsp"]
 
     diadem_hps = 0.0
     if f["diadem"]:
@@ -780,9 +1010,9 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
 
     cf = combat_frac(minute)
     buff_impact = extra * cf
-    sustain = (heal_hps + shield_hps * 0.70 + helia_hps * 2.0 + diadem_hps * cf)
+    sustain = (heal_hps + shield_hps * 0.70 + helia_hps * 2.0 + diadem_hps * cf + re["tank_hps"])
     sustain_impact = sustain * 0.90
-    fight_impact = (mandate_dps + cc_dps) * cf
+    fight_impact = (mandate_dps + cc_dps + re["poke_dps"]) * cf
     total = buff_impact + sustain_impact + fight_impact
 
     ge_denom = max(spent, 400)
@@ -851,14 +1081,15 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
     )
 
 
-def simulate_core(core: Sequence[str]) -> List[Snap]:
+def simulate_core(core: Sequence[str], runes: Optional[RunePage] = None) -> List[Snap]:
     state = ShopState(
         plan=build_plan(core), pocket=gold_at_minute(0), spent=0
     )
     snaps: List[Snap] = []
+    page = runes or DEFAULT_RUNES
     for m in range(1, GAME_MINUTES + 1):
         shop_tick(state, m)
-        snaps.append(evaluate(state.owned, m, state.spent))
+        snaps.append(evaluate(state.owned, m, state.spent, page))
     return snaps
 
 
@@ -947,6 +1178,25 @@ def search_full(front: Sequence[str]) -> Tuple[List[dict], Dict[str, List[Snap]]
     return _rank(scored), results
 
 
+def compare_runes(core: Sequence[str]) -> List[dict]:
+    """Same full item path, swap only the 5-rune page."""
+    scored: List[dict] = []
+    for page in RUNE_PAGES:
+        snaps = simulate_core(core, page)
+        sc = score_path(snaps)
+        scored.append(
+            {
+                "name": page.name,
+                "keystone": page.keystone,
+                "slots": list(page.slots),
+                "revitalize": page.revitalize,
+                "transcendence": page.transcendence,
+                **sc,
+            }
+        )
+    return _rank(scored)
+
+
 def isolated_item_ge(minute: int = 12) -> List[dict]:
     """Each legendary on top of Scythe + Ionian, gold-efficiency snapshot."""
     base_owned = ["Black Mist Scythe", "Ionian Boots of Lucidity"]
@@ -990,6 +1240,7 @@ def summarize(
     scored_full: List[dict],
     results_full: Dict[str, List[Snap]],
     iso: List[dict],
+    rune_rows: Optional[List[dict]] = None,
 ) -> str:
     winner = scored_full[0]
     snaps = results_full[winner["label"]]
@@ -1015,6 +1266,7 @@ def summarize(
     lines.append("  Combined     = 50% time-weighted impact + 30% gold-eff + 20% buff gold-eff")
     lines.append("  Search       = 210 first-3 orders, then 60 full pages (3rd/4th/5th)")
     lines.append("  Slots        = Scythe + Ionian + 4 legendaries. Sell Scythe → 5th.")
+    lines.append("  Runes        = 9 pages on the winning item path (same shop, swap 5-slot page)")
     lines.append("")
 
     lines.append("-" * 78)
@@ -1125,6 +1377,22 @@ def summarize(
     else:
         lines.append("  Scythe sell: not reached (not enough gold for a 5th)")
     lines.append("")
+
+    if rune_rows:
+        lines.append("-" * 78)
+        lines.append("RUNES ON THIS BUILD  (same Ardent→Helia→… path, swap page only)")
+        lines.append("-" * 78)
+        lines.append(
+            f"  {'#':>2}  {'Page':<52} {'Impact':>7} {'GE':>6} {'Buff':>6} {'28m':>6}"
+        )
+        for i, r in enumerate(rune_rows, 1):
+            lines.append(
+                f"  {i:>2}  {r['name']:<52} {r['tw_impact']:>7.1f} {r['tw_ge']:>6.2f} "
+                f"{r['tw_buff']:>6.1f} {r['impact_end']:>6.1f}"
+            )
+        lines.append("")
+        lines.extend(_rune_why(rune_rows))
+        lines.append("")
     lines.append("-" * 78)
     lines.append("VERDICT")
     lines.append("-" * 78)
@@ -1183,7 +1451,13 @@ def summarize(
     lines.append("")
     lines.append("  Skill order: W max (heal/shield/Ardent uptime) → Q max → E. R whenever.")
     lines.append("  Early: 1 point Q at 1 for last-hit / Helia farm, then W.")
-    lines.append("  Runes: Aery · Font of Life · Bone Plating · Revitalize · Transcendence")
+    if rune_rows:
+        best_r = rune_rows[0]
+        lines.append(
+            "  Runes:  " + " · ".join(best_r["slots"])
+        )
+    else:
+        lines.append("  Runes: Aery · Font of Life · Bone Plating · Revitalize · Transcendence")
     lines.append("  Spells: Flash + Heal  (Exhaust vs dive).")
     lines.append("  Play: Q→W→E so auras never drop. W even at full HP (Ardent/Staff still proc).")
     lines.append("  Power Chord the ADC's target — Font of Life + Mandate mark + 0.5s stun.")
@@ -1198,13 +1472,99 @@ def summarize(
     return "\n".join(lines)
 
 
+def _rune_named(rows: Sequence[dict], name: str) -> Optional[dict]:
+    return next((r for r in rows if r["name"] == name), None)
+
+
+def _rune_why(rows: List[dict]) -> List[str]:
+    """Explain the winning 5-slot page against this item path, with deltas."""
+    best = rows[0]
+    aery = _rune_named(rows, "Aery / FoL / Bone / Revitalize / Transcendence")
+    guardian = _rune_named(rows, "Guardian / FoL / Bone / Revitalize / Transcendence")
+    comet = _rune_named(rows, "Comet / FoL / Bone / Revitalize / Transcendence")
+    fleet = _rune_named(rows, "Fleet / FoL / Bone / Revitalize / Transcendence")
+    manaflow = _rune_named(rows, "Aery / FoL / Bone / Revitalize / Manaflow")
+    scorch = _rune_named(rows, "Aery / FoL / Bone / Revitalize / Scorch")
+    legend = _rune_named(rows, "Aery / FoL / Bone / Revitalize / Legend: Haste")
+    no_rev = _rune_named(rows, "Aery / FoL / Bone / Transcendence / Manaflow")
+    out = [
+        "  Best page:  " + " · ".join(best["slots"]),
+        "  Why this page on Ardent / Helia / Mandate / Harmonic / Staff:",
+    ]
+    if best["keystone"] == "Aery":
+        out.append("    Aery — W/Q spam sends it every ~4s: ally shield + Q poke.")
+    if "Font of Life" in best["slots"]:
+        out.append("    Font of Life — Power Chord / Q mark; ADC heals while she crits.")
+    if "Bone Plating" in best["slots"]:
+        out.append("    Bone Plating — Sona is paper; survive the all-in so auras stay up.")
+    if best["revitalize"]:
+        out.append("    Revitalize — 5% HSP (+extra <40%) on W, Aery, Harmonic, Helia dump.")
+    if best["transcendence"]:
+        out.append("    Transcendence — 6/12 AH + L9 refund. More W = Ardent 6s never drops.")
+    if aery and guardian:
+        d = aery["tw_impact"] - guardian["tw_impact"]
+        out.append(
+            f"  Aery vs Guardian (same minors): +{d:.1f} impact — "
+            "Aery cycles; Guardian waits for a hit."
+        )
+    if aery and comet:
+        d = aery["tw_impact"] - comet["tw_impact"]
+        out.append(
+            f"  Aery vs Comet: +{d:.1f} impact — Comet is poke-only, no ally shield."
+        )
+    if aery and fleet:
+        d = aery["tw_impact"] - fleet["tw_impact"]
+        out.append(f"  Aery vs Fleet: +{d:.1f} impact — Fleet is mostly self-heal.")
+    if aery and legend:
+        d = aery["tw_ge"] - legend["tw_ge"]
+        out.append(
+            f"  Transcendence vs Legend: Haste: +{d:.2f} GE — "
+            "support stacks Legend too slowly."
+        )
+    if aery and manaflow:
+        d = aery["tw_ge"] - manaflow["tw_ge"]
+        out.append(
+            f"  Transcendence vs Manaflow 5th slot: +{d:.2f} GE — "
+            "AH for Ardent uptime beats mana."
+        )
+    if aery and scorch:
+        d = aery["tw_ge"] - scorch["tw_ge"]
+        out.append(
+            f"  Transcendence vs Scorch 5th slot: +{d:.2f} GE — "
+            "lane burn does not keep Ardent up."
+        )
+    if aery and no_rev:
+        d = aery["tw_ge"] - no_rev["tw_ge"]
+        out.append(
+            f"  Keep Revitalize (do not drop HSP for Manaflow): +{d:.2f} GE on this path."
+        )
+    out.append("  7.3: Ingenious Hunter is gone (no Mandate/Redemption CDR rune).")
+    out.append("  Manaflow is the closest 5th-slot swap if you OOM before Helia.")
+    return out
+
+
 def export_json(
     scored: List[dict],
     results: Dict[str, List[Snap]],
     iso: List[dict],
     path: str,
+    rune_rows: Optional[List[dict]] = None,
 ) -> None:
     winner = scored[0]
+    best_page = (
+        rune_rows[0]
+        if rune_rows
+        else {
+            "keystone": "Aery",
+            "slots": [
+                "Aery",
+                "Font of Life",
+                "Bone Plating",
+                "Revitalize",
+                "Transcendence",
+            ],
+        }
+    )
     payload = {
         "meta": {
             "champion": "Sona",
@@ -1216,12 +1576,23 @@ def export_json(
             "crit_damage": CRIT_73,
             "as_cap": AS_CAP_73,
             "runes": {
-                "keystone": "Aery",
-                "primary": ["Font of Life", "Bone Plating", "Revitalize"],
-                "secondary": ["Transcendence"],
-                "summoners": ["Flash", "Heal"],
-                "skill_order": "W max > Q max > E, R whenever",
+                "keystone": best_page["keystone"],
+                "page": best_page["slots"],
+                "ranking": [
+                    {
+                        "rank": i,
+                        "name": r["name"],
+                        "slots": r["slots"],
+                        "tw_impact": round(r["tw_impact"], 2),
+                        "tw_ge": round(r["tw_ge"], 3),
+                        "tw_buff": round(r["tw_buff"], 2),
+                        "combined": round(r["combined"], 4),
+                    }
+                    for i, r in enumerate((rune_rows or [])[:9], 1)
+                ],
             },
+            "summoners": ["Flash", "Heal"],
+            "skill_order": "W max > Q max > E, R whenever",
         },
         "winner": {
             "order": winner["label"],
@@ -1299,12 +1670,19 @@ def main() -> None:
     front = scored3[0]["core"][:2]
     scored_full, results_full = search_full(front)
     iso = isolated_item_ge(12)
-    report = summarize(scored3, scored_full, results_full, iso)
+    rune_rows = compare_runes(scored_full[0]["core"])
+    report = summarize(scored3, scored_full, results_full, iso, rune_rows)
     print(report)
     out_dir = os.path.dirname(os.path.abspath(__file__))
     with open(os.path.join(out_dir, "report.txt"), "w", encoding="utf-8") as fh:
         fh.write(report + "\n")
-    export_json(scored_full, results_full, iso, os.path.join(out_dir, "results.json"))
+    export_json(
+        scored_full,
+        results_full,
+        iso,
+        os.path.join(out_dir, "results.json"),
+        rune_rows,
+    )
     print(f"\nWrote {out_dir}/report.txt and results.json")
     print(f"Winner: {scored_full[0]['label']}  combined={scored_full[0]['combined']:.4f}")
     print(
@@ -1312,6 +1690,7 @@ def main() -> None:
         f"sell={scored_full[0]['sold_m']}  "
         f"5th={scored_full[0]['core'][4]}"
     )
+    print("Runes: " + " · ".join(rune_rows[0]["slots"]))
 
 
 if __name__ == "__main__":
