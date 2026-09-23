@@ -1,0 +1,161 @@
+==============================================================================
+SONA — WILD RIFT 7.3 BUFF GOLD-EFFICIENCY SIM
+20-minute support game | partner: 7.3 crit ADC (Yun Tal → IE)
+Sona kit: 7.2b numbers. Items / crit / AS cap: official 7.3 notes.
+==============================================================================
+
+WHY 7.3 BUFFS SONA EVEN WITHOUT A CHAMPION HOTFIX
+  • Crit damage 175% → 200% (IE 230%). Ardent's 30% AS buys extra crits.
+  • AS cap 2.5 → 3.0, so the AS buff is not wasted on a stacked ADC.
+  • Ardent 2700 → 2400, now a flat 30% AS + 25 on-hit (no level/crit gate).
+  • New Echoes of Helia: Sona Q hits two champs → fills Soul Fragments.
+  • New Circlet → Diadem: HSP + 0.8% mana/s pulse, Tear is 400g.
+
+METRIC
+  Buff impact  = extra ADC auto DPS from Ardent / Q aura / Staff  × combat%
+  Sustain      = W heal+shield + Helia dump (×2) + Diadem pulse + Redemption
+  Fight        = Mandate 7% mark + Power Chord/R lock-on-ADC
+  Gold eff     = total impact per 1000g spent
+  Combined     = 50% time-weighted impact + 30% gold-eff + 20% buff gold-eff
+  Search       = every 3-item order of the 7 enchanter legendaries (210 paths)
+
+------------------------------------------------------------------------------
+ISOLATED ITEM GOLD EFFICIENCY  @ 12:00  (on Scythe + Ionian)
+------------------------------------------------------------------------------
+  Item              Cost   Δbuff  Δimpact  Buff GE  Impact GE
+  Ardent            2400    75.0     88.4    31.25      36.83
+  Helia             2400     1.5     78.7     0.62      32.79
+  Harmonic          2500     1.5     26.0     0.60      10.40
+  Mandate           2600     1.8     23.4     0.69       9.00
+  Redemption        2450     1.0     21.5     0.41       8.78
+  Staff             2400     3.1     20.0     1.29       8.33
+  Circlet           2400     0.0      8.4     0.00       3.50
+  GE = impact per 1000 gold. Ardent should lead buff-GE vs a crit ADC;
+  Helia should lead sustain conversion; Circlet/Diadem is HSP scaling.
+
+------------------------------------------------------------------------------
+TOP 10 BUILD ORDERS  (combined score)
+------------------------------------------------------------------------------
+   #  Order                                 Impact     GE  BuffGE    20m   Δ7.3
+   1  Ardent → Helia → Mandate               153.2  29.99   10.08  433.0   73.9
+   2  Ardent → Helia → Harmonic              151.5  30.01   10.15  412.3   73.8
+   3  Ardent → Helia → Staff                 150.2  29.65   10.09  407.2   73.9
+   4  Ardent → Helia → Redemption            149.7  29.56   10.05  399.3   73.8
+   5  Ardent → Mandate → Helia               140.5  28.30   10.18  433.0   73.9
+   6  Helia → Ardent → Mandate               153.2  31.16    6.10  433.0   51.1
+   7  Helia → Ardent → Harmonic              151.5  31.18    6.18  412.3   51.1
+   8  Ardent → Harmonic → Helia              137.6  27.84   10.09  412.3   73.8
+   9  Ardent → Staff → Helia                 134.6  27.76   10.35  407.2   74.0
+  10  Helia → Ardent → Staff                 150.2  30.82    6.11  407.2   51.1
+
+  Traps that look strong on paper but lose gold efficiency:
+    Helia first  → best such path ranks #6  (Helia → Ardent → Mandate, GE 31.16)
+    Harmonic first  → best such path ranks #36  (Harmonic → Ardent → Helia, GE 25.55)
+    Staff first  → best such path ranks #37  (Staff → Ardent → Helia, GE 24.26)
+    Redemption first  → best such path ranks #39  (Redemption → Ardent → Helia, GE 24.19)
+    Mandate first  → best such path ranks #43  (Mandate → Ardent → Helia, GE 24.30)
+    Circlet first  → best such path ranks #56  (Circlet → Ardent → Helia, GE 21.87)
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE  — winner: Ardent → Helia → Mandate
+------------------------------------------------------------------------------
+   1:00 | impact   10.4 | buff   0.2 | sus   9.4 | GE 26.12 | spent   400
+         Sickle
+         AP 20  AH 10  HSP 5%  aura 45%  | building
+   2:00 | impact   14.9 | buff   0.3 | sus  13.8 | GE 18.63 | spent   800
+         Sickle › Boots of Speed
+         AP 20  AH 10  HSP 5%  aura 46%  | building
+   3:00 | impact   15.7 | buff   0.3 | sus  14.1 | GE 19.61 | spent   800
+         Sickle › Boots of Speed
+         AP 20  AH 10  HSP 5%  aura 47%  | building
+   4:00 | impact   21.6 | buff   0.3 | sus  19.8 | GE 14.37 | spent  1500
+         Sickle › Boots of Speed › Forbidden Idol
+         AP 20  AH 10  HSP 11%  aura 48%  | building
+   5:00 | impact   26.4 | buff   0.4 | sus  22.9 | GE 17.62 | spent  1500
+         Boots of Speed › Forbidden Idol › Scythe
+         AP 28  AH 20  HSP 11%  aura 54%  | building
+   6:00 | impact   34.8 | buff   0.7 | sus  30.7 | GE 14.20 | spent  2450
+         Boots of Speed › Forbidden Idol › Scythe › Aether Wisp
+         AP 62  AH 20  HSP 11%  aura 55%  | building
+   7:00 | impact   36.2 | buff   0.9 | sus  31.6 | GE 14.77 | spent  2450
+         Boots of Speed › Forbidden Idol › Scythe › Aether Wisp
+         AP 66  AH 20  HSP 11%  aura 56%  | building
+   8:00 | impact   75.0 | buff  33.3 | sus  33.5 | GE 23.43 | spent  3200
+         Boots of Speed › Scythe › Ardent
+         AP 90  AH 20  HSP 13%  aura 56%  | Ardent 30% AS
+   9:00 | impact  104.9 | buff  50.3 | sus  40.5 | GE 28.35 | spent  3700
+         Scythe › Ardent › Ionian
+         AP 94  AH 35  HSP 13%  aura 71%  | Ardent 30% AS
+  10:00 | impact  108.7 | buff  52.0 | sus  41.6 | GE 29.37 | spent  3700
+         Scythe › Ardent › Ionian
+         AP 98  AH 35  HSP 13%  aura 73%  | Ardent 30% AS
+  11:00 | impact  118.0 | buff  54.8 | sus  46.2 | GE 25.66 | spent  4600
+         Scythe › Ardent › Ionian › Bandleglass Mirror
+         AP 122  AH 45  HSP 13%  aura 78%  | Ardent 30% AS
+  12:00 | impact  150.7 | buff  78.2 | sus  46.5 | GE 32.77 | spent  4600
+         Scythe › Ardent › Ionian › Bandleglass Mirror
+         AP 126  AH 45  HSP 13%  aura 78%  | Ardent 30% AS
+  13:00 | impact  171.5 | buff  87.8 | sus  49.7 | GE 30.63 | spent  5600
+         Scythe › Ardent › Ionian › Bandleglass Mirror › Kindlegem
+         AP 130  AH 55  HSP 13%  aura 83%  | Ardent 30% AS
+  14:00 | impact  252.8 | buff  91.3 | sus 126.1 | GE 41.44 | spent  6100
+         Scythe › Ardent › Ionian › Helia
+         AP 154  AH 55  HSP 13%  aura 83%  | Ardent 30% AS, Helia dump
+  15:00 | impact  271.3 | buff 104.4 | sus 126.4 | GE 44.47 | spent  6100
+         Scythe › Ardent › Ionian › Helia
+         AP 158  AH 55  HSP 13%  aura 83%  | Ardent 30% AS, Helia dump
+  16:00 | impact  358.4 | buff 153.1 | sus 140.4 | GE 51.20 | spent  7000
+         Scythe › Ardent › Ionian › Helia › Bandleglass Mirror
+         AP 178  AH 65  HSP 13%  aura 88%  | Ardent 30% AS, Helia dump
+  17:00 | impact  363.3 | buff 154.1 | sus 144.1 | GE 46.57 | spent  7800
+         Scythe › Ardent › Ionian › Helia › Bandleglass Mirror › Blasting Wand
+         AP 223  AH 65  HSP 13%  aura 88%  | Ardent 30% AS, Helia dump
+  18:00 | impact  375.5 | buff 159.4 | sus 148.6 | GE 48.14 | spent  7800
+         Scythe › Ardent › Ionian › Helia › Bandleglass Mirror › Blasting Wand
+         AP 223  AH 65  HSP 13%  aura 88%  | Ardent 30% AS, Helia dump
+  19:00 | impact  420.5 | buff 159.7 | sus 156.9 | GE 48.33 | spent  8700
+         Scythe › Ardent › Ionian › Helia › Mandate
+         AP 218  AH 75  HSP 13%  aura 92%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+  20:00 | impact  433.0 | buff 165.1 | sus 160.2 | GE 49.77 | spent  8700
+         Scythe › Ardent › Ionian › Helia › Mandate
+         AP 218  AH 75  HSP 13%  aura 92%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+
+------------------------------------------------------------------------------
+SPIKE CLOCK (winner)
+------------------------------------------------------------------------------
+  Ionian       ~ 9:00   impact  104.9   buff DPS  119.7   GE 28.35
+  Helia        ~14:00   impact  252.8   buff DPS  217.4   GE 41.44
+  Ardent       ~ 8:00   impact   75.0   buff DPS  104.0   GE 23.43
+  Mandate      ~19:00   impact  420.5   buff DPS  332.7   GE 48.33
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Best gold-efficient buff path:  Ardent → Helia → Mandate
+  Time-weighted impact 153.2  |  gold-eff 29.99  |  buff-GE 10.08
+  7.3 vs 7.2 Ardent conversion (extra ADC DPS): +73.9 avg
+
+  RECOMMENDED PURCHASE ORDER (20-min Sona support, crit ADC):
+  1) Spectral Sickle → Black Mist Scythe (quest ~5:00)
+  2) Boots of Speed (first back)
+  3) Ardent Censer (~8:00) — 30% AS + 25 on-hit. Highest buff-GE vs a 7.3 crit ADC.
+  4) Ionian Boots (~9:00) — aura lock / more W
+  5) Echoes of Helia (~14:00) — Q×2 fills fragments, W dumps them into the ADC
+  6) Imperial Mandate (~19:00) — 7% mark on Power Chord/R; 7.3 crit ADC multiplies it
+
+  3rd-item note: #2 Ardent → Helia → Harmonic is within 0.02 GE. Mandate = more 7.3 impact; Harmonic = more heal buff.
+
+  Skill order: W max (heal/shield/Ardent uptime) → Q max → E. R whenever.
+  Early: 1 point Q at 1 for last-hit / Helia farm, then W.
+  Runes: Aery · Font of Life · Bone Plating · Revitalize · Transcendence
+  Spells: Flash + Heal  (Exhaust vs dive).
+  Play: Q→W→E so auras never drop. W even at full HP (Ardent/Staff still proc).
+  Power Chord the ADC's target — Font of Life + Mandate mark + 0.5s stun.
+
+  Swap: ADC is AP (Kai'Sa/Ez) → Staff instead of Ardent.
+        vs heavy CC → Mikael's instead of 3rd legendary (not in search).
+        5v5 slugfest after 16 → Redemption 4th, not Mandate.
+
+  Don't: Mandate/Redemption/Harmonic first — they spend 2400–2600g on
+  fight-once effects and delay the 30% AS buff the 7.3 ADC actually uses.
+==============================================================================
