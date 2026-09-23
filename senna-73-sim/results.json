@@ -1,0 +1,639 @@
+{
+  "patch": "7.3",
+  "removed": [
+    "Magnetic Blaster",
+    "Cloak of Agility"
+  ],
+  "adc_winner": "youmuu_col_hex_ie_ldr",
+  "adc_label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+  "adc_score": 23413.199999999997,
+  "adc_rank": [
+    {
+      "key": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 23413.199999999997
+    },
+    {
+      "key": "youmuu_hex_ie_rfc_ldr",
+      "label": "Youmuu \u2192 Hex \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 22758.2
+    },
+    {
+      "key": "drak_col_hex_serylda",
+      "label": "Draktharr \u2192 Collector \u2192 Hex \u2192 Serylda",
+      "area": 22153.2
+    },
+    {
+      "key": "statikk_hex_rfc_ldr",
+      "label": "Statikk \u2192 Hex \u2192 RFC \u2192 LDR \u2192 IE",
+      "area": 22001.4
+    },
+    {
+      "key": "hex_col_ie_ldr_bt",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 21852.6
+    },
+    {
+      "key": "hex_col_ie_rfc_ldr",
+      "label": "Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21798.8
+    },
+    {
+      "key": "hex_col_rfc_ie_ldr",
+      "label": "Hex \u2192 Collector \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21670.2
+    },
+    {
+      "key": "fiend_hex_ie_rfc_ldr",
+      "label": "Hex \u2192 Fiendhunter \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21402.5
+    },
+    {
+      "key": "hex_navori_rfc_ie_ldr",
+      "label": "Hex \u2192 Navori \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21393.800000000003
+    },
+    {
+      "key": "hex_er_rfc_ie_ldr",
+      "label": "Hex \u2192 ER \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 21165.1
+    },
+    {
+      "key": "hex_col_ie_rfc_dyn",
+      "label": "Dynamism Hex \u2192 Collector \u2192 IE \u2192 RFC \u2192 LDR",
+      "area": 21112.1
+    },
+    {
+      "key": "hex_ie_rfc_ldr_bt",
+      "label": "Hex \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 20699.7
+    },
+    {
+      "key": "hex_rfc_ie_ldr_bt",
+      "label": "Hex \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 20596.3
+    },
+    {
+      "key": "er_hex_rfc_ie_ldr",
+      "label": "ER \u2192 Hex \u2192 RFC \u2192 IE \u2192 LDR",
+      "area": 20580.0
+    },
+    {
+      "key": "col_ie_rfc_ldr_bt",
+      "label": "Collector \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 20417.4
+    },
+    {
+      "key": "statikk_rfc_hex_ie",
+      "label": "Statikk \u2192 RFC \u2192 Hex \u2192 IE \u2192 LDR",
+      "area": 19845.699999999997
+    },
+    {
+      "key": "gale_ie_rfc_ldr_bt",
+      "label": "Galeforce \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 19358.6
+    },
+    {
+      "key": "storm_ie_rfc_ldr_bt",
+      "label": "Stormrazor \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 19291.5
+    },
+    {
+      "key": "yun_ie_rfc_ldr_bt",
+      "label": "Yun Tal \u2192 IE \u2192 RFC \u2192 LDR \u2192 BT",
+      "area": 18972.0
+    },
+    {
+      "key": "statikk_rfc_ldr_ie",
+      "label": "Statikk \u2192 RFC \u2192 LDR \u2192 IE \u2192 Galeforce",
+      "area": 18569.1
+    },
+    {
+      "key": "statikk_rfc_ie_ldr",
+      "label": "Statikk \u2192 RFC \u2192 IE \u2192 LDR \u2192 BT",
+      "area": 17987.2
+    }
+  ],
+  "adc_keystones": [
+    {
+      "key": "lt",
+      "area": 25524.0
+    },
+    {
+      "key": "dark_harvest",
+      "area": 24013.1
+    },
+    {
+      "key": "empowered",
+      "area": 23564.5
+    },
+    {
+      "key": "fleet",
+      "area": 23413.199999999997
+    }
+  ],
+  "support_winner": "hex_mortal_rfc",
+  "support_label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+  "support_score": 8346.2,
+  "support_rank": [
+    {
+      "key": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 8346.2
+    },
+    {
+      "key": "hex_er_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 8345.0
+    },
+    {
+      "key": "ionian_hex_er",
+      "label": "Ionian \u00b7 Hex \u2192 ER \u2192 RFC",
+      "area": 8333.7
+    },
+    {
+      "key": "hex_col_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Collector \u2192 RFC",
+      "area": 8215.3
+    },
+    {
+      "key": "dyn_drak_col",
+      "label": "Dynamism \u00b7 Draktharr \u2192 Collector \u2192 Hex",
+      "area": 8210.4
+    },
+    {
+      "key": "dyn_hex_mortal",
+      "label": "Dynamism \u00b7 Hex \u2192 Mortal \u2192 Collector",
+      "area": 8119.199999999999
+    },
+    {
+      "key": "steel_hex_mortal",
+      "label": "Steelcaps \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "area": 7915.300000000001
+    },
+    {
+      "key": "hex_rfc_mortal",
+      "label": "Berserkers \u00b7 Hex \u2192 RFC \u2192 Mortal",
+      "area": 7835.799999999999
+    },
+    {
+      "key": "statikk_hex_rfc",
+      "label": "Berserkers \u00b7 Statikk \u2192 Hex \u2192 RFC",
+      "area": 7789.700000000001
+    },
+    {
+      "key": "dyn_hex_serpent",
+      "label": "Dynamism \u00b7 Hex \u2192 Serpent's \u2192 Mortal",
+      "area": 7719.400000000001
+    },
+    {
+      "key": "statikk_cleaver_hex",
+      "label": "Berserkers \u00b7 Statikk \u2192 Cleaver \u2192 Hex",
+      "area": 7606.800000000001
+    },
+    {
+      "key": "statikk_rfc_ldr",
+      "label": "Berserkers \u00b7 Statikk \u2192 RFC \u2192 LDR",
+      "area": 7412.8
+    },
+    {
+      "key": "dyn_statikk_rfc",
+      "label": "Dynamism \u00b7 Statikk \u2192 RFC \u2192 Hex",
+      "area": 7273.700000000001
+    }
+  ],
+  "support_keystones": [
+    {
+      "key": "lt",
+      "area": 8542.7
+    },
+    {
+      "key": "fleet",
+      "area": 8346.2
+    },
+    {
+      "key": "dark_harvest",
+      "area": 8245.7
+    },
+    {
+      "key": "empowered",
+      "area": 8147.9
+    }
+  ],
+  "adc_minutes": [
+    {
+      "role": "adc",
+      "path": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "minute": 8,
+      "gold": 4500,
+      "level": 9,
+      "mist": 38.0,
+      "owned": [
+        "Boots of Dynamism",
+        "Youmuu's Ghostblade"
+      ],
+      "ids": [
+        "boots_of_dynamism",
+        "youmuus_ghostblade"
+      ],
+      "legendaries": 1,
+      "boots": [
+        "Boots of Dynamism"
+      ],
+      "ad": 167.5,
+      "aspd": 0.873,
+      "crit": 10.0,
+      "crit_dmg": 200,
+      "q_casts": 1.24,
+      "sq_dmg": 1746.8,
+      "tk_dmg": 1413.1,
+      "heal": 221.7,
+      "shield": 118.0,
+      "impact": 1746.8,
+      "notes": [],
+      "keystone": "fleet"
+    },
+    {
+      "role": "adc",
+      "path": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "minute": 12,
+      "gold": 7220,
+      "level": 12,
+      "mist": 62.0,
+      "owned": [
+        "Boots of Dynamism",
+        "Youmuu's Ghostblade",
+        "The Collector"
+      ],
+      "ids": [
+        "boots_of_dynamism",
+        "youmuus_ghostblade",
+        "the_collector"
+      ],
+      "legendaries": 2,
+      "boots": [
+        "Boots of Dynamism"
+      ],
+      "ad": 247.5,
+      "aspd": 0.95,
+      "crit": 55.0,
+      "crit_dmg": 200,
+      "q_casts": 1.3,
+      "sq_dmg": 2780.1,
+      "tk_dmg": 2126.0,
+      "heal": 307.8,
+      "shield": 142.0,
+      "impact": 2780.1,
+      "notes": [],
+      "keystone": "fleet"
+    },
+    {
+      "role": "adc",
+      "path": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "minute": 16,
+      "gold": 10180,
+      "level": 14,
+      "mist": 88.0,
+      "owned": [
+        "Boots of Dynamism",
+        "Youmuu's Ghostblade",
+        "The Collector",
+        "Hexoptics C44"
+      ],
+      "ids": [
+        "boots_of_dynamism",
+        "youmuus_ghostblade",
+        "the_collector",
+        "hexoptics_c44"
+      ],
+      "legendaries": 3,
+      "boots": [
+        "Boots of Dynamism"
+      ],
+      "ad": 335.0,
+      "aspd": 0.994,
+      "crit": 90.0,
+      "crit_dmg": 200,
+      "q_casts": 1.32,
+      "sq_dmg": 4454.7,
+      "tk_dmg": 3353.3,
+      "heal": 384.8,
+      "shield": 188.0,
+      "impact": 4454.7,
+      "notes": [
+        "Hex +9% far"
+      ],
+      "keystone": "fleet"
+    },
+    {
+      "role": "adc",
+      "path": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "minute": 20,
+      "gold": 13140,
+      "level": 15,
+      "mist": 114.0,
+      "owned": [
+        "Boots of Dynamism",
+        "Youmuu's Ghostblade",
+        "The Collector",
+        "Hexoptics C44"
+      ],
+      "ids": [
+        "boots_of_dynamism",
+        "youmuus_ghostblade",
+        "the_collector",
+        "hexoptics_c44"
+      ],
+      "legendaries": 3,
+      "boots": [
+        "Boots of Dynamism"
+      ],
+      "ad": 367.5,
+      "aspd": 1.017,
+      "crit": 100.0,
+      "crit_dmg": 200,
+      "q_casts": 1.34,
+      "sq_dmg": 4998.3,
+      "tk_dmg": 3750.5,
+      "heal": 420.0,
+      "shield": 214.0,
+      "impact": 4998.3,
+      "notes": [
+        "Hex +9% far"
+      ],
+      "keystone": "fleet"
+    },
+    {
+      "role": "adc",
+      "path": "youmuu_col_hex_ie_ldr",
+      "label": "Youmuu \u2192 Collector \u2192 Hex \u2192 IE \u2192 LDR",
+      "minute": 24,
+      "gold": 17140,
+      "level": 15,
+      "mist": 140.0,
+      "owned": [
+        "Boots of Dynamism",
+        "Youmuu's Ghostblade",
+        "The Collector",
+        "Hexoptics C44",
+        "Infinity Edge",
+        "Lord Dominik's Regards"
+      ],
+      "ids": [
+        "boots_of_dynamism",
+        "youmuus_ghostblade",
+        "the_collector",
+        "hexoptics_c44",
+        "infinity_edge",
+        "lord_dominiks_regards"
+      ],
+      "legendaries": 5,
+      "boots": [
+        "Boots of Dynamism"
+      ],
+      "ad": 510.0,
+      "aspd": 1.017,
+      "crit": 100.0,
+      "crit_dmg": 230,
+      "q_casts": 1.34,
+      "sq_dmg": 9433.3,
+      "tk_dmg": 8305.0,
+      "heal": 488.8,
+      "shield": 240.0,
+      "impact": 9433.3,
+      "notes": [
+        "Hex +9% far",
+        "IE 230%"
+      ],
+      "keystone": "fleet"
+    }
+  ],
+  "support_minutes": [
+    {
+      "role": "support",
+      "path": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "minute": 8,
+      "gold": 3660,
+      "level": 8,
+      "mist": 36.0,
+      "owned": [
+        "Black Mist Scythe",
+        "Berserker's Greaves"
+      ],
+      "ids": [
+        "black_mist_scythe",
+        "berserkers_greaves"
+      ],
+      "legendaries": 0,
+      "boots": [
+        "Berserker's Greaves"
+      ],
+      "ad": 129.0,
+      "aspd": 0.944,
+      "crit": 10.0,
+      "crit_dmg": 200,
+      "q_casts": 1.23,
+      "sq_dmg": 837.5,
+      "tk_dmg": 719.5,
+      "heal": 370.3,
+      "shield": 268.8,
+      "impact": 1078.2,
+      "notes": [],
+      "keystone": "fleet"
+    },
+    {
+      "role": "support",
+      "path": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "minute": 12,
+      "gold": 5700,
+      "level": 11,
+      "mist": 50.0,
+      "owned": [
+        "Black Mist Scythe",
+        "Berserker's Greaves",
+        "Hexoptics C44"
+      ],
+      "ids": [
+        "black_mist_scythe",
+        "berserkers_greaves",
+        "hexoptics_c44"
+      ],
+      "legendaries": 1,
+      "boots": [
+        "Berserker's Greaves"
+      ],
+      "ad": 212.5,
+      "aspd": 1.019,
+      "crit": 45.0,
+      "crit_dmg": 200,
+      "q_casts": 1.28,
+      "sq_dmg": 1394.2,
+      "tk_dmg": 1130.0,
+      "heal": 482.8,
+      "shield": 364.0,
+      "impact": 1708.0,
+      "notes": [
+        "Hex +9% far"
+      ],
+      "keystone": "fleet"
+    },
+    {
+      "role": "support",
+      "path": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "minute": 16,
+      "gold": 7940,
+      "level": 13,
+      "mist": 64.0,
+      "owned": [
+        "Black Mist Scythe",
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "Mortal Reminder"
+      ],
+      "ids": [
+        "black_mist_scythe",
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "mortal_reminder"
+      ],
+      "legendaries": 2,
+      "boots": [
+        "Berserker's Greaves"
+      ],
+      "ad": 276.0,
+      "aspd": 1.062,
+      "crit": 80.0,
+      "crit_dmg": 200,
+      "q_casts": 1.31,
+      "sq_dmg": 2317.3,
+      "tk_dmg": 1957.7,
+      "heal": 567.3,
+      "shield": 459.2,
+      "impact": 2686.0,
+      "notes": [
+        "Hex +9% far"
+      ],
+      "keystone": "fleet"
+    },
+    {
+      "role": "support",
+      "path": "hex_mortal_rfc",
+      "label": "Berserkers \u00b7 Hex \u2192 Mortal \u2192 RFC",
+      "minute": 20,
+      "gold": 10180,
+      "level": 15,
+      "mist": 78.0,
+      "owned": [
+        "Black Mist Scythe",
+        "Berserker's Greaves",
+        "Hexoptics C44",
+        "Mortal Reminder"
+      ],
+      "ids": [
+        "black_mist_scythe",
+        "berserkers_greaves",
+        "hexoptics_c44",
+        "mortal_reminder"
+      ],
+      "legendaries": 2,
+      "boots": [
+        "Berserker's Greaves"
+      ],
+      "ad": 296.5,
+      "aspd": 1.107,
+      "crit": 80.0,
+      "crit_dmg": 200,
+      "q_casts": 1.33,
+      "sq_dmg": 2474.8,
+      "tk_dmg": 2082.8,
+      "heal": 614.2,
+      "shield": 498.4,
+      "impact": 2874.0,
+      "notes": [
+        "Hex +9% far"
+      ],
+      "keystone": "fleet"
+    }
+  ],
+  "adc_pages": [
+    {
+      "name": "Lethal Tempo \u00b7 Brutal \u00b7 Cut Down \u00b7 Alacrity \u00b7 Bone Plating",
+      "keystone": "lt",
+      "primary": [
+        "Brutal",
+        "Cut Down",
+        "Legend: Alacrity"
+      ],
+      "secondary": "Bone Plating"
+    },
+    {
+      "name": "Fleet \u00b7 Brutal \u00b7 Cut Down \u00b7 Alacrity \u00b7 Bone Plating",
+      "keystone": "fleet",
+      "primary": [
+        "Brutal",
+        "Cut Down",
+        "Legend: Alacrity"
+      ],
+      "secondary": "Bone Plating"
+    },
+    {
+      "name": "Dark Harvest \u00b7 Brutal \u00b7 Coup de Grace \u00b7 Alacrity \u00b7 Bone Plating",
+      "keystone": "dark_harvest",
+      "primary": [
+        "Brutal",
+        "Coup de Grace",
+        "Legend: Alacrity"
+      ],
+      "secondary": "Bone Plating"
+    }
+  ],
+  "support_pages": [
+    {
+      "name": "Fleet \u00b7 Font of Life \u00b7 Bone Plating \u00b7 Perseverance \u00b7 Brutal",
+      "keystone": "fleet",
+      "primary": [
+        "Font of Life",
+        "Bone Plating",
+        "Perseverance"
+      ],
+      "secondary": "Brutal"
+    },
+    {
+      "name": "Fleet \u00b7 Font of Life \u00b7 Bone Plating \u00b7 Perseverance \u00b7 Zombie Ward",
+      "keystone": "fleet",
+      "primary": [
+        "Font of Life",
+        "Bone Plating",
+        "Perseverance"
+      ],
+      "secondary": "Zombie Ward"
+    },
+    {
+      "name": "Lethal Tempo \u00b7 Brutal \u00b7 Cut Down \u00b7 Alacrity \u00b7 Bone Plating",
+      "keystone": "lt",
+      "primary": [
+        "Brutal",
+        "Cut Down",
+        "Legend: Alacrity"
+      ],
+      "secondary": "Bone Plating"
+    },
+    {
+      "name": "Dark Harvest \u00b7 Brutal \u00b7 Coup de Grace \u00b7 Zombie Ward \u00b7 Bone Plating",
+      "keystone": "dark_harvest",
+      "primary": [
+        "Brutal",
+        "Coup de Grace",
+        "Zombie Ward"
+      ],
+      "secondary": "Bone Plating"
+    }
+  ]
+}

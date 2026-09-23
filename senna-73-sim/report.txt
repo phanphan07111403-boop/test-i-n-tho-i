@@ -1,0 +1,171 @@
+========================================================================
+Wild Rift 7.3 — Senna ADC + support build sim
+========================================================================
+
+Magnetic Blaster is gone. Crit 175%→200%, Senna autos at 90% of that.
+Mist crit 15%→10% per 20. AS ratio 0.4 (was ~0.125). Q 50/80/110/140.
+HP 600→570. Extraction 1%–10% current HP.
+
+Illegal in this sim: Magnetic Blaster, Cloak of Agility, Ingenious Hunter.
+
+------------------------------------------------------------------------
+ADC winner  (24:00, Flash + Barrier, Fleet for the item rank)
+------------------------------------------------------------------------
+  Youmuu → Collector → Hex → IE → LDR
+  area 23413  (sum of 8s squishy windows at 8/12/16/20/24)
+  6-slot: Boots of Dynamism · Youmuu's Ghostblade · The Collector · Hexoptics C44 · Infinity Edge · Lord Dominik's Regards
+  first legendary: ~8:00
+
+  Skill order: Q → W → E. R at 5/9/13.
+  Combo: AA → Q (mark then extract while HP is still high), weave autos
+  for the 1s Q refund. W for the root, R through the line.
+
+  Minute table
+   min   gold  mist     AD    AS  crit    sq 8s    tk 8s  items
+     8   4500    38    168  0.87   10%     1747     1413  Boots of Dynamism › Youmuu's Ghostblade
+    12   7220    62    248  0.95   55%     2780     2126  Boots of Dynamism › Youmuu's Ghostblade › The Collector
+    16  10180    88    335  0.99   90%     4455     3353  Boots of Dynamism › Youmuu's Ghostblade › The Collector › Hexoptics C44
+    20  13140   114    368  1.02  100%     4998     3750  Boots of Dynamism › Youmuu's Ghostblade › The Collector › Hexoptics C44
+    24  17140   140    510  1.02  100%     9433     8305  Boots of Dynamism › Youmuu's Ghostblade › The Collector › Hexoptics C44 › Infinity Edge › Lord Dominik's Regards
+
+  ADC path ranking (Fleet, squishy area)
+   1. Youmuu → Collector → Hex → IE → LDR                 23413   +0.0%  1st @8:00
+   2. Youmuu → Hex → IE → RFC → LDR                       22758   -2.8%  1st @8:00
+   3. Draktharr → Collector → Hex → Serylda               22153   -5.4%  1st @8:00
+   4. Statikk → Hex → RFC → LDR → IE                      22001   -6.0%  1st @9:00
+   5. Hex → Collector → IE → LDR → BT                     21853   -6.7%  1st @8:00
+   6. Hex → Collector → IE → RFC → LDR                    21799   -6.9%  1st @8:00
+   7. Hex → Collector → RFC → IE → LDR                    21670   -7.4%  1st @8:00
+   8. Hex → Fiendhunter → IE → RFC → LDR                  21402   -8.6%  1st @8:00
+   9. Hex → Navori → RFC → IE → LDR                       21394   -8.6%  1st @8:00
+  10. Hex → ER → RFC → IE → LDR                           21165   -9.6%  1st @8:00
+  11. Dynamism Hex → Collector → IE → RFC → LDR           21112   -9.8%  1st @8:00
+  12. Hex → IE → RFC → LDR → BT                           20700  -11.6%  1st @8:00
+  13. Hex → RFC → IE → LDR → BT                           20596  -12.0%  1st @8:00
+  14. ER → Hex → RFC → IE → LDR                           20580  -12.1%  1st @9:00
+  15. Collector → IE → RFC → LDR → BT                     20417  -12.8%  1st @8:00
+  16. Statikk → RFC → Hex → IE → LDR                      19846  -15.2%  1st @9:00
+  17. Galeforce → IE → RFC → LDR → BT                     19359  -17.3%  1st @8:00
+  18. Stormrazor → IE → RFC → LDR → BT                    19292  -17.6%  1st @9:00
+  19. Yun Tal → IE → RFC → LDR → BT                       18972  -19.0%  1st @9:00
+  20. Statikk → RFC → LDR → IE → Galeforce                18569  -20.7%  1st @9:00
+  21. Statikk → RFC → IE → LDR → BT                       17987  -23.2%  1st @9:00
+
+  Keystones on the ADC winner
+    Lethal Tempo                                  25524   +0.0%
+    Dark Harvest                                  24013   -5.9%
+    Empowered Attack (no keystone dmg)            23564   -7.7%
+    Fleet Footwork                                23413   -8.3%
+
+------------------------------------------------------------------------
+Support winner  (20:00, Flash + Heal, Fleet for the item rank)
+------------------------------------------------------------------------
+  Berserkers · Hex → Mortal → RFC
+  area 8346  (8s poke + 0.65× Q heal at 8/12/16/20)
+  slots: Black Mist Scythe · Berserker's Greaves · Hexoptics C44 · Mortal Reminder
+  first legendary: ~11:00
+
+  Skill order: Q → W, E 1-point, R at 5/9/13.
+  Combo: Q through the minion/ally into the enemy carry (damage + heal),
+  then AA to extract. Do not last-hit — wraiths spawn from ally CS.
+
+  Minute table
+   min   gold  mist     AD    AS  crit     poke    heal  items
+     8   3660    36    129  0.94   10%      838     370  Black Mist Scythe › Berserker's Greaves
+    12   5700    50    212  1.02   45%     1394     483  Black Mist Scythe › Berserker's Greaves › Hexoptics C44
+    16   7940    64    276  1.06   80%     2317     567  Black Mist Scythe › Berserker's Greaves › Hexoptics C44 › Mortal Reminder
+    20  10180    78    296  1.11   80%     2475     614  Black Mist Scythe › Berserker's Greaves › Hexoptics C44 › Mortal Reminder
+
+  Support path ranking (Fleet, poke+heal area)
+   1. Berserkers · Hex → Mortal → RFC                      8346   +0.0%  1st @11:00
+   2. Berserkers · Hex → ER → RFC                          8345   -0.0%  1st @11:00
+   3. Ionian · Hex → ER → RFC                              8334   -0.1%  1st @10:00
+   4. Berserkers · Hex → Collector → RFC                   8215   -1.6%  1st @11:00
+   5. Dynamism · Draktharr → Collector → Hex               8210   -1.6%  1st @11:00
+   6. Dynamism · Hex → Mortal → Collector                  8119   -2.7%  1st @11:00
+   7. Steelcaps · Hex → Mortal → RFC                       7915   -5.2%  1st @10:00
+   8. Berserkers · Hex → RFC → Mortal                      7836   -6.1%  1st @11:00
+   9. Berserkers · Statikk → Hex → RFC                     7790   -6.7%  1st @11:00
+  10. Dynamism · Hex → Serpent's → Mortal                  7719   -7.5%  1st @11:00
+  11. Berserkers · Statikk → Cleaver → Hex                 7607   -8.9%  1st @11:00
+  12. Berserkers · Statikk → RFC → LDR                     7413  -11.2%  1st @11:00
+  13. Dynamism · Statikk → RFC → Hex                       7274  -12.9%  1st @11:00
+
+  Keystones on the support winner
+    Lethal Tempo                                   8543   +0.0%
+    Fleet Footwork                                 8346   -2.3%
+    Dark Harvest                                   8246   -3.5%
+    Empowered Attack (no keystone dmg)             8148   -4.6%
+
+------------------------------------------------------------------------
+Why 7.3 kept lethality first on ADC and moved support onto Hexoptics
+------------------------------------------------------------------------
+  • Mist crit 10%/20. At 8:00 an ADC has ~40 souls = 10% crit. Hexoptics'
+    25% crit is real, but Youmuu's 55 AD + 15 lethality + 15 AH punches
+    a squishy harder while souls are still low. Caitlyn rushes Hex
+    because Headshot scales with crit immediately. Senna does not.
+  • Collector 2nd is the 12:00 fill: 25% crit + 12 leth + execute,
+    3000g, so you are not sitting on Youmuu waiting for a 3500g IE.
+  • Hexoptics 3rd is the Magnetic replacement — 55 AD, 25% crit, +9–10%
+    at the range Senna already lives at. Completes ~16:00 on ADC gold.
+  • IE is 4th/5th. 3500g is a hole at 16:00 (Youmuu+Col+Hex is ~8900g
+    of the 10180; IE needs 3500 more). It lands with LDR at ~24:00.
+  • Autos crit for 90% of 200% = 180% (207% with IE). IE is still the
+    late spike, just not the opener.
+  • AS ratio 0.4 means Berserkers/RFC/Fiendhunter actually convert.
+    They still lose 8:00 and 12:00 to lethality because Statikk/Yun Tal
+    /Stormrazor buy 0–25% crit and little lethality while mist is empty.
+    RFC is a 4th-item range card, not a first.
+  • Yun Tal starts at 0% crit and needs 125 autos. Senna already
+    builds crit from mist — do not stack a second delayed engine.
+  • Draktharr is the dive Youmuu. Nightstalker is one proc; Youmuu
+    keeps 15 AH + Spectral Haste for the AA→Q kite. Poke Senna
+    wants Youmuu. All-in DH Senna can still Drak.
+  • Support cannot buy Youmuu at 8:00. Sickle gold finishes Hexoptics
+    ~11:00. Second legendary is Mortal (pen + grievous) or Essence
+    Reaver (Q spellblade + 20 AH) — they tie on 20:00 gold. RFC 2nd
+    delays AD/pen and loses. Statikk 1st has 0% crit and loses.
+
+Traps
+  • Magnetic Blaster / Cloak of Agility — deleted.
+  • Hexoptics first on ADC, copying Caitlyn. Youmuu first is +6–7%
+    on the 24-min area. Hex is 3rd, after Collector.
+  • Yun Tal / Stormrazor first — delayed or expensive crit, no leth.
+  • Statikk → RFC as the WRF page. Lightning is waveclear/clump.
+    1v1 poke wants AD + lethality + Hex, not 0% crit Shiv.
+  • IE second — 3500g hole. Collector 3000g fills 12:00.
+  • Support finishing IE/LDR — 20-min sickle gold completes two
+    legendaries. Hex then Mortal/ER. Third is a maybe.
+  • Enchanter (Ardent → Helia → Harmonic) is a different question;
+    that sim already picked Mandate 4th. This file is damage Senna.
+  • Gathering Storm / Ingenious Hunter / Legend: Tenacity — illegal or
+    wrong identity. Legend: Haste is fine if you skip Transcendence.
+
+Swaps
+  • ADC Hex 2nd (Youmuu → Hex, skip Collector) if you need the range
+    amp before 12:00. -2.8% area, Hex lands at 12 instead of Collector.
+  • Draktharr first if you are the DH dive Senna, not the poke Senna.
+  • Mortal Reminder over LDR vs heal comps. Support already prefers it.
+  • Essence Reaver 2nd on support is a coin-flip with Mortal. Take ER
+    when the lane is Q-heal, Mortal when they have a healer.
+  • Serpent's Fang 3rd vs Lulu/Karma/Janna/sett shields.
+  • Shieldbow or GA 6th vs burst. Mercurial vs Malz/WW.
+  • Steelcaps into all-in AD supports (Leona/Naut/Rell). -5% poke.
+  • Ionian on support is -0.1% vs Berserkers+Hex+ER. Take it when
+    Q/Flash cadence matters more than the auto (enchanter split).
+  • AP carry lane partner: this is still an AD Senna page. Do not
+    force Ardent on a damage page — that is the enchanter file.
+
+Runes (legal 7.3 page: 1 keystone + 3 primary + 1 secondary)
+  ADC combat: Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating
+              LT is +9% area on the Youmuu core. 7.3 LT scales with built AS;
+              Youmuu's Spectral Haste + Alacrity give it something to eat.
+  ADC lane:   Fleet Footwork on the same tree if you need the heal/MS to
+              collect souls. -8% 8s damage, better 2v2 sustain.
+  Support:    Fleet Footwork · Font of Life · Bone Plating · Perseverance · Brutal
+              LT is only +2.3% poke. Keep Fleet + Font of Life.
+  Spells ADC:  Flash + Barrier (Ghost if they cannot walk up).
+  Spells supp: Flash + Heal (Exhaust vs dive).
+
+Sources: official 7.3 notes; wr-7.3-db item snapshot; Wild Rift wiki kit;
+WildRiftFire / wildriftguides 7.3 pages (live recs, not copied blindly).
