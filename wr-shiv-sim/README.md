@@ -55,4 +55,10 @@ Buy Shiv when fights clump (dragon, Baron, mid siege). Kraken still wins a 1v1.
 2. **Statikk Shiv** (~9:00)
 3. Guinsoo's Rageblade — phantom hit multiplies the on-hits Shiv copies
 4. Terminus (AD) or Nashor's Tooth (AP)
-5. BotRK if the frontline is thick
+5. **Runaan's 4th if fights stay clumped.** BotRK 4th if you are hitting one tank.
+
+Shiv copies on-hit on Energized (~every 4.2 autos). Runaan copies on-hit on **every auto** to 2 nearby targets. They stack — do not sell Shiv for Runaan.
+
+```bash
+python3 simulate_onhit_4th.py
+```

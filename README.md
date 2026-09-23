@@ -13,5 +13,6 @@ League itemization sims.
 python3 zyra-burn-sim/simulate_zyra_burn.py
 python3 ap-kogmaw-sim/simulate_ap_kogmaw.py
 python3 wr-shiv-sim/simulate_wr_shiv.py
+python3 wr-shiv-sim/simulate_onhit_4th.py
 python3 wr-73-playstyles/simulate_wr_73_playstyles.py
 ```

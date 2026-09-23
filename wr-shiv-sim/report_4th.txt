@@ -1,0 +1,142 @@
+==============================================================================
+ON-HIT CLUMP — 4TH ITEM: RUNAAN'S OR NOT?  (Wild Rift 7.3)
+Core: Shiv → Rageblade → Terminus (Nashor on Teemo)
+8s window  |  clump = 4 champs  |  duel = the tank only
+==============================================================================
+
+WHY THIS IS A REAL QUESTION
+  Shiv already copies on-hit, but only on Energized (~every 4.2 autos).
+  Runaan copies on-hit on EVERY auto, to 2 nearby targets (55% AD bolts).
+  7.3 Runaan is 2650g — cheaper than BotRK (3100) or Wit's End (2800).
+
+GOLD (farmer)
+  20:00   10450g   3-item core ~10000g + boots
+  22:00   11570g   3-item core ~10000g + boots
+  24:00   12690g   3-item core ~10000g + boots
+  26:00   13810g   3-item core ~10000g + boots
+  Runaan 4th (~12650g with Berserker's) finishes ~24:00. BotRK (~13100g) ~25:00.
+  Teemo on Boots of Mana is ~100g short of Runaan at 24:00 — online ~25:00.
+
+------------------------------------------------------------------------------
+MINUTE 24:00
+------------------------------------------------------------------------------
+  Kog'Maw — W %HP on every bolt
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               9783     3525   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    (no 4th)                         4586     3112   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Blade of the Ruined King         4586     3112    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Wit's End                        4586     3112    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Bloodthirster                    4586     3112    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Varus — Blight stacks on every bolt, one Q pops the pit
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               8684     2742   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    (no 4th)                         4407     2407   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Blade of the Ruined King         4407     2407    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Wit's End                        4407     2407    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Bloodthirster                    4407     2407    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Kalista — Rend spears on every bolt, one E rips
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               9453     2698   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    (no 4th)                         3954     2370   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Blade of the Ruined King         3954     2370    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Wit's End                        3954     2370    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Bloodthirster                    3954     2370    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Teemo — Poison on every bolt; Nashor 3rd
+    4th                             Clump     Duel   On?  items
+    (no 4th)                         3186     1703   yes  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth ← clump
+    Runaan's Hurricane               3186     1703    no  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth
+    Blade of the Ruined King         3186     1703    no  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth
+    Wit's End                        3186     1703    no  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth
+    Terminus                         3186     1703    no  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth
+
+  Kai'Sa — Plasma on bolts; still hard to 5-pop extras
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               5427     1835   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    (no 4th)                         2354     1606   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Blade of the Ruined King         2354     1606    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Wit's End                        2354     1606    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+    Bloodthirster                    2354     1606    no  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+------------------------------------------------------------------------------
+MINUTE 26:00
+------------------------------------------------------------------------------
+  Kog'Maw — W %HP on every bolt
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               9627     3435   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    Blade of the Ruined King         7360     5032   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Blade of the Ruined King ← duel
+    Wit's End                        5820     3858   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Wit's End
+    Bloodthirster                    4823     3360   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Bloodthirster
+    (no 4th)                         4496     3033   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Varus — Blight stacks on every bolt, one Q pops the pit
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               8479     2635   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    Blade of the Ruined King         6974     4177   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Blade of the Ruined King ← duel
+    Wit's End                        5465     3025   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Wit's End
+    Bloodthirster                    4608     2626   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Bloodthirster
+    (no 4th)                         4297     2315   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Kalista — Rend spears on every bolt, one E rips
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               9194     2577   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    Blade of the Ruined King         7047     4286   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Blade of the Ruined King ← duel
+    Wit's End                        5146     2952   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Wit's End
+    Bloodthirster                    4553     2785   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Bloodthirster
+    (no 4th)                         3818     2264   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+  Teemo — Poison on every bolt; Nashor 3rd
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               6399     1872   yes  Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth › Runaan's Hurricane ← clump
+    Blade of the Ruined King         5347     3179   yes  Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth › Blade of the Ruined King ← duel
+    Terminus                         5206     3006   yes  Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth › Terminus
+    Wit's End                        4087     2206   yes  Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth › Wit's End
+    (no 4th)                         3081     1626   yes  Boots of Mana › Statikk Shiv › Guinsoo's Rageblade › Nashor's Tooth
+
+  Kai'Sa — Plasma on bolts; still hard to 5-pop extras
+    4th                             Clump     Duel   On?  items
+    Runaan's Hurricane               5276     1754   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Runaan's Hurricane ← clump
+    Blade of the Ruined King         4709     3242   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Blade of the Ruined King ← duel
+    Wit's End                        3203     2103   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Wit's End
+    Bloodthirster                    2566     1831   yes  Statikk Shiv › Guinsoo's Rageblade › Terminus › Bloodthirster
+    (no 4th)                         2271     1536   yes  Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Should on-hit clump buy Runaan 4th?
+
+  Kog'Maw: YES — Runaan
+     Clump 26:00  Runaan 9627  vs Blade of the Ruined King 7360  (3-item 4496)
+     Duel  26:00  Runaan 3435  vs best other 5032
+
+  Varus: YES — Runaan
+     Clump 26:00  Runaan 8479  vs Blade of the Ruined King 6974  (3-item 4297)
+     Duel  26:00  Runaan 2635  vs best other 4177
+
+  Kalista: YES — Runaan
+     Clump 26:00  Runaan 9194  vs Blade of the Ruined King 7047  (3-item 3818)
+     Duel  26:00  Runaan 2577  vs best other 4286
+
+  Teemo: YES — Runaan
+     Clump 26:00  Runaan 6399  vs Blade of the Ruined King 5347  (3-item 3081)
+     Duel  26:00  Runaan 1872  vs best other 3179
+
+  Kai'Sa: YES — Runaan
+     Clump 26:00  Runaan 5276  vs Blade of the Ruined King 4709  (3-item 2271)
+     Duel  26:00  Runaan 1754  vs best other 3242
+
+  RULE:
+  • Fight is still a clump (dragon, Baron, mid choke): YES, buy Runaan 4th.
+    It is the only 4th that copies Kog W / Varus Blight / Kalista spears /
+    Teemo poison on every auto, not just on Shiv procs.
+  • Fight is you hitting one tank: NO. BotRK (or Wit's vs AP) beats empty bolts.
+  • Games that end 20–22: you never finish a 4th. Don't force it.
+  • If the game is stretching, Runaan completes first (2650 vs 3100 BotRK).
+  • Do not sell Shiv for Runaan. Shiv is 40 AP + lightning + 3–6 bounce;
+    Runaan is the per-auto copier. They stack: bolts cover 2 extras every
+    swing, Shiv still tags whoever the bolts missed and pays 60 magic.
+  • Vayne is not in this lane. Silver Bolts still do not ride Runaan bolts.
+==============================================================================

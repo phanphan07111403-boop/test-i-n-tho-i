@@ -36,6 +36,8 @@ Which **builds / playstyles gained the most** in 7.3 (not “who is strongest”
 ## Three lanes — don't mix them
 
 - **On-hit clump** — Shiv → Rageblade → Terminus/Nashor: Kalista, Teemo, Varus, Kai'Sa
+  - **4th = Runaan's** if dragon/Baron clumps continue. **4th = BotRK** if you are glued to one tank.
+  - Runaan finishes ~24:00 (2650g). BotRK ~25:00. Most 20–22 min games never see a 4th.
 - **Crit sniper** — Stormrazor or Yun Tal → IE → RFC/Fiendhunter: Caitlyn, Twitch, Lucian, Zeri, Ashe
 - **Duelist** — Kraken → Rageblade → Terminus: Vayne (not Shiv)
 
