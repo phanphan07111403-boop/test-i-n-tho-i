@@ -3,7 +3,7 @@
     "champion": "Sona",
     "role": "Support",
     "patch": "7.3",
-    "game_minutes": 20,
+    "game_minutes": 28,
     "playstyle": "aura buff enchanter next to a 7.3 crit ADC",
     "question": "build order with the most gold-efficient buffs and game impact",
     "crit_damage": 2.0,
@@ -26,17 +26,35 @@
     }
   },
   "winner": {
-    "order": "Ardent \u2192 Helia \u2192 Mandate",
+    "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Staff",
     "core": [
       "Ardent Censer",
       "Echoes of Helia",
-      "Imperial Mandate"
+      "Imperial Mandate",
+      "Harmonic Echo",
+      "Staff of Flowing Waters"
     ],
-    "tw_impact": 153.1957627118644,
-    "tw_ge": 29.988093220338982,
-    "tw_bge": 10.076313559322033,
-    "combined": 0.9833152172345049,
-    "patch_delta": 73.85169491525423
+    "tw_impact": 233.546875,
+    "tw_ge": 33.67511513157895,
+    "tw_bge": 11.6678125,
+    "combined": 0.9991074723926898,
+    "patch_delta": 103.12878289473684,
+    "sold_m": 27,
+    "n_leg": 5,
+    "impact_20": 433.0,
+    "impact_end": 546.0,
+    "page": {
+      "until_sell": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Ardent Censer",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo"
+      ],
+      "sell_scythe_gold": 280,
+      "fifth": "Staff of Flowing Waters"
+    }
   },
   "isolated_ge_12": [
     {
@@ -113,143 +131,163 @@
   "top10": [
     {
       "rank": 1,
-      "order": "Ardent \u2192 Helia \u2192 Mandate",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Staff",
       "core": [
         "Ardent Censer",
         "Echoes of Helia",
-        "Imperial Mandate"
+        "Imperial Mandate",
+        "Harmonic Echo",
+        "Staff of Flowing Waters"
       ],
-      "tw_impact": 153.2,
-      "tw_ge": 29.988,
-      "tw_bge": 10.076,
-      "combined": 0.9833,
-      "patch_delta": 73.85
+      "tw_impact": 233.55,
+      "tw_ge": 33.675,
+      "tw_bge": 11.668,
+      "combined": 0.9991,
+      "patch_delta": 103.13
     },
     {
       "rank": 2,
-      "order": "Ardent \u2192 Helia \u2192 Harmonic",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Redemption",
       "core": [
         "Ardent Censer",
         "Echoes of Helia",
-        "Harmonic Echo"
+        "Imperial Mandate",
+        "Harmonic Echo",
+        "Redemption"
       ],
-      "tw_impact": 151.49,
-      "tw_ge": 30.009,
-      "tw_bge": 10.154,
-      "combined": 0.9795,
-      "patch_delta": 73.82
+      "tw_impact": 233.39,
+      "tw_ge": 33.655,
+      "tw_bge": 11.655,
+      "combined": 0.9984,
+      "patch_delta": 103.1
     },
     {
       "rank": 3,
-      "order": "Ardent \u2192 Helia \u2192 Staff",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Staff \u2192 Harmonic",
       "core": [
         "Ardent Censer",
         "Echoes of Helia",
-        "Staff of Flowing Waters"
+        "Imperial Mandate",
+        "Staff of Flowing Waters",
+        "Harmonic Echo"
       ],
-      "tw_impact": 150.25,
-      "tw_ge": 29.646,
-      "tw_bge": 10.087,
-      "combined": 0.9706,
-      "patch_delta": 73.86
+      "tw_impact": 232.95,
+      "tw_ge": 33.396,
+      "tw_bge": 11.604,
+      "combined": 0.9943,
+      "patch_delta": 103.2
     },
     {
       "rank": 4,
-      "order": "Ardent \u2192 Helia \u2192 Redemption",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Staff \u2192 Redemption",
       "core": [
         "Ardent Censer",
         "Echoes of Helia",
+        "Imperial Mandate",
+        "Staff of Flowing Waters",
         "Redemption"
       ],
-      "tw_impact": 149.71,
-      "tw_ge": 29.559,
-      "tw_bge": 10.053,
-      "combined": 0.9674,
-      "patch_delta": 73.79
+      "tw_impact": 232.5,
+      "tw_ge": 33.371,
+      "tw_bge": 11.607,
+      "combined": 0.9931,
+      "patch_delta": 103.2
     },
     {
       "rank": 5,
-      "order": "Ardent \u2192 Mandate \u2192 Helia",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Circlet",
       "core": [
         "Ardent Censer",
+        "Echoes of Helia",
         "Imperial Mandate",
-        "Echoes of Helia"
+        "Harmonic Echo",
+        "Whispering Circlet"
       ],
-      "tw_impact": 140.48,
-      "tw_ge": 28.304,
-      "tw_bge": 10.184,
-      "combined": 0.9277,
-      "patch_delta": 73.85
+      "tw_impact": 231.49,
+      "tw_ge": 33.521,
+      "tw_bge": 11.653,
+      "combined": 0.9931,
+      "patch_delta": 103.07
     },
     {
       "rank": 6,
-      "order": "Helia \u2192 Ardent \u2192 Mandate",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Redemption \u2192 Harmonic",
       "core": [
-        "Echoes of Helia",
         "Ardent Censer",
-        "Imperial Mandate"
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Redemption",
+        "Harmonic Echo"
       ],
-      "tw_impact": 153.17,
-      "tw_ge": 31.159,
-      "tw_bge": 6.104,
-      "combined": 0.9177,
-      "patch_delta": 51.13
+      "tw_impact": 231.63,
+      "tw_ge": 33.469,
+      "tw_bge": 11.639,
+      "combined": 0.9927,
+      "patch_delta": 103.07
     },
     {
       "rank": 7,
-      "order": "Helia \u2192 Ardent \u2192 Harmonic",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Redemption \u2192 Staff",
       "core": [
-        "Echoes of Helia",
         "Ardent Censer",
-        "Harmonic Echo"
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Redemption",
+        "Staff of Flowing Waters"
       ],
-      "tw_impact": 151.47,
-      "tw_ge": 31.18,
-      "tw_bge": 6.182,
-      "combined": 0.9139,
-      "patch_delta": 51.1
+      "tw_impact": 231.34,
+      "tw_ge": 33.464,
+      "tw_bge": 11.656,
+      "combined": 0.9923,
+      "patch_delta": 103.1
     },
     {
       "rank": 8,
-      "order": "Ardent \u2192 Harmonic \u2192 Helia",
+      "order": "Ardent \u2192 Helia \u2192 Harmonic \u2192 Mandate \u2192 Staff",
       "core": [
         "Ardent Censer",
+        "Echoes of Helia",
         "Harmonic Echo",
-        "Echoes of Helia"
+        "Imperial Mandate",
+        "Staff of Flowing Waters"
       ],
-      "tw_impact": 137.58,
-      "tw_ge": 27.843,
-      "tw_bge": 10.094,
-      "combined": 0.912,
-      "patch_delta": 73.82
+      "tw_impact": 230.3,
+      "tw_ge": 33.441,
+      "tw_bge": 11.709,
+      "combined": 0.9908,
+      "patch_delta": 103.1
     },
     {
       "rank": 9,
-      "order": "Ardent \u2192 Staff \u2192 Helia",
+      "order": "Ardent \u2192 Helia \u2192 Harmonic \u2192 Mandate \u2192 Redemption",
       "core": [
         "Ardent Censer",
-        "Staff of Flowing Waters",
-        "Echoes of Helia"
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Imperial Mandate",
+        "Redemption"
       ],
-      "tw_impact": 134.57,
-      "tw_ge": 27.763,
-      "tw_bge": 10.346,
-      "combined": 0.9063,
-      "patch_delta": 73.97
+      "tw_impact": 230.14,
+      "tw_ge": 33.421,
+      "tw_bge": 11.696,
+      "combined": 0.99,
+      "patch_delta": 103.07
     },
     {
       "rank": 10,
-      "order": "Helia \u2192 Ardent \u2192 Staff",
+      "order": "Ardent \u2192 Helia \u2192 Mandate \u2192 Staff \u2192 Circlet",
       "core": [
-        "Echoes of Helia",
         "Ardent Censer",
-        "Staff of Flowing Waters"
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Staff of Flowing Waters",
+        "Whispering Circlet"
       ],
-      "tw_impact": 150.22,
-      "tw_ge": 30.817,
-      "tw_bge": 6.115,
-      "combined": 0.905,
-      "patch_delta": 51.14
+      "tw_impact": 230.6,
+      "tw_ge": 33.236,
+      "tw_bge": 11.605,
+      "combined": 0.9878,
+      "patch_delta": 103.18
     }
   ],
   "timeline": [
@@ -608,10 +646,170 @@
       "buff_gold_eff": 18.97,
       "extra_adc_dps": 343.9,
       "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 21,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Bandleglass Mirror"
+      ],
+      "spent": 9600,
+      "gold": 9980,
+      "total_impact": 469.2,
+      "buff_impact": 179.8,
+      "sustain_impact": 172.5,
+      "gold_eff": 48.87,
+      "buff_gold_eff": 18.73,
+      "extra_adc_dps": 345.8,
+      "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 22,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Bandleglass Mirror"
+      ],
+      "spent": 9600,
+      "gold": 10560,
+      "total_impact": 479.3,
+      "buff_impact": 185.7,
+      "sustain_impact": 172.5,
+      "gold_eff": 49.93,
+      "buff_gold_eff": 19.35,
+      "extra_adc_dps": 357.2,
+      "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 23,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Bandleglass Mirror"
+      ],
+      "spent": 9600,
+      "gold": 11140,
+      "total_impact": 481.9,
+      "buff_impact": 185.7,
+      "sustain_impact": 175.1,
+      "gold_eff": 50.19,
+      "buff_gold_eff": 19.35,
+      "extra_adc_dps": 357.2,
+      "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 24,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo"
+      ],
+      "spent": 11200,
+      "gold": 11720,
+      "total_impact": 518.2,
+      "buff_impact": 186.3,
+      "sustain_impact": 210.7,
+      "gold_eff": 46.27,
+      "buff_gold_eff": 16.64,
+      "extra_adc_dps": 358.3,
+      "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 25,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo"
+      ],
+      "spent": 11200,
+      "gold": 12300,
+      "total_impact": 528.5,
+      "buff_impact": 192.3,
+      "sustain_impact": 210.7,
+      "gold_eff": 47.19,
+      "buff_gold_eff": 17.17,
+      "extra_adc_dps": 369.8,
+      "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 26,
+      "items": [
+        "Black Mist Scythe",
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo"
+      ],
+      "spent": 11200,
+      "gold": 12880,
+      "total_impact": 530.2,
+      "buff_impact": 192.3,
+      "sustain_impact": 212.4,
+      "gold_eff": 47.34,
+      "buff_gold_eff": 17.17,
+      "extra_adc_dps": 369.8,
+      "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+    },
+    {
+      "minute": 27,
+      "items": [
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo",
+        "Staff of Flowing Waters"
+      ],
+      "spent": 13320,
+      "gold": 13460,
+      "total_impact": 546.0,
+      "buff_impact": 194.0,
+      "sustain_impact": 226.3,
+      "gold_eff": 40.99,
+      "buff_gold_eff": 14.56,
+      "extra_adc_dps": 373.0,
+      "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
+    },
+    {
+      "minute": 28,
+      "items": [
+        "Ardent Censer",
+        "Ionian Boots of Lucidity",
+        "Echoes of Helia",
+        "Imperial Mandate",
+        "Harmonic Echo",
+        "Staff of Flowing Waters"
+      ],
+      "spent": 13320,
+      "gold": 14040,
+      "total_impact": 546.0,
+      "buff_impact": 194.0,
+      "sustain_impact": 226.3,
+      "gold_eff": 40.99,
+      "buff_gold_eff": 14.56,
+      "extra_adc_dps": 373.0,
+      "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
     }
   ],
   "builds_top5": {
-    "Ardent \u2192 Helia \u2192 Mandate": [
+    "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Staff": [
       {
         "minute": 1,
         "items": [
@@ -867,9 +1065,129 @@
         "gold_eff": 49.77,
         "buff_impact": 165.1,
         "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 469.2,
+        "gold_eff": 48.87,
+        "buff_impact": 179.8,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 479.3,
+        "gold_eff": 49.93,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 481.9,
+        "gold_eff": 50.19,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 518.2,
+        "gold_eff": 46.27,
+        "buff_impact": 186.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 528.5,
+        "gold_eff": 47.19,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 26,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 530.2,
+        "gold_eff": 47.34,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 27,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 546.0,
+        "gold_eff": 40.99,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
+      },
+      {
+        "minute": 28,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 546.0,
+        "gold_eff": 40.99,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
       }
     ],
-    "Ardent \u2192 Helia \u2192 Harmonic": [
+    "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Redemption": [
       {
         "minute": 1,
         "items": [
@@ -1075,812 +1393,37 @@
           "Ardent Censer",
           "Ionian Boots of Lucidity",
           "Echoes of Helia",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 358.4,
-        "gold_eff": 51.2,
-        "buff_impact": 153.1,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 18,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Bandleglass Mirror",
-          "Kindlegem"
-        ],
-        "total_impact": 378.2,
-        "gold_eff": 47.27,
-        "buff_impact": 158.8,
-        "notes": "Ardent 30% AS, Helia dump, aura locked"
-      },
-      {
-        "minute": 19,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Harmonic Echo"
-        ],
-        "total_impact": 403.2,
-        "gold_eff": 46.89,
-        "buff_impact": 159.2,
-        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, aura locked"
-      },
-      {
-        "minute": 20,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Harmonic Echo"
-        ],
-        "total_impact": 412.3,
-        "gold_eff": 47.95,
-        "buff_impact": 164.6,
-        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, aura locked"
-      }
-    ],
-    "Ardent \u2192 Helia \u2192 Staff": [
-      {
-        "minute": 1,
-        "items": [
-          "Spectral Sickle"
-        ],
-        "total_impact": 10.4,
-        "gold_eff": 26.12,
-        "buff_impact": 0.2,
-        "notes": "building"
-      },
-      {
-        "minute": 2,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 14.9,
-        "gold_eff": 18.63,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 3,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 15.7,
-        "gold_eff": 19.61,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 4,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed",
-          "Forbidden Idol"
-        ],
-        "total_impact": 21.6,
-        "gold_eff": 14.37,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 5,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe"
-        ],
-        "total_impact": 26.4,
-        "gold_eff": 17.62,
-        "buff_impact": 0.4,
-        "notes": "building"
-      },
-      {
-        "minute": 6,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 34.8,
-        "gold_eff": 14.2,
-        "buff_impact": 0.7,
-        "notes": "building"
-      },
-      {
-        "minute": 7,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 36.2,
-        "gold_eff": 14.77,
-        "buff_impact": 0.9,
-        "notes": "building"
-      },
-      {
-        "minute": 8,
-        "items": [
-          "Boots of Speed",
-          "Black Mist Scythe",
-          "Ardent Censer"
-        ],
-        "total_impact": 75.0,
-        "gold_eff": 23.43,
-        "buff_impact": 33.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 9,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 104.9,
-        "gold_eff": 28.35,
-        "buff_impact": 50.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 10,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 108.7,
-        "gold_eff": 29.37,
-        "buff_impact": 52.0,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 11,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 118.0,
-        "gold_eff": 25.66,
-        "buff_impact": 54.8,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 12,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 150.7,
-        "gold_eff": 32.77,
-        "buff_impact": 78.2,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 13,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror",
-          "Kindlegem"
-        ],
-        "total_impact": 171.5,
-        "gold_eff": 30.63,
-        "buff_impact": 87.8,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 14,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia"
-        ],
-        "total_impact": 252.8,
-        "gold_eff": 41.44,
-        "buff_impact": 91.3,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 15,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol"
-        ],
-        "total_impact": 274.0,
-        "gold_eff": 40.3,
-        "buff_impact": 104.4,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 16,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol"
-        ],
-        "total_impact": 344.8,
-        "gold_eff": 50.71,
-        "buff_impact": 152.1,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 17,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 361.4,
-        "gold_eff": 46.94,
-        "buff_impact": 153.1,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 18,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 370.5,
-        "gold_eff": 48.12,
-        "buff_impact": 158.4,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 19,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Staff of Flowing Waters"
-        ],
-        "total_impact": 394.5,
-        "gold_eff": 46.42,
-        "buff_impact": 161.4,
-        "notes": "DOUBLE BUFF, Helia dump, aura locked"
-      },
-      {
-        "minute": 20,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Staff of Flowing Waters"
-        ],
-        "total_impact": 407.2,
-        "gold_eff": 47.91,
-        "buff_impact": 166.7,
-        "notes": "DOUBLE BUFF, Helia dump, aura locked"
-      }
-    ],
-    "Ardent \u2192 Helia \u2192 Redemption": [
-      {
-        "minute": 1,
-        "items": [
-          "Spectral Sickle"
-        ],
-        "total_impact": 10.4,
-        "gold_eff": 26.12,
-        "buff_impact": 0.2,
-        "notes": "building"
-      },
-      {
-        "minute": 2,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 14.9,
-        "gold_eff": 18.63,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 3,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 15.7,
-        "gold_eff": 19.61,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 4,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed",
-          "Forbidden Idol"
-        ],
-        "total_impact": 21.6,
-        "gold_eff": 14.37,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 5,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe"
-        ],
-        "total_impact": 26.4,
-        "gold_eff": 17.62,
-        "buff_impact": 0.4,
-        "notes": "building"
-      },
-      {
-        "minute": 6,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 34.8,
-        "gold_eff": 14.2,
-        "buff_impact": 0.7,
-        "notes": "building"
-      },
-      {
-        "minute": 7,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 36.2,
-        "gold_eff": 14.77,
-        "buff_impact": 0.9,
-        "notes": "building"
-      },
-      {
-        "minute": 8,
-        "items": [
-          "Boots of Speed",
-          "Black Mist Scythe",
-          "Ardent Censer"
-        ],
-        "total_impact": 75.0,
-        "gold_eff": 23.43,
-        "buff_impact": 33.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 9,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 104.9,
-        "gold_eff": 28.35,
-        "buff_impact": 50.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 10,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 108.7,
-        "gold_eff": 29.37,
-        "buff_impact": 52.0,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 11,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 118.0,
-        "gold_eff": 25.66,
-        "buff_impact": 54.8,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 12,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 150.7,
-        "gold_eff": 32.77,
-        "buff_impact": 78.2,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 13,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror",
-          "Kindlegem"
-        ],
-        "total_impact": 171.5,
-        "gold_eff": 30.63,
-        "buff_impact": 87.8,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 14,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia"
-        ],
-        "total_impact": 252.8,
-        "gold_eff": 41.44,
-        "buff_impact": 91.3,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 15,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol"
-        ],
-        "total_impact": 274.0,
-        "gold_eff": 40.3,
-        "buff_impact": 104.4,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 16,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol"
-        ],
-        "total_impact": 344.8,
-        "gold_eff": 50.71,
-        "buff_impact": 152.1,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 17,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 361.4,
-        "gold_eff": 46.94,
-        "buff_impact": 153.1,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 18,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Forbidden Idol",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 370.5,
-        "gold_eff": 48.12,
-        "buff_impact": 158.4,
-        "notes": "Ardent 30% AS, Helia dump"
-      },
-      {
-        "minute": 19,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Redemption"
-        ],
-        "total_impact": 389.8,
-        "gold_eff": 45.58,
-        "buff_impact": 158.8,
-        "notes": "Ardent 30% AS, Helia dump, Redemption"
-      },
-      {
-        "minute": 20,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Echoes of Helia",
-          "Redemption"
-        ],
-        "total_impact": 399.3,
-        "gold_eff": 46.7,
-        "buff_impact": 164.2,
-        "notes": "Ardent 30% AS, Helia dump, Redemption"
-      }
-    ],
-    "Ardent \u2192 Mandate \u2192 Helia": [
-      {
-        "minute": 1,
-        "items": [
-          "Spectral Sickle"
-        ],
-        "total_impact": 10.4,
-        "gold_eff": 26.12,
-        "buff_impact": 0.2,
-        "notes": "building"
-      },
-      {
-        "minute": 2,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 14.9,
-        "gold_eff": 18.63,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 3,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed"
-        ],
-        "total_impact": 15.7,
-        "gold_eff": 19.61,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 4,
-        "items": [
-          "Spectral Sickle",
-          "Boots of Speed",
-          "Forbidden Idol"
-        ],
-        "total_impact": 21.6,
-        "gold_eff": 14.37,
-        "buff_impact": 0.3,
-        "notes": "building"
-      },
-      {
-        "minute": 5,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe"
-        ],
-        "total_impact": 26.4,
-        "gold_eff": 17.62,
-        "buff_impact": 0.4,
-        "notes": "building"
-      },
-      {
-        "minute": 6,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 34.8,
-        "gold_eff": 14.2,
-        "buff_impact": 0.7,
-        "notes": "building"
-      },
-      {
-        "minute": 7,
-        "items": [
-          "Boots of Speed",
-          "Forbidden Idol",
-          "Black Mist Scythe",
-          "Aether Wisp"
-        ],
-        "total_impact": 36.2,
-        "gold_eff": 14.77,
-        "buff_impact": 0.9,
-        "notes": "building"
-      },
-      {
-        "minute": 8,
-        "items": [
-          "Boots of Speed",
-          "Black Mist Scythe",
-          "Ardent Censer"
-        ],
-        "total_impact": 75.0,
-        "gold_eff": 23.43,
-        "buff_impact": 33.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 9,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 104.9,
-        "gold_eff": 28.35,
-        "buff_impact": 50.3,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 10,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity"
-        ],
-        "total_impact": 108.7,
-        "gold_eff": 29.37,
-        "buff_impact": 52.0,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 11,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 118.0,
-        "gold_eff": 25.66,
-        "buff_impact": 54.8,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 12,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 150.7,
-        "gold_eff": 32.77,
-        "buff_impact": 78.2,
-        "notes": "Ardent 30% AS"
-      },
-      {
-        "minute": 13,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
           "Bandleglass Mirror",
           "Blasting Wand"
         ],
-        "total_impact": 170.1,
-        "gold_eff": 31.5,
-        "buff_impact": 88.0,
-        "notes": "Ardent 30% AS"
+        "total_impact": 363.3,
+        "gold_eff": 46.57,
+        "buff_impact": 154.1,
+        "notes": "Ardent 30% AS, Helia dump"
       },
       {
-        "minute": 14,
+        "minute": 18,
         "items": [
           "Black Mist Scythe",
           "Ardent Censer",
           "Ionian Boots of Lucidity",
+          "Echoes of Helia",
           "Bandleglass Mirror",
           "Blasting Wand"
         ],
-        "total_impact": 174.8,
-        "gold_eff": 32.37,
-        "buff_impact": 91.1,
-        "notes": "Ardent 30% AS"
+        "total_impact": 375.5,
+        "gold_eff": 48.14,
+        "buff_impact": 159.4,
+        "notes": "Ardent 30% AS, Helia dump"
       },
       {
-        "minute": 15,
+        "minute": 19,
         "items": [
           "Black Mist Scythe",
           "Ardent Censer",
           "Ionian Boots of Lucidity",
+          "Echoes of Helia",
           "Imperial Mandate"
-        ],
-        "total_impact": 219.4,
-        "gold_eff": 34.83,
-        "buff_impact": 104.9,
-        "notes": "Ardent 30% AS, Mandate 7%"
-      },
-      {
-        "minute": 16,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Imperial Mandate",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 309.9,
-        "gold_eff": 43.04,
-        "buff_impact": 153.6,
-        "notes": "Ardent 30% AS, Mandate 7%"
-      },
-      {
-        "minute": 17,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Imperial Mandate",
-          "Bandleglass Mirror"
-        ],
-        "total_impact": 309.9,
-        "gold_eff": 43.04,
-        "buff_impact": 153.6,
-        "notes": "Ardent 30% AS, Mandate 7%"
-      },
-      {
-        "minute": 18,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Imperial Mandate",
-          "Bandleglass Mirror",
-          "Kindlegem"
-        ],
-        "total_impact": 324.5,
-        "gold_eff": 39.57,
-        "buff_impact": 159.2,
-        "notes": "Ardent 30% AS, Mandate 7%, aura locked"
-      },
-      {
-        "minute": 19,
-        "items": [
-          "Black Mist Scythe",
-          "Ardent Censer",
-          "Ionian Boots of Lucidity",
-          "Imperial Mandate",
-          "Echoes of Helia"
         ],
         "total_impact": 420.5,
         "gold_eff": 48.33,
@@ -1893,13 +1436,1269 @@
           "Black Mist Scythe",
           "Ardent Censer",
           "Ionian Boots of Lucidity",
-          "Imperial Mandate",
-          "Echoes of Helia"
+          "Echoes of Helia",
+          "Imperial Mandate"
         ],
         "total_impact": 433.0,
         "gold_eff": 49.77,
         "buff_impact": 165.1,
         "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 469.2,
+        "gold_eff": 48.87,
+        "buff_impact": 179.8,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 479.3,
+        "gold_eff": 49.93,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 481.9,
+        "gold_eff": 50.19,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 518.2,
+        "gold_eff": 46.27,
+        "buff_impact": 186.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 528.5,
+        "gold_eff": 47.19,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 26,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 530.2,
+        "gold_eff": 47.34,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 27,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Redemption"
+        ],
+        "total_impact": 543.2,
+        "gold_eff": 40.63,
+        "buff_impact": 191.5,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Redemption, Mandate 7%, sold Scythe, aura locked"
+      },
+      {
+        "minute": 28,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Redemption"
+        ],
+        "total_impact": 543.2,
+        "gold_eff": 40.63,
+        "buff_impact": 191.5,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Redemption, Mandate 7%, sold Scythe, aura locked"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Mandate \u2192 Staff \u2192 Harmonic": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "total_impact": 10.4,
+        "gold_eff": 26.12,
+        "buff_impact": 0.2,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 14.9,
+        "gold_eff": 18.63,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 15.7,
+        "gold_eff": 19.61,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "total_impact": 21.6,
+        "gold_eff": 14.37,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe"
+        ],
+        "total_impact": 26.4,
+        "gold_eff": 17.62,
+        "buff_impact": 0.4,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 34.8,
+        "gold_eff": 14.2,
+        "buff_impact": 0.7,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 36.2,
+        "gold_eff": 14.77,
+        "buff_impact": 0.9,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Black Mist Scythe",
+          "Ardent Censer"
+        ],
+        "total_impact": 75.0,
+        "gold_eff": 23.43,
+        "buff_impact": 33.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 104.9,
+        "gold_eff": 28.35,
+        "buff_impact": 50.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 108.7,
+        "gold_eff": 29.37,
+        "buff_impact": 52.0,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 118.0,
+        "gold_eff": 25.66,
+        "buff_impact": 54.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 150.7,
+        "gold_eff": 32.77,
+        "buff_impact": 78.2,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "total_impact": 171.5,
+        "gold_eff": 30.63,
+        "buff_impact": 87.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 252.8,
+        "gold_eff": 41.44,
+        "buff_impact": 91.3,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 271.3,
+        "gold_eff": 44.47,
+        "buff_impact": 104.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 358.4,
+        "gold_eff": 51.2,
+        "buff_impact": 153.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 363.3,
+        "gold_eff": 46.57,
+        "buff_impact": 154.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 375.5,
+        "gold_eff": 48.14,
+        "buff_impact": 159.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate"
+        ],
+        "total_impact": 420.5,
+        "gold_eff": 48.33,
+        "buff_impact": 159.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 436.3,
+        "gold_eff": 46.42,
+        "buff_impact": 165.1,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 459.0,
+        "gold_eff": 48.83,
+        "buff_impact": 178.8,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 469.2,
+        "gold_eff": 49.91,
+        "buff_impact": 184.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 507.0,
+        "gold_eff": 45.67,
+        "buff_impact": 188.8,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 507.0,
+        "gold_eff": 45.67,
+        "buff_impact": 188.8,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 517.3,
+        "gold_eff": 46.6,
+        "buff_impact": 194.7,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 26,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 522.6,
+        "gold_eff": 47.08,
+        "buff_impact": 194.7,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 27,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters",
+          "Harmonic Echo"
+        ],
+        "total_impact": 546.0,
+        "gold_eff": 40.99,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
+      },
+      {
+        "minute": 28,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters",
+          "Harmonic Echo"
+        ],
+        "total_impact": 546.0,
+        "gold_eff": 40.99,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Mandate \u2192 Staff \u2192 Redemption": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "total_impact": 10.4,
+        "gold_eff": 26.12,
+        "buff_impact": 0.2,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 14.9,
+        "gold_eff": 18.63,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 15.7,
+        "gold_eff": 19.61,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "total_impact": 21.6,
+        "gold_eff": 14.37,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe"
+        ],
+        "total_impact": 26.4,
+        "gold_eff": 17.62,
+        "buff_impact": 0.4,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 34.8,
+        "gold_eff": 14.2,
+        "buff_impact": 0.7,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 36.2,
+        "gold_eff": 14.77,
+        "buff_impact": 0.9,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Black Mist Scythe",
+          "Ardent Censer"
+        ],
+        "total_impact": 75.0,
+        "gold_eff": 23.43,
+        "buff_impact": 33.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 104.9,
+        "gold_eff": 28.35,
+        "buff_impact": 50.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 108.7,
+        "gold_eff": 29.37,
+        "buff_impact": 52.0,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 118.0,
+        "gold_eff": 25.66,
+        "buff_impact": 54.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 150.7,
+        "gold_eff": 32.77,
+        "buff_impact": 78.2,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "total_impact": 171.5,
+        "gold_eff": 30.63,
+        "buff_impact": 87.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 252.8,
+        "gold_eff": 41.44,
+        "buff_impact": 91.3,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 271.3,
+        "gold_eff": 44.47,
+        "buff_impact": 104.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 358.4,
+        "gold_eff": 51.2,
+        "buff_impact": 153.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 363.3,
+        "gold_eff": 46.57,
+        "buff_impact": 154.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 375.5,
+        "gold_eff": 48.14,
+        "buff_impact": 159.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate"
+        ],
+        "total_impact": 420.5,
+        "gold_eff": 48.33,
+        "buff_impact": 159.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 436.3,
+        "gold_eff": 46.42,
+        "buff_impact": 165.1,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 459.0,
+        "gold_eff": 48.83,
+        "buff_impact": 178.8,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Forbidden Idol"
+        ],
+        "total_impact": 469.2,
+        "gold_eff": 49.91,
+        "buff_impact": 184.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 507.0,
+        "gold_eff": 45.67,
+        "buff_impact": 188.8,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 507.0,
+        "gold_eff": 45.67,
+        "buff_impact": 188.8,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 517.3,
+        "gold_eff": 46.6,
+        "buff_impact": 194.7,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 26,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters"
+        ],
+        "total_impact": 522.6,
+        "gold_eff": 47.08,
+        "buff_impact": 194.7,
+        "notes": "DOUBLE BUFF, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 27,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters",
+          "Redemption"
+        ],
+        "total_impact": 538.0,
+        "gold_eff": 40.54,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Redemption, Mandate 7%, sold Scythe, aura locked"
+      },
+      {
+        "minute": 28,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Staff of Flowing Waters",
+          "Redemption"
+        ],
+        "total_impact": 538.0,
+        "gold_eff": 40.54,
+        "buff_impact": 194.0,
+        "notes": "DOUBLE BUFF, Helia dump, Redemption, Mandate 7%, sold Scythe, aura locked"
+      }
+    ],
+    "Ardent \u2192 Helia \u2192 Mandate \u2192 Harmonic \u2192 Circlet": [
+      {
+        "minute": 1,
+        "items": [
+          "Spectral Sickle"
+        ],
+        "total_impact": 10.4,
+        "gold_eff": 26.12,
+        "buff_impact": 0.2,
+        "notes": "building"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 14.9,
+        "gold_eff": 18.63,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed"
+        ],
+        "total_impact": 15.7,
+        "gold_eff": 19.61,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Spectral Sickle",
+          "Boots of Speed",
+          "Forbidden Idol"
+        ],
+        "total_impact": 21.6,
+        "gold_eff": 14.37,
+        "buff_impact": 0.3,
+        "notes": "building"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe"
+        ],
+        "total_impact": 26.4,
+        "gold_eff": 17.62,
+        "buff_impact": 0.4,
+        "notes": "building"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 34.8,
+        "gold_eff": 14.2,
+        "buff_impact": 0.7,
+        "notes": "building"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Forbidden Idol",
+          "Black Mist Scythe",
+          "Aether Wisp"
+        ],
+        "total_impact": 36.2,
+        "gold_eff": 14.77,
+        "buff_impact": 0.9,
+        "notes": "building"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Black Mist Scythe",
+          "Ardent Censer"
+        ],
+        "total_impact": 75.0,
+        "gold_eff": 23.43,
+        "buff_impact": 33.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 104.9,
+        "gold_eff": 28.35,
+        "buff_impact": 50.3,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity"
+        ],
+        "total_impact": 108.7,
+        "gold_eff": 29.37,
+        "buff_impact": 52.0,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 118.0,
+        "gold_eff": 25.66,
+        "buff_impact": 54.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 150.7,
+        "gold_eff": 32.77,
+        "buff_impact": 78.2,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Bandleglass Mirror",
+          "Kindlegem"
+        ],
+        "total_impact": 171.5,
+        "gold_eff": 30.63,
+        "buff_impact": 87.8,
+        "notes": "Ardent 30% AS"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 252.8,
+        "gold_eff": 41.44,
+        "buff_impact": 91.3,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia"
+        ],
+        "total_impact": 271.3,
+        "gold_eff": 44.47,
+        "buff_impact": 104.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 358.4,
+        "gold_eff": 51.2,
+        "buff_impact": 153.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 363.3,
+        "gold_eff": 46.57,
+        "buff_impact": 154.1,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Bandleglass Mirror",
+          "Blasting Wand"
+        ],
+        "total_impact": 375.5,
+        "gold_eff": 48.14,
+        "buff_impact": 159.4,
+        "notes": "Ardent 30% AS, Helia dump"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate"
+        ],
+        "total_impact": 420.5,
+        "gold_eff": 48.33,
+        "buff_impact": 159.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate"
+        ],
+        "total_impact": 433.0,
+        "gold_eff": 49.77,
+        "buff_impact": 165.1,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 469.2,
+        "gold_eff": 48.87,
+        "buff_impact": 179.8,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 479.3,
+        "gold_eff": 49.93,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Bandleglass Mirror"
+        ],
+        "total_impact": 481.9,
+        "gold_eff": 50.19,
+        "buff_impact": 185.7,
+        "notes": "Ardent 30% AS, Helia dump, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 518.2,
+        "gold_eff": 46.27,
+        "buff_impact": 186.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 528.5,
+        "gold_eff": 47.19,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 26,
+        "items": [
+          "Black Mist Scythe",
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo"
+        ],
+        "total_impact": 530.2,
+        "gold_eff": 47.34,
+        "buff_impact": 192.3,
+        "notes": "Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked"
+      },
+      {
+        "minute": 27,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Whispering Circlet"
+        ],
+        "total_impact": 509.3,
+        "gold_eff": 38.24,
+        "buff_impact": 190.4,
+        "notes": "Ardent 30% AS, Helia dump, Circlet stacking, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
+      },
+      {
+        "minute": 28,
+        "items": [
+          "Ardent Censer",
+          "Ionian Boots of Lucidity",
+          "Echoes of Helia",
+          "Imperial Mandate",
+          "Harmonic Echo",
+          "Whispering Circlet"
+        ],
+        "total_impact": 509.3,
+        "gold_eff": 38.24,
+        "buff_impact": 190.4,
+        "notes": "Ardent 30% AS, Helia dump, Circlet stacking, Harmonic chain, Mandate 7%, sold Scythe, aura locked"
       }
     ]
   }

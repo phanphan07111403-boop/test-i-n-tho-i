@@ -1,7 +1,7 @@
 ==============================================================================
 SONA — WILD RIFT 7.3 BUFF GOLD-EFFICIENCY SIM
-20-minute support game | partner: 7.3 crit ADC (Yun Tal → IE)
-Sona kit: 7.2b numbers. Items / crit / AS cap: official 7.3 notes.
+28-minute long game | 6 slots, then sell Scythe for a 5th legendary
+Partner: 7.3 crit ADC (Yun Tal → IE). Sona kit: 7.2b. Items: 7.3 notes.
 ==============================================================================
 
 WHY 7.3 BUFFS SONA EVEN WITHOUT A CHAMPION HOTFIX
@@ -17,7 +17,8 @@ METRIC
   Fight        = Mandate 7% mark + Power Chord/R lock-on-ADC
   Gold eff     = total impact per 1000g spent
   Combined     = 50% time-weighted impact + 30% gold-eff + 20% buff gold-eff
-  Search       = every 3-item order of the 7 enchanter legendaries (210 paths)
+  Search       = 210 first-3 orders, then 60 full pages (3rd/4th/5th)
+  Slots        = Scythe + Ionian + 4 legendaries. Sell Scythe → 5th.
 
 ------------------------------------------------------------------------------
 ISOLATED ITEM GOLD EFFICIENCY  @ 12:00  (on Scythe + Ionian)
@@ -34,30 +35,30 @@ ISOLATED ITEM GOLD EFFICIENCY  @ 12:00  (on Scythe + Ionian)
   Helia should lead sustain conversion; Circlet/Diadem is HSP scaling.
 
 ------------------------------------------------------------------------------
-TOP 10 BUILD ORDERS  (combined score)
+TOP 10 FULL BUILDS  (3rd → 4th → sell Scythe → 5th)
 ------------------------------------------------------------------------------
-   #  Order                                 Impact     GE  BuffGE    20m   Δ7.3
-   1  Ardent → Helia → Mandate               153.2  29.99   10.08  433.0   73.9
-   2  Ardent → Helia → Harmonic              151.5  30.01   10.15  412.3   73.8
-   3  Ardent → Helia → Staff                 150.2  29.65   10.09  407.2   73.9
-   4  Ardent → Helia → Redemption            149.7  29.56   10.05  399.3   73.8
-   5  Ardent → Mandate → Helia               140.5  28.30   10.18  433.0   73.9
-   6  Helia → Ardent → Mandate               153.2  31.16    6.10  433.0   51.1
-   7  Helia → Ardent → Harmonic              151.5  31.18    6.18  412.3   51.1
-   8  Ardent → Harmonic → Helia              137.6  27.84   10.09  412.3   73.8
-   9  Ardent → Staff → Helia                 134.6  27.76   10.35  407.2   74.0
-  10  Helia → Ardent → Staff                 150.2  30.82    6.11  407.2   51.1
+   #  Order                                                 Impact     GE    28m  Sell
+   1  Ardent → Helia → Mandate → Harmonic → Staff            233.5  33.68  546.0 27:00
+   2  Ardent → Helia → Mandate → Harmonic → Redemption       233.4  33.65  543.2 27:00
+   3  Ardent → Helia → Mandate → Staff → Harmonic            233.0  33.40  546.0 27:00
+   4  Ardent → Helia → Mandate → Staff → Redemption          232.5  33.37  538.0 27:00
+   5  Ardent → Helia → Mandate → Harmonic → Circlet          231.5  33.52  509.3 27:00
+   6  Ardent → Helia → Mandate → Redemption → Harmonic       231.6  33.47  543.2 27:00
+   7  Ardent → Helia → Mandate → Redemption → Staff          231.3  33.46  538.0 27:00
+   8  Ardent → Helia → Harmonic → Mandate → Staff            230.3  33.44  546.0 27:00
+   9  Ardent → Helia → Harmonic → Mandate → Redemption       230.1  33.42  543.2 27:00
+  10  Ardent → Helia → Mandate → Staff → Circlet             230.6  33.24  503.9 27:00
 
-  Traps that look strong on paper but lose gold efficiency:
-    Helia first  → best such path ranks #6  (Helia → Ardent → Mandate, GE 31.16)
-    Harmonic first  → best such path ranks #36  (Harmonic → Ardent → Helia, GE 25.55)
-    Staff first  → best such path ranks #37  (Staff → Ardent → Helia, GE 24.26)
-    Redemption first  → best such path ranks #39  (Redemption → Ardent → Helia, GE 24.19)
-    Mandate first  → best such path ranks #43  (Mandate → Ardent → Helia, GE 24.30)
-    Circlet first  → best such path ranks #56  (Circlet → Ardent → Helia, GE 21.87)
+  First-3 traps (210-path search, items 1–3 only):
+    Helia first  → best such path ranks #6  (Helia → Ardent → Mandate, GE 36.30)
+    Harmonic first  → best such path ranks #27  (Harmonic → Ardent → Helia, GE 31.42)
+    Mandate first  → best such path ranks #31  (Mandate → Ardent → Helia, GE 30.98)
+    Staff first  → best such path ranks #32  (Staff → Ardent → Helia, GE 30.44)
+    Redemption first  → best such path ranks #35  (Redemption → Ardent → Helia, GE 30.10)
+    Circlet first  → best such path ranks #52  (Circlet → Ardent → Helia, GE 27.57)
 
 ------------------------------------------------------------------------------
-MINUTE-BY-MINUTE  — winner: Ardent → Helia → Mandate
+MINUTE-BY-MINUTE  — winner: Ardent → Helia → Mandate → Harmonic → Staff
 ------------------------------------------------------------------------------
    1:00 | impact   10.4 | buff   0.2 | sus   9.4 | GE 26.12 | spent   400
          Sickle
@@ -119,6 +120,30 @@ MINUTE-BY-MINUTE  — winner: Ardent → Helia → Mandate
   20:00 | impact  433.0 | buff 165.1 | sus 160.2 | GE 49.77 | spent  8700
          Scythe › Ardent › Ionian › Helia › Mandate
          AP 218  AH 75  HSP 13%  aura 92%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+  21:00 | impact  469.2 | buff 179.8 | sus 172.5 | GE 48.87 | spent  9600
+         Scythe › Ardent › Ionian › Helia › Mandate › Bandleglass Mirror
+         AP 238  AH 85  HSP 13%  aura 97%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+  22:00 | impact  479.3 | buff 185.7 | sus 172.5 | GE 49.93 | spent  9600
+         Scythe › Ardent › Ionian › Helia › Mandate › Bandleglass Mirror
+         AP 238  AH 85  HSP 13%  aura 97%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+  23:00 | impact  481.9 | buff 185.7 | sus 175.1 | GE 50.19 | spent  9600
+         Scythe › Ardent › Ionian › Helia › Mandate › Bandleglass Mirror
+         AP 238  AH 85  HSP 13%  aura 97%  | Ardent 30% AS, Helia dump, Mandate 7%, aura locked
+  24:00 | impact  518.2 | buff 186.3 | sus 210.7 | GE 46.27 | spent 11200
+         Scythe › Ardent › Ionian › Helia › Mandate › Harmonic
+         AP 258  AH 95  HSP 13%  aura 98%  | Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked
+  25:00 | impact  528.5 | buff 192.3 | sus 210.7 | GE 47.19 | spent 11200
+         Scythe › Ardent › Ionian › Helia › Mandate › Harmonic
+         AP 258  AH 95  HSP 13%  aura 98%  | Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked
+  26:00 | impact  530.2 | buff 192.3 | sus 212.4 | GE 47.34 | spent 11200
+         Scythe › Ardent › Ionian › Helia › Mandate › Harmonic
+         AP 258  AH 95  HSP 13%  aura 98%  | Ardent 30% AS, Helia dump, Harmonic chain, Mandate 7%, aura locked
+  27:00 | impact  546.0 | buff 194.0 | sus 226.3 | GE 40.99 | spent 13320
+         Ardent › Ionian › Helia › Mandate › Harmonic › Staff
+         AP 268  AH 106  HSP 21%  aura 98%  | DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked
+  28:00 | impact  546.0 | buff 194.0 | sus 226.3 | GE 40.99 | spent 13320
+         Ardent › Ionian › Helia › Mandate › Harmonic › Staff
+         AP 268  AH 106  HSP 21%  aura 98%  | DOUBLE BUFF, Helia dump, Harmonic chain, Mandate 7%, sold Scythe, aura locked
 
 ------------------------------------------------------------------------------
 SPIKE CLOCK (winner)
@@ -126,24 +151,42 @@ SPIKE CLOCK (winner)
   Ionian       ~ 9:00   impact  104.9   buff DPS  119.7   GE 28.35
   Helia        ~14:00   impact  252.8   buff DPS  217.4   GE 41.44
   Ardent       ~ 8:00   impact   75.0   buff DPS  104.0   GE 23.43
+  Staff        ~27:00   impact  546.0   buff DPS  373.0   GE 40.99
+  Harmonic     ~24:00   impact  518.2   buff DPS  358.3   GE 46.27
   Mandate      ~19:00   impact  420.5   buff DPS  332.7   GE 48.33
+
+------------------------------------------------------------------------------
+FULL 6-SLOT PAGE
+------------------------------------------------------------------------------
+  Until Scythe sell:
+    1. Black Mist Scythe
+    2. Ionian Boots of Lucidity
+    3. Ardent Censer
+    4. Echoes of Helia
+    5. Imperial Mandate
+    6. Harmonic Echo   (4th legendary)
+  Endgame ~27:00: SELL Scythe (280g) → Staff of Flowing Waters
+  Final page: Ionian + 5 legendaries
 
 ------------------------------------------------------------------------------
 VERDICT
 ------------------------------------------------------------------------------
-  Best gold-efficient buff path:  Ardent → Helia → Mandate
-  Time-weighted impact 153.2  |  gold-eff 29.99  |  buff-GE 10.08
-  7.3 vs 7.2 Ardent conversion (extra ADC DPS): +73.9 avg
+  Best gold-efficient buff path:  Ardent → Helia → Mandate → Harmonic → Staff
+  Time-weighted impact 233.5  |  gold-eff 33.68  |  buff-GE 11.67
+  7.3 vs 7.2 Ardent conversion (extra ADC DPS): +103.1 avg
 
-  RECOMMENDED PURCHASE ORDER (20-min Sona support, crit ADC):
+  RECOMMENDED PURCHASE ORDER (28-min full page, crit ADC):
   1) Spectral Sickle → Black Mist Scythe (quest ~5:00)
   2) Boots of Speed (first back)
-  3) Ardent Censer (~8:00) — 30% AS + 25 on-hit. Highest buff-GE vs a 7.3 crit ADC.
+  3) Ardent Censer (~8:00) — 30% AS + 25 on-hit. Highest buff-GE vs a 7.3 crit ADC. [1st legendary]
   4) Ionian Boots (~9:00) — aura lock / more W
-  5) Echoes of Helia (~14:00) — Q×2 fills fragments, W dumps them into the ADC
-  6) Imperial Mandate (~19:00) — 7% mark on Power Chord/R; 7.3 crit ADC multiplies it
+  5) Echoes of Helia (~14:00) — Q×2 fills fragments, W dumps them into the ADC [2nd]
+  6) Imperial Mandate (~19:00) — 7% mark on Power Chord/R; 7.3 crit ADC multiplies it [3rd]
+  7) Harmonic Echo (~24:00) — 30/35% chain heal/shield (close 3rd-item GE) [4th]
+  8) SELL Black Mist Scythe (~27:00) — 280g toward 5th
+  9) Staff of Flowing Waters (~27:00) — 40 AP / 15 AH on W; take if ADC is AP [5th (after sell)]
 
-  3rd-item note: #2 Ardent → Helia → Harmonic is within 0.02 GE. Mandate = more 7.3 impact; Harmonic = more heal buff.
+  Runner-up: Ardent → Helia → Mandate → Harmonic → Redemption is within 0.02 GE.
 
   Skill order: W max (heal/shield/Ardent uptime) → Q max → E. R whenever.
   Early: 1 point Q at 1 for last-hit / Helia farm, then W.
@@ -153,8 +196,8 @@ VERDICT
   Power Chord the ADC's target — Font of Life + Mandate mark + 0.5s stun.
 
   Swap: ADC is AP (Kai'Sa/Ez) → Staff instead of Ardent.
-        vs heavy CC → Mikael's instead of 3rd legendary (not in search).
-        5v5 slugfest after 16 → Redemption 4th, not Mandate.
+        vs heavy CC → Mikael's instead of 4th/5th (not in search).
+        Never sell Scythe before 4 legendaries are finished.
 
   Don't: Mandate/Redemption/Harmonic first — they spend 2400–2600g on
   fight-once effects and delay the 30% AS buff the 7.3 ADC actually uses.

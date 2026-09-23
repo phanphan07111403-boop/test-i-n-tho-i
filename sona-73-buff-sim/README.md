@@ -12,17 +12,17 @@ python3 test_sona_73.py
 ```
 
 Outputs:
-- `report.txt` — isolated item GE, 210-path search, minute-by-minute winner
-- `results.json` — machine-readable top paths + timeline
+- `report.txt` — isolated item GE, 210 first-3 paths, 60 full pages, minute-by-minute
+- `results.json` — machine-readable winner + timeline
 
 ## Question answered
 
 Which **purchase order** gets the most **gold efficiency** out of Sona's auras
-and item buffs, and the most **impact** next to a 7.3 crit ADC?
+and item buffs, including a **4th legendary** and **selling Scythe for a 5th**?
 
 ## Winner (sim)
 
-**Ardent Censer → Echoes of Helia → Imperial Mandate**
+**Ardent → Helia → Mandate → Harmonic, then sell Scythe → Staff**
 
 | When | Spike |
 |------|--------|
@@ -30,20 +30,25 @@ and item buffs, and the most **impact** next to a 7.3 crit ADC?
 | ~9:00 | Ionian Boots — aura lock |
 | ~14:00 | **Helia** — Q hits two champs, W dumps Soul Fragments |
 | ~19:00 | **Mandate** — 7% mark on Power Chord / R |
+| ~24:00 | **Harmonic Echo** — 4th, 6th slot, chain heal/shield |
+| ~27:00 | **Sell Scythe** (280g) → **Staff of Flowing Waters** |
 
-3rd item is close: Harmonic Echo wins a bit more heal-buff GE; Mandate wins
-more 7.3 fight impact because it multiplies the crit ADC.
+### 6-slot page (until sell)
+
+1. Black Mist Scythe
+2. Ionian Boots
+3. Ardent Censer
+4. Echoes of Helia
+5. Imperial Mandate
+6. Harmonic Echo
+
+Endgame: Ionian + Ardent + Helia + Mandate + Harmonic + Staff.
+
+5th item is close: **Redemption** is within 0.02 GE (more teamfight heal, less double-buff).
 
 ## Why this order
 
-- Isolated @ 12:00, Ardent is ~37 impact per 1k gold. Staff is ~8. Don't Staff-rush a crit ADC.
-- Helia is the best sustain converter (Sona Q is dual-target). Buy it **second**. Helia-first ranks #6: slightly better raw GE, much worse buff-GE, and you miss ~2 minutes of 7.3 crit conversion.
-- Circlet→Diadem is real HSP, but in a 20-min support curve it loses to a second 2400g combat item.
-- Mandate / Redemption / Harmonic **first** spend 2400–2600g on a fight-once effect and miss the 2v2 Ardent spike.
-
-## Play
-
-W max → Q max → E. Rotate Q→W→E so auras never drop. W even at full HP
-(Ardent still procs). Power Chord the person your ADC is hitting.
-
-AP ADC (Kai'Sa / Ezreal): Staff instead of Ardent.
+- Isolated @ 12:00, Ardent is ~37 impact per 1k gold. Staff is ~8 as a *first* item. Don't Staff-rush a crit ADC — it is a **5th** after sell, when you want AP/HSP and the Rapids double buff.
+- Helia is the best sustain converter (Sona Q is dual-target). Buy it **second**.
+- Mandate 3rd multiplies the 7.3 crit ADC. Harmonic 4th spreads W in 5v5.
+- Never sell Scythe before four legendaries are finished. The sim only sells when 280g actually completes the 5th.

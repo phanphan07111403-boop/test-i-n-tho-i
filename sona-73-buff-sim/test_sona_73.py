@@ -7,16 +7,21 @@ import unittest
 
 from simulate_sona_73 import (
     CRIT_73,
+    GAME_MINUTES,
     ITEMS,
     LEGENDARIES,
+    MAX_SLOTS,
+    SCYTHE_SELL,
     adc_base,
     auto_dps,
     evaluate,
+    finished_legendaries,
     flags_from,
     gold_at_minute,
     harmony_hsp,
     isolated_item_ge,
     search,
+    search_full,
     simulate_core,
     support_level,
 )
@@ -51,16 +56,18 @@ class TestPatch73Items(unittest.TestCase):
 class TestEconomy(unittest.TestCase):
     def test_gold_monotonic(self) -> None:
         prev = gold_at_minute(0)
-        for m in range(1, 21):
+        for m in range(1, GAME_MINUTES + 1):
             g = gold_at_minute(m)
             self.assertGreater(g, prev)
             prev = g
         self.assertGreater(gold_at_minute(20), 9000)
+        self.assertGreater(gold_at_minute(28), 13000)
 
     def test_support_level_curve(self) -> None:
         self.assertEqual(support_level(1), 2)
         self.assertEqual(support_level(6), 7)
         self.assertLessEqual(support_level(20), 15)
+        self.assertLessEqual(support_level(28), 17)
 
 
 class TestShop(unittest.TestCase):
@@ -145,11 +152,60 @@ class TestSearch(unittest.TestCase):
         self.assertGreater(winner["tw_impact"], mandate_first["tw_impact"])
 
     def test_top_paths_share_ardent_helia(self) -> None:
-        top4 = [tuple(r["core"][:2]) for r in self.scored[:4]]
-        self.assertTrue(all(p == ("Ardent Censer", "Echoes of Helia") for p in top4))
+        winner = self.scored[0]
+        self.assertEqual(tuple(winner["core"][:2]), ("Ardent Censer", "Echoes of Helia"))
+        top = [tuple(r["core"][:2]) for r in self.scored[:2]]
+        self.assertTrue(all(p[0] == "Ardent Censer" for p in top))
 
     def test_legendaries_pool(self) -> None:
         self.assertEqual(len(LEGENDARIES), 7)
+
+
+class TestFullPage(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.snaps = simulate_core(
+            [
+                "Ardent Censer",
+                "Echoes of Helia",
+                "Imperial Mandate",
+                "Harmonic Echo",
+                "Redemption",
+            ]
+        )
+        cls.scored, _ = search_full(["Ardent Censer", "Echoes of Helia"])
+
+    def test_never_exceeds_six_slots(self) -> None:
+        for s in self.snaps:
+            self.assertLessEqual(len(s.items), MAX_SLOTS, s.items)
+
+    def test_fourth_legendary_completes(self) -> None:
+        fourth_m = next(
+            (s.minute for s in self.snaps if finished_legendaries(s.items) >= 4),
+            None,
+        )
+        self.assertIsNotNone(fourth_m)
+        self.assertLessEqual(fourth_m, 26)
+
+    def test_sells_scythe_for_fifth(self) -> None:
+        sold = next((s for s in self.snaps if "sold Scythe" in s.notes), None)
+        self.assertIsNotNone(sold)
+        self.assertNotIn("Black Mist Scythe", sold.items)
+        self.assertGreaterEqual(finished_legendaries(self.snaps[-1].items), 5)
+
+    def test_scythe_sell_value(self) -> None:
+        self.assertEqual(SCYTHE_SELL, 280)
+
+    def test_full_search_locks_ardent_helia(self) -> None:
+        winner = self.scored[0]
+        self.assertEqual(winner["core"][0], "Ardent Censer")
+        self.assertEqual(winner["core"][1], "Echoes of Helia")
+        self.assertEqual(len(winner["core"]), 5)
+        self.assertTrue(winner["sold"])
+        self.assertEqual(winner["n_leg"], 5)
+
+    def test_full_search_size(self) -> None:
+        self.assertEqual(len(self.scored), 60)
 
 
 if __name__ == "__main__":

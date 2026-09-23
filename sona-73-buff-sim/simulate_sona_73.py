@@ -19,12 +19,14 @@ from typing import Dict, List, Optional, Sequence, Tuple
 import json
 import os
 
-GAME_MINUTES = 20
+GAME_MINUTES = 28  # long enough for 4 legendaries + sell Scythe → 5th
 CRIT_73 = 2.00
 CRIT_72 = 1.75
 AS_CAP_73 = 3.0
 AS_CAP_72 = 2.5
 IE_CRIT_DMG = 2.30
+MAX_SLOTS = 6
+SCYTHE_SELL = 280  # Wild Rift ~70% of the 400g sickle/scythe invest
 
 # Baseline runes baked into the kit (recommended page).
 REVITALIZE_HSP = 0.05
@@ -44,16 +46,20 @@ def combat_frac(minute: int) -> float:
         return COMBAT_FRAC["lane"]
     if minute <= 14:
         return COMBAT_FRAC["mid"]
-    return COMBAT_FRAC["late"]
+    if minute <= 20:
+        return COMBAT_FRAC["late"]
+    return 0.52  # baron / elder fights
 
 
 def time_weight(minute: int) -> float:
-    # First-item / 2v2 window decides more games than a 20:00 4th item.
+    # First-item / 2v2 window decides more games than a 4th/5th.
     if minute <= 8:
         return 1.30
     if minute <= 14:
         return 1.20
-    return 1.00
+    if minute <= 20:
+        return 1.00
+    return 0.85
 
 
 # ---------------------------------------------------------------------------
@@ -62,7 +68,7 @@ def time_weight(minute: int) -> float:
 
 
 def gold_at_minute(m: int) -> int:
-    """Typical WR support (tribute + souls). ~9.8k at 20:00."""
+    """Typical WR support (tribute + souls). ~9.4k at 20:00, ~14k at 28:00."""
     if m <= 0:
         return 500
     total = 500
@@ -71,8 +77,10 @@ def gold_at_minute(m: int) -> int:
             total += 280
         elif t <= 10:
             total += 430
-        else:
+        elif t <= 20:
             total += 520
+        else:
+            total += 580  # late objectives on games that reach a full page
     return total
 
 
@@ -85,8 +93,9 @@ def support_level(m: int) -> int:
         1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 8,
         9: 9, 10: 10, 11: 10, 12: 11, 13: 11, 14: 12,
         15: 12, 16: 13, 17: 13, 18: 14, 19: 14, 20: 15,
+        21: 15, 22: 15, 23: 16, 24: 16, 25: 16, 26: 17, 27: 17, 28: 17,
     }
-    return table.get(m, min(15, 1 + m))
+    return table.get(m, min(17, 1 + m))
 
 
 def adc_gold(m: int) -> int:
@@ -108,8 +117,9 @@ def adc_level(m: int) -> int:
         1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9,
         9: 10, 10: 10, 11: 11, 12: 12, 13: 12, 14: 13,
         15: 13, 16: 14, 17: 14, 18: 15, 19: 15, 20: 16,
+        21: 16, 22: 17, 23: 17, 24: 17, 25: 18, 26: 18, 27: 18, 28: 18,
     }
-    return table.get(m, min(16, 1 + m))
+    return table.get(m, min(18, 1 + m))
 
 
 def scythe_ap(minute: int) -> float:
@@ -319,14 +329,22 @@ def basic_cd(base: float, ah: float, level: int) -> float:
 
 
 def build_plan(core: Sequence[str]) -> List[str]:
-    """Sickle → boots → (Tear if Circlet) → item1 → Ionian → rest."""
+    """Sickle → boots → item1 → Ionian → rest. Tear sits just before Circlet."""
     plan = ["Spectral Sickle", "Boots of Speed"]
-    if "Whispering Circlet" in core:
-        plan.append("Tear of the Goddess")
+    if not core:
+        return plan
     first, *rest = list(core)
+    early_circlet = first == "Whispering Circlet" or (
+        rest[:1] == ["Whispering Circlet"]
+    )
+    if early_circlet:
+        plan.append("Tear of the Goddess")
     plan.append(first)
     plan.append("Ionian Boots of Lucidity")
-    plan.extend(rest)
+    for name in rest:
+        if name == "Whispering Circlet" and "Tear of the Goddess" not in plan:
+            plan.append("Tear of the Goddess")
+        plan.append(name)
     return plan
 
 
@@ -339,6 +357,7 @@ class ShopState:
     circlet_minute: Optional[int] = None
     plan: List[str] = field(default_factory=list)
     plan_i: int = 0
+    sold_scythe: bool = False
 
 
 def _credit(owned: List[str], name: str) -> Tuple[int, List[str]]:
@@ -360,6 +379,19 @@ def remaining_cost(owned: List[str], name: str) -> int:
     return max(0, ITEMS[name].cost - credit)
 
 
+def net_slots_after(owned: List[str], name: str) -> int:
+    if name == "Black Mist Scythe":
+        return len(owned)  # replaces sickle
+    if name == "Diadem of Songs":
+        return len(owned)  # replaces circlet
+    _, rem = _credit(owned, name)
+    return len(owned) - len(rem) + 1
+
+
+def finished_legendaries(owned: List[str]) -> int:
+    return sum(1 for n in owned if "legendary" in ITEMS[n].tags)
+
+
 def try_buy(state: ShopState, name: str) -> bool:
     if name in state.owned:
         return False
@@ -374,6 +406,8 @@ def try_buy(state: ShopState, name: str) -> bool:
             state.owned.append(name)
             return True
         return False
+    if net_slots_after(state.owned, name) > MAX_SLOTS:
+        return False
     cost = remaining_cost(state.owned, name)
     if cost > state.pocket:
         return False
@@ -384,6 +418,41 @@ def try_buy(state: ShopState, name: str) -> bool:
         state.owned.remove(r)
     state.owned.append(name)
     return True
+
+
+def sell_scythe(state: ShopState) -> bool:
+    if "Black Mist Scythe" not in state.owned:
+        return False
+    state.owned.remove("Black Mist Scythe")
+    state.pocket += SCYTHE_SELL
+    state.spent = max(0, state.spent - SCYTHE_SELL)
+    state.sold_scythe = True
+    return True
+
+
+def next_legendary(state: ShopState) -> Optional[str]:
+    for i in range(state.plan_i, len(state.plan)):
+        name = state.plan[i]
+        if name in ITEMS and "legendary" in ITEMS[name].tags:
+            if name in state.owned or (
+                name == "Whispering Circlet" and "Diadem of Songs" in state.owned
+            ):
+                continue
+            return name
+    return None
+
+
+def maybe_sell_for_fifth(state: ShopState) -> None:
+    """Sell Scythe only when 4 legendaries are done AND the gold finishes a 5th."""
+    if state.sold_scythe or "Black Mist Scythe" not in state.owned:
+        return
+    if finished_legendaries(state.owned) < 4:
+        return
+    nxt = next_legendary(state)
+    if not nxt:
+        return
+    if remaining_cost(state.owned, nxt) <= state.pocket + SCYTHE_SELL:
+        sell_scythe(state)
 
 
 def maybe_diadem(state: ShopState, minute: int) -> None:
@@ -411,6 +480,7 @@ def shop_tick(state: ShopState, minute: int) -> None:
         try_buy(state, "Black Mist Scythe")
 
     maybe_diadem(state, minute)
+    maybe_sell_for_fifth(state)
 
     # Walk the planned finished items. When blocked, buy its components.
     while state.plan_i < len(state.plan):
@@ -428,15 +498,20 @@ def shop_tick(state: ShopState, minute: int) -> None:
                     state.circlet_minute = minute
                 state.plan_i += 1
                 maybe_diadem(state, minute)
+                maybe_sell_for_fifth(state)
                 continue
         # Partial components for the blocked item.
+        bought_comp = False
         for comp in NEXT_COMPS.get(nxt, []):
             if comp in state.owned:
                 continue
             if ITEMS[comp].cost <= state.pocket:
-                try_buy(state, comp)
-                if comp == "Tear of the Goddess" and state.tear_minute is None:
-                    state.tear_minute = minute
+                if try_buy(state, comp):
+                    bought_comp = True
+                    if comp == "Tear of the Goddess" and state.tear_minute is None:
+                        state.tear_minute = minute
+        if bought_comp and remaining_cost(state.owned, nxt) <= state.pocket:
+            continue
         break
 
     if "Ionian Boots of Lucidity" in state.owned and "Boots of Speed" in state.owned:
@@ -733,6 +808,13 @@ def evaluate(owned: List[str], minute: int, spent: int) -> Snap:
         notes.append("Redemption")
     if f["mandate"]:
         notes.append("Mandate 7%")
+    sold = (
+        minute >= 5
+        and "Black Mist Scythe" not in owned
+        and "Spectral Sickle" not in owned
+    )
+    if sold:
+        notes.append("sold Scythe")
     if aura_uptime >= 0.90:
         notes.append("aura locked")
 
@@ -790,7 +872,11 @@ def score_path(snaps: List[Snap]) -> Dict[str, float]:
     tw_buff = sum(s.buff_impact * time_weight(s.minute) for s in snaps) / tw
     tw_ge = sum(s.gold_eff * time_weight(s.minute) for s in snaps) / tw
     tw_bge = sum(s.buff_gold_eff * time_weight(s.minute) for s in snaps) / tw
-    impact_20 = snaps[-1].total_impact
+    impact_20 = snaps[19].total_impact if len(snaps) >= 20 else snaps[-1].total_impact
+    impact_end = snaps[-1].total_impact
+    n_leg = finished_legendaries(snaps[-1].items)
+    sold = any("sold Scythe" in s.notes for s in snaps)
+    sold_m = next((s.minute for s in snaps if "sold Scythe" in s.notes), None)
     patch_delta = sum(
         (s.extra_adc_dps - s.extra_adc_dps_72) * time_weight(s.minute) for s in snaps
     ) / tw
@@ -798,7 +884,7 @@ def score_path(snaps: List[Snap]) -> Dict[str, float]:
         (
             s.minute
             for s in snaps
-            if any(ITEMS[n].tags and "legendary" in ITEMS[n].tags for n in s.items)
+            if any("legendary" in ITEMS[n].tags for n in s.items)
         ),
         20,
     )
@@ -810,6 +896,10 @@ def score_path(snaps: List[Snap]) -> Dict[str, float]:
         "tw_ge": tw_ge,
         "tw_bge": tw_bge,
         "impact_20": impact_20,
+        "impact_end": impact_end,
+        "n_leg": n_leg,
+        "sold": sold,
+        "sold_m": sold_m or 99,
         "patch_delta": patch_delta,
         "first_leg": first_leg,
         "ardent_m": ardent_m or 99,
@@ -817,16 +907,7 @@ def score_path(snaps: List[Snap]) -> Dict[str, float]:
     }
 
 
-def search() -> Tuple[List[dict], Dict[str, List[Snap]]]:
-    results: Dict[str, List[Snap]] = {}
-    scored: List[dict] = []
-    for core in permutations(LEGENDARIES, 3):
-        label = path_label(core)
-        snaps = simulate_core(core)
-        results[label] = snaps
-        sc = score_path(snaps)
-        scored.append({"label": label, "core": list(core), **sc})
-
+def _rank(scored: List[dict]) -> List[dict]:
     max_impact = max(r["tw_impact"] for r in scored)
     max_ge = max(r["tw_ge"] for r in scored)
     max_bge = max(r["tw_bge"] for r in scored)
@@ -834,10 +915,36 @@ def search() -> Tuple[List[dict], Dict[str, List[Snap]]]:
         ni = r["tw_impact"] / max_impact
         ng = r["tw_ge"] / max_ge
         nb = r["tw_bge"] / max_bge
-        # 50% game impact, 30% overall gold eff, 20% buff-only gold eff.
         r["combined"] = 0.50 * ni + 0.30 * ng + 0.20 * nb
     scored.sort(key=lambda r: r["combined"], reverse=True)
-    return scored, results
+    return scored
+
+
+def search(n: int = 3) -> Tuple[List[dict], Dict[str, List[Snap]]]:
+    results: Dict[str, List[Snap]] = {}
+    scored: List[dict] = []
+    for core in permutations(LEGENDARIES, n):
+        label = path_label(core)
+        snaps = simulate_core(core)
+        results[label] = snaps
+        sc = score_path(snaps)
+        scored.append({"label": label, "core": list(core), **sc})
+    return _rank(scored), results
+
+
+def search_full(front: Sequence[str]) -> Tuple[List[dict], Dict[str, List[Snap]]]:
+    """Lock items 1–2, search 3rd / 4th / 5th (5th after selling Scythe)."""
+    rest = [n for n in LEGENDARIES if n not in front]
+    results: Dict[str, List[Snap]] = {}
+    scored: List[dict] = []
+    for tail in permutations(rest, 3):
+        core = list(front) + list(tail)
+        label = path_label(core)
+        snaps = simulate_core(core)
+        results[label] = snaps
+        sc = score_path(snaps)
+        scored.append({"label": label, "core": core, **sc})
+    return _rank(scored), results
 
 
 def isolated_item_ge(minute: int = 12) -> List[dict]:
@@ -878,14 +985,19 @@ def first_owned(snaps: List[Snap], name: str) -> Optional[int]:
     return next((s.minute for s in snaps if name in s.items), None)
 
 
-def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict]) -> str:
-    winner = scored[0]
-    snaps = results[winner["label"]]
+def summarize(
+    scored3: List[dict],
+    scored_full: List[dict],
+    results_full: Dict[str, List[Snap]],
+    iso: List[dict],
+) -> str:
+    winner = scored_full[0]
+    snaps = results_full[winner["label"]]
     lines: List[str] = []
     lines.append("=" * 78)
     lines.append("SONA — WILD RIFT 7.3 BUFF GOLD-EFFICIENCY SIM")
-    lines.append("20-minute support game | partner: 7.3 crit ADC (Yun Tal → IE)")
-    lines.append("Sona kit: 7.2b numbers. Items / crit / AS cap: official 7.3 notes.")
+    lines.append("28-minute long game | 6 slots, then sell Scythe for a 5th legendary")
+    lines.append("Partner: 7.3 crit ADC (Yun Tal → IE). Sona kit: 7.2b. Items: 7.3 notes.")
     lines.append("=" * 78)
     lines.append("")
     lines.append("WHY 7.3 BUFFS SONA EVEN WITHOUT A CHAMPION HOTFIX")
@@ -901,7 +1013,8 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
     lines.append("  Fight        = Mandate 7% mark + Power Chord/R lock-on-ADC")
     lines.append("  Gold eff     = total impact per 1000g spent")
     lines.append("  Combined     = 50% time-weighted impact + 30% gold-eff + 20% buff gold-eff")
-    lines.append("  Search       = every 3-item order of the 7 enchanter legendaries (210 paths)")
+    lines.append("  Search       = 210 first-3 orders, then 60 full pages (3rd/4th/5th)")
+    lines.append("  Slots        = Scythe + Ionian + 4 legendaries. Sell Scythe → 5th.")
     lines.append("")
 
     lines.append("-" * 78)
@@ -918,19 +1031,20 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
     lines.append("")
 
     lines.append("-" * 78)
-    lines.append("TOP 10 BUILD ORDERS  (combined score)")
+    lines.append("TOP 10 FULL BUILDS  (3rd → 4th → sell Scythe → 5th)")
     lines.append("-" * 78)
     lines.append(
-        f"  {'#':>2}  {'Order':<36} {'Impact':>7} {'GE':>6} {'BuffGE':>7} {'20m':>6} {'Δ7.3':>6}"
+        f"  {'#':>2}  {'Order':<52} {'Impact':>7} {'GE':>6} {'28m':>6} {'Sell':>5}"
     )
-    for i, r in enumerate(scored[:10], 1):
+    for i, r in enumerate(scored_full[:10], 1):
+        sell = f"{int(r['sold_m'])}:00" if r["sold"] else "—"
         lines.append(
-            f"  {i:>2}  {r['label']:<36} {r['tw_impact']:>7.1f} {r['tw_ge']:>6.2f} "
-            f"{r['tw_bge']:>7.2f} {r['impact_20']:>6.1f} {r['patch_delta']:>6.1f}"
+            f"  {i:>2}  {r['label']:<52} {r['tw_impact']:>7.1f} {r['tw_ge']:>6.2f} "
+            f"{r['impact_end']:>6.1f} {sell:>5}"
         )
     lines.append("")
-    lines.append("  Traps that look strong on paper but lose gold efficiency:")
-    traps = [r for r in scored if r["core"][0] in (
+    lines.append("  First-3 traps (210-path search, items 1–3 only):")
+    traps = [r for r in scored3 if r["core"][0] in (
         "Imperial Mandate",
         "Redemption",
         "Harmonic Echo",
@@ -944,7 +1058,7 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
         if first in shown:
             continue
         shown.add(first)
-        rank = next(i for i, x in enumerate(scored, 1) if x["label"] == r["label"])
+        rank = next(i for i, x in enumerate(scored3, 1) if x["label"] == r["label"])
         lines.append(
             f"    {short_name(first)} first  → best such path ranks #{rank}  "
             f"({r['label']}, GE {r['tw_ge']:.2f})"
@@ -955,9 +1069,7 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
     lines.append(f"MINUTE-BY-MINUTE  — winner: {winner['label']}")
     lines.append("-" * 78)
     for s in snaps:
-        item_s = " › ".join(short_name(n) for n in s.items[:6])
-        if len(s.items) > 6:
-            item_s += " › …"
+        item_s = " › ".join(short_name(n) for n in s.items)
         lines.append(
             f"  {s.minute:>2}:00 | impact {s.total_impact:>6.1f} | buff {s.buff_impact:>5.1f} | "
             f"sus {s.sustain_impact:>5.1f} | GE {s.gold_eff:>5.2f} | spent {s.spent:>5}"
@@ -994,6 +1106,26 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
 
     lines.append("")
     lines.append("-" * 78)
+    lines.append("FULL 6-SLOT PAGE")
+    lines.append("-" * 78)
+    core = winner["core"]
+    fourth = core[3] if len(core) > 3 else "—"
+    fifth = core[4] if len(core) > 4 else "—"
+    sold_m = int(winner["sold_m"]) if winner["sold"] else None
+    lines.append("  Until Scythe sell:")
+    lines.append("    1. Black Mist Scythe")
+    lines.append("    2. Ionian Boots of Lucidity")
+    lines.append(f"    3. {core[0]}")
+    lines.append(f"    4. {core[1]}")
+    lines.append(f"    5. {core[2]}")
+    lines.append(f"    6. {fourth}   (4th legendary)")
+    if sold_m:
+        lines.append(f"  Endgame ~{sold_m}:00: SELL Scythe ({SCYTHE_SELL}g) → {fifth}")
+        lines.append("  Final page: Ionian + 5 legendaries")
+    else:
+        lines.append("  Scythe sell: not reached (not enough gold for a 5th)")
+    lines.append("")
+    lines.append("-" * 78)
     lines.append("VERDICT")
     lines.append("-" * 78)
     lines.append(f"  Best gold-efficient buff path:  {winner['label']}")
@@ -1005,7 +1137,7 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
         f"  7.3 vs 7.2 Ardent conversion (extra ADC DPS): +{winner['patch_delta']:.1f} avg"
     )
     lines.append("")
-    lines.append("  RECOMMENDED PURCHASE ORDER (20-min Sona support, crit ADC):")
+    lines.append("  RECOMMENDED PURCHASE ORDER (28-min full page, crit ADC):")
     lines.append("  1) Spectral Sickle → Black Mist Scythe (quest ~5:00)")
     lines.append("  2) Boots of Speed (first back)")
     why = {
@@ -1023,24 +1155,30 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
     if first_leg_m and ionian_m and ionian_m < first_leg_m:
         lines.append(f"  {n}) Ionian Boots (~{ionian_m}:00) — aura lock / more W")
         n += 1
-    for name in winner["core"]:
+    for i, name in enumerate(winner["core"]):
+        if i == 4 and sold_m:
+            lines.append(
+                f"  {n}) SELL Black Mist Scythe (~{sold_m}:00) — {SCYTHE_SELL}g toward 5th"
+            )
+            n += 1
         m = first_owned(snaps, name)
         if name == "Whispering Circlet":
             dm = first_owned(snaps, "Diadem of Songs")
             extra = f", Diadem free ~{dm}:00" if dm else " (stacking to Diadem)"
             lines.append(f"  {n}) {name} (~{m}:00{extra})")
         else:
-            lines.append(f"  {n}) {name} (~{m}:00) {why.get(name, '')}")
+            slot = {0: "1st legendary", 1: "2nd", 2: "3rd", 3: "4th", 4: "5th (after sell)"}.get(i, "")
+            tag = f" [{slot}]" if slot else ""
+            lines.append(f"  {n}) {name} (~{m}:00) {why.get(name, '')}{tag}")
         n += 1
         if name == winner["core"][0] and ionian_m and first_leg_m and ionian_m > first_leg_m:
             lines.append(f"  {n}) Ionian Boots (~{ionian_m}:00) — aura lock / more W")
             n += 1
-    runner = scored[1]
+    runner = scored_full[1]
     lines.append("")
     lines.append(
-        f"  3rd-item note: #{2} {runner['label']} is within "
-        f"{abs(winner['tw_ge'] - runner['tw_ge']):.2f} GE. "
-        "Mandate = more 7.3 impact; Harmonic = more heal buff."
+        f"  Runner-up: {runner['label']} is within "
+        f"{abs(winner['tw_ge'] - runner['tw_ge']):.2f} GE."
     )
     lines.append("")
     lines.append("  Skill order: W max (heal/shield/Ardent uptime) → Q max → E. R whenever.")
@@ -1051,8 +1189,8 @@ def summarize(scored: List[dict], results: Dict[str, List[Snap]], iso: List[dict
     lines.append("  Power Chord the ADC's target — Font of Life + Mandate mark + 0.5s stun.")
     lines.append("")
     lines.append("  Swap: ADC is AP (Kai'Sa/Ez) → Staff instead of Ardent.")
-    lines.append("        vs heavy CC → Mikael's instead of 3rd legendary (not in search).")
-    lines.append("        5v5 slugfest after 16 → Redemption 4th, not Mandate.")
+    lines.append("        vs heavy CC → Mikael's instead of 4th/5th (not in search).")
+    lines.append("        Never sell Scythe before 4 legendaries are finished.")
     lines.append("")
     lines.append("  Don't: Mandate/Redemption/Harmonic first — they spend 2400–2600g on")
     lines.append("  fight-once effects and delay the 30% AS buff the 7.3 ADC actually uses.")
@@ -1093,6 +1231,19 @@ def export_json(
             "tw_bge": winner["tw_bge"],
             "combined": winner["combined"],
             "patch_delta": winner["patch_delta"],
+            "sold_m": None if not winner["sold"] else winner["sold_m"],
+            "n_leg": winner["n_leg"],
+            "impact_20": winner["impact_20"],
+            "impact_end": winner["impact_end"],
+            "page": {
+                "until_sell": [
+                    "Black Mist Scythe",
+                    "Ionian Boots of Lucidity",
+                    *winner["core"][:4],
+                ],
+                "sell_scythe_gold": SCYTHE_SELL,
+                "fifth": winner["core"][4] if len(winner["core"]) > 4 else None,
+            },
         },
         "isolated_ge_12": iso,
         "top10": [
@@ -1144,16 +1295,23 @@ def export_json(
 
 
 def main() -> None:
-    scored, results = search()
+    scored3, _ = search(3)
+    front = scored3[0]["core"][:2]
+    scored_full, results_full = search_full(front)
     iso = isolated_item_ge(12)
-    report = summarize(scored, results, iso)
+    report = summarize(scored3, scored_full, results_full, iso)
     print(report)
     out_dir = os.path.dirname(os.path.abspath(__file__))
     with open(os.path.join(out_dir, "report.txt"), "w", encoding="utf-8") as fh:
         fh.write(report + "\n")
-    export_json(scored, results, iso, os.path.join(out_dir, "results.json"))
+    export_json(scored_full, results_full, iso, os.path.join(out_dir, "results.json"))
     print(f"\nWrote {out_dir}/report.txt and results.json")
-    print(f"Winner: {scored[0]['label']}  combined={scored[0]['combined']:.4f}")
+    print(f"Winner: {scored_full[0]['label']}  combined={scored_full[0]['combined']:.4f}")
+    print(
+        f"4th={scored_full[0]['core'][3]}  "
+        f"sell={scored_full[0]['sold_m']}  "
+        f"5th={scored_full[0]['core'][4]}"
+    )
 
 
 if __name__ == "__main__":
