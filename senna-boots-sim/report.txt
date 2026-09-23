@@ -1,0 +1,158 @@
+==============================================================================
+SENNA — IONIAN vs BOOTS OF DYNAMISM (Wild Rift 7.3)
+Same core, only the boot line. 20:00. Transcendence on both paths.
+ADC core: Draktharr → Collector → Magnetic. Support: Ardent → Helia → Harmonic.
+==============================================================================
+
+BOOT STATS (7.2 / 7.2a — unchanged in 7.3 notes)
+------------------------------------------------------------------------------
+  T2 Ionian    1000g  15 AH, 15% summoner haste. Recipe: Speed + Ring + 300.
+  T2 Dynamism  1200g  15 AD, 10 flat armor pen. Recipe: Speed + Long Sword + 300.
+  T3 Crimson   2000g  after 10:00. 25 AH, 75% mana regen, 20% summoner haste,
+                      8% MS (ranged) after Q/heal/Flash.
+  T3 Armorcrusher 2200g after 10:00. 20 AD, 10 flat + 6% pen, 20 OOC MS.
+  7.2a Armorcrusher nerf: AD 25→20, flat pen 12→10. 6% pen stayed.
+  Ionia is the BOOT. Ability haste also comes from Transcendence, Draktharr,
+  Helia, Harmonic, Serylda — do not treat 'needs HA' as 'buy Ionia'.
+
+  Gold @20: ADC 12180  Support 10180
+
+------------------------------------------------------------------------------
+ADC — 8s execute window (AA→Q + Relic + DH + Nightstalker). Souls equal across boots.
+------------------------------------------------------------------------------
+   Min      Dyn    Ionia        Δ   Q/m D   Q/m I  FlashD  FlashI  winner
+    1:00      369      369    +0.0%     7.6     7.6     150     150  DYN
+    2:00      488      444   +10.1%     7.6     8.0     150     150  DYN
+    3:00      545      508    +7.4%     7.7     8.9     150     130  DYN
+    4:00      657      615    +6.8%     8.3     9.5     150     130  DYN
+    5:00      945      881    +7.2%     8.4     9.6     150     130  DYN
+    6:00     1119     1047    +6.9%     8.5     9.7     150     130  DYN
+         Dyn  : Boots of Dynamism › Serrated Dirk
+         Ionia: Long Sword › Ionian Boots of Lucidity › Serrated Dirk
+    7:00     1420     1332    +6.6%    10.2    11.5     150     130  DYN
+    8:00     1847     1494   +23.6%     9.5    11.7     150     130  DYN
+         Dyn  : Boots of Dynamism › Duskblade of Draktharr
+         Ionia: Long Sword › Ionian Boots of Lucidity › Serrated Dirk › Caulfield's Warhammer
+    9:00     1985     1859    +6.8%     9.6    10.9     150     130  DYN
+   10:00     2328     2178    +6.9%     9.6    10.9     150     130  DYN
+         Dyn  : Boots of Dynamism › Duskblade of Draktharr › Pickaxe
+         Ionia: Long Sword › Ionian Boots of Lucidity › Duskblade of Draktharr › Pickaxe
+   11:00     2683     2344   +14.5%     9.7    11.0     150     130  DYN
+   12:00     2603     2457    +5.9%     9.9    11.2     150     130  DYN
+         Dyn  : Boots of Dynamism › Duskblade of Draktharr › Pickaxe › Cloak of Agility
+         Ionia: Long Sword › Ionian Boots of Lucidity › Duskblade of Draktharr › Pickaxe › Cloak of Agility
+   13:00     3342     2595   +28.8%     9.9    11.2     150     130  DYN
+   14:00     3656     3438    +6.4%    10.0    11.3     150     130  DYN
+         Dyn  : Boots of Dynamism › Duskblade of Draktharr › The Collector
+         Ionia: Long Sword › Ionian Boots of Lucidity › Duskblade of Draktharr › The Collector
+   15:00     4004     3630   +10.3%    10.0    12.3     150     125  DYN
+   16:00     4423     4008   +10.4%    10.1    12.4     150     125  DYN
+         Dyn  : Duskblade of Draktharr › The Collector › Armorcrusher Boots › Cloak of Agility
+         Ionia: Long Sword › Duskblade of Draktharr › The Collector › Crimson Lucidity › Cloak of Agility
+   17:00     4606     4175   +10.3%    10.1    12.4     150     125  DYN
+   18:00     4834     4385   +10.2%    10.3    12.6     150     125  DYN
+         Dyn  : Duskblade of Draktharr › The Collector › Armorcrusher Boots › Cloak of Agility
+         Ionia: Long Sword › Duskblade of Draktharr › The Collector › Crimson Lucidity › Cloak of Agility
+   19:00     5681     5154   +10.2%    11.0    13.5     150     125  DYN
+   20:00     5886     5341   +10.2%    11.0    13.5     150     125  DYN
+         Dyn  : Duskblade of Draktharr › The Collector › Armorcrusher Boots › Magnetic Blaster
+         Ionia: Long Sword › Duskblade of Draktharr › The Collector › Crimson Lucidity › Magnetic Blaster
+
+  Combat area 20p: Dyn 53421  vs  Ionia 48254  (+10.7%)
+  Q/min area:      Dyn 188.8  vs  Ionia 219.6  (Ionia +16.3%)
+  Dyn wins 20/20 minutes on combo.
+  T2 spike: Dynamism ~2:00  Ionian ~3:00
+  T3 spike: Armorcrusher ~15:00  Crimson ~15:00
+  Draktharr: Dyn ~8:00  Ionia ~9:00
+  Collector: Dyn ~13:00  Ionia ~14:00
+
+------------------------------------------------------------------------------
+SUPPORT — 8s window damage (Q poke + autos + W). Heal is scored separately.
+------------------------------------------------------------------------------
+   Min      Dyn    Ionia        Δ   Q/m D   Q/m I  FlashD  FlashI  winner
+    1:00      185      185    +0.0%     7.6     7.6     150     150  DYN
+    2:00      215      215    +0.0%     7.6     7.6     150     150  DYN
+    3:00      271      246   +10.2%     7.7     8.1     150     150  DYN
+    4:00      353      306   +15.3%     8.3     9.5     150     130  DYN
+    5:00      368      320   +14.8%     8.4     9.6     150     130  DYN
+    6:00      419      370   +13.1%     9.3    10.5     150     130  DYN
+         Dyn  : Boots of Dynamism › Amplifying Tome › Black Mist Scythe
+         Ionia: Ionian Boots of Lucidity › Amplifying Tome › Black Mist Scythe
+    7:00      451      402   +12.1%     9.4    10.7     150     130  DYN
+    8:00      464      415   +11.8%     9.4    10.7     150     130  DYN
+         Dyn  : Boots of Dynamism › Amplifying Tome › Black Mist Scythe
+         Ionia: Ionian Boots of Lucidity › Amplifying Tome › Black Mist Scythe
+    9:00      600      540   +11.0%    10.1    11.5     150     130  DYN
+   10:00      653      590   +10.7%    10.2    11.6     150     130  DYN
+         Dyn  : Boots of Dynamism › Ardent Censer › Black Mist Scythe
+         Ionia: Ionian Boots of Lucidity › Ardent Censer › Black Mist Scythe
+   11:00      691      626   +10.5%    11.2    12.6     150     130  DYN
+   12:00      633      578    +9.5%    11.3    12.7     150     130  DYN
+         Dyn  : Boots of Dynamism › Ardent Censer › Bandleglass Mirror › Black Mist Scythe
+         Ionia: Ionian Boots of Lucidity › Ardent Censer › Bandleglass Mirror › Black Mist Scythe
+   13:00      668      611    +9.4%    12.2    13.7     150     130  DYN
+   14:00      688      630    +9.2%    12.4    13.9     150     130  DYN
+         Dyn  : Boots of Dynamism › Ardent Censer › Echoes of Helia › Black Mist Scythe
+         Ionia: Ionian Boots of Lucidity › Ardent Censer › Echoes of Helia › Black Mist Scythe
+   15:00      724      681    +6.2%    12.4    14.9     150     125  DYN
+   16:00      784      702   +11.8%    12.5    15.0     150     125  DYN
+         Dyn  : Ardent Censer › Echoes of Helia › Armorcrusher Boots › Black Mist Scythe
+         Ionia: Ardent Censer › Echoes of Helia › Crimson Lucidity › Black Mist Scythe
+   17:00      823      737   +11.6%    13.5    16.1     150     125  DYN
+   18:00      846      759   +11.5%    13.7    16.3     150     125  DYN
+         Dyn  : Ardent Censer › Echoes of Helia › Armorcrusher Boots › Kindlegem › Black Mist Scythe
+         Ionia: Ardent Censer › Echoes of Helia › Crimson Lucidity › Kindlegem › Black Mist Scythe
+   19:00      886      796   +11.4%    14.7    17.3     150     125  DYN
+   20:00      911      818   +11.3%    14.9    17.5     150     125  DYN
+         Dyn  : Ardent Censer › Echoes of Helia › Armorcrusher Boots › Harmonic Echo › Black Mist Scythe
+         Ionia: Ardent Censer › Echoes of Helia › Crimson Lucidity › Harmonic Echo › Black Mist Scythe
+
+  Combat area 20p: Dyn 11632  vs  Ionia 10527  (+10.5%)
+  Q/min area:      Dyn 216.8  vs  Ionia 247.2  (Ionia +14.0%)
+  Dyn wins 20/20 minutes on combo.
+  T2 spike: Dynamism ~4:00  Ionian ~4:00
+  T3 spike: Armorcrusher ~16:00  Crimson ~15:00
+  Heal area 20p: Dyn 14825  vs  Ionia 16408  (Ionia +10.7%)
+  W/min area:    Dyn 142.5  vs  Ionia 159.9  (Ionia +12.3%)
+  Ardent: Dyn ~9:00  Ionia ~9:00
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  ADC / flex DH: Boots of Dynamism → Armorcrusher (+10.7% combat area).
+  Support: damage +10.5% Dynamism, heal +10.7% Ionian, Q/min +14.0% Ionian.
+
+  WHY THE ROLE SPLIT HOLDS:
+  1) Dynamism is AD + pen. Senna's Q, autos, Relic Cannon, Living Extraction,
+     and Dark Harvest (10% bonus AD) are all physical. Pen multiplies the kit.
+  2) Ionian is 15 AH. Transcendence already gives 12. Draktharr adds 10.
+     Helia + Harmonic add 40 more on support. Extra Q/min is real, smaller
+     than 15 AD + 10 pen on a champion whose damage is auto+Q.
+  3) Dynamism eats the Long Sword ADC already bought — T2 at 2:00,
+     Draktharr 8:00. Ionia does not use that sword, so 500g sits leftover
+     and Draktharr slips to 9:00, Collector to 14:00. Support has to BUY
+     a Long Sword just for Dynamism; Ardent still ~9:00, T3 16:00 vs 15:00.
+  4) Ionian Flash (T2 15% / Crimson 20%) is the support reason, not DPS.
+     150s → ~130s → 125s. W roots and Q heals also scale with haste.
+  5) Armorcrusher's 6% pen is the T3 identity. Crimson's T3 identity is
+     Flash + MS after Q heal — peel, not execute.
+
+  BUY DYNAMISM WHEN:
+  • Bot / flex carry, Dark Harvest, you auto then Q (AA→Q).
+  • First legendary is Draktharr / Collector / Youmuu — pen stacks.
+  • You already have a Long Sword in lane.
+
+  BUY IONIAN WHEN:
+  • Support. Q is a heal. Flash + W root are the job.
+  • You already hit haste from Helia / Harmonic / Mandate and still want
+    Flash 125s more than 20 AD.
+  • You cannot auto (max-range poke/heal only) — then AH is the damage stat.
+
+  TRAPS:
+  • 'Senna needs haste' → Ionia. She needs Q uptime. Autos already refund
+    1s. Transcendence + Draktharr/Helia cover most of the 15 AH.
+  • Copying ADC Dynamism onto support. Heal/Q/W/Flash lose; damage is selfish.
+  • Copying support Ionia onto DH carry. Leftover Long Sword delays Draktharr;
+    0 pen until Collector/Serylda.
+  • Buying T3 before 10:00 — the shop will not allow it.
+==============================================================================
