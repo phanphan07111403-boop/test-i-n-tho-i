@@ -1,0 +1,159 @@
+================================================================================
+BRAUM SUPPORT — NO YORDLE TRAP  (Wild Rift Patch 7.2+)
+Playstyle: bodyguard ADC (W + E + Concussive Blows) | Game: 20:00
+Metric: ADC damage prevented / 8s dive  + CC lock  + stay-in-front EHP
+================================================================================
+
+WHY YORDLE TRAP IS OFF
+  Catcher only procs on displacement (airborne / kinematics).
+  Braum Q = slow.  W = dash to ally.  E = projectile block.
+  Passive = stun.  Only R Glacial Fissure knocks up.
+  R CD 75/70/65s — mark lasts 5s, gold only if they die, 10s ICD.
+  Same cart as Knight's Vow (Kindlegem + Chain Vest), 100g cheaper.
+
+GOLD / LEVEL
+  Min    Gold  Lvl
+    1     780    2
+    4    1620    5
+    5    2030    6
+    8    3260    8
+   10    4080   10
+   12    5080   11
+   14    6080   12
+   16    7080   13
+   18    8080   14
+   20    9080   15
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (peel score, no Catcher needed)
+--------------------------------------------------------------------------------
+   1:00 | peel     157 | ADC taken    441 | saved     0 | CC  2.0s | Vow → Locket → FH
+         items: Relic Shield
+         pre-legendary
+   2:00 | peel     172 | ADC taken    469 | saved     0 | CC  2.0s | Vow → Locket → FH
+         items: Relic Shield › Boots of Speed
+         pre-legendary
+   4:00 | peel     250 | ADC taken    531 | saved    15 | CC  2.5s | Vow → Locket → FH
+         items: Relic Shield › Boots of Speed › Ruby Crystal
+         pre-legendary
+   5:00 | peel     324 | ADC taken    527 | saved    20 | CC  3.5s | FH → Vow → Locket
+         items: Bulwark of the Mountain › Boots of Speed › Warden's Mail
+         pre-legendary
+   6:00 | peel     344 | ADC taken    563 | saved    18 | CC  3.6s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Boots of Speed › Kindlegem › Cloth Armor
+         pre-legendary
+   8:00 | peel     375 | ADC taken    628 | saved    23 | CC  3.6s | Vow → Locket → FH
+         items: Bulwark of the Mountain › Boots of Speed › Kindlegem › Chain Vest
+         pre-legendary
+   9:00 | peel     752 | ADC taken    333 | saved   344 | CC  3.7s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Boots of Speed › Locket of the Iron Solari
+         Locket
+  10:00 | peel     798 | ADC taken    356 | saved   354 | CC  3.7s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Boots of Speed › Locket of the Iron Solari › Ruby Crystal
+         Locket
+  11:00 | peel     799 | ADC taken    386 | saved   358 | CC  3.7s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps
+         Locket
+  12:00 | peel     839 | ADC taken    348 | saved   365 | CC  4.0s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps
+         Locket
+  14:00 | peel     898 | ADC taken    392 | saved   381 | CC  4.0s | Locket → FH → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Warden's Mail
+         Locket
+  15:00 | peel     924 | ADC taken    435 | saved   384 | CC  4.0s | Locket → Vow → FH
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Kindlegem › Chain Vest
+         Locket
+  16:00 | peel    1219 | ADC taken    330 | saved   524 | CC  4.0s | Vow → Locket → FH
+         items: Bulwark of the Mountain › Knight's Vow › Plated Steelcaps › Locket of the Iron Solari
+         Vow 12%, Locket
+  18:00 | peel    1307 | ADC taken    378 | saved   559 | CC  4.1s | Vow → Locket → FH
+         items: Bulwark of the Mountain › Knight's Vow › Plated Steelcaps › Locket of the Iron Solari › Warden's Mail
+         Vow 12%, Locket
+  20:00 | peel    1401 | ADC taken    421 | saved   588 | CC  4.4s | Locket → Vow → Armored → FH
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Armored Advance › Knight's Vow › Warden's Mail
+         Vow 12%, Locket
+
+--------------------------------------------------------------------------------
+BUILD COMPARISON — PEEL SCORE @ spikes  (higher = carry lives)
+--------------------------------------------------------------------------------
+  Build                           8:00   12:00   16:00   20:00  EffPeel Yordle
+  Yordle → Vow → FH                375     422     719     850      438  ~9:00
+  Yordle → Virtue → Thorn          375     422     753     870      405  ~9:00
+  Vow → Virtue → Yordle            375     614     734    1216      625     no
+  Vow → Locket → FH                375     622    1219    1392      732     no
+  Locket → Vow → FH                374     839    1219    1392      804     no
+  Vow → FH → Locket                375     614     939    1141      640     no
+  FH → Vow → Locket                367     588     939    1141      614     no
+  Vow → FH → Thorn (no Locket)     375     614     939    1111      636     no
+  Vow → Virtue → FH                375     614     734    1176      621     no
+  Vow → Virtue → Locket            375     614     734    1199      624     no
+  Locket → FH → Vow                374     839    1174    1349      744     no
+  Vow → Warmog → FH                375     614     742     883      562     no
+  Locket → Vow → Armored → FH      374     839     948    1401      757     no
+
+--------------------------------------------------------------------------------
+ADC DAMAGE TAKEN / 8s DIVE  (lower = better)
+--------------------------------------------------------------------------------
+  Locket → Vow → FH                629     348     330     419
+  Locket → Vow → Armored → FH      629     348     463     421
+  Locket → FH → Vow                629     348     289     376
+  Vow → Locket → FH                628     576     330     419
+  Vow → FH → Locket                628     578     534     618
+  Vow → FH → Thorn (no Locket)     628     578     534     613
+  Vow → Virtue → Yordle            628     578     683     487
+  Vow → Virtue → Locket            628     578     683     491
+  Vow → Virtue → FH                628     578     683     503
+  FH → Vow → Locket                626     548     534     618
+  Vow → Warmog → FH                628     578     688     799
+  Yordle → Vow → FH                628     684     683     789
+  Yordle → Virtue → Thorn          628     684     546     654
+
+--------------------------------------------------------------------------------
+KINDLEGEM + CHAIN VEST — which finish?
+--------------------------------------------------------------------------------
+  Finish Yordle (~2500) vs finish Vow (~2600) at 12:00 peel: 422 vs 622
+  ADC taken @12: Yordle rush 684 | Vow→Locket 576
+  Catcher personal gold if Yordle online: ~41/min (R only, 40% mark-kills, split).
+  16:00 two-item cores: Vow+Locket 1219 | Yordle+Vow 719 | Vow+Virtue (Yordle 3rd still not done) 734
+  20:00 leftover on 'Yordle 3rd' is Kindlegem+Vest, not Catcher (Yordle itself: False).
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best path (no Yordle Trap): Locket → Vow → FH
+  Peel-weighted avg: 804 | 16:00 peel: 1219
+  Knight's Vow online:  ~16:00  (12% redirect — this is the bodyguard item)
+  Locket online:        ~9:00  (team shield, no R required)
+  Frozen Heart: not finished by 20:00 on this path
+
+  TẠI SAO BỎ YORDLE TRAP:
+  • Catcher cần displacement. Braum chỉ knock-up bằng R.
+  • Q/W/E/passive không proc. Mark 5s + phải có kill mới ra vàng.
+  • Kindlegem + Chain Vest = cùng nấc với Knight's Vow (đắt hơn 100g).
+    Finish Yordle = mất 12% redirect mọi fight để đổi R-proc.
+  • Phút 12 peel: Yordle rush 422 vs Locket → Vow → FH 839 (+99%).
+    Phút 16 (2 món): 719 vs 1219 (+69%). Phút 20: 850 vs 1392 (+64%).
+  • Radiant Virtue mới là món R đúng: heal team khi đấm R,
+    không cần địch chết trong 5s.
+
+  RECOMMENDED (Braum support, no Yordle Trap):
+  1) Relic Shield → Bulwark of the Mountain
+  2) Boots of Speed → Plated Steelcaps  (Mercs if AP/CC lane)
+  3) Locket of the Iron Solari  (~9:00) — team shield, no R gate
+  4) Knight's Vow              (~16:00) — 12% redirect while you W-glue
+  5) Frozen Heart if the game lasts — Chill from Q/autos, not R
+     (Radiant Virtue only if you specifically want the R-heal)
+  6) Thornmail / Force of Nature / Armored Advance
+
+  20-min support gold finishes TWO legendaries + boots, not three.
+  Do not sit on Kindlegem+Vest for a Yordle 3rd that never completes.
+
+  Skill: max Q (poke + mark), 1 early W for the dash, then E.
+  Bodyguard: W onto ADC → E into the projectile → Q to start stacks.
+  R is for the knock-up / zone, not for an item proc.
+
+  Trap: Kindlegem + Chain Vest → Yordle Trap because it is 100g
+  cheaper. Same components, wrong passive.
+  Trap: Yordle 3rd 'because Catcher is for tanks'. Braum is a
+  warden, not Alistar/Blitz — he does not displace on a rotation.
+================================================================================
