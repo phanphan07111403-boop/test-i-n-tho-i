@@ -1,0 +1,1283 @@
+{
+  "meta": {
+    "patch": "7.3",
+    "game": "Wild Rift",
+    "question": "Which build/playstyles benefit most in 7.3? Top 10.",
+    "metric": "8s combat window extra damage (7.3 \u2212 7.2) at 12/16/20"
+  },
+  "ranking": [
+    {
+      "name": "Kalista Rend-Shiv",
+      "champion": "Kalista",
+      "playstyle": "On-hit spear dump",
+      "job": "Bounce spears, one E rips",
+      "avg_delta": 1232.6,
+      "d12": 538.1,
+      "d16": 920.8,
+      "d20": 2239.0,
+      "items_20": [
+        "Berserker's",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "note": "Rend spears bounce; one E rips the clump"
+    },
+    {
+      "name": "Teemo Nashor-Shiv",
+      "champion": "Teemo",
+      "playstyle": "AP on-hit poison",
+      "job": "Nashor 80 AP + poison bounce",
+      "avg_delta": 1191.2,
+      "d12": 526.9,
+      "d16": 1354.7,
+      "d20": 1692.0,
+      "items_20": [
+        "Boots of Mana",
+        "Statikk Shiv",
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade"
+      ],
+      "note": "Nashor is 80 AP again; Shiv paints poison on the side lanes"
+    },
+    {
+      "name": "Caitlyn trap-Headshot",
+      "champion": "Caitlyn",
+      "playstyle": "Crit sniper",
+      "job": "Stormrazor lane, trap Headshot, IE Ace",
+      "avg_delta": 1100.0,
+      "d12": 713.5,
+      "d16": 1089.0,
+      "d20": 1497.5,
+      "items_20": [
+        "Berserker's",
+        "Stormrazor",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "Stormrazor lane \u2192 trap Headshot bonus \u2192 IE 230% Headshot / Ace"
+    },
+    {
+      "name": "Varus blight-Shiv",
+      "champion": "Varus",
+      "playstyle": "On-hit artillery",
+      "job": "Stack blight on the pit, Q detonate",
+      "avg_delta": 1045.8,
+      "d12": 558.3,
+      "d16": 628.5,
+      "d20": 1950.6,
+      "items_20": [
+        "Berserker's",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "note": "blight-Shiv artillery: bounce stacks, one Q detonates the pit"
+    },
+    {
+      "name": "Twitch stealth-Fiendhunter",
+      "champion": "Twitch",
+      "playstyle": "Stealth ult burst",
+      "job": "Camo \u2192 Ambush AS \u2192 R 3-crit window \u2192 E",
+      "avg_delta": 1019.6,
+      "d12": 580.2,
+      "d16": 400.3,
+      "d20": 2078.2,
+      "items_20": [
+        "Berserker's",
+        "Yun Tal Wildarrows",
+        "Fiendhunter Bolts",
+        "Infinity Edge"
+      ],
+      "note": "leave camouflage \u2192 Ambush AS \u2192 R + Fiendhunter 3-crit window \u2192 E"
+    },
+    {
+      "name": "Lucian Culling-crit",
+      "champion": "Lucian",
+      "playstyle": "Crit tempo",
+      "job": "Lane poke then R scales with IE",
+      "avg_delta": 1003.6,
+      "d12": 520.1,
+      "d16": 887.2,
+      "d20": 1603.7,
+      "items_20": [
+        "Berserker's",
+        "Stormrazor",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "The Culling scales with crit rate + IE capstone"
+    },
+    {
+      "name": "Zeri Fiendhunter-R",
+      "champion": "Zeri",
+      "playstyle": "Ult-window carry",
+      "job": "Longer Overload + Fiendhunter 3-crit",
+      "avg_delta": 895.6,
+      "d12": 436.9,
+      "d16": 570.5,
+      "d20": 1679.3,
+      "items_20": [
+        "Berserker's",
+        "Yun Tal Wildarrows",
+        "Fiendhunter Bolts",
+        "Infinity Edge"
+      ],
+      "note": "R Overload 2.5s/7.5s + Fiendhunter 3-crit burst"
+    },
+    {
+      "name": "Ashe Focus-crit",
+      "champion": "Ashe",
+      "playstyle": "Crit utility kiter",
+      "job": "Frost formula is crit, still utility",
+      "avg_delta": 829.8,
+      "d12": 410.8,
+      "d16": 805.4,
+      "d20": 1273.3,
+      "items_20": [
+        "Berserker's",
+        "Yun Tal Wildarrows",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "Frost bonus is now pure crit; Focus mana down \u2014 still a utility carry"
+    },
+    {
+      "name": "Kayle Nashor-ascend",
+      "champion": "Kayle",
+      "playstyle": "AP on-hit scaler",
+      "job": "Nashor 80 AP + Shiv stats",
+      "avg_delta": 746.4,
+      "d12": 183.4,
+      "d16": 925.1,
+      "d20": 1130.7,
+      "items_20": [
+        "Boots of Mana",
+        "Statikk Shiv",
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade"
+      ],
+      "note": "Nashor 80 AP + Shiv 40/40/30% is her stat dream; waves already AoE"
+    },
+    {
+      "name": "Kai'Sa hybrid on-hit",
+      "champion": "Kai'Sa",
+      "playstyle": "Hybrid on-hit",
+      "job": "Plasma AP buff + Rageblade 35/30",
+      "avg_delta": 721.1,
+      "d12": 306.1,
+      "d16": 554.3,
+      "d20": 1303.0,
+      "items_20": [
+        "Berserker's",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "note": "7.3 Plasma AP ratios + Rageblade 35/30, but bounce never 5-pops"
+    },
+    {
+      "name": "Xayah feather-crit",
+      "champion": "Xayah",
+      "playstyle": "Crit zone control",
+      "job": "Bladecaller now crit-scales",
+      "avg_delta": 704.2,
+      "d12": 373.0,
+      "d16": 718.2,
+      "d20": 1021.2,
+      "items_20": [
+        "Berserker's",
+        "Yun Tal Wildarrows",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "Bladecaller now scales with crit rate and IE damage"
+    },
+    {
+      "name": "Jhin Whisper-crit",
+      "champion": "Jhin",
+      "playstyle": "Crit 4th-shot",
+      "job": "System crit up, Whisper crit down to 80%",
+      "avg_delta": 680.4,
+      "d12": 539.2,
+      "d16": 683.4,
+      "d20": 818.5,
+      "items_20": [
+        "Berserker's",
+        "Stormrazor",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "7.3 crit 200% but Whisper shots only deal 80% crit damage"
+    },
+    {
+      "name": "Jinx rocket-Yun Tal",
+      "champion": "Jinx",
+      "playstyle": "Crit hypercarry",
+      "job": "Yun Tal stack + 200%/230% rocket crits",
+      "avg_delta": 589.6,
+      "d12": 224.5,
+      "d16": 589.6,
+      "d20": 954.8,
+      "items_20": [
+        "Berserker's",
+        "Yun Tal Wildarrows",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "200% crit + Yun Tal stacking + IE 230% \u2014 rockets still crit"
+    },
+    {
+      "name": "Tristana jump-bomb",
+      "champion": "Tristana",
+      "playstyle": "Crit pick assassin",
+      "job": "E explosion scales with crit",
+      "avg_delta": 541.5,
+      "d12": 337.6,
+      "d16": 512.9,
+      "d20": 774.1,
+      "items_20": [
+        "Berserker's",
+        "Stormrazor",
+        "Infinity Edge",
+        "Rapid Firecannon"
+      ],
+      "note": "Explosive Charge active now crit-scales; jump-bomb pick"
+    },
+    {
+      "name": "Kog'Maw barrage-Shiv",
+      "champion": "Kog'Maw",
+      "playstyle": "On-hit hypercarry",
+      "job": "W %HP copied onto the clump",
+      "avg_delta": 441.2,
+      "d12": -212.6,
+      "d16": -371.7,
+      "d20": 1908.0,
+      "items_20": [
+        "Berserker's",
+        "Statikk Shiv",
+        "Guinsoo's Rageblade",
+        "Blade of the Ruined King"
+      ],
+      "note": "Bio-Arcane + BotRK bounce: %HP copied onto the pit"
+    },
+    {
+      "name": "Ezreal Muramana poke",
+      "champion": "Ezreal",
+      "playstyle": "Spellweaver ADC",
+      "job": "Tear no longer needs mana spend",
+      "avg_delta": 137.4,
+      "d12": -4.9,
+      "d16": 109.8,
+      "d20": 307.2,
+      "items_20": [
+        "Ionian / Mana",
+        "Manamune",
+        "Essence Reaver",
+        "Statikk Shiv"
+      ],
+      "note": "Muramana no longer needs mana spend; Q damage/CD nerfed"
+    },
+    {
+      "name": "Vayne silver-duelist",
+      "champion": "Vayne",
+      "playstyle": "On-hit duelist",
+      "job": "Tumble + Silver Bolts + Kraken, not Shiv",
+      "avg_delta": 54.2,
+      "d12": 98.3,
+      "d16": 54.0,
+      "d20": 10.4,
+      "items_20": [
+        "Berserker's",
+        "Kraken Slayer",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "note": "Tumble 50\u201380% AD, W 6\u20139% true, R +30\u201350 AD \u2014 duel the bruiser"
+    }
+  ],
+  "styles": {
+    "Varus blight-Shiv": {
+      "champion": "Varus",
+      "playstyle": "On-hit artillery",
+      "job": "Stack blight on the pit, Q detonate",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 2133.6,
+          "post": 2691.9,
+          "delta": 558.3,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv"
+          ],
+          "note": "blight-Shiv artillery: bounce stacks, one Q detonates the pit"
+        },
+        {
+          "minute": 16,
+          "pre": 3129.1,
+          "post": 3757.6,
+          "delta": 628.5,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "blight-Shiv artillery: bounce stacks, one Q detonates the pit"
+        },
+        {
+          "minute": 20,
+          "pre": 3037.4,
+          "post": 4988.0,
+          "delta": 1950.6,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "note": "blight-Shiv artillery: bounce stacks, one Q detonates the pit"
+        }
+      ]
+    },
+    "Kog'Maw barrage-Shiv": {
+      "champion": "Kog'Maw",
+      "playstyle": "On-hit hypercarry",
+      "job": "W %HP copied onto the clump",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 2160.9,
+          "post": 1948.3,
+          "delta": -212.6,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv"
+          ],
+          "note": "Bio-Arcane + BotRK bounce: %HP copied onto the pit"
+        },
+        {
+          "minute": 16,
+          "pre": 3451.8,
+          "post": 3080.1,
+          "delta": -371.7,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "Bio-Arcane + BotRK bounce: %HP copied onto the pit"
+        },
+        {
+          "minute": 20,
+          "pre": 3442.9,
+          "post": 5351.0,
+          "delta": 1908.0,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Blade of the Ruined King"
+          ],
+          "note": "Bio-Arcane + BotRK bounce: %HP copied onto the pit"
+        }
+      ]
+    },
+    "Kalista Rend-Shiv": {
+      "champion": "Kalista",
+      "playstyle": "On-hit spear dump",
+      "job": "Bounce spears, one E rips",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1283.2,
+          "post": 1821.3,
+          "delta": 538.1,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv"
+          ],
+          "note": "Rend spears bounce; one E rips the clump"
+        },
+        {
+          "minute": 16,
+          "pre": 1824.6,
+          "post": 2745.4,
+          "delta": 920.8,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "Rend spears bounce; one E rips the clump"
+        },
+        {
+          "minute": 20,
+          "pre": 1721.2,
+          "post": 3960.2,
+          "delta": 2239.0,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "note": "Rend spears bounce; one E rips the clump"
+        }
+      ]
+    },
+    "Teemo Nashor-Shiv": {
+      "champion": "Teemo",
+      "playstyle": "AP on-hit poison",
+      "job": "Nashor 80 AP + poison bounce",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 843.4,
+          "post": 1370.3,
+          "delta": 526.9,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "note": "Nashor is 80 AP again; Shiv paints poison on the side lanes"
+        },
+        {
+          "minute": 16,
+          "pre": 925.1,
+          "post": 2279.8,
+          "delta": 1354.7,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Riftmaker"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth"
+          ],
+          "note": "Nashor is 80 AP again; Shiv paints poison on the side lanes"
+        },
+        {
+          "minute": 20,
+          "pre": 1299.6,
+          "post": 2991.6,
+          "delta": 1692.0,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Riftmaker",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "Nashor is 80 AP again; Shiv paints poison on the side lanes"
+        }
+      ]
+    },
+    "Twitch stealth-Fiendhunter": {
+      "champion": "Twitch",
+      "playstyle": "Stealth ult burst",
+      "job": "Camo \u2192 Ambush AS \u2192 R 3-crit window \u2192 E",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1425.1,
+          "post": 2005.3,
+          "delta": 580.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows"
+          ],
+          "note": "leave camouflage \u2192 Ambush AS \u2192 R + Fiendhunter 3-crit window \u2192 E"
+        },
+        {
+          "minute": 16,
+          "pre": 2650.5,
+          "post": 3050.8,
+          "delta": 400.3,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Fiendhunter Bolts"
+          ],
+          "note": "leave camouflage \u2192 Ambush AS \u2192 R + Fiendhunter 3-crit window \u2192 E"
+        },
+        {
+          "minute": 20,
+          "pre": 3335.7,
+          "post": 5413.9,
+          "delta": 2078.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Fiendhunter Bolts",
+            "Infinity Edge"
+          ],
+          "note": "leave camouflage \u2192 Ambush AS \u2192 R + Fiendhunter 3-crit window \u2192 E"
+        }
+      ]
+    },
+    "Vayne silver-duelist": {
+      "champion": "Vayne",
+      "playstyle": "On-hit duelist",
+      "job": "Tumble + Silver Bolts + Kraken, not Shiv",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 2151.8,
+          "post": 2250.1,
+          "delta": 98.3,
+          "pre_items": [
+            "Berserker's",
+            "Kraken Slayer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Kraken Slayer"
+          ],
+          "note": "Tumble 50\u201380% AD, W 6\u20139% true, R +30\u201350 AD \u2014 duel the bruiser"
+        },
+        {
+          "minute": 16,
+          "pre": 2991.6,
+          "post": 3045.6,
+          "delta": 54.0,
+          "pre_items": [
+            "Berserker's",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "Tumble 50\u201380% AD, W 6\u20139% true, R +30\u201350 AD \u2014 duel the bruiser"
+        },
+        {
+          "minute": 20,
+          "pre": 4080.1,
+          "post": 4090.5,
+          "delta": 10.4,
+          "pre_items": [
+            "Berserker's",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "note": "Tumble 50\u201380% AD, W 6\u20139% true, R +30\u201350 AD \u2014 duel the bruiser"
+        }
+      ]
+    },
+    "Caitlyn trap-Headshot": {
+      "champion": "Caitlyn",
+      "playstyle": "Crit sniper",
+      "job": "Stormrazor lane, trap Headshot, IE Ace",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1208.1,
+          "post": 1921.6,
+          "delta": 713.5,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor"
+          ],
+          "note": "Stormrazor lane \u2192 trap Headshot bonus \u2192 IE 230% Headshot / Ace"
+        },
+        {
+          "minute": 16,
+          "pre": 2293.8,
+          "post": 3382.8,
+          "delta": 1089.0,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge"
+          ],
+          "note": "Stormrazor lane \u2192 trap Headshot bonus \u2192 IE 230% Headshot / Ace"
+        },
+        {
+          "minute": 20,
+          "pre": 2966.1,
+          "post": 4463.7,
+          "delta": 1497.5,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "Stormrazor lane \u2192 trap Headshot bonus \u2192 IE 230% Headshot / Ace"
+        }
+      ]
+    },
+    "Lucian Culling-crit": {
+      "champion": "Lucian",
+      "playstyle": "Crit tempo",
+      "job": "Lane poke then R scales with IE",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1986.9,
+          "post": 2507.0,
+          "delta": 520.1,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor"
+          ],
+          "note": "The Culling scales with crit rate + IE capstone"
+        },
+        {
+          "minute": 16,
+          "pre": 3784.5,
+          "post": 4671.7,
+          "delta": 887.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge"
+          ],
+          "note": "The Culling scales with crit rate + IE capstone"
+        },
+        {
+          "minute": 20,
+          "pre": 4664.3,
+          "post": 6268.0,
+          "delta": 1603.7,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "The Culling scales with crit rate + IE capstone"
+        }
+      ]
+    },
+    "Xayah feather-crit": {
+      "champion": "Xayah",
+      "playstyle": "Crit zone control",
+      "job": "Bladecaller now crit-scales",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 972.6,
+          "post": 1345.6,
+          "delta": 373.0,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows"
+          ],
+          "note": "Bladecaller now scales with crit rate and IE damage"
+        },
+        {
+          "minute": 16,
+          "pre": 1886.3,
+          "post": 2604.5,
+          "delta": 718.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge"
+          ],
+          "note": "Bladecaller now scales with crit rate and IE damage"
+        },
+        {
+          "minute": 20,
+          "pre": 2352.7,
+          "post": 3373.9,
+          "delta": 1021.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "Bladecaller now scales with crit rate and IE damage"
+        }
+      ]
+    },
+    "Jinx rocket-Yun Tal": {
+      "champion": "Jinx",
+      "playstyle": "Crit hypercarry",
+      "job": "Yun Tal stack + 200%/230% rocket crits",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1135.1,
+          "post": 1359.6,
+          "delta": 224.5,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows"
+          ],
+          "note": "200% crit + Yun Tal stacking + IE 230% \u2014 rockets still crit"
+        },
+        {
+          "minute": 16,
+          "pre": 2144.5,
+          "post": 2734.1,
+          "delta": 589.6,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge"
+          ],
+          "note": "200% crit + Yun Tal stacking + IE 230% \u2014 rockets still crit"
+        },
+        {
+          "minute": 20,
+          "pre": 2788.3,
+          "post": 3743.1,
+          "delta": 954.8,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "200% crit + Yun Tal stacking + IE 230% \u2014 rockets still crit"
+        }
+      ]
+    },
+    "Tristana jump-bomb": {
+      "champion": "Tristana",
+      "playstyle": "Crit pick assassin",
+      "job": "E explosion scales with crit",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 969.5,
+          "post": 1307.0,
+          "delta": 337.6,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor"
+          ],
+          "note": "Explosive Charge active now crit-scales; jump-bomb pick"
+        },
+        {
+          "minute": 16,
+          "pre": 1701.4,
+          "post": 2214.4,
+          "delta": 512.9,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge"
+          ],
+          "note": "Explosive Charge active now crit-scales; jump-bomb pick"
+        },
+        {
+          "minute": 20,
+          "pre": 2172.6,
+          "post": 2946.7,
+          "delta": 774.1,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "Explosive Charge active now crit-scales; jump-bomb pick"
+        }
+      ]
+    },
+    "Zeri Fiendhunter-R": {
+      "champion": "Zeri",
+      "playstyle": "Ult-window carry",
+      "job": "Longer Overload + Fiendhunter 3-crit",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 1705.8,
+          "post": 2142.7,
+          "delta": 436.9,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows"
+          ],
+          "note": "R Overload 2.5s/7.5s + Fiendhunter 3-crit burst"
+        },
+        {
+          "minute": 16,
+          "pre": 2794.5,
+          "post": 3365.0,
+          "delta": 570.5,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Fiendhunter Bolts"
+          ],
+          "note": "R Overload 2.5s/7.5s + Fiendhunter 3-crit burst"
+        },
+        {
+          "minute": 20,
+          "pre": 3807.1,
+          "post": 5486.5,
+          "delta": 1679.3,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Fiendhunter Bolts",
+            "Infinity Edge"
+          ],
+          "note": "R Overload 2.5s/7.5s + Fiendhunter 3-crit burst"
+        }
+      ]
+    },
+    "Kai'Sa hybrid on-hit": {
+      "champion": "Kai'Sa",
+      "playstyle": "Hybrid on-hit",
+      "job": "Plasma AP buff + Rageblade 35/30",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 794.5,
+          "post": 1100.6,
+          "delta": 306.1,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv"
+          ],
+          "note": "7.3 Plasma AP ratios + Rageblade 35/30, but bounce never 5-pops"
+        },
+        {
+          "minute": 16,
+          "pre": 1177.4,
+          "post": 1731.7,
+          "delta": 554.3,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "7.3 Plasma AP ratios + Rageblade 35/30, but bounce never 5-pops"
+        },
+        {
+          "minute": 20,
+          "pre": 1220.8,
+          "post": 2523.8,
+          "delta": 1303.0,
+          "pre_items": [
+            "Berserker's",
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "note": "7.3 Plasma AP ratios + Rageblade 35/30, but bounce never 5-pops"
+        }
+      ]
+    },
+    "Kayle Nashor-ascend": {
+      "champion": "Kayle",
+      "playstyle": "AP on-hit scaler",
+      "job": "Nashor 80 AP + Shiv stats",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 976.8,
+          "post": 1160.3,
+          "delta": 183.4,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv"
+          ],
+          "note": "Nashor 80 AP + Shiv 40/40/30% is her stat dream; waves already AoE"
+        },
+        {
+          "minute": 16,
+          "pre": 1093.6,
+          "post": 2018.6,
+          "delta": 925.1,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Riftmaker"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth"
+          ],
+          "note": "Nashor 80 AP + Shiv 40/40/30% is her stat dream; waves already AoE"
+        },
+        {
+          "minute": 20,
+          "pre": 1344.2,
+          "post": 2474.9,
+          "delta": 1130.7,
+          "pre_items": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Riftmaker",
+            "Guinsoo's Rageblade"
+          ],
+          "post_items": [
+            "Boots of Mana",
+            "Statikk Shiv",
+            "Nashor's Tooth",
+            "Guinsoo's Rageblade"
+          ],
+          "note": "Nashor 80 AP + Shiv 40/40/30% is her stat dream; waves already AoE"
+        }
+      ]
+    },
+    "Ezreal Muramana poke": {
+      "champion": "Ezreal",
+      "playstyle": "Spellweaver ADC",
+      "job": "Tear no longer needs mana spend",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 920.3,
+          "post": 915.4,
+          "delta": -4.9,
+          "pre_items": [
+            "Ionian / Mana",
+            "Manamune"
+          ],
+          "post_items": [
+            "Ionian / Mana",
+            "Manamune"
+          ],
+          "note": "Muramana no longer needs mana spend; Q damage/CD nerfed"
+        },
+        {
+          "minute": 16,
+          "pre": 1036.0,
+          "post": 1145.8,
+          "delta": 109.8,
+          "pre_items": [
+            "Ionian / Mana",
+            "Manamune",
+            "Essence Reaver"
+          ],
+          "post_items": [
+            "Ionian / Mana",
+            "Manamune",
+            "Essence Reaver"
+          ],
+          "note": "Muramana no longer needs mana spend; Q damage/CD nerfed"
+        },
+        {
+          "minute": 20,
+          "pre": 1105.2,
+          "post": 1412.4,
+          "delta": 307.2,
+          "pre_items": [
+            "Ionian / Mana",
+            "Manamune",
+            "Essence Reaver",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Ionian / Mana",
+            "Manamune",
+            "Essence Reaver",
+            "Statikk Shiv"
+          ],
+          "note": "Muramana no longer needs mana spend; Q damage/CD nerfed"
+        }
+      ]
+    },
+    "Jhin Whisper-crit": {
+      "champion": "Jhin",
+      "playstyle": "Crit 4th-shot",
+      "job": "System crit up, Whisper crit down to 80%",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 954.8,
+          "post": 1494.0,
+          "delta": 539.2,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor"
+          ],
+          "note": "7.3 crit 200% but Whisper shots only deal 80% crit damage"
+        },
+        {
+          "minute": 16,
+          "pre": 2094.5,
+          "post": 2777.9,
+          "delta": 683.4,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge"
+          ],
+          "note": "7.3 crit 200% but Whisper shots only deal 80% crit damage"
+        },
+        {
+          "minute": 20,
+          "pre": 2669.9,
+          "post": 3488.4,
+          "delta": 818.5,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Stormrazor",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "7.3 crit 200% but Whisper shots only deal 80% crit damage"
+        }
+      ]
+    },
+    "Ashe Focus-crit": {
+      "champion": "Ashe",
+      "playstyle": "Crit utility kiter",
+      "job": "Frost formula is crit, still utility",
+      "snapshots": [
+        {
+          "minute": 12,
+          "pre": 606.7,
+          "post": 1017.5,
+          "delta": 410.8,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows"
+          ],
+          "note": "Frost bonus is now pure crit; Focus mana down \u2014 still a utility carry"
+        },
+        {
+          "minute": 16,
+          "pre": 1347.7,
+          "post": 2153.1,
+          "delta": 805.4,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge"
+          ],
+          "note": "Frost bonus is now pure crit; Focus mana down \u2014 still a utility carry"
+        },
+        {
+          "minute": 20,
+          "pre": 1776.0,
+          "post": 3049.3,
+          "delta": 1273.3,
+          "pre_items": [
+            "Berserker's",
+            "Magnetic Blaster",
+            "Infinity Edge",
+            "Phantom Dancer"
+          ],
+          "post_items": [
+            "Berserker's",
+            "Yun Tal Wildarrows",
+            "Infinity Edge",
+            "Rapid Firecannon"
+          ],
+          "note": "Frost bonus is now pure crit; Focus mana down \u2014 still a utility carry"
+        }
+      ]
+    }
+  }
+}

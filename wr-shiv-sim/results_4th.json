@@ -1,0 +1,1897 @@
+{
+  "meta": {
+    "question": "On-hit clump 4th item Runaan?",
+    "patch": "7.3"
+  },
+  "data": {
+    "Kog'Maw": {
+      "note": "W %HP on every bolt",
+      "minutes": {
+        "20": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4791.9,
+            "duel": 3294.1,
+            "bolts": 0.0,
+            "shiv_extra": 1497.8,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4791.9,
+            "duel": 3294.1,
+            "bolts": 0.0,
+            "shiv_extra": 1497.8,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4791.9,
+            "duel": 3294.1,
+            "bolts": 0.0,
+            "shiv_extra": 1497.8,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4791.9,
+            "duel": 3294.1,
+            "bolts": 0.0,
+            "shiv_extra": 1497.8,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4791.9,
+            "duel": 3294.1,
+            "bolts": 0.0,
+            "shiv_extra": 1497.8,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          }
+        ],
+        "22": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4684.5,
+            "duel": 3198.8,
+            "bolts": 0.0,
+            "shiv_extra": 1485.7,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4684.5,
+            "duel": 3198.8,
+            "bolts": 0.0,
+            "shiv_extra": 1485.7,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4684.5,
+            "duel": 3198.8,
+            "bolts": 0.0,
+            "shiv_extra": 1485.7,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4684.5,
+            "duel": 3198.8,
+            "bolts": 0.0,
+            "shiv_extra": 1485.7,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4684.5,
+            "duel": 3198.8,
+            "bolts": 0.0,
+            "shiv_extra": 1485.7,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          }
+        ],
+        "24": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4586.3,
+            "duel": 3112.2,
+            "bolts": 0.0,
+            "shiv_extra": 1474.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 9783.4,
+            "duel": 3524.7,
+            "bolts": 5454.8,
+            "shiv_extra": 803.8,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 12690,
+            "leftover": 40
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4586.3,
+            "duel": 3112.2,
+            "bolts": 0.0,
+            "shiv_extra": 1474.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4586.3,
+            "duel": 3112.2,
+            "bolts": 0.0,
+            "shiv_extra": 1474.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4586.3,
+            "duel": 3112.2,
+            "bolts": 0.0,
+            "shiv_extra": 1474.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          }
+        ],
+        "26": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4496.2,
+            "duel": 3033.3,
+            "bolts": 0.0,
+            "shiv_extra": 1463.0,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 3810
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 9627.1,
+            "duel": 3435.3,
+            "bolts": 5396.1,
+            "shiv_extra": 795.8,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 13810,
+            "leftover": 1160
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Blade of the Ruined King"
+            ],
+            "clump": 7360.2,
+            "duel": 5031.6,
+            "bolts": 0.0,
+            "shiv_extra": 2328.6,
+            "note": "botrk %HP, shiv energized",
+            "gold": 13810,
+            "leftover": 710
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Wit's End"
+            ],
+            "clump": 5820.5,
+            "duel": 3857.7,
+            "bolts": 0.0,
+            "shiv_extra": 1962.8,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 1010
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Bloodthirster"
+            ],
+            "clump": 4822.9,
+            "duel": 3360.0,
+            "bolts": 0.0,
+            "shiv_extra": 1463.0,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 610
+          }
+        ]
+      }
+    },
+    "Varus": {
+      "note": "Blight stacks on every bolt, one Q pops the pit",
+      "minutes": {
+        "20": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4658.3,
+            "duel": 2620.7,
+            "bolts": 0.0,
+            "shiv_extra": 2037.6,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4658.3,
+            "duel": 2620.7,
+            "bolts": 0.0,
+            "shiv_extra": 2037.6,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4658.3,
+            "duel": 2620.7,
+            "bolts": 0.0,
+            "shiv_extra": 2037.6,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4658.3,
+            "duel": 2620.7,
+            "bolts": 0.0,
+            "shiv_extra": 2037.6,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4658.3,
+            "duel": 2620.7,
+            "bolts": 0.0,
+            "shiv_extra": 2037.6,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          }
+        ],
+        "22": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4527.4,
+            "duel": 2508.9,
+            "bolts": 0.0,
+            "shiv_extra": 2018.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4527.4,
+            "duel": 2508.9,
+            "bolts": 0.0,
+            "shiv_extra": 2018.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4527.4,
+            "duel": 2508.9,
+            "bolts": 0.0,
+            "shiv_extra": 2018.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4527.4,
+            "duel": 2508.9,
+            "bolts": 0.0,
+            "shiv_extra": 2018.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4527.4,
+            "duel": 2508.9,
+            "bolts": 0.0,
+            "shiv_extra": 2018.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          }
+        ],
+        "24": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4407.4,
+            "duel": 2407.3,
+            "bolts": 0.0,
+            "shiv_extra": 2000.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 8683.7,
+            "duel": 2741.9,
+            "bolts": 4322.2,
+            "shiv_extra": 1619.6,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 12690,
+            "leftover": 40
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4407.4,
+            "duel": 2407.3,
+            "bolts": 0.0,
+            "shiv_extra": 2000.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4407.4,
+            "duel": 2407.3,
+            "bolts": 0.0,
+            "shiv_extra": 2000.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4407.4,
+            "duel": 2407.3,
+            "bolts": 0.0,
+            "shiv_extra": 2000.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          }
+        ],
+        "26": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4297.0,
+            "duel": 2314.6,
+            "bolts": 0.0,
+            "shiv_extra": 1982.4,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 3810
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 8479.2,
+            "duel": 2634.7,
+            "bolts": 4234.7,
+            "shiv_extra": 1609.8,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 13810,
+            "leftover": 1160
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Blade of the Ruined King"
+            ],
+            "clump": 6974.2,
+            "duel": 4176.9,
+            "bolts": 0.0,
+            "shiv_extra": 2797.2,
+            "note": "botrk %HP, shiv energized",
+            "gold": 13810,
+            "leftover": 710
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Wit's End"
+            ],
+            "clump": 5464.8,
+            "duel": 3025.0,
+            "bolts": 0.0,
+            "shiv_extra": 2439.8,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 1010
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Bloodthirster"
+            ],
+            "clump": 4608.5,
+            "duel": 2626.1,
+            "bolts": 0.0,
+            "shiv_extra": 1982.4,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 610
+          }
+        ]
+      }
+    },
+    "Kalista": {
+      "note": "Rend spears on every bolt, one E rips",
+      "minutes": {
+        "20": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4261.7,
+            "duel": 2616.2,
+            "bolts": 0.0,
+            "shiv_extra": 1645.5,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4261.7,
+            "duel": 2616.2,
+            "bolts": 0.0,
+            "shiv_extra": 1645.5,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4261.7,
+            "duel": 2616.2,
+            "bolts": 0.0,
+            "shiv_extra": 1645.5,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4261.7,
+            "duel": 2616.2,
+            "bolts": 0.0,
+            "shiv_extra": 1645.5,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4261.7,
+            "duel": 2616.2,
+            "bolts": 0.0,
+            "shiv_extra": 1645.5,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          }
+        ],
+        "22": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4101.0,
+            "duel": 2487.0,
+            "bolts": 0.0,
+            "shiv_extra": 1613.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4101.0,
+            "duel": 2487.0,
+            "bolts": 0.0,
+            "shiv_extra": 1613.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4101.0,
+            "duel": 2487.0,
+            "bolts": 0.0,
+            "shiv_extra": 1613.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4101.0,
+            "duel": 2487.0,
+            "bolts": 0.0,
+            "shiv_extra": 1613.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 4101.0,
+            "duel": 2487.0,
+            "bolts": 0.0,
+            "shiv_extra": 1613.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          }
+        ],
+        "24": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 3953.7,
+            "duel": 2370.1,
+            "bolts": 0.0,
+            "shiv_extra": 1583.7,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 9452.6,
+            "duel": 2698.5,
+            "bolts": 2988.2,
+            "shiv_extra": 3765.9,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 12690,
+            "leftover": 40
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 3953.7,
+            "duel": 2370.1,
+            "bolts": 0.0,
+            "shiv_extra": 1583.7,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 3953.7,
+            "duel": 2370.1,
+            "bolts": 0.0,
+            "shiv_extra": 1583.7,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 3953.7,
+            "duel": 2370.1,
+            "bolts": 0.0,
+            "shiv_extra": 1583.7,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          }
+        ],
+        "26": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 3818.3,
+            "duel": 2263.6,
+            "bolts": 0.0,
+            "shiv_extra": 1554.7,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 3810
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 9193.6,
+            "duel": 2577.3,
+            "bolts": 2926.2,
+            "shiv_extra": 3690.1,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 13810,
+            "leftover": 1160
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Blade of the Ruined King"
+            ],
+            "clump": 7047.4,
+            "duel": 4286.4,
+            "bolts": 0.0,
+            "shiv_extra": 2760.9,
+            "note": "botrk %HP, shiv energized",
+            "gold": 13810,
+            "leftover": 710
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Wit's End"
+            ],
+            "clump": 5145.9,
+            "duel": 2952.4,
+            "bolts": 0.0,
+            "shiv_extra": 2193.5,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 1010
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Bloodthirster"
+            ],
+            "clump": 4552.7,
+            "duel": 2784.6,
+            "bolts": 0.0,
+            "shiv_extra": 1768.1,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 610
+          }
+        ]
+      }
+    },
+    "Teemo": {
+      "note": "Poison on every bolt; Nashor 3rd",
+      "minutes": {
+        "20": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3423.6,
+            "duel": 1881.5,
+            "bolts": 0.0,
+            "shiv_extra": 1542.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 350
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3423.6,
+            "duel": 1881.5,
+            "bolts": 0.0,
+            "shiv_extra": 1542.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 350
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3423.6,
+            "duel": 1881.5,
+            "bolts": 0.0,
+            "shiv_extra": 1542.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 350
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3423.6,
+            "duel": 1881.5,
+            "bolts": 0.0,
+            "shiv_extra": 1542.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 350
+          },
+          {
+            "fourth": "Terminus",
+            "key": "terminus",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3423.6,
+            "duel": 1881.5,
+            "bolts": 0.0,
+            "shiv_extra": 1542.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 350
+          }
+        ],
+        "22": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3299.7,
+            "duel": 1787.8,
+            "bolts": 0.0,
+            "shiv_extra": 1511.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1470
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3299.7,
+            "duel": 1787.8,
+            "bolts": 0.0,
+            "shiv_extra": 1511.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1470
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3299.7,
+            "duel": 1787.8,
+            "bolts": 0.0,
+            "shiv_extra": 1511.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1470
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3299.7,
+            "duel": 1787.8,
+            "bolts": 0.0,
+            "shiv_extra": 1511.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1470
+          },
+          {
+            "fourth": "Terminus",
+            "key": "terminus",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3299.7,
+            "duel": 1787.8,
+            "bolts": 0.0,
+            "shiv_extra": 1511.9,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1470
+          }
+        ],
+        "24": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3186.1,
+            "duel": 1703.0,
+            "bolts": 0.0,
+            "shiv_extra": 1483.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2590
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3186.1,
+            "duel": 1703.0,
+            "bolts": 0.0,
+            "shiv_extra": 1483.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2590
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3186.1,
+            "duel": 1703.0,
+            "bolts": 0.0,
+            "shiv_extra": 1483.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2590
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3186.1,
+            "duel": 1703.0,
+            "bolts": 0.0,
+            "shiv_extra": 1483.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2590
+          },
+          {
+            "fourth": "Terminus",
+            "key": "terminus",
+            "online": false,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3186.1,
+            "duel": 1703.0,
+            "bolts": 0.0,
+            "shiv_extra": 1483.1,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2590
+          }
+        ],
+        "26": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth"
+            ],
+            "clump": 3081.3,
+            "duel": 1625.8,
+            "bolts": 0.0,
+            "shiv_extra": 1455.5,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 3710
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth",
+              "Runaan's Hurricane"
+            ],
+            "clump": 6399.4,
+            "duel": 1872.5,
+            "bolts": 3438.5,
+            "shiv_extra": 1088.4,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 13810,
+            "leftover": 1060
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth",
+              "Blade of the Ruined King"
+            ],
+            "clump": 5346.7,
+            "duel": 3178.8,
+            "bolts": 0.0,
+            "shiv_extra": 2168.0,
+            "note": "botrk %HP, shiv energized",
+            "gold": 13810,
+            "leftover": 610
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth",
+              "Wit's End"
+            ],
+            "clump": 4086.8,
+            "duel": 2206.0,
+            "bolts": 0.0,
+            "shiv_extra": 1880.8,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 910
+          },
+          {
+            "fourth": "Terminus",
+            "key": "terminus",
+            "online": true,
+            "items": [
+              "Boots of Mana",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Nashor's Tooth",
+              "Terminus"
+            ],
+            "clump": 5206.5,
+            "duel": 3006.0,
+            "bolts": 0.0,
+            "shiv_extra": 2200.5,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 710
+          }
+        ]
+      }
+    },
+    "Kai'Sa": {
+      "note": "Plasma on bolts; still hard to 5-pop extras",
+      "minutes": {
+        "20": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2542.7,
+            "duel": 1768.6,
+            "bolts": 0.0,
+            "shiv_extra": 774.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2542.7,
+            "duel": 1768.6,
+            "bolts": 0.0,
+            "shiv_extra": 774.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2542.7,
+            "duel": 1768.6,
+            "bolts": 0.0,
+            "shiv_extra": 774.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2542.7,
+            "duel": 1768.6,
+            "bolts": 0.0,
+            "shiv_extra": 774.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2542.7,
+            "duel": 1768.6,
+            "bolts": 0.0,
+            "shiv_extra": 774.1,
+            "note": "shiv energized",
+            "gold": 10450,
+            "leftover": 450
+          }
+        ],
+        "22": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2444.1,
+            "duel": 1683.6,
+            "bolts": 0.0,
+            "shiv_extra": 760.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2444.1,
+            "duel": 1683.6,
+            "bolts": 0.0,
+            "shiv_extra": 760.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2444.1,
+            "duel": 1683.6,
+            "bolts": 0.0,
+            "shiv_extra": 760.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2444.1,
+            "duel": 1683.6,
+            "bolts": 0.0,
+            "shiv_extra": 760.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2444.1,
+            "duel": 1683.6,
+            "bolts": 0.0,
+            "shiv_extra": 760.5,
+            "note": "shiv energized",
+            "gold": 11570,
+            "leftover": 1570
+          }
+        ],
+        "24": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2353.8,
+            "duel": 1606.5,
+            "bolts": 0.0,
+            "shiv_extra": 747.3,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 5427.4,
+            "duel": 1834.9,
+            "bolts": 3065.2,
+            "shiv_extra": 527.3,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 12690,
+            "leftover": 40
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2353.8,
+            "duel": 1606.5,
+            "bolts": 0.0,
+            "shiv_extra": 747.3,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2353.8,
+            "duel": 1606.5,
+            "bolts": 0.0,
+            "shiv_extra": 747.3,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": false,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2353.8,
+            "duel": 1606.5,
+            "bolts": 0.0,
+            "shiv_extra": 747.3,
+            "note": "shiv energized",
+            "gold": 12690,
+            "leftover": 2690
+          }
+        ],
+        "26": [
+          {
+            "fourth": "(no 4th)",
+            "key": "none",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus"
+            ],
+            "clump": 2270.8,
+            "duel": 1536.1,
+            "bolts": 0.0,
+            "shiv_extra": 734.7,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 3810
+          },
+          {
+            "fourth": "Runaan's Hurricane",
+            "key": "runaan",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Runaan's Hurricane"
+            ],
+            "clump": 5276.0,
+            "duel": 1754.5,
+            "bolts": 3002.4,
+            "shiv_extra": 519.1,
+            "note": "runaan 2 bolts/auto, shiv energized",
+            "gold": 13810,
+            "leftover": 1160
+          },
+          {
+            "fourth": "Blade of the Ruined King",
+            "key": "botrk",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Blade of the Ruined King"
+            ],
+            "clump": 4709.0,
+            "duel": 3241.6,
+            "bolts": 0.0,
+            "shiv_extra": 1467.4,
+            "note": "botrk %HP, shiv energized",
+            "gold": 13810,
+            "leftover": 710
+          },
+          {
+            "fourth": "Wit's End",
+            "key": "wit",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Wit's End"
+            ],
+            "clump": 3202.8,
+            "duel": 2102.7,
+            "bolts": 0.0,
+            "shiv_extra": 1100.1,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 1010
+          },
+          {
+            "fourth": "Bloodthirster",
+            "key": "bt",
+            "online": true,
+            "items": [
+              "Berserker's",
+              "Statikk Shiv",
+              "Guinsoo's Rageblade",
+              "Terminus",
+              "Bloodthirster"
+            ],
+            "clump": 2565.6,
+            "duel": 1831.0,
+            "bolts": 0.0,
+            "shiv_extra": 734.7,
+            "note": "shiv energized",
+            "gold": 13810,
+            "leftover": 610
+          }
+        ]
+      }
+    }
+  }
+}

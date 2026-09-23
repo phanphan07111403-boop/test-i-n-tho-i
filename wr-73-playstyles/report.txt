@@ -1,0 +1,131 @@
+==============================================================================
+WILD RIFT 7.3 — TOP BUILD / PLAYSTYLES (who gained the most)
+Metric: 8s combat window  |  extra damage = 7.3 − 7.2 at 12/16/20
+==============================================================================
+
+WHAT 7.3 CHANGED
+  • Base crit 175% → 200%, IE capstone 230% / 75 AD
+  • Magnetic Blaster removed — power split into Stormrazor / RFC / Shiv
+  • Shiv is on-hit bounce (40 AD / 40 AP / 30% AS)
+  • Rageblade: 35 AD / 30 AP, no longer blocks crit
+  • Nashor: dedicated 80 AP on-hit again
+  • New: Yun Tal, Fiendhunter Bolts, Hexoptics C44, Stormrazor
+  • Kits: Twitch stealth rework, Vayne/Caitlyn/Lucian/Xayah/Trist/Zeri crit hooks
+
+------------------------------------------------------------------------------
+FULL RANKING  (avg extra damage in the 8s window)
+------------------------------------------------------------------------------
+  #   Build / playstyle                Δ12     Δ16     Δ20    AvgΔ
+  1   Kalista Rend-Shiv                538     921    2239    1233
+  2   Teemo Nashor-Shiv                527    1355    1692    1191
+  3   Caitlyn trap-Headshot            714    1089    1498    1100
+  4   Varus blight-Shiv                558     629    1951    1046
+  5   Twitch stealth-Fiendhunter       580     400    2078    1020
+  6   Lucian Culling-crit              520     887    1604    1004
+  7   Zeri Fiendhunter-R               437     570    1679     896
+  8   Ashe Focus-crit                  411     805    1273     830
+  9   Kayle Nashor-ascend              183     925    1131     746
+  10  Kai'Sa hybrid on-hit             306     554    1303     721
+  11  Xayah feather-crit               373     718    1021     704
+  12  Jhin Whisper-crit                539     683     819     680
+  13  Jinx rocket-Yun Tal              224     590     955     590
+  14  Tristana jump-bomb               338     513     774     542
+  15  Kog'Maw barrage-Shiv            -213    -372    1908     441
+  16  Ezreal Muramana poke              -5     110     307     137
+  17  Vayne silver-duelist              98      54      10      54
+
+------------------------------------------------------------------------------
+TOP 10 — PLAYSTYLE AND WHY 7.3
+------------------------------------------------------------------------------
+  1. Kalista Rend-Shiv  [Kalista · On-hit spear dump]
+     Job: Bounce spears, one E rips
+     Avg Δ 1233   20:00  1721 → 3960  (+2239)
+     7.3 build: Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     Rend spears bounce; one E rips the clump
+
+  2. Teemo Nashor-Shiv  [Teemo · AP on-hit poison]
+     Job: Nashor 80 AP + poison bounce
+     Avg Δ 1191   20:00  1300 → 2992  (+1692)
+     7.3 build: Boots of Mana › Statikk Shiv › Nashor's Tooth › Guinsoo's Rageblade
+     Nashor is 80 AP again; Shiv paints poison on the side lanes
+
+  3. Caitlyn trap-Headshot  [Caitlyn · Crit sniper]
+     Job: Stormrazor lane, trap Headshot, IE Ace
+     Avg Δ 1100   20:00  2966 → 4464  (+1498)
+     7.3 build: Berserker's › Stormrazor › Infinity Edge › Rapid Firecannon
+     Stormrazor lane → trap Headshot bonus → IE 230% Headshot / Ace
+
+  4. Varus blight-Shiv  [Varus · On-hit artillery]
+     Job: Stack blight on the pit, Q detonate
+     Avg Δ 1046   20:00  3037 → 4988  (+1951)
+     7.3 build: Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     blight-Shiv artillery: bounce stacks, one Q detonates the pit
+
+  5. Twitch stealth-Fiendhunter  [Twitch · Stealth ult burst]
+     Job: Camo → Ambush AS → R 3-crit window → E
+     Avg Δ 1020   20:00  3336 → 5414  (+2078)
+     7.3 build: Berserker's › Yun Tal Wildarrows › Fiendhunter Bolts › Infinity Edge
+     leave camouflage → Ambush AS → R + Fiendhunter 3-crit window → E
+
+  6. Lucian Culling-crit  [Lucian · Crit tempo]
+     Job: Lane poke then R scales with IE
+     Avg Δ 1004   20:00  4664 → 6268  (+1604)
+     7.3 build: Berserker's › Stormrazor › Infinity Edge › Rapid Firecannon
+     The Culling scales with crit rate + IE capstone
+
+  7. Zeri Fiendhunter-R  [Zeri · Ult-window carry]
+     Job: Longer Overload + Fiendhunter 3-crit
+     Avg Δ 896   20:00  3807 → 5486  (+1679)
+     7.3 build: Berserker's › Yun Tal Wildarrows › Fiendhunter Bolts › Infinity Edge
+     R Overload 2.5s/7.5s + Fiendhunter 3-crit burst
+
+  8. Ashe Focus-crit  [Ashe · Crit utility kiter]
+     Job: Frost formula is crit, still utility
+     Avg Δ 830   20:00  1776 → 3049  (+1273)
+     7.3 build: Berserker's › Yun Tal Wildarrows › Infinity Edge › Rapid Firecannon
+     Frost bonus is now pure crit; Focus mana down — still a utility carry
+
+  9. Kayle Nashor-ascend  [Kayle · AP on-hit scaler]
+     Job: Nashor 80 AP + Shiv stats
+     Avg Δ 746   20:00  1344 → 2475  (+1131)
+     7.3 build: Boots of Mana › Statikk Shiv › Nashor's Tooth › Guinsoo's Rageblade
+     Nashor 80 AP + Shiv 40/40/30% is her stat dream; waves already AoE
+
+  10. Kai'Sa hybrid on-hit  [Kai'Sa · Hybrid on-hit]
+     Job: Plasma AP buff + Rageblade 35/30
+     Avg Δ 721   20:00  1221 → 2524  (+1303)
+     7.3 build: Berserker's › Statikk Shiv › Guinsoo's Rageblade › Terminus
+     7.3 Plasma AP ratios + Rageblade 35/30, but bounce never 5-pops
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Play 7.3 as one of these, in order of who gained the most:
+    1) Kalista Rend-Shiv — on-hit spear dump
+    2) Teemo Nashor-Shiv — ap on-hit poison
+    3) Caitlyn trap-Headshot — crit sniper
+    4) Varus blight-Shiv — on-hit artillery
+    5) Twitch stealth-Fiendhunter — stealth ult burst
+    6) Lucian Culling-crit — crit tempo
+    7) Zeri Fiendhunter-R — ult-window carry
+    8) Ashe Focus-crit — crit utility kiter
+    9) Kayle Nashor-ascend — ap on-hit scaler
+    10) Kai'Sa hybrid on-hit — hybrid on-hit
+
+  Three lanes of 7.3, don't mix them:
+  • ON-HIT CLUMP  (Shiv → Rageblade → Terminus/Nashor)
+      Varus / Kog'Maw / Kalista / Teemo
+  • CRIT SNIPER   (Stormrazor or Yun Tal → IE → RFC/Fiendhunter)
+      Caitlyn / Lucian / Xayah / Jinx / Tristana / Twitch / Zeri
+  • DUELIST       (Kraken → Rageblade → Terminus) — not Shiv
+      Vayne
+
+  Traps:
+  • Magnetic Blaster is gone. Crit ADCs who still buy 'the waveclear item'
+    want Stormrazor (lane) or RFC (range), not Shiv.
+  • Vayne Silver Bolts do not bounce. Shiv is a bait.
+  • Jhin / Senna / Yasuo / Yone were compensated — they are not 7.3 winners.
+  • Ezreal Q was nerfed; Muramana QoL does not cover it.
+  • Kog'Maw Shiv is a late teamfight upgrade — 7.2 BotRK wins 12–16.
+  • Vayne Tumble/R went up, rank-4 Silver Bolts 11% → 9%. Lane up, 3-item flat.
+==============================================================================
