@@ -10,6 +10,7 @@ League itemization sims.
 | `lanes-73-sim/` | WR 7.3 jungle / mid / ADC | Top 5 per role that gain the most from the patch (full 6-slot builds) |
 | `kaisa-onhit-sim/` | WR 7.3 Kai'Sa on-hit | Kraken vs BotRK vs Statikk first; full 6-slot pad page |
 | `caitlyn-dps-sim/` | WR 7.3 Caitlyn | Highest-damage buy order (Hex → Collector → IE, not Yun Tal) |
+| `kayle-kraken-sim/` | WR 7.3 Kayle | Kraken first vs Nashor → Dusk → Cap (AP core; Kraken on-hit alt) |
 
 ```bash
 python3 zyra-burn-sim/simulate_zyra_burn.py
@@ -18,4 +19,5 @@ python3 support-73-pad-sim/simulate_support_73.py
 python3 lanes-73-sim/simulate_lanes_73.py
 python3 kaisa-onhit-sim/simulate_kaisa_onhit.py
 python3 caitlyn-dps-sim/simulate_caitlyn_dps.py
+python3 kayle-kraken-sim/simulate_kayle_kraken.py
 ```

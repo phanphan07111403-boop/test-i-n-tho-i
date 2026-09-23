@@ -1,0 +1,655 @@
+{
+  "patch": "7.3",
+  "champ": "Kayle",
+  "fits": false,
+  "fits_first": false,
+  "fits_as": "onhit_alt_vs_tanks",
+  "winner": "ap",
+  "scores": {
+    "ap": 3480,
+    "kraken": 3412,
+    "nashor_kraken": 3216,
+    "kraken_ap": 3136
+  },
+  "page": [
+    "Nashor's Tooth",
+    "Boots of Mana",
+    "Dusk and Dawn",
+    "Rabadon's Deathcap",
+    "Void Staff",
+    "Infinity Orb"
+  ],
+  "buy": [
+    "Amplifying Tome",
+    "Boots of Mana",
+    "Nashor's Tooth",
+    "Dusk and Dawn",
+    "Rabadon's Deathcap",
+    "Void Staff",
+    "Infinity Orb"
+  ],
+  "skill": "E > Q > W (R mọi cấp)",
+  "spells": "Flash + Barrier",
+  "runes": [
+    "Conqueror",
+    "Botanist",
+    "Absolute Focus",
+    "Gathering Storm",
+    "Bone Plating"
+  ],
+  "pad": {
+    "L1": "Q shred 20% giáp/MR",
+    "L2": "W heal + MS",
+    "L3": "E active missing HP",
+    "L4": "R invuln / blades",
+    "A": "AA on-hit kite (ranged lv5)"
+  },
+  "kraken_alt": [
+    "Nashor's Tooth",
+    "Berserker's Greaves",
+    "Kraken Slayer",
+    "Guinsoo's Rageblade",
+    "Terminus",
+    "Wit's End"
+  ],
+  "page_ap": [
+    "Nashor's Tooth",
+    "Boots of Mana",
+    "Dusk and Dawn",
+    "Rabadon's Deathcap",
+    "Void Staff",
+    "Infinity Orb"
+  ],
+  "page_kraken": [
+    "Nashor's Tooth",
+    "Berserker's Greaves",
+    "Kraken Slayer",
+    "Guinsoo's Rageblade",
+    "Terminus",
+    "Wit's End"
+  ],
+  "by_path": {
+    "ap": {
+      "label": "Nashor → Dusk → Cap → Void → Orb  (WRF AP)",
+      "score": 3480,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Boots of Mana",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "boots_of_mana",
+            "nashors_tooth"
+          ],
+          "squishy": 1605,
+          "tank": 1181,
+          "sq_dps": 201,
+          "tk_dps": 148,
+          "sq_ttk": null,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.51,
+          "as_peak": 1.55,
+          "ad": 78.0,
+          "ap": 50.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7240,
+          "owned": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Dusk and Dawn"
+          ],
+          "ids": [
+            "boots_of_mana",
+            "nashors_tooth",
+            "dusk_and_dawn"
+          ],
+          "squishy": 2777,
+          "tank": 2043,
+          "sq_dps": 347,
+          "tk_dps": 255,
+          "sq_ttk": 5.95,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.81,
+          "as_peak": 1.85,
+          "ad": 87.0,
+          "ap": 120.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10240,
+          "owned": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Dusk and Dawn",
+            "Rabadon's Deathcap"
+          ],
+          "ids": [
+            "boots_of_mana",
+            "nashors_tooth",
+            "dusk_and_dawn",
+            "rabadons_deathcap"
+          ],
+          "squishy": 4747,
+          "tank": 3200,
+          "sq_dps": 593,
+          "tk_dps": 400,
+          "sq_ttk": 3.6,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.92,
+          "as_peak": 1.98,
+          "ad": 93.0,
+          "ap": 324.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13240,
+          "owned": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Dusk and Dawn",
+            "Rabadon's Deathcap",
+            "Void Staff"
+          ],
+          "ids": [
+            "boots_of_mana",
+            "nashors_tooth",
+            "dusk_and_dawn",
+            "rabadons_deathcap",
+            "void_staff"
+          ],
+          "squishy": 7171,
+          "tank": 5078,
+          "sq_dps": 896,
+          "tk_dps": 635,
+          "sq_ttk": 2.45,
+          "tk_ttk": 6.95,
+          "ranged": true,
+          "as_avg": 1.98,
+          "as_peak": 2.04,
+          "ad": 96.0,
+          "ap": 432.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17240,
+          "owned": [
+            "Boots of Mana",
+            "Nashor's Tooth",
+            "Dusk and Dawn",
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Infinity Orb"
+          ],
+          "ids": [
+            "boots_of_mana",
+            "nashors_tooth",
+            "dusk_and_dawn",
+            "rabadons_deathcap",
+            "void_staff",
+            "infinity_orb"
+          ],
+          "squishy": 9302,
+          "tank": 7154,
+          "sq_dps": 1163,
+          "tk_dps": 894,
+          "sq_ttk": 1.35,
+          "tk_ttk": 4.9,
+          "ranged": true,
+          "as_avg": 2.01,
+          "as_peak": 2.08,
+          "ad": 96.0,
+          "ap": 526.5
+        }
+      }
+    },
+    "kraken": {
+      "label": "Kraken → Rageblade → Terminus → Nashor → Wit's End",
+      "score": 3412,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer"
+          ],
+          "squishy": 2306,
+          "tank": 1579,
+          "sq_dps": 288,
+          "tk_dps": 197,
+          "sq_ttk": 5.15,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.69,
+          "as_peak": 1.72,
+          "ad": 133.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade"
+          ],
+          "squishy": 3372,
+          "tank": 2356,
+          "sq_dps": 421,
+          "tk_dps": 295,
+          "sq_ttk": 4.9,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.99,
+          "as_peak": 2.06,
+          "ad": 177.0,
+          "ap": 30.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus"
+          ],
+          "squishy": 5360,
+          "tank": 3690,
+          "sq_dps": 670,
+          "tk_dps": 461,
+          "sq_ttk": 3.9,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.33,
+          "as_peak": 2.39,
+          "ad": 218.0,
+          "ap": 30.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus",
+            "nashors_tooth"
+          ],
+          "squishy": 6797,
+          "tank": 4438,
+          "sq_dps": 850,
+          "tk_dps": 555,
+          "sq_ttk": 3.05,
+          "tk_ttk": 7.85,
+          "ranged": true,
+          "as_avg": 2.72,
+          "as_peak": 2.78,
+          "ad": 246.0,
+          "ap": 30.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Nashor's Tooth",
+            "Wit's End"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus",
+            "nashors_tooth",
+            "wits_end"
+          ],
+          "squishy": 8350,
+          "tank": 5178,
+          "sq_dps": 1044,
+          "tk_dps": 647,
+          "sq_ttk": 2.7,
+          "tk_ttk": 7.25,
+          "ranged": true,
+          "as_avg": 2.98,
+          "as_peak": 3.0,
+          "ad": 246.0,
+          "ap": 30.0
+        }
+      }
+    },
+    "nashor_kraken": {
+      "label": "Nashor → Kraken → Rageblade → Terminus  (Kraken 2nd)",
+      "score": 3216,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "nashors_tooth"
+          ],
+          "squishy": 1924,
+          "tank": 1389,
+          "sq_dps": 241,
+          "tk_dps": 174,
+          "sq_ttk": 6.8,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.77,
+          "as_peak": 1.8,
+          "ad": 113.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7240,
+          "owned": [
+            "Berserker's Greaves",
+            "Nashor's Tooth",
+            "Kraken Slayer"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "nashors_tooth",
+            "kraken_slayer"
+          ],
+          "squishy": 2992,
+          "tank": 2088,
+          "sq_dps": 374,
+          "tk_dps": 261,
+          "sq_ttk": 5.2,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.13,
+          "as_peak": 2.15,
+          "ad": 167.0,
+          "ap": 0.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10240,
+          "owned": [
+            "Berserker's Greaves",
+            "Nashor's Tooth",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "nashors_tooth",
+            "kraken_slayer",
+            "guinsoos_rageblade"
+          ],
+          "squishy": 4675,
+          "tank": 3040,
+          "sq_dps": 584,
+          "tk_dps": 380,
+          "sq_ttk": 3.85,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.41,
+          "as_peak": 2.47,
+          "ad": 208.0,
+          "ap": 30.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13240,
+          "owned": [
+            "Berserker's Greaves",
+            "Nashor's Tooth",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "nashors_tooth",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus"
+          ],
+          "squishy": 6797,
+          "tank": 4438,
+          "sq_dps": 850,
+          "tk_dps": 555,
+          "sq_ttk": 3.05,
+          "tk_ttk": 7.85,
+          "ranged": true,
+          "as_avg": 2.72,
+          "as_peak": 2.78,
+          "ad": 246.0,
+          "ap": 30.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17240,
+          "owned": [
+            "Berserker's Greaves",
+            "Nashor's Tooth",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Terminus",
+            "Wit's End"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "nashors_tooth",
+            "kraken_slayer",
+            "guinsoos_rageblade",
+            "terminus",
+            "wits_end"
+          ],
+          "squishy": 8350,
+          "tank": 5178,
+          "sq_dps": 1044,
+          "tk_dps": 647,
+          "sq_ttk": 2.7,
+          "tk_ttk": 7.25,
+          "ranged": true,
+          "as_avg": 2.98,
+          "as_peak": 3.0,
+          "ad": 246.0,
+          "ap": 30.0
+        }
+      }
+    },
+    "kraken_ap": {
+      "label": "Kraken → Nashor → Dusk → Cap → Void  (hybrid)",
+      "score": 3136,
+      "by_minute": {
+        "8": {
+          "minute": 8,
+          "level": 9,
+          "gold": 4500,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer"
+          ],
+          "squishy": 2306,
+          "tank": 1579,
+          "sq_dps": 288,
+          "tk_dps": 197,
+          "sq_ttk": 5.15,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 1.69,
+          "as_peak": 1.72,
+          "ad": 133.0,
+          "ap": 0.0
+        },
+        "12": {
+          "minute": 12,
+          "level": 12,
+          "gold": 7240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Nashor's Tooth"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "nashors_tooth"
+          ],
+          "squishy": 2992,
+          "tank": 2088,
+          "sq_dps": 374,
+          "tk_dps": 261,
+          "sq_ttk": 5.2,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.13,
+          "as_peak": 2.15,
+          "ad": 167.0,
+          "ap": 0.0
+        },
+        "16": {
+          "minute": 16,
+          "level": 14,
+          "gold": 10240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Dusk and Dawn"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "nashors_tooth",
+            "dusk_and_dawn"
+          ],
+          "squishy": 4826,
+          "tank": 3150,
+          "sq_dps": 603,
+          "tk_dps": 394,
+          "sq_ttk": 3.8,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.43,
+          "as_peak": 2.47,
+          "ad": 148.0,
+          "ap": 120.0
+        },
+        "20": {
+          "minute": 20,
+          "level": 15,
+          "gold": 13240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Dusk and Dawn"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "nashors_tooth",
+            "dusk_and_dawn"
+          ],
+          "squishy": 4674,
+          "tank": 2850,
+          "sq_dps": 584,
+          "tk_dps": 356,
+          "sq_ttk": 4.25,
+          "tk_ttk": null,
+          "ranged": true,
+          "as_avg": 2.45,
+          "as_peak": 2.49,
+          "ad": 151.0,
+          "ap": 120.0
+        },
+        "24": {
+          "minute": 24,
+          "level": 15,
+          "gold": 17240,
+          "owned": [
+            "Berserker's Greaves",
+            "Kraken Slayer",
+            "Nashor's Tooth",
+            "Dusk and Dawn",
+            "Rabadon's Deathcap",
+            "Void Staff"
+          ],
+          "ids": [
+            "berserkers_greaves",
+            "kraken_slayer",
+            "nashors_tooth",
+            "dusk_and_dawn",
+            "rabadons_deathcap",
+            "void_staff"
+          ],
+          "squishy": 9572,
+          "tank": 6271,
+          "sq_dps": 1196,
+          "tk_dps": 784,
+          "sq_ttk": 1.55,
+          "tk_ttk": 5.95,
+          "ranged": true,
+          "as_avg": 2.56,
+          "as_peak": 2.62,
+          "ad": 151.0,
+          "ap": 432.0
+        }
+      }
+    }
+  }
+}
