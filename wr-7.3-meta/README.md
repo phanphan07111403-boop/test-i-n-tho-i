@@ -20,7 +20,7 @@ Numbers below: **WR / pick / ban** from [riftpatchnotes 7.3 CN](https://www.rift
 
 **Rune + full 6-slot for all 25:** [`builds.md`](builds.md) (WRFire 7.3 pages).
 
-**GameSir X3 Pro should / should not:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Play **Smolder, Sona, Rammus, Galio, Malphite, Shen, Ambessa**. Do not first-pick **Hwei, Caitlyn, Zyra, Syndra, Brand, ASol, Yunara, Cho'Gath, Janna**.
+**GameSir X3 Pro should / should not:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Top 3 pad: ADC **Smolder / Kai'Sa / Ashe** · SP **Sona / Malphite / Senna** · JG **Rammus / Jarvan / Amumu** · Mid **Galio** (then Malphite / Ambessa flex) · Top **Malphite / Shen / Ambessa**. Do not first-pick **Hwei, Caitlyn, Zyra, Syndra, Brand, ASol, Yunara, Cho'Gath, Janna**.
 
 ---
 

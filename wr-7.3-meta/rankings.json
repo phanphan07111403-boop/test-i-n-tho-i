@@ -124,7 +124,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should_not",
-        "x3_pro_note": "Trap placement + brush Headshot. Ban her or pick Malphite/Rammus."
+        "x3_pro_note": "Trap placement + brush Headshot. Ban her or pick Malphite/Rammus.",
+        "x3_pro_rank": null
       },
       {
         "rank": 2,
@@ -158,7 +159,8 @@
         ],
         "skill_max": "W > Q > E",
         "x3_pro": "should",
-        "x3_pro_note": "Autos + W cone. D-pad minion lock last-hits."
+        "x3_pro_note": "Autos + W cone. D-pad minion lock last-hits.",
+        "x3_pro_rank": 3
       },
       {
         "rank": 3,
@@ -192,7 +194,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Ult swaps three skills + Unleash + bead while kiting. Too many HUD states."
+        "x3_pro_note": "Ult swaps three skills + Unleash + bead while kiting. Too many HUD states.",
+        "x3_pro_rank": null
       },
       {
         "rank": 4,
@@ -226,7 +229,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Best pad ADC: Q is targeted (lock unit, press Q = stack). Not the strongest 7.3 ADC — the ADC whose lane still works on the controller."
+        "x3_pro_note": "Best pad ADC: Q is targeted (lock unit, press Q = stack). Not the strongest 7.3 ADC \u2014 the ADC whose lane still works on the controller.",
+        "x3_pro_rank": 1
       },
       {
         "rank": 5,
@@ -260,7 +264,8 @@
         ],
         "skill_max": "Q > W > E (evolve Q > E > W)",
         "x3_pro": "should",
-        "x3_pro_note": "Analog kite is the champ: left stick + RT autos, Q splits, E self, R to Plasma. W is the only skillshot — stop to fire it."
+        "x3_pro_note": "Analog kite is the champ: left stick + RT autos, Q splits, E self, R to Plasma. W is the only skillshot \u2014 stop to fire it.",
+        "x3_pro_rank": 2
       }
     ],
     "support": [
@@ -296,7 +301,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Q is a tap-through line. Souls with D-pad last-hit."
+        "x3_pro_note": "Q is a tap-through line. Souls with D-pad last-hit.",
+        "x3_pro_rank": 3
       },
       {
         "rank": 2,
@@ -330,7 +336,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Q slow missile, R is a click. Same kit top."
+        "x3_pro_note": "Q slow missile, R is a click. Same kit top.",
+        "x3_pro_rank": 2
       },
       {
         "rank": 3,
@@ -364,7 +371,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Auras and Power Chord. No aim. Best pad support in this five."
+        "x3_pro_note": "Auras and Power Chord. No aim. Best pad support in this five.",
+        "x3_pro_rank": 1
       },
       {
         "rank": 4,
@@ -398,7 +406,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Plants are ground-place. Q line + E skillshot. Play Sona."
+        "x3_pro_note": "Plants are ground-place. Q line + E skillshot. Play Sona.",
+        "x3_pro_rank": null
       },
       {
         "rank": 5,
@@ -432,7 +441,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Identity is Q tornado from fog. Play Sona."
+        "x3_pro_note": "Identity is Q tornado from fog. Play Sona.",
+        "x3_pro_rank": null
       }
     ],
     "jungle": [
@@ -468,7 +478,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Hold Q on LT. E targeted. R slam."
+        "x3_pro_note": "Hold Q on LT. E targeted. R slam.",
+        "x3_pro_rank": 1
       },
       {
         "rank": 2,
@@ -502,7 +513,8 @@
         ],
         "skill_max": "E > Q > W",
         "x3_pro": "should",
-        "x3_pro_note": "Q is a line but two charges + self R. Classic pad jungler."
+        "x3_pro_note": "Q is a line but two charges + self R. Classic pad jungler.",
+        "x3_pro_rank": 3
       },
       {
         "rank": 3,
@@ -536,7 +548,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "R is a click. E targeted. Q line is good enough."
+        "x3_pro_note": "R is a click. E targeted. Q line is good enough.",
+        "x3_pro_rank": null
       },
       {
         "rank": 4,
@@ -570,7 +583,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Ghost + analog chase. Q throw-and-pick is fine."
+        "x3_pro_note": "Ghost + analog chase. Q throw-and-pick is fine.",
+        "x3_pro_rank": null
       },
       {
         "rank": 5,
@@ -604,7 +618,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Flag-drag is two buttons (E then Q). R targeted."
+        "x3_pro_note": "Flag-drag is two buttons (E then Q). R targeted.",
+        "x3_pro_rank": 2
       }
     ],
     "mid": [
@@ -640,7 +655,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Q is a ground click. E stun needs the sphere angle. Touch champ."
+        "x3_pro_note": "Q is a ground click. E stun needs the sphere angle. Touch champ.",
+        "x3_pro_rank": null
       },
       {
         "rank": 2,
@@ -674,7 +690,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should_not",
-        "x3_pro_note": "10 abilities (3x3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio."
+        "x3_pro_note": "10 abilities (3x3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio.",
+        "x3_pro_rank": null
       },
       {
         "rank": 3,
@@ -708,7 +725,8 @@
         ],
         "skill_max": "W > E > Q",
         "x3_pro": "should_not",
-        "x3_pro_note": "W delayed circle + Q blocked by minions. Combo dies on pad."
+        "x3_pro_note": "W delayed circle + Q blocked by minions. Combo dies on pad.",
+        "x3_pro_rank": null
       },
       {
         "rank": 4,
@@ -742,7 +760,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Hold W on LT. E dash. R ally-target. The pad mid from this five."
+        "x3_pro_note": "Hold W on LT. E dash. R ally-target. The pad mid from this five.",
+        "x3_pro_rank": 1
       },
       {
         "rank": 5,
@@ -776,7 +795,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Hold Q breath and W fly and aim. Two sticks fight."
+        "x3_pro_note": "Hold Q breath and W fly and aim. Two sticks fight.",
+        "x3_pro_rank": null
       }
     ],
     "top": [
@@ -813,7 +833,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Q slow missile, R click. Best pad top."
+        "x3_pro_note": "Q slow missile, R click. Best pad top.",
+        "x3_pro_rank": 1
       },
       {
         "rank": 2,
@@ -847,7 +868,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Q blade, E dash, R ally. No ground circle."
+        "x3_pro_note": "Q blade, E dash, R ally. No ground circle.",
+        "x3_pro_rank": 2
       },
       {
         "rank": 3,
@@ -881,7 +903,8 @@
         ],
         "skill_max": "Q > E > W",
         "x3_pro": "should",
-        "x3_pro_note": "Feint is the left stick after a spell. Hall stick = her kit."
+        "x3_pro_note": "Feint is the left stick after a spell. Hall stick = her kit.",
+        "x3_pro_rank": 3
       },
       {
         "rank": 4,
@@ -915,7 +938,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should_not",
-        "x3_pro_note": "Lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel."
+        "x3_pro_note": "Lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel.",
+        "x3_pro_rank": null
       },
       {
         "rank": 5,
@@ -949,7 +973,8 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip."
+        "x3_pro_note": "Charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip.",
+        "x3_pro_rank": null
       }
     ]
   },
@@ -1026,6 +1051,37 @@
       "Yunara",
       "Cho'Gath",
       "Janna"
-    ]
+    ],
+    "top3_per_role": {
+      "means": "Ranked by pad fit inside each role's 7.3 outstanding five, not touch winrate.",
+      "adc": [
+        "Smolder",
+        "Kai'Sa",
+        "Ashe"
+      ],
+      "support": [
+        "Sona",
+        "Malphite",
+        "Senna"
+      ],
+      "jungle": [
+        "Rammus",
+        "Jarvan IV",
+        "Amumu"
+      ],
+      "mid": [
+        "Galio"
+      ],
+      "mid_flex": [
+        "Malphite",
+        "Ambessa"
+      ],
+      "mid_note": "Only Galio is a pad mid from the outstanding five. 2nd/3rd are flex from this same 25. Do not fill with Syndra/Hwei/Brand/ASol.",
+      "top": [
+        "Malphite",
+        "Shen",
+        "Ambessa"
+      ]
+    }
   }
 }

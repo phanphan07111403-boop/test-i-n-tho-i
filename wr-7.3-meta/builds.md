@@ -6,13 +6,13 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 
 **GameSir X3 Pro:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Each page has a should / should-not line.
 
-| Role | Play on pad | Skip on pad |
-|------|-------------|-------------|
-| ADC | Ashe, Smolder, Kai'Sa | Caitlyn, Yunara |
-| Support | Senna, Malphite, Sona | Zyra, Janna |
-| Jungle | all five | — |
-| Mid | Galio | Syndra, Hwei, Brand, ASol |
-| Top | Malphite, Shen, Ambessa, K'Sante | Cho'Gath |
+| Role | Pad 1st | Pad 2nd | Pad 3rd | Skip |
+|------|---------|---------|---------|------|
+| ADC | **Smolder** | Kai'Sa | Ashe | Caitlyn, Yunara |
+| Support | **Sona** | Malphite | Senna | Zyra, Janna |
+| Jungle | **Rammus** | Jarvan IV | Amumu | (Nocturne / Olaf still playable) |
+| Mid | **Galio** | Malphite flex | Ambessa flex | Syndra, Hwei, Brand, ASol |
+| Top | **Malphite** | Shen | Ambessa | Cho'Gath |
 
 ---
 

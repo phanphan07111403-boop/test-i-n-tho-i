@@ -88,6 +88,22 @@ Kai'Sa vs Smolder on pad: analog is **nice** on Smolder (walk between Qs). Analo
 
 **Should not** = kit is pixel place, delayed ground circle, 10-spell palette, or hold-aim-and-fly at once. Extra paddles do not fix that.
 
+## Top 3 pad per role
+
+Ranked by **pad fit** inside each role's 7.3 outstanding five. Not by touch winrate. #1 is lock-and-press or hold-trigger. Analog kite is #2 on ADC, not #1.
+
+| Role | 1st | 2nd | 3rd | Do not play |
+|------|-----|-----|-----|-------------|
+| **ADC** | **Smolder** — targeted Q, stack with ← minion lock | **Kai'Sa** — analog kite (stick + RT) | **Ashe** — autos + W cone | Caitlyn, Yunara |
+| **Support** | **Sona** — auras, no aim | **Malphite** — Q missile, R click | **Senna** — tap-through Q, souls on ← | Zyra, Janna |
+| **Jungle** | **Rammus** — hold Q on LT, E targeted | **Jarvan IV** — E then Q, R targeted | **Amumu** — two Q charges, self R | (Nocturne / Olaf are 4–5, still playable) |
+| **Mid** | **Galio** — hold W on LT, E dash, R ally | **Malphite** (flex mid — same kit) | **Ambessa** (flex mid — Feint is the stick) | Syndra, Hwei, Brand, ASol |
+| **Top** | **Malphite** — Q missile, R click | **Shen** — Q blade, E dash, R ally | **Ambessa** — Feint is the left stick | Cho'Gath (K'Sante is 4th: LT W, skip wall-bang) |
+
+Mid's outstanding five only has **one** pad champ (Galio). 2nd / 3rd are flex from this same 25 so you still have three locks. Do not fill those slots with Syndra / Hwei / Brand / ASol.
+
+**Ban on pad:** Caitlyn.
+
 ---
 
 ## Should play on X3 Pro
@@ -178,13 +194,13 @@ These 7.3 outstanding champs **lose the thing that makes them good** under G-Tou
 
 ## If you still want a 7.3 meta lane on pad
 
-| Role | Play | Ban / dodge |
-|------|------|-------------|
-| ADC | **Smolder** or **Ashe** / Kai'Sa | Caitlyn, Yunara |
-| Support | **Sona** or Senna / Malphite | Zyra, Janna |
-| Jungle | **Rammus** or Jarvan / Amumu | (all five are playable) |
-| Mid | **Galio** | Syndra, Hwei, Brand, ASol |
-| Top | **Malphite** or Shen / Ambessa | Cho'Gath |
+| Role | Play (1 → 3) | Ban / dodge |
+|------|----------------|-------------|
+| ADC | **Smolder** → Kai'Sa → Ashe | Caitlyn, Yunara |
+| Support | **Sona** → Malphite → Senna | Zyra, Janna |
+| Jungle | **Rammus** → Jarvan → Amumu | (Nocturne / Olaf still playable) |
+| Mid | **Galio** → Malphite flex → Ambessa flex | Syndra, Hwei, Brand, ASol |
+| Top | **Malphite** → Shen → Ambessa | Cho'Gath |
 
 Caitlyn is 36% pick. On pad you **ban her** or pick Malphite/Rammus into her — you do not try to out-trap her with G-Touch.
 
