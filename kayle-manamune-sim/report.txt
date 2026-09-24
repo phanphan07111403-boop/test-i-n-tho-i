@@ -1,0 +1,195 @@
+================================================================================
+KAYLE BARON — CHINA ON-HIT MANAMUNE vs WR CORES  (Wild Rift Patch 7.3)
+Playstyle: farm → 6s Q-shred / E-reset / auto window | Game: 20:00
+Metric: mixed damage per 6s  |  Baron bruiser is the scoring target
+================================================================================
+
+GOLD / LEVEL / TARGETS
+  Min    Gold  Lvl  Bruiser HP  Armor    MR   Squish HP
+    1     880    2         830      46     35         778
+    4    2020    5        1145      59     40        1117
+    6    2980    7        1445      67     43        1343
+    8    3940    9        1835      85     46        1569
+   10    4900   11        2225     111     62        1795
+   12    6020   12        2510     133     75        1926
+   16    8320   14        3080     178    102        2188
+   20   10800   15        3545     191    111        2355
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (bruiser-mix score)
+--------------------------------------------------------------------------------
+   1:00 | bruiser     665 | squish     702 | 1.32 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Pickaxe
+         pre-legendary
+   2:00 | bruiser     642 | squish     677 | 1.35 APS | China Manamune → Rage → Nashor
+         items: Tear › Long Sword
+         pre-legendary
+   4:00 | bruiser     820 | squish     867 | 1.54 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Recurve › Pickaxe
+         pre-legendary
+   6:00 | bruiser    1462 | squish    1553 | 1.43 APS | China Manamune → Rage → Nashor
+         items: Muramana
+         Muramana
+   8:00 | bruiser    1949 | squish    2090 | 2.13 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Boots › Dagger
+         Rageblade
+   9:00 | bruiser    2057 | squish    2292 | 2.34 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers
+         Rageblade
+  10:00 | bruiser    2211 | squish    2562 | 2.37 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › Pickaxe
+         Rageblade
+  11:00 | bruiser    2121 | squish    2533 | 2.56 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › Recurve
+         Rageblade
+  12:00 | bruiser    2260 | squish    2588 | 2.57 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › Recurve › Pickaxe
+         Rageblade
+  14:00 | bruiser    3067 | squish    3681 | 2.90 APS | Nashor → Rage → Terminus
+         items: Nashor › Berserkers › Rageblade
+         Nashor, Rageblade
+  16:00 | bruiser    3314 | squish    3742 | 2.89 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › BotRK › Recurve
+         Rageblade, BotRK
+  18:00 | bruiser    3618 | squish    4158 | 3.00 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › BotRK › Recurve › Hearthbound
+         Rageblade, BotRK
+  20:00 | bruiser    4672 | squish    5304 | 3.00 APS | Rage → BotRK → Terminus (WR on-hit)
+         items: Rageblade › Berserkers › BotRK › Terminus
+         Rageblade, BotRK, Terminus
+
+--------------------------------------------------------------------------------
+BUILD COMPARISON — BRUISER MIX / 6s @ spikes
+--------------------------------------------------------------------------------
+  Build                                     8:00   12:00   16:00   20:00      Eff     Peak
+  Rage → BotRK → Terminus (WR on-hit)       1949    2260    3314    4672     2431     4672
+  China Manamune → Rage → BotRK             1712    2023    2995    4153     2308     4153
+  China Manamune → Rage → Nashor            1712    2023    2995    4073     2291     4073
+  Nashor → Rage → Terminus                  1583    1882    3008    4186     2258     4186
+  Nashor → Manamune → Rage                  1583    1706    2702    4073     2118     4073
+  Nashor → Orb → Cap                        1519    1901    2176    3359     1849     3359
+  Nashor → Dusk → Cap (WR AP)               1519    1555    2109    3282     1765     3282
+  Nashor → Dusk → Terminus                  1519    1555    2221    3243     1747     3243
+
+--------------------------------------------------------------------------------
+SQUISHY MIX / 6s @ 12 / 16 / 20
+--------------------------------------------------------------------------------
+  Build                                    12:00   16:00   20:00
+  Rage → BotRK → Terminus (WR on-hit)       2588    3742    5304
+  China Manamune → Rage → BotRK             2360    3900    4953
+  China Manamune → Rage → Nashor            2360    3900    5394
+  Nashor → Rage → Terminus                  2145    3820    5253
+  Nashor → Manamune → Rage                  1941    3500    5394
+  Nashor → Orb → Cap                        2148    2812    4465
+  Nashor → Dusk → Cap (WR AP)               1766    2683    4272
+  Nashor → Dusk → Terminus                  1766    2826    4107
+
+--------------------------------------------------------------------------------
+ITEM ONLINE TIMES
+--------------------------------------------------------------------------------
+  China Manamune → Rage → Nashor
+      Manamune ~6:00, Muramana ~6:00, Nashor ~19:00, Rageblade ~14:00
+  China Manamune → Rage → BotRK
+      Manamune ~6:00, Muramana ~6:00, Rageblade ~14:00, BotRK ~19:00
+  Nashor → Manamune → Rage
+      Manamune ~14:00, Muramana ~14:00, Nashor ~6:00, Rageblade ~19:00
+  Nashor → Dusk → Cap (WR AP)
+      Nashor ~6:00, Dusk ~15:00, Cap ~20:00
+  Nashor → Orb → Cap
+      Nashor ~6:00, Cap ~20:00
+  Rage → BotRK → Terminus (WR on-hit)
+      Rageblade ~7:00, BotRK ~15:00, Terminus ~20:00
+  Nashor → Rage → Terminus
+      Nashor ~6:00, Rageblade ~14:00, Terminus ~19:00
+  Nashor → Dusk → Terminus
+      Nashor ~6:00, Dusk ~15:00, Terminus ~20:00
+
+--------------------------------------------------------------------------------
+FIRST LEGENDARY SPIKE vs BRUISER  (path's first completed legendary)
+--------------------------------------------------------------------------------
+  China Manamune → Rage → Nashor         online ~ 6:00  bruiser    1462  items: Muramana
+  China Manamune → Rage → BotRK          online ~ 6:00  bruiser    1462  items: Muramana
+  Nashor → Manamune → Rage               online ~ 6:00  bruiser    1262  items: Nashor
+  Nashor → Dusk → Cap (WR AP)            online ~ 6:00  bruiser    1262  items: Nashor
+  Nashor → Orb → Cap                     online ~ 6:00  bruiser    1262  items: Nashor
+  Rage → BotRK → Terminus (WR on-hit)    online ~ 7:00  bruiser    1783  items: Rageblade › Dagger
+  Nashor → Rage → Terminus               online ~ 6:00  bruiser    1262  items: Nashor
+  Nashor → Dusk → Terminus               online ~ 6:00  bruiser    1262  items: Nashor
+
+--------------------------------------------------------------------------------
+CHINA vs WR — SAME-MINUTE DELTA (bruiser 6s)
+--------------------------------------------------------------------------------
+   8:00  China   1712 | WR-AP   1519 (-193) | WR-onhit   1949 (+237) | Nashor-Rage   1583 (-129) | Nashor-then-Mura   1583 (-129)
+  12:00  China   2023 | WR-AP   1555 (-468) | WR-onhit   2260 (+237) | Nashor-Rage   1882 (-140) | Nashor-then-Mura   1706 (-316)
+  16:00  China   2995 | WR-AP   2109 (-887) | WR-onhit   3314 (+318) | Nashor-Rage   3008 (+13) | Nashor-then-Mura   2702 (-293)
+  20:00  China   4073 | WR-AP   3282 (-791) | WR-onhit   4672 (+599) | Nashor-Rage   4186 (+113) | Nashor-then-Mura   4073 (+0)
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best WR on-hit path (bruiser-weighted): Rage → BotRK → Terminus (WR on-hit)
+  Weighted avg: 2431 | 20:00 bruiser: 4672
+  China Manamune → Rage → Nashor: 2291 (-5.8% vs WR on-hit)
+  China Manamune → Rage → BotRK:  2308 (-5.1% vs WR on-hit)  ← closest import
+  Worth it?: NO as the default. Playable as a mana-lane variant, not an upgrade.
+
+  WHAT THE NUMBERS ACTUALLY SAY:
+  • WR 7.3 Tear stacks fast (14 mana, 3×/10s). If you hold Tear from
+    the first back, Manamune at ~6:00 is already Muramana. Stacking
+    is NOT the PC problem. The problem is the item next to it.
+  • Muramana first DOES win the 6:00 all-in vs Nashor first
+    (1462 vs 1262). Shock + Awe AD hits
+    hard before Aflame. That is the China spike, and it is real.
+  • Rageblade first (~7:00) then beats both. 30 magic on-hit +
+    Seething AS + later phantom hits is the WR 7.3 on-hit keystone.
+    8:00: Rage 1949 vs Muramana 1712 (+237).
+  • After that the China path is always chasing. Gold in Manamune
+    is gold not in BotRK / Terminus. At 20:00 WR on-hit has
+    Rage+BotRK+Terminus (4672); China has Rage+Nashor
+    (4073) or Rage+BotRK still missing Terminus (4153).
+  • Nashor → Dusk → Cap loses this auto-window metric. Dusk's extra
+    on-hit is 2 procs / 6s; Rageblade phantoms scale with APS.
+    Cap barely finishes in a 20-min WR game. Play Nashor-AP if you
+    want Q/R burst and Deathcap, not if you want on-hit DPS.
+  • Delaying Manamune (Nashor first, Tear second) is worse than
+    rushing it. You pay the 2900g after the window where Muramana
+    was actually ahead, and you still delay Rageblade/BotRK.
+
+  WHY PC CHINA MANAMUNE IS A WORSE COPY THAN IT LOOKS:
+  • WR Starfire on-hit is 5% bonus AD + 15% AP (PC E is much more
+    AD). Manamune's AD barely feeds the passive; BotRK's %HP and
+    Rageblade's flat magic do not care about that ratio.
+  • Manamune has 0% attack speed. From level 9, Aflame waves want
+    more attacks. Rageblade and BotRK both buy AS; Manamune does not.
+  • Muramana Shock is 1.5% max mana on autos (~27–35 phys) and 3%
+    on Q/E. Rageblade copies it on phantoms. Real damage — just
+    less than 7% current HP (BotRK) into a 3k HP baron bruiser.
+  • WR games are ~20 minutes. The China 3-item dream
+    (Muramana+Rage+Nashor/BotRK) lands as the Nexus dies. The WR
+    Rage+BotRK path spends the same gold on two AS on-hit items.
+
+  WHEN TO STILL BUY IT:
+  • Poke / mana-bully lanes where you want Tear Q-spam and will
+    finish Manamune anyway. Then go Berserkers → Rageblade → BotRK,
+    not Nashor. Accept ~5–12% less 6s DPS than Rage-first.
+  • Do not buy Manamune as item 2 after Nashor. That path is a
+    worse version of both identities.
+
+  RECOMMENDED (WR baron Kayle, on-hit question, 20-min games):
+  Default on-hit: Recurve + Pickaxe → Rageblade (~7:00)
+                  → Berserker's Greaves → BotRK → Terminus
+  Default AP:     Nashor → Mana boots → Dusk / Orb → Deathcap
+                  (different fight: spells + Cap, not this 6s auto window)
+  China import:   Tear → Manamune (instant Muramana ~6:00)
+                  → Berserkers → Rageblade → BotRK
+                  Only if you already wanted Tear. Not a DPS upgrade.
+
+  Skill: max E → Q. Combat: Q shred → E reset → hold range.
+  Level 5 ranged, 9 Aflame waves, 13 permanent Zeal.
+
+  Trap: copying PC China Muramana+Rage+Nashor as the plan.
+  WR 7.3 already gave on-hit Kayle Rageblade phantoms and BotRK
+  %HP. Manamune is extra Shock, not the engine.
+  Trap: Nashor → Manamune. You buy the China item after the only
+  minutes where it was ahead, and you skip Rageblade.
+================================================================================

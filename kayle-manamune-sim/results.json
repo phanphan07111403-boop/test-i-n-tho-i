@@ -1,0 +1,3377 @@
+{
+  "best": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+  "scores": {
+    "China Manamune \u2192 Rage \u2192 Nashor": 2291.240395613045,
+    "China Manamune \u2192 Rage \u2192 BotRK": 2307.729026037005,
+    "Nashor \u2192 Manamune \u2192 Rage": 2117.8920888249213,
+    "Nashor \u2192 Dusk \u2192 Cap (WR AP)": 1764.8767938345502,
+    "Nashor \u2192 Orb \u2192 Cap": 1848.9564509986403,
+    "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)": 2431.130790889668,
+    "Nashor \u2192 Rage \u2192 Terminus": 2258.0036383261113,
+    "Nashor \u2192 Dusk \u2192 Terminus": 1747.2348015615473
+  },
+  "table": {
+    "China Manamune \u2192 Rage \u2192 Nashor": {
+      "8": 1712.090698385884,
+      "12": 2022.9219995695937,
+      "16": 2995.482260321564,
+      "20": 4073.0032821511395,
+      "eff": 2291.240395613045,
+      "peak": 4073.0032821511395
+    },
+    "China Manamune \u2192 Rage \u2192 BotRK": {
+      "8": 1712.090698385884,
+      "12": 2022.9219995695937,
+      "16": 2995.482260321564,
+      "20": 4152.626782908301,
+      "eff": 2307.729026037005,
+      "peak": 4152.626782908301
+    },
+    "Nashor \u2192 Manamune \u2192 Rage": {
+      "8": 1583.0269740173862,
+      "12": 1706.4317726823115,
+      "16": 2702.443020763041,
+      "20": 4073.0032821511395,
+      "eff": 2117.8920888249213,
+      "peak": 4073.0032821511395
+    },
+    "Nashor \u2192 Dusk \u2192 Cap (WR AP)": {
+      "8": 1519.4184831837536,
+      "12": 1555.2200231525046,
+      "16": 2108.7026496736034,
+      "20": 3281.9068682784628,
+      "eff": 1764.8767938345502,
+      "peak": 3281.9068682784628
+    },
+    "Nashor \u2192 Orb \u2192 Cap": {
+      "8": 1519.4184831837536,
+      "12": 1900.5417335889524,
+      "16": 2175.6089384292154,
+      "20": 3359.2396668170477,
+      "eff": 1848.9564509986403,
+      "peak": 3359.2396668170477
+    },
+    "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)": {
+      "8": 1948.715160383204,
+      "12": 2260.2505520467166,
+      "16": 3313.7492224370117,
+      "20": 4671.995218254748,
+      "eff": 2431.130790889668,
+      "peak": 4671.995218254748
+    },
+    "Nashor \u2192 Rage \u2192 Terminus": {
+      "8": 1583.0269740173862,
+      "12": 1882.4791613483899,
+      "16": 3008.425405209111,
+      "20": 4185.643490328728,
+      "eff": 2258.0036383261113,
+      "peak": 4185.643490328728
+    },
+    "Nashor \u2192 Dusk \u2192 Terminus": {
+      "8": 1519.4184831837536,
+      "12": 1555.2200231525046,
+      "16": 2220.710454169878,
+      "20": 3242.866600629058,
+      "eff": 1747.2348015615473,
+      "peak": 3242.866600629058
+    }
+  },
+  "timings": {
+    "China Manamune \u2192 Rage \u2192 Nashor": {
+      "Manamune": 6,
+      "Muramana": 6,
+      "Nashor's Tooth": 19,
+      "Guinsoo's Rageblade": 14,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": null,
+      "Terminus": null,
+      "Rabadon's Deathcap": null
+    },
+    "China Manamune \u2192 Rage \u2192 BotRK": {
+      "Manamune": 6,
+      "Muramana": 6,
+      "Nashor's Tooth": null,
+      "Guinsoo's Rageblade": 14,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": 19,
+      "Terminus": null,
+      "Rabadon's Deathcap": null
+    },
+    "Nashor \u2192 Manamune \u2192 Rage": {
+      "Manamune": 14,
+      "Muramana": 14,
+      "Nashor's Tooth": 6,
+      "Guinsoo's Rageblade": 19,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": null,
+      "Terminus": null,
+      "Rabadon's Deathcap": null
+    },
+    "Nashor \u2192 Dusk \u2192 Cap (WR AP)": {
+      "Manamune": null,
+      "Muramana": null,
+      "Nashor's Tooth": 6,
+      "Guinsoo's Rageblade": null,
+      "Dusk and Dawn": 15,
+      "Blade of the Ruined King": null,
+      "Terminus": null,
+      "Rabadon's Deathcap": 20
+    },
+    "Nashor \u2192 Orb \u2192 Cap": {
+      "Manamune": null,
+      "Muramana": null,
+      "Nashor's Tooth": 6,
+      "Guinsoo's Rageblade": null,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": null,
+      "Terminus": null,
+      "Rabadon's Deathcap": 20
+    },
+    "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)": {
+      "Manamune": null,
+      "Muramana": null,
+      "Nashor's Tooth": null,
+      "Guinsoo's Rageblade": 7,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": 15,
+      "Terminus": 20,
+      "Rabadon's Deathcap": null
+    },
+    "Nashor \u2192 Rage \u2192 Terminus": {
+      "Manamune": null,
+      "Muramana": null,
+      "Nashor's Tooth": 6,
+      "Guinsoo's Rageblade": 14,
+      "Dusk and Dawn": null,
+      "Blade of the Ruined King": null,
+      "Terminus": 19,
+      "Rabadon's Deathcap": null
+    },
+    "Nashor \u2192 Dusk \u2192 Terminus": {
+      "Manamune": null,
+      "Muramana": null,
+      "Nashor's Tooth": 6,
+      "Guinsoo's Rageblade": null,
+      "Dusk and Dawn": 15,
+      "Blade of the Ruined King": null,
+      "Terminus": 20,
+      "Rabadon's Deathcap": null
+    }
+  },
+  "winners": [
+    {
+      "minute": 1,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 665.2924000329783,
+      "squish": 701.7132084087965,
+      "items": [
+        "Pickaxe"
+      ],
+      "notes": "pre-legendary",
+      "muramana": false,
+      "aps": 1.3184000000000002
+    },
+    {
+      "minute": 2,
+      "build": "China Manamune \u2192 Rage \u2192 Nashor",
+      "bruiser": 641.5837040756761,
+      "squish": 676.5472861088317,
+      "items": [
+        "Tear of the Goddess",
+        "Long Sword"
+      ],
+      "notes": "pre-legendary",
+      "muramana": false,
+      "aps": 1.3456000000000001
+    },
+    {
+      "minute": 3,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 659.308506944004,
+      "squish": 694.5307740688763,
+      "items": [
+        "Recurve Bow",
+        "Amplifying Tome"
+      ],
+      "notes": "pre-legendary",
+      "muramana": false,
+      "aps": 1.5408000000000002
+    },
+    {
+      "minute": 4,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 820.3423921906816,
+      "squish": 866.9525014521371,
+      "items": [
+        "Recurve Bow",
+        "Pickaxe"
+      ],
+      "notes": "pre-legendary",
+      "muramana": false,
+      "aps": 1.5385600000000001
+    },
+    {
+      "minute": 5,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 877.4605241409547,
+      "squish": 927.177187818341,
+      "items": [
+        "Recurve Bow",
+        "Pickaxe",
+        "Amplifying Tome"
+      ],
+      "notes": "pre-legendary",
+      "muramana": false,
+      "aps": 1.57376
+    },
+    {
+      "minute": 6,
+      "build": "China Manamune \u2192 Rage \u2192 Nashor",
+      "bruiser": 1462.2984071152364,
+      "squish": 1552.819659659738,
+      "items": [
+        "Muramana"
+      ],
+      "notes": "Muramana",
+      "muramana": true,
+      "aps": 1.43296
+    },
+    {
+      "minute": 7,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 1782.855246962715,
+      "squish": 1872.9702084068454,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Dagger"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.06416
+    },
+    {
+      "minute": 8,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 1948.715160383204,
+      "squish": 2089.777975031853,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Boots of Speed",
+        "Dagger"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.1313600000000004
+    },
+    {
+      "minute": 9,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 2056.684230159704,
+      "squish": 2291.8959818653466,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.34256
+    },
+    {
+      "minute": 10,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 2211.071621028995,
+      "squish": 2561.5424401549712,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Pickaxe"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.3697600000000003
+    },
+    {
+      "minute": 11,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 2120.9192929718542,
+      "squish": 2533.1776770402166,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Recurve Bow"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.55696
+    },
+    {
+      "minute": 12,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 2260.2505520467166,
+      "squish": 2587.9184918074366,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Recurve Bow",
+        "Pickaxe"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.56656
+    },
+    {
+      "minute": 13,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 2252.9360987679183,
+      "squish": 2657.6099753682292,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Recurve Bow",
+        "Vampiric Scepter"
+      ],
+      "notes": "Rageblade",
+      "muramana": false,
+      "aps": 2.62896
+    },
+    {
+      "minute": 14,
+      "build": "Nashor \u2192 Rage \u2192 Terminus",
+      "bruiser": 3066.9951101418765,
+      "squish": 3680.9761367658493,
+      "items": [
+        "Nashor's Tooth",
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade"
+      ],
+      "notes": "Nashor, Rageblade",
+      "muramana": false,
+      "aps": 2.90096
+    },
+    {
+      "minute": 15,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 3213.2171870709276,
+      "squish": 3562.112573614474,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Blade of the Ruined King"
+      ],
+      "notes": "Rageblade, BotRK",
+      "muramana": false,
+      "aps": 2.72656
+    },
+    {
+      "minute": 16,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 3313.7492224370117,
+      "squish": 3741.71224772228,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Blade of the Ruined King",
+        "Recurve Bow"
+      ],
+      "notes": "Rageblade, BotRK",
+      "muramana": false,
+      "aps": 2.88656
+    },
+    {
+      "minute": 17,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 3336.1568004474493,
+      "squish": 3786.818528346429,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Blade of the Ruined King",
+        "Recurve Bow"
+      ],
+      "notes": "Rageblade, BotRK",
+      "muramana": false,
+      "aps": 2.90416
+    },
+    {
+      "minute": 18,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 3618.2279751704323,
+      "squish": 4158.260873525853,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Blade of the Ruined King",
+        "Recurve Bow",
+        "Hearthbound Axe"
+      ],
+      "notes": "Rageblade, BotRK",
+      "muramana": false,
+      "aps": 3.0
+    },
+    {
+      "minute": 19,
+      "build": "Nashor \u2192 Rage \u2192 Terminus",
+      "bruiser": 4185.643490328728,
+      "squish": 5252.88838538164,
+      "items": [
+        "Nashor's Tooth",
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "notes": "Nashor, Rageblade, Terminus",
+      "muramana": false,
+      "aps": 3.0
+    },
+    {
+      "minute": 20,
+      "build": "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)",
+      "bruiser": 4671.995218254748,
+      "squish": 5304.377409541088,
+      "items": [
+        "Guinsoo's Rageblade",
+        "Berserker's Greaves",
+        "Blade of the Ruined King",
+        "Terminus"
+      ],
+      "notes": "Rageblade, BotRK, Terminus",
+      "muramana": false,
+      "aps": 3.0
+    }
+  ],
+  "snaps": {
+    "China Manamune \u2192 Rage \u2192 Nashor": [
+      {
+        "minute": 1,
+        "items": [
+          "Tear of the Goddess"
+        ],
+        "bruiser": 510.2,
+        "squish": 537.4,
+        "onhit_share": 0.908,
+        "aps": 1.32,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 638,
+        "muramana": false,
+        "tear_stacks": 252,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 641.6,
+        "squish": 676.5,
+        "onhit_share": 0.919,
+        "aps": 1.35,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 931,
+        "muramana": false,
+        "tear_stacks": 504,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 658.6,
+        "squish": 695.4,
+        "onhit_share": 0.922,
+        "aps": 1.37,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 1168,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 688.4,
+        "squish": 727.0,
+        "onhit_share": 0.926,
+        "aps": 1.38,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 1209,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword",
+          "Caulfield's Warhammer"
+        ],
+        "bruiser": 855.7,
+        "squish": 905.7,
+        "onhit_share": 0.931,
+        "aps": 1.41,
+        "ap": 0.0,
+        "bonus_ad": 32.0,
+        "mana": 1250,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Muramana"
+        ],
+        "bruiser": 1462.3,
+        "squish": 1552.8,
+        "onhit_share": 0.923,
+        "aps": 1.43,
+        "ap": 0.0,
+        "bonus_ad": 75.8,
+        "mana": 1791,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Muramana",
+          "Boots of Speed"
+        ],
+        "bruiser": 1518.1,
+        "squish": 1612.5,
+        "onhit_share": 0.906,
+        "aps": 1.46,
+        "ap": 0.0,
+        "bonus_ad": 76.6,
+        "mana": 1832,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Muramana",
+          "Boots of Speed",
+          "Dagger"
+        ],
+        "bruiser": 1712.1,
+        "squish": 1875.8,
+        "onhit_share": 0.918,
+        "aps": 1.62,
+        "ap": 0.0,
+        "bonus_ad": 77.5,
+        "mana": 1873,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves"
+        ],
+        "bruiser": 1850.0,
+        "squish": 2107.8,
+        "onhit_share": 0.912,
+        "aps": 1.83,
+        "ap": 0.0,
+        "bonus_ad": 78.3,
+        "mana": 1914,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "bruiser": 1934.3,
+        "squish": 2287.8,
+        "onhit_share": 0.919,
+        "aps": 2.02,
+        "ap": 0.0,
+        "bonus_ad": 79.1,
+        "mana": 1955,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "bruiser": 1981.4,
+        "squish": 2419.4,
+        "onhit_share": 0.908,
+        "aps": 2.06,
+        "ap": 20.0,
+        "bonus_ad": 79.9,
+        "mana": 1996,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 2022.9,
+        "squish": 2360.2,
+        "onhit_share": 0.912,
+        "aps": 2.06,
+        "ap": 0.0,
+        "bonus_ad": 99.9,
+        "mana": 1996,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 2132.3,
+        "squish": 2560.6,
+        "onhit_share": 0.916,
+        "aps": 2.13,
+        "ap": 20.0,
+        "bonus_ad": 100.7,
+        "mana": 2037,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 2993.9,
+        "squish": 3678.8,
+        "onhit_share": 0.939,
+        "aps": 2.47,
+        "ap": 30.0,
+        "bonus_ad": 115.7,
+        "mana": 2037,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 2927.8,
+        "squish": 3702.3,
+        "onhit_share": 0.94,
+        "aps": 2.49,
+        "ap": 30.0,
+        "bonus_ad": 116.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "bruiser": 2995.5,
+        "squish": 3899.5,
+        "onhit_share": 0.943,
+        "aps": 2.65,
+        "ap": 30.0,
+        "bonus_ad": 116.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 3071.7,
+        "squish": 4095.3,
+        "onhit_share": 0.943,
+        "aps": 2.68,
+        "ap": 65.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 3066.1,
+        "squish": 4095.3,
+        "onhit_share": 0.943,
+        "aps": 2.68,
+        "ap": 65.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth"
+        ],
+        "bruiser": 3973.7,
+        "squish": 5263.4,
+        "onhit_share": 0.953,
+        "aps": 2.94,
+        "ap": 110.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor, Rageblade"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Recurve Bow"
+        ],
+        "bruiser": 4073.0,
+        "squish": 5394.1,
+        "onhit_share": 0.954,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor, Rageblade"
+      }
+    ],
+    "China Manamune \u2192 Rage \u2192 BotRK": [
+      {
+        "minute": 1,
+        "items": [
+          "Tear of the Goddess"
+        ],
+        "bruiser": 510.2,
+        "squish": 537.4,
+        "onhit_share": 0.908,
+        "aps": 1.32,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 638,
+        "muramana": false,
+        "tear_stacks": 252,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 641.6,
+        "squish": 676.5,
+        "onhit_share": 0.919,
+        "aps": 1.35,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 931,
+        "muramana": false,
+        "tear_stacks": 504,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 658.6,
+        "squish": 695.4,
+        "onhit_share": 0.922,
+        "aps": 1.37,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 1168,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 688.4,
+        "squish": 727.0,
+        "onhit_share": 0.926,
+        "aps": 1.38,
+        "ap": 0.0,
+        "bonus_ad": 12.0,
+        "mana": 1209,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Tear of the Goddess",
+          "Long Sword",
+          "Caulfield's Warhammer"
+        ],
+        "bruiser": 855.7,
+        "squish": 905.7,
+        "onhit_share": 0.931,
+        "aps": 1.41,
+        "ap": 0.0,
+        "bonus_ad": 32.0,
+        "mana": 1250,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Muramana"
+        ],
+        "bruiser": 1462.3,
+        "squish": 1552.8,
+        "onhit_share": 0.923,
+        "aps": 1.43,
+        "ap": 0.0,
+        "bonus_ad": 75.8,
+        "mana": 1791,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Muramana",
+          "Boots of Speed"
+        ],
+        "bruiser": 1518.1,
+        "squish": 1612.5,
+        "onhit_share": 0.906,
+        "aps": 1.46,
+        "ap": 0.0,
+        "bonus_ad": 76.6,
+        "mana": 1832,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Muramana",
+          "Boots of Speed",
+          "Dagger"
+        ],
+        "bruiser": 1712.1,
+        "squish": 1875.8,
+        "onhit_share": 0.918,
+        "aps": 1.62,
+        "ap": 0.0,
+        "bonus_ad": 77.5,
+        "mana": 1873,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves"
+        ],
+        "bruiser": 1850.0,
+        "squish": 2107.8,
+        "onhit_share": 0.912,
+        "aps": 1.83,
+        "ap": 0.0,
+        "bonus_ad": 78.3,
+        "mana": 1914,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "bruiser": 1934.3,
+        "squish": 2287.8,
+        "onhit_share": 0.919,
+        "aps": 2.02,
+        "ap": 0.0,
+        "bonus_ad": 79.1,
+        "mana": 1955,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "bruiser": 1981.4,
+        "squish": 2419.4,
+        "onhit_share": 0.908,
+        "aps": 2.06,
+        "ap": 20.0,
+        "bonus_ad": 79.9,
+        "mana": 1996,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 2022.9,
+        "squish": 2360.2,
+        "onhit_share": 0.912,
+        "aps": 2.06,
+        "ap": 0.0,
+        "bonus_ad": 99.9,
+        "mana": 1996,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 2132.3,
+        "squish": 2560.6,
+        "onhit_share": 0.916,
+        "aps": 2.13,
+        "ap": 20.0,
+        "bonus_ad": 100.7,
+        "mana": 2037,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 2993.9,
+        "squish": 3678.8,
+        "onhit_share": 0.939,
+        "aps": 2.47,
+        "ap": 30.0,
+        "bonus_ad": 115.7,
+        "mana": 2037,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 2927.8,
+        "squish": 3702.3,
+        "onhit_share": 0.94,
+        "aps": 2.49,
+        "ap": 30.0,
+        "bonus_ad": 116.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "bruiser": 2995.5,
+        "squish": 3899.5,
+        "onhit_share": 0.943,
+        "aps": 2.65,
+        "ap": 30.0,
+        "bonus_ad": 116.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 3105.2,
+        "squish": 4153.1,
+        "onhit_share": 0.944,
+        "aps": 2.66,
+        "ap": 30.0,
+        "bonus_ad": 137.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Vampiric Scepter"
+        ],
+        "bruiser": 3056.3,
+        "squish": 4093.8,
+        "onhit_share": 0.944,
+        "aps": 2.66,
+        "ap": 30.0,
+        "bonus_ad": 132.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Blade of the Ruined King"
+        ],
+        "bruiser": 4119.6,
+        "squish": 4948.0,
+        "onhit_share": 0.957,
+        "aps": 2.74,
+        "ap": 30.0,
+        "bonus_ad": 157.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade, BotRK"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Muramana",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Blade of the Ruined King"
+        ],
+        "bruiser": 4152.6,
+        "squish": 4952.9,
+        "onhit_share": 0.957,
+        "aps": 2.74,
+        "ap": 30.0,
+        "bonus_ad": 157.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Rageblade, BotRK"
+      }
+    ],
+    "Nashor \u2192 Manamune \u2192 Rage": [
+      {
+        "minute": 1,
+        "items": [
+          "Blasting Wand"
+        ],
+        "bruiser": 590.6,
+        "squish": 619.4,
+        "onhit_share": 0.891,
+        "aps": 1.34,
+        "ap": 45.0,
+        "bonus_ad": 0.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 620.1,
+        "squish": 654.4,
+        "onhit_share": 0.926,
+        "aps": 1.53,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 723.2,
+        "squish": 761.3,
+        "onhit_share": 0.919,
+        "aps": 1.55,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 741.5,
+        "squish": 781.6,
+        "onhit_share": 0.922,
+        "aps": 1.58,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Nashor's Tooth"
+        ],
+        "bruiser": 1261.5,
+        "squish": 1319.6,
+        "onhit_share": 0.941,
+        "aps": 1.86,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1313.8,
+        "squish": 1375.8,
+        "onhit_share": 0.922,
+        "aps": 1.89,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed",
+          "Dagger"
+        ],
+        "bruiser": 1583.0,
+        "squish": 1685.2,
+        "onhit_share": 0.936,
+        "aps": 2.06,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Tear of the Goddess"
+        ],
+        "bruiser": 1692.9,
+        "squish": 1872.1,
+        "onhit_share": 0.926,
+        "aps": 2.27,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 966,
+        "muramana": false,
+        "tear_stacks": 252,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 1769.6,
+        "squish": 2034.3,
+        "onhit_share": 0.929,
+        "aps": 2.29,
+        "ap": 80.0,
+        "bonus_ad": 12.0,
+        "mana": 1259,
+        "muramana": false,
+        "tear_stacks": 504,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 1757.0,
+        "squish": 2088.8,
+        "onhit_share": 0.917,
+        "aps": 2.32,
+        "ap": 80.0,
+        "bonus_ad": 12.0,
+        "mana": 1496,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Tear of the Goddess",
+          "Long Sword"
+        ],
+        "bruiser": 1706.4,
+        "squish": 1941.3,
+        "onhit_share": 0.917,
+        "aps": 2.33,
+        "ap": 80.0,
+        "bonus_ad": 12.0,
+        "mana": 1496,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Tear of the Goddess",
+          "Long Sword",
+          "Caulfield's Warhammer"
+        ],
+        "bruiser": 1954.1,
+        "squish": 2297.8,
+        "onhit_share": 0.926,
+        "aps": 2.39,
+        "ap": 80.0,
+        "bonus_ad": 32.0,
+        "mana": 1537,
+        "muramana": false,
+        "tear_stacks": 700,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana"
+        ],
+        "bruiser": 2582.6,
+        "squish": 3163.4,
+        "onhit_share": 0.929,
+        "aps": 2.39,
+        "ap": 80.0,
+        "bonus_ad": 80.7,
+        "mana": 2037,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Pickaxe"
+        ],
+        "bruiser": 2692.4,
+        "squish": 3398.5,
+        "onhit_share": 0.931,
+        "aps": 2.41,
+        "ap": 80.0,
+        "bonus_ad": 101.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "bruiser": 2702.4,
+        "squish": 3499.8,
+        "onhit_share": 0.934,
+        "aps": 2.58,
+        "ap": 100.0,
+        "bonus_ad": 81.6,
+        "mana": 2078,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 2707.2,
+        "squish": 3610.9,
+        "onhit_share": 0.935,
+        "aps": 2.59,
+        "ap": 80.0,
+        "bonus_ad": 102.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 2808.6,
+        "squish": 3746.2,
+        "onhit_share": 0.936,
+        "aps": 2.6,
+        "ap": 100.0,
+        "bonus_ad": 102.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 3973.7,
+        "squish": 5263.4,
+        "onhit_share": 0.953,
+        "aps": 2.94,
+        "ap": 110.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor, Rageblade"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Muramana",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "bruiser": 4073.0,
+        "squish": 5394.1,
+        "onhit_share": 0.954,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 117.4,
+        "mana": 2119,
+        "muramana": true,
+        "tear_stacks": 700,
+        "notes": "Muramana, Nashor, Rageblade"
+      }
+    ],
+    "Nashor \u2192 Dusk \u2192 Cap (WR AP)": [
+      {
+        "minute": 1,
+        "items": [
+          "Blasting Wand"
+        ],
+        "bruiser": 590.6,
+        "squish": 619.4,
+        "onhit_share": 0.891,
+        "aps": 1.34,
+        "ap": 45.0,
+        "bonus_ad": 0.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 620.1,
+        "squish": 654.4,
+        "onhit_share": 0.926,
+        "aps": 1.53,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 723.2,
+        "squish": 761.3,
+        "onhit_share": 0.919,
+        "aps": 1.55,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 741.5,
+        "squish": 781.6,
+        "onhit_share": 0.922,
+        "aps": 1.58,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Nashor's Tooth"
+        ],
+        "bruiser": 1261.5,
+        "squish": 1319.6,
+        "onhit_share": 0.941,
+        "aps": 1.86,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1313.8,
+        "squish": 1375.8,
+        "onhit_share": 0.922,
+        "aps": 1.89,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1519.4,
+        "squish": 1617.4,
+        "onhit_share": 0.933,
+        "aps": 1.96,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "bruiser": 1649.2,
+        "squish": 1822.5,
+        "onhit_share": 0.916,
+        "aps": 1.99,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 714,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen"
+        ],
+        "bruiser": 1609.0,
+        "squish": 1845.6,
+        "onhit_share": 0.918,
+        "aps": 2.02,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 755,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen"
+        ],
+        "bruiser": 1602.0,
+        "squish": 1902.6,
+        "onhit_share": 0.904,
+        "aps": 2.05,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem"
+        ],
+        "bruiser": 1555.2,
+        "squish": 1766.2,
+        "onhit_share": 0.904,
+        "aps": 2.06,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem"
+        ],
+        "bruiser": 1627.0,
+        "squish": 1906.1,
+        "onhit_share": 0.912,
+        "aps": 2.12,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem",
+          "Blasting Wand"
+        ],
+        "bruiser": 1806.3,
+        "squish": 2175.4,
+        "onhit_share": 0.915,
+        "aps": 2.14,
+        "ap": 140.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn"
+        ],
+        "bruiser": 2170.2,
+        "squish": 2682.8,
+        "onhit_share": 0.93,
+        "aps": 2.32,
+        "ap": 155.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn"
+        ],
+        "bruiser": 2108.7,
+        "squish": 2682.8,
+        "onhit_share": 0.93,
+        "aps": 2.32,
+        "ap": 155.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2456.5,
+        "squish": 3200.3,
+        "onhit_share": 0.934,
+        "aps": 2.37,
+        "ap": 225.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2448.1,
+        "squish": 3200.3,
+        "onhit_share": 0.934,
+        "aps": 2.37,
+        "ap": 225.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2448.1,
+        "squish": 3200.3,
+        "onhit_share": 0.934,
+        "aps": 2.37,
+        "ap": 225.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Rabadon's Deathcap"
+        ],
+        "bruiser": 3281.9,
+        "squish": 4271.6,
+        "onhit_share": 0.938,
+        "aps": 2.42,
+        "ap": 370.5,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+, Cap"
+      }
+    ],
+    "Nashor \u2192 Orb \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Blasting Wand"
+        ],
+        "bruiser": 590.6,
+        "squish": 619.4,
+        "onhit_share": 0.891,
+        "aps": 1.34,
+        "ap": 45.0,
+        "bonus_ad": 0.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 620.1,
+        "squish": 654.4,
+        "onhit_share": 0.926,
+        "aps": 1.53,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 723.2,
+        "squish": 761.3,
+        "onhit_share": 0.919,
+        "aps": 1.55,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 741.5,
+        "squish": 781.6,
+        "onhit_share": 0.922,
+        "aps": 1.58,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Nashor's Tooth"
+        ],
+        "bruiser": 1261.5,
+        "squish": 1319.6,
+        "onhit_share": 0.941,
+        "aps": 1.86,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1313.8,
+        "squish": 1375.8,
+        "onhit_share": 0.922,
+        "aps": 1.89,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1519.4,
+        "squish": 1617.4,
+        "onhit_share": 0.933,
+        "aps": 1.96,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "bruiser": 1649.2,
+        "squish": 1822.5,
+        "onhit_share": 0.916,
+        "aps": 1.99,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 714,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "bruiser": 1609.0,
+        "squish": 1845.6,
+        "onhit_share": 0.918,
+        "aps": 2.02,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 755,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "bruiser": 1602.0,
+        "squish": 1902.6,
+        "onhit_share": 0.904,
+        "aps": 2.05,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 1900.5,
+        "squish": 2147.8,
+        "onhit_share": 0.909,
+        "aps": 2.08,
+        "ap": 165.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 1995.7,
+        "squish": 2326.7,
+        "onhit_share": 0.917,
+        "aps": 2.15,
+        "ap": 165.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb"
+        ],
+        "bruiser": 2305.1,
+        "squish": 2798.6,
+        "onhit_share": 0.917,
+        "aps": 2.16,
+        "ap": 205.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb"
+        ],
+        "bruiser": 2243.6,
+        "squish": 2811.6,
+        "onhit_share": 0.918,
+        "aps": 2.18,
+        "ap": 205.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb"
+        ],
+        "bruiser": 2175.6,
+        "squish": 2811.6,
+        "onhit_share": 0.918,
+        "aps": 2.18,
+        "ap": 205.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2493.8,
+        "squish": 3310.5,
+        "onhit_share": 0.923,
+        "aps": 2.23,
+        "ap": 275.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2484.3,
+        "squish": 3310.5,
+        "onhit_share": 0.923,
+        "aps": 2.23,
+        "ap": 275.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "bruiser": 2484.3,
+        "squish": 3310.5,
+        "onhit_share": 0.923,
+        "aps": 2.23,
+        "ap": 275.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Rabadon's Deathcap"
+        ],
+        "bruiser": 3359.2,
+        "squish": 4464.9,
+        "onhit_share": 0.929,
+        "aps": 2.29,
+        "ap": 435.5,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Cap"
+      }
+    ],
+    "Rage \u2192 BotRK \u2192 Terminus (WR on-hit)": [
+      {
+        "minute": 1,
+        "items": [
+          "Pickaxe"
+        ],
+        "bruiser": 665.3,
+        "squish": 701.7,
+        "onhit_share": 0.916,
+        "aps": 1.32,
+        "ap": 0.0,
+        "bonus_ad": 20.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "bruiser": 659.3,
+        "squish": 694.5,
+        "onhit_share": 0.919,
+        "aps": 1.54,
+        "ap": 20.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 820.3,
+        "squish": 867.0,
+        "onhit_share": 0.934,
+        "aps": 1.54,
+        "ap": 0.0,
+        "bonus_ad": 20.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 877.5,
+        "squish": 927.2,
+        "onhit_share": 0.93,
+        "aps": 1.57,
+        "ap": 20.0,
+        "bonus_ad": 20.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 918.7,
+        "squish": 971.1,
+        "onhit_share": 0.934,
+        "aps": 1.6,
+        "ap": 20.0,
+        "bonus_ad": 20.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Dagger"
+        ],
+        "bruiser": 1782.9,
+        "squish": 1873.0,
+        "onhit_share": 0.944,
+        "aps": 2.06,
+        "ap": 30.0,
+        "bonus_ad": 35.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Boots of Speed",
+          "Dagger"
+        ],
+        "bruiser": 1948.7,
+        "squish": 2089.8,
+        "onhit_share": 0.949,
+        "aps": 2.13,
+        "ap": 30.0,
+        "bonus_ad": 35.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bruiser": 2056.7,
+        "squish": 2291.9,
+        "onhit_share": 0.94,
+        "aps": 2.34,
+        "ap": 30.0,
+        "bonus_ad": 35.0,
+        "mana": 714,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Pickaxe"
+        ],
+        "bruiser": 2211.1,
+        "squish": 2561.5,
+        "onhit_share": 0.943,
+        "aps": 2.37,
+        "ap": 30.0,
+        "bonus_ad": 55.0,
+        "mana": 755,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "bruiser": 2120.9,
+        "squish": 2533.2,
+        "onhit_share": 0.934,
+        "aps": 2.56,
+        "ap": 30.0,
+        "bonus_ad": 35.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 2260.3,
+        "squish": 2587.9,
+        "onhit_share": 0.937,
+        "aps": 2.57,
+        "ap": 30.0,
+        "bonus_ad": 55.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Vampiric Scepter"
+        ],
+        "bruiser": 2252.9,
+        "squish": 2657.6,
+        "onhit_share": 0.94,
+        "aps": 2.63,
+        "ap": 30.0,
+        "bonus_ad": 50.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Vampiric Scepter",
+          "Pickaxe"
+        ],
+        "bruiser": 2378.6,
+        "squish": 2899.1,
+        "onhit_share": 0.942,
+        "aps": 2.63,
+        "ap": 30.0,
+        "bonus_ad": 70.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King"
+        ],
+        "bruiser": 3213.2,
+        "squish": 3562.1,
+        "onhit_share": 0.958,
+        "aps": 2.73,
+        "ap": 30.0,
+        "bonus_ad": 75.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Recurve Bow"
+        ],
+        "bruiser": 3313.7,
+        "squish": 3741.7,
+        "onhit_share": 0.96,
+        "aps": 2.89,
+        "ap": 30.0,
+        "bonus_ad": 75.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Recurve Bow"
+        ],
+        "bruiser": 3336.2,
+        "squish": 3786.8,
+        "onhit_share": 0.962,
+        "aps": 2.9,
+        "ap": 30.0,
+        "bonus_ad": 75.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Recurve Bow",
+          "Hearthbound Axe"
+        ],
+        "bruiser": 3618.2,
+        "squish": 4158.3,
+        "onhit_share": 0.963,
+        "aps": 3.0,
+        "ap": 30.0,
+        "bonus_ad": 95.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Recurve Bow",
+          "Hearthbound Axe"
+        ],
+        "bruiser": 3657.6,
+        "squish": 4164.1,
+        "onhit_share": 0.964,
+        "aps": 3.0,
+        "ap": 30.0,
+        "bonus_ad": 95.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Blade of the Ruined King",
+          "Terminus"
+        ],
+        "bruiser": 4672.0,
+        "squish": 5304.4,
+        "onhit_share": 0.97,
+        "aps": 3.0,
+        "ap": 30.0,
+        "bonus_ad": 110.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Rageblade, BotRK, Terminus"
+      }
+    ],
+    "Nashor \u2192 Rage \u2192 Terminus": [
+      {
+        "minute": 1,
+        "items": [
+          "Blasting Wand"
+        ],
+        "bruiser": 590.6,
+        "squish": 619.4,
+        "onhit_share": 0.891,
+        "aps": 1.34,
+        "ap": 45.0,
+        "bonus_ad": 0.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 620.1,
+        "squish": 654.4,
+        "onhit_share": 0.926,
+        "aps": 1.53,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 723.2,
+        "squish": 761.3,
+        "onhit_share": 0.919,
+        "aps": 1.55,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 741.5,
+        "squish": 781.6,
+        "onhit_share": 0.922,
+        "aps": 1.58,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Nashor's Tooth"
+        ],
+        "bruiser": 1261.5,
+        "squish": 1319.6,
+        "onhit_share": 0.941,
+        "aps": 1.86,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1313.8,
+        "squish": 1375.8,
+        "onhit_share": 0.922,
+        "aps": 1.89,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed",
+          "Dagger"
+        ],
+        "bruiser": 1583.0,
+        "squish": 1685.2,
+        "onhit_share": 0.936,
+        "aps": 2.06,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bruiser": 1692.9,
+        "squish": 1872.1,
+        "onhit_share": 0.926,
+        "aps": 2.27,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 714,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "bruiser": 1752.6,
+        "squish": 2009.8,
+        "onhit_share": 0.931,
+        "aps": 2.45,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 755,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "bruiser": 1853.2,
+        "squish": 2193.0,
+        "onhit_share": 0.92,
+        "aps": 2.49,
+        "ap": 100.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe"
+        ],
+        "bruiser": 1882.5,
+        "squish": 2144.7,
+        "onhit_share": 0.923,
+        "aps": 2.49,
+        "ap": 80.0,
+        "bonus_ad": 20.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Pickaxe",
+          "Amplifying Tome"
+        ],
+        "bruiser": 2069.5,
+        "squish": 2424.8,
+        "onhit_share": 0.93,
+        "aps": 2.56,
+        "ap": 100.0,
+        "bonus_ad": 20.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 3067.0,
+        "squish": 3681.0,
+        "onhit_share": 0.951,
+        "aps": 2.9,
+        "ap": 110.0,
+        "bonus_ad": 35.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade"
+        ],
+        "bruiser": 2995.3,
+        "squish": 3699.0,
+        "onhit_share": 0.952,
+        "aps": 2.92,
+        "ap": 110.0,
+        "bonus_ad": 35.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "bruiser": 3008.4,
+        "squish": 3819.8,
+        "onhit_share": 0.953,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 35.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "bruiser": 2923.9,
+        "squish": 3811.2,
+        "onhit_share": 0.953,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 35.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Hearthbound Axe"
+        ],
+        "bruiser": 3110.8,
+        "squish": 4076.3,
+        "onhit_share": 0.954,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 55.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Terminus"
+        ],
+        "bruiser": 4185.6,
+        "squish": 5252.9,
+        "onhit_share": 0.965,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 70.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade, Terminus"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Terminus"
+        ],
+        "bruiser": 4185.6,
+        "squish": 5252.9,
+        "onhit_share": 0.965,
+        "aps": 3.0,
+        "ap": 110.0,
+        "bonus_ad": 70.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Rageblade, Terminus"
+      }
+    ],
+    "Nashor \u2192 Dusk \u2192 Terminus": [
+      {
+        "minute": 1,
+        "items": [
+          "Blasting Wand"
+        ],
+        "bruiser": 590.6,
+        "squish": 619.4,
+        "onhit_share": 0.891,
+        "aps": 1.34,
+        "ap": 45.0,
+        "bonus_ad": 0.0,
+        "mana": 386,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 601.8,
+        "squish": 634.2,
+        "onhit_share": 0.923,
+        "aps": 1.51,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 427,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Recurve Bow"
+        ],
+        "bruiser": 620.1,
+        "squish": 654.4,
+        "onhit_share": 0.926,
+        "aps": 1.53,
+        "ap": 0.0,
+        "bonus_ad": 0.0,
+        "mana": 468,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 723.2,
+        "squish": 761.3,
+        "onhit_share": 0.919,
+        "aps": 1.55,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 509,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Recurve Bow",
+          "Fiendish Codex"
+        ],
+        "bruiser": 741.5,
+        "squish": 781.6,
+        "onhit_share": 0.922,
+        "aps": 1.58,
+        "ap": 35.0,
+        "bonus_ad": 0.0,
+        "mana": 550,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Nashor's Tooth"
+        ],
+        "bruiser": 1261.5,
+        "squish": 1319.6,
+        "onhit_share": 0.941,
+        "aps": 1.86,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 591,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1313.8,
+        "squish": 1375.8,
+        "onhit_share": 0.922,
+        "aps": 1.89,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 632,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Speed"
+        ],
+        "bruiser": 1519.4,
+        "squish": 1617.4,
+        "onhit_share": 0.933,
+        "aps": 1.96,
+        "ap": 80.0,
+        "bonus_ad": 0.0,
+        "mana": 673,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "bruiser": 1649.2,
+        "squish": 1822.5,
+        "onhit_share": 0.916,
+        "aps": 1.99,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 714,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen"
+        ],
+        "bruiser": 1609.0,
+        "squish": 1845.6,
+        "onhit_share": 0.918,
+        "aps": 2.02,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 755,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen"
+        ],
+        "bruiser": 1602.0,
+        "squish": 1902.6,
+        "onhit_share": 0.904,
+        "aps": 2.05,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem"
+        ],
+        "bruiser": 1555.2,
+        "squish": 1766.2,
+        "onhit_share": 0.904,
+        "aps": 2.06,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 796,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem"
+        ],
+        "bruiser": 1627.0,
+        "squish": 1906.1,
+        "onhit_share": 0.912,
+        "aps": 2.12,
+        "ap": 95.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Sheen",
+          "Kindlegem",
+          "Blasting Wand"
+        ],
+        "bruiser": 1806.3,
+        "squish": 2175.4,
+        "onhit_share": 0.915,
+        "aps": 2.14,
+        "ap": 140.0,
+        "bonus_ad": 0.0,
+        "mana": 837,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn"
+        ],
+        "bruiser": 2170.2,
+        "squish": 2682.8,
+        "onhit_share": 0.93,
+        "aps": 2.32,
+        "ap": 155.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Recurve Bow"
+        ],
+        "bruiser": 2220.7,
+        "squish": 2825.8,
+        "onhit_share": 0.933,
+        "aps": 2.48,
+        "ap": 155.0,
+        "bonus_ad": 0.0,
+        "mana": 878,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Recurve Bow"
+        ],
+        "bruiser": 2173.8,
+        "squish": 2842.3,
+        "onhit_share": 0.934,
+        "aps": 2.5,
+        "ap": 155.0,
+        "bonus_ad": 0.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Recurve Bow",
+          "Hearthbound Axe"
+        ],
+        "bruiser": 2419.7,
+        "squish": 3183.1,
+        "onhit_share": 0.938,
+        "aps": 2.62,
+        "ap": 155.0,
+        "bonus_ad": 20.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Recurve Bow",
+          "Hearthbound Axe"
+        ],
+        "bruiser": 2419.7,
+        "squish": 3183.1,
+        "onhit_share": 0.938,
+        "aps": 2.62,
+        "ap": 155.0,
+        "bonus_ad": 20.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Dusk and Dawn",
+          "Terminus"
+        ],
+        "bruiser": 3242.9,
+        "squish": 4107.4,
+        "onhit_share": 0.952,
+        "aps": 2.62,
+        "ap": 155.0,
+        "bonus_ad": 35.0,
+        "mana": 919,
+        "muramana": false,
+        "tear_stacks": 0,
+        "notes": "Nashor, Dusk+, Terminus"
+      }
+    ]
+  },
+  "gold": [
+    880,
+    1260,
+    1640,
+    2020,
+    2500,
+    2980,
+    3460,
+    3940,
+    4420,
+    4900,
+    5460,
+    6020,
+    6580,
+    7140,
+    7700,
+    8320,
+    8940,
+    9560,
+    10180,
+    10800
+  ],
+  "level": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    12,
+    13,
+    13,
+    14,
+    14,
+    15,
+    15,
+    15,
+    15
+  ]
+}
