@@ -4,7 +4,7 @@ Pages from [WildRiftFire 7.3](https://www.wildriftfire.com/) (iTzSTU4RT). Trust 
 
 Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup in *Situational*. Support slot is Black Mist Scythe (Sickle) or Bulwark of the Mountain (Relic Shield).
 
-**GameSir X3 Pro:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Each page has a should / should-not line.
+**GameSir X3 Pro:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Analog kite = stick between autos. Setup: Locked joystick, Mapping Enhancement, RT = attack, 50 ms. Android G-Touch only.
 
 | Role | Pad 1st | Pad 2nd | Pad 3rd | Skip |
 |------|---------|---------|---------|------|

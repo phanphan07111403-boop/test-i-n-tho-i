@@ -19,6 +19,108 @@ Do **not** bind D-pad to the move stick. Details: GameSir World → Click Mode. 
 
 WR setting that matters: locked joystick + mapping delay as low as it goes (~50 ms). Otherwise a skill press **stops the walk** — that is the X3 Pro vs Wild Rift complaint.
 
+## Analog kite + autos (what they are)
+
+**Auto** = basic attack / đánh thường. Not Q W E R. The champ stops, winds up, fires, then can walk again. On pad that is **RT** tapping the attack HUD.
+
+**Analog** = the left Hall stick. 360° walk that does not snap to 8 directions. That stick is how you kite.
+
+**Analog kite** = walk with the stick **between** autos, not instead of them.
+
+```
+stick away  →  RT (auto fires)  →  stick away  →  RT  →  stick away
+   walk          stand + shoot        walk           shoot        walk
+```
+
+Two clocks inside one auto:
+
+| Clock | Champ | You |
+|-------|-------|-----|
+| **Wind-up** | Stands still and shoots | Stick can stay pushed, but a **new** move command in this window **cancels** the shot. Mapping must not drop the joystick touch. |
+| **Cooldown** | Cannot shoot yet | **This is the walk.** Stick away / sideways. This is kite. |
+
+If you hold RT with **Force Attack Follow ON**, the champ **chases** when they leave range — that is the opposite of kite. Follow **OFF**. Tap RT on each cooldown. Do not hold RT unless they are planted in range.
+
+Hall stick vs D-pad: D-pad is 4 HUD taps (minion / tower / recall / scoreboard). It is **not** movement. Analog kite dies if you bind the hat to the move joystick.
+
+| Champ | Autos in the kite | What you add |
+|-------|-------------------|--------------|
+| **Kai'Sa** | Almost all the damage (Plasma). Analog **is** the champ. | Q when isolated. E to haste. Stop **only** to fire W. |
+| **Ashe** | Autos + Frost. Analog is very good. | W cone between autos. R is extra. |
+| **Smolder** | Autos are filler. Damage is targeted Q. | Stick between Qs. Analog is nice, not required. |
+
+## Setup (do this in order)
+
+Android only. Open Tốc Chiến **from GameSir World**. iPhone cannot map Wild Rift.
+
+### 1. Wild Rift HUD first
+
+Lobby: **Cài đặt → Điều khiển → Tùy chỉnh bố cục nút**. Save a layout named pad, separate from touch.
+
+| Icon | Put it | Why |
+|------|--------|-----|
+| Attack (đánh thường) | Right side, easy for RT | This is every auto. |
+| Minion lock (đánh lính) | Below attack, spaced | ← D-pad. Last-hit without stealing champion autos. |
+| Tower lock (đánh trụ) | Above attack, spaced | → D-pad. |
+| Recall | Far from skills | ↓ D-pad. |
+| Scoreboard | Far from skills | ↑ D-pad. |
+| Move joystick | Fixed corner | Must match **Locked** below. |
+
+Do not stack minion/tower on QWER. Map after the icons are parked.
+
+### 2. Wild Rift settings (kite)
+
+**Cài đặt → Điều khiển:**
+
+| Setting | Set | If wrong |
+|---------|-----|----------|
+| Joystick type | **Locked / Cố định** | Floating stick jumps; every RT drops the walk. |
+| Force Attack Follow | **OFF** | Holding RT chases. Kite dies. |
+| Portrait lock | **ON** (priority display) | RT hits champs, not a random minion. |
+| Lock Target | **No Minion/Structure** in fights | Same. Last-hit with ← instead. |
+| Aim Panning | **ON** | Right stick can pull camera when you aim W. |
+| Semi-lock camera | **ON** | Map does not fly away while you kite. |
+| Turbo | **OFF** | Turbo AA last-hits wrong and cancels wind-ups. |
+
+### 3. GameSir World map
+
+1. Mode **G-Touch** (Hardware Mapping). MediaTek phones: **V-Touch**. Enable **Mapping Enhancement** so stick + RT are two touches at once. Without it, RT **stops the walk** — analog kite is impossible.
+2. Floating icon → **Adjust buttons / 调整键位**.
+3. Left Hall stick → WR move joystick. Joystick touch duration / delay = **50 ms** (as low as the slider goes). Higher delay = late autos. Zero-but-broken = skill still cancels walk; keep 50.
+4. Bind:
+
+| Physical | HUD | Click Mode |
+|----------|-----|------------|
+| Left stick | Move joystick | Joystick, locked spot |
+| **RT** | Attack | **Normal** tap. No Turbo. No Cloned. |
+| A B X Y | Q W E R | Normal. Charge skills (Galio W, K'Sante W, Rammus Q) on **LT analog**, not a tap. |
+| LB / RB | Flash + Ghost/Heal | Normal |
+| L4 / R4 | Item 1–2 | Normal |
+| ← ↑ ↓ → | Minion / scoreboard / recall / tower | Four **Add Button** dots. Not Add D-pad. |
+
+5. Right stick = camera **or** skill-aim wheel. Not both at once. For Kai'Sa analog kite, leave RS idle while you stick+RT. Use RS only when you stop to fire W.
+6. **Save.** Do not Cloned-Mode the attack button (one tap would hit attack + something else).
+
+D-pad error `Property setting is not available for D-pad button`: delete the cross widget, **Add Button** four times, press one direction per dot, drag onto the four HUD icons. Default is already Normal.
+
+### 4. Practice tool — prove kite before ranked
+
+**Tập luyện.** Dummy, then a wave.
+
+| Test | Pass | Fail |
+|------|------|------|
+| Left stick only | Smooth 360, no 8-way snap | D-pad is still bound to move |
+| Stick + RT | Champ **keeps walking** while autos fire | Mapping Enhancement off, or joystick not Locked |
+| Tap RT then stick **during wind-up** | Shot cancels (you should see this once) | You now know the window: wait for the projectile, *then* walk |
+| Stick away, RT on each cooldown | Dummy dies while you circle | You are holding RT and walking into them |
+| ← then RT | Last-hits the wave, ignores dummy | Attack button is still champion-priority; use minion lock |
+| Q/E/R while stick is pushed | Walk does not stop | Delay > 50 ms or Enhancement off |
+| Hold RT, dummy walks out of range | You **stop**, you do not chase | Follow is still ON |
+
+Drill until stick+RT is one motion: **away, tap, away, tap**. That is analog kite. Then add Q (Kai'Sa isolated / Smolder lock) on the walk window, not on the wind-up.
+
+If a skill press still stops the walk: G-Touch → V-Touch, keep Enhancement on, confirm Locked joystick, 50 ms, reopen the game from GameSir World.
+
 ## What "pad" means
 
 **Pad** = GameSir X3 Pro in your hands. Left stick walk, RT attack, A/B/X/Y = Q W E R. Not thumbs on the Wild Rift HUD.
@@ -58,7 +160,7 @@ Hands:
 | Left index | **LB** Ghost | Analog chase. Flash on RB. |
 | Left thumb | ← D-pad | Minion lock for last-hits. |
 
-If a skill press **stops the walk**, analog kite is dead. Locked WR joystick + mapping delay ~50 ms.
+If a skill press **stops the walk**, analog kite is dead. Fix it in **Setup** above: Mapping Enhancement, Locked joystick, 50 ms delay.
 
 **The loop** (this is the analog):
 

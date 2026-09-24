@@ -1082,6 +1082,21 @@
         "Shen",
         "Ambessa"
       ]
+    },
+    "analog_kite": {
+      "auto": "Basic attack / danh thuong. RT taps the attack HUD. Not QWER.",
+      "analog": "Left Hall stick, 360 walk, not the D-pad.",
+      "kite": "Walk with the stick between autos: stick away, RT, stick away, RT.",
+      "wind_up": "Champ stands and shoots. A new move command here cancels the auto.",
+      "cooldown": "Cannot shoot. This is the walk window. This is kite.",
+      "do_not_hold_rt": "Force Attack Follow OFF. Tap RT on each cooldown. Holding RT chases.",
+      "setup_order": [
+        "WR HUD layout first (attack, minion, tower, recall, scoreboard, locked joystick)",
+        "WR: joystick Locked, Follow OFF, portrait lock ON, Turbo OFF",
+        "GameSir World: G-Touch, Mapping Enhancement ON, left stick on joystick, delay 50ms, RT = attack Normal",
+        "D-pad = four Add Button dots, not the hat widget",
+        "Practice tool: stick+RT must keep walking"
+      ]
     }
   }
 }
