@@ -1,0 +1,132 @@
+{
+  "patch": "7.3",
+  "weights": {
+    "duel": 0.35,
+    "tank": 0.35,
+    "pad": 0.3
+  },
+  "winner": "Volibear",
+  "ranking": [
+    {
+      "name": "Volibear",
+      "lane": "Baron (also Jungle)",
+      "duel": 9.2,
+      "tank": 9.1,
+      "pad": 9.4,
+      "wr_note": "Baron ~54.4% WR, S+ on wildriftmeta 7.3",
+      "why": "Q is 'hold left stick toward them, then auto' \u2014 hall sticks beat a virtual joystick. W is targeted bite + heal. E can be cast on your feet for the shield. R is a huge landing zone that also turns the tower off, so dives do not delete you.",
+      "skip_if": "Vayne / kite-heavy range + disengage; they never let you bite twice.",
+      "total": 9.225
+    },
+    {
+      "name": "Warwick",
+      "lane": "Jungle (Baron possible)",
+      "duel": 8.3,
+      "tank": 8.4,
+      "pad": 8.6,
+      "wr_note": "Ult CD nerfed 7.2c (80/70/60 \u2192 100/90/80)",
+      "why": "Q is targeted sustain, analog stick helps stay in bite range, R is one dash skillshot. Easy 1v1s when the fear + Q heal line up. Weaker pick after the ult cooldown hit.",
+      "skip_if": "You need Baron lane, or they have heavy anti-heal + range.",
+      "total": 8.425
+    },
+    {
+      "name": "Garen",
+      "lane": "Baron",
+      "duel": 8.1,
+      "tank": 7.4,
+      "pad": 9.8,
+      "wr_note": "High pick, ~49.6% WR on wildriftcore 7.3",
+      "why": "Zero aim: Q targeted silence, E spin around you, W self-cast, R execute. Best raw X3 mapping. Loses long 1v1s to true duelists and is less unkillable mid-fight than Voli/Sett.",
+      "skip_if": "Fiora, Vayne, or any lane that kites the spin forever.",
+      "total": 8.365
+    },
+    {
+      "name": "Sett",
+      "lane": "Baron",
+      "duel": 8.4,
+      "tank": 8.8,
+      "pad": 7.2,
+      "wr_note": "~49.9% WR, A-tier baron 7.3",
+      "why": "E pull + grit W makes him a brawler who lives the first burst. W cone center and R throw-angle need right-stick aim \u2014 doable on X3 Pro, but more miss-prone than Voli's targeted bite.",
+      "skip_if": "Poke/kite comps that never let you stack grit.",
+      "total": 8.18
+    },
+    {
+      "name": "Mordekaiser",
+      "lane": "Baron",
+      "duel": 9.0,
+      "tank": 8.3,
+      "pad": 7.0,
+      "wr_note": "S-tier baron on several 7.2/7.3 lists; high ban",
+      "why": "R is a forced 1v1 with stolen stats \u2014 closest thing to 'easy 1v1' in the kit. W shield is tanky. Q facing + E pull are skillshots, so overlay aim is worse than point-and-click Voli/Garen.",
+      "skip_if": "Fiora, Gwen, Vayne \u2014 they win the isolated duel.",
+      "total": 8.155
+    },
+    {
+      "name": "Dr. Mundo",
+      "lane": "Baron",
+      "duel": 6.2,
+      "tank": 9.6,
+      "pad": 8.3,
+      "wr_note": "B-tier baron on 7.2d lists \u2014 unkillable, not a duelist",
+      "why": "Hardest to actually kill. Cleaver Q is a skillshot; E is an auto reset. Loses clean 1v1s to %HP / true-damage bruisers.",
+      "skip_if": "You asked for easy 1v1s, not just a walking HP bar.",
+      "total": 8.02
+    },
+    {
+      "name": "Jax",
+      "lane": "Baron",
+      "duel": 8.6,
+      "tank": 7.2,
+      "pad": 8.0,
+      "wr_note": "S baron on several 7.2/7.3 lists; scales, weaker early",
+      "why": "Leap is targeted, E is a button-hold dodge. Analog spacing around E is a controller superpower. Not 'easy' until items, and not as tanky as Heartsteel Voli.",
+      "skip_if": "You want to win lane at 3, not at 2 items.",
+      "total": 7.93
+    },
+    {
+      "name": "Olaf",
+      "lane": "Jungle / Baron",
+      "duel": 8.2,
+      "tank": 7.8,
+      "pad": 7.4,
+      "wr_note": "A-tier on several 7.2 lists",
+      "why": "R makes him unstoppable in the 1v1. Axes are skillshots you must pick up \u2014 overlay aiming + pathing is messier than targeted Voli W.",
+      "skip_if": "You do not want to chase axes on a mapped right stick.",
+      "total": 7.82
+    },
+    {
+      "name": "Darius",
+      "lane": "Baron",
+      "duel": 9.0,
+      "tank": 6.4,
+      "pad": 7.6,
+      "wr_note": "Often S+/S baron; dunk 1v1s, not a tank",
+      "why": "Bleed + dunk wins most melee 1v1s. Analog stick is great for Q outer-ring. He is not hard to kill \u2014 if the dunk is not ready, he loses the 'unkillable' check.",
+      "skip_if": "You wanted to survive messy fights, not win a bleed race.",
+      "total": 7.67
+    },
+    {
+      "name": "Aatrox",
+      "lane": "Baron",
+      "duel": 8.0,
+      "tank": 8.0,
+      "pad": 5.4,
+      "wr_note": "A-tier; revive + drain, three Q sweet spots",
+      "why": "Sustain 1v1s are real. Three directional Qs on a touch overlay are the opposite of X3-Pro-friendly.",
+      "skip_if": "You are on a mapped gamepad.",
+      "total": 7.22
+    },
+    {
+      "name": "Fiora",
+      "lane": "Baron",
+      "duel": 8.8,
+      "tank": 5.5,
+      "pad": 5.0,
+      "wr_note": "C-tier on 7.2d baron list; best pure duelist, not easy",
+      "why": "Wins 1v1s, dies if vitals/parry are late. Analog stick helps vital dancing; W parry window is a poor overlay-button skill.",
+      "skip_if": "You asked for easy and hard to kill.",
+      "total": 6.505
+    }
+  ]
+}
