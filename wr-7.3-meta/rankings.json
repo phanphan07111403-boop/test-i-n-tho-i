@@ -226,7 +226,7 @@
         ],
         "skill_max": "Q > W > E",
         "x3_pro": "should",
-        "x3_pro_note": "Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock."
+        "x3_pro_note": "Best pad ADC: Q is targeted (lock unit, press Q = stack). Not the strongest 7.3 ADC — the ADC whose lane still works on the controller."
       },
       {
         "rank": 5,
@@ -958,6 +958,19 @@
     "guide": "wr-7.3-meta/gamesir-x3-pro.md",
     "platform": "Android G-Touch / V-Touch only; iOS cannot map Wild Rift",
     "rule": "Should = lock-on, self-cast, hold-on-trigger, 2-button combo, or attack-move. Should not = pixel place, delayed ground circle, 10-spell palette, or hold-aim-and-fly.",
+    "what_pad_means": "Pad = GameSir X3 Pro in your hands (left stick walk, RT attack, face buttons QWER), not thumbs on the Wild Rift HUD. Pixel-place kits get worse. Click-the-locked-unit kits stay the same or get better.",
+    "best_pad_adc": {
+      "champion": "Smolder",
+      "means": "Not the strongest 7.3 ADC (that is still Caitlyn on touch). Of the five outstanding ADCs, Smolder is the one whose job still works when you cannot tap the screen.",
+      "why": "Q Super Scorcher Breath is targeted: lock a unit, press Q, get a stack. That is his entire early game.",
+      "situations": [
+        "Last-hit / stacks: D-pad minion lock then Q",
+        "Short trade: lock champ, Q, maybe W cone, walk out on Phase Rush",
+        "Kite: E hop + left stick; damage is still Q so you are not glued to auto range",
+        "Teamfight: stand back, Q the closest, execute when stacks are high",
+        "Vs Caitlyn: ban her; do not pick Caitlyn on pad to match her"
+      ]
+    },
     "should": [
       "Ashe",
       "Smolder",

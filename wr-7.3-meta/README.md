@@ -132,7 +132,7 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 
 **Runes:** Phase Rush · Battle Zeal · Cut Down · Legend: Bloodline · Transcendence. Flash + Barrier.
 
-**X3 Pro: should.** Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock.
+**X3 Pro: should.** Best pad ADC in this five — not because he is the strongest 7.3 ADC, but because Q is targeted. Lock a minion, press Q, get a stack. That lane still works when hands are on the controller. Details: [`gamesir-x3-pro.md`](gamesir-x3-pro.md#best-pad-adc--the-situations-smolder).
 
 ### 5. Kai'Sa — A / popular — 50.6% WR / 12.1% pick / 0.4% ban
 

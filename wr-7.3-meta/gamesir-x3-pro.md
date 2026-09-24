@@ -19,6 +19,28 @@ Do **not** bind D-pad to the move stick. Details: GameSir World → Click Mode. 
 
 WR setting that matters: locked joystick + mapping delay as low as it goes (~50 ms). Otherwise a skill press **stops the walk** — that is the X3 Pro vs Wild Rift complaint.
 
+## What "pad" means
+
+**Pad** = GameSir X3 Pro in your hands. Left stick walk, RT attack, A/B/X/Y = Q W E R. Not thumbs on the Wild Rift HUD.
+
+That is a different ADC than touch. On glass you tap a minion, drop a trap, swipe a skillshot, then thumb-kite. On pad you **lock a unit with a button**, hold a stick, press attack. Anything that needs a **pixel on the ground** (Caitlyn trap, delayed circle) gets worse. Anything that is **click the locked unit** (Smolder Q, Ashe auto) stays the same or gets better.
+
+**"Best pad ADC"** is not "best ADC in 7.3". Caitlyn is still the patch ADC on touch (~36% pick). It means: of these five outstanding ADCs, **Smolder is the one whose job still works when you cannot tap the screen.**
+
+## Best pad ADC — the situations (Smolder)
+
+Smolder's job is **Q stacks**. Super Scorcher Breath is **targeted**: lock a unit, press Q. That is the whole early game. Muramana / Trinity, not Yun Tal.
+
+| Situation | What the pad does | Smolder | Rest of the five |
+|-----------|-------------------|---------|------------------|
+| **Last-hit / stacks** | Analog last-hit is sloppy. Bind ← D-pad to minion lock, then Q or RT. | Q the locked cannon/caster = a stack. This is why he is first. | Ashe / Kai'Sa last-hit with RT (fine). Caitlyn last-hit is fine; her traps are not. Yunara last-hit is fine until ult swaps the skill buttons. |
+| **Short trade** | Face button + stick. No ground click. | Lock champ, Q, maybe W cone. Two buttons. Walk out on Phase Rush. | Ashe W cone is OK. Kai'Sa Q is OK. Caitlyn wants a trap in the brush *while* she autos — pad cannot do both. |
+| **Kite** | Left stick + RT attack-move. Hall sticks are good here. | E hop + stick. Damage is still Q, so you are not glued to auto range. | **Kai'Sa** and **Ashe** kite better on pad than on touch. They are should-play, just not first — they need more autos than Smolder needs Qs. |
+| **Teamfight** | You cannot place gadgets. You can lock the nearest body and mash. | Stand back, Q the closest, execute when stacks are high. W/R are extra. | Caitlyn without traps is a long-range auto. Yunara ult is a third HUD. |
+| **Vs Caitlyn (36% pick)** | You will not out-trap her on G-Touch. | Ban her. Q still hits the locked Caitlyn if she is in lane. | Do not pick Caitlyn on pad to "match" her. |
+
+Hands in a Smolder pad lane: ← minion lock · Q or RT to farm · left stick to walk · W when the wave is shoved.
+
 ## Rule
 
 **Should** = kit is lock-on, self-cast, hold-on-trigger, 2-button combo, or attack-move. Hall sticks + D-pad minion/tower lock help.
@@ -36,7 +58,7 @@ These are the 7.3 outstanding champs whose buttons match the pad.
 | Champ | Why the pad fits |
 |-------|------------------|
 | **Ashe** | Autos + W cone. D-pad minion lock last-hits. Hawk/R are extra, not the lane. |
-| **Smolder** | Q is a **targeted** belch. Stack farm with ← minion lock. Best pad ADC in this five. |
+| **Smolder** | Q is a **targeted** belch. Stack farm with ← minion lock. **Best pad ADC** = this lane still works on the controller, not "best ADC in 7.3". Situations above. |
 | **Kai'Sa** | Q splits by itself, E is self, R dashes to Plasma. One skillshot (W). Analog kite is the champ. |
 
 ### Support — Senna · Malphite · Sona

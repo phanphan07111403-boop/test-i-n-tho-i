@@ -102,7 +102,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Barrier |
 | **Skill max** | Q → W → E |
 | **Notes** | Ability scaler, not a Yun Tal crit ADC. Last-hit with Q for stacks. |
-| **X3 Pro** | **should** — Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock. |
+| **X3 Pro** | **should** — best pad ADC: Q is targeted (lock unit, press Q = stack). Not "best 7.3 ADC". Situations: [`gamesir-x3-pro.md`](gamesir-x3-pro.md#best-pad-adc--the-situations-smolder). |
 
 **Runes:** Phase Rush · Battle Zeal · Cut Down · Legend: Bloodline · Transcendence  
 *vs squishies:* Coup de Grace. Fleet Footwork is the sustain alt.
