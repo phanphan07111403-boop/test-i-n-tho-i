@@ -6,8 +6,10 @@ League itemization sims.
 |--------|----------|----------|
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
+| `senna-73-sim/` | Senna ADC + support (Wild Rift 7.3) | Magnetic gone, mist crit 10%/20: Youmuu→Collector→Hex ADC; support Shiv→ER shove, Hex 2nd for AA-Q-AA burst |
 
 ```bash
 python3 zyra-burn-sim/simulate_zyra_burn.py
 python3 ap-kogmaw-sim/simulate_ap_kogmaw.py
+python3 senna-73-sim/simulate_senna_73.py
 ```
