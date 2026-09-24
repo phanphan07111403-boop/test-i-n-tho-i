@@ -260,7 +260,7 @@
         ],
         "skill_max": "Q > W > E (evolve Q > E > W)",
         "x3_pro": "should",
-        "x3_pro_note": "Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W)."
+        "x3_pro_note": "Analog kite is the champ: left stick + RT autos, Q splits, E self, R to Plasma. W is the only skillshot — stop to fire it."
       }
     ],
     "support": [
@@ -970,6 +970,11 @@
         "Teamfight: stand back, Q the closest, execute when stacks are high",
         "Vs Caitlyn: ban her; do not pick Caitlyn on pad to match her"
       ]
+    },
+    "kaisa_analog": {
+      "means": "Analog = left Hall stick 360 walk. For Kai'Sa the stick is the champ: she deals damage while moving.",
+      "loop": "Stick away/sideways, RT on every auto (Plasma), Q when isolated, E to haste/invis, R at 5 Plasma. Stop the stick only to fire W.",
+      "vs_smolder": "Analog is nice on Smolder (walk between Qs). Analog is the champ on Kai'Sa (walk during autos)."
     },
     "should": [
       "Ashe",

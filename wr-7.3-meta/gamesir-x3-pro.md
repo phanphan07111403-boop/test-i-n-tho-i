@@ -41,6 +41,47 @@ Smolder's job is **Q stacks**. Super Scorcher Breath is **targeted**: lock a uni
 
 Hands in a Smolder pad lane: ← minion lock · Q or RT to farm · left stick to walk · W when the wave is shoved.
 
+## Kai'Sa analog kite
+
+**Analog** = the left Hall stick. 360° walk that does not snap to 8 directions. For Kai'Sa that stick **is** the champ: she deals damage while moving. Smolder presses Q. Kai'Sa walks and autos.
+
+Hands:
+
+| Finger | Button | Kai'Sa |
+|--------|--------|--------|
+| Left thumb | Hall stick | Walk. Never let go. |
+| Right index | **RT** | Attack. Tap on every auto cooldown. |
+| Right thumb | **A** Q | Missiles split by themselves. Isolated = all on one. No aim. |
+| Right thumb | **X** E | Self haste / evolved invis. No aim. |
+| Right thumb | **Y** R | Dash to Plasma. Need stacks first. |
+| Right thumb | **B** W | The **one** skillshot. Stop or fire down a corridor. Do not flick W while you kite. |
+| Left index | **LB** Ghost | Analog chase. Flash on RB. |
+| Left thumb | ← D-pad | Minion lock for last-hits. |
+
+If a skill press **stops the walk**, analog kite is dead. Locked WR joystick + mapping delay ~50 ms.
+
+**The loop** (this is the analog):
+
+1. Left stick **away or sideways** (never stand still).
+2. **RT** when the auto is up — Plasma stack.
+3. Stick again. RT again. That is kite.
+4. **Q** when they are isolated or the wave is a clump (missiles split; you do not aim).
+5. **E** to haste out, or evolved E to invis and re-enter.
+6. At 5 Plasma: **R** onto them, Q dump, stick out.
+
+Do not use the right stick as camera during this. Right stick is W-aim only when you have stopped.
+
+| Situation | Analog | Buttons |
+|-----------|--------|---------|
+| **Last-hit** | Stick to the side of the wave | ← lock, RT. Q the leftover. |
+| **Short trade** | Stick in, then immediately out | RT 2–3 times → Q (isolated) → E out. |
+| **Kite a melee** | Circle-strafe with the stick | RT on cooldown. Q when they cannot share missiles. E if they gapclose. |
+| **Vs tank (7.3 on-hit)** | Stick keeps you in Kraken/Rageblade range without planting | Same loop. BotRK 5th. You outwalk them; you do not out-aim them. |
+| **All-in** | Stick onto the marked target | Plasma 5 → R → Q → RT → E invis if evolved. |
+| **W poke** | **Stop the stick** | B down river / into a choke. Then go back to stick+RT. Missing W is fine; missing the kite is not. |
+
+Kai'Sa vs Smolder on pad: analog is **nice** on Smolder (walk between Qs). Analog is **the champ** on Kai'Sa (walk during autos). Pick Smolder if you want lock-and-press. Pick Kai'Sa if the Hall stick feels good.
+
 ## Rule
 
 **Should** = kit is lock-on, self-cast, hold-on-trigger, 2-button combo, or attack-move. Hall sticks + D-pad minion/tower lock help.
@@ -59,7 +100,7 @@ These are the 7.3 outstanding champs whose buttons match the pad.
 |-------|------------------|
 | **Ashe** | Autos + W cone. D-pad minion lock last-hits. Hawk/R are extra, not the lane. |
 | **Smolder** | Q is a **targeted** belch. Stack farm with ← minion lock. **Best pad ADC** = this lane still works on the controller, not "best ADC in 7.3". Situations above. |
-| **Kai'Sa** | Q splits by itself, E is self, R dashes to Plasma. One skillshot (W). Analog kite is the champ. |
+| **Kai'Sa** | Analog kite **is** the champ: left stick + RT autos, Q splits, E self, R to Plasma. One skillshot (W). Loop above. |
 
 ### Support — Senna · Malphite · Sona
 

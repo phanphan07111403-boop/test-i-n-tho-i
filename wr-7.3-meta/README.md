@@ -144,7 +144,7 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 
 Shiv is a discussed 2nd on the clump path, not the default.
 
-**X3 Pro: should.** Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W).
+**X3 Pro: should.** Analog kite is the champ: left stick never lets go, RT on every auto, Q splits, E self, R to Plasma. W is the only skillshot — stop to fire it. Loop: [`gamesir-x3-pro.md`](gamesir-x3-pro.md#kaisa-analog-kite).
 
 **Honorable:** Kog'Maw (on-hit Shiv poster child; 50–55% WR depending on sample), Varus 51.0%, Kalista 50.9%, Xayah.
 

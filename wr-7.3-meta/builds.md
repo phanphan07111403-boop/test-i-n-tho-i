@@ -128,7 +128,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ghost |
 | **Skill max** | Q → W → E |
 | **Evolve** | **Q → E → W** (one evolve per completed item) |
-| **X3 Pro** | **should** — Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W). |
+| **X3 Pro** | **should** — analog kite: left stick + RT autos, Q splits, E self, R to Plasma. W is the only aim. Loop: [`gamesir-x3-pro.md`](gamesir-x3-pro.md#kaisa-analog-kite). |
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating  
 *vs squishies:* Coup de Grace
