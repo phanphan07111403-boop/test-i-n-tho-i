@@ -1,0 +1,269 @@
+Senna + GameSir X3 Pro — Wild Rift targeting research
+=====================================================
+Câu hỏi: đang combat hay nhấn nhầm linh hồn, mất một nhịp Relic Cannon.
+Tay cầm GameSir X3 Pro. Nghiên cứu 2 option map.
+
+Option 1: đè nút hiện tầm đánh; không đánh mắt, không đánh linh hồn,
+          không đánh lính; tướng địch vào tầm thì đánh.
+Option 2: wheel nút đánh; đè hiện tầm và cố đánh max tầm;
+          khi đè nút chiêu, stick phải điều khiển wheel;
+          map kéo cùng hướng; thả nút đánh thì trả map về trung tâm.
+
+Patch tham chiếu: Wild Rift 7.2–7.3 (Senna Absolution + control notes 6.3).
+Nguồn: WildRiftFire Senna 7.3, Liquipedia WR Senna, WR control settings,
+GameSir X3 Pro / G-Touch FAQ, Mantis Gamepad Pro, r/wildrift targeting.
+
+
+0. Vì sao miss soul đau hơn tướng khác
+--------------------------------------
+Senna Relic Cannon bắn chậm, sát thương từng phát cao, cướp MS.
+Base AS thấp (WildRiftFire: ~0.62 ở lv15 sau patch 7.3 AS ratio 0.4).
+Mất 1 AA = mất cả cửa sổ Q (Q giảm 1s CD mỗi AA) + mất 1 proc Weakened Soul
+(2 hit / 4s / 6s CD mỗi tướng).
+
+Linh hồn Absolution:
+- Rơi khi unit chết gần Senna. Phải TẤN CÔNG soul để hút ngay.
+- Patch 6.3: nếu không đánh, soul gần Senna tự hút khi biến mất.
+  → Combat không bắt buộc AA soul. Chỉ farm/sau fight mới cần.
+- Soul là unit đặc biệt, KHÔNG phải lính, KHÔNG phải trụ, KHÔNG phải mắt.
+  Filter "No Minion/Structure" không loại soul.
+- Nút AA mặc định (champ > minion > turret, lowest HP) vẫn chọn soul
+  vì soul đứng sát, HP thấp, luôn "trong tầm".
+- Q (Piercing Darkness) cũng lock được soul / mắt / lính / trụ / ally.
+  Cùng bệnh với AA nếu tap Q mù.
+
+Kết luận gốc: đừng bao giờ bind nút combat chính vào AA mặc định.
+
+
+1. Tay cầm — giới hạn cứng
+--------------------------
+Wild Rift không có native gamepad. Mọi nút = giả lập chạm HUD.
+
+X3 Pro layout (không có back paddle — quạt chiếm lưng):
+  LS / RS (bấm được L3/R3), D-pad, A B X Y,
+  LB LT RT RB, G, S, Home, Capture.
+Mode: DS5 trắng / Android HID xanh đậm / G-Touch xanh nhạt (GameSir App).
+
+G-Touch (Android, không MediaTek):
+  - Map stick, nút, combo nhiều điểm chạm.
+  - Extra ⚙️: Turbo, Skill Wheel Mode, Cast Cancel Mode, macro.
+  - Skill Wheel Mode: bind nút + LS hoặc RS (hoặc cả hai) → kéo vòng chiêu.
+  - Cast Cancel: map vùng hủy chiêu/đánh.
+  - Mapping Enhancement: bật để vừa đi vừa bấm (không thì đè chiêu đứng hình).
+  - G-Touch mặc định ăn mất touch tay; bật enhancement nếu muốn chạm màn hình phụ.
+
+V-Touch / Mantis Gamepad Pro: cùng ý tưởng, Mantis có MOBA Smart Cast
+(giữ nút + stick aim + thả để cast). Dùng khi G-Touch không chạy.
+
+iOS: không G-Touch/V-Touch. X3 Pro trên iPhone gần như không map được WR.
+
+ToS: map chạm lên HUD có sẵn = OK. Turbo / one-button macro combo = rủi ro.
+Không dùng Turbo cho AA Senna (AS không hưởng, dễ lệch nhịp).
+
+
+2. Setting in-game bắt buộc (cả 2 option)
+-----------------------------------------
+Settings → Targeting
+  Portrait Lock          = ON, Priority Display
+  Targeting Priority     = Absolute HP (hạ thấp máu thật, ADC clash)
+  Force Attack Follow    = OFF
+  Lock Target System     = No Minion/Structure
+                           (giúp drag AA; KHÔNG chặn soul)
+
+Settings → Controls
+  Move Stick Type        = LOCKED
+                           (Reddit GameSir: không LOCKED thì bấm chiêu đứng)
+  Action Cancel          = Default / đủ xa khỏi điểm chạm đầu
+  Locked Button Centers  = OFF
+
+Settings → Camera
+  Aim Panning            = ON     ← xương sống Option 2
+  Semi-Lock Camera       = ON     ← joystick mắt góc trên-phải
+  Ability Mini-cam       = OFF (R Senna global thì bật nếu thích)
+  Camera Pan Sensitivity = 50–55% nếu dùng stick kéo map
+
+HUD editor
+  Phóng portrait tướng sát cụm tay phải (điểm chạm RT).
+  Thu / kéo AA mặc định ra xa RT (tránh mapper dính soul).
+  Để nút mắt, nút lính, nút trụ tách, không chồng portrait.
+  Bật nút camera (icon mắt) cố định — map recenter.
+
+G-Touch mapper
+  Joystick move: max duration ~50ms (comment GameSir WR: đi + đánh mượt hơn).
+  Bật Mapping Enhancement.
+
+
+3. Option 1 — đè hiện tầm, chỉ đánh tướng
+-----------------------------------------
+Mục tiêu người chơi:
+  Giữ nút → thấy tầm. Không mắt, không soul, không lính.
+  Tướng vào tầm → bắn.
+
+WR không có vòng tầm AA luôn bật kiểu PC. Có 3 tín hiệu tầm native:
+
+  A. Portrait icon hiện phía trên / cạnh nút đánh
+     = tướng trong tầm đánh (đúng nghĩa "vào tầm là đánh").
+  B. Giữ Q: vòng tầm Q = tầm AA Senna (Q "cast range matches attack range").
+     Hủy bằng Cast Cancel nếu chưa muốn bắn Q.
+  C. Drag nút AA: line lock mục tiêu — dính soul nếu drag trượt.
+
+Cách map Option 1 (đúng spec):
+
+  Nút combat (RT)     HOLD điểm chạm PORTRAIT tướng #1
+                      (không phải nút AA to).
+  Không tướng trong tầm → portrait biến → giữ RT không phát sinh AA.
+  Có tướng vào tầm  → portrait hiện → RT lock + auto tướng đó.
+  Mắt / soul / lính không nằm trong portrait → không bao giờ bị bắn.
+
+  Nút soul/farm (RB)  TAP nút AA mặc định. Dùng SAU fight hoặc last-hit.
+                      Patch 6.3: đứng gần soul hết timer là đủ, không cần spam.
+
+  Nút lính (LT)       TAP nút đánh lính HUD.
+  Nút trụ (LB)        TAP nút đánh trụ HUD.
+  Q combat (Y)        Chỉ cast khi đã lock portrait, hoặc Skill Wheel vào tướng.
+                      Không tap Q mù — Q cũng lock soul/mắt.
+
+Force Attack Follow OFF:
+  Đè RT khi tướng vừa ra tầm → Senna không bước tới.
+  Đúng "vào tầm thì đánh", không chase.
+
+Giới hạn Option 1:
+  - Portrait Priority Display đổi thứ tự theo ai vào tầm trước.
+    Clash 5 người: portrait #1 có thể là tank. Cần RS-click / D-pad
+    map portrait #2 #3, hoặc Fixed Display nếu muốn thứ tự cố định.
+  - Không vẽ vòng tròn tầm dưới chân. "Hiện tầm" = icon portrait + giữ Q.
+  - RFC (Magnetic Blaster / Rapid Firecannon) proc tầm xa: portrait
+    vẫn hiện khi proc sẵn sàng và tướng trong tầm proc.
+  - Không lock được soul bằng RT — đúng ý. Nhặt soul = RB hoặc đứng chờ 6.3.
+
+
+4. Option 2 — wheel đánh, max tầm, chiêu kéo map
+------------------------------------------------
+Mục tiêu người chơi:
+  Nút đánh = analog wheel. Đè hiện tầm, cố AA mép tầm.
+  Đè chiêu → stick phải điều khiển. Map trượt cùng hướng.
+  Thả nút đánh → camera về giữa.
+
+4.1 Wheel nút đánh
+  WR đã có drag-AA = wheel chọn mục tiêu.
+  G-Touch: map RT lên nút AA, Extra → Skill Wheel Mode → bind RS.
+  Giữ RT + đẩy RS về phía tướng ở mép vòng = AA max range.
+  Force Attack Follow OFF + kite bằng LS: Senna không bước vào để "ăn" tầm.
+
+  Vấn đề: wheel vẫn là AA mặc định. Soul/mắt/lính nằm trên đường drag
+  vẫn bị lock. Option 2 KHÔNG tự filter soul. Phải aim RS chính xác
+  vào hitbox tướng, hoặc kết hợp Lock Target = No Minion/Structure
+  (vẫn thủng soul).
+
+4.2 Đè chiêu → stick phải
+  Đúng Skill Wheel Mode của G-Touch / MOBA Smart Cast của Mantis.
+  Bind:
+    Y = Q wheel + RS
+    B = W wheel + RS   (Last Embrace skillshot — cần analog)
+    A = E tap          (self, không cần wheel)
+    X = R wheel + RS   (global line, Aim Panning + Mini-cam)
+
+  "Chuyển nút đi phải" = khi giữ chiêu, RS không còn camera trống
+  mà thành analog của vòng chiêu. LS vẫn đi (Move Stick LOCKED +
+  Mapping Enhancement).
+
+4.3 Map kéo cùng hướng
+  Native: Aim Panning ON. Giữ vòng chiêu, camera offset theo hướng aim.
+  Đúng "phần map di chuyển cùng hướng" mà không cần macro.
+
+  Bổ sung nếu Aim Panning yếu với Senna AA (AA không phải chiêu):
+  Semi-Lock Camera joystick (icon mắt). Có thể map RS khi KHÔNG giữ
+  chiêu = kéo camera. Conflict: cùng RS cho wheel. Giải pháp:
+    RS mặc định = camera pan (điểm chạm joystick mắt / vùng kéo map)
+    Khi GIỮ Y/B/X/RT = Skill Wheel cướp RS cho vòng chiêu
+    G-Touch Skill Wheel đúng kiểu này: RS chỉ wheel khi nút đang giữ.
+
+4.4 Thả nút đánh → trả map trung tâm
+  Aim Panning trả camera khi THẢ CHIÊU, không phải thả AA.
+  G-Touch FAQ không có extra "on button release → tap điểm khác".
+  Macro one-button có thể tap camera-lock sau chuỗi, nhưng:
+    - không gắn đúng sự kiện "release RT"
+    - macro = vùng xám ToS
+
+  Thực thi sạch:
+    L3 (LS-click) = TAP nút camera lock / recenter (icon mắt).
+    Thói quen: thả RT rồi bấm L3. Một nhịp, không tự động.
+    Semi-Lock: set sẵn offset hơi về phía trước (ADC Senna nhìn xa
+    hướng lane); L3 về giữa khi cần kẹp bụi / check flank.
+
+  Mantis: nếu bản Pro cho press/release tách, bind release RT → tap
+  camera lock. Test practice tool trước ranked.
+
+
+5. So sánh trực tiếp
+--------------------
+                         Option 1              Option 2
+Soul / mắt / lính        Không dính            Vẫn dính nếu drag trượt
+Tướng vào tầm mới bắn    Có (portrait gate)    Không (wheel luôn sẵn)
+Hiện tầm AA              Portrait + giữ Q      Vòng wheel khi đè RT
+Kite max tầm             Trung bình            Tốt (RS mép vòng + LS kite)
+Aim W / R                Yếu nếu tap           Tốt (Skill Wheel RS)
+Camera theo chiêu        Aim Panning vẫn dùng  Aim Panning + RS wheel
+Recenter khi thả AA      Không cần             L3 thủ công / Mantis release
+Độ khó setup             Thấp                  Cao (wheel size, deadzone)
+Rủi ro miss beat Senna   Thấp nhất             Vẫn miss soul
+Phụ thuộc mapper         Chỉ HOLD portrait     Skill Wheel + RS steal
+
+Verdict combat Senna: Option 1.
+Verdict ADC kite / skillshot: Option 2.
+Verdict X3 Pro ranked: Hybrid — AA=1, chiêu=2.
+
+
+6. Layout hybrid khuyến nghị (X3 Pro)
+-------------------------------------
+LS            Joystick di chuyển WR (LOCKED)
+RS            Mặc định: kéo camera (Semi-Lock / vùng pan)
+              Khi giữ Y/B/X/RT: Skill Wheel
+RT            HOLD portrait tướng #1          ← Option 1 combat
+RB            TAP AA mặc định                 ← soul / last-hit
+LT            TAP đánh lính
+LB            TAP đánh trụ / ưu tiên mục tiêu lớn
+Y             Q Skill Wheel + RS
+B             W Skill Wheel + RS
+A             E tap
+X             R Skill Wheel + RS
+L3            TAP camera recenter             ← "thả đánh → về giữa"
+R3            TAP portrait #2 (ưu tiên carry)
+D-pad U/D/L/R Flash / Heal-Exhaust / item 1 / Recall
+G             Shop hoặc scoreboard
+S             Ward (nút đặt mắt HUD, KHÔNG phải AA)
+Capture       Mini-map ping / camera mắt
+
+Practice tool checklist:
+  1. Spawn lính + soul Senna. Giữ RT: không được AA soul.
+  2. Tướng dummy vào tầm: portrait hiện, RT bắn dummy, không soul.
+  3. Dummy ra tầm, vẫn giữ RT: Senna không bước theo (Follow OFF).
+  4. Giữ B, đẩy RS: W vòng + camera Aim Panning theo hướng.
+  5. Thả B: camera gần về giữa; nếu lệch, L3 recenter.
+  6. Giữ RT + LS kite: vừa đi vừa bắn, không đứng hình
+     (Enhancement + Move Stick LOCKED).
+  7. Tap RB: AA soul được. Tap S: đặt mắt, không AA mắt.
+  8. Q khi đang lock portrait: tia xuyên tướng, không lock soul chân.
+
+
+7. Việc không làm được
+----------------------
+- Native "chỉ đánh tướng, cấm soul" trên nút AA to: Riot chưa có filter soul.
+- Vòng tầm AA luôn hiện dưới chân: không có setting.
+- G-Touch auto recenter đúng frame thả RT: không có event on-release.
+- iOS X3 Pro: không map HUD.
+- MediaTek + G-Touch: không hỗ trợ; chuyển V-Touch/Mantis.
+
+Những cái này không phải lỗi map. Đừng cố Turbo AA hay macro "tìm tướng".
+
+
+8. Nguồn
+--------
+WildRiftFire Senna patch 7.3 — Relic Cannon, Q range = AA range, soul 6.3 auto-absorb
+Liquipedia Wild Rift Senna — Weakened Soul / Absolution
+r/wildrift — Lock Target System, Force Attack Follow, champion-only AA
+Upcomer / UnGeek / TheGamer — Portrait Lock, Aim Panning, Semi-Lock Camera
+GameSir FAQ / X3 Pro tutorial — G-Touch, Skill Wheel Mode, Cast Cancel
+r/Gamesir — WR mapping: Move Stick LOCKED, joystick 50ms
+Mantis Pro — MOBA Smart Cast hold+stick+release
+r/wildrift telescopic controller — WR không native gamepad
