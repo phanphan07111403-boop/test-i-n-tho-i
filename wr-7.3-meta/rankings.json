@@ -20,47 +20,74 @@
     {
       "name": "Crit sniper",
       "core": "Hexoptics or Stormrazor or Yun Tal -> Infinity Edge -> RFC/LDR",
-      "champs": ["Caitlyn", "Ashe", "Smolder"]
+      "champs": [
+        "Caitlyn",
+        "Ashe",
+        "Smolder"
+      ]
     },
     {
       "name": "Ult-window carry",
       "core": "Kraken or Yun Tal -> Runaan or Fiendhunter -> IE",
-      "champs": ["Yunara", "Twitch", "Zeri"]
+      "champs": [
+        "Yunara",
+        "Twitch",
+        "Zeri"
+      ]
     },
     {
       "name": "On-hit clump",
       "core": "Statikk Shiv or Kraken -> Rageblade -> Terminus/Nashor",
-      "champs": ["Kog'Maw", "Varus", "Kalista", "Kai'Sa"]
+      "champs": [
+        "Kog'Maw",
+        "Varus",
+        "Kalista",
+        "Kai'Sa"
+      ]
     },
     {
       "name": "Senna Shiv marksman-support",
       "core": "Statikk Shiv -> RFC -> LDR -> IE",
-      "champs": ["Senna"]
+      "champs": [
+        "Senna"
+      ]
     },
     {
       "name": "Sona aura enchanter",
       "core": "Tear -> Helia -> Diadem / Harmonic Echo",
-      "champs": ["Sona"]
+      "champs": [
+        "Sona"
+      ]
     },
     {
       "name": "Zyra plant burn",
       "core": "Liandry -> Rylai -> Cryptbloom",
-      "champs": ["Zyra"]
+      "champs": [
+        "Zyra"
+      ]
     },
     {
       "name": "Anti-ADC tank",
       "core": "Thornmail / Iceborn / Sunfire -> Frozen Heart -> Twinguard",
-      "champs": ["Rammus", "Malphite", "Amumu"]
+      "champs": [
+        "Rammus",
+        "Malphite",
+        "Amumu"
+      ]
     },
     {
       "name": "Hwei painter",
       "core": "Blackfire -> Infinity Orb -> Deathcap",
-      "champs": ["Hwei"]
+      "champs": [
+        "Hwei"
+      ]
     },
     {
       "name": "Syndra burst",
       "core": "Luden -> Infinity Orb -> Deathcap",
-      "champs": ["Syndra"]
+      "champs": [
+        "Syndra"
+      ]
     }
   ],
   "roles": {
@@ -72,9 +99,30 @@
         "wr": 52.22,
         "pick": 36.49,
         "ban": 7.14,
-        "build": "Hexoptics C44 -> IE -> RFC -> LDR -> BT",
+        "build": "Berserker's -> Hexoptics -> IE -> RFC -> LDR -> BT",
         "keystone": "Lethal Tempo",
-        "why": "Patch-buffed Headshot/R crit scaling; 36% pick, the ADC of 7.3"
+        "why": "Patch-buffed Headshot/R crit scaling; 36% pick, the ADC of 7.3",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Infinity Edge",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 2,
@@ -83,9 +131,30 @@
         "wr": 53.02,
         "pick": 4.8,
         "ban": 0.08,
-        "build": "Stormrazor -> Runaan -> IE -> LDR -> BT",
+        "build": "Berserker's -> Stormrazor -> Runaan -> IE -> LDR -> BT",
         "keystone": "Lethal Tempo",
-        "why": "Direct 7.3 kit buffs; highest ADC WR"
+        "why": "Direct 7.3 kit buffs; highest ADC WR",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Stormrazor",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "skill_max": "W > Q > E"
       },
       {
         "rank": 3,
@@ -94,9 +163,30 @@
         "wr": 50.7,
         "pick": 14.35,
         "ban": 13.48,
-        "build": "Kraken -> Runaan -> IE -> LDR (Fiendhunter alt on ult)",
+        "build": "Berserker's -> Kraken -> Runaan -> IE -> LDR -> Stormrazor",
         "keystone": "Lethal Tempo",
-        "why": "S+ contested scaler, 14% pick / 13% ban"
+        "why": "S+ contested scaler, 14% pick / 13% ban",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Kraken Slayer",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards",
+          "Stormrazor"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 4,
@@ -105,9 +195,30 @@
         "wr": 51.62,
         "pick": 9.0,
         "ban": 11.96,
-        "build": "ER / Yun Tal -> IE -> LDR",
-        "keystone": "Lethal Tempo",
-        "why": "Stacking hypercarry into 200% crit and longer games"
+        "build": "Greaves -> Muramana -> Trinity -> Serylda -> Shojin -> GA",
+        "keystone": "Phase Rush",
+        "why": "Stacking hypercarry into 200% crit and longer games",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Phase Rush",
+          "Battle Zeal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Transcendence"
+        ],
+        "items": [
+          "Gluttonous Greaves",
+          "Muramana",
+          "Trinity Force",
+          "Serylda's Grudge",
+          "Spear of Shojin",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 5,
@@ -116,9 +227,30 @@
         "wr": 50.58,
         "pick": 12.11,
         "ban": 0.42,
-        "build": "Kraken -> Rageblade -> Terminus -> Nashor",
+        "build": "Berserker's -> Kraken -> Rageblade -> Terminus -> BotRK -> Runaan",
         "keystone": "Lethal Tempo",
-        "why": "On-hit answer to tanks; 12% pick"
+        "why": "On-hit answer to tanks; 12% pick",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Kraken Slayer",
+          "Guinsoo's Rageblade",
+          "Terminus",
+          "Blade of the Ruined King",
+          "Runaan's Hurricane"
+        ],
+        "skill_max": "Q > W > E (evolve Q > E > W)"
       }
     ],
     "support": [
@@ -129,9 +261,30 @@
         "wr": 55.94,
         "pick": 7.76,
         "ban": 1.37,
-        "build": "Shiv -> RFC -> LDR -> IE",
+        "build": "Scythe -> Berserker's -> Shiv -> RFC -> LDR -> IE",
         "keystone": "Fleet Footwork",
-        "why": "Highest support WR; Q on-hit makes 7.3 Shiv the discussed rush"
+        "why": "Highest support WR; Q on-hit makes 7.3 Shiv the discussed rush",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Fleet Footwork",
+          "Font of Life",
+          "Bone Plating",
+          "Perseverance",
+          "Brutal"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards",
+          "Infinity Edge"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 2,
@@ -140,9 +293,30 @@
         "wr": 53.34,
         "pick": 9.6,
         "ban": 26.12,
-        "build": "Zeke -> Thornmail -> Iceborn -> Twinguard",
+        "build": "Bulwark -> Steelcaps -> Zeke -> Thornmail -> Iceborn -> Twinguard",
         "keystone": "Arcane Comet",
-        "why": "Anti-ADC support; also 57.6% WR top"
+        "why": "Anti-ADC support; also 57.6% WR top",
+        "start": "Relic Shield",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Arcane Comet",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Transcendence"
+        ],
+        "items": [
+          "Bulwark of the Mountain",
+          "Plated Steelcaps",
+          "Zeke's Convergence",
+          "Thornmail",
+          "Iceborn Gauntlet",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 3,
@@ -151,9 +325,30 @@
         "wr": 52.88,
         "pick": 6.94,
         "ban": 2.39,
-        "build": "Tear -> Helia -> Diadem / Harmonic Echo",
-        "keystone": "Fleet Footwork / Aery",
-        "why": "Aura enchanter for the ADC patch; Helia vs Ardent argument"
+        "build": "Scythe -> Ionian -> Diadem -> Helia -> Harmonic -> Redemption",
+        "keystone": "Fleet Footwork",
+        "why": "Aura enchanter for the ADC patch; Helia vs Ardent argument",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Fleet Footwork",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Ionian Boots of Lucidity",
+          "Diadem of Songs",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Redemption"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 4,
@@ -162,9 +357,30 @@
         "wr": 51.26,
         "pick": 4.34,
         "ban": 36.93,
-        "build": "Liandry -> Rylai -> Cryptbloom",
-        "keystone": "Aery / Comet",
-        "why": "Perma-ban plant burn into Caitlyn lane"
+        "build": "Scythe -> Mana boots -> Liandry -> Rylai -> Cryptbloom -> Zhonya",
+        "keystone": "Aery",
+        "why": "Perma-ban plant burn into Caitlyn lane",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Aery",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Rylai's Crystal Scepter",
+          "Cryptbloom",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 5,
@@ -173,9 +389,30 @@
         "wr": 51.74,
         "pick": 2.62,
         "ban": 0.2,
-        "build": "Helia / Ardent / Staff of Flowing Water",
+        "build": "Scythe -> Ionian -> Harmonic -> Ardent -> Redemption -> Staff",
         "keystone": "Aery",
-        "why": "S-tier peel + ADC steroid, low pick high WR"
+        "why": "S-tier peel + ADC steroid, low pick high WR",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Aery",
+          "Font of Life",
+          "Bone Plating",
+          "Revitalize",
+          "Transcendence"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Ardent Censer",
+          "Redemption",
+          "Staff of Flowing Water"
+        ],
+        "skill_max": "Q > W > E"
       }
     ],
     "jungle": [
@@ -186,9 +423,30 @@
         "wr": 58.65,
         "pick": 3.95,
         "ban": 4.09,
-        "build": "Thornmail -> Sunfire -> Dawnshroud -> Twinguard",
+        "build": "Steelcaps -> Thornmail -> Sunfire -> Dawnshroud -> Twinguard -> Mantle",
         "keystone": "Ice Overlord",
-        "why": "Highest WR in the game; ADCs auto him"
+        "why": "Highest WR in the game; ADCs auto him",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Celerity"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Thornmail",
+          "Sunfire Aegis",
+          "Dawnshroud",
+          "Amaranth's Twinguard",
+          "Mantle of the Twelfth Hour"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 2,
@@ -197,9 +455,30 @@
         "wr": 56.39,
         "pick": 2.21,
         "ban": 0.09,
-        "build": "Sunfire / Liandry -> Abyssal -> Twinguard",
+        "build": "Steelcaps -> Sunfire -> Abyssal -> Thornmail -> Twinguard -> Kaenic",
         "keystone": "Ice Overlord",
-        "why": "Second-highest WR, unbanned"
+        "why": "Second-highest WR, unbanned",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Unshakeable",
+          "Second Wind",
+          "Perseverance",
+          "Transcendence"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Abyssal Mask",
+          "Thornmail",
+          "Amaranth's Twinguard",
+          "Kaenic Rookern"
+        ],
+        "skill_max": "E > Q > W"
       },
       {
         "rank": 3,
@@ -208,9 +487,30 @@
         "wr": 54.58,
         "pick": 5.32,
         "ban": 32.28,
-        "build": "Duskblade -> Serpent's Fang -> Serylda",
+        "build": "Dynamism -> Duskblade -> Serpent -> Serylda -> Sundered Sky -> GA",
         "keystone": "Electrocute",
-        "why": "32% ban; Paranoia deletes the 36% Caitlyn"
+        "why": "32% ban; Paranoia deletes the 36% Caitlyn",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Sudden Impact",
+          "Chain Assault",
+          "Eyeball Collector",
+          "Transcendence"
+        ],
+        "items": [
+          "Boots of Dynamism",
+          "Duskblade of Draktharr",
+          "Serpent's Fang",
+          "Serylda's Grudge",
+          "Sundered Sky",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 4,
@@ -219,9 +519,30 @@
         "wr": 54.68,
         "pick": 2.0,
         "ban": 2.59,
-        "build": "Trinity / BotRK -> Sterak / DD",
+        "build": "Steelcaps -> Trinity -> Sundered Sky -> DD -> Sterak -> Twinguard",
         "keystone": "Conqueror",
-        "why": "Run-at-ADC that ignores kiting in ult"
+        "why": "Run-at-ADC that ignores kiting in ult",
+        "start": "Long Sword",
+        "spells": [
+          "Ghost",
+          "Smite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Triumph",
+          "Last Stand",
+          "Legend: Alacrity",
+          "Nimbus Cloak"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Sundered Sky",
+          "Death's Dance",
+          "Sterak's Gage",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 5,
@@ -230,9 +551,30 @@
         "wr": 53.19,
         "pick": 7.02,
         "ban": 0.68,
-        "build": "Eclipse / Sundered Sky -> Cleaver -> Sterak",
+        "build": "Steelcaps -> Trinity -> Radiant Virtue -> Twinguard -> Unending Despair -> GA",
         "keystone": "Conqueror",
-        "why": "Highest-pick outstanding jungler; flag-drag for Dragon"
+        "why": "Highest-pick outstanding jungler; flag-drag for Dragon",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Unshakeable",
+          "Bone Plating",
+          "Perseverance",
+          "Triumph"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Radiant Virtue",
+          "Amaranth's Twinguard",
+          "Unending Despair",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > E > W"
       }
     ],
     "mid": [
@@ -243,9 +585,30 @@
         "wr": 55.31,
         "pick": 11.47,
         "ban": 33.39,
-        "build": "Luden -> Infinity Orb -> Deathcap -> Void -> Zhonya",
+        "build": "Mana boots -> Luden -> Infinity Orb -> Deathcap -> Void -> Zhonya",
         "keystone": "Electrocute",
-        "why": "Highest mid WR, 33% ban"
+        "why": "Highest mid WR, 33% ban",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Hextech Flashtraption",
+          "Transcendence",
+          "Nimbus Cloak",
+          "Cut Down"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 2,
@@ -254,9 +617,30 @@
         "wr": 51.49,
         "pick": 12.95,
         "ban": 32.17,
-        "build": "Blackfire -> Infinity Orb -> Deathcap",
+        "build": "Mana boots -> Blackfire -> Infinity Orb -> Deathcap -> Void -> Zhonya",
         "keystone": "Arcane Comet",
-        "why": "New champ, 13% pick / 32% ban in week one"
+        "why": "New champ, 13% pick / 32% ban in week one",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Arcane Comet",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 3,
@@ -265,9 +649,30 @@
         "wr": 52.34,
         "pick": 8.39,
         "ban": 9.63,
-        "build": "Liandry -> Rylai -> Void / Deathcap",
-        "keystone": "Arcane Comet",
-        "why": "DoT mage into tankier epics and front-to-back"
+        "build": "Mana boots -> Blackfire -> Liandry -> Deathcap -> Void -> Zhonya",
+        "keystone": "Electrocute",
+        "why": "DoT mage into tankier epics and front-to-back",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "W > E > Q"
       },
       {
         "rank": 4,
@@ -276,9 +681,30 @@
         "wr": 51.91,
         "pick": 9.18,
         "ban": 3.62,
-        "build": "Rocketbelt or Sunfire -> Zhonya / Abyssal",
-        "keystone": "Aftershock / Comet",
-        "why": "Roam ult + magic tank vs ADC + Hwei"
+        "build": "Mercs -> Hollow Radiance -> Mandate -> Riftmaker -> Rocketbelt -> Thornmail",
+        "keystone": "Ice Overlord",
+        "why": "Roam ult + magic tank vs ADC + Hwei",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Courage of the Colossus",
+          "Second Wind",
+          "Overgrowth",
+          "Sudden Impact"
+        ],
+        "items": [
+          "Mercury's Treads",
+          "Hollow Radiance",
+          "Imperial Mandate",
+          "Riftmaker",
+          "Hextech Rocketbelt",
+          "Thornmail"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 5,
@@ -287,9 +713,30 @@
         "wr": 51.8,
         "pick": 5.72,
         "ban": 3.78,
-        "build": "Blackfire / Rylai -> Deathcap",
-        "keystone": "Arcane Comet / Phase Rush",
-        "why": "Rising scaler into longer 7.3 games"
+        "build": "Mana boots -> Rylai -> Liandry -> Deathcap -> Riftmaker -> Zhonya",
+        "keystone": "Dark Harvest",
+        "why": "Rising scaler into longer 7.3 games",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Dark Harvest",
+          "Manaflow Band",
+          "Absolute Focus",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Riftmaker",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E"
       }
     ],
     "top": [
@@ -301,9 +748,30 @@
         "pick": 7.27,
         "ban": 28.4,
         "wr_note": "WRFire Baron 7.3 (riftpatchnotes lists him as support)",
-        "build": "Iceborn -> Thornmail -> Frozen Heart -> Twinguard",
-        "keystone": "Grasp",
-        "why": "Best top; armor + R into the ADC overhaul"
+        "build": "Steelcaps -> Iceborn -> Thornmail -> Frozen Heart -> Twinguard -> Kaenic",
+        "keystone": "Grasp of the Undying",
+        "why": "Best top; armor + R into the ADC overhaul",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Empowered Attack"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Iceborn Gauntlet",
+          "Thornmail",
+          "Frozen Heart",
+          "Amaranth's Twinguard",
+          "Kaenic Rookern"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 2,
@@ -312,9 +780,30 @@
         "wr": 56.38,
         "pick": 1.36,
         "ban": 0.11,
-        "build": "Heartsteel -> Sunfire -> Thornmail -> Dawnshroud",
-        "keystone": "Grasp",
-        "why": "56% WR, W blocks autos, R to the new ADC"
+        "build": "Heartsteel -> Steelcaps -> Sunfire -> Thornmail -> Dawnshroud -> Titanic",
+        "keystone": "Grasp of the Undying",
+        "why": "56% WR, W blocks autos, R to the new ADC",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Courage of the Colossus",
+          "Second Wind",
+          "Overgrowth",
+          "Brutal"
+        ],
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Thornmail",
+          "Dawnshroud",
+          "Titanic Hydra"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 3,
@@ -323,9 +812,30 @@
         "wr": 53.12,
         "pick": 1.48,
         "ban": 0.97,
-        "build": "Eclipse / Trinity -> Cleaver -> Sterak",
+        "build": "Steelcaps -> Eclipse -> Shojin -> DD -> Serylda -> GA",
         "keystone": "Conqueror",
-        "why": "S-tier fighter who is not griefed by 200% crit"
+        "why": "S-tier fighter who is not griefed by 200% crit",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Demolish",
+          "Second Wind",
+          "Perseverance",
+          "Sudden Impact"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Eclipse",
+          "Spear of Shojin",
+          "Death's Dance",
+          "Serylda's Grudge",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > E > W"
       },
       {
         "rank": 4,
@@ -334,9 +844,30 @@
         "wr": 51.23,
         "pick": 12.34,
         "ban": 40.96,
-        "build": "Heartsteel -> Sunfire -> Thornmail -> Twinguard",
-        "keystone": "Grasp",
-        "why": "Highest-presence top; 41% ban"
+        "build": "Steelcaps -> Heartsteel -> Dead Man's -> Unending Despair -> Thornmail -> Twinguard",
+        "keystone": "Grasp of the Undying",
+        "why": "Highest-presence top; 41% ban",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Demolish",
+          "Second Wind",
+          "Overgrowth",
+          "Transcendence"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Dead Man's Plate",
+          "Unending Despair",
+          "Thornmail",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > W > E"
       },
       {
         "rank": 5,
@@ -345,10 +876,32 @@
         "wr": 51.24,
         "pick": 5.2,
         "ban": 18.99,
-        "build": "Iceborn / Sunfire -> Frozen Heart -> Twinguard",
-        "keystone": "Grasp",
-        "why": "All-Out tank-carry, 19% ban"
+        "build": "Steelcaps -> Iceborn -> Unending Despair -> Twinguard -> Thornmail -> Mantle",
+        "keystone": "Grasp of the Undying",
+        "why": "All-Out tank-carry, 19% ban",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Demolish",
+          "Second Wind",
+          "Perseverance",
+          "Last Stand"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Iceborn Gauntlet",
+          "Unending Despair",
+          "Amaranth's Twinguard",
+          "Thornmail",
+          "Mantle of the Twelfth Hour"
+        ],
+        "skill_max": "Q > W > E"
       }
     ]
-  }
+  },
+  "full_pages": "wr-7.3-meta/builds.md"
 }

@@ -18,6 +18,8 @@ Reddit `/r/wildrift` is still mostly **pre-7.3** (Magnetic Blaster threads). Liv
 
 Numbers below: **WR / pick / ban** from [riftpatchnotes 7.3 CN](https://www.riftpatchnotes.com/winrates) unless noted. WRFire stats in parentheses when they disagree.
 
+**Rune + full 6-slot for all 25:** [`builds.md`](builds.md) (WRFire 7.3 pages).
+
 ---
 
 ## How the meta changed vs 7.2
@@ -118,13 +120,17 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 
 **Why:** Stacking hypercarry that likes 200% crit and the longer, tankier-objective games. High ban for a marksman that is not Caitlyn.
 
-**Build:** Essence Reaver / Yun Tal → IE → LDR. Play for stacks, not 2-item all-ins.
+**Build:** Gluttonous Greaves → Muramana → Trinity → Serylda → Shojin → GA. Ability scaler, not Yun Tal crit.
+
+**Runes:** Phase Rush · Battle Zeal · Cut Down · Legend: Bloodline · Transcendence. Flash + Barrier.
 
 ### 5. Kai'Sa — A / popular — 50.6% WR / 12.1% pick / 0.4% ban
 
 **Why:** Hybrid on-hit still works after the Plasma / evolve retune. Third-most-picked ADC. The "I cannot play Caitlyn into tanks" answer.
 
-**Build:** Kraken → Rageblade → Terminus → Nashor → Zhonya. Evolve **Q then E then W**. Lethal Tempo.
+**Build:** Berserker's → Kraken → Rageblade → Terminus → BotRK → Runaan. Evolve **Q then E then W**.
+
+**Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating. Flash + Ghost.
 
 Shiv is a discussed 2nd on the clump path, not the default.
 
@@ -176,7 +182,9 @@ Buy Rylai before a second burn item or enemies walk out of the 3s tick.
 
 **Why:** S on the Challenger list. Disengage + ADC steroid into the new crit lane. Low pick, high WR — the "I first-picked Caitlyn" support.
 
-**Build:** Aery enchanter: Helia / Ardent / Staff of Flowing Water. Peel vs dive with Redemption / Mikael.
+**Build:** Scythe → Ionian → Harmonic Echo → Ardent → Redemption → Staff of Flowing Water.
+
+**Runes:** Aery · Font of Life · Bone Plating · Revitalize · Transcendence. Flash + Heal.
 
 **Honorable:** Braum (peel vs ADC all-in; skip Yordle Trap), Rell, Soraka, Thresh (high pick, average WR).
 
@@ -198,7 +206,9 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 
 **Why:** Second-highest WR. Bandage + ult into a clump of ADCs. Almost never banned.
 
-**Build:** Sunfire / Liandry → Abyssal / Twinguard. Ice Overlord.
+**Build:** Steelcaps → Sunfire → Abyssal → Thornmail → Twinguard → Kaenic.
+
+**Runes:** Ice Overlord · Unshakeable · Second Wind · Perseverance · Transcendence. Flash + Smite.
 
 ### 3. Nocturne — S+ — 54.6% WR / 5.3% pick / **32.3% ban**
 
@@ -212,13 +222,17 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 
 **Why:** Point-and-click run-at-ADC that ignores their kiting once ult is up. Low pick, high WR.
 
-**Build:** Trinity / BotRK → Sterak / DD. Conqueror.
+**Build:** Steelcaps → Trinity → Sundered Sky → Death's Dance → Sterak → Twinguard.
+
+**Runes:** Conqueror · Triumph · Last Stand · Legend: Alacrity · Nimbus Cloak. Ghost + Smite.
 
 ### 5. Jarvan IV — S+ on WR-meta lists — 53.2% WR / 7.0% pick / 0.7% ban
 
 **Why:** Highest-pick outstanding jungler. Flag-drag still sets Dragon for the new ADC. Reliable, not flashy.
 
-**Build:** Eclipse / Sundered Sky → Cleaver → Sterak. Conqueror or Aftershock.
+**Build:** Steelcaps → Trinity → Radiant Virtue → Twinguard → Unending Despair → GA.
+
+**Runes:** Conqueror · Unshakeable · Bone Plating · Perseverance · Triumph. Flash + Smite.
 
 **Honorable:** Ekko 53.6%, Lillia 53.0% (Liandry → Blackfire — the AP-clear build people theorycrafted), Kayn 51.7%, Kindred (Kraken marks). Rek'Sai is the new champ; sample still thin.
 
@@ -250,17 +264,25 @@ Horizon Focus is the discussed 2nd if you live on long-range QQ, not Infinity Or
 
 **Why:** Liandry/Rylai DoT into the tankier epic-monster / front-to-back games. High pick for a mage that is not Syndra/Hwei.
 
-**Build:** Liandry → Rylai → Void / Deathcap. Comet.
+**Build:** Mana boots → Blackfire → Liandry → Deathcap → Void → Zhonya.
+
+**Runes:** Electrocute · Manaflow · Transcendence · Scorch · Bone Plating. Flash + Ignite.
 
 ### 4. Galio — S — 51.9% WR / 9.2% pick / 3.6% ban
 
 **Why:** S on WRFire. Roam ult + magic tank into a map full of ADCs and Hwei. High pick, positive WR.
 
-**Build:** Rocketbelt or tank (Sunfire / Frozen Heart) → Zhonya / Abyssal. Aftershock or Comet.
+**Build:** Mercs → Hollow Radiance → Imperial Mandate → Riftmaker → Rocketbelt → Thornmail.
+
+**Runes:** Ice Overlord · Courage of the Colossus · Second Wind · Overgrowth · Sudden Impact. Flash + Ignite.
 
 ### 5. Aurelion Sol — S — 51.8% WR / 5.7% pick / 3.8% ban
 
-**Why:** Rising on wr-meta. Scales with the longer games and tankier Barons. Blackfire / Rylai star.
+**Why:** Rising on wr-meta. Scales with the longer games and tankier Barons.
+
+**Build:** Mana boots → Rylai → Liandry → Deathcap → Riftmaker → Zhonya.
+
+**Runes:** Dark Harvest · Manaflow · Absolute Focus · Scorch · Bone Plating. Flash + Barrier.
 
 **Honorable:** Ahri 51.4% (S, safe blind), Orianna, Twisted Fate. Zyra mid 53.2% WRFire with a 41% ban — play her support if she is open.
 
@@ -290,19 +312,25 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 
 **Why:** S on WRFire. Fighter who is not griefed by crit ADCs the way Tryndamere (46%) and Riven (47%) are.
 
-**Build:** Eclipse / Trinity → Cleaver → Sterak / DD. Conqueror + Demolish.
+**Build:** Steelcaps → Eclipse → Shojin → Death's Dance → Serylda → GA.
+
+**Runes:** Conqueror · Demolish · Second Wind · Perseverance · Sudden Impact. Flash + Ignite.
 
 ### 4. Cho'Gath — S — 51.2% WR / **12.3% pick** / **41.0% ban**
 
 **Why:** Highest-presence top. Heartsteel stacks + eat into the slower objective games. Banned because of the silence / tank, not because 51% WR is broken.
 
-**Build:** Heartsteel → Sunfire / Hollow Radiance → Thornmail → Twinguard. Grasp.
+**Build:** Steelcaps → Heartsteel → Dead Man's Plate → Unending Despair → Thornmail → Twinguard.
+
+**Runes:** Grasp · Demolish · Second Wind · Overgrowth · Transcendence. Flash + Teleport.
 
 ### 5. K'Sante — S — 51.2% WR / 5.2% pick / 19.0% ban
 
 **Why:** All-in tank that also becomes a carry. High ban for a 51% champ — people respect All-Out vs the ADC.
 
-**Build:** Iceborn / Sunfire → Frozen Heart → Twinguard. Grasp or Aftershock.
+**Build:** Steelcaps → Iceborn → Unending Despair → Twinguard → Thornmail → Mantle.
+
+**Runes:** Grasp · Demolish · Second Wind · Perseverance · Last Stand. Flash + Teleport.
 
 **Honorable:** Ornn 52.7%, Teemo 52.6% (Shiv on-hit **top** is a real discussion), Mundo, Gwen. **Do not play Tryndamere Yun Tal** — 45.5–46.4% WR despite the theorycraft.
 
