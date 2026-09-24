@@ -1,0 +1,63 @@
+{
+  "champion": "Senna",
+  "game": "League of Legends: Wild Rift",
+  "patch_notes": "7.2-7.3 Absolution; 6.3 soul auto-absorb + AA not interrupted by abilities",
+  "controller": "GameSir X3 Pro",
+  "mapper": "G-Touch (Android). Fallback: V-Touch or Mantis Gamepad Pro MOBA Smart Cast. iOS unsupported.",
+  "problem": "Default AA treats Absolution souls as valid units and steals Relic Cannon wind-up.",
+  "verdict": {
+    "option_1": "Wins the stated combat bug: hold champion portrait, never AA wards/souls/minions, fire only when a champ portrait appears (in range).",
+    "option_2": "Wins max-range kite and skill aim: AA/skill Skill Wheel on RS, Aim Panning moves the map with aim. Recenter on AA release is not native; map L3 to camera lock.",
+    "recommended": "hybrid"
+  },
+  "wild_rift_settings": {
+    "portrait_lock": "ON_PRIORITY_DISPLAY",
+    "targeting_priority": "ABSOLUTE_HP",
+    "force_attack_follow": "OFF",
+    "lock_target_system": "NO_MINION_STRUCTURE",
+    "move_stick_type": "LOCKED",
+    "aim_panning": "ON",
+    "semi_lock_camera": "ON",
+    "ability_mini_cam": "OFF",
+    "turbo": "OFF"
+  },
+  "limits": {
+    "souls_are_not_minions": true,
+    "no_native_soul_filter_on_default_aa": true,
+    "no_persistent_aa_range_circle": true,
+    "q_also_locks_souls_wards_minions": true,
+    "g_touch_no_on_release_action": true,
+    "x3_pro_no_back_paddles": true
+  },
+  "hybrid_layout": {
+    "LS": "movement joystick (WR locked stick)",
+    "RS": "camera pan when idle; Skill Wheel when Y/B/X/RT held",
+    "RT": "HOLD champion portrait #1 (option 1 combat AA)",
+    "RB": "TAP default AA (souls / last-hit after fight)",
+    "LT": "TAP minion attack HUD",
+    "LB": "TAP turret attack HUD",
+    "Y": "Q Skill Wheel + RS",
+    "B": "W Skill Wheel + RS",
+    "A": "E tap",
+    "X": "R Skill Wheel + RS",
+    "L3": "TAP camera recenter (stand-in for release-AA recenter)",
+    "R3": "TAP champion portrait #2",
+    "S": "place ward HUD (not attack)",
+    "G_Touch_extras": {
+      "RT_Y_B_X": "Skill Wheel Mode linked to right stick",
+      "cast_cancel": "map cancel zone to D-pad down or unused face chord",
+      "mapping_enhancement": true,
+      "joystick_touch_duration_ms": 50
+    }
+  },
+  "practice_tool": [
+    "Hold RT near souls: must not AA souls",
+    "Dummy enters AA range: portrait appears, RT hits dummy only",
+    "Dummy leaves range while holding RT: Senna does not walk (Follow OFF)",
+    "Hold B + RS: W wheel and camera pan with aim",
+    "Release B then L3: camera recenters",
+    "Hold RT + LS: move and fire without stopping",
+    "Tap RB: can AA remaining souls",
+    "Q while portrait-locked: beam hits champ, not soul at feet"
+  ]
+}
