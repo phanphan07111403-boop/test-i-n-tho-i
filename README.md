@@ -4,6 +4,7 @@ League itemization sims.
 
 | Folder | Champion | Question |
 |--------|----------|----------|
+| `wr-7.3-meta/` | All roles (Wild Rift 7.3) | Forum + CN winrate snapshot; [`builds.md`](wr-7.3-meta/builds.md) rune + 6-slot; [`gamesir-x3-pro.md`](wr-7.3-meta/gamesir-x3-pro.md) pad should / should not |
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
 
