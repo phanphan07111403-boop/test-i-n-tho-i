@@ -161,6 +161,33 @@ class TestSenna73(unittest.TestCase):
         self.assertLessEqual(first_legendary_minute("adc", self.adc_win), 8)
         self.assertLessEqual(first_legendary_minute("support", self.sup_win), 11)
 
+    def test_hex_beats_er_on_committed_burst(self):
+        from simulate_senna_73 import shiv_second_burst
+
+        at12 = shiv_second_burst(12)
+        # 2nd legendary is not done; both pages are still Scythe+Berserkers+Shiv.
+        self.assertEqual(at12["er"]["owned"], at12["hex"]["owned"])
+        self.assertAlmostEqual(at12["er"]["burst"], at12["hex"]["burst"], places=0)
+        self.assertEqual(at12["winner"], "tie")
+
+        at16 = shiv_second_burst(16)
+        self.assertIn("Essence Reaver", at16["er"]["owned"])
+        self.assertIn("Hexoptics C44", at16["hex"]["owned"])
+        self.assertIn("Statikk Shiv", at16["er"]["owned"])
+        self.assertGreater(at16["hex"]["burst"], at16["er"]["burst"])
+        self.assertGreater(at16["er"]["burst_q"], at16["hex"]["burst_q"])
+        self.assertGreater(at16["hex"]["burst_auto"], at16["er"]["burst_auto"])
+        self.assertLess(at16["er"]["q_interval"], at16["hex"]["q_interval"])
+        self.assertAlmostEqual(at16["hex"]["hex_amp"], 0.09, places=2)
+        self.assertGreater(at16["er"]["spellblade"], 100.0)
+        self.assertLess(at16["hex"]["burst"] / at16["er"]["burst"], 1.06)
+        self.assertEqual(at16["winner"], "hexoptics_c44")
+        at24 = shiv_second_burst(24)
+        # Isolated 2nd-item hold: neither page sneaks IE/RFC into the combo.
+        self.assertNotIn("Infinity Edge", at24["er"]["owned"])
+        self.assertNotIn("Rapid Firecannon", at24["hex"]["owned"])
+        self.assertGreater(at24["hex"]["burst"], at24["er"]["burst"])
+
     def test_no_path_buys_removed_items(self):
         for paths in (ADC_PATHS, SUP_PATHS):
             for steps in paths.values():

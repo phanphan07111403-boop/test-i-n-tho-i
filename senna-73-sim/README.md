@@ -47,6 +47,23 @@ Combo: Q through the minion/ally, then AA. Do not last-hit.
 
 Skip RFC — Shiv already owns Energized. Hexoptics is the range-amp swap on slot 3. Mortal 2nd vs healers (−1.1%). Serpent's 6th vs Lulu/Karma. GA/Shieldbow vs burst.
 
+## Burst — Essence Reaver vs Hexoptics (2nd after Shiv)
+
+**Hexoptics has more burst.** A landed **AA → Q → AA** + extract + one charged Shiv vs a squishy at 16:00 (the minute the 2nd legendary finishes):
+
+| 16:00 committed combo | Hexoptics | Essence Reaver |
+|-----------------------|-----------|----------------|
+| AA+Q+AA+extract+Shiv | **935** | 914 (−2.3%) |
+| One auto | **274** (+10.9%) | 247 |
+| One Q | 283 | **315** (+11.5%, Spellblade 112) |
+| +W+R | **1610** | 1584 |
+| Q cooldown | 5.79s | **4.83s** |
+| 8s poke | 2060 | 2067 (tied) |
+
+Hex Magnification (+9%, 10% with RFC) multiplies **both autos and Q**. ER Spellblade only rides the Q, so the Q chunk is bigger and Q comes back faster — that is uptime, not the all-in. Same gap holds at 20:00 (−2.5%) and 24:00 (−2.7%) when you hold only the 2nd legendary.
+
+Keep **Shiv → ER** when you shoved (clump+wave ranking). Swap **Hex 2nd** when the job is a landed AA-Q-AA.
+
 ## Winners (sim)
 
 ### ADC — 24:00, Flash + Barrier
@@ -145,3 +162,4 @@ the game is 2v2 poke and you never crash the wave.
 - Serpent's Fang 3rd vs Lulu/Karma/Janna shields.
 - Steelcaps into Leona/Naut/Rell (−5% poke).
 - Shieldbow/GA 6th vs burst.
+- **Hex 2nd after Shiv** when you want the all-in (AA-Q-AA +2–3% vs ER). Keep ER when you shove.

@@ -765,6 +765,7 @@ class Fight:
     magic: float = 0.0
     autos: float = 0.0
     q_casts: float = 0.0
+    q_interval_s: float = 0.0
     aspd: float = 0.0
     crit: float = 0.0
     crit_dmg: float = CRIT_BASE
@@ -772,6 +773,14 @@ class Fight:
     clump: float = 0.0
     wave_4s: float = 0.0
     wave_ttk: float = 0.0
+    burst_combo: float = 0.0
+    burst_auto: float = 0.0
+    burst_q: float = 0.0
+    burst_extract: float = 0.0
+    burst_shiv: float = 0.0
+    burst_wr: float = 0.0
+    spellblade: float = 0.0
+    hex_amp: float = 0.0
     notes: List[str] = field(default_factory=list)
 
 
@@ -869,6 +878,9 @@ def simulate_fight(
         q_onhit += 1.35 * BASE_AD + 0.80 * (crit * 100.0)
     q_hit = (q_base * (1.0 + crit * (st.crit_damage - 1.0)) + q_onhit)
     q_dmg = phys(q_casts * q_land * q_hit, basic=True)
+    spellblade = 0.0
+    if st.er:
+        spellblade = 1.35 * BASE_AD + 0.80 * (crit * 100.0)
 
     w_dmg = phys(w_casts * w_damage(wr, bonus_ad))
 
@@ -976,6 +988,27 @@ def simulate_fight(
     if "Magnetic" in " ".join(st.names):
         notes.append("ILLEGAL Magnetic")
 
+    # Committed burst: you walked up charged and landed AA → Q → AA.
+    # land = 1.0. One extract on the Q. One Shiv (Energized is shared).
+    # Hex Magnification hits both autos and Q; Spellblade hits Q only.
+    one_auto = phys(avg_auto, basic=True)
+    one_q = phys(q_hit, basic=True)
+    one_extract = phys(extraction_pct(level) * 0.70 * target.hp)
+    one_shiv = 0.0
+    if st.rfc or st.storm or st.statikk:
+        mag_proc = 0.0
+        if st.rfc:
+            mag_proc += 80.0
+        if st.storm:
+            mag_proc += 120.0
+        if st.statikk:
+            mag_proc += 60.0 + 0.15 * st.ap
+        one_shiv = mag(mag_proc)
+    one_w = phys(w_damage(wr, bonus_ad)) if wr > 0 else 0.0
+    one_r = phys(r_damage(rr, bonus_ad, st.ap)) if rr > 0 else 0.0
+    burst_combo = 2.0 * one_auto + one_q + one_extract + one_shiv
+    burst_wr = burst_combo + one_w + one_r
+
     return Fight(
         damage=total,
         heal=heal,
@@ -984,6 +1017,7 @@ def simulate_fight(
         magic=energ_dmg + lt_bolt,
         autos=autos,
         q_casts=q_casts,
+        q_interval_s=interval,
         aspd=aspd,
         crit=crit,
         crit_dmg=st.crit_damage,
@@ -991,6 +1025,14 @@ def simulate_fight(
         clump=total + clump_add,
         wave_4s=wave_4s,
         wave_ttk=wave_ttk,
+        burst_combo=burst_combo,
+        burst_auto=one_auto,
+        burst_q=one_q,
+        burst_extract=one_extract,
+        burst_shiv=one_shiv,
+        burst_wr=burst_wr,
+        spellblade=spellblade,
+        hex_amp=hex_amp,
         notes=notes,
     )
 
@@ -1029,6 +1071,15 @@ def snapshot(
         "crit": round(sq.crit * 100.0, 1),
         "crit_dmg": round(sq.crit_dmg * 100.0),
         "q_casts": round(sq.q_casts, 2),
+        "q_interval": round(sq.q_interval_s, 2),
+        "burst": round(sq.burst_combo, 1),
+        "burst_auto": round(sq.burst_auto, 1),
+        "burst_q": round(sq.burst_q, 1),
+        "burst_extract": round(sq.burst_extract, 1),
+        "burst_shiv": round(sq.burst_shiv, 1),
+        "burst_wr": round(sq.burst_wr, 1),
+        "spellblade": round(sq.spellblade, 1),
+        "hex_amp": round(sq.hex_amp, 3),
         "sq_dmg": round(sq.damage, 1),
         "tk_dmg": round(tk.damage, 1),
         "clump": round(sq.clump + (0.65 * sq.heal if role == "support" else 0.0), 1),
@@ -1174,6 +1225,63 @@ def shiv_support_score(path: List[str]) -> float:
     return total
 
 
+def burst_row(role: str, path_key: str, minute: int, path: Optional[List[str]] = None) -> Dict:
+    """Committed AA→Q→AA snapshot for the Hex vs ER 2nd-item question."""
+    snap = snapshot(role, path_key, minute, path=path)
+    return {
+        "path": path_key,
+        "label": snap["label"],
+        "minute": minute,
+        "owned": snap["owned"],
+        "ad": snap["ad"],
+        "crit": snap["crit"],
+        "aspd": snap["aspd"],
+        "q_interval": snap["q_interval"],
+        "burst": snap["burst"],
+        "burst_auto": snap["burst_auto"],
+        "burst_q": snap["burst_q"],
+        "burst_extract": snap["burst_extract"],
+        "burst_shiv": snap["burst_shiv"],
+        "burst_wr": snap["burst_wr"],
+        "spellblade": snap["spellblade"],
+        "hex_amp": snap["hex_amp"],
+        "sq_dmg": snap["sq_dmg"],
+    }
+
+
+def shiv_second_burst(minute: int = 16) -> Dict:
+    """Support Shiv → ER vs Shiv → Hex. Hold only the 2nd legendary so
+    20:00/24:00 do not mix IE (ER page) vs RFC (Hex page) into the burst."""
+    er_path = [
+        "spectral_sickle", "black_mist_scythe", "berserkers_greaves",
+        "statikk_shiv", "essence_reaver",
+    ]
+    hex_path = [
+        "spectral_sickle", "black_mist_scythe", "berserkers_greaves",
+        "statikk_shiv", "hexoptics_c44",
+    ]
+    er = burst_row("support", "statikk_er_ie_ldr", minute, path=er_path)
+    hex_ = burst_row("support", "statikk_hex_rfc", minute, path=hex_path)
+    combo_delta = (er["burst"] / hex_["burst"] - 1.0) * 100.0 if hex_["burst"] else 0.0
+    q_delta = (er["burst_q"] / hex_["burst_q"] - 1.0) * 100.0 if hex_["burst_q"] else 0.0
+    auto_delta = (hex_["burst_auto"] / er["burst_auto"] - 1.0) * 100.0 if er["burst_auto"] else 0.0
+    if abs(hex_["burst"] - er["burst"]) < 0.5:
+        winner = "tie"
+    elif hex_["burst"] > er["burst"]:
+        winner = "hexoptics_c44"
+    else:
+        winner = "essence_reaver"
+    return {
+        "minute": minute,
+        "winner": winner,
+        "combo_delta_er_vs_hex": round(combo_delta, 1),
+        "q_delta_er_vs_hex": round(q_delta, 1),
+        "auto_delta_hex_vs_er": round(auto_delta, 1),
+        "er": er,
+        "hex": hex_,
+    }
+
+
 def greedy_shiv_support(extra: int = 3) -> Tuple[List[str], List[Tuple[str, float, List[Tuple[str, float]]]]]:
     """Lock Scythe + Berserkers + Shiv, then pick follow-ups.
 
@@ -1307,6 +1415,44 @@ def write_report() -> Dict:
     p("  Slot-6 swaps: Mortal vs heal · Serpent's vs Lulu/Karma/Janna")
     p("  · Hexoptics if you need the range amp · GA/Shieldbow vs burst")
     p("  · Cleaver if Shiv bounce is stacking Carve on a tank frontline.")
+    p()
+
+    burst_minutes = (12, 16, 20, 24)
+    burst_snaps = [shiv_second_burst(m) for m in burst_minutes]
+    burst_16 = burst_snaps[1]
+    er16, hex16 = burst_16["er"], burst_16["hex"]
+    p("-" * 72)
+    p("Burst — Essence Reaver vs Hexoptics after Shiv")
+    p("-" * 72)
+    p("  Committed AA → Q → AA + extract + 1 charged Shiv vs a squishy.")
+    p("  Land = 1.0 (the combo actually hits). 8s poke and clump+wave are")
+    p("  different questions — Hex wins this one, ER still wins the buy.")
+    p()
+    p(f"  At 16:00 (2nd legendary just finished):")
+    p(f"    Hexoptics  combo {hex16['burst']:.0f}  auto {hex16['burst_auto']:.0f}  Q {hex16['burst_q']:.0f}  +W+R {hex16['burst_wr']:.0f}")
+    p(f"    ER         combo {er16['burst']:.0f}  auto {er16['burst_auto']:.0f}  Q {er16['burst_q']:.0f}  +W+R {er16['burst_wr']:.0f}")
+    p(f"    ER combo {burst_16['combo_delta_er_vs_hex']:+.1f}% vs Hex. Hex auto {burst_16['auto_delta_hex_vs_er']:+.1f}%. ER Q {burst_16['q_delta_er_vs_hex']:+.1f}% (Spellblade {er16['spellblade']:.0f}).")
+    p()
+    p("  Why Hex takes the one-shot")
+    p("    • Magnification +9% (10% with RFC) hits BOTH autos and Q.")
+    p("    • Hex is 55 AD / 25% crit; ER is 50 AD / 25% crit / 20 AH.")
+    p("    • ER Spellblade (~112 at 55% crit) only rides the Q. That makes")
+    p("      the Q chunk bigger, not the two autos.")
+    p("    • 20 AH is cadence: ER Q comes back faster. That is not burst.")
+    p()
+    p(f"  {'min':>4} {'Hex combo':>10} {'ER combo':>9} {'ER vs Hex':>9}  {'Hex auto':>8} {'ER auto':>7}  {'Hex Q':>6} {'ER Q':>6}  {'Hex Qs':>7} {'ER Qs':>6}")
+    for row in burst_snaps:
+        d = row["combo_delta_er_vs_hex"]
+        p(
+            f"  {row['minute']:>4} {row['hex']['burst']:>10.0f} {row['er']['burst']:>9.0f}  {d:>+6.1f}%  "
+            f"{row['hex']['burst_auto']:>8.0f} {row['er']['burst_auto']:>7.0f}  "
+            f"{row['hex']['burst_q']:>6.0f} {row['er']['burst_q']:>6.0f}  "
+            f"{row['hex']['q_interval']:>6.2f}s {row['er']['q_interval']:>5.2f}s"
+        )
+    p()
+    p(f"  8s poke at 16:00: Hex {hex16['sq_dmg']:.0f} vs ER {er16['sq_dmg']:.0f} — almost tied.")
+    p("  Keep Shiv → ER for clump+wave. Swap Hex 2nd when the job is a")
+    p("  landed AA-Q-AA, not the shove.")
     p()
 
     p("-" * 72)
@@ -1551,6 +1697,8 @@ def write_report() -> Dict:
             }
             for n, (iid, sc, ranked) in enumerate(shiv_picks)
         ],
+        "shiv_second_burst": burst_snaps,
+        "burst_winner_16": burst_16["winner"],
     }
     json_path = os.path.join(OUT_DIR, "results.json")
     with open(json_path, "w", encoding="utf-8") as fh:
@@ -1564,6 +1712,11 @@ def main() -> None:
     print(f"ADC winner:      {payload['adc_label']}")
     print(f"Support poke:    {payload['support_label']}")
     print(f"Support Shiv:    {' → '.join(payload['shiv_support_path'])}")
+    b16 = payload["shiv_second_burst"][1]
+    print(
+        f"Burst @16:00     Hex {b16['hex']['burst']:.0f} vs ER {b16['er']['burst']:.0f} "
+        f"({b16['combo_delta_er_vs_hex']:+.1f}% ER)"
+    )
     print(f"wrote {os.path.join(OUT_DIR, 'report.txt')}")
     print(f"wrote {os.path.join(OUT_DIR, 'results.json')}")
 

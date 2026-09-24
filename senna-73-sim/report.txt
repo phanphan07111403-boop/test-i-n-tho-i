@@ -29,7 +29,7 @@ Senna support — rush Shiv, then the last 5 items
     • 2nd wants AD + Q cadence so Relic copies harder on bounces.
     • Skip RFC: Shiv already owns Energized. RFC's 0 AD weakens the
       Relic copy. Hex is the range-amp swap if you need Magnification.
-    • IE waits for ~24:00 (3500g). LDR is the 28:00 pen capstone.
+    • IE waits until it fits (~22:00, 3500g). LDR is the 28:00 pen capstone.
 
   2nd after Shiv (16:00 actually finishes these):
     1. Essence Reaver            +0.0%
@@ -68,6 +68,35 @@ Senna support — rush Shiv, then the last 5 items
   Slot-6 swaps: Mortal vs heal · Serpent's vs Lulu/Karma/Janna
   · Hexoptics if you need the range amp · GA/Shieldbow vs burst
   · Cleaver if Shiv bounce is stacking Carve on a tank frontline.
+
+------------------------------------------------------------------------
+Burst — Essence Reaver vs Hexoptics after Shiv
+------------------------------------------------------------------------
+  Committed AA → Q → AA + extract + 1 charged Shiv vs a squishy.
+  Land = 1.0 (the combo actually hits). 8s poke and clump+wave are
+  different questions — Hex wins this one, ER still wins the buy.
+
+  At 16:00 (2nd legendary just finished):
+    Hexoptics  combo 935  auto 274  Q 283  +W+R 1610
+    ER         combo 914  auto 247  Q 315  +W+R 1584
+    ER combo -2.3% vs Hex. Hex auto +10.9%. ER Q +11.5% (Spellblade 112).
+
+  Why Hex takes the one-shot
+    • Magnification +9% (10% with RFC) hits BOTH autos and Q.
+    • Hex is 55 AD / 25% crit; ER is 50 AD / 25% crit / 20 AH.
+    • ER Spellblade (~112 at 55% crit) only rides the Q. That makes
+      the Q chunk bigger, not the two autos.
+    • 20 AH is cadence: ER Q comes back faster. That is not burst.
+
+   min  Hex combo  ER combo ER vs Hex  Hex auto ER auto   Hex Q   ER Q   Hex Qs  ER Qs
+    12        578       578    +0.0%       155     155     176    176    5.91s  5.91s
+    16        935       914    -2.3%       274     247     283    315    5.79s  4.83s
+    20        971       946    -2.5%       283     256     285    315    5.67s  4.73s
+    24       1061      1032    -2.7%       314     283     312    344    5.67s  4.73s
+
+  8s poke at 16:00: Hex 2060 vs ER 2067 — almost tied.
+  Keep Shiv → ER for clump+wave. Swap Hex 2nd when the job is a
+  landed AA-Q-AA, not the shove.
 
 ------------------------------------------------------------------------
 ADC winner  (24:00, Flash + Barrier, Fleet for the item rank)
