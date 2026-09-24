@@ -4,6 +4,16 @@ Pages from [WildRiftFire 7.3](https://www.wildriftfire.com/) (iTzSTU4RT). Trust 
 
 Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup in *Situational*. Support slot is Black Mist Scythe (Sickle) or Bulwark of the Mountain (Relic Shield).
 
+**GameSir X3 Pro:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Each page has a should / should-not line.
+
+| Role | Play on pad | Skip on pad |
+|------|-------------|-------------|
+| ADC | Ashe, Smolder, Kai'Sa | Caitlyn, Yunara |
+| Support | Senna, Malphite, Sona | Zyra, Janna |
+| Jungle | all five | — |
+| Mid | Galio | Syndra, Hwei, Brand, ASol |
+| Top | Malphite, Shen, Ambessa, K'Sante | Cho'Gath |
+
 ---
 
 ## ADC
@@ -16,6 +26,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ghost |
 | **Skill max** | Q → E → W (R whenever) |
 | **Evolve / notes** | Trap Headshot, then Q. No Shiv, no Youmuu first. |
+| **X3 Pro** | **should not** — trap placement + brush Headshot. Ban her or pick Malphite/Rammus. |
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating  
 *vs squishies:* Cut Down → Coup de Grace
@@ -40,6 +51,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Long Sword |
 | **Spells** | Flash + Ghost |
 | **Skill max** | W → Q → E |
+| **X3 Pro** | **should** — autos + W cone. D-pad minion lock last-hits. |
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating  
 *vs squishies:* Coup de Grace
@@ -64,6 +76,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Long Sword |
 | **Spells** | Flash + Barrier |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should not** — ult swaps three skills + Unleash + bead while kiting. Too many HUD states. |
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating  
 *vs squishies:* Coup de Grace
@@ -89,6 +102,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Barrier |
 | **Skill max** | Q → W → E |
 | **Notes** | Ability scaler, not a Yun Tal crit ADC. Last-hit with Q for stacks. |
+| **X3 Pro** | **should** — Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock. |
 
 **Runes:** Phase Rush · Battle Zeal · Cut Down · Legend: Bloodline · Transcendence  
 *vs squishies:* Coup de Grace. Fleet Footwork is the sustain alt.
@@ -114,6 +128,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ghost |
 | **Skill max** | Q → W → E |
 | **Evolve** | **Q → E → W** (one evolve per completed item) |
+| **X3 Pro** | **should** — Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W). |
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating  
 *vs squishies:* Coup de Grace
@@ -140,6 +155,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Spectral Sickle |
 | **Spells** | Flash + Heal |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should** — Q is a tap-through line. Souls with D-pad last-hit. |
 
 **Runes:** Fleet Footwork · Font of Life · Bone Plating · Perseverance · Brutal
 
@@ -163,6 +179,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Relic Shield |
 | **Spells** | Flash + Ignite |
 | **Skill max** | Q → E → W |
+| **X3 Pro** | **should** — Q slow missile, R is a click. Same kit top. |
 
 **Runes:** Arcane Comet · Unshakeable · Second Wind · Overgrowth · Transcendence  
 *vs CC:* Perseverance
@@ -187,6 +204,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Spectral Sickle |
 | **Spells** | Flash + Heal |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should** — auras and Power Chord. No aim. Best pad support in this five. |
 
 **Runes:** Fleet Footwork · Manaflow Band · Transcendence · Scorch · Bone Plating  
 *Alt keystone:* Aery (more shield/heal, less lane poke).
@@ -211,6 +229,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Spectral Sickle |
 | **Spells** | Flash + Heal |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should not** — plants are ground-place. Q line + E skillshot. Play Sona. |
 
 **Runes:** Aery · Manaflow Band · Transcendence · Scorch · Bone Plating  
 *Alt:* Comet if you play for plant poke, not lane Aery ticks.
@@ -235,6 +254,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Spectral Sickle |
 | **Spells** | Flash + Heal |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should not** — identity is Q tornado from fog. Play Sona. |
 
 **Runes:** Aery · Font of Life · Bone Plating · Revitalize · Transcendence
 
@@ -260,6 +280,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Ruby Crystal |
 | **Spells** | Flash + Smite |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should** — hold Q on LT. E targeted. R slam. |
 
 **Runes:** Ice Overlord · Unshakeable · Second Wind · Overgrowth · Celerity  
 *vs CC:* Perseverance
@@ -284,6 +305,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Ruby Crystal (Blue side first) |
 | **Spells** | Flash + Smite |
 | **Skill max** | E → Q → W |
+| **X3 Pro** | **should** — Q is a line but two charges + self R. Classic pad jungler. |
 
 **Runes:** Ice Overlord · Unshakeable · Second Wind · Perseverance · Transcendence  
 *vs burst:* Bone Plating
@@ -308,6 +330,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Long Sword |
 | **Spells** | Flash + Smite |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should** — R is a click. E targeted. Q line is good enough. |
 
 **Runes:** Electrocute · Sudden Impact · Chain Assault · Eyeball Collector · Transcendence  
 *Alt keystone:* First Strike for gold + true damage on R.
@@ -332,6 +355,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Long Sword (Blue first) |
 | **Spells** | Ghost + Smite |
 | **Skill max** | Q → E → W |
+| **X3 Pro** | **should** — Ghost + analog chase. Q throw-and-pick is fine. |
 
 **Runes:** Conqueror · Triumph · Last Stand · Legend: Alacrity · Nimbus Cloak
 
@@ -355,6 +379,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Long Sword (Red first for lvl-2 gank) |
 | **Spells** | Flash + Smite |
 | **Skill max** | Q → E → W |
+| **X3 Pro** | **should** — flag-drag is two buttons (E then Q). R targeted. |
 
 **Runes:** Conqueror · Unshakeable · Bone Plating · Perseverance · Triumph
 
@@ -381,6 +406,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ignite |
 | **Skill max** | Q → W → E |
 | **Transcend** | Q first, then W, then E |
+| **X3 Pro** | **should not** — Q is a ground click. E stun needs the sphere angle. Touch champ. |
 
 **Runes:** Electrocute · Hextech Flashtraption · Transcendence · Nimbus Cloak · Cut Down  
 *vs burst:* Bone Plating. First Strike is the gold/poke alt.
@@ -405,6 +431,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Amplifying Tome |
 | **Spells** | Flash + Barrier |
 | **Skill max** | QQ (Disaster) → EW (Torment) → WW (Serenity) |
+| **X3 Pro** | **should not** — 10 abilities (3×3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio. |
 
 **Runes:** Arcane Comet · Manaflow Band · Transcendence · Scorch · Bone Plating  
 *vs tanks:* Cut Down
@@ -430,6 +457,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ignite |
 | **Skill max** | W → E → Q |
 | **Combo** | E → Q stun → W. Ult in clumps. |
+| **X3 Pro** | **should not** — W delayed circle + Q blocked by minions. Combo dies on pad. |
 
 **Runes:** Electrocute · Manaflow Band · Transcendence · Scorch · Bone Plating  
 *Alt:* Axiom Arcanist in the Electrocute tree if you want bigger R.
@@ -454,6 +482,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Ruby Crystal |
 | **Spells** | Flash + Ignite |
 | **Skill max** | Q → W → E |
+| **X3 Pro** | **should** — hold W on LT. E dash. R ally-target. The pad mid from this five. |
 
 **Runes:** Ice Overlord · Courage of the Colossus · Second Wind · Overgrowth · Sudden Impact  
 *vs CC:* Perseverance
@@ -479,6 +508,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Barrier |
 | **Skill max** | Q → W → E |
 | **Notes** | Farm Stardust with E on the wave. Save R for Skies Descend at 65 stacks. |
+| **X3 Pro** | **should not** — hold Q breath and W fly and aim. Two sticks fight. |
 
 **Runes:** Dark Harvest · Manaflow Band · Absolute Focus · Scorch · Bone Plating
 
@@ -504,6 +534,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Ruby Crystal |
 | **Spells** | Flash + Ignite |
 | **Skill max** | Q → E → W (max E first if they are AD) |
+| **X3 Pro** | **should** — Q slow missile, R click. Best pad top. |
 
 **Runes:** Grasp of the Undying · Unshakeable · Second Wind · Overgrowth · Empowered Attack  
 *vs CC:* Perseverance
@@ -528,6 +559,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Start** | Ruby Crystal |
 | **Spells** | Flash + Teleport |
 | **Skill max** | Q → E → W |
+| **X3 Pro** | **should** — Q blade, E dash, R ally. No ground circle. |
 
 **Runes:** Grasp of the Undying · Courage of the Colossus · Second Wind · Overgrowth · Brutal
 
@@ -552,6 +584,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Ignite |
 | **Skill max** | Q → E → W |
 | **Notes** | Dash after every spell, then auto (Drakehound's Step). Save W for CC. |
+| **X3 Pro** | **should** — Feint is the left stick after a spell. Hall stick = her kit. |
 
 **Runes:** Conqueror · Demolish · Second Wind · Perseverance · Sudden Impact
 
@@ -576,6 +609,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Teleport |
 | **Skill max** | Q → W → E |
 | **Notes** | Feast minions from 5 so you do not sit on 0 stacks. |
+| **X3 Pro** | **should not** — lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel. |
 
 **Runes:** Grasp of the Undying · Demolish · Second Wind · Overgrowth · Transcendence  
 *vs CC:* Perseverance
@@ -601,6 +635,7 @@ Lobby: **keystone + 3 primary + 1 secondary**. Swap the last rune vs the matchup
 | **Spells** | Flash + Teleport |
 | **Skill max** | Q → W → E |
 | **Notes** | Auto after every mark. All Out is the 1v1. Path Maker soaks the spell. |
+| **X3 Pro** | **should** — charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip. |
 
 **Runes:** Grasp of the Undying · Demolish · Second Wind · Perseverance · Last Stand
 

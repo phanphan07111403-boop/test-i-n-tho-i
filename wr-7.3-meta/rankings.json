@@ -122,7 +122,9 @@
           "Lord Dominik's Regards",
           "Bloodthirster"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Trap placement + brush Headshot. Ban her or pick Malphite/Rammus."
       },
       {
         "rank": 2,
@@ -154,7 +156,9 @@
           "Lord Dominik's Regards",
           "Bloodthirster"
         ],
-        "skill_max": "W > Q > E"
+        "skill_max": "W > Q > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Autos + W cone. D-pad minion lock last-hits."
       },
       {
         "rank": 3,
@@ -186,7 +190,9 @@
           "Lord Dominik's Regards",
           "Stormrazor"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Ult swaps three skills + Unleash + bead while kiting. Too many HUD states."
       },
       {
         "rank": 4,
@@ -218,7 +224,9 @@
           "Spear of Shojin",
           "Guardian Angel"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock."
       },
       {
         "rank": 5,
@@ -250,7 +258,9 @@
           "Blade of the Ruined King",
           "Runaan's Hurricane"
         ],
-        "skill_max": "Q > W > E (evolve Q > E > W)"
+        "skill_max": "Q > W > E (evolve Q > E > W)",
+        "x3_pro": "should",
+        "x3_pro_note": "Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W)."
       }
     ],
     "support": [
@@ -284,7 +294,9 @@
           "Lord Dominik's Regards",
           "Infinity Edge"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Q is a tap-through line. Souls with D-pad last-hit."
       },
       {
         "rank": 2,
@@ -316,7 +328,9 @@
           "Iceborn Gauntlet",
           "Amaranth's Twinguard"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q slow missile, R is a click. Same kit top."
       },
       {
         "rank": 3,
@@ -348,7 +362,9 @@
           "Harmonic Echo",
           "Redemption"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Auras and Power Chord. No aim. Best pad support in this five."
       },
       {
         "rank": 4,
@@ -380,7 +396,9 @@
           "Cryptbloom",
           "Zhonya's Hourglass"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Plants are ground-place. Q line + E skillshot. Play Sona."
       },
       {
         "rank": 5,
@@ -412,7 +430,9 @@
           "Redemption",
           "Staff of Flowing Water"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Identity is Q tornado from fog. Play Sona."
       }
     ],
     "jungle": [
@@ -446,7 +466,9 @@
           "Amaranth's Twinguard",
           "Mantle of the Twelfth Hour"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Hold Q on LT. E targeted. R slam."
       },
       {
         "rank": 2,
@@ -478,7 +500,9 @@
           "Amaranth's Twinguard",
           "Kaenic Rookern"
         ],
-        "skill_max": "E > Q > W"
+        "skill_max": "E > Q > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q is a line but two charges + self R. Classic pad jungler."
       },
       {
         "rank": 3,
@@ -510,7 +534,9 @@
           "Sundered Sky",
           "Guardian Angel"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "R is a click. E targeted. Q line is good enough."
       },
       {
         "rank": 4,
@@ -542,7 +568,9 @@
           "Sterak's Gage",
           "Amaranth's Twinguard"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Ghost + analog chase. Q throw-and-pick is fine."
       },
       {
         "rank": 5,
@@ -574,7 +602,9 @@
           "Unending Despair",
           "Guardian Angel"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Flag-drag is two buttons (E then Q). R targeted."
       }
     ],
     "mid": [
@@ -608,7 +638,9 @@
           "Void Staff",
           "Zhonya's Hourglass"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Q is a ground click. E stun needs the sphere angle. Touch champ."
       },
       {
         "rank": 2,
@@ -640,7 +672,9 @@
           "Void Staff",
           "Zhonya's Hourglass"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should_not",
+        "x3_pro_note": "10 abilities (3x3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio."
       },
       {
         "rank": 3,
@@ -672,7 +706,9 @@
           "Void Staff",
           "Zhonya's Hourglass"
         ],
-        "skill_max": "W > E > Q"
+        "skill_max": "W > E > Q",
+        "x3_pro": "should_not",
+        "x3_pro_note": "W delayed circle + Q blocked by minions. Combo dies on pad."
       },
       {
         "rank": 4,
@@ -704,7 +740,9 @@
           "Hextech Rocketbelt",
           "Thornmail"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Hold W on LT. E dash. R ally-target. The pad mid from this five."
       },
       {
         "rank": 5,
@@ -736,7 +774,9 @@
           "Riftmaker",
           "Zhonya's Hourglass"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Hold Q breath and W fly and aim. Two sticks fight."
       }
     ],
     "top": [
@@ -771,7 +811,9 @@
           "Amaranth's Twinguard",
           "Kaenic Rookern"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q slow missile, R click. Best pad top."
       },
       {
         "rank": 2,
@@ -803,7 +845,9 @@
           "Dawnshroud",
           "Titanic Hydra"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q blade, E dash, R ally. No ground circle."
       },
       {
         "rank": 3,
@@ -835,7 +879,9 @@
           "Serylda's Grudge",
           "Guardian Angel"
         ],
-        "skill_max": "Q > E > W"
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Feint is the left stick after a spell. Hall stick = her kit."
       },
       {
         "rank": 4,
@@ -867,7 +913,9 @@
           "Thornmail",
           "Amaranth's Twinguard"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel."
       },
       {
         "rank": 5,
@@ -899,9 +947,67 @@
           "Thornmail",
           "Mantle of the Twelfth Hour"
         ],
-        "skill_max": "Q > W > E"
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip."
       }
     ]
   },
-  "full_pages": "wr-7.3-meta/builds.md"
+  "full_pages": "wr-7.3-meta/builds.md",
+  "x3_pro": {
+    "guide": "wr-7.3-meta/gamesir-x3-pro.md",
+    "platform": "Android G-Touch / V-Touch only; iOS cannot map Wild Rift",
+    "rule": "Should = lock-on, self-cast, hold-on-trigger, 2-button combo, or attack-move. Should not = pixel place, delayed ground circle, 10-spell palette, or hold-aim-and-fly.",
+    "should": [
+      "Ashe",
+      "Smolder",
+      "Kai'Sa",
+      "Senna",
+      "Malphite",
+      "Sona",
+      "Rammus",
+      "Amumu",
+      "Nocturne",
+      "Olaf",
+      "Jarvan IV",
+      "Galio",
+      "Shen",
+      "Ambessa",
+      "K'Sante"
+    ],
+    "should_not": [
+      "Caitlyn",
+      "Yunara",
+      "Zyra",
+      "Janna",
+      "Syndra",
+      "Hwei",
+      "Brand",
+      "Aurelion Sol",
+      "Cho'Gath"
+    ],
+    "first_picks": [
+      "Smolder",
+      "Sona",
+      "Rammus",
+      "Galio",
+      "Malphite",
+      "Shen",
+      "Ambessa",
+      "Jarvan IV",
+      "Ashe",
+      "Kai'Sa"
+    ],
+    "do_not_first_pick": [
+      "Hwei",
+      "Caitlyn",
+      "Zyra",
+      "Syndra",
+      "Brand",
+      "Aurelion Sol",
+      "Yunara",
+      "Cho'Gath",
+      "Janna"
+    ]
+  }
 }

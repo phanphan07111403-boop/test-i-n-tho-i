@@ -20,6 +20,8 @@ Numbers below: **WR / pick / ban** from [riftpatchnotes 7.3 CN](https://www.rift
 
 **Rune + full 6-slot for all 25:** [`builds.md`](builds.md) (WRFire 7.3 pages).
 
+**GameSir X3 Pro should / should not:** [`gamesir-x3-pro.md`](gamesir-x3-pro.md). Android G-Touch only. Play **Smolder, Sona, Rammus, Galio, Malphite, Shen, Ambessa**. Do not first-pick **Hwei, Caitlyn, Zyra, Syndra, Brand, ASol, Yunara, Cho'Gath, Janna**.
+
 ---
 
 ## How the meta changed vs 7.2
@@ -96,6 +98,8 @@ Caitlyn is the patch. Ashe has the cleanest WR among marksmen. Yunara / Smolder 
 
 Do not rush Youmuu. Do not build Shiv. She wants hard AD + crit, not on-hit bounce.
 
+**X3 Pro: should not.** The champ is trap placement + brush Headshot. Ban her or pick Malphite/Rammus into her.
+
 ### 2. Ashe — S — 53.0% WR / 4.8% pick / 0.1% ban
 
 **Why:** Direct 7.3 buffs (base AD, Frost Shot slow, Volley damage/CD, Ranger's Focus cheaper). Frost Shot bonus damage now tracks the 200% crit formula. Highest ADC win rate on the CN dump.
@@ -105,6 +109,8 @@ Do not rush Youmuu. Do not build Shiv. She wants hard AD + crit, not on-hit boun
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating. Flash + Ghost.
 
 Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the scaling swap if the game is going long.
+
+**X3 Pro: should.** Autos + W cone. D-pad minion lock last-hits. Hawk/R are extra.
 
 ### 3. Yunara — S+ — 50.7% WR / 14.4% pick / 13.5% ban
 
@@ -116,6 +122,8 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Alacrity · Bone Plating.
 
+**X3 Pro: should not.** Ult swaps three skills + Unleash stacks + bead while kiting. Too many HUD states.
+
 ### 4. Smolder — S+ — 51.6% WR / 9.0% pick / 12.0% ban
 
 **Why:** Stacking hypercarry that likes 200% crit and the longer, tankier-objective games. High ban for a marksman that is not Caitlyn.
@@ -123,6 +131,8 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 **Build:** Gluttonous Greaves → Muramana → Trinity → Serylda → Shojin → GA. Ability scaler, not Yun Tal crit.
 
 **Runes:** Phase Rush · Battle Zeal · Cut Down · Legend: Bloodline · Transcendence. Flash + Barrier.
+
+**X3 Pro: should.** Q is a targeted belch. Best pad ADC in this five. Stack with D-pad minion lock.
 
 ### 5. Kai'Sa — A / popular — 50.6% WR / 12.1% pick / 0.4% ban
 
@@ -133,6 +143,8 @@ Stormrazor is the discussed first item (Energized slow + Volley). Yun Tal is the
 **Runes:** Lethal Tempo · Brutal · Cut Down · Legend: Bloodline · Bone Plating. Flash + Ghost.
 
 Shiv is a discussed 2nd on the clump path, not the default.
+
+**X3 Pro: should.** Q auto-splits, E self, R to Plasma. Analog kite. One skillshot (W).
 
 **Honorable:** Kog'Maw (on-hit Shiv poster child; 50–55% WR depending on sample), Varus 51.0%, Kalista 50.9%, Xayah.
 
@@ -152,6 +164,8 @@ Senna is running the role. Malphite support is the anti-ADC cheese. Sona / Janna
 
 **Also discussed:** Enchanter Senna (Ardent → Helia → Harmonic) and Dynamism vs Ionian boots. ADC Senna is a tiny sample (WRFire ~61% at 1% pick — ignore).
 
+**X3 Pro: should.** Q is a tap-through line. Souls with D-pad last-hit.
+
 ### 2. Malphite (support) — S+ — 53.3% WR / 9.6% pick / 26.1% ban
 
 **Why:** 7.2e already buffed him; 7.3 ADC meta made R+Ground Slam into a ranked staple. WRFire also has **Baron Malphite at 57.6% WR**. Same champ, two outstanding roles.
@@ -160,6 +174,8 @@ Senna is running the role. Malphite support is the anti-ADC cheese. Sona / Janna
 
 **Runes (support):** Arcane Comet · Unshakeable · Second Wind · Overgrowth · Transcendence.
 
+**X3 Pro: should.** Q slow missile, R is a click. Same kit top.
+
 ### 3. Sona — S — 52.9% WR / 6.9% pick / 2.4% ban
 
 **Why:** Aura enchanter for the ADC patch. New items **Echoes of Helia, Harmonic Echo, Diadem of Songs, Whispering Circlet** are the forum argument (Helia vs Ardent first).
@@ -167,6 +183,8 @@ Senna is running the role. Malphite support is the anti-ADC cheese. Sona / Janna
 **Build:** Spectral Sickle → Ionian → Tear → **Helia** → Circlet → **Diadem of Songs** → Harmonic Echo → Redemption.
 
 **Runes:** Fleet Footwork (WRFire) or Aery · Manaflow · Transcendence · Scorch · Bone Plating.
+
+**X3 Pro: should.** Auras and Power Chord. No aim. Best pad support in this five.
 
 ### 4. Zyra — A, perma-ban — 51.3% WR / 4.3% pick / **36.9% ban**
 
@@ -178,6 +196,8 @@ Senna is running the role. Malphite support is the anti-ADC cheese. Sona / Janna
 
 Buy Rylai before a second burn item or enemies walk out of the 3s tick.
 
+**X3 Pro: should not.** Plants are ground-place. Q line + E skillshot. Play Sona.
+
 ### 5. Janna — S — 51.7% WR / 2.6% pick / 0.2% ban
 
 **Why:** S on the Challenger list. Disengage + ADC steroid into the new crit lane. Low pick, high WR — the "I first-picked Caitlyn" support.
@@ -185,6 +205,8 @@ Buy Rylai before a second burn item or enemies walk out of the 3s tick.
 **Build:** Scythe → Ionian → Harmonic Echo → Ardent → Redemption → Staff of Flowing Water.
 
 **Runes:** Aery · Font of Life · Bone Plating · Revitalize · Transcendence. Flash + Heal.
+
+**X3 Pro: should not.** Identity is Q tornado from fog. Play Sona.
 
 **Honorable:** Braum (peel vs ADC all-in; skip Yordle Trap), Rell, Soraka, Thresh (high pick, average WR).
 
@@ -202,6 +224,8 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 
 **Runes:** Ice Overlord · Unshakeable · Second Wind · Overgrowth · Celerity. Flash + Smite.
 
+**X3 Pro: should.** Hold Q on LT. E targeted. R slam.
+
 ### 2. Amumu — S+ (efficient) — 56.4% WR / 2.2% pick / 0.1% ban
 
 **Why:** Second-highest WR. Bandage + ult into a clump of ADCs. Almost never banned.
@@ -209,6 +233,8 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 **Build:** Steelcaps → Sunfire → Abyssal → Thornmail → Twinguard → Kaenic.
 
 **Runes:** Ice Overlord · Unshakeable · Second Wind · Perseverance · Transcendence. Flash + Smite.
+
+**X3 Pro: should.** Q is a line but two charges + self R. Classic pad jungler.
 
 ### 3. Nocturne — S+ — 54.6% WR / 5.3% pick / **32.3% ban**
 
@@ -218,6 +244,8 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 
 **Runes:** Electrocute (WRFire) / First Strike · Sudden Impact · Chain Assault · Eyeball · Transcendence.
 
+**X3 Pro: should.** R is a click. E targeted. Q line is good enough.
+
 ### 4. Olaf — S+ efficient — 54.7% WR / 2.0% pick / 2.6% ban
 
 **Why:** Point-and-click run-at-ADC that ignores their kiting once ult is up. Low pick, high WR.
@@ -226,6 +254,8 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 
 **Runes:** Conqueror · Triumph · Last Stand · Legend: Alacrity · Nimbus Cloak. Ghost + Smite.
 
+**X3 Pro: should.** Ghost + analog chase. Q throw-and-pick is fine.
+
 ### 5. Jarvan IV — S+ on WR-meta lists — 53.2% WR / 7.0% pick / 0.7% ban
 
 **Why:** Highest-pick outstanding jungler. Flag-drag still sets Dragon for the new ADC. Reliable, not flashy.
@@ -233,6 +263,8 @@ Anti-ADC tanks and reliable full-clears. Assassin junglers (Lee, Yi, Graves, Vie
 **Build:** Steelcaps → Trinity → Radiant Virtue → Twinguard → Unending Despair → GA.
 
 **Runes:** Conqueror · Unshakeable · Bone Plating · Perseverance · Triumph. Flash + Smite.
+
+**X3 Pro: should.** Flag-drag is two buttons (E then Q). R targeted.
 
 **Honorable:** Ekko 53.6%, Lillia 53.0% (Liandry → Blackfire — the AP-clear build people theorycrafted), Kayn 51.7%, Kindred (Kraken marks). Rek'Sai is the new champ; sample still thin.
 
@@ -250,6 +282,8 @@ Delete the enemy ADC, or be Galio and eat the engage. Hwei is the discussion; Sy
 
 **Runes:** Electrocute (WRFire) or First Strike · Hextech Flashtraption · Transcendence · Nimbus · Cut Down. Flash + Ignite.
 
+**X3 Pro: should not.** Q is a ground click. E stun needs the sphere angle. Touch champ.
+
 ### 2. Hwei — S — 51.5% WR / **13.0% pick** / **32.2% ban**
 
 **Why:** Brand-new and already a 13/32 champ. VNG and WRFire both treat him as the mid of the patch. Flexible poke / zone / catch into the slower, ADC-sided map.
@@ -260,6 +294,8 @@ Delete the enemy ADC, or be Galio and eat the engage. Hwei is the discussion; Sy
 
 Horizon Focus is the discussed 2nd if you live on long-range QQ, not Infinity Orb.
 
+**X3 Pro: should not.** 10 abilities (3×3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio.
+
 ### 3. Brand — S+ on some lists — 52.3% WR / 8.4% pick / 9.6% ban
 
 **Why:** Liandry/Rylai DoT into the tankier epic-monster / front-to-back games. High pick for a mage that is not Syndra/Hwei.
@@ -267,6 +303,8 @@ Horizon Focus is the discussed 2nd if you live on long-range QQ, not Infinity Or
 **Build:** Mana boots → Blackfire → Liandry → Deathcap → Void → Zhonya.
 
 **Runes:** Electrocute · Manaflow · Transcendence · Scorch · Bone Plating. Flash + Ignite.
+
+**X3 Pro: should not.** W delayed circle + Q blocked by minions. Combo dies on pad.
 
 ### 4. Galio — S — 51.9% WR / 9.2% pick / 3.6% ban
 
@@ -276,6 +314,8 @@ Horizon Focus is the discussed 2nd if you live on long-range QQ, not Infinity Or
 
 **Runes:** Ice Overlord · Courage of the Colossus · Second Wind · Overgrowth · Sudden Impact. Flash + Ignite.
 
+**X3 Pro: should.** Hold W on LT. E dash. R ally-target. The pad mid from this five.
+
 ### 5. Aurelion Sol — S — 51.8% WR / 5.7% pick / 3.8% ban
 
 **Why:** Rising on wr-meta. Scales with the longer games and tankier Barons.
@@ -283,6 +323,8 @@ Horizon Focus is the discussed 2nd if you live on long-range QQ, not Infinity Or
 **Build:** Mana boots → Rylai → Liandry → Deathcap → Riftmaker → Zhonya.
 
 **Runes:** Dark Harvest · Manaflow · Absolute Focus · Scorch · Bone Plating. Flash + Barrier.
+
+**X3 Pro: should not.** Hold Q breath and W fly and aim. Two sticks fight.
 
 **Honorable:** Ahri 51.4% (S, safe blind), Orianna, Twisted Fate. Zyra mid 53.2% WRFire with a 41% ban — play her support if she is open.
 
@@ -300,6 +342,8 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 
 **Runes:** Grasp · Unshakeable · Second Wind · Overgrowth · Empowered Attack. Flash + Ignite.
 
+**X3 Pro: should.** Q slow missile, R click. Best pad top.
+
 ### 2. Shen — S — 56.4% WR / 1.4% pick / 0.1% ban
 
 **Why:** Second-best top WR. Global ult to the new ADC, Spirit's Refuge **blocks autos**. Low pick, free LP.
@@ -307,6 +351,8 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 **Build:** Heartsteel → Steelcaps → **Sunfire** → Thornmail → Dawnshroud → Titanic.
 
 **Runes:** Grasp · Courage of the Colossus · Second Wind · Overgrowth · Brutal. Flash + Teleport.
+
+**X3 Pro: should.** Q blade, E dash, R ally. No ground circle.
 
 ### 3. Ambessa — S — 53.1% WR / 1.5% pick / 1.0% ban
 
@@ -316,6 +362,8 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 
 **Runes:** Conqueror · Demolish · Second Wind · Perseverance · Sudden Impact. Flash + Ignite.
 
+**X3 Pro: should.** Feint **is** the left stick after a spell. Hall stick = her kit.
+
 ### 4. Cho'Gath — S — 51.2% WR / **12.3% pick** / **41.0% ban**
 
 **Why:** Highest-presence top. Heartsteel stacks + eat into the slower objective games. Banned because of the silence / tank, not because 51% WR is broken.
@@ -324,6 +372,8 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 
 **Runes:** Grasp · Demolish · Second Wind · Overgrowth · Transcendence. Flash + Teleport.
 
+**X3 Pro: should not.** Lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel.
+
 ### 5. K'Sante — S — 51.2% WR / 5.2% pick / 19.0% ban
 
 **Why:** All-in tank that also becomes a carry. High ban for a 51% champ — people respect All-Out vs the ADC.
@@ -331,6 +381,8 @@ Tanks that ignore the 200% crit ADC, plus Ambessa as the fighter who still works
 **Build:** Steelcaps → Iceborn → Unending Despair → Twinguard → Thornmail → Mantle.
 
 **Runes:** Grasp · Demolish · Second Wind · Perseverance · Last Stand. Flash + Teleport.
+
+**X3 Pro: should.** Charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip.
 
 **Honorable:** Ornn 52.7%, Teemo 52.6% (Shiv on-hit **top** is a real discussion), Mundo, Gwen. **Do not play Tryndamere Yun Tal** — 45.5–46.4% WR despite the theorycraft.
 
