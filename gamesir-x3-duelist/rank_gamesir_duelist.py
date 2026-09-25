@@ -52,9 +52,10 @@ CHAMPS: List[Champ] = [
         wr_note="Baron ~54.4% WR, S+ on wildriftmeta 7.3",
         why=(
             "Q is 'hold left stick toward them, then auto' — hall sticks beat a "
-            "virtual joystick. W is targeted bite + heal. E can be cast on your "
-            "feet for the shield. R is a huge landing zone that also turns the "
-            "tower off, so dives do not delete you."
+            "virtual joystick. W is targeted bite + heal. E shield needs you "
+            "inside the bolt: melee tap is enough, or GameSir gesture-swipe E "
+            "toward screen center for a true on-feet pre-cast. R is a huge "
+            "landing zone that also turns the tower off, so dives do not delete you."
         ),
         skip_if="Vayne / kite-heavy range + disengage; they never let you bite twice.",
     ),
@@ -237,9 +238,11 @@ def report_text(ranked: List[Champ]) -> str:
         "",
         "X3 Pro mapping for Volibear",
         "  LS move   A Q (Thundering Smash)   B W (Frenzied Maul, auto-target)",
-        "  X E (Sky Splitter — default on-feet / self)   Y R",
+        "  X E (Sky Splitter)   Y R",
         "  RB attack   RT Flash   LT Ignite   LB recall",
-        "  RS only if you want to throw E/R off your feet",
+        "  E on feet: lock camera, Gear on X → Gesture/Macro = tap E HUD then",
+        "  swipe to screen center (you). Plain tap aims at the enemy, not you.",
+        "  Melee tap is still fine: bolt on them, you are inside the circle.",
         "",
         "Play the 1v1",
         "  E on your feet (shield) → Q run-at-them → auto (stun) → W → auto (heal bite).",

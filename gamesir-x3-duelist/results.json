@@ -14,7 +14,7 @@
       "tank": 9.1,
       "pad": 9.4,
       "wr_note": "Baron ~54.4% WR, S+ on wildriftmeta 7.3",
-      "why": "Q is 'hold left stick toward them, then auto' \u2014 hall sticks beat a virtual joystick. W is targeted bite + heal. E can be cast on your feet for the shield. R is a huge landing zone that also turns the tower off, so dives do not delete you.",
+      "why": "Q is 'hold left stick toward them, then auto' \u2014 hall sticks beat a virtual joystick. W is targeted bite + heal. E shield needs you inside the bolt: melee tap is enough, or GameSir gesture-swipe E toward screen center for a true on-feet pre-cast. R is a huge landing zone that also turns the tower off, so dives do not delete you.",
       "skip_if": "Vayne / kite-heavy range + disengage; they never let you bite twice.",
       "total": 9.225
     },

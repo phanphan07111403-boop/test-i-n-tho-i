@@ -47,14 +47,44 @@ Warwick is #2 on raw score (targeted Q heal + analog chase) but he is a **jungle
 | Left stick | Move (make the overlay joystick large) |
 | A | Q — Thundering Smash |
 | B | W — Frenzied Maul (auto-target champions) |
-| X | E — Sky Splitter, **default on your feet** |
+| X | E — Sky Splitter (see **How to set E on feet** below) |
 | Y | R — Stormbringer |
-| RB | Attack | 
+| RB | Attack |
 | RT / LT | Flash / Ignite |
 | LB | Recall |
-| Right stick | Optional: aim E/R off your body |
+| Right stick | Aim E/R, or pull toward screen center for on-feet E |
 
 Shop, pings, and camera still need a thumb on the glass.
+
+## How to set E on feet
+
+Wild Rift has **no** “cast on self” toggle. Sky Splitter is a ground circle. A **tap** of E auto-aims at the locked / nearest enemy, not at Volibear.
+
+You still get the shield from a tap if you are **already in melee** (the bolt is on them, the circle is big, you are inside it). Use a real on-feet cast when you want the shield **before** you walk in.
+
+1. Wild Rift → Settings → Controls: **camera Locked**. You stay in the middle of the screen.
+2. Leave skill 3 (E) on **Joystick** aim. Do not lock the skill button.
+
+**One-button (GameSir overlay)**
+
+1. In-game, open the GameSir floating mapper.
+2. Tap the **X** bubble → ⚙️.
+3. Use **Gesture Mode** (best) or **One-button Macro**:
+   - Touch down on the **E HUD button** (bottom right).
+   - Swipe **toward the center of the phone** (onto Volibear).
+   - Release.
+4. Save this as a **Volibear** config. Do not reuse it on champs whose 3rd skill is not a ground circle.
+
+**Right stick (Wheel Mode)**
+
+1. Same ⚙️ on X → **Wheel Mode**, bind to **Right Stick**.
+2. Hold X, pull the right stick **left / toward the middle of the screen**, release when the circle sits on Volibear.
+
+**Finger check (practice tool)**
+
+Press E, drag the circle onto your model (toward screen center), let go. That is the same swipe the mapper is faking.
+
+Do **not** map X as a plain tap if you wanted on-feet. Plain tap = bolt on the enemy.
 
 ## 1v1 combo
 
