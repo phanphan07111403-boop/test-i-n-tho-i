@@ -1,0 +1,208 @@
+================================================================================
+SMOLDER — STRONGEST LATE BUILD  (Wild Rift patch 7.3)
+Playstyle: Q-poke 70% / teamfight weave 30% | Game: 25:00
+Metric: mix damage per 8s  |  T3 burn (175 stacks) is the late spike
+================================================================================
+
+GOLD / LEVEL / STACKS / TARGETS
+  Min    Gold  Lvl  Stacks   Tank HP  Tank Arm  Squish HP
+    1    1000    2       7       890        47        826
+    5    3000    6      35      1310        64       1270
+    6    3650    7      45      1415        69       1381
+   10    6250   11      85      2195       104       1825
+   12    7550   12     107      2480       127       1952
+   15    9650   13     143      2855       158       2095
+   16   10350   14     155      3050       172       2206
+   17   11050   14     169      3140       181       2222
+   18   11750   15     183      3335       194       2333
+   20   13230   15     211      3515       212       2365
+   22   14710   15     239      3695       230       2397
+   25   16930   15     281      3965       257       2445
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (Q-poke identity, tanks still hurt)
+--------------------------------------------------------------------------------
+   1:00 | tank     364 | squish     386 | poke-sq    341 | ER → IE → Hex → Mortal → BT
+         items: Long Sword
+         pre-legendary
+   2:00 | tank     422 | squish     447 | poke-sq    400 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Sheen
+         pre-legendary
+   4:00 | tank     898 | squish     952 | poke-sq    823 | Stormrazor → IE → Hex → Mortal → BT
+         items: Long Sword › B. F. Sword › Brawler's Gloves
+         T1 AoE, pre-legendary
+   6:00 | tank    1380 | squish    1461 | poke-sq   1263 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver
+         T1 AoE, ER sheen
+   8:00 | tank    1661 | squish    1758 | poke-sq   1550 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity
+         T1 AoE, ER sheen
+  10:00 | tank    1877 | squish    2163 | poke-sq   1822 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword
+         T1 AoE, ER sheen
+  11:00 | tank    1943 | squish    2329 | poke-sq   1961 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword › Pickaxe
+         T1 AoE, ER sheen
+  12:00 | tank    1988 | squish    2257 | poke-sq   1904 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword › Pickaxe › …
+         T2 bolts, ER sheen
+  14:00 | tank    2342 | squish    2836 | poke-sq   2389 | ER → IE → Hex → LDR → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Pickaxe
+         T2 bolts, IE 230%, ER sheen
+  16:00 | tank    2524 | squish    3232 | poke-sq   2728 | ER → IE → Hex → Mortal → BT
+         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Noonquiver › …
+         T2 bolts, IE 230%, ER sheen
+  17:00 | tank    2941 | squish    3863 | poke-sq   3347 | ER → IE → Hex → Mortal → Shieldbow
+         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Brawler's Gloves
+         T2 bolts, IE 230%, 85% crit, Hex 10%, ER sheen
+  18:00 | tank    4035 | squish    4565 | poke-sq   4010 | ER → IE → Hex → Mortal → BT
+         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Last Whisper
+         T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen
+  20:00 | tank    4466 | squish    5192 | poke-sq   4559 | ER → IE → Hex → LDR → BT
+         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Last Whisper › …
+         T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen
+  22:00 | tank    5891 | squish    6249 | poke-sq   5487 | ER → IE → Hex → LDR → BT
+         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Lord Dominik's Regards
+         T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen
+  24:00 | tank    6503 | squish    7015 | poke-sq   6139 | ER → IE → Hex → LDR → BT
+         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Lord Dominik's Regards › …
+         T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen
+
+--------------------------------------------------------------------------------
+BUILD COMPARISON — MIX DAMAGE / 8s @ spikes
+--------------------------------------------------------------------------------
+  Build                                      12:00   18:00   22:00   25:00     Late     IEΔ
+  ER → IE → Hex → Mortal → BT                 2109    4273    5581    6471     5000   +1012
+  ER → IE → Hex → LDR → BT                    2109    4273    6052    7284     5386   +1012
+  ER → IE → Navori → Mortal → BT              2109    3907    5283    6483     4823   +1012
+  ER → IE → RFC → Mortal → BT                 2109    3421    4718    5763     4316   +1012
+  ER → Shojin → IE → Mortal → Hex             1774    3566    4864    6406     4539    +716
+  ER → IE → Hex → Mortal → BT (Greaves)       1919    3788    4935    5691     4423    +792
+  Yun Tal → IE → Hex → Mortal → BT            1699    3709    4914    5746     4380    +812
+  Stormrazor → IE → Hex → Mortal → BT         1753    3557    4705    5456     4200    +768
+  ER → IE → Collector → Mortal → Hex          2109    3931    5278    6383     4797   +1012
+  Mura → Tri → Serylda → Shojin → IE          2112    4103    4941    5644     4518    +786
+  Mura → Tri → Serylda → IE → Mortal          2112    3691    4740    6679     4665    +786
+  ER → Trinity → IE → Mortal → Hex            1896    3272    4661    6152     4346    +488
+  ER → IE → BotRK → LDR → BT                  2109    3891    6012    6657     5090   +1012
+  ER → IE → Cleaver → Serylda → BT            2109    3475    4741    5464     4246   +1012
+  ER → IE → Hex → Mortal → Shieldbow          2109    4273    5647    6209     4941   +1012
+
+--------------------------------------------------------------------------------
+Q POKE vs SQUISHY  (pure Super Scorcher siege) @ 18 / 22 / 25
+--------------------------------------------------------------------------------
+  ER → IE → Hex → LDR → BT                    4010    5487    6668   Qs @22: 4  crit 100%
+  ER → IE → BotRK → LDR → BT                  3389    5098    5707   Qs @22: 4  crit 75%
+  ER → IE → Hex → Mortal → BT                 4010    5356    6255   Qs @22: 4  crit 100%
+  ER → IE → Hex → Mortal → Shieldbow          4010    5418    6005   Qs @22: 4  crit 115%
+  ER → IE → Navori → Mortal → BT              3518    4908    6048   Qs @22: 5  crit 100%
+  ER → IE → Collector → Mortal → Hex          3619    5020    6236   Qs @22: 4  crit 100%
+  Mura → Tri → Serylda → IE → Mortal          3246    4256    5888   Qs @22: 4  crit 35%
+  ER → Shojin → IE → Mortal → Hex             3288    4552    6218   Qs @22: 4  crit 75%
+  Mura → Tri → Serylda → Shojin → IE          3696    4516    5182   Qs @22: 5  crit 0%
+  ER → IE → Hex → Mortal → BT (Greaves)       3454    4612    5368   Qs @22: 3  crit 100%
+  Yun Tal → IE → Hex → Mortal → BT            3179    4319    5119   Qs @22: 3  crit 100%
+  ER → Trinity → IE → Mortal → Hex            2912    4210    5767   Qs @22: 4  crit 75%
+  ER → IE → RFC → Mortal → BT                 3067    4269    5254   Qs @22: 4  crit 100%
+  ER → IE → Cleaver → Serylda → BT            3094    4247    4918   Qs @22: 4  crit 50%
+  Stormrazor → IE → Hex → Mortal → BT         3101    4168    4924   Qs @22: 3  crit 100%
+
+--------------------------------------------------------------------------------
+TEAMFIGHT vs TANK  @ 18 / 22 / 25
+--------------------------------------------------------------------------------
+  ER → IE → Hex → LDR → BT                    5042    7332    8680
+  ER → IE → BotRK → LDR → BT                  4832    7900    8602
+  ER → IE → Hex → Mortal → BT                 5042    6402    7314
+  ER → IE → Hex → Mortal → Shieldbow          5042    6477    7019
+  ER → IE → Navori → Mortal → BT              4678    6355    7689
+  ER → IE → Collector → Mortal → Hex          4630    6184    7152
+  Mura → Tri → Serylda → IE → Mortal          4757    5927    8564
+  ER → Shojin → IE → Mortal → Hex             4330    5802    7238
+  Mura → Tri → Serylda → Shojin → IE          5090    5995    6764
+  ER → IE → Hex → Mortal → BT (Greaves)       4684    5920    6708
+  Yun Tal → IE → Hex → Mortal → BT            4961    6362    7261
+  ER → Trinity → IE → Mortal → Hex            4147    5787    7263
+  ER → IE → RFC → Mortal → BT                 4331    5871    7072
+  ER → IE → Cleaver → Serylda → BT            4434    6002    6830
+  Stormrazor → IE → Hex → Mortal → BT         4642    5916    6762
+
+--------------------------------------------------------------------------------
+2ND LEGENDARY SPIKE  (isolated Δ at the minute it completes)
+--------------------------------------------------------------------------------
+  ER → IE → Hex → LDR → BT                 ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → BotRK → LDR → BT               ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → Hex → Mortal → BT              ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → Hex → Mortal → Shieldbow       ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → Navori → Mortal → BT           ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → Collector → Mortal → Hex       ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  Mura → Tri → Serylda → IE → Mortal       ~12:00  Δ +786  [Muramana, Trinity Force]
+  ER → Shojin → IE → Mortal → Hex          ~13:00  Δ +716  [Essence Reaver, Spear of Shojin]
+  Mura → Tri → Serylda → Shojin → IE       ~12:00  Δ +786  [Muramana, Trinity Force]
+  ER → IE → Hex → Mortal → BT (Greaves)    ~13:00  Δ +792  [Essence Reaver, Infinity Edge]
+  Yun Tal → IE → Hex → Mortal → BT         ~13:00  Δ +812  [Yun Tal Wildarrows, Infinity Edge]
+  ER → Trinity → IE → Mortal → Hex         ~13:00  Δ +488  [Essence Reaver, Trinity Force]
+  ER → IE → RFC → Mortal → BT              ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  ER → IE → Cleaver → Serylda → BT         ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
+  Stormrazor → IE → Hex → Mortal → BT      ~13:00  Δ +768  [Stormrazor, Infinity Edge]
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Strongest late path: ER → IE → Hex → LDR → BT
+  Late-weighted mix: 5386 | 22:00 6052 | 25:00 7284
+  Infinity Edge online: ~13:00  (Q amp uses 230% crit damage)
+  Hexoptics C44 online: ~17:00  (10% damage at Q range)
+  % armor pen online:   ~21:00
+  T3 burn (175 stacks): ~18:00  (true %HP + 6.5% execute)
+  100% crit:            ~21:00
+
+  WHY 7.3 LATE SMOLDER IS A CRIT PAGE:
+  • Q damage is increased by crit chance, then again by bonus
+    crit damage. Wiki: 0–45% (+0–13.5% from IE) based on crit.
+    At 100% crit + IE that is a 58.5% multiplier on Super Scorcher
+    physical, and Dragon Practice magic goes 30% → 69% of stacks.
+  • Patch 7.3 raised base crit damage 175% → 200% and made IE
+    the capstone (75 AD, 230% crit damage). Magnetic Blaster is gone.
+  • Q applies on-hit, so Essence Reaver Spellblade rides on the
+    fireball. That is the first-item Q identity.
+  • Hexoptics C44 is the Magnetic Blaster replacement that actually
+    scales the poke: 10% damage at 550 range — Q's exact range.
+  • Old Mura→Tri→Serylda at 22:00 mix 4941; ER → IE → Hex → LDR → BT 6052 (+22%).
+    25:00 mix 5644 vs 7284 (+29%). Poke-squish 5182 vs 6668.
+    Muramana still shocks, but 0% crit means Q never gets the
+    7.3 amp. IE arrives as item 5 and the page is already behind.
+
+  SHOJIN vs 4TH CRIT ITEM:
+    Shojin 12% ability amp @ 75% crit → mix 6406.
+    Hexoptics 4th (100% crit + 10% range amp) → mix 6471.
+    25% extra crit on Q is ~+11% Scorcher amp plus auto crits;
+    Shojin's 12% only touches abilities and delays 100% crit.
+
+  NAVORI vs HEXOPTICS:
+    Navori Qs @22: 5 | Hexoptics Qs @22: 4
+    25:00 poke-squish Navori 6048 vs Hex 6255.
+    Navori has 0 AD. Extra Qs do not beat Hexoptics' 55 AD +
+    10% max-range amp on every Scorcher.
+
+  RECOMMENDED (strongest late, patch 7.3):
+  1) Long Sword → Sheen
+  2) Essence Reaver   (~9:00)  — Spellblade on Q, 25% crit, 20 AH
+  3) Ionian Boots of Lucidity  — more Qs (Greaves if you need vamp)
+  4) Infinity Edge    (~14:00) — THE late item (230% crit damage)
+  5) Hexoptics C44    (~18:00) — 10% damage at Q range + 25% crit
+  6) Mortal Reminder / LDR     — 100% crit + %pen
+     Mortal if they heal; LDR if they stacked HP/armor
+  7) Bloodthirster             — 75 AD (no crit; you are already 100%)
+     Shieldbow instead vs dive. Maw vs heavy AP. GA vs assassins.
+
+  Skill: max Q → W → E. R at 6/11/15.
+  Stacks: last-hit with Q, poke champs for extra stacks. T3 ~17:00.
+  Poke: Q from 550. Hexoptics is already at max amp. Don't E in.
+  Fight: Q weave, W explosion, R through the clump (and yourself).
+
+  Trap: Muramana → Trinity → Serylda. That was 7.2. In 7.3 Q wants
+  crit chance and IE; the mana page has neither until item 5.
+  Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit
+  and the Hexoptics range amp that is Smolder's poke identity.
+  Trap: Collector. Smolder already executes at 6.5% with T3 burn.
+================================================================================
