@@ -14,6 +14,7 @@ Question:
   (20:00–25:00) vs the old Muramana → Trinity → Serylda core?
   Which rune page actually fits that 0-AS crit Q page?
   Does buying IE 2nd vs 3rd change Dragon Practice stacking?
+  Which boots keep the extra Q — Ionian vs Greaves vs Immortal Treads?
 """
 
 from __future__ import annotations
@@ -289,6 +290,7 @@ class Item:
     cleaver: bool = False
     bork: bool = False
     collector: bool = False
+    immortal: bool = False
     tags: Tuple[str, ...] = ()
 
 
@@ -314,6 +316,22 @@ ITEMS: Dict[str, Item] = {
     ),
     "Gluttonous Greaves": Item(
         "Gluttonous Greaves", 1000, ad=12, tags=("boots",)
+    ),
+    # 7.2c: 35% AS. T3 Gunmetal is the 50% AS + 5% LS upgrade (7.3).
+    "Berserker's Greaves": Item(
+        "Berserker's Greaves", 1200, as_pct=0.35, tags=("boots",)
+    ),
+    # T3 unlocks at 10:00. Crimson is +10 AH over Ionian, still one boot slot.
+    "Crimson Lucidity": Item(
+        "Crimson Lucidity", 2000, ah=25, tags=("boots", "t3")
+    ),
+    # 12 AD + 5–10% omnivamp + 5% damage while above 50% HP.
+    "Immortal Treads": Item(
+        "Immortal Treads", 2000, ad=12, immortal=True, tags=("boots", "t3")
+    ),
+    # 7.3: physical vamp → 5% lifesteal. Autohit heal is not Q vamp.
+    "Gunmetal Greaves": Item(
+        "Gunmetal Greaves", 2200, as_pct=0.50, ls=0.05, tags=("boots", "t3")
     ),
     "Essence Reaver": Item(
         "Essence Reaver",
@@ -459,6 +477,10 @@ ITEMS: Dict[str, Item] = {
 UPGRADE_COMPONENTS = {
     "Ionian Boots of Lucidity": ("Boots",),
     "Gluttonous Greaves": ("Boots",),
+    "Berserker's Greaves": ("Boots",),
+    "Crimson Lucidity": ("Ionian Boots of Lucidity",),
+    "Immortal Treads": ("Gluttonous Greaves",),
+    "Gunmetal Greaves": ("Berserker's Greaves",),
     "Essence Reaver": ("Sheen", "Caulfield's Warhammer", "Brawler's Gloves"),
     "Infinity Edge": ("B. F. Sword", "Pickaxe", "Brawler's Gloves"),
     "Hexoptics C44": ("Pickaxe", "Noonquiver", "Long Sword"),
@@ -484,6 +506,10 @@ UPGRADE_COMPONENTS = {
 NEXT_COMPONENTS = {
     "Ionian Boots of Lucidity": ["Boots"],
     "Gluttonous Greaves": ["Boots"],
+    "Berserker's Greaves": ["Boots"],
+    "Crimson Lucidity": ["Ionian Boots of Lucidity"],
+    "Immortal Treads": ["Gluttonous Greaves"],
+    "Gunmetal Greaves": ["Berserker's Greaves"],
     "Essence Reaver": ["Sheen", "Caulfield's Warhammer", "Brawler's Gloves"],
     "Infinity Edge": ["B. F. Sword", "Pickaxe", "Brawler's Gloves"],
     "Hexoptics C44": ["Noonquiver", "Pickaxe", "Long Sword"],
@@ -609,18 +635,6 @@ BUILD_PATHS: Dict[str, List[str]] = {
         "Mortal Reminder",
         "Hexoptics C44",
     ],
-    # Gluttonous AD boots, otherwise the Hex capstone
-    "ER → IE → Hex → Mortal → BT (Greaves)": [
-        "Long Sword",
-        "Sheen",
-        "Essence Reaver",
-        "Boots",
-        "Gluttonous Greaves",
-        "Infinity Edge",
-        "Hexoptics C44",
-        "Mortal Reminder",
-        "Bloodthirster",
-    ],
     # Yun Tal first (full 25% crit only after ~125 ranged hits)
     "Yun Tal → IE → Hex → Mortal → BT": [
         "Long Sword",
@@ -732,6 +746,55 @@ BUILD_PATHS: Dict[str, List[str]] = {
     ],
 }
 
+
+def path_with_boots(*boot_steps: str) -> List[str]:
+    """Winning legendaries, only the boot slot changes."""
+    return [
+        "Long Sword",
+        "Sheen",
+        "Essence Reaver",
+        "Boots",
+        *boot_steps,
+        "Infinity Edge",
+        "Hexoptics C44",
+        "Lord Dominik's Regards",
+        "Bloodthirster",
+    ]
+
+
+# Same items as WINNING_ITEMS. T3 boots unlock at 10:00 and cost +1000.
+BOOT_PAGES: Dict[str, List[str]] = {
+    "Ionian Boots of Lucidity": path_with_boots("Ionian Boots of Lucidity"),
+    "Crimson Lucidity": path_with_boots(
+        "Ionian Boots of Lucidity", "Crimson Lucidity"
+    ),
+    "Gluttonous Greaves": path_with_boots("Gluttonous Greaves"),
+    "Immortal Treads": path_with_boots("Gluttonous Greaves", "Immortal Treads"),
+    "Berserker's Greaves": path_with_boots("Berserker's Greaves"),
+    "Gunmetal Greaves": path_with_boots("Berserker's Greaves", "Gunmetal Greaves"),
+}
+
+BOOT_GOLD = {
+    "Ionian Boots of Lucidity": 1000,
+    "Crimson Lucidity": 2000,
+    "Gluttonous Greaves": 1000,
+    "Immortal Treads": 2000,
+    "Berserker's Greaves": 1200,
+    "Gunmetal Greaves": 2200,
+}
+
+TIER3_BOOTS = {
+    "Crimson Lucidity",
+    "Immortal Treads",
+    "Gunmetal Greaves",
+}
+TIER3_UNLOCK_MINUTE = 10
+T3_REPLACES = {
+    "Crimson Lucidity": "Ionian Boots of Lucidity",
+    "Immortal Treads": "Gluttonous Greaves",
+    "Gunmetal Greaves": "Berserker's Greaves",
+}
+
 LEGENDARIES = {
     "Essence Reaver",
     "Infinity Edge",
@@ -759,6 +822,10 @@ BOOTS = {
     "Boots",
     "Ionian Boots of Lucidity",
     "Gluttonous Greaves",
+    "Berserker's Greaves",
+    "Crimson Lucidity",
+    "Immortal Treads",
+    "Gunmetal Greaves",
 }
 
 
@@ -799,10 +866,14 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
         return max(0, ITEMS[item_name].cost - credit)
 
     def can_afford(item_name: str) -> bool:
+        if item_name in TIER3_BOOTS and minute < TIER3_UNLOCK_MINUTE:
+            return False
         return gold_pool >= remaining_cost(item_name)
 
     def buy(item_name: str) -> bool:
         nonlocal gold_pool
+        if item_name in TIER3_BOOTS and minute < TIER3_UNLOCK_MINUTE:
+            return False
         if item_name in owned and item_name not in ("Long Sword", "Brawler's Gloves"):
             return False
         cost = remaining_cost(item_name)
@@ -818,6 +889,9 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
     blocked_at: Optional[str] = None
     for step in path:
         if step in owned and step not in ("Long Sword", "Brawler's Gloves"):
+            continue
+        # T3 boots unlock at 10:00 — skip them, keep buying legendaries.
+        if step in TIER3_BOOTS and minute < TIER3_UNLOCK_MINUTE:
             continue
         if can_afford(step):
             buy(step)
@@ -842,6 +916,8 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
                     continue
                 if step in owned:
                     continue
+                if step in TIER3_BOOTS and minute < TIER3_UNLOCK_MINUTE:
+                    continue
                 if can_afford(step):
                     buy(step)
                 else:
@@ -864,7 +940,17 @@ def resolve_inventory(path: List[str], gold: int, minute: int) -> List[Item]:
         if tear_ready:
             owned = ["Muramana" if n == "Manamune" else n for n in owned]
 
-    for b in ("Ionian Boots of Lucidity", "Gluttonous Greaves"):
+    for t3, t2 in T3_REPLACES.items():
+        if t3 in owned and t2 in owned:
+            owned.remove(t2)
+    for b in (
+        "Ionian Boots of Lucidity",
+        "Gluttonous Greaves",
+        "Berserker's Greaves",
+        "Crimson Lucidity",
+        "Immortal Treads",
+        "Gunmetal Greaves",
+    ):
         if b in owned and "Boots" in owned:
             owned.remove("Boots")
 
@@ -1038,6 +1124,10 @@ def sum_stats(
         "bork": False,
         "collector": False,
         "greaves": False,
+        "immortal": False,
+        "crimson": False,
+        "berserker": False,
+        "gunmetal": False,
     }
     names = []
     for it in inv:
@@ -1085,8 +1175,16 @@ def sum_stats(
             flags["bork"] = True
         if it.collector:
             flags["collector"] = True
+        if it.immortal:
+            flags["immortal"] = True
         if it.name == "Gluttonous Greaves":
             flags["greaves"] = True
+        if it.name == "Crimson Lucidity":
+            flags["crimson"] = True
+        if it.name == "Berserker's Greaves":
+            flags["berserker"] = True
+        if it.name == "Gunmetal Greaves":
+            flags["gunmetal"] = True
 
     if flags["yuntal"]:
         # First-item Yun Tal is usually done ~10:00
@@ -1333,6 +1431,10 @@ def window_damage(
     elif runes.slot2 == "last_stand":
         dmg *= 1.02
 
+    # Immortal Treads: +5% damage while above 50% HP (poke 82% / fight 70%).
+    if stats.get("immortal") and current_hp_frac > 0.50:
+        dmg *= 1.05
+
     # Smolder T3 execute: if leftover HP < 6.5% while burned, dump rest
     if stacks >= 175 and q_casts >= 1:
         if dmg >= hp * (1.0 - 0.065) and dmg < hp:
@@ -1409,6 +1511,10 @@ def compute_snapshot(
         notes.append("Tri sheen")
     if st["er"]:
         notes.append("ER sheen")
+    if st.get("immortal"):
+        notes.append("Immortal 5%")
+    if st.get("crimson"):
+        notes.append("Crimson 25 AH")
     if n_leg == 0:
         notes.append("pre-legendary")
 
@@ -1518,6 +1624,18 @@ def run_runes() -> Dict[str, List[Snapshot]]:
     return out
 
 
+def run_boots() -> Dict[str, List[Snapshot]]:
+    """Winning legendaries, only the boot slot changes."""
+    out: Dict[str, List[Snapshot]] = {}
+    for name, path in BOOT_PAGES.items():
+        curve = stack_curve_for_path(path)
+        out[name] = [
+            compute_snapshot(WINNING_ITEMS, path, m, stacks=curve[m])
+            for m in range(1, GAME_MINUTES + 1)
+        ]
+    return out
+
+
 def rune_score(s: Snapshot, page: RunePage) -> float:
     """Fit score for the 0-AS crit Q page. Paper AD keystones are not the fit."""
     mix = mix_of(s)
@@ -1548,6 +1666,25 @@ def first_minute_with(snaps: List[Snapshot], pred) -> Optional[int]:
     return None
 
 
+def boot_score(snaps: List[Snapshot], name: str) -> float:
+    """Fit score: extra Qs and on-time IE beat T3 gold delay and AS boots."""
+    mix18 = mix_of(snaps[17])
+    mix22 = mix_of(snaps[21])
+    mix25 = mix_of(snaps[24])
+    qs = snaps[21].q_casts_poke
+    ie_m = first_minute_with(snaps, lambda s: s.has_ie) or 25
+    kit = 1.0
+    if qs >= 4:
+        kit += 0.12
+    if ie_m <= 14:
+        kit += 0.05
+    elif ie_m >= 16:
+        kit *= 0.94
+    if name in ("Berserker's Greaves", "Gunmetal Greaves"):
+        kit *= 0.90
+    return (0.30 * mix18 + 0.40 * mix22 + 0.30 * mix25) * kit
+
+
 def late_item_isolated_delta(
     name: str, path: List[str], snaps: List[Snapshot], n: int = 4
 ) -> Tuple[float, int, List[str]]:
@@ -1564,7 +1701,7 @@ def late_item_isolated_delta(
     return with_n - without_mix, row.minute, legs
 
 
-def summarize(results, timeline, rune_results) -> str:
+def summarize(results, timeline, rune_results, boot_results) -> str:
     lines = []
     lines.append("=" * 80)
     lines.append("SMOLDER — STRONGEST LATE BUILD  (Wild Rift patch 7.3)")
@@ -1824,6 +1961,66 @@ def summarize(results, timeline, rune_results) -> str:
 
     lines.append("")
     lines.append("-" * 80)
+    lines.append(f"BOOTS ON {WINNING_ITEMS}  (same legendaries, swap only the boot)")
+    lines.append("-" * 80)
+    lines.append(
+        f"  {'Boot':<26} {'Gold':>5} {'IE':>4} {'Qs':>3} "
+        f"{'Stk16':>5} {'Mix16':>6} {'Mix22':>6} {'Mix25':>6} "
+        f"{'Poke22':>6} {'Fight22':>7}"
+    )
+    boot_rank = []
+    for name, snaps in boot_results.items():
+        ie_m = first_minute_with(snaps, lambda s: s.has_ie)
+        sc = boot_score(snaps, name)
+        boot_rank.append((sc, name, snaps, ie_m))
+        lines.append(
+            f"  {name:<26} {BOOT_GOLD[name]:>5} {ie_m or 0:>4} "
+            f"{snaps[21].q_casts_poke:>3} {snaps[15].stacks:>5} "
+            f"{mix_of(snaps[15]):>6.0f} {mix_of(snaps[21]):>6.0f} "
+            f"{mix_of(snaps[24]):>6.0f} {snaps[21].poke_squish:>6.0f} "
+            f"{snaps[21].fight_tank:>7.0f}"
+        )
+    boot_rank.sort(key=lambda x: x[0], reverse=True)
+    best_boot = boot_rank[0]
+
+    ion_b = boot_results.get("Ionian Boots of Lucidity")
+    gre_b = boot_results.get("Gluttonous Greaves")
+    imm_b = boot_results.get("Immortal Treads")
+    cri_b = boot_results.get("Crimson Lucidity")
+    ber_b = boot_results.get("Berserker's Greaves")
+    gun_b = boot_results.get("Gunmetal Greaves")
+    if ion_b and gre_b:
+        lines.append("")
+        lines.append("  Isolated (same clock, only the boot differs):")
+        lines.append(
+            f"    Ionian   {ion_b[21].q_casts_poke} Qs @22  mix {mix_of(ion_b[21]):.0f}  "
+            f"AH {ion_b[21].ah:.0f}"
+        )
+        lines.append(
+            f"    Greaves  {gre_b[21].q_casts_poke} Qs @22  mix {mix_of(gre_b[21]):.0f}  "
+            f"+12 AD, 5–10% omnivamp (no extra Q)"
+        )
+        if imm_b:
+            ie_ion = first_minute_with(ion_b, lambda s: s.has_ie)
+            ie_imm = first_minute_with(imm_b, lambda s: s.has_ie)
+            lines.append(
+                f"    Immortal {imm_b[21].q_casts_poke} Qs @22  mix {mix_of(imm_b[21]):.0f}  "
+                f"12 AD + 5% while healthy, IE ~{ie_imm}:00 vs Ionian ~{ie_ion}:00"
+            )
+        if cri_b:
+            lines.append(
+                f"    Crimson  {cri_b[21].q_casts_poke} Qs @22  mix {mix_of(cri_b[21]):.0f}  "
+                f"25 AH still {cri_b[21].q_casts_poke} Qs; 1000g delays IE"
+            )
+        if ber_b:
+            lines.append(
+                f"    Berserker {ber_b[21].q_casts_poke} Qs @22 mix {mix_of(ber_b[21]):.0f}  "
+                f"35% AS  fight-tank {ber_b[21].fight_tank:.0f} vs "
+                f"Ionian {ion_b[21].fight_tank:.0f}"
+            )
+
+    lines.append("")
+    lines.append("-" * 80)
     lines.append("VERDICT")
     lines.append("-" * 80)
     lines.append(f"  Strongest late path: {winner_name}")
@@ -1898,7 +2095,7 @@ def summarize(results, timeline, rune_results) -> str:
     lines.append("  RECOMMENDED (strongest late, patch 7.3):")
     lines.append("  1) Long Sword → Sheen")
     lines.append("  2) Essence Reaver   (~9:00)  — Spellblade on Q, 25% crit, 20 AH")
-    lines.append("  3) Ionian Boots of Lucidity  — more Qs (Greaves if you need vamp)")
+    lines.append("  3) Ionian Boots of Lucidity  — 4th Q. Sit on T2; T3 is not a 5th Q")
     lines.append("  4) Infinity Edge    (~14:00) — THE late item (230% crit damage)")
     lines.append("  5) Hexoptics C44    (~18:00) — 10% damage at Q range + 25% crit")
     lines.append("  6) Mortal Reminder / LDR     — 100% crit + %pen")
@@ -2019,11 +2216,60 @@ def summarize(results, timeline, rune_results) -> str:
         lines.append("    and it does not stack during a Q siege.")
     lines.append("  • Phase Rush is the dive/gank swap (common on CN screenshots).")
     lines.append("    0 damage. Take it when you cannot stand still to stack.")
+    lines.append("")
+    if ion_b:
+        lines.append("  BOOTS THAT FIT THIS PAGE:")
+        lines.append(f"  {best_boot[1]}")
+        lines.append(
+            f"    22:00 mix {mix_of(ion_b[21]):.0f} | 25:00 {mix_of(ion_b[24]):.0f} | "
+            f"Qs @22 {ion_b[21].q_casts_poke} | AH {ion_b[21].ah:.0f}"
+        )
+        lines.append("  • Ionian 15 AH is the 4th Super Scorcher in 8s. This page is")
+        lines.append("    Q-poke; one extra fireball beats 12 AD and extra autos.")
+        if gre_b:
+            lines.append(
+                f"  • Gluttonous Greaves — 12 AD + 5–10% omnivamp, {gre_b[21].q_casts_poke} Qs. "
+                f"Mix {mix_of(gre_b[21]):.0f} vs {mix_of(ion_b[21]):.0f}."
+            )
+            lines.append("    The page already has Bloodline 7% omnivamp (heals Q magic")
+            lines.append("    + true burn). Greaves only if you are diving and dying.")
+        if imm_b:
+            ie_ion = first_minute_with(ion_b, lambda s: s.has_ie)
+            ie_imm = first_minute_with(imm_b, lambda s: s.has_ie)
+            lines.append(
+                f"  • Immortal Treads — same 12 AD + vamp, plus 5% damage above 50% HP. "
+                f"Still {imm_b[21].q_casts_poke} Qs."
+            )
+            lines.append(
+                f"    22:00 mix {mix_of(imm_b[21]):.0f}. IE ~{ie_imm}:00 vs Ionian "
+                f"~{ie_ion}:00 — the extra 1000g delays the capstone."
+            )
+            lines.append("    Take Immortal after the core if you are already on Greaves")
+            lines.append("    and fighting healthy tanks. Do not buy it to skip Ionian.")
+        if cri_b:
+            ie_cri = first_minute_with(cri_b, lambda s: s.has_ie)
+            lines.append(
+                f"  • Crimson Lucidity — 25 AH, still {cri_b[21].q_casts_poke} Qs in 8s "
+                f"(need ~90 AH for a 5th)."
+            )
+            lines.append(
+                f"    Mix {mix_of(cri_b[21]):.0f}. IE ~{ie_cri}:00. Sit on T2 Ionian;"
+            )
+            lines.append("    upgrade only with leftover gold after LDR/BT.")
+        if ber_b and gun_b:
+            lines.append(
+                f"  • Berserker's / Gunmetal — {ber_b[21].q_casts_poke} Qs. Fight-tank "
+                f"{ber_b[21].fight_tank:.0f} / {gun_b[21].fight_tank:.0f} vs "
+                f"Ionian {ion_b[21].fight_tank:.0f}."
+            )
+            lines.append("    Hexoptics poke does not auto. Gunmetal 5% LS is physical;")
+            lines.append("    Q magic + T3 true burn do not heal from it.")
+        lines.append("  • Mercury's / Steelcaps are the CC / all-in-AD swaps. 0 extra Qs.")
     lines.append("=" * 80)
     return "\n".join(lines)
 
 
-def export_json(results, timeline, rune_results, path: str) -> None:
+def export_json(results, timeline, rune_results, boot_results, path: str) -> None:
     payload = {
         "meta": {
             "champion": "Smolder",
@@ -2079,6 +2325,26 @@ def export_json(results, timeline, rune_results, path: str) -> None:
             ]
             for name, snaps in rune_results.items()
         },
+        "boots": {
+            name: [
+                {
+                    "minute": s.minute,
+                    "items": s.items,
+                    "mix_tank": s.mix_tank,
+                    "mix_squish": s.mix_squish,
+                    "poke_squish": s.poke_squish,
+                    "fight_tank": s.fight_tank,
+                    "q_casts_poke": s.q_casts_poke,
+                    "ah": s.ah,
+                    "as_pct": s.as_pct,
+                    "ad": s.ad,
+                    "stacks": s.stacks,
+                    "notes": s.notes,
+                }
+                for s in snaps
+            ]
+            for name, snaps in boot_results.items()
+        },
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
@@ -2087,6 +2353,7 @@ def export_json(results, timeline, rune_results, path: str) -> None:
 def self_check(
     results: Dict[str, List[Snapshot]],
     rune_results: Dict[str, List[Snapshot]],
+    boot_results: Dict[str, List[Snapshot]],
 ) -> None:
     hex_path = results["ER → IE → Hex → Mortal → BT"]
     old = results["Mura → Tri → Serylda → Shojin → IE"]
@@ -2131,17 +2398,34 @@ def self_check(
     assert fit[21].q_casts_poke >= blood[21].q_casts_poke
     assert fit[24].crit100
 
+    ion = boot_results["Ionian Boots of Lucidity"]
+    gre = boot_results["Gluttonous Greaves"]
+    imm = boot_results["Immortal Treads"]
+    cri = boot_results["Crimson Lucidity"]
+    ber = boot_results["Berserker's Greaves"]
+    assert ion[21].q_casts_poke > gre[21].q_casts_poke
+    assert mix_of(ion[21]) > mix_of(gre[21])
+    assert ion[21].q_casts_poke >= ber[21].q_casts_poke
+    assert ion[21].q_casts_poke >= cri[21].q_casts_poke
+    ie_ion = first_minute_with(ion, lambda s: s.has_ie)
+    ie_imm = first_minute_with(imm, lambda s: s.has_ie)
+    assert ie_ion is not None and ie_imm is not None
+    assert ie_ion <= ie_imm
+
 
 def main() -> None:
     results, timeline, _curves = run_all()
     rune_results = run_runes()
-    self_check(results, rune_results)
-    report = summarize(results, timeline, rune_results)
+    boot_results = run_boots()
+    self_check(results, rune_results, boot_results)
+    report = summarize(results, timeline, rune_results, boot_results)
     print(report)
     out_dir = "/workspace/smolder-late-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
-    export_json(results, timeline, rune_results, f"{out_dir}/results.json")
+    export_json(
+        results, timeline, rune_results, boot_results, f"{out_dir}/results.json"
+    )
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 
 

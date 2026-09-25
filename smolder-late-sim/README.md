@@ -14,7 +14,7 @@ Outputs:
 
 ## Question answered
 
-What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage?
+What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage? Which boots keep the extra Super Scorcher — Ionian vs Greaves vs Immortal Treads?
 
 ## Winner (sim)
 
@@ -44,9 +44,9 @@ Dragon Practice income is **Q count**, not Q damage. Essence Reaver already one-
 
 | 2nd legendary | T3 (175) | Stacks @16 | Mix @16 | Mix @22 |
 |---------------|----------|------------|---------|---------|
-| **IE** then Hex | 17:00 | — | IE converts stacks | Same page as Hex→IE |
-| **Hex** then IE | 17:00 | +2 vs IE | cheaper spike | Same 17:00 T3 |
-| **Shojin** then IE | 17:00 | **best stack count** | weak 25% crit Q | T3 on a weaker fireball |
+| **IE** then Hex | 17:00 | 160 | **2830** | 6110 |
+| **Hex** then IE | 17:00 | 163 (+2) | 2751 | 6118 (same page) |
+| **Shojin** then IE | 17:00 | **171** (+11) | 2412 | 5321 (T3 on 25% crit Q) |
 
 - Do **not** buy IE 2nd to stack. Buy it 2nd to convert stacks into Super Scorcher damage in the 13–16 window.
 - Hex 2nd is a wash on stacks (safer champion hits) and a cheaper 2nd-item spike. IE 3rd after Hex hits the same T3 clock.
@@ -67,6 +67,23 @@ Dragon Practice income is **Q count**, not Q damage. Essence Reaver already one-
 **Do not take:** Lethal Tempo (7.3 wants AS items; this page has none). Conqueror (paper AD if you stand in melee; Hexoptics poke is max range). Coup de Grace. Legend: Alacrity.
 
 **Swap:** Phase Rush vs dive/ganks. Barrier + Flash.
+
+## Boots that fit (sim, same items)
+
+**Ionian Boots of Lucidity** — sit on T2. 15 AH is the 4th Super Scorcher in 8s.
+
+Locked legendaries: Essence Reaver → Infinity Edge → Hexoptics C44 → LDR → Bloodthirster. T3 boots unlock at 10:00 and cost +1000g.
+
+| Boot | Gold | Role | Why |
+|------|------|------|-----|
+| **Ionian (T2)** | 1000 | Q count | Extra fireball. Default. |
+| Crimson Lucidity (T3) | 2000 | more AH | Still 4 Qs in 8s (~90 AH for a 5th). 1000g delays IE. Upgrade only after LDR/BT. |
+| Gluttonous Greaves (T2) | 1000 | 12 AD + vamp | 3 Qs. Bloodline already heals Q magic + true burn. Greaves if you are diving and dying. |
+| Immortal Treads (T3) | 2000 | 12 AD + 5% healthy | Same 3 Qs, plus 5% damage above 50% HP. Extra gold delays IE. |
+| Berserker's (T2) | 1200 | 35% AS | Extra fight autos. Hexoptics poke does not auto. |
+| Gunmetal (T3) | 2200 | 50% AS + 5% LS | 7.3 LS is physical; Q magic + T3 true burn do not heal from it. |
+
+**Do not take:** Berserker's / Gunmetal on this 0-AS page. Mercury's / Steelcaps only vs heavy CC / all-in AD.
 
 ## Playstyle
 
