@@ -6,7 +6,7 @@ League itemization sims.
 |--------|----------|----------|
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
-| `senna-burst-sim/` | Senna ADC (Wild Rift 7.3) | Which path peaks burst at 2nd item and overkills ADC + mid? |
+| `senna-burst-sim/` | Senna ADC + support (Wild Rift 7.3) | ADC: Dusk → Serylda 2nd-item overkill. Support crit: Collector → Mortal → IE (peak at 2, stronger late) |
 
 ```bash
 python3 zyra-burn-sim/simulate_zyra_burn.py

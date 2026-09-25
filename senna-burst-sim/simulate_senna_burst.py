@@ -3,14 +3,18 @@
 Wild Rift Senna — 2nd-item burst / overkill simulation
 Patch 7.3 item + kit values. Average game: 20 minutes.
 
-Playstyle: dragon-lane farmer (not support). One-shot ADC and mid
-in a short all-in once two legendaries are online.
+Two roles:
+  ADC farmer — lethality/%pen oneshot (Dusk → Serylda).
+  Support fasting — crit paths that peak at item 2 AND keep
+  scaling into 18–20 as Mist crit stacks.
 
-Question:
-  After 7.3 deleted Magnetic Blaster, reworked crit (200% base,
-  Senna autos at 90% of that, 10% crit / 20 Mist), and added
-  Hexoptics / Yun Tal / Stormrazor / Fiendhunter — which path
-  peaks BURST at item 2 and overkills ADC + mid?
+Question (ADC):
+  After 7.3 deleted Magnetic Blaster, which path peaks BURST at
+  item 2 and overkills ADC + mid?
+
+Question (support):
+  Crit Senna support: which path peaks at 2nd item and is
+  stronger late, with fasting Mist stacks?
 """
 
 from __future__ import annotations
@@ -69,6 +73,67 @@ def mist_at_minute(m: int) -> int:
         else:
             total += 4.4
     return int(total)
+
+
+def support_gold(m: int) -> int:
+    """Sickle tribute + Scythe soulcast. Lands ~2 legendaries ~15–16."""
+    if m <= 0:
+        return 500
+    total = 500  # Spectral Sickle
+    for t in range(1, m + 1):
+        if t <= 4:
+            total += 310
+        elif t <= 10:
+            total += 460
+        else:
+            total += 560
+    return total
+
+
+def support_level(m: int) -> int:
+    table = {
+        1: 2, 2: 3, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 7,
+        9: 8, 10: 9, 11: 9, 12: 10, 13: 10, 14: 11,
+        15: 11, 16: 12, 17: 12, 18: 13, 19: 13, 20: 14,
+    }
+    return table.get(m, min(14, 1 + m))
+
+
+def support_mist(m: int) -> int:
+    """
+    Fasting support: ADC last-hits, Senna takes souls + extracts.
+    ~50 at 10:00, ~78 at 15:00, ~105 at 20:00.
+    """
+    if m <= 0:
+        return 0
+    total = 0.0
+    for t in range(1, m + 1):
+        if t <= 5:
+            total += 4.6
+        elif t <= 12:
+            total += 5.4
+        else:
+            total += 5.8
+    return int(total)
+
+
+def eco_gold(m: int, role: str) -> int:
+    return support_gold(m) if role == "support" else gold_at_minute(m)
+
+
+def eco_level(m: int, role: str) -> int:
+    return support_level(m) if role == "support" else level_at_minute(m)
+
+
+def eco_mist(m: int, role: str) -> int:
+    return support_mist(m) if role == "support" else mist_at_minute(m)
+
+
+def scythe_ad_stacks(minute: int) -> float:
+    # Soulcast: +4 AD / 60s after quest (~5:00), max +40.
+    if minute < 6:
+        return 0.0
+    return 4.0 * min(10, minute - 5)
 
 
 def skill_rank(level: int, skill: str) -> int:
@@ -163,6 +228,10 @@ class Item:
 
 
 ITEMS: Dict[str, Item] = {
+    "Spectral Sickle": Item("Spectral Sickle", 500, ad=10, tags=("support",)),
+    "Black Mist Scythe": Item(
+        "Black Mist Scythe", 0, ad=28, ah=10, tags=("support",)
+    ),
     "Long Sword": Item("Long Sword", 500, ad=12),
     "B. F. Sword": Item("B. F. Sword", 1500, ad=40),
     "Pickaxe": Item("Pickaxe", 800, ad=20),
@@ -591,6 +660,108 @@ BUILD_PATHS: Dict[str, List[str]] = {
 }
 
 
+def _sup(*steps: str) -> List[str]:
+    return ["Spectral Sickle", *steps]
+
+
+# Support / fasting crit. No Dynamism: 1200g delays 2nd item and
+# blocks IE by 20:00. Peak at 2nd legendary, still climbing at 18–20.
+SUPPORT_CRIT_PATHS: Dict[str, List[str]] = {
+    "Collector → Mortal → IE": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Mortal Reminder", "Infinity Edge",
+    ),
+    "Hex → Mortal → IE": _sup(
+        "Noonquiver", "Pickaxe", "Hexoptics C44",
+        "Mortal Reminder", "Infinity Edge",
+    ),
+    "Collector → LDR → IE": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Lord Dominik's Regards", "Infinity Edge",
+    ),
+    "Hex → Collector → IE": _sup(
+        "Noonquiver", "Pickaxe", "Hexoptics C44",
+        "The Collector", "Infinity Edge",
+    ),
+    "Collector → Hex → IE": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Hexoptics C44", "Infinity Edge",
+    ),
+    "Hex → IE → Mortal": _sup(
+        "Noonquiver", "Pickaxe", "Hexoptics C44",
+        "Infinity Edge", "Mortal Reminder",
+    ),
+    "Collector → IE → Mortal": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Infinity Edge", "Mortal Reminder",
+    ),
+    "IE → Hex → Mortal": _sup(
+        "B. F. Sword", "Infinity Edge",
+        "Hexoptics C44", "Mortal Reminder",
+    ),
+    "Hex → Stormrazor → IE": _sup(
+        "Noonquiver", "Pickaxe", "Hexoptics C44",
+        "Stormrazor", "Infinity Edge",
+    ),
+    "Stormrazor → IE": _sup(
+        "B. F. Sword", "Stormrazor",
+        "Infinity Edge", "Mortal Reminder",
+    ),
+    "Stormrazor → Collector → IE": _sup(
+        "B. F. Sword", "Stormrazor",
+        "The Collector", "Infinity Edge",
+    ),
+    "Yun Tal → IE": _sup(
+        "Noonquiver", "Yun Tal Wildarrows",
+        "Infinity Edge", "Mortal Reminder",
+    ),
+    "Yun Tal → Collector → IE": _sup(
+        "Noonquiver", "Yun Tal Wildarrows",
+        "The Collector", "Infinity Edge",
+    ),
+    "RFC → IE": _sup(
+        "Zeal", "Rapid Firecannon",
+        "Infinity Edge", "The Collector",
+    ),
+    "Fiendhunter → IE": _sup(
+        "Zeal", "Fiendhunter Bolts",
+        "Infinity Edge", "The Collector",
+    ),
+    "ER → IE": _sup(
+        "Caulfield's Warhammer", "Sheen", "Essence Reaver",
+        "Infinity Edge", "The Collector",
+    ),
+    "Galeforce → IE": _sup(
+        "Noonquiver", "Pickaxe", "Galeforce",
+        "Infinity Edge", "Mortal Reminder",
+    ),
+    "Hex → Galeforce → IE": _sup(
+        "Noonquiver", "Pickaxe", "Hexoptics C44",
+        "Galeforce", "Infinity Edge",
+    ),
+    # Gold-sink: Dynamism before 2nd delays the spike and blocks IE.
+    "Collector → Mortal + Dynamism": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Boots", "Boots of Dynamism",
+        "Mortal Reminder", "Infinity Edge",
+    ),
+}
+
+# Lethality contrast on the same support gold/mist (not in the crit ranking).
+SUPPORT_CONTRAST_PATHS: Dict[str, List[str]] = {
+    "Dusk → Serylda (lethality)": _sup(
+        "Serrated Dirk", "Caulfield's Warhammer", "Duskblade of Draktharr",
+        "Boots", "Boots of Dynamism",
+        "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → Collector (lethality)": _sup(
+        "Serrated Dirk", "Caulfield's Warhammer", "Duskblade of Draktharr",
+        "Boots", "Boots of Dynamism",
+        "The Collector", "Infinity Edge",
+    ),
+}
+
+
 def truncate_after_n_legendaries(path: List[str], n: int) -> List[str]:
     out: List[str] = []
     count = 0
@@ -608,7 +779,9 @@ def truncate_after_n_legendaries(path: List[str], n: int) -> List[str]:
 # ---------------------------------------------------------------------------
 
 
-def resolve_inventory(path: List[str], gold: int) -> List[Item]:
+def resolve_inventory(
+    path: List[str], gold: int, minute: int = 0, role: str = "adc"
+) -> List[Item]:
     owned: List[str] = []
     gold_pool = gold
 
@@ -624,6 +797,8 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
         return credit, remove
 
     def remaining_cost(item_name: str) -> int:
+        if item_name == "Black Mist Scythe":
+            return 0
         credit, _ = credit_for(item_name)
         return max(0, ITEMS[item_name].cost - credit)
 
@@ -632,6 +807,12 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
 
     def buy(item_name: str) -> bool:
         nonlocal gold_pool
+        if item_name == "Black Mist Scythe":
+            if "Spectral Sickle" in owned:
+                owned.remove("Spectral Sickle")
+            if "Black Mist Scythe" not in owned:
+                owned.insert(0, item_name)
+            return True
         if item_name == "Boots of Dynamism" and "Boots of Dynamism" in owned:
             return False
         if item_name != "Boots of Dynamism" and item_name in owned:
@@ -648,6 +829,15 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
 
     blocked_at: Optional[str] = None
     for step in path:
+        if step == "Black Mist Scythe":
+            continue
+        if step == "Spectral Sickle":
+            if (
+                "Spectral Sickle" not in owned
+                and "Black Mist Scythe" not in owned
+            ):
+                buy("Spectral Sickle")
+            continue
         if step in owned:
             continue
         if can_afford(step):
@@ -655,6 +845,11 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
         else:
             blocked_at = step
             break
+
+    if (role == "support" or minute >= 5) and minute >= 5:
+        if "Spectral Sickle" in owned:
+            owned.remove("Spectral Sickle")
+            owned.insert(0, "Black Mist Scythe")
 
     if blocked_at and blocked_at in NEXT_COMPONENTS:
         for comp in NEXT_COMPONENTS[blocked_at]:
@@ -670,6 +865,8 @@ def resolve_inventory(path: List[str], gold: int) -> List[Item]:
                     seen = True
                     continue
                 if not seen:
+                    continue
+                if step in ("Spectral Sickle", "Black Mist Scythe"):
                     continue
                 if step in owned:
                     continue
@@ -860,6 +1057,8 @@ def sum_stats(
             flags["mortal"] = True
         if it.ldr:
             flags["ldr"] = True
+        if it.name == "Black Mist Scythe":
+            ad += scythe_ad_stacks(minute)
 
     if flags["yuntal"]:
         crit += yuntal_crit(minute, first_yuntal)
@@ -1006,9 +1205,12 @@ def combo_damage(
     return dmg, n_aa
 
 
-def yuntal_online_minute(path: List[str]) -> Optional[int]:
+def yuntal_online_minute(path: List[str], role: str = "adc") -> Optional[int]:
     for m in range(1, GAME_MINUTES + 1):
-        names = [it.name for it in resolve_inventory(path, gold_at_minute(m))]
+        names = [
+            it.name
+            for it in resolve_inventory(path, eco_gold(m, role), m, role)
+        ]
         if "Yun Tal Wildarrows" in names:
             return m
     return None
@@ -1019,11 +1221,12 @@ def compute_snapshot(
     path: List[str],
     minute: int,
     yuntal_min: Optional[int],
+    role: str = "adc",
 ) -> Snapshot:
-    gold = gold_at_minute(minute)
-    level = level_at_minute(minute)
-    mist = mist_at_minute(minute)
-    inv = resolve_inventory(path, gold)
+    gold = eco_gold(minute, role)
+    level = eco_level(minute, role)
+    mist = eco_mist(minute, role)
+    inv = resolve_inventory(path, gold, minute, role)
     st = sum_stats(inv, minute, yuntal_min)
     bonus_ad = st["item_ad"] + 1.25 * mist
     total_ad = 54.0 + bonus_ad
@@ -1130,21 +1333,54 @@ def burst_score(s: Snapshot) -> float:
     return mix * both * both_exp * two * spell
 
 
-def run_all() -> Tuple[Dict[str, List[Snapshot]], List[dict], Dict[str, Optional[int]]]:
+def mix_ok(s: Snapshot) -> float:
+    lucky = 0.5 * (s.overkill_adc_lucky + s.overkill_mid_lucky)
+    expected = 0.5 * (s.overkill_adc_exp + s.overkill_mid_exp)
+    return 0.60 * lucky + 0.40 * expected
+
+
+def support_score(s: Snapshot) -> float:
+    """2nd-item peak, then keep climbing 18–20 as Mist crit stacks."""
+    mix = mix_ok(s)
+    two = 1.16 if s.legendary_count >= 2 else (
+        0.90 if s.legendary_count == 1 else 0.76
+    )
+    late = 1.0
+    if s.minute >= 16:
+        if s.has_ie:
+            late += 0.14
+        if s.legendary_count >= 3:
+            late += 0.06
+        if s.crit >= 0.70:
+            late += 0.05
+        if s.has_serylda:
+            late += 0.04  # Mortal / LDR %pen as armor comes online
+    both = 1.08 if s.kill_adc_lucky and s.kill_mid_lucky else 1.0
+    both_e = 1.05 if s.kill_adc_exp and s.kill_mid_exp else 1.0
+    return mix * two * late * both * both_e
+
+
+def run_all(
+    paths: Optional[Dict[str, List[str]]] = None,
+    role: str = "adc",
+    scorer=None,
+) -> Tuple[Dict[str, List[Snapshot]], List[dict], Dict[str, Optional[int]]]:
+    paths = paths or BUILD_PATHS
+    score_fn = scorer or burst_score
     yuntal_mins: Dict[str, Optional[int]] = {
-        name: yuntal_online_minute(path) for name, path in BUILD_PATHS.items()
+        name: yuntal_online_minute(path, role) for name, path in paths.items()
     }
     results: Dict[str, List[Snapshot]] = {}
-    for name, path in BUILD_PATHS.items():
+    for name, path in paths.items():
         results[name] = [
-            compute_snapshot(name, path, m, yuntal_mins[name])
+            compute_snapshot(name, path, m, yuntal_mins[name], role)
             for m in range(1, GAME_MINUTES + 1)
         ]
 
     timeline = []
     for m in range(1, GAME_MINUTES + 1):
         cands = [(n, results[n][m - 1]) for n in results]
-        best_n, best_s = max(cands, key=lambda x: burst_score(x[1]))
+        best_n, best_s = max(cands, key=lambda x: score_fn(x[1]))
         timeline.append(
             {
                 "minute": m,
@@ -1173,7 +1409,11 @@ def first_minute_with(snaps: List[Snapshot], pred) -> Optional[int]:
 
 
 def second_item_isolated_delta(
-    name: str, path: List[str], snaps: List[Snapshot], yuntal_min: Optional[int]
+    name: str,
+    path: List[str],
+    snaps: List[Snapshot],
+    yuntal_min: Optional[int],
+    role: str = "adc",
 ) -> Tuple[float, float, int, List[str]]:
     """Lucky ADC+mid overkill added by the 2nd legendary, same minute."""
     second = next((s for s in snaps if s.legendary_count >= 2), None)
@@ -1181,7 +1421,7 @@ def second_item_isolated_delta(
         last = snaps[-1]
         return 0.0, 0.0, last.minute, last.items
     one_path = truncate_after_n_legendaries(path, 1)
-    without = compute_snapshot(name, one_path, second.minute, yuntal_min)
+    without = compute_snapshot(name, one_path, second.minute, yuntal_min, role)
     d_adc = second.lucky_adc - without.lucky_adc
     d_mid = second.lucky_mid - without.lucky_mid
     legs = [n for n in second.items if n in LEGENDARIES]
@@ -1460,7 +1700,9 @@ def summarize(results, timeline, yuntal_mins) -> str:
     return "\n".join(lines)
 
 
-def export_json(results, timeline, path: str) -> None:
+def export_json(
+    results, timeline, path: str, meta_extra: Optional[dict] = None
+) -> None:
     payload = {
         "meta": {
             "champion": "Senna",
@@ -1504,8 +1746,373 @@ def export_json(results, timeline, path: str) -> None:
             for name, snaps in results.items()
         },
     }
+    if meta_extra:
+        payload["meta"].update(meta_extra)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
+
+
+def summarize_support(
+    results: Dict[str, List[Snapshot]],
+    contrast: Dict[str, List[Snapshot]],
+    timeline: List[dict],
+    yuntal_mins: Dict[str, Optional[int]],
+) -> str:
+    lines = []
+    lines.append("=" * 82)
+    lines.append("SENNA SUPPORT — CRIT, 2ND-ITEM PEAK + LATE SCALE  (WR Patch 7.3)")
+    lines.append("Playstyle: fasting support (Scythe + souls) | Combo: R → W → Q → autos")
+    lines.append("Metric: overkill ADC+mid at item 2, then still climbing at 18–20")
+    lines.append("=" * 82)
+    lines.append("")
+    lines.append("GOLD / LEVEL / MIST (fasting support)")
+    lines.append(
+        f"  {'Min':>3}  {'Gold':>6}  {'Lvl':>3}  {'Mist':>4}  "
+        f"{'ADC HP':>7}  {'ADC Arm':>7}  {'Mist crit':>9}"
+    )
+    for m in (1, 5, 8, 10, 12, 14, 15, 16, 18, 20):
+        mist = support_mist(m)
+        lines.append(
+            f"  {m:>3}  {support_gold(m):>6}  {support_level(m):>3}  "
+            f"{mist:>4}  {adc_hp(m):>7.0f}  {adc_armor(m):>7.0f}  "
+            f"{10 * (mist // 20):>8}%"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("MINUTE-BY-MINUTE OPTIMAL (crit paths only, 2nd-item + late)")
+    lines.append("-" * 82)
+    for row in timeline:
+        if row["minute"] % 2 != 0 and row["minute"] not in (1, 11, 13, 15):
+            continue
+        item_short = " › ".join(row["items"][:6])
+        if len(row["items"]) > 6:
+            item_short += " › …"
+        ka = "KILL" if row["kill_adc"] else "live"
+        km = "KILL" if row["kill_mid"] else "live"
+        lines.append(
+            f"  {row['minute']:>2}:00 | ADC {row['lucky_adc']:>5.0f} "
+            f"({row['ok_adc']*100:>5.0f}% {ka}) | "
+            f"mid {row['lucky_mid']:>5.0f} ({row['ok_mid']*100:>5.0f}% {km}) | "
+            f"{row['winner']}"
+        )
+        lines.append(f"         items: {item_short}")
+        lines.append(f"         {row['notes']}")
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("CRIT BUILD COMPARISON — overkill @ 2nd item / 16:00 / 20:00")
+    lines.append("-" * 82)
+    lines.append(
+        f"  {'Build':<28} {'2nd@':>5} {'ADC%':>6} {'Mid%':>6} "
+        f"{'16:00':>6} {'20:00':>6} {'2ndΔ':>7} {'Late':>5}"
+    )
+
+    ranking = []
+    for name, snaps in results.items():
+        d_adc, d_mid, second_min, legs = second_item_isolated_delta(
+            name, SUPPORT_CRIT_PATHS[name], snaps, yuntal_mins[name], "support"
+        )
+        second = next((s for s in snaps if s.legendary_count >= 2), snaps[-1])
+        s16, s20 = snaps[15], snaps[19]
+        late = 0.5 * (s20.overkill_adc_lucky + s20.overkill_mid_lucky)
+        mix2 = 0.5 * (second.overkill_adc_lucky + second.overkill_mid_lucky)
+        peak = mix_ok(second)
+        late_m = mix_ok(s20)
+        # Dual goal: fat early 2nd item AND still climbing at 20 with IE.
+        earliness = 1.0 + 0.035 * max(0, 17 - second.minute)
+        ie_late = 1.12 if s20.has_ie else 0.94
+        climb = 1.06 if late >= mix2 - 0.02 else 0.92
+        pen2 = 1.08 if second.has_serylda else 1.0
+        both2 = 1.06 if second.kill_adc_lucky and second.kill_mid_lucky else 1.0
+        both2e = 1.04 if second.kill_adc_exp and second.kill_mid_exp else 1.0
+        eff = (
+            (0.55 * peak + 0.45 * late_m)
+            * earliness
+            * ie_late
+            * climb
+            * pen2
+            * both2
+            * both2e
+        )
+        ranking.append(
+            (eff, late, name, second, s16, s20, d_adc, d_mid, second_min, legs, snaps)
+        )
+    ranking.sort(key=lambda x: (x[0], x[1]), reverse=True)
+
+    for row in ranking:
+        name, second, s16, s20, d_adc, d_mid, second_min = (
+            row[2], row[3], row[4], row[5], row[6], row[7], row[8]
+        )
+        mix2 = 0.5 * (second.overkill_adc_lucky + second.overkill_mid_lucky)
+        late = 0.5 * (s20.overkill_adc_lucky + s20.overkill_mid_lucky)
+        late_s = "UP" if late >= mix2 - 0.02 else "dn"
+        lines.append(
+            f"  {name:<28} {second_min:>4}:00 "
+            f"{second.overkill_adc_lucky*100:>5.0f}% {second.overkill_mid_lucky*100:>5.0f}% "
+            f"{0.5*(s16.overkill_adc_lucky+s16.overkill_mid_lucky)*100:>5.0f}% "
+            f"{late*100:>5.0f}% {(d_adc+d_mid)/2:>+7.0f} {late_s:>5}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("2ND ITEM SPIKE  (isolated Δ, same minute with vs without 2nd)")
+    lines.append("-" * 82)
+    for row in ranking:
+        name, second, d_adc, d_mid, second_min, legs = (
+            row[2], row[3], row[6], row[7], row[8], row[9]
+        )
+        ka = "KILL" if second.kill_adc_lucky else "live"
+        km = "KILL" if second.kill_mid_lucky else "live"
+        ke = (
+            "also expected"
+            if second.kill_adc_exp and second.kill_mid_exp
+            else "lucky only"
+        )
+        lines.append(
+            f"  {name:<28} 2nd ~{second_min}:00  ADC {second.lucky_adc:.0f} {ka}  "
+            f"mid {second.lucky_mid:.0f} {km}  Δ {(d_adc+d_mid)/2:+.0f}  "
+            f"[{', '.join(legs[:2])}]  {ke}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("LATE (20:00) vs 2ND-ITEM MINUTE  — did it keep scaling?")
+    lines.append("-" * 82)
+    for row in ranking:
+        name, second, s20 = row[2], row[3], row[5]
+        dlt = 0.5 * (
+            (s20.overkill_adc_lucky - second.overkill_adc_lucky)
+            + (s20.overkill_mid_lucky - second.overkill_mid_lucky)
+        )
+        lines.append(
+            f"  {name:<28} 2nd {0.5*(second.overkill_adc_lucky+second.overkill_mid_lucky)*100:>5.0f}%  "
+            f"20:00 {0.5*(s20.overkill_adc_lucky+s20.overkill_mid_lucky)*100:>5.0f}%  "
+            f"Δ {dlt*100:+.0f}pp  crit {s20.crit*100:.0f}%  AD {s20.ad:.0f}  "
+            f"{'IE' if s20.has_ie else 'no IE'}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("LETHALITY CONTRAST (same support gold / fasting Mist)")
+    lines.append("-" * 82)
+    for name, snaps in contrast.items():
+        second = next((s for s in snaps if s.legendary_count >= 2), snaps[-1])
+        s20 = snaps[19]
+        lines.append(
+            f"  {name:<32} 2nd ~{second.minute}:00  "
+            f"ADC {second.overkill_adc_lucky*100:.0f}%  "
+            f"mid {second.overkill_mid_lucky*100:.0f}%  |  "
+            f"20:00 ADC {s20.overkill_adc_lucky*100:.0f}%  "
+            f"mid {s20.overkill_mid_lucky*100:.0f}%"
+        )
+
+    best = ranking[0]
+    winner_name = best[2]
+    snaps = best[10]
+    w2 = best[3]
+    w20 = best[5]
+    d_adc, d_mid = best[6], best[7]
+
+    def at2(sn):
+        return next((s for s in sn if s.legendary_count >= 2), sn[-1])
+
+    hex_col = at2(results["Hex → Collector → IE"])
+    hex_ie = at2(results["Hex → IE → Mortal"])
+    rfc2 = at2(results["RFC → IE"])
+    yun2 = at2(results["Yun Tal → IE"])
+    hex_mort = at2(results["Hex → Mortal → IE"])
+    col_mort = at2(results["Collector → Mortal → IE"])
+    col_ie = at2(results["Collector → IE → Mortal"])
+    col_dyn = at2(results["Collector → Mortal + Dynamism"])
+    dusk_ser = at2(contrast["Dusk → Serylda (lethality)"])
+    dusk20 = contrast["Dusk → Serylda (lethality)"][19]
+    win20_mix = 0.5 * (w20.overkill_adc_lucky + w20.overkill_mid_lucky)
+    dusk20_mix = 0.5 * (dusk20.overkill_adc_lucky + dusk20.overkill_mid_lucky)
+    dyn20 = results["Collector → Mortal + Dynamism"][19]
+
+    two_m = first_minute_with(snaps, lambda s: s.legendary_count >= 2)
+    hex_m = first_minute_with(snaps, lambda s: s.has_hex)
+    ie_m = first_minute_with(snaps, lambda s: s.has_ie)
+    col_m = first_minute_with(snaps, lambda s: s.has_collector)
+    mort_m = first_minute_with(snaps, lambda s: s.has_serylda)
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("VERDICT")
+    lines.append("-" * 82)
+    lines.append(f"  Best crit support path (2nd-item peak + late): {winner_name}")
+    lines.append(
+        f"  Window-weighted score: {best[0]:.3f} | 2nd legendary ~{two_m}:00"
+    )
+    if col_m:
+        lines.append(f"  Collector (execute + 25% crit)   ~{col_m}:00")
+    if hex_m:
+        lines.append(f"  Hexoptics (range amp + 25% crit) ~{hex_m}:00")
+    if mort_m:
+        lines.append(f"  Mortal / %pen (2nd-item peak)    ~{mort_m}:00")
+    if ie_m:
+        lines.append(f"  Infinity Edge (230% crit)        ~{ie_m}:00")
+    else:
+        lines.append("  Infinity Edge: NOT finished by 20:00 on this gold curve")
+    lines.append(
+        f"  2nd item vs ADC: lucky {w2.lucky_adc:.0f} ({w2.overkill_adc_lucky*100:.0f}%) "
+        f"{'OVERKILL' if w2.kill_adc_lucky else 'lives'} | "
+        f"expected {w2.exp_adc:.0f} ({w2.overkill_adc_exp*100:.0f}%)"
+    )
+    lines.append(
+        f"  2nd item vs mid: lucky {w2.lucky_mid:.0f} ({w2.overkill_mid_lucky*100:.0f}%) "
+        f"{'OVERKILL' if w2.kill_mid_lucky else 'lives'} | "
+        f"expected {w2.exp_mid:.0f} ({w2.overkill_mid_exp*100:.0f}%)"
+    )
+    lines.append(
+        f"  20:00 vs ADC: lucky {w20.lucky_adc:.0f} ({w20.overkill_adc_lucky*100:.0f}%)  "
+        f"crit {w20.crit*100:.0f}%  AD {w20.ad:.0f}  mist {w20.mist}  "
+        f"{'IE' if w20.has_ie else 'no IE'}"
+    )
+    lines.append(
+        f"  Isolated 2nd-item Δ: ADC {d_adc:+.0f} / mid {d_mid:+.0f}"
+    )
+    lines.append("")
+    lines.append("  WHY THIS PEAKS AT 2 AND STILL SCALES:")
+    lines.append("  • Fasting Mist is free crit (10%/20 stacks) + 1.25 AD/soul.")
+    lines.append("    Support hits ~100 Mist at 20:00 = 50% crit and 125 AD")
+    lines.append("    before items. Item crit stacks on top of that.")
+    lines.append("  • Q/W/R still do not crit. Mortal's 30% pen (or LDR 35%)")
+    lines.append("    is the 2nd-item overkill among crit items — same lesson")
+    lines.append("    as ADC Dusk → Serylda, on a crit chassis.")
+    lines.append("  • Collector 1st (3000): 50 AD + 10 lethality + 5% execute")
+    lines.append("    + 25% crit. Online ~8:00, already a kill threat with souls.")
+    lines.append("  • Skip Boots of Dynamism. 1200g delays 2nd item from ~14")
+    lines.append("    to ~16 and leaves you 400g short of IE at 20:00.")
+    lines.append(
+        f"    Dynamism path 2nd ~{col_dyn.minute}:00 "
+        f"({col_dyn.overkill_adc_lucky*100:.0f}% ADC), 20:00 "
+        f"{'IE' if dyn20.has_ie else 'no IE'}."
+    )
+    lines.append("  • Late: IE 230% × Senna's 90% modifier = 207% autos, and")
+    lines.append("    soul crit is high enough that expected ≈ lucky.")
+    lines.append(
+        f"  • Collector→Mortal 2nd ~{col_mort.minute}:00 "
+        f"({col_mort.overkill_adc_lucky*100:.0f}% ADC); "
+        f"Hex→Mortal 2nd ~{hex_mort.minute}:00 "
+        f"({hex_mort.overkill_adc_lucky*100:.0f}% ADC)."
+    )
+    lines.append(
+        f"  • Hex→Collector 2nd ~{hex_col.minute}:00 "
+        f"({hex_col.overkill_adc_lucky*100:.0f}% ADC) — no %pen, smaller spike."
+    )
+    lines.append(
+        f"  • Hex→IE 2nd ~{hex_ie.minute}:00 "
+        f"({hex_ie.overkill_adc_lucky*100:.0f}% ADC); "
+        f"Collector→IE 2nd ~{col_ie.minute}:00 "
+        f"({col_ie.overkill_adc_lucky*100:.0f}% ADC) — IE 2nd is a minute late."
+    )
+    lines.append("")
+    lines.append("  LETHALITY ON SUPPORT GOLD:")
+    lines.append(
+        f"  • Dusk→Serylda 2nd ~{dusk_ser.minute}:00 "
+        f"ADC {dusk_ser.overkill_adc_lucky*100:.0f}% / "
+        f"mid {dusk_ser.overkill_mid_lucky*100:.0f}%."
+    )
+    lines.append(
+        f"  • At 20:00 lethality mix {dusk20_mix*100:.0f}% vs winner "
+        f"{win20_mix*100:.0f}%. Nightstalker is a flat proc; soul crit"
+    )
+    lines.append("    does not multiply it. Crit items ride the Mist curve.")
+    lines.append("    Pick Dusk→Serylda if you want raw burst and will leave")
+    lines.append("    the crit fantasy. This ranking is crit-only.")
+    lines.append("")
+    lines.append("  TRAPS (same as ADC, worse on support gold):")
+    lines.append(
+        f"  • RFC → IE 2nd ~{rfc2.minute}:00  ADC {rfc2.overkill_adc_lucky*100:.0f}% "
+        "— RFC has 0 AD."
+    )
+    lines.append(
+        f"  • Yun Tal → IE 2nd ~{yun2.minute}:00  ADC {yun2.overkill_adc_lucky*100:.0f}% "
+        "— stacking 25% crit is slow; souls already give crit."
+    )
+    lines.append("    Yun Tal / Fiendhunter can look best at 20:00 once IE is")
+    lines.append("    up, but they miss the 2nd-item peak.")
+    lines.append("  • Essence Reaver: 135% of base AD 54. Skip.")
+    lines.append("  • Fiendhunter: 0 AD + 80% crit modifier after R. Skip.")
+    lines.append("  • Dynamism before item 2: gold sink on a crit build.")
+    lines.append("  • Galeforce 2nd is IE: looks strong 16–20 because 230% is")
+    lines.append("    already on, but the 14:00 Mortal spike is fatter.")
+    lines.append("")
+    rec_legs = [
+        n
+        for n in SUPPORT_CRIT_PATHS[winner_name]
+        if n in LEGENDARIES
+    ]
+    lines.append("  RECOMMENDED (crit support, 2nd-item peak, stronger late):")
+    lines.append("  1) Spectral Sickle → Black Mist Scythe (~5:00)")
+    labels = {
+        "The Collector": "execute + 25% crit",
+        "Hexoptics C44": "range + 25% crit",
+        "Mortal Reminder": "30% pen — 2ND ITEM PEAK",
+        "Lord Dominik's Regards": "35% pen — 2ND ITEM PEAK",
+        "Infinity Edge": "late 230% — souls already crit",
+        "Galeforce": "dash + 25% crit",
+        "Yun Tal Wildarrows": "stacked crit (slow)",
+        "Stormrazor": "energized + 25% crit",
+    }
+    for i, item in enumerate(rec_legs[:3], start=2):
+        tag = labels.get(item, "")
+        extra = f"  ({tag})" if tag else ""
+        lines.append(f"  {i}) {item:<22}{extra}")
+    if rec_legs and rec_legs[0] == "The Collector":
+        lines.append("     Alt if you want range first: Hexoptics → Mortal → IE")
+    lines.append("  Do not buy Dynamism before the 2nd legendary.")
+    lines.append("")
+    lines.append("  Skill: max Q → W. Fasting: ADC last-hits, you take souls.")
+    lines.append("  Combo: R → W → Q → auto. Runes: Fleet, Empowered Attack,")
+    lines.append("  Brutal, Cut Down (Coup once they are chunked).")
+    lines.append("=" * 82)
+    return "\n".join(lines)
+
+
+def self_check_support(
+    results: Dict[str, List[Snapshot]],
+    contrast: Dict[str, List[Snapshot]],
+) -> None:
+    def second(snaps):
+        return next(s for s in snaps if s.legendary_count >= 2)
+
+    hex_col = second(results["Hex → Collector → IE"])
+    hex_ie = second(results["Hex → IE → Mortal"])
+    rfc = second(results["RFC → IE"])
+    yun = second(results["Yun Tal → IE"])
+    col_mort = second(results["Collector → Mortal → IE"])
+    dyn = second(results["Collector → Mortal + Dynamism"])
+
+    # Mortal 2nd (no Dynamism) lands at or before IE 2nd and RFC
+    assert col_mort.minute <= hex_ie.minute, (col_mort.minute, hex_ie.minute)
+    assert col_mort.lucky_adc > rfc.lucky_adc, (col_mort.lucky_adc, rfc.lucky_adc)
+    # Yun Tal item-1 is weaker; its IE 2nd can win lucky later
+    yun12 = results["Yun Tal → IE"][11]
+    hex12 = results["Hex → Collector → IE"][11]
+    assert hex12.exp_adc > yun12.exp_adc, (hex12.exp_adc, yun12.exp_adc)
+    # 2nd item must land before "late"
+    assert col_mort.minute <= 16, col_mort.minute
+    # Dynamism delays the 2nd legendary
+    assert col_mort.minute <= dyn.minute, (col_mort.minute, dyn.minute)
+
+    s20 = results["Collector → Mortal → IE"][19]
+    mix2 = 0.5 * (col_mort.overkill_adc_lucky + col_mort.overkill_mid_lucky)
+    mix20 = 0.5 * (s20.overkill_adc_lucky + s20.overkill_mid_lucky)
+    assert mix20 >= mix2 - 0.05, (mix20, mix2)
+    assert col_mort.lucky_adc > hex_col.lucky_adc, (
+        col_mort.lucky_adc,
+        hex_col.lucky_adc,
+    )
+    assert s20.has_ie, s20.items
+    assert s20.mist >= 90, s20.mist
+    assert yun.minute >= col_mort.minute
+    assert contrast["Dusk → Serylda (lethality)"][19].mist >= 90
+    # Dual-goal winner must not be the Dynamism gold-sink (no IE by 20)
+    dyn20 = results["Collector → Mortal + Dynamism"][19]
+    assert s20.has_ie and not dyn20.has_ie
 
 
 def self_check(results: Dict[str, List[Snapshot]]) -> None:
@@ -1551,15 +2158,40 @@ def self_check(results: Dict[str, List[Snapshot]]) -> None:
 
 
 def main() -> None:
+    out_dir = "/workspace/senna-burst-sim"
+
     results, timeline, yuntal_mins = run_all()
     self_check(results)
     report = summarize(results, timeline, yuntal_mins)
     print(report)
-    out_dir = "/workspace/senna-burst-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
     export_json(results, timeline, f"{out_dir}/results.json")
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
+
+    sup_results, sup_timeline, sup_yun = run_all(
+        SUPPORT_CRIT_PATHS, role="support", scorer=support_score
+    )
+    contrast, _, _ = run_all(
+        SUPPORT_CONTRAST_PATHS, role="support", scorer=support_score
+    )
+    self_check_support(sup_results, contrast)
+    sup_report = summarize_support(
+        sup_results, contrast, sup_timeline, sup_yun
+    )
+    print("\n" + sup_report)
+    with open(f"{out_dir}/report-support.txt", "w", encoding="utf-8") as f:
+        f.write(sup_report + "\n")
+    export_json(
+        {**sup_results, **contrast},
+        sup_timeline,
+        f"{out_dir}/results-support.json",
+        meta_extra={
+            "role": "Support (fasting)",
+            "playstyle": "crit 2nd-item peak + late Mist scale",
+        },
+    )
+    print(f"\nWrote {out_dir}/report-support.txt and {out_dir}/results-support.json")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,202 @@
+==================================================================================
+SENNA SUPPORT — CRIT, 2ND-ITEM PEAK + LATE SCALE  (WR Patch 7.3)
+Playstyle: fasting support (Scythe + souls) | Combo: R → W → Q → autos
+Metric: overkill ADC+mid at item 2, then still climbing at 18–20
+==================================================================================
+
+GOLD / LEVEL / MIST (fasting support)
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm  Mist crit
+    1     810    2     4      734       34         0%
+    5    2200    5    23     1102       49        10%
+    8    3580    7    39     1378       61        10%
+   10    4500    9    49     1486       65        20%
+   12    5620   10    60     1594       69        30%
+   14    6740   11    72     1702       85        30%
+   15    7300   11    78     1802       89        30%
+   16    7860   12    83     1810       89        40%
+   18    8980   13    95     1918      103        40%
+   20   10100   14   107     2026      106        50%
+
+----------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (crit paths only, 2nd-item + late)
+----------------------------------------------------------------------------------
+   1:00 | ADC   402 (   55% live) | mid   420 (   57% live) | Collector → Mortal → IE
+         items: Spectral Sickle
+         pre-legendary
+   2:00 | ADC   446 (   54% live) | mid   467 (   56% live) | Collector → Mortal → IE
+         items: Spectral Sickle
+         pre-legendary
+   4:00 | ADC   622 (   62% live) | mid   656 (   64% live) | Collector → Mortal → IE
+         items: Spectral Sickle › Serrated Dirk
+         pre-legendary
+   6:00 | ADC  1018 (   85% live) | mid  1072 (   88% live) | Hex → Mortal → IE
+         items: Black Mist Scythe › Noonquiver › Pickaxe
+         pre-legendary
+   8:00 | ADC  1222 (   89% live) | mid  1285 (   92% live) | Stormrazor → IE
+         items: Black Mist Scythe › Stormrazor
+         1 item
+  10:00 | ADC  1527 (  103% KILL) | mid  1614 (  107% KILL) | Stormrazor → Collector → IE
+         items: Black Mist Scythe › Stormrazor › Serrated Dirk
+         1 item
+  11:00 | ADC  1586 (  100% KILL) | mid  1624 (  101% KILL) | Collector → IE → Mortal
+         items: Black Mist Scythe › The Collector › B. F. Sword
+         execute, 1 item
+  12:00 | ADC  1621 (  102% KILL) | mid  1721 (  107% KILL) | Collector → Hex → IE
+         items: Black Mist Scythe › The Collector › Noonquiver › Pickaxe
+         execute, 1 item
+  13:00 | ADC  1774 (  105% KILL) | mid  1859 (  108% KILL) | Collector → Mortal + Dynamism
+         items: Black Mist Scythe › The Collector › Boots of Dynamism › Last Whisper
+         execute, 1 item
+  14:00 | ADC  1898 (  112% KILL) | mid  2026 (  118% KILL) | Collector → Mortal → IE
+         items: Black Mist Scythe › The Collector › Mortal Reminder
+         execute, 2-ITEM SPIKE
+  15:00 | ADC  2014 (  112% KILL) | mid  2152 (  118% KILL) | Collector → Mortal → IE
+         items: Black Mist Scythe › The Collector › Mortal Reminder › Pickaxe
+         execute, 2-ITEM SPIKE
+  16:00 | ADC  2019 (  112% KILL) | mid  2181 (  119% KILL) | Galeforce → IE
+         items: Black Mist Scythe › Galeforce › Infinity Edge › Brawler's Gloves
+         230% crit, 2-ITEM SPIKE
+  18:00 | ADC  2510 (  131% KILL) | mid  2664 (  138% KILL) | Yun Tal → IE
+         items: Black Mist Scythe › Yun Tal Wildarrows › Infinity Edge › Last Whisper › Brawler's Gloves
+         230% crit, Yun Tal stacks, 2-ITEM SPIKE
+  20:00 | ADC  2873 (  142% KILL) | mid  3054 (  149% KILL) | Yun Tal → IE
+         items: Black Mist Scythe › Yun Tal Wildarrows › Infinity Edge › Mortal Reminder
+         230% crit, Yun Tal stacks, 2-ITEM SPIKE
+
+----------------------------------------------------------------------------------
+CRIT BUILD COMPARISON — overkill @ 2nd item / 16:00 / 20:00
+----------------------------------------------------------------------------------
+  Build                         2nd@   ADC%   Mid%  16:00  20:00    2ndΔ  Late
+  Collector → Mortal → IE        14:00   112%   118%   119%   124%    +394    UP
+  Hex → Mortal → IE              14:00   110%   116%   117%   124%    +377    UP
+  Galeforce → IE                 15:00   109%   116%   115%   126%    +401    UP
+  Fiendhunter → IE               14:00   104%   111%   118%   140%    +447    UP
+  Hex → Galeforce → IE           14:00   108%   115%   114%   118%    +349    UP
+  Yun Tal → IE                   15:00   101%   108%   107%   146%    +394    UP
+  Collector → IE → Mortal        15:00   107%   113%   113%   124%    +406    UP
+  Yun Tal → Collector → IE       14:00   100%   106%   106%   135%    +284    UP
+  Hex → IE → Mortal              15:00   107%   113%   113%   124%    +412    UP
+  IE → Hex → Mortal              15:00   107%   113%   113%   124%    +307    UP
+  Hex → Collector → IE           14:00   105%   112%   111%   115%    +293    UP
+  Collector → Hex → IE           14:00   105%   112%   111%   115%    +286    UP
+  Stormrazor → IE                15:00   106%   112%   112%   121%    +394    UP
+  Hex → Stormrazor → IE          14:00   105%   110%   110%   114%    +280    UP
+  Stormrazor → Collector → IE    14:00   104%   111%   110%   112%    +277    UP
+  ER → IE                        15:00   105%   112%   112%   113%    +405    UP
+  Collector → Mortal + Dynamism   16:00   119%   126%   123%   122%    +576    UP
+  Collector → LDR → IE           15:00   110%   116%   122%   118%    +456    UP
+  RFC → IE                       14:00    98%   103%   110%   103%    +383    UP
+
+----------------------------------------------------------------------------------
+2ND ITEM SPIKE  (isolated Δ, same minute with vs without 2nd)
+----------------------------------------------------------------------------------
+  Collector → Mortal → IE      2nd ~14:00  ADC 1898 KILL  mid 2026 KILL  Δ +394  [The Collector, Mortal Reminder]  also expected
+  Hex → Mortal → IE            2nd ~14:00  ADC 1878 KILL  mid 1998 KILL  Δ +377  [Hexoptics C44, Mortal Reminder]  also expected
+  Galeforce → IE               2nd ~15:00  ADC 1969 KILL  mid 2107 KILL  Δ +401  [Galeforce, Infinity Edge]  also expected
+  Fiendhunter → IE             2nd ~14:00  ADC 1779 KILL  mid 1906 KILL  Δ +447  [Fiendhunter Bolts, Infinity Edge]  lucky only
+  Hex → Galeforce → IE         2nd ~14:00  ADC 1846 KILL  mid 1974 KILL  Δ +349  [Hexoptics C44, Galeforce]  also expected
+  Yun Tal → IE                 2nd ~15:00  ADC 1822 KILL  mid 1968 KILL  Δ +394  [Yun Tal Wildarrows, Infinity Edge]  lucky only
+  Collector → IE → Mortal      2nd ~15:00  ADC 1922 KILL  mid 2064 KILL  Δ +406  [The Collector, Infinity Edge]  also expected
+  Yun Tal → Collector → IE     2nd ~14:00  ADC 1702 KILL  mid 1830 KILL  Δ +284  [Yun Tal Wildarrows, The Collector]  lucky only
+  Hex → IE → Mortal            2nd ~15:00  ADC 1926 KILL  mid 2061 KILL  Δ +412  [Hexoptics C44, Infinity Edge]  also expected
+  IE → Hex → Mortal            2nd ~15:00  ADC 1926 KILL  mid 2061 KILL  Δ +307  [Infinity Edge, Hexoptics C44]  also expected
+  Hex → Collector → IE         2nd ~14:00  ADC 1780 KILL  mid 1929 KILL  Δ +293  [Hexoptics C44, The Collector]  also expected
+  Collector → Hex → IE         2nd ~14:00  ADC 1780 KILL  mid 1929 KILL  Δ +286  [The Collector, Hexoptics C44]  also expected
+  Stormrazor → IE              2nd ~15:00  ADC 1904 KILL  mid 2044 KILL  Δ +394  [Stormrazor, Infinity Edge]  also expected
+  Hex → Stormrazor → IE        2nd ~14:00  ADC 1786 KILL  mid 1895 KILL  Δ +280  [Hexoptics C44, Stormrazor]  also expected
+  Stormrazor → Collector → IE  2nd ~14:00  ADC 1771 KILL  mid 1906 KILL  Δ +277  [Stormrazor, The Collector]  also expected
+  ER → IE                      2nd ~15:00  ADC 1894 KILL  mid 2046 KILL  Δ +405  [Essence Reaver, Infinity Edge]  also expected
+  Collector → Mortal + Dynamism 2nd ~16:00  ADC 2154 KILL  mid 2310 KILL  Δ +576  [The Collector, Mortal Reminder]  also expected
+  Collector → LDR → IE         2nd ~15:00  ADC 1978 KILL  mid 2108 KILL  Δ +456  [The Collector, Lord Dominik's Regards]  also expected
+  RFC → IE                     2nd ~14:00  ADC 1659 live  mid 1781 KILL  Δ +383  [Rapid Firecannon, Infinity Edge]  lucky only
+
+----------------------------------------------------------------------------------
+LATE (20:00) vs 2ND-ITEM MINUTE  — did it keep scaling?
+----------------------------------------------------------------------------------
+  Collector → Mortal → IE      2nd   115%  20:00   124%  Δ +10pp  crit 100%  AD 416  IE
+  Hex → Mortal → IE            2nd   113%  20:00   124%  Δ +11pp  crit 100%  AD 421  IE
+  Galeforce → IE               2nd   112%  20:00   126%  Δ +14pp  crit 100%  AD 426  IE
+  Fiendhunter → IE             2nd   108%  20:00   140%  Δ +33pp  crit 100%  AD 381  IE
+  Hex → Galeforce → IE         2nd   112%  20:00   118%  Δ +6pp  crit 100%  AD 446  IE
+  Yun Tal → IE                 2nd   104%  20:00   146%  Δ +41pp  crit 100%  AD 416  IE
+  Collector → IE → Mortal      2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 416  IE
+  Yun Tal → Collector → IE     2nd   103%  20:00   135%  Δ +32pp  crit 100%  AD 431  IE
+  Hex → IE → Mortal            2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 421  IE
+  IE → Hex → Mortal            2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 421  IE
+  Hex → Collector → IE         2nd   108%  20:00   115%  Δ +6pp  crit 100%  AD 436  IE
+  Collector → Hex → IE         2nd   108%  20:00   115%  Δ +6pp  crit 100%  AD 436  IE
+  Stormrazor → IE              2nd   109%  20:00   121%  Δ +12pp  crit 100%  AD 416  IE
+  Hex → Stormrazor → IE        2nd   108%  20:00   114%  Δ +6pp  crit 100%  AD 436  IE
+  Stormrazor → Collector → IE  2nd   107%  20:00   112%  Δ +5pp  crit 100%  AD 431  IE
+  ER → IE                      2nd   109%  20:00   113%  Δ +4pp  crit 100%  AD 431  IE
+  Collector → Mortal + Dynamism 2nd   123%  20:00   122%  Δ -0pp  crit 100%  AD 411  no IE
+  Collector → LDR → IE         2nd   113%  20:00   118%  Δ +5pp  crit 100%  AD 401  no IE
+  RFC → IE                     2nd   100%  20:00   103%  Δ +2pp  crit 100%  AD 381  IE
+
+----------------------------------------------------------------------------------
+LETHALITY CONTRAST (same support gold / fasting Mist)
+----------------------------------------------------------------------------------
+  Dusk → Serylda (lethality)       2nd ~16:00  ADC 142%  mid 150%  |  20:00 ADC 146%  mid 155%
+  Dusk → Collector (lethality)     2nd ~16:00  ADC 123%  mid 133%  |  20:00 ADC 118%  mid 127%
+
+----------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------
+  Best crit support path (2nd-item peak + late): Collector → Mortal → IE
+  Window-weighted score: 1.845 | 2nd legendary ~14:00
+  Collector (execute + 25% crit)   ~8:00
+  Mortal / %pen (2nd-item peak)    ~14:00
+  Infinity Edge (230% crit)        ~20:00
+  2nd item vs ADC: lucky 1898 (112%) OVERKILL | expected 1835 (108%)
+  2nd item vs mid: lucky 2026 (118%) OVERKILL | expected 1959 (114%)
+  20:00 vs ADC: lucky 2449 (121%)  crit 100%  AD 416  mist 107  IE
+  Isolated 2nd-item Δ: ADC +393 / mid +395
+
+  WHY THIS PEAKS AT 2 AND STILL SCALES:
+  • Fasting Mist is free crit (10%/20 stacks) + 1.25 AD/soul.
+    Support hits ~100 Mist at 20:00 = 50% crit and 125 AD
+    before items. Item crit stacks on top of that.
+  • Q/W/R still do not crit. Mortal's 30% pen (or LDR 35%)
+    is the 2nd-item overkill among crit items — same lesson
+    as ADC Dusk → Serylda, on a crit chassis.
+  • Collector 1st (3000): 50 AD + 10 lethality + 5% execute
+    + 25% crit. Online ~8:00, already a kill threat with souls.
+  • Skip Boots of Dynamism. 1200g delays 2nd item from ~14
+    to ~16 and leaves you 400g short of IE at 20:00.
+    Dynamism path 2nd ~16:00 (119% ADC), 20:00 no IE.
+  • Late: IE 230% × Senna's 90% modifier = 207% autos, and
+    soul crit is high enough that expected ≈ lucky.
+  • Collector→Mortal 2nd ~14:00 (112% ADC); Hex→Mortal 2nd ~14:00 (110% ADC).
+  • Hex→Collector 2nd ~14:00 (105% ADC) — no %pen, smaller spike.
+  • Hex→IE 2nd ~15:00 (107% ADC); Collector→IE 2nd ~15:00 (107% ADC) — IE 2nd is a minute late.
+
+  LETHALITY ON SUPPORT GOLD:
+  • Dusk→Serylda 2nd ~16:00 ADC 142% / mid 150%.
+  • At 20:00 lethality mix 150% vs winner 124%. Nightstalker is a flat proc; soul crit
+    does not multiply it. Crit items ride the Mist curve.
+    Pick Dusk→Serylda if you want raw burst and will leave
+    the crit fantasy. This ranking is crit-only.
+
+  TRAPS (same as ADC, worse on support gold):
+  • RFC → IE 2nd ~14:00  ADC 98% — RFC has 0 AD.
+  • Yun Tal → IE 2nd ~15:00  ADC 101% — stacking 25% crit is slow; souls already give crit.
+    Yun Tal / Fiendhunter can look best at 20:00 once IE is
+    up, but they miss the 2nd-item peak.
+  • Essence Reaver: 135% of base AD 54. Skip.
+  • Fiendhunter: 0 AD + 80% crit modifier after R. Skip.
+  • Dynamism before item 2: gold sink on a crit build.
+  • Galeforce 2nd is IE: looks strong 16–20 because 230% is
+    already on, but the 14:00 Mortal spike is fatter.
+
+  RECOMMENDED (crit support, 2nd-item peak, stronger late):
+  1) Spectral Sickle → Black Mist Scythe (~5:00)
+  2) The Collector           (execute + 25% crit)
+  3) Mortal Reminder         (30% pen — 2ND ITEM PEAK)
+  4) Infinity Edge           (late 230% — souls already crit)
+     Alt if you want range first: Hexoptics → Mortal → IE
+  Do not buy Dynamism before the 2nd legendary.
+
+  Skill: max Q → W. Fasting: ADC last-hits, you take souls.
+  Combo: R → W → Q → auto. Runes: Fleet, Empowered Attack,
+  Brutal, Cut Down (Coup once they are chunked).
+==================================================================================
