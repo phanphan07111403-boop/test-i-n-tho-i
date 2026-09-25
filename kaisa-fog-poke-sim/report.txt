@@ -1,0 +1,172 @@
+==============================================================================
+KAI'SA — AP FOG W POKE (Wild Rift 7.2 / 7.2b–c)
+Playstyle: Void Seeker from fog | 20:00 WR game | hit rate 62%
+Metric: damage per landed W + expected damage in a 12s fog siege
+==============================================================================
+
+GOLD / LEVEL (farmer Kai'Sa)
+  Min    Gold  Lvl  Squish HP   Tank HP
+    1     860    2        826       896
+    4    1940    5       1159      1220
+    8    3740    9       1603      1792
+   12    5820   12       1952      2396
+   16    8120   14       2206      2892
+   20   10600   15       2365      3280
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (12s fog siege vs squishy, First Strike)
+------------------------------------------------------------------------------
+   1:00 |     | W     91 | 12s     36 | 0.4W | Horizon → Luden → Cap
+         items: Boots of Speed
+         W NOT evolved
+   2:00 |     | W    133 | 12s     58 | 0.4W | Horizon → Cap → Void
+         items: Boots of Speed › Amplifying Tome
+         W NOT evolved
+   3:00 |     | W    146 | 12s     69 | 0.5W | Horizon → Luden → Cap
+         items: Boots of Speed › Fiendish Codex
+         W NOT evolved
+   4:00 |     | W    186 | 12s    104 | 0.6W | Horizon → Luden → Cap
+         items: Boots of Speed › Fiendish Codex › Amplifying Tome
+         W NOT evolved
+   5:00 |     | W    198 | 12s    120 | 0.6W | Horizon → Luden → Cap
+         items: Boots of Speed › Fiendish Codex › Fiendish Codex
+         W NOT evolved
+   6:00 |     | W    240 | 12s    166 | 0.7W | Horizon → Luden → Cap
+         items: Boots of Speed › Fiendish Codex › Fiendish Codex › Amplifying Tome
+         W NOT evolved
+   7:00 | EVO | W    385 | 12s    424 | 1.1W | Luden → Horizon → Cap
+         items: Boots of Speed › Luden's Echo
+         W evolved (70% CD refund), Luden echo
+   8:00 | EVO | W    386 | 12s    425 | 1.1W | Luden → Horizon → Cap
+         items: Boots of Speed › Luden's Echo
+         W evolved (70% CD refund), Luden echo
+   9:00 | EVO | W    439 | 12s    484 | 1.1W | Luden → Horizon → Cap
+         items: Luden's Echo › Boots of Mana
+         W evolved (70% CD refund), Luden echo
+  10:00 | EVO | W    457 | 12s    506 | 1.1W | Luden → Horizon → Cap
+         items: Luden's Echo › Boots of Mana › Amplifying Tome
+         W evolved (70% CD refund), Luden echo
+  11:00 | EVO | W    472 | 12s    563 | 1.2W | Luden → Horizon → Cap
+         items: Luden's Echo › Boots of Mana › Fiendish Codex
+         W evolved (70% CD refund), Luden echo
+  12:00 | EVO | W    477 | 12s    612 | 1.3W | Luden → Horizon → Cap
+         items: Luden's Echo › Boots of Mana › Fiendish Codex › Fiendish Codex
+         W evolved (70% CD refund), Luden echo
+  13:00 | EVO | W    494 | 12s    634 | 1.3W | Luden → Horizon → Cap
+         items: Luden's Echo › Boots of Mana › Fiendish Codex › Fiendish Codex › Amplifying Tome
+         W evolved (70% CD refund), Luden echo
+  14:00 | EVO | W    534 | 12s    705 | 1.4W | Horizon → Luden → Cap
+         items: Horizon Focus › Boots of Mana › Luden's Echo
+         W evolved (70% CD refund), Horizon +10%, Luden echo
+  15:00 | EVO | W    566 | 12s    727 | 1.3W | Luden → Spellslinger → Horizon
+         items: Luden's Echo › Spellslinger's Shoes › Fiendish Codex › Fiendish Codex › Amplifying Tome
+         W evolved (70% CD refund), Luden echo
+  16:00 | EVO | W    612 | 12s    810 | 1.4W | Luden → Spellslinger → Horizon
+         items: Luden's Echo › Spellslinger's Shoes › Horizon Focus
+         W evolved (70% CD refund), Horizon +10%, Luden echo
+  17:00 | EVO | W    584 | 12s    751 | 1.3W | Luden → Cryptbloom → Cap
+         items: Luden's Echo › Boots of Mana › Cryptbloom › Needlessly Large Rod
+         W evolved (70% CD refund), Luden echo
+  18:00 | EVO | W    644 | 12s    854 | 1.4W | Luden → Spellslinger → Horizon
+         items: Luden's Echo › Spellslinger's Shoes › Horizon Focus › Needlessly Large Rod
+         W evolved (70% CD refund), Horizon +10%, Luden echo
+  19:00 | EVO | W    644 | 12s    854 | 1.4W | Luden → Spellslinger → Horizon
+         items: Luden's Echo › Spellslinger's Shoes › Horizon Focus › Needlessly Large Rod
+         W evolved (70% CD refund), Horizon +10%, Luden echo
+  20:00 | EVO | W    750 | 12s    966 | 1.3W | Luden → Cryptbloom → Cap
+         items: Luden's Echo › Boots of Mana › Cryptbloom › Rabadon's Deathcap
+         W evolved (70% CD refund), Luden echo
+
+------------------------------------------------------------------------------
+BUILD COMPARISON — 12s fog siege vs squishy @ spikes
+------------------------------------------------------------------------------
+  Build                                 8:00   12:00   16:00   20:00  Avg8-20   W@16
+  Horizon → Luden → Cap                  310     458     806     958      610    608
+  Luden → Horizon → Cap                  425     612     806     958      667    608
+  Luden → Spellslinger → Horizon         425     542     810     854      664    612
+  Luden → Cap → Void                     425     528     676     906      605    608
+  Luden → Orb → Cap                      425     528     576     765      560    519
+  Luden → Stormsurge → Cap               425     504     619     958      592    557
+  Horizon → Cap → Void                   310     415     557     770      487    495
+  Liandry → Horizon → Cap                274     383     516     698      461    459
+  Luden → Liandry → Void                 425     507     666     818      583    599
+  Stormsurge → Luden → Cap               267     396     619     958      522    557
+  Orb → Horizon → Cap                    253     349     465     652      414    414
+  Luden → Cryptbloom → Cap               425     498     712     966      622    553
+  Luden → Rylai → Liandry                425     523     587     674      548    528
+  Malig → Luden → Cap (trap ult)         298     398     698     830      537    562
+  Nashor → Luden → Cap (trap E)          138     184     548     731      395    493
+  BF → Horizon → Cap                     342     517     704     860      574    496
+
+------------------------------------------------------------------------------
+RUNES — same winning path, 12s siege @ 16:00
+------------------------------------------------------------------------------
+  First Strike + Storm   chunk    608 | 12s    806 | AP 303
+  First Strike + Scorch  chunk    613 | 12s    813 | AP 275
+  Comet + Gathering Storm chunk    633 | 12s    858 | AP 303
+  Comet + Scorch         chunk    639 | 12s    867 | AP 275
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Best fog-poke path (avg 8–20 min 12s siege): Luden → Horizon → Cap
+  Avg 12s vs squishy 8–20: 667 | 16:00 chunk 608
+  W evolve (70% CD refund): ~7:00  ← the real spike
+  Horizon Focus (+10% from 600+ range): ~14:00
+  Luden's Echo (140+15% AP / 9s): ~7:00
+  Deathcap (30% AP amp): ~20:00
+
+  WHY FOG W WANTS THIS:
+  • W is 30–120 + 110% AD + 60% AP. AP items are the ratio that scales poke.
+  • Living Weapon on a finished AP item refunds 70% CD on champion hit.
+    Unevolved W ≈ 14–20s. Evolved ≈ 4–6s. First legendary is the spike.
+  • Luden 2800: evolve W at ~7:00 AND a 140+15% AP echo on the same missile.
+    Horizon 2700 evolves in the same window but has no echo —
+    12s siege at 8:00 is 425 (Luden) vs 310 (Horizon).
+  • Horizon 2nd is the 3000-range tax: +10% Hypershot from 600+ units.
+  • Liandry/Blackfire lose ~1s of the 3s burn after fog reveal.
+  • Infinity Orb execute does nothing on a full-HP fog poke.
+  • Malignance Hatefog is an ult zone — Kaisa R is a dash, not artillery.
+  • Nashor evolves E (AS), not W — fog poke never autos.
+  • Spellslinger T3 is almost a tie on avg, but delays Deathcap.
+
+  RECOMMENDED BUY ORDER (fog W Kai'Sa, 20-min WR):
+  1) Amplifying Tome + Boots of Speed
+  2) Lost Chapter → Hextech Alternator → Luden's Echo  (~7:00)  W EVOLVE + echo
+  3) Boots of Mana (25 AP, 8 flat mpen)
+  4) Horizon Focus                                  (~14:00)  +10% long-range W
+  5) Rabadon's Deathcap                             (~20:00)  30% AP amp
+  6) Long game: Void Staff vs MR / Cryptbloom if you want AH+pen
+
+  Situational swaps:
+  • Want +10% ASAP: Horizon first, Luden second (weaker 7–13, equal later).
+  • They stack MR: Void 3rd instead of Cap.
+  • They are <35% HP in fog: Orb 3rd for Inevitable Demise.
+  • Do not first-buy Nashor / Malignance / Rylai / Liandry for fog W.
+
+  RUNES (strongest poke — slot 3 is Storm OR Scorch, not both):
+  Keystone: Arcane Comet     — extra chunk on a 3000-range missile
+  Slot 2:   Transcendence    — AH → more evolved W
+  Slot 3:   Gathering Storm  — AP every 3 min after 6:00 (20-min games)
+             Scorch only if the game is a 12-min stomp
+  Alt key:  First Strike     — 7% true + gold, slightly less raw W
+  Avoid:    Electrocute (3 hits), Conqueror, Lethal Tempo, Aery
+  Spells:   Flash + Ghost (rotate fog) or Flash + Barrier
+  Skill:    Max W → E → Q. R when available. Start W.
+
+  SETTINGS (S22 Ultra + GameSir X3 Pro — W is a 3000-range tia):
+  Wild Rift
+  • Move Stick: Locked
+  • Locked Button Centers: Off
+  • Cast on Button Press: Off  (hold to aim, release to fire)
+  • Button Aiming Sensitivity: 15–30%
+  • Aim Panning: On
+  • Portrait Lock: On | Target filter: Champions only
+  • Force Attack Follow: Off
+  GameSir G-Touch
+  • W = Skill Wheel + right stick (same hand feel as Kog R), NOT LB tap
+  • Put W on the button you already use for Kog R (RB/RT), overlay on W icon
+  • Deadzone right stick slightly higher than Kog; don't 'place a circle'
+  • Two profiles: Kog-R (location) vs Kaisa-W (direction)
+  • Poke 1600–2200, not max 3000; never fire through the wave
+==============================================================================

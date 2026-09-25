@@ -1,0 +1,6696 @@
+{
+  "meta": {
+    "champion": "Kai'Sa",
+    "role": "AP fog poke (mid / AP bot)",
+    "patch": "7.2 / 7.2b-c",
+    "game_minutes": 20,
+    "playstyle": "fog-of-war Void Seeker",
+    "hit_rate": 0.62
+  },
+  "timeline": [
+    {
+      "minute": 1,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 91.2,
+      "window": 35.6,
+      "w_per": 0.39,
+      "items": [
+        "Boots of Speed"
+      ],
+      "ap": 0.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 2,
+      "winner": "Horizon \u2192 Cap \u2192 Void",
+      "chunk": 132.6,
+      "window": 57.5,
+      "w_per": 0.43,
+      "items": [
+        "Boots of Speed",
+        "Amplifying Tome"
+      ],
+      "ap": 20.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 3,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 145.8,
+      "window": 69.3,
+      "w_per": 0.48,
+      "items": [
+        "Boots of Speed",
+        "Fiendish Codex"
+      ],
+      "ap": 35.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 4,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 185.9,
+      "window": 103.7,
+      "w_per": 0.56,
+      "items": [
+        "Boots of Speed",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 55.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 5,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 198.4,
+      "window": 119.9,
+      "w_per": 0.6,
+      "items": [
+        "Boots of Speed",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 70.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 6,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 239.9,
+      "window": 165.8,
+      "w_per": 0.69,
+      "items": [
+        "Boots of Speed",
+        "Fiendish Codex",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 94.0,
+      "evolved": false,
+      "notes": "W NOT evolved"
+    },
+    {
+      "minute": 7,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 385.2,
+      "window": 423.9,
+      "w_per": 1.13,
+      "items": [
+        "Boots of Speed",
+        "Luden's Echo"
+      ],
+      "ap": 104.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 8,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 385.7,
+      "window": 425.1,
+      "w_per": 1.13,
+      "items": [
+        "Boots of Speed",
+        "Luden's Echo"
+      ],
+      "ap": 104.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 9,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 438.6,
+      "window": 484.0,
+      "w_per": 1.13,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana"
+      ],
+      "ap": 135.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 10,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 457.4,
+      "window": 505.6,
+      "w_per": 1.13,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Amplifying Tome"
+      ],
+      "ap": 155.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 11,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 471.6,
+      "window": 562.6,
+      "w_per": 1.22,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Fiendish Codex"
+      ],
+      "ap": 170.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 12,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 476.8,
+      "window": 611.5,
+      "w_per": 1.31,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Fiendish Codex",
+        "Fiendish Codex"
+      ],
+      "ap": 213.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 13,
+      "winner": "Luden \u2192 Horizon \u2192 Cap",
+      "chunk": 494.2,
+      "window": 633.8,
+      "w_per": 1.31,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Fiendish Codex",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 233.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 14,
+      "winner": "Horizon \u2192 Luden \u2192 Cap",
+      "chunk": 533.6,
+      "window": 705.2,
+      "w_per": 1.36,
+      "items": [
+        "Horizon Focus",
+        "Boots of Mana",
+        "Luden's Echo"
+      ],
+      "ap": 223.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+    },
+    {
+      "minute": 15,
+      "winner": "Luden \u2192 Spellslinger \u2192 Horizon",
+      "chunk": 566.3,
+      "window": 727.4,
+      "w_per": 1.31,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Fiendish Codex",
+        "Fiendish Codex",
+        "Amplifying Tome"
+      ],
+      "ap": 253.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 16,
+      "winner": "Luden \u2192 Spellslinger \u2192 Horizon",
+      "chunk": 611.6,
+      "window": 809.8,
+      "w_per": 1.36,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Horizon Focus"
+      ],
+      "ap": 243.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+    },
+    {
+      "minute": 17,
+      "winner": "Luden \u2192 Cryptbloom \u2192 Cap",
+      "chunk": 584.0,
+      "window": 751.4,
+      "w_per": 1.31,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Cryptbloom",
+        "Needlessly Large Rod"
+      ],
+      "ap": 298.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    },
+    {
+      "minute": 18,
+      "winner": "Luden \u2192 Spellslinger \u2192 Horizon",
+      "chunk": 643.6,
+      "window": 853.8,
+      "w_per": 1.36,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Needlessly Large Rod"
+      ],
+      "ap": 325.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+    },
+    {
+      "minute": 19,
+      "winner": "Luden \u2192 Spellslinger \u2192 Horizon",
+      "chunk": 643.6,
+      "window": 853.8,
+      "w_per": 1.36,
+      "items": [
+        "Luden's Echo",
+        "Spellslinger's Shoes",
+        "Horizon Focus",
+        "Needlessly Large Rod"
+      ],
+      "ap": 325.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+    },
+    {
+      "minute": 20,
+      "winner": "Luden \u2192 Cryptbloom \u2192 Cap",
+      "chunk": 749.7,
+      "window": 966.3,
+      "w_per": 1.31,
+      "items": [
+        "Luden's Echo",
+        "Boots of Mana",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "ap": 481.0,
+      "evolved": true,
+      "notes": "W evolved (70% CD refund), Luden echo"
+    }
+  ],
+  "rune_compare_16": [
+    {
+      "keystone": "First Strike + Storm",
+      "chunk": 608.4,
+      "window": 805.6,
+      "ap": 303.0
+    },
+    {
+      "keystone": "First Strike + Scorch",
+      "chunk": 613.3,
+      "window": 813.3,
+      "ap": 275.0
+    },
+    {
+      "keystone": "Comet + Gathering Storm",
+      "chunk": 633.4,
+      "window": 858.5,
+      "ap": 303.0
+    },
+    {
+      "keystone": "Comet + Scorch",
+      "chunk": 639.4,
+      "window": 866.8,
+      "ap": 275.0
+    }
+  ],
+  "builds": {
+    "Horizon \u2192 Luden \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 35.0,
+        "ah": 15.0,
+        "w_evolved": false,
+        "chunk_squish": 145.8,
+        "chunk_tank": 141.6,
+        "chunk_execute": 145.8,
+        "window_squish": 69.3,
+        "window_tank": 67.3,
+        "w_per_window": 0.48,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 55.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 185.9,
+        "chunk_tank": 179.9,
+        "chunk_execute": 185.9,
+        "window_squish": 103.7,
+        "window_tank": 100.4,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 70.0,
+        "ah": 30.0,
+        "w_evolved": false,
+        "chunk_squish": 198.4,
+        "chunk_tank": 191.4,
+        "chunk_execute": 198.4,
+        "window_squish": 119.9,
+        "window_tank": 115.7,
+        "w_per_window": 0.6,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 94.0,
+        "ah": 30.0,
+        "w_evolved": false,
+        "chunk_squish": 239.9,
+        "chunk_tank": 230.8,
+        "chunk_execute": 239.9,
+        "window_squish": 165.8,
+        "window_tank": 159.4,
+        "w_per_window": 0.69,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Horizon Focus"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 84.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 275.7,
+        "chunk_tank": 264.4,
+        "chunk_execute": 275.7,
+        "window_squish": 307.0,
+        "window_tank": 294.5,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Horizon Focus"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 84.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 277.6,
+        "chunk_tank": 265.4,
+        "chunk_execute": 277.6,
+        "window_squish": 309.6,
+        "window_tank": 296.0,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 115.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 324.4,
+        "chunk_tank": 293.0,
+        "chunk_execute": 324.4,
+        "window_squish": 362.3,
+        "window_tank": 327.2,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 115.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 325.9,
+        "chunk_tank": 279.8,
+        "chunk_execute": 325.9,
+        "window_squish": 364.6,
+        "window_tank": 312.9,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 362.2,
+        "chunk_tank": 296.9,
+        "chunk_execute": 362.2,
+        "window_squish": 479.8,
+        "window_tank": 393.3,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 163.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 345.4,
+        "chunk_tank": 290.4,
+        "chunk_execute": 345.4,
+        "window_squish": 458.2,
+        "window_tank": 385.2,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 208.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 383.1,
+        "chunk_tank": 308.8,
+        "chunk_execute": 383.1,
+        "window_squish": 508.2,
+        "window_tank": 409.7,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 533.6,
+        "chunk_tank": 412.9,
+        "chunk_execute": 533.6,
+        "window_squish": 705.2,
+        "window_tank": 545.8,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 543.0,
+        "chunk_tank": 404.5,
+        "chunk_execute": 543.0,
+        "window_squish": 717.8,
+        "window_tank": 534.7,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 303.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 608.4,
+        "chunk_tank": 436.8,
+        "chunk_execute": 608.4,
+        "window_squish": 805.6,
+        "window_tank": 578.4,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 303.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 563.4,
+        "chunk_tank": 421.7,
+        "chunk_execute": 563.4,
+        "window_squish": 746.0,
+        "window_tank": 558.4,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 414.6,
+        "chunk_execute": 573.1,
+        "window_squish": 760.3,
+        "window_tank": 550.0,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 401.3,
+        "chunk_execute": 573.1,
+        "window_squish": 760.3,
+        "window_tank": 532.3,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 487.5,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 722.1,
+        "chunk_tank": 489.9,
+        "chunk_execute": 722.1,
+        "window_squish": 958.4,
+        "window_tank": 650.2,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      }
+    ],
+    "Luden \u2192 Horizon \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 457.4,
+        "chunk_tank": 392.6,
+        "chunk_execute": 457.4,
+        "window_squish": 505.6,
+        "window_tank": 434.0,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fiendish Codex"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 170.0,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 471.6,
+        "chunk_tank": 386.5,
+        "chunk_execute": 471.6,
+        "window_squish": 562.6,
+        "window_tank": 461.1,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 213.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 476.8,
+        "chunk_tank": 400.7,
+        "chunk_execute": 476.8,
+        "window_squish": 611.5,
+        "window_tank": 514.0,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 233.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 494.2,
+        "chunk_tank": 398.3,
+        "chunk_execute": 494.2,
+        "window_squish": 633.8,
+        "window_tank": 510.9,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 533.6,
+        "chunk_tank": 412.9,
+        "chunk_execute": 533.6,
+        "window_squish": 705.2,
+        "window_tank": 545.8,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 543.0,
+        "chunk_tank": 404.5,
+        "chunk_execute": 543.0,
+        "window_squish": 717.8,
+        "window_tank": 534.7,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 303.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 608.4,
+        "chunk_tank": 436.8,
+        "chunk_execute": 608.4,
+        "window_squish": 805.6,
+        "window_tank": 578.4,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 303.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 563.4,
+        "chunk_tank": 421.7,
+        "chunk_execute": 563.4,
+        "window_squish": 746.0,
+        "window_tank": 558.4,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 414.6,
+        "chunk_execute": 573.1,
+        "window_squish": 760.3,
+        "window_tank": 550.0,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 401.3,
+        "chunk_execute": 573.1,
+        "window_squish": 760.3,
+        "window_tank": 532.3,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 487.5,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 722.1,
+        "chunk_tank": 489.9,
+        "chunk_execute": 722.1,
+        "window_squish": 958.4,
+        "window_tank": 650.2,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      }
+    ],
+    "Luden \u2192 Spellslinger \u2192 Horizon": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 145.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 497.4,
+        "chunk_tank": 406.1,
+        "chunk_execute": 497.4,
+        "window_squish": 549.8,
+        "window_tank": 448.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Amplifying Tome"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 173.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 489.9,
+        "chunk_tank": 410.5,
+        "chunk_execute": 489.9,
+        "window_squish": 542.4,
+        "window_tank": 454.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Fiendish Codex"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 188.0,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 504.4,
+        "chunk_tank": 405.0,
+        "chunk_execute": 504.4,
+        "window_squish": 602.7,
+        "window_tank": 484.0,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 537.6,
+        "chunk_tank": 414.2,
+        "chunk_execute": 537.6,
+        "window_squish": 690.6,
+        "window_tank": 532.1,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 253.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 566.3,
+        "chunk_tank": 419.7,
+        "chunk_execute": 566.3,
+        "window_squish": 727.4,
+        "window_tank": 539.1,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Horizon Focus"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 611.6,
+        "chunk_tank": 436.7,
+        "chunk_execute": 611.6,
+        "window_squish": 809.8,
+        "window_tank": 578.2,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Horizon Focus"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 565.6,
+        "chunk_tank": 421.4,
+        "chunk_execute": 565.6,
+        "window_squish": 748.8,
+        "window_tank": 557.9,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 643.6,
+        "chunk_tank": 463.3,
+        "chunk_execute": 643.6,
+        "window_squish": 853.8,
+        "window_tank": 614.7,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 643.6,
+        "chunk_tank": 448.3,
+        "chunk_execute": 643.6,
+        "window_squish": 853.8,
+        "window_tank": 594.7,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Spellslinger's Shoes",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 45.0,
+        "w_evolved": true,
+        "chunk_squish": 643.6,
+        "chunk_tank": 434.1,
+        "chunk_execute": 643.6,
+        "window_squish": 853.8,
+        "window_tank": 576.0,
+        "w_per_window": 1.36,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Luden echo"
+      }
+    ],
+    "Luden \u2192 Cap \u2192 Void": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 359.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 397.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.8,
+        "chunk_tank": 400.7,
+        "chunk_execute": 476.8,
+        "window_squish": 527.8,
+        "window_tank": 443.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.8,
+        "chunk_tank": 384.3,
+        "chunk_execute": 476.8,
+        "window_squish": 527.8,
+        "window_tank": 425.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.4,
+        "chunk_tank": 368.7,
+        "chunk_execute": 476.4,
+        "window_squish": 528.4,
+        "window_tank": 408.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 367.9,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 610.0,
+        "chunk_tank": 454.4,
+        "chunk_execute": 610.0,
+        "window_squish": 676.5,
+        "window_tank": 503.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 367.9,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 608.5,
+        "chunk_tank": 436.9,
+        "chunk_execute": 608.5,
+        "window_squish": 676.2,
+        "window_tank": 485.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 393.9,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 610.5,
+        "chunk_tank": 463.9,
+        "chunk_execute": 610.5,
+        "window_squish": 678.4,
+        "window_tank": 515.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 409.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 622.4,
+        "chunk_tank": 457.7,
+        "chunk_execute": 622.4,
+        "window_squish": 693.0,
+        "window_tank": 509.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 500.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 697.2,
+        "chunk_tank": 496.9,
+        "chunk_execute": 697.2,
+        "window_squish": 776.2,
+        "window_tank": 553.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 507.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 814.2,
+        "chunk_tank": 605.5,
+        "chunk_execute": 814.2,
+        "window_squish": 906.5,
+        "window_tank": 674.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      }
+    ],
+    "Luden \u2192 Orb \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Hextech Alternator"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 180.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 481.0,
+        "chunk_tank": 394.2,
+        "chunk_execute": 481.0,
+        "window_squish": 531.7,
+        "window_tank": 435.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.8,
+        "chunk_tank": 400.7,
+        "chunk_execute": 476.8,
+        "window_squish": 527.8,
+        "window_tank": 443.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.8,
+        "chunk_tank": 384.3,
+        "chunk_execute": 476.8,
+        "window_squish": 527.8,
+        "window_tank": 425.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Needlessly Large Rod",
+          "Hextech Alternator"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 258.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 515.2,
+        "chunk_tank": 398.7,
+        "chunk_execute": 515.2,
+        "window_squish": 571.4,
+        "window_tank": 442.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 263.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 519.6,
+        "chunk_tank": 387.0,
+        "chunk_execute": 623.5,
+        "window_squish": 576.2,
+        "window_tank": 429.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 263.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 518.9,
+        "chunk_tank": 372.5,
+        "chunk_execute": 622.6,
+        "window_squish": 576.5,
+        "window_tank": 413.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 333.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 535.9,
+        "chunk_tank": 401.1,
+        "chunk_execute": 643.1,
+        "window_squish": 595.5,
+        "window_tank": 445.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 345.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 544.6,
+        "chunk_tank": 394.0,
+        "chunk_execute": 653.5,
+        "window_squish": 606.3,
+        "window_tank": 438.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 345.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 544.6,
+        "chunk_tank": 381.3,
+        "chunk_execute": 653.5,
+        "window_squish": 606.3,
+        "window_tank": 424.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Infinity Orb",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 526.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 687.1,
+        "chunk_tank": 466.1,
+        "chunk_execute": 824.5,
+        "window_squish": 765.0,
+        "window_tank": 519.0,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Orb execute only <35% HP"
+      }
+    ],
+    "Luden \u2192 Stormsurge \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Hextech Alternator"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 180.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 481.0,
+        "chunk_tank": 394.2,
+        "chunk_execute": 481.0,
+        "window_squish": 531.7,
+        "window_tank": 435.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Hextech Alternator"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 188.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 455.0,
+        "chunk_tank": 382.5,
+        "chunk_execute": 455.0,
+        "window_squish": 503.8,
+        "window_tank": 423.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Hextech Alternator",
+          "Aether Wisp"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 218.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 481.1,
+        "chunk_tank": 387.8,
+        "chunk_execute": 481.1,
+        "window_squish": 532.6,
+        "window_tank": 429.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 549.0,
+        "chunk_tank": 414.4,
+        "chunk_execute": 667.5,
+        "window_squish": 608.9,
+        "window_tank": 459.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 558.6,
+        "chunk_tank": 404.5,
+        "chunk_execute": 677.9,
+        "window_squish": 619.5,
+        "window_tank": 448.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 557.4,
+        "chunk_tank": 388.1,
+        "chunk_execute": 675.6,
+        "window_squish": 619.4,
+        "window_tank": 431.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 313.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 418.2,
+        "chunk_execute": 686.7,
+        "window_squish": 636.7,
+        "window_tank": 464.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 582.3,
+        "chunk_tank": 409.8,
+        "chunk_execute": 695.8,
+        "window_squish": 648.3,
+        "window_tank": 456.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 582.3,
+        "chunk_tank": 395.7,
+        "chunk_execute": 695.8,
+        "window_squish": 648.3,
+        "window_tank": 440.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Stormsurge",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 500.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 860.1,
+        "chunk_tank": 482.3,
+        "chunk_execute": 860.1,
+        "window_squish": 957.7,
+        "window_tank": 537.0,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      }
+    ],
+    "Horizon \u2192 Cap \u2192 Void": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 132.6,
+        "chunk_tank": 129.2,
+        "chunk_execute": 132.6,
+        "window_squish": 57.5,
+        "window_tank": 56.1,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 35.0,
+        "ah": 15.0,
+        "w_evolved": false,
+        "chunk_squish": 145.8,
+        "chunk_tank": 141.6,
+        "chunk_execute": 145.8,
+        "window_squish": 69.3,
+        "window_tank": 67.3,
+        "w_per_window": 0.48,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 55.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 185.9,
+        "chunk_tank": 179.9,
+        "chunk_execute": 185.9,
+        "window_squish": 103.7,
+        "window_tank": 100.4,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 70.0,
+        "ah": 30.0,
+        "w_evolved": false,
+        "chunk_squish": 198.4,
+        "chunk_tank": 191.4,
+        "chunk_execute": 198.4,
+        "window_squish": 119.9,
+        "window_tank": 115.7,
+        "w_per_window": 0.6,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 94.0,
+        "ah": 30.0,
+        "w_evolved": false,
+        "chunk_squish": 239.9,
+        "chunk_tank": 230.8,
+        "chunk_execute": 239.9,
+        "window_squish": 165.8,
+        "window_tank": 159.4,
+        "w_per_window": 0.69,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Horizon Focus"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 84.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 275.7,
+        "chunk_tank": 264.4,
+        "chunk_execute": 275.7,
+        "window_squish": 307.0,
+        "window_tank": 294.5,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Horizon Focus"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 84.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 277.6,
+        "chunk_tank": 265.4,
+        "chunk_execute": 277.6,
+        "window_squish": 309.6,
+        "window_tank": 296.0,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 115.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 324.4,
+        "chunk_tank": 293.0,
+        "chunk_execute": 324.4,
+        "window_squish": 362.3,
+        "window_tank": 327.2,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 115.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 325.9,
+        "chunk_tank": 279.8,
+        "chunk_execute": 325.9,
+        "window_squish": 364.6,
+        "window_tank": 312.9,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 115.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 325.9,
+        "chunk_tank": 267.1,
+        "chunk_execute": 325.9,
+        "window_squish": 364.6,
+        "window_tank": 298.8,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 193.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 370.6,
+        "chunk_tank": 311.5,
+        "chunk_execute": 370.6,
+        "window_squish": 415.1,
+        "window_tank": 348.9,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 193.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 370.6,
+        "chunk_tank": 298.7,
+        "chunk_execute": 370.6,
+        "window_squish": 415.1,
+        "window_tank": 334.7,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Needlessly Large Rod"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 193.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 371.6,
+        "chunk_tank": 287.6,
+        "chunk_execute": 371.6,
+        "window_squish": 417.0,
+        "window_tank": 322.7,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 341.9,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 495.1,
+        "chunk_tank": 368.8,
+        "chunk_execute": 495.1,
+        "window_squish": 555.7,
+        "window_tank": 413.9,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 341.9,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 495.0,
+        "chunk_tank": 355.4,
+        "chunk_execute": 495.0,
+        "window_squish": 556.6,
+        "window_tank": 399.6,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 367.9,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 499.9,
+        "chunk_tank": 379.8,
+        "chunk_execute": 499.9,
+        "window_squish": 562.0,
+        "window_tank": 427.0,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 383.5,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 512.5,
+        "chunk_tank": 376.9,
+        "chunk_execute": 512.5,
+        "window_squish": 577.3,
+        "window_tank": 424.6,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Amethyst",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 474.5,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 584.4,
+        "chunk_tank": 416.6,
+        "chunk_execute": 584.4,
+        "window_squish": 658.4,
+        "window_tank": 469.3,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Horizon Focus",
+          "Boots of Mana",
+          "Rabadon's Deathcap",
+          "Void Staff"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 481.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 683.3,
+        "chunk_tank": 508.1,
+        "chunk_execute": 683.3,
+        "window_squish": 769.8,
+        "window_tank": 572.4,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      }
+    ],
+    "Liandry \u2192 Horizon \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 40.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 157.3,
+        "chunk_tank": 152.8,
+        "chunk_execute": 157.3,
+        "window_squish": 68.3,
+        "window_tank": 66.3,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 183.1,
+        "chunk_tank": 177.3,
+        "chunk_execute": 183.1,
+        "window_squish": 93.7,
+        "window_tank": 90.7,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 185.2,
+        "chunk_tank": 178.7,
+        "chunk_execute": 185.2,
+        "window_squish": 94.7,
+        "window_tank": 91.4,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 79.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 237.2,
+        "chunk_tank": 228.2,
+        "chunk_execute": 237.2,
+        "window_squish": 138.7,
+        "window_tank": 133.4,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 79.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 238.7,
+        "chunk_tank": 228.9,
+        "chunk_execute": 238.7,
+        "window_squish": 139.6,
+        "window_tank": 133.8,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Liandry's Torment"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 74.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 298.7,
+        "chunk_tank": 291.2,
+        "chunk_execute": 264.1,
+        "window_squish": 274.1,
+        "window_tank": 267.2,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 105.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 347.8,
+        "chunk_tank": 321.5,
+        "chunk_execute": 309.0,
+        "window_squish": 319.7,
+        "window_tank": 295.6,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 125.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 369.1,
+        "chunk_tank": 325.7,
+        "chunk_execute": 328.2,
+        "window_squish": 340.0,
+        "window_tank": 300.0,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Fiendish Codex"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 140.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 382.2,
+        "chunk_tank": 323.2,
+        "chunk_execute": 340.9,
+        "window_squish": 382.2,
+        "window_tank": 323.2,
+        "w_per_window": 1.01,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 168.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 381.9,
+        "chunk_tank": 332.1,
+        "chunk_execute": 341.5,
+        "window_squish": 382.6,
+        "window_tank": 332.7,
+        "w_per_window": 1.01,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 183.0,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 394.1,
+        "chunk_tank": 329.5,
+        "chunk_execute": 353.3,
+        "window_squish": 425.9,
+        "window_tank": 356.2,
+        "w_per_window": 1.1,
+        "notes": "W evolved (70% CD refund), Liandry 2s fog burn"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 193.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 446.0,
+        "chunk_tank": 359.3,
+        "chunk_execute": 399.1,
+        "window_squish": 500.6,
+        "window_tank": 403.2,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 203.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 455.0,
+        "chunk_tank": 353.8,
+        "chunk_execute": 407.7,
+        "window_squish": 510.6,
+        "window_tank": 397.0,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 203.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 458.9,
+        "chunk_tank": 345.2,
+        "chunk_execute": 409.5,
+        "window_squish": 516.0,
+        "window_tank": 388.1,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 273.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 479.8,
+        "chunk_tank": 375.6,
+        "chunk_execute": 433.8,
+        "window_squish": 539.5,
+        "window_tank": 422.2,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 285.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 492.5,
+        "chunk_tank": 373.4,
+        "chunk_execute": 444.5,
+        "window_squish": 554.8,
+        "window_tank": 420.7,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 285.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 492.9,
+        "chunk_tank": 362.9,
+        "chunk_execute": 444.6,
+        "window_squish": 555.3,
+        "window_tank": 408.8,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Liandry's Torment",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 448.5,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 619.5,
+        "chunk_tank": 438.5,
+        "chunk_execute": 570.8,
+        "window_squish": 697.8,
+        "window_tank": 494.0,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Liandry 2s fog burn"
+      }
+    ],
+    "Luden \u2192 Liandry \u2192 Void": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fated Ashes"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 175.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 484.1,
+        "chunk_tank": 396.8,
+        "chunk_execute": 484.1,
+        "window_squish": 535.1,
+        "window_tank": 438.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fated Ashes"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 183.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 457.9,
+        "chunk_tank": 384.9,
+        "chunk_execute": 457.9,
+        "window_squish": 507.0,
+        "window_tank": 426.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 218.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 488.4,
+        "chunk_tank": 393.7,
+        "chunk_execute": 488.4,
+        "window_squish": 540.7,
+        "window_tank": 435.8,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 218.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 487.9,
+        "chunk_tank": 377.6,
+        "chunk_execute": 487.9,
+        "window_squish": 541.1,
+        "window_tank": 418.8,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 556.2,
+        "chunk_tank": 427.8,
+        "chunk_execute": 513.2,
+        "window_squish": 616.8,
+        "window_tank": 474.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Void Amethyst"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 599.1,
+        "chunk_tank": 453.2,
+        "chunk_execute": 552.4,
+        "window_squish": 665.7,
+        "window_tank": 503.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Void Amethyst"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 557.9,
+        "chunk_tank": 439.7,
+        "chunk_execute": 514.1,
+        "window_squish": 619.9,
+        "window_tank": 488.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Void Amethyst"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 255.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 570.6,
+        "chunk_tank": 436.2,
+        "chunk_execute": 525.0,
+        "window_squish": 635.3,
+        "window_tank": 485.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Void Amethyst",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 629.7,
+        "chunk_tank": 466.0,
+        "chunk_execute": 583.8,
+        "window_squish": 701.1,
+        "window_tank": 518.8,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Void Staff"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 330.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 735.2,
+        "chunk_tank": 568.7,
+        "chunk_execute": 681.6,
+        "window_squish": 818.5,
+        "window_tank": 633.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      }
+    ],
+    "Stormsurge \u2192 Luden \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Hextech Alternator"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 45.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 152.9,
+        "chunk_tank": 148.5,
+        "chunk_execute": 152.9,
+        "window_squish": 66.4,
+        "window_tank": 64.5,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Hextech Alternator"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 45.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 178.8,
+        "chunk_tank": 173.1,
+        "chunk_execute": 178.8,
+        "window_squish": 91.5,
+        "window_tank": 88.5,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Hextech Alternator"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 45.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 180.9,
+        "chunk_tank": 174.5,
+        "chunk_execute": 180.9,
+        "window_squish": 92.5,
+        "window_tank": 89.3,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Hextech Alternator",
+          "Aether Wisp"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 79.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 229.5,
+        "chunk_tank": 220.8,
+        "chunk_execute": 229.5,
+        "window_squish": 134.2,
+        "window_tank": 129.1,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Hextech Alternator",
+          "Aether Wisp"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 79.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 231.1,
+        "chunk_tank": 221.6,
+        "chunk_execute": 231.1,
+        "window_squish": 135.1,
+        "window_tank": 129.6,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Stormsurge"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 94.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 291.1,
+        "chunk_tank": 276.9,
+        "chunk_execute": 404.6,
+        "window_squish": 267.2,
+        "window_tank": 254.1,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 125.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 341.2,
+        "chunk_tank": 304.4,
+        "chunk_execute": 463.8,
+        "window_squish": 313.6,
+        "window_tank": 279.8,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 125.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 342.2,
+        "chunk_tank": 288.7,
+        "chunk_execute": 463.5,
+        "window_squish": 315.2,
+        "window_tank": 265.9,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Hextech Alternator"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 170.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 383.9,
+        "chunk_tank": 307.8,
+        "chunk_execute": 509.2,
+        "window_squish": 353.6,
+        "window_tank": 283.5,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 173.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 358.0,
+        "chunk_tank": 295.6,
+        "chunk_execute": 472.9,
+        "window_squish": 396.4,
+        "window_tank": 327.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 173.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 358.0,
+        "chunk_tank": 282.4,
+        "chunk_execute": 472.9,
+        "window_squish": 396.4,
+        "window_tank": 312.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 549.0,
+        "chunk_tank": 414.4,
+        "chunk_execute": 667.5,
+        "window_squish": 608.9,
+        "window_tank": 459.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 558.6,
+        "chunk_tank": 404.5,
+        "chunk_execute": 677.9,
+        "window_squish": 619.5,
+        "window_tank": 448.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 557.4,
+        "chunk_tank": 388.1,
+        "chunk_execute": 675.6,
+        "window_squish": 619.4,
+        "window_tank": 431.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 313.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 573.1,
+        "chunk_tank": 418.2,
+        "chunk_execute": 686.7,
+        "window_squish": 636.7,
+        "window_tank": 464.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 582.3,
+        "chunk_tank": 409.8,
+        "chunk_execute": 695.8,
+        "window_squish": 648.3,
+        "window_tank": 456.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 582.3,
+        "chunk_tank": 395.7,
+        "chunk_execute": 695.8,
+        "window_squish": 648.3,
+        "window_tank": 440.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Stormsurge",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 500.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 860.1,
+        "chunk_tank": 482.3,
+        "chunk_execute": 860.1,
+        "window_squish": 957.7,
+        "window_tank": 537.0,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Stormsurge if 25% HP chunk"
+      }
+    ],
+    "Orb \u2192 Horizon \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Needlessly Large Rod"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 70.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 196.4,
+        "chunk_tank": 190.2,
+        "chunk_execute": 196.4,
+        "window_squish": 100.5,
+        "window_tank": 97.3,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Needlessly Large Rod"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 70.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 198.4,
+        "chunk_tank": 191.4,
+        "chunk_execute": 198.4,
+        "window_squish": 101.5,
+        "window_tank": 97.9,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Needlessly Large Rod"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 74.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 226.1,
+        "chunk_tank": 217.5,
+        "chunk_execute": 226.1,
+        "window_squish": 132.2,
+        "window_tank": 127.1,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Needlessly Large Rod",
+          "Hextech Alternator"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 119.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 258.5,
+        "chunk_tank": 247.9,
+        "chunk_execute": 258.5,
+        "window_squish": 151.1,
+        "window_tank": 144.9,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Infinity Orb"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 114.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 276.1,
+        "chunk_tank": 264.0,
+        "chunk_execute": 331.4,
+        "window_squish": 253.4,
+        "window_tank": 242.3,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Boots of Speed",
+          "Infinity Orb"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 120.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 282.4,
+        "chunk_tank": 256.4,
+        "chunk_execute": 338.8,
+        "window_squish": 259.6,
+        "window_tank": 235.7,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 145.0,
+        "ah": 10.0,
+        "w_evolved": true,
+        "chunk_squish": 321.0,
+        "chunk_tank": 275.6,
+        "chunk_execute": 385.2,
+        "window_squish": 295.7,
+        "window_tank": 253.8,
+        "w_per_window": 0.93,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Fiendish Codex"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 180.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 349.9,
+        "chunk_tank": 286.8,
+        "chunk_execute": 419.9,
+        "window_squish": 349.9,
+        "window_tank": 286.8,
+        "w_per_window": 1.01,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 208.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 348.3,
+        "chunk_tank": 292.8,
+        "chunk_execute": 418.0,
+        "window_squish": 348.9,
+        "window_tank": 293.3,
+        "w_per_window": 1.01,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 223.0,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 359.7,
+        "chunk_tank": 290.0,
+        "chunk_execute": 431.7,
+        "window_squish": 388.8,
+        "window_tank": 313.4,
+        "w_per_window": 1.1,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 243.0,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 375.5,
+        "chunk_tank": 290.6,
+        "chunk_execute": 450.6,
+        "window_squish": 406.6,
+        "window_tank": 314.7,
+        "w_per_window": 1.1,
+        "notes": "W evolved (70% CD refund), Orb execute only <35% HP"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 243.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 413.1,
+        "chunk_tank": 307.7,
+        "chunk_execute": 495.7,
+        "window_squish": 463.5,
+        "window_tank": 345.3,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 243.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 413.7,
+        "chunk_tank": 297.0,
+        "chunk_execute": 496.4,
+        "window_squish": 465.1,
+        "window_tank": 333.9,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 313.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 436.4,
+        "chunk_tank": 326.6,
+        "chunk_execute": 523.7,
+        "window_squish": 490.7,
+        "window_tank": 367.3,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 445.9,
+        "chunk_tank": 322.6,
+        "chunk_execute": 535.0,
+        "window_squish": 502.3,
+        "window_tank": 363.4,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 445.9,
+        "chunk_tank": 312.2,
+        "chunk_execute": 535.0,
+        "window_squish": 502.3,
+        "window_tank": 351.7,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Infinity Orb",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 500.5,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 578.5,
+        "chunk_tank": 392.5,
+        "chunk_execute": 694.2,
+        "window_squish": 651.7,
+        "window_tank": 442.1,
+        "w_per_window": 1.14,
+        "notes": "W evolved (70% CD refund), Horizon +10%, Orb execute only <35% HP"
+      }
+    ],
+    "Luden \u2192 Cryptbloom \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 376.5,
+        "chunk_execute": 438.6,
+        "window_squish": 484.8,
+        "window_tank": 416.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Void Amethyst"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 472.8,
+        "chunk_tank": 392.5,
+        "chunk_execute": 472.8,
+        "window_squish": 522.6,
+        "window_tank": 433.8,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Void Amethyst"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 163.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 450.2,
+        "chunk_tank": 382.4,
+        "chunk_execute": 450.2,
+        "window_squish": 498.4,
+        "window_tank": 423.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Void Amethyst"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 163.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 450.2,
+        "chunk_tank": 367.5,
+        "chunk_execute": 450.2,
+        "window_squish": 498.4,
+        "window_tank": 406.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Void Amethyst"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 163.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 450.5,
+        "chunk_tank": 353.8,
+        "chunk_execute": 450.5,
+        "window_squish": 499.7,
+        "window_tank": 392.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 228.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 552.7,
+        "chunk_tank": 434.9,
+        "chunk_execute": 552.7,
+        "window_squish": 710.0,
+        "window_tank": 558.7,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 228.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 553.3,
+        "chunk_tank": 422.0,
+        "chunk_execute": 553.3,
+        "window_squish": 711.8,
+        "window_tank": 542.9,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 298.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 584.0,
+        "chunk_tank": 459.7,
+        "chunk_execute": 584.0,
+        "window_squish": 751.4,
+        "window_tank": 591.5,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 310.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 595.1,
+        "chunk_tank": 455.0,
+        "chunk_execute": 595.1,
+        "window_squish": 767.1,
+        "window_tank": 586.5,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 310.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 595.1,
+        "chunk_tank": 442.5,
+        "chunk_execute": 595.1,
+        "window_squish": 767.1,
+        "window_tank": 570.3,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Cryptbloom",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 481.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 749.7,
+        "chunk_tank": 542.5,
+        "chunk_execute": 749.7,
+        "window_squish": 966.3,
+        "window_tank": 699.2,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      }
+    ],
+    "Luden \u2192 Rylai \u2192 Liandry": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.2,
+        "chunk_tank": 369.4,
+        "chunk_execute": 385.2,
+        "window_squish": 423.9,
+        "window_tank": 406.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Luden's Echo"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 104.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 385.7,
+        "chunk_tank": 368.8,
+        "chunk_execute": 385.7,
+        "window_squish": 425.1,
+        "window_tank": 406.4,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 135.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 438.6,
+        "chunk_tank": 396.0,
+        "chunk_execute": 438.6,
+        "window_squish": 484.0,
+        "window_tank": 437.1,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 457.4,
+        "chunk_tank": 392.6,
+        "chunk_execute": 457.4,
+        "window_squish": 505.6,
+        "window_tank": 434.0,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Blasting Wand"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 180.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 481.0,
+        "chunk_tank": 394.2,
+        "chunk_execute": 481.0,
+        "window_squish": 531.7,
+        "window_tank": 435.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 208.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 472.4,
+        "chunk_tank": 397.1,
+        "chunk_execute": 472.4,
+        "window_squish": 523.0,
+        "window_tank": 439.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Blasting Wand",
+          "Amplifying Tome"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 208.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 472.4,
+        "chunk_tank": 380.8,
+        "chunk_execute": 472.4,
+        "window_squish": 523.0,
+        "window_tank": 421.6,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 213.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 476.4,
+        "chunk_tank": 368.7,
+        "chunk_execute": 476.4,
+        "window_squish": 528.4,
+        "window_tank": 408.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 485.1,
+        "chunk_tank": 361.3,
+        "chunk_execute": 485.1,
+        "window_squish": 538.0,
+        "window_tank": 400.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 263.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 528.1,
+        "chunk_tank": 379.2,
+        "chunk_execute": 528.1,
+        "window_squish": 586.8,
+        "window_tank": 421.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 263.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 489.1,
+        "chunk_tank": 366.1,
+        "chunk_execute": 489.1,
+        "window_squish": 543.4,
+        "window_tank": 406.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Fated Ashes",
+          "Haunting Guise"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 310.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 525.6,
+        "chunk_tank": 380.2,
+        "chunk_execute": 525.6,
+        "window_squish": 585.2,
+        "window_tank": 423.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 305.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 604.9,
+        "chunk_tank": 444.5,
+        "chunk_execute": 547.9,
+        "window_squish": 673.5,
+        "window_tank": 494.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Luden's Echo",
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 305.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 605.5,
+        "chunk_tank": 432.3,
+        "chunk_execute": 548.0,
+        "window_squish": 674.1,
+        "window_tank": 481.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Liandry 2s fog burn"
+      }
+    ],
+    "Malig \u2192 Luden \u2192 Cap (trap ult)": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 120.9,
+        "chunk_tank": 117.4,
+        "chunk_execute": 120.9,
+        "window_squish": 52.5,
+        "window_tank": 51.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 175.3,
+        "chunk_tank": 169.7,
+        "chunk_execute": 175.3,
+        "window_squish": 97.8,
+        "window_tank": 94.7,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 177.4,
+        "chunk_tank": 171.2,
+        "chunk_execute": 177.4,
+        "window_squish": 99.0,
+        "window_tank": 95.5,
+        "w_per_window": 0.56,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Lost Chapter",
+          "Blasting Wand"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 89.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 236.5,
+        "chunk_tank": 227.5,
+        "chunk_execute": 236.5,
+        "window_squish": 150.8,
+        "window_tank": 145.1,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Malignance"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 94.0,
+        "ah": 25.0,
+        "w_evolved": true,
+        "chunk_squish": 258.6,
+        "chunk_tank": 248.0,
+        "chunk_execute": 258.6,
+        "window_squish": 296.0,
+        "window_tank": 283.8,
+        "w_per_window": 1.17,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Malignance"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 94.0,
+        "ah": 25.0,
+        "w_evolved": true,
+        "chunk_squish": 260.3,
+        "chunk_tank": 248.9,
+        "chunk_execute": 260.3,
+        "window_squish": 298.3,
+        "window_tank": 285.2,
+        "w_per_window": 1.17,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Malignance",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 125.0,
+        "ah": 25.0,
+        "w_evolved": true,
+        "chunk_squish": 303.2,
+        "chunk_tank": 273.8,
+        "chunk_execute": 303.2,
+        "window_squish": 348.0,
+        "window_tank": 314.2,
+        "w_per_window": 1.17,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Malignance",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 125.0,
+        "ah": 25.0,
+        "w_evolved": true,
+        "chunk_squish": 304.6,
+        "chunk_tank": 261.4,
+        "chunk_execute": 304.6,
+        "window_squish": 350.0,
+        "window_tank": 300.4,
+        "w_per_window": 1.17,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 165.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 337.5,
+        "chunk_tank": 276.6,
+        "chunk_execute": 337.5,
+        "window_squish": 417.5,
+        "window_tank": 342.2,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 173.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 321.7,
+        "chunk_tank": 270.4,
+        "chunk_execute": 321.7,
+        "window_squish": 398.5,
+        "window_tank": 334.9,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 218.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 355.9,
+        "chunk_tank": 286.9,
+        "chunk_execute": 355.9,
+        "window_squish": 440.9,
+        "window_tank": 355.4,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 493.7,
+        "chunk_tank": 382.1,
+        "chunk_execute": 493.7,
+        "window_squish": 612.5,
+        "window_tank": 474.0,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 243.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 502.3,
+        "chunk_tank": 374.2,
+        "chunk_execute": 502.3,
+        "window_squish": 623.2,
+        "window_tank": 464.2,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 313.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 561.6,
+        "chunk_tank": 403.2,
+        "chunk_execute": 561.6,
+        "window_squish": 697.9,
+        "window_tank": 501.1,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 313.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 520.1,
+        "chunk_tank": 389.3,
+        "chunk_execute": 520.1,
+        "window_squish": 646.3,
+        "window_tank": 483.8,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 528.8,
+        "chunk_tank": 382.6,
+        "chunk_execute": 528.8,
+        "window_squish": 658.4,
+        "window_tank": 476.3,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 325.0,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 528.8,
+        "chunk_tank": 370.3,
+        "chunk_execute": 528.8,
+        "window_squish": 658.4,
+        "window_tank": 461.0,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Malignance",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 500.5,
+        "ah": 35.0,
+        "w_evolved": true,
+        "chunk_squish": 666.7,
+        "chunk_tank": 452.3,
+        "chunk_execute": 666.7,
+        "window_squish": 830.0,
+        "window_tank": 563.1,
+        "w_per_window": 1.27,
+        "notes": "W evolved (70% CD refund), Luden echo, Malignance Hatefog wasted on fog W"
+      }
+    ],
+    "Nashor \u2192 Luden \u2192 Cap (trap E)": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 20.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 132.6,
+        "chunk_tank": 129.2,
+        "chunk_execute": 132.6,
+        "window_squish": 57.5,
+        "window_tank": 56.1,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 20.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 135.1,
+        "chunk_tank": 131.3,
+        "chunk_execute": 135.1,
+        "window_squish": 58.6,
+        "window_tank": 57.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 20.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 161.2,
+        "chunk_tank": 156.0,
+        "chunk_execute": 161.2,
+        "window_squish": 82.4,
+        "window_tank": 79.8,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 20.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 163.4,
+        "chunk_tank": 157.7,
+        "chunk_execute": 163.4,
+        "window_squish": 83.6,
+        "window_tank": 80.7,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Amplifying Tome"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 24.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 191.5,
+        "chunk_tank": 184.2,
+        "chunk_execute": 191.5,
+        "window_squish": 111.9,
+        "window_tank": 107.7,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Nashor's Tooth"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 84.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 234.5,
+        "chunk_tank": 224.9,
+        "chunk_execute": 234.5,
+        "window_squish": 137.1,
+        "window_tank": 131.5,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Nashor's Tooth"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 84.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 236.0,
+        "chunk_tank": 225.7,
+        "chunk_execute": 236.0,
+        "window_squish": 138.0,
+        "window_tank": 131.9,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 115.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 273.7,
+        "chunk_tank": 247.2,
+        "chunk_execute": 273.7,
+        "window_squish": 160.0,
+        "window_tank": 144.5,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 115.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 274.9,
+        "chunk_tank": 236.0,
+        "chunk_execute": 274.9,
+        "window_squish": 160.7,
+        "window_tank": 137.9,
+        "w_per_window": 0.58,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 155.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 303.2,
+        "chunk_tank": 248.5,
+        "chunk_execute": 303.2,
+        "window_squish": 193.3,
+        "window_tank": 158.5,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Lost Chapter"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 163.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 288.7,
+        "chunk_tank": 242.7,
+        "chunk_execute": 288.7,
+        "window_squish": 184.1,
+        "window_tank": 154.8,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Lost Chapter",
+          "Hextech Alternator"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 208.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 318.1,
+        "chunk_tank": 256.4,
+        "chunk_execute": 318.1,
+        "window_squish": 202.8,
+        "window_tank": 163.5,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved, Nashor evolved E not W"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 223.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 485.1,
+        "chunk_tank": 375.4,
+        "chunk_execute": 485.1,
+        "window_squish": 538.0,
+        "window_tank": 416.3,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 233.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 493.7,
+        "chunk_tank": 367.7,
+        "chunk_execute": 493.7,
+        "window_squish": 547.5,
+        "window_tank": 407.8,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 233.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 493.2,
+        "chunk_tank": 354.1,
+        "chunk_execute": 493.2,
+        "window_squish": 548.0,
+        "window_tank": 393.5,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 303.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 512.1,
+        "chunk_tank": 383.3,
+        "chunk_execute": 512.1,
+        "window_squish": 569.1,
+        "window_tank": 425.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 521.0,
+        "chunk_tank": 376.9,
+        "chunk_execute": 521.0,
+        "window_squish": 580.1,
+        "window_tank": 419.7,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 315.0,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 521.0,
+        "chunk_tank": 364.8,
+        "chunk_execute": 521.0,
+        "window_squish": 580.1,
+        "window_tank": 406.2,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Nashor's Tooth",
+          "Boots of Mana",
+          "Luden's Echo",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 487.5,
+        "ah": 20.0,
+        "w_evolved": true,
+        "chunk_squish": 656.5,
+        "chunk_tank": 445.4,
+        "chunk_execute": 656.5,
+        "window_squish": 730.9,
+        "window_tank": 495.9,
+        "w_per_window": 1.13,
+        "notes": "W evolved (70% CD refund), Luden echo, Nashor evolved E not W"
+      }
+    ],
+    "BF \u2192 Horizon \u2192 Cap": [
+      {
+        "minute": 1,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 860,
+        "level": 2,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 91.2,
+        "chunk_tank": 89.2,
+        "chunk_execute": 91.2,
+        "window_squish": 35.6,
+        "window_tank": 34.8,
+        "w_per_window": 0.39,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Boots of Speed"
+        ],
+        "gold": 1220,
+        "level": 3,
+        "ap": 0.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 118.2,
+        "chunk_tank": 115.2,
+        "chunk_execute": 118.2,
+        "window_squish": 51.3,
+        "window_tank": 50.0,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 1580,
+        "level": 4,
+        "ap": 40.0,
+        "ah": 5.0,
+        "w_evolved": false,
+        "chunk_squish": 157.3,
+        "chunk_tank": 152.8,
+        "chunk_execute": 157.3,
+        "window_squish": 68.3,
+        "window_tank": 66.3,
+        "w_per_window": 0.43,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 1940,
+        "level": 5,
+        "ap": 40.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 183.1,
+        "chunk_tank": 177.3,
+        "chunk_execute": 183.1,
+        "window_squish": 93.7,
+        "window_tank": 90.7,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes"
+        ],
+        "gold": 2300,
+        "level": 6,
+        "ap": 40.0,
+        "ah": 10.0,
+        "w_evolved": false,
+        "chunk_squish": 185.2,
+        "chunk_tank": 178.7,
+        "chunk_execute": 185.2,
+        "window_squish": 94.7,
+        "window_tank": 91.4,
+        "w_per_window": 0.51,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Boots of Speed",
+          "Fated Ashes",
+          "Lost Chapter"
+        ],
+        "gold": 2780,
+        "level": 7,
+        "ap": 84.0,
+        "ah": 20.0,
+        "w_evolved": false,
+        "chunk_squish": 240.7,
+        "chunk_tank": 231.5,
+        "chunk_execute": 240.7,
+        "window_squish": 153.5,
+        "window_tank": 147.7,
+        "w_per_window": 0.64,
+        "notes": "W NOT evolved"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Boots of Speed",
+          "Blackfire Torch"
+        ],
+        "gold": 3260,
+        "level": 8,
+        "ap": 87.4,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 286.5,
+        "chunk_tank": 274.7,
+        "chunk_execute": 286.5,
+        "window_squish": 340.4,
+        "window_tank": 326.5,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Boots of Speed",
+          "Blackfire Torch"
+        ],
+        "gold": 3740,
+        "level": 9,
+        "ap": 87.4,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 287.9,
+        "chunk_tank": 275.2,
+        "chunk_execute": 287.9,
+        "window_squish": 342.5,
+        "window_tank": 327.5,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana"
+        ],
+        "gold": 4220,
+        "level": 10,
+        "ap": 119.6,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 334.2,
+        "chunk_tank": 301.8,
+        "chunk_execute": 334.2,
+        "window_squish": 398.2,
+        "window_tank": 359.6,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Amplifying Tome"
+        ],
+        "gold": 4700,
+        "level": 11,
+        "ap": 140.4,
+        "ah": 30.0,
+        "w_evolved": true,
+        "chunk_squish": 353.1,
+        "chunk_tank": 303.0,
+        "chunk_execute": 353.1,
+        "window_squish": 421.2,
+        "window_tank": 361.5,
+        "w_per_window": 1.22,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Fiendish Codex"
+        ],
+        "gold": 5260,
+        "level": 11,
+        "ap": 156.0,
+        "ah": 40.0,
+        "w_evolved": true,
+        "chunk_squish": 366.4,
+        "chunk_tank": 300.3,
+        "chunk_execute": 366.4,
+        "window_squish": 469.3,
+        "window_tank": 384.6,
+        "w_per_window": 1.31,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex"
+        ],
+        "gold": 5820,
+        "level": 12,
+        "ap": 200.7,
+        "ah": 50.0,
+        "w_evolved": true,
+        "chunk_squish": 377.6,
+        "chunk_tank": 317.4,
+        "chunk_execute": 377.6,
+        "window_squish": 517.4,
+        "window_tank": 434.9,
+        "w_per_window": 1.41,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Fiendish Codex",
+          "Fiendish Codex",
+          "Amplifying Tome"
+        ],
+        "gold": 6380,
+        "level": 12,
+        "ap": 221.5,
+        "ah": 50.0,
+        "w_evolved": true,
+        "chunk_squish": 394.0,
+        "chunk_tank": 317.6,
+        "chunk_execute": 394.0,
+        "window_squish": 539.9,
+        "window_tank": 435.3,
+        "w_per_window": 1.41,
+        "notes": "W evolved (70% CD refund)"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 6940,
+        "level": 13,
+        "ap": 211.1,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 424.9,
+        "chunk_tank": 328.8,
+        "chunk_execute": 424.9,
+        "window_squish": 601.7,
+        "window_tank": 465.7,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus"
+        ],
+        "gold": 7500,
+        "level": 13,
+        "ap": 221.5,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 433.9,
+        "chunk_tank": 323.2,
+        "chunk_execute": 433.9,
+        "window_squish": 614.4,
+        "window_tank": 457.7,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8120,
+        "level": 14,
+        "ap": 294.3,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 496.5,
+        "chunk_tank": 356.5,
+        "chunk_execute": 496.5,
+        "window_squish": 704.1,
+        "window_tank": 505.5,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 8740,
+        "level": 14,
+        "ap": 294.3,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 459.7,
+        "chunk_tank": 344.1,
+        "chunk_execute": 459.7,
+        "window_squish": 652.0,
+        "window_tank": 488.0,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9360,
+        "level": 15,
+        "ap": 306.8,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 469.7,
+        "chunk_tank": 339.8,
+        "chunk_execute": 469.7,
+        "window_squish": 667.3,
+        "window_tank": 482.7,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Needlessly Large Rod"
+        ],
+        "gold": 9980,
+        "level": 15,
+        "ap": 306.8,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 469.7,
+        "chunk_tank": 328.9,
+        "chunk_execute": 469.7,
+        "window_squish": 667.3,
+        "window_tank": 467.2,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Blackfire Torch",
+          "Boots of Mana",
+          "Horizon Focus",
+          "Rabadon's Deathcap"
+        ],
+        "gold": 10600,
+        "level": 15,
+        "ap": 480.0,
+        "ah": 55.0,
+        "w_evolved": true,
+        "chunk_squish": 605.6,
+        "chunk_tank": 410.9,
+        "chunk_execute": 605.6,
+        "window_squish": 860.3,
+        "window_tank": 583.6,
+        "w_per_window": 1.46,
+        "notes": "W evolved (70% CD refund), Horizon +10%"
+      }
+    ]
+  }
+}
