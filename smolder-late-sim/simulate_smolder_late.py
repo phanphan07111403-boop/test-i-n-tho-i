@@ -13,6 +13,7 @@ Question:
   crit-ability capstone, what 6-item page actually peaks late
   (20:00–25:00) vs the old Muramana → Trinity → Serylda core?
   Which rune page actually fits that 0-AS crit Q page?
+  Does buying IE 2nd vs 3rd change Dragon Practice stacking?
 """
 
 from __future__ import annotations
@@ -124,7 +125,7 @@ def level_at_minute(m: int) -> int:
 
 
 def stacks_at_minute(m: int) -> int:
-    """Safe farm + poke. T1 AoE ~6:00, T2 bolts ~12:00, T3 burn ~17:00."""
+    """Baseline farm curve (no item feedback). Used for tables / isolated deltas."""
     stacks = 0
     for t in range(1, m + 1):
         if t <= 5:
@@ -136,6 +137,75 @@ def stacks_at_minute(m: int) -> int:
         else:
             stacks += 14
     return stacks
+
+
+def minion_hp_for_q(minute: int) -> float:
+    """Caster/melee mix a Q is trying to last-hit."""
+    return 210.0 + 16.0 * minute
+
+
+def stacks_gained_this_minute(minute: int, st: dict, stacks_so_far: int) -> float:
+    """Dragon Practice income: Q last-hits + champion ability hits.
+
+    IE raises last-hit reliability (Q damage / crit amp). Shojin raises Q
+    count (AH). Hexoptics raises champion-hit safety (range amp).
+    """
+    level = level_at_minute(minute)
+    ah = st["ah"]
+    q_cd = q_cooldown(level, ah)
+    if st.get("trans_refund"):
+        q_cd *= 0.92
+    q_per_min = 60.0 / max(1.6, q_cd)
+
+    crit = min(1.0, st["crit"])
+    amp = q_amp(crit, st["crit_dmg"])
+    q_rank = skill_rank(level, "Q")
+    q_phys = q_base_phys(q_rank, st["bonus_ad"]) * (1.0 + amp)
+    if st.get("er"):
+        q_phys += 1.35 * st["base_ad"] + 80.0 * crit
+    elif st.get("trinity"):
+        q_phys += 2.00 * st["base_ad"]
+    if st.get("hexoptics"):
+        q_phys *= 1.10
+
+    rel = min(1.0, max(0.50, q_phys / minion_hp_for_q(minute)))
+    farm = q_per_min * 0.38 * rel
+    if stacks_so_far >= 25:
+        farm *= 1.10
+    if stacks_so_far >= 100:
+        farm *= 1.06
+
+    # Champion hits: opportunities, filled better with more Qs / safer range.
+    opp = 1.5 + 0.055 * minute
+    cd_fill = min(1.28, max(0.78, q_per_min / 18.0))
+    champ = opp * cd_fill
+    if st.get("hexoptics"):
+        champ *= 1.12
+    if st.get("shojin"):
+        champ *= 1.06
+    if st.get("navori"):
+        champ *= 1.05
+    if stacks_so_far >= 25:
+        champ *= 1.08
+    if stacks_so_far >= 100:
+        champ *= 1.10
+    return farm + champ
+
+
+def stack_curve_for_path(
+    path: List[str], runes: RunePage = DEFAULT_RUNES
+) -> List[int]:
+    """curve[m] = stacks at minute m (curve[0] unused)."""
+    stacks = 0.0
+    curve = [0]
+    for m in range(1, GAME_MINUTES + 1):
+        gold = gold_at_minute(m)
+        level = level_at_minute(m)
+        inv = resolve_inventory(path, gold, m)
+        st = sum_stats(inv, m, level, runes)
+        stacks += stacks_gained_this_minute(m, st, stacks)
+        curve.append(int(round(stacks)))
+    return curve
 
 
 def skill_rank(level: int, skill: str) -> int:
@@ -466,6 +536,42 @@ BUILD_PATHS: Dict[str, List[str]] = {
         "Hexoptics C44",
         "Lord Dominik's Regards",
         "Bloodthirster",
+    ],
+    # IE 3rd — Hexoptics 2nd (range/safety for champion stacks)
+    "ER → Hex → IE → LDR → BT": [
+        "Long Sword",
+        "Sheen",
+        "Essence Reaver",
+        "Boots",
+        "Ionian Boots of Lucidity",
+        "Hexoptics C44",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Bloodthirster",
+    ],
+    # IE 2nd then Shojin (damage spike, then stacking AH)
+    "ER → IE → Shojin → Hex → LDR": [
+        "Long Sword",
+        "Sheen",
+        "Essence Reaver",
+        "Boots",
+        "Ionian Boots of Lucidity",
+        "Infinity Edge",
+        "Spear of Shojin",
+        "Hexoptics C44",
+        "Lord Dominik's Regards",
+    ],
+    # IE 3rd — Shojin 2nd (AH stacking, IE delayed)
+    "ER → Shojin → IE → Hex → LDR": [
+        "Long Sword",
+        "Sheen",
+        "Essence Reaver",
+        "Boots",
+        "Ionian Boots of Lucidity",
+        "Spear of Shojin",
+        "Infinity Edge",
+        "Hexoptics C44",
+        "Lord Dominik's Regards",
     ],
     # Navori Q-spam (no AD on Navori; more Qs)
     "ER → IE → Navori → Mortal → BT": [
@@ -1243,10 +1349,12 @@ def compute_snapshot(
     path: List[str],
     minute: int,
     runes: RunePage = DEFAULT_RUNES,
+    stacks: Optional[int] = None,
 ) -> Snapshot:
     gold = gold_at_minute(minute)
     level = level_at_minute(minute)
-    stacks = stacks_at_minute(minute)
+    if stacks is None:
+        stacks = stacks_at_minute(minute)
     inv = resolve_inventory(path, gold, minute)
     st = sum_stats(inv, minute, level, runes)
 
@@ -1361,11 +1469,15 @@ def score(s: Snapshot) -> float:
     return mix * kit
 
 
-def run_all() -> Tuple[Dict[str, List[Snapshot]], List[dict]]:
+def run_all() -> Tuple[Dict[str, List[Snapshot]], List[dict], Dict[str, List[int]]]:
     results: Dict[str, List[Snapshot]] = {}
+    curves: Dict[str, List[int]] = {}
     for name, path in BUILD_PATHS.items():
+        curve = stack_curve_for_path(path)
+        curves[name] = curve
         results[name] = [
-            compute_snapshot(name, path, m) for m in range(1, GAME_MINUTES + 1)
+            compute_snapshot(name, path, m, stacks=curve[m])
+            for m in range(1, GAME_MINUTES + 1)
         ]
 
     timeline = []
@@ -1387,7 +1499,7 @@ def run_all() -> Tuple[Dict[str, List[Snapshot]], List[dict]]:
                 "notes": best_s.notes,
             }
         )
-    return results, timeline
+    return results, timeline, curves
 
 
 def mix_of(s: Snapshot) -> float:
@@ -1398,8 +1510,9 @@ def run_runes() -> Dict[str, List[Snapshot]]:
     path = BUILD_PATHS[WINNING_ITEMS]
     out: Dict[str, List[Snapshot]] = {}
     for name, page in RUNE_PAGES.items():
+        curve = stack_curve_for_path(path, page)
         out[name] = [
-            compute_snapshot(WINNING_ITEMS, path, m, page)
+            compute_snapshot(WINNING_ITEMS, path, m, page, stacks=curve[m])
             for m in range(1, GAME_MINUTES + 1)
         ]
     return out
@@ -1555,6 +1668,108 @@ def summarize(results, timeline, rune_results) -> str:
             f"  {name:<40} ~{ie_min}:00  Δ {d_ie:+.0f}  [{', '.join(ie_legs[:3])}]"
         )
 
+    ie_stack_names = [
+        "ER → IE → Hex → LDR → BT",
+        "ER → Hex → IE → LDR → BT",
+        "ER → IE → Shojin → Hex → LDR",
+        "ER → Shojin → IE → Hex → LDR",
+        "ER → Shojin → IE → Mortal → Hex",
+    ]
+    lines.append("")
+    lines.append("-" * 80)
+    lines.append("IE 2ND vs 3RD — DRAGON PRACTICE STACKING")
+    lines.append("-" * 80)
+    lines.append(
+        f"  {'Path':<36} {'T3':>4} {'IE':>7} "
+        f"{'Stk13':>6} {'Stk16':>6} {'Stk18':>6} "
+        f"{'Mix13':>7} {'Mix16':>7} {'Mix18':>7} {'Mix22':>7}"
+    )
+    ie_stack_rows = []
+    for name in ie_stack_names:
+        if name not in results:
+            continue
+        snaps = results[name]
+        t1 = first_minute_with(snaps, lambda s: s.stacks >= 25)
+        t2 = first_minute_with(snaps, lambda s: s.stacks >= 100)
+        t3 = first_minute_with(snaps, lambda s: s.stacks >= 175)
+        ie_at = first_minute_with(snaps, lambda s: s.has_ie)
+        n_leg_ie = snaps[ie_at - 1].legendary_count if ie_at else 0
+        slot = {1: "1st", 2: "2nd", 3: "3rd"}.get(n_leg_ie, str(n_leg_ie))
+        ie_lab = f"{ie_at} {slot}" if ie_at else "-"
+        lines.append(
+            f"  {name:<36} {t3 or 0:>4} {ie_lab:>7} "
+            f"{snaps[12].stacks:>6} {snaps[15].stacks:>6} {snaps[17].stacks:>6} "
+            f"{mix_of(snaps[12]):>7.0f} {mix_of(snaps[15]):>7.0f} "
+            f"{mix_of(snaps[17]):>7.0f} {mix_of(snaps[21]):>7.0f}"
+        )
+        ie_stack_rows.append((name, t1, t2, t3, ie_at, n_leg_ie, snaps))
+
+    ie2 = results.get("ER → IE → Hex → LDR → BT")
+    hex2 = results.get("ER → Hex → IE → LDR → BT")
+    sho2 = results.get("ER → Shojin → IE → Hex → LDR")
+    ie2sho = results.get("ER → IE → Shojin → Hex → LDR")
+    if ie2 and hex2:
+        ie2_m = first_minute_with(ie2, lambda s: s.has_ie)
+        hex_ie_m = first_minute_with(hex2, lambda s: s.has_ie)
+        t3_ie2 = first_minute_with(ie2, lambda s: s.stacks >= 175)
+        t3_hex2 = first_minute_with(hex2, lambda s: s.stacks >= 175)
+        t3_sho = (
+            first_minute_with(sho2, lambda s: s.stacks >= 175) if sho2 else None
+        )
+        lines.append("")
+        lines.append("  Isolated at the IE-2nd complete minute (same clock, different 2nd):")
+        if ie2_m:
+            a, b = ie2[ie2_m - 1], hex2[ie2_m - 1]
+            lines.append(
+                f"    ~{ie2_m}:00  IE 2nd: {a.stacks} stacks, mix {mix_of(a):.0f}, "
+                f"Q amp {int(a.crit*100)}% crit + IE"
+            )
+            lines.append(
+                f"    ~{ie2_m}:00  Hex 2nd: {b.stacks} stacks, mix {mix_of(b):.0f}, "
+                f"{int(b.crit*100)}% crit, no IE"
+            )
+            lines.append(
+                f"    Stack Δ (IE 2nd − Hex 2nd): {a.stacks - b.stacks:+d}  |  "
+                f"mix Δ {mix_of(a) - mix_of(b):+.0f}"
+            )
+        if sho2 and ie2_m:
+            c = sho2[ie2_m - 1]
+            lines.append(
+                f"    ~{ie2_m}:00  Shojin 2nd: {c.stacks} stacks, mix {mix_of(c):.0f} "
+                f"(AH stacking, IE not in)"
+            )
+            lines.append(
+                f"    Stack Δ (IE 2nd − Shojin 2nd): {ie2[ie2_m-1].stacks - c.stacks:+d}"
+            )
+        lines.append("")
+        lines.append("  When IE-3rd finally lands vs IE-2nd already online:")
+        if hex_ie_m:
+            d, e = hex2[hex_ie_m - 1], ie2[hex_ie_m - 1]
+            lines.append(
+                f"    ~{hex_ie_m}:00 Hex→IE completes. Stacks {d.stacks} vs IE-2nd path "
+                f"{e.stacks} ({d.stacks - e.stacks:+d}). Mix {mix_of(d):.0f} vs {mix_of(e):.0f}."
+            )
+        lines.append("")
+        lines.append("  T3 (175) clock — this is the stacking payoff:")
+        if t3_ie2:
+            lines.append(
+                f"    IE 2nd  (ER→IE→Hex)     T3 ~{t3_ie2}:00  mix {mix_of(ie2[t3_ie2-1]):.0f}"
+            )
+        if t3_hex2:
+            lines.append(
+                f"    IE 3rd  (ER→Hex→IE)     T3 ~{t3_hex2}:00  mix {mix_of(hex2[t3_hex2-1]):.0f}"
+            )
+        if t3_sho:
+            lines.append(
+                f"    IE 3rd  (ER→Shojin→IE)  T3 ~{t3_sho}:00  mix {mix_of(sho2[t3_sho-1]):.0f}"
+            )
+        if ie2sho:
+            t3_i2s = first_minute_with(ie2sho, lambda s: s.stacks >= 175)
+            if t3_i2s:
+                lines.append(
+                    f"    IE 2nd  (ER→IE→Shojin)  T3 ~{t3_i2s}:00  mix {mix_of(ie2sho[t3_i2s-1]):.0f}"
+                )
+
     winner_name = best[3]
     snaps = best[8]
     ie_m = first_minute_with(snaps, lambda s: s.has_ie)
@@ -1701,6 +1916,42 @@ def summarize(results, timeline, rune_results) -> str:
     lines.append("  Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit")
     lines.append("  and the Hexoptics range amp that is Smolder's poke identity.")
     lines.append("  Trap: Collector. Smolder already executes at 6.5% with T3 burn.")
+    lines.append("")
+    if ie2 and hex2:
+        t3_ie2 = first_minute_with(ie2, lambda s: s.stacks >= 175)
+        t3_hex2 = first_minute_with(hex2, lambda s: s.stacks >= 175)
+        ie2_m = first_minute_with(ie2, lambda s: s.has_ie)
+        lines.append("  IE 2ND vs 3RD (stacking):")
+        lines.append("  • Essence Reaver already one-shots casters (~8:00). Last-hit")
+        lines.append("    reliability is 100%, so IE 2nd adds ~0 farm stacks. Wave")
+        lines.append("    stacks are gated by Q count, not Q damage.")
+        lines.append("  • Hex 2nd: +2 stacks at 13:00 (safer champion Qs). T3 still 17:00.")
+        lines.append("  • Shojin 2nd is the actual stacking purchase (more Qs).")
+        if sho2 and ie2_m:
+            lines.append(
+                f"    {sho2[ie2_m-1].stacks} vs {ie2[ie2_m-1].stacks} stacks at "
+                f"{ie2_m}:00; {sho2[15].stacks} vs {ie2[15].stacks} at 16:00."
+            )
+        if t3_ie2 and t3_hex2:
+            lines.append(
+                f"  • T3 (175) does not move a full minute: IE 2nd / Hex 2nd / "
+                f"Shojin 2nd all ~{t3_ie2}:00."
+            )
+        if sho2:
+            lines.append(
+                f"  • Mix at 16:00: IE 2nd {mix_of(ie2[15]):.0f} | Hex 2nd "
+                f"{mix_of(hex2[15]):.0f} | Shojin 2nd {mix_of(sho2[15]):.0f}."
+            )
+            lines.append(
+                f"    Mix at 22:00: IE→Hex {mix_of(ie2[21]):.0f} | Hex→IE "
+                f"{mix_of(hex2[21]):.0f} (same page) | Shojin→IE "
+                f"{mix_of(sho2[21]):.0f} (T3 on a 25% crit Q)."
+            )
+        lines.append("  • Do not buy IE 2nd to stack. Buy it 2nd to convert stacks into")
+        lines.append("    Q damage in the 13–16 window. Hex 2nd is a wash on stacks and")
+        lines.append("    a cheaper spike; IE 3rd after Hex hits the same 17:00 T3.")
+        lines.append("  • Do not buy Shojin 2nd to stack unless you accept a weak T3")
+        lines.append("    fireball. AH as 3rd after IE if you still want extra Qs.")
     lines.append("")
     fit_name = "Fleet / Zeal / Cut Down / Bloodline / Transcendence"
     fit_snaps = rune_results[fit_name]
@@ -1861,6 +2112,15 @@ def self_check(
     # 100% crit on the Hex page by 25
     assert hex_path[24].crit100, hex_path[24].crit
 
+    ie2 = results["ER → IE → Hex → LDR → BT"]
+    hex2 = results["ER → Hex → IE → LDR → BT"]
+    sho2 = results["ER → Shojin → IE → Hex → LDR"]
+    assert sho2[15].stacks >= ie2[15].stacks
+    t3_ie = first_minute_with(ie2, lambda s: s.stacks >= 175)
+    t3_hex = first_minute_with(hex2, lambda s: s.stacks >= 175)
+    assert t3_ie is not None and t3_hex is not None
+    assert abs(t3_ie - t3_hex) <= 1
+
     fit = rune_results["Fleet / Zeal / Cut Down / Haste / Transcendence"]
     coup = rune_results["Fleet / Zeal / Coup / Haste / Transcendence"]
     blood = rune_results["Fleet / Zeal / Cut Down / Bloodline / Transcendence"]
@@ -1873,7 +2133,7 @@ def self_check(
 
 
 def main() -> None:
-    results, timeline = run_all()
+    results, timeline, _curves = run_all()
     rune_results = run_runes()
     self_check(results, rune_results)
     report = summarize(results, timeline, rune_results)

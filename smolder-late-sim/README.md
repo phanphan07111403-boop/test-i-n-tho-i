@@ -38,6 +38,20 @@ At 22:00 this path deals **22% more** mix damage than the old Muramana → Trini
 - Shojin 12% ability amp is real, but it delays 100% crit. Navori refunds Q (5 vs 4 casts) but has **0 AD** — extra Qs lose to Hexoptics' 55 AD + 10% range amp.
 - Swap LDR → **Mortal Reminder** if they heal. Shieldbow/Maw/GA instead of Bloodthirster vs dive.
 
+## IE 2nd vs 3rd — stacking
+
+Dragon Practice income is **Q count**, not Q damage. Essence Reaver already one-shots casters (~8:00), so last-hit reliability is 100% before Infinity Edge.
+
+| 2nd legendary | T3 (175) | Stacks @16 | Mix @16 | Mix @22 |
+|---------------|----------|------------|---------|---------|
+| **IE** then Hex | 17:00 | — | IE converts stacks | Same page as Hex→IE |
+| **Hex** then IE | 17:00 | +2 vs IE | cheaper spike | Same 17:00 T3 |
+| **Shojin** then IE | 17:00 | **best stack count** | weak 25% crit Q | T3 on a weaker fireball |
+
+- Do **not** buy IE 2nd to stack. Buy it 2nd to convert stacks into Super Scorcher damage in the 13–16 window.
+- Hex 2nd is a wash on stacks (safer champion hits) and a cheaper 2nd-item spike. IE 3rd after Hex hits the same T3 clock.
+- Shojin 2nd is the real stacking purchase (more Qs) but T3 lands without IE/Hex — the extra stacks do not pay.
+
 ## Runes that fit (sim, same items)
 
 **Fleet Footwork / Battle Zeal / Cut Down / Legend: Bloodline / Transcendence**
