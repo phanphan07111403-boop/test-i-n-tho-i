@@ -386,7 +386,7 @@
       ],
       "ad": 415.8,
       "crit": 1.0,
-      "notes": "230% crit, Yun Tal stacks, 2-ITEM SPIKE",
+      "notes": "230% crit, Yun Tal stacks, 3 items",
       "legendaries": 3
     }
   ],
@@ -972,7 +972,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Hex \u2192 Mortal \u2192 IE": [
@@ -1558,7 +1558,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 LDR \u2192 IE": [
@@ -2724,7 +2724,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, range amp, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 Hex \u2192 IE": [
@@ -3310,7 +3310,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, range amp, 230% crit, 3 items"
       }
     ],
     "Hex \u2192 IE \u2192 Mortal": [
@@ -3894,7 +3894,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 IE \u2192 Mortal": [
@@ -4477,7 +4477,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "IE \u2192 Hex \u2192 Mortal": [
@@ -5060,7 +5060,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ],
     "Hex \u2192 Stormrazor \u2192 IE": [
@@ -5646,7 +5646,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ],
     "Stormrazor \u2192 IE": [
@@ -6229,7 +6229,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "230% crit, 2-ITEM SPIKE"
+        "notes": "230% crit, 3 items"
       }
     ],
     "Stormrazor \u2192 Collector \u2192 IE": [
@@ -6811,7 +6811,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Yun Tal \u2192 IE": [
@@ -7396,7 +7396,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "230% crit, Yun Tal stacks, 2-ITEM SPIKE"
+        "notes": "230% crit, Yun Tal stacks, 3 items"
       }
     ],
     "Yun Tal \u2192 Collector \u2192 IE": [
@@ -7978,7 +7978,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, Yun Tal stacks, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, Yun Tal stacks, 3 items"
       }
     ],
     "RFC \u2192 IE": [
@@ -8560,7 +8560,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Fiendhunter \u2192 IE": [
@@ -9142,7 +9142,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, R-barrage, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, R-barrage, 3 items"
       }
     ],
     "ER \u2192 IE": [
@@ -9725,7 +9725,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, spellblade, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, spellblade, 3 items"
       }
     ],
     "Galeforce \u2192 IE": [
@@ -10311,7 +10311,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "230% crit, 2-ITEM SPIKE"
+        "notes": "230% crit, 3 items"
       }
     ],
     "Hex \u2192 Galeforce \u2192 IE": [
@@ -10897,7 +10897,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 Mortal + Dynamism": [

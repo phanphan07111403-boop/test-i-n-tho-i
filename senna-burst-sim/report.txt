@@ -63,7 +63,7 @@ MINUTE-BY-MINUTE OPTIMAL (overkill score, 2-item spike preferred)
          Nightstalker, 2-ITEM SPIKE
   20:00 | ADC  2670 (  132% KILL) | mid  2873 (  140% KILL) | Dusk → Serylda
          items: Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › The Collector › Pickaxe
-         Nightstalker, execute, 2-ITEM SPIKE
+         Nightstalker, execute, 3 items
 
 ----------------------------------------------------------------------------------
 BUILD COMPARISON — LUCKY OVERKILL @ 2nd-item window

@@ -15,6 +15,10 @@ Question (ADC):
 Question (support):
   Crit Senna support: which path peaks at 2nd item and is
   stronger late, with fasting Mist stacks?
+
+Question (full build + runes):
+  After IE, sell Scythe for a 5th legendary. Which 4th/5th
+  pair wins the all-in, and which rune page is best?
 """
 
 from __future__ import annotations
@@ -24,7 +28,9 @@ from typing import Dict, List, Optional, Tuple
 import json
 
 GAME_MINUTES = 20
+SUPPORT_MINUTES = 28  # long game: 4th legendary then sell Scythe for 5th
 BURST_WINDOW = 2.5  # rooted / flash-all-in, R already in the air
+SCYTHE_SELL = 350  # 70% of Spectral Sickle 500; quest upgrade adds 0 cost
 
 # ---------------------------------------------------------------------------
 # Economy / XP / Mist  (ADC farmer who still collects souls)
@@ -76,7 +82,8 @@ def mist_at_minute(m: int) -> int:
 
 
 def support_gold(m: int) -> int:
-    """Sickle tribute + Scythe soulcast. Lands ~2 legendaries ~15–16."""
+    """Sickle tribute + Scythe soulcast. Lands ~2 legendaries ~15–16.
+    After 20:00 a long game still funds 4th then sell-Scythe 5th."""
     if m <= 0:
         return 500
     total = 500  # Spectral Sickle
@@ -85,8 +92,10 @@ def support_gold(m: int) -> int:
             total += 310
         elif t <= 10:
             total += 460
-        else:
+        elif t <= 20:
             total += 560
+        else:
+            total += 700
     return total
 
 
@@ -95,8 +104,9 @@ def support_level(m: int) -> int:
         1: 2, 2: 3, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 7,
         9: 8, 10: 9, 11: 9, 12: 10, 13: 10, 14: 11,
         15: 11, 16: 12, 17: 12, 18: 13, 19: 13, 20: 14,
+        21: 14, 22: 14, 23: 15, 24: 15, 25: 15, 26: 15, 27: 15, 28: 15,
     }
-    return table.get(m, min(14, 1 + m))
+    return table.get(m, min(15, 1 + m // 2))
 
 
 def support_mist(m: int) -> int:
@@ -112,8 +122,10 @@ def support_mist(m: int) -> int:
             total += 4.6
         elif t <= 12:
             total += 5.4
-        else:
+        elif t <= 20:
             total += 5.8
+        else:
+            total += 5.2
     return int(total)
 
 
@@ -368,6 +380,25 @@ ITEMS: Dict[str, Item] = {
         ldr=True,
         tags=("pen",),
     ),
+    "Edge of Night": Item(
+        "Edge of Night",
+        3000,
+        ad=50,
+        lethality=10,
+        tags=("lethality", "spellshield"),
+    ),
+    "The Bloodthirster": Item(
+        "The Bloodthirster",
+        3400,
+        ad=55,
+        tags=("lifesteal",),
+    ),
+    "Guardian Angel": Item(
+        "Guardian Angel",
+        2800,
+        ad=40,
+        tags=("def",),
+    ),
 }
 
 UPGRADE_COMPONENTS = {
@@ -386,6 +417,9 @@ UPGRADE_COMPONENTS = {
     "Serylda's Grudge": ("Caulfield's Warhammer", "Last Whisper"),
     "Mortal Reminder": ("Last Whisper", "Brawler's Gloves"),
     "Lord Dominik's Regards": ("Last Whisper", "Noonquiver"),
+    "Edge of Night": ("Serrated Dirk",),
+    "The Bloodthirster": ("B. F. Sword",),
+    "Guardian Angel": ("B. F. Sword",),
 }
 
 NEXT_COMPONENTS = {
@@ -404,6 +438,9 @@ NEXT_COMPONENTS = {
     "Mortal Reminder": ["Last Whisper", "Brawler's Gloves"],
     "Lord Dominik's Regards": ["Last Whisper", "Noonquiver"],
     "Boots of Dynamism": ["Boots"],
+    "Edge of Night": ["Serrated Dirk"],
+    "The Bloodthirster": ["B. F. Sword"],
+    "Guardian Angel": ["B. F. Sword"],
 }
 
 LEGENDARIES = {
@@ -421,6 +458,9 @@ LEGENDARIES = {
     "Serylda's Grudge",
     "Mortal Reminder",
     "Lord Dominik's Regards",
+    "Edge of Night",
+    "The Bloodthirster",
+    "Guardian Angel",
 }
 
 # Each path: buy order. Boots sit between 1st and 2nd legendary.
@@ -762,6 +802,49 @@ SUPPORT_CONTRAST_PATHS: Dict[str, List[str]] = {
 }
 
 
+def _finish(fourth: str, fifth: str) -> List[str]:
+    """Collector → Mortal → IE, then 4th, sell Scythe, 5th legendary."""
+    return _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Mortal Reminder", "Infinity Edge",
+        fourth, "Sell Scythe", fifth,
+    )
+
+
+# Full-build 4th/5th after the winning 3-item core. Sell Scythe only when
+# the 5th legendary is affordable (see resolve_inventory).
+SUPPORT_FINISH_PATHS: Dict[str, List[str]] = {
+    "Hex → Dusk": _finish("Hexoptics C44", "Duskblade of Draktharr"),
+    "Dusk → Hex": _finish("Duskblade of Draktharr", "Hexoptics C44"),
+    "Hex → Serylda": _finish("Hexoptics C44", "Serylda's Grudge"),
+    "Serylda → Hex": _finish("Serylda's Grudge", "Hexoptics C44"),
+    "Dusk → Serylda": _finish("Duskblade of Draktharr", "Serylda's Grudge"),
+    "Serylda → Dusk": _finish("Serylda's Grudge", "Duskblade of Draktharr"),
+    "Hex → Youmuu": _finish("Hexoptics C44", "Youmuu's Ghostblade"),
+    "Dusk → Youmuu": _finish("Duskblade of Draktharr", "Youmuu's Ghostblade"),
+    "Hex → EoN": _finish("Hexoptics C44", "Edge of Night"),
+    "Dusk → EoN": _finish("Duskblade of Draktharr", "Edge of Night"),
+    "Hex → BT": _finish("Hexoptics C44", "The Bloodthirster"),
+    "Dusk → BT": _finish("Duskblade of Draktharr", "The Bloodthirster"),
+    "Hex → GA": _finish("Hexoptics C44", "Guardian Angel"),
+    "Serylda → GA": _finish("Serylda's Grudge", "Guardian Angel"),
+    "Hex → RFC": _finish("Hexoptics C44", "Rapid Firecannon"),
+    "Dusk → RFC": _finish("Duskblade of Draktharr", "Rapid Firecannon"),
+    "Hex → Fiendhunter": _finish("Hexoptics C44", "Fiendhunter Bolts"),
+    "Dusk → Fiendhunter": _finish("Duskblade of Draktharr", "Fiendhunter Bolts"),
+    "Hex → Stormrazor": _finish("Hexoptics C44", "Stormrazor"),
+    "Dusk → Stormrazor": _finish("Duskblade of Draktharr", "Stormrazor"),
+    "Hex → Galeforce": _finish("Hexoptics C44", "Galeforce"),
+    "Youmuu → Dusk": _finish("Youmuu's Ghostblade", "Duskblade of Draktharr"),
+    "EoN → Dusk": _finish("Edge of Night", "Duskblade of Draktharr"),
+    "Keep Scythe (4 items)": _sup(
+        "Serrated Dirk", "Noonquiver", "The Collector",
+        "Mortal Reminder", "Infinity Edge",
+        "Hexoptics C44",
+    ),
+}
+
+
 def truncate_after_n_legendaries(path: List[str], n: int) -> List[str]:
     out: List[str] = []
     count = 0
@@ -831,6 +914,29 @@ def resolve_inventory(
     for step in path:
         if step == "Black Mist Scythe":
             continue
+        if step == "Sell Scythe":
+            next_leg = None
+            seen_sell = False
+            for nxt in path:
+                if nxt == "Sell Scythe":
+                    seen_sell = True
+                    continue
+                if seen_sell and nxt in LEGENDARIES:
+                    next_leg = nxt
+                    break
+            have = (
+                "Black Mist Scythe" in owned or "Spectral Sickle" in owned
+            )
+            if have and next_leg is not None:
+                credit, _ = credit_for(next_leg)
+                need = max(0, ITEMS[next_leg].cost - credit)
+                if gold_pool + SCYTHE_SELL >= need:
+                    if "Black Mist Scythe" in owned:
+                        owned.remove("Black Mist Scythe")
+                    if "Spectral Sickle" in owned:
+                        owned.remove("Spectral Sickle")
+                    gold_pool += SCYTHE_SELL
+            continue
         if step == "Spectral Sickle":
             if (
                 "Spectral Sickle" not in owned
@@ -866,7 +972,7 @@ def resolve_inventory(
                     continue
                 if not seen:
                     continue
-                if step in ("Spectral Sickle", "Black Mist Scythe"):
+                if step in ("Spectral Sickle", "Black Mist Scythe", "Sell Scythe"):
                     continue
                 if step in owned:
                     continue
@@ -928,6 +1034,60 @@ class Snapshot:
     has_youmuu: bool
     has_er: bool
     has_fiend: bool
+    sold_scythe: bool = False
+
+
+@dataclass
+class RunePage:
+    name: str
+    keystone: str = "fleet"
+    brutal: bool = True
+    empowered: bool = True
+    precision: str = "cut_down"  # cut_down, coup, none
+    gathering_storm: bool = False
+    sudden_impact: bool = False
+    cheap_shot: bool = False
+    alacrity: float = 0.0
+    cut_down_pct: float = 0.08
+
+
+DEFAULT_RUNES = RunePage("Fleet / Brutal / Emp / Cut Down")
+
+
+def gathering_storm_ad(minute: int) -> float:
+    # 7.1+: first tick 6:00, then every 3 min. 2/5/9/14/20/27/35/44 …
+    if minute < 6:
+        return 0.0
+    ticks = 1 + (minute - 6) // 3
+    seq = [2, 5, 9, 14, 20, 27, 35, 44, 54, 65]
+    return float(seq[min(ticks, len(seq)) - 1])
+
+
+def dark_harvest_souls(minute: int) -> int:
+    # Fasting support takedowns, not a farming ADC.
+    return min(18, int(0.45 * minute))
+
+
+def electrocute_raw(level: int, bonus_ad: float) -> float:
+    # Patch 7.2: 40–210 + 10% bonus AD + 5% AP
+    return 40.0 + 170.0 * (level - 1) / 14.0 + 0.10 * bonus_ad
+
+
+def empowerment_raw(level: int) -> float:
+    # Patch 7.2: 40–165 on 3rd attack
+    return 40.0 + 125.0 * (level - 1) / 14.0
+
+
+def aery_raw(level: int, bonus_ad: float) -> float:
+    return 15.0 + 35.0 * (level - 1) / 14.0 + 0.15 * bonus_ad
+
+
+def comet_raw(level: int, bonus_ad: float) -> float:
+    return 70.0 + 145.0 * (level - 1) / 14.0 + 0.20 * bonus_ad
+
+
+def cheap_shot_raw(level: int) -> float:
+    return 8.0 + 22.0 * (level - 1) / 14.0
 
 
 def senna_crit_mult(has_ie: bool) -> float:
@@ -1085,27 +1245,35 @@ def combo_damage(
     armor: float,
     mr: float,
     lucky: bool,
+    runes: Optional[RunePage] = None,
+    minute: int = 20,
 ) -> Tuple[float, int]:
     """
     All-in on a full-HP squishy.
     Order: R (mark) → W → Q (consume %HP + Relic on-hit) → autos
     (Nightstalker / Spellblade / Energized / Hexoptics / Galeforce dash).
     """
+    runes = runes or DEFAULT_RUNES
     mist_ad = 1.25 * mist
-    bonus_ad = st["item_ad"] + mist_ad
+    gs_ad = gathering_storm_ad(minute) if runes.gathering_storm else 0.0
+    bonus_ad = st["item_ad"] + mist_ad + gs_ad
     total_ad = 54.0 + bonus_ad  # WR Senna: no AD growth
     item_crit = min(1.0, st["item_crit"])
     mist_crit = 0.10 * (mist // 20)
     crit_chance = min(1.0, item_crit + mist_crit)
     cmult = senna_crit_mult(st["ie"])
-    p = phys_mult(armor, st["pct"], st["leth"])
+    extra_leth = 8.0 if runes.sudden_impact else 0.0
+    p = phys_mult(armor, st["pct"], st["leth"] + extra_leth)
     m = magic_mult(mr)
 
     q_rank = skill_rank(level, "Q")
     w_rank = skill_rank(level, "W")
     r_rank = skill_rank(level, "R")
 
-    aspd = attack_speed(level, st["as_pct"], st["yuntal"])
+    extra_as = runes.alacrity
+    if runes.keystone == "lethal_tempo":
+        extra_as += 0.064 * 2  # two autos in the window
+    aspd = attack_speed(level, st["as_pct"] + extra_as, st["yuntal"])
     n_aa = autos_in_window(aspd)
 
     # Average auto multiplier (lucky = every auto crits)
@@ -1129,53 +1297,117 @@ def combo_damage(
 
     dmg = 0.0
     hp_left = hp
+    impaired = False  # W root
+    attack_hits = 0  # Empowerment stacks (Q on-hit + autos)
+    ability_hits = 0  # Electrocute stacks
 
-    def cut_down(before: float) -> float:
-        return 1.08 if before / hp > 0.60 else 1.0
+    def amp(before: float) -> float:
+        ratio = before / hp if hp else 1.0
+        if runes.precision == "cut_down" and ratio > 0.60:
+            return 1.0 + runes.cut_down_pct
+        if runes.precision == "coup" and ratio < 0.40:
+            return 1.08
+        return 1.0
 
     def apply_phys(raw: float) -> float:
         nonlocal hp_left, dmg
-        dealt = raw * p * cut_down(hp_left)
+        dealt = raw * p * amp(hp_left)
         dmg += dealt
         hp_left = max(0.0, hp_left - dealt)
         return dealt
 
     def apply_magic(raw: float) -> float:
         nonlocal hp_left, dmg
-        dealt = raw * m * cut_down(hp_left)
+        dealt = raw * m * amp(hp_left)
         dmg += dealt
         hp_left = max(0.0, hp_left - dealt)
         return dealt
 
+    def apply_true(raw: float) -> float:
+        nonlocal hp_left, dmg
+        dealt = raw * amp(hp_left)
+        dmg += dealt
+        hp_left = max(0.0, hp_left - dealt)
+        return dealt
+
+    def maybe_electrocute() -> None:
+        nonlocal ability_hits
+        ability_hits += 1
+        if runes.keystone == "electrocute" and ability_hits == 3:
+            apply_phys(electrocute_raw(level, bonus_ad))
+
+    dh_done = False
+    emp_done = False
+
+    def maybe_harvest() -> None:
+        nonlocal dh_done
+        if runes.keystone != "dark_harvest" or dh_done:
+            return
+        if hp_left / hp > 0.50:
+            return
+        dh_done = True
+        souls = dark_harvest_souls(minute)
+        apply_phys(35.0 + 11.0 * souls + 0.10 * bonus_ad)
+
+    def maybe_cheap() -> None:
+        if runes.cheap_shot and impaired:
+            apply_true(cheap_shot_raw(level))
+
+    def maybe_empowerment() -> None:
+        nonlocal attack_hits, emp_done
+        attack_hits += 1
+        if runes.keystone == "empowerment" and attack_hits >= 3 and not emp_done:
+            emp_done = True
+            apply_phys(empowerment_raw(level))
+
+    brutal = (6.0 + 0.08 * bonus_ad) if runes.brutal else 0.0
+    relic = 0.20 * total_ad
+    emp = empowered_attack(level) if runes.empowered else 0.0
+
     # R — 120% bonus AD (7.3 also +70% AP, we build AD)
     if r_rank > 0:
         apply_phys(r_base(r_rank) + 1.20 * bonus_ad)
+        maybe_electrocute()
+        maybe_harvest()
+        if runes.keystone == "aery":
+            apply_magic(aery_raw(level, bonus_ad))
 
     # W
     if w_rank > 0:
         apply_phys(w_base(w_rank) + 0.70 * bonus_ad)
+        impaired = True
+        maybe_electrocute()
+        maybe_harvest()
+        maybe_cheap()
+        if runes.keystone == "comet":
+            apply_magic(comet_raw(level, bonus_ad))
 
     # Q + Relic on-hit (Q applies on-hit to champions) + Empowered Attack
-    brutal = 6.0 + 0.08 * bonus_ad
     q_raw = q_base(q_rank) + 0.60 * bonus_ad
-    relic = 0.20 * total_ad
-    emp = empowered_attack(level)
     apply_phys(q_raw + relic + emp + brutal)
+    maybe_electrocute()
+    maybe_harvest()
+    maybe_cheap()
+    maybe_empowerment()  # Q on-hit counts as an attack
 
     # Mist extract: 2nd hit on a marked champ (R/W already marked)
     apply_phys(mist_current_hp_pct(level) * hp_left)
+    maybe_harvest()
 
     # Galeforce dash missiles (used to gap-close the all-in)
     if st["gale"]:
         gale = (40.0 + 80.0 * (level - 1) / 14.0) + 0.35 * bonus_ad
         apply_phys(gale)
+        maybe_harvest()
 
     # Autos
     for i in range(n_aa):
         auto_raw = (total_ad * auto_mult + relic) * hex_amp + brutal
         apply_phys(auto_raw)
+        maybe_harvest()
+        maybe_cheap()
+        maybe_empowerment()
         if st["fiend"] and fiend_true and i < 3:
-            # 15% bonus true on attacks that would already crit
             true_hit = 0.15 * total_ad * auto_mult
             dmg += true_hit
             hp_left = max(0.0, hp_left - true_hit)
@@ -1183,9 +1415,9 @@ def combo_damage(
     # Duskblade Nightstalker — first basic attack vs champion
     if st["dusk"] and n_aa >= 1:
         apply_phys(duskblade_proc(level))
+        maybe_harvest()
 
     # Essence Reaver Spellblade on the first auto after Q
-    # 7.3: 135% base AD + 0–80 from crit chance. Senna base AD is 54 forever.
     if st["er"] and n_aa >= 1:
         sb = 1.35 * 54.0 + 80.0 * crit_chance
         apply_phys(sb)
@@ -1196,6 +1428,15 @@ def combo_damage(
     elif st["rfc"]:
         apply_magic(80.0)
 
+    # First Strike: 9% bonus true of post-mitigation damage (R from fog)
+    if runes.keystone == "first_strike":
+        bonus_true = 0.09 * dmg
+        dmg += bonus_true
+        hp_left = max(0.0, hp_left - bonus_true)
+
+    # Empowerment 8% after 3rd attack — remaining damage already applied.
+    # Approximate: if proc happened, 8% of later autos is small; skip.
+
     # Collector execute
     exec_pct = 0.05 if st["collector"] else 0.0
     if exec_pct and hp_left <= hp * exec_pct + 1e-6:
@@ -1205,8 +1446,10 @@ def combo_damage(
     return dmg, n_aa
 
 
-def yuntal_online_minute(path: List[str], role: str = "adc") -> Optional[int]:
-    for m in range(1, GAME_MINUTES + 1):
+def yuntal_online_minute(
+    path: List[str], role: str = "adc", minutes: int = GAME_MINUTES
+) -> Optional[int]:
+    for m in range(1, minutes + 1):
         names = [
             it.name
             for it in resolve_inventory(path, eco_gold(m, role), m, role)
@@ -1222,6 +1465,7 @@ def compute_snapshot(
     minute: int,
     yuntal_min: Optional[int],
     role: str = "adc",
+    runes: Optional[RunePage] = None,
 ) -> Snapshot:
     gold = eco_gold(minute, role)
     level = eco_level(minute, role)
@@ -1237,16 +1481,20 @@ def compute_snapshot(
     m_hp, m_ar, m_mr = mid_hp(minute), mid_armor(minute), mid_mr(minute)
 
     exp_a, n_aa = combo_damage(
-        level=level, mist=mist, st=st, hp=a_hp, armor=a_ar, mr=a_mr, lucky=False
+        level=level, mist=mist, st=st, hp=a_hp, armor=a_ar, mr=a_mr,
+        lucky=False, runes=runes, minute=minute,
     )
     lucky_a, _ = combo_damage(
-        level=level, mist=mist, st=st, hp=a_hp, armor=a_ar, mr=a_mr, lucky=True
+        level=level, mist=mist, st=st, hp=a_hp, armor=a_ar, mr=a_mr,
+        lucky=True, runes=runes, minute=minute,
     )
     exp_m, _ = combo_damage(
-        level=level, mist=mist, st=st, hp=m_hp, armor=m_ar, mr=m_mr, lucky=False
+        level=level, mist=mist, st=st, hp=m_hp, armor=m_ar, mr=m_mr,
+        lucky=False, runes=runes, minute=minute,
     )
     lucky_m, _ = combo_damage(
-        level=level, mist=mist, st=st, hp=m_hp, armor=m_ar, mr=m_mr, lucky=True
+        level=level, mist=mist, st=st, hp=m_hp, armor=m_ar, mr=m_mr,
+        lucky=True, runes=runes, minute=minute,
     )
 
     exec_pct = 0.05 if st["collector"] else 0.0
@@ -1255,6 +1503,9 @@ def compute_snapshot(
         return dmg >= hp * (1.0 - exec_pct) - 0.5
 
     n_leg = sum(1 for n in st["names"] if n in LEGENDARIES)
+    sold = not any(
+        n in ("Black Mist Scythe", "Spectral Sickle") for n in st["names"]
+    ) and role == "support" and minute >= 5
     notes = []
     if st["dusk"]:
         notes.append("Nightstalker")
@@ -1270,12 +1521,20 @@ def compute_snapshot(
         notes.append("R-barrage")
     if st["er"]:
         notes.append("spellblade")
+    if sold:
+        notes.append("sold Scythe")
     if n_leg == 0:
         notes.append("pre-legendary")
     elif n_leg == 1:
         notes.append("1 item")
-    elif n_leg >= 2:
+    elif n_leg == 2:
         notes.append("2-ITEM SPIKE")
+    elif n_leg == 3:
+        notes.append("3 items")
+    elif n_leg == 4:
+        notes.append("4 items")
+    else:
+        notes.append("FULL BUILD")
 
     return Snapshot(
         minute=minute,
@@ -1313,6 +1572,7 @@ def compute_snapshot(
         has_youmuu=st["youmuu"],
         has_er=st["er"],
         has_fiend=st["fiend"],
+        sold_scythe=sold,
     )
 
 
@@ -1364,21 +1624,23 @@ def run_all(
     paths: Optional[Dict[str, List[str]]] = None,
     role: str = "adc",
     scorer=None,
+    minutes: int = GAME_MINUTES,
+    runes: Optional[RunePage] = None,
 ) -> Tuple[Dict[str, List[Snapshot]], List[dict], Dict[str, Optional[int]]]:
     paths = paths or BUILD_PATHS
     score_fn = scorer or burst_score
     yuntal_mins: Dict[str, Optional[int]] = {
-        name: yuntal_online_minute(path, role) for name, path in paths.items()
+        name: yuntal_online_minute(path, role, minutes) for name, path in paths.items()
     }
     results: Dict[str, List[Snapshot]] = {}
     for name, path in paths.items():
         results[name] = [
-            compute_snapshot(name, path, m, yuntal_mins[name], role)
-            for m in range(1, GAME_MINUTES + 1)
+            compute_snapshot(name, path, m, yuntal_mins[name], role, runes)
+            for m in range(1, minutes + 1)
         ]
 
     timeline = []
-    for m in range(1, GAME_MINUTES + 1):
+    for m in range(1, minutes + 1):
         cands = [(n, results[n][m - 1]) for n in results]
         best_n, best_s = max(cands, key=lambda x: score_fn(x[1]))
         timeline.append(
@@ -2066,8 +2328,8 @@ def summarize_support(
     lines.append("  Do not buy Dynamism before the 2nd legendary.")
     lines.append("")
     lines.append("  Skill: max Q → W. Fasting: ADC last-hits, you take souls.")
-    lines.append("  Combo: R → W → Q → auto. Runes: Fleet, Empowered Attack,")
-    lines.append("  Brutal, Cut Down (Coup once they are chunked).")
+    lines.append("  Combo: R → W → Q → auto. Runes: First Strike,")
+    lines.append("  Brutal, Empowered Attack, Cut Down (see full-build section).")
     lines.append("=" * 82)
     return "\n".join(lines)
 
@@ -2157,6 +2419,269 @@ def self_check(results: Dict[str, List[Snapshot]]) -> None:
     )
 
 
+CD = 0.0657  # Cut Down 7.2 nerf (8% → 6.57%)
+
+SUPPORT_RUNE_PAGES: List[RunePage] = [
+    RunePage("First Strike · Brutal · Emp · Cut Down", "first_strike", cut_down_pct=CD),
+    RunePage("First Strike · Brutal · Emp · Coup", "first_strike", precision="coup", cut_down_pct=CD),
+    RunePage(
+        "First Strike · Brutal · Emp · Gathering Storm",
+        "first_strike",
+        precision="none",
+        gathering_storm=True,
+        cut_down_pct=CD,
+    ),
+    RunePage(
+        "First Strike · Brutal · Sudden Impact · Cut Down",
+        "first_strike",
+        empowered=False,
+        sudden_impact=True,
+        cut_down_pct=CD,
+    ),
+    RunePage(
+        "First Strike · Brutal · Emp · Cheap Shot",
+        "first_strike",
+        precision="none",
+        cheap_shot=True,
+        cut_down_pct=CD,
+    ),
+    RunePage("Electrocute · Brutal · Emp · Cut Down", "electrocute", cut_down_pct=CD),
+    RunePage("Dark Harvest · Brutal · Emp · Cut Down", "dark_harvest", cut_down_pct=CD),
+    RunePage("Fleet · Brutal · Emp · Cut Down", "fleet", cut_down_pct=CD),
+    RunePage("Empowerment · Brutal · Emp · Cut Down", "empowerment", cut_down_pct=CD),
+    RunePage("Lethal Tempo · Brutal · Emp · Cut Down", "lethal_tempo", cut_down_pct=CD),
+    RunePage("Aery · Brutal · Emp · Cut Down", "aery", cut_down_pct=CD),
+    RunePage("Comet · Brutal · Emp · Cut Down", "comet", cut_down_pct=CD),
+]
+
+
+def summarize_finish(
+    results: Dict[str, List[Snapshot]],
+    yuntal_mins: Dict[str, Optional[int]],
+) -> str:
+    lines = []
+    lines.append("")
+    lines.append("=" * 82)
+    lines.append("FULL BUILD — SELL SCYTHE, 5TH LEGENDARY + RUNES  (WR 7.3)")
+    lines.append("Core: Collector → Mortal → IE. Then 4th, sell Scythe, 5th.")
+    lines.append("=" * 82)
+    lines.append("")
+    lines.append("GOLD / LEVEL / MIST (long game)")
+    lines.append(
+        f"  {'Min':>3}  {'Gold':>6}  {'Lvl':>3}  {'Mist':>4}  "
+        f"{'ADC HP':>7}  {'ADC Arm':>7}"
+    )
+    for m in (20, 22, 24, 25, 26, 27, 28):
+        mist = support_mist(m)
+        lines.append(
+            f"  {m:>3}  {support_gold(m):>6}  {support_level(m):>3}  "
+            f"{mist:>4}  {adc_hp(m):>7.0f}  {adc_armor(m):>7.0f}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("4TH / 5TH PAIR  (overkill @ 4th item / sell-minute / 28:00)")
+    lines.append("-" * 82)
+    lines.append(
+        f"  {'Build':<22} {'4th@':>5} {'5th@':>5} {'4th%':>6} "
+        f"{'5th%':>6} {'28:00':>6} {'Scythe':>7}"
+    )
+
+    ranking = []
+    keep = results.get("Keep Scythe (4 items)")
+    for name, snaps in results.items():
+        if name == "Keep Scythe (4 items)":
+            continue
+        s4 = next((s for s in snaps if s.legendary_count >= 4), snaps[-1])
+        s5 = next((s for s in snaps if s.legendary_count >= 5), None)
+        s28 = snaps[-1]
+        fifth_min = s5.minute if s5 else None
+        mix4 = 0.5 * (s4.overkill_adc_lucky + s4.overkill_mid_lucky)
+        mix5 = (
+            0.5 * (s5.overkill_adc_lucky + s5.overkill_mid_lucky) if s5 else 0.0
+        )
+        mix28 = 0.5 * (s28.overkill_adc_lucky + s28.overkill_mid_lucky)
+        sold = s5.sold_scythe if s5 else False
+        # Dual goal: earliest real 5th + fattest 28:00
+        earliness = 1.0 + 0.03 * max(0, (28 - (fifth_min or 28)))
+        has5 = 1.12 if s5 else 0.80
+        eff = mix28 * has5 * earliness * (1.06 if sold else 1.0)
+        ranking.append((eff, mix28, name, s4, s5, s28, fifth_min, sold, mix4, mix5))
+
+    ranking.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    for row in ranking:
+        name, s4, s5, s28, fifth_min, sold, mix4, mix5 = (
+            row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9]
+        )
+        mix28 = 0.5 * (s28.overkill_adc_lucky + s28.overkill_mid_lucky)
+        t5 = f"{fifth_min:>4}:00" if fifth_min else "    —"
+        lines.append(
+            f"  {name:<22} {s4.minute:>4}:00 {t5} "
+            f"{mix4*100:>5.0f}% {mix5*100:>5.0f}% {mix28*100:>5.0f}% "
+            f"{'sold' if sold else 'kept':>7}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("KEEP SCYTHE (4 items) vs SELL FOR 5TH  @ 28:00")
+    lines.append("-" * 82)
+    if keep:
+        k28 = keep[-1]
+        lines.append(
+            f"  Keep Scythe + Hex     ADC {k28.lucky_adc:.0f} "
+            f"({k28.overkill_adc_lucky*100:.0f}%)  AD {k28.ad:.0f}  "
+            f"items {k28.legendary_count}"
+        )
+    best = ranking[0]
+    w28 = best[5]
+    w5 = best[4]
+    winner_name = best[2]
+    lines.append(
+        f"  {winner_name:<22} ADC {w28.lucky_adc:.0f} "
+        f"({w28.overkill_adc_lucky*100:.0f}%)  AD {w28.ad:.0f}  "
+        f"items {w28.legendary_count}  {'sold Scythe' if w28.sold_scythe else ''}"
+    )
+    if keep:
+        dlt = w28.lucky_adc - keep[-1].lucky_adc
+        lines.append(f"  Sell-for-5th vs keep-4: ADC {dlt:+.0f} lucky")
+
+    if w5:
+        lines.append("")
+        lines.append(
+            f"  5th legendary ~{w5.minute}:00  ADC {w5.lucky_adc:.0f} "
+            f"({w5.overkill_adc_lucky*100:.0f}%)  mid {w5.lucky_mid:.0f} "
+            f"({w5.overkill_mid_lucky*100:.0f}%)"
+        )
+        lines.append(f"  Inventory: {' › '.join(w5.items)}")
+
+    # Rune ranking on the winning 5-item snapshot
+    path = SUPPORT_FINISH_PATHS[winner_name]
+    yun = yuntal_mins.get(winner_name)
+    t = w5.minute if w5 else 28
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append(f"RUNE PAGES on {winner_name} at {t}:00 (7.2/7.3 values)")
+    lines.append("-" * 82)
+    lines.append(
+        f"  {'Page':<48} {'ADC':>6} {'Mid':>6} {'mix':>6} {'vs Fleet':>8}"
+    )
+    rune_rank = []
+    fleet_mix = None
+    for page in SUPPORT_RUNE_PAGES:
+        snap = compute_snapshot(winner_name, path, t, yun, "support", page)
+        mix = 0.5 * (snap.overkill_adc_lucky + snap.overkill_mid_lucky)
+        if page.keystone == "fleet" and "Gathering" not in page.name:
+            # first Fleet page
+            if fleet_mix is None:
+                fleet_mix = mix
+        rune_rank.append((mix, page, snap))
+    rune_rank.sort(key=lambda x: x[0], reverse=True)
+    if fleet_mix is None:
+        fleet_mix = rune_rank[-1][0]
+    for mix, page, snap in rune_rank:
+        dlt = (mix - fleet_mix) * 100
+        lines.append(
+            f"  {page.name:<48} {snap.lucky_adc:>6.0f} {snap.lucky_mid:>6.0f} "
+            f"{mix*100:>5.0f}% {dlt:>+7.1f}pp"
+        )
+
+    best_rune = rune_rank[0][1]
+    best_snap = rune_rank[0][2]
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("VERDICT — FULL BUILD + RUNES")
+    lines.append("-" * 82)
+    lines.append(f"  Items: Collector → Mortal → IE → {winner_name} (sell Scythe)")
+    if w5:
+        lines.append(
+            f"  4th ~{best[3].minute}:00, sell Scythe + 5th ~{w5.minute}:00"
+        )
+    lines.append(
+        f"  28:00 ADC {w28.lucky_adc:.0f} ({w28.overkill_adc_lucky*100:.0f}%)  "
+        f"mid {w28.lucky_mid:.0f} ({w28.overkill_mid_lucky*100:.0f}%)"
+    )
+    lines.append(f"  Best rune page: {best_rune.name}")
+    lines.append(
+        f"  With that page @ {t}:00: ADC {best_snap.lucky_adc:.0f} "
+        f"({best_snap.overkill_adc_lucky*100:.0f}%)  mid {best_snap.lucky_mid:.0f} "
+        f"({best_snap.overkill_mid_lucky*100:.0f}%)"
+    )
+    lines.append("")
+    lines.append("  WHY SELL SCYTHE:")
+    lines.append("  • Scythe is 28 AD + 40 soulcast = 68 AD and 10 AH, but")
+    lines.append(f"    sells for {SCYTHE_SELL}g — that gold finishes the 5th")
+    lines.append("    legendary. A real 5th item outdamages 68 AD on this combo.")
+    lines.append("  • Do not sell until the 5th item is actually affordable.")
+    lines.append("  • RFC / Fiendhunter 5th: 0 AD was a trap as item 1, but at")
+    lines.append("    100% crit + IE the 40–45% AS can buy a 3rd auto. Check")
+    lines.append("    the table — if that 3rd auto fits, it beats Dusk/Hex 5th.")
+    lines.append("")
+    lines.append("  WHY THIS RUNE PAGE:")
+    if best_rune.keystone == "first_strike":
+        lines.append("  • First Strike: R from fog always opens combat. 9% bonus")
+        lines.append("    TRUE on the whole 2.5s combo. 7.2 only nerfed the gold")
+        lines.append("    ratio (ranged 45%), not the 9% damage.")
+    elif best_rune.keystone == "electrocute":
+        lines.append("  • Electrocute: R+W+Q procs it. 7.2 left it at 10% bAD")
+        lines.append("    (was 40%), so this win is the guaranteed proc.")
+    else:
+        lines.append(f"  • Keystone {best_rune.keystone} won the all-in ranking.")
+    lines.append("  • Fleet heals. Zero burst. Lane-only.")
+    lines.append("  • Empowerment needs 3 basic attacks; this combo is 1 Q")
+    lines.append("    on-hit + ~2 autos, so the 8% amp lands on nothing.")
+    lines.append("  • Brutal (6 + 8% bAD on attacks) and Empowered Attack (Q)")
+    lines.append("    stay. At 28:00 Gathering Storm's stacked AD (~44) beats")
+    lines.append("    Cut Down's 6.57% on the opening chunk; keep Cut Down")
+    lines.append("    until ~18:00 when Storm has stacked.")
+    lines.append("  • Cut Down 6.57% while they are >60% HP covers R/W/Q")
+    lines.append("    in lane. Coup once they walk in pre-chunked.")
+    lines.append("")
+    lines.append("  RECOMMENDED FINISHED BUILD:")
+    lines.append("  1) Spectral Sickle → Black Mist Scythe")
+    lines.append("  2) The Collector")
+    lines.append("  3) Mortal Reminder          (2nd-item peak)")
+    lines.append("  4) Infinity Edge")
+    fourth_fifth = winner_name.split(" → ")
+    if len(fourth_fifth) == 2:
+        lines.append(f"  5) {fourth_fifth[0]:<22} (4th legendary)")
+        lines.append(f"  6) Sell Scythe → {fourth_fifth[1]}")
+    lines.append("")
+    lines.append("  RUNES (support, this burst):")
+    lines.append(f"  Keystone: {best_rune.keystone.replace('_', ' ').title()}")
+    seconds = ["Brutal" if best_rune.brutal else None]
+    if best_rune.empowered:
+        seconds.append("Empowered Attack")
+    if best_rune.sudden_impact:
+        seconds.append("Sudden Impact")
+    if best_rune.gathering_storm:
+        seconds.append("Gathering Storm")
+    if best_rune.cheap_shot:
+        seconds.append("Cheap Shot")
+    if best_rune.precision == "cut_down":
+        seconds.append("Cut Down")
+    elif best_rune.precision == "coup":
+        seconds.append("Coup de Grace")
+    lines.append("  " + " · ".join(s for s in seconds if s))
+    lines.append("  Lane/2nd-item: First Strike · Brutal · Emp · Cut Down")
+    lines.append("  Fleet only if the lane is a poke war and you never get fog R.")
+    lines.append("=" * 82)
+    return "\n".join(lines)
+
+
+def self_check_finish(results: Dict[str, List[Snapshot]]) -> None:
+    keep = results["Keep Scythe (4 items)"][-1]
+    duskhex = results["Dusk → Hex"]
+    s5 = next((s for s in duskhex if s.legendary_count >= 5), None)
+    assert s5 is not None, "Dusk → Hex never finished 5th legendary"
+    assert s5.minute <= 28, s5.minute
+    assert s5.sold_scythe, s5.items
+    assert "Black Mist Scythe" not in s5.items
+    assert s5.legendary_count >= 5
+    assert keep.legendary_count == 4
+    d28 = duskhex[-1]
+    assert d28.lucky_adc > keep.lucky_adc, (d28.lucky_adc, keep.lucky_adc)
+
+
 def main() -> None:
     out_dir = "/workspace/senna-burst-sim"
 
@@ -2192,6 +2717,29 @@ def main() -> None:
         },
     )
     print(f"\nWrote {out_dir}/report-support.txt and {out_dir}/results-support.json")
+
+    fin_results, fin_timeline, fin_yun = run_all(
+        SUPPORT_FINISH_PATHS,
+        role="support",
+        scorer=support_score,
+        minutes=SUPPORT_MINUTES,
+    )
+    self_check_finish(fin_results)
+    fin_report = summarize_finish(fin_results, fin_yun)
+    print(fin_report)
+    with open(f"{out_dir}/report-support.txt", "a", encoding="utf-8") as f:
+        f.write(fin_report + "\n")
+    export_json(
+        fin_results,
+        fin_timeline,
+        f"{out_dir}/results-support-finish.json",
+        meta_extra={
+            "role": "Support (fasting) full build",
+            "playstyle": "sell Scythe, 5th legendary + rune ranking",
+            "game_minutes": SUPPORT_MINUTES,
+        },
+    )
+    print(f"\nWrote full-build section and {out_dir}/results-support-finish.json")
 
 
 if __name__ == "__main__":

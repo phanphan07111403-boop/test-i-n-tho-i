@@ -360,7 +360,7 @@
       ],
       "ad": 311.5,
       "crit": 0.55,
-      "notes": "Nightstalker, execute, 2-ITEM SPIKE",
+      "notes": "Nightstalker, execute, 3 items",
       "legendaries": 3
     },
     {
@@ -381,7 +381,7 @@
       ],
       "ad": 337.8,
       "crit": 0.55,
-      "notes": "Nightstalker, execute, 2-ITEM SPIKE",
+      "notes": "Nightstalker, execute, 3 items",
       "legendaries": 3
     }
   ],
@@ -961,7 +961,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 Dusk": [
@@ -1540,7 +1540,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 230% crit, 3 items"
       }
     ],
     "Dusk \u2192 Youmuu": [
@@ -2085,7 +2085,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       },
       {
         "minute": 20,
@@ -2115,7 +2115,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       }
     ],
     "Youmuu \u2192 Collector": [
@@ -2694,7 +2694,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Hexoptics \u2192 Collector": [
@@ -3275,7 +3275,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, range amp, 230% crit, 3 items"
       }
     ],
     "Hexoptics \u2192 Dusk": [
@@ -3822,7 +3822,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, range amp, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, range amp, 3 items"
       },
       {
         "minute": 20,
@@ -3853,7 +3853,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, range amp, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, range amp, 3 items"
       }
     ],
     "Collector \u2192 Hexoptics": [
@@ -4434,7 +4434,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, range amp, 230% crit, 3 items"
       }
     ],
     "Collector \u2192 IE": [
@@ -5007,7 +5007,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Dusk \u2192 IE": [
@@ -5581,7 +5581,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 230% crit, 3 items"
       }
     ],
     "Hexoptics \u2192 IE": [
@@ -6161,7 +6161,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, range amp, 230% crit, 3 items"
       }
     ],
     "Stormrazor \u2192 Collector": [
@@ -6739,7 +6739,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Yun Tal \u2192 Collector": [
@@ -7318,7 +7318,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, Yun Tal stacks, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, Yun Tal stacks, 3 items"
       }
     ],
     "Collector \u2192 Stormrazor": [
@@ -7899,7 +7899,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Fiendhunter \u2192 Collector": [
@@ -8448,7 +8448,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, R-barrage, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, R-barrage, 3 items"
       },
       {
         "minute": 20,
@@ -8478,7 +8478,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, R-barrage, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, R-barrage, 3 items"
       }
     ],
     "RFC \u2192 Collector": [
@@ -9027,7 +9027,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       },
       {
         "minute": 20,
@@ -9057,7 +9057,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "ER \u2192 Collector": [
@@ -9638,7 +9638,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, spellblade, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, spellblade, 3 items"
       }
     ],
     "Collector \u2192 ER": [
@@ -10220,7 +10220,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, spellblade, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, spellblade, 3 items"
       }
     ],
     "Galeforce \u2192 Collector": [
@@ -10800,7 +10800,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Dusk \u2192 Galeforce": [
@@ -11348,7 +11348,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       },
       {
         "minute": 20,
@@ -11379,7 +11379,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       }
     ],
     "Collector \u2192 Serylda": [
@@ -11957,7 +11957,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Dusk \u2192 Serylda": [
@@ -12502,7 +12502,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       },
       {
         "minute": 20,
@@ -12533,7 +12533,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "Nightstalker, execute, 2-ITEM SPIKE"
+        "notes": "Nightstalker, execute, 3 items"
       }
     ],
     "Collector \u2192 Mortal": [
@@ -13114,7 +13114,7 @@
         "kill_adc_lucky": true,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "execute, 230% crit, 2-ITEM SPIKE"
+        "notes": "execute, 230% crit, 3 items"
       }
     ],
     "Hexoptics \u2192 Stormrazor": [
@@ -13697,7 +13697,7 @@
         "kill_adc_lucky": false,
         "kill_mid_exp": true,
         "kill_mid_lucky": true,
-        "notes": "range amp, 230% crit, 2-ITEM SPIKE"
+        "notes": "range amp, 230% crit, 3 items"
       }
     ]
   }

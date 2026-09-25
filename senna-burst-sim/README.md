@@ -14,7 +14,8 @@ python3 senna-burst-sim/simulate_senna_burst.py
 Outputs:
 
 - `report.txt` / `results.json` — ADC lethality
-- `report-support.txt` / `results-support.json` — support crit
+- `report-support.txt` / `results-support.json` — support crit (20 min)
+- `results-support-finish.json` — sell Scythe, 5th legendary, rune ranking (28 min)
 
 7.3 kit: no AD growth, Relic 20% AD on-hit, Q/W/R **do not crit**, autos deal **90%** of 200% crit (IE 230%). Mist is **10% crit / 20 stacks**. Magnetic Blaster is gone.
 
@@ -70,16 +71,46 @@ Same 7.3 lesson as ADC, on a crit chassis: spells don't crit, **%pen** is the 2n
 
 - **Dynamism before item 2:** Collector → Mortal at 16:00 is a fatter 119% / 126% spike, but you **do not finish IE**. Late is flat (122%). Skip the 1200g boots on a crit support.
 - **Yun Tal → IE:** strongest 20:00 (146% mix) once stacked crit + IE + Mortal 3rd. 2nd-item is only 101% / 108% — misses the peak.
-- **Fiendhunter / RFC:** 0 AD. RFC does not overkill ADC at 2 items (98%).
+- **Fiendhunter / RFC first:** 0 AD. RFC does not overkill ADC at 2 items (98%). As **5th** after IE + 100% crit they can buy a 3rd auto — see full build.
 - **LDR 2nd:** 35% pen is real, but 3300g delays IE; 20:00 is 118% with **no IE**.
 
 ### Lethality still bursts harder
 
 On the same support gold, **Dusk → Serylda** is 142% / 150% at 16:00 and 146% / 155% at 20:00. Nightstalker is a flat proc; soul crit does not multiply it. Pick that if you will leave the crit fantasy. This ranking is **crit-only**.
 
+---
+
+## Full build: sell Scythe, 5th legendary
+
+Do **not** sell until the 5th item is affordable (~28:00 on this gold curve). Scythe is 68 AD (28 + 40 soulcast); the 350g sell is what completes a 3000g legendary.
+
+**Collector → Mortal → IE → Duskblade → sell Scythe → Fiendhunter Bolts**
+
+| When | Spike |
+|------|--------|
+| ~25:00 | **Duskblade** 4th — Nightstalker + 18 lethality (170% mix) |
+| ~28:00 | **Sell Scythe → Fiendhunter** — 45% AS + Opening Barrage 15% true on already-critting IE autos. **206% / 220%** ADC/mid |
+
+Sitting on Scythe + Hex (4 items) at 28:00 is only 152% ADC. Selling for the 5th is **+1132** lucky vs ADC.
+
+Fiendhunter/RFC were traps as **item 1**. At 5th you already have 100% crit and IE, so the 0 AD is paid for by a **3rd auto** and (Fiendhunter) 15% true. Safer 5ths if you hate 0-AD: Dusk → RFC (195%), Dusk → Youmuu (188%), Hex → Dusk (177%).
+
+BT / GA 5th often miss the gold window (kept Scythe). Serylda 5th after Dusk is 3100g — 350g short at 28:00.
+
+### Runes (this burst, fog R)
+
+**Keystone: First Strike** — R from fog always opens combat. 9% bonus **true** on the whole 2.5s combo. 7.2 only nerfed the gold ratio (ranged 45%).
+
+| When | Page |
+|------|------|
+| Lane / 2nd-item | First Strike · **Brutal** · **Empowered Attack** · **Cut Down** |
+| Full build (~28:00) | First Strike · Brutal · Empowered Attack · **Gathering Storm** (~44 AD) |
+
+First Strike is **+19pp** over Fleet on the 5-item combo (Cut Down page) and **+33pp** with Gathering Storm stacked. Electrocute was gutted in 7.2 (10% bAD, was 40%) — still procs on R+W+Q but only +8pp. Fleet and Lethal Tempo add **0 burst**. Empowerment needs 3 basic attacks; this combo's 8% amp lands on nothing.
+
 ## Playstyle (both)
 
 - Skill: max **Q** → W. R whenever.
 - Combo: R from fog → W root → Q (mist extract + Relic on-hit) → auto.
 - Fasting: ADC last-hits, you take souls.
-- Runes: Fleet, Empowered Attack, Brutal, Cut Down (Coup once they are chunked).
+- Runes: **First Strike**, Brutal, Empowered Attack, Cut Down → Gathering Storm late. Fleet only if you never get the fog R.

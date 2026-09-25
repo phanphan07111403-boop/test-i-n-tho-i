@@ -61,7 +61,7 @@ MINUTE-BY-MINUTE OPTIMAL (crit paths only, 2nd-item + late)
          230% crit, Yun Tal stacks, 2-ITEM SPIKE
   20:00 | ADC  2873 (  142% KILL) | mid  3054 (  149% KILL) | Yun Tal → IE
          items: Black Mist Scythe › Yun Tal Wildarrows › Infinity Edge › Mortal Reminder
-         230% crit, Yun Tal stacks, 2-ITEM SPIKE
+         230% crit, Yun Tal stacks, 3 items
 
 ----------------------------------------------------------------------------------
 CRIT BUILD COMPARISON — overkill @ 2nd item / 16:00 / 20:00
@@ -197,6 +197,123 @@ VERDICT
   Do not buy Dynamism before the 2nd legendary.
 
   Skill: max Q → W. Fasting: ADC last-hits, you take souls.
-  Combo: R → W → Q → auto. Runes: Fleet, Empowered Attack,
-  Brutal, Cut Down (Coup once they are chunked).
+  Combo: R → W → Q → auto. Runes: First Strike,
+  Brutal, Empowered Attack, Cut Down (see full-build section).
+==================================================================================
+
+==================================================================================
+FULL BUILD — SELL SCYTHE, 5TH LEGENDARY + RUNES  (WR 7.3)
+Core: Collector → Mortal → IE. Then 4th, sell Scythe, 5th.
+==================================================================================
+
+GOLD / LEVEL / MIST (long game)
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm
+   20   10100   14   107     2026      106
+   22   11500   14   117     2042      106
+   24   12900   15   127     2058      106
+   25   13600   15   133     2066      106
+   26   14300   15   138     2074      106
+   27   15000   15   143     2082      106
+   28   15700   15   148     2090      106
+
+----------------------------------------------------------------------------------
+4TH / 5TH PAIR  (overkill @ 4th item / sell-minute / 28:00)
+----------------------------------------------------------------------------------
+  Build                   4th@  5th@   4th%   5th%  28:00  Scythe
+  Dusk → Fiendhunter       25:00   28:00   170%   213%   213%    sold
+  Hex → Fiendhunter        24:00   28:00   152%   196%   196%    sold
+  Dusk → RFC               25:00   28:00   170%   195%   195%    sold
+  Dusk → Youmuu            25:00   28:00   170%   188%   188%    sold
+  Youmuu → Dusk            25:00   28:00   161%   188%   188%    sold
+  Dusk → EoN               25:00   28:00   170%   180%   180%    sold
+  EoN → Dusk               25:00   28:00   155%   180%   180%    sold
+  Hex → RFC                24:00   28:00   152%   178%   178%    sold
+  Hex → Dusk               24:00   28:00   152%   177%   177%    sold
+  Dusk → Hex               25:00   28:00   173%   177%   177%    sold
+  Dusk → Stormrazor        25:00   28:00   170%   172%   172%    sold
+  Hex → Youmuu             24:00   28:00   152%   168%   168%    sold
+  Hex → Serylda            24:00   28:00   152%   167%   167%    sold
+  Serylda → Hex            25:00   28:00   162%   167%   167%    sold
+  Hex → Galeforce          24:00   28:00   152%   163%   163%    sold
+  Hex → EoN                24:00   28:00   152%   162%   162%    sold
+  Serylda → GA             25:00   28:00   159%   156%   156%    sold
+  Hex → Stormrazor         24:00   28:00   152%   156%   156%    sold
+  Hex → GA                 24:00   28:00   152%   150%   150%    sold
+  Dusk → Serylda           25:00     —   170%     0%   201%    kept
+  Serylda → Dusk           25:00     —   159%     0%   185%    kept
+  Dusk → BT                25:00     —   170%     0%   182%    kept
+  Hex → BT                 24:00     —   152%     0%   166%    kept
+
+----------------------------------------------------------------------------------
+KEEP SCYTHE (4 items) vs SELL FOR 5TH  @ 28:00
+----------------------------------------------------------------------------------
+  Keep Scythe + Hex     ADC 3174 (152%)  AD 522  items 4
+  Dusk → Fiendhunter     ADC 4306 (206%)  AD 454  items 5  sold Scythe
+  Sell-for-5th vs keep-4: ADC +1132 lucky
+
+  5th legendary ~28:00  ADC 4306 (206%)  mid 4598 (220%)
+  Inventory: The Collector › Mortal Reminder › Infinity Edge › Duskblade of Draktharr › Fiendhunter Bolts
+
+----------------------------------------------------------------------------------
+RUNE PAGES on Dusk → Fiendhunter at 28:00 (7.2/7.3 values)
+----------------------------------------------------------------------------------
+  Page                                                ADC    Mid    mix vs Fleet
+  First Strike · Brutal · Emp · Gathering Storm      4966   5301   245%   +33.2pp
+  First Strike · Brutal · Sudden Impact · Cut Down   4885   5208   241%   +29.2pp
+  First Strike · Brutal · Emp · Coup                 4810   5136   238%   +25.6pp
+  First Strike · Brutal · Emp · Cheap Shot           4764   5075   235%   +23.1pp
+  First Strike · Brutal · Emp · Cut Down             4678   4994   231%   +19.0pp
+  Comet · Brutal · Emp · Cut Down                    4478   4751   221%    +8.4pp
+  Electrocute · Brutal · Emp · Cut Down              4451   4752   220%    +7.9pp
+  Dark Harvest · Brutal · Emp · Cut Down             4423   4723   219%    +6.5pp
+  Empowerment · Brutal · Emp · Cut Down              4404   4703   218%    +5.5pp
+  Aery · Brutal · Emp · Cut Down                     4366   4624   215%    +2.8pp
+  Fleet · Brutal · Emp · Cut Down                    4292   4582   212%    +0.0pp
+  Lethal Tempo · Brutal · Emp · Cut Down             4292   4582   212%    +0.0pp
+
+----------------------------------------------------------------------------------
+VERDICT — FULL BUILD + RUNES
+----------------------------------------------------------------------------------
+  Items: Collector → Mortal → IE → Dusk → Fiendhunter (sell Scythe)
+  4th ~25:00, sell Scythe + 5th ~28:00
+  28:00 ADC 4306 (206%)  mid 4598 (220%)
+  Best rune page: First Strike · Brutal · Emp · Gathering Storm
+  With that page @ 28:00: ADC 4966 (238%)  mid 5301 (253%)
+
+  WHY SELL SCYTHE:
+  • Scythe is 28 AD + 40 soulcast = 68 AD and 10 AH, but
+    sells for 350g — that gold finishes the 5th
+    legendary. A real 5th item outdamages 68 AD on this combo.
+  • Do not sell until the 5th item is actually affordable.
+  • RFC / Fiendhunter 5th: 0 AD was a trap as item 1, but at
+    100% crit + IE the 40–45% AS can buy a 3rd auto. Check
+    the table — if that 3rd auto fits, it beats Dusk/Hex 5th.
+
+  WHY THIS RUNE PAGE:
+  • First Strike: R from fog always opens combat. 9% bonus
+    TRUE on the whole 2.5s combo. 7.2 only nerfed the gold
+    ratio (ranged 45%), not the 9% damage.
+  • Fleet heals. Zero burst. Lane-only.
+  • Empowerment needs 3 basic attacks; this combo is 1 Q
+    on-hit + ~2 autos, so the 8% amp lands on nothing.
+  • Brutal (6 + 8% bAD on attacks) and Empowered Attack (Q)
+    stay. At 28:00 Gathering Storm's stacked AD (~44) beats
+    Cut Down's 6.57% on the opening chunk; keep Cut Down
+    until ~18:00 when Storm has stacked.
+  • Cut Down 6.57% while they are >60% HP covers R/W/Q
+    in lane. Coup once they walk in pre-chunked.
+
+  RECOMMENDED FINISHED BUILD:
+  1) Spectral Sickle → Black Mist Scythe
+  2) The Collector
+  3) Mortal Reminder          (2nd-item peak)
+  4) Infinity Edge
+  5) Dusk                   (4th legendary)
+  6) Sell Scythe → Fiendhunter
+
+  RUNES (support, this burst):
+  Keystone: First Strike
+  Brutal · Empowered Attack · Gathering Storm
+  Lane/2nd-item: First Strike · Brutal · Emp · Cut Down
+  Fleet only if the lane is a poke war and you never get fog R.
 ==================================================================================
