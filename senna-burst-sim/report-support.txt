@@ -1,0 +1,437 @@
+==================================================================================
+SENNA SUPPORT — DUSK FIRST, THEN 2ND-ITEM PEAK  (WR Patch 7.3)
+Playstyle: fasting support | Nightstalker item-1, %pen item-2
+Metric: early Dusk kill threat, fattest 2nd-item overkill
+==================================================================================
+
+GOLD / LEVEL / MIST (fasting support)
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm
+    1     810    2     4      734       34
+    5    2200    5    23     1102       49
+    8    3580    7    39     1378       61
+   10    4500    9    49     1486       65
+   12    5620   10    60     1594       69
+   14    6740   11    72     1702       85
+   16    7860   12    83     1810       89
+   18    8980   13    95     1918      103
+   20   10100   14   107     2026      106
+
+----------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (Dusk-first paths)
+----------------------------------------------------------------------------------
+   1:00 | ADC   402 (   55% live) | mid   420 (   57% live) | Dusk → Serylda
+         items: Spectral Sickle
+         pre-legendary
+   2:00 | ADC   446 (   54% live) | mid   467 (   56% live) | Dusk → Serylda
+         items: Spectral Sickle
+         pre-legendary
+   4:00 | ADC   622 (   62% live) | mid   656 (   64% live) | Dusk → Serylda
+         items: Spectral Sickle › Serrated Dirk
+         pre-legendary
+   6:00 | ADC  1014 (   85% live) | mid  1071 (   88% live) | Dusk → Serylda
+         items: Black Mist Scythe › Serrated Dirk
+         pre-legendary
+   8:00 | ADC  1374 (  100% live) | mid  1461 (  104% KILL) | Dusk → Serylda
+         items: Black Mist Scythe › Duskblade of Draktharr
+         Nightstalker, 1 item
+  10:00 | ADC  1719 (  116% KILL) | mid  1838 (  122% KILL) | Dusk → Collector
+         items: Black Mist Scythe › Duskblade of Draktharr › Serrated Dirk
+         Nightstalker, 1 item
+  11:00 | ADC  1753 (  111% KILL) | mid  1855 (  115% KILL) | Dusk → Collector
+         items: Black Mist Scythe › Duskblade of Draktharr › Serrated Dirk
+         Nightstalker, 1 item
+  12:00 | ADC  1841 (  116% KILL) | mid  1970 (  122% KILL) | Dusk → Collector
+         items: Black Mist Scythe › Duskblade of Draktharr › Serrated Dirk
+         Nightstalker, 1 item
+  13:00 | ADC  1948 (  115% KILL) | mid  2087 (  122% KILL) | Dusk → Collector
+         items: Black Mist Scythe › Duskblade of Draktharr › Serrated Dirk › Noonquiver
+         Nightstalker, 1 item
+  14:00 | ADC  2259 (  133% KILL) | mid  2414 (  140% KILL) | Dusk → Serylda
+         items: Black Mist Scythe › Duskblade of Draktharr › Serylda's Grudge
+         Nightstalker, 2-ITEM SPIKE
+  15:00 | ADC  2282 (  127% KILL) | mid  2440 (  134% KILL) | Dusk → Serylda
+         items: Black Mist Scythe › Duskblade of Draktharr › Serylda's Grudge
+         Nightstalker, 2-ITEM SPIKE
+  16:00 | ADC  2679 (  148% KILL) | mid  2878 (  157% KILL) | Dusk → Serylda
+         items: Black Mist Scythe › Duskblade of Draktharr › Serylda's Grudge › Serrated Dirk
+         Nightstalker, 2-ITEM SPIKE
+  18:00 | ADC  2806 (  146% KILL) | mid  3019 (  156% KILL) | Dusk → Serylda + Dynamism
+         items: Black Mist Scythe › Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › Serrated Dirk
+         Nightstalker, 2-ITEM SPIKE
+  20:00 | ADC  2951 (  146% KILL) | mid  3177 (  155% KILL) | Dusk → Serylda + Dynamism
+         items: Black Mist Scythe › Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › Serrated Dirk › Noonquiver
+         Nightstalker, 2-ITEM SPIKE
+
+----------------------------------------------------------------------------------
+DUSK-FIRST 2ND ITEM — overkill @ 2nd / 8:00 (item 1) / 20:00
+----------------------------------------------------------------------------------
+  Build                         Dusk@  2nd@   ADC%   Mid%   8:00  20:00    2ndΔ
+  Dusk → Serylda                  8:00   14:00   133%   140%   102%   141%    +597
+  Dusk → Serylda + Dynamism       8:00   16:00   142%   150%   102%   150%    +823
+  Dusk → Mortal                   8:00   14:00   125%   132%   102%   137%    +456
+  Dusk → LDR                      8:00   15:00   123%   129%   102%   130%    +519
+  Dusk → Youmuu                   8:00   14:00   122%   132%   102%   147%    +430
+  Dusk → Galeforce                8:00   14:00   119%   128%   102%   142%    +373
+  Dusk → Collector                8:00   14:00   116%   126%   102%   141%    +336
+  Dusk → Hex                      8:00   14:00   115%   124%   102%   138%    +311
+  Dusk → EoN                      8:00   14:00   116%   126%   102%   141%    +336
+  Dusk → IE                       8:00   15:00   116%   125%   102%   145%    +417
+
+----------------------------------------------------------------------------------
+2ND ITEM SPIKE  (isolated Δ, same minute with vs without 2nd)
+----------------------------------------------------------------------------------
+  Dusk → Serylda               2nd ~14:00  ADC 2259 KILL  mid 2414 KILL  Δ +597  [Duskblade of Draktharr, Serylda's Grudge]  also expected
+  Dusk → Serylda + Dynamism    2nd ~16:00  ADC 2561 KILL  mid 2749 KILL  Δ +823  [Duskblade of Draktharr, Serylda's Grudge]  also expected
+  Dusk → Mortal                2nd ~14:00  ADC 2120 KILL  mid 2272 KILL  Δ +456  [Duskblade of Draktharr, Mortal Reminder]  also expected
+  Dusk → LDR                   2nd ~15:00  ADC 2207 KILL  mid 2360 KILL  Δ +519  [Duskblade of Draktharr, Lord Dominik's Regards]  also expected
+  Dusk → Youmuu                2nd ~14:00  ADC 2069 KILL  mid 2271 KILL  Δ +430  [Duskblade of Draktharr, Youmuu's Ghostblade]  also expected
+  Dusk → Galeforce             2nd ~14:00  ADC 2023 KILL  mid 2202 KILL  Δ +373  [Duskblade of Draktharr, Galeforce]  also expected
+  Dusk → Collector             2nd ~14:00  ADC 1983 KILL  mid 2170 KILL  Δ +336  [Duskblade of Draktharr, The Collector]  also expected
+  Dusk → Hex                   2nd ~14:00  ADC 1964 KILL  mid 2138 KILL  Δ +311  [Duskblade of Draktharr, Hexoptics C44]  also expected
+  Dusk → EoN                   2nd ~14:00  ADC 1983 KILL  mid 2170 KILL  Δ +336  [Duskblade of Draktharr, Edge of Night]  also expected
+  Dusk → IE                    2nd ~15:00  ADC 2089 KILL  mid 2275 KILL  Δ +417  [Duskblade of Draktharr, Infinity Edge]  also expected
+
+----------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------
+  Best Dusk-first support path: Dusk → Serylda
+  Window-weighted score: 2.038 | Dusk ~8:00 | 2nd legendary ~14:00
+  Serylda / %pen online:           ~14:00  (the 2nd-item peak)
+  Item 1 @ 8:00 vs ADC: lucky 1374 (100%) live
+  2nd item vs ADC: lucky 2259 (133%) OVERKILL | expected 2004 (118%)
+  2nd item vs mid: lucky 2414 (140%) OVERKILL | expected 2140 (124%)
+  20:00 vs ADC: lucky 2765 (136%)  AD 411  mist 107
+  Isolated 2nd-item Δ: ADC +584 / mid +609
+
+  WHY DUSK FIRST THEN SERYLDA:
+  • Item 1 Duskblade: 55 AD + 18 lethality + Nightstalker
+    60–160. Same early spike as ADC, on support gold ~8:00.
+  • Q/W/R do not crit. 2nd item has to multiply the WHOLE
+    combo. Serylda 35% pen does that; Collector/IE only
+    multiply ~2 autos.
+  • Dusk→Serylda 2nd ~14:00 133%/140% ADC/mid.
+  • Dusk→Collector 116% / Dusk→Mortal 125% / Dusk→Youmuu 122% / Dusk→IE 116%.
+  • Dusk→Hex 2nd ~14:00 (115% ADC) — earlier, smaller spike.
+  • Dynamism before 2nd: spike ~16:00 (142% ADC). Skip the 1200g boots.
+
+  VS CRIT-ONLY Collector → Mortal:
+  • 8:00  Dusk 100% ADC vs Collector 88% — Nightstalker is the lane.
+  • 2nd   Dusk→Serylda 133% vs Collector→Mortal 112%.
+
+  RECOMMENDED (Dusk first, peak at 2nd):
+  1) Spectral Sickle → Black Mist Scythe (~5:00)
+  2) Duskblade of Draktharr   (~8:00, Nightstalker = item-1)
+  3) Serylda's Grudge         (~14:00, 35% pen — 2ND ITEM PEAK)
+  4) Youmuu / Collector       (then sell Scythe for a 5th)
+  Do not buy Dynamism before the 2nd legendary.
+  Runes: First Strike · Brutal · Empowered Attack · Cut Down
+==================================================================================
+
+==================================================================================
+SENNA SUPPORT — CRIT, 2ND-ITEM PEAK + LATE SCALE  (WR Patch 7.3)
+Playstyle: fasting support (Scythe + souls) | Combo: R → W → Q → autos
+Metric: overkill ADC+mid at item 2, then still climbing at 18–20
+==================================================================================
+
+GOLD / LEVEL / MIST (fasting support)
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm  Mist crit
+    1     810    2     4      734       34         0%
+    5    2200    5    23     1102       49        10%
+    8    3580    7    39     1378       61        10%
+   10    4500    9    49     1486       65        20%
+   12    5620   10    60     1594       69        30%
+   14    6740   11    72     1702       85        30%
+   15    7300   11    78     1802       89        30%
+   16    7860   12    83     1810       89        40%
+   18    8980   13    95     1918      103        40%
+   20   10100   14   107     2026      106        50%
+
+----------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (crit paths only, 2nd-item + late)
+----------------------------------------------------------------------------------
+   1:00 | ADC   402 (   55% live) | mid   420 (   57% live) | Collector → Mortal → IE
+         items: Spectral Sickle
+         pre-legendary
+   2:00 | ADC   446 (   54% live) | mid   467 (   56% live) | Collector → Mortal → IE
+         items: Spectral Sickle
+         pre-legendary
+   4:00 | ADC   622 (   62% live) | mid   656 (   64% live) | Collector → Mortal → IE
+         items: Spectral Sickle › Serrated Dirk
+         pre-legendary
+   6:00 | ADC  1018 (   85% live) | mid  1072 (   88% live) | Hex → Mortal → IE
+         items: Black Mist Scythe › Noonquiver › Pickaxe
+         pre-legendary
+   8:00 | ADC  1222 (   89% live) | mid  1285 (   92% live) | Stormrazor → IE
+         items: Black Mist Scythe › Stormrazor
+         1 item
+  10:00 | ADC  1527 (  103% KILL) | mid  1614 (  107% KILL) | Stormrazor → Collector → IE
+         items: Black Mist Scythe › Stormrazor › Serrated Dirk
+         1 item
+  11:00 | ADC  1586 (  100% KILL) | mid  1624 (  101% KILL) | Collector → IE → Mortal
+         items: Black Mist Scythe › The Collector › B. F. Sword
+         execute, 1 item
+  12:00 | ADC  1621 (  102% KILL) | mid  1721 (  107% KILL) | Collector → Hex → IE
+         items: Black Mist Scythe › The Collector › Noonquiver › Pickaxe
+         execute, 1 item
+  13:00 | ADC  1774 (  105% KILL) | mid  1859 (  108% KILL) | Collector → Mortal + Dynamism
+         items: Black Mist Scythe › The Collector › Boots of Dynamism › Last Whisper
+         execute, 1 item
+  14:00 | ADC  1898 (  112% KILL) | mid  2026 (  118% KILL) | Collector → Mortal → IE
+         items: Black Mist Scythe › The Collector › Mortal Reminder
+         execute, 2-ITEM SPIKE
+  15:00 | ADC  2014 (  112% KILL) | mid  2152 (  118% KILL) | Collector → Mortal → IE
+         items: Black Mist Scythe › The Collector › Mortal Reminder › Pickaxe
+         execute, 2-ITEM SPIKE
+  16:00 | ADC  2019 (  112% KILL) | mid  2181 (  119% KILL) | Galeforce → IE
+         items: Black Mist Scythe › Galeforce › Infinity Edge › Brawler's Gloves
+         230% crit, 2-ITEM SPIKE
+  18:00 | ADC  2510 (  131% KILL) | mid  2664 (  138% KILL) | Yun Tal → IE
+         items: Black Mist Scythe › Yun Tal Wildarrows › Infinity Edge › Last Whisper › Brawler's Gloves
+         230% crit, Yun Tal stacks, 2-ITEM SPIKE
+  20:00 | ADC  2873 (  142% KILL) | mid  3054 (  149% KILL) | Yun Tal → IE
+         items: Black Mist Scythe › Yun Tal Wildarrows › Infinity Edge › Mortal Reminder
+         230% crit, Yun Tal stacks, 3 items
+
+----------------------------------------------------------------------------------
+CRIT BUILD COMPARISON — overkill @ 2nd item / 16:00 / 20:00
+----------------------------------------------------------------------------------
+  Build                         2nd@   ADC%   Mid%  16:00  20:00    2ndΔ  Late
+  Collector → Mortal → IE        14:00   112%   118%   119%   124%    +394    UP
+  Hex → Mortal → IE              14:00   110%   116%   117%   124%    +377    UP
+  Galeforce → IE                 15:00   109%   116%   115%   126%    +401    UP
+  Fiendhunter → IE               14:00   104%   111%   118%   140%    +447    UP
+  Hex → Galeforce → IE           14:00   108%   115%   114%   118%    +349    UP
+  Yun Tal → IE                   15:00   101%   108%   107%   146%    +394    UP
+  Collector → IE → Mortal        15:00   107%   113%   113%   124%    +406    UP
+  Yun Tal → Collector → IE       14:00   100%   106%   106%   135%    +284    UP
+  Hex → IE → Mortal              15:00   107%   113%   113%   124%    +412    UP
+  IE → Hex → Mortal              15:00   107%   113%   113%   124%    +307    UP
+  Hex → Collector → IE           14:00   105%   112%   111%   115%    +293    UP
+  Collector → Hex → IE           14:00   105%   112%   111%   115%    +286    UP
+  Stormrazor → IE                15:00   106%   112%   112%   121%    +394    UP
+  Hex → Stormrazor → IE          14:00   105%   110%   110%   114%    +280    UP
+  Stormrazor → Collector → IE    14:00   104%   111%   110%   112%    +277    UP
+  ER → IE                        15:00   105%   112%   112%   113%    +405    UP
+  Collector → Mortal + Dynamism   16:00   119%   126%   123%   122%    +576    UP
+  Collector → LDR → IE           15:00   110%   116%   122%   118%    +456    UP
+  RFC → IE                       14:00    98%   103%   110%   103%    +383    UP
+
+----------------------------------------------------------------------------------
+2ND ITEM SPIKE  (isolated Δ, same minute with vs without 2nd)
+----------------------------------------------------------------------------------
+  Collector → Mortal → IE      2nd ~14:00  ADC 1898 KILL  mid 2026 KILL  Δ +394  [The Collector, Mortal Reminder]  also expected
+  Hex → Mortal → IE            2nd ~14:00  ADC 1878 KILL  mid 1998 KILL  Δ +377  [Hexoptics C44, Mortal Reminder]  also expected
+  Galeforce → IE               2nd ~15:00  ADC 1969 KILL  mid 2107 KILL  Δ +401  [Galeforce, Infinity Edge]  also expected
+  Fiendhunter → IE             2nd ~14:00  ADC 1779 KILL  mid 1906 KILL  Δ +447  [Fiendhunter Bolts, Infinity Edge]  lucky only
+  Hex → Galeforce → IE         2nd ~14:00  ADC 1846 KILL  mid 1974 KILL  Δ +349  [Hexoptics C44, Galeforce]  also expected
+  Yun Tal → IE                 2nd ~15:00  ADC 1822 KILL  mid 1968 KILL  Δ +394  [Yun Tal Wildarrows, Infinity Edge]  lucky only
+  Collector → IE → Mortal      2nd ~15:00  ADC 1922 KILL  mid 2064 KILL  Δ +406  [The Collector, Infinity Edge]  also expected
+  Yun Tal → Collector → IE     2nd ~14:00  ADC 1702 KILL  mid 1830 KILL  Δ +284  [Yun Tal Wildarrows, The Collector]  lucky only
+  Hex → IE → Mortal            2nd ~15:00  ADC 1926 KILL  mid 2061 KILL  Δ +412  [Hexoptics C44, Infinity Edge]  also expected
+  IE → Hex → Mortal            2nd ~15:00  ADC 1926 KILL  mid 2061 KILL  Δ +307  [Infinity Edge, Hexoptics C44]  also expected
+  Hex → Collector → IE         2nd ~14:00  ADC 1780 KILL  mid 1929 KILL  Δ +293  [Hexoptics C44, The Collector]  also expected
+  Collector → Hex → IE         2nd ~14:00  ADC 1780 KILL  mid 1929 KILL  Δ +286  [The Collector, Hexoptics C44]  also expected
+  Stormrazor → IE              2nd ~15:00  ADC 1904 KILL  mid 2044 KILL  Δ +394  [Stormrazor, Infinity Edge]  also expected
+  Hex → Stormrazor → IE        2nd ~14:00  ADC 1786 KILL  mid 1895 KILL  Δ +280  [Hexoptics C44, Stormrazor]  also expected
+  Stormrazor → Collector → IE  2nd ~14:00  ADC 1771 KILL  mid 1906 KILL  Δ +277  [Stormrazor, The Collector]  also expected
+  ER → IE                      2nd ~15:00  ADC 1894 KILL  mid 2046 KILL  Δ +405  [Essence Reaver, Infinity Edge]  also expected
+  Collector → Mortal + Dynamism 2nd ~16:00  ADC 2154 KILL  mid 2310 KILL  Δ +576  [The Collector, Mortal Reminder]  also expected
+  Collector → LDR → IE         2nd ~15:00  ADC 1978 KILL  mid 2108 KILL  Δ +456  [The Collector, Lord Dominik's Regards]  also expected
+  RFC → IE                     2nd ~14:00  ADC 1659 live  mid 1781 KILL  Δ +383  [Rapid Firecannon, Infinity Edge]  lucky only
+
+----------------------------------------------------------------------------------
+LATE (20:00) vs 2ND-ITEM MINUTE  — did it keep scaling?
+----------------------------------------------------------------------------------
+  Collector → Mortal → IE      2nd   115%  20:00   124%  Δ +10pp  crit 100%  AD 416  IE
+  Hex → Mortal → IE            2nd   113%  20:00   124%  Δ +11pp  crit 100%  AD 421  IE
+  Galeforce → IE               2nd   112%  20:00   126%  Δ +14pp  crit 100%  AD 426  IE
+  Fiendhunter → IE             2nd   108%  20:00   140%  Δ +33pp  crit 100%  AD 381  IE
+  Hex → Galeforce → IE         2nd   112%  20:00   118%  Δ +6pp  crit 100%  AD 446  IE
+  Yun Tal → IE                 2nd   104%  20:00   146%  Δ +41pp  crit 100%  AD 416  IE
+  Collector → IE → Mortal      2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 416  IE
+  Yun Tal → Collector → IE     2nd   103%  20:00   135%  Δ +32pp  crit 100%  AD 431  IE
+  Hex → IE → Mortal            2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 421  IE
+  IE → Hex → Mortal            2nd   110%  20:00   124%  Δ +14pp  crit 100%  AD 421  IE
+  Hex → Collector → IE         2nd   108%  20:00   115%  Δ +6pp  crit 100%  AD 436  IE
+  Collector → Hex → IE         2nd   108%  20:00   115%  Δ +6pp  crit 100%  AD 436  IE
+  Stormrazor → IE              2nd   109%  20:00   121%  Δ +12pp  crit 100%  AD 416  IE
+  Hex → Stormrazor → IE        2nd   108%  20:00   114%  Δ +6pp  crit 100%  AD 436  IE
+  Stormrazor → Collector → IE  2nd   107%  20:00   112%  Δ +5pp  crit 100%  AD 431  IE
+  ER → IE                      2nd   109%  20:00   113%  Δ +4pp  crit 100%  AD 431  IE
+  Collector → Mortal + Dynamism 2nd   123%  20:00   122%  Δ -0pp  crit 100%  AD 411  no IE
+  Collector → LDR → IE         2nd   113%  20:00   118%  Δ +5pp  crit 100%  AD 401  no IE
+  RFC → IE                     2nd   100%  20:00   103%  Δ +2pp  crit 100%  AD 381  IE
+
+----------------------------------------------------------------------------------
+LETHALITY CONTRAST (same support gold / fasting Mist)
+----------------------------------------------------------------------------------
+  Dusk → Serylda (lethality)       2nd ~14:00  ADC 133%  mid 140%  |  20:00 ADC 136%  mid 145%
+  Dusk → Collector (lethality)     2nd ~14:00  ADC 116%  mid 126%  |  20:00 ADC 120%  mid 130%
+
+----------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------
+  Best crit support path (2nd-item peak + late): Collector → Mortal → IE
+  Window-weighted score: 1.845 | 2nd legendary ~14:00
+  Collector (execute + 25% crit)   ~8:00
+  Mortal / %pen (2nd-item peak)    ~14:00
+  Infinity Edge (230% crit)        ~20:00
+  2nd item vs ADC: lucky 1898 (112%) OVERKILL | expected 1835 (108%)
+  2nd item vs mid: lucky 2026 (118%) OVERKILL | expected 1959 (114%)
+  20:00 vs ADC: lucky 2449 (121%)  crit 100%  AD 416  mist 107  IE
+  Isolated 2nd-item Δ: ADC +393 / mid +395
+
+  WHY THIS PEAKS AT 2 AND STILL SCALES:
+  • Fasting Mist is free crit (10%/20 stacks) + 1.25 AD/soul.
+    Support hits ~100 Mist at 20:00 = 50% crit and 125 AD
+    before items. Item crit stacks on top of that.
+  • Q/W/R still do not crit. Mortal's 30% pen (or LDR 35%)
+    is the 2nd-item overkill among crit items — same lesson
+    as ADC Dusk → Serylda, on a crit chassis.
+  • Collector 1st (3000): 50 AD + 10 lethality + 5% execute
+    + 25% crit. Online ~8:00, already a kill threat with souls.
+  • Skip Boots of Dynamism. 1200g delays 2nd item from ~14
+    to ~16 and leaves you 400g short of IE at 20:00.
+    Dynamism path 2nd ~16:00 (119% ADC), 20:00 no IE.
+  • Late: IE 230% × Senna's 90% modifier = 207% autos, and
+    soul crit is high enough that expected ≈ lucky.
+  • Collector→Mortal 2nd ~14:00 (112% ADC); Hex→Mortal 2nd ~14:00 (110% ADC).
+  • Hex→Collector 2nd ~14:00 (105% ADC) — no %pen, smaller spike.
+  • Hex→IE 2nd ~15:00 (107% ADC); Collector→IE 2nd ~15:00 (107% ADC) — IE 2nd is a minute late.
+
+  LETHALITY ON SUPPORT GOLD:
+  • Dusk→Serylda 2nd ~14:00 ADC 133% / mid 140%.
+  • At 20:00 lethality mix 141% vs winner 124%. Nightstalker is a flat proc; soul crit
+    does not multiply it. Crit items ride the Mist curve.
+    Dusk-first (above) is the primary recommendation.
+    This ranking is the crit-only fallback.
+
+  TRAPS (same as ADC, worse on support gold):
+  • RFC → IE 2nd ~14:00  ADC 98% — RFC has 0 AD.
+  • Yun Tal → IE 2nd ~15:00  ADC 101% — stacking 25% crit is slow; souls already give crit.
+    Yun Tal / Fiendhunter can look best at 20:00 once IE is
+    up, but they miss the 2nd-item peak.
+  • Essence Reaver: 135% of base AD 54. Skip.
+  • Fiendhunter: 0 AD + 80% crit modifier after R. Skip.
+  • Dynamism before item 2: gold sink on a crit build.
+  • Galeforce 2nd is IE: looks strong 16–20 because 230% is
+    already on, but the 14:00 Mortal spike is fatter.
+
+  RECOMMENDED (crit support, 2nd-item peak, stronger late):
+  1) Spectral Sickle → Black Mist Scythe (~5:00)
+  2) The Collector           (execute + 25% crit)
+  3) Mortal Reminder         (30% pen — 2ND ITEM PEAK)
+  4) Infinity Edge           (late 230% — souls already crit)
+     Alt if you want range first: Hexoptics → Mortal → IE
+  Do not buy Dynamism before the 2nd legendary.
+
+  Skill: max Q → W. Fasting: ADC last-hits, you take souls.
+  Combo: R → W → Q → auto. Runes: First Strike,
+  Brutal, Empowered Attack, Cut Down (see full-build section).
+==================================================================================
+
+==================================================================================
+FULL BUILD — SELL SCYTHE, 5TH LEGENDARY + RUNES  (WR 7.3)
+Core: Duskblade → Serylda. Then 3rd/4th, sell Scythe, 5th.
+==================================================================================
+
+GOLD / LEVEL / MIST (long game)
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm
+   20   10100   14   107     2026      106
+   22   11500   14   117     2042      106
+   24   12900   15   127     2058      106
+   25   13600   15   133     2066      106
+   26   14300   15   138     2074      106
+   27   15000   15   143     2082      106
+   28   15700   15   148     2090      106
+
+----------------------------------------------------------------------------------
+4TH / 5TH PAIR  (overkill @ 4th item / sell-minute / 28:00)
+----------------------------------------------------------------------------------
+  Build                                 4th@  5th@   4th%   5th%  28:00  Scythe
+  Youmuu → Collector → Fiendhunter       24:00   27:00   182%   221%   223%    sold
+  Collector → Youmuu → Fiendhunter       24:00   27:00   182%   221%   223%    sold
+  IE → Collector → Fiendhunter           25:00   28:00   179%   225%   225%    sold
+  EoN → Collector → Fiendhunter          24:00   27:00   174%   212%   213%    sold
+  Collector → Hex → Fiendhunter          24:00   27:00   170%   210%   211%    sold
+  Hex → Collector → Fiendhunter          24:00   27:00   170%   210%   211%    sold
+  Mortal → Collector → Fiendhunter       24:00   27:00   170%   206%   208%    sold
+  Collector → IE → RFC                   25:00   28:00   179%   206%   206%    sold
+  IE → Collector → RFC                   25:00   28:00   179%   206%   206%    sold
+  Collector → Hex → RFC                  24:00   27:00   170%   195%   196%    sold
+  Hex → Collector → RFC                  24:00   27:00   170%   195%   196%    sold
+  Collector → IE → Hex                   25:00   28:00   182%   187%   187%    sold
+
+----------------------------------------------------------------------------------
+KEEP SCYTHE (4 items) vs SELL FOR 5TH  @ 28:00
+----------------------------------------------------------------------------------
+  Keep Scythe + Hex     ADC 3517 (168%)  AD 517  items 4
+  Youmuu → Collector → Fiendhunter     ADC 4493 (215%)  AD 449  items 5  sold Scythe
+  Sell-for-5th vs keep-4: ADC +976 lucky
+
+  5th legendary ~27:00  ADC 4443 (213%)  mid 4773 (229%)
+  Inventory: Duskblade of Draktharr › Serylda's Grudge › Youmuu's Ghostblade › The Collector › Fiendhunter Bolts
+
+----------------------------------------------------------------------------------
+RUNE PAGES on Youmuu → Collector → Fiendhunter at 27:00 (7.2/7.3 values)
+----------------------------------------------------------------------------------
+  Page                                                ADC    Mid    mix vs Fleet
+  First Strike · Brutal · Emp · Gathering Storm      5152   5534   256%   +35.7pp
+  First Strike · Brutal · Sudden Impact · Cut Down   5088   5494   254%   +33.2pp
+  First Strike · Brutal · Emp · Coup                 4984   5391   249%   +28.3pp
+  First Strike · Brutal · Emp · Cheap Shot           4937   5291   245%   +24.7pp
+  First Strike · Brutal · Emp · Cut Down             4832   5191   240%   +19.9pp
+  Electrocute · Brutal · Emp · Cut Down              4614   4957   230%    +9.0pp
+  Comet · Brutal · Emp · Cut Down                    4615   4928   229%    +8.3pp
+  Dark Harvest · Brutal · Emp · Cut Down             4583   4924   228%    +7.5pp
+  Empowerment · Brutal · Emp · Cut Down              4564   4904   227%    +6.5pp
+  Aery · Brutal · Emp · Cut Down                     4500   4823   224%    +3.0pp
+  Fleet · Brutal · Emp · Cut Down                    4433   4762   220%    +0.0pp
+  Lethal Tempo · Brutal · Emp · Cut Down             4433   4762   220%    +0.0pp
+
+----------------------------------------------------------------------------------
+VERDICT — FULL BUILD + RUNES
+----------------------------------------------------------------------------------
+  Items: Dusk → Serylda → Youmuu → Collector → sell Scythe → Fiendhunter
+  4th ~24:00, sell Scythe + 5th ~27:00
+  28:00 ADC 4493 (215%)  mid 4827 (231%)
+  Best rune page: First Strike · Brutal · Emp · Gathering Storm
+  With that page @ 27:00: ADC 5152 (247%)  mid 5534 (265%)
+
+  WHY SELL SCYTHE:
+  • Scythe is 28 AD + 40 soulcast = 68 AD and 10 AH, but
+    sells for 350g — that gold finishes the 5th
+    legendary. A real 5th item outdamages 68 AD on this combo.
+  • Do not sell until the 5th item is actually affordable.
+  • RFC / Fiendhunter 5th: 0 AD was a trap as item 1, but at
+    100% crit + IE the 40–45% AS can buy a 3rd auto. Check
+    the table — if that 3rd auto fits, it beats Dusk/Hex 5th.
+
+  WHY THIS RUNE PAGE:
+  • First Strike: R from fog always opens combat. 9% bonus
+    TRUE on the whole 2.5s combo. 7.2 only nerfed the gold
+    ratio (ranged 45%), not the 9% damage.
+  • Fleet heals. Zero burst. Lane-only.
+  • Empowerment needs 3 basic attacks; this combo is 1 Q
+    on-hit + ~2 autos, so the 8% amp lands on nothing.
+  • Brutal (6 + 8% bAD on attacks) and Empowered Attack (Q)
+    stay. At 28:00 Gathering Storm's stacked AD (~44) beats
+    Cut Down's 6.57% on the opening chunk; keep Cut Down
+    until ~18:00 when Storm has stacked.
+  • Cut Down 6.57% while they are >60% HP covers R/W/Q
+    in lane. Coup once they walk in pre-chunked.
+
+  RECOMMENDED FINISHED BUILD:
+  1) Spectral Sickle → Black Mist Scythe
+  2) Duskblade of Draktharr   (item-1 Nightstalker)
+  3) Serylda's Grudge   (2ND ITEM PEAK — 35% pen)
+  4) Youmuu's Ghostblade   (lethality + move speed)
+  5) The Collector   (execute + 25% crit)
+  6) Sell Scythe → Fiendhunter Bolts   (AS + 15% true — extra auto)
+
+  RUNES (support, this burst):
+  Keystone: First Strike
+  Brutal · Empowered Attack · Gathering Storm
+  Lane/2nd-item: First Strike · Brutal · Emp · Cut Down
+  Fleet only if the lane is a poke war and you never get fog R.
+==================================================================================
