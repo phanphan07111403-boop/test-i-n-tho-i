@@ -80,7 +80,6 @@ BUILD COMPARISON — MIX DAMAGE / 8s @ spikes
   ER → IE → Navori → Mortal → BT              2085    3924    5357    6577     4874    +993
   ER → IE → RFC → Mortal → BT                 2085    3453    4747    5810     4343    +993
   ER → Shojin → IE → Mortal → Hex             1769    3673    5015    6593     4666    +729
-  ER → IE → Hex → Mortal → BT (Greaves)       1873    3118    4880    5637     4216    +746
   Yun Tal → IE → Hex → Mortal → BT            1615    2992    4769    5541     4083    +734
   Stormrazor → IE → Hex → Mortal → BT         1675    2857    4574    5275     3920    +697
   ER → IE → Collector → Mortal → Hex          2085    3926    5310    6440     4819    +993
@@ -109,7 +108,6 @@ Q POKE vs SQUISHY  (pure Super Scorcher siege) @ 18 / 22 / 25
   ER → Trinity → IE → Mortal → Hex            2990    4331    5949   Qs @22: 4  crit 75%
   ER → IE → RFC → Mortal → BT                 3142    4370    5374   Qs @22: 4  crit 100%
   ER → IE → Cleaver → Serylda → BT            3168    4356    5059   Qs @22: 4  crit 50%
-  ER → IE → Hex → Mortal → BT (Greaves)       2962    4648    5412   Qs @22: 3  crit 100%
   Yun Tal → IE → Hex → Mortal → BT            2641    4255    5054   Qs @22: 3  crit 100%
   Stormrazor → IE → Hex → Mortal → BT         2577    4120    4879   Qs @22: 3  crit 100%
 
@@ -131,7 +129,6 @@ TEAMFIGHT vs TANK  @ 18 / 22 / 25
   ER → Trinity → IE → Mortal → Hex            4190    5764    7256
   ER → IE → RFC → Mortal → BT                 4282    5799    6999
   ER → IE → Cleaver → Serylda → BT            4395    5973    6847
-  ER → IE → Hex → Mortal → BT (Greaves)       3814    5699    6482
   Yun Tal → IE → Hex → Mortal → BT            4027    6006    6801
   Stormrazor → IE → Hex → Mortal → BT         3733    5587    6335
 
@@ -153,7 +150,6 @@ TEAMFIGHT vs TANK  @ 18 / 22 / 25
   ER → Trinity → IE → Mortal → Hex         ~13:00  Δ +490  [Essence Reaver, Trinity Force]
   ER → IE → RFC → Mortal → BT              ~13:00  Δ +993  [Essence Reaver, Infinity Edge]
   ER → IE → Cleaver → Serylda → BT         ~13:00  Δ +993  [Essence Reaver, Infinity Edge]
-  ER → IE → Hex → Mortal → BT (Greaves)    ~13:00  Δ +746  [Essence Reaver, Infinity Edge]
   Yun Tal → IE → Hex → Mortal → BT         ~13:00  Δ +734  [Yun Tal Wildarrows, Infinity Edge]
   Stormrazor → IE → Hex → Mortal → BT      ~13:00  Δ +697  [Stormrazor, Infinity Edge]
 
@@ -161,11 +157,11 @@ TEAMFIGHT vs TANK  @ 18 / 22 / 25
 IE 2ND vs 3RD — DRAGON PRACTICE STACKING
 --------------------------------------------------------------------------------
   Path                                   T3      IE  Stk13  Stk16  Stk18   Mix13   Mix16   Mix18   Mix22
-  ER → IE → Hex → LDR → BT               17   132nd    118    160    190    2412    2830    4306    6110
-  ER → Hex → IE → LDR → BT               17   173rd    120    163    192    2500    2751    4312    6118
-  ER → IE → Shojin → Hex → LDR           17   132nd    118    163    195    2412    2522    3518    5291
-  ER → Shojin → IE → Hex → LDR           17   183rd    124    171    203    2148    2412    3543    5321
-  ER → Shojin → IE → Mortal → Hex        17   183rd    124    171    203    2148    2412    3673    5015
+  ER → IE → Hex → LDR → BT               17  13 2nd    118    160    190    2412    2830    4306    6110
+  ER → Hex → IE → LDR → BT               17  17 3rd    120    163    192    2500    2751    4312    6118
+  ER → IE → Shojin → Hex → LDR           17  13 2nd    118    163    195    2412    2522    3518    5291
+  ER → Shojin → IE → Hex → LDR           17  18 3rd    124    171    203    2148    2412    3543    5321
+  ER → Shojin → IE → Mortal → Hex        17  18 3rd    124    171    203    2148    2412    3673    5015
 
   Isolated at the IE-2nd complete minute (same clock, different 2nd):
     ~13:00  IE 2nd: 118 stacks, mix 2412, Q amp 50% crit + IE
@@ -198,11 +194,29 @@ RUNES ON ER → IE → Hex → LDR → BT  (same items, swap the page)
   Phase Rush / Zeal / Cut Down / Haste / Transcendence        4371    6209    7449    6900    4
 
 --------------------------------------------------------------------------------
+BOOTS ON ER → IE → Hex → LDR → BT  (same legendaries, swap only the boot)
+--------------------------------------------------------------------------------
+  Boot                        Gold   IE  Qs Stk16  Mix16  Mix22  Mix25 Poke22 Fight22
+  Ionian Boots of Lucidity    1000   13   4   160   2830   6110   7359   5618    7233
+  Crimson Lucidity            2000   15   4   165   2705   6142   6892   5645    7273
+  Gluttonous Greaves          1000   13   3   148   2532   5300   6348   4767    6540
+  Immortal Treads             2000   15   3   148   2529   5565   6201   5005    6867
+  Berserker's Greaves         1200   13   3   148   2584   5377   6205   4631    7046
+  Gunmetal Greaves            2200   15   3   148   2330   4348   6112   3913    5458
+
+  Isolated (same clock, only the boot differs):
+    Ionian   4 Qs @22  mix 6110  AH 45
+    Greaves  3 Qs @22  mix 5300  +12 AD, 5–10% omnivamp (no extra Q)
+    Immortal 3 Qs @22  mix 5565  12 AD + 5% while healthy, IE ~15:00 vs Ionian ~13:00
+    Crimson  4 Qs @22  mix 6142  25 AH still 4 Qs; 1000g delays IE
+    Berserker 3 Qs @22 mix 5377  35% AS  fight-tank 7046 vs Ionian 7233
+
+--------------------------------------------------------------------------------
 VERDICT
 --------------------------------------------------------------------------------
   Strongest late path: ER → Hex → IE → LDR → BT
   Late-weighted mix: 5479 | 22:00 6118 | 25:00 7371
-  Infinity Edge online: ~17:00  (Q amp uses 230% crit damage)
+  Infinity Edge online: ~15:00  (Q amp uses 230% crit damage)
   Hexoptics C44 online: ~11:00  (10% damage at Q range)
   % armor pen online:   ~21:00
   T3 burn (175 stacks): ~17:00  (true %HP + 6.5% execute)
@@ -239,7 +253,7 @@ VERDICT
   RECOMMENDED (strongest late, patch 7.3):
   1) Long Sword → Sheen
   2) Essence Reaver   (~9:00)  — Spellblade on Q, 25% crit, 20 AH
-  3) Ionian Boots of Lucidity  — more Qs (Greaves if you need vamp)
+  3) Ionian Boots of Lucidity  — 4th Q. Sit on T2; T3 is not a 5th Q
   4) Infinity Edge    (~14:00) — THE late item (230% crit damage)
   5) Hexoptics C44    (~18:00) — 10% damage at Q range + 25% crit
   6) Mortal Reminder / LDR     — 100% crit + %pen
@@ -299,4 +313,24 @@ VERDICT
     and it does not stack during a Q siege.
   • Phase Rush is the dive/gank swap (common on CN screenshots).
     0 damage. Take it when you cannot stand still to stack.
+
+  BOOTS THAT FIT THIS PAGE:
+  Ionian Boots of Lucidity
+    22:00 mix 6110 | 25:00 7359 | Qs @22 4 | AH 45
+  • Ionian 15 AH is the 4th Super Scorcher in 8s. This page is
+    Q-poke; one extra fireball beats 12 AD and extra autos.
+  • Gluttonous Greaves — 12 AD + 5–10% omnivamp, 3 Qs. Mix 5300 vs 6110.
+    The page already has Bloodline 7% omnivamp (heals Q magic
+    + true burn). Greaves only if you are diving and dying.
+  • Immortal Treads — same 12 AD + vamp, plus 5% damage above 50% HP. Still 3 Qs.
+    22:00 mix 5565. IE ~15:00 vs Ionian ~13:00 — the extra 1000g delays the capstone.
+    Take Immortal after the core if you are already on Greaves
+    and fighting healthy tanks. Do not buy it to skip Ionian.
+  • Crimson Lucidity — 25 AH, still 4 Qs in 8s (need ~90 AH for a 5th).
+    Mix 6142. IE ~15:00. Sit on T2 Ionian;
+    upgrade only with leftover gold after LDR/BT.
+  • Berserker's / Gunmetal — 3 Qs. Fight-tank 7046 / 5458 vs Ionian 7233.
+    Hexoptics poke does not auto. Gunmetal 5% LS is physical;
+    Q magic + T3 true burn do not heal from it.
+  • Mercury's / Steelcaps are the CC / all-in-AD swaps. 0 extra Qs.
 ================================================================================

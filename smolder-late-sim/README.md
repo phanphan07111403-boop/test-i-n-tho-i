@@ -74,16 +74,20 @@ Dragon Practice income is **Q count**, not Q damage. Essence Reaver already one-
 
 Locked legendaries: Essence Reaver → Infinity Edge → Hexoptics C44 → LDR → Bloodthirster. T3 boots unlock at 10:00 and cost +1000g.
 
-| Boot | Gold | Role | Why |
-|------|------|------|-----|
-| **Ionian (T2)** | 1000 | Q count | Extra fireball. Default. |
-| Crimson Lucidity (T3) | 2000 | more AH | Still 4 Qs in 8s (~90 AH for a 5th). 1000g delays IE. Upgrade only after LDR/BT. |
-| Gluttonous Greaves (T2) | 1000 | 12 AD + vamp | 3 Qs. Bloodline already heals Q magic + true burn. Greaves if you are diving and dying. |
-| Immortal Treads (T3) | 2000 | 12 AD + 5% healthy | Same 3 Qs, plus 5% damage above 50% HP. Extra gold delays IE. |
-| Berserker's (T2) | 1200 | 35% AS | Extra fight autos. Hexoptics poke does not auto. |
-| Gunmetal (T3) | 2200 | 50% AS + 5% LS | 7.3 LS is physical; Q magic + T3 true burn do not heal from it. |
+| Boot | Gold | IE | Qs @22 | Mix @22 | Mix @25 |
+|------|------|----|--------|---------|---------|
+| **Ionian (T2)** | 1000 | 13:00 | **4** | **6110** | **7359** |
+| Crimson Lucidity (T3) | 2000 | 15:00 | 4 | 6142 | 6892 (BT delayed) |
+| Gluttonous Greaves (T2) | 1000 | 13:00 | 3 | 5300 | 6348 |
+| Immortal Treads (T3) | 2000 | 15:00 | 3 | 5565 | 6201 |
+| Berserker's (T2) | 1200 | 13:00 | 3 | 5377 | 6205 |
+| Gunmetal (T3) | 2200 | 15:00 | 3 | 4348 | 6112 |
 
-**Do not take:** Berserker's / Gunmetal on this 0-AS page. Mercury's / Steelcaps only vs heavy CC / all-in AD.
+- One extra fireball beats 12 AD, 5% healthy damage, and extra autos. Greaves is **−13%** mix at 22:00 (5300 vs 6110). Immortal's 5% while healthy still fires 3 Qs and delays IE two minutes.
+- Crimson paper-leads 22:00 by 32 damage (same 4 Qs, 25 AH) then loses **−467** at 25:00 because the extra 1000g delays Bloodthirster. ~90 AH is needed for a 5th Q in 8s — T3 Ionian is not that.
+- Berserker's does **not** win the fight either (fight-tank 7046 vs Ionian 7233). Hexoptics poke does not auto. Gunmetal 5% LS is physical; Q magic + T3 true burn do not heal from it.
+- Bloodline already gives 7% omnivamp. Greaves/Immortal only if you are diving and dying.
+- Mercury's / Steelcaps vs heavy CC / all-in AD. 0 extra Qs.
 
 ## Playstyle
 

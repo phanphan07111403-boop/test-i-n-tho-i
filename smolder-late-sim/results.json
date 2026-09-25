@@ -5579,645 +5579,6 @@
         "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, Shojin 12%, ER sheen"
       }
     ],
-    "ER \u2192 IE \u2192 Hex \u2192 Mortal \u2192 BT (Greaves)": [
-      {
-        "minute": 1,
-        "items": [
-          "Long Sword"
-        ],
-        "gold": 1000,
-        "level": 2,
-        "stacks": 3,
-        "ad": 69.5,
-        "bonus_ad": 12.0,
-        "crit": 0.0,
-        "ah": 5.0,
-        "legendary_count": 0,
-        "poke_tank": 282.3,
-        "poke_squish": 299.4,
-        "fight_tank": 391.5,
-        "fight_squish": 415.2,
-        "mix_tank": 315.1,
-        "mix_squish": 334.2,
-        "q_casts_poke": 2,
-        "notes": "pre-legendary"
-      },
-      {
-        "minute": 2,
-        "items": [
-          "Long Sword",
-          "Sheen"
-        ],
-        "gold": 1500,
-        "level": 3,
-        "stacks": 7,
-        "ad": 73.0,
-        "bonus_ad": 12.0,
-        "crit": 0.0,
-        "ah": 5.0,
-        "legendary_count": 0,
-        "poke_tank": 337.8,
-        "poke_squish": 358.1,
-        "fight_tank": 451.6,
-        "fight_squish": 478.8,
-        "mix_tank": 372.0,
-        "mix_squish": 394.3,
-        "q_casts_poke": 2,
-        "notes": "pre-legendary"
-      },
-      {
-        "minute": 3,
-        "items": [
-          "Long Sword",
-          "Sheen",
-          "Brawler's Gloves"
-        ],
-        "gold": 2000,
-        "level": 4,
-        "stacks": 11,
-        "ad": 76.5,
-        "bonus_ad": 12.0,
-        "crit": 0.1,
-        "ah": 5.0,
-        "legendary_count": 0,
-        "poke_tank": 360.4,
-        "poke_squish": 381.9,
-        "fight_tank": 630.8,
-        "fight_squish": 668.5,
-        "mix_tank": 441.5,
-        "mix_squish": 467.9,
-        "q_casts_poke": 2,
-        "notes": "pre-legendary"
-      },
-      {
-        "minute": 4,
-        "items": [
-          "Long Sword",
-          "Sheen",
-          "Caulfield's Warhammer"
-        ],
-        "gold": 2500,
-        "level": 5,
-        "stacks": 16,
-        "ad": 100.0,
-        "bonus_ad": 32.0,
-        "crit": 0.0,
-        "ah": 30.0,
-        "legendary_count": 0,
-        "poke_tank": 582.4,
-        "poke_squish": 616.9,
-        "fight_tank": 875.5,
-        "fight_squish": 927.4,
-        "mix_tank": 670.3,
-        "mix_squish": 710.1,
-        "q_casts_poke": 3,
-        "notes": "pre-legendary"
-      },
-      {
-        "minute": 5,
-        "items": [
-          "Long Sword",
-          "Sheen",
-          "Caulfield's Warhammer",
-          "Brawler's Gloves"
-        ],
-        "gold": 3000,
-        "level": 6,
-        "stacks": 21,
-        "ad": 103.5,
-        "bonus_ad": 32.0,
-        "crit": 0.1,
-        "ah": 30.0,
-        "legendary_count": 0,
-        "poke_tank": 614.7,
-        "poke_squish": 651.0,
-        "fight_tank": 1079.1,
-        "fight_squish": 1142.8,
-        "mix_tank": 754.0,
-        "mix_squish": 798.5,
-        "q_casts_poke": 3,
-        "notes": "pre-legendary"
-      },
-      {
-        "minute": 6,
-        "items": [
-          "Long Sword",
-          "Essence Reaver"
-        ],
-        "gold": 3650,
-        "level": 7,
-        "stacks": 31,
-        "ad": 137.0,
-        "bonus_ad": 62.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1147.4,
-        "poke_squish": 1214.8,
-        "fight_tank": 1709.5,
-        "fight_squish": 1809.9,
-        "mix_tank": 1316.0,
-        "mix_squish": 1393.4,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 7,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Boots"
-        ],
-        "gold": 4300,
-        "level": 8,
-        "stacks": 41,
-        "ad": 140.5,
-        "bonus_ad": 62.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1181.9,
-        "poke_squish": 1251.0,
-        "fight_tank": 1746.4,
-        "fight_squish": 1848.5,
-        "mix_tank": 1351.2,
-        "mix_squish": 1430.2,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 8,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves"
-        ],
-        "gold": 4950,
-        "level": 9,
-        "stacks": 52,
-        "ad": 156.0,
-        "bonus_ad": 74.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1249.7,
-        "poke_squish": 1322.5,
-        "fight_tank": 1867.1,
-        "fight_squish": 1975.8,
-        "mix_tank": 1434.9,
-        "mix_squish": 1518.5,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 9,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Pickaxe"
-        ],
-        "gold": 5600,
-        "level": 10,
-        "stacks": 64,
-        "ad": 179.5,
-        "bonus_ad": 94.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1323.2,
-        "poke_squish": 1465.1,
-        "fight_tank": 1969.0,
-        "fight_squish": 2180.7,
-        "mix_tank": 1517.0,
-        "mix_squish": 1679.8,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 10,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "B. F. Sword"
-        ],
-        "gold": 6250,
-        "level": 11,
-        "stacks": 75,
-        "ad": 203.0,
-        "bonus_ad": 114.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1364.4,
-        "poke_squish": 1573.4,
-        "fight_tank": 2163.5,
-        "fight_squish": 2496.4,
-        "mix_tank": 1604.1,
-        "mix_squish": 1850.3,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 11,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "B. F. Sword",
-          "Pickaxe"
-        ],
-        "gold": 6900,
-        "level": 11,
-        "stacks": 87,
-        "ad": 223.0,
-        "bonus_ad": 134.0,
-        "crit": 0.25,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1411.7,
-        "poke_squish": 1693.4,
-        "fight_tank": 2236.2,
-        "fight_squish": 2685.2,
-        "mix_tank": 1659.1,
-        "mix_squish": 1990.9,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 12,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "B. F. Sword",
-          "Pickaxe",
-          "Brawler's Gloves"
-        ],
-        "gold": 7550,
-        "level": 12,
-        "stacks": 98,
-        "ad": 226.5,
-        "bonus_ad": 134.0,
-        "crit": 0.35,
-        "ah": 30.0,
-        "legendary_count": 1,
-        "poke_tank": 1457.4,
-        "poke_squish": 1655.3,
-        "fight_tank": 2484.3,
-        "fight_squish": 2821.8,
-        "mix_tank": 1765.5,
-        "mix_squish": 2005.3,
-        "q_casts_poke": 3,
-        "notes": "T1 AoE, ER sheen"
-      },
-      {
-        "minute": 13,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge"
-        ],
-        "gold": 8250,
-        "level": 12,
-        "stacks": 110,
-        "ad": 241.5,
-        "bonus_ad": 149.0,
-        "crit": 0.5,
-        "ah": 30.0,
-        "legendary_count": 2,
-        "poke_tank": 1678.4,
-        "poke_squish": 1973.7,
-        "fight_tank": 2771.0,
-        "fight_squish": 3259.4,
-        "mix_tank": 2006.2,
-        "mix_squish": 2359.4,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, ER sheen"
-      },
-      {
-        "minute": 14,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Pickaxe"
-        ],
-        "gold": 8950,
-        "level": 13,
-        "stacks": 123,
-        "ad": 265.0,
-        "bonus_ad": 169.0,
-        "crit": 0.5,
-        "ah": 30.0,
-        "legendary_count": 2,
-        "poke_tank": 1726.7,
-        "poke_squish": 2093.3,
-        "fight_tank": 2866.2,
-        "fight_squish": 3476.2,
-        "mix_tank": 2068.6,
-        "mix_squish": 2508.1,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, ER sheen"
-      },
-      {
-        "minute": 15,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Noonquiver"
-        ],
-        "gold": 9650,
-        "level": 13,
-        "stacks": 135,
-        "ad": 265.0,
-        "bonus_ad": 169.0,
-        "crit": 0.65,
-        "ah": 30.0,
-        "legendary_count": 2,
-        "poke_tank": 1824.4,
-        "poke_squish": 2279.1,
-        "fight_tank": 3025.9,
-        "fight_squish": 3782.1,
-        "mix_tank": 2184.8,
-        "mix_squish": 2730.0,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, ER sheen"
-      },
-      {
-        "minute": 16,
-        "items": [
-          "Long Sword",
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Noonquiver",
-          "Pickaxe"
-        ],
-        "gold": 10350,
-        "level": 14,
-        "stacks": 148,
-        "ad": 288.5,
-        "bonus_ad": 189.0,
-        "crit": 0.65,
-        "ah": 30.0,
-        "legendary_count": 2,
-        "poke_tank": 1868.6,
-        "poke_squish": 2395.4,
-        "fight_tank": 3129.6,
-        "fight_squish": 4015.5,
-        "mix_tank": 2246.9,
-        "mix_squish": 2881.4,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, ER sheen"
-      },
-      {
-        "minute": 17,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Brawler's Gloves"
-        ],
-        "gold": 11050,
-        "level": 14,
-        "stacks": 161,
-        "ad": 291.5,
-        "bonus_ad": 192.0,
-        "crit": 0.85,
-        "ah": 30.0,
-        "legendary_count": 3,
-        "poke_tank": 2234.9,
-        "poke_squish": 2941.4,
-        "fight_tank": 3489.3,
-        "fight_squish": 4599.5,
-        "mix_tank": 2611.2,
-        "mix_squish": 3438.8,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, 85% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 18,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Last Whisper"
-        ],
-        "gold": 11750,
-        "level": 15,
-        "stacks": 174,
-        "ad": 310.0,
-        "bonus_ad": 207.0,
-        "crit": 0.75,
-        "ah": 30.0,
-        "legendary_count": 3,
-        "poke_tank": 2360.5,
-        "poke_squish": 2961.8,
-        "fight_tank": 3814.3,
-        "fight_squish": 4793.3,
-        "mix_tank": 2796.7,
-        "mix_squish": 3511.3,
-        "q_casts_poke": 3,
-        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 19,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Last Whisper",
-          "Brawler's Gloves"
-        ],
-        "gold": 12490,
-        "level": 15,
-        "stacks": 188,
-        "ad": 310.0,
-        "bonus_ad": 207.0,
-        "crit": 0.85,
-        "ah": 30.0,
-        "legendary_count": 3,
-        "poke_tank": 3425,
-        "poke_squish": 3656.2,
-        "fight_tank": 4617.7,
-        "fight_squish": 5502.6,
-        "mix_tank": 3782.8,
-        "mix_squish": 4210.1,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 85% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 20,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Last Whisper",
-          "Brawler's Gloves"
-        ],
-        "gold": 13230,
-        "level": 15,
-        "stacks": 201,
-        "ad": 310.0,
-        "bonus_ad": 207.0,
-        "crit": 0.85,
-        "ah": 30.0,
-        "legendary_count": 3,
-        "poke_tank": 3203.0,
-        "poke_squish": 3691.4,
-        "fight_tank": 4657.5,
-        "fight_squish": 5637.4,
-        "mix_tank": 3639.3,
-        "mix_squish": 4275.2,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 85% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 21,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Mortal Reminder"
-        ],
-        "gold": 13970,
-        "level": 15,
-        "stacks": 215,
-        "ad": 330.0,
-        "bonus_ad": 227.0,
-        "crit": 1.0,
-        "ah": 30.0,
-        "legendary_count": 4,
-        "poke_tank": 3830.5,
-        "poke_squish": 4450.2,
-        "fight_tank": 5534.3,
-        "fight_squish": 6735.2,
-        "mix_tank": 4341.6,
-        "mix_squish": 5135.7,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 22,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Mortal Reminder",
-          "Vampiric Scepter"
-        ],
-        "gold": 14710,
-        "level": 15,
-        "stacks": 228,
-        "ad": 345.0,
-        "bonus_ad": 242.0,
-        "crit": 1.0,
-        "ah": 30.0,
-        "legendary_count": 4,
-        "poke_tank": 3969.7,
-        "poke_squish": 4647.9,
-        "fight_tank": 5699.2,
-        "fight_squish": 7020.0,
-        "mix_tank": 4488.5,
-        "mix_squish": 5359.5,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 23,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Mortal Reminder",
-          "B. F. Sword"
-        ],
-        "gold": 15450,
-        "level": 15,
-        "stacks": 242,
-        "ad": 370.0,
-        "bonus_ad": 267.0,
-        "crit": 1.0,
-        "ah": 30.0,
-        "legendary_count": 4,
-        "poke_tank": 4207.2,
-        "poke_squish": 4955.5,
-        "fight_tank": 5996.1,
-        "fight_squish": 7465.2,
-        "mix_tank": 4743.9,
-        "mix_squish": 5708.4,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 24,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Mortal Reminder",
-          "B. F. Sword",
-          "Vampiric Scepter"
-        ],
-        "gold": 16190,
-        "level": 15,
-        "stacks": 256,
-        "ad": 385.0,
-        "bonus_ad": 282.0,
-        "crit": 1.0,
-        "ah": 30.0,
-        "legendary_count": 4,
-        "poke_tank": 4351.6,
-        "poke_squish": 5157.0,
-        "fight_tank": 6164.4,
-        "fight_squish": 7754.8,
-        "mix_tank": 4895.4,
-        "mix_squish": 5936.3,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
-      },
-      {
-        "minute": 25,
-        "items": [
-          "Essence Reaver",
-          "Gluttonous Greaves",
-          "Infinity Edge",
-          "Hexoptics C44",
-          "Mortal Reminder",
-          "Bloodthirster"
-        ],
-        "gold": 16930,
-        "level": 15,
-        "stacks": 270,
-        "ad": 405.0,
-        "bonus_ad": 302.0,
-        "crit": 1.0,
-        "ah": 30.0,
-        "legendary_count": 5,
-        "poke_tank": 4544.3,
-        "poke_squish": 5412.5,
-        "fight_tank": 6482.4,
-        "fight_squish": 8241.7,
-        "mix_tank": 5125.7,
-        "mix_squish": 6261.3,
-        "q_casts_poke": 3,
-        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
-      }
-    ],
     "Yun Tal \u2192 IE \u2192 Hex \u2192 Mortal \u2192 BT": [
       {
         "minute": 1,
@@ -14226,6 +13587,2906 @@
         "q_casts_poke": 4,
         "ah": 60.0,
         "as_pct": 0.0,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      }
+    ]
+  },
+  "boots": {
+    "Ionian Boots of Lucidity": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity"
+        ],
+        "mix_tank": 1603.3,
+        "mix_squish": 1696.6,
+        "poke_squish": 1523.5,
+        "fight_tank": 1984.8,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 144.0,
+        "stacks": 54,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Pickaxe"
+        ],
+        "mix_tank": 1759.3,
+        "mix_squish": 1947.2,
+        "poke_squish": 1683.5,
+        "fight_tank": 2315.6,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 167.5,
+        "stacks": 66,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "B. F. Sword"
+        ],
+        "mix_tank": 1844.0,
+        "mix_squish": 2124.8,
+        "poke_squish": 1811.2,
+        "fight_tank": 2479.2,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 191.0,
+        "stacks": 79,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "B. F. Sword",
+          "Pickaxe"
+        ],
+        "mix_tank": 1911.8,
+        "mix_squish": 2290.4,
+        "poke_squish": 1951.7,
+        "fight_tank": 2571.7,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 211.0,
+        "stacks": 92,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1965.8,
+        "mix_squish": 2230.7,
+        "poke_squish": 1908.3,
+        "fight_tank": 2628.9,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 214.5,
+        "stacks": 105,
+        "notes": "T2 bolts, ER sheen"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge"
+        ],
+        "mix_tank": 2236.5,
+        "mix_squish": 2625.9,
+        "poke_squish": 2273.3,
+        "fight_tank": 2936.8,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 229.5,
+        "stacks": 118,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Pickaxe"
+        ],
+        "mix_tank": 2324.9,
+        "mix_squish": 2812.3,
+        "poke_squish": 2411.8,
+        "fight_tank": 3097.0,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 253.0,
+        "stacks": 132,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2444.3,
+        "mix_squish": 3043.8,
+        "poke_squish": 2630.4,
+        "fight_tank": 3217.9,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 253.0,
+        "stacks": 146,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Noonquiver",
+          "Pickaxe"
+        ],
+        "mix_tank": 2516.3,
+        "mix_squish": 3213.7,
+        "poke_squish": 2766.7,
+        "fight_tank": 3331.1,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 276.5,
+        "stacks": 160,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 3631.0,
+        "mix_squish": 4266.8,
+        "poke_squish": 3836.0,
+        "fight_tank": 4381.0,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 279.5,
+        "stacks": 175,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 4078.3,
+        "mix_squish": 4583.6,
+        "poke_squish": 4096.6,
+        "fight_tank": 4967.1,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 298.0,
+        "stacks": 190,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 4099.4,
+        "mix_squish": 4662.3,
+        "poke_squish": 4145.6,
+        "fight_tank": 5021.5,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 298.0,
+        "stacks": 205,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 4526.3,
+        "mix_squish": 5218.9,
+        "poke_squish": 4665.3,
+        "fight_tank": 5488.4,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 220,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5966.0,
+        "mix_squish": 6208.4,
+        "poke_squish": 5553.0,
+        "fight_tank": 7244.4,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 235,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5971.7,
+        "mix_squish": 6278.9,
+        "poke_squish": 5618.0,
+        "fight_tank": 7232.9,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 250,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 6592.1,
+        "mix_squish": 6975.9,
+        "poke_squish": 6218.3,
+        "fight_tank": 8005.1,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 358.0,
+        "stacks": 265,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 6604.0,
+        "mix_squish": 7049.3,
+        "poke_squish": 6285.5,
+        "fight_tank": 7999.5,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 358.0,
+        "stacks": 280,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "mix_tank": 7124.6,
+        "mix_squish": 7645.4,
+        "poke_squish": 6824.0,
+        "fight_tank": 8589.6,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 393.0,
+        "stacks": 295,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      }
+    ],
+    "Crimson Lucidity": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity"
+        ],
+        "mix_tank": 1603.3,
+        "mix_squish": 1696.6,
+        "poke_squish": 1523.5,
+        "fight_tank": 1984.8,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 144.0,
+        "stacks": 54,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Ionian Boots of Lucidity",
+          "Pickaxe"
+        ],
+        "mix_tank": 1759.3,
+        "mix_squish": 1947.2,
+        "poke_squish": 1683.5,
+        "fight_tank": 2315.6,
+        "q_casts_poke": 4,
+        "ah": 45.0,
+        "as_pct": 0.0,
+        "ad": 167.5,
+        "stacks": 66,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1672.6,
+        "mix_squish": 1925.1,
+        "poke_squish": 1651.4,
+        "fight_tank": 2227.7,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 151.0,
+        "stacks": 80,
+        "notes": "T1 AoE, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1754.4,
+        "mix_squish": 2098.3,
+        "poke_squish": 1799.1,
+        "fight_tank": 2338.3,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 171.0,
+        "stacks": 93,
+        "notes": "T1 AoE, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "B. F. Sword",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1853.7,
+        "mix_squish": 2102.3,
+        "poke_squish": 1798.9,
+        "fight_tank": 2478.0,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 194.5,
+        "stacks": 107,
+        "notes": "T2 bolts, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "B. F. Sword",
+          "Pickaxe"
+        ],
+        "mix_tank": 1846.1,
+        "mix_squish": 2166.4,
+        "poke_squish": 1843.1,
+        "fight_tank": 2489.2,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 214.5,
+        "stacks": 121,
+        "notes": "T2 bolts, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1904.2,
+        "mix_squish": 2299.3,
+        "poke_squish": 1946.8,
+        "fight_tank": 2585.9,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 218.0,
+        "stacks": 136,
+        "notes": "T2 bolts, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge"
+        ],
+        "mix_tank": 2176.7,
+        "mix_squish": 2705.8,
+        "poke_squish": 2321.0,
+        "fight_tank": 2898.5,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 233.0,
+        "stacks": 151,
+        "notes": "T2 bolts, IE 230%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2407.9,
+        "mix_squish": 3068.5,
+        "poke_squish": 2642.3,
+        "fight_tank": 3186.4,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 256.5,
+        "stacks": 165,
+        "notes": "T2 bolts, IE 230%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 3048.6,
+        "mix_squish": 3580.0,
+        "poke_squish": 3150.6,
+        "fight_tank": 3811.3,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 256.5,
+        "stacks": 180,
+        "notes": "T3 burn, IE 230%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 3698.9,
+        "mix_squish": 4176.0,
+        "poke_squish": 3716.0,
+        "fight_tank": 4529.8,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 283.0,
+        "stacks": 196,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 3754.2,
+        "mix_squish": 4229.1,
+        "poke_squish": 3764.6,
+        "fight_tank": 4522.2,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 283.0,
+        "stacks": 211,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 4128.4,
+        "mix_squish": 4738.7,
+        "poke_squish": 4215.3,
+        "fight_tank": 5041.5,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 298.0,
+        "stacks": 227,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 4561.6,
+        "mix_squish": 5303.4,
+        "poke_squish": 4743.0,
+        "fight_tank": 5514.6,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 243,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 6006.0,
+        "mix_squish": 6308.6,
+        "poke_squish": 5645.2,
+        "fight_tank": 7273.1,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 258,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 6049.0,
+        "mix_squish": 6416.0,
+        "poke_squish": 5713.9,
+        "fight_tank": 7365.9,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 318.0,
+        "stacks": 274,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "Vampiric Scepter"
+        ],
+        "mix_tank": 6285.9,
+        "mix_squish": 6714.7,
+        "poke_squish": 5984.3,
+        "fight_tank": 7626.5,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 333.0,
+        "stacks": 290,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Crimson Lucidity",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 6669.0,
+        "mix_squish": 7164.3,
+        "poke_squish": 6390.7,
+        "fight_tank": 8057.0,
+        "q_casts_poke": 4,
+        "ah": 55.0,
+        "as_pct": 0.0,
+        "ad": 358.0,
+        "stacks": 306,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Crimson 25 AH"
+      }
+    ],
+    "Gluttonous Greaves": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves"
+        ],
+        "mix_tank": 1434.9,
+        "mix_squish": 1518.5,
+        "poke_squish": 1322.5,
+        "fight_tank": 1867.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 156.0,
+        "stacks": 52,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Pickaxe"
+        ],
+        "mix_tank": 1517.0,
+        "mix_squish": 1679.8,
+        "poke_squish": 1465.1,
+        "fight_tank": 1969.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 179.5,
+        "stacks": 64,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "B. F. Sword"
+        ],
+        "mix_tank": 1604.1,
+        "mix_squish": 1850.3,
+        "poke_squish": 1573.4,
+        "fight_tank": 2163.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 203.0,
+        "stacks": 75,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "B. F. Sword",
+          "Pickaxe"
+        ],
+        "mix_tank": 1659.1,
+        "mix_squish": 1990.9,
+        "poke_squish": 1693.4,
+        "fight_tank": 2236.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 223.0,
+        "stacks": 87,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1765.5,
+        "mix_squish": 2005.3,
+        "poke_squish": 1655.3,
+        "fight_tank": 2484.3,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 226.5,
+        "stacks": 98,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge"
+        ],
+        "mix_tank": 2006.2,
+        "mix_squish": 2359.4,
+        "poke_squish": 1973.7,
+        "fight_tank": 2771.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 241.5,
+        "stacks": 110,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Pickaxe"
+        ],
+        "mix_tank": 2068.6,
+        "mix_squish": 2508.1,
+        "poke_squish": 2093.3,
+        "fight_tank": 2866.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 265.0,
+        "stacks": 123,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2184.8,
+        "mix_squish": 2730.0,
+        "poke_squish": 2279.1,
+        "fight_tank": 3025.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 265.0,
+        "stacks": 135,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Noonquiver",
+          "Pickaxe"
+        ],
+        "mix_tank": 2246.9,
+        "mix_squish": 2881.4,
+        "poke_squish": 2395.4,
+        "fight_tank": 3129.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 288.5,
+        "stacks": 148,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 2505.3,
+        "mix_squish": 3299.4,
+        "poke_squish": 2809.8,
+        "fight_tank": 3370.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 291.5,
+        "stacks": 161,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 2796.7,
+        "mix_squish": 3511.3,
+        "poke_squish": 2961.8,
+        "fight_tank": 3814.3,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 310.0,
+        "stacks": 174,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 3513.8,
+        "mix_squish": 4060.9,
+        "poke_squish": 3516.0,
+        "fight_tank": 4485.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 310.0,
+        "stacks": 188,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 3948.0,
+        "mix_squish": 4567.5,
+        "poke_squish": 3952.9,
+        "fight_tank": 4958.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 201,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5147.5,
+        "mix_squish": 5451.8,
+        "poke_squish": 4720.9,
+        "fight_tank": 6575.3,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 215,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5133.8,
+        "mix_squish": 5503.1,
+        "poke_squish": 4767.0,
+        "fight_tank": 6540.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 228,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5622.6,
+        "mix_squish": 6076.8,
+        "poke_squish": 5271.6,
+        "fight_tank": 7123.3,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 370.0,
+        "stacks": 242,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5616.9,
+        "mix_squish": 6133.0,
+        "poke_squish": 5322.1,
+        "fight_tank": 7096.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 370.0,
+        "stacks": 256,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "mix_tank": 6072.7,
+        "mix_squish": 6684.0,
+        "poke_squish": 5773.8,
+        "fight_tank": 7699.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 405.0,
+        "stacks": 270,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      }
+    ],
+    "Immortal Treads": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves"
+        ],
+        "mix_tank": 1434.9,
+        "mix_squish": 1518.5,
+        "poke_squish": 1322.5,
+        "fight_tank": 1867.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 156.0,
+        "stacks": 52,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gluttonous Greaves",
+          "Pickaxe"
+        ],
+        "mix_tank": 1517.0,
+        "mix_squish": 1679.8,
+        "poke_squish": 1465.1,
+        "fight_tank": 1969.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 179.5,
+        "stacks": 64,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1527.2,
+        "mix_squish": 1759.9,
+        "poke_squish": 1504.3,
+        "fight_tank": 2043.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 163.0,
+        "stacks": 75,
+        "notes": "T1 AoE, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1597.6,
+        "mix_squish": 1914.7,
+        "poke_squish": 1636.9,
+        "fight_tank": 2137.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 183.0,
+        "stacks": 87,
+        "notes": "T1 AoE, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "B. F. Sword",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1743.9,
+        "mix_squish": 1980.0,
+        "poke_squish": 1634.7,
+        "fight_tank": 2453.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 206.5,
+        "stacks": 98,
+        "notes": "T1 AoE, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "B. F. Sword",
+          "Pickaxe"
+        ],
+        "mix_tank": 1733.0,
+        "mix_squish": 2037.3,
+        "poke_squish": 1671.7,
+        "fight_tank": 2458.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 226.5,
+        "stacks": 110,
+        "notes": "T2 bolts, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1767.8,
+        "mix_squish": 2140.6,
+        "poke_squish": 1762.8,
+        "fight_tank": 2495.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 230.0,
+        "stacks": 123,
+        "notes": "T2 bolts, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge"
+        ],
+        "mix_tank": 2032.3,
+        "mix_squish": 2536.7,
+        "poke_squish": 2100.3,
+        "fight_tank": 2847.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 245.0,
+        "stacks": 135,
+        "notes": "T2 bolts, IE 230%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2245.2,
+        "mix_squish": 2875.7,
+        "poke_squish": 2390.8,
+        "fight_tank": 3126.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 268.5,
+        "stacks": 148,
+        "notes": "T2 bolts, IE 230%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2207.6,
+        "mix_squish": 2902.4,
+        "poke_squish": 2413.4,
+        "fight_tank": 3073.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 268.5,
+        "stacks": 161,
+        "notes": "T2 bolts, IE 230%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 2593.5,
+        "mix_squish": 3295.8,
+        "poke_squish": 2780.6,
+        "fight_tank": 3535.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 295.0,
+        "stacks": 174,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 3301.0,
+        "mix_squish": 3836.7,
+        "poke_squish": 3326.0,
+        "fight_tank": 4198.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 295.0,
+        "stacks": 187,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 3700.9,
+        "mix_squish": 4331.0,
+        "poke_squish": 3727.4,
+        "fight_tank": 4753.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 310.0,
+        "stacks": 201,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 4076.7,
+        "mix_squish": 4838.0,
+        "poke_squish": 4188.5,
+        "fight_tank": 5177.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 214,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5390.5,
+        "mix_squish": 5778.3,
+        "poke_squish": 5005.4,
+        "fight_tank": 6867.2,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 228,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5384.2,
+        "mix_squish": 5835.5,
+        "poke_squish": 5056.8,
+        "fight_tank": 6840.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 330.0,
+        "stacks": 242,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "Vampiric Scepter"
+        ],
+        "mix_tank": 5575.5,
+        "mix_squish": 6098.0,
+        "poke_squish": 5288.4,
+        "fight_tank": 7056.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 345.0,
+        "stacks": 256,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Immortal 5%"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Immortal Treads",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5926.8,
+        "mix_squish": 6536.5,
+        "poke_squish": 5641.5,
+        "fight_tank": 7531.8,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 370.0,
+        "stacks": 270,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen, Immortal 5%"
+      }
+    ],
+    "Berserker's Greaves": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves"
+        ],
+        "mix_tank": 1437.9,
+        "mix_squish": 1521.7,
+        "poke_squish": 1280.6,
+        "fight_tank": 1969.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 144.0,
+        "stacks": 52,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Pickaxe"
+        ],
+        "mix_tank": 1526.6,
+        "mix_squish": 1690.5,
+        "poke_squish": 1421.2,
+        "fight_tank": 2093.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 167.5,
+        "stacks": 64,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "B. F. Sword"
+        ],
+        "mix_tank": 1617.9,
+        "mix_squish": 1866.2,
+        "poke_squish": 1525.8,
+        "fight_tank": 2305.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 191.0,
+        "stacks": 75,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "B. F. Sword",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1644.5,
+        "mix_squish": 1972.4,
+        "poke_squish": 1619.4,
+        "fight_tank": 2328.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 191.0,
+        "stacks": 87,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1782.9,
+        "mix_squish": 2025.2,
+        "poke_squish": 1605.2,
+        "fight_tank": 2644.8,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 214.5,
+        "stacks": 98,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge"
+        ],
+        "mix_tank": 2038.7,
+        "mix_squish": 2398.1,
+        "poke_squish": 1917.7,
+        "fight_tank": 2989.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 229.5,
+        "stacks": 110,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge"
+        ],
+        "mix_tank": 1986.0,
+        "mix_squish": 2406.5,
+        "poke_squish": 1916.9,
+        "fight_tank": 2925.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 233.0,
+        "stacks": 123,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2223.7,
+        "mix_squish": 2779.5,
+        "poke_squish": 2209.0,
+        "fight_tank": 3283.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 253.0,
+        "stacks": 135,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Noonquiver",
+          "Pickaxe"
+        ],
+        "mix_tank": 2291.7,
+        "mix_squish": 2940.2,
+        "poke_squish": 2324.4,
+        "fight_tank": 3405.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 276.5,
+        "stacks": 148,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 2554.9,
+        "mix_squish": 3366.7,
+        "poke_squish": 2727.6,
+        "fight_tank": 3676.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 279.5,
+        "stacks": 161,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 2518.5,
+        "mix_squish": 3202.2,
+        "poke_squish": 2572.6,
+        "fight_tank": 3663.8,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 283.0,
+        "stacks": 174,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 3535.7,
+        "mix_squish": 4113.4,
+        "poke_squish": 3407.7,
+        "fight_tank": 4792.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 298.0,
+        "stacks": 188,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 4056.9,
+        "mix_squish": 4642.9,
+        "poke_squish": 3838.4,
+        "fight_tank": 5321.3,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 318.0,
+        "stacks": 201,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5208.6,
+        "mix_squish": 5553.2,
+        "poke_squish": 4585.0,
+        "fight_tank": 7095.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 318.0,
+        "stacks": 215,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5191.2,
+        "mix_squish": 5604.5,
+        "poke_squish": 4630.8,
+        "fight_tank": 7046.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 318.0,
+        "stacks": 228,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5702.1,
+        "mix_squish": 6210.5,
+        "poke_squish": 5134.9,
+        "fight_tank": 7700.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 358.0,
+        "stacks": 242,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5692.4,
+        "mix_squish": 6266.7,
+        "poke_squish": 5185.0,
+        "fight_tank": 7658.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 358.0,
+        "stacks": 256,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword",
+          "Vampiric Scepter"
+        ],
+        "mix_tank": 5908.3,
+        "mix_squish": 6567.1,
+        "poke_squish": 5407.2,
+        "fight_tank": 7975.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 373.0,
+        "stacks": 270,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      }
+    ],
+    "Gunmetal Greaves": [
+      {
+        "minute": 1,
+        "items": [
+          "Long Sword"
+        ],
+        "mix_tank": 315.1,
+        "mix_squish": 334.2,
+        "poke_squish": 299.4,
+        "fight_tank": 391.5,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 69.5,
+        "stacks": 3,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 2,
+        "items": [
+          "Long Sword",
+          "Sheen"
+        ],
+        "mix_tank": 372.0,
+        "mix_squish": 394.3,
+        "poke_squish": 358.1,
+        "fight_tank": 451.6,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 73.0,
+        "stacks": 7,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 3,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 441.5,
+        "mix_squish": 467.9,
+        "poke_squish": 381.9,
+        "fight_tank": 630.8,
+        "q_casts_poke": 2,
+        "ah": 5.0,
+        "as_pct": 0.0,
+        "ad": 76.5,
+        "stacks": 11,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 4,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer"
+        ],
+        "mix_tank": 670.3,
+        "mix_squish": 710.1,
+        "poke_squish": 616.9,
+        "fight_tank": 875.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 100.0,
+        "stacks": 16,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 5,
+        "items": [
+          "Long Sword",
+          "Sheen",
+          "Caulfield's Warhammer",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 754.0,
+        "mix_squish": 798.5,
+        "poke_squish": 651.0,
+        "fight_tank": 1079.1,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 103.5,
+        "stacks": 21,
+        "notes": "pre-legendary"
+      },
+      {
+        "minute": 6,
+        "items": [
+          "Long Sword",
+          "Essence Reaver"
+        ],
+        "mix_tank": 1316.0,
+        "mix_squish": 1393.4,
+        "poke_squish": 1214.8,
+        "fight_tank": 1709.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 137.0,
+        "stacks": 31,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 7,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Boots"
+        ],
+        "mix_tank": 1351.2,
+        "mix_squish": 1430.2,
+        "poke_squish": 1251.0,
+        "fight_tank": 1746.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.0,
+        "ad": 140.5,
+        "stacks": 41,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 8,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves"
+        ],
+        "mix_tank": 1437.9,
+        "mix_squish": 1521.7,
+        "poke_squish": 1280.6,
+        "fight_tank": 1969.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 144.0,
+        "stacks": 52,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 9,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Berserker's Greaves",
+          "Pickaxe"
+        ],
+        "mix_tank": 1526.6,
+        "mix_squish": 1690.5,
+        "poke_squish": 1421.2,
+        "fight_tank": 2093.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.35,
+        "ad": 167.5,
+        "stacks": 64,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 10,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1478.9,
+        "mix_squish": 1704.5,
+        "poke_squish": 1379.7,
+        "fight_tank": 2134.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 151.0,
+        "stacks": 75,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 11,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Pickaxe"
+        ],
+        "mix_tank": 1485.9,
+        "mix_squish": 1781.2,
+        "poke_squish": 1435.0,
+        "fight_tank": 2156.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 171.0,
+        "stacks": 87,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 12,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "B. F. Sword"
+        ],
+        "mix_tank": 1626.1,
+        "mix_squish": 1846.6,
+        "poke_squish": 1434.6,
+        "fight_tank": 2471.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 194.5,
+        "stacks": 98,
+        "notes": "T1 AoE, ER sheen"
+      },
+      {
+        "minute": 13,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "B. F. Sword",
+          "Pickaxe"
+        ],
+        "mix_tank": 1692.7,
+        "mix_squish": 1990.6,
+        "poke_squish": 1544.2,
+        "fight_tank": 2576.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 214.5,
+        "stacks": 110,
+        "notes": "T2 bolts, ER sheen"
+      },
+      {
+        "minute": 14,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "B. F. Sword",
+          "Pickaxe",
+          "Brawler's Gloves"
+        ],
+        "mix_tank": 1725.6,
+        "mix_squish": 2090.3,
+        "poke_squish": 1622.1,
+        "fight_tank": 2624.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 218.0,
+        "stacks": 123,
+        "notes": "T2 bolts, ER sheen"
+      },
+      {
+        "minute": 15,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge"
+        ],
+        "mix_tank": 1997.6,
+        "mix_squish": 2495.0,
+        "poke_squish": 1935.3,
+        "fight_tank": 3037.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 233.0,
+        "stacks": 135,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 16,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Pickaxe"
+        ],
+        "mix_tank": 2067.4,
+        "mix_squish": 2650.4,
+        "poke_squish": 2044.1,
+        "fight_tank": 3163.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 256.5,
+        "stacks": 148,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 17,
+        "items": [
+          "Long Sword",
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Noonquiver"
+        ],
+        "mix_tank": 2180.4,
+        "mix_squish": 2869.9,
+        "poke_squish": 2227.4,
+        "fight_tank": 3308.9,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 256.5,
+        "stacks": 161,
+        "notes": "T2 bolts, IE 230%, ER sheen"
+      },
+      {
+        "minute": 18,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 2568.6,
+        "mix_squish": 3267.6,
+        "poke_squish": 2572.6,
+        "fight_tank": 3830.7,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 283.0,
+        "stacks": 174,
+        "notes": "T2 bolts, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 19,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44"
+        ],
+        "mix_tank": 3202.3,
+        "mix_squish": 3757.3,
+        "poke_squish": 3066.2,
+        "fight_tank": 4412.5,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 283.0,
+        "stacks": 187,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 20,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 3598.8,
+        "mix_squish": 4251.6,
+        "poke_squish": 3441.5,
+        "fight_tank": 5006.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 298.0,
+        "stacks": 201,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 21,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper"
+        ],
+        "mix_tank": 3589.0,
+        "mix_squish": 4289.4,
+        "poke_squish": 3475.3,
+        "fight_tank": 4970.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 298.0,
+        "stacks": 214,
+        "notes": "T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 22,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Last Whisper",
+          "Noonquiver"
+        ],
+        "mix_tank": 3967.8,
+        "mix_squish": 4813.8,
+        "poke_squish": 3913.0,
+        "fight_tank": 5457.6,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 318.0,
+        "stacks": 228,
+        "notes": "T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 23,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards"
+        ],
+        "mix_tank": 5268.5,
+        "mix_squish": 5769.2,
+        "poke_squish": 4679.3,
+        "fight_tank": 7296.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 318.0,
+        "stacks": 242,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 24,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "Vampiric Scepter"
+        ],
+        "mix_tank": 5458.7,
+        "mix_squish": 6036.7,
+        "poke_squish": 4899.5,
+        "fight_tank": 7527.0,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 333.0,
+        "stacks": 256,
+        "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
+      },
+      {
+        "minute": 25,
+        "items": [
+          "Essence Reaver",
+          "Gunmetal Greaves",
+          "Infinity Edge",
+          "Hexoptics C44",
+          "Lord Dominik's Regards",
+          "B. F. Sword"
+        ],
+        "mix_tank": 5809.1,
+        "mix_squish": 6482.7,
+        "poke_squish": 5235.4,
+        "fight_tank": 8030.4,
+        "q_casts_poke": 3,
+        "ah": 30.0,
+        "as_pct": 0.5,
+        "ad": 358.0,
+        "stacks": 270,
         "notes": "T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen"
       }
     ]
