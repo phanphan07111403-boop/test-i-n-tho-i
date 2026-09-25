@@ -13,8 +13,8 @@ Question (ADC):
   item 2 and overkills ADC + mid?
 
 Question (support):
-  Crit Senna support: which path peaks at 2nd item and is
-  stronger late, with fasting Mist stacks?
+  Dusk first (early Nightstalker), then which 2nd item peaks
+  the all-in? Crit-only Collector → Mortal is the fallback.
 
 Question (full build + runes):
   After IE, sell Scythe for a 5th legendary. Which 4th/5th
@@ -704,8 +704,49 @@ def _sup(*steps: str) -> List[str]:
     return ["Spectral Sickle", *steps]
 
 
-# Support / fasting crit. No Dynamism: 1200g delays 2nd item and
-# blocks IE by 20:00. Peak at 2nd legendary, still climbing at 18–20.
+# Support / fasting. Dusk first (early Nightstalker), then 2nd-item peak.
+# No Dynamism: 1200g delays 2nd item. Crit-only paths are the fallback.
+def _dusk(*steps: str) -> List[str]:
+    return _sup(
+        "Serrated Dirk", "Caulfield's Warhammer", "Duskblade of Draktharr",
+        *steps,
+    )
+
+
+SUPPORT_DUSK_PATHS: Dict[str, List[str]] = {
+    "Dusk → Serylda": _dusk(
+        "Serylda's Grudge", "The Collector", "Infinity Edge",
+    ),
+    "Dusk → Mortal": _dusk(
+        "Mortal Reminder", "Infinity Edge", "The Collector",
+    ),
+    "Dusk → Collector": _dusk(
+        "The Collector", "Serylda's Grudge", "Infinity Edge",
+    ),
+    "Dusk → Hex": _dusk(
+        "Hexoptics C44", "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → IE": _dusk(
+        "Infinity Edge", "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → Youmuu": _dusk(
+        "Youmuu's Ghostblade", "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → LDR": _dusk(
+        "Lord Dominik's Regards", "Infinity Edge", "The Collector",
+    ),
+    "Dusk → EoN": _dusk(
+        "Edge of Night", "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → Galeforce": _dusk(
+        "Galeforce", "Serylda's Grudge", "The Collector",
+    ),
+    "Dusk → Serylda + Dynamism": _dusk(
+        "Boots", "Boots of Dynamism",
+        "Serylda's Grudge", "The Collector",
+    ),
+}
+
 SUPPORT_CRIT_PATHS: Dict[str, List[str]] = {
     "Collector → Mortal → IE": _sup(
         "Serrated Dirk", "Noonquiver", "The Collector",
@@ -788,59 +829,66 @@ SUPPORT_CRIT_PATHS: Dict[str, List[str]] = {
 }
 
 # Lethality contrast on the same support gold/mist (not in the crit ranking).
+# No Dynamism: same 14:00 2nd as the Dusk-first ranking.
 SUPPORT_CONTRAST_PATHS: Dict[str, List[str]] = {
-    "Dusk → Serylda (lethality)": _sup(
-        "Serrated Dirk", "Caulfield's Warhammer", "Duskblade of Draktharr",
-        "Boots", "Boots of Dynamism",
+    "Dusk → Serylda (lethality)": _dusk(
         "Serylda's Grudge", "The Collector",
     ),
-    "Dusk → Collector (lethality)": _sup(
-        "Serrated Dirk", "Caulfield's Warhammer", "Duskblade of Draktharr",
-        "Boots", "Boots of Dynamism",
+    "Dusk → Collector (lethality)": _dusk(
         "The Collector", "Infinity Edge",
     ),
 }
 
 
-def _finish(fourth: str, fifth: str) -> List[str]:
-    """Collector → Mortal → IE, then 4th, sell Scythe, 5th legendary."""
-    return _sup(
-        "Serrated Dirk", "Noonquiver", "The Collector",
-        "Mortal Reminder", "Infinity Edge",
-        fourth, "Sell Scythe", fifth,
+def _dusk_finish(third: str, fourth: str, fifth: str) -> List[str]:
+    """Dusk → Serylda core, then 3rd/4th, sell Scythe, 5th."""
+    return _dusk(
+        "Serylda's Grudge",
+        third, fourth, "Sell Scythe", fifth,
     )
 
 
-# Full-build 4th/5th after the winning 3-item core. Sell Scythe only when
+# Full-build 3rd/4th/5th after Dusk → Serylda. Sell Scythe only when
 # the 5th legendary is affordable (see resolve_inventory).
 SUPPORT_FINISH_PATHS: Dict[str, List[str]] = {
-    "Hex → Dusk": _finish("Hexoptics C44", "Duskblade of Draktharr"),
-    "Dusk → Hex": _finish("Duskblade of Draktharr", "Hexoptics C44"),
-    "Hex → Serylda": _finish("Hexoptics C44", "Serylda's Grudge"),
-    "Serylda → Hex": _finish("Serylda's Grudge", "Hexoptics C44"),
-    "Dusk → Serylda": _finish("Duskblade of Draktharr", "Serylda's Grudge"),
-    "Serylda → Dusk": _finish("Serylda's Grudge", "Duskblade of Draktharr"),
-    "Hex → Youmuu": _finish("Hexoptics C44", "Youmuu's Ghostblade"),
-    "Dusk → Youmuu": _finish("Duskblade of Draktharr", "Youmuu's Ghostblade"),
-    "Hex → EoN": _finish("Hexoptics C44", "Edge of Night"),
-    "Dusk → EoN": _finish("Duskblade of Draktharr", "Edge of Night"),
-    "Hex → BT": _finish("Hexoptics C44", "The Bloodthirster"),
-    "Dusk → BT": _finish("Duskblade of Draktharr", "The Bloodthirster"),
-    "Hex → GA": _finish("Hexoptics C44", "Guardian Angel"),
-    "Serylda → GA": _finish("Serylda's Grudge", "Guardian Angel"),
-    "Hex → RFC": _finish("Hexoptics C44", "Rapid Firecannon"),
-    "Dusk → RFC": _finish("Duskblade of Draktharr", "Rapid Firecannon"),
-    "Hex → Fiendhunter": _finish("Hexoptics C44", "Fiendhunter Bolts"),
-    "Dusk → Fiendhunter": _finish("Duskblade of Draktharr", "Fiendhunter Bolts"),
-    "Hex → Stormrazor": _finish("Hexoptics C44", "Stormrazor"),
-    "Dusk → Stormrazor": _finish("Duskblade of Draktharr", "Stormrazor"),
-    "Hex → Galeforce": _finish("Hexoptics C44", "Galeforce"),
-    "Youmuu → Dusk": _finish("Youmuu's Ghostblade", "Duskblade of Draktharr"),
-    "EoN → Dusk": _finish("Edge of Night", "Duskblade of Draktharr"),
-    "Keep Scythe (4 items)": _sup(
-        "Serrated Dirk", "Noonquiver", "The Collector",
-        "Mortal Reminder", "Infinity Edge",
-        "Hexoptics C44",
+    "Youmuu → Collector → Fiendhunter": _dusk_finish(
+        "Youmuu's Ghostblade", "The Collector", "Fiendhunter Bolts"
+    ),
+    "Collector → Youmuu → Fiendhunter": _dusk_finish(
+        "The Collector", "Youmuu's Ghostblade", "Fiendhunter Bolts"
+    ),
+    "IE → Collector → Fiendhunter": _dusk_finish(
+        "Infinity Edge", "The Collector", "Fiendhunter Bolts"
+    ),
+    "EoN → Collector → Fiendhunter": _dusk_finish(
+        "Edge of Night", "The Collector", "Fiendhunter Bolts"
+    ),
+    "Collector → Hex → Fiendhunter": _dusk_finish(
+        "The Collector", "Hexoptics C44", "Fiendhunter Bolts"
+    ),
+    "Hex → Collector → Fiendhunter": _dusk_finish(
+        "Hexoptics C44", "The Collector", "Fiendhunter Bolts"
+    ),
+    "Mortal → Collector → Fiendhunter": _dusk_finish(
+        "Mortal Reminder", "The Collector", "Fiendhunter Bolts"
+    ),
+    "Collector → Hex → RFC": _dusk_finish(
+        "The Collector", "Hexoptics C44", "Rapid Firecannon"
+    ),
+    "Hex → Collector → RFC": _dusk_finish(
+        "Hexoptics C44", "The Collector", "Rapid Firecannon"
+    ),
+    "Collector → IE → RFC": _dusk_finish(
+        "The Collector", "Infinity Edge", "Rapid Firecannon"
+    ),
+    "IE → Collector → RFC": _dusk_finish(
+        "Infinity Edge", "The Collector", "Rapid Firecannon"
+    ),
+    "Collector → IE → Hex": _dusk_finish(
+        "The Collector", "Infinity Edge", "Hexoptics C44"
+    ),
+    "Keep Scythe (4 items)": _dusk(
+        "Serylda's Grudge", "The Collector", "Hexoptics C44",
     ),
 }
 
@@ -1599,6 +1647,21 @@ def mix_ok(s: Snapshot) -> float:
     return 0.60 * lucky + 0.40 * expected
 
 
+def dusk_support_score(s: Snapshot) -> float:
+    """Dusk item-1 (early Nightstalker), then 2nd-item overkill."""
+    mix = mix_ok(s)
+    dusk_early = 1.0
+    if s.has_dusk:
+        dusk_early = 1.20 if s.minute <= 12 else 1.10
+    two = 1.18 if s.legendary_count >= 2 else (
+        0.94 if s.legendary_count == 1 else 0.76
+    )
+    pen = 1.10 if s.legendary_count >= 2 and s.has_serylda else 1.0
+    both = 1.08 if s.kill_adc_lucky and s.kill_mid_lucky else 1.0
+    both_e = 1.05 if s.kill_adc_exp and s.kill_mid_exp else 1.0
+    return mix * dusk_early * two * pen * both * both_e
+
+
 def support_score(s: Snapshot) -> float:
     """2nd-item peak, then keep climbing 18–20 as Mist crit stacks."""
     mix = mix_ok(s)
@@ -2282,8 +2345,8 @@ def summarize_support(
         f"{win20_mix*100:.0f}%. Nightstalker is a flat proc; soul crit"
     )
     lines.append("    does not multiply it. Crit items ride the Mist curve.")
-    lines.append("    Pick Dusk→Serylda if you want raw burst and will leave")
-    lines.append("    the crit fantasy. This ranking is crit-only.")
+    lines.append("    Dusk-first (above) is the primary recommendation.")
+    lines.append("    This ranking is the crit-only fallback.")
     lines.append("")
     lines.append("  TRAPS (same as ADC, worse on support gold):")
     lines.append(
@@ -2455,6 +2518,242 @@ SUPPORT_RUNE_PAGES: List[RunePage] = [
 ]
 
 
+def summarize_dusk_support(
+    results: Dict[str, List[Snapshot]],
+    timeline: List[dict],
+    yuntal_mins: Dict[str, Optional[int]],
+    crit_baseline: Optional[Dict[str, List[Snapshot]]] = None,
+) -> str:
+    lines = []
+    lines.append("=" * 82)
+    lines.append("SENNA SUPPORT — DUSK FIRST, THEN 2ND-ITEM PEAK  (WR Patch 7.3)")
+    lines.append("Playstyle: fasting support | Nightstalker item-1, %pen item-2")
+    lines.append("Metric: early Dusk kill threat, fattest 2nd-item overkill")
+    lines.append("=" * 82)
+    lines.append("")
+    lines.append("GOLD / LEVEL / MIST (fasting support)")
+    lines.append(
+        f"  {'Min':>3}  {'Gold':>6}  {'Lvl':>3}  {'Mist':>4}  "
+        f"{'ADC HP':>7}  {'ADC Arm':>7}"
+    )
+    for m in (1, 5, 8, 10, 12, 14, 16, 18, 20):
+        lines.append(
+            f"  {m:>3}  {support_gold(m):>6}  {support_level(m):>3}  "
+            f"{support_mist(m):>4}  {adc_hp(m):>7.0f}  {adc_armor(m):>7.0f}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("MINUTE-BY-MINUTE OPTIMAL (Dusk-first paths)")
+    lines.append("-" * 82)
+    for row in timeline:
+        if row["minute"] % 2 != 0 and row["minute"] not in (1, 11, 13, 15):
+            continue
+        item_short = " › ".join(row["items"][:6])
+        ka = "KILL" if row["kill_adc"] else "live"
+        km = "KILL" if row["kill_mid"] else "live"
+        lines.append(
+            f"  {row['minute']:>2}:00 | ADC {row['lucky_adc']:>5.0f} "
+            f"({row['ok_adc']*100:>5.0f}% {ka}) | "
+            f"mid {row['lucky_mid']:>5.0f} ({row['ok_mid']*100:>5.0f}% {km}) | "
+            f"{row['winner']}"
+        )
+        lines.append(f"         items: {item_short}")
+        lines.append(f"         {row['notes']}")
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("DUSK-FIRST 2ND ITEM — overkill @ 2nd / 8:00 (item 1) / 20:00")
+    lines.append("-" * 82)
+    lines.append(
+        f"  {'Build':<28} {'Dusk@':>6} {'2nd@':>5} {'ADC%':>6} "
+        f"{'Mid%':>6} {'8:00':>6} {'20:00':>6} {'2ndΔ':>7}"
+    )
+
+    ranking = []
+    for name, snaps in results.items():
+        d_adc, d_mid, second_min, legs = second_item_isolated_delta(
+            name, SUPPORT_DUSK_PATHS[name], snaps, yuntal_mins[name], "support"
+        )
+        second = next((s for s in snaps if s.legendary_count >= 2), snaps[-1])
+        s8, s20 = snaps[7], snaps[19]
+        dusk_m = first_minute_with(snaps, lambda s: s.has_dusk)
+        peak = mix_ok(second)
+        late_m = mix_ok(s20)
+        early = mix_ok(s8)
+        earliness = 1.0 + 0.04 * max(0, 17 - second.minute)
+        dusk1 = 1.12 if second.has_dusk else 0.90
+        pen2 = 1.10 if second.has_serylda else 1.0
+        d1b = 1.0 + 0.04 * max(0, 10 - (dusk_m or 10))
+        both2 = 1.06 if second.kill_adc_lucky and second.kill_mid_lucky else 1.0
+        both2e = 1.04 if second.kill_adc_exp and second.kill_mid_exp else 1.0
+        eff = (
+            (0.25 * early + 0.50 * peak + 0.25 * late_m)
+            * earliness * dusk1 * pen2 * d1b * both2 * both2e
+        )
+        ranking.append(
+            (eff, peak, name, second, s8, s20, d_adc, d_mid, second_min, legs, snaps, dusk_m)
+        )
+    ranking.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    for row in ranking:
+        name, second, s8, s20, d_adc, d_mid, second_min, dusk_m = (
+            row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[11]
+        )
+        mix8 = 0.5 * (s8.overkill_adc_lucky + s8.overkill_mid_lucky)
+        mix20 = 0.5 * (s20.overkill_adc_lucky + s20.overkill_mid_lucky)
+        dlab = f"{dusk_m:>4}:00" if dusk_m else "    —"
+        lines.append(
+            f"  {name:<28} {dlab} {second_min:>4}:00 "
+            f"{second.overkill_adc_lucky*100:>5.0f}% {second.overkill_mid_lucky*100:>5.0f}% "
+            f"{mix8*100:>5.0f}% {mix20*100:>5.0f}% {(d_adc+d_mid)/2:>+7.0f}"
+        )
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("2ND ITEM SPIKE  (isolated Δ, same minute with vs without 2nd)")
+    lines.append("-" * 82)
+    for row in ranking:
+        name, second, d_adc, d_mid, second_min, legs = (
+            row[2], row[3], row[6], row[7], row[8], row[9]
+        )
+        ka = "KILL" if second.kill_adc_lucky else "live"
+        km = "KILL" if second.kill_mid_lucky else "live"
+        ke = (
+            "also expected"
+            if second.kill_adc_exp and second.kill_mid_exp
+            else "lucky only"
+        )
+        lines.append(
+            f"  {name:<28} 2nd ~{second_min}:00  ADC {second.lucky_adc:.0f} {ka}  "
+            f"mid {second.lucky_mid:.0f} {km}  Δ {(d_adc+d_mid)/2:+.0f}  "
+            f"[{', '.join(legs[:2])}]  {ke}"
+        )
+
+    best = ranking[0]
+    winner_name = best[2]
+    snaps = best[10]
+    w2 = best[3]
+    w8 = best[4]
+    w20 = best[5]
+    d_adc, d_mid = best[6], best[7]
+    dusk_m = best[11]
+    two_m = first_minute_with(snaps, lambda s: s.legendary_count >= 2)
+    ser_m = first_minute_with(snaps, lambda s: s.has_serylda)
+
+    def at2(sn):
+        return next((s for s in sn if s.legendary_count >= 2), sn[-1])
+
+    ser2 = at2(results["Dusk → Serylda"])
+    col2 = at2(results["Dusk → Collector"])
+    mort2 = at2(results["Dusk → Mortal"])
+    you2 = at2(results["Dusk → Youmuu"])
+    hex2 = at2(results["Dusk → Hex"])
+    ie2 = at2(results["Dusk → IE"])
+    dyn2 = at2(results["Dusk → Serylda + Dynamism"])
+
+    lines.append("")
+    lines.append("-" * 82)
+    lines.append("VERDICT")
+    lines.append("-" * 82)
+    lines.append(f"  Best Dusk-first support path: {winner_name}")
+    lines.append(
+        f"  Window-weighted score: {best[0]:.3f} | Dusk ~{dusk_m}:00 | "
+        f"2nd legendary ~{two_m}:00"
+    )
+    if ser_m:
+        lines.append(f"  Serylda / %pen online:           ~{ser_m}:00  (the 2nd-item peak)")
+    lines.append(
+        f"  Item 1 @ 8:00 vs ADC: lucky {w8.lucky_adc:.0f} "
+        f"({w8.overkill_adc_lucky*100:.0f}%) "
+        f"{'KILL' if w8.kill_adc_lucky else 'live'}"
+    )
+    lines.append(
+        f"  2nd item vs ADC: lucky {w2.lucky_adc:.0f} ({w2.overkill_adc_lucky*100:.0f}%) "
+        f"{'OVERKILL' if w2.kill_adc_lucky else 'lives'} | "
+        f"expected {w2.exp_adc:.0f} ({w2.overkill_adc_exp*100:.0f}%)"
+    )
+    lines.append(
+        f"  2nd item vs mid: lucky {w2.lucky_mid:.0f} ({w2.overkill_mid_lucky*100:.0f}%) "
+        f"{'OVERKILL' if w2.kill_mid_lucky else 'lives'} | "
+        f"expected {w2.exp_mid:.0f} ({w2.overkill_mid_exp*100:.0f}%)"
+    )
+    lines.append(
+        f"  20:00 vs ADC: lucky {w20.lucky_adc:.0f} ({w20.overkill_adc_lucky*100:.0f}%)  "
+        f"AD {w20.ad:.0f}  mist {w20.mist}"
+    )
+    lines.append(
+        f"  Isolated 2nd-item Δ: ADC {d_adc:+.0f} / mid {d_mid:+.0f}"
+    )
+    lines.append("")
+    lines.append("  WHY DUSK FIRST THEN SERYLDA:")
+    lines.append("  • Item 1 Duskblade: 55 AD + 18 lethality + Nightstalker")
+    lines.append("    60–160. Same early spike as ADC, on support gold ~8:00.")
+    lines.append("  • Q/W/R do not crit. 2nd item has to multiply the WHOLE")
+    lines.append("    combo. Serylda 35% pen does that; Collector/IE only")
+    lines.append("    multiply ~2 autos.")
+    lines.append(
+        f"  • Dusk→Serylda 2nd ~{ser2.minute}:00 "
+        f"{ser2.overkill_adc_lucky*100:.0f}%/{ser2.overkill_mid_lucky*100:.0f}% ADC/mid."
+    )
+    lines.append(
+        f"  • Dusk→Collector {col2.overkill_adc_lucky*100:.0f}% / "
+        f"Dusk→Mortal {mort2.overkill_adc_lucky*100:.0f}% / "
+        f"Dusk→Youmuu {you2.overkill_adc_lucky*100:.0f}% / "
+        f"Dusk→IE {ie2.overkill_adc_lucky*100:.0f}%."
+    )
+    lines.append(
+        f"  • Dusk→Hex 2nd ~{hex2.minute}:00 "
+        f"({hex2.overkill_adc_lucky*100:.0f}% ADC) — earlier, smaller spike."
+    )
+    lines.append(
+        f"  • Dynamism before 2nd: spike ~{dyn2.minute}:00 "
+        f"({dyn2.overkill_adc_lucky*100:.0f}% ADC). Skip the 1200g boots."
+    )
+    if crit_baseline and "Collector → Mortal → IE" in crit_baseline:
+        c2 = next(
+            s for s in crit_baseline["Collector → Mortal → IE"]
+            if s.legendary_count >= 2
+        )
+        c8 = crit_baseline["Collector → Mortal → IE"][7]
+        lines.append("")
+        lines.append("  VS CRIT-ONLY Collector → Mortal:")
+        lines.append(
+            f"  • 8:00  Dusk {w8.overkill_adc_lucky*100:.0f}% ADC vs "
+            f"Collector {c8.overkill_adc_lucky*100:.0f}% — Nightstalker is the lane."
+        )
+        lines.append(
+            f"  • 2nd   Dusk→Serylda {ser2.overkill_adc_lucky*100:.0f}% vs "
+            f"Collector→Mortal {c2.overkill_adc_lucky*100:.0f}%."
+        )
+    lines.append("")
+    lines.append("  RECOMMENDED (Dusk first, peak at 2nd):")
+    lines.append("  1) Spectral Sickle → Black Mist Scythe (~5:00)")
+    lines.append("  2) Duskblade of Draktharr   (~8:00, Nightstalker = item-1)")
+    lines.append("  3) Serylda's Grudge         (~14:00, 35% pen — 2ND ITEM PEAK)")
+    lines.append("  4) Youmuu / Collector       (then sell Scythe for a 5th)")
+    lines.append("  Do not buy Dynamism before the 2nd legendary.")
+    lines.append("  Runes: First Strike · Brutal · Empowered Attack · Cut Down")
+    lines.append("=" * 82)
+    return "\n".join(lines)
+
+
+def self_check_dusk(results: Dict[str, List[Snapshot]]) -> None:
+    def second(snaps):
+        return next(s for s in snaps if s.legendary_count >= 2)
+
+    ser = second(results["Dusk → Serylda"])
+    col = second(results["Dusk → Collector"])
+    you = second(results["Dusk → Youmuu"])
+    dyn = second(results["Dusk → Serylda + Dynamism"])
+    d1 = first_minute_with(results["Dusk → Serylda"], lambda s: s.has_dusk)
+    assert d1 is not None and d1 <= 10, d1
+    assert ser.lucky_adc > col.lucky_adc, (ser.lucky_adc, col.lucky_adc)
+    assert ser.lucky_adc > you.lucky_adc, (ser.lucky_adc, you.lucky_adc)
+    assert ser.kill_adc_lucky and ser.kill_mid_lucky
+    assert ser.minute <= dyn.minute, (ser.minute, dyn.minute)
+    assert ser.minute <= 16, ser.minute
+
+
 def summarize_finish(
     results: Dict[str, List[Snapshot]],
     yuntal_mins: Dict[str, Optional[int]],
@@ -2463,7 +2762,7 @@ def summarize_finish(
     lines.append("")
     lines.append("=" * 82)
     lines.append("FULL BUILD — SELL SCYTHE, 5TH LEGENDARY + RUNES  (WR 7.3)")
-    lines.append("Core: Collector → Mortal → IE. Then 4th, sell Scythe, 5th.")
+    lines.append("Core: Duskblade → Serylda. Then 3rd/4th, sell Scythe, 5th.")
     lines.append("=" * 82)
     lines.append("")
     lines.append("GOLD / LEVEL / MIST (long game)")
@@ -2483,7 +2782,7 @@ def summarize_finish(
     lines.append("4TH / 5TH PAIR  (overkill @ 4th item / sell-minute / 28:00)")
     lines.append("-" * 82)
     lines.append(
-        f"  {'Build':<22} {'4th@':>5} {'5th@':>5} {'4th%':>6} "
+        f"  {'Build':<36} {'4th@':>5} {'5th@':>5} {'4th%':>6} "
         f"{'5th%':>6} {'28:00':>6} {'Scythe':>7}"
     )
 
@@ -2516,7 +2815,7 @@ def summarize_finish(
         mix28 = 0.5 * (s28.overkill_adc_lucky + s28.overkill_mid_lucky)
         t5 = f"{fifth_min:>4}:00" if fifth_min else "    —"
         lines.append(
-            f"  {name:<22} {s4.minute:>4}:00 {t5} "
+            f"  {name:<36} {s4.minute:>4}:00 {t5} "
             f"{mix4*100:>5.0f}% {mix5*100:>5.0f}% {mix28*100:>5.0f}% "
             f"{'sold' if sold else 'kept':>7}"
         )
@@ -2537,7 +2836,7 @@ def summarize_finish(
     w5 = best[4]
     winner_name = best[2]
     lines.append(
-        f"  {winner_name:<22} ADC {w28.lucky_adc:.0f} "
+        f"  {winner_name:<36} ADC {w28.lucky_adc:.0f} "
         f"({w28.overkill_adc_lucky*100:.0f}%)  AD {w28.ad:.0f}  "
         f"items {w28.legendary_count}  {'sold Scythe' if w28.sold_scythe else ''}"
     )
@@ -2587,11 +2886,27 @@ def summarize_finish(
 
     best_rune = rune_rank[0][1]
     best_snap = rune_rank[0][2]
+    finish_legs = [n for n in path if n in LEGENDARIES]
+    short = {
+        "Duskblade of Draktharr": "Dusk",
+        "Serylda's Grudge": "Serylda",
+        "Youmuu's Ghostblade": "Youmuu",
+        "The Collector": "Collector",
+        "Infinity Edge": "IE",
+        "Hexoptics C44": "Hex",
+        "Mortal Reminder": "Mortal",
+        "Edge of Night": "EoN",
+        "Fiendhunter Bolts": "Fiendhunter",
+        "Rapid Firecannon": "RFC",
+    }
+    order = [short.get(n, n) for n in finish_legs]
+    if w5 and w5.sold_scythe and order:
+        order[-1] = "sell Scythe → " + order[-1]
     lines.append("")
     lines.append("-" * 82)
     lines.append("VERDICT — FULL BUILD + RUNES")
     lines.append("-" * 82)
-    lines.append(f"  Items: Collector → Mortal → IE → {winner_name} (sell Scythe)")
+    lines.append(f"  Items: {' → '.join(order)}")
     if w5:
         lines.append(
             f"  4th ~{best[3].minute}:00, sell Scythe + 5th ~{w5.minute}:00"
@@ -2638,13 +2953,25 @@ def summarize_finish(
     lines.append("")
     lines.append("  RECOMMENDED FINISHED BUILD:")
     lines.append("  1) Spectral Sickle → Black Mist Scythe")
-    lines.append("  2) The Collector")
-    lines.append("  3) Mortal Reminder          (2nd-item peak)")
-    lines.append("  4) Infinity Edge")
-    fourth_fifth = winner_name.split(" → ")
-    if len(fourth_fifth) == 2:
-        lines.append(f"  5) {fourth_fifth[0]:<22} (4th legendary)")
-        lines.append(f"  6) Sell Scythe → {fourth_fifth[1]}")
+    rec_tags = {
+        "Duskblade of Draktharr": "item-1 Nightstalker",
+        "Serylda's Grudge": "2ND ITEM PEAK — 35% pen",
+        "Youmuu's Ghostblade": "lethality + move speed",
+        "The Collector": "execute + 25% crit",
+        "Infinity Edge": "230% crit",
+        "Hexoptics C44": "range + 25% crit",
+        "Fiendhunter Bolts": "AS + 15% true — extra auto",
+        "Rapid Firecannon": "AS + energized range",
+    }
+    sold = bool(w5 and w5.sold_scythe)
+    for i, item in enumerate(finish_legs):
+        n = i + 2
+        tag = rec_tags.get(item, "")
+        extra = f"   ({tag})" if tag else ""
+        if sold and i == len(finish_legs) - 1:
+            lines.append(f"  {n}) Sell Scythe → {item}{extra}")
+        else:
+            lines.append(f"  {n}) {item}{extra}")
     lines.append("")
     lines.append("  RUNES (support, this burst):")
     lines.append(f"  Keystone: {best_rune.keystone.replace('_', ' ').title()}")
@@ -2670,15 +2997,16 @@ def summarize_finish(
 
 def self_check_finish(results: Dict[str, List[Snapshot]]) -> None:
     keep = results["Keep Scythe (4 items)"][-1]
-    duskhex = results["Dusk → Hex"]
-    s5 = next((s for s in duskhex if s.legendary_count >= 5), None)
-    assert s5 is not None, "Dusk → Hex never finished 5th legendary"
+    fin = results["Collector → Hex → Fiendhunter"]
+    s5 = next((s for s in fin if s.legendary_count >= 5), None)
+    assert s5 is not None, "Collector → Hex → Fiendhunter never finished 5th legendary"
     assert s5.minute <= 28, s5.minute
     assert s5.sold_scythe, s5.items
     assert "Black Mist Scythe" not in s5.items
     assert s5.legendary_count >= 5
     assert keep.legendary_count == 4
-    d28 = duskhex[-1]
+    d28 = fin[-1]
+    assert d28.has_dusk
     assert d28.lucky_adc > keep.lucky_adc, (d28.lucky_adc, keep.lucky_adc)
 
 
@@ -2694,6 +3022,11 @@ def main() -> None:
     export_json(results, timeline, f"{out_dir}/results.json")
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 
+    dusk_results, dusk_timeline, dusk_yun = run_all(
+        SUPPORT_DUSK_PATHS, role="support", scorer=dusk_support_score
+    )
+    self_check_dusk(dusk_results)
+
     sup_results, sup_timeline, sup_yun = run_all(
         SUPPORT_CRIT_PATHS, role="support", scorer=support_score
     )
@@ -2701,19 +3034,24 @@ def main() -> None:
         SUPPORT_CONTRAST_PATHS, role="support", scorer=support_score
     )
     self_check_support(sup_results, contrast)
+
+    dusk_report = summarize_dusk_support(
+        dusk_results, dusk_timeline, dusk_yun, crit_baseline=sup_results
+    )
     sup_report = summarize_support(
         sup_results, contrast, sup_timeline, sup_yun
     )
+    print("\n" + dusk_report)
     print("\n" + sup_report)
     with open(f"{out_dir}/report-support.txt", "w", encoding="utf-8") as f:
-        f.write(sup_report + "\n")
+        f.write(dusk_report + "\n\n" + sup_report + "\n")
     export_json(
-        {**sup_results, **contrast},
-        sup_timeline,
+        {**dusk_results, **sup_results, **contrast},
+        dusk_timeline,
         f"{out_dir}/results-support.json",
         meta_extra={
             "role": "Support (fasting)",
-            "playstyle": "crit 2nd-item peak + late Mist scale",
+            "playstyle": "Dusk first, 2nd-item peak; crit-only fallback",
         },
     )
     print(f"\nWrote {out_dir}/report-support.txt and {out_dir}/results-support.json")
@@ -2721,7 +3059,7 @@ def main() -> None:
     fin_results, fin_timeline, fin_yun = run_all(
         SUPPORT_FINISH_PATHS,
         role="support",
-        scorer=support_score,
+        scorer=dusk_support_score,
         minutes=SUPPORT_MINUTES,
     )
     self_check_finish(fin_results)
