@@ -1,0 +1,215 @@
+==================================================================================
+SENNA — 2ND-ITEM BURST / OVERKILL ADC+MID  (Wild Rift Patch 7.3)
+Playstyle: dragon-lane farmer | Combo: R → W → Q → autos in 2.5s
+Metric: lucky + expected overkill ratio vs full-HP ADC and mid
+==================================================================================
+
+GOLD / LEVEL / MIST / TARGETS
+  Min    Gold  Lvl  Mist   ADC HP  ADC Arm   Mid HP
+    1     900    2     3      734       34      732
+    4    2100    5    12     1010       46     1020
+    6    3180    7    20     1194       53     1212
+    8    4260    9    28     1378       61     1404
+   10    5440   10    36     1486       65     1506
+   11    6030   11    40     1586       69     1608
+   12    6620   11    44     1594       69     1614
+   13    7180   12    48     1694       73     1716
+   14    7740   12    52     1702       85     1722
+   16    8860   13    61     1810       89     1830
+   18    9980   14    70     1918      103     1938
+   20   11100   15    79     2026      106     2046
+
+----------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (overkill score, 2-item spike preferred)
+----------------------------------------------------------------------------------
+   1:00 | ADC   359 (   49% live) | mid   375 (   51% live) | Dusk → Collector
+         items: 
+         pre-legendary
+   2:00 | ADC   534 (   65% live) | mid   561 (   68% live) | Dusk → Collector
+         items: Serrated Dirk
+         pre-legendary
+   4:00 | ADC   595 (   59% live) | mid   626 (   61% live) | Hexoptics → Collector
+         items: Noonquiver › Pickaxe
+         pre-legendary
+   6:00 | ADC  1112 (   93% live) | mid  1180 (   97% live) | Dusk → Collector
+         items: Duskblade of Draktharr
+         Nightstalker, 1 item
+   8:00 | ADC  1294 (   94% live) | mid  1380 (   98% live) | Dusk → Collector
+         items: Duskblade of Draktharr › Boots of Dynamism
+         Nightstalker, 1 item
+   9:00 | ADC  1406 (   95% live) | mid  1502 (  100% KILL) | Dusk → Galeforce
+         items: Duskblade of Draktharr › Boots of Dynamism › Long Sword
+         Nightstalker, 1 item
+  10:00 | ADC  1592 (  107% KILL) | mid  1708 (  113% KILL) | Dusk → Youmuu
+         items: Duskblade of Draktharr › Boots of Dynamism › Serrated Dirk
+         Nightstalker, 1 item
+  11:00 | ADC  1702 (  107% KILL) | mid  1828 (  114% KILL) | Dusk → Youmuu
+         items: Duskblade of Draktharr › Boots of Dynamism › Serrated Dirk
+         Nightstalker, 1 item
+  12:00 | ADC  1833 (  115% KILL) | mid  1969 (  122% KILL) | Dusk → Collector
+         items: Duskblade of Draktharr › Boots of Dynamism › Noonquiver › Serrated Dirk
+         Nightstalker, 1 item
+  13:00 | ADC  1858 (  110% KILL) | mid  1988 (  116% KILL) | Hexoptics → Dusk
+         items: Hexoptics C44 › Boots of Dynamism › Duskblade of Draktharr
+         Nightstalker, range amp, 2-ITEM SPIKE
+  14:00 | ADC  2032 (  119% KILL) | mid  2179 (  126% KILL) | Dusk → Serylda
+         items: Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge
+         Nightstalker, 2-ITEM SPIKE
+  16:00 | ADC  2374 (  131% KILL) | mid  2562 (  140% KILL) | Dusk → Serylda
+         items: Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › Serrated Dirk
+         Nightstalker, 2-ITEM SPIKE
+  18:00 | ADC  2397 (  125% KILL) | mid  2578 (  133% KILL) | Dusk → Serylda
+         items: Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › Serrated Dirk › Noonquiver
+         Nightstalker, 2-ITEM SPIKE
+  20:00 | ADC  2670 (  132% KILL) | mid  2873 (  140% KILL) | Dusk → Serylda
+         items: Duskblade of Draktharr › Boots of Dynamism › Serylda's Grudge › The Collector › Pickaxe
+         Nightstalker, execute, 2-ITEM SPIKE
+
+----------------------------------------------------------------------------------
+BUILD COMPARISON — LUCKY OVERKILL @ 2nd-item window
+----------------------------------------------------------------------------------
+  Build                         10:00  12:00  14:00   ADC%   Mid%    2ndΔ  Both
+  Dusk → Collector                95%   118%   109%   104%   113%    +451   2/2
+  Collector → Dusk                97%   104%   109%   104%   113%    +620   2/2
+  Dusk → Youmuu                  110%   118%   114%   109%   119%    +542   2/2
+  Youmuu → Collector             101%   110%   102%   100%   105%    +456   2/2
+  Hexoptics → Collector           96%   102%    96%   100%   103%    +449   2/2
+  Hexoptics → Dusk                96%   102%   107%   110%   116%    +645   2/2
+  Collector → Hexoptics           89%    97%    96%   100%   103%    +436   2/2
+  Collector → IE                  82%   102%   103%   100%   105%    +519   2/2
+  Dusk → IE                       95%   115%   114%   109%   118%    +538   2/2
+  Hexoptics → IE                  88%   100%   102%    99%   105%    +510   1/2
+  Stormrazor → Collector          96%   102%    96%    93%   100%    +400   1/2
+  Yun Tal → Collector             90%    97%    91%    88%    94%    +383   0/2
+  Collector → Stormrazor          82%    97%    96%    93%   100%    +412   1/2
+  Fiendhunter → Collector         79%    89%    90%    86%    90%    +428   0/2
+  RFC → Collector                 78%    87%    87%    84%    88%    +395   0/2
+  ER → Collector                  95%   102%    96%    93%   100%    +419   1/2
+  Collector → ER                  82%    90%    96%    93%   100%    +413   1/2
+  Galeforce → Collector          100%   107%   101%   100%   103%    +441   2/2
+  Dusk → Galeforce               102%   109%   111%   106%   115%    +489   2/2
+  Collector → Serylda             93%   101%   108%   105%   111%    +612   2/2
+  Dusk → Serylda                 106%   115%   123%   119%   126%    +697   2/2
+  Collector → Mortal              93%    96%   102%   100%   104%    +504   2/2
+  Hexoptics → Stormrazor          81%    95%    95%    98%   101%    +412   1/2
+
+----------------------------------------------------------------------------------
+2ND ITEM SPIKE  (isolated Δ lucky damage, same minute with vs without 2nd)
+----------------------------------------------------------------------------------
+  Dusk → Serylda               2nd ~14:00  ADC 2032 KILL  mid 2179 KILL  Δ +697  [Duskblade of Draktharr, Serylda's Grudge]  also expected
+  Dusk → Youmuu                2nd ~14:00  ADC 1855 KILL  mid 2046 KILL  Δ +542  [Duskblade of Draktharr, Youmuu's Ghostblade]  lucky only
+  Dusk → Galeforce             2nd ~14:00  ADC 1813 KILL  mid 1982 KILL  Δ +489  [Duskblade of Draktharr, Galeforce]  lucky only
+  Dusk → Collector             2nd ~14:00  ADC 1771 KILL  mid 1947 KILL  Δ +451  [Duskblade of Draktharr, The Collector]  also expected
+  Dusk → IE                    2nd ~14:00  ADC 1860 KILL  mid 2033 KILL  Δ +538  [Duskblade of Draktharr, Infinity Edge]  lucky only
+  Hexoptics → Dusk             2nd ~13:00  ADC 1858 KILL  mid 1988 KILL  Δ +645  [Hexoptics C44, Duskblade of Draktharr]  also expected
+  Collector → Serylda          2nd ~14:00  ADC 1791 KILL  mid 1913 KILL  Δ +612  [The Collector, Serylda's Grudge]  also expected
+  Collector → Dusk             2nd ~14:00  ADC 1771 KILL  mid 1947 KILL  Δ +620  [The Collector, Duskblade of Draktharr]  also expected
+  Youmuu → Collector           2nd ~14:00  ADC 1702 KILL  mid 1806 KILL  Δ +456  [Youmuu's Ghostblade, The Collector]  lucky only
+  Galeforce → Collector        2nd ~14:00  ADC 1702 KILL  mid 1766 KILL  Δ +441  [Galeforce, The Collector]  lucky only
+  Collector → Mortal           2nd ~14:00  ADC 1702 KILL  mid 1784 KILL  Δ +504  [The Collector, Mortal Reminder]  also expected
+  Collector → IE               2nd ~14:00  ADC 1702 KILL  mid 1815 KILL  Δ +519  [The Collector, Infinity Edge]  lucky only
+  Hexoptics → Collector        2nd ~13:00  ADC 1694 KILL  mid 1760 KILL  Δ +449  [Hexoptics C44, The Collector]  lucky only
+  Collector → Hexoptics        2nd ~13:00  ADC 1694 KILL  mid 1760 KILL  Δ +436  [The Collector, Hexoptics C44]  lucky only
+  Yun Tal → Collector          2nd ~14:00  ADC 1497 live  mid 1612 live  Δ +383  [Yun Tal Wildarrows, The Collector]  lucky only
+  Stormrazor → Collector       2nd ~14:00  ADC 1580 live  mid 1722 KILL  Δ +400  [Stormrazor, The Collector]  lucky only
+  Hexoptics → IE               2nd ~14:00  ADC 1679 live  mid 1801 KILL  Δ +510  [Hexoptics C44, Infinity Edge]  lucky only
+  ER → Collector               2nd ~14:00  ADC 1582 live  mid 1722 KILL  Δ +419  [Essence Reaver, The Collector]  lucky only
+  Hexoptics → Stormrazor       2nd ~13:00  ADC 1653 live  mid 1726 KILL  Δ +412  [Hexoptics C44, Stormrazor]  lucky only
+  Collector → Stormrazor       2nd ~14:00  ADC 1580 live  mid 1722 KILL  Δ +412  [The Collector, Stormrazor]  lucky only
+  Collector → ER               2nd ~14:00  ADC 1582 live  mid 1722 KILL  Δ +413  [The Collector, Essence Reaver]  lucky only
+  Fiendhunter → Collector      2nd ~13:00  ADC 1454 live  mid 1544 live  Δ +428  [Fiendhunter Bolts, The Collector]  lucky only
+  RFC → Collector              2nd ~13:00  ADC 1416 live  mid 1501 live  Δ +395  [Rapid Firecannon, The Collector]  lucky only
+
+----------------------------------------------------------------------------------
+EXPECTED (no lucky crits) vs ADC / mid at the 2nd-item minute
+----------------------------------------------------------------------------------
+  Dusk → Serylda               ADC   1800 ( 106% KILL)  mid   1930 ( 112% KILL)  crit 20%  2 AA
+  Dusk → Youmuu                ADC   1642 (  96% live)  mid   1811 ( 105% KILL)  crit 20%  2 AA
+  Dusk → Galeforce             ADC   1678 (  99% live)  mid   1834 ( 106% KILL)  crit 45%  2 AA
+  Dusk → Collector             ADC   1702 ( 100% KILL)  mid   1836 ( 107% KILL)  crit 60%  2 AA
+  Dusk → IE                    ADC   1668 (  98% live)  mid   1823 ( 106% KILL)  crit 45%  2 AA
+  Hexoptics → Dusk             ADC   1703 ( 101% KILL)  mid   1822 ( 106% KILL)  crit 45%  2 AA
+  Collector → Serylda          ADC   1702 ( 100% KILL)  mid   1755 ( 102% KILL)  crit 45%  2 AA
+  Collector → Dusk             ADC   1702 ( 100% KILL)  mid   1836 ( 107% KILL)  crit 60%  2 AA
+  Youmuu → Collector           ADC   1547 (  91% live)  mid   1722 ( 100% KILL)  crit 60%  2 AA
+  Galeforce → Collector        ADC   1571 (  92% live)  mid   1722 ( 100% KILL)  crit 70%  2 AA
+  Collector → Mortal           ADC   1702 ( 100% KILL)  mid   1745 ( 101% KILL)  crit 85%  2 AA
+  Collector → IE               ADC   1570 (  92% live)  mid   1722 ( 100% KILL)  crit 70%  2 AA
+  Hexoptics → Collector        ADC   1573 (  93% live)  mid   1716 ( 100% KILL)  crit 70%  2 AA
+  Collector → Hexoptics        ADC   1573 (  93% live)  mid   1716 ( 100% KILL)  crit 70%  2 AA
+  Yun Tal → Collector          ADC   1404 (  82% live)  mid   1511 (  88% live)  crit 58%  2 AA
+  Stormrazor → Collector       ADC   1547 (  91% live)  mid   1722 ( 100% KILL)  crit 85%  2 AA
+  Hexoptics → IE               ADC   1576 (  93% live)  mid   1689 (  98% live)  crit 70%  2 AA
+  ER → Collector               ADC   1548 (  91% live)  mid   1722 ( 100% KILL)  crit 85%  2 AA
+  Hexoptics → Stormrazor       ADC   1580 (  93% live)  mid   1648 (  96% live)  crit 70%  2 AA
+  Collector → Stormrazor       ADC   1547 (  91% live)  mid   1722 ( 100% KILL)  crit 85%  2 AA
+  Collector → ER               ADC   1548 (  91% live)  mid   1722 ( 100% KILL)  crit 85%  2 AA
+  Fiendhunter → Collector      ADC   1279 (  76% live)  mid   1364 (  80% live)  crit 70%  2 AA
+  RFC → Collector              ADC   1362 (  80% live)  mid   1443 (  84% live)  crit 70%  2 AA
+
+----------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------
+  Best path (2nd-item overkill ADC + mid): Dusk → Serylda
+  Window-weighted score: 1.146 | 2nd legendary ~14:00
+  Duskblade (Nightstalker) online: ~6:00
+  Serylda 35% pen online:          ~14:00  (the 2nd-item peak)
+  At 2nd item vs ADC ~1702 HP / 85 armor: lucky 2032 (119%) OVERKILL | expected 1800 (106%)
+  At 2nd item vs mid ~1722 HP / 71 armor: lucky 2179 (126%) OVERKILL | expected 1930 (112%)
+  Isolated 2nd-item Δ: ADC +683 / mid +711 per combo
+
+  WHY DUSK → SERYLDA IS THE 2ND-ITEM OVERKILL:
+  • Senna has no AD growth. The combo is bonus AD × Q/W/R
+    (0.6 / 0.7 / 1.2) plus Relic 20% AD on-hit. Those spells
+    DO NOT CRIT in 7.3 — only autos do, at 90% of 200%.
+  • Item 1 Duskblade: 55 AD + 18 lethality + Nightstalker
+    60–160. Already a kill threat with boots + a Dirk.
+  • Item 2 Serylda: 50 AD + 35% pen. %pen applies to the
+    WHOLE combo (R/W/Q/autos), then Dusk+boots lethality
+    shaves the rest. Collector's 25% crit only multiplies
+    2 autos, so Dusk→Collector is 104%/113% vs Serylda 119%/126%.
+  • Expected damage (no lucky crits) still overkills both
+    roles — you do not need a high-roll auto.
+  • Isolated 2nd-item Δ ~697 is the biggest spike in the table.
+
+  EARLIEST 2-ITEM KILL: Hexoptics → Dusk
+    2nd legendary ~13:00 (a minute sooner). Hexoptics does
+    not share Dirk/Caulfield with Duskblade, so the 2nd item
+    completes earlier. ADC 1858 (110%) / mid 1988 (116%), also on expected.
+    Take this if the game is ending at 13. Take Serylda if you
+    want the fatter overkill vs anyone who bought a cloth.
+
+  WHY 7.3 'MAGNETIC BLASTER REPLACEMENTS' MISS THE SPIKE:
+  • RFC → Collector 2nd ~13:00  ADC lucky 1416 (84%) — RFC has 0 AD.
+  • Fiendhunter → Collector 2nd ~13:00  ADC 1454 (86%). R-barrage guaranteed crits at 80%
+    of normal crit, which is WORSE than Senna's native 90%
+    modifier unless the auto was already going to crit.
+  • Yun Tal → Collector 2nd ~14:00  ADC 1497 (88%). AS ratio is now 0.4 (real AS),
+    but a 2.5s combo still only fits ~2 autos. Stacking 25%
+    crit is a 3rd-item story.
+  • Collector → IE 2nd ~14:00  ADC 1702. IE is 3500g so the spike is late, and 230% crit does not
+    touch Q/W/R. Capstone after you already one-shot.
+  • ER → Collector 2nd ~14:00  ADC 1582. Spellblade is 135% BASE AD. Senna's base AD is 54 forever.
+  • Dusk → Youmuu 2nd ~14:00  ADC 1855. Two lethality items double dip flat pen on already-low
+    armor; Serylda's 35% is the new multiplier.
+
+  RECOMMENDED (2nd-item overkill ADC + mid, patch 7.3):
+  1) Long Sword → Serrated Dirk
+  2) Duskblade of Draktharr   (~6:00, Nightstalker = item-1 spike)
+  3) Boots of Dynamism        (+8 lethality)
+  4) Serylda's Grudge         (~14:00, 35% pen — 2ND ITEM PEAK)
+     Alt if the game is a 13-min stomp: Hexoptics → Duskblade
+  5) Collector / Hexoptics / IE   (execute, range, or crit cap)
+  6) GA / Mortal / Edge of Night
+
+  Skill: max Q → W. R whenever. Combo: R (fog) → W root →
+  Q (mist extract + Relic) → auto (Nightstalker + crit).
+  Runes: Fleet, Empowered Attack, Brutal, Cut Down.
+
+  Trap: RFC / Fiendhunter / Yun Tal first — 7.3 split Magnetic
+  Blaster into 0-AD Zeal items. Senna cannot afford 0 AD.
+  Trap: Essence Reaver — spellblade scales with base AD.
+  Trap: Collector 2nd — crit/execute on 2 autos, spells ignore it.
+  Trap: IE 2nd — 3500g delay + autos-only crit amp.
+  Trap: Youmuu 2nd — more flat pen on armor that is already gone.
+==================================================================================
