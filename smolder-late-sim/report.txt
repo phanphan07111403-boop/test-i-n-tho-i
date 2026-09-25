@@ -22,49 +22,49 @@ GOLD / LEVEL / STACKS / TARGETS
 --------------------------------------------------------------------------------
 MINUTE-BY-MINUTE OPTIMAL (Q-poke identity, tanks still hurt)
 --------------------------------------------------------------------------------
-   1:00 | tank     364 | squish     386 | poke-sq    341 | ER → IE → Hex → Mortal → BT
+   1:00 | tank     319 | squish     338 | poke-sq    303 | ER → IE → Hex → Mortal → BT
          items: Long Sword
          pre-legendary
-   2:00 | tank     422 | squish     447 | poke-sq    400 | ER → IE → Hex → Mortal → BT
+   2:00 | tank     378 | squish     401 | poke-sq    365 | ER → IE → Hex → Mortal → BT
          items: Long Sword › Sheen
          pre-legendary
-   4:00 | tank     898 | squish     952 | poke-sq    823 | Stormrazor → IE → Hex → Mortal → BT
+   4:00 | tank     717 | squish     759 | poke-sq    634 | Stormrazor → IE → Hex → Mortal → BT
          items: Long Sword › B. F. Sword › Brawler's Gloves
          T1 AoE, pre-legendary
-   6:00 | tank    1380 | squish    1461 | poke-sq   1263 | ER → IE → Hex → Mortal → BT
+   6:00 | tank    1336 | squish    1414 | poke-sq   1233 | ER → IE → Hex → Mortal → BT
          items: Long Sword › Essence Reaver
          T1 AoE, ER sheen
-   8:00 | tank    1661 | squish    1758 | poke-sq   1550 | ER → IE → Hex → Mortal → BT
+   8:00 | tank    1678 | squish    1776 | poke-sq   1541 | ER → IE → Hex → Mortal → BT
          items: Long Sword › Essence Reaver › Ionian Boots of Lucidity
          T1 AoE, ER sheen
-  10:00 | tank    1877 | squish    2163 | poke-sq   1822 | ER → IE → Hex → Mortal → BT
-         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword
+  10:00 | tank    1928 | squish    2221 | poke-sq   1893 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Long Sword › Essence Reaver › Gluttonous Greaves › B. F. Sword
          T1 AoE, ER sheen
-  11:00 | tank    1943 | squish    2329 | poke-sq   1961 | ER → IE → Hex → Mortal → BT
-         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword › Pickaxe
+  11:00 | tank    1987 | squish    2381 | poke-sq   2028 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Long Sword › Essence Reaver › Gluttonous Greaves › B. F. Sword › Pickaxe
          T1 AoE, ER sheen
-  12:00 | tank    1988 | squish    2257 | poke-sq   1904 | ER → IE → Hex → Mortal → BT
-         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › B. F. Sword › Pickaxe › …
+  12:00 | tank    2039 | squish    2314 | poke-sq   1979 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Long Sword › Essence Reaver › Gluttonous Greaves › B. F. Sword › Pickaxe › …
          T2 bolts, ER sheen
-  14:00 | tank    2342 | squish    2836 | poke-sq   2389 | ER → IE → Hex → LDR → BT
-         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Pickaxe
+  14:00 | tank    2395 | squish    2899 | poke-sq   2486 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Long Sword › Essence Reaver › Gluttonous Greaves › Infinity Edge › Pickaxe
          T2 bolts, IE 230%, ER sheen
-  16:00 | tank    2524 | squish    3232 | poke-sq   2728 | ER → IE → Hex → Mortal → BT
-         items: Long Sword › Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Noonquiver › …
+  16:00 | tank    2577 | squish    3296 | poke-sq   2837 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Long Sword › Essence Reaver › Gluttonous Greaves › Infinity Edge › Noonquiver › …
          T2 bolts, IE 230%, ER sheen
-  17:00 | tank    2941 | squish    3863 | poke-sq   3347 | ER → IE → Hex → Mortal → Shieldbow
-         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Brawler's Gloves
+  17:00 | tank    3004 | squish    3942 | poke-sq   3485 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Essence Reaver › Gluttonous Greaves › Infinity Edge › Hexoptics C44 › Brawler's Gloves
          T2 bolts, IE 230%, 85% crit, Hex 10%, ER sheen
-  18:00 | tank    4035 | squish    4565 | poke-sq   4010 | ER → IE → Hex → Mortal → BT
-         items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Last Whisper
+  18:00 | tank    4187 | squish    4702 | poke-sq   4204 | ER → IE → Hex → Mortal → BT (Greaves)
+         items: Essence Reaver › Gluttonous Greaves › Infinity Edge › Hexoptics C44 › Last Whisper
          T3 burn, IE 230%, 75% crit, Hex 10%, ER sheen
-  20:00 | tank    4466 | squish    5192 | poke-sq   4559 | ER → IE → Hex → LDR → BT
+  20:00 | tank    4494 | squish    5188 | poke-sq   4637 | ER → IE → Hex → LDR → BT
          items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Last Whisper › …
          T3 burn, IE 230%, 90% crit, Hex 10%, ER sheen
-  22:00 | tank    5891 | squish    6249 | poke-sq   5487 | ER → IE → Hex → LDR → BT
+  22:00 | tank    5924 | squish    6238 | poke-sq   5580 | ER → IE → Hex → LDR → BT
          items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Lord Dominik's Regards
          T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen
-  24:00 | tank    6503 | squish    7015 | poke-sq   6139 | ER → IE → Hex → LDR → BT
+  24:00 | tank    6547 | squish    7000 | poke-sq   6241 | ER → IE → Hex → LDR → BT
          items: Essence Reaver › Ionian Boots of Lucidity › Infinity Edge › Hexoptics C44 › Lord Dominik's Regards › …
          T3 burn, IE 230%, 100% crit, Hex 10%, ER sheen
 
@@ -72,84 +72,98 @@ MINUTE-BY-MINUTE OPTIMAL (Q-poke identity, tanks still hurt)
 BUILD COMPARISON — MIX DAMAGE / 8s @ spikes
 --------------------------------------------------------------------------------
   Build                                      12:00   18:00   22:00   25:00     Late     IEΔ
-  ER → IE → Hex → Mortal → BT                 2109    4273    5581    6471     5000   +1012
-  ER → IE → Hex → LDR → BT                    2109    4273    6052    7284     5386   +1012
-  ER → IE → Navori → Mortal → BT              2109    3907    5283    6483     4823   +1012
-  ER → IE → RFC → Mortal → BT                 2109    3421    4718    5763     4316   +1012
-  ER → Shojin → IE → Mortal → Hex             1774    3566    4864    6406     4539    +716
-  ER → IE → Hex → Mortal → BT (Greaves)       1919    3788    4935    5691     4423    +792
-  Yun Tal → IE → Hex → Mortal → BT            1699    3709    4914    5746     4380    +812
-  Stormrazor → IE → Hex → Mortal → BT         1753    3557    4705    5456     4200    +768
-  ER → IE → Collector → Mortal → Hex          2109    3931    5278    6383     4797   +1012
-  Mura → Tri → Serylda → Shojin → IE          2112    4103    4941    5644     4518    +786
-  Mura → Tri → Serylda → IE → Mortal          2112    3691    4740    6679     4665    +786
-  ER → Trinity → IE → Mortal → Hex            1896    3272    4661    6152     4346    +488
-  ER → IE → BotRK → LDR → BT                  2109    3891    6012    6657     5090   +1012
-  ER → IE → Cleaver → Serylda → BT            2109    3475    4741    5464     4246   +1012
-  ER → IE → Hex → Mortal → Shieldbow          2109    4273    5647    6209     4941   +1012
+  ER → IE → Hex → Mortal → BT                 2089    4283    5592    6489     5008    +774
+  ER → IE → Hex → LDR → BT                    2089    4283    6066    7301     5394    +774
+  ER → IE → Navori → Mortal → BT              2089    3909    5321    6528     4845    +774
+  ER → IE → RFC → Mortal → BT                 2089    3434    4720    5776     4321    +774
+  ER → Shojin → IE → Mortal → Hex             1765    3589    4888    6442     4561    +497
+  ER → IE → Hex → Mortal → BT (Greaves)       2163    4419    5748    6645     5147    +856
+  Yun Tal → IE → Hex → Mortal → BT            1661    3672    4866    5698     4336    +732
+  Stormrazor → IE → Hex → Mortal → BT         1717    3526    4642    5418     4157    +690
+  ER → IE → Collector → Mortal → Hex          2089    3914    5283    6399     4796    +774
+  Mura → Tri → Serylda → Shojin → IE          2105    4139    4999    5713     4564    +802
+  Mura → Tri → Serylda → IE → Mortal          2105    3706    4757    6678     4673    +802
+  ER → Trinity → IE → Mortal → Hex            1886    3285    4664    6170     4354    +268
+  ER → IE → BotRK → LDR → BT                  2089    3874    6016    6669     5087    +774
+  ER → IE → Cleaver → Serylda → BT            2089    3483    5431    6272     4695    +774
+  ER → IE → Hex → Mortal → Shieldbow          2089    4283    5657    6229     4950    +774
 
 --------------------------------------------------------------------------------
 Q POKE vs SQUISHY  (pure Super Scorcher siege) @ 18 / 22 / 25
 --------------------------------------------------------------------------------
-  ER → IE → Hex → LDR → BT                    4010    5487    6668   Qs @22: 4  crit 100%
-  ER → IE → BotRK → LDR → BT                  3389    5098    5707   Qs @22: 4  crit 75%
-  ER → IE → Hex → Mortal → BT                 4010    5356    6255   Qs @22: 4  crit 100%
-  ER → IE → Hex → Mortal → Shieldbow          4010    5418    6005   Qs @22: 4  crit 115%
-  ER → IE → Navori → Mortal → BT              3518    4908    6048   Qs @22: 5  crit 100%
-  ER → IE → Collector → Mortal → Hex          3619    5020    6236   Qs @22: 4  crit 100%
-  Mura → Tri → Serylda → IE → Mortal          3246    4256    5888   Qs @22: 4  crit 35%
-  ER → Shojin → IE → Mortal → Hex             3288    4552    6218   Qs @22: 4  crit 75%
-  Mura → Tri → Serylda → Shojin → IE          3696    4516    5182   Qs @22: 5  crit 0%
-  ER → IE → Hex → Mortal → BT (Greaves)       3454    4612    5368   Qs @22: 3  crit 100%
-  Yun Tal → IE → Hex → Mortal → BT            3179    4319    5119   Qs @22: 3  crit 100%
-  ER → Trinity → IE → Mortal → Hex            2912    4210    5767   Qs @22: 4  crit 75%
-  ER → IE → RFC → Mortal → BT                 3067    4269    5254   Qs @22: 4  crit 100%
-  ER → IE → Cleaver → Serylda → BT            3094    4247    4918   Qs @22: 4  crit 50%
-  Stormrazor → IE → Hex → Mortal → BT         3101    4168    4924   Qs @22: 3  crit 100%
+  ER → IE → Hex → LDR → BT                    4076    5580    6776   Qs @22: 4  crit 100%
+  ER → IE → Hex → Mortal → BT (Greaves)       4204    5597    6509   Qs @22: 4  crit 100%
+  ER → IE → BotRK → LDR → BT                  3450    5186    5804   Qs @22: 4  crit 75%
+  ER → IE → Hex → Mortal → BT                 4076    5446    6358   Qs @22: 4  crit 100%
+  ER → IE → Hex → Mortal → Shieldbow          4076    5509    6106   Qs @22: 4  crit 115%
+  ER → IE → Navori → Mortal → BT              3592    5008    6164   Qs @22: 5  crit 100%
+  ER → IE → Collector → Mortal → Hex          3682    5103    6338   Qs @22: 4  crit 100%
+  ER → IE → Cleaver → Serylda → BT            3144    5030    5822   Qs @22: 5  crit 50%
+  Mura → Tri → Serylda → IE → Mortal          3294    4320    5970   Qs @22: 4  crit 35%
+  Mura → Tri → Serylda → Shojin → IE          3757    4592    5269   Qs @22: 5  crit 0%
+  ER → Shojin → IE → Mortal → Hex             3346    4630    6330   Qs @22: 4  crit 75%
+  ER → Trinity → IE → Mortal → Hex            2961    4280    5866   Qs @22: 4  crit 75%
+  Yun Tal → IE → Hex → Mortal → BT            3205    4358    5166   Qs @22: 3  crit 100%
+  ER → IE → RFC → Mortal → BT                 3125    4346    5344   Qs @22: 4  crit 100%
+  Stormrazor → IE → Hex → Mortal → BT         3132    4213    4977   Qs @22: 3  crit 100%
 
 --------------------------------------------------------------------------------
 TEAMFIGHT vs TANK  @ 18 / 22 / 25
 --------------------------------------------------------------------------------
-  ER → IE → Hex → LDR → BT                    5042    7332    8680
-  ER → IE → BotRK → LDR → BT                  4832    7900    8602
-  ER → IE → Hex → Mortal → BT                 5042    6402    7314
-  ER → IE → Hex → Mortal → Shieldbow          5042    6477    7019
-  ER → IE → Navori → Mortal → BT              4678    6355    7689
-  ER → IE → Collector → Mortal → Hex          4630    6184    7152
-  Mura → Tri → Serylda → IE → Mortal          4757    5927    8564
-  ER → Shojin → IE → Mortal → Hex             4330    5802    7238
-  Mura → Tri → Serylda → Shojin → IE          5090    5995    6764
-  ER → IE → Hex → Mortal → BT (Greaves)       4684    5920    6708
-  Yun Tal → IE → Hex → Mortal → BT            4961    6362    7261
-  ER → Trinity → IE → Mortal → Hex            4147    5787    7263
-  ER → IE → RFC → Mortal → BT                 4331    5871    7072
-  ER → IE → Cleaver → Serylda → BT            4434    6002    6830
-  Stormrazor → IE → Hex → Mortal → BT         4642    5916    6762
+  ER → IE → Hex → LDR → BT                    4940    7178    8517
+  ER → IE → Hex → Mortal → BT (Greaves)       5094    6443    7356
+  ER → IE → BotRK → LDR → BT                  4732    7713    8429
+  ER → IE → Hex → Mortal → BT                 4940    6270    7185
+  ER → IE → Hex → Mortal → Shieldbow          4940    6342    6902
+  ER → IE → Navori → Mortal → BT              4630    6283    7614
+  ER → IE → Collector → Mortal → Hex          4537    6052    7025
+  ER → IE → Cleaver → Serylda → BT            4361    6529    7474
+  Mura → Tri → Serylda → IE → Mortal          4706    5853    8403
+  Mura → Tri → Serylda → Shojin → IE          5075    6020    6802
+  ER → Shojin → IE → Mortal → Hex             4283    5730    7148
+  ER → Trinity → IE → Mortal → Hex            4090    5690    7143
+  Yun Tal → IE → Hex → Mortal → BT            4795    6152    7046
+  ER → IE → RFC → Mortal → BT                 4259    5766    6956
+  Stormrazor → IE → Hex → Mortal → BT         4488    5719    6561
 
 --------------------------------------------------------------------------------
 2ND LEGENDARY SPIKE  (isolated Δ at the minute it completes)
 --------------------------------------------------------------------------------
-  ER → IE → Hex → LDR → BT                 ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → BotRK → LDR → BT               ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → Hex → Mortal → BT              ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → Hex → Mortal → Shieldbow       ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → Navori → Mortal → BT           ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → Collector → Mortal → Hex       ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  Mura → Tri → Serylda → IE → Mortal       ~12:00  Δ +786  [Muramana, Trinity Force]
-  ER → Shojin → IE → Mortal → Hex          ~13:00  Δ +716  [Essence Reaver, Spear of Shojin]
-  Mura → Tri → Serylda → Shojin → IE       ~12:00  Δ +786  [Muramana, Trinity Force]
-  ER → IE → Hex → Mortal → BT (Greaves)    ~13:00  Δ +792  [Essence Reaver, Infinity Edge]
-  Yun Tal → IE → Hex → Mortal → BT         ~13:00  Δ +812  [Yun Tal Wildarrows, Infinity Edge]
-  ER → Trinity → IE → Mortal → Hex         ~13:00  Δ +488  [Essence Reaver, Trinity Force]
-  ER → IE → RFC → Mortal → BT              ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  ER → IE → Cleaver → Serylda → BT         ~13:00  Δ +1012  [Essence Reaver, Infinity Edge]
-  Stormrazor → IE → Hex → Mortal → BT      ~13:00  Δ +768  [Stormrazor, Infinity Edge]
+  ER → IE → Hex → LDR → BT                 ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Hex → Mortal → BT (Greaves)    ~13:00  Δ +856  [Essence Reaver, Infinity Edge]
+  ER → IE → BotRK → LDR → BT               ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Hex → Mortal → BT              ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Hex → Mortal → Shieldbow       ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Navori → Mortal → BT           ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Collector → Mortal → Hex       ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  ER → IE → Cleaver → Serylda → BT         ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  Mura → Tri → Serylda → IE → Mortal       ~12:00  Δ +802  [Muramana, Trinity Force]
+  Mura → Tri → Serylda → Shojin → IE       ~12:00  Δ +802  [Muramana, Trinity Force]
+  ER → Shojin → IE → Mortal → Hex          ~13:00  Δ +497  [Essence Reaver, Spear of Shojin]
+  ER → Trinity → IE → Mortal → Hex         ~13:00  Δ +268  [Essence Reaver, Trinity Force]
+  Yun Tal → IE → Hex → Mortal → BT         ~13:00  Δ +732  [Yun Tal Wildarrows, Infinity Edge]
+  ER → IE → RFC → Mortal → BT              ~13:00  Δ +774  [Essence Reaver, Infinity Edge]
+  Stormrazor → IE → Hex → Mortal → BT      ~13:00  Δ +690  [Stormrazor, Infinity Edge]
+
+--------------------------------------------------------------------------------
+RUNES ON ER → IE → Hex → LDR → BT  (same items, swap the page)
+--------------------------------------------------------------------------------
+  Rune page                                                  18:00   22:00   25:00  Poke25   Qs
+  Fleet / Zeal / Cut Down / Haste / Transcendence             4283    6066    7301    6776    4
+  Fleet / Zeal / Cut Down / Bloodline / Transcendence         4283    6066    7301    6776    4
+  Fleet / Brutal / Cut Down / Haste / Transcendence           4192    5931    7139    6668    4
+  Fleet / Brutal / Cut Down / Alacrity / Transcendence        4273    6052    7284    6668    4
+  Fleet / Zeal / Cut Down / Haste / Bone Plating              3655    5183    6233    5666    3
+  Fleet / Zeal / Coup / Haste / Transcendence                 4133    5853    7046    6362    4
+  Lethal Tempo / Brutal / Cut Down / Alacrity / Transcendence    4490    6357    7640    6668    4
+  Conqueror / Zeal / Cut Down / Haste / Transcendence         4626    6511    7746    7112    4
+  Phase Rush / Zeal / Cut Down / Haste / Transcendence        4283    6066    7301    6776    4
 
 --------------------------------------------------------------------------------
 VERDICT
 --------------------------------------------------------------------------------
   Strongest late path: ER → IE → Hex → LDR → BT
-  Late-weighted mix: 5386 | 22:00 6052 | 25:00 7284
+  Late-weighted mix: 5394 | 22:00 6066 | 25:00 7301
   Infinity Edge online: ~13:00  (Q amp uses 230% crit damage)
   Hexoptics C44 online: ~17:00  (10% damage at Q range)
   % armor pen online:   ~21:00
@@ -167,20 +181,20 @@ VERDICT
     fireball. That is the first-item Q identity.
   • Hexoptics C44 is the Magnetic Blaster replacement that actually
     scales the poke: 10% damage at 550 range — Q's exact range.
-  • Old Mura→Tri→Serylda at 22:00 mix 4941; ER → IE → Hex → LDR → BT 6052 (+22%).
-    25:00 mix 5644 vs 7284 (+29%). Poke-squish 5182 vs 6668.
+  • Old Mura→Tri→Serylda at 22:00 mix 4999; ER → IE → Hex → LDR → BT 6066 (+21%).
+    25:00 mix 5713 vs 7301 (+28%). Poke-squish 5269 vs 6776.
     Muramana still shocks, but 0% crit means Q never gets the
     7.3 amp. IE arrives as item 5 and the page is already behind.
 
   SHOJIN vs 4TH CRIT ITEM:
-    Shojin 12% ability amp @ 75% crit → mix 6406.
-    Hexoptics 4th (100% crit + 10% range amp) → mix 6471.
+    Shojin 12% ability amp @ 75% crit → mix 6442.
+    Hexoptics 4th (100% crit + 10% range amp) → mix 6489.
     25% extra crit on Q is ~+11% Scorcher amp plus auto crits;
     Shojin's 12% only touches abilities and delays 100% crit.
 
   NAVORI vs HEXOPTICS:
     Navori Qs @22: 5 | Hexoptics Qs @22: 4
-    25:00 poke-squish Navori 6048 vs Hex 6255.
+    25:00 poke-squish Navori 6164 vs Hex 6358.
     Navori has 0 AD. Extra Qs do not beat Hexoptics' 55 AD +
     10% max-range amp on every Scorcher.
 
@@ -205,4 +219,30 @@ VERDICT
   Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit
   and the Hexoptics range amp that is Smolder's poke identity.
   Trap: Collector. Smolder already executes at 6.5% with T3 burn.
+
+  RUNES THAT FIT THIS PAGE:
+  Fleet / Zeal / Cut Down / Bloodline / Transcendence
+    22:00 mix 6066 | 25:00 7301 | Qs @22 4
+  • Fleet Footwork — Q is on-attack, so the fireball procs the
+    heal / 20% MS / missing-mana. That is how you live to 175 stacks.
+    This page buys 0 attack speed; Fleet's job is uptime, not DPS.
+  • Battle Zeal — +2%/s basic-ability damage, cap 6%. Q/W/E and
+    the T3 burn are basic-ability damage. Brutal only spices the
+    on-hit; Zeal 25:00 mix 7139 → 7301.
+  • Cut Down — poke hits healthy targets. Coup is the same slot
+    and overlaps the 6.5% T3 execute (poke-squish 6362 vs 6776).
+  • Legend: Bloodline — 7% omnivamp heals off Q magic + true burn.
+    BT lifesteal does not. In an 8s window Haste is the same 4 Qs
+    (7301 mix) — take Haste only
+    if you already have enough vamp and want W/E/R uptime.
+  • Transcendence — 10 AH + 8% refund. Dropping it for Bone Plating
+    costs a Q in the window (3 vs 4). Bone Plating only vs Lucian/Draven/Leona
+    until you can swap back.
+  • Conqueror paper-leads 25:00 mix (7746) by stacking AD in combat.
+    Hexoptics poke is max-range; you are not in Conqueror range.
+  • Lethal Tempo 7.3 wants AS items. ER/IE/Hex/LDR/BT is 0% item AS.
+    LT 25:00 mix 7640 is fight autos,
+    and it does not stack during a Q siege.
+  • Phase Rush is the dive/gank swap (common on CN screenshots).
+    0 damage. Take it when you cannot stand still to stack.
 ================================================================================

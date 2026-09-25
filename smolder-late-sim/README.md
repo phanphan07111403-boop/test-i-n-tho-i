@@ -38,6 +38,22 @@ At 22:00 this path deals **22% more** mix damage than the old Muramana → Trini
 - Shojin 12% ability amp is real, but it delays 100% crit. Navori refunds Q (5 vs 4 casts) but has **0 AD** — extra Qs lose to Hexoptics' 55 AD + 10% range amp.
 - Swap LDR → **Mortal Reminder** if they heal. Shieldbow/Maw/GA instead of Bloodthirster vs dive.
 
+## Runes that fit (sim, same items)
+
+**Fleet Footwork / Battle Zeal / Cut Down / Legend: Bloodline / Transcendence**
+
+| Rune | Why it fits this page |
+|------|------------------------|
+| **Fleet Footwork** | Q is on-attack — fireball procs heal, 20% MS, mana. You live to 175 stacks. 0 item AS, so Fleet is uptime not DPS. |
+| **Battle Zeal** | +2%/s basic-ability damage, cap 6%. Amps Q/W/E and the T3 burn. Beats Brutal on this page. |
+| **Cut Down** | Poke hits healthy targets. Coup is the same slot and overlaps the 6.5% T3 execute. |
+| **Legend: Bloodline** | 7% omnivamp heals off Q magic + true burn (BT lifesteal does not). In 8s, Legend: Haste is the same 4 Qs — take Haste only if you already have vamp. |
+| **Transcendence** | 10 AH + 8% refund. Dropping it for Bone Plating costs a Q (3 vs 4). Bone Plating only vs Lucian/Draven/Leona, then swap back. |
+
+**Do not take:** Lethal Tempo (7.3 wants AS items; this page has none). Conqueror (paper AD if you stand in melee; Hexoptics poke is max range). Coup de Grace. Legend: Alacrity.
+
+**Swap:** Phase Rush vs dive/ganks. Barrier + Flash.
+
 ## Playstyle
 
 - Skill order: max **Q** → W → E. R at 6/11/15.

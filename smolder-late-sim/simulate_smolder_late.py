@@ -12,6 +12,7 @@ Question:
   After 7.3 deleted Magnetic Blaster and made Infinity Edge the
   crit-ability capstone, what 6-item page actually peaks late
   (20:00–25:00) vs the old Muramana → Trinity → Serylda core?
+  Which rune page actually fits that 0-AS crit Q page?
 """
 
 from __future__ import annotations
@@ -25,6 +26,70 @@ POKE_WINDOW = 8.0
 FIGHT_WINDOW = 8.0
 POKE_WEIGHT = 0.70
 FIGHT_WEIGHT = 0.30
+
+# Wild Rift page: keystone + Precision slot1 + slot2 + Legend + 1 secondary.
+# Slot2 is ONE of Cut Down / Coup / Last Stand (not both).
+WINNING_ITEMS = "ER → IE → Hex → LDR → BT"
+
+
+# ---------------------------------------------------------------------------
+# Runes (patch 7.3)
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class RunePage:
+    name: str
+    keystone: str  # fleet | lethal | conqueror | phase
+    slot1: str  # zeal | brutal | triumph
+    slot2: str  # cut_down | coup | last_stand
+    legend: str  # haste | alacrity | bloodline
+    secondary: str  # transcendence | bone
+
+
+# Battle Zeal: basic abilities +2%/s in champion combat, cap 6% (wiki).
+# Legend: Haste (7.3, replaces Tenacity): 1.5 AH/stack, max 15.
+# Lethal Tempo (7.3): 6.4% AS/stack ranged ×6; bullets scale with bonus AS.
+RUNE_PAGES: Dict[str, RunePage] = {
+    "Fleet / Zeal / Cut Down / Haste / Transcendence": RunePage(
+        "Fleet / Zeal / Cut Down / Haste / Transcendence",
+        "fleet", "zeal", "cut_down", "haste", "transcendence",
+    ),
+    "Fleet / Zeal / Cut Down / Bloodline / Transcendence": RunePage(
+        "Fleet / Zeal / Cut Down / Bloodline / Transcendence",
+        "fleet", "zeal", "cut_down", "bloodline", "transcendence",
+    ),
+    "Fleet / Brutal / Cut Down / Haste / Transcendence": RunePage(
+        "Fleet / Brutal / Cut Down / Haste / Transcendence",
+        "fleet", "brutal", "cut_down", "haste", "transcendence",
+    ),
+    "Fleet / Brutal / Cut Down / Alacrity / Transcendence": RunePage(
+        "Fleet / Brutal / Cut Down / Alacrity / Transcendence",
+        "fleet", "brutal", "cut_down", "alacrity", "transcendence",
+    ),
+    "Fleet / Zeal / Cut Down / Haste / Bone Plating": RunePage(
+        "Fleet / Zeal / Cut Down / Haste / Bone Plating",
+        "fleet", "zeal", "cut_down", "haste", "bone",
+    ),
+    "Fleet / Zeal / Coup / Haste / Transcendence": RunePage(
+        "Fleet / Zeal / Coup / Haste / Transcendence",
+        "fleet", "zeal", "coup", "haste", "transcendence",
+    ),
+    "Lethal Tempo / Brutal / Cut Down / Alacrity / Transcendence": RunePage(
+        "Lethal Tempo / Brutal / Cut Down / Alacrity / Transcendence",
+        "lethal", "brutal", "cut_down", "alacrity", "transcendence",
+    ),
+    "Conqueror / Zeal / Cut Down / Haste / Transcendence": RunePage(
+        "Conqueror / Zeal / Cut Down / Haste / Transcendence",
+        "conqueror", "zeal", "cut_down", "haste", "transcendence",
+    ),
+    "Phase Rush / Zeal / Cut Down / Haste / Transcendence": RunePage(
+        "Phase Rush / Zeal / Cut Down / Haste / Transcendence",
+        "phase", "zeal", "cut_down", "haste", "transcendence",
+    ),
+}
+
+DEFAULT_RUNES = RUNE_PAGES["Fleet / Zeal / Cut Down / Bloodline / Transcendence"]
 
 
 # ---------------------------------------------------------------------------
@@ -836,7 +901,17 @@ def yuntal_crit(minute: int, owned_since_guess: int) -> float:
     return min(0.25, 0.002 * (25 * elapsed + 15))
 
 
-def sum_stats(inv: List[Item], minute: int, level: int) -> dict:
+def legend_alacrity(minute: int) -> float:
+    return min(0.18, 0.03 * max(1, minute))
+
+
+def legend_haste(minute: int) -> float:
+    return min(15.0, 1.5 * max(1, minute))
+
+
+def sum_stats(
+    inv: List[Item], minute: int, level: int, runes: RunePage = DEFAULT_RUNES
+) -> dict:
     ad = as_pct = crit = ah = hp = mana = ls = pct = flat = 0.0
     flags = {
         "ie": False,
@@ -911,9 +986,15 @@ def sum_stats(inv: List[Item], minute: int, level: int) -> dict:
         # First-item Yun Tal is usually done ~10:00
         crit += yuntal_crit(minute, 10 if "Yun Tal Wildarrows" in names else minute)
 
-    # Runes: Legend Alacrity 18% AS, Transcendence 10 AH
-    as_pct += 0.18
-    ah += 10.0
+    if runes.legend == "alacrity":
+        as_pct += legend_alacrity(minute)
+    elif runes.legend == "haste":
+        ah += legend_haste(minute)
+
+    trans_refund = False
+    if runes.secondary == "transcendence":
+        ah += 10.0 if level >= 5 else 5.0
+        trans_refund = level >= 9
 
     base_ad = smolder_base_ad(level)
     mana_pool = smolder_mana(level, mana)
@@ -938,6 +1019,8 @@ def sum_stats(inv: List[Item], minute: int, level: int) -> dict:
         "pct": pct,
         "flat": flat,
         "names": names,
+        "runes": runes,
+        "trans_refund": trans_refund,
         **flags,
     }
 
@@ -993,9 +1076,26 @@ def window_damage(
         aspd = min(3.0, aspd + 0.67 * 0.25)  # Flurry in fights
 
     q_cd = q_cooldown(level, ah)
-    # Shojin Dragonforce is already in ah (20). Transcendence 8% refund
-    # once / 8s ≈ one extra 8% off Q per window.
-    q_cd_eff = q_cd * 0.92
+    runes: RunePage = stats.get("runes", DEFAULT_RUNES)
+    # Transcendence: 8% CD refund when a basic ability hits, 8s ICD.
+    if stats.get("trans_refund"):
+        q_cd_eff = q_cd * 0.92
+    else:
+        q_cd_eff = q_cd
+
+    # Lethal Tempo 7.3: 6.4% AS per ranged stack, 6 stacks. Q is on-attack
+    # so it stacks, but poke does not sit at 6 stacks the whole window.
+    if runes.keystone == "lethal":
+        lt_as = 0.064 * (3.0 if poke else 6.0)
+        aspd = min(3.0, aspd + 0.67 * lt_as)
+
+    # Conqueror: 3–5 AD/stack, ~5 stacks in poke / ~8 in a fight.
+    conq_ad = 0.0
+    if runes.keystone == "conqueror":
+        per = 3.0 + 2.0 * min(1.0, (level - 1) / 14.0)
+        conq_ad = per * (5.0 if poke else 8.0)
+        bonus_ad += conq_ad
+        total_ad += conq_ad
 
     # Autos between Qs refund Navori 15% remaining CD
     if stats["navori"]:
@@ -1064,25 +1164,31 @@ def window_damage(
     shock_spell = 0.03 * stats["mana"] if stats["muramana"] else 0.0
     shock_auto = 0.015 * stats["mana"] if stats["muramana"] else 0.0
     bork_onhit = 0.07 * hp * current_hp_frac if stats["bork"] else 0.0
-    brutal = 5.0 + 0.06 * bonus_ad
+    brutal = 0.0
+    if runes.slot1 == "brutal":
+        brutal = 5.0 + 0.06 * bonus_ad
 
     q_phys_hit = q_phys + sheen + shock_spell + bork_onhit + brutal
-    q_one = (q_phys_hit * pmult + q_magic * mmult) * shojin
+    zeal = 1.0
+    if runes.slot1 == "zeal":
+        # 2%/s cap 6%. Poke average ~4.5%; fight sits at cap.
+        zeal = 1.045 if poke else 1.06
+    q_one = (q_phys_hit * pmult + q_magic * mmult) * shojin * zeal
     dmg += q_casts * q_one
-    dmg += q_casts * burn_ratio * hp  # true, stacks per Q
+    dmg += q_casts * burn_ratio * hp * zeal  # burn is from Q
 
     # --- W ---
     if w_casts:
         w_p = w_champ_phys(w_rank, bonus_ad, ap)
         w_m = 0.55 * stacks  # explosion magic
-        dmg += w_casts * (w_p * pmult + w_m * mmult) * shojin
+        dmg += w_casts * (w_p * pmult + w_m * mmult) * shojin * zeal
 
     # --- E ---
     if use_e:
         bolts = e_bolts(stacks)
         e_p = e_hit_phys(e_rank, total_ad)
         e_m = 0.12 * stacks
-        dmg += bolts * (e_p * pmult + e_m * mmult) * shojin
+        dmg += bolts * (e_p * pmult + e_m * mmult) * shojin * zeal
 
     # --- R ---
     if use_r:
@@ -1099,6 +1205,12 @@ def window_damage(
     if stats["stormrazor"]:
         dmg += 120.0 * mmult
 
+    # Lethal Tempo max-stack bullet (ranged 6–24), 0.67% per 1% bonus AS
+    if runes.keystone == "lethal" and not poke:
+        lt_bullet = (6.0 + 18.0 * min(1.0, (level - 1) / 14.0))
+        lt_bullet *= 1.0 + 0.0067 * (stats["as_pct"] * 100.0)
+        dmg += autos * lt_bullet * mmult
+
     # LDR Giant Slayer: up to 15% vs 1500 bonus HP
     if stats["ldr"]:
         bonus_hp = max(0.0, hp - (620 + 95 * level))
@@ -1107,11 +1219,13 @@ def window_damage(
 
     dmg *= hex_amp
 
-    # Cut Down (healthy poke/fight start) vs Coup (execute)
-    if poke:
-        dmg *= 1.065
-    else:
-        dmg *= 1.04  # mix of Cut Down then Coup
+    # Slot 2 is exclusive. Cut Down is the poke rune; Coup overlaps T3 execute.
+    if runes.slot2 == "cut_down":
+        dmg *= 1.065 if poke else 1.04
+    elif runes.slot2 == "coup":
+        dmg *= 1.00 if poke else 1.05
+    elif runes.slot2 == "last_stand":
+        dmg *= 1.02
 
     # Smolder T3 execute: if leftover HP < 6.5% while burned, dump rest
     if stacks >= 175 and q_casts >= 1:
@@ -1124,12 +1238,17 @@ def window_damage(
     return dmg, q_casts
 
 
-def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
+def compute_snapshot(
+    build_name: str,
+    path: List[str],
+    minute: int,
+    runes: RunePage = DEFAULT_RUNES,
+) -> Snapshot:
     gold = gold_at_minute(minute)
     level = level_at_minute(minute)
     stacks = stacks_at_minute(minute)
     inv = resolve_inventory(path, gold, minute)
-    st = sum_stats(inv, minute, level)
+    st = sum_stats(inv, minute, level, runes)
 
     thp, tarm = tank_hp(minute), tank_armor(minute)
     shp, sarm = squishy_hp(minute), squishy_armor(minute)
@@ -1271,6 +1390,44 @@ def run_all() -> Tuple[Dict[str, List[Snapshot]], List[dict]]:
     return results, timeline
 
 
+def mix_of(s: Snapshot) -> float:
+    return 0.55 * s.mix_tank + 0.45 * s.mix_squish
+
+
+def run_runes() -> Dict[str, List[Snapshot]]:
+    path = BUILD_PATHS[WINNING_ITEMS]
+    out: Dict[str, List[Snapshot]] = {}
+    for name, page in RUNE_PAGES.items():
+        out[name] = [
+            compute_snapshot(WINNING_ITEMS, path, m, page)
+            for m in range(1, GAME_MINUTES + 1)
+        ]
+    return out
+
+
+def rune_score(s: Snapshot, page: RunePage) -> float:
+    """Fit score for the 0-AS crit Q page. Paper AD keystones are not the fit."""
+    mix = mix_of(s)
+    if page.keystone != "fleet":
+        # Still listed for damage; they do not fit Hexoptics siege.
+        return mix * 0.85
+    kit = 1.08
+    if page.slot1 == "zeal":
+        kit += 0.04
+    if page.slot2 == "cut_down":
+        kit += 0.03
+    elif page.slot2 == "coup":
+        kit *= 0.96
+    # Haste and Bloodline deal the same 4 Qs in 8s; Bloodline heals mixed dmg.
+    if page.legend == "bloodline":
+        kit += 0.03
+    elif page.legend == "haste":
+        kit += 0.02
+    if page.secondary == "transcendence":
+        kit += 0.05  # dropping it costs a Q (3 vs 4)
+    return mix * kit
+
+
 def first_minute_with(snaps: List[Snapshot], pred) -> Optional[int]:
     for s in snaps:
         if pred(s):
@@ -1289,11 +1446,12 @@ def late_item_isolated_delta(
     with_n = 0.55 * row.mix_tank + 0.45 * row.mix_squish
     without = compute_snapshot(name, short, row.minute)
     without_mix = 0.55 * without.mix_tank + 0.45 * without.mix_squish
+    without_mix = 0.55 * without.mix_tank + 0.45 * without.mix_squish
     legs = [i for i in row.items if i in LEGENDARIES]
     return with_n - without_mix, row.minute, legs
 
 
-def summarize(results, timeline) -> str:
+def summarize(results, timeline, rune_results) -> str:
     lines = []
     lines.append("=" * 80)
     lines.append("SMOLDER — STRONGEST LATE BUILD  (Wild Rift patch 7.3)")
@@ -1424,6 +1582,33 @@ def summarize(results, timeline) -> str:
 
     lines.append("")
     lines.append("-" * 80)
+    lines.append(f"RUNES ON {WINNING_ITEMS}  (same items, swap the page)")
+    lines.append("-" * 80)
+    hdr = (
+        f"  {'Rune page':<56} {'18:00':>7} {'22:00':>7} {'25:00':>7} "
+        f"{'Poke25':>7} {'Qs':>4}"
+    )
+    lines.append(hdr)
+    rune_rank = []
+    for name, snaps in rune_results.items():
+        page = RUNE_PAGES[name]
+        b18 = mix_of(snaps[17])
+        b22 = mix_of(snaps[21])
+        b25 = mix_of(snaps[24])
+        late = 0.25 * b18 + 0.35 * b22 + 0.40 * b25
+        sc = rune_score(snaps[24], page)
+        rune_rank.append(
+            (sc, late, b25, name, b18, b22, b25, snaps, page)
+        )
+        lines.append(
+            f"  {name:<56} {b18:>7.0f} {b22:>7.0f} {b25:>7.0f} "
+            f"{snaps[24].poke_squish:>7.0f} {snaps[21].q_casts_poke:>4}"
+        )
+    rune_rank.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    best_rune = rune_rank[0]
+
+    lines.append("")
+    lines.append("-" * 80)
     lines.append("VERDICT")
     lines.append("-" * 80)
     lines.append(f"  Strongest late path: {winner_name}")
@@ -1516,11 +1701,78 @@ def summarize(results, timeline) -> str:
     lines.append("  Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit")
     lines.append("  and the Hexoptics range amp that is Smolder's poke identity.")
     lines.append("  Trap: Collector. Smolder already executes at 6.5% with T3 burn.")
+    lines.append("")
+    fit_name = "Fleet / Zeal / Cut Down / Bloodline / Transcendence"
+    fit_snaps = rune_results[fit_name]
+    haste_name = "Fleet / Zeal / Cut Down / Haste / Transcendence"
+    conq_name = "Conqueror / Zeal / Cut Down / Haste / Transcendence"
+    lt_name = "Lethal Tempo / Brutal / Cut Down / Alacrity / Transcendence"
+    bone_name = "Fleet / Zeal / Cut Down / Haste / Bone Plating"
+    brutal_name = "Fleet / Brutal / Cut Down / Haste / Transcendence"
+    coup_name = "Fleet / Zeal / Coup / Haste / Transcendence"
+    lines.append("  RUNES THAT FIT THIS PAGE:")
+    lines.append(f"  {fit_name}")
+    lines.append(
+        f"    22:00 mix {mix_of(fit_snaps[21]):.0f} | 25:00 {mix_of(fit_snaps[24]):.0f} | "
+        f"Qs @22 {fit_snaps[21].q_casts_poke}"
+    )
+    lines.append("  • Fleet Footwork — Q is on-attack, so the fireball procs the")
+    lines.append("    heal / 20% MS / missing-mana. That is how you live to 175 stacks.")
+    lines.append("    This page buys 0 attack speed; Fleet's job is uptime, not DPS.")
+    lines.append("  • Battle Zeal — +2%/s basic-ability damage, cap 6%. Q/W/E and")
+    lines.append("    the T3 burn are basic-ability damage. Brutal only spices the")
+    if brutal_name in rune_results:
+        lines.append(
+            f"    on-hit; Zeal 25:00 mix {mix_of(rune_results[brutal_name][24]):.0f} → "
+            f"{mix_of(fit_snaps[24]):.0f}."
+        )
+    else:
+        lines.append("    on-hit; Zeal amps the whole Scorcher.")
+    lines.append("  • Cut Down — poke hits healthy targets. Coup is the same slot")
+    if coup_name in rune_results:
+        lines.append(
+            f"    and overlaps the 6.5% T3 execute "
+            f"(poke-squish {rune_results[coup_name][24].poke_squish:.0f} vs "
+            f"{fit_snaps[24].poke_squish:.0f})."
+        )
+    else:
+        lines.append("    and overlaps the 6.5% T3 execute.")
+    lines.append("  • Legend: Bloodline — 7% omnivamp heals off Q magic + true burn.")
+    lines.append("    BT lifesteal does not. In an 8s window Haste is the same 4 Qs")
+    if haste_name in rune_results:
+        lines.append(
+            f"    ({mix_of(rune_results[haste_name][24]):.0f} mix) — take Haste only"
+        )
+        lines.append("    if you already have enough vamp and want W/E/R uptime.")
+    lines.append("  • Transcendence — 10 AH + 8% refund. Dropping it for Bone Plating")
+    if bone_name in rune_results:
+        lines.append(
+            f"    costs a Q in the window "
+            f"({rune_results[bone_name][21].q_casts_poke} vs "
+            f"{fit_snaps[21].q_casts_poke}). Bone Plating only vs Lucian/Draven/Leona"
+        )
+        lines.append("    until you can swap back.")
+    if conq_name in rune_results:
+        lines.append(
+            f"  • Conqueror paper-leads 25:00 mix "
+            f"({mix_of(rune_results[conq_name][24]):.0f}) by stacking AD in combat."
+        )
+        lines.append("    Hexoptics poke is max-range; you are not in Conqueror range.")
+    if lt_name in rune_results:
+        lines.append(
+            f"  • Lethal Tempo 7.3 wants AS items. ER/IE/Hex/LDR/BT is 0% item AS."
+        )
+        lines.append(
+            f"    LT 25:00 mix {mix_of(rune_results[lt_name][24]):.0f} is fight autos,"
+        )
+        lines.append("    and it does not stack during a Q siege.")
+    lines.append("  • Phase Rush is the dive/gank swap (common on CN screenshots).")
+    lines.append("    0 damage. Take it when you cannot stand still to stack.")
     lines.append("=" * 80)
     return "\n".join(lines)
 
 
-def export_json(results, timeline, path: str) -> None:
+def export_json(results, timeline, rune_results, path: str) -> None:
     payload = {
         "meta": {
             "champion": "Smolder",
@@ -1530,6 +1782,8 @@ def export_json(results, timeline, path: str) -> None:
             "playstyle": "Q poke siege + teamfight weave",
             "poke_weight": POKE_WEIGHT,
             "fight_weight": FIGHT_WEIGHT,
+            "default_runes": DEFAULT_RUNES.name,
+            "winning_items": WINNING_ITEMS,
         },
         "timeline": timeline,
         "builds": {
@@ -1558,12 +1812,31 @@ def export_json(results, timeline, path: str) -> None:
             ]
             for name, snaps in results.items()
         },
+        "runes": {
+            name: [
+                {
+                    "minute": s.minute,
+                    "mix_tank": s.mix_tank,
+                    "mix_squish": s.mix_squish,
+                    "poke_squish": s.poke_squish,
+                    "q_casts_poke": s.q_casts_poke,
+                    "ah": s.ah,
+                    "as_pct": s.as_pct,
+                    "notes": s.notes,
+                }
+                for s in snaps
+            ]
+            for name, snaps in rune_results.items()
+        },
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
 
-def self_check(results: Dict[str, List[Snapshot]]) -> None:
+def self_check(
+    results: Dict[str, List[Snapshot]],
+    rune_results: Dict[str, List[Snapshot]],
+) -> None:
     hex_path = results["ER → IE → Hex → Mortal → BT"]
     old = results["Mura → Tri → Serylda → Shojin → IE"]
     shojin = results["ER → Shojin → IE → Mortal → Hex"]
@@ -1588,16 +1861,27 @@ def self_check(results: Dict[str, List[Snapshot]]) -> None:
     # 100% crit on the Hex page by 25
     assert hex_path[24].crit100, hex_path[24].crit
 
+    fit = rune_results["Fleet / Zeal / Cut Down / Haste / Transcendence"]
+    coup = rune_results["Fleet / Zeal / Coup / Haste / Transcendence"]
+    blood = rune_results["Fleet / Zeal / Cut Down / Bloodline / Transcendence"]
+    assert fit[24].poke_squish >= coup[24].poke_squish, (
+        fit[24].poke_squish,
+        coup[24].poke_squish,
+    )
+    assert fit[21].q_casts_poke >= blood[21].q_casts_poke
+    assert fit[24].crit100
+
 
 def main() -> None:
     results, timeline = run_all()
-    self_check(results)
-    report = summarize(results, timeline)
+    rune_results = run_runes()
+    self_check(results, rune_results)
+    report = summarize(results, timeline, rune_results)
     print(report)
     out_dir = "/workspace/smolder-late-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
-    export_json(results, timeline, f"{out_dir}/results.json")
+    export_json(results, timeline, rune_results, f"{out_dir}/results.json")
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 
 
