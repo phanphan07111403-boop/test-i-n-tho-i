@@ -94,7 +94,7 @@ R when they hide under tower. The turret is off for a few seconds; you are not.
 
 Max **W > Q > E**. Grasp or Lethal Tempo. Flash + Ignite.
 
-Core Baron path seen on 7.3 aggregators: **Heartsteel → Plated Steelcaps → Trinity Force**, then Unending Despair / resists. Against healers, swap in Thornmail.
+Core Baron path: **Dusk and Dawn → Plated Steelcaps → Hullbreaker → Riftmaker → Unending Despair**. Full buy order in `volibear-build-sim/`.
 
 ## If Volibear is banned / bad
 

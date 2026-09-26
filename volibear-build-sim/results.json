@@ -1,0 +1,1165 @@
+{
+  "patch": "7.3",
+  "winner": "Dusk \u2192 Hull \u2192 Rift",
+  "buy_order": [
+    "Long Sword",
+    "Sheen",
+    "Dusk and Dawn",
+    "Plated Steelcaps",
+    "Hullbreaker",
+    "Riftmaker",
+    "Unending Despair",
+    "Amaranth's Twinguard"
+  ],
+  "totals": {
+    "Dusk \u2192 Hull \u2192 Rift": 99877,
+    "Dusk \u2192 Rift \u2192 Despair": 99639,
+    "Heart \u2192 Dusk \u2192 Hull": 98780,
+    "Heart \u2192 Tri \u2192 Despair": 97551,
+    "Tri \u2192 Rift \u2192 Twin": 96034
+  },
+  "snapshots": {
+    "Dusk \u2192 Hull \u2192 Rift": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Long Sword"
+        ],
+        "mix": 1270,
+        "ehp": 1974,
+        "strength": 2948,
+        "hp": 1633
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 1917,
+        "ehp": 2612,
+        "strength": 4138,
+        "hp": 2111
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2082,
+        "ehp": 2973,
+        "strength": 4609,
+        "hp": 2414
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2134,
+        "ehp": 3125,
+        "strength": 4790,
+        "hp": 2542
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2199,
+        "ehp": 3455,
+        "strength": 5136,
+        "hp": 2820
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2202,
+        "ehp": 3455,
+        "strength": 5139,
+        "hp": 2820
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2186,
+        "ehp": 3608,
+        "strength": 5253,
+        "hp": 2948
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2189,
+        "ehp": 3608,
+        "strength": 5255,
+        "hp": 2948
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2232,
+        "ehp": 3968,
+        "strength": 5605,
+        "hp": 3251
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2234,
+        "ehp": 3968,
+        "strength": 5607,
+        "hp": 3251
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 2954,
+        "ehp": 4596,
+        "strength": 6860,
+        "hp": 3779
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 2956,
+        "ehp": 4596,
+        "strength": 6863,
+        "hp": 3779
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 3020,
+        "ehp": 4748,
+        "strength": 7056,
+        "hp": 3907
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 3023,
+        "ehp": 4748,
+        "strength": 7058,
+        "hp": 3907
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 3025,
+        "ehp": 4748,
+        "strength": 7061,
+        "hp": 3907
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 3629,
+        "ehp": 5435,
+        "strength": 8248,
+        "hp": 4257
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 3632,
+        "ehp": 5435,
+        "strength": 8251,
+        "hp": 4257
+      }
+    ],
+    "Dusk \u2192 Rift \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Long Sword"
+        ],
+        "mix": 1270,
+        "ehp": 1974,
+        "strength": 2948,
+        "hp": 1633
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 1917,
+        "ehp": 2612,
+        "strength": 4138,
+        "hp": 2111
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2082,
+        "ehp": 2973,
+        "strength": 4609,
+        "hp": 2414
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2134,
+        "ehp": 3125,
+        "strength": 4790,
+        "hp": 2542
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2199,
+        "ehp": 3455,
+        "strength": 5136,
+        "hp": 2820
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2202,
+        "ehp": 3455,
+        "strength": 5139,
+        "hp": 2820
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2186,
+        "ehp": 3608,
+        "strength": 5253,
+        "hp": 2948
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2189,
+        "ehp": 3608,
+        "strength": 5255,
+        "hp": 2948
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2232,
+        "ehp": 3968,
+        "strength": 5605,
+        "hp": 3251
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 2234,
+        "ehp": 3968,
+        "strength": 5607,
+        "hp": 3251
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2819,
+        "ehp": 4757,
+        "strength": 6862,
+        "hp": 3729
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2821,
+        "ehp": 4757,
+        "strength": 6864,
+        "hp": 3729
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2888,
+        "ehp": 4913,
+        "strength": 7064,
+        "hp": 3857
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2891,
+        "ehp": 4913,
+        "strength": 7067,
+        "hp": 3857
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2894,
+        "ehp": 4913,
+        "strength": 7070,
+        "hp": 3857
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair"
+        ],
+        "mix": 3093,
+        "ehp": 5909,
+        "strength": 8115,
+        "hp": 4157
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair"
+        ],
+        "mix": 3096,
+        "ehp": 5909,
+        "strength": 8118,
+        "hp": 4157
+      }
+    ],
+    "Heart \u2192 Dusk \u2192 Hull": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1373,
+        "ehp": 2803,
+        "strength": 3756,
+        "hp": 2333
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1437,
+        "ehp": 2976,
+        "strength": 3967,
+        "hp": 2461
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1590,
+        "ehp": 3336,
+        "strength": 4426,
+        "hp": 2764
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1646,
+        "ehp": 3667,
+        "strength": 4763,
+        "hp": 3042
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1682,
+        "ehp": 3819,
+        "strength": 4928,
+        "hp": 3170
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1684,
+        "ehp": 3819,
+        "strength": 4931,
+        "hp": 3170
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1650,
+        "ehp": 3971,
+        "strength": 5026,
+        "hp": 3298
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1653,
+        "ehp": 3971,
+        "strength": 5029,
+        "hp": 3298
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1736,
+        "ehp": 4332,
+        "strength": 5418,
+        "hp": 3601
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2420,
+        "ehp": 4800,
+        "strength": 6500,
+        "hp": 3951
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2483,
+        "ehp": 4952,
+        "strength": 6692,
+        "hp": 4079
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2485,
+        "ehp": 4952,
+        "strength": 6695,
+        "hp": 4079
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2549,
+        "ehp": 5105,
+        "strength": 6888,
+        "hp": 4207
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2551,
+        "ehp": 5105,
+        "strength": 6890,
+        "hp": 4207
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 2554,
+        "ehp": 5105,
+        "strength": 6893,
+        "hp": 4207
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Hullbreaker"
+        ],
+        "mix": 3246,
+        "ehp": 5580,
+        "strength": 7989,
+        "hp": 4607
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Hullbreaker"
+        ],
+        "mix": 3248,
+        "ehp": 5580,
+        "strength": 7991,
+        "hp": 4607
+      }
+    ],
+    "Heart \u2192 Tri \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1373,
+        "ehp": 2803,
+        "strength": 3756,
+        "hp": 2333
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1437,
+        "ehp": 2976,
+        "strength": 3967,
+        "hp": 2461
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1590,
+        "ehp": 3336,
+        "strength": 4426,
+        "hp": 2764
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1646,
+        "ehp": 3667,
+        "strength": 4763,
+        "hp": 3042
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1682,
+        "ehp": 3819,
+        "strength": 4928,
+        "hp": 3170
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1684,
+        "ehp": 3819,
+        "strength": 4931,
+        "hp": 3170
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1650,
+        "ehp": 3971,
+        "strength": 5026,
+        "hp": 3298
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1653,
+        "ehp": 3971,
+        "strength": 5029,
+        "hp": 3298
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1736,
+        "ehp": 4332,
+        "strength": 5418,
+        "hp": 3601
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 1738,
+        "ehp": 4332,
+        "strength": 5420,
+        "hp": 3601
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force"
+        ],
+        "mix": 2540,
+        "ehp": 4880,
+        "strength": 6688,
+        "hp": 4062
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force"
+        ],
+        "mix": 2542,
+        "ehp": 4880,
+        "strength": 6690,
+        "hp": 4062
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force"
+        ],
+        "mix": 2599,
+        "ehp": 5032,
+        "strength": 6876,
+        "hp": 4190
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force"
+        ],
+        "mix": 2602,
+        "ehp": 5032,
+        "strength": 6879,
+        "hp": 4190
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force"
+        ],
+        "mix": 2604,
+        "ehp": 5032,
+        "strength": 6882,
+        "hp": 4190
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Unending Despair"
+        ],
+        "mix": 2783,
+        "ehp": 6062,
+        "strength": 7936,
+        "hp": 4490
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Unending Despair"
+        ],
+        "mix": 2786,
+        "ehp": 6062,
+        "strength": 7938,
+        "hp": 4490
+      }
+    ],
+    "Tri \u2192 Rift \u2192 Twin": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Long Sword"
+        ],
+        "mix": 1270,
+        "ehp": 1974,
+        "strength": 2948,
+        "hp": 1633
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Long Sword"
+        ],
+        "mix": 1334,
+        "ehp": 2144,
+        "strength": 3156,
+        "hp": 1761
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Trinity Force"
+        ],
+        "mix": 2180,
+        "ehp": 2900,
+        "strength": 4645,
+        "hp": 2397
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Trinity Force"
+        ],
+        "mix": 2223,
+        "ehp": 3052,
+        "strength": 4817,
+        "hp": 2525
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2280,
+        "ehp": 3383,
+        "strength": 5155,
+        "hp": 2803
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2282,
+        "ehp": 3383,
+        "strength": 5158,
+        "hp": 2803
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2210,
+        "ehp": 3535,
+        "strength": 5215,
+        "hp": 2931
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2213,
+        "ehp": 3535,
+        "strength": 5217,
+        "hp": 2931
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2296,
+        "ehp": 3895,
+        "strength": 5607,
+        "hp": 3234
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 2299,
+        "ehp": 3895,
+        "strength": 5610,
+        "hp": 3234
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2757,
+        "ehp": 4680,
+        "strength": 6735,
+        "hp": 3712
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2759,
+        "ehp": 4680,
+        "strength": 6738,
+        "hp": 3712
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2819,
+        "ehp": 4836,
+        "strength": 6930,
+        "hp": 3840
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2822,
+        "ehp": 4836,
+        "strength": 6933,
+        "hp": 3840
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2825,
+        "ehp": 4836,
+        "strength": 6936,
+        "hp": 3840
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 2828,
+        "ehp": 4836,
+        "strength": 6939,
+        "hp": 3840
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Amaranth's Twinguard"
+        ],
+        "mix": 2875,
+        "ehp": 5200,
+        "strength": 7295,
+        "hp": 4140
+      }
+    ]
+  }
+}
