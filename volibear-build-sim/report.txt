@@ -1,0 +1,59 @@
+Wild Rift Volibear Baron item order — patch 7.3
+8s isolated 1v1 vs a bruiser. Strength = mix damage + 0.85 × (HP+E shield+heals).
+Gold curve: Baron farmer over 22 minutes. Boots after the first legendary.
+
+WINNER: Dusk → Hull → Rift
+  Diamond+ CN 7.3 most-played core (~60% WR). Skipper 1v1 + AP vamp.
+
+Buy order (strongest)
+  Start     Long Sword
+  Back 1    Sheen (800) if you can; else Ruby Crystal
+  1st item  Dusk and Dawn (3100)   ~7 min
+  Boots     Plated Steelcaps
+  2nd item  Hullbreaker (3100)     Skipper 4th-auto 1v1 punch
+  3rd item  Riftmaker (3100)       8% amp + 10% omnivamp + AP from HP
+  4th item  Unending Despair       3% max HP pulse + 250% heal
+  5th item  Amaranth's Twinguard   (Thornmail if they heal, Kaenic if AP)
+  Enchant   Stoneplate
+
+Path                              8     10     14     18     22     sum
+------------------------------------------------------------------------
+Dusk → Hull → Rift             4609   5136   5605   7056   8251   99877
+Dusk → Rift → Despair          4609   5136   5605   7064   8118   99639
+Heart → Dusk → Hull            4426   4928   5418   6888   7991   98780
+Heart → Tri → Despair          4426   4928   5418   6876   7938   97551
+Tri → Rift → Twin              4645   5155   5607   6930   7295   96034
+
+First legendary window (~8:00)
+  Tri → Rift → Twin            mix  2180  ehp  2900  str  4645  [Trinity Force]
+  Dusk → Hull → Rift           mix  2082  ehp  2973  str  4609  [Dusk and Dawn]
+  Dusk → Rift → Despair        mix  2082  ehp  2973  str  4609  [Dusk and Dawn]
+  Heart → Dusk → Hull          mix  1590  ehp  3336  str  4426  [Heartsteel]
+  Heart → Tri → Despair        mix  1590  ehp  3336  str  4426  [Heartsteel]
+
+Why Dusk first, not Trinity / Heartsteel
+  Dusk is 233g cheaper than Trinity, gives HP + haste + AS + AP.
+  AP feeds E shield, R, and lightning. Extra on-hit double-procs lightning.
+  Sheen is magic (hits armor stackers). Heartsteel is tankier but has no
+  sheen/AS — you lose the 1v1 spike the X3 Pro kit is built around.
+  Hullbreaker Skipper (4th auto = 160% base AD + 5% max HP) is the 1v1
+  item. Riftmaker turns the long fight into a heal-off.
+
+Swap Hullbreaker → Riftmaker 2nd if you are grouping, not splitting.
+Do not buy Trinity and Dusk together (both spellblade).
+
+Dusk → Hull → Rift: Diamond+ CN 7.3 most-played core (~60% WR). Skipper 1v1 + AP vamp.
+  Dusk complete ~7:00
+
+Dusk → Rift → Despair: Skip Hull. Earlier vamp/amp if you group more than split.
+  Dusk complete ~7:00
+
+Heart → Dusk → Hull: Diamond+ alt. Tankier first item, slower 1v1 spike.
+  Dusk complete ~15:00
+
+Heart → Tri → Despair: All-ranks aggregator path (wildriftmeta). HP then physical sheen.
+  Trinity complete ~16:00
+
+Tri → Rift → Twin: Old hybrid. Trinity is 233g more than Dusk and has no AP.
+  Trinity complete ~8:00
+

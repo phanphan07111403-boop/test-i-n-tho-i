@@ -1,0 +1,58 @@
+Wild Rift GameSir X3 Pro duelist rank — patch 7.3
+Question: strong easy 1v1 + hard to kill + maps onto X3 Pro.
+Weights: 1v1 35% / unkillable 35% / controller 30%.
+
+WINNER: Volibear (Baron (also Jungle))
+  score 9.22  1v1 9.2  tank 9.1  pad 9.4
+  Baron ~54.4% WR, S+ on wildriftmeta 7.3
+
+Rk  Champ           Lane                    1v1  Tank   Pad    Tot
+------------------------------------------------------------------
+1   Volibear        Baron (also Jungle)     9.2   9.1   9.4   9.22
+2   Warwick         Jungle (Baron possible)  8.3   8.4   8.6   8.43
+3   Garen           Baron                   8.1   7.4   9.8   8.36
+4   Sett            Baron                   8.4   8.8   7.2   8.18
+5   Mordekaiser     Baron                   9.0   8.3   7.0   8.15
+6   Dr. Mundo       Baron                   6.2   9.6   8.3   8.02
+7   Jax             Baron                   8.6   7.2   8.0   7.93
+8   Olaf            Jungle / Baron          8.2   7.8   7.4   7.82
+9   Darius          Baron                   9.0   6.4   7.6   7.67
+10  Aatrox          Baron                   8.0   8.0   5.4   7.22
+11  Fiora           Baron                   8.8   5.5   5.0   6.50
+
+Why the analog stick matters
+  Wild Rift has no native gamepad API. X3 Pro uses overlay mapping.
+  Hall left stick > virtual joystick for chase. Targeted buttons >
+  dragged skillshots. Extra champ modes (3-cast Q, parry, minion Q)
+  eat mapping slots and miss more.
+
+X3 Pro mapping for Volibear
+  LS move   A Q (Thundering Smash)   B W (Frenzied Maul, auto-target)
+  X E (Sky Splitter)   Y R
+  RB attack   RT Flash   LT Ignite   LB recall
+  E on feet: lock camera, Gear on X → Gesture/Macro = tap E HUD then
+  swipe to screen center (you). Plain tap aims at the enemy, not you.
+  Melee tap is still fine: bolt on them, you are inside the circle.
+
+Play the 1v1
+  E on your feet (shield) → Q run-at-them → auto (stun) → W → auto (heal bite).
+  R when they sit under tower. Tower is disabled; you are not.
+
+Do not first-pick into Vayne / long-range kite. Then take Garen
+  (simpler buttons, weaker in-fight sustain) or Sett (W must be aimed).
+
+Volibear: Q is 'hold left stick toward them, then auto' — hall sticks beat a virtual joystick. W is targeted bite + heal. E shield needs you inside the bolt: melee tap is enough, or GameSir gesture-swipe E toward screen center for a true on-feet pre-cast. R is a huge landing zone that also turns the tower off, so dives do not delete you.
+  Skip if: Vayne / kite-heavy range + disengage; they never let you bite twice.
+
+Warwick: Q is targeted sustain, analog stick helps stay in bite range, R is one dash skillshot. Easy 1v1s when the fear + Q heal line up. Weaker pick after the ult cooldown hit.
+  Skip if: You need Baron lane, or they have heavy anti-heal + range.
+
+Garen: Zero aim: Q targeted silence, E spin around you, W self-cast, R execute. Best raw X3 mapping. Loses long 1v1s to true duelists and is less unkillable mid-fight than Voli/Sett.
+  Skip if: Fiora, Vayne, or any lane that kites the spin forever.
+
+Sett: E pull + grit W makes him a brawler who lives the first burst. W cone center and R throw-angle need right-stick aim — doable on X3 Pro, but more miss-prone than Voli's targeted bite.
+  Skip if: Poke/kite comps that never let you stack grit.
+
+Mordekaiser: R is a forced 1v1 with stolen stats — closest thing to 'easy 1v1' in the kit. W shield is tanky. Q facing + E pull are skillshots, so overlay aim is worse than point-and-click Voli/Garen.
+  Skip if: Fiora, Gwen, Vayne — they win the isolated duel.
+
