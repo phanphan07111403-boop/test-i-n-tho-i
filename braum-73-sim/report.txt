@@ -1,0 +1,209 @@
+================================================================================
+BRAUM SUPPORT — FULL BUILD + RUNES  (Wild Rift Patch 7.3)
+Playstyle: bodyguard ADC (W + E + Concussive Blows) | Game: 20:00
+Metric: ADC damage prevented / 8s dive  + CC lock  + stay-in-front EHP
+================================================================================
+
+7.3 CHANGES VS THE OLD 'NO YORDLE' READ
+  • Yordle Trap Catcher now procs on slow OR immobilize.
+    Winter's Bite (70% slow) lights it. R is no longer required.
+  • Yordle / Locket / Zeke share Kindlegem + Cloth + Null.
+  • Radiant Virtue is Cloth + Null + Giant's Belt (split from Vow).
+  • Frozen Heart is a 25% AS aura, not Chill stacks.
+  • Aftershock is gone. Ice Overlord is the immobilize keystone.
+  • Guardian is the bodyguard keystone (shield you + the carry).
+
+GOLD / LEVEL
+  Min    Gold  Lvl
+    1     780    2
+    4    1620    5
+    5    2030    6
+    8    3260    8
+   10    4080   10
+   12    5080   11
+   14    6080   12
+   16    7080   13
+   18    8080   14
+   20    9080   15
+
+--------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL  (default Guardian bodyguard page)
+--------------------------------------------------------------------------------
+   1:00 | peel     224 | ADC taken    365 | saved    63 | CC  2.0s | Vow → Warmog → Virtue
+         items: Relic Shield
+         Guardian partial
+   2:00 | peel     251 | ADC taken    392 | saved    75 | CC  2.0s | Vow → Warmog → Virtue
+         items: Relic Shield › Boots of Speed
+         Guardian partial
+   4:00 | peel     428 | ADC taken    379 | saved   130 | CC  3.5s | Vow → Warmog → Virtue
+         items: Relic Shield › Boots of Speed › Ruby Crystal
+         Guardian
+   5:00 | peel     488 | ADC taken    382 | saved   161 | CC  3.5s | Virtue → Vow → Zeke
+         items: Bulwark of the Mountain › Boots of Speed › Giant's Belt
+         Guardian
+   6:00 | peel     531 | ADC taken    396 | saved   183 | CC  3.6s | Virtue → Vow → Zeke
+         items: Bulwark of the Mountain › Boots of Speed › Giant's Belt › Cloth Armor
+         Guardian
+   8:00 | peel     577 | ADC taken    446 | saved   202 | CC  3.6s | Virtue → Vow → Zeke
+         items: Bulwark of the Mountain › Boots of Speed › Giant's Belt › Cloth Armor › Null-Magic Mantle
+         Guardian
+   9:00 | peel     953 | ADC taken    145 | saved   524 | CC  3.9s | Locket → Vow → Yordle
+         items: Bulwark of the Mountain › Boots of Speed › Locket of the Iron Solari
+         Locket, Guardian
+  10:00 | peel    1031 | ADC taken    138 | saved   564 | CC  3.9s | Locket → Vow → Yordle
+         items: Bulwark of the Mountain › Boots of Speed › Locket of the Iron Solari › Ruby Crystal
+         Locket, Guardian
+  11:00 | peel    1042 | ADC taken    170 | saved   566 | CC  3.9s | Locket → Vow → Yordle
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps
+         Locket, Guardian
+  12:00 | peel    1090 | ADC taken    129 | saved   587 | CC  4.0s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Cloth Armor
+         Locket, Guardian
+  14:00 | peel    1211 | ADC taken    127 | saved   643 | CC  4.0s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Giant's Belt › Cloth Armor
+         Locket, Guardian
+  15:00 | peel    1235 | ADC taken    167 | saved   648 | CC  4.0s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Giant's Belt › Cloth Armor › …
+         Locket, Guardian
+  16:00 | peel    1474 | ADC taken      0 | saved   842 | CC  4.3s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Radiant Virtue
+         Locket, RV on R, Guardian
+  18:00 | peel    1604 | ADC taken      0 | saved   923 | CC  4.3s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Radiant Virtue › Kindlegem
+         Locket, RV on R, Guardian
+  20:00 | peel    1738 | ADC taken      0 | saved  1006 | CC  4.4s | Locket → Virtue → Vow
+         items: Bulwark of the Mountain › Locket of the Iron Solari › Plated Steelcaps › Radiant Virtue › Kindlegem › …
+         Locket, RV on R, Guardian
+
+--------------------------------------------------------------------------------
+BUILD COMPARISON — PEEL  (higher = carry lives)
+--------------------------------------------------------------------------------
+  Build                           8:00   12:00   16:00   20:00     Wtd
+  Locket → Virtue → Vow            552    1090    1474    1738    1010
+  Locket → Vow → Randuin           552    1082    1460    1695     996
+  Locket → Vow → Yordle            552    1082    1460    1670     992
+  Locket → Vow → Thorn             552    1082    1460    1642     988
+  Locket → Vow → FH                552    1082    1460    1632     988
+  Virtue → Locket → Vow            577     963    1474    1738     958
+  Locket → Yordle → Vow            552    1090    1299    1483     947
+  Virtue → Vow → Zeke              577     955    1333    1557     914
+  Virtue → Vow → FH                577     955    1333    1504     908
+  Vow → Locket → Virtue            553     847    1460    1702     902
+  Vow → Locket → FH                553     847    1460    1632     892
+  Virtue → Warmog → Vow            577     955    1220    1411     892
+  Redemption → Vow → Virtue        523     945    1263    1470     873
+  Vow → Virtue → Yordle            553     847    1333    1557     871
+  Vow → Virtue → FH                553     847    1333    1504     864
+  Vow → Zeke → Virtue              553     847    1141    1358     826
+  Yordle → Locket → Vow            552     765    1299    1483     815
+  Vow → Warmog → Virtue            553     841    1089    1301     806
+  Vow → FH → Locket                553     841    1126    1339     805
+  Vow → Warmog → FH                553     841    1089    1235     797
+  FH → Vow → Locket                527     788    1126    1339     782
+  Yordle → Vow → FH                552     777    1082    1240     768
+
+--------------------------------------------------------------------------------
+ADC DAMAGE TAKEN / 8s DIVE  (lower = better)
+--------------------------------------------------------------------------------
+  Locket → Virtue → Vow            458     129       0       0
+  Locket → Vow → Randuin           458     131      53     102
+  Locket → Vow → Yordle            458     131      53     116
+  Locket → Vow → Thorn             458     131      53     124
+  Locket → Vow → FH                458     131      53     126
+  Virtue → Locket → Vow            446     235       0       0
+  Locket → Yordle → Vow            458     129     147     221
+  Virtue → Vow → Zeke              446     237     133     178
+  Virtue → Vow → FH                446     237     133     204
+  Vow → Locket → Virtue            457     359      53     104
+  Vow → Locket → FH                457     359      53     126
+  Virtue → Warmog → Vow            446     237     211     264
+  Redemption → Vow → Virtue        459     207     137     205
+  Vow → Virtue → Yordle            457     359     133     178
+  Vow → Virtue → FH                457     359     133     204
+  Vow → Zeke → Virtue              457     359     354     415
+  Yordle → Locket → Vow            458     413     147     221
+  Vow → Warmog → Virtue            457     360     370     442
+  Vow → FH → Locket                457     360     315     372
+  Vow → Warmog → FH                457     360     370     464
+  FH → Vow → Locket                471     374     315     372
+  Yordle → Vow → FH                458     411     353     432
+
+--------------------------------------------------------------------------------
+RUNE PAGES ON THE WINNING CORE
+  Core: Locket → Virtue → Vow
+--------------------------------------------------------------------------------
+  Page                                           Wtd   12:00   20:00
+  Guardian / Font·SW·Over / Trans               1018    1099    1764
+  Guardian / Font·Bone·Over / Trans             1018    1099    1764
+  Guardian / Font·SW·Pers / Trans               1010    1090    1738
+  Guardian / Font·Bone·Pers / Trans             1010    1090    1738
+  Guardian / Font·SW·Pers / Tenacity            1006    1090    1738
+  Guardian / Font·SW·Pers / Haste               1006    1090    1738
+  Guardian / Unsh·SW·Over / Trans                942    1002    1702
+  Guardian / Unsh·SW·Pers / Trans                932     996    1652
+  Ice Overlord / Font·SW·Pers / Trans            912     967    1624
+  Grasp / Font·SW·Over / Trans                   868     919    1576
+  Ice Overlord / Unsh·SW·Pers / Trans            820     872    1496
+
+--------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------
+  Best item path: Locket → Virtue → Vow
+  Peel-weighted avg: 1010 | 16:00: 1474 | 20:00: 1738
+  Knight's Vow:     not finished by 20:00
+  Locket:           ~9:00  (team shield, no R required)
+  Radiant Virtue:   ~16:00  (R heal — Transcend + 2.5% max HP/s)
+  Frozen Heart:     not finished by 20:00 on this path
+
+  YORDLE TRAP (7.3, Q-legal):
+  • Catcher now lights on Winter's Bite. The old 'R-only' ban is dead.
+  • It still shares the Locket/Zeke cart (Kindlegem + Cloth + Null).
+  • 30% ally AS is enable, not a shield. Peel still prefers Locket/Vow.
+  • Phút 12: Yordle rush 777 vs Locket → Virtue → Vow 1090 (+40%). Phút 16: 1082 vs 1474 (+36%).
+
+  LIVE VOW → WARMOG:
+  • Diamond+ popular core. Sim peel @16 1089 vs winner 1474.
+  • Warmog 700 HP + Blessed keeps YOU up. It does not shield the ADC.
+  • Buy it 3rd if you are the soak and the carry already has Vow.
+
+  Best runes: Guardian · Font of Life · Second Wind · Overgrowth · Transcendence
+  Rune-weighted peel: 1018 | 12:00 1099 | 20:00 1764
+  Runner-up page: Guardian / Font·Bone·Over / Trans (1018)
+
+  FULL BUILD (Braum support, 7.3)
+  Spells: Flash + Heal
+  Skill: max Q, 1 early W (dash), then E. R at 5 / 9 / 13.
+  Start: Relic Shield → Bulwark of the Mountain (~5:00)
+  Boots: Plated Steelcaps (Mercs vs AP/CC)
+  Core:  Locket → Virtue → Vow
+  Full 6 if the game lasts:
+    Relic → Bulwark · Steelcaps · Locket · Radiant Virtue · Knight's Vow
+    then Frozen Heart vs AS / Thornmail vs healing / FoN vs AP /
+    Randuin vs crit / Kaenic vs mages.
+  Do not rush Armored Advance — 2200g on support gold delays item 2.
+
+  RUNES
+    Keystone:  Guardian
+    Primary:   Font of Life · Second Wind · Overgrowth
+    Secondary: Transcendence
+    Row 1 Font of Life (heal on Q). Swap Unshakeable in 5-man clumps.
+    Row 2 Second Wind vs poke. Swap Bone Plating vs melee burst.
+    Row 3 Overgrowth for HP; Perseverance vs heavy CC.
+    Ice Overlord if you engage (stun/R) more than you bodyguard.
+    Grasp is a top-lane trade keystone — it does not save the ADC.
+
+  TẠI SAO BUILD NÀY:
+  • Guardian shield cả bạn và ADC mỗi khi đứng sát — đúng kit W+E.
+  • Font of Life proc bằng Q. Second Wind hàn poke; Overgrowth cộng HP.
+  • Transcendence = thêm Q/E, thêm stun Concussive Blows.
+  • Knight's Vow là món bodyguard (12% redirect). Locket là shield team,
+    không cần R. Virtue heal R, Warmog tank bản thân.
+  • Yordle 7.3 proc được bằng Q, nhưng cùng nấc với Locket — đừng
+    đổi shield ADC lấy 30% AS nếu nhiệm vụ là giữ mạng carry.
+
+  Trap: Aftershock — deleted in 7.1. Use Ice Overlord or Guardian.
+  Trap: Protector's Vow — deleted in 7.1 (Guardian ate the niche).
+  Trap: Yordle first 'because Catcher is for tanks'. Catcher is legal
+  on Q now, but Locket still peels the same cart better.
+  Trap: Gathering Storm / damage pages. Braum is not the damage.
+================================================================================
