@@ -212,6 +212,40 @@ BOOTS ON ER → IE → Hex → LDR → BT  (same legendaries, swap only the boot
     Berserker 3 Qs @22 mix 5377  35% AS  fight-tank 7046 vs Ionian 7233
 
 --------------------------------------------------------------------------------
+ABILITY SCALE vs CRIT SCALE  (same AD/stacks as winning page @22:00)
+--------------------------------------------------------------------------------
+  Ability scale: 110% bAD on Q, 60+55% W, 30% E, 110% R, AH, Shojin 12%.
+  Crit scale:    Q physical 0–45% (58.5% with IE), Dragon Practice magic
+                 30%→69% of stacks, autos crit. W/E/R do NOT get Q's amp.
+  Shared lab: 215 bAD, 250 stacks, ER sheen, 35% pen, vs squishy.
+  Multiplier                    Q amp  Magic  Auto    1 Q    1 W
+  AD ratios only (0% crit)       0.0%    30%  1.00    521    264
+  Shojin 12%, 0% crit            0.0%    30%  1.00    564    295
+  25% crit (ER, no IE)          11.2%    38%  1.25    571    264
+  50% crit, no IE               22.5%    45%  1.50    621    264
+  100% crit, no IE              45.0%    60%  2.00    720    264
+  100% crit + IE                58.5%    69%  2.30    766    264
+  100% + IE + Hex 10%           58.5%    69%  2.30    842    290
+  100% + IE + Shojin            58.5%    69%  2.30    838    295
+  100% + IE + Hex + Shojin      58.5%    69%  2.30    921    325
+
+  Isolated on one Super Scorcher (same AD, same stacks):
+    Shojin 12% on a 0-crit Q: 564 vs 521 (+8%). W also +8%.
+    100% crit + IE on that Q: 766 vs 521 (+47%). W unchanged (264 vs 264).
+    They multiply: 100%+IE+Shojin one Q 838 (+61%).
+    Slot conflict: 100% crit needs 4 crit items. Shojin replaces
+    Hex, LDR, or BT — you do not get both packages for free.
+    Hexoptics 10% at Q range: one Q 842 (crit package, not ability amp).
+
+  Real pages (gold curve, not a lab toggle):
+  Page                          Crit  Q amp  Qs  Mix22  Mix25 Poke22
+  Crit (100% + IE + Hex)        100%  58.5%   4   6110   7359   5618
+  Hybrid (IE then Shojin)        75%  43.9%   4   5291   7387   5088
+  Ability (Shojin 2nd)           75%  43.9%   4   5321   7423   5114
+  Ability (Navori Qs)           100%  58.5%   5   5357   6577   5040
+  Old mana (0% crit Q)            0%   0.0%   5   5036   5793   4623
+
+--------------------------------------------------------------------------------
 VERDICT
 --------------------------------------------------------------------------------
   Strongest late path: ER → Hex → IE → LDR → BT
@@ -271,6 +305,20 @@ VERDICT
   Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit
   and the Hexoptics range amp that is Smolder's poke identity.
   Trap: Collector. Smolder already executes at 6.5% with T3 burn.
+
+  ABILITY SCALE vs CRIT SCALE:
+  • Ability scale is the kit ratios + more casts. Q 110% bAD, W ~115%
+    bAD, E 30% AD, R 110% bAD. Shojin 12% multiplies Q/W/E/R. AH
+    buys extra Qs. None of that needs crit.
+  • Crit scale is Super Scorcher + autos. 100% crit + IE is +58.5%
+    on Q physical and 30%→69% of stacks as magic. Autos go to 2.30x.
+    W/E/R do not get that amp — only the AD on the crit items.
+  • Same AD, one Q: Shojin 564 (+8%) vs 100%+IE 766 (+47%).
+    Same AD, one W: Shojin 295 vs IE 264 (W ignores crit amp).
+  • Real pages @22: crit 6110 vs Shojin-2nd 5321 (+15%).
+    Old mana 0% crit Q: 5036 mix, Q amp 0%.
+  • They multiply if you own both, but 100% crit spends 4 slots.
+    Shojin as 3rd after IE if you still want W/E/R amp — not 2nd.
 
   IE 2ND vs 3RD (stacking):
   • Essence Reaver already one-shots casters (~8:00). Last-hit

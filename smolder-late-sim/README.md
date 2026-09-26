@@ -91,20 +91,34 @@ Locked legendaries: Essence Reaver → Infinity Edge → Hexoptics C44 → LDR �
 
 ## Ability scale vs crit scale (sim)
 
-Smolder has **both**, but they hit different parts of the kit.
+Smolder has **both**, but they hit different parts of the kit. Lab holds **215 bonus AD** and **250 stacks** (winning page at 22:00) and only toggles the multiplier.
 
 | | Ability scale | Crit scale |
 |--|---------------|------------|
 | What | AD ratios + AH + Shojin 12% | Crit chance + IE extra crit damage |
-| Q | 110% bonus AD, then the crit amp | +0–45% physical ( **+58.5%** with IE) |
-| Dragon Practice on Q | flat stack magic | 30% → **69%** of stacks as magic |
+| Q | 110% bonus AD, then the crit amp | +0–45% physical (**+58.5%** with IE) |
+| Dragon Practice on Q | stack magic at 30% | 30% → **69%** of stacks as magic |
 | W / E / R | full AD ratios, Shojin 12% | **no** Q-style amp — only the AD on the item |
 | Autos | none | expected **2.30x** at 100% + IE |
 | Casts | AH / Navori extra Qs | no extra Qs |
 
-They **multiply** on Super Scorcher if you own both (110% bAD × 1.585 × 1.12). The conflict is **slots**: 100% crit spends four items (ER, IE, Hex, LDR). Shojin replaces Hex, LDR, or BT.
+Same AD, one hit vs a squishy:
 
-Same AD, same stacks, one Q vs a squishy (lab in `report.txt`): crit+IE beats Shojin-only; W goes the other way. Buy IE for the fireball. Shojin 3rd only if you still want W/E/R amp after the Q is already crit-capped.
+| Multiplier | Q amp | 1 Q | 1 W |
+|------------|-------|-----|-----|
+| AD ratios only (0% crit) | 0% | 521 | 264 |
+| Shojin 12%, 0% crit | 0% | 564 (**+8%**) | 295 (**+12%**) |
+| 100% crit + IE | 58.5% | 766 (**+47%**) | 264 (unchanged) |
+| 100% + IE + Hex 10% | 58.5% | 842 | 290 |
+| 100% + IE + Shojin | 58.5% | 838 | 295 |
+
+Shojin is **+8%** on the full Super Scorcher packet because it does not amp the T3 true burn. Crit+IE is **+47%** on that same packet. W goes the other way: Shojin +12%, Infinity Edge +0%.
+
+They **multiply** on Q if you own both (838, +61%). The conflict is **slots**: 100% crit spends four items (ER, IE, Hex, LDR). Shojin replaces Hex, LDR, or BT.
+
+Real pages at 22:00: crit 100%+IE+Hex **6110** mix vs Shojin 2nd **5321** (**+15%**). Old mana 0% crit Q: **5036**.
+
+Buy IE for the fireball. Shojin 3rd only if you still want W/E/R amp after Q is already crit-capped.
 
 ## Playstyle
 
