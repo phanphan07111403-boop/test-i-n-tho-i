@@ -1,0 +1,55 @@
+Wild Rift Shen Baron item order — patch 7.3
+8s isolated 1v1 vs a bruiser. Strength = mix + 0.85 × (HP+Ki+W block+heals).
+Same logic as Volibear. Question: does Dusk and Dawn work on Shen?
+
+WINNER: Heart → Dusk → Titanic
+  Dusk as 2nd: short-trade sheen + extra Q on-hit, after HP stack.
+
+Buy order (strongest 1v1, still hard to kill)
+  Start     Ruby Crystal
+  1st item  Heartsteel (2800)        ~6 min    Ki + E + Titanic scale HP
+  Boots     Plated Steelcaps
+  2nd item  Dusk and Dawn (3100)     extra on-hit on Q's 3 autos
+  3rd item  Titanic Hydra (3000)     cleave on those same 3 hits
+  4th item  Sunfire / Twinguard / Thornmail
+  Enchant   Stoneplate
+
+Dusk and Dawn on Shen: yes as 2nd item, no as a Volibear rush.
+  First item Dusk loses the 8:00 window to Heartsteel (350 HP vs 700).
+  Q only gets +1.5–2% max HP per 100 AP — 70 AP is small.
+  Ki Barrier and E scale bonus HP, not AP. R's AP ratio shields an ally.
+  What Dusk actually does: spellblade + extra on-hit on the Q auto.
+  After Heartsteel, that 3-hit trade is the 1v1. Ranked tank page is
+  Heart → Sunfire → Dawnshroud (~61% WR) if you group / ult more than duel.
+
+Path                              8     10     14     18     22     sum
+------------------------------------------------------------------------
+Heart → Dusk → Titanic         3625   4098   4293   5228   6000   78791
+Heart → Sunfire → Titanic      3625   4098   4293   5113   5905   77994
+Heart → Sunfire → Dawn         3625   4098   4293   5113   5846   77819
+Heart → Iceborn → Sunfire      3625   4098   4293   4947   5525   76009
+Dusk first (Voli copy)         3352   3849   4064   5247   6009   74424
+
+First legendary window (~8:00)
+  Heart → Sunfire → Titanic    mix   958  ehp  3137  str  3625  [Heartsteel]
+  Heart → Sunfire → Dawn       mix   958  ehp  3137  str  3625  [Heartsteel]
+  Heart → Dusk → Titanic       mix   958  ehp  3137  str  3625  [Heartsteel]
+  Heart → Iceborn → Sunfire    mix   958  ehp  3137  str  3625  [Heartsteel]
+  Dusk first (Voli copy)       mix  1031  ehp  2730  str  3352  [Dusk and Dawn]
+
+Heart → Dusk → Titanic: Dusk as 2nd: short-trade sheen + extra Q on-hit, after HP stack.
+  Heartsteel ~6:00
+  Dusk ~15:00
+
+Heart → Sunfire → Titanic: Diamond+ 1v1 alt. HP then burn then cleave. Same logic as Voli Skipper.
+  Heartsteel ~6:00
+
+Heart → Sunfire → Dawn: Diamond+ CN most-played core (~61% WR). Tank, not a duelist spike.
+  Heartsteel ~6:00
+
+Heart → Iceborn → Sunfire: Tank sheen. Stick + armor. No AP, no extra on-hit.
+  Heartsteel ~6:00
+
+Dusk first (Voli copy): Copy-paste Volibear. Shen does not scale AP like Voli lightning/E/R.
+  Dusk ~7:00
+

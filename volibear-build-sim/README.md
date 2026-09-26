@@ -32,7 +32,26 @@ Diamond+ CN 7.3 most-played core is Dusk → Hull → Rift at **~60% WR**. The s
 | 5th item | **Amaranth's Twinguard** |
 | Enchant | **Stoneplate** |
 
-Skill order still **W > Q > E**. Flash + Ignite. Grasp or Lethal Tempo.
+Skill order still **W > Q > E**. Flash + Ignite.
+
+## Runes (this Dusk / Hull / Rift page)
+
+Lethal Tempo is the keystone that matches the items: Dusk extra on-hit, lightning, and Hullbreaker Skipper all want more autos in the 1v1.
+
+| Slot | Take | Why |
+|------|------|-----|
+| Keystone | **Lethal Tempo** | AS stacks feed Skipper (4th auto), Dusk sheen weaving, and 5-stack lightning. |
+| Precision | **Brutal** | Flat adaptive on every auto. |
+| Precision | **Legend: Alacrity** | More AS on the same page. |
+| Precision | **Giant Slayer** | Your 1v1s are vs stuffed bruisers. **Last Stand** if you dive and sit low. |
+| Resolve | **Second Wind** | Lane sustain between Q bites. |
+| Resolve | **Overgrowth** | Free HP for W heal and Riftmaker's AP-from-HP. |
+
+**Flash + Ignite.** Stoneplate enchant.
+
+Swap keystone to **Grasp** only into poke/range (Teemo, Kennen, Vayne) where you never stack Tempo. Then: Unshakeable, Second Wind, Overgrowth, Brutal, Last Stand.
+
+Do not take Aftershock — Volibear is not a one-taunt tank. Do not take Conqueror if you already bought Dusk; Tempo is the AS item page.
 
 ## Why this order
 
