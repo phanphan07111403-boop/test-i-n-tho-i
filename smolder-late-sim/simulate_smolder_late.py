@@ -16,6 +16,7 @@ Question:
   Does buying IE 2nd vs 3rd change Dragon Practice stacking?
   Which boots keep the extra Q — Ionian vs Greaves vs Immortal Treads?
   Ability scale vs crit scale — what actually multiplies Super Scorcher?
+  ER 20 AH is not enough early — which path actually optimizes Dragon Practice?
 """
 
 from __future__ import annotations
@@ -150,13 +151,17 @@ def stacks_gained_this_minute(minute: int, st: dict, stacks_so_far: int) -> floa
     """Dragon Practice income: Q last-hits + champion ability hits.
 
     IE raises last-hit reliability (Q damage / crit amp). Shojin raises Q
-    count (AH). Hexoptics raises champion-hit safety (range amp).
+    count (AH). Hexoptics raises champion-hit safety (range amp). Navori
+    refunds farm Q CD. Early AH (Ionian / Caulfield) raises Q count before IE.
     """
     level = level_at_minute(minute)
     ah = st["ah"]
     q_cd = q_cooldown(level, ah)
     if st.get("trans_refund"):
         q_cd *= 0.92
+    # Farm has autos between Qs. Navori 15% remaining-CD refund, ~2 procs/min.
+    if st.get("navori"):
+        q_cd *= 0.85 ** 2
     q_per_min = 60.0 / max(1.6, q_cd)
 
     crit = min(1.0, st["crit"])
@@ -1699,6 +1704,119 @@ def run_boots() -> Dict[str, List[Snapshot]]:
     return out
 
 
+HASTE_RUNES = RUNE_PAGES["Fleet / Zeal / Cut Down / Haste / Transcendence"]
+
+
+def _er_then(*rest: str) -> List[str]:
+    return [
+        "Long Sword",
+        "Sheen",
+        "Caulfield's Warhammer",
+        "Essence Reaver",
+        "Boots",
+        "Ionian Boots of Lucidity",
+        *rest,
+    ]
+
+
+# Goal: T3 clock and stacks@16. ER last-hit first, then dump AH, convert with IE.
+STACK_PAGES: Dict[str, Tuple[List[str], RunePage]] = {
+    "IE 2nd / Bloodline": (
+        _er_then("Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards", "Bloodthirster"),
+        DEFAULT_RUNES,
+    ),
+    "IE 2nd / Haste": (
+        _er_then("Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards", "Bloodthirster"),
+        HASTE_RUNES,
+    ),
+    "Shojin 2nd / Bloodline": (
+        _er_then("Spear of Shojin", "Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards"),
+        DEFAULT_RUNES,
+    ),
+    "Shojin 2nd / Haste": (
+        _er_then("Spear of Shojin", "Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards"),
+        HASTE_RUNES,
+    ),
+    "Navori 2nd / Haste": (
+        _er_then("Navori Quickblades", "Infinity Edge", "Hexoptics C44", "Lord Dominik's Regards"),
+        HASTE_RUNES,
+    ),
+    "Ionian before ER / Shojin / Haste": (
+        [
+            "Long Sword",
+            "Boots",
+            "Ionian Boots of Lucidity",
+            "Sheen",
+            "Essence Reaver",
+            "Spear of Shojin",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+        ],
+        HASTE_RUNES,
+    ),
+    "Caulfield+Ionian opener / Shojin / Haste": (
+        [
+            "Long Sword",
+            "Caulfield's Warhammer",
+            "Boots",
+            "Ionian Boots of Lucidity",
+            "Sheen",
+            "Essence Reaver",
+            "Spear of Shojin",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+        ],
+        HASTE_RUNES,
+    ),
+    "Crimson+Shojin / Haste": (
+        _er_then(
+            "Crimson Lucidity",
+            "Spear of Shojin",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+        ),
+        HASTE_RUNES,
+    ),
+    "Hex 2nd / Haste": (
+        _er_then("Hexoptics C44", "Infinity Edge", "Lord Dominik's Regards", "Bloodthirster"),
+        HASTE_RUNES,
+    ),
+    "Cleaver 2nd / Haste": (
+        _er_then(
+            "Black Cleaver",
+            "Infinity Edge",
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+        ),
+        HASTE_RUNES,
+    ),
+}
+
+
+def farm_qpm(s: Snapshot) -> float:
+    q_cd = q_cooldown(s.level, s.ah)
+    if s.level >= 9:
+        q_cd *= 0.92
+    if s.has_navori:
+        q_cd *= 0.85 ** 2
+    return 60.0 / max(1.6, q_cd)
+
+
+def run_stacking() -> Dict[str, List[Snapshot]]:
+    """ER last-hit first, then extra AH, then IE — pick the T3 clock."""
+    out: Dict[str, List[Snapshot]] = {}
+    for name, (path, runes) in STACK_PAGES.items():
+        curve = stack_curve_for_path(path, runes)
+        out[name] = [
+            compute_snapshot(name, path, m, runes, stacks=curve[m])
+            for m in range(1, GAME_MINUTES + 1)
+        ]
+    return out
+
+
 SCALE_PATHS = [
     ("Crit (100% + IE + Hex)", "ER → IE → Hex → LDR → BT"),
     ("Hybrid (IE then Shojin)", "ER → IE → Shojin → Hex → LDR"),
@@ -1837,7 +1955,9 @@ def late_item_isolated_delta(
     return with_n - without_mix, row.minute, legs
 
 
-def summarize(results, timeline, rune_results, boot_results, scale_lab, scale_paths) -> str:
+def summarize(
+    results, timeline, rune_results, boot_results, scale_lab, scale_paths, stack_results
+) -> str:
     lines = []
     lines.append("=" * 80)
     lines.append("SMOLDER — STRONGEST LATE BUILD  (Wild Rift patch 7.3)")
@@ -2223,6 +2343,87 @@ def summarize(results, timeline, rune_results, boot_results, scale_lab, scale_pa
 
     lines.append("")
     lines.append("-" * 80)
+    lines.append("STACKING OPENER  (ER last-hit first, then extra AH — T3 clock)")
+    lines.append("-" * 80)
+    lines.append("  ER 20 AH does not move farm Qs enough. Last-hit rel needs ER;")
+    lines.append("  extra AH after ER (Ionian + Shojin / Navori / Haste) is the dump.")
+    lines.append(
+        f"  {'Opener':<42} {'T3':>3} {'AH8':>4} {'Q/m8':>5} "
+        f"{'St8':>4} {'St12':>5} {'St16':>5} {'Mix16':>6} {'Mix22':>6}"
+    )
+    stack_rank = []
+    for name, snaps in stack_results.items():
+        t3 = first_minute_with(snaps, lambda s: s.stacks >= 175)
+        row = (
+            name,
+            t3 or 25,
+            snaps[7].ah,
+            farm_qpm(snaps[7]),
+            snaps[7].stacks,
+            snaps[11].stacks,
+            snaps[15].stacks,
+            mix_of(snaps[15]),
+            mix_of(snaps[21]),
+            snaps,
+        )
+        stack_rank.append(row)
+        lines.append(
+            f"  {name:<42} {t3 or 0:>3} {snaps[7].ah:>4.0f} {farm_qpm(snaps[7]):>5.1f} "
+            f"{snaps[7].stacks:>4} {snaps[11].stacks:>5} {snaps[15].stacks:>5} "
+            f"{mix_of(snaps[15]):>6.0f} {mix_of(snaps[21]):>6.0f}"
+        )
+    # Best stacking: earlier T3, then stacks@16. Mix@22 is the tax.
+    stack_rank.sort(key=lambda r: (r[1], -r[6], -r[7]))
+    best_stack = stack_rank[0] if stack_rank else None
+    base_stack = stack_results.get("IE 2nd / Bloodline")
+    haste_only = stack_results.get("IE 2nd / Haste")
+    sho_h = stack_results.get("Shojin 2nd / Haste")
+    ion_first = stack_results.get("Ionian before ER / Shojin / Haste")
+    cau_first = stack_results.get("Caulfield+Ionian opener / Shojin / Haste")
+    nav_h = stack_results.get("Navori 2nd / Haste")
+    if base_stack and sho_h:
+        t3_b = first_minute_with(base_stack, lambda s: s.stacks >= 175)
+        t3_s = first_minute_with(sho_h, lambda s: s.stacks >= 175)
+        lines.append("")
+        lines.append("  Isolated:")
+        lines.append(
+            f"    IE 2nd / Bloodline  T3 ~{t3_b}:00  "
+            f"stacks@16 {base_stack[15].stacks}  Q/min@8 {farm_qpm(base_stack[7]):.1f}"
+        )
+        if haste_only:
+            t3_h = first_minute_with(haste_only, lambda s: s.stacks >= 175)
+            lines.append(
+                f"    IE 2nd / Haste      T3 ~{t3_h}:00  "
+                f"stacks@16 {haste_only[15].stacks}  "
+                f"(rune AH only, still 25% crit Q until Hex)"
+            )
+        lines.append(
+            f"    Shojin 2nd / Haste  T3 ~{t3_s}:00  "
+            f"stacks@16 {sho_h[15].stacks}  Q/min@8 {farm_qpm(sho_h[7]):.1f}  "
+            f"mix22 {mix_of(sho_h[21]):.0f} vs IE-2nd {mix_of(base_stack[21]):.0f}"
+        )
+        if ion_first:
+            t3_i = first_minute_with(ion_first, lambda s: s.stacks >= 175)
+            lines.append(
+                f"    Ionian before ER    T3 ~{t3_i}:00  "
+                f"stacks@16 {ion_first[15].stacks}  "
+                f"(last-hit rel stays 50% until ER)"
+            )
+        if cau_first:
+            t3_c = first_minute_with(cau_first, lambda s: s.stacks >= 175)
+            lines.append(
+                f"    Caulfield+Ionian    T3 ~{t3_c}:00  "
+                f"stacks@16 {cau_first[15].stacks}"
+            )
+        if nav_h:
+            t3_n = first_minute_with(nav_h, lambda s: s.stacks >= 175)
+            lines.append(
+                f"    Navori 2nd / Haste  T3 ~{t3_n}:00  "
+                f"stacks@16 {nav_h[15].stacks}  mix22 {mix_of(nav_h[21]):.0f}"
+            )
+
+    lines.append("")
+    lines.append("-" * 80)
     lines.append("VERDICT")
     lines.append("-" * 80)
     lines.append(f"  Strongest late path: {winner_name}")
@@ -2350,6 +2551,31 @@ def summarize(results, timeline, rune_results, boot_results, scale_lab, scale_pa
             )
     lines.append("  • They multiply if you own both, but 100% crit spends 4 slots.")
     lines.append("    Shojin as 3rd after IE if you still want W/E/R amp — not 2nd.")
+    lines.append("")
+    lines.append("  STACKING OPENER (ER 20 AH is not enough early):")
+    lines.append("  • Do not delay Essence Reaver. Without Spellblade last-hit rel is")
+    lines.append("    50% — extra Ionian/Caulfield Qs at 50% rel lose farm stacks.")
+    lines.append("  • After ER: Ionian immediately, Legend: Haste until T3, Shojin 2nd,")
+    lines.append("    then Infinity Edge. That is the Q-count dump. IE 2nd adds 0 farm")
+    lines.append("    stacks because casters are already one-shot.")
+    if best_stack:
+        lines.append(
+            f"  • Fastest T3: {best_stack[0]}  ~{best_stack[1]}:00  "
+            f"stacks@16 {best_stack[6]}  mix22 {best_stack[8]:.0f}"
+        )
+    if base_stack and sho_h:
+        t3_b = first_minute_with(base_stack, lambda s: s.stacks >= 175)
+        t3_s = first_minute_with(sho_h, lambda s: s.stacks >= 175)
+        lines.append(
+            f"    IE 2nd / Bloodline T3 ~{t3_b}:00 ({base_stack[15].stacks} @16) vs "
+            f"Shojin 2nd / Haste T3 ~{t3_s}:00 ({sho_h[15].stacks} @16)."
+        )
+        lines.append(
+            f"    Mix tax @22: {mix_of(sho_h[21]):.0f} vs {mix_of(base_stack[21]):.0f} "
+            f"— T3 lands on a 25% crit Q until IE."
+        )
+    lines.append("  • Swap Haste → Bloodline and finish IE → Hex → LDR after 175.")
+    lines.append("  • Navori 2nd refunds farm Qs but 0 AD. Cleaver is AH without Q amp.")
     lines.append("")
     if ie2 and hex2:
         t3_ie2 = first_minute_with(ie2, lambda s: s.stacks >= 175)
@@ -2507,7 +2733,14 @@ def summarize(results, timeline, rune_results, boot_results, scale_lab, scale_pa
 
 
 def export_json(
-    results, timeline, rune_results, boot_results, scale_lab, scale_paths, path: str
+    results,
+    timeline,
+    rune_results,
+    boot_results,
+    scale_lab,
+    scale_paths,
+    stack_results,
+    path: str,
 ) -> None:
     payload = {
         "meta": {
@@ -2586,6 +2819,22 @@ def export_json(
         },
         "scale_lab": scale_lab,
         "scale_paths": scale_paths,
+        "stacking": {
+            name: [
+                {
+                    "minute": s.minute,
+                    "items": s.items,
+                    "stacks": s.stacks,
+                    "ah": s.ah,
+                    "q_casts_poke": s.q_casts_poke,
+                    "mix_tank": s.mix_tank,
+                    "mix_squish": s.mix_squish,
+                    "notes": s.notes,
+                }
+                for s in snaps
+            ]
+            for name, snaps in stack_results.items()
+        },
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
@@ -2596,6 +2845,7 @@ def self_check(
     rune_results: Dict[str, List[Snapshot]],
     boot_results: Dict[str, List[Snapshot]],
     scale_lab: List[dict],
+    stack_results: Dict[str, List[Snapshot]],
 ) -> None:
     hex_path = results["ER → IE → Hex → Mortal → BT"]
     old = results["Mura → Tri → Serylda → Shojin → IE"]
@@ -2664,15 +2914,33 @@ def self_check(
     assert abs(ie100["w_one"] - ad0["w_one"]) < 1.0
     assert sho0["w_one"] > ad0["w_one"] * 1.10
 
+    ie_bld = stack_results["IE 2nd / Bloodline"]
+    sho_h = stack_results["Shojin 2nd / Haste"]
+    ion_first = stack_results["Ionian before ER / Shojin / Haste"]
+    assert sho_h[15].stacks >= ie_bld[15].stacks
+    # Delaying ER for Ionian should not beat ER→Shojin on farm stacks.
+    assert sho_h[15].stacks >= ion_first[15].stacks - 2
+    t3_sho = first_minute_with(sho_h, lambda s: s.stacks >= 175)
+    t3_ie = first_minute_with(ie_bld, lambda s: s.stacks >= 175)
+    assert t3_sho is not None and t3_ie is not None
+    assert t3_sho <= t3_ie
+
 
 def main() -> None:
     results, timeline, _curves = run_all()
     rune_results = run_runes()
     boot_results = run_boots()
     scale_lab, scale_paths = run_scale_lab(results)
-    self_check(results, rune_results, boot_results, scale_lab)
+    stack_results = run_stacking()
+    self_check(results, rune_results, boot_results, scale_lab, stack_results)
     report = summarize(
-        results, timeline, rune_results, boot_results, scale_lab, scale_paths
+        results,
+        timeline,
+        rune_results,
+        boot_results,
+        scale_lab,
+        scale_paths,
+        stack_results,
     )
     print(report)
     out_dir = "/workspace/smolder-late-sim"
@@ -2685,6 +2953,7 @@ def main() -> None:
         boot_results,
         scale_lab,
         scale_paths,
+        stack_results,
         f"{out_dir}/results.json",
     )
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
