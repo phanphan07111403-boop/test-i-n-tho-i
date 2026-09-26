@@ -15,6 +15,7 @@ Question:
   Which rune page actually fits that 0-AS crit Q page?
   Does buying IE 2nd vs 3rd change Dragon Practice stacking?
   Which boots keep the extra Q — Ionian vs Greaves vs Immortal Treads?
+  Ability scale vs crit scale — what actually multiplies Super Scorcher?
 """
 
 from __future__ import annotations
@@ -1035,6 +1036,68 @@ def stack_magic_ratio_q(crit: float, crit_dmg: float) -> float:
     return 0.30 + 0.30 * crit + 0.30 * extra * crit
 
 
+def auto_expected_mult(crit: float, crit_dmg: float) -> float:
+    return 1.0 + min(1.0, crit) * (crit_dmg - 1.0)
+
+
+def scorcher_one(
+    minute: int,
+    bonus_ad: float,
+    base_ad: float,
+    crit: float,
+    ie: bool,
+    stacks: int,
+    *,
+    shojin: bool = False,
+    hexoptics: bool = False,
+    er: bool = True,
+    pct_pen: float = 0.35,
+) -> dict:
+    """One Super Scorcher vs a squishy. Isolates crit amp vs Shojin 12%."""
+    level = level_at_minute(minute)
+    armor = squishy_armor(minute)
+    mr = 32.0 + 1.2 * level
+    hp = squishy_hp(minute)
+    crit_dmg = 2.30 if ie else 2.00
+    c = min(1.0, crit)
+    amp = q_amp(c, crit_dmg)
+    magic_ratio = stack_magic_ratio_q(c, crit_dmg)
+    auto_m = auto_expected_mult(c, crit_dmg)
+    q_rank = 4 if level >= 7 else skill_rank(level, "Q")
+    q_raw = q_base_phys(q_rank, bonus_ad)
+    sheen = (1.35 * base_ad + 80.0 * c) if er else 0.0
+    q_phys = q_raw * (1.0 + amp) + sheen
+    q_magic = stacks * magic_ratio
+    burn = burn_true_ratio(bonus_ad, stacks) * hp
+    pmult = phys_mult(apply_armor(armor, pct_pen, 0.0, 0.0))
+    mmult = magic_mult(mr)
+    sh = 1.12 if shojin else 1.0
+    hx = 1.10 if hexoptics else 1.0
+    zeal = 1.045  # poke average Battle Zeal
+    hit = (q_phys * pmult + q_magic * mmult) * sh * zeal
+    # Burn is true damage; Hexoptics range amp applies to the whole Q packet.
+    one_q = (hit + burn * zeal) * hx
+    w_rank = skill_rank(level, "W")
+    w_raw = w_champ_phys(w_rank, bonus_ad, 0.0)
+    # W/E/R do not get Q's crit amp — only AD ratios + Shojin.
+    w_one = w_raw * pmult * sh * zeal * hx
+    return {
+        "amp": amp,
+        "magic_ratio": magic_ratio,
+        "auto_mult": auto_m,
+        "q_raw": q_raw,
+        "q_phys": q_phys,
+        "q_magic": q_magic,
+        "sheen": sheen,
+        "one_q": one_q,
+        "w_one": w_one,
+        "crit": c,
+        "ie": ie,
+        "shojin": shojin,
+        "hexoptics": hexoptics,
+    }
+
+
 def smolder_base_ad(level: int) -> float:
     return 54.0 + 3.5 * (level - 1)
 
@@ -1636,6 +1699,79 @@ def run_boots() -> Dict[str, List[Snapshot]]:
     return out
 
 
+SCALE_PATHS = [
+    ("Crit (100% + IE + Hex)", "ER → IE → Hex → LDR → BT"),
+    ("Hybrid (IE then Shojin)", "ER → IE → Shojin → Hex → LDR"),
+    ("Ability (Shojin 2nd)", "ER → Shojin → IE → Hex → LDR"),
+    ("Ability (Navori Qs)", "ER → IE → Navori → Mortal → BT"),
+    ("Old mana (0% crit Q)", "Mura → Tri → Serylda → Shojin → IE"),
+]
+
+
+def run_scale_lab(results: Dict[str, List[Snapshot]]) -> Tuple[List[dict], List[dict]]:
+    """Same AD/stacks as the winning page at 22:00; only the multiplier changes."""
+    s = results[WINNING_ITEMS][21]
+    base_ad = s.ad - s.bonus_ad
+    specs = [
+        ("AD ratios only (0% crit)", 0.00, False, False, False),
+        ("Shojin 12%, 0% crit", 0.00, False, True, False),
+        ("25% crit (ER, no IE)", 0.25, False, False, False),
+        ("50% crit, no IE", 0.50, False, False, False),
+        ("100% crit, no IE", 1.00, False, False, False),
+        ("100% crit + IE", 1.00, True, False, False),
+        ("100% + IE + Hex 10%", 1.00, True, False, True),
+        ("100% + IE + Shojin", 1.00, True, True, False),
+        ("100% + IE + Hex + Shojin", 1.00, True, True, True),
+    ]
+    lab = []
+    for name, crit, ie, shojin, hexoptics in specs:
+        row = scorcher_one(
+            22,
+            s.bonus_ad,
+            base_ad,
+            crit,
+            ie,
+            s.stacks,
+            shojin=shojin,
+            hexoptics=hexoptics,
+            er=True,
+            pct_pen=0.35,
+        )
+        row["name"] = name
+        row["bonus_ad"] = s.bonus_ad
+        row["stacks"] = s.stacks
+        lab.append(row)
+
+    paths = []
+    for label, key in SCALE_PATHS:
+        if key not in results:
+            continue
+        snaps = results[key]
+        a = snaps[21]
+        b = snaps[24]
+        paths.append(
+            {
+                "name": label,
+                "key": key,
+                "crit": a.crit,
+                "amp": q_amp(min(1.0, a.crit), a.crit_dmg),
+                "magic_ratio": stack_magic_ratio_q(min(1.0, a.crit), a.crit_dmg),
+                "auto_mult": auto_expected_mult(a.crit, a.crit_dmg),
+                "qs": a.q_casts_poke,
+                "ah": a.ah,
+                "bonus_ad": a.bonus_ad,
+                "has_ie": a.has_ie,
+                "has_shojin": a.has_shojin,
+                "has_hex": a.has_hex,
+                "mix22": mix_of(a),
+                "mix25": mix_of(b),
+                "poke22": a.poke_squish,
+                "fight22": a.fight_tank,
+            }
+        )
+    return lab, paths
+
+
 def rune_score(s: Snapshot, page: RunePage) -> float:
     """Fit score for the 0-AS crit Q page. Paper AD keystones are not the fit."""
     mix = mix_of(s)
@@ -1701,7 +1837,7 @@ def late_item_isolated_delta(
     return with_n - without_mix, row.minute, legs
 
 
-def summarize(results, timeline, rune_results, boot_results) -> str:
+def summarize(results, timeline, rune_results, boot_results, scale_lab, scale_paths) -> str:
     lines = []
     lines.append("=" * 80)
     lines.append("SMOLDER — STRONGEST LATE BUILD  (Wild Rift patch 7.3)")
@@ -2021,6 +2157,72 @@ def summarize(results, timeline, rune_results, boot_results) -> str:
 
     lines.append("")
     lines.append("-" * 80)
+    lines.append("ABILITY SCALE vs CRIT SCALE  (same AD/stacks as winning page @22:00)")
+    lines.append("-" * 80)
+    lines.append("  Ability scale: 110% bAD on Q, 60+55% W, 30% E, 110% R, AH, Shojin 12%.")
+    lines.append("  Crit scale:    Q physical 0–45% (58.5% with IE), Dragon Practice magic")
+    lines.append("                 30%→69% of stacks, autos crit. W/E/R do NOT get Q's amp.")
+    lines.append(
+        f"  Shared lab: {scale_lab[0]['bonus_ad']:.0f} bAD, {scale_lab[0]['stacks']} stacks, "
+        f"ER sheen, 35% pen, vs squishy."
+    )
+    lines.append(
+        f"  {'Multiplier':<28} {'Q amp':>6} {'Magic':>6} {'Auto':>5} "
+        f"{'1 Q':>6} {'1 W':>6}"
+    )
+    by_name = {r["name"]: r for r in scale_lab}
+    for row in scale_lab:
+        lines.append(
+            f"  {row['name']:<28} {100*row['amp']:>5.1f}% "
+            f"{100*row['magic_ratio']:>5.0f}% {row['auto_mult']:>5.2f} "
+            f"{row['one_q']:>6.0f} {row['w_one']:>6.0f}"
+        )
+    ad0 = by_name.get("AD ratios only (0% crit)")
+    sho0 = by_name.get("Shojin 12%, 0% crit")
+    ie100 = by_name.get("100% crit + IE")
+    hex100 = by_name.get("100% + IE + Hex 10%")
+    both = by_name.get("100% + IE + Shojin")
+    if ad0 and sho0 and ie100:
+        sho_pct = 100.0 * (sho0["one_q"] / ad0["one_q"] - 1.0)
+        ie_pct = 100.0 * (ie100["one_q"] / ad0["one_q"] - 1.0)
+        lines.append("")
+        lines.append("  Isolated on one Super Scorcher (same AD, same stacks):")
+        lines.append(
+            f"    Shojin 12% on a 0-crit Q: {sho0['one_q']:.0f} vs {ad0['one_q']:.0f} "
+            f"({sho_pct:+.0f}%). W also {sho_pct:+.0f}%."
+        )
+        lines.append(
+            f"    100% crit + IE on that Q: {ie100['one_q']:.0f} vs {ad0['one_q']:.0f} "
+            f"({ie_pct:+.0f}%). W unchanged ({ie100['w_one']:.0f} vs {ad0['w_one']:.0f})."
+        )
+        if both:
+            lines.append(
+                f"    They multiply: 100%+IE+Shojin one Q {both['one_q']:.0f} "
+                f"({100.0*(both['one_q']/ad0['one_q']-1.0):+.0f}%)."
+            )
+            lines.append("    Slot conflict: 100% crit needs 4 crit items. Shojin replaces")
+            lines.append("    Hex, LDR, or BT — you do not get both packages for free.")
+        if hex100:
+            lines.append(
+                f"    Hexoptics 10% at Q range: one Q {hex100['one_q']:.0f} "
+                f"(crit package, not ability amp)."
+            )
+
+    lines.append("")
+    lines.append("  Real pages (gold curve, not a lab toggle):")
+    lines.append(
+        f"  {'Page':<28} {'Crit':>5} {'Q amp':>6} {'Qs':>3} "
+        f"{'Mix22':>6} {'Mix25':>6} {'Poke22':>6}"
+    )
+    for row in scale_paths:
+        lines.append(
+            f"  {row['name']:<28} {100*row['crit']:>4.0f}% {100*row['amp']:>5.1f}% "
+            f"{row['qs']:>3} {row['mix22']:>6.0f} {row['mix25']:>6.0f} "
+            f"{row['poke22']:>6.0f}"
+        )
+
+    lines.append("")
+    lines.append("-" * 80)
     lines.append("VERDICT")
     lines.append("-" * 80)
     lines.append(f"  Strongest late path: {winner_name}")
@@ -2113,6 +2315,41 @@ def summarize(results, timeline, rune_results, boot_results) -> str:
     lines.append("  Trap: Shojin 2nd. Ability amp is real, but it delays 100% crit")
     lines.append("  and the Hexoptics range amp that is Smolder's poke identity.")
     lines.append("  Trap: Collector. Smolder already executes at 6.5% with T3 burn.")
+    lines.append("")
+    lines.append("  ABILITY SCALE vs CRIT SCALE:")
+    lines.append("  • Ability scale is the kit ratios + more casts. Q 110% bAD, W ~115%")
+    lines.append("    bAD, E 30% AD, R 110% bAD. Shojin 12% multiplies Q/W/E/R. AH")
+    lines.append("    buys extra Qs. None of that needs crit.")
+    lines.append("  • Crit scale is Super Scorcher + autos. 100% crit + IE is +58.5%")
+    lines.append("    on Q physical and 30%→69% of stacks as magic. Autos go to 2.30x.")
+    lines.append("    W/E/R do not get that amp — only the AD on the crit items.")
+    if ad0 and sho0 and ie100:
+        lines.append(
+            f"  • Same AD, one Q: Shojin {sho0['one_q']:.0f} ({sho_pct:+.0f}%) vs "
+            f"100%+IE {ie100['one_q']:.0f} ({ie_pct:+.0f}%)."
+        )
+        lines.append(
+            f"    Same AD, one W: Shojin {sho0['w_one']:.0f} vs IE {ie100['w_one']:.0f} "
+            f"(W ignores crit amp)."
+        )
+    if scale_paths:
+        crit_p = next((p for p in scale_paths if p["key"] == WINNING_ITEMS), None)
+        abi_p = next(
+            (p for p in scale_paths if "Shojin 2nd" in p["name"]), None
+        )
+        old_p = next((p for p in scale_paths if "mana" in p["name"]), None)
+        if crit_p and abi_p:
+            lines.append(
+                f"  • Real pages @22: crit {crit_p['mix22']:.0f} vs Shojin-2nd "
+                f"{abi_p['mix22']:.0f} ({100.0*(crit_p['mix22']/abi_p['mix22']-1.0):+.0f}%)."
+            )
+        if crit_p and old_p:
+            lines.append(
+                f"    Old mana 0% crit Q: {old_p['mix22']:.0f} mix, "
+                f"Q amp {100*old_p['amp']:.0f}%."
+            )
+    lines.append("  • They multiply if you own both, but 100% crit spends 4 slots.")
+    lines.append("    Shojin as 3rd after IE if you still want W/E/R amp — not 2nd.")
     lines.append("")
     if ie2 and hex2:
         t3_ie2 = first_minute_with(ie2, lambda s: s.stacks >= 175)
@@ -2269,7 +2506,9 @@ def summarize(results, timeline, rune_results, boot_results) -> str:
     return "\n".join(lines)
 
 
-def export_json(results, timeline, rune_results, boot_results, path: str) -> None:
+def export_json(
+    results, timeline, rune_results, boot_results, scale_lab, scale_paths, path: str
+) -> None:
     payload = {
         "meta": {
             "champion": "Smolder",
@@ -2345,6 +2584,8 @@ def export_json(results, timeline, rune_results, boot_results, path: str) -> Non
             ]
             for name, snaps in boot_results.items()
         },
+        "scale_lab": scale_lab,
+        "scale_paths": scale_paths,
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
@@ -2354,6 +2595,7 @@ def self_check(
     results: Dict[str, List[Snapshot]],
     rune_results: Dict[str, List[Snapshot]],
     boot_results: Dict[str, List[Snapshot]],
+    scale_lab: List[dict],
 ) -> None:
     hex_path = results["ER → IE → Hex → Mortal → BT"]
     old = results["Mura → Tri → Serylda → Shojin → IE"]
@@ -2412,19 +2654,38 @@ def self_check(
     assert ie_ion is not None and ie_imm is not None
     assert ie_ion <= ie_imm
 
+    by_name = {r["name"]: r for r in scale_lab}
+    ad0 = by_name["AD ratios only (0% crit)"]
+    sho0 = by_name["Shojin 12%, 0% crit"]
+    ie100 = by_name["100% crit + IE"]
+    assert abs(ie100["amp"] - 0.585) < 0.001
+    assert ie100["one_q"] > sho0["one_q"] > ad0["one_q"]
+    # W/E/R ignore Q crit amp; Shojin still multiplies W.
+    assert abs(ie100["w_one"] - ad0["w_one"]) < 1.0
+    assert sho0["w_one"] > ad0["w_one"] * 1.10
+
 
 def main() -> None:
     results, timeline, _curves = run_all()
     rune_results = run_runes()
     boot_results = run_boots()
-    self_check(results, rune_results, boot_results)
-    report = summarize(results, timeline, rune_results, boot_results)
+    scale_lab, scale_paths = run_scale_lab(results)
+    self_check(results, rune_results, boot_results, scale_lab)
+    report = summarize(
+        results, timeline, rune_results, boot_results, scale_lab, scale_paths
+    )
     print(report)
     out_dir = "/workspace/smolder-late-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
     export_json(
-        results, timeline, rune_results, boot_results, f"{out_dir}/results.json"
+        results,
+        timeline,
+        rune_results,
+        boot_results,
+        scale_lab,
+        scale_paths,
+        f"{out_dir}/results.json",
     )
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 

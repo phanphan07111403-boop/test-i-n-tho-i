@@ -14,7 +14,7 @@ Outputs:
 
 ## Question answered
 
-What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage? Which boots keep the extra Super Scorcher — Ionian vs Greaves vs Immortal Treads?
+What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage? Which boots keep the extra Super Scorcher — Ionian vs Greaves vs Immortal Treads? Ability scale vs crit scale — what actually multiplies Super Scorcher?
 
 ## Winner (sim)
 
@@ -88,6 +88,23 @@ Locked legendaries: Essence Reaver → Infinity Edge → Hexoptics C44 → LDR �
 - Berserker's does **not** win the fight either (fight-tank 7046 vs Ionian 7233). Hexoptics poke does not auto. Gunmetal 5% LS is physical; Q magic + T3 true burn do not heal from it.
 - Bloodline already gives 7% omnivamp. Greaves/Immortal only if you are diving and dying.
 - Mercury's / Steelcaps vs heavy CC / all-in AD. 0 extra Qs.
+
+## Ability scale vs crit scale (sim)
+
+Smolder has **both**, but they hit different parts of the kit.
+
+| | Ability scale | Crit scale |
+|--|---------------|------------|
+| What | AD ratios + AH + Shojin 12% | Crit chance + IE extra crit damage |
+| Q | 110% bonus AD, then the crit amp | +0–45% physical ( **+58.5%** with IE) |
+| Dragon Practice on Q | flat stack magic | 30% → **69%** of stacks as magic |
+| W / E / R | full AD ratios, Shojin 12% | **no** Q-style amp — only the AD on the item |
+| Autos | none | expected **2.30x** at 100% + IE |
+| Casts | AH / Navori extra Qs | no extra Qs |
+
+They **multiply** on Super Scorcher if you own both (110% bAD × 1.585 × 1.12). The conflict is **slots**: 100% crit spends four items (ER, IE, Hex, LDR). Shojin replaces Hex, LDR, or BT.
+
+Same AD, same stacks, one Q vs a squishy (lab in `report.txt`): crit+IE beats Shojin-only; W goes the other way. Buy IE for the fireball. Shojin 3rd only if you still want W/E/R amp after the Q is already crit-capped.
 
 ## Playstyle
 
