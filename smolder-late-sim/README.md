@@ -14,7 +14,7 @@ Outputs:
 
 ## Question answered
 
-What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage? Which boots keep the extra Super Scorcher — Ionian vs Greaves vs Immortal Treads? Ability scale vs crit scale — what actually multiplies Super Scorcher?
+What 6-item page is **strongest late** (20:00–25:00) now that Magnetic Blaster is gone, Infinity Edge is the crit-ability capstone, and Q scales with critical chance **and** bonus critical damage? Which boots keep the extra Super Scorcher — Ionian vs Greaves vs Immortal Treads? Ability scale vs crit scale — what actually multiplies Super Scorcher? ER 20 AH is not enough early — which path actually optimizes Dragon Practice?
 
 ## Winner (sim)
 
@@ -119,6 +119,14 @@ They **multiply** on Q if you own both (838, +61%). The conflict is **slots**: 1
 Real pages at 22:00: crit 100%+IE+Hex **6110** mix vs Shojin 2nd **5321** (**+15%**). Old mana 0% crit Q: **5036**.
 
 Buy IE for the fireball. Shojin 3rd only if you still want W/E/R amp after Q is already crit-capped.
+
+## Stacking opener (ER haste is not enough early)
+
+Dragon Practice is **Q count**, not Q damage. Essence Reaver's 20 AH is the last-hit tool (Spellblade one-shots casters ~8:00). Extra early haste has to come **after** ER, not instead of it.
+
+Do **not** buy Ionian/Caulfield before Essence Reaver — last-hit reliability stays 50% and farm stacks drop. After ER: **Ionian immediately → Legend: Haste → Shojin 2nd → Infinity Edge**. Swap Haste back to Bloodline after 175.
+
+See `report.txt` STACKING OPENER for T3 clocks.
 
 ## Playstyle
 

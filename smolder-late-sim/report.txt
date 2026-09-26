@@ -77,7 +77,7 @@ BUILD COMPARISON — MIX DAMAGE / 8s @ spikes
   ER → Hex → IE → LDR → BT                    2364    4312    6118    7371     5479    +950
   ER → IE → Shojin → Hex → LDR                2085    3518    5291    7387     4996    +993
   ER → Shojin → IE → Hex → LDR                1769    3543    5321    7423     4974    +729
-  ER → IE → Navori → Mortal → BT              2085    3924    5357    6577     4874    +993
+  ER → IE → Navori → Mortal → BT              2085    3961    5478    6754     4972    +993
   ER → IE → RFC → Mortal → BT                 2085    3453    4747    5810     4343    +993
   ER → Shojin → IE → Mortal → Hex             1769    3673    5015    6593     4666    +729
   Yun Tal → IE → Hex → Mortal → BT            1615    2992    4769    5541     4083    +734
@@ -100,7 +100,7 @@ Q POKE vs SQUISHY  (pure Super Scorcher siege) @ 18 / 22 / 25
   ER → IE → Shojin → Hex → LDR                3240    5088    6863   Qs @22: 4  crit 75%
   ER → IE → Hex → Mortal → Shieldbow          4097    5546    6152   Qs @22: 4  crit 115%
   ER → Shojin → IE → Hex → LDR                3261    5114    6893   Qs @22: 4  crit 75%
-  ER → IE → Navori → Mortal → BT              3612    5040    6208   Qs @22: 5  crit 100%
+  ER → IE → Navori → Mortal → BT              3639    5128    6339   Qs @22: 5  crit 100%
   ER → IE → Collector → Mortal → Hex          3699    5127    6375   Qs @22: 4  crit 100%
   Mura → Tri → Serylda → IE → Mortal          3286    4332    6001   Qs @22: 4  crit 35%
   ER → Shojin → IE → Mortal → Hex             3401    4716    6464   Qs @22: 4  crit 75%
@@ -121,7 +121,7 @@ TEAMFIGHT vs TANK  @ 18 / 22 / 25
   ER → IE → Shojin → Hex → LDR                4268    6027    8650
   ER → IE → Hex → Mortal → Shieldbow          4967    6390    6965
   ER → Shojin → IE → Hex → LDR                4299    6063    8696
-  ER → IE → Navori → Mortal → BT              4657    6327    7674
+  ER → IE → Navori → Mortal → BT              4747    6513    7934
   ER → IE → Collector → Mortal → Hex          4560    6085    7075
   Mura → Tri → Serylda → IE → Mortal          4694    5871    8452
   ER → Shojin → IE → Mortal → Hex             4428    5938    7331
@@ -242,8 +242,33 @@ ABILITY SCALE vs CRIT SCALE  (same AD/stacks as winning page @22:00)
   Crit (100% + IE + Hex)        100%  58.5%   4   6110   7359   5618
   Hybrid (IE then Shojin)        75%  43.9%   4   5291   7387   5088
   Ability (Shojin 2nd)           75%  43.9%   4   5321   7423   5114
-  Ability (Navori Qs)           100%  58.5%   5   5357   6577   5040
+  Ability (Navori Qs)           100%  58.5%   5   5478   6754   5128
   Old mana (0% crit Q)            0%   0.0%   5   5036   5793   4623
+
+--------------------------------------------------------------------------------
+STACKING OPENER  (ER last-hit first, then extra AH — T3 clock)
+--------------------------------------------------------------------------------
+  ER 20 AH does not move farm Qs enough. Last-hit rel needs ER;
+  extra AH after ER (Ionian + Shojin / Navori / Haste) is the dump.
+  Opener                                      T3  AH8  Q/m8  St8  St12  St16  Mix16  Mix22
+  IE 2nd / Bloodline                          17   45  23.6   54   105   160   2830   6110
+  IE 2nd / Haste                              17   57  25.6   57   112   172   2858   6209
+  Shojin 2nd / Bloodline                      17   45  23.6   54   109   171   2412   5321
+  Shojin 2nd / Haste                          16   57  25.6   57   117   184   3027   5391
+  Navori 2nd / Haste                          15   57  25.6   57   116   195   3365   6047
+  Ionian before ER / Shojin / Haste           16   57  25.6   51   110   177   3009   5365
+  Caulfield+Ionian opener / Shojin / Haste    16   57  25.6   53   112   178   3011   5369
+  Crimson+Shojin / Haste                      16   57  25.6   57   117   187   3294   5695
+  Hex 2nd / Haste                             17   57  25.6   57   112   174   2775   6221
+  Cleaver 2nd / Haste                         16   57  25.6   57   114   180   3123   5379
+
+  Isolated:
+    IE 2nd / Bloodline  T3 ~17:00  stacks@16 160  Q/min@8 23.6
+    IE 2nd / Haste      T3 ~17:00  stacks@16 172  (rune AH only, still 25% crit Q until Hex)
+    Shojin 2nd / Haste  T3 ~16:00  stacks@16 184  Q/min@8 25.6  mix22 5391 vs IE-2nd 6110
+    Ionian before ER    T3 ~16:00  stacks@16 177  (last-hit rel stays 50% until ER)
+    Caulfield+Ionian    T3 ~16:00  stacks@16 178
+    Navori 2nd / Haste  T3 ~15:00  stacks@16 195  mix22 6047
 
 --------------------------------------------------------------------------------
 VERDICT
@@ -280,7 +305,7 @@ VERDICT
 
   NAVORI vs HEXOPTICS:
     Navori Qs @22: 5 | Hexoptics Qs @22: 4
-    25:00 poke-squish Navori 6208 vs Hex 6404.
+    25:00 poke-squish Navori 6339 vs Hex 6404.
     Navori has 0 AD. Extra Qs do not beat Hexoptics' 55 AD +
     10% max-range amp on every Scorcher.
 
@@ -319,6 +344,18 @@ VERDICT
     Old mana 0% crit Q: 5036 mix, Q amp 0%.
   • They multiply if you own both, but 100% crit spends 4 slots.
     Shojin as 3rd after IE if you still want W/E/R amp — not 2nd.
+
+  STACKING OPENER (ER 20 AH is not enough early):
+  • Do not delay Essence Reaver. Without Spellblade last-hit rel is
+    50% — extra Ionian/Caulfield Qs at 50% rel lose farm stacks.
+  • After ER: Ionian immediately, Legend: Haste until T3, Shojin 2nd,
+    then Infinity Edge. That is the Q-count dump. IE 2nd adds 0 farm
+    stacks because casters are already one-shot.
+  • Fastest T3: Navori 2nd / Haste  ~15:00  stacks@16 195  mix22 6047
+    IE 2nd / Bloodline T3 ~17:00 (160 @16) vs Shojin 2nd / Haste T3 ~16:00 (184 @16).
+    Mix tax @22: 5391 vs 6110 — T3 lands on a 25% crit Q until IE.
+  • Swap Haste → Bloodline and finish IE → Hex → LDR after 175.
+  • Navori 2nd refunds farm Qs but 0 AD. Cleaver is AH without Q amp.
 
   IE 2ND vs 3RD (stacking):
   • Essence Reaver already one-shots casters (~8:00). Last-hit
