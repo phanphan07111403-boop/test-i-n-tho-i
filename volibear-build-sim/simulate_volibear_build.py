@@ -225,9 +225,55 @@ class Fight:
     shield: float
     heal: float
     items: List[str]
+    n_aa: int = 0
+    keystone: str = "tempo"
 
 
-def fight_at(path: Path, m: int) -> Fight:
+def voli_autos(
+    fight_s: float, lv: int, as_pct_items: float, keystone: str
+) -> Tuple[int, int]:
+    """Autos in fight_s including the Q reset. Tempo: 8% AS/stack, 6 max (7.3).
+    Tempo page also has Legend: Alacrity (18%). Grasp page does not.
+    """
+    base_as = 0.73 * (1 + 0.017 * (lv - 1))
+    alacrity = 0.18 if keystone == "tempo" else 0.0
+    n = 1  # Q reset
+    stacks = 1 if keystone == "tempo" else 0
+    t = 0.0
+    while n < 16:
+        pass_as = 0.25 if n >= 5 else 0.05 * n
+        tempo_as = 0.08 * stacks if keystone == "tempo" else 0.0
+        as_now = base_as * (1 + as_pct_items + alacrity + pass_as + tempo_as)
+        interval = 1.0 / max(0.45, as_now)
+        t += interval
+        if t > fight_s:
+            break
+        n += 1
+        if keystone == "tempo":
+            stacks = min(6, stacks + 1)
+    return n, stacks
+
+
+def grasp_procs(fight_s: float, prestack: bool) -> int:
+    """7.2/7.3 Grasp: 4 stacks, then the next auto. ~4s to first proc.
+    Prestack (you already hit the wave) = first auto of the trade is the proc.
+    """
+    if prestack:
+        return 1 + (1 if fight_s >= 7.0 else 0)
+    if fight_s >= 7.5:
+        return 2
+    if fight_s >= 4.0:
+        return 1
+    return 0
+
+
+def fight_at(
+    path: Path,
+    m: int,
+    keystone: str = "tempo",
+    fight_s: float = FIGHT_S,
+    grasp_prestack: bool = False,
+) -> Fight:
     lv = level_at_minute(m)
     gold = gold_at_minute(m)
     inv = inventory_at_gold(path, gold)
@@ -238,9 +284,11 @@ def fight_at(path: Path, m: int) -> Fight:
 
     base_hp, base_ad, base_ar, base_mr = voli_base(lv)
     bonus_hp = sum(i.hp for i in inv)
+    if keystone == "grasp":
+        # ~1 Grasp proc/min in lane after level 3, 10 HP each, cap 250
+        bonus_hp += min(250.0, 10.0 * max(0, m - 3))
     bonus_ad = sum(i.ad for i in inv)
     ap = sum(i.ap for i in inv)
-    ah = sum(i.ah for i in inv)
     as_pct = sum(i.as_pct for i in inv)
     has_dusk = any(i.sheen == "dusk" for i in inv)
     has_tri = any(i.sheen == "trinity" for i in inv)
@@ -263,75 +311,69 @@ def fight_at(path: Path, m: int) -> Fight:
     phys = resist_mult(t_ar)
     mag = resist_mult(t_mr * (1.0 - mpen))
 
-    rift_amp = 1.05 if has_rift else 1.0  # average of 0→8% over 8s
+    rift_amp = 1.05 if has_rift else 1.0
     vamp = 0.10 if has_rift else 0.0
 
-    # Attack count: Q reset + 8s of AS. Passive +25% AS at 5 stacks.
-    base_as = 0.73 * (1 + 0.017 * (lv - 1))
-    as_total = base_as * (1 + as_pct + 0.25)
-    n_aa = 1 + int(FIGHT_S * as_total)  # Q reset
-    n_aa = max(4, min(n_aa, 10))
+    n_aa, tempo_stacks = voli_autos(fight_s, lv, as_pct, keystone)
+    n_aa = max(3, n_aa)
 
-    # Spellblade procs: E, Q, W, W2 → up to 4, gated by 1.5s CD
-    n_blade = min(4, 1 + int(FIGHT_S / 1.5))
+    n_blade = min(4, 1 + int(fight_s / 1.5))
     sheen_kind = "dusk" if has_dusk else ("trinity" if (has_tri or has_sheen_comp) else "none")
 
     phys_raw = 0.0
     mag_raw = 0.0
 
-    # Autos
     phys_raw += n_aa * total_ad
 
-    # Q empowered auto bonus
     if q:
         q_bonus = [0, 15, 40, 65, 90][q] + 1.0 * bonus_ad
         phys_raw += q_bonus
 
-    # W then empowered W (on-hit already counted as extra hit-like ability dmg)
     if w:
         w1 = [0, 5, 30, 55, 80][w] + 1.0 * total_ad + 0.065 * bonus_hp_for_w
         w2 = [0, 8, 48, 88, 128][w] + 1.6 * total_ad + 0.104 * bonus_hp_for_w
         phys_raw += w1 + w2
 
-    # E on the target (melee: bolt on them, you still stand in it)
     if e:
         e_d = [0, 80, 110, 140, 170][e] + 0.50 * ap + [0, 0.11, 0.12, 0.13, 0.14][e] * t_hp
         mag_raw += e_d
 
-    # R landing
-    if r:
+    if r and fight_s >= 6.0:
         r_d = [0, 300, 500, 700][r] + 2.10 * bonus_ad + 1.0 * ap
         phys_raw += r_d
 
-    # Lightning on autos once stacked (skip first 2 hits)
     lit = lightning(lv, ap)
     mag_raw += max(0, n_aa - 2) * lit
     if has_dusk:
-        # extra on-hit on spellblade AAs after stacks
         mag_raw += min(n_blade, max(0, n_aa - 2)) * lit
 
-    # Sheen
     if sheen_kind == "dusk":
         mag_raw += n_blade * (0.75 * base_ad + 0.10 * ap)
     elif sheen_kind == "trinity":
         ratio = 2.0 if has_tri else 1.0
         phys_raw += n_blade * (ratio * base_ad)
 
-    # Heartsteel one proc
     if has_hs:
         phys_raw += 140 + 0.035 * max_hp
 
-    # Hullbreaker Skipper: 4th auto, 160% base AD + 5% max HP
     if has_hull:
         n_skip = n_aa // 4
         phys_raw += n_skip * (1.60 * base_ad + 0.05 * max_hp)
 
-    # Unending Despair: every 4s, 3% max HP magic
     if has_despair:
-        mag_raw += 2 * 0.03 * max_hp
+        mag_raw += int(fight_s / 4.0) * 0.03 * max_hp
 
-    # Grasp once
-    mag_raw += 0.033 * max_hp
+    n_grasp = grasp_procs(fight_s, grasp_prestack) if keystone == "grasp" else 0
+    mag_raw += n_grasp * 0.033 * max_hp
+
+    # 7.3 Tempo max-stack bullet: 9–30 melee, +1% per 1% bonus AS
+    n_bullets = 0
+    if keystone == "tempo" and tempo_stacks >= 6:
+        n_bullets = max(0, n_aa - 5)
+        bullet = (9 + (30 - 9) * (lv - 1) / 14) * (
+            1 + as_pct + 0.18 + 0.25 + 0.48
+        )
+        mag_raw += n_bullets * bullet
 
     mix = (phys_raw * phys + mag_raw * mag) * rift_amp
 
@@ -339,18 +381,21 @@ def fight_at(path: Path, m: int) -> Fight:
     if e:
         shield = 0.14 * max_hp + 0.75 * ap
 
-    # W2 heal: assume ~45% missing HP when the bite lands
     heal = 0.0
     if w:
         missing_frac = 0.45
         heal += [0, 20, 30, 40, 50][w] + [0, 0.05, 0.06, 0.07, 0.08][w] * missing_frac * max_hp
     if has_despair:
-        heal += 2 * (0.03 * max_hp * 2.50)
-    heal += 0.013 * max_hp  # Grasp
-    heal += vamp * mix * 0.55  # omnivamp on a chunk of outgoing mix
+        heal += int(fight_s / 4.0) * (0.03 * max_hp * 2.50)
+    heal += n_grasp * 0.013 * max_hp
+    heal += vamp * mix * 0.55
 
-    ehp = max_hp + shield + heal
-    # Strength: kill pressure + not dying. 1 mix ≈ 0.85 ehp in a bruiser slugfest.
+    # Unshakeable on the Grasp page: ~7% resists in a 1v1, ~9% in a 3-man
+    twin = 0.0
+    if keystone == "grasp" and fight_s >= 5.0:
+        twin = 0.05 * max_hp
+
+    ehp = max_hp + shield + heal + twin
     strength = mix + 0.85 * ehp
     return Fight(
         mix=mix,
@@ -360,6 +405,8 @@ def fight_at(path: Path, m: int) -> Fight:
         shield=shield,
         heal=heal,
         items=[i.name for i in inv],
+        n_aa=n_aa,
+        keystone=keystone,
     )
 
 
@@ -449,6 +496,53 @@ def rune_table(path: Path) -> List[str]:
     return lines
 
 
+def _edge(t: float, g: float) -> str:
+    if abs(t - g) < 0.03 * max(abs(t), abs(g), 1.0):
+        return "tie"
+    return "Tempo" if t > g else "Grasp"
+
+
+def keystone_table(path: Path) -> List[str]:
+    """Lethal Tempo (7.3 rework) vs Grasp on the Dusk → Hull → Rift page."""
+    lines = [
+        "Lethal Tempo vs Grasp of the Undying (Dusk → Hull → Rift)",
+        "  7.3 Tempo: 8% AS per auto, 6 stacks, then adaptive bullets",
+        "  (9–30 + 1% per 1% bonus AS). No more bonus range.",
+        "  Tempo page includes Legend: Alacrity. Grasp page does not.",
+        "  Grasp: 3.3% max HP magic + 1.3% max HP heal per proc, +10 HP.",
+        "",
+    ]
+
+    def row(label: str, m: int, fight_s: float, prestack: bool = False) -> None:
+        t = fight_at(path, m, "tempo", fight_s)
+        g = fight_at(path, m, "grasp", fight_s, grasp_prestack=prestack)
+        lines.append(
+            f"  {label:<22} Tempo mix {t.mix:5.0f} ehp {t.ehp:5.0f} aa {t.n_aa}"
+            f"  Grasp mix {g.mix:5.0f} ehp {g.ehp:5.0f} aa {g.n_aa}"
+            f"  dmg {_edge(t.mix, g.mix):<5} live {_edge(t.ehp, g.ehp)}"
+        )
+
+    lines.append("  Lane 3s (no prestack) — first trade, Grasp not up yet")
+    row("lane 3s cold 8:00", 8, 3.0, False)
+    row("lane 3s cold 14:00", 14, 3.0, False)
+    lines.append("  Lane 3s (Grasp prestacked on the wave)")
+    row("lane 3s stacked 8:00", 8, 3.0, True)
+    row("lane 3s stacked 14:00", 14, 3.0, True)
+    lines.append("  1v1 8s slugfest")
+    row("1v1 8:00", 8, 8.0, False)
+    row("1v1 14:00", 14, 8.0, False)
+    row("1v1 22:00", 22, 8.0, False)
+    lines.append("  Teamfight = 8s dive on one carry (same 1v1, Grasp has Unshakeable)")
+    row("TF dive 22:00", 22, 8.0, False)
+    lines.append("")
+    lines.append("  Damage / 1v1 / all-in: Lethal Tempo (extra autos, lightning, Skipper, bullets).")
+    lines.append("  Survival / short lane trades: Grasp (heal + HP stacks + Unshakeable).")
+    lines.append("  Teamfight: Tempo kills the dive target faster; Grasp lives the collapse.")
+    lines.append("  Default on this Dusk page: Lethal Tempo. Grasp into poke/range.")
+    lines.append("")
+    return lines
+
+
 def main() -> None:
     minutes = list(range(6, GAME_MINUTES + 1))
     snapshots: Dict[str, List[dict]] = {}
@@ -531,6 +625,7 @@ def main() -> None:
         "",
     ]
     lines += rune_table(winner)
+    lines += keystone_table(winner)
     for p in ranked:
         dusk_m = minute_of_item(p, "Dusk and Dawn")
         tri_m = minute_of_item(p, "Trinity Force")
@@ -557,6 +652,7 @@ def main() -> None:
         ],
         "totals": {k: round(v) for k, v in totals.items()},
         "precision_slot2": "Last Stand",
+        "keystone": "Lethal Tempo",
         "snapshots": snapshots,
     }
     (OUT_DIR / "report.txt").write_text(text + "\n", encoding="utf-8")

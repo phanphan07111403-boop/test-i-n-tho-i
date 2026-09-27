@@ -18,18 +18,18 @@ Buy order (strongest)
 
 Path                              8     10     14     18     22     sum
 ------------------------------------------------------------------------
-Dusk → Hull → Rift             4609   5136   5605   7056   8251   99877
-Dusk → Rift → Despair          4609   5136   5605   7064   8118   99639
-Heart → Dusk → Hull            4426   4928   5418   6888   7991   98780
-Heart → Tri → Despair          4426   4928   5418   6876   7938   97551
-Tri → Rift → Twin              4645   5155   5607   6930   7295   96034
+Dusk → Hull → Rift             5162   5731   6311   8052   9484  113077
+Dusk → Rift → Despair          5162   5731   6311   8010   9063  112010
+Tri → Rift → Twin              5208   5891   6323   8057   8421  109726
+Heart → Dusk → Hull            4742   5272   5863   7620   8982  108349
+Heart → Tri → Despair          4742   5272   5863   7754   8808  107090
 
 First legendary window (~8:00)
-  Tri → Rift → Twin            mix  2180  ehp  2900  str  4645  [Trinity Force]
-  Dusk → Hull → Rift           mix  2082  ehp  2973  str  4609  [Dusk and Dawn]
-  Dusk → Rift → Despair        mix  2082  ehp  2973  str  4609  [Dusk and Dawn]
-  Heart → Dusk → Hull          mix  1590  ehp  3336  str  4426  [Heartsteel]
-  Heart → Tri → Despair        mix  1590  ehp  3336  str  4426  [Heartsteel]
+  Tri → Rift → Twin            mix  2770  ehp  2869  str  5208  [Trinity Force]
+  Dusk → Hull → Rift           mix  2662  ehp  2941  str  5162  [Dusk and Dawn]
+  Dusk → Rift → Despair        mix  2662  ehp  2941  str  5162  [Dusk and Dawn]
+  Heart → Dusk → Hull          mix  1937  ehp  3300  str  4742  [Heartsteel]
+  Heart → Tri → Despair        mix  1937  ehp  3300  str  4742  [Heartsteel]
 
 Why Dusk first, not Trinity / Heartsteel
   Dusk is 233g cheaper than Trinity, gives HP + haste + AS + AP.
@@ -50,20 +50,44 @@ Precision slot 2 (Last Stand / Cut Down / Coup de Grace)
   Dive/stomp: you stay healthy; they fall through 60% then 40%.
 
   slugfest 1v1          8:00     14:00     22:00
-    Last Stand           117       125       203
+    Last Stand           149       167       272
     Cut Down              51        68        82
-    Coup de Grace         62        53       101
+    Coup de Grace         62        84       101
     edge          8:00 Last Stand, 14:00 Last Stand, 22:00 Last Stand
 
   you stay full         8:00     14:00     22:00
     Last Stand             0         0         0
     Cut Down              51        68        82
-    Coup de Grace         62        53       101
-    edge          8:00 Coup de Grace, 14:00 Cut Down, 22:00 Coup de Grace
+    Coup de Grace         62        84       101
+    edge          8:00 Coup de Grace, 14:00 Coup de Grace, 22:00 Coup de Grace
 
   Default on this page: Last Stand. You live in the W-heal 1v1.
   Cut Down only if you are the full-HP one hitting a tank.
   Coup only if you already put them in execute and stay healthy.
+
+Lethal Tempo vs Grasp of the Undying (Dusk → Hull → Rift)
+  7.3 Tempo: 8% AS per auto, 6 stacks, then adaptive bullets
+  (9–30 + 1% per 1% bonus AS). No more bonus range.
+  Tempo page includes Legend: Alacrity. Grasp page does not.
+  Grasp: 3.3% max HP magic + 1.3% max HP heal per proc, +10 HP.
+
+  Lane 3s (no prestack) — first trade, Grasp not up yet
+  lane 3s cold 8:00      Tempo mix  1178 ehp  2941 aa 5  Grasp mix  1044 ehp  3000 aa 4  dmg Tempo live tie
+  lane 3s cold 14:00     Tempo mix  1259 ehp  3926 aa 5  Grasp mix  1123 ehp  4055 aa 4  dmg Tempo live Grasp
+  Lane 3s (Grasp prestacked on the wave)
+  lane 3s stacked 8:00   Tempo mix  1178 ehp  2941 aa 5  Grasp mix  1095 ehp  3032 aa 4  dmg Tempo live tie
+  lane 3s stacked 14:00  Tempo mix  1259 ehp  3926 aa 5  Grasp mix  1184 ehp  4099 aa 4  dmg Tempo live Grasp
+  1v1 8s slugfest
+  1v1 8:00               Tempo mix  2662 ehp  2941 aa 14  Grasp mix  2138 ehp  3187 aa 10  dmg Tempo live Grasp
+  1v1 14:00              Tempo mix  2975 ehp  3926 aa 15  Grasp mix  2399 ehp  4310 aa 11  dmg Tempo live Grasp
+  1v1 22:00              Tempo mix  4854 ehp  5447 aa 15  Grasp mix  3908 ehp  5959 aa 11  dmg Tempo live Grasp
+  Teamfight = 8s dive on one carry (same 1v1, Grasp has Unshakeable)
+  TF dive 22:00          Tempo mix  4854 ehp  5447 aa 15  Grasp mix  3908 ehp  5959 aa 11  dmg Tempo live Grasp
+
+  Damage / 1v1 / all-in: Lethal Tempo (extra autos, lightning, Skipper, bullets).
+  Survival / short lane trades: Grasp (heal + HP stacks + Unshakeable).
+  Teamfight: Tempo kills the dive target faster; Grasp lives the collapse.
+  Default on this Dusk page: Lethal Tempo. Grasp into poke/range.
 
 Dusk → Hull → Rift: Diamond+ CN 7.3 most-played core (~60% WR). Skipper 1v1 + AP vamp.
   Dusk complete ~7:00
@@ -71,12 +95,12 @@ Dusk → Hull → Rift: Diamond+ CN 7.3 most-played core (~60% WR). Skipper 1v1 
 Dusk → Rift → Despair: Skip Hull. Earlier vamp/amp if you group more than split.
   Dusk complete ~7:00
 
+Tri → Rift → Twin: Old hybrid. Trinity is 233g more than Dusk and has no AP.
+  Trinity complete ~8:00
+
 Heart → Dusk → Hull: Diamond+ alt. Tankier first item, slower 1v1 spike.
   Dusk complete ~15:00
 
 Heart → Tri → Despair: All-ranks aggregator path (wildriftmeta). HP then physical sheen.
   Trinity complete ~16:00
-
-Tri → Rift → Twin: Old hybrid. Trinity is 233g more than Dusk and has no AP.
-  Trinity complete ~8:00
 

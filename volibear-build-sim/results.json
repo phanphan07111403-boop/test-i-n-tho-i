@@ -12,13 +12,14 @@
     "Amaranth's Twinguard"
   ],
   "totals": {
-    "Dusk \u2192 Hull \u2192 Rift": 99877,
-    "Dusk \u2192 Rift \u2192 Despair": 99639,
-    "Heart \u2192 Dusk \u2192 Hull": 98780,
-    "Heart \u2192 Tri \u2192 Despair": 97551,
-    "Tri \u2192 Rift \u2192 Twin": 96034
+    "Dusk \u2192 Hull \u2192 Rift": 113077,
+    "Dusk \u2192 Rift \u2192 Despair": 112010,
+    "Heart \u2192 Dusk \u2192 Hull": 108349,
+    "Heart \u2192 Tri \u2192 Despair": 107090,
+    "Tri \u2192 Rift \u2192 Twin": 109726
   },
   "precision_slot2": "Last Stand",
+  "keystone": "Lethal Tempo",
   "snapshots": {
     "Dusk \u2192 Hull \u2192 Rift": [
       {
@@ -28,9 +29,9 @@
         "items": [
           "Long Sword"
         ],
-        "mix": 1270,
-        "ehp": 1974,
-        "strength": 2948,
+        "mix": 1618,
+        "ehp": 1953,
+        "strength": 3278,
         "hp": 1633
       },
       {
@@ -40,9 +41,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 1917,
-        "ehp": 2612,
-        "strength": 4138,
+        "mix": 2476,
+        "ehp": 2585,
+        "strength": 4674,
         "hp": 2111
       },
       {
@@ -52,9 +53,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 2082,
-        "ehp": 2973,
-        "strength": 4609,
+        "mix": 2662,
+        "ehp": 2941,
+        "strength": 5162,
         "hp": 2414
       },
       {
@@ -64,9 +65,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 2134,
-        "ehp": 3125,
-        "strength": 4790,
+        "mix": 2738,
+        "ehp": 3092,
+        "strength": 5366,
         "hp": 2542
       },
       {
@@ -77,9 +78,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2199,
-        "ehp": 3455,
-        "strength": 5136,
+        "mix": 2825,
+        "ehp": 3419,
+        "strength": 5731,
         "hp": 2820
       },
       {
@@ -90,9 +91,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2202,
-        "ehp": 3455,
-        "strength": 5139,
+        "mix": 2827,
+        "ehp": 3419,
+        "strength": 5733,
         "hp": 2820
       },
       {
@@ -103,9 +104,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2186,
-        "ehp": 3608,
-        "strength": 5253,
+        "mix": 2819,
+        "ehp": 3569,
+        "strength": 5853,
         "hp": 2948
       },
       {
@@ -116,9 +117,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2189,
-        "ehp": 3608,
-        "strength": 5255,
+        "mix": 2822,
+        "ehp": 3569,
+        "strength": 5856,
         "hp": 2948
       },
       {
@@ -129,9 +130,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2232,
-        "ehp": 3968,
-        "strength": 5605,
+        "mix": 2975,
+        "ehp": 3926,
+        "strength": 6311,
         "hp": 3251
       },
       {
@@ -142,9 +143,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2234,
-        "ehp": 3968,
-        "strength": 5607,
+        "mix": 2977,
+        "ehp": 3926,
+        "strength": 6314,
         "hp": 3251
       },
       {
@@ -156,9 +157,9 @@
           "Plated Steelcaps",
           "Hullbreaker"
         ],
-        "mix": 2954,
-        "ehp": 4596,
-        "strength": 6860,
+        "mix": 3969,
+        "ehp": 4547,
+        "strength": 7833,
         "hp": 3779
       },
       {
@@ -170,9 +171,9 @@
           "Plated Steelcaps",
           "Hullbreaker"
         ],
-        "mix": 2956,
-        "ehp": 4596,
-        "strength": 6863,
+        "mix": 3971,
+        "ehp": 4547,
+        "strength": 7836,
         "hp": 3779
       },
       {
@@ -184,9 +185,9 @@
           "Plated Steelcaps",
           "Hullbreaker"
         ],
-        "mix": 3020,
-        "ehp": 4748,
-        "strength": 7056,
+        "mix": 4060,
+        "ehp": 4697,
+        "strength": 8052,
         "hp": 3907
       },
       {
@@ -198,9 +199,9 @@
           "Plated Steelcaps",
           "Hullbreaker"
         ],
-        "mix": 3023,
-        "ehp": 4748,
-        "strength": 7058,
+        "mix": 4062,
+        "ehp": 4697,
+        "strength": 8055,
         "hp": 3907
       },
       {
@@ -212,9 +213,9 @@
           "Plated Steelcaps",
           "Hullbreaker"
         ],
-        "mix": 3025,
-        "ehp": 4748,
-        "strength": 7061,
+        "mix": 4065,
+        "ehp": 4697,
+        "strength": 8058,
         "hp": 3907
       },
       {
@@ -227,9 +228,9 @@
           "Hullbreaker",
           "Riftmaker"
         ],
-        "mix": 3629,
-        "ehp": 5435,
-        "strength": 8248,
+        "mix": 4851,
+        "ehp": 5447,
+        "strength": 9481,
         "hp": 4257
       },
       {
@@ -242,9 +243,9 @@
           "Hullbreaker",
           "Riftmaker"
         ],
-        "mix": 3632,
-        "ehp": 5435,
-        "strength": 8251,
+        "mix": 4854,
+        "ehp": 5447,
+        "strength": 9484,
         "hp": 4257
       }
     ],
@@ -256,9 +257,9 @@
         "items": [
           "Long Sword"
         ],
-        "mix": 1270,
-        "ehp": 1974,
-        "strength": 2948,
+        "mix": 1618,
+        "ehp": 1953,
+        "strength": 3278,
         "hp": 1633
       },
       {
@@ -268,9 +269,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 1917,
-        "ehp": 2612,
-        "strength": 4138,
+        "mix": 2476,
+        "ehp": 2585,
+        "strength": 4674,
         "hp": 2111
       },
       {
@@ -280,9 +281,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 2082,
-        "ehp": 2973,
-        "strength": 4609,
+        "mix": 2662,
+        "ehp": 2941,
+        "strength": 5162,
         "hp": 2414
       },
       {
@@ -292,9 +293,9 @@
         "items": [
           "Dusk and Dawn"
         ],
-        "mix": 2134,
-        "ehp": 3125,
-        "strength": 4790,
+        "mix": 2738,
+        "ehp": 3092,
+        "strength": 5366,
         "hp": 2542
       },
       {
@@ -305,9 +306,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2199,
-        "ehp": 3455,
-        "strength": 5136,
+        "mix": 2825,
+        "ehp": 3419,
+        "strength": 5731,
         "hp": 2820
       },
       {
@@ -318,9 +319,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2202,
-        "ehp": 3455,
-        "strength": 5139,
+        "mix": 2827,
+        "ehp": 3419,
+        "strength": 5733,
         "hp": 2820
       },
       {
@@ -331,9 +332,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2186,
-        "ehp": 3608,
-        "strength": 5253,
+        "mix": 2819,
+        "ehp": 3569,
+        "strength": 5853,
         "hp": 2948
       },
       {
@@ -344,9 +345,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2189,
-        "ehp": 3608,
-        "strength": 5255,
+        "mix": 2822,
+        "ehp": 3569,
+        "strength": 5856,
         "hp": 2948
       },
       {
@@ -357,9 +358,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2232,
-        "ehp": 3968,
-        "strength": 5605,
+        "mix": 2975,
+        "ehp": 3926,
+        "strength": 6311,
         "hp": 3251
       },
       {
@@ -370,9 +371,9 @@
           "Dusk and Dawn",
           "Plated Steelcaps"
         ],
-        "mix": 2234,
-        "ehp": 3968,
-        "strength": 5607,
+        "mix": 2977,
+        "ehp": 3926,
+        "strength": 6314,
         "hp": 3251
       },
       {
@@ -384,9 +385,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2819,
-        "ehp": 4757,
-        "strength": 6862,
+        "mix": 3738,
+        "ehp": 4759,
+        "strength": 7783,
         "hp": 3729
       },
       {
@@ -398,9 +399,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2821,
-        "ehp": 4757,
-        "strength": 6864,
+        "mix": 3741,
+        "ehp": 4759,
+        "strength": 7786,
         "hp": 3729
       },
       {
@@ -412,9 +413,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2888,
-        "ehp": 4913,
-        "strength": 7064,
+        "mix": 3833,
+        "ehp": 4914,
+        "strength": 8010,
         "hp": 3857
       },
       {
@@ -426,9 +427,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2891,
-        "ehp": 4913,
-        "strength": 7067,
+        "mix": 3836,
+        "ehp": 4915,
+        "strength": 8013,
         "hp": 3857
       },
       {
@@ -440,9 +441,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2894,
-        "ehp": 4913,
-        "strength": 7070,
+        "mix": 3839,
+        "ehp": 4915,
+        "strength": 8016,
         "hp": 3857
       },
       {
@@ -455,9 +456,9 @@
           "Riftmaker",
           "Unending Despair"
         ],
-        "mix": 3093,
-        "ehp": 5909,
-        "strength": 8115,
+        "mix": 4039,
+        "ehp": 5907,
+        "strength": 9060,
         "hp": 4157
       },
       {
@@ -470,9 +471,9 @@
           "Riftmaker",
           "Unending Despair"
         ],
-        "mix": 3096,
-        "ehp": 5909,
-        "strength": 8118,
+        "mix": 4042,
+        "ehp": 5907,
+        "strength": 9063,
         "hp": 4157
       }
     ],
@@ -484,9 +485,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1373,
-        "ehp": 2803,
-        "strength": 3756,
+        "mix": 1686,
+        "ehp": 2773,
+        "strength": 4043,
         "hp": 2333
       },
       {
@@ -496,9 +497,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1437,
-        "ehp": 2976,
-        "strength": 3967,
+        "mix": 1769,
+        "ehp": 2944,
+        "strength": 4272,
         "hp": 2461
       },
       {
@@ -508,9 +509,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1590,
-        "ehp": 3336,
-        "strength": 4426,
+        "mix": 1937,
+        "ehp": 3300,
+        "strength": 4742,
         "hp": 2764
       },
       {
@@ -521,9 +522,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1646,
-        "ehp": 3667,
-        "strength": 4763,
+        "mix": 2007,
+        "ehp": 3627,
+        "strength": 5090,
         "hp": 3042
       },
       {
@@ -534,9 +535,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1682,
-        "ehp": 3819,
-        "strength": 4928,
+        "mix": 2060,
+        "ehp": 3778,
+        "strength": 5272,
         "hp": 3170
       },
       {
@@ -547,9 +548,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1684,
-        "ehp": 3819,
-        "strength": 4931,
+        "mix": 2063,
+        "ehp": 3778,
+        "strength": 5274,
         "hp": 3170
       },
       {
@@ -560,9 +561,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1650,
-        "ehp": 3971,
-        "strength": 5026,
+        "mix": 2144,
+        "ehp": 3928,
+        "strength": 5484,
         "hp": 3298
       },
       {
@@ -573,9 +574,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1653,
-        "ehp": 3971,
-        "strength": 5029,
+        "mix": 2147,
+        "ehp": 3928,
+        "strength": 5486,
         "hp": 3298
       },
       {
@@ -586,9 +587,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1736,
-        "ehp": 4332,
-        "strength": 5418,
+        "mix": 2221,
+        "ehp": 4285,
+        "strength": 5863,
         "hp": 3601
       },
       {
@@ -600,9 +601,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2420,
-        "ehp": 4800,
-        "strength": 6500,
+        "mix": 3149,
+        "ehp": 4749,
+        "strength": 7186,
         "hp": 3951
       },
       {
@@ -614,9 +615,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2483,
-        "ehp": 4952,
-        "strength": 6692,
+        "mix": 3238,
+        "ehp": 4899,
+        "strength": 7402,
         "hp": 4079
       },
       {
@@ -628,9 +629,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2485,
-        "ehp": 4952,
-        "strength": 6695,
+        "mix": 3240,
+        "ehp": 4899,
+        "strength": 7404,
         "hp": 4079
       },
       {
@@ -642,9 +643,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2549,
-        "ehp": 5105,
-        "strength": 6888,
+        "mix": 3328,
+        "ehp": 5050,
+        "strength": 7620,
         "hp": 4207
       },
       {
@@ -656,9 +657,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2551,
-        "ehp": 5105,
-        "strength": 6890,
+        "mix": 3331,
+        "ehp": 5050,
+        "strength": 7623,
         "hp": 4207
       },
       {
@@ -670,9 +671,9 @@
           "Plated Steelcaps",
           "Dusk and Dawn"
         ],
-        "mix": 2554,
-        "ehp": 5105,
-        "strength": 6893,
+        "mix": 3333,
+        "ehp": 5050,
+        "strength": 7626,
         "hp": 4207
       },
       {
@@ -685,9 +686,9 @@
           "Dusk and Dawn",
           "Hullbreaker"
         ],
-        "mix": 3246,
-        "ehp": 5580,
-        "strength": 7989,
+        "mix": 4287,
+        "ehp": 5520,
+        "strength": 8980,
         "hp": 4607
       },
       {
@@ -700,9 +701,9 @@
           "Dusk and Dawn",
           "Hullbreaker"
         ],
-        "mix": 3248,
-        "ehp": 5580,
-        "strength": 7991,
+        "mix": 4290,
+        "ehp": 5520,
+        "strength": 8982,
         "hp": 4607
       }
     ],
@@ -714,9 +715,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1373,
-        "ehp": 2803,
-        "strength": 3756,
+        "mix": 1686,
+        "ehp": 2773,
+        "strength": 4043,
         "hp": 2333
       },
       {
@@ -726,9 +727,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1437,
-        "ehp": 2976,
-        "strength": 3967,
+        "mix": 1769,
+        "ehp": 2944,
+        "strength": 4272,
         "hp": 2461
       },
       {
@@ -738,9 +739,9 @@
         "items": [
           "Heartsteel"
         ],
-        "mix": 1590,
-        "ehp": 3336,
-        "strength": 4426,
+        "mix": 1937,
+        "ehp": 3300,
+        "strength": 4742,
         "hp": 2764
       },
       {
@@ -751,9 +752,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1646,
-        "ehp": 3667,
-        "strength": 4763,
+        "mix": 2007,
+        "ehp": 3627,
+        "strength": 5090,
         "hp": 3042
       },
       {
@@ -764,9 +765,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1682,
-        "ehp": 3819,
-        "strength": 4928,
+        "mix": 2060,
+        "ehp": 3778,
+        "strength": 5272,
         "hp": 3170
       },
       {
@@ -777,9 +778,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1684,
-        "ehp": 3819,
-        "strength": 4931,
+        "mix": 2063,
+        "ehp": 3778,
+        "strength": 5274,
         "hp": 3170
       },
       {
@@ -790,9 +791,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1650,
-        "ehp": 3971,
-        "strength": 5026,
+        "mix": 2144,
+        "ehp": 3928,
+        "strength": 5484,
         "hp": 3298
       },
       {
@@ -803,9 +804,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1653,
-        "ehp": 3971,
-        "strength": 5029,
+        "mix": 2147,
+        "ehp": 3928,
+        "strength": 5486,
         "hp": 3298
       },
       {
@@ -816,9 +817,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1736,
-        "ehp": 4332,
-        "strength": 5418,
+        "mix": 2221,
+        "ehp": 4285,
+        "strength": 5863,
         "hp": 3601
       },
       {
@@ -829,9 +830,9 @@
           "Heartsteel",
           "Plated Steelcaps"
         ],
-        "mix": 1738,
-        "ehp": 4332,
-        "strength": 5420,
+        "mix": 2223,
+        "ehp": 4285,
+        "strength": 5865,
         "hp": 3601
       },
       {
@@ -843,9 +844,9 @@
           "Plated Steelcaps",
           "Trinity Force"
         ],
-        "mix": 2540,
-        "ehp": 4880,
-        "strength": 6688,
+        "mix": 3304,
+        "ehp": 4827,
+        "strength": 7406,
         "hp": 4062
       },
       {
@@ -857,9 +858,9 @@
           "Plated Steelcaps",
           "Trinity Force"
         ],
-        "mix": 2542,
-        "ehp": 4880,
-        "strength": 6690,
+        "mix": 3306,
+        "ehp": 4827,
+        "strength": 7409,
         "hp": 4062
       },
       {
@@ -871,9 +872,9 @@
           "Plated Steelcaps",
           "Trinity Force"
         ],
-        "mix": 2599,
-        "ehp": 5032,
-        "strength": 6876,
+        "mix": 3524,
+        "ehp": 4977,
+        "strength": 7754,
         "hp": 4190
       },
       {
@@ -885,9 +886,9 @@
           "Plated Steelcaps",
           "Trinity Force"
         ],
-        "mix": 2602,
-        "ehp": 5032,
-        "strength": 6879,
+        "mix": 3526,
+        "ehp": 4977,
+        "strength": 7757,
         "hp": 4190
       },
       {
@@ -899,9 +900,9 @@
           "Plated Steelcaps",
           "Trinity Force"
         ],
-        "mix": 2604,
-        "ehp": 5032,
-        "strength": 6882,
+        "mix": 3529,
+        "ehp": 4977,
+        "strength": 7760,
         "hp": 4190
       },
       {
@@ -914,9 +915,9 @@
           "Trinity Force",
           "Unending Despair"
         ],
-        "mix": 2783,
-        "ehp": 6062,
-        "strength": 7936,
+        "mix": 3702,
+        "ehp": 6004,
+        "strength": 8805,
         "hp": 4490
       },
       {
@@ -929,9 +930,9 @@
           "Trinity Force",
           "Unending Despair"
         ],
-        "mix": 2786,
-        "ehp": 6062,
-        "strength": 7938,
+        "mix": 3705,
+        "ehp": 6004,
+        "strength": 8808,
         "hp": 4490
       }
     ],
@@ -943,9 +944,9 @@
         "items": [
           "Long Sword"
         ],
-        "mix": 1270,
-        "ehp": 1974,
-        "strength": 2948,
+        "mix": 1618,
+        "ehp": 1953,
+        "strength": 3278,
         "hp": 1633
       },
       {
@@ -955,9 +956,9 @@
         "items": [
           "Long Sword"
         ],
-        "mix": 1334,
-        "ehp": 2144,
-        "strength": 3156,
+        "mix": 1700,
+        "ehp": 2121,
+        "strength": 3503,
         "hp": 1761
       },
       {
@@ -967,9 +968,9 @@
         "items": [
           "Trinity Force"
         ],
-        "mix": 2180,
-        "ehp": 2900,
-        "strength": 4645,
+        "mix": 2770,
+        "ehp": 2869,
+        "strength": 5208,
         "hp": 2397
       },
       {
@@ -979,9 +980,9 @@
         "items": [
           "Trinity Force"
         ],
-        "mix": 2223,
-        "ehp": 3052,
-        "strength": 4817,
+        "mix": 2837,
+        "ehp": 3019,
+        "strength": 5403,
         "hp": 2525
       },
       {
@@ -992,9 +993,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2280,
-        "ehp": 3383,
-        "strength": 5155,
+        "mix": 3047,
+        "ehp": 3346,
+        "strength": 5891,
         "hp": 2803
       },
       {
@@ -1005,9 +1006,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2282,
-        "ehp": 3383,
-        "strength": 5158,
+        "mix": 3049,
+        "ehp": 3346,
+        "strength": 5893,
         "hp": 2803
       },
       {
@@ -1018,9 +1019,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2210,
-        "ehp": 3535,
-        "strength": 5215,
+        "mix": 2978,
+        "ehp": 3497,
+        "strength": 5950,
         "hp": 2931
       },
       {
@@ -1031,9 +1032,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2213,
-        "ehp": 3535,
-        "strength": 5217,
+        "mix": 2980,
+        "ehp": 3497,
+        "strength": 5953,
         "hp": 2931
       },
       {
@@ -1044,9 +1045,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2296,
-        "ehp": 3895,
-        "strength": 5607,
+        "mix": 3048,
+        "ehp": 3853,
+        "strength": 6323,
         "hp": 3234
       },
       {
@@ -1057,9 +1058,9 @@
           "Trinity Force",
           "Plated Steelcaps"
         ],
-        "mix": 2299,
-        "ehp": 3895,
-        "strength": 5610,
+        "mix": 3050,
+        "ehp": 3853,
+        "strength": 6326,
         "hp": 3234
       },
       {
@@ -1071,9 +1072,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2757,
-        "ehp": 4680,
-        "strength": 6735,
+        "mix": 3683,
+        "ehp": 4683,
+        "strength": 7663,
         "hp": 3712
       },
       {
@@ -1085,9 +1086,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2759,
-        "ehp": 4680,
-        "strength": 6738,
+        "mix": 3685,
+        "ehp": 4683,
+        "strength": 7666,
         "hp": 3712
       },
       {
@@ -1099,9 +1100,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2819,
-        "ehp": 4836,
-        "strength": 6930,
+        "mix": 3937,
+        "ehp": 4847,
+        "strength": 8057,
         "hp": 3840
       },
       {
@@ -1113,9 +1114,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2822,
-        "ehp": 4836,
-        "strength": 6933,
+        "mix": 3940,
+        "ehp": 4848,
+        "strength": 8060,
         "hp": 3840
       },
       {
@@ -1127,9 +1128,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2825,
-        "ehp": 4836,
-        "strength": 6936,
+        "mix": 3943,
+        "ehp": 4848,
+        "strength": 8063,
         "hp": 3840
       },
       {
@@ -1141,9 +1142,9 @@
           "Plated Steelcaps",
           "Riftmaker"
         ],
-        "mix": 2828,
-        "ehp": 4836,
-        "strength": 6939,
+        "mix": 3946,
+        "ehp": 4848,
+        "strength": 8066,
         "hp": 3840
       },
       {
@@ -1156,9 +1157,9 @@
           "Riftmaker",
           "Amaranth's Twinguard"
         ],
-        "mix": 2875,
-        "ehp": 5200,
-        "strength": 7295,
+        "mix": 3995,
+        "ehp": 5208,
+        "strength": 8421,
         "hp": 4140
       }
     ]
