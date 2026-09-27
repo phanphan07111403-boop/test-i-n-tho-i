@@ -1,0 +1,38 @@
+{
+  "patch": "7.3",
+  "voli": {
+    "name": "Volibear",
+    "gamesir": 9.4,
+    "touch": 8.0,
+    "lane": 8.6,
+    "duel": 9.2,
+    "teamfight": 6.2,
+    "wr_all": "54.4% WR / 5.0% pick, S+ wildriftmeta all ranks",
+    "wr_cn": "48.3% WR, C-tier Diamond+ CN (#32/41)"
+  },
+  "shen": {
+    "name": "Shen",
+    "gamesir": 6.2,
+    "touch": 8.6,
+    "lane": 6.4,
+    "duel": 6.2,
+    "teamfight": 9.3,
+    "wr_all": "48.4% WR / 1.1% pick, A wildriftmeta all ranks",
+    "wr_cn": "56.8% WR, S+ Diamond+ CN (#2/41)"
+  },
+  "edge": {
+    "gamesir": "Volibear",
+    "touch": "Shen",
+    "lane": "Volibear",
+    "duel": "Volibear",
+    "teamfight": "Shen"
+  },
+  "head_to_head": "Shen W if timed; Volibear if W is down",
+  "pick": {
+    "gamesir_1v1": "Volibear",
+    "touch_ranked": "Shen",
+    "lane": "Volibear",
+    "duel": "Volibear",
+    "teamfight": "Shen"
+  }
+}
