@@ -43,7 +43,7 @@ Lethal Tempo is the keystone that matches the items: Dusk extra on-hit, lightnin
 | Keystone | **Lethal Tempo** | AS stacks feed Skipper (4th auto), Dusk sheen weaving, and 5-stack lightning. |
 | Precision | **Brutal** | Flat adaptive on every auto. |
 | Precision | **Legend: Alacrity** | More AS on the same page. |
-| Precision | **Giant Slayer** | Your 1v1s are vs stuffed bruisers. **Last Stand** if you dive and sit low. |
+| Precision | **Last Stand** | You sit at ~45% HP in the W-heal 1v1. **Cut Down** (old Giant Slayer) if you stay full vs tanks. **Coup de Grace** only if they are already execute food. |
 | Resolve | **Second Wind** | Lane sustain between Q bites. |
 | Resolve | **Overgrowth** | Free HP for W heal and Riftmaker's AP-from-HP. |
 
@@ -52,6 +52,22 @@ Lethal Tempo is the keystone that matches the items: Dusk extra on-hit, lightnin
 Swap keystone to **Grasp** only into poke/range (Teemo, Kennen, Vayne) where you never stack Tempo. Then: Unshakeable, Second Wind, Overgrowth, Brutal, Last Stand.
 
 Do not take Aftershock — Volibear is not a one-taunt tank. Do not take Conqueror if you already bought Dusk; Tempo is the AS item page.
+
+## Last Stand vs Cut Down vs Coup de Grace
+
+Precision slot 2. **Last Stand** is the default on this page.
+
+| Rune | When it pays | Extra mix @14:00 slugfest |
+|------|----------------|---------------------------|
+| **Last Stand** | You are below 60% HP (5% → 11% at 30%). W-heal 1v1s sit ~45%. | **+125** |
+| **Cut Down** | They are above 60% HP (6.5%). Old Giant Slayer; nerfed 8% → 6.5% in 7.2. | +68 |
+| **Coup de Grace** | They are below 40% HP (8%). | +53 |
+
+Slugfest (this kit): Last Stand wins 8 / 14 / 22. You take damage, W heals you, you stay in the 5–11% band for most of the fight. That also amps the second bite.
+
+If **you stay full HP** (you are stomping, not dueling): Last Stand is **0**. Then Cut Down for tanks (front of their bar), Coup for squishies (execute). Do not take Coup as default — if they never drop below 40%, it does nothing.
+
+Grasp poke page: still Last Stand. You get poked down, then all-in.
 
 ## Why this order
 

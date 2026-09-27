@@ -42,6 +42,29 @@ Why Dusk first, not Trinity / Heartsteel
 Swap Hullbreaker → Riftmaker 2nd if you are grouping, not splitting.
 Do not buy Trinity and Dusk together (both spellblade).
 
+Precision slot 2 (Last Stand / Cut Down / Coup de Grace)
+  Cut Down is old Giant Slayer, nerfed 8% → 6.5% in 7.2.
+  Extra mix on the Dusk → Hull → Rift 8s 1v1.
+
+  Slugfest: you drop below 60% at ~2s, sit ~45% HP (W heal).
+  Dive/stomp: you stay healthy; they fall through 60% then 40%.
+
+  slugfest 1v1          8:00     14:00     22:00
+    Last Stand           117       125       203
+    Cut Down              51        68        82
+    Coup de Grace         62        53       101
+    edge          8:00 Last Stand, 14:00 Last Stand, 22:00 Last Stand
+
+  you stay full         8:00     14:00     22:00
+    Last Stand             0         0         0
+    Cut Down              51        68        82
+    Coup de Grace         62        53       101
+    edge          8:00 Coup de Grace, 14:00 Cut Down, 22:00 Coup de Grace
+
+  Default on this page: Last Stand. You live in the W-heal 1v1.
+  Cut Down only if you are the full-HP one hitting a tank.
+  Coup only if you already put them in execute and stay healthy.
+
 Dusk → Hull → Rift: Diamond+ CN 7.3 most-played core (~60% WR). Skipper 1v1 + AP vamp.
   Dusk complete ~7:00
 

@@ -376,6 +376,79 @@ def minute_of_item(path: Path, item_name: str) -> Optional[int]:
     return None
 
 
+# Precision slot 2 (patch 7.3). Giant Slayer was renamed Cut Down in 7.1
+# and nerfed 8% → 6.5% in 7.2.
+CUT_DOWN = 0.065  # vs enemies above 60% HP
+COUP = 0.08  # vs enemies below 40% HP
+# Last Stand: 5% at 60% HP, 11% at 30% HP or below. 0 above 60%.
+
+
+def last_stand_amp(hp_frac: float) -> float:
+    if hp_frac >= 0.60:
+        return 0.0
+    if hp_frac <= 0.30:
+        return 0.11
+    return 0.05 + 0.06 * (0.60 - hp_frac) / 0.30
+
+
+def rune_extras(mix: float, target_hp: float, voli_low_uptime: float, voli_hp: float) -> dict:
+    """Extra mix from each Precision slot-2 rune over an 8s linear fight."""
+    dealt = max(0.0, mix)
+    band_40 = 0.40 * target_hp
+    cut_portion = min(dealt, band_40)
+    if dealt > 0.60 * target_hp:
+        coup_portion = min(dealt - 0.60 * target_hp, band_40)
+    else:
+        coup_portion = 0.0
+    ls = mix * voli_low_uptime * last_stand_amp(voli_hp)
+    return {
+        "Last Stand": ls,
+        "Cut Down": cut_portion * CUT_DOWN,
+        "Coup de Grace": coup_portion * COUP,
+    }
+
+
+def rune_table(path: Path) -> List[str]:
+    """Slugfest 1v1 (you sit low) vs a clean dive (you stay high, they drop)."""
+    lines = [
+        "Precision slot 2 (Last Stand / Cut Down / Coup de Grace)",
+        "  Cut Down is old Giant Slayer, nerfed 8% → 6.5% in 7.2.",
+        "  Extra mix on the Dusk → Hull → Rift 8s 1v1.",
+        "",
+        "  Slugfest: you drop below 60% at ~2s, sit ~45% HP (W heal).",
+        "  Dive/stomp: you stay healthy; they fall through 60% then 40%.",
+        "",
+    ]
+    for label, uptime, hp_you in (
+        ("slugfest 1v1", 0.70, 0.45),
+        ("you stay full", 0.00, 0.90),
+    ):
+        lines.append(
+            f"  {label:<16}{'8:00':>10}{'14:00':>10}{'22:00':>10}"
+        )
+        rows = {"Last Stand": [], "Cut Down": [], "Coup de Grace": []}
+        for m in (8, 14, 22):
+            f = fight_at(path, m)
+            t_hp, _, _ = target_bruiser(m)
+            extras = rune_extras(f.mix, t_hp, uptime, hp_you)
+            for name in rows:
+                rows[name].append(extras[name])
+        for name, vals in rows.items():
+            cells = "".join(f"{v:10.0f}" for v in vals)
+            lines.append(f"    {name:<14}{cells}")
+        edges = []
+        for i, m in enumerate((8, 14, 22)):
+            best = max(rows, key=lambda n: rows[n][i])
+            edges.append(f"{m}:00 {best}")
+        lines.append(f"    edge          {', '.join(edges)}")
+        lines.append("")
+    lines.append("  Default on this page: Last Stand. You live in the W-heal 1v1.")
+    lines.append("  Cut Down only if you are the full-HP one hitting a tank.")
+    lines.append("  Coup only if you already put them in execute and stay healthy.")
+    lines.append("")
+    return lines
+
+
 def main() -> None:
     minutes = list(range(6, GAME_MINUTES + 1))
     snapshots: Dict[str, List[dict]] = {}
@@ -457,6 +530,7 @@ def main() -> None:
         "Do not buy Trinity and Dusk together (both spellblade).",
         "",
     ]
+    lines += rune_table(winner)
     for p in ranked:
         dusk_m = minute_of_item(p, "Dusk and Dawn")
         tri_m = minute_of_item(p, "Trinity Force")
@@ -482,6 +556,7 @@ def main() -> None:
             "Amaranth's Twinguard",
         ],
         "totals": {k: round(v) for k, v in totals.items()},
+        "precision_slot2": "Last Stand",
         "snapshots": snapshots,
     }
     (OUT_DIR / "report.txt").write_text(text + "\n", encoding="utf-8")
