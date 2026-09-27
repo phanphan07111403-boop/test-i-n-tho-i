@@ -18,7 +18,8 @@ Rk  Champ           Lane                    1v1  Tank   Pad    Tot
 8   Olaf            Jungle / Baron          8.2   7.8   7.4   7.82
 9   Darius          Baron                   9.0   6.4   7.6   7.67
 10  Aatrox          Baron                   8.0   8.0   5.4   7.22
-11  Fiora           Baron                   8.8   5.5   5.0   6.50
+11  Shen            Baron                   6.4   8.6   6.2   7.11
+12  Fiora           Baron                   8.8   5.5   5.0   6.50
 
 Why the analog stick matters
   Wild Rift has no native gamepad API. X3 Pro uses overlay mapping.

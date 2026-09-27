@@ -38,6 +38,8 @@ Ranked signal: Baron **~54.4% WR**, S+ on wildriftmeta 7.3.
 | 4 | Sett | 8.4 | 8.8 | 7.2 | 8.18 |
 | 5 | Mordekaiser | 9.0 | 8.3 | 7.0 | 8.15 |
 
+Shen is **#11** on this pad list (6.4 / 8.6 / 6.2). Tanky, not an easy 1v1, overlay hates R-select. He wins **without** GameSir — see `voli-vs-shen/`.
+
 Warwick is #2 on raw score (targeted Q heal + analog chase) but he is a **jungle** pick and 7.2c added ~20s to his ult CD. Garen is the **Baron backup** if Volibear is banned. Full table is in `report.txt`.
 
 ## X3 Pro mapping (Volibear)
@@ -103,6 +105,8 @@ Core Baron path: **Dusk and Dawn → Plated Steelcaps → Hullbreaker → Riftma
 - **Mordekaiser** — closest to a *forced* 1v1 (R island). E pull is a skillshot on overlay.
 
 Skip **Fiora / Aatrox / Irelia** on this pad: parry windows, 3-cast Qs, and minion targeting fight the overlay.
+
+**Shen** is the better Baron **without** GameSir (CN Diamond+ S+ 56.8% vs Volibear C 48.3%) and the better **teamfight** (global R). He is not the pad 1v1. Full split: `voli-vs-shen/`.
 
 ## Skip Volibear when
 

@@ -1,0 +1,59 @@
+Wild Rift Volibear vs Shen Baron — patch 7.3
+Same question split: GameSir vs touch, then lane / 1v1 / teamfight.
+
+Aspect                  Volibear      Shen        edge
+------------------------------------------------------
+GameSir X3 Pro               9.4       6.2    Volibear
+Touch (no pad)               8.0       8.6        Shen
+Lane (generic)               8.6       6.4    Volibear
+1v1 / side                   9.2       6.2    Volibear
+Teamfight                    6.2       9.3        Shen
+Head-to-head lane          skill    W wins      Shen W
+
+Ranked signal
+  Volibear  54.4% WR / 5.0% pick, S+ wildriftmeta all ranks
+            48.3% WR, C-tier Diamond+ CN (#32/41)
+  Shen      48.4% WR / 1.1% pick, A wildriftmeta all ranks
+            56.8% WR, S+ Diamond+ CN (#2/41)
+
+GameSir X3 Pro — Volibear
+  Q is analog chase + stun auto. W is a targeted bite. E can sit
+  on-feet with a GameSir gesture. R is a fat landing zone that
+  turns the tower off. Overlay mapping matches the kit.
+
+GameSir X3 Pro — Shen
+  E is a dash you must draw through them (miss = no taunt, no
+  energy). W needs the spirit blade in the right place. R is
+  picking an ally on the map — overlay is bad at portraits and
+  the minimap. Playable, not the pad champ.
+
+Touch (no pad) — Shen slightly
+  Thumbs are what WR was built for: swipe E, tap R on the ally
+  portrait, drag Q through them. Volibear is still easy, but
+  Shen's extra buttons stop being a tax. CN Diamond+ WR then
+  decides it: Shen S+ 56.8%, Volibear C 48.3%.
+
+Lane — Volibear
+  Q stun, W heal, E shield, R dive. Shen is the lowest-damage
+  top: Q is empowered autos, he farms and waits for R. Volibear
+  crashes and kills. Shen holds and does not die.
+
+1v1 / side — Volibear
+  Isolated 8s slugfest is Volibear's whole kit (Dusk → Hull →
+  Rift). Shen's kit is not a kill threat; he 1v9s by living and
+  ulting out, not by winning the duel.
+
+Teamfight — Shen
+  Global R + taunt peel + W block. Volibear dives one person
+  and has no peel after R. Shen threatens two places at once.
+
+Head-to-head (Voli lane vs Shen)
+  Shen W blocks the autos Volibear lives on (Q stun hit, W bite,
+  lightning). Taunt pauses Thundering Smash. Volibear E is magic
+  so it still lands. Fight around W: if Shen holds W for the
+  bite, he wins the trade. If W is down, Volibear runs him down.
+
+Pick
+  GameSir + want 1v1s: Volibear.
+  Touch + want to win ranked games: Shen.
+  Team needs a dive: Volibear. Team needs a save: Shen.

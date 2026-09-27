@@ -118,6 +118,17 @@
       "total": 7.22
     },
     {
+      "name": "Shen",
+      "lane": "Baron",
+      "duel": 6.4,
+      "tank": 8.6,
+      "pad": 6.2,
+      "wr_note": "CN Diamond+ S+ 56.8% WR; wildriftmeta all-ranks 48.4%",
+      "why": "Hard to kill (Ki Barrier, W auto-block, R out). Not an easy 1v1: lowest damage top. Overlay hates E dash-through, blade Q, and ally-select R. Play him on touch, or see voli-vs-shen/.",
+      "skip_if": "You asked for easy 1v1s on a GameSir. That is Volibear.",
+      "total": 7.11
+    },
+    {
       "name": "Fiora",
       "lane": "Baron",
       "duel": 8.8,
