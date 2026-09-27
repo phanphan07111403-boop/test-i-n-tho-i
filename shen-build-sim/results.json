@@ -1,56 +1,63 @@
 {
   "patch": "7.3",
   "constraint": "1st farm, 2nd 1v1, rest tank; no Heartsteel first",
-  "winner": "Titanic \u2192 Dusk \u2192 tank",
+  "winner": "Titanic \u2192 Dusk \u2192 Despair",
   "buy_order": [
     "Ruby Crystal",
     "Plated Steelcaps",
     "Titanic Hydra",
     "Dusk and Dawn",
     "Dawnshroud",
-    "Amaranth's Twinguard"
+    "Unending Despair"
   ],
   "scores": [
+    {
+      "path": "Titanic \u2192 Dusk \u2192 Despair",
+      "farm8": 0.864,
+      "mix16": 1458,
+      "ehp26": 5894,
+      "fit": 0.957
+    },
     {
       "path": "Titanic \u2192 Dusk \u2192 tank",
       "farm8": 0.864,
       "mix16": 1458,
-      "ehp22": 4929,
-      "fit": 0.937
-    },
-    {
-      "path": "Sunfire \u2192 Titanic \u2192 tank",
-      "farm8": 0.782,
-      "mix16": 1342,
-      "ehp22": 4929,
-      "fit": 0.882
-    },
-    {
-      "path": "Sunfire \u2192 Dusk \u2192 tank",
-      "farm8": 0.782,
-      "mix16": 1365,
-      "ehp22": 4801,
-      "fit": 0.879
+      "ehp26": 5314,
+      "fit": 0.925
     },
     {
       "path": "Hollow \u2192 Dusk \u2192 tank",
       "farm8": 0.795,
       "mix16": 1372,
-      "ehp22": 4617,
-      "fit": 0.873
+      "ehp26": 5561,
+      "fit": 0.895
+    },
+    {
+      "path": "Sunfire \u2192 Titanic \u2192 tank",
+      "farm8": 0.782,
+      "mix16": 1342,
+      "ehp26": 5314,
+      "fit": 0.87
+    },
+    {
+      "path": "Sunfire \u2192 Dusk \u2192 tank",
+      "farm8": 0.782,
+      "mix16": 1365,
+      "ehp26": 5186,
+      "fit": 0.867
     },
     {
       "path": "Heart \u2192 Sunfire \u2192 Dawn",
       "farm8": 0.354,
       "mix16": 1262,
-      "ehp22": 5250,
+      "ehp26": 5506,
       "fit": null
     },
     {
       "path": "Dusk first (Voli copy)",
       "farm8": 0.49,
       "mix16": 1674,
-      "ehp22": 4662,
+      "ehp26": 5609,
       "fit": null
     }
   ],
@@ -267,6 +274,63 @@
         "mix": 1501,
         "ehp": 4801,
         "wave": 0.973
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1508,
+        "ehp": 4801,
+        "wave": 0.973
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1514,
+        "ehp": 4801,
+        "wave": 0.973
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1520,
+        "ehp": 4801,
+        "wave": 0.973
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud",
+          "Amaranth's Twinguard"
+        ],
+        "mix": 1574,
+        "ehp": 5186,
+        "wave": 1.0
       }
     ],
     "Sunfire \u2192 Titanic \u2192 tank": [
@@ -480,6 +544,63 @@
         ],
         "mix": 1466,
         "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Dawnshroud"
+        ],
+        "mix": 1470,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Dawnshroud"
+        ],
+        "mix": 1474,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Dawnshroud"
+        ],
+        "mix": 1478,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Dawnshroud",
+          "Amaranth's Twinguard"
+        ],
+        "mix": 1545,
+        "ehp": 5314,
         "wave": 1.0
       }
     ],
@@ -695,6 +816,334 @@
         "mix": 1590,
         "ehp": 4929,
         "wave": 1.0
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1596,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1603,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1609,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud",
+          "Amaranth's Twinguard"
+        ],
+        "mix": 1659,
+        "ehp": 5314,
+        "wave": 1.0
+      }
+    ],
+    "Titanic \u2192 Dusk \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Ruby Crystal"
+        ],
+        "mix": 711,
+        "ehp": 2237,
+        "wave": 0.316
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Titanic Hydra"
+        ],
+        "mix": 1038,
+        "ehp": 2716,
+        "wave": 0.851
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Titanic Hydra"
+        ],
+        "mix": 1063,
+        "ehp": 2847,
+        "wave": 0.864
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1126,
+        "ehp": 3151,
+        "wave": 0.9
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1163,
+        "ehp": 3282,
+        "wave": 0.903
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1168,
+        "ehp": 3282,
+        "wave": 0.903
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1132,
+        "ehp": 3412,
+        "wave": 0.907
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1137,
+        "ehp": 3412,
+        "wave": 0.907
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps"
+        ],
+        "mix": 1122,
+        "ehp": 3543,
+        "wave": 0.929
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 1428,
+        "ehp": 3950,
+        "wave": 1.0
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 1458,
+        "ehp": 4080,
+        "wave": 1.0
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 1465,
+        "ehp": 4080,
+        "wave": 1.0
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 1494,
+        "ehp": 4210,
+        "wave": 1.0
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn"
+        ],
+        "mix": 1501,
+        "ehp": 4210,
+        "wave": 1.0
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1577,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1584,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1590,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1596,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1603,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud"
+        ],
+        "mix": 1609,
+        "ehp": 4929,
+        "wave": 1.0
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Titanic Hydra",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Dawnshroud",
+          "Unending Despair"
+        ],
+        "mix": 1783,
+        "ehp": 5894,
+        "wave": 1.0
       }
     ],
     "Hollow \u2192 Dusk \u2192 tank": [
@@ -909,6 +1358,64 @@
         "mix": 1494,
         "ehp": 4617,
         "wave": 0.995
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Hollow Radiance",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Force of Nature"
+        ],
+        "mix": 1500,
+        "ehp": 4617,
+        "wave": 0.995
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Hollow Radiance",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Force of Nature"
+        ],
+        "mix": 1507,
+        "ehp": 4617,
+        "wave": 0.995
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Hollow Radiance",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Force of Nature",
+          "Unending Despair"
+        ],
+        "mix": 1684,
+        "ehp": 5561,
+        "wave": 1.0
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Hollow Radiance",
+          "Plated Steelcaps",
+          "Dusk and Dawn",
+          "Force of Nature",
+          "Unending Despair"
+        ],
+        "mix": 1691,
+        "ehp": 5561,
+        "wave": 1.0
       }
     ],
     "Heart \u2192 Sunfire \u2192 Dawn": [
@@ -1123,6 +1630,65 @@
         "mix": 1384,
         "ehp": 5250,
         "wave": 0.986
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Dawnshroud"
+        ],
+        "mix": 1388,
+        "ehp": 5250,
+        "wave": 0.986
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Dawnshroud",
+          "Thornmail"
+        ],
+        "mix": 1427,
+        "ehp": 5506,
+        "wave": 1.0
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Dawnshroud",
+          "Thornmail"
+        ],
+        "mix": 1431,
+        "ehp": 5506,
+        "wave": 1.0
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Dawnshroud",
+          "Thornmail"
+        ],
+        "mix": 1435,
+        "ehp": 5506,
+        "wave": 1.0
       }
     ],
     "Dusk first (Voli copy)": [
@@ -1333,6 +1899,63 @@
         ],
         "mix": 2047,
         "ehp": 4662,
+        "wave": 0.629
+      },
+      {
+        "m": 23,
+        "gold": 11830,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 2055,
+        "ehp": 4662,
+        "wave": 0.629
+      },
+      {
+        "m": 24,
+        "gold": 12400,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 2064,
+        "ehp": 4662,
+        "wave": 0.629
+      },
+      {
+        "m": 25,
+        "gold": 12970,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 2072,
+        "ehp": 4663,
+        "wave": 0.629
+      },
+      {
+        "m": 26,
+        "gold": 13540,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker",
+          "Unending Despair"
+        ],
+        "mix": 2266,
+        "ehp": 5609,
         "wave": 0.629
       }
     ]

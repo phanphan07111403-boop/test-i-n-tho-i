@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 
 PATCH = "7.3"
-GAME_MINUTES = 22
+GAME_MINUTES = 26
 FIGHT_S = 8.0
 OUT_DIR = Path(__file__).resolve().parent
 
@@ -43,7 +43,7 @@ def level_at_minute(m: int) -> int:
         1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9,
         9: 10, 10: 11, 11: 11, 12: 12, 13: 12, 14: 13,
         15: 13, 16: 14, 17: 14, 18: 15, 19: 15, 20: 15,
-        21: 15, 22: 15,
+        21: 15, 22: 15, 23: 15, 24: 15, 25: 15, 26: 15,
     }
     return table.get(m, min(15, 1 + m))
 
@@ -140,7 +140,12 @@ PATHS = [
     Path(
         "Titanic → Dusk → tank",
         ["Titanic Hydra", "Dusk and Dawn", "Dawnshroud", "Amaranth's Twinguard"],
-        "Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.",
+        "Fastest shove 1st, Dusk 2nd, Dawnshroud then Twinguard.",
+    ),
+    Path(
+        "Titanic → Dusk → Despair",
+        ["Titanic Hydra", "Dusk and Dawn", "Dawnshroud", "Unending Despair"],
+        "Same farm/1v1; 4th Unending Despair for 1v9 pulse heal instead of Twinguard.",
     ),
     Path(
         "Hollow → Dusk → tank",
@@ -395,7 +400,7 @@ def main() -> None:
     minutes = list(range(6, GAME_MINUTES + 1))
     snapshots: Dict[str, List[dict]] = {}
     # Constraint score: farm at 8, 1v1 mix at 14, tank ehp at 22.
-    farm_m, duel_m, tank_m = 8, 16, 22
+    farm_m, duel_m, tank_m = 8, 16, 26
     rows_score = []
     for path in PATHS:
         snap = []
@@ -453,7 +458,7 @@ def main() -> None:
         "Safer/cheaper farm: Sunfire 1st (Bami's), then Dusk 2nd, same tank rest.",
         "Do not buy Heartsteel. Do not rush Dusk first (it does not farm).",
         "",
-        f"{'Path':<26}{'farm8':>8}{'mix16':>8}{'ehp22':>8}{'fit':>7}",
+        f"{'Path':<28}{'farm8':>8}{'mix16':>8}{'ehp26':>8}{'fit':>7}",
         "-" * 57,
     ]
     for path, farm, mix, ehp in ranked:
@@ -491,7 +496,7 @@ def main() -> None:
                 "path": p.name,
                 "farm8": round(farm, 3),
                 "mix16": round(mix),
-                "ehp22": round(ehp),
+                "ehp26": round(ehp),
                 "fit": None if composite((p, farm, mix, ehp)) < 0 else round(composite((p, farm, mix, ehp)), 3),
             }
             for p, farm, mix, ehp in ranked

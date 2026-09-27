@@ -12,7 +12,7 @@ python3 shen-build-sim/simulate_shen_build.py
 
 ## Winner
 
-**Titanic Hydra → Dusk and Dawn → Dawnshroud → Amaranth's Twinguard**
+**Titanic Hydra → Dusk and Dawn → Dawnshroud → Unending Despair**
 
 | Slot | Item | Job |
 |------|------|-----|
@@ -22,7 +22,7 @@ python3 shen-build-sim/simulate_shen_build.py
 | Boots | Plated Steelcaps | Mercury's vs AP/CC |
 | **2nd** | **Dusk and Dawn** (3100) | Extra on-hit on Q’s 3 autos. This is the 1v1. |
 | **3rd** | **Dawnshroud** | Taunt proc, armor/MR |
-| **4th / 5th** | Twinguard, Thornmail, Force of Nature | 1v9 tank |
+| **4th** | **Unending Despair** | 1v9 pulse heal (default) |
 | Enchant | Stoneplate | |
 
 Do **not** buy Heartsteel. Do **not** rush Dusk first (49% wave vs Titanic’s 86%).
@@ -37,14 +37,13 @@ Dusk stays **2nd**, not 1st: same Q sheen 1v1 as before, after you already shove
 
 ## Rank (constraint fit)
 
-| Path | Farm 8:00 | 1v1 mix 16:00 | Tank ehp 22:00 |
+| Path | Farm 8:00 | 1v1 mix 16:00 | Tank ehp 26:00 |
 |------|-----------|---------------|----------------|
-| **Titanic → Dusk → tank** | **86%** | **1458** | 4929 |
-| Sunfire → Titanic → tank | 78% | 1342 | 4929 |
-| Sunfire → Dusk → tank | 78% | 1365 | 4801 |
-| Hollow → Dusk → tank | 79% | 1372 | 4617 |
-| Heart → Sunfire → Dawn | 35% | 1262 | 5250 (skipped) |
-| Dusk first | 49% | 1674 | 4662 (skipped) |
+| **Titanic → Dusk → Despair** | **86%** | **1458** | **5894** |
+| Titanic → Dusk → Twinguard | 86% | 1458 | 5314 |
+| Hollow → Dusk → tank | 79% | 1372 | 5561 |
+| Sunfire → Titanic → tank | 78% | 1342 | 5314 |
+| Sunfire → Dusk → tank | 78% | 1365 | 5186 |
 
 ## Swaps
 
@@ -52,6 +51,22 @@ Dusk stays **2nd**, not 1st: same Q sheen 1v1 as before, after you already shove
 - **Safer/cheaper farm:** Sunfire 1st (still Bami’s), Dusk 2nd, same tank rest.
 - They heal: Thornmail in the tank slots.
 - Crit AD: Randuin instead of Twinguard.
+- **Unending Despair:** yes as a **4th** tank item, not 1st/2nd. See below.
+
+## Unending Despair — buy or skip?
+
+**Buy it 4th** if the 1v9 is a long fight. Skip it 1st/2nd (it does not farm, it is not the Q sheen). Do not use it *instead of* Dawnshroud 3rd — you still want the taunt proc.
+
+Every 4s in combat: 3% max HP magic to nearby champs, heal **250%** of that (7.5% of your max HP per pulse). Two pulses in an 8s brawl is a lot of HP back. That is the 1v9 item. Dual 40 armor / 40 MR also covers mixed damage.
+
+| 4th item | Take when |
+|----------|-----------|
+| **Unending Despair** | Fights last. You walk into 2–3 people and outlive them. Default 1v9 4th. |
+| **Twinguard** | They burst/crit/CC you in the first 3s (Twinguard’s +30% resists + tenacity need 5s to stack). |
+| **Thornmail** | They heal. |
+| **Force of Nature** | They are AP. |
+
+If the game goes long: Dawnshroud → Despair → Twinguard. If you only get one more slot after Dawnshroud, **Despair** for 1v9, Twinguard for burst.
 
 ## Runes
 

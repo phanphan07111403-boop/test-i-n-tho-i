@@ -2,8 +2,8 @@ Wild Rift Shen Baron — farm / 1v1 / tank — patch 7.3
 Heartsteel first is too slow (no wave tool).
 1st farms the wave, 2nd wins the 1v1, rest is tank for 1v9.
 
-WINNER: Titanic → Dusk → tank
-  Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.
+WINNER: Titanic → Dusk → Despair
+  Same farm/1v1; 4th Unending Despair for 1v9 pulse heal instead of Twinguard.
 
 Buy order
   Start     Ruby Crystal. First back: Bami's Cinder (farm now).
@@ -11,45 +11,50 @@ Buy order
   Boots     Plated Steelcaps
   2nd item  Dusk and Dawn          1v1
   3rd item  Dawnshroud             tank
-  4th item  Amaranth's Twinguard   tank / 1v9
+  4th item  Unending Despair       tank / 1v9
   Enchant   Stoneplate
 
 Vs AP lane: Hollow Radiance 1st instead of Titanic, FoN later.
 Safer/cheaper farm: Sunfire 1st (Bami's), then Dusk 2nd, same tank rest.
 Do not buy Heartsteel. Do not rush Dusk first (it does not farm).
 
-Path                         farm8   mix16   ehp22    fit
+Path                           farm8   mix16   ehp26    fit
 ---------------------------------------------------------
-Titanic → Dusk → tank         0.86    1458    4929   0.94
-Sunfire → Titanic → tank      0.78    1342    4929   0.88
-Sunfire → Dusk → tank         0.78    1365    4801   0.88
-Hollow → Dusk → tank          0.79    1372    4617   0.87
-Heart → Sunfire → Dawn        0.35    1262    5250   skip
-Dusk first (Voli copy)        0.49    1674    4662   skip
+Titanic → Dusk → Despair      0.86    1458    5894   0.96
+Titanic → Dusk → tank         0.86    1458    5314   0.92
+Hollow → Dusk → tank          0.79    1372    5561   0.89
+Sunfire → Titanic → tank      0.78    1342    5314   0.87
+Sunfire → Dusk → tank         0.78    1365    5186   0.87
+Heart → Sunfire → Dawn        0.35    1262    5506   skip
+Dusk first (Voli copy)        0.49    1674    5609   skip
 
 First item ~8:00 (the farm check)
+  Titanic → Dusk → Despair   wave 86%  [Titanic Hydra]
   Titanic → Dusk → tank      wave 86%  [Titanic Hydra]
+  Hollow → Dusk → tank       wave 79%  [Hollow Radiance]
   Sunfire → Titanic → tank   wave 78%  [Sunfire Aegis]
   Sunfire → Dusk → tank      wave 78%  [Sunfire Aegis]
-  Hollow → Dusk → tank       wave 79%  [Hollow Radiance]
   Heart → Sunfire → Dawn     wave 35%  [Heartsteel]
   Dusk first (Voli copy)     wave 49%  [Dusk and Dawn]
 
 Two-item ~16:00 (the 1v1 check)
+  Titanic → Dusk → Despair   mix  1458  ehp  4080  [Titanic Hydra, Plated Steelcaps, Dusk and Dawn]
   Titanic → Dusk → tank      mix  1458  ehp  4080  [Titanic Hydra, Plated Steelcaps, Dusk and Dawn]
+  Hollow → Dusk → tank       mix  1372  ehp  4022  [Hollow Radiance, Plated Steelcaps, Dusk and Dawn]
   Sunfire → Titanic → tank   mix  1342  ehp  4080  [Sunfire Aegis, Plated Steelcaps, Titanic Hydra]
   Sunfire → Dusk → tank      mix  1365  ehp  3964  [Sunfire Aegis, Plated Steelcaps, Dusk and Dawn]
-  Hollow → Dusk → tank       mix  1372  ehp  4022  [Hollow Radiance, Plated Steelcaps, Dusk and Dawn]
   Heart → Sunfire → Dawn     mix  1262  ehp  4371  [Heartsteel, Plated Steelcaps, Sunfire Aegis]
   Dusk first (Voli copy)     mix  1674  ehp  4022  [Dusk and Dawn, Plated Steelcaps, Hullbreaker]
 
-Titanic → Dusk → tank: Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.
+Titanic → Dusk → Despair: Same farm/1v1; 4th Unending Despair for 1v9 pulse heal instead of Twinguard.
+
+Titanic → Dusk → tank: Fastest shove 1st, Dusk 2nd, Dawnshroud then Twinguard.
+
+Hollow → Dusk → tank: AP-lane farm (Hollow burn). Same 2nd/rest plan.
 
 Sunfire → Titanic → tank: 1st burn-farm, 2nd cleave 1v1, rest tank.
 
 Sunfire → Dusk → tank: 1st burn-farm, 2nd Q sheen 1v1, rest tank. Fits the constraint.
-
-Hollow → Dusk → tank: AP-lane farm (Hollow burn). Same 2nd/rest plan.
 
 Heart → Sunfire → Dawn: Rejected: Heartsteel first. No wave tool. Game feels stuck.
 
