@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-Wild Rift Shen Baron — 1v1 item-order simulation
-Patch 7.3 (Sep 2026). Isolated 8s all-in vs a bruiser.
+Wild Rift Shen Baron — farm / 1v1 / tank item-order
+Patch 7.3 (Sep 2026).
 
-Same question as Volibear: strongest easy 1v1 + hard to kill.
-Also: does Dusk and Dawn work on Shen the way it works on Volibear?
+Heartsteel first is too slow (no wave tool). Constraint:
+  1st  farm the wave
+  2nd  1v1
+  rest tank for 1v9
 """
 
 from __future__ import annotations
@@ -105,6 +107,12 @@ ITEMS: Dict[str, Item] = {
     "Amaranth's Twinguard": Item(
         "Amaranth's Twinguard", 3200, hp=300, armor=50, mr=50
     ),
+    "Force of Nature": Item(
+        "Force of Nature", 2800, hp=400, mr=60
+    ),
+    "Hollow Radiance": Item(
+        "Hollow Radiance", 2800, hp=400, ah=15, mr=40, sunfire=True
+    ),
     "Plated Steelcaps": Item(
         "Plated Steelcaps", 1200, hp=150, armor=25, boots=True
     ),
@@ -120,29 +128,34 @@ class Path:
 
 PATHS = [
     Path(
-        "Heart → Sunfire → Titanic",
-        ["Heartsteel", "Sunfire Aegis", "Titanic Hydra", "Amaranth's Twinguard"],
-        "Diamond+ 1v1 alt. HP then burn then cleave. Same logic as Voli Skipper.",
+        "Sunfire → Dusk → tank",
+        ["Sunfire Aegis", "Dusk and Dawn", "Dawnshroud", "Amaranth's Twinguard"],
+        "1st burn-farm, 2nd Q sheen 1v1, rest tank. Fits the constraint.",
+    ),
+    Path(
+        "Sunfire → Titanic → tank",
+        ["Sunfire Aegis", "Titanic Hydra", "Dawnshroud", "Amaranth's Twinguard"],
+        "1st burn-farm, 2nd cleave 1v1, rest tank.",
+    ),
+    Path(
+        "Titanic → Dusk → tank",
+        ["Titanic Hydra", "Dusk and Dawn", "Dawnshroud", "Amaranth's Twinguard"],
+        "Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.",
+    ),
+    Path(
+        "Hollow → Dusk → tank",
+        ["Hollow Radiance", "Dusk and Dawn", "Force of Nature", "Unending Despair"],
+        "AP-lane farm (Hollow burn). Same 2nd/rest plan.",
     ),
     Path(
         "Heart → Sunfire → Dawn",
         ["Heartsteel", "Sunfire Aegis", "Dawnshroud", "Thornmail"],
-        "Diamond+ CN most-played core (~61% WR). Tank, not a duelist spike.",
-    ),
-    Path(
-        "Heart → Dusk → Titanic",
-        ["Heartsteel", "Dusk and Dawn", "Titanic Hydra", "Sunfire Aegis"],
-        "Dusk as 2nd: short-trade sheen + extra Q on-hit, after HP stack.",
-    ),
-    Path(
-        "Heart → Iceborn → Sunfire",
-        ["Heartsteel", "Iceborn Gauntlet", "Sunfire Aegis", "Thornmail"],
-        "Tank sheen. Stick + armor. No AP, no extra on-hit.",
+        "Rejected: Heartsteel first. No wave tool. Game feels stuck.",
     ),
     Path(
         "Dusk first (Voli copy)",
         ["Dusk and Dawn", "Hullbreaker", "Riftmaker", "Unending Despair"],
-        "Copy-paste Volibear. Shen does not scale AP like Voli lightning/E/R.",
+        "Rejected: Dusk does not farm the wave.",
     ),
 ]
 
@@ -308,6 +321,68 @@ def fight_at(path: Path, m: int) -> Fight:
     )
 
 
+def wave_frac(path: Path, m: int, seconds: float = 4.0) -> float:
+    """Fraction of a cannon wave killed in `seconds`. Q is 150% vs minions.
+    Sunfire Immolate is 200% vs minions. Titanic cone hits the rest of the wave.
+    """
+    lv = level_at_minute(m)
+    inv = inventory_at_gold(path, gold_at_minute(m))
+    q = skill_rank(lv, "Q")
+    base_hp, base_ad = shen_base(lv)
+    bonus_hp = sum(i.hp for i in inv)
+    bonus_ad = sum(i.ad for i in inv)
+    ap = sum(i.ap for i in inv)
+    as_pct = sum(i.as_pct for i in inv)
+    total_ad = base_ad + bonus_ad
+    has_dusk = any(i.sheen == "dusk" for i in inv)
+    has_sf = any(i.sunfire for i in inv)
+    has_ti = any(i.titanic for i in inv)
+
+    # ~8 min cannon wave
+    melee_hp, caster_hp, cannon_hp = 480.0, 320.0, 900.0
+    melee_n, caster_n = 3, 3
+    minion_ar = 12.0
+    phys = resist_mult(minion_ar)
+
+    as_total = 0.70 * (1 + 0.025 * (lv - 1) + as_pct + (0.50 if q else 0))
+    n_aa = max(3, min(1 + int(seconds * as_total), 6))
+    n_q = min(3, n_aa)
+    # Q vs minions: 150% of the magic hit. Cap %HP so casters don't explode from champ ratios.
+    pct = min(q_hit_pct(q, ap, empowered=False) * 1.5, 0.12)
+    flat = q_flat(lv) * 1.5
+    q_hit = (flat + pct * 400.0)  # dummy 400 HP minion
+
+    aa_phys = n_aa * total_ad * phys
+    q_mag = n_q * q_hit
+    if has_dusk:
+        q_mag += q_hit
+        aa_phys += (0.75 * base_ad) * phys
+
+    burn = 0.0
+    if has_sf:
+        tick = (20 + 0.015 * bonus_hp) * 2.0  # ~200% vs minions
+        burn = tick * seconds
+
+    cleave_primary = 0.0
+    cleave_aoe = 0.0
+    if has_ti:
+        n_c = max(1, int(seconds / 1.75))
+        cleave_primary = n_c * (25 + 0.03 * bonus_hp) * phys
+        cleave_aoe = n_c * (80 + 0.10 * bonus_hp) * phys
+
+    def kill_frac(hp: float, extra: float) -> float:
+        dmg = aa_phys / 7.0 + q_mag / 7.0 + burn + extra
+        return min(1.0, dmg / hp)
+
+    # Autos+Q focus the cannon; burn and Titanic cone hit everyone.
+    cannon = min(1.0, (aa_phys + q_mag + burn + cleave_primary) / cannon_hp)
+    melee = kill_frac(melee_hp, cleave_aoe)
+    caster = kill_frac(caster_hp, cleave_aoe)
+    killed = cannon * cannon_hp + melee * melee_n * melee_hp + caster * caster_n * caster_hp
+    total = cannon_hp + melee_n * melee_hp + caster_n * caster_hp
+    return killed / total
+
+
 def minute_of_item(path: Path, item_name: str) -> Optional[int]:
     for m in range(1, GAME_MINUTES + 1):
         names = [i.name for i in inventory_at_gold(path, gold_at_minute(m))]
@@ -319,14 +394,14 @@ def minute_of_item(path: Path, item_name: str) -> Optional[int]:
 def main() -> None:
     minutes = list(range(6, GAME_MINUTES + 1))
     snapshots: Dict[str, List[dict]] = {}
-    totals: Dict[str, float] = {}
+    # Constraint score: farm at 8, 1v1 mix at 14, tank ehp at 22.
+    farm_m, duel_m, tank_m = 8, 16, 22
+    rows_score = []
     for path in PATHS:
-        rows = []
-        acc = 0.0
+        snap = []
         for m in minutes:
             f = fight_at(path, m)
-            acc += f.strength
-            rows.append(
+            snap.append(
                 {
                     "m": m,
                     "gold": gold_at_minute(m),
@@ -334,81 +409,93 @@ def main() -> None:
                     "items": f.items,
                     "mix": round(f.mix),
                     "ehp": round(f.ehp),
-                    "strength": round(f.strength),
+                    "wave": round(wave_frac(path, m), 3),
                 }
             )
-        snapshots[path.name] = rows
-        totals[path.name] = acc
+        snapshots[path.name] = snap
+        farm = wave_frac(path, farm_m)
+        mix = fight_at(path, duel_m).mix
+        ehp = fight_at(path, tank_m).ehp
+        rows_score.append((path, farm, mix, ehp))
 
-    ranked = sorted(PATHS, key=lambda p: totals[p.name], reverse=True)
-    winner = ranked[0]
-    first_item_m = 8
-    first_rows = [(p, fight_at(p, first_item_m)) for p in PATHS]
+    farm_max = max(r[1] for r in rows_score) or 1.0
+    mix_max = max(r[2] for r in rows_score) or 1.0
+    ehp_max = max(r[3] for r in rows_score) or 1.0
+
+    def composite(row: Tuple[Path, float, float, float]) -> float:
+        path, farm, mix, ehp = row
+        # Heartsteel / Dusk-first are shown but lose the constraint.
+        if path.legendaries[0] in ("Heartsteel", "Dusk and Dawn"):
+            return -1.0
+        return 0.34 * farm / farm_max + 0.33 * mix / mix_max + 0.33 * ehp / ehp_max
+
+    ranked = sorted(rows_score, key=composite, reverse=True)
+    winner = ranked[0][0]
 
     lines = [
-        f"Wild Rift Shen Baron item order — patch {PATCH}",
-        "8s isolated 1v1 vs a bruiser. Strength = mix + 0.85 × (HP+Ki+W block+heals).",
-        "Same logic as Volibear. Question: does Dusk and Dawn work on Shen?",
+        f"Wild Rift Shen Baron — farm / 1v1 / tank — patch {PATCH}",
+        "Heartsteel first is too slow (no wave tool).",
+        "1st farms the wave, 2nd wins the 1v1, rest is tank for 1v9.",
         "",
         f"WINNER: {winner.name}",
         f"  {winner.note}",
         "",
-        "Buy order (strongest 1v1, still hard to kill)",
-        "  Start     Ruby Crystal",
-        "  1st item  Heartsteel (2800)        ~6 min    Ki + E + Titanic scale HP",
+        "Buy order",
+        f"  Start     Ruby Crystal. First back: Bami's Cinder (farm now).",
+        f"  1st item  {winner.legendaries[0]:<22} farm the wave",
         "  Boots     Plated Steelcaps",
-        "  2nd item  Dusk and Dawn (3100)     extra on-hit on Q's 3 autos",
-        "  3rd item  Titanic Hydra (3000)     cleave on those same 3 hits",
-        "  4th item  Sunfire / Twinguard / Thornmail",
+        f"  2nd item  {winner.legendaries[1]:<22} 1v1",
+        f"  3rd item  {winner.legendaries[2]:<22} tank",
+        f"  4th item  {winner.legendaries[3]:<22} tank / 1v9",
         "  Enchant   Stoneplate",
         "",
-        "Dusk and Dawn on Shen: yes as 2nd item, no as a Volibear rush.",
-        "  First item Dusk loses the 8:00 window to Heartsteel (350 HP vs 700).",
-        "  Q only gets +1.5–2% max HP per 100 AP — 70 AP is small.",
-        "  Ki Barrier and E scale bonus HP, not AP. R's AP ratio shields an ally.",
-        "  What Dusk actually does: spellblade + extra on-hit on the Q auto.",
-        "  After Heartsteel, that 3-hit trade is the 1v1. Ranked tank page is",
-        "  Heart → Sunfire → Dawnshroud (~61% WR) if you group / ult more than duel.",
+        "Vs AP lane: Hollow Radiance 1st instead of Titanic, FoN later.",
+        "Safer/cheaper farm: Sunfire 1st (Bami's), then Dusk 2nd, same tank rest.",
+        "Do not buy Heartsteel. Do not rush Dusk first (it does not farm).",
         "",
-        f"{'Path':<28}{'8':>7}{'10':>7}{'14':>7}{'18':>7}{'22':>7}{'sum':>8}",
-        "-" * 72,
+        f"{'Path':<26}{'farm8':>8}{'mix16':>8}{'ehp22':>8}{'fit':>7}",
+        "-" * 57,
     ]
-    for p in ranked:
-        cells = "".join(f"{fight_at(p, m).strength:7.0f}" for m in (8, 10, 14, 18, 22))
-        lines.append(f"{p.name:<28}{cells}{totals[p.name]:8.0f}")
+    for path, farm, mix, ehp in ranked:
+        fit = composite((path, farm, mix, ehp))
+        fit_s = f"{fit:7.2f}" if fit >= 0 else "   skip"
+        lines.append(f"{path.name:<26}{farm:8.2f}{mix:8.0f}{ehp:8.0f}{fit_s}")
 
-    lines += ["", "First legendary window (~8:00)"]
-    for p, f in sorted(first_rows, key=lambda x: x[1].strength, reverse=True):
+    lines += ["", "First item ~8:00 (the farm check)"]
+    for path, farm, mix, ehp in ranked:
+        f = fight_at(path, 8)
         lines.append(
-            f"  {p.name:<28} mix {f.mix:5.0f}  ehp {f.ehp:5.0f}  "
-            f"str {f.strength:5.0f}  [{', '.join(f.items)}]"
+            f"  {path.name:<26} wave {wave_frac(path, 8):.0%}  "
+            f"[{', '.join(f.items)}]"
+        )
+    lines += ["", "Two-item ~16:00 (the 1v1 check)"]
+    for path, farm, mix, ehp in ranked:
+        f = fight_at(path, 16)
+        lines.append(
+            f"  {path.name:<26} mix {f.mix:5.0f}  ehp {f.ehp:5.0f}  "
+            f"[{', '.join(f.items)}]"
         )
     lines.append("")
-    for p in ranked:
-        dusk_m = minute_of_item(p, "Dusk and Dawn")
-        hs_m = minute_of_item(p, "Heartsteel")
-        lines.append(f"{p.name}: {p.note}")
-        if hs_m:
-            lines.append(f"  Heartsteel ~{hs_m}:00")
-        if dusk_m:
-            lines.append(f"  Dusk ~{dusk_m}:00")
+    for path, farm, mix, ehp in ranked:
+        lines.append(f"{path.name}: {path.note}")
         lines.append("")
 
     text = "\n".join(lines)
     payload = {
         "patch": PATCH,
+        "constraint": "1st farm, 2nd 1v1, rest tank; no Heartsteel first",
         "winner": winner.name,
-        "dusk_first_ok": False,
-        "dusk_second_ok": True,
-        "buy_order": [
-            "Ruby Crystal",
-            "Heartsteel",
-            "Plated Steelcaps",
-            "Dusk and Dawn",
-            "Titanic Hydra",
-            "Sunfire Aegis",
+        "buy_order": ["Ruby Crystal", "Plated Steelcaps"] + winner.legendaries,
+        "scores": [
+            {
+                "path": p.name,
+                "farm8": round(farm, 3),
+                "mix16": round(mix),
+                "ehp22": round(ehp),
+                "fit": None if composite((p, farm, mix, ehp)) < 0 else round(composite((p, farm, mix, ehp)), 3),
+            }
+            for p, farm, mix, ehp in ranked
         ],
-        "totals": {k: round(v) for k, v in totals.items()},
         "snapshots": snapshots,
     }
     (OUT_DIR / "report.txt").write_text(text + "\n", encoding="utf-8")

@@ -1,55 +1,57 @@
-Wild Rift Shen Baron item order — patch 7.3
-8s isolated 1v1 vs a bruiser. Strength = mix + 0.85 × (HP+Ki+W block+heals).
-Same logic as Volibear. Question: does Dusk and Dawn work on Shen?
+Wild Rift Shen Baron — farm / 1v1 / tank — patch 7.3
+Heartsteel first is too slow (no wave tool).
+1st farms the wave, 2nd wins the 1v1, rest is tank for 1v9.
 
-WINNER: Heart → Dusk → Titanic
-  Dusk as 2nd: short-trade sheen + extra Q on-hit, after HP stack.
+WINNER: Titanic → Dusk → tank
+  Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.
 
-Buy order (strongest 1v1, still hard to kill)
-  Start     Ruby Crystal
-  1st item  Heartsteel (2800)        ~6 min    Ki + E + Titanic scale HP
+Buy order
+  Start     Ruby Crystal. First back: Bami's Cinder (farm now).
+  1st item  Titanic Hydra          farm the wave
   Boots     Plated Steelcaps
-  2nd item  Dusk and Dawn (3100)     extra on-hit on Q's 3 autos
-  3rd item  Titanic Hydra (3000)     cleave on those same 3 hits
-  4th item  Sunfire / Twinguard / Thornmail
+  2nd item  Dusk and Dawn          1v1
+  3rd item  Dawnshroud             tank
+  4th item  Amaranth's Twinguard   tank / 1v9
   Enchant   Stoneplate
 
-Dusk and Dawn on Shen: yes as 2nd item, no as a Volibear rush.
-  First item Dusk loses the 8:00 window to Heartsteel (350 HP vs 700).
-  Q only gets +1.5–2% max HP per 100 AP — 70 AP is small.
-  Ki Barrier and E scale bonus HP, not AP. R's AP ratio shields an ally.
-  What Dusk actually does: spellblade + extra on-hit on the Q auto.
-  After Heartsteel, that 3-hit trade is the 1v1. Ranked tank page is
-  Heart → Sunfire → Dawnshroud (~61% WR) if you group / ult more than duel.
+Vs AP lane: Hollow Radiance 1st instead of Titanic, FoN later.
+Safer/cheaper farm: Sunfire 1st (Bami's), then Dusk 2nd, same tank rest.
+Do not buy Heartsteel. Do not rush Dusk first (it does not farm).
 
-Path                              8     10     14     18     22     sum
-------------------------------------------------------------------------
-Heart → Dusk → Titanic         3625   4098   4293   5228   6000   78791
-Heart → Sunfire → Titanic      3625   4098   4293   5113   5905   77994
-Heart → Sunfire → Dawn         3625   4098   4293   5113   5846   77819
-Heart → Iceborn → Sunfire      3625   4098   4293   4947   5525   76009
-Dusk first (Voli copy)         3352   3849   4064   5247   6009   74424
+Path                         farm8   mix16   ehp22    fit
+---------------------------------------------------------
+Titanic → Dusk → tank         0.86    1458    4929   0.94
+Sunfire → Titanic → tank      0.78    1342    4929   0.88
+Sunfire → Dusk → tank         0.78    1365    4801   0.88
+Hollow → Dusk → tank          0.79    1372    4617   0.87
+Heart → Sunfire → Dawn        0.35    1262    5250   skip
+Dusk first (Voli copy)        0.49    1674    4662   skip
 
-First legendary window (~8:00)
-  Heart → Sunfire → Titanic    mix   958  ehp  3137  str  3625  [Heartsteel]
-  Heart → Sunfire → Dawn       mix   958  ehp  3137  str  3625  [Heartsteel]
-  Heart → Dusk → Titanic       mix   958  ehp  3137  str  3625  [Heartsteel]
-  Heart → Iceborn → Sunfire    mix   958  ehp  3137  str  3625  [Heartsteel]
-  Dusk first (Voli copy)       mix  1031  ehp  2730  str  3352  [Dusk and Dawn]
+First item ~8:00 (the farm check)
+  Titanic → Dusk → tank      wave 86%  [Titanic Hydra]
+  Sunfire → Titanic → tank   wave 78%  [Sunfire Aegis]
+  Sunfire → Dusk → tank      wave 78%  [Sunfire Aegis]
+  Hollow → Dusk → tank       wave 79%  [Hollow Radiance]
+  Heart → Sunfire → Dawn     wave 35%  [Heartsteel]
+  Dusk first (Voli copy)     wave 49%  [Dusk and Dawn]
 
-Heart → Dusk → Titanic: Dusk as 2nd: short-trade sheen + extra Q on-hit, after HP stack.
-  Heartsteel ~6:00
-  Dusk ~15:00
+Two-item ~16:00 (the 1v1 check)
+  Titanic → Dusk → tank      mix  1458  ehp  4080  [Titanic Hydra, Plated Steelcaps, Dusk and Dawn]
+  Sunfire → Titanic → tank   mix  1342  ehp  4080  [Sunfire Aegis, Plated Steelcaps, Titanic Hydra]
+  Sunfire → Dusk → tank      mix  1365  ehp  3964  [Sunfire Aegis, Plated Steelcaps, Dusk and Dawn]
+  Hollow → Dusk → tank       mix  1372  ehp  4022  [Hollow Radiance, Plated Steelcaps, Dusk and Dawn]
+  Heart → Sunfire → Dawn     mix  1262  ehp  4371  [Heartsteel, Plated Steelcaps, Sunfire Aegis]
+  Dusk first (Voli copy)     mix  1674  ehp  4022  [Dusk and Dawn, Plated Steelcaps, Hullbreaker]
 
-Heart → Sunfire → Titanic: Diamond+ 1v1 alt. HP then burn then cleave. Same logic as Voli Skipper.
-  Heartsteel ~6:00
+Titanic → Dusk → tank: Fastest shove 1st, Dusk 2nd for the 3-hit 1v1, rest tank.
 
-Heart → Sunfire → Dawn: Diamond+ CN most-played core (~61% WR). Tank, not a duelist spike.
-  Heartsteel ~6:00
+Sunfire → Titanic → tank: 1st burn-farm, 2nd cleave 1v1, rest tank.
 
-Heart → Iceborn → Sunfire: Tank sheen. Stick + armor. No AP, no extra on-hit.
-  Heartsteel ~6:00
+Sunfire → Dusk → tank: 1st burn-farm, 2nd Q sheen 1v1, rest tank. Fits the constraint.
 
-Dusk first (Voli copy): Copy-paste Volibear. Shen does not scale AP like Voli lightning/E/R.
-  Dusk ~7:00
+Hollow → Dusk → tank: AP-lane farm (Hollow burn). Same 2nd/rest plan.
+
+Heart → Sunfire → Dawn: Rejected: Heartsteel first. No wave tool. Game feels stuck.
+
+Dusk first (Voli copy): Rejected: Dusk does not farm the wave.
 

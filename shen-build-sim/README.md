@@ -1,6 +1,8 @@
-# Shen Baron — same 1v1 logic as Volibear
+# Shen Baron — farm, then 1v1, then tank
 
-Patch **7.3**. Isolated 8s 1v1 vs a bruiser. GameSir X3 Pro: E taunt is a dash button, Q is a pull-to-self, W is self-cast. **R still needs a thumb on the ally portrait.**
+Patch **7.3**. Heartsteel first is out: no wave tool, the game stalls.
+
+Constraint: **1st farms**, **2nd 1v1s**, **rest tanks for 1v9**.
 
 ## Run
 
@@ -8,59 +10,49 @@ Patch **7.3**. Isolated 8s 1v1 vs a bruiser. GameSir X3 Pro: E taunt is a dash b
 python3 shen-build-sim/simulate_shen_build.py
 ```
 
-## Does Dusk and Dawn work on Shen?
+## Winner
 
-**Not as a Volibear rush.** Dusk first loses the 8:00 window to Heartsteel (350 HP vs 700). Shen’s Ki Barrier, Shadow Dash, and Titanic all scale **bonus HP**. Q only gets +1.5–2% max HP per 100 AP, so 70 AP is a small tick. The AP on Stand United is for the **ally** shield, not your 1v1.
+**Titanic Hydra → Dusk and Dawn → Dawnshroud → Amaranth's Twinguard**
 
-**Yes as 2nd item after Heartsteel.** Dusk’s extra on-hit double-applies on a Q auto, and Q is three empowered hits. That is the same “sheen + extra on-hit” idea as Volibear, just after the HP stack Shen actually needs.
+| Slot | Item | Job |
+|------|------|-----|
+| Start | Ruby Crystal | |
+| First back | **Bami's Cinder** | Farm starts now, before the legendary |
+| **1st** | **Titanic Hydra** (3000) | Q + cleave deletes the wave. Cannon wave ~86% in 4s in the sim. |
+| Boots | Plated Steelcaps | Mercury's vs AP/CC |
+| **2nd** | **Dusk and Dawn** (3100) | Extra on-hit on Q’s 3 autos. This is the 1v1. |
+| **3rd** | **Dawnshroud** | Taunt proc, armor/MR |
+| **4th / 5th** | Twinguard, Thornmail, Force of Nature | 1v9 tank |
+| Enchant | Stoneplate | |
 
-Copying **Dusk → Hull → Rift** onto Shen is the worst path in the sim.
+Do **not** buy Heartsteel. Do **not** rush Dusk first (49% wave vs Titanic’s 86%).
 
-## Winner (1v1 strength)
+## Why this split
 
-**Heartsteel → Plated Steelcaps → Dusk and Dawn → Titanic Hydra → Sunfire / Twinguard**
+Heartsteel is 700 HP and a delayed proc. It does not hit the wave. In the sim a first-item Heartsteel clears **35%** of a cannon wave in 4s. Titanic clears **86%**. That is the “game too slow” feeling.
 
-| When | Buy |
-|------|-----|
-| Start | **Ruby Crystal** |
-| ~6:00 | **Heartsteel** |
-| Next | **Plated Steelcaps** |
-| 2nd | **Dusk and Dawn** — extra on-hit on Q’s 3 autos |
-| 3rd | **Titanic Hydra** — cleave on those same hits |
-| 4th | Sunfire, Twinguard, or Thornmail |
-| Enchant | Stoneplate |
+Dusk stays **2nd**, not 1st: same Q sheen 1v1 as before, after you already shove.
 
-If you **ult and group** more than you 1v1, take the Diamond+ tank core instead: Heartsteel → Sunfire → Dawnshroud (~61% WR). That path is close in the sim and better at being a tank.
+3rd+ is tank. You already spent two items on farm and the duel; the rest is so you can 1v9 after R.
 
-## Rank (sim)
+## Rank (constraint fit)
 
-| Path | 8:00 | 18:00 | 22:00 |
-|------|------|-------|-------|
-| **Heart → Dusk → Titanic** | 3625 | 5228 | **6000** |
-| Heart → Sunfire → Titanic | 3625 | 5113 | 5905 |
-| Heart → Sunfire → Dawn | 3625 | 5113 | 5846 |
-| Heart → Iceborn → Sunfire | 3625 | 4947 | 5525 |
-| Dusk first (Voli copy) | 3352 | 5247 | 6009 |
+| Path | Farm 8:00 | 1v1 mix 16:00 | Tank ehp 22:00 |
+|------|-----------|---------------|----------------|
+| **Titanic → Dusk → tank** | **86%** | **1458** | 4929 |
+| Sunfire → Titanic → tank | 78% | 1342 | 4929 |
+| Sunfire → Dusk → tank | 78% | 1365 | 4801 |
+| Hollow → Dusk → tank | 79% | 1372 | 4617 |
+| Heart → Sunfire → Dawn | 35% | 1262 | 5250 (skipped) |
+| Dusk first | 49% | 1674 | 4662 (skipped) |
 
-Dusk-first matches late damage and still **loses the game sum** because you spend the first two items squishy.
+## Swaps
 
-## Runes (this page)
+- **AP lane:** Hollow Radiance 1st, Force of Nature later.
+- **Safer/cheaper farm:** Sunfire 1st (still Bami’s), Dusk 2nd, same tank rest.
+- They heal: Thornmail in the tank slots.
+- Crit AD: Randuin instead of Twinguard.
 
-**Grasp of the Undying** — Shen trades in short windows (Q3 + E), not Lethal Tempo run-downs.
+## Runes
 
-| Slot | Take |
-|------|------|
-| Keystone | Grasp |
-| Resolve | Courage of the Colossus (shield on E taunt) |
-| Resolve | Second Wind |
-| Resolve | Overgrowth |
-| Domination | Sudden Impact (true damage after E dash) |
-| Precision | Legend: Tenacity |
-
-Flash + Ignite (or Teleport if you live on R). Max **Q > E > W**.
-
-## X3 Pro
-
-- Left stick: walk so the Spirit Blade **passes through them** (empowered Q).
-- A Q · B W (self) · X E (dash — aim with stick) · Y is unused in 1v1.
-- **R:** tap the ally portrait on glass. Do not try to macro R.
+Grasp, Courage of the Colossus, Second Wind, Overgrowth, Sudden Impact, Legend: Tenacity. Flash + Ignite (Teleport if you live on R). Max **Q > E > W**.
