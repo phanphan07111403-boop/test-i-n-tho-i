@@ -55,4 +55,8 @@ Dusk stays **2nd**, not 1st: same Q sheen 1v1 as before, after you already shove
 
 ## Runes
 
-Grasp, Courage of the Colossus, Second Wind, Overgrowth, Sudden Impact, Legend: Tenacity. Flash + Ignite (Teleport if you live on R). Max **Q > E > W**.
+Grasp, **Courage of the Colossus**, Second Wind, Overgrowth, Sudden Impact, Legend: Tenacity. Flash + Ignite (Teleport if you live on R). Max **Q > E > W**.
+
+**Colossus, not Unshakeable**, with Dawnshroud + Twinguard. Those two items already dump % armor/MR (Dawnshroud +20% on taunt, Twinguard +30% after 5s in combat). Unshakeable is another 3–9% resists plus 20% slow resist at 3 nearby champs — mostly the same stat, and it was nerfed in 7.2. Colossus is a **shield** on the same E taunt that procs Dawnshroud (25–45 + 1% max HP, 18s CD). That is extra HP, not more stacked resists.
+
+Take Unshakeable only if the 1v9 problem is **slows** (Ashe, Frozen Heart, Nasus W) and you need the slow resist. Twinguard tenacity does not replace that.
