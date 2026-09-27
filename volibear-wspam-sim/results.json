@@ -1,0 +1,5098 @@
+{
+  "patch": "7.3",
+  "playstyle": "W-spam heal/shield",
+  "fight_s": 12.0,
+  "hp_frac": 0.38,
+  "extra_bite_ah": 27.66,
+  "winner": "Heart \u2192 Sterak \u2192 Despair",
+  "winner_note": "Kindlegem buys the extra bite. Lifeline at ~17 is the mid-game shield.",
+  "rune_winner": "Grasp / Revitalize / Overgrowth",
+  "buy_order": [
+    "Long Sword",
+    "Heartsteel",
+    "Kindlegem (extra bite)",
+    "Plated Steelcaps",
+    "Sterak's Gage",
+    "Unending Despair",
+    "Amaranth's Twinguard"
+  ],
+  "skill_order": "W > Q > E, R at 5/9/13",
+  "spells": "Flash + Ignite",
+  "identity_totals": {
+    "Heart \u2192 Sterak \u2192 Despair": 60889,
+    "Heart \u2192 Despair \u2192 Sterak": 57769,
+    "Fimbul \u2192 Sterak \u2192 Twin": 52665,
+    "Heart \u2192 Rift \u2192 Despair": 49621,
+    "Heart \u2192 Titanic \u2192 Despair": 47456,
+    "Heart \u2192 Titanic \u2192 Sterak": 46416,
+    "Dusk \u2192 Rift \u2192 Despair": 45783,
+    "Heart \u2192 Tri \u2192 Despair": 45783,
+    "Tri \u2192 Heart \u2192 Despair": 43418,
+    "Heart \u2192 Tri \u2192 Sterak": 43127,
+    "Dusk \u2192 Hull \u2192 Rift": 41161
+  },
+  "sustain_totals": {
+    "Heart \u2192 Sterak \u2192 Despair": 48589,
+    "Heart \u2192 Despair \u2192 Sterak": 45731,
+    "Fimbul \u2192 Sterak \u2192 Twin": 41991,
+    "Heart \u2192 Rift \u2192 Despair": 36997,
+    "Heart \u2192 Titanic \u2192 Despair": 34797,
+    "Heart \u2192 Titanic \u2192 Sterak": 33785,
+    "Dusk \u2192 Rift \u2192 Despair": 30475,
+    "Heart \u2192 Tri \u2192 Despair": 32382,
+    "Tri \u2192 Heart \u2192 Despair": 28901,
+    "Heart \u2192 Tri \u2192 Sterak": 29829,
+    "Dusk \u2192 Hull \u2192 Rift": 25245
+  },
+  "runes": [
+    {
+      "page": "Grasp / Revitalize / Overgrowth",
+      "keystone": "Grasp",
+      "identity": 60889.35575359489,
+      "sustain": 48589.3767801865,
+      "heal14": 1259.6876902399997,
+      "shield14": 656.06794575,
+      "mix14": 2780.404106832745,
+      "heal22": 3061.8824210301495,
+      "shield22": 3807.376270188749,
+      "mix22": 4015.743560122187,
+      "note": "Resolve primary (legal 3+1). HSP + HP for E and the bite."
+    },
+    {
+      "page": "Grasp / Revitalize / Colossus",
+      "keystone": "Grasp",
+      "identity": 59857.627405597355,
+      "sustain": 47694.993460255006,
+      "heal14": 1239.47393024,
+      "shield14": 733.9499418749999,
+      "mix14": 2762.2979007672698,
+      "heal22": 2934.1775175049993,
+      "shield22": 3649.6459649999997,
+      "mix22": 3948.6274836325692,
+      "note": "Q stun shield instead of Overgrowth HP."
+    },
+    {
+      "page": "Conqueror / Bloodline / Revitalize",
+      "keystone": "Conqueror",
+      "identity": 57951.43000516879,
+      "sustain": 46449.873261600966,
+      "heal14": 1222.5465019768887,
+      "shield14": 643.71994575,
+      "mix14": 2603.4972862068303,
+      "heal22": 2991.4009027020807,
+      "shield22": 3543.2756021249998,
+      "mix22": 3748.8351666970857,
+      "note": "Precision primary. 9% Conq omnivamp + Bloodline. One Resolve: Revitalize."
+    },
+    {
+      "page": "Grasp / no Revitalize",
+      "keystone": "Grasp",
+      "identity": 55759.86588947089,
+      "sustain": 43459.886916062496,
+      "heal14": 1108.166017,
+      "shield14": 624.8266150000001,
+      "mix14": 2780.404106832745,
+      "heal22": 2736.8590936824994,
+      "shield22": 3382.4922045249996,
+      "mix22": 4015.743560122187,
+      "note": "Same keystone, no heal/shield amp."
+    },
+    {
+      "page": "Lethal Tempo / Alacrity",
+      "keystone": "Lethal Tempo",
+      "identity": 51952.100481073554,
+      "sustain": 39530.359747049995,
+      "heal14": 976.5027885,
+      "shield14": 613.066615,
+      "mix14": 2765.1667742470754,
+      "heal22": 2476.13991825,
+      "shield22": 3149.6545674999998,
+      "mix22": 3970.318911480725,
+      "note": "Duelist keystone. Extra autos, no HSP, no Overgrowth."
+    }
+  ],
+  "snapshots": {
+    "Heart \u2192 Despair \u2192 Sterak": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2311,
+        "heal": 742,
+        "shield": 491,
+        "sustain": 1233,
+        "ehp": 4576,
+        "identity": 1811,
+        "hp": 3343,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2528,
+        "heal": 1102,
+        "shield": 560,
+        "sustain": 1661,
+        "ehp": 5467,
+        "identity": 2293,
+        "hp": 3806,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2541,
+        "heal": 1113,
+        "shield": 566,
+        "sustain": 1679,
+        "ehp": 5530,
+        "identity": 2314,
+        "hp": 3852,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2735,
+        "heal": 1209,
+        "shield": 625,
+        "sustain": 1835,
+        "ehp": 6088,
+        "identity": 2518,
+        "hp": 4254,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair"
+        ],
+        "mix": 3023,
+        "heal": 2401,
+        "shield": 667,
+        "sustain": 3068,
+        "ehp": 7606,
+        "identity": 3824,
+        "hp": 4538,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 3160,
+        "heal": 2596,
+        "shield": 726,
+        "sustain": 3322,
+        "ehp": 8260,
+        "identity": 4112,
+        "hp": 4938,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 3185,
+        "heal": 2640,
+        "shield": 739,
+        "sustain": 3379,
+        "ehp": 8406,
+        "identity": 4175,
+        "hp": 5027,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 3265,
+        "heal": 2730,
+        "shield": 766,
+        "sustain": 3497,
+        "ehp": 8710,
+        "identity": 4313,
+        "hp": 5213,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 3279,
+        "heal": 2752,
+        "shield": 773,
+        "sustain": 3525,
+        "ehp": 8784,
+        "identity": 4345,
+        "hp": 5258,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 3293,
+        "heal": 2775,
+        "shield": 780,
+        "sustain": 3554,
+        "ehp": 8858,
+        "identity": 4377,
+        "hp": 5303,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Sterak's Gage"
+        ],
+        "mix": 3943,
+        "heal": 2929,
+        "shield": 3532,
+        "sustain": 6461,
+        "ehp": 12080,
+        "identity": 7446,
+        "hp": 5619,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Unending Despair",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 4016,
+        "heal": 3062,
+        "shield": 3807,
+        "sustain": 6869,
+        "ehp": 12761,
+        "identity": 7873,
+        "hp": 5892,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      }
+    ],
+    "Heart \u2192 Sterak \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2350,
+        "heal": 779,
+        "shield": 521,
+        "sustain": 1301,
+        "ehp": 4847,
+        "identity": 1888,
+        "hp": 3546,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2574,
+        "heal": 1151,
+        "shield": 590,
+        "sustain": 1741,
+        "ehp": 5754,
+        "identity": 2385,
+        "hp": 4012,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2587,
+        "heal": 1162,
+        "shield": 597,
+        "sustain": 1759,
+        "ehp": 5818,
+        "identity": 2406,
+        "hp": 4059,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2780,
+        "heal": 1260,
+        "shield": 656,
+        "sustain": 1916,
+        "ehp": 6379,
+        "identity": 2611,
+        "hp": 4463,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2822,
+        "heal": 1304,
+        "shield": 683,
+        "sustain": 1987,
+        "ehp": 6633,
+        "identity": 2692,
+        "hp": 4646,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2895,
+        "heal": 1348,
+        "shield": 710,
+        "sustain": 2058,
+        "ehp": 6887,
+        "identity": 2781,
+        "hp": 4829,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sterak's Gage"
+        ],
+        "mix": 3520,
+        "heal": 1422,
+        "shield": 3156,
+        "sustain": 4577,
+        "ehp": 9715,
+        "identity": 5457,
+        "hp": 5137,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sterak's Gage"
+        ],
+        "mix": 3602,
+        "heal": 1467,
+        "shield": 3233,
+        "sustain": 4700,
+        "ehp": 10024,
+        "identity": 5601,
+        "hp": 5324,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sterak's Gage"
+        ],
+        "mix": 3614,
+        "heal": 1478,
+        "shield": 3280,
+        "sustain": 4757,
+        "ehp": 10127,
+        "identity": 5661,
+        "hp": 5369,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sterak's Gage"
+        ],
+        "mix": 3626,
+        "heal": 1489,
+        "shield": 3326,
+        "sustain": 4815,
+        "ehp": 10230,
+        "identity": 5721,
+        "hp": 5415,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Unending Despair"
+        ],
+        "mix": 3943,
+        "heal": 2929,
+        "shield": 3532,
+        "sustain": 6461,
+        "ehp": 12080,
+        "identity": 7446,
+        "hp": 5619,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4016,
+        "heal": 3062,
+        "shield": 3807,
+        "sustain": 6869,
+        "ehp": 12761,
+        "identity": 7873,
+        "hp": 5892,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      }
+    ],
+    "Heart \u2192 Tri \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2311,
+        "heal": 742,
+        "shield": 491,
+        "sustain": 1233,
+        "ehp": 4576,
+        "identity": 1811,
+        "hp": 3343,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2528,
+        "heal": 1102,
+        "shield": 560,
+        "sustain": 1661,
+        "ehp": 5467,
+        "identity": 2293,
+        "hp": 3806,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3011,
+        "heal": 1113,
+        "shield": 566,
+        "sustain": 1679,
+        "ehp": 5530,
+        "identity": 2431,
+        "hp": 3852,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3214,
+        "heal": 1209,
+        "shield": 625,
+        "sustain": 1835,
+        "ehp": 6088,
+        "identity": 2638,
+        "hp": 4254,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3254,
+        "heal": 1252,
+        "shield": 651,
+        "sustain": 1903,
+        "ehp": 6332,
+        "identity": 2716,
+        "hp": 4430,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3336,
+        "heal": 1295,
+        "shield": 678,
+        "sustain": 1973,
+        "ehp": 6584,
+        "identity": 2807,
+        "hp": 4611,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force"
+        ],
+        "mix": 3984,
+        "heal": 1404,
+        "shield": 744,
+        "sustain": 2148,
+        "ehp": 7212,
+        "identity": 3144,
+        "hp": 5063,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force"
+        ],
+        "mix": 4062,
+        "heal": 1449,
+        "shield": 772,
+        "sustain": 2221,
+        "ehp": 7470,
+        "identity": 3236,
+        "hp": 5250,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force"
+        ],
+        "mix": 4074,
+        "heal": 1460,
+        "shield": 778,
+        "sustain": 2238,
+        "ehp": 7533,
+        "identity": 3257,
+        "hp": 5295,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force"
+        ],
+        "mix": 4087,
+        "heal": 1471,
+        "shield": 785,
+        "sustain": 2256,
+        "ehp": 7596,
+        "identity": 3277,
+        "hp": 5340,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Unending Despair"
+        ],
+        "mix": 4400,
+        "heal": 2892,
+        "shield": 815,
+        "sustain": 3707,
+        "ehp": 9251,
+        "identity": 4807,
+        "hp": 5544,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4472,
+        "heal": 3025,
+        "shield": 855,
+        "sustain": 3880,
+        "ehp": 9696,
+        "identity": 4998,
+        "hp": 5816,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Heart \u2192 Tri \u2192 Sterak": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2311,
+        "heal": 742,
+        "shield": 491,
+        "sustain": 1233,
+        "ehp": 4576,
+        "identity": 1811,
+        "hp": 3343,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2528,
+        "heal": 1102,
+        "shield": 560,
+        "sustain": 1661,
+        "ehp": 5467,
+        "identity": 2293,
+        "hp": 3806,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3011,
+        "heal": 1113,
+        "shield": 566,
+        "sustain": 1679,
+        "ehp": 5530,
+        "identity": 2431,
+        "hp": 3852,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3214,
+        "heal": 1209,
+        "shield": 625,
+        "sustain": 1835,
+        "ehp": 6088,
+        "identity": 2638,
+        "hp": 4254,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3254,
+        "heal": 1252,
+        "shield": 651,
+        "sustain": 1903,
+        "ehp": 6332,
+        "identity": 2716,
+        "hp": 4430,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Sheen"
+        ],
+        "mix": 3336,
+        "heal": 1295,
+        "shield": 678,
+        "sustain": 1973,
+        "ehp": 6584,
+        "identity": 2807,
+        "hp": 4611,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force"
+        ],
+        "mix": 3984,
+        "heal": 1404,
+        "shield": 744,
+        "sustain": 2148,
+        "ehp": 7212,
+        "identity": 3144,
+        "hp": 5063,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force",
+          "Ruby Crystal"
+        ],
+        "mix": 4108,
+        "heal": 1502,
+        "shield": 804,
+        "sustain": 2306,
+        "ehp": 7777,
+        "identity": 3333,
+        "hp": 5471,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force",
+          "Ruby Crystal"
+        ],
+        "mix": 4121,
+        "heal": 1513,
+        "shield": 811,
+        "sustain": 2324,
+        "ehp": 7842,
+        "identity": 3355,
+        "hp": 5517,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force",
+          "Ruby Crystal"
+        ],
+        "mix": 4133,
+        "heal": 1525,
+        "shield": 818,
+        "sustain": 2342,
+        "ehp": 7906,
+        "identity": 3376,
+        "hp": 5564,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force",
+          "Ruby Crystal"
+        ],
+        "mix": 4155,
+        "heal": 1547,
+        "shield": 832,
+        "sustain": 2378,
+        "ehp": 8035,
+        "identity": 3417,
+        "hp": 5657,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Trinity Force",
+          "Ruby Crystal"
+        ],
+        "mix": 4167,
+        "heal": 1558,
+        "shield": 838,
+        "sustain": 2396,
+        "ehp": 8099,
+        "identity": 3438,
+        "hp": 5703,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Heart \u2192 Titanic \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2350,
+        "heal": 779,
+        "shield": 521,
+        "sustain": 1301,
+        "ehp": 4847,
+        "identity": 1888,
+        "hp": 3546,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2574,
+        "heal": 1151,
+        "shield": 590,
+        "sustain": 1741,
+        "ehp": 5754,
+        "identity": 2385,
+        "hp": 4012,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2587,
+        "heal": 1162,
+        "shield": 597,
+        "sustain": 1759,
+        "ehp": 5818,
+        "identity": 2406,
+        "hp": 4059,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2780,
+        "heal": 1260,
+        "shield": 656,
+        "sustain": 1916,
+        "ehp": 6379,
+        "identity": 2611,
+        "hp": 4463,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2822,
+        "heal": 1304,
+        "shield": 683,
+        "sustain": 1987,
+        "ehp": 6633,
+        "identity": 2692,
+        "hp": 4646,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2895,
+        "heal": 1348,
+        "shield": 710,
+        "sustain": 2058,
+        "ehp": 6887,
+        "identity": 2781,
+        "hp": 4829,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra"
+        ],
+        "mix": 3695,
+        "heal": 1435,
+        "shield": 763,
+        "sustain": 2198,
+        "ehp": 7390,
+        "identity": 3122,
+        "hp": 5192,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra"
+        ],
+        "mix": 3759,
+        "heal": 1480,
+        "shield": 791,
+        "sustain": 2271,
+        "ehp": 7650,
+        "identity": 3211,
+        "hp": 5379,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra"
+        ],
+        "mix": 3775,
+        "heal": 1491,
+        "shield": 797,
+        "sustain": 2289,
+        "ehp": 7714,
+        "identity": 3232,
+        "hp": 5425,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Unending Despair"
+        ],
+        "mix": 4095,
+        "heal": 2911,
+        "shield": 821,
+        "sustain": 3731,
+        "ehp": 9314,
+        "identity": 4755,
+        "hp": 5583,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4207,
+        "heal": 3066,
+        "shield": 867,
+        "sustain": 3934,
+        "ehp": 9835,
+        "identity": 4986,
+        "hp": 5901,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Titanic Hydra",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4226,
+        "heal": 3090,
+        "shield": 874,
+        "sustain": 3964,
+        "ehp": 9913,
+        "identity": 5021,
+        "hp": 5949,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Despair x3",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Heart \u2192 Titanic \u2192 Sterak": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2350,
+        "heal": 779,
+        "shield": 521,
+        "sustain": 1301,
+        "ehp": 4847,
+        "identity": 1888,
+        "hp": 3546,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2574,
+        "heal": 1151,
+        "shield": 590,
+        "sustain": 1741,
+        "ehp": 5754,
+        "identity": 2385,
+        "hp": 4012,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2587,
+        "heal": 1162,
+        "shield": 597,
+        "sustain": 1759,
+        "ehp": 5818,
+        "identity": 2406,
+        "hp": 4059,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2780,
+        "heal": 1260,
+        "shield": 656,
+        "sustain": 1916,
+        "ehp": 6379,
+        "identity": 2611,
+        "hp": 4463,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2822,
+        "heal": 1304,
+        "shield": 683,
+        "sustain": 1987,
+        "ehp": 6633,
+        "identity": 2692,
+        "hp": 4646,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Ruby Crystal"
+        ],
+        "mix": 2895,
+        "heal": 1348,
+        "shield": 710,
+        "sustain": 2058,
+        "ehp": 6887,
+        "identity": 2781,
+        "hp": 4829,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra"
+        ],
+        "mix": 3695,
+        "heal": 1435,
+        "shield": 763,
+        "sustain": 2198,
+        "ehp": 7390,
+        "identity": 3122,
+        "hp": 5192,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra",
+          "Ruby Crystal"
+        ],
+        "mix": 3825,
+        "heal": 1533,
+        "shield": 823,
+        "sustain": 2357,
+        "ehp": 7957,
+        "identity": 3313,
+        "hp": 5600,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra",
+          "Ruby Crystal"
+        ],
+        "mix": 3841,
+        "heal": 1545,
+        "shield": 830,
+        "sustain": 2375,
+        "ehp": 8022,
+        "identity": 3335,
+        "hp": 5647,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra",
+          "Ruby Crystal"
+        ],
+        "mix": 3858,
+        "heal": 1556,
+        "shield": 837,
+        "sustain": 2393,
+        "ehp": 8087,
+        "identity": 3357,
+        "hp": 5694,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra",
+          "Ruby Crystal"
+        ],
+        "mix": 3888,
+        "heal": 1579,
+        "shield": 851,
+        "sustain": 2430,
+        "ehp": 8218,
+        "identity": 3402,
+        "hp": 5788,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem",
+          "Titanic Hydra",
+          "Sterak's Gage"
+        ],
+        "mix": 4538,
+        "heal": 1644,
+        "shield": 3979,
+        "sustain": 5623,
+        "ehp": 11685,
+        "identity": 6758,
+        "hp": 6062,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Titanic x7",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline"
+        ]
+      }
+    ],
+    "Tri \u2192 Heart \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Sheen"
+        ],
+        "mix": 1994,
+        "heal": 388,
+        "shield": 245,
+        "sustain": 633,
+        "ehp": 2302,
+        "identity": 1132,
+        "hp": 1669,
+        "ah": 0,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 5.0,
+        "notes": [
+          "3 W (2 bites) cd 5.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Sheen"
+        ],
+        "mix": 2107,
+        "heal": 459,
+        "shield": 265,
+        "sustain": 724,
+        "ehp": 2527,
+        "identity": 1251,
+        "hp": 1803,
+        "ah": 0,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 5.0,
+        "notes": [
+          "3 W (2 bites) cd 5.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Trinity Force"
+        ],
+        "mix": 3012,
+        "heal": 577,
+        "shield": 359,
+        "sustain": 937,
+        "ehp": 3382,
+        "identity": 1690,
+        "hp": 2445,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Trinity Force"
+        ],
+        "mix": 3073,
+        "heal": 602,
+        "shield": 379,
+        "sustain": 981,
+        "ehp": 3560,
+        "identity": 1749,
+        "hp": 2579,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 3158,
+        "heal": 654,
+        "shield": 421,
+        "sustain": 1075,
+        "ehp": 3938,
+        "identity": 1864,
+        "hp": 2863,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps"
+        ],
+        "mix": 3161,
+        "heal": 655,
+        "shield": 422,
+        "sustain": 1077,
+        "ehp": 3946,
+        "identity": 1867,
+        "hp": 2869,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3090,
+        "heal": 716,
+        "shield": 471,
+        "sustain": 1187,
+        "ehp": 4390,
+        "identity": 1960,
+        "hp": 3203,
+        "ah": 25,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.0,
+        "notes": [
+          "3 W (2 bites) cd 4.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3094,
+        "heal": 717,
+        "shield": 472,
+        "sustain": 1189,
+        "ehp": 4398,
+        "identity": 1963,
+        "hp": 3209,
+        "ah": 25,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.0,
+        "notes": [
+          "3 W (2 bites) cd 4.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3181,
+        "heal": 774,
+        "shield": 517,
+        "sustain": 1291,
+        "ehp": 4809,
+        "identity": 2087,
+        "hp": 3518,
+        "ah": 25,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.0,
+        "notes": [
+          "3 W (2 bites) cd 4.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3201,
+        "heal": 795,
+        "shield": 534,
+        "sustain": 1328,
+        "ehp": 4958,
+        "identity": 2128,
+        "hp": 3630,
+        "ah": 25,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.0,
+        "notes": [
+          "3 W (2 bites) cd 4.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel"
+        ],
+        "mix": 3916,
+        "heal": 1330,
+        "shield": 699,
+        "sustain": 2029,
+        "ehp": 6785,
+        "identity": 3008,
+        "hp": 4756,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Kindlegem"
+        ],
+        "mix": 3984,
+        "heal": 1404,
+        "shield": 744,
+        "sustain": 2148,
+        "ehp": 7212,
+        "identity": 3144,
+        "hp": 5063,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Kindlegem"
+        ],
+        "mix": 4062,
+        "heal": 1449,
+        "shield": 772,
+        "sustain": 2221,
+        "ehp": 7470,
+        "identity": 3236,
+        "hp": 5250,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Kindlegem"
+        ],
+        "mix": 4074,
+        "heal": 1460,
+        "shield": 778,
+        "sustain": 2238,
+        "ehp": 7533,
+        "identity": 3257,
+        "hp": 5295,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Kindlegem"
+        ],
+        "mix": 4087,
+        "heal": 1471,
+        "shield": 785,
+        "sustain": 2256,
+        "ehp": 7596,
+        "identity": 3277,
+        "hp": 5340,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Unending Despair"
+        ],
+        "mix": 4400,
+        "heal": 2892,
+        "shield": 815,
+        "sustain": 3707,
+        "ehp": 9251,
+        "identity": 4807,
+        "hp": 5544,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4472,
+        "heal": 3025,
+        "shield": 855,
+        "sustain": 3880,
+        "ehp": 9696,
+        "identity": 4998,
+        "hp": 5816,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Heart \u2192 Rift \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1877,
+        "heal": 506,
+        "shield": 348,
+        "sustain": 855,
+        "ehp": 3224,
+        "identity": 1324,
+        "hp": 2369,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 1978,
+        "heal": 588,
+        "shield": 368,
+        "sustain": 956,
+        "ehp": 3459,
+        "identity": 1450,
+        "hp": 2503,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Heartsteel"
+        ],
+        "mix": 2166,
+        "heal": 651,
+        "shield": 419,
+        "sustain": 1070,
+        "ehp": 3917,
+        "identity": 1611,
+        "hp": 2848,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2254,
+        "heal": 710,
+        "shield": 466,
+        "sustain": 1176,
+        "ehp": 4346,
+        "identity": 1740,
+        "hp": 3170,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps"
+        ],
+        "mix": 2311,
+        "heal": 742,
+        "shield": 491,
+        "sustain": 1233,
+        "ehp": 4576,
+        "identity": 1811,
+        "hp": 3343,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2595,
+        "heal": 1059,
+        "shield": 534,
+        "sustain": 1593,
+        "ehp": 5222,
+        "identity": 2241,
+        "hp": 3629,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2528,
+        "heal": 1102,
+        "shield": 560,
+        "sustain": 1661,
+        "ehp": 5467,
+        "identity": 2293,
+        "hp": 3806,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2541,
+        "heal": 1113,
+        "shield": 566,
+        "sustain": 1679,
+        "ehp": 5530,
+        "identity": 2314,
+        "hp": 3852,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 2735,
+        "heal": 1209,
+        "shield": 625,
+        "sustain": 1835,
+        "ehp": 6088,
+        "identity": 2518,
+        "hp": 4254,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 3350,
+        "heal": 1549,
+        "shield": 749,
+        "sustain": 2298,
+        "ehp": 6890,
+        "identity": 3135,
+        "hp": 4592,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 3426,
+        "heal": 1598,
+        "shield": 776,
+        "sustain": 2374,
+        "ehp": 7149,
+        "identity": 3231,
+        "hp": 4775,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 3512,
+        "heal": 1679,
+        "shield": 824,
+        "sustain": 2503,
+        "ehp": 7585,
+        "identity": 3381,
+        "hp": 5082,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 3588,
+        "heal": 1730,
+        "shield": 852,
+        "sustain": 2581,
+        "ehp": 7850,
+        "identity": 3478,
+        "hp": 5268,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 3601,
+        "heal": 1742,
+        "shield": 858,
+        "sustain": 2600,
+        "ehp": 7914,
+        "identity": 3500,
+        "hp": 5314,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair"
+        ],
+        "mix": 3936,
+        "heal": 3159,
+        "shield": 883,
+        "sustain": 4042,
+        "ehp": 9513,
+        "identity": 5026,
+        "hp": 5471,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4041,
+        "heal": 3322,
+        "shield": 933,
+        "sustain": 4255,
+        "ehp": 10044,
+        "identity": 5265,
+        "hp": 5788,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4056,
+        "heal": 3347,
+        "shield": 940,
+        "sustain": 4286,
+        "ehp": 10122,
+        "identity": 5300,
+        "hp": 5835,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Dusk \u2192 Hull \u2192 Rift": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Sheen"
+        ],
+        "mix": 1994,
+        "heal": 388,
+        "shield": 245,
+        "sustain": 633,
+        "ehp": 2302,
+        "identity": 1132,
+        "hp": 1669,
+        "ah": 0,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 5.0,
+        "notes": [
+          "3 W (2 bites) cd 5.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2593,
+        "heal": 523,
+        "shield": 372,
+        "sustain": 895,
+        "ehp": 3048,
+        "identity": 1543,
+        "hp": 2153,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2788,
+        "heal": 580,
+        "shield": 417,
+        "sustain": 997,
+        "ehp": 3459,
+        "identity": 1694,
+        "hp": 2462,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2952,
+        "heal": 605,
+        "shield": 437,
+        "sustain": 1042,
+        "ehp": 3638,
+        "identity": 1780,
+        "hp": 2596,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 3047,
+        "heal": 657,
+        "shield": 478,
+        "sustain": 1135,
+        "ehp": 4015,
+        "identity": 1897,
+        "hp": 2880,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 3086,
+        "heal": 695,
+        "shield": 509,
+        "sustain": 1204,
+        "ehp": 4290,
+        "identity": 1975,
+        "hp": 3086,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 3048,
+        "heal": 719,
+        "shield": 528,
+        "sustain": 1248,
+        "ehp": 4468,
+        "identity": 2010,
+        "hp": 3220,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 3051,
+        "heal": 720,
+        "shield": 529,
+        "sustain": 1250,
+        "ehp": 4476,
+        "identity": 2013,
+        "hp": 3226,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 3091,
+        "heal": 777,
+        "shield": 575,
+        "sustain": 1352,
+        "ehp": 4887,
+        "identity": 2125,
+        "hp": 3535,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 3111,
+        "heal": 798,
+        "shield": 591,
+        "sustain": 1389,
+        "ehp": 5036,
+        "identity": 2167,
+        "hp": 3647,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker"
+        ],
+        "mix": 4322,
+        "heal": 860,
+        "shield": 641,
+        "sustain": 1501,
+        "ehp": 5486,
+        "identity": 2581,
+        "hp": 3985,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Kindlegem"
+        ],
+        "mix": 4718,
+        "heal": 1194,
+        "shield": 671,
+        "sustain": 1865,
+        "ehp": 6057,
+        "identity": 3045,
+        "hp": 4191,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Kindlegem"
+        ],
+        "mix": 4799,
+        "heal": 1226,
+        "shield": 691,
+        "sustain": 1917,
+        "ehp": 6239,
+        "identity": 3116,
+        "hp": 4323,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Kindlegem"
+        ],
+        "mix": 4802,
+        "heal": 1226,
+        "shield": 691,
+        "sustain": 1917,
+        "ehp": 6239,
+        "identity": 3117,
+        "hp": 4323,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Kindlegem"
+        ],
+        "mix": 4805,
+        "heal": 1226,
+        "shield": 691,
+        "sustain": 1917,
+        "ehp": 6239,
+        "identity": 3118,
+        "hp": 4323,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 5726,
+        "heal": 1704,
+        "shield": 788,
+        "sustain": 2492,
+        "ehp": 6970,
+        "identity": 3924,
+        "hp": 4477,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Hullbreaker",
+          "Riftmaker"
+        ],
+        "mix": 5729,
+        "heal": 1704,
+        "shield": 788,
+        "sustain": 2492,
+        "ehp": 6970,
+        "identity": 3925,
+        "hp": 4477,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Dusk \u2192 Rift \u2192 Despair": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Sheen"
+        ],
+        "mix": 1994,
+        "heal": 388,
+        "shield": 245,
+        "sustain": 633,
+        "ehp": 2302,
+        "identity": 1132,
+        "hp": 1669,
+        "ah": 0,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 5.0,
+        "notes": [
+          "3 W (2 bites) cd 5.00s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2593,
+        "heal": 523,
+        "shield": 372,
+        "sustain": 895,
+        "ehp": 3048,
+        "identity": 1543,
+        "hp": 2153,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2788,
+        "heal": 580,
+        "shield": 417,
+        "sustain": 997,
+        "ehp": 3459,
+        "identity": 1694,
+        "hp": 2462,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Dusk and Dawn"
+        ],
+        "mix": 2952,
+        "heal": 605,
+        "shield": 437,
+        "sustain": 1042,
+        "ehp": 3638,
+        "identity": 1780,
+        "hp": 2596,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 3047,
+        "heal": 657,
+        "shield": 478,
+        "sustain": 1135,
+        "ehp": 4015,
+        "identity": 1897,
+        "hp": 2880,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps"
+        ],
+        "mix": 3051,
+        "heal": 658,
+        "shield": 479,
+        "sustain": 1137,
+        "ehp": 4023,
+        "identity": 1900,
+        "hp": 2886,
+        "ah": 20,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.17,
+        "notes": [
+          "3 W (2 bites) cd 4.17s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3335,
+        "heal": 961,
+        "shield": 528,
+        "sustain": 1489,
+        "ehp": 4709,
+        "identity": 2323,
+        "hp": 3220,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3339,
+        "heal": 962,
+        "shield": 529,
+        "sustain": 1491,
+        "ehp": 4717,
+        "identity": 2326,
+        "hp": 3226,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3380,
+        "heal": 1036,
+        "shield": 575,
+        "sustain": 1611,
+        "ehp": 5146,
+        "identity": 2456,
+        "hp": 3535,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Kindlegem"
+        ],
+        "mix": 3405,
+        "heal": 1063,
+        "shield": 591,
+        "sustain": 1655,
+        "ehp": 5302,
+        "identity": 2506,
+        "hp": 3647,
+        "ah": 30,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.85,
+        "notes": [
+          "4 W (3 bites) cd 3.85s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker"
+        ],
+        "mix": 4270,
+        "heal": 1461,
+        "shield": 702,
+        "sustain": 2163,
+        "ehp": 6097,
+        "identity": 3230,
+        "hp": 3934,
+        "ah": 35,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.7,
+        "notes": [
+          "4 W (3 bites) cd 3.70s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 4338,
+        "heal": 1516,
+        "shield": 735,
+        "sustain": 2251,
+        "ehp": 6391,
+        "identity": 3336,
+        "hp": 4140,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 4422,
+        "heal": 1554,
+        "shield": 755,
+        "sustain": 2309,
+        "ehp": 6580,
+        "identity": 3414,
+        "hp": 4271,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 4425,
+        "heal": 1554,
+        "shield": 755,
+        "sustain": 2309,
+        "ehp": 6580,
+        "identity": 3415,
+        "hp": 4271,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Kindlegem"
+        ],
+        "mix": 4428,
+        "heal": 1554,
+        "shield": 755,
+        "sustain": 2309,
+        "ehp": 6581,
+        "identity": 3416,
+        "hp": 4271,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair"
+        ],
+        "mix": 4695,
+        "heal": 2683,
+        "shield": 771,
+        "sustain": 3454,
+        "ehp": 7828,
+        "identity": 4628,
+        "hp": 4374,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Dusk and Dawn",
+          "Plated Steelcaps",
+          "Riftmaker",
+          "Unending Despair",
+          "Ruby Crystal"
+        ],
+        "mix": 4773,
+        "heal": 2789,
+        "shield": 805,
+        "sustain": 3594,
+        "ehp": 8174,
+        "identity": 4787,
+        "hp": 4580,
+        "ah": 45,
+        "w_casts": 4,
+        "w_bites": 3,
+        "w_cd": 3.45,
+        "notes": [
+          "4 W (3 bites) cd 3.45s",
+          "Despair x3",
+          "Grasp x2",
+          "stand in E"
+        ]
+      }
+    ],
+    "Fimbul \u2192 Sterak \u2192 Twin": [
+      {
+        "m": 6,
+        "gold": 2820,
+        "level": 7,
+        "items": [
+          "Fimbulwinter"
+        ],
+        "mix": 1721,
+        "heal": 474,
+        "shield": 549,
+        "sustain": 1023,
+        "ehp": 3200,
+        "identity": 1453,
+        "hp": 2177,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 7,
+        "gold": 3280,
+        "level": 8,
+        "items": [
+          "Fimbulwinter"
+        ],
+        "mix": 1824,
+        "heal": 554,
+        "shield": 579,
+        "sustain": 1132,
+        "ehp": 3449,
+        "identity": 1589,
+        "hp": 2317,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 8,
+        "gold": 3740,
+        "level": 9,
+        "items": [
+          "Fimbulwinter"
+        ],
+        "mix": 2004,
+        "heal": 611,
+        "shield": 635,
+        "sustain": 1246,
+        "ehp": 3877,
+        "identity": 1747,
+        "hp": 2631,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 9,
+        "gold": 4200,
+        "level": 10,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps"
+        ],
+        "mix": 2084,
+        "heal": 664,
+        "shield": 687,
+        "sustain": 1352,
+        "ehp": 4272,
+        "identity": 1873,
+        "hp": 2920,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 10,
+        "gold": 4660,
+        "level": 11,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2170,
+        "heal": 727,
+        "shield": 747,
+        "sustain": 1474,
+        "ehp": 4733,
+        "identity": 2016,
+        "hp": 3259,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 11,
+        "gold": 5190,
+        "level": 11,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2174,
+        "heal": 728,
+        "shield": 748,
+        "sustain": 1476,
+        "ehp": 4741,
+        "identity": 2019,
+        "hp": 3265,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 12,
+        "gold": 5720,
+        "level": 12,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2131,
+        "heal": 753,
+        "shield": 778,
+        "sustain": 1531,
+        "ehp": 4936,
+        "identity": 2064,
+        "hp": 3404,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 13,
+        "gold": 6250,
+        "level": 12,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2135,
+        "heal": 754,
+        "shield": 779,
+        "sustain": 1533,
+        "ehp": 4944,
+        "identity": 2067,
+        "hp": 3410,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 14,
+        "gold": 6780,
+        "level": 13,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Ruby Crystal"
+        ],
+        "mix": 2303,
+        "heal": 812,
+        "shield": 835,
+        "sustain": 1647,
+        "ehp": 5372,
+        "identity": 2223,
+        "hp": 3725,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 15,
+        "gold": 7310,
+        "level": 13,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage"
+        ],
+        "mix": 2866,
+        "heal": 872,
+        "shield": 2455,
+        "sustain": 3326,
+        "ehp": 7375,
+        "identity": 4042,
+        "hp": 4049,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 16,
+        "gold": 7840,
+        "level": 14,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 2972,
+        "heal": 935,
+        "shield": 2700,
+        "sustain": 3635,
+        "ehp": 8027,
+        "identity": 4378,
+        "hp": 4392,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 17,
+        "gold": 8410,
+        "level": 14,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 2975,
+        "heal": 935,
+        "shield": 2700,
+        "sustain": 3635,
+        "ehp": 8027,
+        "identity": 4379,
+        "hp": 4392,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 18,
+        "gold": 8980,
+        "level": 15,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 3050,
+        "heal": 960,
+        "shield": 2738,
+        "sustain": 3698,
+        "ehp": 8227,
+        "identity": 4460,
+        "hp": 4529,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 19,
+        "gold": 9550,
+        "level": 15,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 3052,
+        "heal": 960,
+        "shield": 2738,
+        "sustain": 3698,
+        "ehp": 8227,
+        "identity": 4461,
+        "hp": 4529,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 20,
+        "gold": 10120,
+        "level": 15,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Ruby Crystal"
+        ],
+        "mix": 3055,
+        "heal": 960,
+        "shield": 2738,
+        "sustain": 3698,
+        "ehp": 8227,
+        "identity": 4462,
+        "hp": 4529,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 21,
+        "gold": 10690,
+        "level": 15,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Amaranth's Twinguard"
+        ],
+        "mix": 3073,
+        "heal": 979,
+        "shield": 2842,
+        "sustain": 3821,
+        "ehp": 8453,
+        "identity": 4589,
+        "hp": 4632,
+        "ah": 15,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.35,
+        "notes": [
+          "3 W (2 bites) cd 4.35s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      },
+      {
+        "m": 22,
+        "gold": 11260,
+        "level": 15,
+        "items": [
+          "Fimbulwinter",
+          "Plated Steelcaps",
+          "Sterak's Gage",
+          "Amaranth's Twinguard",
+          "Kindlegem"
+        ],
+        "mix": 3107,
+        "heal": 1016,
+        "shield": 3050,
+        "sustain": 4067,
+        "ehp": 8905,
+        "identity": 4843,
+        "hp": 4838,
+        "ah": 25,
+        "w_casts": 3,
+        "w_bites": 2,
+        "w_cd": 4.0,
+        "notes": [
+          "3 W (2 bites) cd 4.00s",
+          "Grasp x2",
+          "stand in E",
+          "Sterak Lifeline",
+          "Fimbul on Q/E"
+        ]
+      }
+    ]
+  },
+  "compare_vs_duelist": {
+    "winner_sustain_14": 1916,
+    "dusk_sustain_14": 1352,
+    "winner_sustain_22": 6869,
+    "dusk_sustain_22": 2492,
+    "winner_mix_14": 2780,
+    "dusk_mix_14": 3091
+  }
+}
