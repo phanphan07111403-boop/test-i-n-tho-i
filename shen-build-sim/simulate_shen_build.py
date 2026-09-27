@@ -78,6 +78,8 @@ class Item:
     hull: bool = False
     rift: bool = False
     despair: bool = False
+    thorn: bool = False
+    twinguard: bool = False
     boots: bool = False
 
 
@@ -103,9 +105,9 @@ ITEMS: Dict[str, Item] = {
     "Unending Despair": Item(
         "Unending Despair", 3000, hp=300, ah=10, armor=40, mr=40, despair=True
     ),
-    "Thornmail": Item("Thornmail", 2800, hp=200, armor=75),
+    "Thornmail": Item("Thornmail", 2800, hp=200, armor=75, thorn=True),
     "Amaranth's Twinguard": Item(
-        "Amaranth's Twinguard", 3200, hp=300, armor=50, mr=50
+        "Amaranth's Twinguard", 3200, hp=300, armor=50, mr=50, twinguard=True
     ),
     "Force of Nature": Item(
         "Force of Nature", 2800, hp=400, mr=60
@@ -153,9 +155,14 @@ PATHS = [
         "AP-lane farm (Hollow burn). Same 2nd/rest plan.",
     ),
     Path(
+        "CN 62% WR",
+        ["Heartsteel", "Sunfire Aegis", "Thornmail", "Amaranth's Twinguard"],
+        "China 7.3 most-used core (62.3% WR / 25% use). Heartsteel first.",
+    ),
+    Path(
         "Heart → Sunfire → Dawn",
         ["Heartsteel", "Sunfire Aegis", "Dawnshroud", "Thornmail"],
-        "Rejected: Heartsteel first. No wave tool. Game feels stuck.",
+        "China 61.3% WR variant (6% use). Still Heartsteel first.",
     ),
     Path(
         "Dusk first (Voli copy)",
@@ -191,11 +198,31 @@ def resist_mult(res: float) -> float:
     return 100.0 / (100.0 + max(0.0, res))
 
 
-def shen_base(level: int) -> Tuple[float, float]:
+def shen_base(level: int) -> Tuple[float, float, float, float]:
     # Patch 7.3: HP/lvl 124
     hp = 630 + 124 * (level - 1)
     ad = 58 + 4.55 * (level - 1)
-    return hp, ad
+    armor = 40 + 4.2 * (level - 1)
+    mr = 32 + 2.05 * (level - 1)
+    return hp, ad, armor, mr
+
+
+def minute_of_item(path: Path, item_name: str) -> Optional[int]:
+    for m in range(1, GAME_MINUTES + 1):
+        names = [i.name for i in inventory_at_gold(path, gold_at_minute(m))]
+        if item_name in names:
+            return m
+    return None
+
+
+def heartsteel_stack_hp(path: Path, m: int) -> float:
+    """~28 bonus HP per minute after Heartsteel completes, cap 600.
+    Typical WR games land 400–600 stacks; this is the conservative middle.
+    """
+    bought = minute_of_item(path, "Heartsteel")
+    if bought is None:
+        return 0.0
+    return min(600.0, max(0, m - bought) * 28.0)
 
 
 def target_bruiser(m: int) -> Tuple[float, float, float]:
@@ -228,21 +255,34 @@ class Fight:
     hp: float
     shield: float
     items: List[str]
+    bonus_hp: float = 0.0
+    ap: float = 0.0
+    armor: float = 0.0
+    mr: float = 0.0
+    r_shield: float = 0.0
+    aoe: float = 0.0
+    mitig: float = 1.0
+    thorn: bool = False
+    hs_stacks: float = 0.0
 
 
-def fight_at(path: Path, m: int) -> Fight:
+def fight_at(path: Path, m: int, fight_s: float = FIGHT_S) -> Fight:
     lv = level_at_minute(m)
     gold = gold_at_minute(m)
     inv = inventory_at_gold(path, gold)
     q = skill_rank(lv, "Q")
     e = skill_rank(lv, "E")
     w = skill_rank(lv, "W")
+    r = skill_rank(lv, "R")
 
-    base_hp, base_ad = shen_base(lv)
-    bonus_hp = sum(i.hp for i in inv)
+    base_hp, base_ad, base_ar, base_mr = shen_base(lv)
+    hs_stacks = heartsteel_stack_hp(path, m)
+    bonus_hp = sum(i.hp for i in inv) + hs_stacks
     bonus_ad = sum(i.ad for i in inv)
     ap = sum(i.ap for i in inv)
     as_pct = sum(i.as_pct for i in inv)
+    armor = base_ar + sum(i.armor for i in inv)
+    mr = base_mr + sum(i.mr for i in inv)
     has_dusk = any(i.sheen == "dusk" for i in inv)
     has_ice = any(i.sheen == "iceborn" for i in inv)
     has_hs = any(i.heartsteel for i in inv)
@@ -252,6 +292,8 @@ def fight_at(path: Path, m: int) -> Fight:
     has_hull = any(i.hull for i in inv)
     has_rift = any(i.rift for i in inv)
     has_despair = any(i.despair for i in inv)
+    has_thorn = any(i.thorn for i in inv)
+    has_twin = any(i.twinguard for i in inv)
 
     if has_rift:
         ap += 0.02 * bonus_hp
@@ -266,7 +308,7 @@ def fight_at(path: Path, m: int) -> Fight:
 
     # Q 3 empowered autos (blade through them) + extra AAs
     as_total = 0.70 * (1 + 0.025 * (lv - 1) + as_pct + (0.50 if q else 0))
-    n_aa = max(3, min(1 + int(FIGHT_S * as_total), 8))
+    n_aa = max(3, min(1 + int(fight_s * as_total), 8))
     n_q_hits = min(3, n_aa)
 
     phys_raw = n_aa * total_ad
@@ -286,19 +328,26 @@ def fight_at(path: Path, m: int) -> Fight:
         e_d = [0, 60, 90, 120, 150][e] + 0.15 * bonus_hp
         phys_raw += e_d
 
-    if has_hs:
+    # Heartsteel: 2.5s charge then a hit. 3s lane trades often miss it.
+    if has_hs and fight_s >= 4.0:
         phys_raw += 140 + 0.035 * max_hp
     if has_sf:
-        mag_raw += FIGHT_S * (20 + 0.015 * bonus_hp)
+        mag_raw += fight_s * (20 + 0.015 * bonus_hp)
+    n_cleave = 0
     if has_ti:
-        n_cleave = max(1, int(FIGHT_S / 1.75))
+        n_cleave = max(1, int(fight_s / 1.75))
         phys_raw += n_cleave * (25 + 0.03 * bonus_hp)
     if has_dawn:
         mag_raw += 40 + 0.025 * bonus_hp
     if has_hull:
         phys_raw += (n_aa // 4) * (1.60 * base_ad + 0.05 * max_hp)
-    if has_despair:
-        mag_raw += 2 * 0.03 * max_hp
+    n_despair = int(fight_s / 4.0) if has_despair else 0
+    if n_despair:
+        mag_raw += n_despair * 0.03 * max_hp
+    if has_thorn:
+        # they auto ~once per 1.6s; reflect 20 + 6% bonus armor + 1% bonus HP
+        n_hit = max(1, int(fight_s / 1.6))
+        mag_raw += n_hit * (20 + 0.06 * (armor - base_ar) + 0.01 * bonus_hp)
 
     mag_raw += 0.033 * max_hp  # Grasp
     mix = (phys_raw * phys + mag_raw * mag) * rift_amp
@@ -309,13 +358,40 @@ def fight_at(path: Path, m: int) -> Fight:
     dawn_res = 0.0
     if has_dawn:
         dawn_res = 0.12 * max_hp  # 20% bonus resists ≈ extra ehp
+    twin_res = 0.0
+    if has_twin:
+        # +30% resists after 5s. In 8s that is ~3s boosted ≈ 0.10 extra ehp.
+        twin_res = 0.10 * max_hp
     heal = 0.013 * max_hp
-    if has_despair:
-        heal += 2 * (0.03 * max_hp * 2.50)
+    if n_despair:
+        heal += n_despair * (0.03 * max_hp * 2.50)
     if has_rift:
         heal += 0.10 * mix * 0.50
-    shield = ki + colo + w_block + dawn_res
+    shield = ki + colo + w_block + dawn_res + twin_res
     ehp = max_hp + shield + heal
+
+    if has_dawn:
+        armor *= 1.08
+        mr *= 1.08
+    if has_twin and fight_s >= 5.0:
+        armor *= 1.11
+        mr *= 1.11
+    mitig = 0.5 * resist_mult(armor) + 0.5 * resist_mult(mr)
+
+    r_base = [0, 170, 340, 510][r]
+    r_shield = r_base + 1.35 * ap + 0.15 * bonus_hp
+
+    # Extra bodies in a 3-man brawl (Sunfire / Despair / Titanic cone).
+    extra_mag = 0.0
+    extra_phys = 0.0
+    if has_sf:
+        extra_mag += 2 * fight_s * (20 + 0.015 * bonus_hp)
+    if n_despair:
+        extra_mag += 2 * n_despair * 0.03 * max_hp
+    if has_ti:
+        extra_phys += 2 * n_cleave * (80 + 0.10 * bonus_hp)
+    aoe = mix + extra_phys * phys + extra_mag * mag
+
     return Fight(
         mix=mix,
         ehp=ehp,
@@ -323,6 +399,15 @@ def fight_at(path: Path, m: int) -> Fight:
         hp=max_hp,
         shield=shield,
         items=[i.name for i in inv],
+        bonus_hp=bonus_hp,
+        ap=ap,
+        armor=armor,
+        mr=mr,
+        r_shield=r_shield,
+        aoe=aoe,
+        mitig=mitig,
+        thorn=has_thorn,
+        hs_stacks=hs_stacks,
     )
 
 
@@ -333,7 +418,7 @@ def wave_frac(path: Path, m: int, seconds: float = 4.0) -> float:
     lv = level_at_minute(m)
     inv = inventory_at_gold(path, gold_at_minute(m))
     q = skill_rank(lv, "Q")
-    base_hp, base_ad = shen_base(lv)
+    base_hp, base_ad, _, _ = shen_base(lv)
     bonus_hp = sum(i.hp for i in inv)
     bonus_ad = sum(i.ad for i in inv)
     ap = sum(i.ap for i in inv)
@@ -388,18 +473,47 @@ def wave_frac(path: Path, m: int, seconds: float = 4.0) -> float:
     return killed / total
 
 
-def minute_of_item(path: Path, item_name: str) -> Optional[int]:
-    for m in range(1, GAME_MINUTES + 1):
-        names = [i.name for i in inventory_at_gold(path, gold_at_minute(m))]
-        if item_name in names:
-            return m
-    return None
+def mitigated_ehp(f: Fight) -> float:
+    """HP+shield+heal after 50/50 phys/magic incoming."""
+    return f.ehp / max(0.20, f.mitig)
+
+
+def aspect_row(path: Path) -> dict:
+    short = fight_at(path, 8, fight_s=3.0)
+    duel = fight_at(path, 16)
+    late = fight_at(path, 26)
+    return {
+        "path": path.name,
+        "lane_wave": wave_frac(path, 8),
+        "lane_short_mix": short.mix,
+        "lane_hp": short.hp,
+        "solo_mix": duel.mix,
+        "solo_ehp": duel.ehp,
+        "solo_str": duel.strength,
+        "tf_aoe": late.aoe,
+        "tf_ehp": mitigated_ehp(late),
+        "r_shield": late.r_shield,
+        "split_ehp": late.ehp,
+        "split_mix": late.mix,
+        "thorn": late.thorn,
+        "hs_stacks": late.hs_stacks,
+        "hp26": late.hp,
+        "items8": fight_at(path, 8).items,
+        "items16": duel.items,
+        "items26": late.items,
+    }
+
+
+def pick_side(ours: float, cn: float, ours_name: str, cn_name: str) -> str:
+    if abs(ours - cn) < 0.03 * max(abs(ours), abs(cn), 1.0):
+        return "tie"
+    return ours_name if ours > cn else cn_name
 
 
 def main() -> None:
     minutes = list(range(6, GAME_MINUTES + 1))
     snapshots: Dict[str, List[dict]] = {}
-    # Constraint score: farm at 8, 1v1 mix at 14, tank ehp at 22.
+    # Constraint score: farm at 8, 1v1 mix at 16, tank ehp at 26.
     farm_m, duel_m, tank_m = 8, 16, 26
     rows_score = []
     for path in PATHS:
@@ -415,6 +529,9 @@ def main() -> None:
                     "mix": round(f.mix),
                     "ehp": round(f.ehp),
                     "wave": round(wave_frac(path, m), 3),
+                    "r_shield": round(f.r_shield),
+                    "aoe": round(f.aoe),
+                    "hs_stacks": round(f.hs_stacks),
                 }
             )
         snapshots[path.name] = snap
@@ -436,6 +553,9 @@ def main() -> None:
 
     ranked = sorted(rows_score, key=composite, reverse=True)
     winner = ranked[0][0]
+    cn_path = next(p for p in PATHS if p.name == "CN 62% WR")
+    ours_a = aspect_row(winner)
+    cn_a = aspect_row(cn_path)
 
     lines = [
         f"Wild Rift Shen Baron — farm / 1v1 / tank — patch {PATCH}",
@@ -485,12 +605,62 @@ def main() -> None:
         lines.append(f"{path.name}: {path.note}")
         lines.append("")
 
+    ours_n, cn_n = winner.name, cn_path.name
+    lines += [
+        "Vs China 62.3% WR (Heartsteel → Sunfire → Thornmail → Twinguard)",
+        "Source: wrchina.gg patch 7.3, stats 2026-09-26. 25% of CN Shen games.",
+        f"  Ours  8:00  {', '.join(ours_a['items8'])}",
+        f"  CN    8:00  {', '.join(cn_a['items8'])}",
+        f"  Ours 16:00  {', '.join(ours_a['items16'])}",
+        f"  CN   16:00  {', '.join(cn_a['items16'])}",
+        f"  Ours 26:00  {', '.join(ours_a['items26'])}",
+        f"  CN   26:00  {', '.join(cn_a['items26'])}  HS stacks {cn_a['hs_stacks']:.0f} HP",
+        "",
+        f"{'Aspect':<22}{ours_n:<28}{cn_n:<16}{'edge':>8}",
+        "-" * 74,
+        f"{'Lane shove 8:00':<22}{ours_a['lane_wave']:<28.0%}{cn_a['lane_wave']:<16.0%}"
+        f"{pick_side(ours_a['lane_wave'], cn_a['lane_wave'], 'ours', 'CN'):>8}",
+        f"{'Lane 3s trade dmg':<22}{ours_a['lane_short_mix']:<28.0f}{cn_a['lane_short_mix']:<16.0f}"
+        f"{pick_side(ours_a['lane_short_mix'], cn_a['lane_short_mix'], 'ours', 'CN'):>8}",
+        f"{'Lane 3s HP':<22}{ours_a['lane_hp']:<28.0f}{cn_a['lane_hp']:<16.0f}"
+        f"{pick_side(ours_a['lane_hp'], cn_a['lane_hp'], 'ours', 'CN'):>8}",
+        f"{'Solo 1v1 dmg 16:00':<22}{ours_a['solo_mix']:<28.0f}{cn_a['solo_mix']:<16.0f}"
+        f"{pick_side(ours_a['solo_mix'], cn_a['solo_mix'], 'ours', 'CN'):>8}",
+        f"{'Solo 1v1 ehp 16:00':<22}{ours_a['solo_ehp']:<28.0f}{cn_a['solo_ehp']:<16.0f}"
+        f"{pick_side(ours_a['solo_ehp'], cn_a['solo_ehp'], 'ours', 'CN'):>8}",
+        f"{'Solo 1v1 strength':<22}{ours_a['solo_str']:<28.0f}{cn_a['solo_str']:<16.0f}"
+        f"{pick_side(ours_a['solo_str'], cn_a['solo_str'], 'ours', 'CN'):>8}",
+        f"{'Teamfight AoE 26:00':<22}{ours_a['tf_aoe']:<28.0f}{cn_a['tf_aoe']:<16.0f}"
+        f"{pick_side(ours_a['tf_aoe'], cn_a['tf_aoe'], 'ours', 'CN'):>8}",
+        f"{'Teamfight tank ehp':<22}{ours_a['tf_ehp']:<28.0f}{cn_a['tf_ehp']:<16.0f}"
+        f"{pick_side(ours_a['tf_ehp'], cn_a['tf_ehp'], 'ours', 'CN'):>8}",
+        f"{'R ally shield 26:00':<22}{ours_a['r_shield']:<28.0f}{cn_a['r_shield']:<16.0f}"
+        f"{pick_side(ours_a['r_shield'], cn_a['r_shield'], 'ours', 'CN'):>8}",
+        f"{'1v9 split dmg 26:00':<22}{ours_a['split_mix']:<28.0f}{cn_a['split_mix']:<16.0f}"
+        f"{pick_side(ours_a['split_mix'], cn_a['split_mix'], 'ours', 'CN'):>8}",
+        f"{'1v9 split ehp 26:00':<22}{ours_a['split_ehp']:<28.0f}{cn_a['split_ehp']:<16.0f}"
+        f"{pick_side(ours_a['split_ehp'], cn_a['split_ehp'], 'ours', 'CN'):>8}",
+        f"{'Anti-heal (Thorn)':<22}{'no':<28}{'yes':<16}{'CN':>8}",
+        f"{'Ranked WR (CN)':<22}{'(untracked)':<28}{'62.3%':<16}{'CN':>8}",
+        "",
+        "62% WR is the global-tank job: hold the side, R, peel, Thornmail.",
+        "This build is the farm / 1v1 / 1v9 job. Different win condition.",
+        "",
+    ]
+
     text = "\n".join(lines)
     payload = {
         "patch": PATCH,
         "constraint": "1st farm, 2nd 1v1, rest tank; no Heartsteel first",
         "winner": winner.name,
         "buy_order": ["Ruby Crystal", "Plated Steelcaps"] + winner.legendaries,
+        "cn_62_wr": {
+            "source": "wrchina.gg patch 7.3 2026-09-26",
+            "core": cn_path.legendaries,
+            "wr": 0.623,
+            "use": 0.253,
+        },
+        "aspects": {"ours": ours_a, "cn_62_wr": cn_a},
         "scores": [
             {
                 "path": p.name,

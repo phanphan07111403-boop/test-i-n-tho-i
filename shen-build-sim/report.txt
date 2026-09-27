@@ -20,12 +20,13 @@ Do not buy Heartsteel. Do not rush Dusk first (it does not farm).
 
 Path                           farm8   mix16   ehp26    fit
 ---------------------------------------------------------
-Titanic → Dusk → Despair      0.86    1458    5894   0.96
-Titanic → Dusk → tank         0.86    1458    5314   0.92
-Hollow → Dusk → tank          0.79    1372    5561   0.89
-Sunfire → Titanic → tank      0.78    1342    5314   0.87
-Sunfire → Dusk → tank         0.78    1365    5186   0.87
-Heart → Sunfire → Dawn        0.35    1262    5506   skip
+Titanic → Dusk → Despair      0.86    1458    5894   0.94
+Titanic → Dusk → tank         0.86    1458    5700   0.93
+Hollow → Dusk → tank          0.79    1372    5561   0.88
+Sunfire → Titanic → tank      0.78    1342    5700   0.87
+Sunfire → Dusk → tank         0.78    1365    5562   0.87
+CN 62% WR                     0.35    1308    6196   skip
+Heart → Sunfire → Dawn        0.35    1308    6225   skip
 Dusk first (Voli copy)        0.49    1674    5609   skip
 
 First item ~8:00 (the farm check)
@@ -34,6 +35,7 @@ First item ~8:00 (the farm check)
   Hollow → Dusk → tank       wave 79%  [Hollow Radiance]
   Sunfire → Titanic → tank   wave 78%  [Sunfire Aegis]
   Sunfire → Dusk → tank      wave 78%  [Sunfire Aegis]
+  CN 62% WR                  wave 35%  [Heartsteel]
   Heart → Sunfire → Dawn     wave 35%  [Heartsteel]
   Dusk first (Voli copy)     wave 49%  [Dusk and Dawn]
 
@@ -43,7 +45,8 @@ Two-item ~16:00 (the 1v1 check)
   Hollow → Dusk → tank       mix  1372  ehp  4022  [Hollow Radiance, Plated Steelcaps, Dusk and Dawn]
   Sunfire → Titanic → tank   mix  1342  ehp  4080  [Sunfire Aegis, Plated Steelcaps, Titanic Hydra]
   Sunfire → Dusk → tank      mix  1365  ehp  3964  [Sunfire Aegis, Plated Steelcaps, Dusk and Dawn]
-  Heart → Sunfire → Dawn     mix  1262  ehp  4371  [Heartsteel, Plated Steelcaps, Sunfire Aegis]
+  CN 62% WR                  mix  1308  ehp  4696  [Heartsteel, Plated Steelcaps, Sunfire Aegis]
+  Heart → Sunfire → Dawn     mix  1308  ehp  4696  [Heartsteel, Plated Steelcaps, Sunfire Aegis]
   Dusk first (Voli copy)     mix  1674  ehp  4022  [Dusk and Dawn, Plated Steelcaps, Hullbreaker]
 
 Titanic → Dusk → Despair: Same farm/1v1; 4th Unending Despair for 1v9 pulse heal instead of Twinguard.
@@ -56,7 +59,37 @@ Sunfire → Titanic → tank: 1st burn-farm, 2nd cleave 1v1, rest tank.
 
 Sunfire → Dusk → tank: 1st burn-farm, 2nd Q sheen 1v1, rest tank. Fits the constraint.
 
-Heart → Sunfire → Dawn: Rejected: Heartsteel first. No wave tool. Game feels stuck.
+CN 62% WR: China 7.3 most-used core (62.3% WR / 25% use). Heartsteel first.
+
+Heart → Sunfire → Dawn: China 61.3% WR variant (6% use). Still Heartsteel first.
 
 Dusk first (Voli copy): Rejected: Dusk does not farm the wave.
+
+Vs China 62.3% WR (Heartsteel → Sunfire → Thornmail → Twinguard)
+Source: wrchina.gg patch 7.3, stats 2026-09-26. 25% of CN Shen games.
+  Ours  8:00  Titanic Hydra
+  CN    8:00  Heartsteel
+  Ours 16:00  Titanic Hydra, Plated Steelcaps, Dusk and Dawn
+  CN   16:00  Heartsteel, Plated Steelcaps, Sunfire Aegis
+  Ours 26:00  Titanic Hydra, Plated Steelcaps, Dusk and Dawn, Dawnshroud, Unending Despair
+  CN   26:00  Heartsteel, Plated Steelcaps, Sunfire Aegis, Thornmail, Amaranth's Twinguard  HS stacks 560 HP
+
+Aspect                Titanic → Dusk → Despair    CN 62% WR           edge
+--------------------------------------------------------------------------
+Lane shove 8:00       86%                         35%                 ours
+Lane 3s trade dmg     728                         657                 ours
+Lane 3s HP            2072                        2378                  CN
+Solo 1v1 dmg 16:00    1458                        1308                ours
+Solo 1v1 ehp 16:00    4080                        4696                  CN
+Solo 1v1 strength     4926                        5300                  CN
+Teamfight AoE 26:00   2804                        2097                ours
+Teamfight tank ehp    16443                       18053                 CN
+R ally shield 26:00   830                         849                  tie
+1v9 split dmg 26:00   1783                        1634                ours
+1v9 split ehp 26:00   5894                        6196                  CN
+Anti-heal (Thorn)     no                          yes                   CN
+Ranked WR (CN)        (untracked)                 62.3%                 CN
+
+62% WR is the global-tank job: hold the side, R, peel, Thornmail.
+This build is the farm / 1v1 / 1v9 job. Different win condition.
 

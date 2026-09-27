@@ -41,10 +41,42 @@ Dusk stays **2nd**, not 1st: same Q sheen 1v1 as before, after you already shove
 | Path | Farm 8:00 | 1v1 mix 16:00 | Tank ehp 26:00 |
 |------|-----------|---------------|----------------|
 | **Titanic → Dusk → Despair** | **86%** | **1458** | **5894** |
-| Titanic → Dusk → Twinguard | 86% | 1458 | 5314 |
+| Titanic → Dusk → Twinguard | 86% | 1458 | 5700 |
 | Hollow → Dusk → tank | 79% | 1372 | 5561 |
-| Sunfire → Titanic → tank | 78% | 1342 | 5314 |
-| Sunfire → Dusk → tank | 78% | 1365 | 5186 |
+| Sunfire → Titanic → tank | 78% | 1342 | 5700 |
+| Sunfire → Dusk → tank | 78% | 1365 | 5562 |
+| CN 62% WR (Heartsteel first, skip) | 35% | 1308 | 6196 |
+| Heart → Sunfire → Dawn (61% WR, skip) | 35% | 1308 | 6225 |
+
+## vs China 62% WR
+
+The ranked king on wrchina.gg (patch **7.3**, stats **2026-09-26**) is **Heartsteel → Sunfire Aegis → Thornmail** at **62.3% WR / 25% use**. Next cores: Heartsteel → Sunfire → Dawnshroud (**61.3%**, 6% use) and Heartsteel → Sunfire → Titanic (**59.5%**, 6% use). Top-30 screenshots: Heartsteel 85%, Sunfire 73%, Thornmail 58%, Twinguard 46%. Full 4th is Twinguard.
+
+That is a **different job**. 62% WR is “hold the side, R, peel, anti-heal.” This build is “farm, 1v1, 1v9.” Heartsteel first is why the CN path feels slow.
+
+| Aspect | This build Titanic → Dusk → Dawnshroud → Despair | CN 62% Heartsteel → Sunfire → Thornmail → Twinguard | Edge |
+|--------|--------------------------------------------------|-----------------------------------------------------|------|
+| **Lane shove 8:00** | Cannon wave **86%** in 4s (Titanic) | **35%** (Heartsteel does not hit the wave) | **this** |
+| **Lane 3s trade damage** | 728 (Q + cleave now) | 657 (Heartsteel’s 2.5s charge often misses a short trade) | **this** |
+| **Lane 3s HP** | 2072 | **2378** (700 HP item) | CN |
+| **Solo 1v1 damage 16:00** | **1458** (Dusk sheen on Q) | 1308 (Heartsteel + Sunfire, +~224 stacks) | **this** |
+| **Solo 1v1 ehp 16:00** | 4080 | **4696** | CN |
+| **Teamfight AoE 26:00** | **2804** (Despair pulses + Titanic cone on 3) | 2097 (Sunfire ticks) | **this** |
+| **Teamfight tank (mitigated ehp)** | 16443 | **18053** (Twinguard + Thorn armor + HS stacks) | CN |
+| **R ally shield 26:00** | 830 (Dusk **70 AP** + 135% AP) | 849 (Heartsteel HP + 15% bonus HP, **560** stacks) | **tie** |
+| **1v9 split damage / ehp** | **1783** dmg / 5894 ehp | 1634 dmg / **6196** ehp | split |
+| **Anti-heal** | no | **Thornmail 50% grievous** | CN |
+| **Ranked WR (CN)** | untracked | **62.3%** | CN |
+
+How to read it:
+
+- **Laning.** This build owns the wave and the short trade. CN owns not dying. If they freeze, you cannot crash. If you crash, they cannot match the shove, so your R is free.
+- **Solo / side 1v1.** You **kill** more (Dusk). They **live** more (Heartsteel + Sunfire). Strength (mix + 0.85×ehp) still leans CN because 700 HP outweighs ~150 extra mix. For a GameSir “easy 1v1,” take this build. For “stall until R,” take CN.
+- **Teamfight.** You do more AoE in a long 3-man brawl (Despair). They are the better peel tank (resists, Thornmail into AD). Shen’s ranked win condition is peel + R, which is why CN posts 62%.
+- **R.** Almost the same shield. Dusk’s AP and Heartsteel’s HP cancel (~830 vs 849).
+- **1v9.** Despair heals you in a long fight; CN is slightly fatter after stacks. Damage still this build.
+
+Copy CN only if you want the 62% WR playstyle and accept the slow lane. Do not mix them: **Titanic + Heartsteel** wastes the first two slots on different jobs.
 
 ## Swaps
 
