@@ -23,6 +23,7 @@ python3 shen-build-sim/simulate_shen_build.py
 | **2nd** | **Dusk and Dawn** (3100) | Extra on-hit on Q’s 3 autos. This is the 1v1. |
 | **3rd** | **Dawnshroud** | Taunt proc, armor/MR |
 | **4th** | **Unending Despair** | 1v9 pulse heal (default) |
+| **5th** | Twinguard / Thornmail / FoN | Extra tank if the game lasts |
 | Enchant | Stoneplate | |
 
 Do **not** buy Heartsteel. Do **not** rush Dusk first (49% wave vs Titanic’s 86%).
