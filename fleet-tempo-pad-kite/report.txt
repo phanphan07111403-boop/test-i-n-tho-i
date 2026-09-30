@@ -1,0 +1,363 @@
+==============================================================================
+FLEET FOOTWORK vs LETHAL TEMPO — KITING ON A PAD
+Wild Rift 7.3  |  GameSir X3 Pro  |  stick held away, RT tap, Follow OFF
+Window: 8.0s  |  CAUGHT = melee reaches 175  |  KILL = that body dies  |  up = 8s, still apart
+Body: 2800 HP, 80 armor, 45 MR. Damage is post-mitigation and can overkill.
+==============================================================================
+
+WHAT THE PAD IS DOING
+  Analog kite = left stick away between autos, RT on each attack.
+  Wind-up: you stand. A new move in that window cancels the shot.
+  Cooldown after the shot: this is the walk. This is the kite.
+  Correct map (50 ms, Mapping Enhancement on): the next auto is LATE.
+    That lateness is extra walk. Hands below called 'pad' (tap floor 0.36s).
+  Broken map (RT drops the stick): each auto adds a 0.05s stand. 'pad stuck'.
+  'mouse' is the same champ with no delay and no tap floor.
+  7.3 Tempo is +6.4% AS per stack, 6 stacks, then a bolt. No bonus range.
+  Fleet is +20% move speed for 1s, a heal, and +40% AS on that one auto.
+
+------------------------------------------------------------------------------
+CADENCE — can the shoulder button spend Tempo?  (Kai'Sa, no E)
+  period = seconds per auto at 0 Tempo stacks and at 6.
+  walk   = period minus wind-up at 6 stacks. That is stick time.
+  A 0.36s tap floor wastes AS only when the 6-stack period is shorter.
+------------------------------------------------------------------------------
+  lane L4 long sword                0stk 1.27s   6stk 0.97s   walk 0.79s   finger can spend it
+  boots L8 greaves                  0stk 0.94s   6stk 0.76s   walk 0.63s   finger can spend it
+  2-item L12 Kraken                 0stk 0.74s   6stk 0.63s   walk 0.51s   finger can spend it
+  3-item L15 Rageblade stacked      0stk 0.62s   6stk 0.54s   walk 0.44s   finger can spend it
+
+  7.3 Tempo at 6 stacks is a 0.54–0.97s auto on these builds.
+  A normal RT cadence (0.36s) is faster than every one of them.
+  The old 'Tempo is too fast for a pad' problem is gone.
+
+------------------------------------------------------------------------------
+KAI'SA — STICK + RT ONLY  (E not pressed)
+------------------------------------------------------------------------------
+  Build                            Hands      Chaser       Rune   Lived             Dmg  Heal  AA  MinGap
+  lane L4 long sword               mouse      walk 370     fleet  3.98s CAUGHT      182     0   3     175
+  lane L4 long sword               mouse      walk 370     tempo  3.84s CAUGHT      182     0   3     173
+  lane L4 long sword               mouse      boots 415    fleet  2.69s CAUGHT      120     0   2     174
+  lane L4 long sword               mouse      boots 415    tempo  2.65s CAUGHT      120     0   2     174
+  lane L4 long sword               mouse      ghost 490    fleet  1.64s CAUGHT      120     0   2     174
+  lane L4 long sword               mouse      ghost 490    tempo  1.66s CAUGHT      120     0   2     175
+  lane L4 long sword               pad        walk 370     fleet  4.12s CAUGHT      182     0   3     174
+  lane L4 long sword               pad        walk 370     tempo  3.98s CAUGHT      182     0   3     172
+  lane L4 long sword               pad        boots 415    fleet  2.77s CAUGHT      120     0   2     174
+  lane L4 long sword               pad        boots 415    tempo  2.73s CAUGHT      120     0   2     175
+  lane L4 long sword               pad        ghost 490    fleet  1.64s CAUGHT      120     0   2     174
+  lane L4 long sword               pad        ghost 490    tempo  1.66s CAUGHT      120     0   2     175
+  lane L4 long sword               pad stuck  walk 370     fleet  3.85s CAUGHT      182     0   3     172
+  lane L4 long sword               pad stuck  walk 370     tempo  3.70s CAUGHT      182     0   3     174
+  lane L4 long sword               pad stuck  boots 415    fleet  2.61s CAUGHT      120     0   2     173
+  lane L4 long sword               pad stuck  boots 415    tempo  2.57s CAUGHT      120     0   2     173
+  lane L4 long sword               pad stuck  ghost 490    fleet  1.52s CAUGHT       59     0   1     171
+  lane L4 long sword               pad stuck  ghost 490    tempo  1.52s CAUGHT       59     0   1     171
+
+  boots L8 greaves                 mouse      walk 370     fleet  8.0s up           689    64   9     182
+  boots L8 greaves                 mouse      walk 370     tempo  6.84s CAUGHT      656     0   8     172
+  boots L8 greaves                 mouse      boots 415    fleet  3.87s CAUGHT      292     0   4     172
+  boots L8 greaves                 mouse      boots 415    tempo  3.71s CAUGHT      292     0   4     171
+  boots L8 greaves                 mouse      ghost 490    fleet  2.05s CAUGHT      142     0   2     172
+  boots L8 greaves                 mouse      ghost 490    tempo  2.02s CAUGHT      142     0   2     175
+  boots L8 greaves                 pad        walk 370     fleet  8.0s up           689    64   9     188
+  boots L8 greaves                 pad        walk 370     tempo  7.25s CAUGHT      656     0   8     174
+  boots L8 greaves                 pad        boots 415    fleet  4.05s CAUGHT      292     0   4     174
+  boots L8 greaves                 pad        boots 415    tempo  3.89s CAUGHT      292     0   4     173
+  boots L8 greaves                 pad        ghost 490    fleet  2.13s CAUGHT      142     0   2     171
+  boots L8 greaves                 pad        ghost 490    tempo  2.10s CAUGHT      142     0   2     173
+  boots L8 greaves                 pad stuck  walk 370     fleet  4.89s CAUGHT      397     0   5     173
+  boots L8 greaves                 pad stuck  walk 370     tempo  4.60s CAUGHT      397     0   5     172
+  boots L8 greaves                 pad stuck  boots 415    fleet  3.00s CAUGHT      216     0   3     174
+  boots L8 greaves                 pad stuck  boots 415    tempo  2.92s CAUGHT      216     0   3     172
+  boots L8 greaves                 pad stuck  ghost 490    fleet  1.97s CAUGHT      142     0   2     173
+  boots L8 greaves                 pad stuck  ghost 490    tempo  1.94s CAUGHT      142     0   2     174
+
+  2-item L12 Kraken                mouse      walk 370     fleet  8.0s up          1608    98  11     294
+  2-item L12 Kraken                mouse      walk 370     tempo  8.0s up          1961     0  12     232
+  2-item L12 Kraken                mouse      boots 415    fleet  4.50s CAUGHT      888     0   6     173
+  2-item L12 Kraken                mouse      boots 415    tempo  4.26s CAUGHT      910     0   6     175
+  2-item L12 Kraken                mouse      ghost 490    fleet  2.32s CAUGHT      417     0   3     171
+  2-item L12 Kraken                mouse      ghost 490    tempo  2.28s CAUGHT      417     0   3     171
+  2-item L12 Kraken                pad        walk 370     fleet  8.0s up          1608    98  11     309
+  2-item L12 Kraken                pad        walk 370     tempo  8.0s up          1961     0  12     249
+  2-item L12 Kraken                pad        boots 415    fleet  4.79s CAUGHT      888     0   6     173
+  2-item L12 Kraken                pad        boots 415    tempo  4.55s CAUGHT      910     0   6     174
+  2-item L12 Kraken                pad        ghost 490    fleet  2.44s CAUGHT      417     0   3     172
+  2-item L12 Kraken                pad        ghost 490    tempo  2.40s CAUGHT      417     0   3     173
+  2-item L12 Kraken                pad stuck  walk 370     fleet  5.33s CAUGHT      997     0   7     171
+  2-item L12 Kraken                pad stuck  walk 370     tempo  5.48s CAUGHT     1176     0   8     173
+  2-item L12 Kraken                pad stuck  boots 415    fleet  3.13s CAUGHT      531     0   4     172
+  2-item L12 Kraken                pad stuck  boots 415    tempo  3.30s CAUGHT      693     0   5     175
+  2-item L12 Kraken                pad stuck  ghost 490    fleet  2.01s CAUGHT      417     0   3     175
+  2-item L12 Kraken                pad stuck  ghost 490    tempo  2.07s CAUGHT      417     0   3     174
+
+  3-item L15 Rageblade stacked     mouse      walk 370     fleet  7.49s KILL       2917   124  13     299
+  3-item L15 Rageblade stacked     mouse      walk 370     tempo  6.37s KILL       2948     0  12     283
+  3-item L15 Rageblade stacked     mouse      boots 415    fleet  4.41s CAUGHT     1509     0   7     173
+  3-item L15 Rageblade stacked     mouse      boots 415    tempo  4.65s CAUGHT     1850     0   8     172
+  3-item L15 Rageblade stacked     mouse      ghost 490    fleet  2.47s CAUGHT      868     0   4     175
+  3-item L15 Rageblade stacked     mouse      ghost 490    tempo  2.44s CAUGHT      868     0   4     172
+  3-item L15 Rageblade stacked     pad        walk 370     fleet  8.0s up          2754   124  12     342
+  3-item L15 Rageblade stacked     pad        walk 370     tempo  6.92s KILL       2948     0  12     299
+  3-item L15 Rageblade stacked     pad        boots 415    fleet  4.75s CAUGHT     1509     0   7     172
+  3-item L15 Rageblade stacked     pad        boots 415    tempo  4.75s CAUGHT     1850     0   8     175
+  3-item L15 Rageblade stacked     pad        ghost 490    fleet  2.47s CAUGHT      868     0   4     175
+  3-item L15 Rageblade stacked     pad        ghost 490    tempo  2.54s CAUGHT      868     0   4     175
+  3-item L15 Rageblade stacked     pad stuck  walk 370     fleet  5.67s CAUGHT     2065   124   9     174
+  3-item L15 Rageblade stacked     pad stuck  walk 370     tempo  4.78s CAUGHT     1850     0   8     173
+  3-item L15 Rageblade stacked     pad stuck  boots 415    fleet  3.19s CAUGHT     1028     0   5     172
+  3-item L15 Rageblade stacked     pad stuck  boots 415    tempo  3.09s CAUGHT     1028     0   5     172
+  3-item L15 Rageblade stacked     pad stuck  ghost 490    fleet  1.95s CAUGHT      640     0   3     174
+  3-item L15 Rageblade stacked     pad stuck  ghost 490    tempo  1.93s CAUGHT      640     0   3     171
+
+------------------------------------------------------------------------------
+KAI'SA — STICK + RT, ONE SUPERCHARGE when they close 80 range
+------------------------------------------------------------------------------
+  Build                            Hands      Chaser       Rune   Lived             Dmg  Heal  AA  MinGap
+  lane L4 long sword               mouse      walk 370     fleet  5.33s CAUGHT      333     0   5     172
+  lane L4 long sword               mouse      walk 370     tempo  5.65s CAUGHT      401     0   6     174
+  lane L4 long sword               mouse      boots 415    fleet  4.15s CAUGHT      245     0   4     175
+  lane L4 long sword               mouse      boots 415    tempo  4.03s CAUGHT      245     0   4     172
+  lane L4 long sword               mouse      ghost 490    fleet  2.60s CAUGHT      182     0   3     174
+  lane L4 long sword               mouse      ghost 490    tempo  2.66s CAUGHT      182     0   3     175
+  lane L4 long sword               pad        walk 370     fleet  5.51s CAUGHT      333     0   5     173
+  lane L4 long sword               pad        walk 370     tempo  5.86s CAUGHT      400     0   6     175
+  lane L4 long sword               pad        boots 415    fleet  4.15s CAUGHT      245     0   4     175
+  lane L4 long sword               pad        boots 415    tempo  4.19s CAUGHT      245     0   4     173
+  lane L4 long sword               pad        ghost 490    fleet  2.60s CAUGHT      182     0   3     174
+  lane L4 long sword               pad        ghost 490    tempo  2.66s CAUGHT      182     0   3     175
+  lane L4 long sword               pad stuck  walk 370     fleet  4.55s CAUGHT      333     0   5     175
+  lane L4 long sword               pad stuck  walk 370     tempo  4.86s CAUGHT      333     0   5     172
+  lane L4 long sword               pad stuck  boots 415    fleet  3.47s CAUGHT      245     0   4     175
+  lane L4 long sword               pad stuck  boots 415    tempo  3.63s CAUGHT      245     0   4     175
+  lane L4 long sword               pad stuck  ghost 490    fleet  2.40s CAUGHT      120     0   2     175
+  lane L4 long sword               pad stuck  ghost 490    tempo  2.39s CAUGHT      120     0   2     171
+
+  boots L8 greaves                 mouse      walk 370     fleet  8.0s up           820    64  10     279
+  boots L8 greaves                 mouse      walk 370     tempo  8.0s up           985     0  11     221
+  boots L8 greaves                 mouse      boots 415    fleet  6.09s CAUGHT      539    64   7     175
+  boots L8 greaves                 mouse      boots 415    tempo  5.17s CAUGHT      572     0   7     175
+  boots L8 greaves                 mouse      ghost 490    fleet  3.29s CAUGHT      292     0   4     171
+  boots L8 greaves                 mouse      ghost 490    tempo  3.17s CAUGHT      292     0   4     172
+  boots L8 greaves                 pad        walk 370     fleet  8.0s up           689    64   9     334
+  boots L8 greaves                 pad        walk 370     tempo  8.0s up           898     0  10     268
+  boots L8 greaves                 pad        boots 415    fleet  6.37s CAUGHT      539    64   7     174
+  boots L8 greaves                 pad        boots 415    tempo  5.28s CAUGHT      483     0   6     173
+  boots L8 greaves                 pad        ghost 490    fleet  3.30s CAUGHT      292     0   4     174
+  boots L8 greaves                 pad        ghost 490    tempo  3.31s CAUGHT      292     0   4     173
+  boots L8 greaves                 pad stuck  walk 370     fleet  6.94s CAUGHT      613    64   8     173
+  boots L8 greaves                 pad stuck  walk 370     tempo  5.57s CAUGHT      570     0   7     175
+  boots L8 greaves                 pad stuck  boots 415    fleet  4.28s CAUGHT      397     0   5     174
+  boots L8 greaves                 pad stuck  boots 415    tempo  4.07s CAUGHT      397     0   5     174
+  boots L8 greaves                 pad stuck  ghost 490    fleet  2.75s CAUGHT      292     0   4     174
+  boots L8 greaves                 pad stuck  ghost 490    tempo  2.78s CAUGHT      292     0   4     175
+
+  2-item L12 Kraken                mouse      walk 370     fleet  8.0s up          1805    98  12     398
+  2-item L12 Kraken                mouse      walk 370     tempo  8.0s up          2115     0  13     327
+  2-item L12 Kraken                mouse      boots 415    fleet  6.66s CAUGHT     1500    98  10     175
+  2-item L12 Kraken                mouse      boots 415    tempo  6.09s CAUGHT     1627     0  10     173
+  2-item L12 Kraken                mouse      ghost 490    fleet  3.46s CAUGHT      693     0   5     171
+  2-item L12 Kraken                mouse      ghost 490    tempo  3.35s CAUGHT      693     0   5     171
+  2-item L12 Kraken                pad        walk 370     fleet  8.0s up          1608    98  11     433
+  2-item L12 Kraken                pad        walk 370     tempo  8.0s up          1980     0  12     364
+  2-item L12 Kraken                pad        boots 415    fleet  7.20s CAUGHT     1500    98  10     173
+  2-item L12 Kraken                pad        boots 415    tempo  6.52s CAUGHT     1627     0  10     174
+  2-item L12 Kraken                pad        ghost 490    fleet  3.51s CAUGHT      693     0   5     175
+  2-item L12 Kraken                pad        ghost 490    tempo  3.51s CAUGHT      693     0   5     173
+  2-item L12 Kraken                pad stuck  walk 370     fleet  7.57s CAUGHT     1608    98  11     174
+  2-item L12 Kraken                pad stuck  walk 370     tempo  6.34s CAUGHT     1627     0  10     174
+  2-item L12 Kraken                pad stuck  boots 415    fleet  4.43s CAUGHT      888     0   6     173
+  2-item L12 Kraken                pad stuck  boots 415    tempo  4.23s CAUGHT      914     0   6     175
+  2-item L12 Kraken                pad stuck  ghost 490    fleet  2.80s CAUGHT      531     0   4     174
+  2-item L12 Kraken                pad stuck  ghost 490    tempo  2.72s CAUGHT      531     0   4     175
+
+  3-item L15 Rageblade stacked     mouse      walk 370     fleet  6.96s KILL       2917   124  13     414
+  3-item L15 Rageblade stacked     mouse      walk 370     tempo  6.02s KILL       2982     0  12     391
+  3-item L15 Rageblade stacked     mouse      boots 415    fleet  6.79s CAUGHT     2754   124  12     172
+  3-item L15 Rageblade stacked     mouse      boots 415    tempo  5.74s KILL       2976     0  12     189
+  3-item L15 Rageblade stacked     mouse      ghost 490    fleet  3.64s CAUGHT     1340     0   6     173
+  3-item L15 Rageblade stacked     mouse      ghost 490    tempo  3.56s CAUGHT     1376     0   6     174
+  3-item L15 Rageblade stacked     pad        walk 370     fleet  7.65s KILL       2917   124  13     423
+  3-item L15 Rageblade stacked     pad        walk 370     tempo  6.52s KILL       2976     0  12     406
+  3-item L15 Rageblade stacked     pad        boots 415    fleet  7.42s CAUGHT     2754   124  12     175
+  3-item L15 Rageblade stacked     pad        boots 415    tempo  6.35s CAUGHT     2611     0  11     172
+  3-item L15 Rageblade stacked     pad        ghost 490    fleet  3.67s CAUGHT     1340     0   6     175
+  3-item L15 Rageblade stacked     pad        ghost 490    tempo  3.77s CAUGHT     1376     0   6     171
+  3-item L15 Rageblade stacked     pad stuck  walk 370     fleet  7.00s CAUGHT     2754   124  12     171
+  3-item L15 Rageblade stacked     pad stuck  walk 370     tempo  6.05s CAUGHT     2611     0  11     171
+  3-item L15 Rageblade stacked     pad stuck  boots 415    fleet  5.00s CAUGHT     2065   124   9     172
+  3-item L15 Rageblade stacked     pad stuck  boots 415    tempo  4.40s CAUGHT     1868     0   8     173
+  3-item L15 Rageblade stacked     pad stuck  ghost 490    fleet  2.92s CAUGHT     1028     0   5     172
+  3-item L15 Rageblade stacked     pad stuck  ghost 490    tempo  2.87s CAUGHT     1028     0   5     171
+
+------------------------------------------------------------------------------
+ASHE — STICK + RT  (20% slow for 2s on each auto, both runes)
+------------------------------------------------------------------------------
+  Build                            Hands      Chaser       Rune   Lived             Dmg  Heal  AA  MinGap
+  boots L8 greaves                 mouse      walk 370     fleet  8.0s up           628    64  10     555
+  boots L8 greaves                 mouse      walk 370     tempo  8.0s up           779     0  11     555
+  boots L8 greaves                 mouse      boots 415    fleet  8.0s up           628    64  10     343
+  boots L8 greaves                 mouse      boots 415    tempo  8.0s up           779     0  11     290
+  boots L8 greaves                 mouse      ghost 490    fleet  4.40s CAUGHT      314     0   5     175
+  boots L8 greaves                 mouse      ghost 490    tempo  4.17s CAUGHT      314     0   5     175
+  boots L8 greaves                 pad        walk 370     fleet  8.0s up           565    64   9     555
+  boots L8 greaves                 pad        walk 370     tempo  8.0s up           701     0  10     555
+  boots L8 greaves                 pad        boots 415    fleet  8.0s up           565    64   9     379
+  boots L8 greaves                 pad        boots 415    tempo  8.0s up           701     0  10     336
+  boots L8 greaves                 pad        ghost 490    fleet  4.65s CAUGHT      314     0   5     172
+  boots L8 greaves                 pad        ghost 490    tempo  4.42s CAUGHT      314     0   5     172
+  boots L8 greaves                 pad stuck  walk 370     fleet  8.0s up           628    64  10     428
+  boots L8 greaves                 pad stuck  walk 370     tempo  8.0s up           779     0  11     364
+  boots L8 greaves                 pad stuck  boots 415    fleet  7.82s CAUGHT      565    64   9     174
+  boots L8 greaves                 pad stuck  boots 415    tempo  6.40s CAUGHT      546     0   8     172
+  boots L8 greaves                 pad stuck  ghost 490    fleet  3.54s CAUGHT      251     0   4     173
+  boots L8 greaves                 pad stuck  ghost 490    tempo  3.39s CAUGHT      251     0   4     174
+
+  2-item L12 Stormrazor            mouse      walk 370     fleet  8.0s up          1438    99  11     567
+  2-item L12 Stormrazor            mouse      walk 370     tempo  8.0s up          1862     0  13     567
+  2-item L12 Stormrazor            mouse      boots 415    fleet  8.0s up          1438    99  11     379
+  2-item L12 Stormrazor            mouse      boots 415    tempo  8.0s up          1862     0  13     403
+  2-item L12 Stormrazor            mouse      ghost 490    fleet  4.43s CAUGHT      739     0   6     173
+  2-item L12 Stormrazor            mouse      ghost 490    tempo  4.21s CAUGHT      761     0   6     175
+  2-item L12 Stormrazor            pad        walk 370     fleet  8.0s up          1438    99  11     567
+  2-item L12 Stormrazor            pad        walk 370     tempo  8.0s up          1717     0  12     567
+  2-item L12 Stormrazor            pad        boots 415    fleet  8.0s up          1438    99  11     419
+  2-item L12 Stormrazor            pad        boots 415    tempo  8.0s up          1717     0  12     420
+  2-item L12 Stormrazor            pad        ghost 490    fleet  4.72s CAUGHT      739     0   6     174
+  2-item L12 Stormrazor            pad        ghost 490    tempo  4.50s CAUGHT      761     0   6     175
+  2-item L12 Stormrazor            pad stuck  walk 370     fleet  8.0s up          1438    99  11     419
+  2-item L12 Stormrazor            pad stuck  walk 370     tempo  8.0s up          1862     0  13     427
+  2-item L12 Stormrazor            pad stuck  boots 415    fleet  8.0s up          1438    99  11     225
+  2-item L12 Stormrazor            pad stuck  boots 415    tempo  8.0s up          1862     0  13     238
+  2-item L12 Stormrazor            pad stuck  ghost 490    fleet  3.12s CAUGHT      493     0   4     173
+  2-item L12 Stormrazor            pad stuck  ghost 490    tempo  3.47s CAUGHT      616     0   5     174
+
+  3-item L15 Runaan                mouse      walk 370     fleet  8.0s up          2276   119  14     578
+  3-item L15 Runaan                mouse      walk 370     tempo  8.0s up          2743     0  15     578
+  3-item L15 Runaan                mouse      boots 415    fleet  8.0s up          2276   119  14     477
+  3-item L15 Runaan                mouse      boots 415    tempo  8.0s up          2743     0  15     477
+  3-item L15 Runaan                mouse      ghost 490    fleet  8.0s up          2276   119  14     220
+  3-item L15 Runaan                mouse      ghost 490    tempo  7.52s CAUGHT     2556     0  14     173
+  3-item L15 Runaan                pad        walk 370     fleet  8.0s up          2119   119  13     578
+  3-item L15 Runaan                pad        walk 370     tempo  8.0s up          2556     0  14     578
+  3-item L15 Runaan                pad        boots 415    fleet  8.0s up          2119   119  13     499
+  3-item L15 Runaan                pad        boots 415    tempo  8.0s up          2556     0  14     511
+  3-item L15 Runaan                pad        ghost 490    fleet  8.0s up          2119   119  13     222
+  3-item L15 Runaan                pad        ghost 490    tempo  8.0s up          2556     0  14     224
+  3-item L15 Runaan                pad stuck  walk 370     fleet  8.0s up          2276   119  14     462
+  3-item L15 Runaan                pad stuck  walk 370     tempo  8.0s up          2743     0  15     463
+  3-item L15 Runaan                pad stuck  boots 415    fleet  8.0s up          2276   119  14     285
+  3-item L15 Runaan                pad stuck  boots 415    tempo  8.0s up          2743     0  15     295
+  3-item L15 Runaan                pad stuck  ghost 490    fleet  3.59s CAUGHT      940     0   6     173
+  3-item L15 Runaan                pad stuck  ghost 490    tempo  3.44s CAUGHT      971     0   6     174
+
+------------------------------------------------------------------------------
+STICKY WIND-UP STRESS — Kai'Sa 3-item, pad, no E, windup modifier 0.6
+  Bonus AS shrinks the wind-up slower than the period, so Tempo stands more.
+  Not the base case. WR does not publish wind-up modifiers.
+------------------------------------------------------------------------------
+  walk 370     fleet  7.50s CAUGHT   dmg   2400  stand 1.74s  walk 5.76s
+  walk 370     tempo  6.32s CAUGHT   dmg   2381  stand 1.49s  walk 4.83s
+  boots 415    fleet  3.53s CAUGHT   dmg   1028  stand 0.88s  walk 2.65s
+  boots 415    tempo  3.85s CAUGHT   dmg   1370  stand 0.86s  walk 2.99s
+  ghost 490    fleet  2.12s CAUGHT   dmg    640  stand 0.53s  walk 1.59s
+  ghost 490    tempo  2.08s CAUGHT   dmg    640  stand 0.53s  walk 1.55s
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  On a pad, take Tempo unless Supercharge is what keeps the fight going.
+  7.3 Tempo is slow enough to tap. It does not create space.
+  Fleet's 20% move speed does, but only after the energize bar
+  fills — a long fight, not a 2-second run-down. A ghost on
+  Kai'Sa ends before either rune turns on.
+
+  KILL = you killed the 2800 HP body. CAUGHT = they reached 175.
+  up = the 8s window ended with you untouched. Heal 0 means Fleet
+  never proc'd.
+
+  Kai'Sa, pad (50 ms late auto, tap every 0.36s), E not pressed:
+    boots L8 greaves, boots 415:  Fleet 4.05s CAUGHT / 292 dmg   Tempo 3.89s CAUGHT / 292 dmg
+    boots L8 greaves, ghost 490:  Fleet 2.13s CAUGHT / 142 dmg   Tempo 2.10s CAUGHT / 142 dmg
+    3-item L15 Rageblade stacked, boots 415:  Fleet 4.75s CAUGHT / 1509 dmg   Tempo 4.75s CAUGHT / 1850 dmg
+    3-item L15 Rageblade stacked, ghost 490:  Fleet 2.47s CAUGHT / 868 dmg   Tempo 2.54s CAUGHT / 868 dmg
+
+  Same hands, Supercharge pressed once when they step in:
+    boots L8 greaves, boots 415:  Fleet 6.37s CAUGHT / 539   Tempo 5.28s CAUGHT / 483   E yes
+    boots L8 greaves, ghost 490:  Fleet 3.30s CAUGHT / 292   Tempo 3.31s CAUGHT / 292   E yes
+    3-item L15 Rageblade stacked, boots 415:  Fleet 7.42s CAUGHT / 2754   Tempo 6.35s CAUGHT / 2611   E yes
+    3-item L15 Rageblade stacked, ghost 490:  Fleet 3.67s CAUGHT / 1340   Tempo 3.77s CAUGHT / 1376   E yes
+
+  Ashe pad, Stormrazor already spending the energize bar:
+    2-item L12 Stormrazor, ghost 490:  Fleet 4.72s CAUGHT / 739   Tempo 4.50s CAUGHT / 761
+    3-item L15 Runaan, ghost 490:  Fleet 8.0s up / 2119   Tempo 8.0s up / 2556
+
+  TAKE TEMPO when you can already hold the edge.
+    Ashe slows on every auto. Stormrazor + Runaan vs ghost:
+    Fleet 8.0s up / 2119    Tempo 8.0s up / 2556.
+    Kai'Sa vs a 370 MS walker, 3 items, no E, pad:
+    Fleet 8.0s up / 2754    Tempo 6.92s KILL / 2948.
+    Both stay out of melee. Tempo spends the time harder.
+    7.3 Tempo is only +38.4% AS at 6 stacks, and the shoulder
+    button can spend it. You do not lose the kite by picking it.
+
+  TAKE TEMPO for a short run-down if Supercharge is down.
+    A melee faster than your backswing touches you before Fleet
+    energizes (heal stays 0) and before Tempo's bolt. 3 items,
+    pad, no E, vs 415 MS:
+    Fleet 4.75s CAUGHT / 1509 (heal 0)
+    Tempo 4.75s CAUGHT / 1850.
+    Same collapse, Tempo's damage. The stick gets no new gap
+    from either rune in a fight this short.
+
+  TAKE FLEET when Supercharge keeps the fight past one energize
+    and you are on the pad.
+    3 items, pad, E pressed, vs 415 MS:
+    Fleet 7.42s CAUGHT / 2754 (heal 124, procs 1)
+    Tempo 6.35s CAUGHT / 2611.
+    Same fight on a mouse, Tempo: 5.74s KILL / 2976.
+    The 50 ms late auto is the difference between Tempo killing
+    them on a mouse and getting touched on the pad. Fleet's proc
+    is the extra second and the heal. It still does not secure
+    the kill. At 3 items E's move speed is already capped without
+    Tempo, so Tempo is not making Supercharge faster.
+
+  NEITHER RUNE kites a ghost on Kai'Sa.
+    3 items, pad, no E, ghost 490:
+    Fleet 2.47s CAUGHT / 868 (heal 0)
+    Tempo 2.54s CAUGHT / 868.
+    With E:
+    Fleet 3.67s CAUGHT / 1340 (heal 0)
+    Tempo 3.77s CAUGHT / 1376.
+    Too few autos to fill Fleet's bar or finish Tempo. Pressing E
+    as they arrive does not fix it. You need your own Ghost or
+    Flash, or to not be in auto range when theirs starts.
+
+  LANE (no boots) is also neither rune.
+    Pad vs 370: Fleet 4.12s CAUGHT / heal 0
+    Tempo 3.98s CAUGHT. The bolt is not up. The small
+    survival gap is attack timing, not Fleet's move speed.
+
+  PAD, NOT THE RUNE, IF THE MAP IS WRONG.
+    'pad stuck' freezes you 0.05s on every RT. That is Mapping
+    Enhancement off, or the joystick not Locked. Both runes get
+    caught faster. Fix the map before you swap the keystone.
+    Follow OFF. Do not hold RT. Holding RT with Follow off is
+    standing still, which is neither Fleet nor Tempo.
+
+  ASSUMPTIONS THAT MOVE THE ANSWER
+    Wind-up 18% Kai'Sa / 22% Ashe, and it scales 1:1 with attack
+    speed. Not in the 7.3 notes. The stress table (modifier 0.6)
+    is the case where bonus AS makes you stand a larger share
+    of each auto. There Tempo gets caught sooner vs a walker
+    you could previously hold. Treat that as a risk, not the
+    base answer.
+    Chaser runs straight at you. No dash, no Flash, no your Ghost.
+    Both pages can take Ghost. It is not in the numbers.
+    Kai'Sa E cast time (1.0s → 0.5s with bonus AS) is the wiki
+    value. 7.3 reprinted the move-speed formula, not the cast.
+    Berserker AD (10) is the approximate value from the item pass.
+    Ashe slow is a flat 20% for 2s. The slow, not the rune, is
+    why she holds a ghost at 3 items.
+
