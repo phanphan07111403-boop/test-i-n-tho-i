@@ -1,0 +1,290 @@
+========================================================================================
+SMOLDER — CRIT SCALE vs ABILITY SCALE   (PC LoL patch 26.19)
+Bot lane, even gold, Deathfire Touch, Essence Reaver first on every path
+Window: 8 seconds.  Kite = Q + autos + one W.  Poke = Q only.  All-in = R + E + Q.
+========================================================================================
+
+GOLD / LEVEL / TARGETS
+   Min    Gold  Lvl   Sq HP  Sq AR  Tank HP  Tank AR  Tank MR
+     1     880    1     630     26      650       40       32
+     8    3720    6    1155     47     1700       83       42
+    11    5130    7    1260     51     2270      115       58
+    14    6720    9    1720     85     2960      152       83
+    16    7840   11    1930     93     3500      180      102
+    18    8960   12    2035     97     3920      203      118
+    22   11440   14    2445    106     4610      235      150
+    25   13300   16    2655    114     4850      245      173
+    28   15160   18    2865    122     5090      255      177
+
+----------------------------------------------------------------------------------------
+DRAGON PRACTICE — minute you cross 25 / 125 / 225
+Stacks come from Q casts. Haste does nothing until the haste items exist.
+----------------------------------------------------------------------------------------
+  Build                             25     125     225  stacks@22  stacks@28
+  Crit IE/RFC                    05:00   14:00   27:00        187        233
+  Crit Navori                    05:00   14:00   27:00        187        233
+  Ability                        05:00   14:00   23:00        214        295
+  Hybrid Shojin                  05:00   14:00   25:00        201        258
+  Hybrid Cleaver                 05:00   14:00   26:00        198        251
+
+----------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE — who leads each job
+messy = kite damage on a squishy, multiplied by whether the dive burst kills you
+----------------------------------------------------------------------------------------
+   Min  Squishy kite     Tank kite        Poke             Messy fight     
+  01:00  tie              tie              tie              tie             
+  02:00  tie              tie              tie              tie             
+  03:00  tie              tie              tie              tie             
+  04:00  tie              tie              tie              tie             
+  05:00  tie              tie              tie              tie             
+  06:00  tie              tie              tie              tie             
+  07:00  tie              tie              tie              tie             
+  08:00  tie              tie              tie              tie             
+  09:00  Both crit        Both crit        Ability          Both crit       
+  10:00  Both crit        Both crit        Ability          Both crit       
+  11:00  Both crit        Both crit        Hybrid Shojin    Both crit       
+  12:00  Both crit        Both crit        Ability          Ability         
+  13:00  Both crit        Both crit        Both crit        Both crit       
+  14:00  Both crit        Both crit        Both crit        Both crit       
+  15:00  Both crit        Both crit        Both crit        Ability         
+  16:00  Both crit        Both crit        Ability          Ability         
+  17:00  Crit Navori      Crit Navori      Ability          Crit Navori     
+  18:00  Both crit        Both crit        Hybrid Shojin    Both crit       
+  19:00  Both crit        Both crit        Hybrid Shojin    Both crit       
+  20:00  Both crit        Both crit        Hybrid Shojin    Both crit       
+  21:00  Crit Navori      Crit Navori      Hybrid Shojin    Ability         
+  22:00  Crit IE/RFC      Crit IE/RFC      Hybrid Shojin    Ability         
+  23:00  Crit IE/RFC      Ability          Ability          Ability         
+  24:00  Crit IE/RFC      Ability          Ability          Ability         
+  25:00  Crit IE/RFC      Ability          Ability          Ability         
+  26:00  Crit+Cleaver     Hybrid Cleaver   Ability          Hybrid Cleaver  
+  27:00  Both crit        Crit Navori      Hybrid Shojin    Hybrid Cleaver  
+  28:00  Hybrid Cleaver   Hybrid Cleaver   Hybrid Shojin    Hybrid Cleaver  
+
+----------------------------------------------------------------------------------------
+ASPECTS — same minute, every build
+Q hit is one Q on a squishy before Carve ramps, including spellblade and the 225 burn.
+Equal-stack tank kite gives every build the crit build's stack count, so the
+remaining gap is items rather than who farmed Q faster.
+----------------------------------------------------------------------------------------
+
+  11:00   level 7   gold 5130
+           squishy 1260 HP / 51 AR     tank 2270 HP / 115 AR / 58 MR
+  Build            Items  Crit  Q cd   Stk   Q hit    Poke  KiteSq  KiteTk   AllTk     HP  Live  E cd  Team
+  Crit IE/RFC          1   25%  3.33    86     220     696    1692    1213    1200   1255   68%  20.0    0%
+                 Essence Reaver › Berserker's Greaves
+  Crit Navori          1   25%  3.33    86     220     696    1692    1213    1200   1255   68%  20.0    0%
+                 Essence Reaver › Berserker's Greaves
+  Ability              1   25%  3.08    89     220     705    1249     897    1126   1405   77%  18.5    0%
+                 Essence Reaver › Ionian Boots of Lucidity + Ruby Crystal
+  Hybrid Shojin        1   25%  3.33    86     230     729    1326     952    1189   1255   68%  20.0    0%
+                 Essence Reaver › Gluttonous Greaves + Long Sword
+  Hybrid Cleaver       1   25%  3.33    86     220     696    1247     895    1124   1405   77%  20.0    0%
+                 Essence Reaver › Gluttonous Greaves + Ruby Crystal
+  Qs in kite / poke, heal from kite: Crit IE/RFC 3/3q 42hp   Crit Navori 3/3q 42hp   Ability 2/3q 31hp   Hybrid Shojin 2/3q 86hp   Hybrid Cleaver 2/3q 81hp
+  Equal-stack tank kite (crit build's stacks on every build):
+    pinned stacks = 86
+    Crit IE/RFC      own    1213    pinned    1213
+    Crit Navori      own    1213    pinned    1213
+    Ability          own     897    pinned     895
+    Hybrid Shojin    own     952    pinned     952
+    Hybrid Cleaver   own     895    pinned     895
+
+  16:00   level 11   gold 7840
+           squishy 1930 HP / 93 AR     tank 3500 HP / 180 AR / 102 MR
+  Build            Items  Crit  Q cd   Stk   Q hit    Poke  KiteSq  KiteTk   AllTk     HP  Live  E cd  Team
+  Crit IE/RFC          1   40%  2.92   141     276     899    2280    1577    1600   1655   73%  20.0    0%
+                 Essence Reaver › Berserker's Greaves + B. F. Sword, Cloak of Agility, Pickaxe
+  Crit Navori          1   40%  2.92   141     276     899    2280    1577    1600   1655   73%  20.0    0%
+                 Essence Reaver › Berserker's Greaves + B. F. Sword, Cloak of Agility, Pickaxe
+  Ability              2   25%  2.33   152     247    1113    2092    1503    1583   2055   91%  16.0   24%
+                 Essence Reaver › Ionian Boots of Lucidity › Black Cleaver + Long Sword
+  Hybrid Shojin        2   25%  2.33   143     237    1055    1838    1273    1343   2105   93%  16.0    0%
+                 Essence Reaver › Gluttonous Greaves › Spear of Shojin
+  Hybrid Cleaver       2   25%  2.50   144     237     800    1997    1435    1515   2055   91%  17.1   24%
+                 Essence Reaver › Gluttonous Greaves › Black Cleaver
+  Qs in kite / poke, heal from kite: Crit IE/RFC 3/3q 57hp   Crit Navori 3/3q 57hp   Ability 3/4q 52hp   Hybrid Shojin 3/4q 119hp   Hybrid Cleaver 3/3q 130hp
+  Equal-stack tank kite (crit build's stacks on every build):
+    pinned stacks = 141
+    Crit IE/RFC      own    1577    pinned    1577
+    Crit Navori      own    1577    pinned    1577
+    Ability          own    1503    pinned    1495
+    Hybrid Shojin    own    1273    pinned    1271
+    Hybrid Cleaver   own    1435    pinned    1433
+
+  18:00   level 12   gold 8960
+           squishy 2035 HP / 97 AR     tank 3920 HP / 203 AR / 118 MR
+  Build            Items  Crit  Q cd   Stk   Q hit    Poke  KiteSq  KiteTk   AllTk     HP  Live  E cd  Team
+  Crit IE/RFC          2   65%  2.92   157     344    1096    3138    2074    1994   1755   72%  20.0    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge + Cloak of Agility, Dagger
+  Crit Navori          2   65%  2.92   157     344    1096    3138    2074    1994   1755   72%  20.0    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge + Dagger, Cloak of Agility
+  Ability              2   25%  2.33   171     246    1103    2119    1466    1544   2405   99%  16.0   25%
+                 Essence Reaver › Ionian Boots of Lucidity › Black Cleaver + Tunneler
+  Hybrid Shojin        2   25%  2.33   162     264    1170    2131    1416    1478   2205   90%  16.0    0%
+                 Essence Reaver › Gluttonous Greaves › Spear of Shojin + B. F. Sword
+  Hybrid Cleaver       2   25%  2.50   162     264     886    2323    1606    1681   2155   88%  17.1   25%
+                 Essence Reaver › Gluttonous Greaves › Black Cleaver + B. F. Sword
+  Qs in kite / poke, heal from kite: Crit IE/RFC 3/3q 78hp   Crit Navori 3/3q 78hp   Ability 3/4q 53hp   Hybrid Shojin 3/4q 139hp   Hybrid Cleaver 3/3q 151hp
+  Equal-stack tank kite (crit build's stacks on every build):
+    pinned stacks = 157
+    Crit IE/RFC      own    2074    pinned    2074
+    Crit Navori      own    2074    pinned    2074
+    Ability          own    1466    pinned    1456
+    Hybrid Shojin    own    1416    pinned    1411
+    Hybrid Cleaver   own    1606    pinned    1602
+
+  22:00   level 14   gold 11440
+           squishy 2445 HP / 106 AR     tank 4610 HP / 235 AR / 150 MR
+  Build            Items  Crit  Q cd   Stk   Q hit    Poke  KiteSq  KiteTk   AllTk     HP  Live  E cd  Team
+  Crit IE/RFC          3   75%  2.92   187     374    1190    3926    2435    2182   1955   70%  18.3    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Rapid Firecannon + Long Sword
+  Crit Navori          3   75%  2.92   187     374    1190    3891    2411    2166   1955   70%  18.3    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Navori Flickerblade + Long Sword
+  Ability              3   25%  1.87   214     285    1343    2969    1935    2087   2805  100%  11.7   27%
+                 Essence Reaver › Ionian Boots of Lucidity › Black Cleaver › Spear of Shojin + Long Sword, Long Sword
+  Hybrid Shojin        3   50%  2.33   201     359    1580    2975    1849    2092   2405   86%  14.7    0%
+                 Essence Reaver › Gluttonous Greaves › Spear of Shojin › Infinity Edge
+  Hybrid Cleaver       3   50%  2.50   198     368    1222    3354    2179    2333   2355   85%  15.7   27%
+                 Essence Reaver › Gluttonous Greaves › Black Cleaver › Infinity Edge + Long Sword
+  Qs in kite / poke, heal from kite: Crit IE/RFC 3/3q 98hp   Crit Navori 3/3q 97hp   Ability 4/4q 74hp   Hybrid Shojin 3/4q 193hp   Hybrid Cleaver 3/3q 218hp
+  Equal-stack tank kite (crit build's stacks on every build):
+    pinned stacks = 187
+    Crit IE/RFC      own    2435    pinned    2435
+    Crit Navori      own    2411    pinned    2411
+    Ability          own    1935    pinned    1914
+    Hybrid Shojin    own    1849    pinned    1839
+    Hybrid Cleaver   own    2179    pinned    2171
+
+  28:00   level 18   gold 15160
+           squishy 2865 HP / 122 AR     tank 5090 HP / 255 AR / 177 MR
+  Build            Items  Crit  Q cd   Stk   Q hit    Poke  KiteSq  KiteTk   AllTk     HP  Live  E cd  Team
+  Crit IE/RFC          4  100%  2.92   233     708    2161    6418    5141    4817   2355   73%  13.3    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Rapid Firecannon › Lord Dominik's Regards
+  Crit Navori          4  100%  2.92   233     708    2162    6781    5467    5262   2355   73%  13.3    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Navori Flickerblade › Lord Dominik's Regards + Cloak of Agility, Dagger
+  Ability              4   25%  1.57   295     572    3135    4849    4134    4022   3205  100%   7.2   27%
+                 Essence Reaver › Ionian Boots of Lucidity › Black Cleaver › Spear of Shojin › Endless Hunger + Last Whisper
+  Hybrid Shojin        4   90%  2.33   258     790    3223    5992    4956    4605   2805   87%  10.7    0%
+                 Essence Reaver › Gluttonous Greaves › Spear of Shojin › Infinity Edge › Lord Dominik's Regards + Cloak of Agility
+  Hybrid Cleaver       4   90%  2.50   251     787    3140    6922    5880    5669   2755   86%  11.4   27%
+                 Essence Reaver › Gluttonous Greaves › Black Cleaver › Infinity Edge › Lord Dominik's Regards + Cloak of Agility, Dagger
+  Qs in kite / poke, heal from kite: Crit IE/RFC 3/3q 160hp   Crit Navori 3/3q 170hp   Ability 4/5q 364hp   Hybrid Shojin 3/4q 389hp   Hybrid Cleaver 3/4q 450hp
+  Equal-stack tank kite (crit build's stacks on every build):
+    pinned stacks = 233
+    Crit IE/RFC      own    5141    pinned    5141
+    Crit Navori      own    5467    pinned    5467
+    Ability          own    4134    pinned    4033
+    Hybrid Shojin    own    4956    pinned    4914
+    Hybrid Cleaver   own    5880    pinned    5849
+
+----------------------------------------------------------------------------------------
+HEAD TO HEAD — Crit IE/RFC minus Ability, and the closer hybrid
+Positive means crit dealt more. Messy uses dive uptime.
+----------------------------------------------------------------------------------------
+   Min  Δ kite sq  Δ kite tk   Δ poke   Δ messy  Δ stacks Ability HP  Crit HP
+  11:00        443        316       -9       201        -2       1405     1255
+  16:00        188         74     -215      -232       -10       2055     1655
+  18:00       1020        608       -7       169       -14       2405     1755
+  22:00        956        501     -152      -211       -27       2805     1955
+  28:00       1568       1006     -974      -133       -62       3205     2355
+----------------------------------------------------------------------------------------
+FULL BUILD — level 18, 250 stacks, gold ignored, targets from 28:00
+This is the item philosophy after the last buy. The timeline above is when it arrives.
+Navori's fifth crit item is past 100% crit and does not raise Q. Bloodthirster adds no crit.
+----------------------------------------------------------------------------------------
+  Build             Crit  Q cd     HP  E cd   Q hit    Poke  KiteSq  KiteTk  Qs  Live  Team
+  Crit IE/RFC       100%  2.92   2275  13.3     871    2648    7977    6429   3   71%    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Rapid Firecannon › Lord Dominik's Regards › Bloodthirster
+  Crit Navori       125%  2.92   2275  13.3     694    2123    7575    6082   4   71%    0%
+                 Essence Reaver › Berserker's Greaves › Infinity Edge › Navori Flickerblade › Lord Dominik's Regards › Rapid Firecannon
+  Ability            25%  1.44   3125   6.6     616    3941    5343    4610   4   97%   27%
+                 Essence Reaver › Ionian Boots of Lucidity › Black Cleaver › Spear of Shojin › Endless Hunger › Serylda's Grudge
+  Hybrid Shojin     100%  2.33   2725  10.7     794    3258    6953    5665   3   85%    0%
+                 Essence Reaver › Gluttonous Greaves › Spear of Shojin › Infinity Edge › Lord Dominik's Regards › Rapid Firecannon
+  Hybrid Cleaver    100%  2.50   2675  11.4     794    3181    7554    6351   3   83%   27%
+                 Essence Reaver › Gluttonous Greaves › Black Cleaver › Infinity Edge › Lord Dominik's Regards › Rapid Firecannon
+
+----------------------------------------------------------------------------------------
+WHEN TO CHOOSE WHICH
+----------------------------------------------------------------------------------------
+  IE is ability scaling. Q is multiplied by crit chance (up to 1.75x) and IE
+  multiplies that bonus again (1.975x at 100% crit). Haste does not raise the
+  multiplier. It raises how often Q is cast, how fast 225 stacks arrive, and
+  how long Deathfire stays up once Q is an AoE. Shojin then adds up to +12%.
+
+  Choose CRIT (ER → Berserker's → IE → RFC → LDR) when you can auto and you
+  need range more than you need a health bar.
+    IE completes at 17:00. Squishy kite that minute is 2717 vs ability 2102 (+29%).
+    At 16:00 IE is not finished (Essence Reaver › Berserker's Greaves + B. F. Sword, Cloak of Agility, Pickaxe). Squishy kite is 2280 vs ability 2092 (+9%). Poke is already ability's: 1113 vs 899.
+    At 22:00, with RFC, squishy kite is 3926 vs ability 2969 (+32%) and vs Cleaver-into-IE 3354. Poke is 1190 vs ability 1343 and vs Shojin-into-IE 1580.
+    RFC's damage proc is small. The energized Q goes out from 700 range instead of
+    550. That range is not in the damage columns. It is how this path avoids the dive
+    the Live column assumes you ate. Skip RFC only when nothing outranges you.
+    At 28:00 crit kite-squishy is 6418, behind Cleaver-into-IE (6922) and ahead of pure ability (4849). Crit chance on the crit path is 100%. Another crit item would not raise Q's multiplier.
+
+  Choose ABILITY (ER → Ionian → Cleaver → Shojin → Hunger → Serylda) when you
+  will get hit, you are mostly throwing Q, or an AD team needs the shred.
+    Health at 22:00 is 2805 vs crit 1955. If the dive lands, uptime is 100% vs 70%. Messy damage (kite × uptime) is 2969 vs 2759.
+    E is back in 11.7s vs 18.3s. Q cooldown is 1.87s vs 2.92s, so the 8s poke throws 4 Qs vs 3.
+    The 225 burn and execute arrive at 23:00 on ability, 25:00 on Shojin-into-IE, and 27:00 on crit.
+    Full Carve is 27% more physical damage for allies on the 22:00 tank.
+    Personal tank kite at 28:00 is still lower: ability 4134 vs crit 5141 (-20%). Equal-stack tank kite is 4033, so the extra stacks are a small slice of that gap. The multiplier and LDR are the rest. Serylda is not finished; the pen in the bag is a Last Whisper (18%), not 35%.
+    Heal over the 28:00 squishy kite is 364 on ability vs 160 on crit. Hunger and Gluttonous are the vamp; crit has Doran's 2.5% until a later item.
+
+  Choose HYBRID when the game asks for both jobs in order.
+    Shojin second, then IE. Take this when dive is real and you will outscale it.
+    You do not have IE at 16:00 (ability-haste second). At 18:00 squishy kite is 2131 vs crit 3138. At 22:00, IE is in: poke 1580 (best of the five), squishy kite 2975, HP 2405, dive uptime 86%, E in 14.7s.
+    At 28:00 Shojin-into-IE kite-squishies for 5992 and kite-tanks for 4956, with 3 Qs inside the kite.
+    Cleaver second, then IE and LDR. Take this when the front line is the fight
+    and someone else on your team is physical damage.
+    At 22:00 tank kite is 2179 (crit 2435, ability 1935) and ally amp is 27%, at 85% dive uptime.
+    At 28:00 it leads the gold-gated table: squishy kite 6922, tank kite 5880, HP 2755, dive uptime 86%. It still has no RFC, so that lead assumes 550 range.
+
+  Navori is crit's way of buying Qs without giving up crit chance.
+    At 28:00 the sheet Q cooldown is still 2.92s. The 8s kite fits 3 Qs on Navori and 3 on RFC crit, so this window does not show an extra cast. 6781 vs 6418 is the attack speed. Poke, with no autos to refund cooldown, is 2162 vs 2161.
+    It does not replace Shojin. Shojin works from fog. Navori works while you auto.
+    It also does not give the health Cleaver and Shojin give.
+
+  The full-build table is the same fight after the last buy, stacks pinned at 250.
+    Bloodthirster crit kite-squishy is 7977 and tank kite 6429, at 71% dive uptime. Cleaver-into-IE-LDR-RFC is 7554 / 6351 at 83% uptime. The 28:00 Cleaver lead was timing: crit had not bought the 80 AD yet, and Cleaver had no RFC.
+    Finished ability poke is 3941 vs finished crit poke 2648, with dive uptime 97% vs 71%. Finished Navori gets 4 Qs in the kite vs 3, and kite-squishy 7575 vs Bloodthirster's 7977.
+
+  Rule of thumb from these spikes:
+    • You can free-hit squishies and you need 700 range — crit, IE before health.
+    • You will only Q — haste first. Add IE when you can. Do not buy RFC to poke.
+    • Assassin or engage will touch you — Shojin or Cleaver before IE.
+    • Tanks, and your team is AD — Cleaver, then IE and LDR. Do not stop on Shojin.
+    • Tanks, and you are the only AD — LDR is your pen. Cleaver's amp has no partner.
+    • At 100% crit, stop buying crit. The next cloak does not scale Q.
+    • Do not buy The Collector. The execute is already 6.5% max health.
+
+----------------------------------------------------------------------------------------
+ASSUMPTIONS THAT MOVE THE ANSWER
+----------------------------------------------------------------------------------------
+  • Q crit is a ratio, not a roll. 100% crit = 1.75x physical. IE makes it 1.975x.
+  • Autos crit for 200%, or 230% with Infinity Edge. Expected value, not a lucky fight.
+  • Stack magic on Q is 25–55% of stacks from crit, 64% with IE. It is not crit twice.
+  • W magic is 55% of stacks and does not care about crit. E magic does, bolts do not.
+  • 225-stack burn is true damage from bonus AD and stacks. Crit does not increase the %.
+  • Execute threshold is a flat 6.5% max HP. The Collector's 5% does not add anything.
+  • Shojin's +12% ramps across the fight and applies to abilities, including the burn.
+    It does not apply to autos, Essence Reaver spellblade, or Deathfire Touch.
+  • After 25 stacks, Q is treated as AoE for Deathfire Touch (2s burn). Haste that
+    holds Q under 2s keeps the burn up; a 2.9s Q lets it fall off between casts.
+  • Cleaver is 6% armor reduction per physical hit, 5 stacks. Q and each auto add one.
+    E's bolts fill it immediately. Allies get that shred; it is the Team column.
+  • Rapid Firecannon range is the energized attack only: +35% range, capped at +150.
+    Q inherits bonus attack range, so the proc Q reaches 700. Damage column adds the
+    40 magic proc, not the range. Range is why you live, and it is not in the DPS.
+  • Navori reduces remaining basic cooldowns by 15% per auto. Q itself is not counted
+    as that auto. If Q does proc it in the live client, Navori is better than shown.
+  • Endless Hunger Famine uses the ranged rate, 5 + 10% bonus AD ability haste.
+  • All-in spends about 2s on R and E. Into armor those spells replace Qs and autos
+    that would have hurt more, so tank kite is often higher than tank all-in.
+    E is still the escape. The damage sim does not give it credit for dodging.
+  • Dive uptime is a growing physical+magic burst against your HP, armor, and MR.
+    Shieldbow would add its shield; none of these paths buy it. The Live column is
+    'you got hit'. RFC's extra range is how the crit path makes that burst miss.
+  • No Gathering Storm, no Jack of All Trades, no adaptive shards.
+
