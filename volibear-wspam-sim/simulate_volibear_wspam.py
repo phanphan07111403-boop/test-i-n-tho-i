@@ -102,10 +102,15 @@ class Item:
     boots: bool = False
 
 
+# Tốc Chiến shop name. Mid-tier, not a legendary — search or open Despair.
+KINDLE_KEY = "Kindlegem"
+KINDLE_NAME = "Hỏa Ngọc (Kindlegem)"
+
+
 ITEMS: Dict[str, Item] = {
     "Long Sword": Item("Long Sword", 500, ad=12),
     "Ruby Crystal": Item("Ruby Crystal", 500, hp=200),
-    "Kindlegem": Item("Kindlegem", 1000, hp=200, ah=10),
+    KINDLE_KEY: Item(KINDLE_NAME, 1000, hp=175, ah=10),
     "Sheen": Item("Sheen", 800, sheen="trinity"),
     "Giant's Belt": Item("Giant's Belt", 1000, hp=350),
     "Heartsteel": Item("Heartsteel", 2800, hp=700, ah=20, heartsteel=True),
@@ -151,13 +156,13 @@ class Path:
 
 
 # Leftover gold after the last finished legendary buys this component of the next one.
-# Kindlegem is the W-spam component: +10 AH is the 3rd bite before Despair finishes.
+# Hỏa Ngọc (Kindlegem) is the W-spam component: +10 AH is the extra bite.
 NEXT_COMPONENT = {
-    "Unending Despair": "Kindlegem",
+    "Unending Despair": KINDLE_KEY,
     "Trinity Force": "Sheen",
-    "Riftmaker": "Kindlegem",
+    "Riftmaker": KINDLE_KEY,
     "Sterak's Gage": "Ruby Crystal",
-    "Heartsteel": "Kindlegem",
+    "Heartsteel": KINDLE_KEY,
     "Titanic Hydra": "Ruby Crystal",
     "Hullbreaker": "Ruby Crystal",
     "Amaranth's Twinguard": "Ruby Crystal",
@@ -170,12 +175,12 @@ PATHS = [
     Path(
         "Heart → Despair → Sterak",
         ["Heartsteel", "Unending Despair", "Sterak's Gage", "Amaranth's Twinguard"],
-        "Skip sheen. Kindlegem leftover + Despair 10 AH is the extra bite.",
+        "Skip sheen. Hỏa Ngọc leftover + Despair 10 AH is the extra bite.",
     ),
     Path(
         "Heart → Sterak → Despair",
         ["Heartsteel", "Sterak's Gage", "Unending Despair", "Amaranth's Twinguard"],
-        "Kindlegem buys the extra bite. Lifeline at ~17 is the mid-game shield.",
+        "Hỏa Ngọc buys the extra bite. Lifeline at ~17 is the mid-game shield.",
     ),
     Path(
         "Heart → Tri → Despair",
@@ -226,9 +231,9 @@ PATHS = [
 
 
 def inventory_at_gold(path: Path, gold: int) -> List[Item]:
-    """Sequential shop. Once Kindlegem is bought, that gold is gone.
+    """Sequential shop. Once Hỏa Ngọc (Kindlegem) is bought, that gold is gone.
 
-    After Heartsteel + boots, leftover Kindlegem is the extra bite
+    After Heartsteel + boots, leftover Hỏa Ngọc is the extra bite
     (30 AH). Despair later consumes it. Sterak does not — so Sterak
     second pays a 1000g delay.
     """
@@ -238,12 +243,14 @@ def inventory_at_gold(path: Path, gold: int) -> List[Item]:
     kindle_checked = False
     unfinished: Optional[str] = None
 
-    def has(name: str) -> bool:
-        return any(i.name == name for i in owned)
+    def has(key: str) -> bool:
+        want = ITEMS[key].name
+        return any(i.name == want for i in owned)
 
-    def consume(name: str) -> None:
+    def consume(key: str) -> None:
+        want = ITEMS[key].name
         for idx, it in enumerate(owned):
-            if it.name == name:
+            if it.name == want:
                 owned.pop(idx)
                 return
 
@@ -257,11 +264,11 @@ def inventory_at_gold(path: Path, gold: int) -> List[Item]:
             return
         kindle_checked = True
         ah = sum(i.ah for i in owned)
-        if ah >= 28 or has("Kindlegem"):
+        if ah >= 28 or has(KINDLE_KEY):
             return
-        if spent + ITEMS["Kindlegem"].cost <= gold:
-            owned.append(ITEMS["Kindlegem"])
-            spent += ITEMS["Kindlegem"].cost
+        if spent + ITEMS[KINDLE_KEY].cost <= gold:
+            owned.append(ITEMS[KINDLE_KEY])
+            spent += ITEMS[KINDLE_KEY].cost
 
     for i, name in enumerate(path.legendaries):
         try_kindlegem()
@@ -300,10 +307,15 @@ def inventory_at_gold(path: Path, gold: int) -> List[Item]:
     return owned
 
 
+def item_label(key: str) -> str:
+    return ITEMS[key].name if key in ITEMS else key
+
+
 def minute_of_item(path: Path, item_name: str) -> Optional[int]:
+    want = item_label(item_name)
     for m in range(1, GAME_MINUTES + 1):
         names = [i.name for i in inventory_at_gold(path, gold_at_minute(m))]
-        if item_name in names:
+        if want in names:
             return m
     return None
 
@@ -806,9 +818,11 @@ def build_report() -> Tuple[str, dict]:
     d22 = fight_at(dusk, 22, default_page)
 
     def minute_held(path: Path, item_name: str, with_item: Optional[str] = None) -> Optional[int]:
+        want = item_label(item_name)
+        req = item_label(with_item) if with_item else None
         for m in range(1, GAME_MINUTES + 1):
             names = [i.name for i in inventory_at_gold(path, gold_at_minute(m))]
-            if item_name in names and (with_item is None or with_item in names):
+            if want in names and (req is None or req in names):
                 return m
         return None
 
@@ -843,7 +857,7 @@ def build_report() -> Tuple[str, dict]:
         "Buy order (W-spam sustain)",
         "  Start     Long Sword",
         "  1st item  Heartsteel (2800)     E is 14% max HP; W bite is 10.4% bonus HP",
-        "  Then      Kindlegem (10 AH) — extra bite; Despair consumes it later",
+        "  Then      Hỏa Ngọc (Kindlegem) — extra bite; buy from Despair tree",
         "  Boots     Plated Steelcaps (Mercury's if they are AP/CC)",
         f"  2nd item  {second}",
         f"  3rd item  {third}",
@@ -853,7 +867,17 @@ def build_report() -> Tuple[str, dict]:
         "  Spells    Flash + Ignite (Teleport if you are splitting)",
         "",
         f"AH for a 3rd bite in {FIGHT_S:.0f}s: {bite_ah:.1f}. Heartsteel 20 is not enough.",
-        "Kindlegem leftover (30 AH) is the extra W on every Heartsteel path. Skip Trinity.",
+        "Hỏa Ngọc leftover (30 AH) is the extra W. It is not a legendary.",
+        "Tốc Chiến name: Hỏa Ngọc. English shop: Kindlegem. Skip Trinity.",
+        "",
+        "Where to buy Hỏa Ngọc (Kindlegem) — it is not on Recommended",
+        "  Sterak does not use Hỏa Ngọc, so Volibear Recommended will not show it.",
+        "  Tốc Chiến: tìm 'Hỏa Ngọc'. English client: search 'Kindlegem'.",
+        "  Or open Unending Despair (Thất Vọng Bất Tận) / Heartsteel (Giáp Tim Thép)",
+        "  / Black Cleaver and tap the HP + 10 haste component.",
+        "  Recipe: Hồng Ngọc / Ruby Crystal 500 + 500 = 1000.",
+        "  Stats: +175 HP, +10 AH. Mid-tier, Defense / Support.",
+        "  Heartsteel already ate the first one. Buy a SECOND Hỏa Ngọc after it.",
         "",
         f"{'Path':<28}{'8':>7}{'12':>7}{'14':>7}{'18':>7}{'22':>7}{'sum':>8}",
         "-" * 72,
@@ -888,18 +912,18 @@ def build_report() -> Tuple[str, dict]:
         f"    @22:00  {winner.name} sustain {f22.sustain:.0f} vs Dusk/Hull {d22.sustain:.0f}",
         "",
         "Why Sterak second — skip Trinity, skip Despair-second as default",
-        "  Kindlegem after Heartsteel already buys the 4th W (~11:00). Despair's",
+        "  Hỏa Ngọc after Heartsteel already buys the 4th W (~11:00). Despair's",
         "  10 AH is not the extra bite anymore; its unique is the 4s pulse.",
         "  Sterak's unique is Lifeline (75% bonus HP). A 18–20 min game sees",
         "  Sterak second (~17:00) and never sees Despair third (~21:00).",
         "  Despair second is the fork: pulse at ~15:00, but no panic shield",
         "  until ~21:00. Take it into a heal-off when they cannot burst you.",
-        "  Trinity is 3333g of sheen with no heal and no shield. Kindlegem",
+        "  Trinity is 3333g of sheen with no heal and no shield. Hỏa Ngọc",
         "  already covered cadence. Do not buy it on this page.",
         "",
         "Why not Fimbulwinter",
         "  Q/E Frozen Colossus looks strong until ~14:00. Heartsteel stacks",
-        "  plus Kindlegem bites bury it once the game lasts. Tear does not",
+        "  plus Hỏa Ngọc bites bury it once the game lasts. Tear does not",
         "  help Frenzied Maul. Do not start Tear.",
         "",
         "Spirit Visage is gone",
@@ -950,7 +974,7 @@ def build_report() -> Tuple[str, dict]:
         "  Heal-off / they cannot burst you: Despair second, Sterak third.",
         "  They stack HP: keep Despair third, 4th is Thornmail not Twinguard.",
         "  Heavy AP: Mercury's, then Kaenic instead of Twinguard.",
-        "  You cannot finish Heartsteel (lost lane): Kindlegem + Ruby, still max W.",
+        "  You cannot finish Heartsteel (lost lane): Hỏa Ngọc + Hồng Ngọc, still max W.",
         "  Do not buy Trinity or Dusk on this page. Sheen is the 1v1 item.",
         "  Do not start Tear. Fimbulwinter is a 14-minute trap.",
         "",
@@ -959,7 +983,7 @@ def build_report() -> Tuple[str, dict]:
     for item, mm in spikes:
         ff = fight_at(winner, mm, default_page)
         lines.append(
-            f"  ~{mm:02d}:00  {item:<20}  {ff.w_casts} W / {ff.w_bites} bites  "
+            f"  ~{mm:02d}:00  {item_label(item):<22}  {ff.w_casts} W / {ff.w_bites} bites  "
             f"heal {ff.heal:.0f}  shield {ff.shield:.0f}  [{fmt_items(ff.items)}]"
         )
 
@@ -1005,7 +1029,7 @@ def build_report() -> Tuple[str, dict]:
         "buy_order": [
             "Long Sword",
             "Heartsteel",
-            "Kindlegem (extra bite)",
+            "Hỏa Ngọc (Kindlegem, extra bite)",
             "Plated Steelcaps",
             *winner.legendaries[1:],
         ],

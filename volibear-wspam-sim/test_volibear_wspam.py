@@ -71,8 +71,16 @@ def test_kindlegem_buys_the_extra_bite():
     assert f8.w_casts == 3
     assert f14.w_casts == 4
     assert f14.w_bites == 3
-    assert "Kindlegem" in f14.items
+    assert any("Kindlegem" in n or "Hỏa Ngọc" in n for n in f14.items)
     assert f14.ah >= 28
+
+
+def test_kindlegem_is_hoa_ngoc_mid_tier():
+    k = ITEMS["Kindlegem"]
+    assert k.name == "Hỏa Ngọc (Kindlegem)"
+    assert k.cost == 1000
+    assert k.ah == 10
+    assert k.hp == 175
 
 
 def test_winner_is_heart_sterak_not_duelist_or_trinity():
@@ -134,6 +142,7 @@ def test_despair_and_sterak_costs():
     assert ITEMS["Sterak's Gage"].sterak
     assert ITEMS["Trinity Force"].cost == 3333
     assert ITEMS["Kindlegem"].ah == 10
+    assert ITEMS["Kindlegem"].name.startswith("Hỏa Ngọc")
 
 
 def test_fight_window():

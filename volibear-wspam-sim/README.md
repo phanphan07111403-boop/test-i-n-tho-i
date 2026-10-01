@@ -21,12 +21,12 @@ Spam W, heal, shield. Which buy order actually does that over a 22-minute Baron 
 
 ## Winner (sim)
 
-**Heartsteel → Kindlegem → Plated Steelcaps → Sterak's Gage → Unending Despair**
+**Heartsteel → Hỏa Ngọc (Kindlegem) → Plated Steelcaps → Sterak's Gage → Unending Despair**
 
 | When | Spike |
 |------|--------|
 | ~6:00 | **Heartsteel** — E is 14% max HP; empowered W is 10.4% bonus HP |
-| ~11:00 | **Kindlegem** — 30 AH is the 4th W / 3rd bite in 12s |
+| ~11:00 | **Hỏa Ngọc (Kindlegem)** — 30 AH is the 4th W / 3rd bite in 12s |
 | ~17:00 | **Sterak** — Lifeline = 75% bonus HP. This is the mid-game shield |
 | ~21:00 | **Unending Despair** — 3% max HP every 4s, heal 250% of it |
 
@@ -45,11 +45,22 @@ At 14:00 this path is **4 W / 3 bites**, sustain **1916** vs Dusk → Hull → R
 5. Q to stick after E is placed, not as the opener.
 6. R for the bonus HP (feeds E and W) and the turret disable.
 
+## Where to buy Hỏa Ngọc (Kindlegem)
+
+It is **not a finished item**. Sterak does not use it, so Volibear **Recommended will not show it**.
+
+- **Tốc Chiến:** search **Hỏa Ngọc**. English client: search **Kindlegem**.
+- Or open **Thất Vọng Bất Tận** (Unending Despair) / **Giáp Tim Thép** (Heartsteel) / Black Cleaver and tap the HP + 10 haste component.
+- Recipe: **Hồng Ngọc / Ruby Crystal 500 + 500 = 1000**. Stats: +175 HP, +10 AH. Shop tabs: Defense / Support.
+- Heartsteel already ate the first one. Buy a **second** Hỏa Ngọc after Heartsteel.
+
+Cannot find it? Skip the leftover and go **Despair second** instead — that tree is how you buy Hỏa Ngọc anyway.
+
 ## Why this order
 
-A 12s fight wants a 4th W. That needs **~28 AH**. Heartsteel is 20. Kindlegem's 10 AH is the extra bite ~6 minutes before Sterak finishes.
+A 12s fight wants a 4th W. That needs **~28 AH**. Heartsteel is 20. Hỏa Ngọc's 10 AH is the extra bite ~6 minutes before Sterak finishes.
 
-Sterak second — not Despair, not Trinity — because Kindlegem already bought cadence. Sterak's unique (Lifeline) is the 18–20 minute game. Despair's unique (the pulse) often never finishes as a 3rd.
+Sterak second — not Despair, not Trinity — because Hỏa Ngọc already bought cadence. Sterak's unique (Lifeline) is the 18–20 minute game. Despair's unique (the pulse) often never finishes as a 3rd.
 
 | 2nd item | Online | What you get | What you miss |
 |----------|--------|--------------|---------------|
@@ -59,7 +70,7 @@ Sterak second — not Despair, not Trinity — because Kindlegem already bought 
 
 Despair second is the **heal-off fork** (they cannot burst you). Trinity is the 1v1 item — do not buy it here.
 
-Fimbulwinter looks good until ~14:00. Heartsteel stacks + Kindlegem bites bury it. Do not start Tear.
+Fimbulwinter looks good until ~14:00. Heartsteel stacks + Hỏa Ngọc bites bury it. Do not start Tear.
 
 ## Runes on this shop
 

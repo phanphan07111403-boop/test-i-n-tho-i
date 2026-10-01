@@ -4,13 +4,13 @@ Identity = (heal + shield) + 0.25 × mix. Boots after the first legendary.
 Spirit Visage was removed in 7.0. Heal amp is Revitalize; pulse is Despair.
 
 WINNER: Heart → Sterak → Despair
-  Kindlegem buys the extra bite. Lifeline at ~17 is the mid-game shield.
+  Hỏa Ngọc buys the extra bite. Lifeline at ~17 is the mid-game shield.
 RUNES: Grasp / Revitalize / Overgrowth
 
 Buy order (W-spam sustain)
   Start     Long Sword
   1st item  Heartsteel (2800)     E is 14% max HP; W bite is 10.4% bonus HP
-  Then      Kindlegem (10 AH) — extra bite; Despair consumes it later
+  Then      Hỏa Ngọc (Kindlegem) — extra bite; buy from Despair tree
   Boots     Plated Steelcaps (Mercury's if they are AP/CC)
   2nd item  Sterak's Gage
   3rd item  Unending Despair
@@ -20,35 +20,45 @@ Buy order (W-spam sustain)
   Spells    Flash + Ignite (Teleport if you are splitting)
 
 AH for a 3rd bite in 12s: 27.7. Heartsteel 20 is not enough.
-Kindlegem leftover (30 AH) is the extra W on every Heartsteel path. Skip Trinity.
+Hỏa Ngọc leftover (30 AH) is the extra W. It is not a legendary.
+Tốc Chiến name: Hỏa Ngọc. English shop: Kindlegem. Skip Trinity.
+
+Where to buy Hỏa Ngọc (Kindlegem) — it is not on Recommended
+  Sterak does not use Hỏa Ngọc, so Volibear Recommended will not show it.
+  Tốc Chiến: tìm 'Hỏa Ngọc'. English client: search 'Kindlegem'.
+  Or open Unending Despair (Thất Vọng Bất Tận) / Heartsteel (Giáp Tim Thép)
+  / Black Cleaver and tap the HP + 10 haste component.
+  Recipe: Hồng Ngọc / Ruby Crystal 500 + 500 = 1000.
+  Stats: +175 HP, +10 AH. Mid-tier, Defense / Support.
+  Heartsteel already ate the first one. Buy a SECOND Hỏa Ngọc after it.
 
 Path                              8     12     14     18     22     sum
 ------------------------------------------------------------------------
-Heart → Sterak → Despair       1611   2385   2611   5601   7873   60889
-Heart → Despair → Sterak       1611   2293   2518   4313   7873   57769
-Fimbul → Sterak → Twin         1747   2064   2223   4460   4843   52665
-Heart → Rift → Despair         1611   2293   2518   3478   5300   49621
-Heart → Titanic → Despair      1611   2385   2611   3211   5021   47456
-Heart → Titanic → Sterak       1611   2385   2611   3313   6758   46416
-Dusk → Rift → Despair          1694   2323   2456   3414   4787   45783
-Heart → Tri → Despair          1611   2293   2638   3236   4998   45783
-Tri → Heart → Despair          1690   1960   2087   3236   4998   43418
-Heart → Tri → Sterak           1611   2293   2638   3333   3438   43127
-Dusk → Hull → Rift             1694   2010   2125   3116   3925   41161
+Heart → Sterak → Despair       1611   2373   2599   5565   7873   60675
+Heart → Despair → Sterak       1611   2282   2507   4313   7873   57723
+Fimbul → Sterak → Twin         1747   2064   2223   4460   4812   52634
+Heart → Rift → Despair         1611   2282   2507   3465   5300   49534
+Heart → Titanic → Despair      1611   2373   2599   3198   5021   47348
+Heart → Titanic → Sterak       1611   2373   2599   3300   6720   46245
+Dusk → Rift → Despair          1694   2312   2445   3401   4787   45687
+Heart → Tri → Despair          1611   2282   2626   3224   4998   45664
+Tri → Heart → Despair          1690   1950   2077   3224   4998   43332
+Heart → Tri → Sterak           1611   2282   2626   3321   3426   42983
+Dusk → Hull → Rift             1694   2010   2125   3105   3925   41114
 
 Sustain (heal + shield) at the same minutes
 Path                              8     14     22   W@14   heal   shld
 ------------------------------------------------------------------------
-Heart → Sterak → Despair       1070   1916   6869      4   1260    656
-Heart → Despair → Sterak       1070   1835   6869      4   1209    625
-Fimbul → Sterak → Twin         1246   1647   4067      3    812    835
-Heart → Rift → Despair         1070   1835   4286      4   1209    625
-Heart → Titanic → Despair      1070   1916   3964      4   1260    656
-Heart → Titanic → Sterak       1070   1916   5623      4   1260    656
-Dusk → Rift → Despair           997   1611   3594      4   1036    575
-Heart → Tri → Despair          1070   1835   3880      4   1209    625
-Tri → Heart → Despair           937   1291   3880      3    774    517
-Heart → Tri → Sterak           1070   1835   2396      4   1209    625
+Heart → Sterak → Despair       1070   1906   6869      4   1253    652
+Heart → Despair → Sterak       1070   1824   6869      4   1203    621
+Fimbul → Sterak → Twin         1246   1647   4036      3    812    835
+Heart → Rift → Despair         1070   1824   4286      4   1203    621
+Heart → Titanic → Despair      1070   1906   3964      4   1253    652
+Heart → Titanic → Sterak       1070   1906   5588      4   1253    652
+Dusk → Rift → Despair           997   1601   3594      4   1030    571
+Heart → Tri → Despair          1070   1824   3880      4   1203    621
+Tri → Heart → Despair           937   1283   3880      3    770    513
+Heart → Tri → Sterak           1070   1824   2385      4   1203    621
 Dusk → Hull → Rift              997   1352   2492      3    777    575
 
 Why Heartsteel first (this playstyle, not the 1v1)
@@ -56,22 +66,22 @@ Why Heartsteel first (this playstyle, not the 1v1)
   Empowered W is 10.4% bonus HP damage and 5–8% missing HP heal.
   Heartsteel is 700 HP + 20 AH + stacks. That is the shield and the bite.
   Dusk → Hull → Rift still wins isolated mix. It loses heal+shield here:
-    @14:00  Heart → Sterak → Despair sustain 1916 vs Dusk/Hull 1352
+    @14:00  Heart → Sterak → Despair sustain 1906 vs Dusk/Hull 1352
     @22:00  Heart → Sterak → Despair sustain 6869 vs Dusk/Hull 2492
 
 Why Sterak second — skip Trinity, skip Despair-second as default
-  Kindlegem after Heartsteel already buys the 4th W (~11:00). Despair's
+  Hỏa Ngọc after Heartsteel already buys the 4th W (~11:00). Despair's
   10 AH is not the extra bite anymore; its unique is the 4s pulse.
   Sterak's unique is Lifeline (75% bonus HP). A 18–20 min game sees
   Sterak second (~17:00) and never sees Despair third (~21:00).
   Despair second is the fork: pulse at ~15:00, but no panic shield
   until ~21:00. Take it into a heal-off when they cannot burst you.
-  Trinity is 3333g of sheen with no heal and no shield. Kindlegem
+  Trinity is 3333g of sheen with no heal and no shield. Hỏa Ngọc
   already covered cadence. Do not buy it on this page.
 
 Why not Fimbulwinter
   Q/E Frozen Colossus looks strong until ~14:00. Heartsteel stacks
-  plus Kindlegem bites bury it once the game lasts. Tear does not
+  plus Hỏa Ngọc bites bury it once the game lasts. Tear does not
   help Frenzied Maul. Do not start Tear.
 
 Spirit Visage is gone
@@ -90,20 +100,20 @@ How to play it
 Runes on this shop (legal 7.3 pages: 3 in the keystone tree + 1 secondary)
 Page                                  sum id  sum sus  14 heal  14 sh  14 mix
 ----------------------------------------------------------------------------
-Grasp / Revitalize / Overgrowth        60889    48589     1260    656    2780
-Grasp / Revitalize / Colossus          59858    47695     1239    734    2762
-Conqueror / Bloodline / Revitalize     57951    46450     1223    644    2603
-Grasp / no Revitalize                  55760    43460     1108    625    2780
-Lethal Tempo / Alacrity                51952    39530      977    613    2765
+Grasp / Revitalize / Overgrowth        60675    48390     1253    652    2775
+Grasp / Revitalize / Colossus          59645    47497     1233    730    2757
+Conqueror / Bloodline / Revitalize     57757    46268     1218    640    2599
+Grasp / no Revitalize                  55568    43282     1103    621    2775
+Lethal Tempo / Alacrity                51774    39364      972    609    2760
 
 Default page: Grasp / Revitalize / Overgrowth. Flash + Ignite.
   Grasp / Revitalize / Overgrowth / Last Stand if the keystone is Grasp:
   two 1.3% max-HP heals, Overgrowth HP for E and the bite, Second Wind
   doubled as melee. That is the tank-sustain page.
   Conqueror / Bloodline / Revitalize turns W damage into omnivamp.
-  Sim identity: Conq 57951 vs Grasp 60889 vs Tempo 51952.
+  Sim identity: Conq 57757 vs Grasp 60675 vs Tempo 51774.
   Lethal Tempo is the other sim's 1v1 page — autos and lightning, 0 HSP.
-  Dropping Revitalize costs sustain (43460 vs 48589 on Grasp).
+  Dropping Revitalize costs sustain (43282 vs 48390 on Grasp).
   Colossus on Q is a small extra shield; Overgrowth's HP feeds E and W
   for the whole game, so keep Overgrowth over Colossus on Grasp.
   Last Stand, not Cut Down: you live at ~38% HP. See volibear-build-sim.
@@ -112,24 +122,24 @@ Swaps
   Heal-off / they cannot burst you: Despair second, Sterak third.
   They stack HP: keep Despair third, 4th is Thornmail not Twinguard.
   Heavy AP: Mercury's, then Kaenic instead of Twinguard.
-  You cannot finish Heartsteel (lost lane): Kindlegem + Ruby, still max W.
+  You cannot finish Heartsteel (lost lane): Hỏa Ngọc + Hồng Ngọc, still max W.
   Do not buy Trinity or Dusk on this page. Sheen is the 1v1 item.
   Do not start Tear. Fimbulwinter is a 14-minute trap.
 
 Spikes on the winner
-  ~06:00  Heartsteel            3 W / 2 bites  heal 506  shield 348  [Heartsteel]
-  ~11:00  Kindlegem             4 W / 3 bites  heal 1059  shield 534  [Heartsteel, Kindlegem]
-  ~21:00  Unending Despair      4 W / 3 bites  heal 2929  shield 3532  [Heartsteel, Sterak's Gage, Unending Despair]
-  ~17:00  Sterak's Gage         4 W / 3 bites  heal 1422  shield 3156  [Heartsteel, Kindlegem, Sterak's Gage]
+  ~06:00  Heartsteel              3 W / 2 bites  heal 506  shield 348  [Heartsteel]
+  ~11:00  Hỏa Ngọc (Kindlegem)    4 W / 3 bites  heal 1053  shield 530  [Heartsteel, Hỏa Ngọc (Kindlegem)]
+  ~21:00  Unending Despair        4 W / 3 bites  heal 2929  shield 3532  [Heartsteel, Sterak's Gage, Unending Despair]
+  ~17:00  Sterak's Gage           4 W / 3 bites  heal 1415  shield 3128  [Heartsteel, Hỏa Ngọc (Kindlegem), Sterak's Gage]
 
 @8:00  Heartsteel  W 3/2  heal 651  sh 419  mix 2166
-@14:00 Heartsteel, Kindlegem, Ruby Crystal  W 4/3  heal 1260  sh 656  mix 2780
+@14:00 Heartsteel, Hỏa Ngọc (Kindlegem), Ruby Crystal  W 4/3  heal 1253  sh 652  mix 2775
 @22:00 Heartsteel, Sterak's Gage, Unending Despair, Ruby Crystal  W 4/3  heal 3062  sh 3807  mix 4016
 
-Heart → Sterak → Despair: Kindlegem buys the extra bite. Lifeline at ~17 is the mid-game shield.
+Heart → Sterak → Despair: Hỏa Ngọc buys the extra bite. Lifeline at ~17 is the mid-game shield.
   Heart ~6:00, Despair ~21:00, Sterak ~17:00
 
-Heart → Despair → Sterak: Skip sheen. Kindlegem leftover + Despair 10 AH is the extra bite.
+Heart → Despair → Sterak: Skip sheen. Hỏa Ngọc leftover + Despair 10 AH is the extra bite.
   Heart ~6:00, Despair ~15:00, Sterak ~21:00
 
 Fimbul → Sterak → Twin: Shield-tank / Tear. Q stun and E slow proc Frozen Colossus.
