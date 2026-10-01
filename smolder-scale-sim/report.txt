@@ -1,6 +1,6 @@
 ========================================================================================
 SMOLDER — CRIT SCALE vs ABILITY SCALE   (PC LoL patch 26.19)
-Bot lane, even gold, Deathfire Touch, Essence Reaver first on every path
+Bot lane, even gold, Deathfire Touch. Essence Reaver first on the five paths below.
 Window: 8 seconds.  Kite = Q + autos + one W.  Poke = Q only.  All-in = R + E + Q.
 ========================================================================================
 
@@ -26,6 +26,7 @@ Stacks come from Q casts. Haste does nothing until the haste items exist.
   Ability                        05:00   14:00   23:00        214        295
   Hybrid Shojin                  05:00   14:00   25:00        201        258
   Hybrid Cleaver                 05:00   14:00   26:00        198        251
+  Trinity                        04:00   14:00   26:00        194        254
 
 ----------------------------------------------------------------------------------------
 MINUTE-BY-MINUTE — who leads each job
@@ -189,9 +190,57 @@ Positive means crit dealt more. Messy uses dive uptime.
   22:00        956        501     -152      -211       -27       2805     1955
   28:00       1568       1006     -974      -133       -62       3205     2355
 ----------------------------------------------------------------------------------------
+TRINITY → MANAMUNE → SERYLDA → SHOJIN
+Tear on the first back starts the 360 mana clock. Trinity is still the first legendary.
+This path has 0 crit, so Q stays at 1.00x. Spellblade is 200% base AD. Shock is 3% max mana.
+Tear uptime is 90% of Essence Reaver's, because Tear does not refund mana.
+----------------------------------------------------------------------------------------
+  Tear 01:00   Trinity 09:00   Ionian 11:00   Manamune 16:00   Muramana 16:00
+  Last Whisper 19:00   Serylda 21:00   Shojin 26:00
+
+   Min Build       Q cd   Stk  Tear     AD    Poke  KiteSq  KiteTk     HP  Live
+  11:00 Trinity     3.20    89   297     68     732    1592    1141   1588   87% 
+              Trinity Force › Ionian Boots of Lucidity + Tear of the Goddess
+  11:00 Ability     3.08    89     0     60     705    1249     897   1405   77% 
+              Essence Reaver › Ionian Boots of Lucidity + Ruby Crystal
+  11:00 Crit IE/RFC  3.33    86     0     60     696    1692    1213   1255   68% 
+              Essence Reaver › Berserker's Greaves
+
+  16:00 Trinity     2.50   144   360    122    1170    2069    1431   1988   88% mura
+              Trinity Force › Ionian Boots of Lucidity › Manamune
+  16:00 Ability     2.33   152     0    115    1113    2092    1503   2055   91% 
+              Essence Reaver › Ionian Boots of Lucidity › Black Cleaver + Long Sword
+  16:00 Crit IE/RFC  2.92   141     0    125     899    2280    1577   1655   73% 
+              Essence Reaver › Berserker's Greaves + B. F. Sword, Cloak of Agility, Pickaxe
+
+  18:00 Trinity     2.50   160   360    143    1206    2193    1452   2088   86% mura
+              Trinity Force › Ionian Boots of Lucidity › Manamune + Long Sword, Long Sword
+  18:00 Ability     2.33   171     0    120    1103    2119    1466   2405   99% 
+              Essence Reaver › Ionian Boots of Lucidity › Black Cleaver + Tunneler
+  18:00 Crit IE/RFC  2.92   157     0    135    1096    3138    2074   1755   72% 
+              Essence Reaver › Berserker's Greaves › Infinity Edge + Cloak of Agility, Dagger
+
+  22:00 Trinity     2.26   194   360    180    1567    3095    2070   2438   88% mura
+              Trinity Force › Ionian Boots of Lucidity › Manamune › Serylda's Grudge + Long Sword, Ruby Crystal
+  22:00 Ability     1.87   214     0    170    1343    2969    1935   2805  100% 
+              Essence Reaver › Ionian Boots of Lucidity › Black Cleaver › Spear of Shojin + Long Sword, Long Sword
+  22:00 Crit IE/RFC  2.92   187     0    145    1190    3926    2435   1955   70% 
+              Essence Reaver › Berserker's Greaves › Infinity Edge › Rapid Firecannon + Long Sword
+
+  28:00 Trinity     1.81   254   360    218    2985    4534    3780   3138   98% mura
+              Trinity Force › Ionian Boots of Lucidity › Manamune › Serylda's Grudge › Spear of Shojin
+  28:00 Ability     1.57   295     0    235    3135    4849    4134   3205  100% 
+              Essence Reaver › Ionian Boots of Lucidity › Black Cleaver › Spear of Shojin › Endless Hunger + Last Whisper
+  28:00 Crit IE/RFC  2.92   233     0    170    2161    6418    5141   2355   73% 
+              Essence Reaver › Berserker's Greaves › Infinity Edge › Rapid Firecannon › Lord Dominik's Regards
+
+  225 stacks on Trinity: 26:00. Ability 23:00, crit 27:00.
+
+----------------------------------------------------------------------------------------
 FULL BUILD — level 18, 250 stacks, gold ignored, targets from 28:00
 This is the item philosophy after the last buy. The timeline above is when it arrives.
 Navori's fifth crit item is past 100% crit and does not raise Q. Bloodthirster adds no crit.
+Trinity's row is Muramana with 360 bonus mana. It still has no crit.
 ----------------------------------------------------------------------------------------
   Build             Crit  Q cd     HP  E cd   Q hit    Poke  KiteSq  KiteTk  Qs  Live  Team
   Crit IE/RFC       100%  2.92   2275  13.3     871    2648    7977    6429   3   71%    0%
@@ -204,6 +253,8 @@ Navori's fifth crit item is past 100% crit and does not raise Q. Bloodthirster a
                  Essence Reaver › Gluttonous Greaves › Spear of Shojin › Infinity Edge › Lord Dominik's Regards › Rapid Firecannon
   Hybrid Cleaver    100%  2.50   2675  11.4     794    3181    7554    6351   3   83%   27%
                  Essence Reaver › Gluttonous Greaves › Black Cleaver › Infinity Edge › Lord Dominik's Regards › Rapid Firecannon
+  Trinity             0%  1.81   3058   8.3     573    2909    4413    3669   4   95%    0%
+                 Trinity Force › Ionian Boots of Lucidity › Manamune › Serylda's Grudge › Spear of Shojin
 
 ----------------------------------------------------------------------------------------
 WHEN TO CHOOSE WHICH
@@ -259,6 +310,21 @@ WHEN TO CHOOSE WHICH
     • At 100% crit, stop buying crit. The next cloak does not scale Q.
     • Do not buy The Collector. The execute is already 6.5% max health.
 
+  TRINITY (Tear → Trinity → Ionian → Manamune → Serylda → Shojin) is the
+  no-crit ability path. Q stays at 1.00x. Tear is the first back, or the
+  360 mana clock starts late and Muramana misses the mid game.
+    Trinity completes at 09:00, Ionian at 11:00, Manamune at 16:00. Muramana turns on at 16:00 because Tear is already at 360 bonus mana.
+    At 11:00, with Trinity and Ionian, squishy kite is 1592 vs ability 1249 (+27%) and vs crit 1692 (-6%). HP is 1588 vs 1405 vs 1255. This is the window the item is for: before Infinity Edge exists.
+    Muramana's minute, poke is 1170 vs ability 1113 (+5%) and vs crit 899 (+30%). Squishy kite is 2069 vs ability 2092 vs crit 2280.
+    At 22:00 Serylda is in and Shojin is not. Poke 1567 vs ability 1343 (+17%). Kite-squishy 3095 vs ability 2969 vs crit 3926. Tank kite 2070 vs 1935 vs 2435. HP 2438 vs ability 2805 (Shojin is already on that path). Dive uptime 88% vs 100% vs 70%.
+    At 28:00 Serylda is in and Shojin is in. Poke 2985 vs ability 3135 (-5%). Kite-squishy 4534 vs ability 4849 vs crit 6418. Tank kite 3780 vs 4134 vs 5141. HP 3138, dive uptime 98%.
+    225 stacks arrive at 26:00 on Trinity, 23:00 on ability, 27:00 on crit. Tear does not refund mana, so the cast rate stays under Essence Reaver.
+    Finished, stacks pinned at 250: poke 2909 vs ability 3941, kite-squishy 4413, kite-tank 3669, dive uptime 95%. Essence Reaver's 25% crit still multiplies Q, and Cleaver shreds for the team.
+    Take Trinity when you want the 09:00 spike and you are not going crit.
+    Take Essence Reaver → Cleaver when the game goes long or the team is AD.
+    Take crit when you can auto after Infinity Edge. This path never catches that kite.
+    Buy Shojin before Serylda when the dive is already landing. Pen does not add HP.
+
 ----------------------------------------------------------------------------------------
 ASSUMPTIONS THAT MOVE THE ANSWER
 ----------------------------------------------------------------------------------------
@@ -269,7 +335,13 @@ ASSUMPTIONS THAT MOVE THE ANSWER
   • 225-stack burn is true damage from bonus AD and stacks. Crit does not increase the %.
   • Execute threshold is a flat 6.5% max HP. The Collector's 5% does not add anything.
   • Shojin's +12% ramps across the fight and applies to abilities, including the burn.
-    It does not apply to autos, Essence Reaver spellblade, or Deathfire Touch.
+    It does not apply to autos, spellblade, Deathfire Touch, or Muramana Shock.
+  • Trinity spellblade is 200% base AD on a 1.5s cooldown, and it does not restore mana.
+    Essence Reaver is 125% base AD plus up to 50 from crit, and it refunds mana.
+  • Awe is 2% max mana as bonus AD. Tear gains 27 bonus mana a minute while held,
+    cap 360. Muramana replaces the item's mana with 1000 and turns Shock on.
+    Q is a spell and an on-hit in one instance, so Shock uses the ranged ability
+    ratio only (3% max mana). Autos are 1.2%. W, E, and R each proc it once.
   • After 25 stacks, Q is treated as AoE for Deathfire Touch (2s burn). Haste that
     holds Q under 2s keeps the burn up; a 2.9s Q lets it fall off between casts.
   • Cleaver is 6% armor reduction per physical hit, 5 stacks. Q and each auto add one.

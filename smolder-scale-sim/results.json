@@ -67,7 +67,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 630.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "1": {
           "minute": 1,
@@ -98,7 +100,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 368.1,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "2": {
           "minute": 2,
@@ -129,7 +133,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 419.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "3": {
           "minute": 3,
@@ -146,7 +152,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 57.3,
+          "q_hit_squish": 103.9,
           "poke_squish": 235.0,
           "kite_squish": 558.7,
           "kite_bruiser": 518.3,
@@ -160,7 +166,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 503.2,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "4": {
           "minute": 4,
@@ -178,7 +186,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 68.0,
+          "q_hit_squish": 114.6,
           "poke_squish": 260.4,
           "kite_squish": 629.8,
           "kite_bruiser": 584.4,
@@ -192,7 +200,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 567.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "5": {
           "minute": 5,
@@ -210,7 +220,7 @@
           "hp": 955.0,
           "q_cd": 4.167,
           "e_cd": 20.0,
-          "q_hit_squish": 83.8,
+          "q_hit_squish": 130.6,
           "poke_squish": 280.9,
           "kite_squish": 777.5,
           "kite_bruiser": 720.5,
@@ -224,7 +234,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 699.0,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "6": {
           "minute": 6,
@@ -242,7 +254,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 89.8,
+          "q_hit_squish": 136.9,
           "poke_squish": 431.6,
           "kite_squish": 789.5,
           "kite_bruiser": 731.1,
@@ -256,7 +268,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 708.9,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "7": {
           "minute": 7,
@@ -275,7 +289,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 101.9,
+          "q_hit_squish": 149.0,
           "poke_squish": 468.0,
           "kite_squish": 878.0,
           "kite_bruiser": 813.2,
@@ -289,7 +303,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 749.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "8": {
           "minute": 8,
@@ -320,7 +336,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 991.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "9": {
           "minute": 9,
@@ -353,7 +371,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1041.2,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "10": {
           "minute": 10,
@@ -385,7 +405,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1255.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "11": {
           "minute": 11,
@@ -417,7 +439,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1213.4,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "12": {
           "minute": 12,
@@ -449,7 +473,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1189.5,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "13": {
           "minute": 13,
@@ -482,7 +508,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1422.8,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "14": {
           "minute": 14,
@@ -516,7 +544,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1515.6,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "15": {
           "minute": 15,
@@ -550,7 +580,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1470.7,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "16": {
           "minute": 16,
@@ -585,7 +617,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1577.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "17": {
           "minute": 17,
@@ -618,7 +652,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1820.0,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "18": {
           "minute": 18,
@@ -653,7 +689,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2074.3,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "19": {
           "minute": 19,
@@ -688,7 +726,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2150.1,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "20": {
           "minute": 20,
@@ -723,7 +763,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2100.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "21": {
           "minute": 21,
@@ -757,7 +799,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2236.5,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "22": {
           "minute": 22,
@@ -792,7 +836,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2435.3,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "23": {
           "minute": 23,
@@ -828,7 +874,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2525.1,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "24": {
           "minute": 24,
@@ -864,7 +912,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2939.5,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "25": {
           "minute": 25,
@@ -901,7 +951,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 3181.7,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "26": {
           "minute": 26,
@@ -937,7 +989,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 3327.9,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "27": {
           "minute": 27,
@@ -972,7 +1026,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 5125.6,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "28": {
           "minute": 28,
@@ -1007,7 +1063,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 5140.6,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         }
       }
     },
@@ -1075,7 +1133,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 630.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "1": {
           "minute": 1,
@@ -1106,7 +1166,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 368.1,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "2": {
           "minute": 2,
@@ -1137,7 +1199,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 419.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "3": {
           "minute": 3,
@@ -1154,7 +1218,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 57.3,
+          "q_hit_squish": 103.9,
           "poke_squish": 235.0,
           "kite_squish": 558.7,
           "kite_bruiser": 518.3,
@@ -1168,7 +1232,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 503.2,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "4": {
           "minute": 4,
@@ -1186,7 +1252,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 68.0,
+          "q_hit_squish": 114.6,
           "poke_squish": 260.4,
           "kite_squish": 629.8,
           "kite_bruiser": 584.4,
@@ -1200,7 +1266,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 567.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "5": {
           "minute": 5,
@@ -1218,7 +1286,7 @@
           "hp": 955.0,
           "q_cd": 4.167,
           "e_cd": 20.0,
-          "q_hit_squish": 83.8,
+          "q_hit_squish": 130.6,
           "poke_squish": 280.9,
           "kite_squish": 777.5,
           "kite_bruiser": 720.5,
@@ -1232,7 +1300,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 699.0,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "6": {
           "minute": 6,
@@ -1250,7 +1320,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 89.8,
+          "q_hit_squish": 136.9,
           "poke_squish": 431.6,
           "kite_squish": 789.5,
           "kite_bruiser": 731.1,
@@ -1264,7 +1334,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 708.9,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "7": {
           "minute": 7,
@@ -1283,7 +1355,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 101.9,
+          "q_hit_squish": 149.0,
           "poke_squish": 468.0,
           "kite_squish": 878.0,
           "kite_bruiser": 813.2,
@@ -1297,7 +1369,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 749.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "8": {
           "minute": 8,
@@ -1328,7 +1402,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 991.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "9": {
           "minute": 9,
@@ -1361,7 +1437,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1041.2,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "10": {
           "minute": 10,
@@ -1393,7 +1471,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1255.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "11": {
           "minute": 11,
@@ -1425,7 +1505,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1213.4,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "12": {
           "minute": 12,
@@ -1457,7 +1539,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1189.5,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "13": {
           "minute": 13,
@@ -1490,7 +1574,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1422.8,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "14": {
           "minute": 14,
@@ -1524,7 +1610,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1515.6,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "15": {
           "minute": 15,
@@ -1558,7 +1646,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1470.7,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "16": {
           "minute": 16,
@@ -1593,7 +1683,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1577.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "17": {
           "minute": 17,
@@ -1627,7 +1719,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1951.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "18": {
           "minute": 18,
@@ -1662,7 +1756,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2074.3,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "19": {
           "minute": 19,
@@ -1697,7 +1793,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2150.1,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "20": {
           "minute": 20,
@@ -1733,7 +1831,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2100.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "21": {
           "minute": 21,
@@ -1767,7 +1867,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2335.2,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "22": {
           "minute": 22,
@@ -1802,7 +1904,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2411.3,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "23": {
           "minute": 23,
@@ -1838,7 +1942,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2502.0,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "24": {
           "minute": 24,
@@ -1874,7 +1980,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2917.6,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "25": {
           "minute": 25,
@@ -1911,7 +2019,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 3152.4,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "26": {
           "minute": 26,
@@ -1947,7 +2057,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 3298.6,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "27": {
           "minute": 27,
@@ -1982,7 +2094,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 5164.1,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "28": {
           "minute": 28,
@@ -2019,7 +2133,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 5466.8,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         }
       }
     },
@@ -2087,7 +2203,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 630.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "1": {
           "minute": 1,
@@ -2118,7 +2236,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 368.1,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "2": {
           "minute": 2,
@@ -2149,7 +2269,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 419.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "3": {
           "minute": 3,
@@ -2166,7 +2288,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 57.3,
+          "q_hit_squish": 103.9,
           "poke_squish": 235.0,
           "kite_squish": 558.7,
           "kite_bruiser": 518.3,
@@ -2180,7 +2302,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 503.2,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "4": {
           "minute": 4,
@@ -2198,7 +2322,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 68.0,
+          "q_hit_squish": 114.6,
           "poke_squish": 260.4,
           "kite_squish": 629.8,
           "kite_bruiser": 584.4,
@@ -2212,7 +2336,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 567.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "5": {
           "minute": 5,
@@ -2230,7 +2356,7 @@
           "hp": 955.0,
           "q_cd": 4.167,
           "e_cd": 20.0,
-          "q_hit_squish": 83.8,
+          "q_hit_squish": 130.6,
           "poke_squish": 280.9,
           "kite_squish": 777.5,
           "kite_bruiser": 720.5,
@@ -2244,7 +2370,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 699.0,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "6": {
           "minute": 6,
@@ -2262,7 +2390,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 89.8,
+          "q_hit_squish": 136.9,
           "poke_squish": 431.6,
           "kite_squish": 789.5,
           "kite_bruiser": 731.1,
@@ -2276,7 +2404,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 708.9,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "7": {
           "minute": 7,
@@ -2295,7 +2425,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 101.9,
+          "q_hit_squish": 149.0,
           "poke_squish": 468.0,
           "kite_squish": 878.0,
           "kite_bruiser": 813.2,
@@ -2309,7 +2439,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 749.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "8": {
           "minute": 8,
@@ -2340,7 +2472,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 991.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "9": {
           "minute": 9,
@@ -2373,7 +2507,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 956.9,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "10": {
           "minute": 10,
@@ -2405,7 +2541,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 925.7,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "11": {
           "minute": 11,
@@ -2438,7 +2576,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 895.5,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "12": {
           "minute": 12,
@@ -2471,7 +2611,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1126.4,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "13": {
           "minute": 13,
@@ -2506,7 +2648,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1107.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "14": {
           "minute": 14,
@@ -2540,7 +2684,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1078.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "15": {
           "minute": 15,
@@ -2575,7 +2721,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1266.8,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "16": {
           "minute": 16,
@@ -2609,7 +2757,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.239,
           "equal_stack_kite_tank": 1495.3,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "17": {
           "minute": 17,
@@ -2644,7 +2794,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.244,
           "equal_stack_kite_tank": 1457.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "18": {
           "minute": 18,
@@ -2678,7 +2830,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.252,
           "equal_stack_kite_tank": 1456.1,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "19": {
           "minute": 19,
@@ -2713,7 +2867,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.256,
           "equal_stack_kite_tank": 1564.0,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "20": {
           "minute": 20,
@@ -2749,7 +2905,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.263,
           "equal_stack_kite_tank": 1530.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "21": {
           "minute": 21,
@@ -2783,7 +2941,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.264,
           "equal_stack_kite_tank": 1802.4,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "22": {
           "minute": 22,
@@ -2819,7 +2979,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.267,
           "equal_stack_kite_tank": 1913.9,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "23": {
           "minute": 23,
@@ -2854,7 +3016,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.267,
           "equal_stack_kite_tank": 1914.0,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "24": {
           "minute": 24,
@@ -2890,7 +3054,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.269,
           "equal_stack_kite_tank": 2052.2,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "25": {
           "minute": 25,
@@ -2927,7 +3093,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.271,
           "equal_stack_kite_tank": 2245.7,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "26": {
           "minute": 26,
@@ -2962,7 +3130,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.271,
           "equal_stack_kite_tank": 2315.2,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "27": {
           "minute": 27,
@@ -2999,7 +3169,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.273,
           "equal_stack_kite_tank": 3694.2,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "28": {
           "minute": 28,
@@ -3035,7 +3207,9 @@
           "qs_in_kite": 4,
           "ally_phys_amp_vs_tank": 0.275,
           "equal_stack_kite_tank": 4032.9,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         }
       }
     },
@@ -3103,7 +3277,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 630.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "1": {
           "minute": 1,
@@ -3134,7 +3310,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 368.1,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "2": {
           "minute": 2,
@@ -3165,7 +3343,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 419.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "3": {
           "minute": 3,
@@ -3182,7 +3362,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 57.3,
+          "q_hit_squish": 103.9,
           "poke_squish": 235.0,
           "kite_squish": 558.7,
           "kite_bruiser": 518.3,
@@ -3196,7 +3376,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 503.2,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "4": {
           "minute": 4,
@@ -3214,7 +3396,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 68.0,
+          "q_hit_squish": 114.6,
           "poke_squish": 260.4,
           "kite_squish": 629.8,
           "kite_bruiser": 584.4,
@@ -3228,7 +3410,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 567.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "5": {
           "minute": 5,
@@ -3246,7 +3430,7 @@
           "hp": 955.0,
           "q_cd": 4.167,
           "e_cd": 20.0,
-          "q_hit_squish": 83.8,
+          "q_hit_squish": 130.6,
           "poke_squish": 280.9,
           "kite_squish": 777.5,
           "kite_bruiser": 720.5,
@@ -3260,7 +3444,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 699.0,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "6": {
           "minute": 6,
@@ -3278,7 +3464,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 89.8,
+          "q_hit_squish": 136.9,
           "poke_squish": 431.6,
           "kite_squish": 789.5,
           "kite_bruiser": 731.1,
@@ -3292,7 +3478,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 708.9,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "7": {
           "minute": 7,
@@ -3311,7 +3499,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 101.9,
+          "q_hit_squish": 149.0,
           "poke_squish": 468.0,
           "kite_squish": 878.0,
           "kite_bruiser": 813.2,
@@ -3325,7 +3513,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 749.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "8": {
           "minute": 8,
@@ -3356,7 +3546,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 991.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "9": {
           "minute": 9,
@@ -3388,7 +3580,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 956.9,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "10": {
           "minute": 10,
@@ -3420,7 +3614,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 925.7,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "11": {
           "minute": 11,
@@ -3453,7 +3649,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 951.6,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "12": {
           "minute": 12,
@@ -3487,7 +3685,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 925.2,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "13": {
           "minute": 13,
@@ -3520,7 +3720,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1093.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "14": {
           "minute": 14,
@@ -3554,7 +3756,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1199.8,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "15": {
           "minute": 15,
@@ -3589,7 +3793,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1259.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "16": {
           "minute": 16,
@@ -3622,7 +3828,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1271.1,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "17": {
           "minute": 17,
@@ -3655,7 +3863,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1237.0,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "18": {
           "minute": 18,
@@ -3689,7 +3899,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1411.4,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "19": {
           "minute": 19,
@@ -3724,7 +3936,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1502.9,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "20": {
           "minute": 20,
@@ -3759,7 +3973,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1466.7,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "21": {
           "minute": 21,
@@ -3795,7 +4011,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1579.0,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "22": {
           "minute": 22,
@@ -3829,7 +4047,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1838.6,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "23": {
           "minute": 23,
@@ -3865,7 +4085,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1954.4,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "24": {
           "minute": 24,
@@ -3900,7 +4122,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2352.5,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "25": {
           "minute": 25,
@@ -3936,7 +4160,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2407.0,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "26": {
           "minute": 26,
@@ -3972,7 +4198,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 2766.9,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "27": {
           "minute": 27,
@@ -4007,7 +4235,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 4573.5,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "28": {
           "minute": 28,
@@ -4043,7 +4273,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 4914.1,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         }
       }
     },
@@ -4111,7 +4343,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 630.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "1": {
           "minute": 1,
@@ -4142,7 +4376,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 368.1,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "2": {
           "minute": 2,
@@ -4173,7 +4409,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 419.8,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "3": {
           "minute": 3,
@@ -4190,7 +4428,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 57.3,
+          "q_hit_squish": 103.9,
           "poke_squish": 235.0,
           "kite_squish": 558.7,
           "kite_bruiser": 518.3,
@@ -4204,7 +4442,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 503.2,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "4": {
           "minute": 4,
@@ -4222,7 +4462,7 @@
           "hp": 855.0,
           "q_cd": 5.0,
           "e_cd": 21.818,
-          "q_hit_squish": 68.0,
+          "q_hit_squish": 114.6,
           "poke_squish": 260.4,
           "kite_squish": 629.8,
           "kite_bruiser": 584.4,
@@ -4236,7 +4476,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 567.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "5": {
           "minute": 5,
@@ -4254,7 +4496,7 @@
           "hp": 955.0,
           "q_cd": 4.167,
           "e_cd": 20.0,
-          "q_hit_squish": 83.8,
+          "q_hit_squish": 130.6,
           "poke_squish": 280.9,
           "kite_squish": 777.5,
           "kite_bruiser": 720.5,
@@ -4268,7 +4510,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 699.0,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "6": {
           "minute": 6,
@@ -4286,7 +4530,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 89.8,
+          "q_hit_squish": 136.9,
           "poke_squish": 431.6,
           "kite_squish": 789.5,
           "kite_bruiser": 731.1,
@@ -4300,7 +4544,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 708.9,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "7": {
           "minute": 7,
@@ -4319,7 +4565,7 @@
           "hp": 1055.0,
           "q_cd": 3.75,
           "e_cd": 20.0,
-          "q_hit_squish": 101.9,
+          "q_hit_squish": 149.0,
           "poke_squish": 468.0,
           "kite_squish": 878.0,
           "kite_bruiser": 813.2,
@@ -4333,7 +4579,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 749.5,
-          "legendaries": 0
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "8": {
           "minute": 8,
@@ -4364,7 +4612,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 991.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "9": {
           "minute": 9,
@@ -4396,7 +4646,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 956.9,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "10": {
           "minute": 10,
@@ -4428,7 +4680,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 925.7,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "11": {
           "minute": 11,
@@ -4461,7 +4715,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 895.5,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "12": {
           "minute": 12,
@@ -4494,7 +4750,9 @@
           "qs_in_kite": 2,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 951.6,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "13": {
           "minute": 13,
@@ -4528,7 +4786,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1093.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "14": {
           "minute": 14,
@@ -4562,7 +4822,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1078.3,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "15": {
           "minute": 15,
@@ -4597,7 +4859,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.0,
           "equal_stack_kite_tank": 1259.1,
-          "legendaries": 1
+          "legendaries": 1,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "16": {
           "minute": 16,
@@ -4630,7 +4894,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.239,
           "equal_stack_kite_tank": 1432.7,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "17": {
           "minute": 17,
@@ -4663,7 +4929,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.244,
           "equal_stack_kite_tank": 1397.1,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "18": {
           "minute": 18,
@@ -4697,7 +4965,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.252,
           "equal_stack_kite_tank": 1601.7,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "19": {
           "minute": 19,
@@ -4732,7 +5002,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.256,
           "equal_stack_kite_tank": 1711.7,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "20": {
           "minute": 20,
@@ -4767,7 +5039,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.263,
           "equal_stack_kite_tank": 1666.8,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "21": {
           "minute": 21,
@@ -4803,7 +5077,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.264,
           "equal_stack_kite_tank": 1798.2,
-          "legendaries": 2
+          "legendaries": 2,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "22": {
           "minute": 22,
@@ -4838,7 +5114,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.267,
           "equal_stack_kite_tank": 2170.8,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "23": {
           "minute": 23,
@@ -4874,7 +5152,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.267,
           "equal_stack_kite_tank": 2238.4,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "24": {
           "minute": 24,
@@ -4909,7 +5189,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.269,
           "equal_stack_kite_tank": 2702.0,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "25": {
           "minute": 25,
@@ -4945,7 +5227,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.271,
           "equal_stack_kite_tank": 2768.9,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "26": {
           "minute": 26,
@@ -4981,7 +5265,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.271,
           "equal_stack_kite_tank": 3188.0,
-          "legendaries": 3
+          "legendaries": 3,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "27": {
           "minute": 27,
@@ -5016,7 +5302,9 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.273,
           "equal_stack_kite_tank": 5062.1,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
         },
         "28": {
           "minute": 28,
@@ -5053,7 +5341,1090 @@
           "qs_in_kite": 3,
           "ally_phys_amp_vs_tank": 0.275,
           "equal_stack_kite_tank": 5849.3,
-          "legendaries": 4
+          "legendaries": 4,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
+        }
+      }
+    },
+    "Trinity \u2192 Manamune \u2192 Serylda \u2192 Shojin": {
+      "stacks_at": {
+        "0": 0.0,
+        "1": 6.3,
+        "2": 12.9,
+        "3": 19.5,
+        "4": 26.4,
+        "5": 34.0,
+        "6": 42.4,
+        "7": 50.9,
+        "8": 59.3,
+        "9": 68.1,
+        "10": 78.1,
+        "11": 88.9,
+        "12": 101.2,
+        "13": 114.5,
+        "14": 127.8,
+        "15": 135.6,
+        "16": 143.6,
+        "17": 151.6,
+        "18": 159.7,
+        "19": 167.7,
+        "20": 176.3,
+        "21": 185.2,
+        "22": 194.1,
+        "23": 203.0,
+        "24": 211.9,
+        "25": 220.8,
+        "26": 231.9,
+        "27": 243.0,
+        "28": 254.2
+      },
+      "milestone_25": 4,
+      "milestone_125": 14,
+      "milestone_225": 26,
+      "minutes": {
+        "0": {
+          "minute": 0,
+          "items": [
+            "Doran's Blade"
+          ],
+          "level": 18,
+          "stacks": 0.0,
+          "crit": 0.0,
+          "ah": 0.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 10.0,
+          "hp": 2355.0,
+          "q_cd": 3.5,
+          "e_cd": 16.0,
+          "q_hit_squish": 57.2,
+          "poke_squish": 270.1,
+          "kite_squish": 717.0,
+          "kite_bruiser": 655.3,
+          "kite_tank": 630.8,
+          "allin_squish": 1039.4,
+          "allin_tank": 913.7,
+          "heal_kite_squish": 17.9,
+          "dive_uptime": 1.0,
+          "ehp_physical": 4521.6,
+          "qs_in_poke": 3,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 630.8,
+          "legendaries": 0,
+          "tear_bonus_mana": 0.0,
+          "muramana": false
+        },
+        "1": {
+          "minute": 1,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess"
+          ],
+          "level": 1,
+          "stacks": 6.3,
+          "crit": 0.0,
+          "ah": 0.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 21.3,
+          "hp": 655.0,
+          "q_cd": 5.5,
+          "e_cd": 999,
+          "q_hit_squish": 70.8,
+          "poke_squish": 164.4,
+          "kite_squish": 479.3,
+          "kite_bruiser": 446.1,
+          "kite_tank": 434.1,
+          "allin_squish": 479.3,
+          "allin_tank": 434.1,
+          "heal_kite_squish": 12.0,
+          "dive_uptime": 0.877,
+          "ehp_physical": 812.2,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 433.7,
+          "legendaries": 0,
+          "tear_bonus_mana": 27.0,
+          "muramana": false
+        },
+        "2": {
+          "minute": 2,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Glowing Mote"
+          ],
+          "level": 2,
+          "stacks": 12.9,
+          "crit": 0.0,
+          "ah": 5.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 22.7,
+          "hp": 755.0,
+          "q_cd": 5.238,
+          "e_cd": 999,
+          "q_hit_squish": 71.1,
+          "poke_squish": 171.8,
+          "kite_squish": 554.4,
+          "kite_bruiser": 514.9,
+          "kite_tank": 500.4,
+          "allin_squish": 554.4,
+          "allin_tank": 500.4,
+          "heal_kite_squish": 13.9,
+          "dive_uptime": 0.878,
+          "ehp_physical": 966.4,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 498.6,
+          "legendaries": 0,
+          "tear_bonus_mana": 54.0,
+          "muramana": false
+        },
+        "3": {
+          "minute": 3,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Glowing Mote"
+          ],
+          "level": 3,
+          "stacks": 19.5,
+          "crit": 0.0,
+          "ah": 5.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 24.0,
+          "hp": 855.0,
+          "q_cd": 5.238,
+          "e_cd": 22.857,
+          "q_hit_squish": 71.5,
+          "poke_squish": 175.9,
+          "kite_squish": 561.8,
+          "kite_bruiser": 521.6,
+          "kite_tank": 506.5,
+          "allin_squish": 561.8,
+          "allin_tank": 506.5,
+          "heal_kite_squish": 14.0,
+          "dive_uptime": 0.883,
+          "ehp_physical": 1128.6,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 503.9,
+          "legendaries": 0,
+          "tear_bonus_mana": 81.0,
+          "muramana": false
+        },
+        "4": {
+          "minute": 4,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Sheen"
+          ],
+          "level": 3,
+          "stacks": 26.4,
+          "crit": 0.0,
+          "ah": 10.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 24.6,
+          "hp": 855.0,
+          "q_cd": 5.0,
+          "e_cd": 21.818,
+          "q_hit_squish": 119.9,
+          "poke_squish": 256.8,
+          "kite_squish": 664.0,
+          "kite_bruiser": 616.3,
+          "kite_tank": 598.6,
+          "allin_squish": 664.0,
+          "allin_tank": 598.6,
+          "heal_kite_squish": 16.6,
+          "dive_uptime": 0.78,
+          "ehp_physical": 1128.6,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 594.9,
+          "legendaries": 0,
+          "tear_bonus_mana": 108.0,
+          "muramana": false
+        },
+        "5": {
+          "minute": 5,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Sheen",
+            "Ruby Crystal"
+          ],
+          "level": 4,
+          "stacks": 34.0,
+          "crit": 0.0,
+          "ah": 10.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 25.9,
+          "hp": 1105.0,
+          "q_cd": 4.545,
+          "e_cd": 21.818,
+          "q_hit_squish": 127.9,
+          "poke_squish": 274.5,
+          "kite_squish": 752.3,
+          "kite_bruiser": 697.5,
+          "kite_tank": 676.9,
+          "allin_squish": 752.3,
+          "allin_tank": 676.9,
+          "heal_kite_squish": 18.8,
+          "dive_uptime": 0.923,
+          "ehp_physical": 1502.8,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 672.5,
+          "legendaries": 0,
+          "tear_bonus_mana": 135.0,
+          "muramana": false
+        },
+        "6": {
+          "minute": 6,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Sheen",
+            "Ruby Crystal",
+            "Long Sword"
+          ],
+          "level": 5,
+          "stacks": 42.4,
+          "crit": 0.0,
+          "ah": 10.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 37.2,
+          "hp": 1205.0,
+          "q_cd": 4.091,
+          "e_cd": 21.818,
+          "q_hit_squish": 144.7,
+          "poke_squish": 311.9,
+          "kite_squish": 845.4,
+          "kite_bruiser": 783.0,
+          "kite_tank": 759.3,
+          "allin_squish": 845.4,
+          "allin_tank": 759.3,
+          "heal_kite_squish": 21.1,
+          "dive_uptime": 0.93,
+          "ehp_physical": 1687.0,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 754.2,
+          "legendaries": 0,
+          "tear_bonus_mana": 162.0,
+          "muramana": false
+        },
+        "7": {
+          "minute": 7,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Sheen",
+            "Phage",
+            "Long Sword"
+          ],
+          "level": 5,
+          "stacks": 50.9,
+          "crit": 0.0,
+          "ah": 10.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 52.8,
+          "hp": 1255.0,
+          "q_cd": 4.091,
+          "e_cd": 21.818,
+          "q_hit_squish": 160.4,
+          "poke_squish": 346.4,
+          "kite_squish": 960.6,
+          "kite_bruiser": 889.8,
+          "kite_tank": 820.4,
+          "allin_squish": 960.6,
+          "allin_tank": 820.4,
+          "heal_kite_squish": 24.0,
+          "dive_uptime": 0.885,
+          "ehp_physical": 1757.0,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 814.5,
+          "legendaries": 0,
+          "tear_bonus_mana": 189.0,
+          "muramana": false
+        },
+        "8": {
+          "minute": 8,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Sheen",
+            "Phage",
+            "Long Sword",
+            "Dagger"
+          ],
+          "level": 6,
+          "stacks": 59.3,
+          "crit": 0.0,
+          "ah": 10.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 54.1,
+          "hp": 1355.0,
+          "q_cd": 4.091,
+          "e_cd": 21.818,
+          "q_hit_squish": 160.3,
+          "poke_squish": 347.8,
+          "kite_squish": 1048.1,
+          "kite_bruiser": 931.9,
+          "kite_tank": 854.2,
+          "allin_squish": 1277.4,
+          "allin_tank": 1043.4,
+          "heal_kite_squish": 26.2,
+          "dive_uptime": 0.897,
+          "ehp_physical": 1951.2,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 849.7,
+          "legendaries": 0,
+          "tear_bonus_mana": 216.0,
+          "muramana": false
+        },
+        "9": {
+          "minute": 9,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force"
+          ],
+          "level": 6,
+          "stacks": 68.1,
+          "crit": 0.0,
+          "ah": 15.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 65.7,
+          "hp": 1488.0,
+          "q_cd": 3.913,
+          "e_cd": 20.87,
+          "q_hit_squish": 219.3,
+          "poke_squish": 468.3,
+          "kite_squish": 1235.7,
+          "kite_bruiser": 1057.2,
+          "kite_tank": 963.0,
+          "allin_squish": 1575.8,
+          "allin_tank": 1231.7,
+          "heal_kite_squish": 30.9,
+          "dive_uptime": 0.913,
+          "ehp_physical": 2142.7,
+          "qs_in_poke": 2,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 959.5,
+          "legendaries": 1,
+          "tear_bonus_mana": 243.0,
+          "muramana": false
+        },
+        "10": {
+          "minute": 10,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Boots"
+          ],
+          "level": 7,
+          "stacks": 78.1,
+          "crit": 0.0,
+          "ah": 15.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 67.0,
+          "hp": 1588.0,
+          "q_cd": 3.478,
+          "e_cd": 20.87,
+          "q_hit_squish": 226.1,
+          "poke_squish": 717.2,
+          "kite_squish": 1343.5,
+          "kite_bruiser": 1110.4,
+          "kite_tank": 1003.0,
+          "allin_squish": 1589.7,
+          "allin_tank": 1192.0,
+          "heal_kite_squish": 33.6,
+          "dive_uptime": 0.925,
+          "ehp_physical": 2350.2,
+          "qs_in_poke": 3,
+          "qs_in_kite": 2,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1000.9,
+          "legendaries": 1,
+          "tear_bonus_mana": 270.0,
+          "muramana": false
+        },
+        "11": {
+          "minute": 11,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Ionian Boots of Lucidity"
+          ],
+          "level": 7,
+          "stacks": 88.9,
+          "crit": 0.0,
+          "ah": 25.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 67.5,
+          "hp": 1588.0,
+          "q_cd": 3.2,
+          "e_cd": 19.2,
+          "q_hit_squish": 228.5,
+          "poke_squish": 732.3,
+          "kite_squish": 1592.2,
+          "kite_bruiser": 1274.6,
+          "kite_tank": 1141.5,
+          "allin_squish": 1605.6,
+          "allin_tank": 1155.1,
+          "heal_kite_squish": 39.8,
+          "dive_uptime": 0.865,
+          "ehp_physical": 2350.2,
+          "qs_in_poke": 3,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1139.5,
+          "legendaries": 1,
+          "tear_bonus_mana": 297.0,
+          "muramana": false
+        },
+        "12": {
+          "minute": 12,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Long Sword"
+          ],
+          "level": 8,
+          "stacks": 101.2,
+          "crit": 0.0,
+          "ah": 25.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 78.9,
+          "hp": 1688.0,
+          "q_cd": 2.8,
+          "e_cd": 19.2,
+          "q_hit_squish": 243.7,
+          "poke_squish": 783.2,
+          "kite_squish": 1711.2,
+          "kite_bruiser": 1328.5,
+          "kite_tank": 1184.8,
+          "allin_squish": 1757.1,
+          "allin_tank": 1221.1,
+          "heal_kite_squish": 42.8,
+          "dive_uptime": 0.88,
+          "ehp_physical": 2565.8,
+          "qs_in_poke": 3,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1183.6,
+          "legendaries": 1,
+          "tear_bonus_mana": 324.0,
+          "muramana": false
+        },
+        "13": {
+          "minute": 13,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Caulfield's Warhammer"
+          ],
+          "level": 9,
+          "stacks": 114.5,
+          "crit": 0.0,
+          "ah": 35.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 90.2,
+          "hp": 1788.0,
+          "q_cd": 2.593,
+          "e_cd": 17.778,
+          "q_hit_squish": 252.1,
+          "poke_squish": 813.6,
+          "kite_squish": 1821.1,
+          "kite_bruiser": 1373.3,
+          "kite_tank": 1220.0,
+          "allin_squish": 1867.0,
+          "allin_tank": 1255.3,
+          "heal_kite_squish": 45.5,
+          "dive_uptime": 0.895,
+          "ehp_physical": 2789.3,
+          "qs_in_poke": 3,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1218.7,
+          "legendaries": 1,
+          "tear_bonus_mana": 351.0,
+          "muramana": false
+        },
+        "14": {
+          "minute": 14,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Caulfield's Warhammer",
+            "Long Sword"
+          ],
+          "level": 9,
+          "stacks": 127.8,
+          "crit": 0.0,
+          "ah": 35.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 100.4,
+          "hp": 1788.0,
+          "q_cd": 2.593,
+          "e_cd": 17.778,
+          "q_hit_squish": 230.2,
+          "poke_squish": 750.9,
+          "kite_squish": 1683.4,
+          "kite_bruiser": 1402.9,
+          "kite_tank": 1240.4,
+          "allin_squish": 1730.9,
+          "allin_tank": 1276.7,
+          "heal_kite_squish": 42.1,
+          "dive_uptime": 0.847,
+          "ehp_physical": 2789.3,
+          "qs_in_poke": 3,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1239.0,
+          "legendaries": 1,
+          "tear_bonus_mana": 360.0,
+          "muramana": false
+        },
+        "15": {
+          "minute": 15,
+          "items": [
+            "Doran's Blade",
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Caulfield's Warhammer",
+            "Long Sword"
+          ],
+          "level": 10,
+          "stacks": 135.6,
+          "crit": 0.0,
+          "ah": 35.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 101.2,
+          "hp": 1888.0,
+          "q_cd": 2.593,
+          "e_cd": 17.778,
+          "q_hit_squish": 229.7,
+          "poke_squish": 751.6,
+          "kite_squish": 1699.1,
+          "kite_bruiser": 1375.2,
+          "kite_tank": 1212.1,
+          "allin_squish": 1745.4,
+          "allin_tank": 1246.3,
+          "heal_kite_squish": 42.5,
+          "dive_uptime": 0.864,
+          "ehp_physical": 3020.8,
+          "qs_in_poke": 3,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1210.7,
+          "legendaries": 1,
+          "tear_bonus_mana": 360.0,
+          "muramana": false
+        },
+        "16": {
+          "minute": 16,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune"
+          ],
+          "level": 11,
+          "stacks": 143.6,
+          "crit": 0.0,
+          "ah": 40.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 122.2,
+          "hp": 1988.0,
+          "q_cd": 2.5,
+          "e_cd": 17.143,
+          "q_hit_squish": 275.0,
+          "poke_squish": 1170.3,
+          "kite_squish": 2069.1,
+          "kite_bruiser": 1628.6,
+          "kite_tank": 1431.2,
+          "allin_squish": 2200.1,
+          "allin_tank": 1522.7,
+          "heal_kite_squish": 51.7,
+          "dive_uptime": 0.88,
+          "ehp_physical": 3260.3,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1429.7,
+          "legendaries": 2,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "17": {
+          "minute": 17,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Long Sword",
+            "Long Sword"
+          ],
+          "level": 11,
+          "stacks": 151.6,
+          "crit": 0.0,
+          "ah": 40.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 142.2,
+          "hp": 1988.0,
+          "q_cd": 2.5,
+          "e_cd": 17.143,
+          "q_hit_squish": 289.9,
+          "poke_squish": 1235.6,
+          "kite_squish": 2216.9,
+          "kite_bruiser": 1696.7,
+          "kite_tank": 1485.3,
+          "allin_squish": 2350.9,
+          "allin_tank": 1575.9,
+          "heal_kite_squish": 55.4,
+          "dive_uptime": 0.839,
+          "ehp_physical": 3260.3,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1483.6,
+          "legendaries": 2,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "18": {
+          "minute": 18,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Long Sword",
+            "Long Sword"
+          ],
+          "level": 12,
+          "stacks": 159.7,
+          "crit": 0.0,
+          "ah": 40.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 143.0,
+          "hp": 2088.0,
+          "q_cd": 2.5,
+          "e_cd": 17.143,
+          "q_hit_squish": 284.9,
+          "poke_squish": 1205.9,
+          "kite_squish": 2193.4,
+          "kite_bruiser": 1662.8,
+          "kite_tank": 1452.2,
+          "allin_squish": 2317.7,
+          "allin_tank": 1538.5,
+          "heal_kite_squish": 54.8,
+          "dive_uptime": 0.856,
+          "ehp_physical": 3507.8,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1450.4,
+          "legendaries": 2,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "19": {
+          "minute": 19,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Last Whisper",
+            "Long Sword"
+          ],
+          "level": 12,
+          "stacks": 167.7,
+          "crit": 0.0,
+          "ah": 40.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 153.0,
+          "hp": 2088.0,
+          "q_cd": 2.5,
+          "e_cd": 17.143,
+          "q_hit_squish": 318.7,
+          "poke_squish": 1343.9,
+          "kite_squish": 2469.6,
+          "kite_bruiser": 1891.7,
+          "kite_tank": 1640.6,
+          "allin_squish": 2603.8,
+          "allin_tank": 1733.0,
+          "heal_kite_squish": 61.7,
+          "dive_uptime": 0.82,
+          "ehp_physical": 3507.8,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1638.6,
+          "legendaries": 2,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "20": {
+          "minute": 20,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Last Whisper",
+            "Caulfield's Warhammer"
+          ],
+          "level": 13,
+          "stacks": 176.3,
+          "crit": 0.0,
+          "ah": 50.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 163.8,
+          "hp": 2188.0,
+          "q_cd": 2.333,
+          "e_cd": 16.0,
+          "q_hit_squish": 325.1,
+          "poke_squish": 1385.7,
+          "kite_squish": 2704.9,
+          "kite_bruiser": 2071.2,
+          "kite_tank": 1755.1,
+          "allin_squish": 3011.9,
+          "allin_tank": 1958.6,
+          "heal_kite_squish": 67.6,
+          "dive_uptime": 0.837,
+          "ehp_physical": 3763.4,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 1752.6,
+          "legendaries": 2,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "21": {
+          "minute": 21,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge"
+          ],
+          "level": 13,
+          "stacks": 185.2,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 168.8,
+          "hp": 2188.0,
+          "q_cd": 2.258,
+          "e_cd": 15.484,
+          "q_hit_squish": 361.5,
+          "poke_squish": 1532.4,
+          "kite_squish": 3014.6,
+          "kite_bruiser": 2368.5,
+          "kite_tank": 2014.6,
+          "allin_squish": 3349.9,
+          "allin_tank": 2241.1,
+          "heal_kite_squish": 75.4,
+          "dive_uptime": 0.805,
+          "ehp_physical": 3763.4,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2011.6,
+          "legendaries": 3,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "22": {
+          "minute": 22,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Long Sword",
+            "Ruby Crystal"
+          ],
+          "level": 14,
+          "stacks": 194.1,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 179.6,
+          "hp": 2438.0,
+          "q_cd": 2.258,
+          "e_cd": 14.194,
+          "q_hit_squish": 368.9,
+          "poke_squish": 1567.0,
+          "kite_squish": 3094.6,
+          "kite_bruiser": 2431.1,
+          "kite_tank": 2070.0,
+          "allin_squish": 3634.9,
+          "allin_tank": 2432.5,
+          "heal_kite_squish": 77.4,
+          "dive_uptime": 0.876,
+          "ehp_physical": 4290.9,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2066.3,
+          "legendaries": 3,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "23": {
+          "minute": 23,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Tunneler"
+          ],
+          "level": 14,
+          "stacks": 203.0,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 184.6,
+          "hp": 2538.0,
+          "q_cd": 2.258,
+          "e_cd": 14.194,
+          "q_hit_squish": 374.1,
+          "poke_squish": 1589.0,
+          "kite_squish": 3144.1,
+          "kite_bruiser": 2465.8,
+          "kite_tank": 2098.8,
+          "allin_squish": 3744.7,
+          "allin_tank": 2499.9,
+          "heal_kite_squish": 78.6,
+          "dive_uptime": 0.879,
+          "ehp_physical": 4466.9,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2094.6,
+          "legendaries": 3,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "24": {
+          "minute": 24,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Tunneler",
+            "Pickaxe"
+          ],
+          "level": 15,
+          "stacks": 211.9,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 210.4,
+          "hp": 2638.0,
+          "q_cd": 2.258,
+          "e_cd": 12.903,
+          "q_hit_squish": 392.6,
+          "poke_squish": 1672.1,
+          "kite_squish": 3347.2,
+          "kite_bruiser": 2629.2,
+          "kite_tank": 2236.5,
+          "allin_squish": 3989.9,
+          "allin_tank": 2665.2,
+          "heal_kite_squish": 83.7,
+          "dive_uptime": 0.895,
+          "ehp_physical": 4748.4,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2231.9,
+          "legendaries": 3,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "25": {
+          "minute": 25,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Tunneler",
+            "Pickaxe",
+            "Ruby Crystal"
+          ],
+          "level": 16,
+          "stacks": 220.8,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 0.0,
+          "bonus_ad": 211.2,
+          "hp": 2888.0,
+          "q_cd": 2.258,
+          "e_cd": 12.903,
+          "q_hit_squish": 392.0,
+          "poke_squish": 1671.1,
+          "kite_squish": 3337.1,
+          "kite_bruiser": 2625.4,
+          "kite_tank": 2233.0,
+          "allin_squish": 4061.9,
+          "allin_tank": 2716.7,
+          "heal_kite_squish": 83.4,
+          "dive_uptime": 0.961,
+          "ehp_physical": 5313.9,
+          "qs_in_poke": 4,
+          "qs_in_kite": 3,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2227.9,
+          "legendaries": 3,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "26": {
+          "minute": 26,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Spear of Shojin"
+          ],
+          "level": 16,
+          "stacks": 231.9,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 25.0,
+          "bonus_ad": 216.2,
+          "hp": 2938.0,
+          "q_cd": 1.806,
+          "e_cd": 10.323,
+          "q_hit_squish": 571.6,
+          "poke_squish": 2910.7,
+          "kite_squish": 4470.0,
+          "kite_bruiser": 3954.9,
+          "kite_tank": 3663.2,
+          "allin_squish": 4731.1,
+          "allin_tank": 3686.5,
+          "heal_kite_squish": 111.7,
+          "dive_uptime": 0.946,
+          "ehp_physical": 5405.9,
+          "qs_in_poke": 5,
+          "qs_in_kite": 4,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 2592.1,
+          "legendaries": 4,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "27": {
+          "minute": 27,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Spear of Shojin"
+          ],
+          "level": 17,
+          "stacks": 243.0,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 25.0,
+          "bonus_ad": 217.0,
+          "hp": 3038.0,
+          "q_cd": 1.806,
+          "e_cd": 9.29,
+          "q_hit_squish": 580.2,
+          "poke_squish": 2947.6,
+          "kite_squish": 4501.0,
+          "kite_bruiser": 4002.2,
+          "kite_tank": 3720.9,
+          "allin_squish": 4768.1,
+          "allin_tank": 3740.4,
+          "heal_kite_squish": 112.5,
+          "dive_uptime": 0.961,
+          "ehp_physical": 5711.4,
+          "qs_in_poke": 5,
+          "qs_in_kite": 4,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 3695.5,
+          "legendaries": 4,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
+        },
+        "28": {
+          "minute": 28,
+          "items": [
+            "Doran's Blade",
+            "Trinity Force",
+            "Ionian Boots of Lucidity",
+            "Manamune",
+            "Serylda's Grudge",
+            "Spear of Shojin"
+          ],
+          "level": 18,
+          "stacks": 254.2,
+          "crit": 0.0,
+          "ah": 55.0,
+          "basic_ah": 25.0,
+          "bonus_ad": 217.8,
+          "hp": 3138.0,
+          "q_cd": 1.806,
+          "e_cd": 8.258,
+          "q_hit_squish": 589.0,
+          "poke_squish": 2985.4,
+          "kite_squish": 4533.6,
+          "kite_bruiser": 4050.7,
+          "kite_tank": 3779.8,
+          "allin_squish": 4805.8,
+          "allin_tank": 3794.9,
+          "heal_kite_squish": 113.3,
+          "dive_uptime": 0.976,
+          "ehp_physical": 6025.0,
+          "qs_in_poke": 5,
+          "qs_in_kite": 4,
+          "ally_phys_amp_vs_tank": 0.0,
+          "equal_stack_kite_tank": 3748.8,
+          "legendaries": 4,
+          "tear_bonus_mana": 360.0,
+          "muramana": true
         }
       }
     }

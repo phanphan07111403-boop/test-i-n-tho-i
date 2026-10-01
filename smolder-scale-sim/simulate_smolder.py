@@ -23,8 +23,13 @@ Ability scale
   Health and a shorter E are the reason the build exists.
 
 Shared
-  Essence Reaver first on every path. Deathfire Touch on every path.
-  No runes besides that keystone, so the item delta stays visible.
+  Essence Reaver first on the five comparison paths. Deathfire Touch on
+  every path. No runes besides that keystone, so the item delta stays visible.
+
+Trinity path
+  Tear on the first back, then Trinity Force, Ionian, Manamune, Serylda,
+  Shojin. No crit, so Q never gets the 1.75x multiplier. Trinity spellblade
+  is 200% base AD. Muramana Shock is 3% max mana on abilities.
 """
 
 from __future__ import annotations
@@ -182,6 +187,9 @@ class Item:
     hunger: bool = False
     shieldbow: bool = False
     boots: bool = False
+    trinity: bool = False
+    tear: bool = False
+    manamune: bool = False
 
 
 ITEMS: Dict[str, Item] = {
@@ -224,6 +232,12 @@ ITEMS: Dict[str, Item] = {
     "Ionian Boots of Lucidity": Item("Ionian Boots of Lucidity", 900, ah=10, boots=True),
     "Gluttonous Greaves": Item("Gluttonous Greaves", 1000, omnivamp=0.04, boots=True),
     "Immortal Shieldbow": Item("Immortal Shieldbow", 3000, ad=55, crit=0.25, shieldbow=True),
+    "Tear of the Goddess": Item("Tear of the Goddess", 400, tear=True),
+    "Hearthbound Axe": Item("Hearthbound Axe", 1200, ad=20, as_pct=0.20),
+    "Trinity Force": Item(
+        "Trinity Force", 3333, ad=36, ah=15, hp=333, as_pct=0.30, trinity=True
+    ),
+    "Manamune": Item("Manamune", 2900, ad=35, ah=15, manamune=True),
 }
 
 
@@ -252,6 +266,9 @@ RECIPES: Dict[str, Tuple[str, ...]] = {
     "Ionian Boots of Lucidity": ("Boots", "Glowing Mote"),
     "Gluttonous Greaves": ("Boots",),
     "Immortal Shieldbow": ("Pickaxe", "Noonquiver"),
+    "Hearthbound Axe": ("Long Sword", "Dagger", "Long Sword"),
+    "Trinity Force": ("Sheen", "Phage", "Hearthbound Axe"),
+    "Manamune": ("Tear of the Goddess", "Caulfield's Warhammer", "Long Sword"),
 }
 
 LEGENDARIES = {
@@ -266,6 +283,8 @@ LEGENDARIES = {
     "Endless Hunger",
     "Serylda's Grudge",
     "Immortal Shieldbow",
+    "Trinity Force",
+    "Manamune",
 }
 
 FINISHED_BOOTS = {
@@ -438,6 +457,44 @@ BUILD_PATHS: Dict[str, List[str]] = {
         "Scout's Slingshot",
         "Rapid Firecannon",
     ],
+    # Tear on the first back so Muramana can finish. Trinity is still the first legendary.
+    "Trinity → Manamune → Serylda → Shojin": [
+        "Doran's Blade",
+        "Tear of the Goddess",
+        "Glowing Mote",
+        "Sheen",
+        "Ruby Crystal",
+        "Long Sword",
+        "Phage",
+        "Long Sword",
+        "Dagger",
+        "Long Sword",
+        "Hearthbound Axe",
+        "Trinity Force",
+        "Boots",
+        "Glowing Mote",
+        "Ionian Boots of Lucidity",
+        "Long Sword",
+        "Long Sword",
+        "Glowing Mote",
+        "Caulfield's Warhammer",
+        "Long Sword",
+        "Manamune",
+        "Long Sword",
+        "Long Sword",
+        "Last Whisper",
+        "Long Sword",
+        "Long Sword",
+        "Glowing Mote",
+        "Caulfield's Warhammer",
+        "Serylda's Grudge",
+        "Long Sword",
+        "Ruby Crystal",
+        "Tunneler",
+        "Pickaxe",
+        "Ruby Crystal",
+        "Spear of Shojin",
+    ],
 }
 
 
@@ -582,6 +639,10 @@ class Loadout:
     navori: bool
     shieldbow: bool
     stacks: float
+    trinity: bool = False
+    max_mana: float = 0
+    muramana: bool = False
+    tear_bonus: float = 0
     names: List[str] = field(default_factory=list)
 
     @property
@@ -605,7 +666,7 @@ class Loadout:
         return E_CD[rank - 1] * haste_factor(self.ah) * haste_factor(self.basic_ah)
 
 
-def loadout_from(names: List[str], level: int, stacks: float) -> Loadout:
+def loadout_from(names: List[str], level: int, stacks: float, tear_bonus: float = 0.0) -> Loadout:
     base_ad = 58.0 + 2.3 * (level - 1)
     bonus_ad = 0.0
     crit = 0.0
@@ -619,7 +680,10 @@ def loadout_from(names: List[str], level: int, stacks: float) -> Loadout:
     lifesteal = 0.0
     omnivamp = 0.0
     tenacity = 0.0
-    flags = dict(er=False, sheen=False, shojin=False, cleaver=False, rfc=False, ldr=False, navori=False, shieldbow=False)
+    flags = dict(
+        er=False, sheen=False, shojin=False, cleaver=False, rfc=False,
+        ldr=False, navori=False, shieldbow=False, trinity=False,
+    )
     # Sheen is consumed by ER; don't keep both procs.
     for name in names:
         it = ITEMS[name]
@@ -638,8 +702,23 @@ def loadout_from(names: List[str], level: int, stacks: float) -> Loadout:
         for key in flags:
             if getattr(it, key):
                 flags[key] = True
-    if flags["er"]:
+    if flags["er"] or flags["trinity"]:
         flags["sheen"] = False
+    item_mana = 0.0
+    muramana = False
+    if "Manamune" in names and tear_bonus >= 360:
+        item_mana = 1000.0
+        muramana = True
+    elif "Manamune" in names:
+        item_mana = 500.0
+    elif "Tear of the Goddess" in names:
+        item_mana = 240.0
+    base_mana = 300.0 + 40.0 * (level - 1)
+    stacked = tear_bonus if item_mana else 0.0
+    max_mana = base_mana + item_mana + stacked
+    if item_mana:
+        # Awe: 2% max mana as bonus AD. Muramana's own 1000 mana is 20 AD.
+        bonus_ad += 0.02 * max_mana
     if any(ITEMS[n].hunger for n in names):
         # Ranged Famine: 5 + 10% bonus AD ability haste. Includes this item's AD.
         ah += 5.0 + 0.10 * bonus_ad
@@ -665,6 +744,9 @@ def loadout_from(names: List[str], level: int, stacks: float) -> Loadout:
         tenacity=tenacity,
         stacks=stacks,
         names=list(names),
+        max_mana=max_mana,
+        muramana=muramana,
+        tear_bonus=stacked,
         **flags,
     )
 
@@ -674,15 +756,16 @@ def loadout_from(names: List[str], level: int, stacks: float) -> Loadout:
 # ---------------------------------------------------------------------------
 
 
-def stacks_gained_during(minute: int, q_cd: float, has_er: bool) -> float:
+def stacks_gained_during(minute: int, q_cd: float, has_er: bool, has_tear: bool = False) -> float:
     """
     Q casts that produce a Dragon Practice stack this minute.
-    Lane (through 14:00) is mostly last-hits. After that, fights replace farm,
-    and pre-Reaver mana cuts the cast rate.
+    Lane (through 14:00) is mostly last-hits. After that, fights replace farm.
+    Essence Reaver refunds mana. Tear only enlarges the pool, so the cast
+    rate is a bit lower. With neither, mana cuts uptime harder.
     """
     uptime = 0.82 if minute <= 14 else 0.60
     if not has_er:
-        uptime *= 0.72
+        uptime *= 0.90 if has_tear else 0.72
     chance = 0.78 if minute <= 14 else 0.62
     return (60.0 / q_cd) * uptime * chance
 
@@ -694,9 +777,22 @@ def stack_timeline(path: List[str]) -> List[float]:
     for m in range(1, GAME_MINUTES + 1):
         names = resolve_inventory(path, gold_at_minute(m))
         kit = loadout_from(names, level_at_minute(m), 0)
-        total += stacks_gained_during(m, kit.q_cd, kit.er)
+        has_tear = any(n in names for n in ("Tear of the Goddess", "Manamune"))
+        total += stacks_gained_during(m, kit.q_cd, kit.er, has_tear)
         stacks.append(total)
     return stacks
+
+
+def tear_bonus_timeline(path: List[str]) -> List[float]:
+    """Bonus mana from Tear at minute m. +27 per minute while Tear or Manamune is owned, cap 360."""
+    out = [0.0]
+    mana = 0.0
+    for m in range(1, GAME_MINUTES + 1):
+        names = resolve_inventory(path, gold_at_minute(m))
+        if any(n in names for n in ("Tear of the Goddess", "Manamune")):
+            mana = min(360.0, mana + 27.0)
+        out.append(mana)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -829,14 +925,15 @@ def simulate_fight(kit: Loadout, target: Target, mode: str) -> Fight:
         raw_magic = kit.stacks * q_stack_ratio(kit.crit, kit.ie)
         deal(raw_phys, "phys", True, 0.5, True)
         deal(raw_magic, "magic", True, 0.0, False)
-        if t >= blade_at and (kit.er or kit.sheen):
-            if kit.er:
-                blade = 1.25 * kit.base_ad + 50.0 * kit.crit
-            else:
-                blade = kit.base_ad
+        blade = spellblade_damage(kit)
+        if t >= blade_at and blade > 0:
             # Same frame as Q: one Carve stack, already applied by the fireball.
             deal(blade, "phys", False, 0.5, False)
             blade_at = t + 1.5
+        if kit.muramana:
+            # Q is a spell and an on-hit in one instance, so Shock uses the
+            # ranged ability ratio only: 3% max mana.
+            deal(0.03 * kit.max_mana, "phys", False, 0.5, False)
         frac = burn_max_hp_fraction(kit.bonus_ad, kit.stacks)
         if frac > 0:
             overlap = min(3.0, max(0.0, WINDOW - t))
@@ -854,6 +951,8 @@ def simulate_fight(kit: Loadout, target: Target, mode: str) -> Fight:
         raw_magic = 0.55 * kit.stacks
         deal(raw_phys, "phys", True, 0.0, True)
         deal(raw_magic, "magic", True, 0.0, False)
+        if kit.muramana:
+            deal(0.03 * kit.max_mana, "phys", False, 0.0, False)
         refresh_dft(2.0)
         bump_shojin()
         used_w = True
@@ -871,6 +970,8 @@ def simulate_fight(kit: Loadout, target: Target, mode: str) -> Fight:
             advance(step)
             deal(per_phys, "phys", True, 0.0, True)
             deal(per_magic, "magic", True, 0.0, False)
+        if kit.muramana:
+            deal(0.03 * kit.max_mana, "phys", False, 0.0, False)
         refresh_dft(4.0)
         bump_shojin()
         used_e = True
@@ -883,6 +984,8 @@ def simulate_fight(kit: Loadout, target: Target, mode: str) -> Fight:
         if rank >= 0:
             raw = (R_BASE[rank] + 1.00 * kit.bonus_ad) * 1.50
             deal(raw, "phys", True, 0.0, True)
+            if kit.muramana:
+                deal(0.03 * kit.max_mana, "phys", False, 0.0, False)
             refresh_dft(2.0)
             bump_shojin()
         used_r = True
@@ -892,6 +995,8 @@ def simulate_fight(kit: Loadout, target: Target, mode: str) -> Fight:
         nonlocal energy
         advance(aa_time)
         deal(kit.ad * (1.0 + auto_crit_bonus(kit.crit, kit.ie)), "phys", False, 1.0, True)
+        if kit.muramana:
+            deal(0.012 * kit.max_mana, "phys", False, 1.0, False)
         energy += 20.0
         if kit.rfc and energy >= 100.0:
             energy -= 100.0
@@ -986,6 +1091,19 @@ class MinuteRow:
     team_amp: float
     equal_kite_tank: float
     legendaries: int
+    tear_bonus: float
+    muramana: bool
+
+
+def spellblade_damage(kit: Loadout) -> float:
+    """Trinity is 200% base AD. Essence Reaver is 125% base AD plus up to 50 from crit."""
+    if kit.trinity:
+        return 2.0 * kit.base_ad
+    if kit.er:
+        return 1.25 * kit.base_ad + 50.0 * kit.crit
+    if kit.sheen:
+        return kit.base_ad
+    return 0.0
 
 
 def q_hit_on(kit: Loadout, target: Target) -> float:
@@ -996,17 +1114,21 @@ def q_hit_on(kit: Loadout, target: Target) -> float:
     armor = effective_armor(target.armor, 0.0, kit.pct_pen, kit.lethality)
     giant = 1.0 + (0.15 * min(1.0, target.bonus_hp / 1500.0) if kit.ldr else 0.0)
     dealt = mitigate(raw_phys * giant, armor) + mitigate(raw_magic * giant, target.mr)
-    if kit.er:
-        blade = 1.25 * kit.base_ad + 50.0 * kit.crit
+    blade = spellblade_damage(kit)
+    if blade:
         dealt += mitigate(blade, armor)
+    if kit.muramana:
+        dealt += mitigate(0.03 * kit.max_mana, armor)
     dealt += target.hp * burn_max_hp_fraction(kit.bonus_ad, kit.stacks)
     return dealt
 
 
-def row_for(build: str, minute: int, stacks: float, equal_stacks: float) -> MinuteRow:
+def row_for(
+    build: str, minute: int, stacks: float, equal_stacks: float, tear_bonus: float = 0.0
+) -> MinuteRow:
     names = resolve_inventory(BUILD_PATHS[build], gold_at_minute(minute))
     level = level_at_minute(minute)
-    kit = loadout_from(names, level, stacks)
+    kit = loadout_from(names, level, stacks, tear_bonus)
     squish = target_at("squish", minute)
     bruiser = target_at("bruiser", minute)
     tank = target_at("tank", minute)
@@ -1016,7 +1138,7 @@ def row_for(build: str, minute: int, stacks: float, equal_stacks: float) -> Minu
     poke = simulate_fight(kit, squish, "poke")
     all_t = simulate_fight(kit, tank, "allin")
     all_s = simulate_fight(kit, squish, "allin")
-    equal_kit = loadout_from(names, level, equal_stacks)
+    equal_kit = loadout_from(names, level, equal_stacks, tear_bonus)
     equal_tank = simulate_fight(equal_kit, tank, "kite")
     _incoming, uptime, ehp = survival(kit, minute)
     return MinuteRow(
@@ -1047,6 +1169,8 @@ def row_for(build: str, minute: int, stacks: float, equal_stacks: float) -> Minu
         team_amp=ally_phys_amp(tank.armor) if kit.cleaver else 0.0,
         equal_kite_tank=equal_tank.total,
         legendaries=sum(1 for n in names if n in LEGENDARIES),
+        tear_bonus=kit.tear_bonus,
+        muramana=kit.muramana,
     )
 
 
@@ -1102,7 +1226,14 @@ def winner(rows: List[MinuteRow], key) -> str:
 # Report
 # ---------------------------------------------------------------------------
 
-BUILD_ORDER = list(BUILD_PATHS)
+BUILD_ORDER = [
+    "Crit: ER → IE → RFC → LDR",
+    "Crit: ER → IE → Navori → LDR",
+    "Ability: ER → Cleaver → Shojin",
+    "Hybrid: ER → Shojin → IE",
+    "Hybrid: ER → Cleaver → IE",
+]
+TRI_NAME = "Trinity → Manamune → Serylda → Shojin"
 
 
 def short(name: str) -> str:
@@ -1112,6 +1243,7 @@ def short(name: str) -> str:
         "Ability: ER → Cleaver → Shojin": "Ability",
         "Hybrid: ER → Shojin → IE": "Hybrid Shojin",
         "Hybrid: ER → Cleaver → IE": "Hybrid Cleaver",
+        "Trinity → Manamune → Serylda → Shojin": "Trinity",
         "tie": "tie",
         "Both crit": "Both crit",
     }.get(name, name)
@@ -1128,7 +1260,7 @@ def build_report(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[f
     a = lines.append
     a("=" * 88)
     a("SMOLDER — CRIT SCALE vs ABILITY SCALE   (PC LoL patch 26.19)")
-    a("Bot lane, even gold, Deathfire Touch, Essence Reaver first on every path")
+    a("Bot lane, even gold, Deathfire Touch. Essence Reaver first on the five paths below.")
     a("Window: 8 seconds.  Kite = Q + autos + one W.  Poke = Q only.  All-in = R + E + Q.")
     a("=" * 88)
     a("")
@@ -1147,7 +1279,7 @@ def build_report(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[f
     a("Stacks come from Q casts. Haste does nothing until the haste items exist.")
     a("-" * 88)
     a(f"  {'Build':<28} {'25':>7} {'125':>7} {'225':>7} {'stacks@22':>10} {'stacks@28':>10}")
-    for name in BUILD_ORDER:
+    for name in list(BUILD_ORDER) + [TRI_NAME]:
         st = stacks[name]
         a(
             f"  {short(name):<28} {fmt_min(milestone(st, 25)):>7}"
@@ -1228,6 +1360,7 @@ def build_report(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[f
             f" {c.poke_squish - b.poke_squish:8.0f} {c.kite_squish*c.uptime - b.kite_squish*b.uptime:9.0f}"
             f" {c.stacks - b.stacks:9.0f} {b.hp:10.0f} {c.hp:8.0f}"
         )
+    lines.extend(trinity_lines(timelines, stacks))
     lines.extend(full_build_lines())
     a("-" * 88)
     a("WHEN TO CHOOSE WHICH")
@@ -1244,7 +1377,13 @@ def build_report(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[f
     a("  • 225-stack burn is true damage from bonus AD and stacks. Crit does not increase the %.")
     a("  • Execute threshold is a flat 6.5% max HP. The Collector's 5% does not add anything.")
     a("  • Shojin's +12% ramps across the fight and applies to abilities, including the burn.")
-    a("    It does not apply to autos, Essence Reaver spellblade, or Deathfire Touch.")
+    a("    It does not apply to autos, spellblade, Deathfire Touch, or Muramana Shock.")
+    a("  • Trinity spellblade is 200% base AD on a 1.5s cooldown, and it does not restore mana.")
+    a("    Essence Reaver is 125% base AD plus up to 50 from crit, and it refunds mana.")
+    a("  • Awe is 2% max mana as bonus AD. Tear gains 27 bonus mana a minute while held,")
+    a("    cap 360. Muramana replaces the item's mana with 1000 and turns Shock on.")
+    a("    Q is a spell and an on-hit in one instance, so Shock uses the ranged ability")
+    a("    ratio only (3% max mana). Autos are 1.2%. W, E, and R each proc it once.")
     a("  • After 25 stacks, Q is treated as AoE for Deathfire Touch (2s burn). Haste that")
     a("    holds Q under 2s keeps the burn up; a 2.9s Q lets it fall off between casts.")
     a("  • Cleaver is 6% armor reduction per physical hit, 5 stacks. Q and each auto add one.")
@@ -1273,6 +1412,60 @@ def first_with(timelines: Dict[str, List[MinuteRow]], build: str, item: str) -> 
     return None
 
 
+def trinity_lines(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[float]]) -> List[str]:
+    """Trinity / Manamune / Serylda / Shojin against the ER ability path and straight crit."""
+    crit = "Crit: ER → IE → RFC → LDR"
+    abil = "Ability: ER → Cleaver → Shojin"
+    tri = TRI_NAME
+    lines = [
+        "-" * 88,
+        "TRINITY → MANAMUNE → SERYLDA → SHOJIN",
+        "Tear on the first back starts the 360 mana clock. Trinity is still the first legendary.",
+        "This path has 0 crit, so Q stays at 1.00x. Spellblade is 200% base AD. Shock is 3% max mana.",
+        "Tear uptime is 90% of Essence Reaver's, because Tear does not refund mana.",
+        "-" * 88,
+    ]
+
+    def at_item(item: str) -> str:
+        return fmt_min(first_with(timelines, tri, item)).strip()
+
+    mura_at = next((row.minute for row in timelines[tri] if row.muramana), None)
+    lines.append(
+        f"  Tear {at_item('Tear of the Goddess')}   Trinity {at_item('Trinity Force')}"
+        f"   Ionian {at_item('Ionian Boots of Lucidity')}   Manamune {at_item('Manamune')}"
+        f"   Muramana {fmt_min(mura_at).strip()}"
+    )
+    serylda = "Serylda's Grudge"
+    lines.append(
+        f"  Last Whisper {at_item('Last Whisper')}   Serylda {at_item(serylda)}"
+        f"   Shojin {at_item('Spear of Shojin')}"
+    )
+    lines.append("")
+    lines.append(
+        f"  {'Min':>4} {'Build':<10} {'Q cd':>5} {'Stk':>5} {'Tear':>5} {'AD':>6}"
+        f" {'Poke':>7} {'KiteSq':>7} {'KiteTk':>7} {'HP':>6} {'Live':>5}"
+    )
+    for m in (11, 16, 18, 22, 28):
+        for name in (tri, abil, crit):
+            r = timelines[name][m]
+            mura = "mura" if r.muramana else ""
+            lines.append(
+                f"  {m:02d}:00 {short(name):<10} {r.q_cd:5.2f} {r.stacks:5.0f}"
+                f" {r.tear_bonus:5.0f} {r.bonus_ad:6.0f} {r.poke_squish:7.0f}"
+                f" {r.kite_squish:7.0f} {r.kite_tank:7.0f} {r.hp:6.0f} {r.uptime*100:4.0f}% {mura}"
+            )
+            lines.append(f"              {item_names(r.items)}")
+        lines.append("")
+    t225 = milestone(stacks[tri], 225)
+    lines.append(
+        f"  225 stacks on Trinity: {fmt_min(t225).strip()}."
+        f" Ability {fmt_min(milestone(stacks[abil], 225)).strip()},"
+        f" crit {fmt_min(milestone(stacks[crit], 225)).strip()}."
+    )
+    lines.append("")
+    return lines
+
+
 def full_build_lines(level_targets_minute: int = 28) -> List[str]:
     """Completed paths at level 18, same stacks, minute-28 targets. Gold ignored."""
     stacks = 250.0
@@ -1281,6 +1474,7 @@ def full_build_lines(level_targets_minute: int = 28) -> List[str]:
         "FULL BUILD — level 18, 250 stacks, gold ignored, targets from 28:00",
         "This is the item philosophy after the last buy. The timeline above is when it arrives.",
         "Navori's fifth crit item is past 100% crit and does not raise Q. Bloodthirster adds no crit.",
+        "Trinity's row is Muramana with 360 bonus mana. It still has no crit.",
         "-" * 88,
     ]
     squish = target_at("squish", level_targets_minute)
@@ -1289,9 +1483,10 @@ def full_build_lines(level_targets_minute: int = 28) -> List[str]:
         f"  {'Build':<16} {'Crit':>5} {'Q cd':>5} {'HP':>6} {'E cd':>5}"
         f" {'Q hit':>7} {'Poke':>7} {'KiteSq':>7} {'KiteTk':>7} {'Qs':>3} {'Live':>5} {'Team':>5}"
     )
-    for name in BUILD_ORDER:
+    for name in list(BUILD_ORDER) + [TRI_NAME]:
         names = completed_names(BUILD_PATHS[name])
-        kit = loadout_from(names, 18, stacks)
+        tear = 360.0 if name == TRI_NAME else 0.0
+        kit = loadout_from(names, 18, stacks, tear)
         poke = simulate_fight(kit, squish, "poke")
         kite_s = simulate_fight(kit, squish, "kite")
         kite_t = simulate_fight(kit, tank, "kite")
@@ -1473,6 +1668,99 @@ def decision_lines(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List
     out.append("    • Tanks, and you are the only AD — LDR is your pen. Cleaver's amp has no partner.")
     out.append("    • At 100% crit, stop buying crit. The next cloak does not scale Q.")
     out.append("    • Do not buy The Collector. The execute is already 6.5% max health.")
+    out.extend(trinity_decision(timelines, stacks))
+    return out
+
+
+def trinity_decision(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[float]]) -> List[str]:
+    """When Tear → Trinity → Manamune → Serylda → Shojin beats the Essence Reaver haste path."""
+    tri = TRI_NAME
+    abil = "Ability: ER → Cleaver → Shojin"
+    crit = "Crit: ER → IE → RFC → LDR"
+    out: List[str] = []
+
+    def at(name: str, m: int) -> MinuteRow:
+        return timelines[name][m]
+
+    def pct(new: float, old: float) -> str:
+        if old <= 0:
+            return "n/a"
+        return f"{(new / old - 1) * 100:+.0f}%"
+
+    mura_at = next((row.minute for row in timelines[tri] if row.muramana), None)
+    tri_at = first_with(timelines, tri, "Trinity Force")
+    mana_at = first_with(timelines, tri, "Manamune")
+    sery_at = first_with(timelines, tri, "Serylda's Grudge")
+    shoj_at = first_with(timelines, tri, "Spear of Shojin")
+    t11, a11, c11 = at(tri, 11), at(abil, 11), at(crit, 11)
+    t16, a16, c16 = at(tri, 16), at(abil, 16), at(crit, 16)
+    t22, a22, c22 = at(tri, 22), at(abil, 22), at(crit, 22)
+    t28, a28, c28 = at(tri, 28), at(abil, 28), at(crit, 28)
+    out.append("")
+    out.append("  TRINITY (Tear → Trinity → Ionian → Manamune → Serylda → Shojin) is the")
+    out.append("  no-crit ability path. Q stays at 1.00x. Tear is the first back, or the")
+    out.append("  360 mana clock starts late and Muramana misses the mid game.")
+    if tri_at is not None:
+        out.append(
+            f"    Trinity completes at {tri_at:02d}:00, Ionian at 11:00, Manamune at"
+            f" {fmt_min(mana_at).strip()}. Muramana turns on at {fmt_min(mura_at).strip()}"
+            f" because Tear is already at {at(tri, mura_at).tear_bonus:.0f} bonus mana."
+            if mura_at is not None
+            else f"    Trinity completes at {tri_at:02d}:00. Muramana is not online by 28:00."
+        )
+    out.append(
+        f"    At 11:00, with Trinity and Ionian, squishy kite is {t11.kite_squish:.0f}"
+        f" vs ability {a11.kite_squish:.0f} ({pct(t11.kite_squish, a11.kite_squish)})"
+        f" and vs crit {c11.kite_squish:.0f} ({pct(t11.kite_squish, c11.kite_squish)})."
+        f" HP is {t11.hp:.0f} vs {a11.hp:.0f} vs {c11.hp:.0f}."
+        " This is the window the item is for: before Infinity Edge exists."
+    )
+    out.append(
+        f"    Muramana's minute, poke is {t16.poke_squish:.0f} vs ability {a16.poke_squish:.0f}"
+        f" ({pct(t16.poke_squish, a16.poke_squish)}) and vs crit {c16.poke_squish:.0f}"
+        f" ({pct(t16.poke_squish, c16.poke_squish)}). Squishy kite is {t16.kite_squish:.0f}"
+        f" vs ability {a16.kite_squish:.0f} vs crit {c16.kite_squish:.0f}."
+    )
+    out.append(
+        f"    At 22:00 Serylda is in and Shojin is not. Poke {t22.poke_squish:.0f} vs ability"
+        f" {a22.poke_squish:.0f} ({pct(t22.poke_squish, a22.poke_squish)}). Kite-squishy"
+        f" {t22.kite_squish:.0f} vs ability {a22.kite_squish:.0f} vs crit {c22.kite_squish:.0f}."
+        f" Tank kite {t22.kite_tank:.0f} vs {a22.kite_tank:.0f} vs {c22.kite_tank:.0f}."
+        f" HP {t22.hp:.0f} vs ability {a22.hp:.0f} (Shojin is already on that path)."
+        f" Dive uptime {t22.uptime*100:.0f}% vs {a22.uptime*100:.0f}% vs {c22.uptime*100:.0f}%."
+    )
+    out.append(
+        f"    At 28:00 Serylda is {'in' if sery_at is not None and sery_at <= 28 else 'not finished'}"
+        f" and Shojin is {'in' if shoj_at is not None and shoj_at <= 28 else 'not finished'}."
+        f" Poke {t28.poke_squish:.0f} vs ability {a28.poke_squish:.0f} ({pct(t28.poke_squish, a28.poke_squish)})."
+        f" Kite-squishy {t28.kite_squish:.0f} vs ability {a28.kite_squish:.0f}"
+        f" vs crit {c28.kite_squish:.0f}. Tank kite {t28.kite_tank:.0f} vs {a28.kite_tank:.0f}"
+        f" vs {c28.kite_tank:.0f}. HP {t28.hp:.0f}, dive uptime {t28.uptime*100:.0f}%."
+    )
+    out.append(
+        f"    225 stacks arrive at {fmt_min(milestone(stacks[tri], 225)).strip()} on Trinity,"
+        f" {fmt_min(milestone(stacks[abil], 225)).strip()} on ability,"
+        f" {fmt_min(milestone(stacks[crit], 225)).strip()} on crit."
+        " Tear does not refund mana, so the cast rate stays under Essence Reaver."
+    )
+    squish = target_at("squish", 28)
+    tank = target_at("tank", 28)
+    kit = loadout_from(completed_names(BUILD_PATHS[tri]), 18, 250, 360)
+    abil_kit = loadout_from(completed_names(BUILD_PATHS[abil]), 18, 250)
+    kite_s = simulate_fight(kit, squish, "kite").total
+    kite_t = simulate_fight(kit, tank, "kite").total
+    poke = simulate_fight(kit, squish, "poke").total
+    abil_poke = simulate_fight(abil_kit, squish, "poke").total
+    uptime = survival(kit, 28)[1]
+    out.append(
+        f"    Finished, stacks pinned at 250: poke {poke:.0f} vs ability {abil_poke:.0f},"
+        f" kite-squishy {kite_s:.0f}, kite-tank {kite_t:.0f}, dive uptime {uptime*100:.0f}%."
+        " Essence Reaver's 25% crit still multiplies Q, and Cleaver shreds for the team."
+    )
+    out.append("    Take Trinity when you want the 09:00 spike and you are not going crit.")
+    out.append("    Take Essence Reaver → Cleaver when the game goes long or the team is AD.")
+    out.append("    Take crit when you can auto after Infinity Edge. This path never catches that kite.")
+    out.append("    Buy Shojin before Serylda when the dive is already landing. Pen does not add HP.")
     return out
 
 
@@ -1505,6 +1793,8 @@ def rows_to_json(timelines: Dict[str, List[MinuteRow]], stacks: Dict[str, List[f
             "ally_phys_amp_vs_tank": round(r.team_amp, 3),
             "equal_stack_kite_tank": round(r.equal_kite_tank, 1),
             "legendaries": r.legendaries,
+            "tear_bonus_mana": round(r.tear_bonus, 1),
+            "muramana": r.muramana,
         }
 
     builds = {}
@@ -1546,18 +1836,50 @@ def self_check() -> None:
     assert kit.er and not kit.sheen
     # Spellblade base and Q ratio stay in a human range at two items.
     assert 150 < q_hit_on(kit, target_at("squish", 16)) < 900
+    # Level 11 base AD is 81. Trinity spellblade is 200% of that.
+    tri_kit = loadout_from(["Trinity Force"], 11, 0)
+    assert abs(tri_kit.base_ad - 81.0) < 1e-9
+    assert abs(spellblade_damage(tri_kit) - 162.0) < 1e-9
+    assert tri_kit.trinity and not tri_kit.sheen
+    # Level 18, Muramana, 360 bonus mana: 300 + 680 + 1000 + 360 = 2340. Awe is 46.8.
+    mura = loadout_from(["Manamune"], 18, 0, tear_bonus=360)
+    assert mura.muramana
+    assert abs(mura.max_mana - 2340.0) < 1e-9
+    assert abs(mura.bonus_ad - (35.0 + 0.02 * 2340.0)) < 1e-9
+    half = loadout_from(["Manamune"], 18, 0, tear_bonus=200)
+    assert not half.muramana
+    assert abs(half.max_mana - (300.0 + 40.0 * 17 + 500.0 + 200.0)) < 1e-9
+    tri_path = BUILD_PATHS[TRI_NAME]
+    tear_line = tear_bonus_timeline(tri_path)
+    first_tear = first_tri = first_mana = first_mura = None
+    for m in range(0, GAME_MINUTES + 1):
+        names = resolve_inventory(tri_path, gold_at_minute(m))
+        if first_tear is None and any(n in names for n in ("Tear of the Goddess", "Manamune")):
+            first_tear = m
+        if first_tri is None and "Trinity Force" in names:
+            first_tri = m
+        if first_mana is None and "Manamune" in names:
+            first_mana = m
+        owned = loadout_from(names, level_at_minute(m), 0, tear_line[m])
+        if first_mura is None and owned.muramana:
+            first_mura = m
+    assert first_tear is not None and first_tri is not None and first_tear < first_tri
+    assert first_mana is not None and first_tri < first_mana
+    assert first_mura is not None and first_mura >= first_mana
+    assert tear_line[first_mura] >= 360
 
 
 def main() -> None:
     self_check()
     stacks = {name: stack_timeline(path) for name, path in BUILD_PATHS.items()}
+    tear_lines = {name: tear_bonus_timeline(path) for name, path in BUILD_PATHS.items()}
     # Equal-stack column pins everyone to the straight crit build's stacks.
     ref_stacks = stacks["Crit: ER → IE → RFC → LDR"]
     timelines: Dict[str, List[MinuteRow]] = {}
     for name in BUILD_PATHS:
         rows = []
         for m in range(0, GAME_MINUTES + 1):
-            rows.append(row_for(name, m, stacks[name][m], ref_stacks[m]))
+            rows.append(row_for(name, m, stacks[name][m], ref_stacks[m], tear_lines[name][m]))
         timelines[name] = rows
     report = build_report(timelines, stacks)
     out_dir = __file__.rsplit("/", 1)[0]
