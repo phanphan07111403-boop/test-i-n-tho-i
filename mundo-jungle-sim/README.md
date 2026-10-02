@@ -38,6 +38,21 @@ At 8:00 the Sunfire-first path is still on components: **1512** damage and **9.8
 
 Warmog and Mantle of the Twelfth Hour are the same spike at 16:00 (+33 damage, +0.2s for Warmog). Take Mantle when one burst rotation is what kills you. Finish Sunfire second only if fights are a pile of melees.
 
+## Runes
+
+| Slot | Rune |
+|------|------|
+| Keystone | **Grasp of the Undying** |
+| Resolve 1 | Unshakeable |
+| Resolve 2 | Second Wind |
+| Resolve 3 | **Overgrowth** |
+| Precision | Last Stand |
+| Spells | Flash + Smite |
+
+Grasp and Overgrowth are the health runes. Heartsteel, E, W, R, and the Smite burn all read bonus health. Second Wind covers the clear. Last Stand lines up with E, which already deals more when you are missing health.
+
+Swap Second Wind for Nullifying Orb when the enemy damage is mostly magic. Swap Last Stand for Legend: Haste when you want more Q and W casts. Demolish replaces Unshakeable only if you are hitting towers more than champions.
+
 ## Playstyle
 
 - Skill order: max **Q** (monster cap) → **E** (bonus HP) → **W** (heal). R at 6 / 11 / 15.

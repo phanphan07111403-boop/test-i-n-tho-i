@@ -134,6 +134,17 @@ VERDICT
     Buy Sunfire second only when the fights are stacked melees and the
     immolate is hitting more than one champion.
 
+  RUNES
+  Keystone: Grasp of the Undying.
+  Resolve: Unshakeable, Second Wind, Overgrowth.
+  Precision: Last Stand.
+  Spells: Flash + Smite.
+  Grasp and Overgrowth are the HP runes Heartsteel, E, W, R, and the
+  Smite burn all read. Second Wind is the clear sustain. Last Stand
+  matches E, which already hits harder when you are missing health.
+  Swap Second Wind for Nullifying Orb into heavy magic burst.
+  Swap Last Stand for Legend: Haste if you want more Q and W uptime.
+
   BUY ORDER
   1. Ruby Crystal.
   2. Giant's Belt → Kindlegem → Heartsteel. Do not stop for Bami's.
