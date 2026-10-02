@@ -1,0 +1,274 @@
+========================================================================================
+AP KOG'MAW — SPAM R  (PC LoL patch 26.19, Living Artillery from 26.16)
+Playstyle: Q shred, then R on cooldown. No W, no E. Window: 12s fight.
+R mana: 40 per shell + 40 per stack, cap 400. Stacks fall off after 8s.
+Score: 55% half-mana barrage (you were already spamming) + 45% full-mana siege.
+Inside a barrage: 62% tank / 38% squishy. Damage stops at the target's HP.
+The target stands in the shells. No heal, no shield, no sidestep. Real games are lower; the ranking is what survives that.
+Runes: Comet, Manaflow, Transcendence, Gathering Storm, Presence of Mind.
+========================================================================================
+
+GOLD / LEVEL / TARGETS / BASE MANA
+  Min    Gold  Lvl   Tank HP  Tank MR  Squish HP   Base MP
+    1     810    2       920       36        866       365
+    6    2470    7      1470       46       1476       565
+    8    3310    9      1850       50       1720       645
+   10    4150   11      2230       72       1964       725
+   12    5150   12      2500       91       2104       765
+   14    6150   13      2770      110       2244       805
+   16    7150   14      3040      129       2384       845
+   18    8230   15      3310      148       2524       885
+   20    9310   16      3580      167       2664       925
+   22   10390   17      3850      186       2804       965
+   24   11550   17      4010      203       2840       965
+   26   12710   18      4280      222       2980      1005
+   28   13870   18      4440      224       3016      1005
+
+----------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE BEST SPAM-R SCORE
+----------------------------------------------------------------------------------------
+   1:00 | score     210 | half-tank    208 (0R) | full-tank    208 (0R) | Luden → Malig → Horizon
+         (nothing)  |  components  |  mana 365
+   2:00 | score     288 | half-tank    285 (0R) | full-tank    285 (0R) | BF → Malig → Liandry
+         Fated Ashes  |  components  |  mana 430
+   4:00 | score     354 | half-tank    349 (0R) | full-tank    349 (0R) | BF → Malig → Liandry
+         Fated Ashes  |  components  |  mana 860
+   6:00 | score    1312 | half-tank   1159 (5R) | full-tank   1470 (7R) | Tear → Malig → Seraph
+         Tear of the Goddess › Blasting Wand › Lost Chapter  |  components  |  mana 1430
+   8:00 | score    1801 | half-tank   1850 (6R) | full-tank   1850 (6R) | Tear → Malig → Seraph
+         Tear of the Goddess › Malignance  |  Hatefog+UH  |  mana 2015
+   9:00 | score    1890 | half-tank   1822 (6R) | full-tank   2040 (8R) | Tear → Malig → Seraph
+         Tear of the Goddess › Malignance  |  Hatefog+UH  |  mana 2095
+  10:00 | score    2008 | half-tank   1874 (6R) | full-tank   2230 (8R) | Tear → Malig → Seraph
+         Tear of the Goddess › Malignance  |  Hatefog+UH  |  mana 2175
+  11:00 | score    2123 | half-tank   2126 (6R) | full-tank   2310 (7R) | Malig → Horizon → Void
+         Malignance › Sorcerer's Shoes › Fiendish Codex  |  Hatefog+UH  |  mana 1575
+  12:00 | score    2249 | half-tank   2205 (7R) | full-tank   2500 (9R) | Tear → Malig → Seraph
+         Tear of the Goddess › Malignance › Sorcerer's Shoes › Fiendish Codex  |  Hatefog+UH  |  mana 2215
+  14:00 | score    2308 | half-tank   2001 (7R) | full-tank   2770 (10R) | Tear → Malig → Seraph
+         Tear of the Goddess › Malignance › Sorcerer's Shoes › Fiendish Codex  |  Hatefog+UH  |  mana 2555
+  15:00 | score    2468 | half-tank   2384 (7R) | full-tank   2850 (9R) | Luden → Malig → Horizon
+         Luden's Echo › Sorcerer's Shoes › Malignance  |  Hatefog+UH, DOUBLE MANA  |  mana 2255
+  16:00 | score    2536 | half-tank   2293 (7R) | full-tank   3040 (10R) | Luden → Malig → Horizon
+         Luden's Echo › Sorcerer's Shoes › Malignance  |  Hatefog+UH, DOUBLE MANA  |  mana 2295
+  18:00 | score    2645 | half-tank   2353 (6R) | full-tank   3166 (8R) | Malig → Void → Liandry
+         Malignance › Sorcerer's Shoes › Void Staff › Fated Ashes  |  Hatefog+UH, %pen  |  mana 1735
+  20:00 | score    3156 | half-tank   3357 (9R) | full-tank   3580 (10R) | Luden → Malig → Horizon
+         Luden's Echo › Sorcerer's Shoes › Malignance › Horizon Focus  |  Hatefog+UH, Horizon, DOUBLE MANA  |  mana 2375
+  21:00 | score    3173 | half-tank   3322 (7R) | full-tank   3660 (9R) | Malig → Horizon → Void
+         Malignance › Sorcerer's Shoes › Horizon Focus › Void Staff  |  Hatefog+UH, %pen, Horizon  |  mana 1775
+  22:00 | score    3389 | half-tank   3663 (8R) | full-tank   3850 (9R) | Malig → Horizon → Void
+         Malignance › Sorcerer's Shoes › Horizon Focus › Void Staff  |  Hatefog+UH, %pen, Horizon  |  mana 1815
+  24:00 | score    3504 | half-tank   3831 (8R) | full-tank   4010 (9R) | Malig → Horizon → Void
+         Malignance › Sorcerer's Shoes › Horizon Focus › Void Staff › Needlessly Large Rod  |  Hatefog+UH, %pen, Horizon  |  mana 1815
+  26:00 | score    3786 | half-tank   4280 (9R) | full-tank   4280 (10R) | Luden → Malig → Horizon
+         Luden's Echo › Sorcerer's Shoes › Malignance › Horizon Focus › Void Staff  |  Hatefog+UH, %pen, Horizon, DOUBLE MANA  |  mana 2455
+  28:00 | score    3899 | half-tank   4440 (8R) | full-tank   4440 (9R) | Malig → Horizon → Void
+         Malignance › Sorcerer's Shoes › Horizon Focus › Void Staff › Rabadon's Deathcap  |  Hatefog+UH, %pen, Horizon  |  mana 1855
+
+----------------------------------------------------------------------------------------
+BUILD COMPARISON — 12s BARRAGE
+half = start at 50% mana (spam). full = start at 100% mana (reset siege).
+----------------------------------------------------------------------------------------
+  Build                              Avg    ½T22   ½R    FT22   FR  Mana22   Cap   Kill
+  Malig → Horizon → Void            2698    3663    8    3850    9    1815   160    12s
+  Luden → Malig → Horizon           2683    3317    9    3594   10    2415   200    12s
+  Malig → Void → Liandry            2662    3186    7    3792    9    1815   160    12s
+  Malig → SF → Horizon              2611    3007    8    3274    9    1815   200    12s
+  Malig → Liandry → Void            2604    3186    7    3792    9    1815   160    12s
+  Tear → Malig → Seraph             2584    2265    8    3472   11    2815   200    13s
+  Malig → Lucidity → Seraph         2563    2263    8    3497   11    2815   200    13s
+  Malig → Liandry → Horizon         2549    2984    8    3221    9    1815   200    12s
+  BF → Malig → Liandry              2546    2563    8    3097   10    2415   200    13s
+  Malig → Liandry → Seraph          2510    2459    8    3371   11    2615   240    14s
+  Luden → Horizon → Void            2501    2988    7    3589    9    1815   160    12s
+  Malig → Actualizer → Horizon      2496    2392    7    3019    9    2115   200    13s
+  Malig → Liandry → Cap             2470    2790    7    3210    9    1815   200    13s
+
+----------------------------------------------------------------------------------------
+22:00 DETAIL  (tank / squishy, half mana then full mana)
+----------------------------------------------------------------------------------------
+  Malig → Horizon → Void         AP    284  AH   50  UH  20  R cd 0.56s  mana 1815
+    half  tank 3663 (95%)             squish 2804 (100% KILL 2.4s)
+    full  tank 3850 (100%)            squish 2804 (100% KILL 2.4s)
+    items: Malignance › Sorcerer's Shoes › Horizon Focus › Void Staff
+  Luden → Malig → Horizon        AP    334  AH   60  UH  20  R cd 0.52s  mana 2415
+    half  tank 3317 (86%)             squish 2804 (100% KILL 2.2s)
+    full  tank 3594 (93%)             squish 2804 (100% KILL 2.2s)
+    items: Luden's Echo › Sorcerer's Shoes › Malignance › Horizon Focus › Blasting Wand
+  Malig → Void → Liandry         AP    269  AH   25  UH  20  R cd 0.67s  mana 1815
+    half  tank 3186 (83%)             squish 2804 (100% KILL 2.8s)
+    full  tank 3792 (98%)             squish 2804 (100% KILL 2.8s)
+    items: Malignance › Sorcerer's Shoes › Void Staff › Liandry's Torment
+  Malig → SF → Horizon           AP    299  AH   50  UH  20  R cd 0.56s  mana 1815
+    half  tank 3007 (78%)             squish 2804 (100% KILL 2.4s)
+    full  tank 3274 (85%)             squish 2804 (100% KILL 2.4s)
+    items: Malignance › Sorcerer's Shoes › Shadowflame › Horizon Focus
+  Malig → Liandry → Void         AP    269  AH   25  UH  20  R cd 0.67s  mana 1815
+    half  tank 3186 (83%)             squish 2804 (100% KILL 2.8s)
+    full  tank 3792 (98%)             squish 2804 (100% KILL 2.8s)
+    items: Malignance › Sorcerer's Shoes › Liandry's Torment › Void Staff
+  Tear → Malig → Seraph          AP    281  AH   50  UH  20  R cd 0.56s  mana 2815
+    half  tank 2265 (59%)             squish 2804 (100% KILL 3.0s)
+    full  tank 3472 (90%)             squish 2804 (100% KILL 3.0s)
+    items: Malignance › Sorcerer's Shoes › Seraph's Embrace › Liandry's Torment
+  Malig → Lucidity → Seraph      AP    326  AH   60  UH  20  R cd 0.52s  mana 2815
+    half  tank 2263 (59%)             squish 2804 (100% KILL 2.9s)
+    full  tank 3497 (91%)             squish 2804 (100% KILL 2.9s)
+    items: Malignance › Ionian Boots of Lucidity › Seraph's Embrace › Liandry's Torment › Blasting Wand
+  Malig → Liandry → Horizon      AP    294  AH   50  UH  20  R cd 0.56s  mana 1815
+    half  tank 2984 (78%)             squish 2804 (100% KILL 3.0s)
+    full  tank 3221 (84%)             squish 2804 (100% KILL 3.0s)
+    items: Malignance › Sorcerer's Shoes › Liandry's Torment › Horizon Focus › Blasting Wand
+  BF → Malig → Liandry           AP    264  AH   45  UH  20  R cd 0.57s  mana 2415
+    half  tank 2563 (67%)             squish 2804 (100% KILL 3.0s)
+    full  tank 3097 (80%)             squish 2804 (100% KILL 3.0s)
+    items: Blackfire Torch › Sorcerer's Shoes › Malignance › Liandry's Torment
+  Malig → Liandry → Seraph       AP    260  AH   50  UH  20  R cd 0.56s  mana 2615
+    half  tank 2459 (64%)             squish 2804 (100% KILL 3.0s)
+    full  tank 3371 (88%)             squish 2804 (100% KILL 3.0s)
+    items: Malignance › Sorcerer's Shoes › Liandry's Torment › Archangel's Staff
+  Luden → Horizon → Void         AP    294  AH   45  UH   0  R cd 0.69s  mana 1815
+    half  tank 2988 (78%)             squish 2804 (100% KILL 2.8s)
+    full  tank 3589 (93%)             squish 2804 (100% KILL 2.8s)
+    items: Luden's Echo › Sorcerer's Shoes › Horizon Focus › Void Staff
+  Malig → Actualizer → Horizon   AP    324  AH   60  UH  20  R cd 0.52s  mana 2115
+    half  tank 2392 (62%)             squish 2804 (100% KILL 2.7s)
+    full  tank 3019 (78%)             squish 2804 (100% KILL 2.7s)
+    items: Malignance › Sorcerer's Shoes › Actualizer › Horizon Focus › Blasting Wand
+  Malig → Liandry → Cap          AP    395  AH   25  UH  20  R cd 0.67s  mana 1815
+    half  tank 2790 (72%)             squish 2804 (100% KILL 2.8s)
+    full  tank 3210 (83%)             squish 2804 (100% KILL 2.8s)
+    items: Malignance › Sorcerer's Shoes › Liandry's Torment › Rabadon's Deathcap
+
+----------------------------------------------------------------------------------------
+SHOT TRACE @ 22:00 vs TANK, FULL MANA  (cost climbs; damage does not)
+----------------------------------------------------------------------------------------
+  Malig → Horizon → Void  —  9 shells, 3850 dmg, mana left 16
+    #1  t= 0.0s  cost   40  dealt    224  ( 560 dmg/100 mana)  tank HP left  84.1%
+    #2  t= 0.6s  cost   80  dealt    244  ( 305 dmg/100 mana)  tank HP left  77.0%
+    #3  t= 1.2s  cost  120  dealt    262  ( 219 dmg/100 mana)  tank HP left  69.4%
+    #4  t= 1.8s  cost  160  dealt    276  ( 173 dmg/100 mana)  tank HP left  61.4%
+    #5  t= 2.4s  cost  200  dealt    296  ( 148 dmg/100 mana)  tank HP left  52.8%
+    #6  t= 3.0s  cost  240  dealt    312  ( 130 dmg/100 mana)  tank HP left  43.9%
+    #7  t= 3.6s  cost  280  dealt    335  ( 120 dmg/100 mana)  tank HP left  34.3%
+    #8  t= 4.2s  cost  320  dealt    371  ( 116 dmg/100 mana)  tank HP left  23.9%
+    #9  t= 5.0s  cost  360  dealt    455  ( 126 dmg/100 mana)  tank HP left   3.0%
+    half mana — 8 shells, 3663 dmg, mana left 25  (costs [40, 80, 120, 160, 200, 240, 40, 80])
+  Malig → Liandry → Void  —  9 shells, 3792 dmg, mana left 53
+    #1  t= 0.0s  cost   40  dealt    197  ( 494 dmg/100 mana)  tank HP left  86.0%
+    #2  t= 0.7s  cost   80  dealt    216  ( 270 dmg/100 mana)  tank HP left  78.6%
+    #3  t= 1.4s  cost  120  dealt    232  ( 193 dmg/100 mana)  tank HP left  70.8%
+    #4  t= 2.1s  cost  160  dealt    250  ( 156 dmg/100 mana)  tank HP left  62.6%
+    #5  t= 2.8s  cost  200  dealt    263  ( 132 dmg/100 mana)  tank HP left  54.0%
+    #6  t= 3.5s  cost  240  dealt    283  ( 118 dmg/100 mana)  tank HP left  44.8%
+    #7  t= 4.2s  cost  280  dealt    243  (  87 dmg/100 mana)  tank HP left  36.7%
+    #8  t= 4.9s  cost  320  dealt    330  ( 103 dmg/100 mana)  tank HP left  26.6%
+    #9  t= 5.6s  cost  360  dealt    330  (  92 dmg/100 mana)  tank HP left  16.6%
+  Tear → Malig → Seraph  —  11 shells, 3472 dmg, mana left 265
+    #1  t= 0.0s  cost   40  dealt    151  ( 377 dmg/100 mana)  tank HP left  89.4%
+    #2  t= 0.6s  cost   80  dealt    165  ( 206 dmg/100 mana)  tank HP left  83.9%
+    #3  t= 1.2s  cost  120  dealt    175  ( 146 dmg/100 mana)  tank HP left  78.2%
+    #4  t= 1.8s  cost  160  dealt    182  ( 114 dmg/100 mana)  tank HP left  72.3%
+    #5  t= 2.4s  cost  200  dealt    193  (  97 dmg/100 mana)  tank HP left  66.1%
+    #6  t= 3.0s  cost  240  dealt    202  (  84 dmg/100 mana)  tank HP left  59.7%
+    #7  t= 3.6s  cost  280  dealt    214  (  76 dmg/100 mana)  tank HP left  52.9%
+    #8  t= 4.2s  cost  320  dealt    173  (  54 dmg/100 mana)  tank HP left  47.3%
+    #9  t= 4.8s  cost  360  dealt    237  (  66 dmg/100 mana)  tank HP left  34.8%
+    #10 t= 5.4s  cost  400  dealt    318  (  79 dmg/100 mana)  tank HP left  25.3%
+    #11 t= 6.0s  cost  400  dealt    318  (  79 dmg/100 mana)  tank HP left  15.8%
+  Malig → Actualizer → Horizon  —  9 shells, 3019 dmg, mana left 357
+    #1  t= 0.0s  cost   40  dealt    178  ( 446 dmg/100 mana)  tank HP left  87.5%
+    #2  t= 0.6s  cost   80  dealt    194  ( 243 dmg/100 mana)  tank HP left  81.8%
+    #3  t= 1.1s  cost  120  dealt    207  ( 172 dmg/100 mana)  tank HP left  75.9%
+    #4  t= 1.6s  cost  160  dealt    216  ( 135 dmg/100 mana)  tank HP left  69.7%
+    #5  t= 2.2s  cost  200  dealt    229  ( 115 dmg/100 mana)  tank HP left  63.1%
+    #6  t= 2.8s  cost  240  dealt    239  ( 100 dmg/100 mana)  tank HP left  56.3%
+    #7  t= 3.3s  cost  280  dealt    254  (  91 dmg/100 mana)  tank HP left  49.1%
+    #8  t= 3.9s  cost  320  dealt    266  (  83 dmg/100 mana)  tank HP left  41.5%
+    #9  t= 4.4s  cost  360  dealt    372  ( 103 dmg/100 mana)  tank HP left  25.0%
+
+----------------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------------
+  Best spam-R path: Malig → Horizon → Void
+  Average score from 8:00: 2698
+  At 22:00, half mana: 8 shells, tank 3663 / 3850 (95%), squish 2804 KILL 2.4s
+  At 22:00, full mana: 9 shells, tank 3850 (100%), squish 2804 KILL 2.4s
+  Mana pool @ 22: 1815   R cooldown: 0.56s
+  Malignance:  ~7:00
+  Horizon:     ~15:00
+  Liandry:     not in this path
+  Void:        ~21:00
+  Seraph:      not in this path
+
+  Same minute, half-mana tank barrage:
+    Malig → Liandry → Void             3186  (7R, mana 1815)   -476 vs winner
+    Tear → Malig → Seraph              2265  (8R, mana 2815)   -1398 vs winner
+    Luden → Malig → Horizon            3317  (9R, mana 2415)   -345 vs winner
+    Malig → Actualizer → Horizon       2392  (7R, mana 2115)   -1271 vs winner
+    Luden → Horizon → Void             2988  (7R, mana 1815)   -675 vs winner
+    Malig → SF → Horizon               3007  (8R, mana 1815)   -655 vs winner
+
+  HOW TO PRESS R  (22:00, tank stands still, start at 80% mana)
+  Stop the chain when the next shell would cost more than the cap,
+  then let the 8s stack timer fall and fire the cheap shells again.
+    cap  80 (2 shells)  kill 18.0s      6R  mana left  1135
+    cap 120 (3 shells)  kill 18.6s      7R  mana left   982
+    cap 160 (4 shells)  kill 11.7s      8R  mana left   671  ← pick
+    cap 200 (5 shells)  kill 11.7s      8R  mana left   634
+    cap 240 (6 shells)  kill 11.7s      8R  mana left   519
+    cap 320 (8 shells)  kill 12.3s      9R  mana left    53
+    cap 400 (10 shells)  kill 12.3s      9R  mana left    53
+  • Fastest pattern: 4 shells, then reset (kill 11.7s, 8 shells total).
+  • Dumping until the shell costs 400 kills at 12.3s and leaves 53 mana. It is not faster.
+  • Costs: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400.
+    Shot 1 is ~3–5× the damage per mana of shot 6. Raw damage barely moves
+    until the target is under 40% HP, where the shell doubles.
+  • On a half bar the chain dies, the stacks fall off, and the next
+    shells are cheap again. That second volley is the spam. Don't hold
+    the button through 300 mana waiting for it.
+  • Q first. Rank 5 shreds 32% resistances for 4 seconds. Spam R maxes
+    Q, not W. W is the other build (hide and auto).
+
+  WHY THIS SHAPE
+  • Finished builds all kill the squishy in ~2–3s. The tank is the choice.
+  • Malignance first (~7:00): 20 ultimate haste, 600 mana, Hatefog
+    (60 + 5% AP per second, refreshed by the next R, 10 MR shred).
+  • Horizon second beats Liandry second on a half bar at 22:00: 3663 vs 3186.
+    Horizon is +25 AH (another shell) and 10% damage on the long-range hit.
+    Liandry is 2% max HP per second. The chain does not last long enough
+    for the burn to pass the extra shell plus the amp. Buy Liandry when
+    fights are long and the tank is healing; this pattern is not that.
+  • Tear into Seraph has the mana (2815) and the shells (11 on a full bar) and still loses the half-mana tank (2265).
+    The extra shells show up late, without Void. Pen on 8 shells beats
+    a 9th and 10th shell into uncut MR.
+  • Actualizer is a trap here (2392 half-tank). The active doubles costs for 8s.
+    R's cost is already climbing. Leave the active unpressed and the
+    item is just a small Lost Chapter legendary.
+  • Luden into Malignance is the close second (3317 half-tank). Echo is one proc.
+    The second Lost Chapter item delays Void. One mana item is enough.
+  • Ionian Boots are 10 AH. 12 magic pen from Sorcs is the boot.
+
+  BUY ORDER (winner's completion times):
+  1) Doran's Ring start (lane item; not in the damage model).
+  2) Malignance               ~7:00
+  3) Sorcerer's Shoes         ~10:00
+  4) Horizon Focus            ~15:00
+  5) Void Staff               ~21:00
+  6) Rabadon's Deathcap       ~27:00
+
+  Skill: R > Q > E > W. R at 6/11/16. Max Q.
+  Lane: Q, then 4 shells, step back until the stack timer drops, repeat.
+  Same target the whole chain so Hatefog stays under them.
+  Do not walk into W range.
+========================================================================================
+
+TÓM TẮT
+  Build spam R: Malig → Horizon → Void
+  Phút 22, nửa thanh mana: 8 phát R, tank chịu 3663 / 3850 HP.
+  Cách bắn: 4 phát (dừng khi phát kế tốn hơn 160 mana), chờ stack rơi 8 giây, bắn tiếp.
+  Bắn đến 400 mana không giết nhanh hơn, mà hết mana.
+  Max Q (32% shred), không max W. Malignance → Horizon → Void.
+  Đừng mua Actualizer. Đừng mua 2 món Lost Chapter. Đừng rush Tear.
+  Sorc hơn Ionian. Mục tiêu đứng yên trong sim; trận thật thấp hơn, thứ tự build giữ nguyên.
