@@ -1,0 +1,361 @@
+==============================================================================
+KOG'MAW — RUNAAN vs GUINSOO AS THE ITEM AFTER BoRK + GREAVES
+Wild Rift patch 7.3 | Dragon lane | W window = 8s | even gold, not fed
+==============================================================================
+
+PATHS (same gold, fork after Berserker's Greaves)
+  Guinsoo 2nd: BoRK → Greaves → Guinsoo's Rageblade → Runaan's Hurricane
+  Runaan 2nd:  BoRK → Greaves → Runaan's Hurricane → Guinsoo's Rageblade
+
+GOLD / LEVEL
+  Min    Gold  Lvl
+    1     930    1
+    2    1360    3
+    3    1790    4
+    4    2220    5
+    5    2650    6
+    6    3210    7
+    7    3770    8
+    8    4330    8
+    9    4890    9
+   10    5450   10
+   11    6010   11
+   12    6690   12
+   13    7370   12
+   14    8050   13
+   15    8730   13
+   16    9410   14
+   17   10090   14
+   18   10770   15
+
+  Paths match until 10:00. Runaan completes 12:00. Guinsoo completes 13:00. Both items owned 17:00.
+  Runaan is 2650g. Guinsoo is 3000g. The gap is 350g, about one wave.
+
+------------------------------------------------------------------------------
+W WINDOW — TANK TIME-TO-KILL, 3-CHAMPION HP REMOVED, WAVE CLEAR
+Tank ttk is solo frontliner. Fight is tank + bruiser + squishy standing in bolt range.
+Both paths share BoRK + Greaves; the label is only the items after that.
+------------------------------------------------------------------------------
+  Min  Guinsoo path                ttk   Fight   Wave  Runaan path                 ttk   Fight   Wave
+    1  Sword                     lives     505  lives  Sword                     lives     505  lives
+    2  Vamp                      lives     686  lives  Vamp                      lives     686  lives
+    3  Dagger + Vamp             lives     968  lives  Dagger + Vamp             lives     968  lives
+    4  Vamp + Recurve            lives    1068  lives  Vamp + Recurve            lives    1068  lives
+    5  Sword + Vamp + Recurve    lives    1411  lives  Sword + Vamp + Recurve    lives    1411  lives
+    6  BoRK                      lives    2206  lives  BoRK                      lives    2206  lives
+    7  BoRK                      lives    2354  lives  BoRK                      lives    2354  lives
+    8  BoRK + Greaves             8.1s    2620  lives  BoRK + Greaves             8.1s    2620  lives
+    9  Dagger                     8.2s    2840  lives  Dagger                     8.2s    2840  lives
+   10  Sword + Recurve            7.2s    3542  12.0s  Zeal                       7.9s    3300  12.3s
+   11  Recurve + Pickaxe          7.0s    3780  11.7s  Dagger + Zeal              7.4s    3765  11.4s
+   12  Tome + Recurve + Pickaxe   7.3s    4291  11.3s  Runaan                     6.9s    8292   5.0s
+   13  Guinsoo                    5.7s    5679   8.6s  Dagger + Runaan            7.1s    8463   4.8s
+   14  Dagger + Gloves + Guins…   5.5s    6379   8.2s  Sword + Recurve + Runaan   6.4s    8964   4.2s
+   15  Zeal + Guinsoo             5.4s    6494   8.1s  Recurve + Pickaxe + Run…   6.8s    9135   4.2s
+   16  Zeal + Kircheis + Guins…   5.1s    6951   7.5s  Tome + Recurve + Pickax…   6.8s    9636   4.1s
+   17  Guinsoo + Runaan           5.0s    9807   3.4s  Guinsoo + Runaan           5.0s    9807   3.4s
+   18  Guinsoo + Runaan           5.0s   10308   3.3s  Guinsoo + Runaan           5.0s   10308   3.3s
+
+------------------------------------------------------------------------------
+SPIKE — RUNAAN COMPLETES, GUINSOO IS STILL COMPONENTS  (12:00, 6690g, level 12, Q5/W4)
+------------------------------------------------------------------------------
+  Guinsoo path: Tome + Recurve + Pickaxe + BoRK + Greaves
+  Runaan path:  BoRK + Greaves + Runaan
+  Window              Guinsoo     Runaan  Runaan vs G
+  Tank ttk               7.3s       6.9s     -6% time
+  Tank dmg in 4s         2312       2478          +7%
+  Tank, W down           2824       2925          +4%
+  Squishy ttk            4.0s       4.2s     +5% time
+  3-hit trade            1000        967          -3%
+  3 nearby HP            4291       8292         +93%
+  wipe                  lives       7.8s
+  Dragon in 8s           3432       3569          +4%
+  Wave clear            11.3s       5.0s    -56% time
+  Heal, solo tank / 3-champion fight: Guinsoo 550 / 643 | Runaan 551 / 1416
+  In the 3-champion fight the tank falls at 7.3s (Guinsoo path) / 6.9s (Runaan path).
+  Solo-tank sources (Guinsoo path / Runaan path):
+    auto            952      1049
+    w              1360      1344
+    bork            701       721
+    recurve          94         0
+    q               167       156
+    brutal           57        47
+    lt              168       182
+
+------------------------------------------------------------------------------
+SPIKE — GUINSOO COMPLETES, RUNAAN PATH HAS HURRICANE ONLY  (13:00, 7370g, level 12, Q5/W4)
+------------------------------------------------------------------------------
+  Guinsoo path: BoRK + Greaves + Guinsoo
+  Runaan path:  Dagger + BoRK + Greaves + Runaan
+  Window              Guinsoo     Runaan  Runaan vs G
+  Tank ttk               5.7s       7.1s    +23% time
+  Tank dmg in 4s         2885       2484         -14%
+  Tank, W down           3508       3037         -13%
+  Squishy ttk            3.2s       4.1s    +26% time
+  3-hit trade            1072        964         -10%
+  3 nearby HP            5679       8463         +49%
+  wipe                  lives       7.5s
+  Dragon in 8s           4495       3740         -17%
+  Wave clear             8.6s       4.8s    -44% time
+  Heal, solo tank / 3-champion fight: Guinsoo 561 / 869 | Runaan 573 / 1457
+  In the 3-champion fight the tank falls at 5.7s (Guinsoo path) / 7.1s (Runaan path).
+  Solo-tank sources (Guinsoo path / Runaan path):
+    auto            874      1082
+    w              1436      1377
+    bork            689       743
+    wrath           242         0
+    q               170       154
+    brutal           54        48
+    lt              130       191
+    phantom_procs        2         0
+
+------------------------------------------------------------------------------
+MID FORK — EACH BUILD OWNS ITS ITEM, NOT THE OTHER  (15:00, 8730g, level 13, Q5/W4)
+------------------------------------------------------------------------------
+  Guinsoo path: Zeal + BoRK + Greaves + Guinsoo
+  Runaan path:  Recurve + Pickaxe + BoRK + Greaves + Runaan
+  Window              Guinsoo     Runaan  Runaan vs G
+  Tank ttk               5.4s       6.8s    +26% time
+  Tank dmg in 4s         3459       2938         -15%
+  Tank, W down           3875       3330         -14%
+  Squishy ttk            3.0s       3.5s    +15% time
+  3-hit trade            1122       1041          -7%
+  3 nearby HP            6494       9135         +41%
+  wipe                  lives       7.3s
+  Dragon in 8s           4842       4233         -13%
+  Wave clear             8.1s       4.2s    -48% time
+  Heal, solo tank / 3-champion fight: Guinsoo 600 / 988 | Runaan 611 / 1540
+  In the 3-champion fight the tank falls at 5.4s (Guinsoo path) / 6.8s (Runaan path).
+  Solo-tank sources (Guinsoo path / Runaan path):
+    auto           1022      1197
+    w              1550      1459
+    bork            740       772
+    wrath           240         0
+    recurve           0        89
+    q               164       149
+    brutal           51        51
+    lt              142       194
+    phantom_procs        2         0
+
+------------------------------------------------------------------------------
+BOTH ITEMS FINISHED — ORDER NO LONGER MATTERS  (17:00, 10090g, level 14, Q5/W4)
+------------------------------------------------------------------------------
+  Guinsoo path: BoRK + Greaves + Guinsoo + Runaan
+  Runaan path:  BoRK + Greaves + Guinsoo + Runaan
+  Window              Guinsoo     Runaan  Runaan vs G
+  Tank ttk               5.0s       5.0s     +0% time
+  Tank dmg in 4s         3869       3869          +0%
+  Tank, W down           4225       4225          +0%
+  Squishy ttk            3.2s       3.2s     +0% time
+  3-hit trade            1158       1158          +0%
+  3 nearby HP            9807       9807          +0%
+  wipe                   6.1s       6.1s
+  Dragon in 8s           5492       5492          +0%
+  Wave clear             3.4s       3.4s     +0% time
+  Heal, solo tank / 3-champion fight: Guinsoo 638 / 1608 | Runaan 638 / 1608
+  In the 3-champion fight the tank falls at 5.0s (Guinsoo path) / 5.0s (Runaan path).
+  Solo-tank sources (Guinsoo path / Runaan path):
+    auto           1109      1109
+    w              1691      1691
+    bork            798       798
+    wrath           235       235
+    q               159       159
+    brutal           53        53
+    lt              180       180
+    phantom_procs        2         2
+
+------------------------------------------------------------------------------
+ITEM VS ITEM — BoRK + GREAVES + ONE LEGENDARY, NOTHING ELSE (13:00 targets)
+No component of the other item. This is the raw second-item choice.
+------------------------------------------------------------------------------
+  Window              Guinsoo     Runaan  Runaan vs G
+  Tank ttk               5.7s       7.3s    +28% time
+  Tank dmg in 4s         2885       2482         -14%
+  Tank, W down           3508       2913         -17%
+  Squishy ttk            3.2s       4.2s    +31% time
+  3-hit trade            1072        964         -10%
+  3 nearby HP            5679       8463         +49%
+  Dragon in 8s           4495       3533         -21%
+  Wave clear             8.6s       5.0s    -41% time
+  3-champion wipe: lives vs 7.8s. Tank falls at 5.7s vs 7.3s.
+  Heal in that fight: Guinsoo 869 | Runaan 1457. Phantom procs on the solo tank: 2.
+
+------------------------------------------------------------------------------
+VERDICT — 13:00 TO 16:00, EACH PATH OWNS ITS ITEM AND NOT THE OTHER
+------------------------------------------------------------------------------
+  Avg solo-tank ttk:   Guinsoo 5.4s | Runaan 6.8s (+25% time on the Runaan path)
+  Avg tank dmg in 4s:  Guinsoo 3392 | Runaan 2847 (-16% if you bought Runaan)
+  3-champion HP sum:   Guinsoo 25502 | Runaan 36198 (+42% if you bought Runaan)
+  Avg dragon damage:   Guinsoo 4873 | Runaan 4102 (-16% if you bought Runaan)
+  Avg wave-clear time: Guinsoo 8.1s | Runaan 4.3s (-46% time)
+
+  WHAT EACH SECOND ITEM ACTUALLY CHANGES
+  • Guinsoo is the single-target item. After four attacks, Seething Strike is
+    +32% attack speed and every 3rd attack repeats W, BoRK, and the 30 magic
+    on-hit. W reads max HP, so the repeat still hurts a tank that is already low.
+    The 30 AP is a small W/Q bump, not the reason to buy it.
+  • Runaan does not add a second hit on the champion you clicked. It adds two
+    bolts. Each bolt is 55% AD, can crit, and applies W and BoRK at full value
+    to whoever is standing beside the target. On a solo frontliner the bolts
+    hit nothing. In a clump or a wave they are the item.
+  • The physical auto is close either way. Runaan's 25% crit at 200% damage
+    covers most of Guinsoo's extra 35 AD. The split is Phantom Hit vs splash.
+  • Solo-tank healing is almost the same. In the 3-champion fight Runaan
+    heals roughly two thirds more, because each bolt procs lifesteal and the
+    Greaves on-hit. That is extra time alive, not extra damage on the tank.
+  • A 3-auto trade never reaches Phantom Hit. Finished Guinsoo still wins that
+    trade on AD plus the 30 magic on-hit, by a small margin. The large tank
+    gap shows up across the full Barrage, not in one lane trade.
+  • Dragon caps W at 100 and caps BoRK at 100. Phantom Hit still raises
+    objective damage, just not as a percent-health melter. Waves do not care
+    about that cap: Runaan hits three minions per auto, Guinsoo hits one.
+  • Capped kill damage hides this. Once both builds kill the tank inside 8s,
+    total HP removed matches. Time-to-kill and the first 4 seconds do not.
+  • At 17:00 both items are owned and the paths deal the same damage. Runaan
+    second spends 2650 and comes online one wave earlier. Guinsoo second spends
+    3000 and is the tank/dragon item for the four minutes after that.
+
+  BUY
+  • Guinsoo's second when one champion is the win condition: the tank you
+    have to cut through, or the dragon you have to burn. You kill that target
+    faster inside the same Barrage. You do not wipe the people beside him,
+    and the wave takes most of W plus a little more.
+  • Runaan's second when they stand on top of each other or you need to shove
+    and move. The clumped fight actually ends. The wave dies inside one W.
+    The solo tank still dies during Barrage, about a second and a half later.
+  • Either way the other item is next. Order stops mattering the moment both
+    are finished. Crit on Runaan does not replace Phantom Hit on a lone tank.
+
+------------------------------------------------------------------------------
+FIRST ITEM — RUSH BoRK (3100) vs RUSH GUINSOO (3000)
+Then Berserker's Greaves, then the other legendary. Long Sword start on both.
+Duel and the 3-hit trade are the enemy carry. Tank is a frontliner. Heal is from the duel.
+------------------------------------------------------------------------------
+  Min  BoRK rush                      Duel  Trade   Tank  Heal   Wave  Guinsoo rush                   Duel  Trade   Tank  Heal   Wave
+    3  Dagger + Vamp                 lives    325  lives    71  lives  Recurve + Pickaxe              8.4s    372  lives     0  lives
+    4  Vamp + Recurve                lives    367  lives    82  lives  Tome + Recurve + Pickaxe       8.2s    403  lives     0  lives
+    5  Sword + Vamp + Recurve         7.9s    434  lives    98  lives  Tome + Recurve + Pickaxe       7.9s    442  lives     0  lives
+    6  BoRK                           6.6s    642  lives   170  lives  Guinsoo                        6.0s    570   8.4s     0  lives
+    7  Boots + BoRK                   6.3s    703  lives   181  lives  Boots + Guinsoo                5.7s    623   8.0s     0  14.0s
+    8  BoRK + Greaves                 5.3s    705   8.1s   274  lives  Greaves + Guinsoo              4.9s    622   7.4s   100  12.8s
+    9  Dagger + BoRK + Greaves        5.0s    728   8.2s   289  lives  Sword + Greaves + Guinsoo      4.9s    659   7.3s   100  12.1s
+   10  Sword + Recurve + BoRK + Gr…   4.7s    842   7.2s   300  12.0s  Vamp + Greaves + Guinsoo       4.7s    719   7.1s   238  11.7s
+   11  Recurve + Pickaxe + BoRK + …   4.6s    921   7.0s   310  11.7s  Vamp + Recurve + Greaves + …   4.3s    804   6.9s   245  10.6s
+   12  Tome + Recurve + Pickaxe + …   4.0s   1004   7.3s   310  11.3s  Sword + Vamp + Recurve + Gr…   3.8s    887   6.8s   242  10.3s
+   13  BoRK + Greaves + Guinsoo       3.2s   1085   5.7s   312   8.6s  BoRK + Greaves + Guinsoo       3.2s   1085   5.7s   312   8.6s
+
+  BoRK completes 6:00. Guinsoo completes 6:00. Both legendaries on both paths: 13:00.
+  At the shared spike (6:00, level 7):
+    Lane all-in:     BoRK 6.6s | Guinsoo 6.0s
+    3-hit trade:     BoRK 642 | Guinsoo 570
+    Frontliner:      BoRK lives | Guinsoo 8.4s
+    Heal in the duel: BoRK 170 | Guinsoo 0
+    Wave / dragon:   BoRK lives / lives | Guinsoo lives / lives
+  At 13:00 both paths hold BoRK + Greaves + Guinsoo and the rows match.
+
+  PROS — RUSH BoRK
+  • Vampiric Scepter is in the build path, so lane healing starts before the
+    item exists. Finished BoRK is 12% lifesteal. Guinsoo has none until later.
+  • The 7% current-health hit is immediate. A 3-auto trade does not need stacks.
+  • Three hits also slow the target by 30% for 1.5s. That is stick and kite,
+    and it is not in the damage numbers above.
+  • The combine is 200g after a 300g Pickaxe. Guinsoo's last payment is 800g,
+    so a short recall can finish BoRK and cannot finish Guinsoo. On this
+    gold curve both still complete at the same minute.
+  CONS — RUSH BoRK
+  • Current-health damage shrinks as the target drops. A long fight into a
+    tank gets less from the passive than Guinsoo's repeat of max-health Barrage.
+  • No attack-speed steroid and no Phantom Hit. Extended all-ins ramp slower.
+
+  PROS — RUSH GUINSOO
+  • 100g cheaper. Recurve + Pickaxe + Tome, before the combine, already wins
+    the lane all-in against Vamp + Recurve. Phantom Hit then repeats Barrage
+    (max health, so it keeps working on a low tank) and Seething Strike adds
+    up to 32% attack speed in a long fight.
+  • 30 AP adds a little to Barrage and Caustic Spittle.
+  CONS — RUSH GUINSOO
+  • No lifesteal at all until BoRK is the second legendary. You lose the lane
+    sustain war and the 3-hit slow.
+  • Phantom Hit is the 7th attack of a fight. A short trade never sees it.
+  • The 800g combine is the awkward base: components are done, the item is not.
+
+------------------------------------------------------------------------------
+STATIKK SHIV ON ON-HIT KOG (15:00, level 13, Q5/W4)
+Core is BoRK + Greaves + Guinsoo. Shiv is the 7.3 on-hit chain, not a crit item.
+Kite: move between autos, charge starts empty. Walked-in: first auto is already Energized.
+------------------------------------------------------------------------------
+  KITING, CHARGE STARTS AT 0
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.4s  lives  lives   6.5s   8.2s     2
+  Runaan + Shiv          4.0s   4.7s   7.1s   2.8s   6.9s     2
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  STANDING STILL, CHARGE STARTS AT 0
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.8s  lives  lives   6.5s   8.2s     2
+  Runaan + Shiv          4.0s   4.7s   7.1s   2.8s   6.9s     2
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  WALKED INTO THE FIGHT ALREADY ENERGIZED
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.4s  lives  lives   4.8s   8.2s     3
+  Runaan + Shiv          3.7s   4.4s   6.8s   2.0s   6.9s     3
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  Times are how long the target or the group stays alive. 'lives' means
+  they are still up at the end of the 8s Barrage (14s for the wave).
+  HOW TO READ THE PROC COLUMN
+  Proc is Energized chains during the 5-champion fight. Each chain can touch
+  up to 6 other units at level 13 and puts W, BoRK, and Guinsoo's 30 magic
+  on-hit on them once. Runaan puts those on-hits on 2 units on every auto.
+  Shiv costs 3000. Runaan costs 2650. Terminus and Wit's End are the other
+  last-slot damage items if the game actually reaches a 5th legendary.
+  Even-gold core (BoRK + Greaves + Guinsoo + Runaan) is 9650 and finishes
+  at 17:00. Adding Shiv makes 12650. Gold at 18:00 is 10770.
+
+  SHIV VERDICT
+  • Skip it. On-hit Kog already has the spread item: Runaan hits 2 extra
+    units on every auto. Shiv's chain fires about twice per Barrage, so the
+    6-target bounce does not replace that.
+  • Guinsoo + Shiv, with no Runaan: the 3-champion fight is still alive
+    when Barrage ends. Guinsoo + Runaan wipes that fight in 5.8s. The wave
+    goes from 3.4s to 6.5s. The solo tank is only ~0.3s faster.
+  • Guinsoo + Runaan + Shiv does wipe a 5-champion clump inside Barrage
+    (7.1s). Terminus in that same slot also wipes it (7.1s) and kills the
+    tank in 3.6s instead of 4.0s and the dragon in 5.7s instead of 6.9s.
+  • An even 18:00 game has 10770 gold. The 4-item core is 9650. The 3000g
+    Shiv does not fit unless you are ahead or the game runs long, and the
+    long-game slot is Terminus when a frontliner is the problem.
+
+ASSUMPTIONS
+  • 7.3: Guinsoo 3000g, 35 AD / 30 AP / 30% AS, 30 magic on-hit, +8% AS × 4,
+    Phantom Hit, crit no longer disabled. Runaan 2650g, 40% AS / 25% crit /
+    4% MS, two bolts at 55% AD. BoRK 3100g, 40 AD / 30% AS / 12% lifesteal,
+    7% current HP. Greaves 35% AS and 10 heal on-hit, 900g. Crit damage 200%.
+  • AS cap 3.0. Kog ratio 0.665, base 0.665, base bonus 0.2, +0.03/level
+    on the 7.3 curve. Q passive AS is always on. W is 8s, pressed at the start.
+  • Bolts apply on-hit at 100% and can crit. They do not spawn more bolts,
+    do not stack Guinsoo or Lethal Tempo, and do not carry Brutal.
+  • Phantom Hit repeats on-hit on the primary only, using HP after the first hit.
+  • Runes: Lethal Tempo, Brutal, Cut Down (6.5% vs targets above 60% HP),
+    Legend: Alacrity stacked by ~8:00. No Coup de Grace.
+  • You land Q on the focused champion (4s shred, 7s cooldown). Side targets
+    and minions are not shredded. No misses, no CC, expected crit, not a coin flip.
+  • Lifesteal applies to the auto, the bolts, and on-hit damage. Flat Greaves
+    heal procs on each on-hit application, including bolts and Phantom Hit.
+  • Zeal component is 15% AS / 15% crit. Recurve still has 15 physical on-hit
+    until the legendary consumes it. Wind Blade's old 15 flat damage is omitted;
+    the 7.3 item card does not list it.
+  • Statikk Shiv: 40 AD, 40 AP, 30% AS, 4% MS, 3000g. At level 13 the chain
+    hits 6 extra targets for 60 magic (90 vs minions and monsters), no crit.
+    Bounces apply on-hit once and do not repeat Phantom Hit.
+  • Energized cap is 100. Base gain is 6 per attack and 1 per 24 units
+    moved; Shiv adds 5 per attack. Kiting moves for 60% of the gap between
+    autos. Patch 7.3 does not republish that base gain.
+==============================================================================
