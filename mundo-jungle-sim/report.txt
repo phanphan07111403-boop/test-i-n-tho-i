@@ -1,0 +1,164 @@
+========================================================================================
+DR. MUNDO JUNGLE — WILD RIFT PATCH 7.3
+Does the new Smite burn let him skip Sunfire and rush Heartsteel?
+Clear = red → krugs → raptors → wolves → blue → gromp.
+Dragon fight = 8s of damage into a bruiser, while two champions focus Mundo.
+========================================================================================
+
+GOLD / LEVEL  (farming jungler, low kill gold)
+  Min    Gold  Lvl
+    0     500    1
+    4    1660    4
+    6    2460    6
+    8    3260    8
+   10    4200    9
+   12    5140   10
+   14    6080   11
+   16    7120   12
+   18    8160   13
+   22   10240   15
+
+----------------------------------------------------------------------------------------
+CLEAR  (full rotation time, HP left, AoE camps vs single-target camps)
+----------------------------------------------------------------------------------------
+   4:00
+    HS → Warmog → Thorn       1:46  HP  88.8%  aoe  37.8s  single  28.2s   1558 HP
+      Giant's Belt
+    Sunfire → HS → Thorn      1:44  HP  89.8%  aoe  36.2s  single  28.0s   1308 HP
+      Bami's Cinder
+    Bami → HS → Sunfire       1:44  HP  89.8%  aoe  36.2s  single  28.0s   1308 HP
+      Bami's Cinder
+    HS → Mantle → Twin        1:46  HP  88.8%  aoe  37.8s  single  28.2s   1558 HP
+      Giant's Belt
+   8:00
+    HS → Warmog → Thorn       1:28  HP 100.0%  aoe  29.0s  single  19.5s   2311 HP
+      Heartsteel
+    Sunfire → HS → Thorn      1:29  HP 100.0%  aoe  29.0s  single  20.0s   2009 HP
+      Bami's Cinder · Kindlegem
+    Bami → HS → Sunfire       1:29  HP 100.0%  aoe  29.0s  single  20.0s   2309 HP
+      Bami's Cinder · Giant's Belt
+    HS → Mantle → Twin        1:28  HP 100.0%  aoe  29.0s  single  19.5s   2311 HP
+      Heartsteel
+  12:00
+    HS → Warmog → Thorn       1:17  HP 100.0%  aoe  22.2s  single  14.8s   3236 HP
+      Heartsteel · Plated Steelcaps · Giant's Belt
+    Sunfire → HS → Thorn      1:15  HP 100.0%  aoe  21.2s  single  14.0s   2745 HP
+      Sunfire Aegis · Plated Steelcaps · Giant's Belt
+    Bami → HS → Sunfire       1:16  HP 100.0%  aoe  22.0s  single  14.8s   3003 HP
+      Bami's Cinder · Heartsteel
+    HS → Mantle → Twin        1:19  HP 100.0%  aoe  24.0s  single  15.2s   3085 HP
+      Heartsteel · Plated Steelcaps · Kindlegem
+  16:00
+    HS → Warmog → Thorn       1:16  HP 100.0%  aoe  22.0s  single  14.8s   4098 HP
+      Heartsteel · Plated Steelcaps · Warmog's Armor
+    Sunfire → HS → Thorn      1:15  HP 100.0%  aoe  20.8s  single  14.5s   3419 HP
+      Sunfire Aegis · Plated Steelcaps · Heartsteel
+    Bami → HS → Sunfire       1:15  HP 100.0%  aoe  20.5s  single  14.8s   3678 HP
+      Heartsteel · Plated Steelcaps · Sunfire Aegis
+    HS → Mantle → Twin        1:17  HP  99.8%  aoe  23.0s  single  14.8s   3995 HP
+      Heartsteel · Plated Steelcaps · Mantle of the Twelfth Hour
+  22:00
+    HS → Warmog → Thorn       1:15  HP 100.0%  aoe  20.8s  single  14.5s   5100 HP
+      Heartsteel · Warmog's Armor · Armored Advance
+    Sunfire → HS → Thorn      1:10  HP 100.0%  aoe  17.0s  single  13.5s   4571 HP
+      Sunfire Aegis · Plated Steelcaps · Heartsteel · Thornmail
+    Bami → HS → Sunfire       1:14  HP 100.0%  aoe  19.2s  single  15.2s   4644 HP
+      Heartsteel · Sunfire Aegis · Armored Advance
+    HS → Mantle → Twin        1:15  HP  99.9%  aoe  20.2s  single  15.0s   5362 HP
+      Heartsteel · Mantle of the Twelfth Hour · Armored Advance · Giant's Belt
+
+----------------------------------------------------------------------------------------
+SMITE BURN ON vs OFF  (same items, AoE-camp seconds)
+  Burn off is a sensitivity check, not a full pre-7.3 monster ruleset.
+----------------------------------------------------------------------------------------
+  Build                     4 aoe on  4 aoe off  8 aoe on  8 aoe off  8 single on
+  HS → Warmog → Thorn           37.8       65.5      29.0       57.2         19.5
+  Sunfire → HS → Thorn          36.2       51.2      29.0       47.0         20.0
+  Bami → HS → Sunfire           36.2       51.2      29.0       48.8         20.0
+  HS → Mantle → Twin            37.8       65.5      29.0       57.2         19.5
+
+----------------------------------------------------------------------------------------
+DRAGON FIGHT  (damage dealt in 8s to a bruiser, seconds survived from full HP)
+----------------------------------------------------------------------------------------
+  Build                       8 dmg  8 live   16 dmg  16 live   22 dmg  22 live    22 HP
+  HS → Warmog → Thorn          1642    11.2     2441     22.2     3160     36.0     5100
+  Sunfire → HS → Thorn         1512     9.8     2418     17.8     3394     27.5     4571
+  Bami → HS → Sunfire          1603    11.0     2520     19.0     3236     29.0     4644
+  HS → Mantle → Twin           1642    11.2     2408     22.0     3257     33.2     5362
+
+----------------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------------
+  Best jungle path: HS → Warmog → Thorn
+
+  CLEAR — the burn replaced Sunfire, it did not replace Heartsteel.
+  • 4:00 AoE camps: belt components 38s, Bami's 36s (Bami saves 1.5s). Single-target camps are 28s vs 28s.
+  • Same items with the burn turned off: belt 66s, Bami 51s (Bami saves 14s). That is the old reason to buy immolate.
+  • Burn damage on the 4:00 clear is 5822 true from belt components and 5253 from Bami's. It ignores the camps' 35 MR. Immolate on that clear is 1232.
+  • Under a 1-second burn tick, Bami's saves 1.5s on AoE camps. That is not a reason to delay Heartsteel.
+  • Every tested path finishes the rotation above ~85% HP. The clear is not
+    the filter anymore. The dragon fight is.
+
+  FIRST DRAGON (~8:00)
+  • Heartsteel online ~7:00. Fight 1642 dmg, lives 11.2s, 2311 HP.
+  • Bami → Heartsteel delays Heartsteel to ~11:00. At 8:00: 1603 dmg, lives 11.0s, 2309 HP.
+  • Sunfire first finishes Sunfire ~9:00 and Heartsteel ~16:00. At 8:00: 1512 dmg, lives 9.8s, 2009 HP.
+  • Sunfire first is behind the Heartsteel rush by 130 damage and 1.5s of survival at the first dragon.
+
+  SECOND ITEM (~16:00)
+  • Warmog ~16:00: 2441 dmg, lives 22.2s, 4098 HP, 470 Heartsteel stacks.
+  • Mantle ~15:00: 2408 dmg, lives 22.0s, 3995 HP, 467 stacks.
+  • Sunfire second (after Bami → HS): 2520 dmg, lives 19.0s, 3678 HP, 325 stacks.
+  • Sunfire first, Heartsteel late: 2418 dmg, lives 17.8s, 3419 HP, only 66 stacks.
+  • Best second legendary after a Heartsteel rush: Warmog's Armor.
+    Warmog vs Mantle at 16:00 is +33 damage and +0.2s. Same spike. Warmog wins the long
+    fight; Mantle is the cheaper buy when one burst is what kills you.
+
+  WHY
+  • Patch 7.3 Smite burn: 30–225 by level + 10% bonus AD + 20% bonus armor
+    + 20% bonus MR + 3% bonus HP true damage. This sim ticks it once per
+    second on the monster being autoed (the notes say the hit repeats,
+    and up to two more times after you stop; they do not print the interval).
+  • Giant's Belt already feeds that burn. Sunfire's new immolate is
+    20 + 1.5% bonus HP magic per second, at 130% vs monsters, into 35 MR,
+    with Flametouch and the stack amp removed.
+  • Heartsteel is 700 HP, a 140 + 3.5% max HP proc, and permanent HP.
+    E, W, and R all read bonus HP. So does the burn. The Sunfire-first
+    path is still on components at 8:00 and finishes Heartsteel ~16:00,
+    so the stacks stay behind (66 vs 470 HP).
+  • Warmog's Armor (7.0) is the old Spirit Visage button: +30% healing
+    and regen, plus 3.5% max HP/s after 5s out of combat if you have
+    950 bonus HP. Mundo's passive, W, and R all pick up the amp.
+  • Mantle of the Twelfth Hour is 2550g, 600 HP, and a lifeline under
+    30% HP. Buy it when one burst rotation is the way you die.
+    Buy Sunfire second only when the fights are stacked melees and the
+    immolate is hitting more than one champion.
+
+  RUNES
+  Keystone: Grasp of the Undying.
+  Resolve: Unshakeable, Second Wind, Overgrowth.
+  Precision: Last Stand.
+  Spells: Flash + Smite.
+  Grasp and Overgrowth are the HP runes Heartsteel, E, W, R, and the
+  Smite burn all read. Second Wind is the clear sustain. Last Stand
+  matches E, which already hits harder when you are missing health.
+  Swap Second Wind for Nullifying Orb into heavy magic burst.
+  Swap Last Stand for Legend: Haste if you want more Q and W uptime.
+
+  BUY ORDER
+  1. Ruby Crystal.
+  2. Giant's Belt → Kindlegem → Heartsteel. Do not stop for Bami's.
+     Heartsteel is up ~7:00. Proc it on scuttle and the first dragon.
+  3. Plated Steelcaps. Armored Advance after 10:00 only if it does not
+     delay the next legendary.
+  4. Warmog's Armor. The heal amp is the second spike.
+     Mantle of the Twelfth Hour instead if they can burst you under 30%.
+     Sunfire Aegis instead if you are fighting inside a pile of melees.
+  5. Thornmail if they heal off autos. Otherwise Amaranth's Twinguard.
+  Skill order: Q, E, Q, W, then max Q → E → W. R at 6 / 11 / 15.
+  Q is the monster cap. E is the HP ratio. W is the heal.
+
+  Trap: finishing Sunfire before Heartsteel. The clear barely changes and
+  the 8:00 fight loses 130 damage and 1.5s of uptime.
+  Trap: buying Bami's "for the clear." It saves 1.5s of AoE camps and pushes Heartsteel from ~7:00 to ~11:00.
+========================================================================================
