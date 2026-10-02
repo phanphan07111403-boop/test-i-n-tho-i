@@ -48,6 +48,23 @@ From 13:00 to 16:00, while each path owns its item and not the other: Runaan tak
 - **Runaan's second** when they stand together, or you need to shove and move. The wave dies inside one Barrage. The solo tank still dies in that Barrage, later.
 - Buy the other one next. Order stops mattering at two completed items.
 
+## First item: BoRK or Guinsoo
+
+Both finish at **6:00** on an even gold curve (BoRK 3100, Guinsoo 3000). They match again at **13:00**, once each path has bought the other item and Berserker's Greaves.
+
+At 6:00, level 7, Barrage maxed:
+
+| | Rush BoRK | Rush Guinsoo |
+|--|-----------|----------------|
+| Lane all-in | 6.6s | **6.0s** |
+| 3-hit trade | **642** | 570 |
+| Frontliner | lives | **dies in 8.4s** |
+| Healing in that duel | **170** | 0 |
+
+Rush Guinsoo when the fight is long: the all-in, the frontliner, and the dragon pit. Phantom Hit is the 7th attack, and it repeats max-health Barrage.
+
+Rush BoRK when the lane is short trades and sustain. Vampiric Scepter heals before the item exists, the 7% current-health hit needs no stacks, and three hits slow by 30%. You give up the one-Barrage frontliner kill until Guinsoo is the second item.
+
 ## Statikk Shiv
 
 Not worth buying on this on-hit build.

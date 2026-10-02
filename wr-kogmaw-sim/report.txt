@@ -227,6 +227,59 @@ VERDICT — 13:00 TO 16:00, EACH PATH OWNS ITS ITEM AND NOT THE OTHER
     are finished. Crit on Runaan does not replace Phantom Hit on a lone tank.
 
 ------------------------------------------------------------------------------
+FIRST ITEM — RUSH BoRK (3100) vs RUSH GUINSOO (3000)
+Then Berserker's Greaves, then the other legendary. Long Sword start on both.
+Duel and the 3-hit trade are the enemy carry. Tank is a frontliner. Heal is from the duel.
+------------------------------------------------------------------------------
+  Min  BoRK rush                      Duel  Trade   Tank  Heal   Wave  Guinsoo rush                   Duel  Trade   Tank  Heal   Wave
+    3  Dagger + Vamp                 lives    325  lives    71  lives  Recurve + Pickaxe              8.4s    372  lives     0  lives
+    4  Vamp + Recurve                lives    367  lives    82  lives  Tome + Recurve + Pickaxe       8.2s    403  lives     0  lives
+    5  Sword + Vamp + Recurve         7.9s    434  lives    98  lives  Tome + Recurve + Pickaxe       7.9s    442  lives     0  lives
+    6  BoRK                           6.6s    642  lives   170  lives  Guinsoo                        6.0s    570   8.4s     0  lives
+    7  Boots + BoRK                   6.3s    703  lives   181  lives  Boots + Guinsoo                5.7s    623   8.0s     0  14.0s
+    8  BoRK + Greaves                 5.3s    705   8.1s   274  lives  Greaves + Guinsoo              4.9s    622   7.4s   100  12.8s
+    9  Dagger + BoRK + Greaves        5.0s    728   8.2s   289  lives  Sword + Greaves + Guinsoo      4.9s    659   7.3s   100  12.1s
+   10  Sword + Recurve + BoRK + Gr…   4.7s    842   7.2s   300  12.0s  Vamp + Greaves + Guinsoo       4.7s    719   7.1s   238  11.7s
+   11  Recurve + Pickaxe + BoRK + …   4.6s    921   7.0s   310  11.7s  Vamp + Recurve + Greaves + …   4.3s    804   6.9s   245  10.6s
+   12  Tome + Recurve + Pickaxe + …   4.0s   1004   7.3s   310  11.3s  Sword + Vamp + Recurve + Gr…   3.8s    887   6.8s   242  10.3s
+   13  BoRK + Greaves + Guinsoo       3.2s   1085   5.7s   312   8.6s  BoRK + Greaves + Guinsoo       3.2s   1085   5.7s   312   8.6s
+
+  BoRK completes 6:00. Guinsoo completes 6:00. Both legendaries on both paths: 13:00.
+  At the shared spike (6:00, level 7):
+    Lane all-in:     BoRK 6.6s | Guinsoo 6.0s
+    3-hit trade:     BoRK 642 | Guinsoo 570
+    Frontliner:      BoRK lives | Guinsoo 8.4s
+    Heal in the duel: BoRK 170 | Guinsoo 0
+    Wave / dragon:   BoRK lives / lives | Guinsoo lives / lives
+  At 13:00 both paths hold BoRK + Greaves + Guinsoo and the rows match.
+
+  PROS — RUSH BoRK
+  • Vampiric Scepter is in the build path, so lane healing starts before the
+    item exists. Finished BoRK is 12% lifesteal. Guinsoo has none until later.
+  • The 7% current-health hit is immediate. A 3-auto trade does not need stacks.
+  • Three hits also slow the target by 30% for 1.5s. That is stick and kite,
+    and it is not in the damage numbers above.
+  • The combine is 200g after a 300g Pickaxe. Guinsoo's last payment is 800g,
+    so a short recall can finish BoRK and cannot finish Guinsoo. On this
+    gold curve both still complete at the same minute.
+  CONS — RUSH BoRK
+  • Current-health damage shrinks as the target drops. A long fight into a
+    tank gets less from the passive than Guinsoo's repeat of max-health Barrage.
+  • No attack-speed steroid and no Phantom Hit. Extended all-ins ramp slower.
+
+  PROS — RUSH GUINSOO
+  • 100g cheaper. Recurve + Pickaxe + Tome, before the combine, already wins
+    the lane all-in against Vamp + Recurve. Phantom Hit then repeats Barrage
+    (max health, so it keeps working on a low tank) and Seething Strike adds
+    up to 32% attack speed in a long fight.
+  • 30 AP adds a little to Barrage and Caustic Spittle.
+  CONS — RUSH GUINSOO
+  • No lifesteal at all until BoRK is the second legendary. You lose the lane
+    sustain war and the 3-hit slow.
+  • Phantom Hit is the 7th attack of a fight. A short trade never sees it.
+  • The 800g combine is the awkward base: components are done, the item is not.
+
+------------------------------------------------------------------------------
 STATIKK SHIV ON ON-HIT KOG (15:00, level 13, Q5/W4)
 Core is BoRK + Greaves + Guinsoo. Shiv is the 7.3 on-hit chain, not a crit item.
 Kite: move between autos, charge starts empty. Walked-in: first auto is already Energized.

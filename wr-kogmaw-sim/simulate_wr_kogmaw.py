@@ -208,6 +208,21 @@ GUINSOO_CHAIN: list[Step] = [
     ),
 ]
 
+# Same components as GUINSOO_CHAIN, but the long sword is the starting buy
+# so it lines up with the BoRK rush (both open Long Sword).
+GUINSOO_FIRST_CHAIN: list[Step] = [
+    Step("Long Sword", 500),
+    Step("Dagger", 400),
+    Step("Recurve Bow", 500, (("Dagger", 1),)),
+    Step("Pickaxe", 300, (("Long Sword", 1),)),
+    Step("Amplifying Tome", 500),
+    Step(
+        "Guinsoo's Rageblade",
+        800,
+        (("Recurve Bow", 1), ("Pickaxe", 1), ("Amplifying Tome", 1)),
+    ),
+]
+
 RUNAAN_CHAIN: list[Step] = [
     Step("Dagger", 400),
     Step("Brawler's Gloves", 500),
@@ -811,6 +826,146 @@ def _row_for(load: Loadout, minute: int, energy_mode: str) -> dict:
     }
 
 
+def rush_metrics(load: Loadout, minute: int) -> dict:
+    champs = champion_targets(minute)
+    duel = simulate_window(load, [champs["squishy"]])
+    trade = simulate_window(load, [champs["squishy"]], max_attacks=3)
+    tank = simulate_window(load, [champs["tank"]])
+    wave = simulate_window(load, wave_targets(minute), seconds=14.0, use_q=False)
+    dragon = simulate_window(load, [dragon_target(minute)])
+    return {
+        "duel_ttk": duel.ttk_focus,
+        "trade": trade.total_damage,
+        "tank_ttk": tank.ttk_focus,
+        "tank4": tank.total_damage if tank.ttk_focus is None else None,
+        "heal": duel.healed,
+        "wave": wave.wave_clear,
+        "dragon_ttk": dragon.ttk_focus,
+        "phantom": duel.breakdown.get("phantom_procs", 0),
+    }
+
+
+def rush_section() -> list[str]:
+    """BoRK 3100 first vs Guinsoo 3000 first, then Berserker's, then the other."""
+    boots = BORK_CHAIN[-2:]
+    bork_only = BORK_CHAIN[:-2]
+    paths = {
+        "BoRK": bork_only + boots + GUINSOO_CHAIN,
+        "Guinsoo": GUINSOO_FIRST_CHAIN + boots + bork_only,
+    }
+    rows: dict[str, list[dict]] = {name: [] for name in paths}
+    for minute in range(1, 14):
+        for name, path in paths.items():
+            load, owned = loadout_at(path, minute)
+            row = rush_metrics(load, minute)
+            row["items"] = item_names(owned)
+            row["label"] = short_items(Counter({n: 1 for n in row["items"]}))
+            rows[name].append(row)
+
+    bork_at = next(i + 1 for i, row in enumerate(rows["BoRK"]) if "Blade of the Ruined King" in row["items"])
+    guin_at = next(i + 1 for i, row in enumerate(rows["Guinsoo"]) if "Guinsoo's Rageblade" in row["items"])
+    both_at = next(
+        i + 1
+        for i, (b, g) in enumerate(zip(rows["BoRK"], rows["Guinsoo"]))
+        if "Blade of the Ruined King" in b["items"]
+        and "Guinsoo's Rageblade" in b["items"]
+        and "Blade of the Ruined King" in g["items"]
+        and "Guinsoo's Rageblade" in g["items"]
+    )
+
+    lines = [
+        "",
+        "-" * 78,
+        "FIRST ITEM — RUSH BoRK (3100) vs RUSH GUINSOO (3000)",
+        "Then Berserker's Greaves, then the other legendary. Long Sword start on both.",
+        "Duel and the 3-hit trade are the enemy carry. Tank is a frontliner. Heal is from the duel.",
+        "-" * 78,
+        f"  {'Min':>3}  {'BoRK rush':<28} {'Duel':>6} {'Trade':>6} {'Tank':>6} {'Heal':>5} {'Wave':>6}"
+        f"  {'Guinsoo rush':<28} {'Duel':>6} {'Trade':>6} {'Tank':>6} {'Heal':>5} {'Wave':>6}",
+    ]
+    for i, (b, g) in enumerate(zip(rows["BoRK"], rows["Guinsoo"])):
+        minute = i + 1
+        if minute < 3:
+            continue
+        lines.append(
+            f"  {minute:>3}  {clip_label(b['label'], 28):<28} "
+            f"{fmt_time(b['duel_ttk']):>6} {b['trade']:>6.0f} {fmt_time(b['tank_ttk']):>6} "
+            f"{b['heal']:>5.0f} {fmt_time(b['wave']):>6}  "
+            f"{clip_label(g['label'], 28):<28} "
+            f"{fmt_time(g['duel_ttk']):>6} {g['trade']:>6.0f} {fmt_time(g['tank_ttk']):>6} "
+            f"{g['heal']:>5.0f} {fmt_time(g['wave']):>6}"
+        )
+
+    lines.append("")
+    lines.append(
+        f"  BoRK completes {bork_at}:00. Guinsoo completes {guin_at}:00. "
+        f"Both legendaries on both paths: {both_at}:00."
+    )
+    spike = min(bork_at, guin_at)
+    b_spike = rows["BoRK"][spike - 1]
+    g_spike = rows["Guinsoo"][spike - 1]
+    lines.append(f"  At the shared spike ({spike}:00, level {level_at_minute(spike)}):")
+    lines.append(
+        f"    Lane all-in:     BoRK {fmt_time(b_spike['duel_ttk'])} | "
+        f"Guinsoo {fmt_time(g_spike['duel_ttk'])}"
+    )
+    lines.append(
+        f"    3-hit trade:     BoRK {b_spike['trade']:.0f} | Guinsoo {g_spike['trade']:.0f}"
+    )
+    lines.append(
+        f"    Frontliner:      BoRK {fmt_time(b_spike['tank_ttk'])} | "
+        f"Guinsoo {fmt_time(g_spike['tank_ttk'])}"
+    )
+    lines.append(
+        f"    Heal in the duel: BoRK {b_spike['heal']:.0f} | Guinsoo {g_spike['heal']:.0f}"
+    )
+    lines.append(
+        f"    Wave / dragon:   BoRK {fmt_time(b_spike['wave'])} / {fmt_time(b_spike['dragon_ttk'])} | "
+        f"Guinsoo {fmt_time(g_spike['wave'])} / {fmt_time(g_spike['dragon_ttk'])}"
+    )
+    lines.append(
+        f"  At {both_at}:00 both paths hold BoRK + Greaves + Guinsoo and the rows match."
+    )
+    last_b = rows["BoRK"][both_at - 1]
+    last_g = rows["Guinsoo"][both_at - 1]
+    assert last_b["trade"] == last_g["trade"]
+    assert last_b["duel_ttk"] == last_g["duel_ttk"]
+    assert abs(last_b["heal"] - last_g["heal"]) < 1.0
+    lines.append("")
+    lines.append("  PROS — RUSH BoRK")
+    lines.append("  • Vampiric Scepter is in the build path, so lane healing starts before the")
+    lines.append("    item exists. Finished BoRK is 12% lifesteal. Guinsoo has none until later.")
+    lines.append("  • The 7% current-health hit is immediate. A 3-auto trade does not need stacks.")
+    lines.append("  • Three hits also slow the target by 30% for 1.5s. That is stick and kite,")
+    lines.append("    and it is not in the damage numbers above.")
+    lines.append("  • The combine is 200g after a 300g Pickaxe. Guinsoo's last payment is 800g,")
+    lines.append("    so a short recall can finish BoRK and cannot finish Guinsoo. On this")
+    lines.append("    gold curve both still complete at the same minute.")
+    lines.append("  CONS — RUSH BoRK")
+    lines.append("  • Current-health damage shrinks as the target drops. A long fight into a")
+    lines.append("    tank gets less from the passive than Guinsoo's repeat of max-health Barrage.")
+    lines.append("  • No attack-speed steroid and no Phantom Hit. Extended all-ins ramp slower.")
+    lines.append("")
+    lines.append("  PROS — RUSH GUINSOO")
+    lines.append("  • 100g cheaper. Recurve + Pickaxe + Tome, before the combine, already wins")
+    lines.append("    the lane all-in against Vamp + Recurve. Phantom Hit then repeats Barrage")
+    lines.append("    (max health, so it keeps working on a low tank) and Seething Strike adds")
+    lines.append("    up to 32% attack speed in a long fight.")
+    lines.append("  • 30 AP adds a little to Barrage and Caustic Spittle.")
+    lines.append("  CONS — RUSH GUINSOO")
+    lines.append("  • No lifesteal at all until BoRK is the second legendary. You lose the lane")
+    lines.append("    sustain war and the 3-hit slow.")
+    lines.append("  • Phantom Hit is the 7th attack of a fight. A short trade never sees it.")
+    lines.append("  • The 800g combine is the awkward base: components are done, the item is not.")
+    return lines
+
+
+def clip_label(text: str, width: int) -> str:
+    if len(text) <= width:
+        return text
+    return text[: width - 1] + "…"
+
+
 def shiv_section(minute: int = 15) -> list[str]:
     """On-hit core is BoRK + Greaves + Guinsoo. Shiv competes with Runaan for the spread slot."""
     lvl = level_at_minute(minute)
@@ -1275,6 +1430,7 @@ def summarize(results: dict) -> str:
     lines.append("    The solo tank still dies during Barrage, about a second and a half later.")
     lines.append("  • Either way the other item is next. Order stops mattering the moment both")
     lines.append("    are finished. Crit on Runaan does not replace Phantom Hit on a lone tank.")
+    lines.extend(rush_section())
     lines.extend(shiv_section(15))
     lines.append("")
     lines.append("ASSUMPTIONS")
