@@ -47,3 +47,13 @@ From 13:00 to 16:00, while each path owns its item and not the other: Runaan tak
 - **Guinsoo's second** when one body is the job: the frontliner you have to cut, or the dragon. The wave takes most of Barrage.
 - **Runaan's second** when they stand together, or you need to shove and move. The wave dies inside one Barrage. The solo tank still dies in that Barrage, later.
 - Buy the other one next. Order stops mattering at two completed items.
+
+## Statikk Shiv
+
+Not worth buying on this on-hit build.
+
+Shiv is a 7.3 on-hit chain (40 AD, 40 AP, 30% attack speed, no crit, 3000g). At level 13 an Energized auto bounces to 6 extra units and applies Barrage and BoRK on them. The chain comes up about twice during one Barrage.
+
+Replacing Runaan with Shiv: the 3-champion fight survives Barrage (Runaan wipes it in 5.8s) and the wave slows from 3.4s to 6.5s. The solo tank is only about 0.3s faster.
+
+Adding Shiv after Guinsoo + Runaan does wipe a 5-champion clump. Terminus in that slot wipes it on the same clock and kills the tank and the dragon sooner. An even game also never reaches that 3000g purchase: the 4-item core finishes at 17:00, and 18:00 gold is 10770 against a 12650 Shiv total.

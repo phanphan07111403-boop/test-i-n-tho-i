@@ -226,6 +226,60 @@ VERDICT — 13:00 TO 16:00, EACH PATH OWNS ITS ITEM AND NOT THE OTHER
   • Either way the other item is next. Order stops mattering the moment both
     are finished. Crit on Runaan does not replace Phantom Hit on a lone tank.
 
+------------------------------------------------------------------------------
+STATIKK SHIV ON ON-HIT KOG (15:00, level 13, Q5/W4)
+Core is BoRK + Greaves + Guinsoo. Shiv is the 7.3 on-hit chain, not a crit item.
+Kite: move between autos, charge starts empty. Walked-in: first auto is already Energized.
+------------------------------------------------------------------------------
+  KITING, CHARGE STARTS AT 0
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.4s  lives  lives   6.5s   8.2s     2
+  Runaan + Shiv          4.0s   4.7s   7.1s   2.8s   6.9s     2
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  STANDING STILL, CHARGE STARTS AT 0
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.8s  lives  lives   6.5s   8.2s     2
+  Runaan + Shiv          4.0s   4.7s   7.1s   2.8s   6.9s     2
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  WALKED INTO THE FIGHT ALREADY ENERGIZED
+  Build                  Tank  3-man  5-man   Wave Dragon  Proc
+  Guinsoo + Runaan       4.7s   5.8s  lives   3.4s   7.9s     0
+  Guinsoo + Shiv         4.4s  lives  lives   4.8s   8.2s     3
+  Runaan + Shiv          3.7s   4.4s   6.8s   2.0s   6.9s     3
+  Runaan + Terminus      3.6s   4.3s   7.1s   2.7s   5.7s     0
+  Runaan + Wit's End     3.8s   4.8s   7.5s   2.6s   6.6s     0
+
+  Times are how long the target or the group stays alive. 'lives' means
+  they are still up at the end of the 8s Barrage (14s for the wave).
+  HOW TO READ THE PROC COLUMN
+  Proc is Energized chains during the 5-champion fight. Each chain can touch
+  up to 6 other units at level 13 and puts W, BoRK, and Guinsoo's 30 magic
+  on-hit on them once. Runaan puts those on-hits on 2 units on every auto.
+  Shiv costs 3000. Runaan costs 2650. Terminus and Wit's End are the other
+  last-slot damage items if the game actually reaches a 5th legendary.
+  Even-gold core (BoRK + Greaves + Guinsoo + Runaan) is 9650 and finishes
+  at 17:00. Adding Shiv makes 12650. Gold at 18:00 is 10770.
+
+  SHIV VERDICT
+  • Skip it. On-hit Kog already has the spread item: Runaan hits 2 extra
+    units on every auto. Shiv's chain fires about twice per Barrage, so the
+    6-target bounce does not replace that.
+  • Guinsoo + Shiv, with no Runaan: the 3-champion fight is still alive
+    when Barrage ends. Guinsoo + Runaan wipes that fight in 5.8s. The wave
+    goes from 3.4s to 6.5s. The solo tank is only ~0.3s faster.
+  • Guinsoo + Runaan + Shiv does wipe a 5-champion clump inside Barrage
+    (7.1s). Terminus in that same slot also wipes it (7.1s) and kills the
+    tank in 3.6s instead of 4.0s and the dragon in 5.7s instead of 6.9s.
+  • An even 18:00 game has 10770 gold. The 4-item core is 9650. The 3000g
+    Shiv does not fit unless you are ahead or the game runs long, and the
+    long-game slot is Terminus when a frontliner is the problem.
+
 ASSUMPTIONS
   • 7.3: Guinsoo 3000g, 35 AD / 30 AP / 30% AS, 30 magic on-hit, +8% AS × 4,
     Phantom Hit, crit no longer disabled. Runaan 2650g, 40% AS / 25% crit /
@@ -245,4 +299,10 @@ ASSUMPTIONS
   • Zeal component is 15% AS / 15% crit. Recurve still has 15 physical on-hit
     until the legendary consumes it. Wind Blade's old 15 flat damage is omitted;
     the 7.3 item card does not list it.
+  • Statikk Shiv: 40 AD, 40 AP, 30% AS, 4% MS, 3000g. At level 13 the chain
+    hits 6 extra targets for 60 magic (90 vs minions and monsters), no crit.
+    Bounces apply on-hit once and do not repeat Phantom Hit.
+  • Energized cap is 100. Base gain is 6 per attack and 1 per 24 units
+    moved; Shiv adds 5 per attack. Kiting moves for 60% of the gap between
+    autos. Patch 7.3 does not republish that base gain.
 ==============================================================================

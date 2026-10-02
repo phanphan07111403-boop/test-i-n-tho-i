@@ -101,9 +101,12 @@ class Stats:
     onhit_phys: float = 0.0
     wrath: float = 0.0
     greaves_heal: float = 0.0
+    onhit_magic: float = 0.0
     bork: bool = False
     guinsoo: bool = False
     runaan: bool = False
+    shiv: bool = False
+    terminus: bool = False
     shock: bool = False
 
     def add(self, other: "Stats", n: int = 1) -> "Stats":
@@ -115,10 +118,13 @@ class Stats:
             lifesteal=self.lifesteal + other.lifesteal * n,
             onhit_phys=self.onhit_phys + other.onhit_phys * n,
             wrath=self.wrath + other.wrath * n,
+            onhit_magic=self.onhit_magic + other.onhit_magic * n,
             greaves_heal=self.greaves_heal + other.greaves_heal * n,
             bork=self.bork or other.bork,
             guinsoo=self.guinsoo or other.guinsoo,
             runaan=self.runaan or other.runaan,
+            shiv=self.shiv or other.shiv,
+            terminus=self.terminus or other.terminus,
             shock=self.shock or other.shock,
         )
 
@@ -140,7 +146,37 @@ STATS: dict[str, Stats] = {
     "Berserker's Greaves": Stats(aspd=0.35, greaves_heal=10),
     "Guinsoo's Rageblade": Stats(ad=35, ap=30, aspd=0.30, wrath=30, guinsoo=True),
     "Runaan's Hurricane": Stats(aspd=0.40, crit=0.25, runaan=True),
+    # 7.3 rework: on-hit chain, no crit. Bounce count is additional targets.
+    "Statikk Shiv": Stats(ad=40, ap=40, aspd=0.30, shiv=True),
+    "Terminus": Stats(ad=35, aspd=0.35, onhit_magic=30, terminus=True),
+    "Wit's End": Stats(aspd=0.50, onhit_magic=40),
 }
+
+# Energized cap is 100. Base gain matches the current Energized family
+# (6 per attack, 1 per 24 units). 7.3 only publishes Shiv's extra +5 per attack.
+ENERGY_CAP = 100.0
+ENERGY_PER_ATTACK = 6.0
+ENERGY_PER_UNIT = 1.0 / 24.0
+SHIV_BONUS_STACKS = 5.0
+KITE_MOVE_FRACTION = 0.60
+
+
+def shiv_bounce_count(level: int) -> int:
+    """Additional targets. 3 / 4 / 5 / 6 at levels 1 / 5 / 9 / 13."""
+    if level >= 13:
+        return 6
+    if level >= 9:
+        return 5
+    if level >= 5:
+        return 4
+    return 3
+
+
+def move_speed(items: Stats) -> float:
+    ms = 335.0 + (45.0 if items.greaves_heal else 0.0)
+    if items.shiv:
+        ms *= 1.04
+    return ms
 
 
 BORK_CHAIN: list[Step] = [
@@ -365,10 +401,11 @@ def resist_mult(resist: float) -> float:
     return 2.0 - 100.0 / (100.0 - resist)
 
 
-def mitigated(raw: float, resist: float, shred: float) -> float:
+def mitigated(raw: float, resist: float, shred: float, pen: float = 0.0) -> float:
     if raw <= 0:
         return 0.0
-    return raw * resist_mult(resist * (1.0 - shred))
+    effective = resist * (1.0 - shred) * (1.0 - pen)
+    return raw * resist_mult(effective)
 
 
 @dataclass
@@ -393,10 +430,11 @@ def apply_damage(
     shred: float,
     bucket: str,
     lifesteal: float,
+    pen: float = 0.0,
 ) -> float:
     if target.hp <= 0 or raw <= 0:
         return 0.0
-    dealt = min(target.hp, mitigated(raw, resist, shred))
+    dealt = min(target.hp, mitigated(raw, resist, shred, pen))
     target.hp -= dealt
     builder.add(target.name, bucket, dealt)
     builder.healed += dealt * lifesteal
@@ -433,6 +471,9 @@ def on_hit_package(
     if loadout.items.wrath:
         packets.append(("wrath", loadout.items.wrath, "magic"))
 
+    if loadout.items.onhit_magic:
+        packets.append(("flat_magic", loadout.items.onhit_magic, "magic"))
+
     if loadout.items.greaves_heal:
         heal += loadout.items.greaves_heal
 
@@ -446,6 +487,7 @@ def deliver_packets(
     t: float,
     packets: list[tuple[str, float, str]],
     flat_heal: float,
+    pen: float = 0.0,
 ) -> None:
     shred = loadout.shred if (target.kind == "champion" and t < target.shred_until) else 0.0
     # Monsters can be shredded by Q too.
@@ -457,7 +499,7 @@ def deliver_packets(
     ls = loadout.items.lifesteal
     for bucket, raw, typ in packets:
         resist = target.armor if typ == "phys" else target.mr
-        apply_damage(builder, target, raw * cut, resist, shred, bucket, ls)
+        apply_damage(builder, target, raw * cut, resist, shred, bucket, ls, pen)
     builder.healed += flat_heal
 
 
@@ -468,6 +510,7 @@ def simulate_window(
     w_on: bool = True,
     use_q: bool = True,
     max_attacks: int | None = None,
+    energy_mode: str = "kite",
 ) -> FightResult:
     units = [t.clone() for t in targets]
     builder = FightResultBuilder()
@@ -480,9 +523,19 @@ def simulate_window(
     focus_death: float | None = None
     wipe: float | None = None
     focus_name = units[0].name
+    # walked_in: you path onto the fight and the first auto is already Energized.
+    energy = ENERGY_CAP if energy_mode == "walked_in" else 0.0
+    attack_n = 0
+    dark_times: list[float] = []
 
     def living() -> list[Target]:
         return [u for u in units if u.hp > 0]
+
+    def pen_now(now: float) -> float:
+        if not loadout.items.terminus:
+            return 0.0
+        stacks = sum(1 for ts in dark_times if now - ts <= 5.0)
+        return 0.10 * min(3, stacks)
 
     while t < seconds - 1e-9:
         alive = living()
@@ -493,11 +546,12 @@ def simulate_window(
             break
 
         focus = alive[0]
+        pen = pen_now(t)
         if use_q and loadout.q_raw > 0 and t >= next_q - 1e-9 and focus.kind != "minion":
             focus.shred_until = t + 4.0
             shred = loadout.shred
             apply_damage(
-                builder, focus, loadout.q_raw, focus.mr, shred, "q", 0.0
+                builder, focus, loadout.q_raw, focus.mr, shred, "q", 0.0, pen
             )
             next_q = t + 7.0
             if focus.hp <= 0 and focus.name == focus_name and focus_death is None:
@@ -524,30 +578,39 @@ def simulate_window(
         cut = 1.065 if (focus.kind == "champion" and focus.hp > 0.60 * focus.max_hp) else 1.0
         ls = loadout.items.lifesteal
 
+        energized = loadout.items.shiv and energy >= ENERGY_CAP
+        if energized:
+            energy -= ENERGY_CAP
+            builder.breakdown["shiv_procs"] = builder.breakdown.get("shiv_procs", 0) + 1
+            lightning = 90.0 if focus.kind in ("minion", "monster") else 60.0
+            apply_damage(
+                builder, focus, lightning * cut, focus.mr, shred, "shiv", ls, pen
+            )
+
         auto_raw = loadout.ad * (1.0 + loadout.items.crit * (CRIT_DAMAGE - 1.0))
-        apply_damage(builder, focus, auto_raw * cut, focus.armor, shred, "auto", ls)
+        apply_damage(builder, focus, auto_raw * cut, focus.armor, shred, "auto", ls, pen)
 
         if focus.kind == "champion":
             apply_damage(
-                builder, focus, loadout.brutal * cut, focus.armor, shred, "brutal", ls
+                builder, focus, loadout.brutal * cut, focus.armor, shred, "brutal", ls, pen
             )
             if lt_ready and focus.hp > 0:
                 bolt = loadout.lt_bolt_raw(extra_as)
-                apply_damage(builder, focus, bolt * cut, focus.armor, shred, "lt", ls)
+                apply_damage(builder, focus, bolt * cut, focus.armor, shred, "lt", ls, pen)
 
         if shock_ready and focus.kind == "champion" and focus.hp > 0:
-            apply_damage(builder, focus, 40.0 * cut, focus.mr, shred, "shock", ls)
+            apply_damage(builder, focus, 40.0 * cut, focus.mr, shred, "shock", ls, pen)
             shock_ready = False
 
         packets, flat_heal = on_hit_package(loadout, focus, t, w_on)
-        deliver_packets(builder, loadout, focus, t, packets, flat_heal)
+        deliver_packets(builder, loadout, focus, t, packets, flat_heal, pen)
 
         # Phantom Hit: extra on-hit on the primary only, after the first packet.
         if loadout.items.guinsoo and g_stacks >= 4 and focus.hp > 0:
             phantom_n += 1
             if phantom_n % 3 == 0:
                 packets, flat_heal = on_hit_package(loadout, focus, t, w_on)
-                deliver_packets(builder, loadout, focus, t, packets, flat_heal)
+                deliver_packets(builder, loadout, focus, t, packets, flat_heal, pen)
                 builder.breakdown["phantom_procs"] = builder.breakdown.get("phantom_procs", 0) + 1
 
         if focus.hp <= 0 and focus.name == focus_name and focus_death is None:
@@ -562,15 +625,41 @@ def simulate_window(
                 side_cut = 1.065 if (side.kind == "champion" and side.hp > 0.60 * side.max_hp) else 1.0
                 side_shred = loadout.shred if t < side.shred_until else 0.0
                 apply_damage(
-                    builder, side, bolt_ad * side_cut, side.armor, side_shred, "bolt_ad", ls
+                    builder, side, bolt_ad * side_cut, side.armor, side_shred, "bolt_ad", ls, pen
                 )
                 packets, flat_heal = on_hit_package(loadout, side, t, w_on)
                 # Retag so the report can see splash on-hit separately from primary W/BoRK.
                 retagged = []
                 for bucket, raw, typ in packets:
-                    name = bucket if bucket in ("w", "bork", "wrath", "recurve") else bucket
+                    name = bucket if bucket in ("w", "bork", "wrath", "recurve", "flat_magic") else bucket
                     retagged.append((f"bolt_{name}", raw, typ))
-                deliver_packets(builder, loadout, side, t, retagged, flat_heal)
+                deliver_packets(builder, loadout, side, t, retagged, flat_heal, pen)
+
+        # Chain hits other living units. On-hit on those bounces is full strength.
+        # It does not repeat Phantom Hit and it does not add a second auto.
+        if energized:
+            bounces = [u for u in living() if u is not focus][: shiv_bounce_count(loadout.level)]
+            for side in bounces:
+                side_cut = 1.065 if (side.kind == "champion" and side.hp > 0.60 * side.max_hp) else 1.0
+                side_shred = loadout.shred if t < side.shred_until else 0.0
+                lightning = 90.0 if side.kind in ("minion", "monster") else 60.0
+                apply_damage(
+                    builder, side, lightning * side_cut, side.mr, side_shred, "shiv_bounce", ls, pen
+                )
+                packets, flat_heal = on_hit_package(loadout, side, t, w_on)
+                retagged = []
+                for bucket, raw, typ in packets:
+                    retagged.append((f"shiv_{bucket}", raw, typ))
+                deliver_packets(builder, loadout, side, t, retagged, flat_heal, pen)
+
+        if loadout.items.shiv:
+            energy += ENERGY_PER_ATTACK + SHIV_BONUS_STACKS
+            if energy_mode in ("kite", "walked_in"):
+                energy += move_speed(loadout.items) * dt * KITE_MOVE_FRACTION * ENERGY_PER_UNIT
+
+        # Dark stacks apply on every second attack and then pen the hits after them.
+        if loadout.items.terminus and attack_n % 2 == 1:
+            dark_times.append(t)
 
         if loadout.items.guinsoo:
             g_stacks = min(4, g_stacks + 1)
@@ -578,6 +667,7 @@ def simulate_window(
             lt_stacks = min(6, lt_stacks + 1)
 
         builder.attacks += 1
+        attack_n += 1
         t += dt
 
     if wipe is None and not living():
@@ -677,6 +767,114 @@ def isolated_at(minute: int) -> dict[str, dict]:
             "fight_breakdown": {k: round(v, 1) for k, v in pack["fight3"].breakdown.items()},
         }
     return out
+
+
+def team_targets(minute: int) -> list[Target]:
+    champs = champion_targets(minute)
+    tank = champs["tank"]
+    bruiser = champs["bruiser"]
+    squishy = champs["squishy"]
+    return [
+        tank,
+        bruiser,
+        Target("bruiser-2", bruiser.max_hp, bruiser.armor, bruiser.mr, "champion"),
+        squishy,
+        Target("carry-2", squishy.max_hp, squishy.armor, squishy.mr, "champion"),
+    ]
+
+
+def _row_for(load: Loadout, minute: int, energy_mode: str) -> dict:
+    champs = champion_targets(minute)
+    tank = simulate_window(load, [champs["tank"]], energy_mode=energy_mode)
+    tank4 = simulate_window(load, [champs["tank"]], seconds=4.0, energy_mode=energy_mode)
+    fight3 = simulate_window(
+        load, [champs["tank"], champs["bruiser"], champs["squishy"]], energy_mode=energy_mode
+    )
+    fight5 = simulate_window(load, team_targets(minute), energy_mode=energy_mode)
+    wave = simulate_window(
+        load, wave_targets(minute), seconds=14.0, use_q=False, energy_mode=energy_mode
+    )
+    dragon = simulate_window(load, [dragon_target(minute)], energy_mode=energy_mode)
+    return {
+        "tank_ttk": tank.ttk_focus,
+        "tank4": tank4.total_damage,
+        "fight3": fight3.total_damage,
+        "wipe3": fight3.wiped_at,
+        "fight5": fight5.total_damage,
+        "wipe5": fight5.wiped_at,
+        "wave": wave.wave_clear,
+        "dragon": dragon.total_damage,
+        "dragon_ttk": dragon.ttk_focus,
+        "procs": tank.breakdown.get("shiv_procs", 0),
+        "procs5": fight5.breakdown.get("shiv_procs", 0),
+        "procs_wave": wave.breakdown.get("shiv_procs", 0),
+    }
+
+
+def shiv_section(minute: int = 15) -> list[str]:
+    """On-hit core is BoRK + Greaves + Guinsoo. Shiv competes with Runaan for the spread slot."""
+    lvl = level_at_minute(minute)
+    ranks = ranks_at_level(lvl)
+    builds = [
+        ("Guinsoo + Runaan", ("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Runaan's Hurricane")),
+        ("Guinsoo + Shiv", ("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Statikk Shiv")),
+        ("Runaan + Shiv", ("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Runaan's Hurricane", "Statikk Shiv")),
+        ("Runaan + Terminus", ("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Runaan's Hurricane", "Terminus")),
+        ("Runaan + Wit's End", ("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Runaan's Hurricane", "Wit's End")),
+    ]
+    lines = [
+        "",
+        "-" * 78,
+        f"STATIKK SHIV ON ON-HIT KOG ({minute}:00, level {lvl}, Q{ranks['Q']}/W{ranks['W']})",
+        "Core is BoRK + Greaves + Guinsoo. Shiv is the 7.3 on-hit chain, not a crit item.",
+        "Kite: move between autos, charge starts empty. Walked-in: first auto is already Energized.",
+        "-" * 78,
+    ]
+    header = (
+        f"  {'Build':<20} {'Tank':>6} {'3-man':>6} {'5-man':>6} "
+        f"{'Wave':>6} {'Dragon':>6} {'Proc':>5}"
+    )
+    for mode, title in (
+        ("kite", "KITING, CHARGE STARTS AT 0"),
+        ("still", "STANDING STILL, CHARGE STARTS AT 0"),
+        ("walked_in", "WALKED INTO THE FIGHT ALREADY ENERGIZED"),
+    ):
+        lines.append(f"  {title}")
+        lines.append(header)
+        for label, names in builds:
+            load = Loadout(lvl, minute, stats_for(*names), ranks)
+            row = _row_for(load, minute, mode)
+            lines.append(
+                f"  {label:<20} {fmt_time(row['tank_ttk']):>6} {fmt_time(row['wipe3']):>6} "
+                f"{fmt_time(row['wipe5']):>6} {fmt_time(row['wave']):>6} "
+                f"{fmt_time(row['dragon_ttk']):>6} {row['procs5']:>5.0f}"
+            )
+        lines.append("")
+    lines.append("  Times are how long the target or the group stays alive. 'lives' means")
+    lines.append("  they are still up at the end of the 8s Barrage (14s for the wave).")
+    lines.append("  HOW TO READ THE PROC COLUMN")
+    lines.append("  Proc is Energized chains during the 5-champion fight. Each chain can touch")
+    lines.append("  up to 6 other units at level 13 and puts W, BoRK, and Guinsoo's 30 magic")
+    lines.append("  on-hit on them once. Runaan puts those on-hits on 2 units on every auto.")
+    lines.append("  Shiv costs 3000. Runaan costs 2650. Terminus and Wit's End are the other")
+    lines.append("  last-slot damage items if the game actually reaches a 5th legendary.")
+    lines.append("  Even-gold core (BoRK + Greaves + Guinsoo + Runaan) is 9650 and finishes")
+    lines.append(f"  at 17:00. Adding Shiv makes 12650. Gold at 18:00 is {gold_at_minute(18)}.")
+    lines.append("")
+    lines.append("  SHIV VERDICT")
+    lines.append("  • Skip it. On-hit Kog already has the spread item: Runaan hits 2 extra")
+    lines.append("    units on every auto. Shiv's chain fires about twice per Barrage, so the")
+    lines.append("    6-target bounce does not replace that.")
+    lines.append("  • Guinsoo + Shiv, with no Runaan: the 3-champion fight is still alive")
+    lines.append("    when Barrage ends. Guinsoo + Runaan wipes that fight in 5.8s. The wave")
+    lines.append("    goes from 3.4s to 6.5s. The solo tank is only ~0.3s faster.")
+    lines.append("  • Guinsoo + Runaan + Shiv does wipe a 5-champion clump inside Barrage")
+    lines.append("    (7.1s). Terminus in that same slot also wipes it (7.1s) and kills the")
+    lines.append("    tank in 3.6s instead of 4.0s and the dragon in 5.7s instead of 6.9s.")
+    lines.append("  • An even 18:00 game has 10770 gold. The 4-item core is 9650. The 3000g")
+    lines.append("    Shiv does not fit unless you are ahead or the game runs long, and the")
+    lines.append("    long-game slot is Terminus when a frontliner is the problem.")
+    return lines
 
 
 def fmt_time(value: float | None) -> str:
@@ -807,6 +1005,27 @@ def self_check(results: dict) -> None:
     row = results["Guinsoo 2nd"][g_done - 1]
     assert row["tank_attacks"] >= 8
     assert row["tank_dmg"] > 1000
+
+    # Shiv chains at least once if you walk into a fight fully Energized,
+    # and a build without Shiv never records a proc.
+    lvl = level_at_minute(15)
+    ranks = ranks_at_level(lvl)
+    shiv_load = Loadout(
+        lvl, 15,
+        stats_for("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Statikk Shiv"),
+        ranks,
+    )
+    bare = Loadout(
+        lvl, 15,
+        stats_for("Blade of the Ruined King", "Berserker's Greaves", "Guinsoo's Rageblade", "Runaan's Hurricane"),
+        ranks,
+    )
+    shiv_fight = simulate_window(shiv_load, team_targets(15), energy_mode="walked_in")
+    bare_fight = simulate_window(bare, team_targets(15), energy_mode="walked_in")
+    assert shiv_fight.breakdown.get("shiv_procs", 0) >= 1
+    assert bare_fight.breakdown.get("shiv_procs", 0) == 0
+    assert shiv_bounce_count(13) == 6
+    assert shiv_bounce_count(1) == 3
 
 
 def summarize(results: dict) -> str:
@@ -1056,6 +1275,7 @@ def summarize(results: dict) -> str:
     lines.append("    The solo tank still dies during Barrage, about a second and a half later.")
     lines.append("  • Either way the other item is next. Order stops mattering the moment both")
     lines.append("    are finished. Crit on Runaan does not replace Phantom Hit on a lone tank.")
+    lines.extend(shiv_section(15))
     lines.append("")
     lines.append("ASSUMPTIONS")
     lines.append("  • 7.3: Guinsoo 3000g, 35 AD / 30 AP / 30% AS, 30 magic on-hit, +8% AS × 4,")
@@ -1076,6 +1296,12 @@ def summarize(results: dict) -> str:
     lines.append("  • Zeal component is 15% AS / 15% crit. Recurve still has 15 physical on-hit")
     lines.append("    until the legendary consumes it. Wind Blade's old 15 flat damage is omitted;")
     lines.append("    the 7.3 item card does not list it.")
+    lines.append("  • Statikk Shiv: 40 AD, 40 AP, 30% AS, 4% MS, 3000g. At level 13 the chain")
+    lines.append("    hits 6 extra targets for 60 magic (90 vs minions and monsters), no crit.")
+    lines.append("    Bounces apply on-hit once and do not repeat Phantom Hit.")
+    lines.append("  • Energized cap is 100. Base gain is 6 per attack and 1 per 24 units")
+    lines.append("    moved; Shiv adds 5 per attack. Kiting moves for 60% of the gap between")
+    lines.append("    autos. Patch 7.3 does not republish that base gain.")
     lines.append("=" * 78)
     return "\n".join(lines)
 
