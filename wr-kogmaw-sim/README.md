@@ -1,0 +1,49 @@
+# Wild Rift Kog'Maw — Runaan's vs Guinsoo's after BoRK
+
+Patch **7.3**. Dragon lane. Rush **Blade of the Ruined King → Berserker's Greaves**, then choose the next item.
+
+## Run
+
+```bash
+python3 simulate_wr_kogmaw.py
+```
+
+Outputs:
+- `report.txt` — minute-by-minute fork, isolated item compare, verdict
+- `results.json` — per-minute numbers for both purchase orders
+
+## Question
+
+After BoRK and Berserker's, what changes in a fight and on the map if the next item is **Runaan's Hurricane** or **Guinsoo's Rageblade**?
+
+## Winner depends on the target
+
+Same gold. Runaan costs 2650 and finishes at **12:00**. Guinsoo costs 3000 and finishes at **13:00**. Both items are owned at **17:00**, and from then on the paths are identical.
+
+Raw second item, level 12, BoRK + Greaves + that legendary only:
+
+| Window | Guinsoo | Runaan |
+|--------|---------|--------|
+| Solo tank time-to-kill | **5.7s** | 7.3s |
+| Damage onto that tank in 4s | **2885** | 2482 |
+| Squishy time-to-kill | **3.2s** | 4.2s |
+| 3 champions in bolt range | 5679, tank dies 5.7s, fight lives | **8463, wipe at 7.8s** |
+| Dragon damage in one Barrage | **4495** | 3533 |
+| Full wave | 8.6s | **5.0s** |
+| Healing in the 3-champion fight | 869 | **1457** |
+
+From 13:00 to 16:00, while each path owns its item and not the other: Runaan takes **25% longer** to kill the solo tank, deals **16% less** dragon damage, removes **42% more** HP when three champions are clumped, and clears waves in **4.3s instead of 8.1s**.
+
+## Why
+
+- Guinsoo stacks to +32% attack speed and every 3rd stacked attack repeats Bio-Arcane Barrage, BoRK, and 30 magic on-hit. That is the tank and dragon item. The 30 AP is a small bump.
+- Runaan does not hit the same champion twice. The bolts are 55% AD, can crit, and apply W and BoRK to the two champions beside your target. Alone, they do nothing. In a clump or a wave, they are the item.
+- The auto itself is close. Runaan's 25% crit at 200% damage covers most of Guinsoo's extra AD.
+- Both builds already kill the tank during one Barrage. Guinsoo does it about a second and a half sooner. Runaan spends that time also killing the people next to him.
+- A 3-auto trade never reaches Phantom Hit. Guinsoo still wins it by about 10% from AD and the flat magic on-hit.
+
+## Buy
+
+- **Guinsoo's second** when one body is the job: the frontliner you have to cut, or the dragon. The wave takes most of Barrage.
+- **Runaan's second** when they stand together, or you need to shove and move. The wave dies inside one Barrage. The solo tank still dies in that Barrage, later.
+- Buy the other one next. Order stops mattering at two completed items.
