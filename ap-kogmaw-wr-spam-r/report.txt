@@ -1,0 +1,246 @@
+========================================================================================
+AP KOG'MAW — SPAM R   (Wild Rift 7.3, Living Artillery from 7.2c)
+Playstyle: Q shred, then R on cooldown. No W, no E.
+R mana: 50 per shell + 50 per stack, cap 500. Stacks fall off after 8s.
+R rank 1/2/3 cooldown: 2s / 1s / 1s. Damage 80/120/160 + 25% AP, doubles below 40% HP.
+Score: 60% half-mana (already poking) + 40% full-mana.
+Inside a 12s fight: 62% tank / 38% squishy, damage stops at the health bar.
+Plus a 40s siege vs a tank who returns to full HP every 8s (mana sustain).
+The target stands in the shells. No heal, no shield, no sidestep. Real games are lower.
+Runes: Arcane Comet, Manaflow Band, Transcendence, Gathering Storm.
+========================================================================================
+
+GOLD / LEVEL / TARGETS / BASE MANA
+  Min    Gold  Lvl   Tank HP  Tank MR  Squish HP  Base MP
+    1     860    2       896       36        826      417
+    4    1940    5      1220       41       1159      528
+    6    2780    7      1436       45       1381      602
+    8    3740    9      1792       48       1603      676
+   10    4700   11      2148       67       1825      750
+   12    5820   12      2396       84       1952      787
+   14    6940   13      2644      100       2079      824
+   16    8120   14      2892      117       2206      861
+   18    9360   15      3140      134       2333      898
+   20   10600   15      3280      149       2365      898
+
+----------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE BEST SPAM-R SCORE
+----------------------------------------------------------------------------------------
+   1:00 | score    19.4 | half-tank    244 (0R) | full-tank    244 (0R) | Malig → Horizon → Void
+         Amplifying Tome › Ring of Revelation  |  components  |  mana 417  |  cap 150/150
+   2:00 | score    33.5 | half-tank    432 (0R) | full-tank    432 (0R) | BF → Malig → Liandry
+         Fated Ashes  |  components  |  mana 514  |  cap 150/150
+   3:00 | score    45.8 | half-tank    590 (0R) | full-tank    590 (0R) | BF → Malig → Liandry
+         Fated Ashes › Amplifying Tome  |  components  |  mana 611  |  cap 150/150
+   4:00 | score    73.0 | half-tank    910 (4R) | full-tank   1220 (7R) | Tear → Seraph → Horizon
+         Tear of the Goddess › Lost Chapter  |  10% refund, components  |  mana 1324  |  cap 150/400
+   5:00 | score    86.7 | half-tank   1186 (4R) | full-tank   1328 (5R) | Luden → Horizon → Void
+         Lost Chapter › Hextech Alternator  |  components  |  mana 1005  |  cap 150/250
+   6:00 | score   106.3 | half-tank   1436 (4R) | full-tank   1436 (5R) | Malig → Horizon → Void
+         Malignance  |  Hatefog+UH  |  mana 1402  |  cap 200/250
+   7:00 | score   116.2 | half-tank   1538 (4R) | full-tank   1614 (6R) | Malig → Horizon → Void
+         Malignance › Boots of Speed  |  Hatefog+UH  |  mana 1439  |  cap 200/300
+   8:00 | score   133.9 | half-tank   1792 (5R) | full-tank   1792 (7R) | Malig → Crimson → Horizon
+         Malignance › Ionian Boots of Lucidity  |  Hatefog+UH  |  mana 1476  |  cap 200/400
+   9:00 | score   148.1 | half-tank   1970 (6R) | full-tank   1970 (9R) | Tear → Seraph → Horizon
+         Seraph's Embrace › Boots of Mana  |  25% refund  |  mana 2213  |  cap 150/500
+  10:00 | score   151.7 | half-tank   2148 (6R) | full-tank   2148 (7R) | Malig → Horizon → Void
+         Malignance › Boots of Mana  |  Hatefog+UH  |  mana 1550  |  cap 150/300
+  11:00 | score   155.6 | half-tank   2218 (6R) | full-tank   2218 (7R) | Malig → Cryptbloom → Horizon
+         Malignance › Boots of Mana › Void Amethyst  |  Hatefog+UH  |  mana 1550  |  cap 150/300
+  12:00 | score   169.2 | half-tank   2396 (6R) | full-tank   2396 (7R) | Malig → Spellslinger → Void
+         Malignance › Spellslinger's Shoes › Fiendish Codex  |  Hatefog+UH  |  mana 1587  |  cap 150/300
+  13:00 | score   170.2 | half-tank   2449 (6R) | full-tank   2466 (7R) | Malig → Spellslinger → Liandry
+         Malignance › Spellslinger's Shoes › Fated Ashes  |  Hatefog+UH  |  mana 1587  |  cap 150/250
+  14:00 | score   188.6 | half-tank   2644 (7R) | full-tank   2644 (8R) | BF → Malig → Liandry
+         Blackfire Torch › Boots of Mana › Malignance  |  Hatefog+UH, Blackfire  |  mana 2124  |  cap 250/400
+  15:00 | score   192.5 | half-tank   2714 (7R) | full-tank   2714 (7R) | Malig → Spellslinger → Liandry
+         Malignance › Spellslinger's Shoes › Fated Ashes › Haunting Guise  |  Hatefog+UH  |  mana 1624  |  cap 200/250
+  16:00 | score   204.5 | half-tank   2892 (7R) | full-tank   2892 (7R) | Malig → Spellslinger → Liandry
+         Malignance › Spellslinger's Shoes › Liandry's Torment  |  Hatefog+UH, %HP burn  |  mana 1661  |  cap 200/250
+  17:00 | score   207.3 | half-tank   2962 (7R) | full-tank   2962 (7R) | Malig → Spellslinger → Void
+         Malignance › Spellslinger's Shoes › Horizon Focus › Void Amethyst  |  Hatefog+UH, Horizon  |  mana 1661  |  cap 200/250
+  18:00 | score   220.6 | half-tank   3140 (7R) | full-tank   3140 (7R) | Malig → Spellslinger → Liandry
+         Malignance › Spellslinger's Shoes › Liandry's Torment › Void Amethyst  |  Hatefog+UH, %HP burn  |  mana 1698  |  cap 200/250
+  19:00 | score   224.5 | half-tank   3210 (6R) | full-tank   3210 (6R) | Malig → Liandry → Void
+         Malignance › Boots of Mana › Liandry's Torment › Void Staff  |  Hatefog+UH, %HP burn, %pen  |  mana 1698  |  cap 250/250
+  20:00 | score   237.7 | half-tank   3280 (6R) | full-tank   3280 (6R) | Malig → Spellslinger → Void
+         Malignance › Spellslinger's Shoes › Horizon Focus › Void Staff  |  Hatefog+UH, Horizon, %pen  |  mana 1698  |  cap 200/200
+
+----------------------------------------------------------------------------------------
+BUILD COMPARISON
+Avg = score from 6:00–20:00. ½T16 = half-mana tank damage in the 12s fight.
+Siege = 40s tank damage from full mana, target reset to full every 8s.
+----------------------------------------------------------------------------------------
+  Build                                Avg    ½T12    ½T16   ½R    FT16    Sg16   Mana   Cap
+  Malig → Spellslinger → Liandry     173.3    2396    2892    7    2892    6347   1661   200
+  Malig → Spellslinger → Void        171.9    2396    2892    7    2892    6144   1661   200
+  Malig → Liandry → Void             170.9    2203    2892    7    2892    5535   1661   200
+  Malig → Cryptbloom → Horizon       168.6    2277    2892    7    2892    4871   1661   200
+  Malig → Horizon → Void             168.1    2201    2889    7    2892    4806   1661   200
+  Malig → Orb → Horizon              165.7    2217    2892    7    2892    5735   1661   200
+  Malig → Stormsurge → Horizon       165.0    2217    2708    7    2678    4884   1661   200
+  Malig → Bloodletter → Void         164.3    2229    2654    7    2677    4928   1661   200
+  Tear → Seraph → Liandry            161.5    1781    2242    6    2741    4189   2361   150
+  Tear → Seraph → Horizon            161.4    1900    2310    7    2802    4403   2361   300
+  Malig → Cosmic → Void              161.3    2150    2514    7    2769    4498   1661   200
+  BF → Malig → Liandry               160.8    1908    2736    7    2892    5501   2161   250
+  Luden → Horizon → Void             160.6    2084    2694    7    2673    4589   1661   200
+  Luden → Liandry → Void             159.5    2072    2741    6    2741    6363   1661   150
+  Malig → Crimson → Horizon          155.9    1877    2411    7    2568    4108   1661   200
+  BF → Horizon → Void                154.8    1901    2567    7    2542    4433   1661   200
+  RoA → Malig → Horizon              149.4    1685    2435    7    2628    3927   2361   250
+
+----------------------------------------------------------------------------------------
+16:00 DETAIL  (tank / squishy, half mana then full mana)
+----------------------------------------------------------------------------------------
+  Malig → Spellslinger → Liandry   AP    223  AH   25  UH  20  R cd 0.69s  mana 1661
+    half  tank   2892 (KILL 11.8s)  7R  cap 200   squish   2206 (KILL 4.5s)
+    full  tank   2892 (KILL 11.8s)  7R  cap 250   siege40   6347
+    items: Malignance › Spellslinger's Shoes › Liandry's Torment
+  Malig → Spellslinger → Void      AP    233  AH   50  UH  20  R cd 0.59s  mana 1661
+    half  tank   2892 (KILL 11.3s)  7R  cap 200   squish   2206 (KILL 4.0s)
+    full  tank   2892 (KILL 11.7s)  7R  cap 250   siege40   6144
+    items: Malignance › Spellslinger's Shoes › Horizon Focus
+  Malig → Liandry → Void           AP    233  AH   25  UH  20  R cd 0.69s  mana 1661
+    half  tank   2892 (KILL 11.8s)  7R  cap 200   squish   2206 (KILL 5.3s)
+    full  tank   2892 (KILL 11.9s)  7R  cap 300   siege40   5535
+    items: Malignance › Boots of Mana › Liandry's Torment › Void Amethyst
+  Malig → Cryptbloom → Horizon     AP    243  AH   55  UH  20  R cd 0.57s  mana 1661
+    half  tank   2892 (KILL 11.5s)  7R  cap 200   squish   2206 (KILL 8.1s)
+    full  tank   2892 (KILL 11.9s)  8R  cap 300   siege40   4871
+    items: Malignance › Boots of Mana › Cryptbloom › Fiendish Codex
+  Malig → Horizon → Void           AP    243  AH   50  UH  20  R cd 0.59s  mana 1661
+    half  tank   2889 (      100%)  7R  cap 200   squish   2206 (KILL 8.1s)
+    full  tank   2892 (KILL 11.9s)  8R  cap 300   siege40   4806
+    items: Malignance › Boots of Mana › Horizon Focus › Void Amethyst
+  Malig → Orb → Horizon            AP    278  AH   35  UH  20  R cd 0.65s  mana 1661
+    half  tank   2892 (KILL 11.6s)  7R  cap 200   squish   2206 (KILL 4.1s)
+    full  tank   2892 (KILL 11.6s)  7R  cap 200   siege40   5735
+    items: Malignance › Boots of Mana › Infinity Orb › Fiendish Codex
+  Malig → Stormsurge → Horizon     AP    258  AH   35  UH  20  R cd 0.65s  mana 1661
+    half  tank   2708 (       94%)  7R  cap 200   squish   2206 (KILL 4.1s)
+    full  tank   2678 (       93%)  7R  cap 250   siege40   4884
+    items: Malignance › Boots of Mana › Stormsurge › Fiendish Codex
+  Malig → Bloodletter → Void       AP    228  AH   40  UH  20  R cd 0.62s  mana 1661
+    half  tank   2654 (       92%)  7R  cap 200   squish   2206 (KILL 8.3s)
+    full  tank   2677 (       93%)  7R  cap 250   siege40   4928
+    items: Malignance › Boots of Mana › Bloodletter's Curse › Void Amethyst
+  Tear → Seraph → Liandry          AP    230  AH   35  UH   0  R cd 0.74s  mana 2361
+    half  tank   2242 (       78%)  6R  cap 150   squish   2206 (KILL 9.8s)
+    full  tank   2741 (       95%)  10R  cap 500   siege40   4189
+    items: Seraph's Embrace › Boots of Mana › Liandry's Torment
+  Tear → Seraph → Horizon          AP    260  AH   60  UH   0  R cd 0.62s  mana 2361
+    half  tank   2310 (       80%)  7R  cap 300   squish   2206 (KILL 3.5s)
+    full  tank   2802 (       97%)  10R  cap 500   siege40   4403
+    items: Seraph's Embrace › Boots of Mana › Horizon Focus › Void Amethyst
+  Malig → Cosmic → Void            AP    233  AH   50  UH  20  R cd 0.59s  mana 1661
+    half  tank   2514 (       87%)  7R  cap 200   squish   2206 (KILL 8.1s)
+    full  tank   2769 (       96%)  8R  cap 250   siege40   4498
+    items: Malignance › Boots of Mana › Cosmic Drive › Void Amethyst
+  BF → Malig → Liandry             AP    263  AH   45  UH  20  R cd 0.61s  mana 2161
+    half  tank   2736 (       95%)  7R  cap 250   squish   2206 (KILL 4.0s)
+    full  tank   2892 ( KILL 8.9s)  8R  cap 400   siege40   5501
+    items: Blackfire Torch › Boots of Mana › Malignance › Haunting Guise
+  Luden → Horizon → Void           AP    253  AH   45  UH   0  R cd 0.69s  mana 1661
+    half  tank   2694 (       93%)  7R  cap 200   squish   2206 (KILL 8.2s)
+    full  tank   2673 (       92%)  7R  cap 250   siege40   4589
+    items: Luden's Echo › Boots of Mana › Horizon Focus › Void Amethyst
+  Luden → Liandry → Void           AP    243  AH   20  UH   0  R cd 0.83s  mana 1661
+    half  tank   2741 (       95%)  6R  cap 150   squish   2206 (KILL 9.7s)
+    full  tank   2741 (       95%)  6R  cap 150   siege40   6363
+    items: Luden's Echo › Boots of Mana › Liandry's Torment › Void Amethyst
+  Malig → Crimson → Horizon        AP    198  AH   75  UH  20  R cd 0.51s  mana 1661
+    half  tank   2411 (       83%)  7R  cap 200   squish   2206 (KILL 9.9s)
+    full  tank   2568 (       89%)  8R  cap 300   siege40   4108
+    items: Malignance › Crimson Lucidity › Horizon Focus
+  BF → Horizon → Void              AP    242  AH   55  UH   0  R cd 0.65s  mana 1661
+    half  tank   2567 (       89%)  7R  cap 200   squish   2206 (KILL 8.1s)
+    full  tank   2542 (       88%)  7R  cap 250   siege40   4433
+    items: Blackfire Torch › Boots of Mana › Horizon Focus › Void Amethyst
+  RoA → Malig → Horizon            AP    258  AH   35  UH  20  R cd 0.65s  mana 2361
+    half  tank   2435 (       84%)  7R  cap 250   squish   2206 (KILL 4.1s)
+    full  tank   2628 (       91%)  9R  cap 500   siege40   3927
+    items: Rod of Ages › Boots of Mana › Malignance › Fiendish Codex
+
+----------------------------------------------------------------------------------------
+HOW TO PRESS R  —  Malig → Spellslinger → Liandry at 16:00, tank (2892 HP / 117 MR)
+Cap = stop when the next shell would cost more than this, then let the 8s timer fall off.
+----------------------------------------------------------------------------------------
+    Cap    ½Tank  ½Shots       ½Kill     Full  FShots       FKill
+    150     2892       6       11.1s     2892       6       11.1s
+    200     2892       7       11.8s     2892       7       11.8s
+    250     2802       6           —     2892       7       11.8s
+    300     2388       6           —     2892       7       11.8s
+    400     2388       6           —     2690       7           —
+    500     2388       6           —     2690       7           —
+
+Half-mana trace at the scored cap 200 (Q is the 40-mana shred, R is the shell):
+   0.00s  Q   cost  40   hit    219   hp   2602
+   0.30s  R   cost  50   hit    152   hp   2439   stack 1
+   1.00s  R   cost 100   hit    173   hp   2204   stack 2
+   1.70s  R   cost 150   hit    186   hp   1954   stack 3
+   2.40s  R   cost 200   hit    199   hp   1691   stack 4
+   4.45s  Q   cost  40   hit    244   hp   1264
+   9.30s  Q   cost  40   hit    232   hp    787
+  10.40s  R   cost  50   hit    294   hp    449   stack 1
+  11.10s  R   cost 100   hit    313   hp     70   stack 2
+  11.80s  R   cost 150   hit      5   hp      0   stack 3
+
+----------------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------------
+  Best spam-R path: Malig → Spellslinger → Liandry
+  Avg score 6:00–20:00: 173.3
+  Malignance online: ~6:00
+  Liandry's Torment online: ~16:00
+  Spellslinger's Shoes online: ~11:00
+
+  At 16:00, half mana, this path puts 2892 into a 2892 HP / 117 MR tank (7 shells, kills at 11.8s).
+  Full mana: 2892 in 7 shells. 40s siege from full mana: 6347.
+  Pool is 1661 mana, R cooldown 0.69s. Scored caps: 200 on half mana, 250 on a full bar. Fastest tank kill in the table: cap 150.
+  On a half bar, a 250-mana shell refreshes the stack timer and the tank lives. Let the 8s timer fall off. The second volley is the kill.
+
+  MANA LADDER (no refund):
+  Shells 1–4 cost 50+100+150+200 = 500. Shells 5–7 add 250+300+350 = 900.
+  Shells 8–10 add 400+450+500 = 1350. Damage per mana falls off immediately.
+  Archangel and Seraph refund 25% of that. Tear refunds 10%. Nothing else does.
+  Rank 2 R (level 9, ~8:00) is a 1.0s base cooldown. Malignance's 20
+  ultimate haste already puts that under a second. Further haste boots
+  add almost no shells. Mana is what adds shells.
+
+  WHY THESE ITEMS:
+  • Malignance is the artillery item: 500 mana, 20 ultimate haste, Hatefog
+    (60+5% AP per second and 10 MR shred while you keep casting).
+  • Horizon Focus is 10% damage on a hit from 600+ range. R is 1100/1300/1500.
+    The amp is on every shell and every burn.
+  • Liandry is 2% max HP per second, refreshed by R. It is the long tank fight.
+    It gives no mana and no haste.
+  • Void Staff is 40% magic pen. Spellslinger adds 18 flat and 8% more,
+    and it cannot be bought before 10:00.
+  • Infinity Orb's 20% bonus starts below 40% HP, the same line where R doubles.
+    A healthy tank never sees it.
+  • Luden's isolated echo (7.3) is 175+14% AP every 9 seconds. One or two procs.
+    It does not refund mana. Tier-3 mage items no longer grant 7% pen.
+  • Seraph refunds a quarter of every shell and holds 1200 mana, but the
+    charge takes minutes and the shells are still weak without pen and Horizon.
+  • Max Q. Caustic Spittle is 20–32% MR shred for 4 seconds and a 65% AP hit.
+    W is the on-hit build, which is a different sim.
+  • E stays uncast in this pattern. Its mana is another shell, and the
+    target in this sim already stands in the artillery.
+
+  Seraph on this minute: half 2310 (7R), full 2802 on the bar (10R) from 2361 mana. The refund buys shells. Hatefog plus the burn still clears more of a half bar.
+
+  At 20:00 the highest single minute is Malig → Spellslinger → Void (237.7 vs 228.7). From 6:00 to 20:00 this path still leads (173.3 vs 171.9 for Malig → Spellslinger → Void).
+
+  SAME TARGET, OTHER PATHS at the spike (half-mana tank):
+  • Malig → Spellslinger → Void: 2892 (7R, cap 200), full 2892, siege 6144, mana 1661
+  • Malig → Liandry → Void: 2892 (7R, cap 200), full 2892, siege 5535, mana 1661
+  • Malig → Cryptbloom → Horizon: 2892 (7R, cap 200), full 2892, siege 4871, mana 1661
+  • Malig → Horizon → Void: 2889 (7R, cap 200), full 2892, siege 4806, mana 1661
+  • Malig → Orb → Horizon: 2892 (7R, cap 200), full 2892, siege 5735, mana 1661
+
+  The target stands still. Real artillery misses. The order above is the part
+  that still holds when they do.
+  PC LoL spam-R is a different sim (40→400 mana, Malignance/Horizon/Void).
+========================================================================================
