@@ -1117,7 +1117,10 @@ def summarize(results: Dict[str, List[Snapshot]]) -> str:
         "The target stands in the shells. No heal, no shield, no sidestep. "
         "Real games are lower; the ranking is what survives that."
     )
-    lines.append("Runes: Comet, Manaflow, Transcendence, Gathering Storm, Presence of Mind.")
+    lines.append("Runes: Comet / Manaflow / Transcendence / Gathering Storm")
+    lines.append("       Presence of Mind / Cut Down   |   Adaptive, Adaptive, Health")
+    lines.append("       Scorch if the game ends before 20:00. Axiom Arcanist is 8% on this R")
+    lines.append("       and it replaces Manaflow, which is the second volley.")
     lines.append("=" * 88)
     lines.append("")
     lines.append("GOLD / LEVEL / TARGETS / BASE MANA")
@@ -1400,6 +1403,8 @@ def summarize(results: Dict[str, List[Snapshot]]) -> str:
     )
     lines.append("  Bắn đến 400 mana không giết nhanh hơn, mà hết mana.")
     lines.append("  Max Q (32% shred), không max W. Malignance → Horizon → Void.")
+    lines.append("  Rune: Comet, Manaflow, Transcendence, Gathering Storm, PoM, Cut Down.")
+    lines.append("  Shard: AP, AP, 65 HP. Scorch nếu trận kết thúc trước phút 20.")
     lines.append("  Đừng mua Actualizer. Đừng mua 2 món Lost Chapter. Đừng rush Tear.")
     lines.append("  Sorc hơn Ionian. Mục tiêu đứng yên trong sim; trận thật thấp hơn, thứ tự build giữ nguyên.")
     return "\n".join(lines)
@@ -1451,13 +1456,22 @@ def export_json(results: Dict[str, List[Snapshot]], path: Path) -> None:
                 "tank_weight": TANK_WEIGHT,
                 "squish_weight": SQUISH_WEIGHT,
             },
-            "runes": [
-                "Arcane Comet",
-                "Manaflow Band",
-                "Transcendence",
-                "Gathering Storm",
-                "Presence of Mind",
-            ],
+            "runes": {
+                "primary": "Sorcery",
+                "keystone": "Arcane Comet",
+                "sorcery": ["Manaflow Band", "Transcendence", "Gathering Storm"],
+                "secondary": "Precision",
+                "precision": ["Presence of Mind", "Cut Down"],
+                "shards": ["Adaptive Force", "Adaptive Force", "Health"],
+                "lane_swap": "Scorch over Gathering Storm if the game ends before 20:00",
+                "modeled_in_damage": [
+                    "Arcane Comet",
+                    "Manaflow Band",
+                    "Transcendence",
+                    "Gathering Storm",
+                    "Presence of Mind",
+                ],
+            },
         },
         "builds": {
             name: [

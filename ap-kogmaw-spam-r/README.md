@@ -30,6 +30,26 @@ At 22:00, starting on half mana (you were already poking), this path puts **3663
 | ~21:00 | **Void Staff** — the tank shell |
 | ~27:00 | Rabadon's Deathcap |
 
+## Runes
+
+Sorcery primary, Precision secondary. Start Doran's Ring so the adaptive shards convert to AP (Kog'Maw's adaptive type is physical when AD and AP are tied).
+
+| Slot | Rune | Why |
+|------|------|-----|
+| Keystone | **Arcane Comet** | One proc per chain. R is the poke spell. |
+| Sorcery 1 | **Manaflow Band** | +250 mana, then 1% missing mana every 5s. This is the second volley. |
+| Sorcery 2 | **Transcendence** | +5 AH at 5, +5 at 8. The four shells come out faster. |
+| Sorcery 3 | **Gathering Storm** | +24 AP at 20:00, in time for Void. |
+| Precision | **Presence of Mind** | Mana back on champion hit (8s), plus 15% max mana on a takedown. |
+| Precision | **Cut Down** | 8% damage while the target is above 60% HP — the shells you fire before the reset. |
+| Offense | Adaptive Force | 9 AP |
+| Flex | Adaptive Force | 9 AP |
+| Defense | Health | 65 flat HP. Scaling HP if the lane cannot kill you. |
+
+**Scorch** replaces Gathering Storm when the game is decided in lane, before the 20:00 AP arrives.
+
+**Axiom Arcanist** sits in Manaflow's slot. Living Artillery is area damage, so the amp is 8%, and you lose the mana that lets the chain restart. Ultimate Hunter has the same problem: the 8-second stack timer is what spaces the volleys, not R's cooldown.
+
 ## How to press R
 
 Shell costs are 40, 80, 120, 160, then 200 and up to 400. Damage per mana falls off immediately.

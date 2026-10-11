@@ -5,7 +5,10 @@ R mana: 40 per shell + 40 per stack, cap 400. Stacks fall off after 8s.
 Score: 55% half-mana barrage (you were already spamming) + 45% full-mana siege.
 Inside a barrage: 62% tank / 38% squishy. Damage stops at the target's HP.
 The target stands in the shells. No heal, no shield, no sidestep. Real games are lower; the ranking is what survives that.
-Runes: Comet, Manaflow, Transcendence, Gathering Storm, Presence of Mind.
+Runes: Comet / Manaflow / Transcendence / Gathering Storm
+       Presence of Mind / Cut Down   |   Adaptive, Adaptive, Health
+       Scorch if the game ends before 20:00. Axiom Arcanist is 8% on this R
+       and it replaces Manaflow, which is the second volley.
 ========================================================================================
 
 GOLD / LEVEL / TARGETS / BASE MANA
@@ -270,5 +273,7 @@ TÓM TẮT
   Cách bắn: 4 phát (dừng khi phát kế tốn hơn 160 mana), chờ stack rơi 8 giây, bắn tiếp.
   Bắn đến 400 mana không giết nhanh hơn, mà hết mana.
   Max Q (32% shred), không max W. Malignance → Horizon → Void.
+  Rune: Comet, Manaflow, Transcendence, Gathering Storm, PoM, Cut Down.
+  Shard: AP, AP, 65 HP. Scorch nếu trận kết thúc trước phút 20.
   Đừng mua Actualizer. Đừng mua 2 món Lost Chapter. Đừng rush Tear.
   Sorc hơn Ionian. Mục tiêu đứng yên trong sim; trận thật thấp hơn, thứ tự build giữ nguyên.

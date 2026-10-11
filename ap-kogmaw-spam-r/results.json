@@ -13,13 +13,33 @@
       "tank_weight": 0.62,
       "squish_weight": 0.38
     },
-    "runes": [
-      "Arcane Comet",
-      "Manaflow Band",
-      "Transcendence",
-      "Gathering Storm",
-      "Presence of Mind"
-    ]
+    "runes": {
+      "primary": "Sorcery",
+      "keystone": "Arcane Comet",
+      "sorcery": [
+        "Manaflow Band",
+        "Transcendence",
+        "Gathering Storm"
+      ],
+      "secondary": "Precision",
+      "precision": [
+        "Presence of Mind",
+        "Cut Down"
+      ],
+      "shards": [
+        "Adaptive Force",
+        "Adaptive Force",
+        "Health"
+      ],
+      "lane_swap": "Scorch over Gathering Storm if the game ends before 20:00",
+      "modeled_in_damage": [
+        "Arcane Comet",
+        "Manaflow Band",
+        "Transcendence",
+        "Gathering Storm",
+        "Presence of Mind"
+      ]
+    }
   },
   "builds": {
     "Malig \u2192 Liandry \u2192 Void": [
