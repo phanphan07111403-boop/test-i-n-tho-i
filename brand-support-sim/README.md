@@ -60,3 +60,17 @@ python3 compare_brand_zyra.py
 Outputs: `brand-zyra-report.txt`, `brand-zyra-results.json`.
 
 Zyra is ahead. Damage lead is 28% at 8:00 and 5% at 20:00. Brand's detonation still hits the carry harder (1531 vs 1484). Fight healing ties once Diadem arrives at 22:00. Lane healing does not: Zyra 3542/min vs Brand 1915, because plants keep Liandry ticking. Hard CC is 3.71s for Zyra vs 1.13s for Brand, and 1.70s of Zyra's is a knockup.
+
+## Component order — heal at 13:00
+
+Same five legendaries (Scythe, Liandry, Diadem, Helia, Harmonic) plus Ionian boots. Pieces are bought as soon as the gold fits, instead of saving for a finished legendary. Liandry is no longer third.
+
+```bash
+python3 optimize_component_path.py
+```
+
+Outputs: `component-path-report.txt`, `component-path-results.json`.
+
+Damage starts converting to healing at **13:00**, when Helia and Diadem finish together. The Liandry-third order, on the same charge rules, converts at 21:00. All five legendaries are done at 22:00. Ionian finishes at 23:00.
+
+The early shopping list is Sickle, Circlet's Ruby / Tear / Idol, Circlet at 7:00, Fated Ashes at 9:00, Helia's Kindlegem at 11:00, then Helia's Tome, mirror, and combine at 12:00–13:00. The report lists every component with the gold paid and the stats that piece adds.
