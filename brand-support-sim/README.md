@@ -48,3 +48,15 @@ Ardent vs Mikael's barely matters on a 22-minute clock: Ardent finishes at 22:00
 - Soraka's W and Wish do not need Brand to land a combo first.
 - Liandry is 2% max HP per second plus 7% magic penetration. Helia's 40 AP does not replace it.
 - Harmonic Echo only copies a heal. It does not create one.
+
+## Brand vs Zyra, same build
+
+Scythe → Ionian → Liandry → Circlet/Diadem → Helia → Harmonic Echo.
+
+```bash
+python3 compare_brand_zyra.py
+```
+
+Outputs: `brand-zyra-report.txt`, `brand-zyra-results.json`.
+
+Zyra is ahead. Damage lead is 28% at 8:00 and 5% at 20:00. Brand's detonation still hits the carry harder (1531 vs 1484). Fight healing ties once Diadem arrives at 22:00. Lane healing does not: Zyra 3542/min vs Brand 1915, because plants keep Liandry ticking. Hard CC is 3.71s for Zyra vs 1.13s for Brand, and 1.70s of Zyra's is a knockup.

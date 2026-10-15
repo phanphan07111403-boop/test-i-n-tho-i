@@ -1,0 +1,145 @@
+==============================================================================
+BRAND vs ZYRA — SAME 7.3b SUPPORT BUILD
+Scythe → Ionian → Liandry → Circlet/Diadem → Helia → Harmonic Echo
+8-second fight, ultimate up, one frontline + one carry. No runes.
+==============================================================================
+
+SAME ITEMS, SO THE KIT IS THE WHOLE GAP
+  Neither champion heals or shields. Helia stores 30% of pre-mitigation
+  champion damage and spends it when Diadem heals an ally.
+  In a short fight both fill that cap, so fight healing ties.
+  Over a minute of lane, the champion who keeps Liandry ticking heals more.
+  Harmony is the 7.3b rate: +0.25% of max mana as heal/shield power.
+
+WHEN THE SHARED BUILD TURNS ON (both champions, same gold)
+  Min    Gold  Lvl  Finished
+    1     820    2  Spectral Sickle
+    2    1140    3  Spectral Sickle
+    3    1460    4  Spectral Sickle
+    4    1780    5  Spectral Sickle · Ionian Boots of Lucidity
+    5    2240    6  Black Mist Scythe · Ionian Boots of Lucidity
+    6    2700    7  Black Mist Scythe · Ionian Boots of Lucidity
+    7    3160    8  Black Mist Scythe · Ionian Boots of Lucidity
+    8    3620    8  Black Mist Scythe · Ionian Boots of Lucidity
+    9    4080    9  Black Mist Scythe · Ionian Boots of Lucidity
+   10    4540   10  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment
+   11    5100   10  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment
+   12    5660   11  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment
+   13    6220   11  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment
+   14    6780   12  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment
+   15    7340   12  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet
+   16    7900   12  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet
+   17    8460   13  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet
+   18    9020   13  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet
+   19    9580   13  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet · Echoes of Helia
+   20   10140   13  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet · Echoes of Helia
+   21   10700   14  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · Whispering Circlet · Echoes of Helia
+   22   11260   14  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · DIADEM · Echoes of Helia
+   23   11820   14  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · DIADEM · Echoes of Helia · Harmonic Echo
+   24   12380   14  Black Mist Scythe · Ionian Boots of Lucidity · Liandry's Torment · DIADEM · Echoes of Helia · Harmonic Echo
+
+  Liandry finished: 10:00
+  Circlet bought:   15:00
+  Diadem transforms:22:00  (8 mana charges/min, cap is 12)
+  Helia finished:   19:00
+  Harmonic finished:23:00
+  Liandry third pushes Diadem to the end of a normal game. Before that
+  minute both champions heal 0 on this build.
+
+------------------------------------------------------------------------------
+FIGHT — post-mitigation damage, ally healing, hard CC
+Hard CC is expected champion-seconds in the 8s fight (two bodies can both be hit).
+------------------------------------------------------------------------------
+  [8:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       1369     520     850       0       0   1.13      0.00    80
+  Zyra        1752     781     971       0       0   3.14      1.70    80
+  Zyra damage is +28% vs Brand. Zyra heal is +0 HP.
+
+  [12:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       1943     777    1167       0       0   1.13      0.00   126
+  Zyra        2295    1044    1251       0       0   3.71      1.70   126
+  Zyra damage is +18% vs Brand. Zyra heal is +0 HP.
+
+  [16:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       2113     797    1316       0       0   1.13      0.00   138
+  Zyra        2316     991    1325       0       0   3.71      1.70   138
+  Zyra damage is +10% vs Brand. Zyra heal is +0 HP.
+
+  [20:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       2466     935    1531       0       0   1.13      0.00   178
+  Zyra        2592    1109    1484       0       0   3.71      1.70   178
+  Zyra damage is +5% vs Brand. Zyra heal is +0 HP.
+
+  [22:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       2556     975    1581    1277    1416   1.13      0.00   178
+  Zyra        2673    1145    1529    1310    2615   3.71      1.70   178
+  Zyra damage is +5% vs Brand. Zyra heal is +33 HP.
+
+  [23:00]
+  Champ        Dmg   Front   Carry    Heal  Lane/m     CC NoCleanse    AP
+  Brand       2689    1020    1669    1699    1915   1.13      0.00   218
+  Zyra        2797    1196    1601    1740    3542   3.71      1.70   218
+  Zyra damage is +4% vs Brand. Zyra heal is +41 HP.
+
+------------------------------------------------------------------------------
+UTILITY DETAIL AT 20:00
+------------------------------------------------------------------------------
+  Brand stun: 1.75s, only if the target is already ablaze. Expected
+  value uses E hit 90% then Q hit 72%. One target. Mikael's cleanses it.
+  Brand also has a point-click E, so the blaze setup does not miss as a skillshot.
+  Zyra root: 1.0–1.75s by rank, skillshot. Aim the carry (70%), clip the
+  frontliner less often (45%). No setup spell required.
+  Zyra ultimate: 1s knockup on both champions at 85% if they are grouped.
+  Mikael's Blessing does not cleanse a knockup.
+  Zyra plants keep a 6s zone on the fight and refresh Liandry after she steps back.
+
+                        Brand       Zyra
+  Hard CC s              1.13       3.71
+  of which stun          1.13       0.00
+  of which root          0.00       2.01
+  of which knockup       0.00       1.70
+  Not cleansable         0.00       1.70
+  Plant zone s           0.00       6.00
+  Point-click setup       0.90       0.00
+  HP                     3020       2990
+  EHP vs physical        5678       5711
+  EHP vs magic           4542       4605
+  Mana                   2083       2080
+
+  HP and resists are the champion bases plus the same item health.
+  Mana is almost the same, so the Diadem tick (0.8% max mana) matches.
+  Any extra heal is Helia. An 8s fight fills its per-second cap for both.
+
+------------------------------------------------------------------------------
+WHICH IS BETTER ON THIS BUILD
+------------------------------------------------------------------------------
+  Zyra. The damage lead is real early and small later. The CC lead is large
+  at every minute. Fight healing ends in a tie, and it does not exist until Diadem.
+
+  Damage at 8:00, Scythe + Ionian + Fated Ashes: Zyra 1752, Brand 1369 (28%).
+  Damage at 20:00, Liandry + Helia: Zyra 2592, Brand 2466 (5%).
+  Frontline at 20:00: Zyra 1109, Brand 935.
+  Carry at 20:00: Brand 1531, Zyra 1484. Brand's detonation is the better single-target hit.
+  At 23:00 with Harmonic: Zyra 2797, Brand 2689.
+
+  Healing is 0 until Diadem at 22:00. That minute: Brand 1277, Zyra 1310.
+  With Harmonic at 23:00: Brand 1699, Zyra 1740. An 8s fight fills Helia's per-second cap for both, so the fight heal ties.
+  Lane heal/min at 23:00: Zyra 3542, Brand 1915.
+  Plants keep Liandry burning between casts. Brand's W does not.
+  That is the heal gap, and it is a lane gap.
+
+  Hard CC at 20:00: Zyra 3.71s, Brand 1.13s.
+  1.70s of Zyra's CC is a knockup, so Mikael's cannot cleanse it.
+  Brand's 1.75s stun is the longer lock on one champion, and E is point-click,
+  so the setup itself is reliable. It is still one cleansable stun, plus no zone.
+  Bodies are the same: about 3000 HP, and effective HP is within 1%.
+
+  On this item list Zyra does more of the things the items pay for:
+  Liandry uptime, lane healing once Diadem exists, and crowd control.
+  Brand is the better choice only when the draft wants that point-click stun.
+==============================================================================
