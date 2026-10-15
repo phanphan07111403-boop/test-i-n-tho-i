@@ -1,0 +1,740 @@
+{
+  "meta": {
+    "patch": "7.3b",
+    "build": [
+      "Spectral Sickle",
+      "Ionian Boots of Lucidity",
+      "Liandry's Torment",
+      "Whispering Circlet",
+      "Echoes of Helia",
+      "Harmonic Echo"
+    ],
+    "champions": [
+      "Brand",
+      "Zyra"
+    ],
+    "better": "Zyra",
+    "first_heal_minute": 22
+  },
+  "clock": [
+    {
+      "minute": 1,
+      "gold": 820,
+      "items": [
+        "Spectral Sickle",
+        "Ring of Revelation"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 2,
+      "gold": 1140,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 3,
+      "gold": 1460,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed",
+        "Ring of Revelation"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 4,
+      "gold": 1780,
+      "items": [
+        "Spectral Sickle",
+        "Ionian Boots of Lucidity"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 5,
+      "gold": 2240,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 6,
+      "gold": 2700,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Fated Ashes"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 7,
+      "gold": 3160,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Fated Ashes"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 8,
+      "gold": 3620,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Fated Ashes"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 9,
+      "gold": 4080,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Fated Ashes",
+        "Haunting Guise"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 10,
+      "gold": 4540,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 11,
+      "gold": 5100,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Tear of the Goddess"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 12,
+      "gold": 5660,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Forbidden Idol",
+        "Tear of the Goddess"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 13,
+      "gold": 6220,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Forbidden Idol",
+        "Tear of the Goddess",
+        "Ruby Crystal"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 14,
+      "gold": 6780,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Forbidden Idol",
+        "Tear of the Goddess",
+        "Ruby Crystal"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 15,
+      "gold": 7340,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 16,
+      "gold": 7900,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Bandleglass Mirror"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 17,
+      "gold": 8460,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Bandleglass Mirror"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 18,
+      "gold": 9020,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Bandleglass Mirror",
+        "Kindlegem"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 19,
+      "gold": 9580,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 20,
+      "gold": 10140,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 21,
+      "gold": 10700,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Echoes of Helia",
+        "Bandleglass Mirror"
+      ],
+      "diadem": false
+    },
+    {
+      "minute": 22,
+      "gold": 11260,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Bandleglass Mirror",
+        "Kindlegem"
+      ],
+      "diadem": true
+    },
+    {
+      "minute": 23,
+      "gold": 11820,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ],
+      "diadem": true
+    },
+    {
+      "minute": 24,
+      "gold": 12380,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ],
+      "diadem": true
+    }
+  ],
+  "rows": [
+    {
+      "champ": "Brand",
+      "minute": 8,
+      "level": 8,
+      "gold": 3620,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity"
+      ],
+      "ap": 80.0,
+      "ah": 25.0,
+      "mana": 778,
+      "hsp": 1.0,
+      "diadem": false,
+      "liandry": false,
+      "helia": false,
+      "harmonic": false,
+      "damage": 1369,
+      "front": 520,
+      "carry": 850,
+      "pre": 2060,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 1455,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 1545,
+      "ehp_phys": 2557,
+      "ehp_magic": 2231
+    },
+    {
+      "champ": "Zyra",
+      "minute": 8,
+      "level": 8,
+      "gold": 3620,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity"
+      ],
+      "ap": 80.0,
+      "ah": 25.0,
+      "mana": 770,
+      "hsp": 1.0,
+      "diadem": false,
+      "liandry": false,
+      "helia": false,
+      "harmonic": false,
+      "damage": 1752,
+      "front": 781,
+      "carry": 971,
+      "pre": 2647,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 2907,
+      "hard_cc": 3.14,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 1.44,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 1515,
+      "ehp_phys": 2553,
+      "ehp_magic": 2219
+    },
+    {
+      "champ": "Brand",
+      "minute": 12,
+      "level": 11,
+      "gold": 5660,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment"
+      ],
+      "ap": 126.0,
+      "ah": 25.0,
+      "mana": 1125,
+      "hsp": 1.06,
+      "diadem": false,
+      "liandry": true,
+      "helia": false,
+      "harmonic": false,
+      "damage": 1943,
+      "front": 777,
+      "carry": 1167,
+      "pre": 3469,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 2161,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 2305,
+      "ehp_phys": 4126,
+      "ehp_magic": 3411
+    },
+    {
+      "champ": "Zyra",
+      "minute": 12,
+      "level": 11,
+      "gold": 5660,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment"
+      ],
+      "ap": 126.0,
+      "ah": 25.0,
+      "mana": 1120,
+      "hsp": 1.06,
+      "diadem": false,
+      "liandry": true,
+      "helia": false,
+      "harmonic": false,
+      "damage": 2295,
+      "front": 1044,
+      "carry": 1251,
+      "pre": 4121,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 4284,
+      "hard_cc": 3.71,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 2.01,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 2275,
+      "ehp_phys": 4140,
+      "ehp_magic": 3435
+    },
+    {
+      "champ": "Brand",
+      "minute": 16,
+      "level": 12,
+      "gold": 7900,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet"
+      ],
+      "ap": 138.0,
+      "ah": 35.0,
+      "mana": 1586,
+      "hsp": 1.12,
+      "diadem": false,
+      "liandry": true,
+      "helia": false,
+      "harmonic": false,
+      "damage": 2113,
+      "front": 797,
+      "carry": 1316,
+      "pre": 3978,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 2453,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 2700,
+      "ehp_phys": 4954,
+      "ehp_magic": 4028
+    },
+    {
+      "champ": "Zyra",
+      "minute": 16,
+      "level": 12,
+      "gold": 7900,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet"
+      ],
+      "ap": 138.0,
+      "ah": 35.0,
+      "mana": 1582,
+      "hsp": 1.12,
+      "diadem": false,
+      "liandry": true,
+      "helia": false,
+      "harmonic": false,
+      "damage": 2316,
+      "front": 991,
+      "carry": 1325,
+      "pre": 4411,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 4924,
+      "hard_cc": 3.71,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 2.01,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 2670,
+      "ehp_phys": 4980,
+      "ehp_magic": 4072
+    },
+    {
+      "champ": "Brand",
+      "minute": 20,
+      "level": 13,
+      "gold": 10140,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ],
+      "ap": 178.0,
+      "ah": 45.0,
+      "mana": 2083,
+      "hsp": 1.132,
+      "diadem": false,
+      "liandry": true,
+      "helia": true,
+      "harmonic": false,
+      "damage": 2466,
+      "front": 935,
+      "carry": 1531,
+      "pre": 4681,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 2855,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 3020,
+      "ehp_phys": 5678,
+      "ehp_magic": 4542
+    },
+    {
+      "champ": "Zyra",
+      "minute": 20,
+      "level": 13,
+      "gold": 10140,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ],
+      "ap": 178.0,
+      "ah": 45.0,
+      "mana": 2080,
+      "hsp": 1.132,
+      "diadem": false,
+      "liandry": true,
+      "helia": true,
+      "harmonic": false,
+      "damage": 2592,
+      "front": 1109,
+      "carry": 1484,
+      "pre": 4976,
+      "heal": 0,
+      "lane_heal": 0,
+      "lane_pre": 5796,
+      "hard_cc": 3.71,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 2.01,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 2990,
+      "ehp_phys": 5711,
+      "ehp_magic": 4605
+    },
+    {
+      "champ": "Brand",
+      "minute": 22,
+      "level": 14,
+      "gold": 11260,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "ap": 178.0,
+      "ah": 65.0,
+      "mana": 2272,
+      "hsp": 1.137,
+      "diadem": true,
+      "liandry": true,
+      "helia": true,
+      "harmonic": false,
+      "damage": 2556,
+      "front": 975,
+      "carry": 1581,
+      "pre": 4892,
+      "heal": 1277,
+      "lane_heal": 1416,
+      "lane_pre": 3317,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 3340,
+      "ehp_phys": 6430,
+      "ehp_magic": 5063
+    },
+    {
+      "champ": "Zyra",
+      "minute": 22,
+      "level": 14,
+      "gold": 11260,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "ap": 178.0,
+      "ah": 65.0,
+      "mana": 2270,
+      "hsp": 1.137,
+      "diadem": true,
+      "liandry": true,
+      "helia": true,
+      "harmonic": false,
+      "damage": 2673,
+      "front": 1145,
+      "carry": 1529,
+      "pre": 5172,
+      "heal": 1310,
+      "lane_heal": 2615,
+      "lane_pre": 6832,
+      "hard_cc": 3.71,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 2.01,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 3310,
+      "ehp_phys": 6471,
+      "ehp_magic": 5147
+    },
+    {
+      "champ": "Brand",
+      "minute": 23,
+      "level": 14,
+      "gold": 11820,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ],
+      "ap": 218.0,
+      "ah": 65.0,
+      "mana": 2272,
+      "hsp": 1.137,
+      "diadem": true,
+      "liandry": true,
+      "helia": true,
+      "harmonic": true,
+      "damage": 2689,
+      "front": 1020,
+      "carry": 1669,
+      "pre": 5143,
+      "heal": 1699,
+      "lane_heal": 1915,
+      "lane_pre": 3483,
+      "hard_cc": 1.13,
+      "uncleanseable": 0.0,
+      "stun_s": 1.13,
+      "root_s": 0.0,
+      "knockup_s": 0.0,
+      "zone_s": 0.0,
+      "point_click": 0.9,
+      "hp": 3340,
+      "ehp_phys": 6430,
+      "ehp_magic": 5063
+    },
+    {
+      "champ": "Zyra",
+      "minute": 23,
+      "level": 14,
+      "gold": 11820,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ],
+      "ap": 218.0,
+      "ah": 65.0,
+      "mana": 2270,
+      "hsp": 1.137,
+      "diadem": true,
+      "liandry": true,
+      "helia": true,
+      "harmonic": true,
+      "damage": 2797,
+      "front": 1196,
+      "carry": 1601,
+      "pre": 5410,
+      "heal": 1740,
+      "lane_heal": 3542,
+      "lane_pre": 7154,
+      "hard_cc": 3.71,
+      "uncleanseable": 1.7,
+      "stun_s": 0.0,
+      "root_s": 2.01,
+      "knockup_s": 1.7,
+      "zone_s": 6.0,
+      "point_click": 0.0,
+      "hp": 3310,
+      "ehp_phys": 6471,
+      "ehp_magic": 5147
+    }
+  ]
+}

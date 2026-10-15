@@ -1,0 +1,211 @@
+==============================================================================
+BRAND SUPPORT — HEAL AND DAMAGE (Wild Rift patch 7.3b)
+Scythe → Ionian → Circlet/Diadem → Helia → Harmonic → Ardent or Mikael
+8-second fight, ultimate up. One frontline + one carry. No runes.
+==============================================================================
+
+HOW THE ITEMS INTERACT ON BRAND
+  Brand has no heal or shield. Helia, Harmonic and Ardent do nothing
+  until something heals or shields an ally.
+  Diadem is that trigger: while Brand is in combat it heals the lowest
+  ally for 0.8% max mana per second, and that heal spends Helia shards.
+  Helia stores 30% of pre-mitigation champion damage, capped at 80–250
+  per spend. Diadem spends every second, so the cap is per second.
+  Before Diadem, shards sit in the item and expire as unused healing.
+  Font of Life would spend them on the Q stun. It is not in this run.
+  Harmony on 7.3b is the 7.3a nerf: +0.25% of max mana as heal/shield power.
+
+SUPPORT GOLD AND WHEN THE USER BUILD TURNS ON
+  Min    Gold  Lvl   CarryHP   FrontHP  Finished items
+    1     820    2       820      1100  Spectral Sickle
+    2    1140    3       940      1300  Spectral Sickle
+    3    1460    4      1060      1500  Spectral Sickle
+    4    1780    5      1180      1700  Spectral Sickle · Ionian Boots of Lucidity
+    5    2240    6      1300      1900  Black Mist Scythe · Ionian Boots of Lucidity
+    6    2700    7      1420      2100  Black Mist Scythe · Ionian Boots of Lucidity
+    7    3160    8      1540      2300  Black Mist Scythe · Ionian Boots of Lucidity
+    8    3620    8      1575      2370  Black Mist Scythe · Ionian Boots of Lucidity
+    9    4080    9      1695      2570  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet
+   10    4540   10      1815      2770  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet
+   11    5100   10      1850      2840  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet
+   12    5660   11      1970      3040  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet
+   13    6220   11      2005      3110  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet
+   14    6780   12      2125      3310  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet · Echoes of Helia
+   15    7340   12      2160      3380  Black Mist Scythe · Ionian Boots of Lucidity · Whispering Circlet · Echoes of Helia
+   16    7900   12      2195      3450  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia
+   17    8460   13      2315      3650  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia
+   18    9020   13      2350      3720  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia · Harmonic Echo
+   19    9580   13      2385      3790  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia · Harmonic Echo
+   20   10140   13      2420      3860  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia · Harmonic Echo
+   21   10700   14      2540      4060  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia · Harmonic Echo
+   22   11260   14      2575      4130  Black Mist Scythe · Ionian Boots of Lucidity · DIADEM · Echoes of Helia · Harmonic Echo · Ardent Censer
+
+  Circlet bought: ~9:00. Mana Charge at 8/min (cap is 12/min).
+  Diadem transforms: ~16:00. At the 12/min cap it would be ~4 minutes earlier.
+  Ardent finishes: 22.
+  Mikael's finishes: not in 22:00.
+  A 20-minute game ends on Harmonic Echo plus a Forbidden Idol component.
+
+------------------------------------------------------------------------------
+HEALING VS ENCHANTERS — same items as Brand (Ardent path)
+Ally HP restored in the 8s fight. Shields listed separately.
+------------------------------------------------------------------------------
+  [10:00]
+  Champ            Heal   Shield  Protected  Lane/min  AP   Mana   HSP
+  Brand               0        0          0         0    48  1488    12%
+  Soraka           1574        0       1574      3551    48  1542    12%
+  Sona              220      480        700       716    48  1001    11%
+  Nami              169        0        169       886    48  1443    12%
+  Yuumi             404      180        584       491    48  1488    12%
+  Seraphine         158      623        781        68    48  1488    12%
+
+  [14:00]
+  Champ            Heal   Shield  Protected  Lane/min  AP   Mana   HSP
+  Brand               0        0          0         0   104  2034    13%
+  Soraka           1881        0       1881      5718   104  2120    13%
+  Sona              476      530       1007      1682   104  1459    12%
+  Nami              655        0        655      1630   104  1989    13%
+  Yuumi             639      237        876      1668   104  2034    13%
+  Seraphine         445      707       1151       301   104  2034    13%
+
+  [18:00]
+  Champ            Heal   Shield  Protected  Lane/min  AP   Mana   HSP
+  Brand            1418        0       1418      1351   148  2223    14%
+  Soraka           3266        0       3266      9790   148  2325    14%
+  Sona              850      766       1616      2985   148  1604    12%
+  Nami             1155        0       1155      2989   148  2178    13%
+  Yuumi            1238      346       1584      2962   148  2223    14%
+  Seraphine         909     1039       1948       884   148  2223    14%
+
+  [22:00]
+  Champ            Heal   Shield  Protected  Lane/min  AP   Mana   HSP
+  Brand            1638        0       1638      1554   198  2272    22%
+  Soraka           3788        0       3788     11617   198  2390    22%
+  Sona              975      879       1854      3482   198  1609    20%
+  Nami             1358        0       1358      3475   198  2227    22%
+  Yuumi            1410      399       1808      3410   198  2272    22%
+  Seraphine        1086     1212       2298      1219   198  2272    22%
+
+------------------------------------------------------------------------------
+DAMAGE — post-mitigation on frontline + carry in the same 8s fight
+------------------------------------------------------------------------------
+  [10:00]
+  Build                                 Total    Front    Carry     AP
+  Brand Diadem Helia Ardent              1390      459      931     48
+  Brand Diadem Helia Mikael              1390      459      931     48
+  Brand Liandry Rylai Mandate            1806      587     1219    148
+  Brand Blackfire Liandry Rylai          2013      669     1344    153
+  Brand Liandry Mandate Rylai            2018      746     1272    118
+  Zyra (Zyra Liandry Rylai)              2185      858     1328    148
+  Morgana (Morgana Liandry Rylai)        1357      551      806    148
+  Lux (Lux Mandate Deathcap)             1459      620      839    133
+  Seraphine (Brand Diadem Helia Ardent)      342      132      210     48
+
+  [14:00]
+  Build                                 Total    Front    Carry     AP
+  Brand Diadem Helia Ardent              1606      577     1028    104
+  Brand Diadem Helia Mikael              1606      577     1028    104
+  Brand Liandry Rylai Mandate            2327      920     1407    204
+  Brand Blackfire Liandry Rylai          2179      785     1393    244
+  Brand Liandry Mandate Rylai            2308      922     1386    179
+  Zyra (Zyra Liandry Rylai)              2749     1242     1507    204
+  Morgana (Morgana Liandry Rylai)        1748      816      932    204
+  Lux (Lux Mandate Deathcap)             1708      790      918    264
+  Seraphine (Brand Diadem Helia Ardent)      388      164      224    104
+
+  [18:00]
+  Build                                 Total    Front    Carry     AP
+  Brand Diadem Helia Ardent              1852      625     1227    148
+  Brand Diadem Helia Mikael              1852      625     1227    148
+  Brand Liandry Rylai Mandate            2635      983     1652    233
+  Brand Blackfire Liandry Rylai          2686      988     1698    263
+  Brand Liandry Mandate Rylai            2764     1032     1732    243
+  Zyra (Zyra Liandry Rylai)              3154     1328     1826    303
+  Morgana (Morgana Liandry Rylai)        1862      817     1045    233
+  Lux (Lux Mandate Deathcap)             1944      840     1104    368
+  Seraphine (Brand Diadem Helia Ardent)      463      182      281    148
+
+  [22:00]
+  Build                                 Total    Front    Carry     AP
+  Brand Diadem Helia Ardent              2068      699     1369    198
+  Brand Diadem Helia Mikael              1924      653     1271    148
+  Brand Liandry Rylai Mandate            3280     1226     2054    293
+  Brand Blackfire Liandry Rylai          3270     1215     2056    313
+  Brand Liandry Mandate Rylai            3060     1155     1905    268
+  Zyra (Zyra Liandry Rylai)              3780     1585     2195    472
+  Morgana (Morgana Liandry Rylai)        2135      938     1197    293
+  Lux (Lux Mandate Deathcap)             2150      928     1222    459
+  Seraphine (Brand Diadem Helia Ardent)      514      202      312    198
+
+------------------------------------------------------------------------------
+FULL 6-ITEM SHEET at level 13 (soul-forge capped, Diadem transformed)
+Targets: the 18:00 carry and frontline. This ignores the gold clock.
+------------------------------------------------------------------------------
+  Champ / 6th item                 Heal   Shield  Protected   Damage     AP   Mana
+  Brand Ardent                     1564        0       1564     1995    198   2223
+  Brand Mikael                     1766        0       1766     1852    148   2223
+  Soraka                           3762        0       3762      144    198   2325
+  Sona                              971      879       1850      460    198   1604
+  Nami                             1331        0       1331      530    198   2178
+  Yuumi                            1393      398       1791      273    198   2223
+  Seraphine                        1037     1210       2248      508    198   2223
+
+  Damage build, same sheet             Damage    Front    Carry     AP
+  Brand Diadem Helia Ardent              1995      671     1325    198
+  Brand Liandry Rylai Mandate            2946     1088     1857    293
+  Brand Blackfire Liandry Rylai          2933     1077     1857    313
+  Brand Liandry Mandate Rylai            2935     1097     1838    268
+  Zyra                                   3691     1543     2147    472
+  Morgana                                2115      924     1191    293
+  Lux                                    2148      928     1221    459
+  Seraphine                               508      199      308    198
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Healing: this Brand build does not replace a healer.
+  At 10:00 Brand's fight heal is 0 (no Diadem yet) against Soraka's 1574.
+  At 14:00 Helia is finished and Brand still heals 0.
+  Shards have nowhere to go until Diadem, or Mikael's, actually heals an ally.
+  At 22:00 on the gold clock, Brand restores 1638 HP in the 8s fight
+  (Soraka 3788, Nami 1358, Yuumi 1410, Sona heal 975 + shield 879,
+  Seraphine heal 1086 + shield 1212).
+  That is 43% of Soraka. Most of Brand's number is Helia
+  turning the damage he just dealt into healing, and it stops the moment he stops hitting.
+  On raw fight heal he is 121% of Nami and near Yuumi.
+  Count shields and he falls behind Seraphine, Sona and Yuumi. He has no shield of his own.
+  Lane heal/min at 22:00, ultimates excluded: Brand 1554, Soraka 11617, Nami 3475.
+  Lane assumes heals are cast on cooldown about 70% of the minute. Soraka's regen at
+  six items can actually pay for that. Brand's lane heal is only the Diadem ticks
+  during trades, plus Helia on W poke.
+  Sona's mana growth is 4.9, so her Diadem tick is the small one. Her shield is the kit.
+
+  Ardent vs Mikael's on the full 6-item sheet (level 13, gold ignored):
+  Ardent: heal 1564, damage 1995, 198 AP.
+  Mikael: heal 1766, damage 1852, 148 AP.
+  Mikael's fight heal is higher by 202, because the active lands in this fight.
+  That active is on a 75s cooldown. Ardent's 50 AP and 8% heal/shield power are up every fight,
+  and Ardent deals 143 more damage.
+  Buy Mikael's for the cleanse. Buy Ardent if the carry auto-attacks and you want the higher damage.
+  On the 22-minute clock Ardent only just finishes, and Mikael's is ~40 gold short.
+  The 6th item is not what decides the game. Diadem is.
+
+  Damage: the enchanter path gives up the reason to pick Brand.
+  At 22:00, Diadem Brand deals 2068.
+  Liandry → Rylai → Mandate deals 3280.
+  Blackfire → Liandry → Rylai deals 3270.
+  Liandry Brand is 59% more damage on this fight.
+  Same minute: Zyra 3780, Morgana 2135, Lux 2150.
+  Liandry is the gap: 2% max HP per second on the frontline, refreshed by Blaze,
+  plus 7% magic penetration. Helia's 40 AP does not replace that.
+  Full sheet, same targets: Ardent Brand 1995, Liandry Brand 2946, Zyra 3691.
+
+  What this build is:
+  From 0:00 to the Diadem minute, a mage support with no Liandry and no heal.
+  After Diadem, a combat heal that can pass Nami's fight total and still
+  sit at about 40% of Soraka, with no shield and with lane healing well behind.
+  Damage lands next to Morgana and Lux and well behind Liandry Brand and Zyra.
+  Harmonic Echo only copies a heal. Brand does not have one until Diadem.
+  Pick Liandry → Rylai when Brand is in the game to deal damage.
+  Pick Soraka, Nami, Yuumi or Seraphine when the slot has to heal.
+==============================================================================

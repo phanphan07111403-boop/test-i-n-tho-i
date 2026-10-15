@@ -1,0 +1,277 @@
+==============================================================================
+COMPONENT ORDER — GOLD EFFICIENCY AND DAMAGE-TO-HEAL (Wild Rift 7.3b)
+Black Mist Scythe, Liandry, Diadem, Helia, Harmonic, plus Ionian boots.
+Every component is listed. Legendaries are only the combine or the transform.
+8-second fight, ultimate up, one frontline + one carry. No runes.
+==============================================================================
+
+WHAT WAS OPTIMIZED
+  Spend gold on the next affordable piece. Do not sit on gold to finish
+  a legendary in one buy. Helia stores 30% of pre-mitigation damage and
+  spends all of it only when something heals an ally. Brand and Zyra have
+  no heal, so that something is Diadem. The conversion minute is the first
+  minute both Diadem and Helia are owned.
+  Circlet charges 8 procs a minute at 10 AH, up to the 12/min cap:
+  rate = min(12, 8 × (100 + AH) / 110). The buy minute adds 0 charges.
+  50 charges transform Circlet into Diadem. Harmony is +0.25% of max mana
+  as heal/shield power.
+
+  Orders checked: 30240.
+  Conversion, this order: 13:00 (Circlet 7:00, Helia 13:00, Diadem 13:00).
+  Conversion, Liandry third: 21:00 (Circlet 15:00, Helia 19:00, Diadem 21:00).
+  All 5 legendaries: this order 22:00, Liandry third 23:00.
+  Gold left in pocket at the end of each minute, 0:00 through 23:00: this order 4620, Liandry third 8420.
+
+FIVE LEGENDARIES, IN THE ORDER THEY TURN ON
+   5:00  Black Mist Scythe
+  13:00  Echoes of Helia
+  13:00  Diadem of Songs
+  17:00  Liandry's Torment
+  22:00  Harmonic Echo
+  23:00  Ionian Boots of Lucidity (epic boots, not a legendary)
+
+------------------------------------------------------------------------------
+PIECE BY PIECE
+Cost is the gold paid at that buy (components already owned are not paid again).
+Running totals are Brand's. Zyra's AP and AH match; her base mana is within a few points.
+------------------------------------------------------------------------------
+
+   0:00   500g  left    0  buy       Spectral Sickle              [Black Mist Scythe]
+         piece  +20 AP. support quest starts
+         now    AP 20  AH 0  HP 0  mana 435  HSP 0.0%
+   2:00   500g  left  140  buy       Ruby Crystal                 [Diadem of Songs]
+         piece  +200 HP. +200 HP, sits until its recipe consumes it
+         now    AP 20  AH 0  HP 200  mana 533  HSP 0.0%
+   3:00   400g  left   60  buy       Tear of the Goddess          [Diadem of Songs]
+         piece  +200 mana. +200 mana, sits until Circlet
+         now    AP 20  AH 0  HP 200  mana 782  HSP 0.0%
+   5:00   700g  left  140  buy       Forbidden Idol               [Diadem of Songs]
+         piece  +5 AH, +100 HP, +6.0% HSP. +100 HP, +5 AH, +6% HSP, until Circlet consumes it
+         now    AP 20  AH 5  HP 300  mana 880  HSP 6.0%
+   5:00     0g  left  140  upgrade   Black Mist Scythe            [Black Mist Scythe]
+         piece  +8 AP, +10 AH. free upgrade; +4 AP and +25 HP each minute from 6:00, cap 10
+         now    AP 28  AH 15  HP 300  mana 880  HSP 6.0%
+   7:00   800g  left  260  buy       Whispering Circlet           [Diadem of Songs]
+         piece  -5 AH, -100 HP, +300 mana, +5.2% HSP. Harmony starts; the buy minute adds 0 charges
+         now    AP 36  AH 10  HP 250  mana 1278  HSP 11.2%
+   8:00   500g  left  220  buy       Amplifying Tome              [Liandry's Torment]
+         piece  +20 AP. +20 AP until a recipe consumes it
+         now    AP 60  AH 10  HP 275  mana 1278  HSP 11.2%
+   9:00   400g  left  280  buy       Fated Ashes                  [Liandry's Torment]
+         piece  +20 AP. +40 AP and Kindle, about 5 magic damage per second
+         now    AP 84  AH 10  HP 300  mana 1439  HSP 11.6%
+  10:00   500g  left  240  buy       Ruby Crystal                 [Echoes of Helia]
+         piece  +200 HP. +200 HP, sits until its recipe consumes it
+         now    AP 88  AH 10  HP 525  mana 1600  HSP 12.0%
+  11:00   500g  left  300  buy       Kindlegem                    [Echoes of Helia]
+         piece  +10 AH, -25 HP. +175 HP and +10 AH. This is the haste that lets the charge clock finish on time
+         now    AP 92  AH 20  HP 525  mana 1712  HSP 12.3%
+  11:00   300g  left    0  buy       Ring of Revelation           [Echoes of Helia]
+         piece  no combat-stat change. recipe piece, no combat stats
+         now    AP 92  AH 20  HP 525  mana 1712  HSP 12.3%
+  12:00   500g  left   60  buy       Amplifying Tome              [Echoes of Helia]
+         piece  +20 AP. +20 AP until a recipe consumes it
+         now    AP 116  AH 20  HP 550  mana 1883  HSP 12.7%
+  13:00   100g  left  520  buy       Bandleglass Mirror           [Echoes of Helia]
+         piece  -20 AP, +10 AH. consumes the Tome, so its 20 AP leaves and +10 AH arrives. The legendary is bought this same minute, so the lost 20 AP is replaced at once.
+         now    AP 100  AH 30  HP 575  mana 2005  HSP 13.0%
+  13:00   500g  left   20  buy       Echoes of Helia              [Echoes of Helia]
+         piece  +40 AP, +25 HP. stores 30% of pre-mitigation damage; Diadem is what spends it
+         now    AP 140  AH 30  HP 600  mana 2005  HSP 13.0%
+  13:00     0g  left   20  transform Diadem of Songs              [Diadem of Songs]
+         piece  +120 mana, +0.3% HSP. 50 charges reached; heals 0.8% max mana per second and spends Helia
+         now    AP 140  AH 30  HP 600  mana 2125  HSP 13.3%
+  14:00   500g  left   80  buy       Amplifying Tome              [Liandry's Torment]
+         piece  +20 AP. +20 AP until a recipe consumes it
+         now    AP 164  AH 30  HP 625  mana 2174  HSP 13.4%
+  15:00   500g  left  140  buy       Ruby Crystal                 [Liandry's Torment]
+         piece  +200 HP. +200 HP, sits until its recipe consumes it
+         now    AP 168  AH 30  HP 850  mana 2174  HSP 13.4%
+  16:00   300g  left  400  buy       Haunting Guise               [Liandry's Torment]
+         piece  +10 AP. item is +30 AP and +200 HP; the Ruby's 200 HP is consumed, so the net is the delta
+         now    AP 178  AH 30  HP 850  mana 2174  HSP 13.4%
+  17:00   800g  left  160  buy       Liandry's Torment            [Liandry's Torment]
+         piece  +100 HP. burn becomes 2% max HP per second, plus 7% magic pen
+         now    AP 178  AH 30  HP 950  mana 2223  HSP 13.6%
+  18:00   500g  left  220  buy       Amplifying Tome              [Harmonic Echo]
+         piece  +20 AP. +20 AP until a recipe consumes it
+         now    AP 198  AH 30  HP 950  mana 2223  HSP 13.6%
+  19:00   300g  left  480  buy       Ring of Revelation           [Harmonic Echo]
+         piece  no combat-stat change. recipe piece, no combat stats
+         now    AP 198  AH 30  HP 950  mana 2223  HSP 13.6%
+  19:00   300g  left  180  buy       Ring of Revelation           [Ionian Boots of Lucidity]
+         piece  no combat-stat change. recipe piece, no combat stats
+         now    AP 198  AH 30  HP 950  mana 2223  HSP 13.6%
+  20:00   500g  left  240  buy       Ruby Crystal                 [Harmonic Echo]
+         piece  +200 HP. +200 HP, sits until its recipe consumes it
+         now    AP 198  AH 30  HP 1150  mana 2223  HSP 13.6%
+  21:00   500g  left  300  buy       Kindlegem                    [Harmonic Echo]
+         piece  +10 AH, -25 HP. +175 HP and +10 AH. Diadem is already up, so this haste does not move the heal
+         now    AP 198  AH 40  HP 1125  mana 2272  HSP 13.7%
+  22:00   100g  left  760  buy       Bandleglass Mirror           [Harmonic Echo]
+         piece  -20 AP, +10 AH. consumes the Tome, so its 20 AP leaves and +10 AH arrives. The legendary is bought this same minute, so the lost 20 AP is replaced at once.
+         now    AP 178  AH 50  HP 1125  mana 2272  HSP 13.7%
+  22:00   600g  left  160  buy       Harmonic Echo                [Harmonic Echo]
+         piece  +40 AP, +25 HP. does not create a heal; multiplies Diadem and Helia healing by 1.30
+         now    AP 218  AH 50  HP 1150  mana 2272  HSP 13.7%
+  23:00   400g  left  320  buy       Boots of Speed               [Ionian Boots of Lucidity]
+         piece  no combat-stat change. movement, no combat stats
+         now    AP 218  AH 50  HP 1150  mana 2272  HSP 13.7%
+  23:00   300g  left   20  buy       Ionian Boots of Lucidity     [Ionian Boots of Lucidity]
+         piece  +15 AH. +15 AH and summoner haste
+         now    AP 218  AH 65  HP 1150  mana 2272  HSP 13.7%
+
+------------------------------------------------------------------------------
+INVENTORY EACH MINUTE
+------------------------------------------------------------------------------
+   0:00  gold   500  left    0  Sickle                                      Spectral Sickle
+   1:00  gold   820  left  320  Sickle                                      Spectral Sickle
+   2:00  gold  1140  left  140  Sickle                                      Spectral Sickle, Ruby Crystal
+   3:00  gold  1460  left   60  Sickle                                      Spectral Sickle, Ruby Crystal, Tear of the Goddess
+   4:00  gold  1780  left  380  Sickle                                      Spectral Sickle, Ruby Crystal, Tear of the Goddess
+   5:00  gold  2240  left  140  Scythe                                      Ruby Crystal, Tear of the Goddess, Forbidden Idol, Black Mist Scythe
+   6:00  gold  2700  left  600  Scythe                                      Ruby Crystal, Tear of the Goddess, Forbidden Idol, Black Mist Scythe
+   7:00  gold  3160  left  260  Scythe · Circlet 0/50                       Black Mist Scythe, Whispering Circlet
+   8:00  gold  3620  left  220  Scythe · Circlet 8/50                       Black Mist Scythe, Whispering Circlet, Amplifying Tome
+   9:00  gold  4080  left  280  Scythe · Circlet 16/50 · Ashes              Black Mist Scythe, Whispering Circlet, Fated Ashes
+  10:00  gold  4540  left  240  Scythe · Circlet 24/50 · Ashes              Black Mist Scythe, Whispering Circlet, Fated Ashes, Ruby Crystal
+  11:00  gold  5100  left    0  Scythe · Circlet 33/50 · Ashes              Black Mist Scythe, Whispering Circlet, Fated Ashes, Kindlegem, Ring of Revelation
+  12:00  gold  5660  left   60  Scythe · Circlet 41/50 · Ashes              Black Mist Scythe, Whispering Circlet, Fated Ashes, Kindlegem, Ring of Revelation, Amplifying Tome
+  13:00  gold  6220  left   20  Scythe · DIADEM · Helia · Ashes             Black Mist Scythe, Fated Ashes, Echoes of Helia, Diadem of Songs
+  14:00  gold  6780  left   80  Scythe · DIADEM · Helia · Ashes             Black Mist Scythe, Fated Ashes, Echoes of Helia, Diadem of Songs, Amplifying Tome
+  15:00  gold  7340  left  140  Scythe · DIADEM · Helia · Ashes             Black Mist Scythe, Fated Ashes, Echoes of Helia, Diadem of Songs, Amplifying Tome, Ruby Crystal
+  16:00  gold  7900  left  400  Scythe · DIADEM · Helia · Ashes             Black Mist Scythe, Fated Ashes, Echoes of Helia, Diadem of Songs, Haunting Guise
+  17:00  gold  8460  left  160  Scythe · DIADEM · Helia · Liandry           Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment
+  18:00  gold  9020  left  220  Scythe · DIADEM · Helia · Liandry           Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Amplifying Tome
+  19:00  gold  9580  left  180  Scythe · DIADEM · Helia · Liandry           Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Amplifying Tome, Ring of Revelation, Ring of Revelation
+  20:00  gold 10140  left  240  Scythe · DIADEM · Helia · Liandry           Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Amplifying Tome, Ring of Revelation, Ring of Revelation, Ruby Crystal
+  21:00  gold 10700  left  300  Scythe · DIADEM · Helia · Liandry           Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Amplifying Tome, Ring of Revelation, Ring of Revelation, Kindlegem
+  22:00  gold 11260  left  160  Scythe · DIADEM · Helia · Liandry · Harmonic  Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Ring of Revelation, Harmonic Echo
+  23:00  gold 11820  left   20  Scythe · DIADEM · Helia · Liandry · Harmonic · Ionian  Black Mist Scythe, Echoes of Helia, Diadem of Songs, Liandry's Torment, Harmonic Echo, Ionian Boots of Lucidity
+
+------------------------------------------------------------------------------
+WHY THE DAMAGE BECOMES A HEAL HERE
+------------------------------------------------------------------------------
+  At 13:00 Helia is bought and Circlet becomes Diadem on the same minute.
+  Charges that minute: 50.9 (need 50).
+  Zyra 8s fight: 1964 damage, 1030 heal.
+    Diadem's own heal 141. Helia turning damage into heal 889.
+  Brand 8s fight: 1583 damage, 944 heal (Helia portion 802).
+  Helia stores 30% of pre-mitigation damage and spends it only when Diadem
+  heals an ally. The heal before that minute is 0 even if Helia is owned.
+
+  Circlet is finished at 7:00. Minute 6 has 2700 gold, short of Sickle plus Circlet (2900).
+  The buy minute adds 0 charges. Six minutes at 10 AH are 48 charges, short of 50,
+  so the clock needs haste above the Scythe's 10 before it can land on 13:00.
+  No checked order converts before 13:00. This one buys Helia's
+  Kindlegem at 11:00, the first minute its 1000 gold is up after Ashes.
+  Fated Ashes is finished at 9:00 with the gold in front of that
+  Kindlegem. Moving Ashes later does not finish Liandry sooner: Sickle + Circlet
+  + Helia + Liandry is 8300 gold, and 16:00 has 7900. Liandry is 17:00.
+  Harmonic Echo is 22:00. It multiplies a heal, so it is last
+  among the legendaries. Its mirror is combined on the Harmonic minute, so the
+  Tome's 20 AP stays until that buy replaces it.
+  Ionian boots finish at 23:00. Those pieces are bought only
+  when they do not push Helia, Liandry, or Harmonic to a later minute.
+
+------------------------------------------------------------------------------
+AGAINST LIANDRY THIRD (same pieces, old legendary order, same spending rules)
+Zyra row. Damage is lower before Liandry on the new order. Healing starts
+at the conversion minute instead of when Liandry-third reaches Diadem.
+The earlier published sheet used a flat 8 charges per minute and first healed
+at 22:00. This table uses the haste-scaled charge rate on both orders.
+------------------------------------------------------------------------------
+
+    Min Build       Dmg   Heal  Lane/m    AP   AH    HSP  State
+     8:00 New        1638      0       0    60   10  11.5%  charging
+     8:00 Old        1826      0       0   100   25   0.0%  Ashes
+
+    10:00 New        1878      0       0    88   10  12.3%  charging, Ashes
+    10:00 Old        2336      0       0   118   25   0.0%  Liandry
+
+    12:00 New        1891      0       0   116   20  13.0%  charging, Ashes
+    12:00 Old        2295      0       0   126   30   6.0%  Liandry
+
+    13:00 New        1964   1030    1543   140   30  13.3%  Diadem, Helia, Ashes
+    13:00 Old        2315      0       0   130   30   6.0%  Liandry
+
+    14:00 New        2096   1095    1643   164   30  13.4%  Diadem, Helia, Ashes
+    14:00 Old        2409      0       0   134   30   6.0%  Liandry
+
+    16:00 New        2035   1105    1671   178   30  13.4%  Diadem, Helia, Ashes
+    16:00 Old        2375      0       0   158   25  12.0%  charging, Liandry
+
+    17:00 New        2573   1250    2034   178   30  13.5%  Diadem, Helia, Liandry
+    17:00 Old        2514      0       0   158   25  12.4%  charging, Liandry
+
+    18:00 New        2638   1265    2080   198   30  13.5%  Diadem, Helia, Liandry
+    18:00 Old        2520      0       0   158   25  12.8%  charging, Liandry
+
+    20:00 New        2651   1268    2089   198   30  13.5%  Diadem, Helia, Liandry
+    20:00 Old        2651      0       0   198   45  13.5%  charging, Helia, Liandry
+
+    21:00 New        2725   1322    2301   198   40  13.7%  Diadem, Helia, Liandry
+    21:00 Old        2725   1322    2373   198   45  13.7%  Diadem, Helia, Liandry
+
+    22:00 New        2790   1738    3247   218   50  13.7%  Diadem, Helia, Liandry, Harmonic
+    22:00 Old        2732   1323    2378   198   45  13.7%  Diadem, Helia, Liandry
+
+    23:00 New        2797   1740    3542   218   65  13.7%  Diadem, Helia, Liandry, Harmonic
+    23:00 Old        2797   1740    3542   218   65  13.7%  Diadem, Helia, Liandry, Harmonic
+
+  Sum of Zyra lane heal/min from 1:00 to 23:00: new 23885, old 8293.
+  Sum of Brand lane heal/min from 1:00 to 23:00: new 13100, old 4514.
+  Sum of Zyra 8s-fight heal at each minute 1–23: new 14177, old 4385.
+  Sum of Zyra fight damage at each minute 1–23: new 43137, old 46325.
+  Sum of Brand fight damage at each minute 1–23: new 36412, old 40025.
+  The new order heals earlier and leaves less gold in pocket. It deals less
+  damage from 8:00 to 16:00, because Liandry is the 17:00 item instead of the
+  10:00 item. At 23:00 both orders hold the same items.
+
+------------------------------------------------------------------------------
+BRAND vs ZYRA ON THIS ORDER
+------------------------------------------------------------------------------
+
+    Min Champ     Dmg  Front  Carry   Heal of Helia  Lane/m    CC    AP
+     8:00 Brand    1263    476    786      0        0       0  1.13    60
+     8:00 Zyra     1638    729    909      0        0       0  3.14    60
+         Zyra damage +30% vs Brand. Fight heal +0. Lane heal +0/min.
+
+    12:00 Brand    1516    540    975      0        0       0  1.13   116
+    12:00 Zyra     1891    817   1073      0        0       0  3.71   116
+         Zyra damage +25% vs Brand. Fight heal +0. Lane heal +0/min.
+
+    13:00 Brand    1583    564   1019    944      802     849  1.13   140
+    13:00 Zyra     1964    849   1115   1030      889    1543  3.71   140
+         Zyra damage +24% vs Brand. Fight heal +86. Lane heal +694/min.
+
+    17:00 Brand    2283    859   1424   1178     1029    1138  1.13   178
+    17:00 Zyra     2573   1097   1476   1250     1101    2034  3.71   178
+         Zyra damage +13% vs Brand. Fight heal +72. Lane heal +896/min.
+
+    20:00 Brand    2374    896   1478   1198     1050    1171  1.13   198
+    20:00 Zyra     2651   1133   1519   1268     1119    2089  3.71   198
+         Zyra damage +12% vs Brand. Fight heal +70. Lane heal +918/min.
+
+    22:00 Brand    2675   1013   1662   1695     1497    1768  1.13   218
+    22:00 Zyra     2790   1192   1599   1738     1540    3247  3.71   218
+         Zyra damage +4% vs Brand. Fight heal +43. Lane heal +1479/min.
+
+  At 22:00, with all 5 legendaries, hard CC is Zyra 3.71s vs Brand 1.13s.
+  Zyra's knockup is 1.70s and Mikael's cannot cleanse it.
+  Bodies that minute: Brand 3340 HP, Zyra 3310 HP.
+  Carry damage at 22:00 is Brand 1662, Zyra 1599.
+  Frontline damage is Zyra 1192, Brand 1013.
+  Zyra still does more frontline damage, more lane healing once Diadem is
+  up (plants keep Liandry ticking), and more crowd control. Brand's edge is
+  the point-click stun. The item order does not close that kit gap. It moves
+  the minute both of them start turning damage into healing.
+
+ITEM LINES USED FOR THIS SEARCH
+  Kindlegem 1000g: Ruby + 500, +175 HP, +10 AH.
+  Haunting Guise 1300g: Tome + Ruby + 300, +30 AP, +200 HP.
+  Forbidden Idol 700g: +100 HP, +5 AH, +6% HSP, no sub-recipe.
+  Fated Ashes 900g: Tome + 400, +40 AP, Kindle (~5 damage per second).
+  Earlier sims in this folder used Guise 35 AP and Kindlegem 200 HP.
+  Those files were not rewritten. Only this order uses the 7.3b alpha lines.
+==============================================================================

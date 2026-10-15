@@ -1,0 +1,1534 @@
+{
+  "meta": {
+    "champion": "Brand",
+    "role": "Support",
+    "patch": "7.3b",
+    "game_minutes": 22,
+    "charge_per_min": 8,
+    "diadem_minute": 16,
+    "circlet_minute": 9,
+    "ardent_minute": 22,
+    "mikael_minute": null,
+    "assumptions": [
+      "Diadem's per-second heal counts as healing an ally and spends Helia.",
+      "Helia is 30% of pre-mitigation champion damage, cap 80-250 by level, per spend.",
+      "Harmony is 0.25% max mana after the 7.3a nerf.",
+      "Harmonic adds 30% to heals and 35% to shields.",
+      "No runes (Font of Life would be Brand's only pre-Diadem trigger).",
+      "Support gold matches the Zyra sim. Level 13 at 20:00.",
+      "Boots of Mana and Liandry use the repo's 7.2 numbers; 7.3b did not retune them.",
+      "Tear of the Goddess component mana is modeled as 200."
+    ]
+  },
+  "timeline_ardent_brand": [
+    {
+      "minute": 1,
+      "gold": 820,
+      "level": 2,
+      "items": [
+        "Spectral Sickle",
+        "Ring of Revelation"
+      ],
+      "ap": 20.0,
+      "mana": 484.0,
+      "hsp": 1.0,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 2,
+      "gold": 1140,
+      "level": 3,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed"
+      ],
+      "ap": 20.0,
+      "mana": 533.0,
+      "hsp": 1.0,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 3,
+      "gold": 1460,
+      "level": 4,
+      "items": [
+        "Spectral Sickle",
+        "Boots of Speed",
+        "Ring of Revelation"
+      ],
+      "ap": 20.0,
+      "mana": 582.0,
+      "hsp": 1.0,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 4,
+      "gold": 1780,
+      "level": 5,
+      "items": [
+        "Spectral Sickle",
+        "Ionian Boots of Lucidity"
+      ],
+      "ap": 20.0,
+      "mana": 631.0,
+      "hsp": 1.0,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 5,
+      "gold": 2240,
+      "level": 6,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol"
+      ],
+      "ap": 28.0,
+      "mana": 680.0,
+      "hsp": 1.06,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 6,
+      "gold": 2700,
+      "level": 7,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol",
+        "Tear of the Goddess"
+      ],
+      "ap": 32.0,
+      "mana": 929.0,
+      "hsp": 1.06,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 7,
+      "gold": 3160,
+      "level": 8,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol",
+        "Tear of the Goddess",
+        "Ruby Crystal"
+      ],
+      "ap": 36.0,
+      "mana": 978.0,
+      "hsp": 1.06,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 8,
+      "gold": 3620,
+      "level": 8,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Forbidden Idol",
+        "Tear of the Goddess",
+        "Ruby Crystal"
+      ],
+      "ap": 40.0,
+      "mana": 978.0,
+      "hsp": 1.06,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 9,
+      "gold": 4080,
+      "level": 9,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ],
+      "ap": 44.0,
+      "mana": 1327.0,
+      "hsp": 1.113,
+      "diadem": false,
+      "charges": 0
+    },
+    {
+      "minute": 10,
+      "gold": 4540,
+      "level": 10,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ],
+      "ap": 48.0,
+      "mana": 1488.0,
+      "hsp": 1.117,
+      "diadem": false,
+      "charges": 8
+    },
+    {
+      "minute": 11,
+      "gold": 5100,
+      "level": 10,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Bandleglass Mirror"
+      ],
+      "ap": 52.0,
+      "mana": 1600.0,
+      "hsp": 1.12,
+      "diadem": false,
+      "charges": 16
+    },
+    {
+      "minute": 12,
+      "gold": 5660,
+      "level": 11,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Bandleglass Mirror"
+      ],
+      "ap": 56.0,
+      "mana": 1761.0,
+      "hsp": 1.124,
+      "diadem": false,
+      "charges": 24
+    },
+    {
+      "minute": 13,
+      "gold": 6220,
+      "level": 11,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Bandleglass Mirror",
+        "Kindlegem"
+      ],
+      "ap": 60.0,
+      "mana": 1873.0,
+      "hsp": 1.127,
+      "diadem": false,
+      "charges": 32
+    },
+    {
+      "minute": 14,
+      "gold": 6780,
+      "level": 12,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ],
+      "ap": 104.0,
+      "mana": 2034.0,
+      "hsp": 1.131,
+      "diadem": false,
+      "charges": 40
+    },
+    {
+      "minute": 15,
+      "gold": 7340,
+      "level": 12,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia",
+        "Bandleglass Mirror"
+      ],
+      "ap": 108.0,
+      "mana": 2146.0,
+      "hsp": 1.134,
+      "diadem": false,
+      "charges": 48
+    },
+    {
+      "minute": 16,
+      "gold": 7900,
+      "level": 12,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Bandleglass Mirror"
+      ],
+      "ap": 108.0,
+      "mana": 2174.0,
+      "hsp": 1.134,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 17,
+      "gold": 8460,
+      "level": 13,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Bandleglass Mirror",
+        "Kindlegem"
+      ],
+      "ap": 108.0,
+      "mana": 2223.0,
+      "hsp": 1.136,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 18,
+      "gold": 9020,
+      "level": 13,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ],
+      "ap": 148.0,
+      "mana": 2223.0,
+      "hsp": 1.136,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 19,
+      "gold": 9580,
+      "level": 13,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Forbidden Idol"
+      ],
+      "ap": 148.0,
+      "mana": 2223.0,
+      "hsp": 1.196,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 20,
+      "gold": 10140,
+      "level": 13,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Aether Wisp"
+      ],
+      "ap": 178.0,
+      "mana": 2223.0,
+      "hsp": 1.136,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 21,
+      "gold": 10700,
+      "level": 14,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Aether Wisp",
+        "Forbidden Idol"
+      ],
+      "ap": 178.0,
+      "mana": 2272.0,
+      "hsp": 1.197,
+      "diadem": true,
+      "charges": 50
+    },
+    {
+      "minute": 22,
+      "gold": 11260,
+      "level": 14,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ],
+      "ap": 198.0,
+      "mana": 2272.0,
+      "hsp": 1.217,
+      "diadem": true,
+      "charges": 50
+    }
+  ],
+  "healing": [
+    {
+      "minute": 10,
+      "champ": "Brand",
+      "heal": 0,
+      "shield": 0,
+      "protected": 0,
+      "lane_per_min": 0,
+      "ap": 48.0,
+      "mana": 1488,
+      "hsp": 1.117,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "champ": "Soraka",
+      "heal": 1574,
+      "shield": 0,
+      "protected": 1574,
+      "lane_per_min": 3551,
+      "ap": 48.0,
+      "mana": 1542,
+      "hsp": 1.119,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "champ": "Sona",
+      "heal": 220,
+      "shield": 480,
+      "protected": 700,
+      "lane_per_min": 716,
+      "ap": 48.0,
+      "mana": 1001,
+      "hsp": 1.105,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "champ": "Nami",
+      "heal": 169,
+      "shield": 0,
+      "protected": 169,
+      "lane_per_min": 886,
+      "ap": 48.0,
+      "mana": 1443,
+      "hsp": 1.116,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "champ": "Yuumi",
+      "heal": 404,
+      "shield": 180,
+      "protected": 584,
+      "lane_per_min": 491,
+      "ap": 48.0,
+      "mana": 1488,
+      "hsp": 1.117,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "champ": "Seraphine",
+      "heal": 158,
+      "shield": 623,
+      "protected": 781,
+      "lane_per_min": 68,
+      "ap": 48.0,
+      "mana": 1488,
+      "hsp": 1.117,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Brand",
+      "heal": 0,
+      "shield": 0,
+      "protected": 0,
+      "lane_per_min": 0,
+      "ap": 104.0,
+      "mana": 2034,
+      "hsp": 1.131,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Soraka",
+      "heal": 1881,
+      "shield": 0,
+      "protected": 1881,
+      "lane_per_min": 5718,
+      "ap": 104.0,
+      "mana": 2120,
+      "hsp": 1.133,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Sona",
+      "heal": 476,
+      "shield": 530,
+      "protected": 1007,
+      "lane_per_min": 1682,
+      "ap": 104.0,
+      "mana": 1459,
+      "hsp": 1.116,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Nami",
+      "heal": 655,
+      "shield": 0,
+      "protected": 655,
+      "lane_per_min": 1630,
+      "ap": 104.0,
+      "mana": 1989,
+      "hsp": 1.13,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Yuumi",
+      "heal": 639,
+      "shield": 237,
+      "protected": 876,
+      "lane_per_min": 1668,
+      "ap": 104.0,
+      "mana": 2034,
+      "hsp": 1.131,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "champ": "Seraphine",
+      "heal": 445,
+      "shield": 707,
+      "protected": 1151,
+      "lane_per_min": 301,
+      "ap": 104.0,
+      "mana": 2034,
+      "hsp": 1.131,
+      "diadem": false,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Brand",
+      "heal": 1418,
+      "shield": 0,
+      "protected": 1418,
+      "lane_per_min": 1351,
+      "ap": 148.0,
+      "mana": 2223,
+      "hsp": 1.136,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Soraka",
+      "heal": 3266,
+      "shield": 0,
+      "protected": 3266,
+      "lane_per_min": 9790,
+      "ap": 148.0,
+      "mana": 2325,
+      "hsp": 1.138,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Sona",
+      "heal": 850,
+      "shield": 766,
+      "protected": 1616,
+      "lane_per_min": 2985,
+      "ap": 148.0,
+      "mana": 1604,
+      "hsp": 1.12,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Nami",
+      "heal": 1155,
+      "shield": 0,
+      "protected": 1155,
+      "lane_per_min": 2989,
+      "ap": 148.0,
+      "mana": 2178,
+      "hsp": 1.134,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Yuumi",
+      "heal": 1238,
+      "shield": 346,
+      "protected": 1584,
+      "lane_per_min": 2962,
+      "ap": 148.0,
+      "mana": 2223,
+      "hsp": 1.136,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "champ": "Seraphine",
+      "heal": 909,
+      "shield": 1039,
+      "protected": 1948,
+      "lane_per_min": 884,
+      "ap": 148.0,
+      "mana": 2223,
+      "hsp": 1.136,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Brand",
+      "heal": 1638,
+      "shield": 0,
+      "protected": 1638,
+      "lane_per_min": 1554,
+      "ap": 198.0,
+      "mana": 2272,
+      "hsp": 1.217,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Soraka",
+      "heal": 3788,
+      "shield": 0,
+      "protected": 3788,
+      "lane_per_min": 11617,
+      "ap": 198.0,
+      "mana": 2390,
+      "hsp": 1.22,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Sona",
+      "heal": 975,
+      "shield": 879,
+      "protected": 1854,
+      "lane_per_min": 3482,
+      "ap": 198.0,
+      "mana": 1609,
+      "hsp": 1.2,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Nami",
+      "heal": 1358,
+      "shield": 0,
+      "protected": 1358,
+      "lane_per_min": 3475,
+      "ap": 198.0,
+      "mana": 2227,
+      "hsp": 1.216,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Yuumi",
+      "heal": 1410,
+      "shield": 399,
+      "protected": 1808,
+      "lane_per_min": 3410,
+      "ap": 198.0,
+      "mana": 2272,
+      "hsp": 1.217,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "champ": "Seraphine",
+      "heal": 1086,
+      "shield": 1212,
+      "protected": 2298,
+      "lane_per_min": 1219,
+      "ap": 198.0,
+      "mana": 2272,
+      "hsp": 1.217,
+      "diadem": true,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    }
+  ],
+  "damage": [
+    {
+      "minute": 10,
+      "label": "Brand Diadem Helia Ardent",
+      "champ": "Brand",
+      "total": 1390,
+      "front": 459,
+      "carry": 931,
+      "pre": 2288,
+      "ap": 48.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Brand Diadem Helia Mikael",
+      "champ": "Brand",
+      "total": 1390,
+      "front": 459,
+      "carry": 931,
+      "pre": 2288,
+      "ap": 48.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Brand Liandry Rylai Mandate",
+      "champ": "Brand",
+      "total": 1806,
+      "front": 587,
+      "carry": 1219,
+      "pre": 2825,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Brand Blackfire Liandry Rylai",
+      "champ": "Brand",
+      "total": 2013,
+      "front": 669,
+      "carry": 1344,
+      "pre": 3155,
+      "ap": 153.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Blackfire Torch"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Brand Liandry Mandate Rylai",
+      "champ": "Brand",
+      "total": 2018,
+      "front": 746,
+      "carry": 1272,
+      "pre": 3265,
+      "ap": 118.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Zyra (Zyra Liandry Rylai)",
+      "champ": "Zyra",
+      "total": 2185,
+      "front": 858,
+      "carry": 1328,
+      "pre": 3485,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Morgana (Morgana Liandry Rylai)",
+      "champ": "Morgana",
+      "total": 1357,
+      "front": 551,
+      "carry": 806,
+      "pre": 2172,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Lux (Lux Mandate Deathcap)",
+      "champ": "Lux",
+      "total": 1459,
+      "front": 620,
+      "carry": 839,
+      "pre": 2348,
+      "ap": 133.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "minute": 10,
+      "label": "Seraphine (Brand Diadem Helia Ardent)",
+      "champ": "Seraphine",
+      "total": 342,
+      "front": 132,
+      "carry": 210,
+      "pre": 571,
+      "ap": 48.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Brand Diadem Helia Ardent",
+      "champ": "Brand",
+      "total": 1606,
+      "front": 577,
+      "carry": 1028,
+      "pre": 2972,
+      "ap": 104.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Brand Diadem Helia Mikael",
+      "champ": "Brand",
+      "total": 1606,
+      "front": 577,
+      "carry": 1028,
+      "pre": 2972,
+      "ap": 104.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Brand Liandry Rylai Mandate",
+      "champ": "Brand",
+      "total": 2327,
+      "front": 920,
+      "carry": 1407,
+      "pre": 3999,
+      "ap": 204.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Brand Blackfire Liandry Rylai",
+      "champ": "Brand",
+      "total": 2179,
+      "front": 785,
+      "carry": 1393,
+      "pre": 3859,
+      "ap": 244.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Blackfire Torch"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Brand Liandry Mandate Rylai",
+      "champ": "Brand",
+      "total": 2308,
+      "front": 922,
+      "carry": 1386,
+      "pre": 4153,
+      "ap": 179.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Zyra (Zyra Liandry Rylai)",
+      "champ": "Zyra",
+      "total": 2749,
+      "front": 1242,
+      "carry": 1507,
+      "pre": 4756,
+      "ap": 204.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Morgana (Morgana Liandry Rylai)",
+      "champ": "Morgana",
+      "total": 1748,
+      "front": 816,
+      "carry": 932,
+      "pre": 3030,
+      "ap": 204.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Lux (Lux Mandate Deathcap)",
+      "champ": "Lux",
+      "total": 1708,
+      "front": 790,
+      "carry": 918,
+      "pre": 3064,
+      "ap": 264.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "minute": 14,
+      "label": "Seraphine (Brand Diadem Helia Ardent)",
+      "champ": "Seraphine",
+      "total": 388,
+      "front": 164,
+      "carry": 224,
+      "pre": 723,
+      "ap": 104.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Whispering Circlet",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Brand Diadem Helia Ardent",
+      "champ": "Brand",
+      "total": 1852,
+      "front": 625,
+      "carry": 1227,
+      "pre": 3604,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Brand Diadem Helia Mikael",
+      "champ": "Brand",
+      "total": 1852,
+      "front": 625,
+      "carry": 1227,
+      "pre": 3604,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Brand Liandry Rylai Mandate",
+      "champ": "Brand",
+      "total": 2635,
+      "front": 983,
+      "carry": 1652,
+      "pre": 4784,
+      "ap": 233.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Brand Blackfire Liandry Rylai",
+      "champ": "Brand",
+      "total": 2686,
+      "front": 988,
+      "carry": 1698,
+      "pre": 4870,
+      "ap": 263.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Brand Liandry Mandate Rylai",
+      "champ": "Brand",
+      "total": 2764,
+      "front": 1032,
+      "carry": 1732,
+      "pre": 5240,
+      "ap": 243.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Zyra (Zyra Liandry Rylai)",
+      "champ": "Zyra",
+      "total": 3154,
+      "front": 1328,
+      "carry": 1826,
+      "pre": 5792,
+      "ap": 303.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Morgana (Morgana Liandry Rylai)",
+      "champ": "Morgana",
+      "total": 1862,
+      "front": 817,
+      "carry": 1045,
+      "pre": 3435,
+      "ap": 233.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Lux (Lux Mandate Deathcap)",
+      "champ": "Lux",
+      "total": 1944,
+      "front": 840,
+      "carry": 1104,
+      "pre": 3714,
+      "ap": 367.9,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Imperial Mandate",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "minute": 18,
+      "label": "Seraphine (Brand Diadem Helia Ardent)",
+      "champ": "Seraphine",
+      "total": 463,
+      "front": 182,
+      "carry": 281,
+      "pre": 914,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Brand Diadem Helia Ardent",
+      "champ": "Brand",
+      "total": 2068,
+      "front": 699,
+      "carry": 1369,
+      "pre": 4056,
+      "ap": 198.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Brand Diadem Helia Mikael",
+      "champ": "Brand",
+      "total": 1924,
+      "front": 653,
+      "carry": 1271,
+      "pre": 3775,
+      "ap": 148.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Brand Liandry Rylai Mandate",
+      "champ": "Brand",
+      "total": 3280,
+      "front": 1226,
+      "carry": 2054,
+      "pre": 6004,
+      "ap": 293.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Brand Blackfire Liandry Rylai",
+      "champ": "Brand",
+      "total": 3270,
+      "front": 1215,
+      "carry": 2056,
+      "pre": 5982,
+      "ap": 313.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Blackfire Torch",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Brand Liandry Mandate Rylai",
+      "champ": "Brand",
+      "total": 3060,
+      "front": 1155,
+      "carry": 1905,
+      "pre": 5850,
+      "ap": 268.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Liandry's Torment",
+        "Imperial Mandate",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Zyra (Zyra Liandry Rylai)",
+      "champ": "Zyra",
+      "total": 3780,
+      "front": 1585,
+      "carry": 2195,
+      "pre": 6996,
+      "ap": 471.9,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Morgana (Morgana Liandry Rylai)",
+      "champ": "Morgana",
+      "total": 2135,
+      "front": 938,
+      "carry": 1197,
+      "pre": 3969,
+      "ap": 293.0,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Liandry's Torment",
+        "Rylai's Crystal Scepter",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Lux (Lux Mandate Deathcap)",
+      "champ": "Lux",
+      "total": 2150,
+      "front": 928,
+      "carry": 1222,
+      "pre": 4142,
+      "ap": 458.9,
+      "items": [
+        "Black Mist Scythe",
+        "Boots of Mana",
+        "Imperial Mandate",
+        "Rabadon's Deathcap",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "minute": 22,
+      "label": "Seraphine (Brand Diadem Helia Ardent)",
+      "champ": "Seraphine",
+      "total": 514,
+      "front": 202,
+      "carry": 312,
+      "pre": 1021,
+      "ap": 198.0,
+      "items": [
+        "Black Mist Scythe",
+        "Ionian Boots of Lucidity",
+        "Diadem of Songs",
+        "Echoes of Helia",
+        "Harmonic Echo",
+        "Ardent Censer"
+      ]
+    }
+  ],
+  "sandbox_healing": [
+    {
+      "label": "Brand Ardent",
+      "heal": 1564,
+      "shield": 0,
+      "protected": 1564,
+      "damage": 1995,
+      "ap": 198.0,
+      "mana": 2223,
+      "hsp": 1.216
+    },
+    {
+      "label": "Brand Mikael",
+      "heal": 1766,
+      "shield": 0,
+      "protected": 1766,
+      "damage": 1852,
+      "ap": 148.0,
+      "mana": 2223,
+      "hsp": 1.136
+    },
+    {
+      "label": "Soraka",
+      "heal": 3762,
+      "shield": 0,
+      "protected": 3762,
+      "damage": 144,
+      "ap": 198.0,
+      "mana": 2325,
+      "hsp": 1.218
+    },
+    {
+      "label": "Sona",
+      "heal": 971,
+      "shield": 879,
+      "protected": 1850,
+      "damage": 460,
+      "ap": 198.0,
+      "mana": 1604,
+      "hsp": 1.2
+    },
+    {
+      "label": "Nami",
+      "heal": 1331,
+      "shield": 0,
+      "protected": 1331,
+      "damage": 530,
+      "ap": 198.0,
+      "mana": 2178,
+      "hsp": 1.214
+    },
+    {
+      "label": "Yuumi",
+      "heal": 1393,
+      "shield": 398,
+      "protected": 1791,
+      "damage": 273,
+      "ap": 198.0,
+      "mana": 2223,
+      "hsp": 1.216
+    },
+    {
+      "label": "Seraphine",
+      "heal": 1037,
+      "shield": 1210,
+      "protected": 2248,
+      "damage": 508,
+      "ap": 198.0,
+      "mana": 2223,
+      "hsp": 1.216
+    }
+  ],
+  "sandbox_damage": [
+    {
+      "label": "Brand Diadem Helia Ardent",
+      "damage": 1995,
+      "front": 671,
+      "carry": 1325,
+      "ap": 198.0
+    },
+    {
+      "label": "Brand Liandry Rylai Mandate",
+      "damage": 2946,
+      "front": 1088,
+      "carry": 1857,
+      "ap": 293.0
+    },
+    {
+      "label": "Brand Blackfire Liandry Rylai",
+      "damage": 2933,
+      "front": 1077,
+      "carry": 1857,
+      "ap": 313.0
+    },
+    {
+      "label": "Brand Liandry Mandate Rylai",
+      "damage": 2935,
+      "front": 1097,
+      "carry": 1838,
+      "ap": 268.0
+    },
+    {
+      "label": "Zyra",
+      "damage": 3691,
+      "front": 1543,
+      "carry": 2147,
+      "ap": 471.9
+    },
+    {
+      "label": "Morgana",
+      "damage": 2115,
+      "front": 924,
+      "carry": 1191,
+      "ap": 293.0
+    },
+    {
+      "label": "Lux",
+      "damage": 2148,
+      "front": 928,
+      "carry": 1221,
+      "ap": 458.9
+    },
+    {
+      "label": "Seraphine",
+      "damage": 508,
+      "front": 199,
+      "carry": 308,
+      "ap": 198.0
+    }
+  ]
+}
