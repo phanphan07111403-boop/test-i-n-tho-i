@@ -6,7 +6,7 @@ League itemization sims.
 |--------|----------|----------|
 | `zyra-burn-sim/` | Zyra support (Wild Rift 7.2+) | Which burn path peaks harass with enough uptime? |
 | `ap-kogmaw-sim/` | AP Kog'Maw (PC LoL ~26.x) | Luden/BF → Malignance 3rd-item drop vs tanks; try Malignance rush, hide-and-shoot, must hurt tanks |
-| `brand-support-sim/` | Brand support (Wild Rift 7.3b) | Diadem/Helia Brand vs enchanters; Brand vs Zyra; component order; same items without Liandry, including tanks |
+| `brand-support-sim/` | Brand support (Wild Rift 7.3b) | Diadem/Helia Brand vs enchanters; Brand vs Zyra; component order; same items without Liandry, including tanks and Amumu support |
 
 ```bash
 python3 zyra-burn-sim/simulate_zyra_burn.py

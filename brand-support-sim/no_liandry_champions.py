@@ -72,6 +72,7 @@ BODY = {
     "Nautilus": (646, 104, 39, 4.5, 32, 2.05),
     "Thresh": (590, 104, 28, 0.0, 30, 1.25),
     "Galio": (600, 126, 24, 4.5, 32, 2.05),
+    "Amumu": (615, 95, 33, 4.2, 32, 2.05),
 }
 
 BASE_MANA.update({
@@ -83,6 +84,7 @@ BASE_MANA.update({
     "Nautilus": (400, 47),
     "Thresh": (274, 44),
     "Galio": (500, 40),
+    "Amumu": (288, 40),
 })
 
 ROLE = {
@@ -101,6 +103,7 @@ ROLE = {
     "Nautilus": "tank",
     "Thresh": "tank",
     "Galio": "tank",
+    "Amumu": "tank",
 }
 
 # A normal tank-support finish (Locket, Vow, defensive boots) for the
@@ -230,6 +233,48 @@ def galio_fight(st, front, carry) -> Fight:
     return _hit(st, pre_c, pre_f, front, carry, 0, 0, 0, "self shield only")
 
 
+def amumu_fight(st, front, carry) -> Fight:
+    """Support order QEW. No ally heal or shield.
+
+    Tantrum reduces physical damage he takes. It does not spend Helia.
+    Cursed Touch adds true damage on the target he bandages and autos.
+    """
+    ranks = ability_ranks(st.level, "QEW")
+    ap = st.ap
+    q = rank_value([0, 80, 130, 180, 230], ranks["Q"]) + 0.70 * ap
+    q_cd = rank_value([0, 14, 13, 12, 11], ranks["Q"]) or 14
+    nq = ncast(q_cd, FIGHT_S, st.ah, cap=2) if ranks["Q"] else 0
+    # First bandage is the engage. A second one in the same fight is a bonus.
+    q_hits = (0.70 + (0.35 if nq >= 2 else 0.0)) if ranks["Q"] else 0.0
+    w_flat = rank_value([0, 10, 15, 20, 25], ranks["W"])
+    w_pct = rank_value([0, 0.010, 0.0125, 0.015, 0.0175], ranks["W"])
+    e = rank_value([0, 75, 100, 125, 150], ranks["E"]) + 0.50 * ap
+    e_cd = rank_value([0, 8, 7.5, 7, 6.5], ranks["E"]) or 8
+    ne = ncast(e_cd, FIGHT_S, st.ah, cap=2) if ranks["E"] else 0
+    r = (rank_value([0, 150, 250, 350], ranks["R"]) + 0.80 * ap) if ranks["R"] else 0.0
+    # Bandage in, ultimate holds them. He is not standing on both the whole fight.
+    aura_c, aura_f = 3.0, 1.5
+
+    def aura(hp: float, seconds: float) -> float:
+        if not ranks["W"] or seconds <= 0:
+            return 0.0
+        pct = w_pct + 0.005 * ap / 100.0
+        return seconds * (w_flat + pct * hp)
+
+    magic_c = q_hits * q + aura(carry[0], aura_c) + ne * 0.80 * e
+    magic_f = aura(front[0], aura_f) + ne * 0.55 * e
+    if ranks["R"]:
+        magic_c += 0.80 * r
+        magic_f += 0.55 * r
+    # Curse sticks to the bandaged target. The frontliner is only partly tagged.
+    true_c = 0.10 * magic_c
+    true_f = 0.05 * magic_f
+    post_c = mitigate(magic_c, carry[1], st) + true_c
+    post_f = mitigate(magic_f, front[1], st) + true_f
+    pre = magic_c + true_c + magic_f + true_f
+    return Fight(pre, post_f, post_c, 0, 0, 0, "no ally heal")
+
+
 def _hit(st, pre_c, pre_f, front, carry, heal, shield, dumps, note) -> Fight:
     return Fight(
         pre_c + pre_f,
@@ -248,6 +293,7 @@ FIGHTERS.update({
     "Taric": taric_fight,
     "Thresh": thresh_fight,
     "Galio": galio_fight,
+    "Amumu": amumu_fight,
 })
 
 
@@ -268,6 +314,12 @@ def alistar_dr(level: int) -> float:
         return 0.0
     reduction = rank_value([0, 0.50, 0.60, 0.70], ranks["R"])
     return reduction * (7.0 / FIGHT_S)
+
+
+def amumu_e_flat(level: int) -> float:
+    """Tantrum's flat physical reduction per hit. Not a percent reduction."""
+    ranks = ability_ranks(level, "QEW")
+    return rank_value([0, 5, 10, 15, 20], ranks["E"])
 
 
 def nautilus_self_shield(st) -> float:
@@ -353,6 +405,13 @@ def hard_cc(champ: str, level: int) -> float:
         taunt = rank_value([0, 1.0, 1.25, 1.5, 1.75], ranks["W"]) * 0.80 * 1.6
         knock = (0.75 * 0.75 * 1.5) if ranks["R"] else 0
         return taunt + knock
+    if champ == "Amumu":
+        ranks = ability_ranks(level, "QEW")
+        bandage = 1.0 * 0.70
+        # A maxed bandage is short enough that a second toss can land.
+        second = 1.0 * 0.35 if ranks["Q"] >= 4 else 0.0
+        entangle = (2.0 * 0.80 * 1.6) if ranks["R"] else 0.0
+        return bandage + second + entangle
     if champ == "Nami":
         return 1.25 * 0.62 + (1.5 * 0.75 if level >= 5 else 0)
     if champ == "Seraphine":
@@ -402,6 +461,12 @@ def row_for(champ: str, snap: dict, minute: int) -> dict:
         geared["ehp_phys"] = round(geared["ehp_phys"] + shield * (1 + geared["armor"] / 100))
         geared["ehp_magic"] = round(geared["ehp_magic"] + shield * (1 + geared["mr"] / 100))
         geared["note"] = f"W shield {round(shield)}"
+    if champ == "Amumu":
+        flat = amumu_e_flat(st.level)
+        geared = dict(geared)
+        # About six physical hits in the fight, each reduced by the flat amount.
+        geared["ehp_phys"] = round(geared["ehp_phys"] + 6 * flat)
+        geared["note"] = f"E tantrum {round(flat)}"
     hsp = st.hsp
     diadem = 0.0
     helia = 0.0
@@ -471,7 +536,7 @@ CHAMPS = (
     "Soraka", "Seraphine", "Nami", "Sona", "Yuumi",
     "Brand", "Zyra",
     "Rakan", "Taric", "Alistar", "Thresh", "Galio",
-    "Braum", "Leona", "Nautilus",
+    "Braum", "Leona", "Nautilus", "Amumu",
 )
 
 
@@ -548,7 +613,8 @@ def run() -> Tuple[str, dict]:
     A("-" * 78)
     A(f"TANKINESS AT {focus}:00 ON THESE ITEMS")
     A("EHP is health times resists. Steroid is Leona W, Alistar R, Nautilus W,")
-    A("or Thresh souls. The shop list did not add any armor or magic resist.")
+    A("Thresh souls, or Amumu's flat physical reduction from Tantrum.")
+    A("The shop list did not add any armor or magic resist.")
     A("-" * 78)
     A(f"  {'Champ':<12} {'HP':>6} {'Arm':>5} {'MR':>5} {'EHPphys':>8} {'EHPmag':>8} "
       f"{'With':>8}  Note")
@@ -593,6 +659,7 @@ def run() -> Tuple[str, dict]:
     brand = by[(focus, "Brand")]
     naut = by[(focus, "Nautilus")]
     galio = by[(focus, "Galio")]
+    amumu = by[(focus, "Amumu")]
 
     A("-" * 78)
     A("WHICH CHAMPION")
@@ -629,6 +696,25 @@ def run() -> Tuple[str, dict]:
     A("  is his own, so Harmonic does not copy it.")
     A(f"  Thresh's lantern is a shield ({by[(focus, 'Thresh')]['shield']}) and his")
     A(f"  souls keep armor the items do not give (EHP {by[(focus, 'Thresh')]['ehp_phys']}).")
+    A("")
+    A(f"  Amumu support can buy the same list. At {focus}:00 his fight heal is")
+    A(f"  {amumu['heal']}. Kit heal is {amumu['kit_heal']}. Diadem is "
+      f"{amumu['diadem_heal']} and Helia is {amumu['helia_heal']}.")
+    A(f"  Damage is {amumu['damage']} (Leona {leo['damage']}, Galio {galio['damage']}, "
+      f"Brand {brand['damage']}).")
+    A(f"  Hard CC is {amumu['hard_cc']:.1f}s (Leona {leo['hard_cc']:.1f}s, "
+      f"Rakan {rakan['hard_cc']:.1f}s).")
+    A(f"  Physical EHP is {amumu['ehp_phys']}, and Tantrum brings the fight to "
+      f"{amumu['ehp_phys_steroid']}.")
+    A(f"  Leona with W is {leo['ehp_phys_steroid']}. Alistar during R is "
+      f"{ali['ehp_phys_steroid']}.")
+    A("  Bandage and the ultimate are why he is picked. He has no ally heal and")
+    A("  no ally shield, so Harmonic has nothing of his to copy and Helia opens")
+    A("  only because Diadem ticks. Tantrum is a small flat reduction on himself.")
+    A(f"  Soraka still heals {soraka['heal']}. Rakan still heals {rakan['heal']} "
+      f"and shields {rakan['shield']}.")
+    A("  Amumu is a niche engage pick on this build. He is not the champion the")
+    A("  items are for, and the items do not make him a tank.")
     A("")
     A(f"  The tankiest body on the Diadem list, steroid included, is {tankiest['champ']} "
       f"at {tankiest['ehp_phys_steroid']} physical EHP.")
@@ -667,6 +753,7 @@ def main() -> None:
     leona = next(r for r in focus_rows if r["champ"] == "Leona")
     brand = next(r for r in focus_rows if r["champ"] == "Brand")
     rakan = next(r for r in focus_rows if r["champ"] == "Rakan")
+    amumu = next(r for r in focus_rows if r["champ"] == "Amumu")
     assert payload["meta"]["conversion_minute"] is not None
     assert payload["meta"]["conversion_minute"] <= 14
     assert soraka["heal"] > leona["heal"]
@@ -674,6 +761,10 @@ def main() -> None:
     assert leona["armor"] > brand["armor"]
     assert leona["kit_heal"] == 0
     assert rakan["kit_heal"] > 0 or rakan["kit_shield"] > 0
+    assert amumu["kit_heal"] == 0
+    assert amumu["heal"] > 0
+    assert amumu["heal"] < soraka["heal"]
+    assert amumu["shield"] == 0
     assert payload["leona_tank_items"]["ehp_phys_w"] > leona["ehp_phys_steroid"]
     assert "Liandry" not in "".join(payload["meta"]["build"])
     print(report)

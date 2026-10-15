@@ -84,3 +84,5 @@ python3 no_liandry_champions.py
 Outputs: `no-liandry-report.txt`, `no-liandry-results.json`.
 
 Soraka is the champion these items are for. At 18:00, when the list is finished, her fight heal is about 3266. A tank can buy the same items. Leona and Nautilus have no ally heal, so they only get Diadem and a small Helia, and they receive no armor or magic resist from the shop. Rakan is the engage champion whose Q and E use the heal and the shield. Alistar can still frontline during his ultimate, because that damage reduction does not come from a tank item.
+
+Amumu support can buy the same list. At 18:00 his fight heal is 1080, from Diadem (170) and Helia (909), with no kit heal. He deals 1151 and about 3.6s of hard CC. Tantrum only moves his physical EHP from 4778 to 4898, below Leona with W (7191) and far below Alistar during his ultimate (15308). He is a niche engage pick, not the champion these items are for.

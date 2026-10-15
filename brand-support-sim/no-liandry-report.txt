@@ -54,6 +54,7 @@ Sorted by ally healing plus shielding. Kit is the heal before items.
   Brand        mage        1418      0      0   1225   1852   1.1  148
   Thresh       tank         701    511      0    528    625   2.4  148
   Nami         enchanter   1155      0    372    417    489   1.9  148
+  Amumu        tank        1080      0      0    909   1151   3.6  148
   Taric        tank         656    344    253     89    105   1.3  148
   Nautilus     tank         759      0      0    571    673   2.6  148
   Alistar      tank         749      0    161    337    398   1.8  148
@@ -68,7 +69,8 @@ Sorted by ally healing plus shielding. Kit is the heal before items.
 ------------------------------------------------------------------------------
 TANKINESS AT 18:00 ON THESE ITEMS
 EHP is health times resists. Steroid is Leona W, Alistar R, Nautilus W,
-or Thresh souls. The shop list did not add any armor or magic resist.
+Thresh souls, or Amumu's flat physical reduction from Tantrum.
+The shop list did not add any armor or magic resist.
 ------------------------------------------------------------------------------
   Champ            HP   Arm    MR  EHPphys   EHPmag     With  Note
   Alistar        2960   100    57     5932     4635    15308  R up
@@ -80,6 +82,7 @@ or Thresh souls. The shop list did not add any armor or magic resist.
   Taric          2790    95    56     5446     4352     5446  
   Galio          2962    78    57     5272     4638     5272  
   Rakan          2690    89    50     5079     4035     5079  
+  Amumu          2605    83    57     4778     4079     4898  E tantrum 20
   Thresh         2688    76    45     4731     3898     4731  48 souls
   Nami           2466    83    45     4513     3576     4513  
   Seraphine      2500    73    45     4325     3625     4325  
@@ -109,6 +112,7 @@ SAME CAST AT THE CONVERSION MINUTE AND AT 22:00
   Braum             0      0    267     3402
   Leona             0      0    366     4347
   Nautilus          0      0    430     3712
+  Amumu             0      0    672     2910
 
   [13:00]
   Champ          Heal Shield    Dmg  EHPphys
@@ -118,6 +122,7 @@ SAME CAST AT THE CONVERSION MINUTE AND AT 22:00
   Brand           924      0   1495     4350
   Thresh          437    332    502     3590
   Taric           461    245     79     4315
+  Amumu           663      0    926     3909
   Nami            602      0    426     3550
   Alistar         528      0    368     9932
   Nautilus        487      0    564     4839
@@ -133,6 +138,7 @@ SAME CAST AT THE CONVERSION MINUTE AND AT 22:00
   Brand          1418      0   1852     5490
   Thresh          701    511    625     4731
   Nami           1155      0    489     4513
+  Amumu          1080      0   1151     4898
   Taric           656    344    105     5446
   Nautilus        759      0    673     6018
   Alistar         749      0    398    15308
@@ -148,6 +154,7 @@ SAME CAST AT THE CONVERSION MINUTE AND AT 22:00
   Rakan           848    626    576     5400
   Thresh          733    549    651     5249
   Nami           1179      0    507     4789
+  Amumu          1123      0   1192     5185
   Taric           682    344    127     5794
   Nautilus        812      0    722     6366
   Alistar         775      0    420    16302
@@ -186,6 +193,19 @@ WHICH CHAMPION
   is his own, so Harmonic does not copy it.
   Thresh's lantern is a shield (511) and his
   souls keep armor the items do not give (EHP 4731).
+
+  Amumu support can buy the same list. At 18:00 his fight heal is
+  1080. Kit heal is 0. Diadem is 170 and Helia is 909.
+  Damage is 1151 (Leona 558, Galio 601, Brand 1852).
+  Hard CC is 3.6s (Leona 3.0s, Rakan 3.0s).
+  Physical EHP is 4778, and Tantrum brings the fight to 4898.
+  Leona with W is 7191. Alistar during R is 15308.
+  Bandage and the ultimate are why he is picked. He has no ally heal and
+  no ally shield, so Harmonic has nothing of his to copy and Helia opens
+  only because Diadem ticks. Tantrum is a small flat reduction on himself.
+  Soraka still heals 3266. Rakan still heals 799 and shields 626.
+  Amumu is a niche engage pick on this build. He is not the champion the
+  items are for, and the items do not make him a tank.
 
   The tankiest body on the Diadem list, steroid included, is Alistar at 15308 physical EHP.
   Suitability for the build is the heal column, not that EHP column.
