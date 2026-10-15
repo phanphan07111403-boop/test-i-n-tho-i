@@ -74,3 +74,13 @@ Outputs: `component-path-report.txt`, `component-path-results.json`.
 Damage starts converting to healing at **13:00**, when Helia and Diadem finish together. The Liandry-third order, on the same charge rules, converts at 21:00. All five legendaries are done at 22:00. Ionian finishes at 23:00.
 
 The early shopping list is Sickle, Circlet's Ruby / Tear / Idol, Circlet at 7:00, Fated Ashes at 9:00, Helia's Kindlegem at 11:00, then Helia's Tome, mirror, and combine at 12:00–13:00. The report lists every component with the gold paid and the stats that piece adds.
+
+## Same items, Liandry removed
+
+```bash
+python3 no_liandry_champions.py
+```
+
+Outputs: `no-liandry-report.txt`, `no-liandry-results.json`.
+
+Soraka is the champion these items are for. At 18:00, when the list is finished, her fight heal is about 3266. A tank can buy the same items. Leona and Nautilus have no ally heal, so they only get Diadem and a small Helia, and they receive no armor or magic resist from the shop. Rakan is the engage champion whose Q and E use the heal and the shield. Alistar can still frontline during his ultimate, because that damage reduction does not come from a tank item.

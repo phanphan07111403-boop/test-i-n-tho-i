@@ -1,0 +1,196 @@
+==============================================================================
+WHO USES DIADEM / HELIA / HARMONIC — LIANDRY REMOVED (Wild Rift 7.3b)
+Scythe, Ionian, Circlet → Diadem, Helia, Harmonic Echo. No Liandry.
+8-second fight, ultimate up, one frontline + one carry. No runes.
+==============================================================================
+
+THE ITEMS AFTER LIANDRY IS GONE
+  Ability power, mana, haste, heal/shield power, and some health.
+  No armor. No magic resist. Helia stores 30% of pre-mitigation damage
+  and spends it when an ally is healed or shielded. Diadem is that heal
+  for champions who have none. Harmonic copies 30% of a heal and 35% of
+  a shield. Harmony is +0.25% of max mana as heal/shield power.
+
+  Circlet 7:00. Helia 12:00. Diadem 13:00.
+  Harmonic 16:00. Ionian 18:00.
+  First minute damage becomes a heal: 13:00.
+  Gold at 18:00 is 9020. Full spend is 8800.
+
+PIECES, LIANDRY LEFT OUT
+   0:00   500g  left    0  Spectral Sickle
+   2:00   500g  left  140  Ruby Crystal
+   3:00   400g  left   60  Tear of the Goddess
+   5:00   700g  left  140  Forbidden Idol
+   5:00     0g  left  140  Black Mist Scythe
+   7:00   800g  left  260  Whispering Circlet
+   8:00   500g  left  220  Ruby Crystal
+   9:00   500g  left  180  Kindlegem
+  10:00   500g  left  140  Amplifying Tome
+  11:00   300g  left  400  Ring of Revelation
+  11:00   300g  left  100  Ring of Revelation
+  12:00   100g  left  560  Bandleglass Mirror
+  12:00   500g  left   60  Echoes of Helia
+  13:00   500g  left  120  Amplifying Tome
+  13:00     0g  left  120  Diadem of Songs
+  14:00   500g  left  180  Ruby Crystal
+  15:00   500g  left  240  Kindlegem
+  16:00   100g  left  700  Bandleglass Mirror
+  16:00   600g  left  100  Harmonic Echo
+  17:00   300g  left  360  Ring of Revelation
+  18:00   400g  left  520  Boots of Speed
+  18:00   300g  left  220  Ionian Boots of Lucidity
+
+------------------------------------------------------------------------------
+FULL BUILD AT 18:00 — HEAL AND SHIELD THE ITEMS PAY FOR
+Sorted by ally healing plus shielding. Kit is the heal before items.
+------------------------------------------------------------------------------
+  Champ        Role        Heal Shield   KitH  Helia    Dmg    CC   AP
+  Soraka       enchanter   3266      0   1992    116    132   0.0  148
+  Seraphine    enchanter    909   1039    211    405    463   0.9  148
+  Sona         enchanter    850    766    239    364    428   0.0  148
+  Yuumi        enchanter   1238    346    479    220    260   0.0  148
+  Zyra         mage        1483      0      0   1290   2036   3.7  148
+  Rakan        tank         799    626    101    482    563   3.0  148
+  Brand        mage        1418      0      0   1225   1852   1.1  148
+  Thresh       tank         701    511      0    528    625   2.4  148
+  Nami         enchanter   1155      0    372    417    489   1.9  148
+  Taric        tank         656    344    253     89    105   1.3  148
+  Nautilus     tank         759      0      0    571    673   2.6  148
+  Alistar      tank         749      0    161    337    398   1.8  148
+  Galio        tank         703      0      0    513    601   3.1  148
+  Leona        tank         645      0      0    473    558   3.0  148
+  Braum        tank         514      0      0    336    396   1.7  148
+
+  Most healing on this item list: Soraka (3266 heal, 0 shield).
+  Next is Seraphine: 909 heal and 1039 shield.
+  Best healing tank: Rakan (799 heal, 626 shield).
+
+------------------------------------------------------------------------------
+TANKINESS AT 18:00 ON THESE ITEMS
+EHP is health times resists. Steroid is Leona W, Alistar R, Nautilus W,
+or Thresh souls. The shop list did not add any armor or magic resist.
+------------------------------------------------------------------------------
+  Champ            HP   Arm    MR  EHPphys   EHPmag     With  Note
+  Alistar        2960   100    57     5932     4635    15308  R up
+  Leona          2770   105    57     5667     4338     7191  W up
+  Nautilus       2744    93    57     5296     4297     6018  W shield 374
+  Braum          2804   107    56     5804     4374     5804  
+  Zyra           2890    91    54     5520     4451     5520  
+  Brand          2920    88    50     5490     4392     5490  
+  Taric          2790    95    56     5446     4352     5446  
+  Galio          2962    78    57     5272     4638     5272  
+  Rakan          2690    89    50     5079     4035     5079  
+  Thresh         2688    76    45     4731     3898     4731  48 souls
+  Nami           2466    83    45     4513     3576     4513  
+  Seraphine      2500    73    45     4325     3625     4325  
+  Soraka         2346    82    45     4279     3402     4279  
+  Sona           2350    76    45     4136     3408     4136  
+  Yuumi          2190    67    37     3657     3000     3657  
+
+  Leona on a normal tank finish (+900 HP, +80 armor, +45 MR), no Diadem:
+    HP 2820  armor 185  MR 102  EHP physical 8026  with W 9577
+  Leona on this Diadem build: EHP physical 5667, with W 7191.
+  With the steroid down, Brand is 5490 and Leona is 5667. The health on the items is what they share.
+
+------------------------------------------------------------------------------
+SAME CAST AT THE CONVERSION MINUTE AND AT 22:00
+------------------------------------------------------------------------------
+  [8:00]
+  Champ          Heal Shield    Dmg  EHPphys
+  Soraka         1248      0     82     2552
+  Seraphine       135    611    272     2563
+  Rakan            47    329    287     2986
+  Taric           238    125     72     3212
+  Thresh            0    169    394     2618
+  Nami            165      0    273     2650
+  Alistar         138      0    308     6243
+  Brand             0      0   1201     3219
+  Galio             0      0    333     3043
+  Braum             0      0    267     3402
+  Leona             0      0    366     4347
+  Nautilus          0      0    430     3712
+
+  [13:00]
+  Champ          Heal Shield    Dmg  EHPphys
+  Soraka         2081      0    117     3376
+  Seraphine       587    730    396     3416
+  Rakan           496    429    471     4014
+  Brand           924      0   1495     4350
+  Thresh          437    332    502     3590
+  Taric           461    245     79     4315
+  Nami            602      0    426     3550
+  Alistar         528      0    368     9932
+  Nautilus        487      0    564     4839
+  Galio           456      0    507     4157
+  Leona           425      0    483     5750
+  Braum           334      0    329     4590
+
+  [18:00]
+  Champ          Heal Shield    Dmg  EHPphys
+  Soraka         3266      0    132     4279
+  Seraphine       909   1039    463     4325
+  Rakan           799    626    563     5079
+  Brand          1418      0   1852     5490
+  Thresh          701    511    625     4731
+  Nami           1155      0    489     4513
+  Taric           656    344    105     5446
+  Nautilus        759      0    673     6018
+  Alistar         749      0    398    15308
+  Galio           703      0    601     5272
+  Leona           645      0    558     7191
+  Braum           514      0    396     5804
+
+  [22:00]
+  Champ          Heal Shield    Dmg  EHPphys
+  Soraka         3290      0    147     4523
+  Seraphine       953   1040    469     4584
+  Brand          1486      0   1924     5852
+  Rakan           848    626    576     5400
+  Thresh          733    549    651     5249
+  Nami           1179      0    507     4789
+  Taric           682    344    127     5794
+  Nautilus        812      0    722     6366
+  Alistar         775      0    420    16302
+  Galio           719      0    612     5636
+  Leona           661      0    569     7615
+  Braum           518      0    393     6182
+
+------------------------------------------------------------------------------
+WHICH CHAMPION
+------------------------------------------------------------------------------
+  Soraka is the best user of this list. At 18:00 the fight
+  heal is 3266. The items multiply a heal that already exists.
+  Brand, with no Liandry and no kit heal, restores 1418.
+  Of that, Diadem is 193 and Helia is 1225.
+  Removing Liandry takes away the burn Helia was converting, and Brand
+  still has nothing of his own for Harmonic to copy.
+
+  A tank can buy the items. The shop does not stop them. The items do
+  not make them a tank.
+  Leona's physical EHP on this build is 7191 with W up,
+  against 9577 on a resist finish with the same W.
+  Her fight heal is 645, all of it from Diadem and Helia
+  (171 + 473). She has no ally heal to copy.
+  Nautilus is the same shape: self shield, heal 759, EHP with W 6018.
+  Braum's wall is not an ally shield, so his heal is 514.
+
+  Three tanks actually spend the passives:
+  Rakan Q and E: heal 799, shield 626, CC 3.0s, EHP 5079.
+  Taric Q and W: heal 656, shield 344. His W shares bonus armor, and this build adds 0 armor, so Bastion
+  does not make the carry tankier.
+  Alistar's roar is a real ally heal (161 before items, 749 after) and his ultimate is percent damage reduction,
+  so his EHP during R is 15308 without a resist item.
+  That is the tank who can frontline on this list, because the tank
+  steroid is in the ultimate, not in Locket.
+  Galio deals 601 and heals 703. The W shield
+  is his own, so Harmonic does not copy it.
+  Thresh's lantern is a shield (511) and his
+  souls keep armor the items do not give (EHP 4731).
+
+  The tankiest body on the Diadem list, steroid included, is Alistar at 15308 physical EHP.
+  Suitability for the build is the heal column, not that EHP column.
+  Soraka uses the items. A pure engage tank buys them and
+  gives up the resists that make the role work. Rakan is the engage
+  champion whose kit is already a heal and a shield. Alistar is the
+  one who stays hard to kill during his ultimate.
+==============================================================================
