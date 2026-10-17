@@ -1,0 +1,1249 @@
+{
+  "champion": "Kayle",
+  "game": "Wild Rift",
+  "patch": "7.3",
+  "keystone": "Empowerment",
+  "rush": [
+    "Kraken Slayer",
+    "boots",
+    "Dusk and Dawn"
+  ],
+  "stack_rule": "E-A = 2 stacks on Empowerment and on Kraken",
+  "winner": [
+    "Kraken Slayer",
+    "Boots of Mana",
+    "Dusk and Dawn",
+    "Guinsoo's Rageblade",
+    "Terminus",
+    "Nashor's Tooth",
+    "Spellslinger's Shoes"
+  ],
+  "winner_score": 1405.0,
+  "late_fight": {
+    "tank": {
+      "dps": 1203.4,
+      "damage": 7220.4,
+      "kill_time": 3.5999999999999996,
+      "attacks": 16,
+      "onhits": 23,
+      "empowerment_procs": 7,
+      "kraken_procs": 7,
+      "spellblades": 3,
+      "phantoms": 4,
+      "attack_speed": 2.5,
+      "sources": {
+        "Q": 409.0,
+        "auto": 1427.5,
+        "dusk": 160.3,
+        "E active": 348.0,
+        "wave": 559.8,
+        "E passive": 806.0,
+        "nashor": 860.5,
+        "brutal": 212.3,
+        "guinsoo": 419.1,
+        "terminus": 419.1,
+        "empowerment": 797.3,
+        "kraken": 801.7
+      },
+      "diary": [
+        {
+          "t": 0.0,
+          "label": "E-A",
+          "apps": 2,
+          "emp_before": 0,
+          "emp_after": 2,
+          "kraken_before": 0,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 0.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 0.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 1.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 1.6,
+          "label": "W-A",
+          "apps": 2,
+          "emp_before": 2,
+          "emp_after": 1,
+          "kraken_before": 2,
+          "kraken_after": 1,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 2.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 2.4,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 2,
+          "emp_after": 1,
+          "kraken_before": 2,
+          "kraken_after": 1,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": true
+        },
+        {
+          "t": 2.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 3.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 3.6,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 0,
+          "emp_after": 2,
+          "kraken_before": 0,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": true
+        },
+        {
+          "t": 4.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 4.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        }
+      ]
+    },
+    "squishy": {
+      "dps": 1707.3,
+      "damage": 10243.8,
+      "kill_time": 1.6,
+      "attacks": 16,
+      "onhits": 23,
+      "empowerment_procs": 7,
+      "kraken_procs": 7,
+      "spellblades": 3,
+      "phantoms": 4,
+      "attack_speed": 2.5,
+      "sources": {
+        "Q": 595.6,
+        "auto": 2108.9,
+        "dusk": 227.3,
+        "E active": 395.9,
+        "wave": 777.8,
+        "E passive": 1119.1,
+        "nashor": 1194.7,
+        "brutal": 294.8,
+        "guinsoo": 581.8,
+        "terminus": 581.8,
+        "empowerment": 1103.1,
+        "kraken": 1262.8
+      },
+      "diary": [
+        {
+          "t": 0.0,
+          "label": "E-A",
+          "apps": 2,
+          "emp_before": 0,
+          "emp_after": 2,
+          "kraken_before": 0,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 0.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 0.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 1.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 1.6,
+          "label": "W-A",
+          "apps": 2,
+          "emp_before": 2,
+          "emp_after": 1,
+          "kraken_before": 2,
+          "kraken_after": 1,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 2.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 2.4,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 2,
+          "emp_after": 1,
+          "kraken_before": 2,
+          "kraken_after": 1,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": true
+        },
+        {
+          "t": 2.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 3.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 3.6,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 0,
+          "emp_after": 2,
+          "kraken_before": 0,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": true
+        },
+        {
+          "t": 4.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 4.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        }
+      ]
+    },
+    "tank_without_dusk_double": {
+      "dps": 1094.9,
+      "damage": 6569.2,
+      "kill_time": 3.9999999999999996,
+      "attacks": 16,
+      "onhits": 20,
+      "empowerment_procs": 6,
+      "kraken_procs": 6,
+      "spellblades": 3,
+      "phantoms": 4,
+      "attack_speed": 2.5,
+      "sources": {
+        "Q": 409.0,
+        "auto": 1401.8,
+        "dusk": 160.3,
+        "E active": 348.0,
+        "wave": 550.5,
+        "E passive": 697.1,
+        "nashor": 744.2,
+        "brutal": 183.6,
+        "guinsoo": 362.4,
+        "terminus": 362.4,
+        "empowerment": 677.4,
+        "kraken": 672.5
+      },
+      "diary": [
+        {
+          "t": 0.0,
+          "label": "E",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 0.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 0.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 1.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 1.6,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 2.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 2.4,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 0,
+          "emp_after": 2,
+          "kraken_before": 0,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": true
+        },
+        {
+          "t": 2.8,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 2,
+          "emp_after": 0,
+          "kraken_before": 2,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": false
+        },
+        {
+          "t": 3.2,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 3.6,
+          "label": "auto+phantom",
+          "apps": 2,
+          "emp_before": 1,
+          "emp_after": 0,
+          "kraken_before": 1,
+          "kraken_after": 0,
+          "emp_proc": true,
+          "kraken_proc": true,
+          "phantom": true
+        },
+        {
+          "t": 4.0,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 0,
+          "emp_after": 1,
+          "kraken_before": 0,
+          "kraken_after": 1,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        },
+        {
+          "t": 4.4,
+          "label": "auto",
+          "apps": 1,
+          "emp_before": 1,
+          "emp_after": 2,
+          "kraken_before": 1,
+          "kraken_after": 2,
+          "emp_proc": false,
+          "kraken_proc": false,
+          "phantom": false
+        }
+      ]
+    },
+    "ap": 233.0,
+    "bonus_ad": 115.0
+  },
+  "top_pages": [
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "score": 1405.0,
+      "tank_dps": 1203.4,
+      "squishy_dps": 1707.3,
+      "tank_kill": 3.5999999999999996,
+      "squishy_kill": 1.6
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Rabadon's Deathcap",
+        "Terminus"
+      ],
+      "score": 1271.0,
+      "tank_dps": 1089.1,
+      "squishy_dps": 1543.8,
+      "tank_kill": 3.658244892383886,
+      "squishy_kill": 1.6258866188372825
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade",
+        "Void Staff"
+      ],
+      "score": 1268.0,
+      "tank_dps": 1090.1,
+      "squishy_dps": 1534.7,
+      "tank_kill": 3.627272152048686,
+      "squishy_kill": 1.6272721520486866
+    },
+    {
+      "boot": "Gunmetal Greaves",
+      "finishers": [
+        "Nashor's Tooth",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "score": 1254.0,
+      "tank_dps": 1096.3,
+      "squishy_dps": 1490.7,
+      "tank_kill": 3.5999999999999996,
+      "squishy_kill": 1.6
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Rabadon's Deathcap",
+        "Guinsoo's Rageblade"
+      ],
+      "score": 1251.9,
+      "tank_dps": 1045.5,
+      "squishy_dps": 1561.5,
+      "tank_kill": 3.610949749185828,
+      "squishy_kill": 1.6109497491858282
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Infinity Orb"
+      ],
+      "score": 1240.2,
+      "tank_dps": 1048.6,
+      "squishy_dps": 1527.7,
+      "tank_kill": 3.7163264773366187,
+      "squishy_kill": 1.703099171290435
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Terminus",
+        "Infinity Orb"
+      ],
+      "score": 1231.2,
+      "tank_dps": 1042.6,
+      "squishy_dps": 1514.0,
+      "tank_kill": 3.718686336864639,
+      "squishy_kill": 1.6527494830509506
+    },
+    {
+      "boot": "Gunmetal Greaves",
+      "finishers": [
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade",
+        "Void Staff"
+      ],
+      "score": 1230.8,
+      "tank_dps": 1069.9,
+      "squishy_dps": 1472.3,
+      "tank_kill": 3.9999999999999996,
+      "squishy_kill": 2.0
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Rabadon's Deathcap",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "score": 1230.8,
+      "tank_dps": 1051.8,
+      "squishy_dps": 1499.3,
+      "tank_kill": 3.6780875478321957,
+      "squishy_kill": 1.6780875478321962
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "score": 1230.6,
+      "tank_dps": 1065.8,
+      "squishy_dps": 1477.9,
+      "tank_kill": 3.527440444238795,
+      "squishy_kill": 1.7637202221193973
+    },
+    {
+      "boot": "Spellslinger's Shoes",
+      "finishers": [
+        "Nashor's Tooth",
+        "Terminus",
+        "Riftmaker"
+      ],
+      "score": 1228.3,
+      "tank_dps": 1053.5,
+      "squishy_dps": 1490.5,
+      "tank_kill": 4.141575621029264,
+      "squishy_kill": 1.6566302484117057
+    },
+    {
+      "boot": "Gunmetal Greaves",
+      "finishers": [
+        "Nashor's Tooth",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "score": 1227.2,
+      "tank_dps": 1055.3,
+      "squishy_dps": 1485.1,
+      "tank_kill": 3.9999999999999996,
+      "squishy_kill": 2.0
+    }
+  ],
+  "timeline": [
+    {
+      "minute": 0,
+      "level": 1,
+      "gold": 500,
+      "score": 73.1,
+      "tank_dps": 72.1,
+      "squishy_dps": 74.7,
+      "items": [],
+      "inventory": [],
+      "ap": 0.0,
+      "as": 0.88,
+      "emp_procs": 1,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 1,
+      "level": 2,
+      "gold": 950,
+      "score": 94.6,
+      "tank_dps": 93.1,
+      "squishy_dps": 96.8,
+      "items": [],
+      "inventory": [],
+      "ap": 0.0,
+      "as": 1.008,
+      "emp_procs": 2,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 2,
+      "level": 3,
+      "gold": 1400,
+      "score": 106.9,
+      "tank_dps": 105.3,
+      "squishy_dps": 109.5,
+      "items": [],
+      "inventory": [
+        "Hearthbound Axe"
+      ],
+      "ap": 0.0,
+      "as": 1.056,
+      "emp_procs": 2,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 3,
+      "level": 4,
+      "gold": 1850,
+      "score": 127.9,
+      "tank_dps": 125.9,
+      "squishy_dps": 131.0,
+      "items": [],
+      "inventory": [
+        "Hearthbound Axe"
+      ],
+      "ap": 0.0,
+      "as": 1.078,
+      "emp_procs": 2,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 4,
+      "level": 5,
+      "gold": 2300,
+      "score": 143.4,
+      "tank_dps": 141.0,
+      "squishy_dps": 146.9,
+      "items": [],
+      "inventory": [
+        "Hearthbound Axe"
+      ],
+      "ap": 0.0,
+      "as": 1.274,
+      "emp_procs": 2,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 5,
+      "level": 6,
+      "gold": 2750,
+      "score": 166.6,
+      "tank_dps": 163.7,
+      "squishy_dps": 170.8,
+      "items": [],
+      "inventory": [
+        "Hearthbound Axe"
+      ],
+      "ap": 0.0,
+      "as": 1.304,
+      "emp_procs": 2,
+      "kraken_procs": 0
+    },
+    {
+      "minute": 6,
+      "level": 7,
+      "gold": 3200,
+      "score": 241.7,
+      "tank_dps": 236.7,
+      "squishy_dps": 249.3,
+      "items": [
+        "Kraken Slayer"
+      ],
+      "inventory": [
+        "Kraken Slayer"
+      ],
+      "ap": 4.0,
+      "as": 1.329,
+      "emp_procs": 2,
+      "kraken_procs": 2
+    },
+    {
+      "minute": 7,
+      "level": 8,
+      "gold": 3850,
+      "score": 248.3,
+      "tank_dps": 238.3,
+      "squishy_dps": 263.4,
+      "items": [
+        "Kraken Slayer"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Amplifying Tome"
+      ],
+      "ap": 24.0,
+      "as": 1.368,
+      "emp_procs": 2,
+      "kraken_procs": 2
+    },
+    {
+      "minute": 8,
+      "level": 9,
+      "gold": 4500,
+      "score": 318.6,
+      "tank_dps": 299.2,
+      "squishy_dps": 347.7,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana"
+      ],
+      "ap": 29.0,
+      "as": 1.428,
+      "emp_procs": 3,
+      "kraken_procs": 3
+    },
+    {
+      "minute": 9,
+      "level": 10,
+      "gold": 5280,
+      "score": 336.4,
+      "tank_dps": 308.5,
+      "squishy_dps": 378.3,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Sheen"
+      ],
+      "ap": 33.0,
+      "as": 1.463,
+      "emp_procs": 3,
+      "kraken_procs": 3
+    },
+    {
+      "minute": 10,
+      "level": 11,
+      "gold": 6060,
+      "score": 345.7,
+      "tank_dps": 327.6,
+      "squishy_dps": 372.9,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Sheen",
+        "Blasting Wand"
+      ],
+      "ap": 78.0,
+      "as": 1.512,
+      "emp_procs": 3,
+      "kraken_procs": 3
+    },
+    {
+      "minute": 11,
+      "level": 11,
+      "gold": 6840,
+      "score": 367.9,
+      "tank_dps": 340.5,
+      "squishy_dps": 409.1,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Sheen",
+        "Blasting Wand"
+      ],
+      "ap": 78.0,
+      "as": 1.518,
+      "emp_procs": 3,
+      "kraken_procs": 3
+    },
+    {
+      "minute": 12,
+      "level": 12,
+      "gold": 7620,
+      "score": 457.0,
+      "tank_dps": 418.3,
+      "squishy_dps": 515.1,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn"
+      ],
+      "ap": 97.0,
+      "as": 1.68,
+      "emp_procs": 4,
+      "kraken_procs": 4
+    },
+    {
+      "minute": 13,
+      "level": 13,
+      "gold": 8520,
+      "score": 501.4,
+      "tank_dps": 452.3,
+      "squishy_dps": 575.2,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Amplifying Tome"
+      ],
+      "ap": 117.0,
+      "as": 1.742,
+      "emp_procs": 4,
+      "kraken_procs": 4
+    },
+    {
+      "minute": 14,
+      "level": 13,
+      "gold": 9420,
+      "score": 582.2,
+      "tank_dps": 515.5,
+      "squishy_dps": 682.2,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Amplifying Tome",
+        "Pickaxe"
+      ],
+      "ap": 117.0,
+      "as": 1.875,
+      "emp_procs": 5,
+      "kraken_procs": 5
+    },
+    {
+      "minute": 15,
+      "level": 14,
+      "gold": 10320,
+      "score": 759.0,
+      "tank_dps": 665.0,
+      "squishy_dps": 900.0,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade"
+      ],
+      "ap": 131.0,
+      "as": 2.183,
+      "emp_procs": 6,
+      "kraken_procs": 6
+    },
+    {
+      "minute": 16,
+      "level": 14,
+      "gold": 11370,
+      "score": 751.1,
+      "tank_dps": 679.1,
+      "squishy_dps": 859.0,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade"
+      ],
+      "ap": 131.0,
+      "as": 2.263,
+      "emp_procs": 6,
+      "kraken_procs": 6
+    },
+    {
+      "minute": 17,
+      "level": 15,
+      "gold": 12420,
+      "score": 814.0,
+      "tank_dps": 724.2,
+      "squishy_dps": 948.7,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Hearthbound Axe"
+      ],
+      "ap": 131.0,
+      "as": 2.44,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 18,
+      "level": 15,
+      "gold": 13470,
+      "score": 1035.7,
+      "tank_dps": 926.5,
+      "squishy_dps": 1199.6,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ap": 135.0,
+      "as": 2.441,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 19,
+      "level": 15,
+      "gold": 14470,
+      "score": 1020.3,
+      "tank_dps": 900.5,
+      "squishy_dps": 1200.0,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "ap": 135.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 20,
+      "level": 15,
+      "gold": 15470,
+      "score": 1039.3,
+      "tank_dps": 906.3,
+      "squishy_dps": 1238.9,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Blasting Wand"
+      ],
+      "ap": 180.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 21,
+      "level": 15,
+      "gold": 16470,
+      "score": 1310.8,
+      "tank_dps": 1138.4,
+      "squishy_dps": 1569.4,
+      "items": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Boots of Mana",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth"
+      ],
+      "ap": 219.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 22,
+      "level": 15,
+      "gold": 17320,
+      "score": 1406.6,
+      "tank_dps": 1211.4,
+      "squishy_dps": 1699.4,
+      "items": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 229.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 23,
+      "level": 15,
+      "gold": 18170,
+      "score": 1398.6,
+      "tank_dps": 1197.7,
+      "squishy_dps": 1699.8,
+      "items": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 229.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    },
+    {
+      "minute": 24,
+      "level": 15,
+      "gold": 19020,
+      "score": 1405.0,
+      "tank_dps": 1203.4,
+      "squishy_dps": 1707.3,
+      "items": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "inventory": [
+        "Kraken Slayer",
+        "Dusk and Dawn",
+        "Guinsoo's Rageblade",
+        "Terminus",
+        "Nashor's Tooth",
+        "Spellslinger's Shoes"
+      ],
+      "ap": 233.0,
+      "as": 2.5,
+      "emp_procs": 7,
+      "kraken_procs": 7
+    }
+  ]
+}
