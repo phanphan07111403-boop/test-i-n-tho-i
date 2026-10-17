@@ -1,0 +1,178 @@
+Wild Rift Kayle — best rune for the Kraken / Dusk / Guinsoo page
+Patch 7.3. Solo lane. The six items stay locked. The rune is the search.
+
+BEST RUNE
+  Empowerment / Brutal / Cut Down / Legend: Alacrity / Gathering Storm
+  Keywords: on-hit, stack, above 60% health, attack speed, late. Build keywords those runes cover: on-hit, stack, above 60% health, attack speed, late.
+  Alive-window score 1515/s  (tank still up for the first 2.0s, squishy for the first 1.2s). Full fight: tank kill 3.20s, squishy kill 1.60s.
+  Dusk's extra on-hit is an on-hit keyword. Empowerment reads that keyword:
+  E-A = 2 Empowerment stacks and 2 Kraken stacks. Lethal Tempo and
+  Conqueror count the swing once. Conqueror also counts the cast.
+
+RUNE PAGES (top 8, same six items)
+  Ranked on damage while the target is still alive, not on the kill tick.
+  page                                                                              open    tank  squish
+  Empowerment / Brutal / Cut Down / Legend: Alacrity / Gathering Storm              1515    1202    1816
+  Empowerment / Battle Zeal / Cut Down / Legend: Alacrity / Gathering Storm         1478    1202    1816
+  Empowerment / Brutal / Cut Down / Legend: Alacrity / Absolute Focus               1469    1202    1816
+  Empowerment / Legend: Alacrity / Absolute Focus / Gathering Storm                 1468    1202    1816
+  Empowerment / Brutal / Coup de Grace / Legend: Alacrity / Gathering Storm         1461    1202    1816
+  Empowerment / Battle Zeal / Cut Down / Legend: Alacrity / Absolute Focus          1431    1068    1816
+  Empowerment / Battle Zeal / Coup de Grace / Legend: Alacrity / Gathering Storm    1421    1202    1816
+  Empowerment / Brutal / Coup de Grace / Legend: Alacrity / Absolute Focus          1411    1202    1816
+  Best page of each keystone:
+    Empowerment / Brutal / Cut Down / Legend: Alacrity / Gathering Storm  —  1515/s
+    Conqueror / Brutal / Cut Down / Legend: Alacrity / Gathering Storm  —  1387/s
+    Lethal Tempo / Cut Down / Absolute Focus / Gathering Storm  —  1372/s
+
+Wild Rift Kayle — Kraken → boots → Dusk and Dawn
+Patch 7.3. Solo lane. Goal: strongest late-game spike on a finished page.
+
+STACK RULE
+Dusk and Dawn Spellblade: after an ability, the next attack applies
+on-hit effects again (1.5s cooldown). That second application is a stack.
+E-A = 2 stacks on Empowerment and 2 stacks on Kraken.
+Empowerment procs at 3 (60–200 adaptive + 9% damage for the rest of the fight).
+Kraken procs at 3 (120–168 physical ranged, up to +75% from missing health).
+Guinsoo Phantom Hit is a separate extra on-hit and adds a stack the same way.
+
+Opening weave on the finished page, vs the late tank:
+  0.00  E-A            on-hit x2   Empowerment 0→2   Kraken 0→2  
+  0.40  auto           on-hit x1   Empowerment 2→0   Kraken 2→0     Empowerment PROC, Kraken PROC
+  0.80  auto           on-hit x1   Empowerment 0→1   Kraken 0→1  
+  1.20  auto           on-hit x1   Empowerment 1→2   Kraken 1→2  
+  1.60  W-A            on-hit x2   Empowerment 2→1   Kraken 2→1     Empowerment PROC, Kraken PROC
+  2.00  auto           on-hit x1   Empowerment 1→2   Kraken 1→2  
+  2.40  auto+phantom   on-hit x2   Empowerment 2→1   Kraken 2→1     Empowerment PROC, Kraken PROC
+  2.80  auto           on-hit x1   Empowerment 1→2   Kraken 1→2  
+
+In 6s vs tank: 16 attacks, 23 on-hits, 3 spellblades, 4 phantom hits, 7 Empowerment procs, 7 Kraken procs.
+Same finished fight with Dusk's extra on-hit turned off (Guinsoo phantom still on): 6 Empowerment procs, 6 Kraken procs, tank DPS 1164 → 1277 (10%).
+Before Guinsoo, on Kraken + Boots of Mana + Dusk only, that same extra on-hit is tank DPS 327 → 370 (13%), 3 → 4 Empowerment procs.
+
+WINNER
+  Kraken Slayer → Boots of Mana → Dusk and Dawn → Guinsoo's Rageblade → Terminus → Nashor's Tooth → Spellslinger's Shoes
+  Late score 1485  (60% tank DPS 1277 / 40% squishy DPS 1797)
+  6s of swinging: tank 7664 (1277/s, first body kill 3.20s)   squishy 10783 (1797/s, kill 1.60s)
+  With R landing once: tank 8032 (kill 3.20s), squishy 11284 (kill 1.60s)
+  Level 15 stats: 275 AP, 115 bonus AD, 35 AH, 2.50 attack speed (cap 2.50)
+
+Where the tank damage comes from (post-mitigation):
+  auto              1453   19.0%
+  nashor             993   13.0%
+  E passive          908   11.8%
+  kraken             820   10.7%
+  empowerment        806   10.5%
+  wave               632    8.2%
+  Q                  445    5.8%
+  guinsoo            424    5.5%
+  terminus           424    5.5%
+  E active           373    4.9%
+  brutal             216    2.8%
+  dusk               171    2.2%
+
+WHY THIS PAGE
+Dusk makes E-A worth two stacks, so Empowerment and Kraken proc on the
+next auto. Guinsoo is the first buy after that because Phantom Hit is
+another extra on-hit: same stacks, and it repeats E passive, Nashor, and
+Terminus. Terminus is the armor pen for Kraken plus magic pen for the
+on-hits, stacking to 30% of each. Nashor is the late spike — its on-hit
+is the one both doubles keep firing, and it is the biggest completion
+jump on the curve.
+Deathcap sets sit behind this. The winning page has a modest AP pool,
+and the cap does not add an on-hit for the extra stack to repeat.
+Void does not replace Terminus here. Void is magic pen only, and item
+percent pen caps at 40%, so stacking it on Terminus wastes the overlap.
+Boots of Mana into Spellslinger beat Berserker into Gunmetal. The full
+page is already at the 2.50 attack speed cap, so more attack speed does
+not add swings. Spellslinger's penetration does.
+Lich Bane is out. It is the same Spellblade unique as Dusk.
+
+4th-item spike if you are sitting on Kraken + tier-2 boots + Dusk
+(same level-15 target, so this is the item spike, not the level spike):
+  Guinsoo's Rageblade    score     717   +   267   tank    594   squishy    902
+  Terminus               score     708   +   258   tank    602   squishy    867
+  Nashor's Tooth         score     660   +   210   tank    548   squishy    829
+  Rabadon's Deathcap     score     613   +   163   tank    507   squishy    773
+  Infinity Orb           score     595   +   145   tank    484   squishy    761
+  Void Staff             score     583   +   133   tank    499   squishy    710
+  Riftmaker              score     514   +    64   tank    422   squishy    651
+
+FULL PAGES (top 8 at minute 24, items finished)
+  page                                         score    tank  squishy  kills
+  Spellslinger + Nashor + Guinsoo + Terminus    1485    1277     1797  tank kill 3.20s, squishy kill 1.60s
+  Spellslinger + Nashor + Deathcap + Terminus    1353    1165     1636  tank kill 3.23s, squishy kill 1.61s
+  Spellslinger + Nashor + Guinsoo + Void        1345    1162     1620  tank kill 3.22s, squishy kill 1.62s
+  Gunmetal + Nashor + Deathcap + Void           1340    1177     1585  tank kill 3.60s, squishy kill 1.60s
+  Spellslinger + Nashor + Deathcap + Guinsoo    1332    1118     1654  tank kill 3.21s, squishy kill 1.61s
+  Spellslinger + Nashor + Deathcap + Void       1315    1145     1572  tank kill 3.06s, squishy kill 1.75s
+  Gunmetal + Nashor + Guinsoo + Void            1308    1143     1556  tank kill 3.60s, squishy kill 1.60s
+  Spellslinger + Nashor + Terminus + Infinity Orb    1305    1110     1597  tank kill 3.70s, squishy kill 1.64s
+
+GAME CURVE — winner path
+Gold is a solo laner playing for the late page, not a support curve.
+ min  lv   gold    score    tank  squish  items
+   0   1    500       78      77      79  —
+   1   2    950      100      98     102  —
+   2   3   1400      112     111     115  Hearthbound Axe
+   3   4   1850      134     132     137  Hearthbound Axe
+   4   5   2300      150     148     154  Hearthbound Axe
+   5   6   2750      174     171     178  Hearthbound Axe
+   6   7   3200      253     248     260  Kraken Slayer
+   7   8   3850      260     250     274  Kraken Slayer, Amplifying Tome
+   8   9   4500      331     312     361  Kraken Slayer, Boots of Mana
+   9  10   5280      352     324     394  Kraken Slayer, Boots of Mana, Sheen
+  10  11   6060      359     342     385  Kraken Slayer, Boots of Mana, Sheen, Blasting Wand
+  11  11   6840      382     356     422  Kraken Slayer, Boots of Mana, Sheen, Blasting Wand
+  12  12   7620      475     438     532  Kraken Slayer, Boots of Mana, Dusk and Dawn
+  13  13   8520      521     474     592  Kraken Slayer, Boots of Mana, Dusk and Dawn, Amplifying Tome
+  14  13   9420      602     537     700  Kraken Slayer, Boots of Mana, Dusk and Dawn, Amplifying Tome, Pickaxe
+  15  14  10320      783     689     925  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade
+  16  14  11370      775     704     882  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade
+  17  15  12420      840     750     974  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade, Hearthbound Axe
+  18  15  13470     1069     960    1233  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade, Terminus
+  19  15  14470     1053     933    1233  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade, Terminus
+  20  15  15470     1072     939    1273  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade, Terminus, Blasting Wand
+  21  15  16470     1369    1194    1632  Kraken Slayer, Boots of Mana, Dusk and Dawn, Guinsoo's Rageblade, Terminus, Nashor's Tooth
+  22  15  17320     1469    1270    1768  Kraken Slayer, Dusk and Dawn, Guinsoo's Rageblade, Terminus, Nashor's Tooth, Spellslinger's Shoes
+  23  15  18170     1461    1256    1768  Kraken Slayer, Dusk and Dawn, Guinsoo's Rageblade, Terminus, Nashor's Tooth, Spellslinger's Shoes
+  24  15  19020     1485    1277    1797  Kraken Slayer, Dusk and Dawn, Guinsoo's Rageblade, Terminus, Nashor's Tooth, Spellslinger's Shoes
+
+SPIKES (minute the finished item is bought, score vs the minute before)
+     6:00  Kraken Slayer                score     253       +79
+     8:00  Boots of Mana                score     331       +72
+    12:00  Dusk and Dawn                score     475       +93
+    15:00  Guinsoo's Rageblade          score     783      +181
+    18:00  Terminus                     score    1069      +229
+    21:00  Nashor's Tooth               score    1369      +297
+    22:00  Spellslinger's Shoes         score    1469      +100
+
+ASSUMPTIONS
+- 6s all-in. Damage keeps counting after the first target drops, so two
+  pages are not tied just because both delete one body. Q and E open
+  together (20% shred for 4s). The first auto is E-A. W primes Dusk when
+  Q and E are both down. R is off in the ranking fight and on in the combo line.
+- A minute with no new item can dip. The target's resists are still climbing.
+- Extra on-hit repeats E passive, Nashor, Brutal, Guinsoo, Terminus, and
+  adds Empowerment / Kraken stacks. It does not repeat the auto, the wave,
+  Dusk's own Spellblade damage, or E's missing-health active.
+- Waves (level 9, Exalted) hit the primary once per attack for E passive damage.
+- Kayle is ranged from level 5, so Kraken uses the ranged numbers after that.
+- Empowerment and Brutal are magic once AP is at least bonus AD.
+- Terminus Dark stacks 10% armor and magic pen, up to 30%. Item percent pen
+  is capped at 40%, so Void + Terminus does not go past 40% magic pen.
+- Attack speed cap 2.50. Zeal is permanent at level 13.
+- Rune page in the item curve is the kill-score winner above.
+  A legal page is one keystone, three slots from the primary path, and
+  one rune from a second path. Bone Plating is the usual defensive
+  flex and is not in the damage.
+- Gathering Storm AP totals from 6:00, every 3 minutes: 4, 10, 18, 28,
+  then onward. Absolute Focus is 4–40 AP while Kayle stays above 65% HP.
+- Lethal Tempo is the 7.3 bullet: 6.4% attack speed per stack for ranged,
+  and at 6 stacks a 6–24 adaptive bullet that scales with bonus attack speed.
+  It does not break the 2.50 cap. Conqueror is 5–8.33 AP per stack at
+  the AP adaptive, 6 stacks, one stack per cast or attack.
+- Boot rush is tier-2 (Berserker or Mana). The matching upgrade
+  (Gunmetal or Spellslinger) finishes that same slot once the legendaries
+  are in. The search picks the line with the higher full-page score.
+- Enchant is not modeled. It does not change the damage page.
