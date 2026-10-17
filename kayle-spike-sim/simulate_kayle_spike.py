@@ -3,9 +3,11 @@
 Wild Rift Kayle — late-game spike simulation (patch 7.3).
 
 Locked rush: Kraken Slayer → boots → Dusk and Dawn.
-Keystone: Empowerment.
-Question: which finished six-item page spikes hardest late, once Dusk's
-extra on-hit is counted as stacks for Empowerment and Kraken.
+Keystone search: Empowerment, Lethal Tempo, Conqueror, plus the minor
+runes whose keywords support on-hit, stacks, attack speed, and the late page.
+Question: which finished six-item page spikes hardest late, and which rune
+page supports that build. Dusk's extra on-hit counts as a stack for
+Empowerment and for Kraken.
 
 Stack rule (Dusk and Dawn Spellblade):
   After an ability, the next attack applies on-hit effects a second time.
@@ -99,17 +101,31 @@ def alacrity_as(minute: int) -> float:
     return min(0.20, 0.03 + 0.01 * stacks)
 
 
-def gathering_ap(minute: int) -> float:
-    """Gathering Storm from 6:00, every 3 minutes, +4 AP, no cap.
+def legend_haste(minute: int) -> float:
+    """Legend: Haste — 1.5 ability haste per stack, 10 stacks, 15 cap."""
+    stacks = min(10, int(max(0, minute) * 1.0))
+    return 1.5 * stacks
 
-    The live tooltip says the total grows without a listed table. +4 AP per
-    tick matches the '4 – ∞ AP' floor. Same on every build, so it does not
-    decide the winner.
+
+def gathering_ap(minute: int) -> float:
+    """Gathering Storm, adaptive AP. From 6:00, every 3 minutes.
+
+    Live totals: 4, then 10, 18, 28, and onward (the AD line 2, 5, 9, 14
+    doubled). The step grows by 2 AP each tick.
     """
     if minute < 6:
         return 0.0
-    ticks = 1 + (minute - 6) // 3
-    return 4.0 * ticks
+    n = 1 + (minute - 6) // 3
+    if n == 1:
+        ad = 2.0
+    else:
+        ad = 2.0 + (n - 1) * 3 + (n - 2) * (n - 1) / 2.0
+    return ad * 2.0
+
+
+def absolute_focus_ap(level: int) -> float:
+    """4–40 AP while above 65% health. Kayle is the attacker here, so it is on."""
+    return _lerp(level, 4, 40)
 
 
 def zeal_per_stack(level: int, ap: float) -> float:
@@ -124,6 +140,27 @@ def zeal_per_stack(level: int, ap: float) -> float:
     return base + (ap / 100.0) * 0.01
 
 
+def bonus_attack_speed(
+    level: int,
+    ap: float,
+    item_as: float,
+    minute: int,
+    zeal_stacks: int,
+    seething: int,
+    extra_as: float = 0.0,
+    alacrity: bool = True,
+) -> float:
+    return (
+        AS_BASE_BONUS
+        + level_bonus_as(level)
+        + item_as
+        + (alacrity_as(minute) if alacrity else 0.0)
+        + zeal_stacks * zeal_per_stack(level, ap)
+        + 0.08 * seething
+        + extra_as
+    )
+
+
 def attack_speed(
     level: int,
     ap: float,
@@ -131,14 +168,11 @@ def attack_speed(
     minute: int,
     zeal_stacks: int,
     seething: int,
+    extra_as: float = 0.0,
+    alacrity: bool = True,
 ) -> float:
-    bonus = (
-        AS_BASE_BONUS
-        + level_bonus_as(level)
-        + item_as
-        + alacrity_as(minute)
-        + zeal_stacks * zeal_per_stack(level, ap)
-        + 0.08 * seething
+    bonus = bonus_attack_speed(
+        level, ap, item_as, minute, zeal_stacks, seething, extra_as, alacrity
     )
     return min(AS_CAP, AS_BASE + AS_RATIO * bonus)
 
@@ -460,7 +494,136 @@ class Loadout:
     deathcap: bool
 
 
-def loadout_from(names: Sequence[str], minute: int) -> Loadout:
+@dataclass(frozen=True)
+class RunePage:
+    """One keystone, up to three primary-path slots, one off-path rune."""
+
+    keystone: str
+    precision1: str = ""  # brutal | battle_zeal
+    precision2: str = ""  # cut_down | coup
+    precision3: str = ""  # alacrity | haste
+    sorcery2: str = ""  # absolute
+    sorcery3: str = ""  # gathering
+
+    def label(self) -> str:
+        names = {
+            "empowerment": "Empowerment",
+            "lethal": "Lethal Tempo",
+            "conqueror": "Conqueror",
+            "brutal": "Brutal",
+            "battle_zeal": "Battle Zeal",
+            "cut_down": "Cut Down",
+            "coup": "Coup de Grace",
+            "alacrity": "Legend: Alacrity",
+            "haste": "Legend: Haste",
+            "absolute": "Absolute Focus",
+            "gathering": "Gathering Storm",
+        }
+        parts = [names[self.keystone]]
+        for key in (
+            self.precision1,
+            self.precision2,
+            self.precision3,
+            self.sorcery2,
+            self.sorcery3,
+        ):
+            if key:
+                parts.append(names[key])
+        return " / ".join(parts)
+
+    def keywords(self) -> List[str]:
+        table = {
+            "empowerment": ["on-hit", "stack"],
+            "lethal": ["basic attack", "attack speed", "stack"],
+            "conqueror": ["attack", "ability", "stack"],
+            "brutal": ["on-hit"],
+            "battle_zeal": ["ability"],
+            "cut_down": ["above 60% health"],
+            "coup": ["below 40% health"],
+            "alacrity": ["attack speed"],
+            "haste": ["ability haste"],
+            "absolute": ["above 65% health"],
+            "gathering": ["late"],
+        }
+        out: List[str] = []
+        for key in (
+            self.keystone,
+            self.precision1,
+            self.precision2,
+            self.precision3,
+            self.sorcery2,
+            self.sorcery3,
+        ):
+            for word in table.get(key, []):
+                if word not in out:
+                    out.append(word)
+        return out
+
+
+# The build's own keywords. A rune "supports" the page when its tooltip
+# uses one of these.
+BUILD_KEYWORDS = (
+    "on-hit",
+    "stack",
+    "attack speed",
+    "ability",
+    "ability haste",
+    "late",
+    "above 60% health",
+    "below 40% health",
+)
+
+
+def page_is_legal(page: RunePage) -> bool:
+    """Primary path can fill its slots. The other path contributes one rune."""
+    precision = sum(
+        1 for key in (page.precision1, page.precision2, page.precision3) if key
+    )
+    sorcery = sum(1 for key in (page.sorcery2, page.sorcery3) if key)
+    if precision > 3 or sorcery > 2:
+        return False
+    if precision and sorcery and min(precision, sorcery) > 1:
+        return False
+    return True
+
+
+def iter_rune_pages() -> List[RunePage]:
+    keys = ("empowerment", "lethal", "conqueror")
+    pages: List[RunePage] = []
+    for key in keys:
+        for slot1 in ("brutal", "battle_zeal"):
+            for slot2 in ("cut_down", "coup"):
+                for slot3 in ("alacrity", "haste"):
+                    for off in ("gathering", "absolute"):
+                        page = RunePage(
+                            key,
+                            slot1,
+                            slot2,
+                            slot3,
+                            "absolute" if off == "absolute" else "",
+                            "gathering" if off == "gathering" else "",
+                        )
+                        pages.append(page)
+        # Sorcery primary keeps both late AP runes and one Precision keyword.
+        for precision in (
+            ("brutal", "", ""),
+            ("", "cut_down", ""),
+            ("", "coup", ""),
+            ("", "", "alacrity"),
+            ("", "", "haste"),
+        ):
+            pages.append(
+                RunePage(key, precision[0], precision[1], precision[2], "absolute", "gathering")
+            )
+    return [page for page in pages if page_is_legal(page)]
+
+
+DEFAULT_RUNES = RunePage("empowerment", "brutal", "cut_down", "alacrity", "", "gathering")
+
+
+def loadout_from(
+    names: Sequence[str], minute: int, runes: Optional[RunePage] = None
+) -> Loadout:
     bonus_ad = ap = ah = as_pct = hp = flat = 0.0
     mpen_remain = 1.0
     flags = dict(
@@ -480,7 +643,19 @@ def loadout_from(names: Sequence[str], minute: int) -> Loadout:
         for key in flags:
             if getattr(item, key):
                 flags[key] = True
-    ap += gathering_ap(minute)
+    page = runes or DEFAULT_RUNES
+    if page.sorcery3 == "gathering":
+        if ap >= bonus_ad:
+            ap += gathering_ap(minute)
+        else:
+            bonus_ad += gathering_ap(minute) / 2.0
+    if page.sorcery2 == "absolute":
+        if ap >= bonus_ad:
+            ap += absolute_focus_ap(level_at_minute(minute))
+        else:
+            bonus_ad += absolute_focus_ap(level_at_minute(minute)) / 2.0
+    if page.precision3 == "haste":
+        ah += legend_haste(minute)
     if flags["rift"]:
         ap += 0.02 * hp
     if flags["deathcap"]:
@@ -539,6 +714,7 @@ class Fight:
     as_end: float = 0
     ap: float = 0
     bonus_ad: float = 0
+    kill_dps: float = 0
 
 
 def _lerp(level: int, lo: float, hi: float) -> float:
@@ -563,6 +739,7 @@ def simulate_fight(
     include_ult: bool = False,
     dusk_double: bool = True,
     diary_limit: int = 12,
+    runes: Optional[RunePage] = None,
 ) -> Fight:
     ranks = skill_ranks(level)
     q_rank = max(1, ranks["Q"])
@@ -572,13 +749,13 @@ def simulate_fight(
     q_cd = [0, 11, 10, 9, 8][q_rank] * (100.0 / (100.0 + load.ah))
     e_cd = [0, 8, 7.5, 7, 6.5][e_rank] * (100.0 / (100.0 + load.ah))
     w_cd = 14.0 * (100.0 / (100.0 + load.ah))
-    e_onhit = [0, 8, 11, 14, 17][e_rank] + 0.05 * load.bonus_ad + 0.15 * load.ap
-    e_missing = [0, 0.07, 0.08, 0.09, 0.10][e_rank] + 0.02 * (load.ap / 100.0)
+    e_flat = [0, 8, 11, 14, 17][e_rank]
+    e_missing_flat = [0, 0.07, 0.08, 0.09, 0.10][e_rank]
     r_base = [0, 150, 225, 300][r_rank] if r_rank else 0
-    ad_total = (54 + 3 * (level - 1)) + load.bonus_ad
     base_only = 54 + 3 * (level - 1)
     magic_adaptive = load.ap >= load.bonus_ad
     ranged = level >= 5
+    page = runes or DEFAULT_RUNES
 
     hp = target.hp
     max_hp = target.hp
@@ -604,7 +781,49 @@ def simulate_fight(
     attacks = onhits = emp_procs = kraken_procs = spellblades = phantoms = 0
     dealt = 0.0
     kill_time: Optional[float] = None
-    as_now = attack_speed(level, load.ap, load.as_pct, minute, zeal, seething)
+    conq_stacks = 0
+    lt_stacks = 0
+
+    def live_ap_ad() -> Tuple[float, float]:
+        ap = load.ap
+        ad = load.bonus_ad
+        if page.keystone == "conqueror" and conq_stacks:
+            if magic_adaptive:
+                ap += conq_stacks * _lerp(level, 5.0, 8.33)
+            else:
+                ad += conq_stacks * _lerp(level, 3.0, 5.0)
+        return ap, ad
+
+    def add_conq() -> None:
+        nonlocal conq_stacks
+        if page.keystone == "conqueror":
+            conq_stacks = min(6, conq_stacks + 1)
+
+    def lt_bonus_as() -> float:
+        if page.keystone != "lethal":
+            return 0.0
+        per = 0.064 if ranged else 0.08
+        return lt_stacks * per
+
+    def current_as(ap: float) -> float:
+        return attack_speed(
+            level,
+            ap,
+            load.as_pct,
+            minute,
+            zeal,
+            seething,
+            extra_as=lt_bonus_as(),
+            alacrity=page.precision3 == "alacrity",
+        )
+
+    def ability_amp(t: float) -> float:
+        if page.precision1 != "battle_zeal":
+            return 1.0
+        # 2% at the start of combat, +2% each second, cap 6%.
+        return 1.0 + min(0.06, 0.02 * (1 + int(t)))
+
+    as_now = current_as(load.ap)
 
     def shred_at(t: float) -> float:
         return 0.20 if t < shred_until else 0.0
@@ -623,6 +842,11 @@ def simulate_fight(
         amount *= 1.0 + (rift_bonus(t) if load.rift else 0.0)
         if emp_amp:
             amount *= 1.09
+        frac = 1.0 if max_hp <= 0 else hp / max_hp
+        if page.precision2 == "cut_down" and frac > 0.60:
+            amount *= 1.08
+        elif page.precision2 == "coup" and frac < 0.40:
+            amount *= 1.08
         dealt += amount
         # Missing-health ratios use a body that can fall to 0. Damage keeps
         # counting after that so a build that deletes the first target still
@@ -637,7 +861,9 @@ def simulate_fight(
 
     def cast_q(t: float) -> None:
         nonlocal q_ready, shred_until, armed, primer
-        raw = q_base + 0.60 * load.bonus_ad + 0.50 * load.ap
+        add_conq()
+        ap_now, ad_now = live_ap_ad()
+        raw = (q_base + 0.60 * ad_now + 0.50 * ap_now) * ability_amp(t)
         if load.orb and hp / max_hp < 0.40:
             raw *= 1.20
         deal(raw, "magic", "Q", t)
@@ -649,6 +875,7 @@ def simulate_fight(
 
     def cast_e(t: float) -> None:
         nonlocal e_ready, e_mark, armed, primer
+        add_conq()
         e_mark = True
         e_ready = t + e_cd
         armed = True
@@ -656,6 +883,7 @@ def simulate_fight(
 
     def cast_w(t: float) -> None:
         nonlocal w_ready, armed, primer
+        add_conq()
         w_ready = t + w_cd
         armed = True
         primer = "W"
@@ -667,13 +895,22 @@ def simulate_fight(
     t = 0.0
     while t <= duration + 1e-9:
         if include_ult and r_rank and not ult_done and t >= 2.5:
-            raw = r_base + 0.85 * load.bonus_ad + 0.60 * load.ap
+            add_conq()
+            ap_now, ad_now = live_ap_ad()
+            raw = (r_base + 0.85 * ad_now + 0.60 * ap_now) * ability_amp(t)
             if load.orb and hp / max_hp < 0.40:
                 raw *= 1.20
             deal(raw, "magic", "R", t)
             ult_done = True
 
-        as_now = attack_speed(level, load.ap, load.as_pct, minute, zeal, seething)
+        add_conq()
+        if page.keystone == "lethal":
+            lt_stacks = min(6, lt_stacks + 1)
+        ap_now, ad_now = live_ap_ad()
+        as_now = current_as(ap_now)
+        e_onhit = e_flat + 0.05 * ad_now + 0.15 * ap_now
+        e_missing = e_missing_flat + 0.02 * (ap_now / 100.0)
+        ad_total = base_only + ad_now
         want_sb = (load.dusk or load.sheen) and t >= sb_ready - 1e-9 and not armed
         if t >= e_ready - 1e-9 and (want_sb or not (load.dusk or load.sheen)):
             cast_e(t)
@@ -731,16 +968,32 @@ def simulate_fight(
         deal(ad_total, "physical", "auto", t)
 
         if spellblade and load.dusk:
-            deal(0.75 * base_only + 0.10 * load.ap, "magic", "dusk", t)
+            deal(0.75 * base_only + 0.10 * ap_now, "magic", "dusk", t)
         elif spellblade and load.sheen:
             deal(base_only, "physical", "sheen", t)
 
         if e_mark:
-            raw = e_missing * max(0.0, max_hp - hp)
+            raw = e_missing * max(0.0, max_hp - hp) * ability_amp(t)
             if load.orb and hp / max_hp < 0.40:
                 raw *= 1.20
             deal(raw, "magic", "E active", t)
             e_mark = False
+
+        if page.keystone == "lethal" and lt_stacks >= 6:
+            bonus_frac = bonus_attack_speed(
+                level,
+                ap_now,
+                load.as_pct,
+                minute,
+                zeal,
+                seething,
+                extra_as=lt_bonus_as(),
+                alacrity=page.precision3 == "alacrity",
+            )
+            bullet = _lerp(level, 6 if ranged else 9, 24 if ranged else 30)
+            scale = 0.0067 if ranged else 0.01
+            bullet *= 1.0 + scale * (bonus_frac * 100.0)
+            deal(bullet, "magic" if magic_adaptive else "physical", "lethal", t)
 
         if level >= 9 and zeal >= 4:
             deal(e_onhit, "magic", "wave", t)
@@ -749,9 +1002,10 @@ def simulate_fight(
             onhits += 1
             deal(e_onhit, "magic", "E passive", t)
             if load.nashor:
-                deal(15 + 0.20 * load.ap, "magic", "nashor", t)
-            brutal = 6 + 0.08 * load.bonus_ad
-            deal(brutal, "magic" if magic_adaptive else "physical", "brutal", t)
+                deal(15 + 0.20 * ap_now, "magic", "nashor", t)
+            if page.precision1 == "brutal":
+                brutal = 6 + 0.08 * ad_now
+                deal(brutal, "magic" if magic_adaptive else "physical", "brutal", t)
             if load.guinsoo:
                 deal(30, "magic", "guinsoo", t)
             if load.terminus:
@@ -761,19 +1015,17 @@ def simulate_fight(
                     dark_stacks = min(3, dark_stacks + 1)
                 light_turn = not light_turn
 
-            emp_stacks += 1
-            if emp_stacks >= 3:
-                emp_stacks = 0
-                emp_procs += 1
-                emp_proc = True
-                raw = empowerment_damage(level)
-                typ = "magic" if magic_adaptive else "physical"
-                # The proc grants the amp; the bonus itself is not amplified.
-                was = emp_amp
-                emp_amp = False
-                deal(raw, typ, "empowerment", t)
-                emp_amp = True
-                if was:
+            if page.keystone == "empowerment":
+                emp_stacks += 1
+                if emp_stacks >= 3:
+                    emp_stacks = 0
+                    emp_procs += 1
+                    emp_proc = True
+                    raw = empowerment_damage(level)
+                    typ = "magic" if magic_adaptive else "physical"
+                    # The proc grants the amp; the bonus itself is not amplified.
+                    emp_amp = False
+                    deal(raw, typ, "empowerment", t)
                     emp_amp = True
 
             if load.kraken:
@@ -813,10 +1065,15 @@ def simulate_fight(
             seething += 1
         t += 1.0 / as_now
 
+    if kill_time:
+        kill_dps = max_hp / kill_time
+    else:
+        kill_dps = dealt / duration
     return Fight(
         dps=dealt / duration,
         damage=dealt,
         kill_time=kill_time,
+        kill_dps=kill_dps,
         attacks=attacks,
         onhits=onhits,
         emp_procs=emp_procs,
@@ -840,10 +1097,18 @@ def fight_pair(
     minute: int,
     include_ult: bool = False,
     dusk_double: bool = True,
+    runes: Optional[RunePage] = None,
 ) -> Tuple[Fight, Fight]:
     level = level_at_minute(minute)
+    page = runes or DEFAULT_RUNES
     tank = simulate_fight(
-        load, level, minute, tank_at(minute), include_ult=include_ult, dusk_double=dusk_double
+        load,
+        level,
+        minute,
+        tank_at(minute),
+        include_ult=include_ult,
+        dusk_double=dusk_double,
+        runes=page,
     )
     squishy = simulate_fight(
         load,
@@ -852,8 +1117,71 @@ def fight_pair(
         squishy_at(minute),
         include_ult=include_ult,
         dusk_double=dusk_double,
+        runes=page,
     )
     return tank, squishy
+
+
+def rune_score(tank: Fight, squishy: Fight) -> float:
+    """DPS until the first body drops. Cleanup swings do not pick the rune."""
+    return TANK_WEIGHT * tank.kill_dps + SQUISHY_WEIGHT * squishy.kill_dps
+
+
+LOCKED_BUILD = (
+    "Kraken Slayer",
+    "Dusk and Dawn",
+    "Spellslinger's Shoes",
+    "Guinsoo's Rageblade",
+    "Terminus",
+    "Nashor's Tooth",
+)
+
+
+@dataclass
+class RuneResult:
+    page: RunePage
+    score: float
+    tank_kill_dps: float
+    squishy_kill_dps: float
+    tank_kill: Optional[float]
+    squishy_kill: Optional[float]
+    swing: float
+
+
+def compare_runes(minute: int = GAME_MINUTES) -> List[RuneResult]:
+    """Rank runes on damage while the target is still up.
+
+    A full-fight kill time lands on the same attack for every Empowerment
+    page, so Cut Down and Brutal would look identical. The tank window is
+    2.0s (the kill is ~3.2s). The squishy window is 1.2s (the kill is ~1.6s).
+    """
+    rows: List[RuneResult] = []
+    level = level_at_minute(minute)
+    for page in iter_rune_pages():
+        load = loadout_from(LOCKED_BUILD, minute, page)
+        tank, squishy = fight_pair(load, minute, runes=page)
+        tank_open = simulate_fight(
+            load, level, minute, tank_at(minute), duration=2.0, runes=page
+        )
+        squish_open = simulate_fight(
+            load, level, minute, squishy_at(minute), duration=1.2, runes=page
+        )
+        open_dps = TANK_WEIGHT * (tank_open.damage / 2.0) + SQUISHY_WEIGHT * (
+            squish_open.damage / 1.2
+        )
+        rows.append(
+            RuneResult(
+                page=page,
+                score=open_dps,
+                tank_kill_dps=tank.kill_dps,
+                squishy_kill_dps=squishy.kill_dps,
+                tank_kill=tank.kill_time,
+                squishy_kill=squishy.kill_time,
+                swing=score_pair(tank, squishy),
+            )
+        )
+    rows.sort(key=lambda row: (row.score, row.swing), reverse=True)
+    return rows
 
 
 # ---------------------------------------------------------------------------
@@ -970,7 +1298,9 @@ def diary_line(row: dict) -> str:
     )
 
 
-def build_report(pages: List[Page], winner_path: List[str]):
+def build_report(
+    pages: List[Page], winner_path: List[str], rune_rows: List[RuneResult]
+):
     winner = pages[0]
     minute = GAME_MINUTES
     load = loadout_from(final_names(winner.boot, winner.finishers), minute)
@@ -993,7 +1323,47 @@ def build_report(pages: List[Page], winner_path: List[str]):
 
     lines: List[str] = []
     a = lines.append
-    a("Wild Rift Kayle — Kraken → boots → Dusk and Dawn, Empowerment")
+    best_rune = rune_rows[0]
+    a("Wild Rift Kayle — best rune for the Kraken / Dusk / Guinsoo page")
+    a("Patch 7.3. Solo lane. The six items stay locked. The rune is the search.")
+    a("")
+    a("BEST RUNE")
+    a("  " + best_rune.page.label())
+    a(
+        "  Keywords: " + ", ".join(best_rune.page.keywords())
+        + ". Build keywords those runes cover: "
+        + ", ".join(
+            word for word in best_rune.page.keywords() if word in BUILD_KEYWORDS
+        )
+        + "."
+    )
+    a(
+        f"  Alive-window score {best_rune.score:.0f}/s  "
+        f"(tank still up for the first 2.0s, squishy for the first 1.2s). "
+        f"Full fight: tank {fmt_time(best_rune.tank_kill)}, "
+        f"squishy {fmt_time(best_rune.squishy_kill)}."
+    )
+    a("  Dusk's extra on-hit is an on-hit keyword. Empowerment reads that keyword:")
+    a("  E-A = 2 Empowerment stacks and 2 Kraken stacks. Lethal Tempo and")
+    a("  Conqueror count the swing once. Conqueror also counts the cast.")
+    a("")
+    a("RUNE PAGES (top 8, same six items)")
+    a("  Ranked on damage while the target is still alive, not on the kill tick.")
+    a(f"  {'page':<78} {'open':>7} {'tank':>7} {'squish':>7}")
+    for row in rune_rows[:8]:
+        a(
+            f"  {row.page.label():<78} {row.score:7.0f} "
+            f"{row.tank_kill_dps:7.0f} {row.squishy_kill_dps:7.0f}"
+        )
+    a("  Best page of each keystone:")
+    seen_keys = set()
+    for row in rune_rows:
+        if row.page.keystone in seen_keys:
+            continue
+        seen_keys.add(row.page.keystone)
+        a(f"    {row.page.label()}  —  {row.score:.0f}/s")
+    a("")
+    a("Wild Rift Kayle — Kraken → boots → Dusk and Dawn")
     a("Patch 7.3. Solo lane. Goal: strongest late-game spike on a finished page.")
     a("")
     a("STACK RULE")
@@ -1151,9 +1521,16 @@ def build_report(pages: List[Page], winner_path: List[str]):
     a("- Terminus Dark stacks 10% armor and magic pen, up to 30%. Item percent pen")
     a("  is capped at 40%, so Void + Terminus does not go past 40% magic pen.")
     a("- Attack speed cap 2.50. Zeal is permanent at level 13.")
-    a("- Runes: Empowerment, Brutal, Legend: Alacrity, Gathering Storm.")
-    a("  Bone Plating is the defensive slot and is not in the damage.")
-    a("- Gathering Storm is modeled as +4 AP every 3 minutes from 6:00.")
+    a("- Rune page in the item curve is the kill-score winner above.")
+    a("  A legal page is one keystone, three slots from the primary path, and")
+    a("  one rune from a second path. Bone Plating is the usual defensive")
+    a("  flex and is not in the damage.")
+    a("- Gathering Storm AP totals from 6:00, every 3 minutes: 4, 10, 18, 28,")
+    a("  then onward. Absolute Focus is 4–40 AP while Kayle stays above 65% HP.")
+    a("- Lethal Tempo is the 7.3 bullet: 6.4% attack speed per stack for ranged,")
+    a("  and at 6 stacks a 6–24 adaptive bullet that scales with bonus attack speed.")
+    a("  It does not break the 2.50 cap. Conqueror is 5–8.33 AP per stack at")
+    a("  the AP adaptive, 6 stacks, one stack per cast or attack.")
     a("- Boot rush is tier-2 (Berserker or Mana). The matching upgrade")
     a("  (Gunmetal or Spellslinger) finishes that same slot once the legendaries")
     a("  are in. The search picks the line with the higher full-page score.")
@@ -1167,7 +1544,16 @@ def build_report(pages: List[Page], winner_path: List[str]):
     }
 
 
-def check_stack_rule(fight: Fight) -> None:
+def check_stack_rule() -> None:
+    page = RunePage("empowerment", "brutal", "", "alacrity", "", "gathering")
+    load = loadout_from(LOCKED_BUILD, GAME_MINUTES, page)
+    fight = simulate_fight(
+        load,
+        level_at_minute(GAME_MINUTES),
+        GAME_MINUTES,
+        tank_at(GAME_MINUTES),
+        runes=page,
+    )
     diary = fight.diary
     if len(diary) < 2:
         raise SystemExit("stack diary too short")
@@ -1183,14 +1569,15 @@ def check_stack_rule(fight: Fight) -> None:
 
 
 def main() -> None:
+    global DEFAULT_RUNES
+    rune_rows = compare_runes(GAME_MINUTES)
+    DEFAULT_RUNES = rune_rows[0].page
     pages = search_pages(GAME_MINUTES)
     winner = pages[0]
     order, upgrade_at, _curve = best_order(winner)
     winner_path = path_for(winner.boot, order, upgrade_at)
-    # Re-rank display finishers in the spike order so the header matches the path.
-    # The page score used the set; order does not change the minute-24 page.
-    report, timeline, extra = build_report(pages, winner_path)
-    check_stack_rule(extra["tank"])
+    report, timeline, extra = build_report(pages, winner_path, rune_rows)
+    check_stack_rule()
     print(report)
     out_dir = "/workspace/kayle-spike-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
@@ -1216,9 +1603,23 @@ def main() -> None:
         "champion": "Kayle",
         "game": "Wild Rift",
         "patch": "7.3",
-        "keystone": "Empowerment",
+        "keystone": DEFAULT_RUNES.keystone,
+        "rune_page": DEFAULT_RUNES.label(),
+        "rune_keywords": DEFAULT_RUNES.keywords(),
         "rush": ["Kraken Slayer", "boots", "Dusk and Dawn"],
         "stack_rule": "E-A = 2 stacks on Empowerment and on Kraken",
+        "rune_rows": [
+            {
+                "page": row.page.label(),
+                "keywords": row.page.keywords(),
+                "kill_score": round(row.score, 1),
+                "tank_kill_dps": round(row.tank_kill_dps, 1),
+                "squishy_kill_dps": round(row.squishy_kill_dps, 1),
+                "tank_kill": row.tank_kill,
+                "squishy_kill": row.squishy_kill,
+            }
+            for row in rune_rows[:12]
+        ],
         "winner": extra["seen"],
         "winner_score": round(winner.score, 1),
         "late_fight": {

@@ -15,7 +15,7 @@ Outputs:
 
 ## Question
 
-Rush **Kraken Slayer → boots → Dusk and Dawn** with **Empowerment**. Finish the other three slots. Which full page is the strongest late spike?
+Rush **Kraken Slayer → boots → Dusk and Dawn**. Finish the other three slots. Which full page is the strongest late spike, and which rune's keywords support that page?
 
 Dusk's Spellblade applies on-hit effects a second time. That second application is a stack for Empowerment and for Kraken.
 
@@ -34,6 +34,22 @@ Dusk's Spellblade applies on-hit effects a second time. That second application 
 | ~18:00 | **Terminus** — up to 30% armor and magic pen |
 | ~21:00 | **Nashor** — the on-hit both doubles keep firing |
 | ~22:00 | Spellslinger's Shoes — pen, the attack speed cap is already full |
+
+## Best rune
+
+**Empowerment / Brutal / Cut Down / Legend: Alacrity / Gathering Storm**
+
+Bone Plating is the defensive flex if the lane pokes you out. It adds no damage, so it is not in this page.
+
+| Rune | Keyword that supports the build |
+|------|----------------------------------|
+| Empowerment | **on-hit, stack.** Dusk's second on-hit is a stack. E-A = 2 stacks. The next auto procs. |
+| Brutal | **on-hit.** Dusk and Guinsoo both repeat it. |
+| Cut Down | **above 60% health.** The tank is still healthy while you stack the first procs. |
+| Legend: Alacrity | **attack speed.** Gets the page to the 2.50 cap. Legend: Haste does not. |
+| Gathering Storm | **late.** 4 / 10 / 18 / 28 AP and onward from 6:00. Ahead of Absolute Focus at full build. |
+
+Lethal Tempo counts a basic attack, not an on-hit, so E-A is 1 stack and the bullet does not double. Conqueror counts the cast and the swing once each, not the extra on-hit. Both finish behind Empowerment on this page.
 
 ## Why
 
