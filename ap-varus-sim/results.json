@@ -1,0 +1,1305 @@
+{
+  "patch": "26.21",
+  "winner": {
+    "score": 12.267,
+    "rune": "coup",
+    "boots_at": 0,
+    "items": [
+      "Shadowflame",
+      "Void Staff",
+      "Stormsurge",
+      "Rabadon's Deathcap",
+      "Cryptbloom"
+    ],
+    "spikes": [
+      {
+        "item": "Shadowflame",
+        "minute": 12,
+        "level": 12,
+        "ap": 176.5,
+        "allin": 2944,
+        "allin_pct": 147.2,
+        "pick": 1514,
+        "pick_pct": 75.7,
+        "bruiser_pct": 58.3,
+        "gain": 2944,
+        "combine": 701,
+        "tags": {
+          "auto": 162,
+          "onhit": 193,
+          "r": 338,
+          "blight_r": 332,
+          "q": 176,
+          "blight_q": 731,
+          "w_active": 1012
+        }
+      },
+      {
+        "item": "Void Staff",
+        "minute": 18,
+        "level": 15,
+        "ap": 276.9,
+        "allin": 4361,
+        "allin_pct": 173.3,
+        "pick": 2541,
+        "pick_pct": 101.0,
+        "bruiser_pct": 62.1,
+        "gain": 1418,
+        "combine": 1040,
+        "tags": {
+          "auto": 156,
+          "onhit": 294,
+          "r": 465,
+          "blight_r": 558,
+          "q": 191,
+          "blight_q": 1229,
+          "w_active": 1468
+        }
+      },
+      {
+        "item": "Stormsurge",
+        "minute": 23,
+        "level": 17,
+        "ap": 386.4,
+        "allin": 6100,
+        "allin_pct": 210.9,
+        "pick": 3899,
+        "pick_pct": 134.8,
+        "bruiser_pct": 66.5,
+        "gain": 1738,
+        "combine": 969,
+        "tags": {
+          "auto": 152,
+          "onhit": 411,
+          "r": 701,
+          "blight_r": 819,
+          "q": 189,
+          "blight_q": 1804,
+          "w_active": 1821,
+          "squall": 202
+        }
+      },
+      {
+        "item": "Rabadon's Deathcap",
+        "minute": 28,
+        "level": 18,
+        "ap": 650.2,
+        "allin": 7662,
+        "allin_pct": 242.5,
+        "pick": 5080,
+        "pick_pct": 160.8,
+        "bruiser_pct": 84.9,
+        "gain": 1562,
+        "combine": 850,
+        "tags": {
+          "auto": 147,
+          "onhit": 604,
+          "r": 902,
+          "blight_r": 1163,
+          "q": 177,
+          "blight_q": 2563,
+          "w_active": 1884,
+          "squall": 222
+        }
+      },
+      {
+        "item": "Cryptbloom",
+        "minute": 33,
+        "level": 18,
+        "ap": 778.9,
+        "allin": 10190,
+        "allin_pct": 306.9,
+        "pick": 6441,
+        "pick_pct": 194.0,
+        "bruiser_pct": 121.1,
+        "gain": 2529,
+        "combine": 1317,
+        "tags": {
+          "auto": 140,
+          "onhit": 796,
+          "r": 1145,
+          "blight_r": 2017,
+          "q": 169,
+          "blight_q": 3429,
+          "w_active": 2226,
+          "squall": 267
+        }
+      }
+    ]
+  },
+  "nashor_first": {
+    "score": 10.632,
+    "rune": "coup",
+    "boots_at": 0,
+    "items": [
+      "Nashor's Tooth",
+      "Shadowflame",
+      "Void Staff",
+      "Stormsurge",
+      "Rabadon's Deathcap"
+    ],
+    "spikes": [
+      {
+        "item": "Nashor's Tooth",
+        "minute": 11,
+        "level": 11,
+        "ap": 144.8,
+        "allin": 2144,
+        "allin_pct": 115.3,
+        "pick": 1195,
+        "pick_pct": 64.2,
+        "bruiser_pct": 70.4,
+        "gain": 2144,
+        "combine": null,
+        "tags": {
+          "auto": 162,
+          "onhit": 235,
+          "r": 286,
+          "blight_r": 264,
+          "q": 138,
+          "blight_q": 448,
+          "w_active": 611
+        }
+      },
+      {
+        "item": "Shadowflame",
+        "minute": 17,
+        "level": 14,
+        "ap": 260.1,
+        "allin": 3575,
+        "allin_pct": 150.5,
+        "pick": 1767,
+        "pick_pct": 74.4,
+        "bruiser_pct": 49.5,
+        "gain": 1431,
+        "combine": null,
+        "tags": {
+          "auto": 156,
+          "onhit": 350,
+          "r": 372,
+          "blight_r": 423,
+          "q": 197,
+          "blight_q": 932,
+          "w_active": 1145
+        }
+      },
+      {
+        "item": "Void Staff",
+        "minute": 23,
+        "level": 17,
+        "ap": 376.4,
+        "allin": 5333,
+        "allin_pct": 184.4,
+        "pick": 3073,
+        "pick_pct": 106.2,
+        "bruiser_pct": 60.5,
+        "gain": 1758,
+        "combine": null,
+        "tags": {
+          "auto": 152,
+          "onhit": 531,
+          "r": 605,
+          "blight_r": 706,
+          "q": 189,
+          "blight_q": 1556,
+          "w_active": 1593
+        }
+      },
+      {
+        "item": "Stormsurge",
+        "minute": 27,
+        "level": 18,
+        "ap": 450.2,
+        "allin": 6765,
+        "allin_pct": 216.3,
+        "pick": 4145,
+        "pick_pct": 132.5,
+        "bruiser_pct": 68.5,
+        "gain": 1431,
+        "combine": null,
+        "tags": {
+          "auto": 148,
+          "onhit": 671,
+          "r": 728,
+          "blight_r": 923,
+          "q": 178,
+          "blight_q": 2033,
+          "w_active": 1882,
+          "squall": 201
+        }
+      },
+      {
+        "item": "Rabadon's Deathcap",
+        "minute": 33,
+        "level": 18,
+        "ap": 785.4,
+        "allin": 9091,
+        "allin_pct": 273.8,
+        "pick": 5518,
+        "pick_pct": 166.2,
+        "bruiser_pct": 97.3,
+        "gain": 2326,
+        "combine": null,
+        "tags": {
+          "auto": 140,
+          "onhit": 1026,
+          "r": 979,
+          "blight_r": 1725,
+          "q": 169,
+          "blight_q": 2932,
+          "w_active": 1892,
+          "squall": 227
+        }
+      }
+    ]
+  },
+  "top": [
+    {
+      "score": 12.267,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Void Staff",
+        "Stormsurge",
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": 701,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1418,
+          "combine": 1040,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 1738,
+          "combine": 969,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 28,
+          "level": 18,
+          "ap": 650.2,
+          "allin": 7662,
+          "allin_pct": 242.5,
+          "pick": 5080,
+          "pick_pct": 160.8,
+          "bruiser_pct": 84.9,
+          "gain": 1562,
+          "combine": 850,
+          "tags": {
+            "auto": 147,
+            "onhit": 604,
+            "r": 902,
+            "blight_r": 1163,
+            "q": 177,
+            "blight_q": 2563,
+            "w_active": 1884,
+            "squall": 222
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2529,
+          "combine": 1317,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.249,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Void Staff",
+        "Stormsurge",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1418,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 1738,
+          "combine": null,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 27,
+          "level": 18,
+          "ap": 445.2,
+          "allin": 7531,
+          "allin_pct": 240.8,
+          "pick": 5037,
+          "pick_pct": 161.0,
+          "bruiser_pct": 88.8,
+          "gain": 1431,
+          "combine": null,
+          "tags": {
+            "auto": 148,
+            "onhit": 514,
+            "r": 843,
+            "blight_r": 1068,
+            "q": 178,
+            "blight_q": 2353,
+            "w_active": 2193,
+            "squall": 233
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2660,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.226,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Stormsurge",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 17,
+          "level": 14,
+          "ap": 270.1,
+          "allin": 4041,
+          "allin_pct": 170.1,
+          "pick": 2387,
+          "pick_pct": 100.4,
+          "bruiser_pct": 53.6,
+          "gain": 1097,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 268,
+            "r": 426,
+            "blight_r": 483,
+            "q": 197,
+            "blight_q": 1064,
+            "w_active": 1285,
+            "squall": 161
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 2059,
+          "combine": null,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 28,
+          "level": 18,
+          "ap": 650.2,
+          "allin": 7662,
+          "allin_pct": 242.5,
+          "pick": 5080,
+          "pick_pct": 160.8,
+          "bruiser_pct": 84.9,
+          "gain": 1562,
+          "combine": null,
+          "tags": {
+            "auto": 147,
+            "onhit": 604,
+            "r": 902,
+            "blight_r": 1163,
+            "q": 177,
+            "blight_q": 2563,
+            "w_active": 1884,
+            "squall": 222
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2529,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.208,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Stormsurge",
+        "Void Staff",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 17,
+          "level": 14,
+          "ap": 270.1,
+          "allin": 4041,
+          "allin_pct": 170.1,
+          "pick": 2387,
+          "pick_pct": 100.4,
+          "bruiser_pct": 53.6,
+          "gain": 1097,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 268,
+            "r": 426,
+            "blight_r": 483,
+            "q": 197,
+            "blight_q": 1064,
+            "w_active": 1285,
+            "squall": 161
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 2059,
+          "combine": null,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 27,
+          "level": 18,
+          "ap": 445.2,
+          "allin": 7531,
+          "allin_pct": 240.8,
+          "pick": 5037,
+          "pick_pct": 161.0,
+          "bruiser_pct": 88.8,
+          "gain": 1431,
+          "combine": null,
+          "tags": {
+            "auto": 148,
+            "onhit": 514,
+            "r": 843,
+            "blight_r": 1068,
+            "q": 178,
+            "blight_q": 2353,
+            "w_active": 2193,
+            "squall": 233
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2660,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.206,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Stormsurge",
+        "Cryptbloom"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1418,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 24,
+          "level": 17,
+          "ap": 554.3,
+          "allin": 6011,
+          "allin_pct": 205.6,
+          "pick": 3760,
+          "pick_pct": 128.6,
+          "bruiser_pct": 69.3,
+          "gain": 1650,
+          "combine": null,
+          "tags": {
+            "auto": 151,
+            "onhit": 482,
+            "r": 747,
+            "blight_r": 889,
+            "q": 187,
+            "blight_q": 1958,
+            "w_active": 1597
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 28,
+          "level": 18,
+          "ap": 650.2,
+          "allin": 7662,
+          "allin_pct": 242.5,
+          "pick": 5080,
+          "pick_pct": 160.8,
+          "bruiser_pct": 84.9,
+          "gain": 1651,
+          "combine": null,
+          "tags": {
+            "auto": 147,
+            "onhit": 604,
+            "r": 902,
+            "blight_r": 1163,
+            "q": 177,
+            "blight_q": 2563,
+            "w_active": 1884,
+            "squall": 222
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2529,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.136,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Void Staff",
+        "Shadowflame",
+        "Stormsurge",
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "spikes": [
+        {
+          "item": "Void Staff",
+          "minute": 11,
+          "level": 11,
+          "ap": 159.8,
+          "allin": 2556,
+          "allin_pct": 137.4,
+          "pick": 1470,
+          "pick_pct": 79.0,
+          "bruiser_pct": 90.4,
+          "gain": 2556,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 347,
+            "blight_r": 318,
+            "q": 138,
+            "blight_q": 585,
+            "w_active": 813
+          }
+        },
+        {
+          "item": "Shadowflame",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1805,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 1738,
+          "combine": null,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 28,
+          "level": 18,
+          "ap": 650.2,
+          "allin": 7662,
+          "allin_pct": 242.5,
+          "pick": 5080,
+          "pick_pct": 160.8,
+          "bruiser_pct": 84.9,
+          "gain": 1562,
+          "combine": null,
+          "tags": {
+            "auto": 147,
+            "onhit": 604,
+            "r": 902,
+            "blight_r": 1163,
+            "q": 177,
+            "blight_q": 2563,
+            "w_active": 1884,
+            "squall": 222
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2529,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.117,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Void Staff",
+        "Shadowflame",
+        "Stormsurge",
+        "Cryptbloom",
+        "Rabadon's Deathcap"
+      ],
+      "spikes": [
+        {
+          "item": "Void Staff",
+          "minute": 11,
+          "level": 11,
+          "ap": 159.8,
+          "allin": 2556,
+          "allin_pct": 137.4,
+          "pick": 1470,
+          "pick_pct": 79.0,
+          "bruiser_pct": 90.4,
+          "gain": 2556,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 347,
+            "blight_r": 318,
+            "q": 138,
+            "blight_q": 585,
+            "w_active": 813
+          }
+        },
+        {
+          "item": "Shadowflame",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1805,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 23,
+          "level": 17,
+          "ap": 386.4,
+          "allin": 6100,
+          "allin_pct": 210.9,
+          "pick": 3899,
+          "pick_pct": 134.8,
+          "bruiser_pct": 66.5,
+          "gain": 1738,
+          "combine": null,
+          "tags": {
+            "auto": 152,
+            "onhit": 411,
+            "r": 701,
+            "blight_r": 819,
+            "q": 189,
+            "blight_q": 1804,
+            "w_active": 1821,
+            "squall": 202
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 27,
+          "level": 18,
+          "ap": 445.2,
+          "allin": 7531,
+          "allin_pct": 240.8,
+          "pick": 5037,
+          "pick_pct": 161.0,
+          "bruiser_pct": 88.8,
+          "gain": 1431,
+          "combine": null,
+          "tags": {
+            "auto": 148,
+            "onhit": 514,
+            "r": 843,
+            "blight_r": 1068,
+            "q": 178,
+            "blight_q": 2353,
+            "w_active": 2193,
+            "squall": 233
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2660,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    },
+    {
+      "score": 12.089,
+      "rune": "coup",
+      "boots_at": 0,
+      "items": [
+        "Shadowflame",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Cryptbloom",
+        "Stormsurge"
+      ],
+      "spikes": [
+        {
+          "item": "Shadowflame",
+          "minute": 12,
+          "level": 12,
+          "ap": 176.5,
+          "allin": 2944,
+          "allin_pct": 147.2,
+          "pick": 1514,
+          "pick_pct": 75.7,
+          "bruiser_pct": 58.3,
+          "gain": 2944,
+          "combine": null,
+          "tags": {
+            "auto": 162,
+            "onhit": 193,
+            "r": 338,
+            "blight_r": 332,
+            "q": 176,
+            "blight_q": 731,
+            "w_active": 1012
+          }
+        },
+        {
+          "item": "Void Staff",
+          "minute": 18,
+          "level": 15,
+          "ap": 276.9,
+          "allin": 4361,
+          "allin_pct": 173.3,
+          "pick": 2541,
+          "pick_pct": 101.0,
+          "bruiser_pct": 62.1,
+          "gain": 1418,
+          "combine": null,
+          "tags": {
+            "auto": 156,
+            "onhit": 294,
+            "r": 465,
+            "blight_r": 558,
+            "q": 191,
+            "blight_q": 1229,
+            "w_active": 1468
+          }
+        },
+        {
+          "item": "Rabadon's Deathcap",
+          "minute": 24,
+          "level": 17,
+          "ap": 554.3,
+          "allin": 6011,
+          "allin_pct": 205.6,
+          "pick": 3760,
+          "pick_pct": 128.6,
+          "bruiser_pct": 69.3,
+          "gain": 1650,
+          "combine": null,
+          "tags": {
+            "auto": 151,
+            "onhit": 482,
+            "r": 747,
+            "blight_r": 889,
+            "q": 187,
+            "blight_q": 1958,
+            "w_active": 1597
+          }
+        },
+        {
+          "item": "Cryptbloom",
+          "minute": 29,
+          "level": 18,
+          "ap": 630.7,
+          "allin": 7393,
+          "allin_pct": 231.6,
+          "pick": 4804,
+          "pick_pct": 150.5,
+          "bruiser_pct": 93.6,
+          "gain": 1383,
+          "combine": null,
+          "tags": {
+            "auto": 145,
+            "onhit": 589,
+            "r": 886,
+            "blight_r": 1153,
+            "q": 175,
+            "blight_q": 2540,
+            "w_active": 1906
+          }
+        },
+        {
+          "item": "Stormsurge",
+          "minute": 33,
+          "level": 18,
+          "ap": 778.9,
+          "allin": 10190,
+          "allin_pct": 306.9,
+          "pick": 6441,
+          "pick_pct": 194.0,
+          "bruiser_pct": 121.1,
+          "gain": 2797,
+          "combine": null,
+          "tags": {
+            "auto": 140,
+            "onhit": 796,
+            "r": 1145,
+            "blight_r": 2017,
+            "q": 169,
+            "blight_q": 3429,
+            "w_active": 2226,
+            "squall": 267
+          }
+        }
+      ]
+    }
+  ],
+  "manaflow_tradeoff": [
+    {
+      "label": "Absolute Focus + Gathering Storm",
+      "spikes_pct": [
+        147.2,
+        173.3,
+        210.9,
+        242.5,
+        306.9
+      ]
+    },
+    {
+      "label": "Manaflow + Gathering Storm",
+      "spikes_pct": [
+        128.8,
+        168.2,
+        204.8,
+        234.7,
+        297.8
+      ]
+    },
+    {
+      "label": "Manaflow + Absolute Focus",
+      "spikes_pct": [
+        132.5,
+        171.9,
+        206.2,
+        236.9,
+        280.7
+      ]
+    }
+  ]
+}

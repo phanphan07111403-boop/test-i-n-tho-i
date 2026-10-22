@@ -1,0 +1,206 @@
+AP Varus — burst spikes on every finished item (patch 26.21)
+========================================================================
+
+Build
+-----
+Start Doran's Ring, then:
+  1. Shadowflame   finishes ~12:00   all-in 2944 (147.2% of the squishy)
+  2. Void Staff   finishes ~18:00   all-in 4361 (173.3% of the squishy)
+  3. Stormsurge   finishes ~23:00   all-in 6100 (210.9% of the squishy)
+  4. Rabadon's Deathcap   finishes ~28:00   all-in 7662 (242.5% of the squishy)
+  5. Cryptbloom   finishes ~33:00   all-in 10190 (306.9% of the squishy)
+Boots: Sorcerer's Shoes before the first legendary.
+
+Buy order
+---------
+   1. Doran's Ring           pay  400g   total   400g
+   2. Sorcerer's Shoes       pay 1100g   total  1500g  ← boots
+   3. Needlessly Large Rod   pay 1200g   total  2700g
+   4. Hextech Alternator     pay 1100g   total  3800g
+   5. Shadowflame            pay  900g   total  4700g  ← legendary
+   6. Blighting Jewel        pay 1100g   total  5800g
+   7. Blasting Wand          pay  850g   total  6650g
+   8. Void Staff             pay 1050g   total  7700g  ← legendary
+   9. Hextech Alternator     pay 1100g   total  8800g
+  10. Aether Wisp            pay  900g   total  9700g
+  11. Stormsurge             pay  800g   total 10500g  ← legendary
+  12. Needlessly Large Rod   pay 1200g   total 11700g
+  13. Needlessly Large Rod   pay 1200g   total 12900g
+  14. Rabadon's Deathcap     pay 1100g   total 14000g  ← legendary
+  15. Blighting Jewel        pay 1100g   total 15100g
+  16. Fiendish Codex         pay  850g   total 15950g
+  17. Fiendish Codex         pay  850g   total 16800g
+  18. Cryptbloom             pay  200g   total 17000g  ← legendary
+  Sell Doran's Ring once the inventory is full (+280g).
+  Net gold to finish the 5th legendary: 16720g.
+
+Runes (legal page — the listed Sorcery trio does not fit)
+---------------------------------------------------------
+Precision  Fleet Footwork → Presence of Mind → Legend: Alacrity → Coup de Grace
+Sorcery    Absolute Focus + Gathering Storm
+Shards     Adaptive, Adaptive, scaling health
+
+Fleet, Presence of Mind, Alacrity, and Manaflow add no damage to this
+combo. Fleet keeps you above 70% HP so Absolute Focus stays on.
+Alacrity is how you get the 3 setup autos off. Manaflow cannot be taken
+with both Absolute Focus and Gathering Storm (Sorcery secondary is 2
+runes, one per row). Presence of Mind is the mana rune that does fit.
+Finish rune is Coup de Grace — it won the all-in on this target.
+
+Combo that the spikes are measured on
+--------------------------------------
+All-in: 3 autos apply Blight → R from at least 600 range detonates them
+and applies a fresh set → hold Q through the root (W during the channel)
+and release fully charged. Pick (no autos) is the same R → W+Q when you
+cannot walk up. Blight is 2.5–4.5% max HP per stack (+1.4% per 100 AP),
+×1.70 on a full Q. W active is 6–10% missing HP per stack, ×1.70, no AP
+ratio. Numbers are post-mitigation and keep counting after the kill, so
+a later item still shows a bigger combo once you already one-shot.
+
+Spike at each finished legendary  (squishy all-in)
+--------------------------------------------------
+ #  Min Item                       AP   Burst    %HP    Gain  Combine  Pick% Bruiser%
+ 1  12m Shadowflame               176    2944 147.2%   +2944     +701  75.7%    58.3%
+ 2  18m Void Staff                277    4361 173.3%   +1418    +1040 101.0%    62.1%
+ 3  23m Stormsurge                386    6100 210.9%   +1738     +969 134.8%    66.5%
+ 4  28m Rabadon's Deathcap        650    7662 242.5%   +1562     +850 160.8%    84.9%
+ 5  33m Cryptbloom                779   10190 306.9%   +2529    +1317 194.0%   121.1%
+
+Gain = all-in damage now minus the previous finished item (components
+of this item are included in the jump). Combine = the jump from clicking
+the item while already holding its components. Pick% is R → W+Q with no
+setup autos. Bruiser% is the all-in into Mercury's Treads (2 Blight
+stacks from the root instead of 3).
+
+Where the full-build all-in comes from
+--------------------------------------
+  Autos (physical)                              140
+  W / Nashor / Guinsoo on-hit                   796
+  R base                                       1145
+  Blight popped by R (3 stacks, no charge)     2017
+  Q (physical, full charge)                     169
+  Blight popped by Q (charged)                 3429
+  W active (missing HP, charged)               2226
+  Stormsurge Squall                             267
+  Total                                       10190
+  Target at 33:00 — squishy 3320 HP / 96.6 MR / 150.0 armor.  Varus AP 779, flat pen 42, percent pen 58%.
+
+Minute curve (all-in vs the squishy, from level 6)
+------------------------------------------------
+A dip on the minute after a spike is the enemy leveling, not the item
+turning off. Burst keeps counting after they die, so the % can sit
+well above 100 once the combo one-shots.
+First minute the all-in crosses 100% of the squishy: 7:00 (112.1%).
+ Min  Lv     AP   Burst    %HP  Inventory
+  5m   6     48    1009  87.0%  Sorcerer's Shoes
+  6m   7     50    1154  91.0%  Sorcerer's Shoes
+  7m   8    116    1578 112.1%  Sorcerer's Shoes, Needlessly Large Rod
+  8m   9    118    1712 110.6%  Sorcerer's Shoes, Needlessly Large Rod
+  9m  10    120    1816 107.6%  Sorcerer's Shoes, Needlessly Large Rod
+ 10m  11    175    2171 118.8%  Sorcerer's Shoes, Needlessly Large Rod, Hextech Alt...
+ 11m  11    175    2155 115.8%  Sorcerer's Shoes, Needlessly Large Rod, Hextech Alt...
+ 12m  12    176    2944 147.2%  Sorcerer's Shoes, Shadowflame  << Shadowflame
+ 13m  12    176    2663 131.1%  Sorcerer's Shoes, Shadowflame
+ 14m  13    203    3361 154.8%  Sorcerer's Shoes, Shadowflame, Blighting Jewel
+ 15m  13    248    3532 160.3%  Sorcerer's Shoes, Shadowflame, Blighting Jewel, Bla...
+ 16m  14    250    3624 154.6%  Sorcerer's Shoes, Shadowflame, Blighting Jewel, Bla...
+ 17m  14    250    3293 138.6%  Sorcerer's Shoes, Shadowflame, Blighting Jewel, Bla...
+ 18m  15    277    4361 173.3%  Sorcerer's Shoes, Shadowflame, Void Staff  << Void Staff
+ 19m  15    277    4363 171.2%  Sorcerer's Shoes, Shadowflame, Void Staff
+ 20m  16    340    4871 181.2%  Sorcerer's Shoes, Shadowflame, Void Staff, Hextech ...
+ 21m  16    370    5012 184.3%  Sorcerer's Shoes, Shadowflame, Void Staff, Hextech ...
+ 22m  17    371    5132 179.4%  Sorcerer's Shoes, Shadowflame, Void Staff, Hextech ...
+ 23m  17    386    6100 210.9%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsurge  << Stormsurge
+ 24m  17    386    6090 208.3%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsurge
+ 25m  18    453    6579 214.7%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 26m  18    453    6568 212.1%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 27m  18    500    6823 218.1%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 28m  18    650    7662 242.5%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...  << Rabadon's Deathcap
+ 29m  18    650    7648 239.6%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 30m  18    714    8512 264.0%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 31m  18    714    8503 261.1%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 32m  18    714    8493 258.3%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 33m  18    779   10190 306.9%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...  << Cryptbloom
+ 34m  18    779   10190 304.0%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 35m  18    779   10126 301.7%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 36m  18    779   10056 299.7%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 37m  18    779   10040 299.2%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 38m  18    779   10040 299.2%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 39m  18    779   10040 299.2%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+ 40m  18    820   10327 307.7%  Sorcerer's Shoes, Shadowflame, Void Staff, Stormsur...
+
+Manaflow instead of a damage rune (same items)
+----------------------------------------------
+Secondary                         Item1 %  Item3 %   Full %
+Absolute Focus + Gathering Storm   147.2%   210.9%   306.9%
+Manaflow + Gathering Storm         128.8%   204.8%   297.8%
+Manaflow + Absolute Focus          132.5%   206.2%   280.7%
+
+5th item on the same first four
+-------------------------------
+Cryptbloom is the damage buy. The others are the swaps people ask about.
+5th item                Full all-in     %HP
+Cryptbloom                    10190  306.9%
+Horizon Focus                  9067  273.1%
+Zhonya's Hourglass             8521  254.2%
+Nashor's Tooth                 9091  273.8%
+Luden's Echo                   9102  274.1%
+
+Other orders the search measured
+---------------------------------
+ Score Rune  Boots  Build (all-in %HP at each finish)
+ 12.27 coup      0  Shadowflame → Void Staff → Stormsurge → Rabadon's Deathcap → Cryptbloom
+                    147%  173%  211%  242%  307%
+ 12.25 coup      0  Shadowflame → Void Staff → Stormsurge → Cryptbloom → Rabadon's Deathcap
+                    147%  173%  211%  241%  307%
+ 12.23 coup      0  Shadowflame → Stormsurge → Void Staff → Rabadon's Deathcap → Cryptbloom
+                    147%  170%  211%  242%  307%
+ 12.21 coup      0  Shadowflame → Stormsurge → Void Staff → Cryptbloom → Rabadon's Deathcap
+                    147%  170%  211%  241%  307%
+ 12.21 coup      0  Shadowflame → Void Staff → Rabadon's Deathcap → Stormsurge → Cryptbloom
+                    147%  173%  206%  242%  307%
+ 12.14 coup      0  Void Staff → Shadowflame → Stormsurge → Rabadon's Deathcap → Cryptbloom
+                    137%  173%  211%  242%  307%
+
+Nashor's Tooth first
+-------------------
+Best order that starts Nashor's, same search:
+  Nashor's Tooth → Shadowflame → Void Staff → Stormsurge → Rabadon's Deathcap
+  Boots slot: 0. Finish rune: coup.
+  All-in at item 3: 184.4% HP vs the winner's 210.9%.
+  All-in at item 5: 273.8% HP vs the winner's 306.9%.
+Nashor is the attack-speed / on-hit item. This combo's damage is
+the Blight pop, and R already applies the stacks, so a pen or AP
+legendary finishes harder. Buy Nashor only when ult is down often
+enough that the 3 autos are the whole trade.
+
+Assumptions
+-----------
+- Patch 26.21 Varus: Q full-charge amp is 70% (was 50%). W on-hit is
+  4–28 (+20% bonus AD) (+30% AP). Blight is 2.5/3/3.5/4/4.5% max HP
+  per stack (+1.4% per 100 AP). W active is 6/7/8/9/10% missing HP
+  per stack, also ×1.70 at full charge, and does not scale with AP.
+- R applies Blight at 0.65s / 1.20s / 1.75s of the root. A squishy with
+  no tenacity gets 3. Mercury's Treads (30% tenacity) cut that to 2.
+  Cleanse or QSS before 0.65s applies zero stacks and the combo fizzles.
+- Horizon Focus amps the R cast and everything after it. Setup autos
+  happen before the mark. The R is taken from ≥600 range; from melee
+  the 10% does not start.
+- Shadowflame is +20% magic damage on hits that start below 40% HP.
+  Cut Down is +8% while the target is above 60% HP. Coup de Grace is
+  +8% while they are below 40% HP. They apply per hit, not to the combo
+  as a lump.
+- Stormsurge Squall (125 + 10% AP) counts when the R → W+Q stretch
+  deals 25% of max HP. Luden is the isolated-target dump, 150 + 10% AP,
+  once. Liandry is 2% max HP per second for 3 seconds.
+- Lich Bane's spellblade needs an auto after the spell. Q's channel
+  locks attacks, so the proc is not in this combo.
+- Deathcap is +30% AP, including runes. Percent pen stacks multiplicatively.
+  Flat pen can push MR below zero.
+- Gold is an unfed farmer. Sorcs and the first legendary land around
+  5:00 and 12:00, the fourth legendary in the high 20s, the fifth around
+  33:00. A kill lead finishes the same order sooner.
+- Same-item dips of a few hundred damage are the 40% execute line
+  (Shadowflame and Coup de Grace) flicking off as the target gains HP.
+- Skill order is Q start, then W max, Q, E. R at 6/11/16.
+
