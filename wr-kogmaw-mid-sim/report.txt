@@ -1,0 +1,204 @@
+========================================================================================
+WILD RIFT — AP KOG'MAW MID  ·  FOG R  ·  DARK HARVEST  ·  EVERY R IS A KILL
+Patch 7.3d. R base 80/120/160 + 25% AP. Below 40% HP: 200/280/360 + 50% AP.
+Dark Harvest: 35 + 11/soul + 5% AP, below 50% HP, 20s CD, reset to 1s on takedown.
+Game: 18:00 even mid. Metric: highest current HP% at which ONE R kills.
+========================================================================================
+
+PRESS RULE
+  Spam is allowed only inside the kill line. Above the line the glob is chip,
+  and if they are under 50% HP that chip also puts Dark Harvest on a 20s CD.
+  Chain casts (Echo on cooldown) are the number that has to hold for EVERY R.
+  Wait 1.0s between takedowns so the Harvest reset is up. Do not queue early.
+
+RUNE PAGE
+  Keystone: Dark Harvest
+  Domination: Eyeball Collection (3 AP × takedowns, cap 8). Other dom slots
+  do not add artillery damage (no dash for Sudden Impact, R does not impair).
+  Off-tree: Coup  — best of Axiom (+8% ult, R is AoE so not 12%),
+  Coup de Grace (+8% damage below 40% HP), Scorch (21–49 magic, 1s later).
+
+GOLD / LEVEL / TARGETS
+  Min    Gold  Lvl   ADC HP  ADC MR   Mid HP  Mid MR  Ench HP
+    1     950    2      710      34      750      34      668
+    4    2300    5     1100      38     1080      38      932
+    6    3680    7     1390      41     1410      41     1178
+    8    5060    8     1580      42     1630      60     1336
+   10    6560   10     1870      46     1960      64     1582
+   12    8180   12     2160      70     2290      66     1828
+   14    9800   13     2350      72     2510      92     1986
+   16   11580   15     2640      93     2840      95     2232
+   18   13360   15     2730      93     2950      95     2302
+
+----------------------------------------------------------------------------------------
+WINNER OVER TIME  —  IO → Storm → Void → Cap  |  Coup
+Chain = the cast every follow-up R must match (DH up, Echo down).
+Open = Echo ready, only if the build owns Luden. Dry = Dark Harvest down. Q+R = Caustic Spittle shred already on them.
+----------------------------------------------------------------------------------------
+  Min      ADC      Mid     Ench   Bruiser     Open      Dry      Q+R
+    4    20.3%    20.7%    23.9%     16.7%    20.3%    16.0%    21.7%
+          51 AP  Hextech Alternator
+    6    23.8%    23.4%    28.0%     18.4%    23.8%    19.2%    26.1%
+         119 AP  Infinity Orb, Boots of Speed
+    8    23.7%    20.0%    28.1%     14.3%    23.7%    19.4%    26.8%
+         164 AP  Infinity Orb, Boots of Mana, Amplifying Tome
+    9    27.9%    23.4%    26.8%     15.2%    27.9%    23.3%    31.6%
+         192 AP  Infinity Orb, Boots of Mana, Hextech Alternator
+   10    29.6%    24.5%    28.3%     14.5%    29.6%    24.3%    32.2%
+         202 AP  Infinity Orb, Spellslinger's Shoes, Hextech Alternator
+   11    23.4%    22.9%    26.6%     12.5%    23.4%    18.9%    27.7%
+         205 AP  Infinity Orb, Spellslinger's Shoes, Hextech Alternator
+   12    22.7%    22.0%    25.7%     11.2%    22.7%    18.0%    26.9%
+         230 AP  Infinity Orb, Spellslinger's Shoes, Hextech Alternator, Aether Wisp
+   13    28.5%    27.6%    32.2%     12.6%    28.5%    23.1%    33.7%
+         253 AP  Infinity Orb, Spellslinger's Shoes, Stormsurge
+   14    30.6%    25.0%    34.7%     12.8%    30.6%    24.5%    34.2%
+         273 AP  Infinity Orb, Spellslinger's Shoes, Stormsurge, Void Amethyst
+   16    32.8%    30.2%    40.0%     15.2%    32.8%    25.5%    33.9%
+         354 AP  Infinity Orb, Spellslinger's Shoes, Stormsurge, Void Staff
+   18    33.9%    31.0%    40.0%     15.5%    33.9%    26.3%    35.0%
+         424 AP  Infinity Orb, Spellslinger's Shoes, Stormsurge, Void Staff, Needlessly Large Rod
+
+----------------------------------------------------------------------------------------
+BUILD COMPARISON — chain kill line vs ADC (best secondary for that path)
+----------------------------------------------------------------------------------------
+  Build                              Rune       8:00   12:00   16:00   18:00  Score
+  IO → Storm → Void → Cap            Coup      23.7%   22.7%   32.8%   33.9%  0.287
+  Storm → IO → Slinger → Void        Coup      18.6%   22.8%   32.8%   33.9%  0.277
+  Storm → IO → Void → Cap            Coup      19.9%   20.2%   32.8%   33.9%  0.270
+  Luden → IO → Void → Cap            Coup      17.9%   23.4%   28.9%   29.8%  0.248
+  Luden → IO → Storm → Void          Coup      16.9%   23.4%   24.8%   26.3%  0.245
+  Malig → IO → Void → Cap            Coup      18.3%   23.2%   28.7%   29.6%  0.243
+  Luden → IO → Horizon → Cap         Coup      17.9%   23.4%   22.1%   22.9%  0.233
+  Luden → Storm → IO → Void          Coup      17.9%   19.9%   24.8%   26.3%  0.229
+  Malig → Storm → IO → Void          Coup      18.3%   19.7%   24.6%   27.5%  0.226
+  Malig → Liandry → Void             Scorch    17.5%   17.4%   21.3%   21.9%  0.210
+
+----------------------------------------------------------------------------------------
+SECONDARY ON THE WINNING ITEMS (IO → Storm → Void → Cap) — chain ADC line
+----------------------------------------------------------------------------------------
+  Rune        8:00   12:00   16:00   18:00  What it does
+  Axiom      23.4%   22.3%   32.3%   33.3%  +8% ultimate damage on every R (AoE rate, not 12%)
+  Coup       23.7%   22.7%   32.8%   33.9%  +8% to all damage only while they are under 40% HP
+  Scorch     23.8%   22.5%   32.2%   33.1%  21–49 magic damage, 1 second after the glob
+
+----------------------------------------------------------------------------------------
+WHEN EVERY R YOU PRESS IS A KILL  (chain cast: Dark Harvest up, Echo not required)
+Press only at or under the percent. That cast kills. Above it, do not cast.
+----------------------------------------------------------------------------------------
+   8:00  ADC ≤ 23.7% ( 375 HP)  mid ≤ 20.0% ( 326 HP)  ench ≤ 28.1%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 14.3%   dry (no DH) ADC ≤ 19.4%   if Q shred is already on them, ADC ≤ 26.8%
+  10:00  ADC ≤ 29.6% ( 553 HP)  mid ≤ 24.5% ( 480 HP)  ench ≤ 28.3%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 14.5%   dry (no DH) ADC ≤ 24.3%   if Q shred is already on them, ADC ≤ 32.2%
+  12:00  ADC ≤ 22.7% ( 489 HP)  mid ≤ 22.0% ( 503 HP)  ench ≤ 25.7%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 11.2%   dry (no DH) ADC ≤ 18.0%   if Q shred is already on them, ADC ≤ 26.9%
+  14:00  ADC ≤ 30.6% ( 719 HP)  mid ≤ 25.0% ( 626 HP)  ench ≤ 34.7%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 12.8%   dry (no DH) ADC ≤ 24.5%   if Q shred is already on them, ADC ≤ 34.2%
+  16:00  ADC ≤ 32.8% ( 867 HP)  mid ≤ 30.2% ( 857 HP)  ench ≤ 40.0%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 15.2%   dry (no DH) ADC ≤ 25.5%   if Q shred is already on them, ADC ≤ 33.9%
+  18:00  ADC ≤ 33.9% ( 926 HP)  mid ≤ 31.0% ( 916 HP)  ench ≤ 40.0%   ADC: 40% HP is not lethal yet
+         bruiser ≤ 15.5%   dry (no DH) ADC ≤ 26.3%   if Q shred is already on them, ADC ≤ 35.0%
+
+----------------------------------------------------------------------------------------
+ONE GLOB vs ADC  —  same cast, three HP bars. This is the execute jump.
+----------------------------------------------------------------------------------------
+  12:00  ADC 2160 HP / 70 MR  AP 230
+      full           135 dmg   does not kill   ( 6.2% of max HP)
+      50%            191 dmg   does not kill   ( 8.8% of max HP)
+      39% execute    489 dmg   does not kill   (22.7% of max HP)
+      line 22.7%     489 dmg   KILLS   (22.7% of max HP)
+  18:00  ADC 2730 HP / 93 MR  AP 424
+      full           257 dmg   does not kill   ( 9.4% of max HP)
+      50%            365 dmg   does not kill   (13.4% of max HP)
+      39% execute    926 dmg   does not kill   (33.9% of max HP)
+      line 33.9%     926 dmg   KILLS   (33.9% of max HP)
+
+----------------------------------------------------------------------------------------
+DUMPING R ON A FULL HP ADC  —  chip, then the pool runs out
+----------------------------------------------------------------------------------------
+  10:00 ADC 1870 HP / 46 MR   shots 5   killing shot: none
+      R1  100.0% →   157 dmg  mana 50   chip
+      R2   91.6% →   168 dmg  mana 100  chip
+      R3   82.7% →   179 dmg  mana 150  chip
+      R4   73.1% →   192 dmg  mana 200  chip
+      R5   62.8% →   205 dmg  mana 250  chip
+      left at 51.9% (970 HP), mana 149, next R costs 300. The pool dies before the kill.
+  14:00 ADC 2350 HP / 72 MR   shots 5   killing shot: none
+      R1  100.0% →   204 dmg  mana 50   chip
+      R2   91.3% →   219 dmg  mana 100  chip
+      R3   82.0% →   235 dmg  mana 150  chip
+      R4   72.0% →   252 dmg  mana 200  chip
+      R5   61.2% →   271 dmg  mana 250  chip
+      left at 49.7% (1168 HP), mana 282, next R costs 300. The pool dies before the kill.
+  18:00 ADC 2730 HP / 93 MR   shots 6   killing shot: none
+      R1  100.0% →   257 dmg  mana 50   chip
+      R2   90.6% →   278 dmg  mana 100  chip
+      R3   80.4% →   299 dmg  mana 150  chip
+      R4   69.4% →   323 dmg  mana 200  chip
+      R5   57.6% →   348 dmg  mana 250  chip
+      R6   44.8% →   569 dmg  mana 300  chip (DH)
+      left at 24.0% (656 HP), mana 97, next R costs 350. The pool dies before the kill.
+
+----------------------------------------------------------------------------------------
+KILL CHAIN  —  one R per champion, each already standing on their own line
+R1 may include Echo if Luden is owned and up. R2 and R3 do not. DH is up on all three.
+----------------------------------------------------------------------------------------
+  12:00  adc dies (489 dmg on 479 HP)   mid dies (503 dmg on 492 HP)   enchanter dies (470 dmg on 461 HP)    R cd 1.50s  mana pool 930
+  16:00  adc dies (867 dmg on 853 HP)   mid dies (857 dmg on 843 HP)   enchanter dies (895 dmg on 882 HP)    R cd 1.00s  mana pool 1080
+  18:00  adc dies (926 dmg on 912 HP)   mid dies (916 dmg on 901 HP)   enchanter dies (956 dmg on 909 HP)    R cd 1.00s  mana pool 1080
+
+----------------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------------
+  Items: IO → Storm → Void → Cap
+  18:00 inventory: Infinity Orb, Spellslinger's Shoes, Stormsurge, Void Staff, Needlessly Large Rod
+  Rune:  Dark Harvest + Eyeball Collection + Coup
+  Pattern score: 0.287
+  18:00 press R at or under  ADC 33.9% (926 HP)   mid 31.0% (916 HP)   enchanter 40.0%   bruiser 15.5%
+  ADC: a target at 40% HP still lives. Wait until 33.9%.
+  Mid: 40% HP is not lethal. The line is 31.0%.
+  Enchanter: any R under 40% HP kills.
+  The line stays under 50% HP. Harvest is on the kill shot because you
+  waited until they were already under 50%, not because the glob reaches half.
+  No Harvest: ADC line drops to 26.3%.  Do not spend the rune on a chip.
+
+  8:00  ADC 23.7% / mid 20.0%  AP 164  [IO <40%, 23 flat]
+  12:00 ADC 22.7% / mid 22.0%  AP 230  [IO <40%, 33 flat + 8%]
+  18:00 ADC 33.9% / mid 31.0%  AP 424  dry 26.3%  with Q shred 35.0%  [IO <40%, 40% pen, 48 flat + 8%/40%, rod toward Cap]
+  No Luden in the finished inventory, so a staggered shot matches the chain shot.
+
+  WHY THIS PATH
+  • Full-HP Living Artillery is 25% AP. One glob does not remove a healthy
+    bar. The kill is the under-40% formula (200/280/360 + 50% AP), Infinity
+    Orb's 20% on that same bracket, Coup de Grace, and Dark Harvest.
+  • Flat pen and Void's 40% pen are what make that execute clear the
+    remaining HP. Horizon Focus is +10% only after you have already hit
+    the target, so it misses a one-R kill. At 18:00 the Horizon path's ADC
+    line is 22.9% against 33.9% here.
+  • Liandry does not move a one-cast kill. At 18:00 that foil sits at
+    21.9% ADC. Hatefog's 10 MR shred hits the next glob, not this one.
+  • Luden's Echo raises the first cast and is down for 9s. The score
+    uses the naked follow-up, because spam means R2 and R3 still have to kill.
+  • Deathcap is not finished on even-mid gold by 18:00. The rod in the
+    inventory is the start of it, not the 30% multiplier.
+  • 11:00 the ADC picks up an MR component and the line drops 6.1 points until the next pen item.
+  • Q shred adds 1.1 points at 18:00. Pen has already eaten most of
+    the ADC's MR, so the bush spit is a small bump, not the build.
+  • Next path (Storm → IO → Slinger → Void) is ADC 18.6% at 8:00, 22.8% at 12:00, 32.8% at 16:00. This path is 23.7% / 22.7% / 32.8%.
+    Those paths finish the same pen stack. The gap is earlier: Infinity Orb is the execute amp, so it is the first legendary.
+
+  HOW TO SPAM
+  1. Sit in fog. Do not open on a full HP bar. That glob is chip, and under
+     50% HP it also puts Dark Harvest on a 20s cooldown.
+  2. Press R only when their current HP% is at or under the chain line.
+  3. That cast kills. Harvest resets to 1s. Wait that second, then the
+     next champion under their own line dies to the next R.
+  4. If Harvest is down, use the dry line or do not cast.
+  5. Skip bruisers until their printed percent. One R is not a tank button.
+  6. Mana ramps 50 → 500 if you chain inside 8s. Three kill shots cost
+     50+100+150. Base mana pays for that. It does not pay for chipping
+     one full bar down to the line by yourself.
+
+  Skill order: R at 5/9/13, then Q, then E, W last.
+  W max is the on-hit build. This one does not auto from fog.
+========================================================================================
