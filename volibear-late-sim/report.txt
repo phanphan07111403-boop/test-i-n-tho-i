@@ -1,0 +1,204 @@
+==============================================================================
+VOLIBEAR — LATE GAME, HARD TO KILL, HIGH DAMAGE   (PC LoL patch 26.21)
+Playstyle: R onto the carry, stand in E, keep biting  |  Game: 34:00
+Must live the Stormbringer window under carry+mage focus, then max damage
+==============================================================================
+
+WHAT THE BITE ACTUALLY SCALES WITH
+  W1 = 105 + 110% AD + 6% bonus HP
+  W2 = W1 × (1.50 + 0.25 per 100 bonus AD) and heals 80 + 20% missing HP
+  Bonus HP is inside the multiplier. Bonus AD raises the multiplier.
+  Overlord's Bloodmail is 2.5% of bonus HP as AD, plus up to 12% more AD
+  when missing health. That AD feeds W, the bite amp, Q (160% bonus AD)
+  and R (250% bonus AD). Spirit Visage does not raise the bite. It raises
+  the heal, the E shield and the Sterak shield, which is why he gets to bite.
+
+WINNER
+  Steelcaps → Protoplasm → Navori → Bloodmail → Visage → Cleaver
+  Runes: Conqueror, Haste, Revitalize
+  R dive:     8119 damage   lived 11.0s   end HP 1701 / 5413 (31%)
+              carry 3224   tank 4895   healed 3570   shields absorbed 2123
+  R brawl:    7293 damage on the frontline  lived 10.7s
+  No ultimate:7193 damage   lived 11.0s   end HP 21%
+  Bites 3   W casts 5   autos 14   spellblades 0   E hits 3
+
+DAMAGE BY SOURCE  (R dive, post-mitigation)
+  auto            2405
+  W               2382
+  E               1105
+  lightning        933
+  R                861
+  Q                433
+
+HEALS
+  W               3028
+  protoplasm       542
+
+LEVEL 18, ULT UP
+  HP 5113 (bonus 2695, includes +525 from R)
+  AD 303  (178 bonus, Bloodmail tyranny 67)
+  At 40% missing HP, Retribution adds 15 AD
+  AP 0   armor 148   MR 117
+  W cooldown 3.03s   attack speed 1.39 at 5 passive stacks
+  Sheet attack speed is before Lethal Tempo stacks, Guinsoo stacks and Hexplate.
+  W2 pre-mit at full HP 1168   at 40% missing 1221
+  E shield 931   Sterak shield 0
+  The fight's max HP is 5413 while Protoplasm's +300 bonus HP is up.
+  Adaptive shard: AD
+  AD and AP above include fully stacked Conqueror. The fight ramps it from zero.
+
+40% GRIEVOUS  (Ignite / Thornmail up the whole window)
+  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Visage  dmg 7637  lived 10.3s  end 0%  died True
+  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Visage  dmg 7627  lived 10.4s  end 0%  died True
+  Mercs → Navori → Cleaver → Bloodmail → Protoplasm → Visage  dmg 7659  lived 9.5s  end 0%  died True
+  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Jak'Sho  dmg 7612  lived 10.6s  end 0%  died True
+  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Randuin  dmg 7619  lived 10.3s  end 0%  died True
+  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Kaenic  dmg 8106  lived 11.0s  end 11%  died False
+  Steelcaps → Navori → Shojin → Terminus → Protoplasm → Visage  dmg 7486  lived 11.0s  end 6%  died False
+  Steelcaps → Navori → Shojin → Terminus → Protoplasm → Visage  dmg 7476  lived 11.0s  end 7%  died False
+
+------------------------------------------------------------------------------
+FULL BUILDS AT 34:00  (tier 2 lives the ult and the no-ult fight)
+  Rune mark: blank = Conqueror/Haste/Conditioning, LT = Lethal Tempo,
+  RV = Revitalize instead of Conditioning, AL = Legend: Alacrity
+         R dmg   Live   End   Brawl    NoR T  Build
+  RV      8119  11.0s   31%    7293  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Visage
+          8111  11.0s   31%    7286  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Visage
+  RV      8151  11.0s   26%    7277  11.0s 2  Mercs → Navori → Cleaver → Bloodmail → Protoplasm → Visage
+  RV      8103  11.0s   29%    7299  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Jak'Sho
+  RV      8116  11.0s   25%    7306  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Randuin
+  RV      8045  11.0s   28%    7139  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Kaenic
+  RV      7914  11.0s   32%    7048  11.0s 2  Steelcaps → Navori → Shojin → Terminus → Protoplasm → Visage
+          7913  11.0s   32%    7049  11.0s 2  Steelcaps → Navori → Shojin → Terminus → Protoplasm → Visage
+  RV      7728  11.0s   33%    7374  11.0s 2  Steelcaps → Navori → Shojin → Bloodmail → Protoplasm → Visage
+  RV      7934  11.0s   26%    7082  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Unending → Visage
+          7719  11.0s   33%    7369  11.0s 2  Steelcaps → Navori → Shojin → Bloodmail → Protoplasm → Visage
+  RV      7842  11.0s   37%    6991  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Jak'Sho → Visage
+          7834  11.0s   36%    6981  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Jak'Sho → Visage
+  RV      7821  11.0s   37%    6962  11.0s 2  Steelcaps → Navori → Cleaver → Bloodmail → Randuin → Visage
+  RV      7969  11.0s   19%    6928  11.0s 2  Ionian → Navori → Cleaver → Bloodmail → Protoplasm → Visage
+  RV      8014  11.0s   20%    7245   9.8s 2  Steelcaps → Navori → Cleaver → Bloodmail → Fimbul → Visage
+  RV      8011  11.0s   17%    7259   9.9s 2  Steelcaps → Navori → Cleaver → Bloodmail → Jak'Sho → Fimbul
+  RV      7730  11.0s   38%    6967  11.0s 2  Steelcaps → Navori → Shojin → Wit's End → Protoplasm → Visage
+
+------------------------------------------------------------------------------
+PURCHASE ORDER  (same 6 items, order maximizes damage from 10:00 to 30:00)
+  Steelcaps → Protoplasm → Navori → Bloodmail → Visage → Cleaver
+
+   Min    Gold  Lvl  Inventory
+     6    2640    6  Steelcaps › Kindlegem
+     8    3460    8  Steelcaps › Kindlegem › Giant's Belt
+    10    4280   10  Steelcaps › Protoplasm › Dagger
+    12    5260   11  Steelcaps › Protoplasm › Dagger › Zeal
+    14    6240   12  Steelcaps › Protoplasm › Dagger › Zeal › Dagger
+    16    7220   13  Steelcaps › Protoplasm › Navori
+    18    8300   14  Steelcaps › Protoplasm › Navori › Tunneler
+    20    9380   15  Steelcaps › Protoplasm › Navori › Tunneler › Tunneler
+    22   10460   16  Steelcaps › Protoplasm › Navori › Bloodmail
+    24   11540   17  Steelcaps › Protoplasm › Navori › Bloodmail › Spectre's Cowl
+    26   12700   17  Steelcaps › Protoplasm › Navori › Bloodmail › Visage
+    28   13860   18  Steelcaps › Protoplasm › Navori › Bloodmail › Visage › Phage
+    30   15020   18  Steelcaps › Protoplasm › Navori › Bloodmail › Visage › Phage › Kindlegem
+    32   16180   18  Steelcaps › Protoplasm › Navori › Bloodmail › Visage › Cleaver
+    34   17340   18  Steelcaps › Protoplasm › Navori › Bloodmail › Visage › Cleaver
+    34   17340   18  Steelcaps › Protoplasm › Navori › Bloodmail › Visage › Cleaver
+
+------------------------------------------------------------------------------
+PATH VS THE TRAPS  — R-dive damage at that minute's gold (scaled focus)
+   Min       Winner Bloodmail Wa Trinity Brui Heartsteel T    Full Tank Endless Drai    AP Nashor     AP Glass
+     8      2305*       2104*       2412*       2310*       2310*       1966*       2029*       2414* 
+    10      3119*       2786*       2125*       2759*       2759*       2188*       2918*       3105* 
+    12      3451*       3524*       3340*       2983*       2983*       3514*       3445*       3395* 
+    14      3425*       3560*       3578*       3345*       3405*       3553*       3836*       3651* 
+    16      4747*       3816*       3490*       3638*       3706*       3784*       3757*       4012* 
+    18      5136*       3835*       4221*       3776*       3760        3994*       4153*       4339* 
+    20      5331*       3981*       3853*       3932*       3812        3640*       4328*       4884* 
+    22      6300*       4269*       4540*       4261*       4088        4339*       5341*       5425* 
+    24      6604        4998*       4871*       5565*       4156        4713*       4888*       5516* 
+    26      6968        5163*       5704*       5708*       4107        4685*       5273*       4984* 
+    28      7006        6202*       5818*       5722*       4111        5764*       6387*       5201* 
+    30      6976        6064*       5853*       5922*       4081        5890*       5726*       4991* 
+    32      7604        6705        6014*       6131*       4024        5985*       6435*       5674* 
+    34      8119        7104        6932*       7133        4011        7297        6558*       6516* 
+  * died during the window. Focus scales up to the 34:00 carry+mage number.
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Buy: Steelcaps → Protoplasm → Navori → Bloodmail → Visage → Cleaver
+
+  WHY THIS IS THE LATE-GAME VOLIBEAR:
+  • The wounded bite multiplies bonus health by bonus AD. A tank with the
+    same health and no AD leaves that multiplier at 1.50x. This build's
+    bite amp at full HP, Conqueror counted only if it is the keystone, is 1.95x.
+  • Bloodmail turns that same bonus HP into AD (2.5%) and adds up to 12%
+    more AD as he drops, which is when Last Stand and the W heal are both
+    online. The AD feeds W, Q (160% bonus AD) and R (250% bonus AD).
+  • Protoplasm is the tank Lifeline: bonus HP and a resist-scaled heal
+    when he crosses 30% life. It shares the Lifeline slot with Sterak.
+  • Visage is +25% healing and shielding. It does not raise the bite.
+    It raises the W heal, the E shield and whichever Lifeline he has,
+    which is why he is still standing for the next bite.
+  • Navori is how the bite comes back inside the ultimate. Each auto
+    cuts 15% off the remaining W, E and Q cooldowns, and the 25% crit
+    is on the attack itself. He has to be in range and autoing.
+  • Protoplasm is first on purpose. The same six items with Navori or
+    Cleaver rushed are still dying in the 30:00 focus. The Lifeline is
+    why the 26:00 version, Visage just finished, already stands up.
+  • R's +525 HP is bonus health for the bite and for both shields. The
+    no-ult column is there so a build that only exists for 12 seconds
+    does not win.
+
+  Vs full tank (Steelcaps → Heartsteel → Visage → Unending → Jak'Sho → Randuin):
+    tank R-dive 4368 in 11.0s (end 39%)   this build 8119 in 11.0s (end 31%).
+    The tank lives. The bite does not, because nothing is feeding bonus AD
+    into the multiplier. Heartsteel damage does not replace W2.
+  Vs AP glass (Ionian → Dusk → Nashor → Deathcap → Shadowflame → Void):
+    glass R-dive 6631 in 4.3s, died=True.
+    E and lightning scale with AP, and the E shield is real, but W heal
+    has no AP ratio on this patch. Focused, the glass build falls over
+    before the bites come back. High damage on a target dummy, not in a fight.
+
+  ANTIHEAL:
+    With 40% grievous the winner dies at 10.3s.
+    If they have Ignite and a Thornmail, prefer Steelcaps → Navori → Cleaver → Bloodmail → Protoplasm → Kaenic
+    (8106 damage, lived, end 11%).
+
+  RUNES (baked into the sim):
+    Conqueror, Triumph, Legend: Haste, Last Stand
+    Revitalize, Overgrowth
+    Attack speed, adaptive force, health shard +65
+  SKILL ORDER: W max, E second (the %HP bolt), Q last. R at 6/11/16.
+  FIGHT: E on the dive spot, Q, R into it so you land as E hits, Q auto,
+    bite, keep autoing. Navori does nothing if he is kited. The carry is
+    the one he bites. The other champion eats R, E and the lightning chain.
+
+  TRAPS:
+    • Heartsteel + pure resists. You are hard to kill and the bite stays
+      a 1.5x slap. Bloodmail is the item that makes the health deal damage.
+    • Deathcap / Nashor with no health. Lightning looks good for 4 seconds.
+    • Trinity instead of Shojin + Bloodmail. Spellblade is 200% base AD
+      and does not scale with the bonus AD the bite wants. Trinity is the
+      1-item spike, not the 6-item ceiling.
+    • Hullbreaker in a 5v5. The solo resist passive is off in this fight.
+    • Stacking two Spellblades. Dusk, Trinity and Iceborn share the slot.
+      Dusk is the one that also heals (10% AP + 3% bonus HP) and repeats
+      on-hits. Take it when the team is magic-heavy, not by default.
+
+  MODEL (so the numbers stay honest):
+    Patch 26.21 item stats and Volibear ratios from the wiki (V26.19 kit,
+    V26.21 items). 11s focus after the R landing. Incoming at 34:00 is
+    980 pre-mit physical (30% pen, 12 lethality, Steelcaps/Randuin
+    applied) and 640 pre-mit magic (35% pen, 10 flat). Two champions
+    in the fight: the one he is biting, and one other for R/E/Unending/chain.
+    Heartsteel assumes about 0.75 procs a minute after it is finished,
+    capped at 18. Conqueror starts at 0 and gains 2 stacks per hit, up to
+    12. Lethal Tempo ramps to 6 on-hit stacks, then its bolt scales with
+    bonus attack speed. Lightning Claws turns on at 5 passive stacks, and
+    the hit that reaches 5 is empowered. Attack speed uses Volibear's 0.7
+    ratio and the 3.003 cap. Grievous is a separate column, not the ranking.
+    Tenacity shortens one 1.15s peel. No flash, no turret, no Elder.
+    Search swapped items on the cores until neighbors stopped winning on
+    'lived the fight, then damage', then re-scored the finalists on four
+    rune pages.
+==============================================================================
