@@ -1,0 +1,506 @@
+{
+  "patch": "7.3d",
+  "game_minutes": 18,
+  "builds": [
+    {
+      "items": [
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "At Wit's End"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14162.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 94.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "Cosmic Drive"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14133.9,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 95.9,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14076.0,
+      "damage": 9138.7,
+      "survival": 11.0,
+      "end_hp_pct": 94.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Rabadon's Deathcap",
+        "Unending Despair",
+        "Radiant Virtue"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14018.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.1,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "Cosmic Drive"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14012.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 75.1,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Kaenic Rookern"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14001.5,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 74.7,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Chainlaced Crushers",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 14000.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Kaenic Rookern"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13990.6,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 81.2,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Radiant Virtue"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13979.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.2,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Force of Nature"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13970.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 79.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13967.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.7,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13949.1,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 77.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Radiant Virtue"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13939.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Randuin's Omen"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13920.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 73.6,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13902.8,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 75.0,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "At Wit's End"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13900.6,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Radiant Virtue",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13895.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 74.3,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Force of Nature"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13886.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Chainlaced Crushers",
+        "Riftmaker",
+        "Randuin's Omen",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Kaenic Rookern"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13880.8,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.4,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Kaenic Rookern"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13880.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.3,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    }
+  ]
+}

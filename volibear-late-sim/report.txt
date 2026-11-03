@@ -1,0 +1,174 @@
+==============================================================================
+VOLIBEAR — WILD RIFT, HARD TO KILL, HIGH DAMAGE   (patch 7.3d)
+Baron lane. R onto the carry and stand in the focus for 11 seconds. 18:00, level 15.
+==============================================================================
+
+WHAT THE BITE SCALES WITH
+  W1 = 80 + 110% AD + 6.5% bonus HP
+  W2 = W1 × 1.60, and heals 50 + 14% missing HP
+  Frenzy is on Volibear for 8s after he mauls a champion. It is not a
+  mark that falls off when he changes target, and bonus AD does not
+  raise the 1.60. Q is 90 + 100% bonus AD. R is 700 + 210% bonus AD
+  + 100% AP, plus 525 HP. Lightning is 68 + 40% AP and has no AD ratio.
+
+WINNER
+  Armored → Divine → Navori → Riftmaker → Wit's End → Unending
+  Runes: Conqueror, Last Stand, Alacrity, Overgrowth, Brutal
+  R dive:     9150 damage   lived 11.0s   end HP 4208 / 4452 (95%)
+              carry 3150   tank 6000   healed 3516   shields absorbed 2644
+  R brawl:    9150 damage on the frontline  lived 11.0s
+  No ultimate:8435 damage   lived 11.0s   end HP 88%
+  Carry down at 4.7s   frontliner down at 11.5s
+  Bites 4   W casts 5   autos 19   spellblades 6   E hits 3
+
+DAMAGE BY SOURCE  (R dive, post-mitigation)
+  E                 2011
+  lightning         1802
+  auto              1377
+  spellblade        1177
+  W                 1128
+  R                  727
+  wits               492
+  Q                  167
+  brutal             136
+  unending           133
+
+HEALS
+  divine            1629
+  omnivamp          1109
+  W                  445
+  unending           332
+
+LEVEL 15, ULT UP, BEFORE THE FIGHT
+  HP 4452 (bonus 1970, includes +525 from R)
+  AD 143   bonus AD 25
+  AP 157   armor 182   MR 151
+  W cooldown 3.33s before Navori   attack speed 2.04 at 5 passive stacks
+  W2 pre-mit 585    E shield 741
+  AD and AP above include fully stacked Conqueror. The fight ramps it from zero.
+
+60% GRIEVOUS  (Wild Rift Ignite. Thornmail on an enemy is 50%.)
+  Steelcaps → Divine → Navori → Riftmaker → Unending → Wit's End  dmg 9150  lived 11.0s  end 39%  died False
+  Immortal → Divine → Navori → Riftmaker → Unending → Wit's End  dmg 9150  lived 11.0s  end 34%  died False
+  Armored → Divine → Navori → Riftmaker → Kaenic → Wit's End  dmg 9150  lived 11.0s  end 60%  died False
+  Armored → Divine → Navori → Riftmaker → Randuin → Wit's End  dmg 9150  lived 11.0s  end 54%  died False
+  Armored → Divine → Navori → Riftmaker → FoN → Wit's End  dmg 9150  lived 11.0s  end 51%  died False
+  Armored → Divine → Navori → Riftmaker → DD → Wit's End  dmg 9150  lived 11.0s  end 34%  died False
+  Armored → Divine → Navori → Riftmaker → Unending → Sterak  dmg 9150  lived 11.0s  end 45%  died False
+  Armored → Divine → Navori → Riftmaker → Unending → Wit's End  dmg 9150  lived 11.0s  end 50%  died False
+
+------------------------------------------------------------------------------
+FULL BUILDS AT 18:00  (tier 2 lives the ult, and lives the no-ult fight or lasts 7s)
+           R dmg   Live   End   Brawl    NoR T  Build
+            9150  11.0s   95%    9150  11.0s 2  Armored → Divine → Navori → Riftmaker → Unending → Wit's End
+            9150  11.0s   96%    9150  11.0s 2  Armored → Divine → Navori → Riftmaker → Unending → Cosmic
+            9139  11.0s   94%    9150  11.0s 2  Armored → Divine → Navori → Nashor → Unending → Twinguard
+            9150  11.0s   71%    9150  11.0s 2  Armored → Dusk → Navori → Deathcap → Unending → Radiant
+            9150  11.0s   75%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Unending → Cosmic
+            9150  11.0s   75%    9150  11.0s 2  Armored → Dusk → Navori → Nashor → Unending → Kaenic
+            9150  11.0s   72%    9150  11.0s 2  Chainlaced → Dusk → Navori → Riftmaker → Cosmic → Twinguard
+            9150  11.0s   81%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Cosmic → Kaenic
+            9150  11.0s   71%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Cosmic → Radiant
+            9150  11.0s   80%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Cosmic → FoN
+            9150  11.0s   72%    9150  11.0s 2  Armored → Dusk → Navori → Nashor → Unending → Twinguard
+            9150  11.0s   78%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Cosmic → Twinguard
+            9150  11.0s   72%    9150  11.0s 2  Armored → Dusk → Navori → Nashor → Unending → Radiant
+            9150  11.0s   74%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Cosmic → Randuin
+            9150  11.0s   75%    9150  11.0s 2  Armored → Dusk → Nashor → Riftmaker → Unending → Twinguard
+            9150  11.0s   72%    9150  11.0s 2  Armored → Dusk → Navori → Riftmaker → Unending → Wit's End
+            9150  11.0s   74%    9150  11.0s 2  Armored → Dusk → Nashor → Riftmaker → Radiant → Twinguard
+            9150  11.0s   72%    9150  11.0s 2  Armored → Dusk → Nashor → Riftmaker → Unending → FoN
+
+------------------------------------------------------------------------------
+PURCHASE ORDER  (same 6 items, order maximizes damage from 8:00 to 18:00)
+  Armored → Divine → Navori → Riftmaker → Wit's End → Unending
+
+   Min    Gold  Lvl  Inventory
+     4    2580    5  Armored
+     6    4300    7  Armored › Sheen › Kindlegem
+     8    6020    9  Armored › Divine › Dagger
+    10    7740   11  Armored › Divine › Dagger › Zeal › Dagger
+    12   10380   13  Armored › Divine › Navori › Haunting Guise › Fiendish Codex
+    14   13020   15  Armored › Divine › Navori › Riftmaker › Recurve Bow
+    16   15660   15  Armored › Divine › Navori › Riftmaker › Wit's End › Kindlegem
+    18   18300   15  Armored › Divine › Navori › Riftmaker › Wit's End › Unending
+    18   18300   15  Armored › Divine › Navori › Riftmaker › Wit's End › Unending
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  Buy: Armored → Divine → Navori → Riftmaker → Wit's End → Unending
+
+  WHY THIS IS THE LATE-GAME VOLIBEAR ON WILD RIFT:
+  • The wounded bite is 1.60× the normal maul. Bonus AD does not raise
+    that multiplier. AD still feeds the 110% / 176% ratios, Q and R.
+    Bonus HP feeds the 6.5% / 10.4% ratios and the E shield.
+  • Spirit Visage is not in the game. Healing is the raw W heal,
+    spellblade heals, and whatever Lifeline he bought.
+  • Navori is how W comes back inside the ultimate. Each attack cuts
+    15% off the remaining Q, W and E cooldown. The 25% crit is on the
+    attack, and crits deal 200% damage on this patch.
+  • Divine Sunderer is 10% of the target's max HP on the spellblade
+    and a heal for 6% of their max HP, on a 1.5s cooldown.
+  • Riftmaker turns 2% of bonus HP into AP. After 4 seconds in the
+    fight it is +8% damage and 10% omnivamp.
+  • Wit's End is 50% attack speed, 45 magic resistance and a 40
+    magic on-hit. Patch 7.3 removed its heal.
+  • Unending pulses 3% max HP magic every 4s and heals for 250% of
+    the post-mitigation damage, once per enemy standing in it.
+  • R's bonus HP is bonus health for the bite and the E shield. The
+    no-ult column keeps a 12-second stat stick from winning the search.
+
+  Vs Full Tank (Armored → Heartsteel → Unending → Randuin → Kaenic → Twinguard):
+    5090 in 11.0s, died=False, end 84%.
+  Vs AP Glass (Mercs → Dusk → Nashor → Deathcap → Infinity Orb → Void):
+    9150 in 6.7s, died=True, end 0%.
+  Vs Trinity Bruiser (Steelcaps → Trinity → Cleaver → Sterak → DD → Twinguard):
+    7096 in 11.0s, died=False, end 35%.
+  Vs Heartsteel (Steelcaps → Heartsteel → Titanic → Sterak → Unending → Twinguard):
+    6589 in 11.0s, died=False, end 50%.
+
+  ANTIHEAL:
+    With 60% grievous the winner still stands (11.0s, end 50%, 9150 damage).
+
+  RUNES:
+    Conqueror, Last Stand, Alacrity, Overgrowth, Brutal
+    Conqueror is 5 AD or 8 AP per stack at level 15, six stacks,
+    then 9% omnivamp. The fight starts at zero stacks.
+    Last Stand is 5–11% damage below 60% HP. Alacrity is 21% attack
+    speed once it is stacked. Overgrowth is +90 HP and 3% max HP.
+  SKILL ORDER: W max, E second, Q last. R at 5/9/13. At level 15
+    Q, W and E are all rank 4, so the finished fight does not change
+    if Q was maxed second. E second is the shield on the way there.
+  FIGHT: Cast E on the dive, Q, R so you land as E hits, Q auto the
+    carry, bite, keep attacking. Navori does nothing if he is kited.
+    Frenzy stays on him when the carry dies. The next bite on whoever
+    is left is still the 1.60× maul until the 8 seconds run out.
+
+  TRAPS:
+    • A full resist page with no AD leaves the 176% ratio on base AD.
+      Heartsteel's one proc does not replace the bites.
+    • Deathcap and Nashor with no health fall over while the ultimate
+      is still up. Lightning and E scale with AP. The W heal does not.
+    • Stacking two spellblades is impossible. Trinity, Dusk, Divine
+      and Iceborn share the slot.
+    • Sterak and Mantle share the Lifeline. Buying both does nothing
+      for the second proc.
+
+MODEL
+  Discrete 0.1s. Damage is post-mitigation. Conqueror, passive stacks
+  and Lethal Tempo start at zero. Lightning is not on from the first
+  attack. Omnivamp is full value against champions. The W heal is
+  grievous-cut in the Ignite column. Shields are not.
+  Steelcaps / Armored Advance cut 10% of the basic-attack share of
+  the physical focus (65% of it). Randuin cuts crits, modeled as 30%
+  off 55% of incoming physical. Frozen Heart cuts 25% attack speed
+  off that same basic-attack share. Q's stun removes most of the
+  physical focus for 1s.
+  Shojin's Focused Will percent is not on the stat card this sim
+  used, so Shojin is scored on 40 AD, 450 HP and 20 haste. Hullbreaker's
+  every-fourth-attack bonus is 160% base AD. Dead Man's crush is not
+  modeled. Guinsoo still crits: patch 7.3 removed the crit lock.
+  Wit's End no longer heals. Heartsteel lane stacks are 0.7 procs a
+  minute after it is finished. Grasp lane stacks are 2.2 procs a minute.
+
