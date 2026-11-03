@@ -1,714 +1,506 @@
 {
-  "winner_order": [
-    "Plated Steelcaps",
-    "Protoplasm Harness",
-    "Navori Flickerblade",
-    "Overlord's Bloodmail",
-    "Spirit Visage",
-    "Black Cleaver"
-  ],
+  "patch": "7.3d",
+  "game_minutes": 18,
   "builds": [
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "At Wit's End"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11686.8,
-      "r_damage": 8119.0,
-      "r_survival": 11.0,
-      "r_end_hp": 1700.7,
-      "r_max_hp": 5413.2,
-      "r_died": false,
-      "brawl_damage": 7292.6,
-      "nor_damage": 7193.2,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 861.0,
-        "auto": 2404.9,
-        "Q": 432.8,
-        "E": 1105.2,
-        "W": 2381.7,
-        "lightning": 933.4
-      }
+      "score": 14162.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 94.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "Cosmic Drive"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "conditioning"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11668.9,
-      "r_damage": 8111.2,
-      "r_survival": 11.0,
-      "r_end_hp": 1671.5,
-      "r_max_hp": 5413.2,
-      "r_died": false,
-      "brawl_damage": 7286.3,
-      "nor_damage": 7177.9,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 861.0,
-        "auto": 2400.8,
-        "Q": 431.8,
-        "E": 1105.1,
-        "W": 2380.2,
-        "lightning": 932.2
-      }
+      "score": 14133.9,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 95.9,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Mercury's Treads",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Divine Sunderer",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Amaranth's Twinguard"
       ],
-      "order_shown": "Mercs \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11650.6,
-      "r_damage": 8151.0,
-      "r_survival": 11.0,
-      "r_end_hp": 1350.3,
-      "r_max_hp": 5113.2,
-      "r_died": false,
-      "brawl_damage": 7276.6,
-      "nor_damage": 7110.9,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 861.0,
-        "auto": 2415.4,
-        "Q": 434.1,
-        "E": 1105.2,
-        "W": 2398.8,
-        "lightning": 936.4
-      }
+      "score": 14076.0,
+      "damage": 9138.7,
+      "survival": 11.0,
+      "end_hp_pct": 94.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Jak'Sho, The Protean"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Rabadon's Deathcap",
+        "Unending Despair",
+        "Radiant Virtue"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Jak'Sho",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11635.1,
-      "r_damage": 8103.4,
-      "r_survival": 11.0,
-      "r_end_hp": 1529.4,
-      "r_max_hp": 5361.4,
-      "r_died": false,
-      "brawl_damage": 7298.8,
-      "nor_damage": 7148.0,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 858.4,
-        "auto": 2399.6,
-        "Q": 430.6,
-        "E": 1105.2,
-        "W": 2376.3,
-        "lightning": 933.2
-      }
+      "score": 14018.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.1,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Randuin's Omen"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "Cosmic Drive"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Randuin",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11616.0,
-      "r_damage": 8116.5,
-      "r_survival": 11.0,
-      "r_end_hp": 1329.1,
-      "r_max_hp": 5361.4,
-      "r_died": false,
-      "brawl_damage": 7305.5,
-      "nor_damage": 7158.6,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 858.4,
-        "auto": 2403.3,
-        "Q": 430.8,
-        "E": 1105.2,
-        "W": 2384.4,
-        "lightning": 934.3
-      }
+      "score": 14012.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 75.1,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
         "Kaenic Rookern"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Kaenic",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11517.0,
-      "r_damage": 8044.8,
-      "r_survival": 11.0,
-      "r_end_hp": 1500.0,
-      "r_max_hp": 5413.2,
-      "r_died": false,
-      "brawl_damage": 7139.4,
-      "nor_damage": 7099.6,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 861.0,
-        "auto": 2362.2,
-        "Q": 424.4,
-        "E": 1103.7,
-        "W": 2371.4,
-        "lightning": 922.0
-      }
+      "score": 14001.5,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 74.7,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Terminus",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Chainlaced Crushers",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Amaranth's Twinguard"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Terminus \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11422.2,
-      "r_damage": 7914.2,
-      "r_survival": 11.0,
-      "r_end_hp": 1478.9,
-      "r_max_hp": 4595.7,
-      "r_died": false,
-      "brawl_damage": 7048.3,
-      "nor_damage": 7201.4,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 733.3,
-        "auto": 2064.7,
-        "Q": 441.0,
-        "E": 1775.9,
-        "W": 1787.0,
-        "lightning": 1112.3
-      }
+      "score": 14000.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Terminus",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Kaenic Rookern"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Terminus \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "conditioning"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11402.0,
-      "r_damage": 7913.3,
-      "r_survival": 11.0,
-      "r_end_hp": 1457.1,
-      "r_max_hp": 4595.7,
-      "r_died": false,
-      "brawl_damage": 7048.6,
-      "nor_damage": 7127.3,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 733.3,
-        "auto": 2064.1,
-        "Q": 440.8,
-        "E": 1775.9,
-        "W": 1787.4,
-        "lightning": 1111.9
-      }
+      "score": 13990.6,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 81.2,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Radiant Virtue"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11361.3,
-      "r_damage": 7727.5,
-      "r_survival": 11.0,
-      "r_end_hp": 1824.4,
-      "r_max_hp": 5464.9,
-      "r_died": false,
-      "brawl_damage": 7373.9,
-      "nor_damage": 7403.5,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 873.0,
-        "auto": 2057.1,
-        "Q": 418.7,
-        "E": 1226.3,
-        "W": 2217.3,
-        "lightning": 935.1
-      }
+      "score": 13979.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.2,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Force of Nature"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13970.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 79.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
         "Unending Despair",
-        "Spirit Visage"
+        "Amaranth's Twinguard"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Unending \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11351.3,
-      "r_damage": 7934.5,
-      "r_survival": 11.0,
-      "r_end_hp": 1271.1,
-      "r_max_hp": 4906.2,
-      "r_died": false,
-      "brawl_damage": 7082.2,
-      "nor_damage": 6997.8,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 850.6,
-        "auto": 2332.7,
-        "Q": 416.4,
-        "E": 1105.2,
-        "W": 2251.1,
-        "lightning": 916.9,
-        "unending": 61.6
-      }
+      "score": 13967.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.7,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Amaranth's Twinguard"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "conditioning"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11344.8,
-      "r_damage": 7718.6,
-      "r_survival": 11.0,
-      "r_end_hp": 1793.6,
-      "r_max_hp": 5464.9,
-      "r_died": false,
-      "brawl_damage": 7369.1,
-      "nor_damage": 7399.8,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 873.0,
-        "auto": 2053.4,
-        "Q": 417.7,
-        "E": 1225.5,
-        "W": 2215.2,
-        "lightning": 933.8
-      }
+      "score": 13949.1,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 77.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Jak'Sho, The Protean",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Nashor's Tooth",
+        "Unending Despair",
+        "Radiant Virtue"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Jak'Sho \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11329.5,
-      "r_damage": 7841.6,
-      "r_survival": 11.0,
-      "r_end_hp": 1810.8,
-      "r_max_hp": 4854.4,
-      "r_died": false,
-      "brawl_damage": 6990.5,
-      "nor_damage": 6946.5,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 848.0,
-        "auto": 2325.2,
-        "Q": 413.6,
-        "E": 1105.2,
-        "W": 2234.1,
-        "lightning": 915.5
-      }
+      "score": 13939.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.8,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Jak'Sho, The Protean",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Cosmic Drive",
+        "Randuin's Omen"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Jak'Sho \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "conditioning"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11306.8,
-      "r_damage": 7833.9,
-      "r_survival": 11.0,
-      "r_end_hp": 1757.9,
-      "r_max_hp": 4854.4,
-      "r_died": false,
-      "brawl_damage": 6981.0,
-      "nor_damage": 6936.0,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 848.0,
-        "auto": 2321.2,
-        "Q": 412.9,
-        "E": 1104.9,
-        "W": 2232.4,
-        "lightning": 914.5
-      }
+      "score": 13920.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 73.6,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13902.8,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 75.0,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Navori Quickblades",
+        "Riftmaker",
+        "Unending Despair",
+        "At Wit's End"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13900.6,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 71.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Radiant Virtue",
+        "Amaranth's Twinguard"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13895.7,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 74.3,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Force of Nature"
+      ],
+      "runes": [
+        "conqueror",
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
+      ],
+      "tier": 2,
+      "score": 13886.2,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.5,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
+    },
+    {
+      "items": [
+        "Chainlaced Crushers",
+        "Riftmaker",
         "Randuin's Omen",
-        "Spirit Visage"
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Kaenic Rookern"
       ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Randuin \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11294.1,
-      "r_damage": 7820.9,
-      "r_survival": 11.0,
-      "r_end_hp": 1793.2,
-      "r_max_hp": 4854.4,
-      "r_died": false,
-      "brawl_damage": 6962.1,
-      "nor_damage": 6930.4,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 848.0,
-        "auto": 2313.2,
-        "Q": 412.8,
-        "E": 1105.2,
-        "W": 2229.9,
-        "lightning": 911.7
-      }
+      "score": 13880.8,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.4,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     },
     {
       "items": [
-        "Ionian Boots of Lucidity",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Spirit Visage"
+        "Armored Advance",
+        "Dusk and Dawn",
+        "Nashor's Tooth",
+        "Riftmaker",
+        "Unending Despair",
+        "Kaenic Rookern"
       ],
-      "order_shown": "Ionian \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Protoplasm \u2192 Visage",
       "runes": [
         "conqueror",
-        "haste",
-        "revitalize"
+        "brutal",
+        "laststand",
+        "alacrity",
+        "overgrowth"
       ],
       "tier": 2,
-      "score": 11286.3,
-      "r_damage": 7968.7,
-      "r_survival": 11.0,
-      "r_end_hp": 990.8,
-      "r_max_hp": 5113.2,
-      "r_died": false,
-      "brawl_damage": 6927.5,
-      "nor_damage": 7002.3,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 861.0,
-        "auto": 2272.3,
-        "Q": 436.0,
-        "E": 1105.2,
-        "W": 2400.5,
-        "lightning": 893.6
-      }
-    },
-    {
-      "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Fimbulwinter",
-        "Spirit Visage"
-      ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Fimbul \u2192 Visage",
-      "runes": [
-        "conqueror",
-        "haste",
-        "revitalize"
-      ],
-      "tier": 2,
-      "score": 11283.0,
-      "r_damage": 8014.3,
-      "r_survival": 11.0,
-      "r_end_hp": 990.6,
-      "r_max_hp": 5061.4,
-      "r_died": false,
-      "brawl_damage": 7244.9,
-      "nor_damage": 6346.1,
-      "nor_survival": 9.8,
-      "nor_died": true,
-      "sources": {
-        "R": 858.4,
-        "auto": 2372.6,
-        "Q": 425.0,
-        "E": 1105.2,
-        "W": 2326.4,
-        "lightning": 926.6
-      }
-    },
-    {
-      "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Black Cleaver",
-        "Overlord's Bloodmail",
-        "Jak'Sho, The Protean",
-        "Fimbulwinter"
-      ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Cleaver \u2192 Bloodmail \u2192 Jak'Sho \u2192 Fimbul",
-      "runes": [
-        "conqueror",
-        "haste",
-        "revitalize"
-      ],
-      "tier": 2,
-      "score": 11258.8,
-      "r_damage": 8010.8,
-      "r_survival": 11.0,
-      "r_end_hp": 849.2,
-      "r_max_hp": 5009.7,
-      "r_died": false,
-      "brawl_damage": 7259.0,
-      "nor_damage": 6351.8,
-      "nor_survival": 9.9,
-      "nor_died": true,
-      "sources": {
-        "R": 855.8,
-        "auto": 2372.4,
-        "Q": 423.8,
-        "E": 1105.2,
-        "W": 2325.8,
-        "lightning": 927.7
-      }
-    },
-    {
-      "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Wit's End",
-        "Protoplasm Harness",
-        "Spirit Visage"
-      ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Wit's End \u2192 Protoplasm \u2192 Visage",
-      "runes": [
-        "conqueror",
-        "haste",
-        "revitalize"
-      ],
-      "tier": 2,
-      "score": 11257.1,
-      "r_damage": 7729.7,
-      "r_survival": 11.0,
-      "r_end_hp": 1758.7,
-      "r_max_hp": 4595.7,
-      "r_died": false,
-      "brawl_damage": 6967.2,
-      "nor_damage": 7152.8,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 672.2,
-        "auto": 1757.2,
-        "Q": 307.4,
-        "wits": 903.1,
-        "E": 1646.5,
-        "W": 1442.5,
-        "lightning": 1000.9
-      }
-    },
-    {
-      "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Force of Nature"
-      ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Bloodmail \u2192 Protoplasm \u2192 FoN",
-      "runes": [
-        "conqueror",
-        "haste",
-        "revitalize"
-      ],
-      "tier": 2,
-      "score": 11254.5,
-      "r_damage": 7783.0,
-      "r_survival": 11.0,
-      "r_end_hp": 1292.3,
-      "r_max_hp": 5164.9,
-      "r_died": false,
-      "brawl_damage": 7453.2,
-      "nor_damage": 6872.8,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 873.0,
-        "auto": 2071.9,
-        "Q": 420.7,
-        "E": 1226.3,
-        "W": 2249.8,
-        "lightning": 941.4
-      }
-    },
-    {
-      "items": [
-        "Plated Steelcaps",
-        "Navori Flickerblade",
-        "Spear of Shojin",
-        "Overlord's Bloodmail",
-        "Protoplasm Harness",
-        "Force of Nature"
-      ],
-      "order_shown": "Steelcaps \u2192 Navori \u2192 Shojin \u2192 Bloodmail \u2192 Protoplasm \u2192 FoN",
-      "runes": [
-        "conqueror",
-        "haste",
-        "revitalize"
-      ],
-      "tier": 2,
-      "score": 11254.5,
-      "r_damage": 7783.0,
-      "r_survival": 11.0,
-      "r_end_hp": 1292.3,
-      "r_max_hp": 5164.9,
-      "r_died": false,
-      "brawl_damage": 7453.2,
-      "nor_damage": 6872.8,
-      "nor_survival": 11.0,
-      "nor_died": false,
-      "sources": {
-        "R": 873.0,
-        "auto": 2071.9,
-        "Q": 420.7,
-        "E": 1226.3,
-        "W": 2249.8,
-        "lightning": 941.4
-      }
+      "score": 13880.4,
+      "damage": 9150.0,
+      "survival": 11.0,
+      "end_hp_pct": 72.3,
+      "died": false,
+      "no_ult_survival": 11.0,
+      "brawl": 9150.0
     }
   ]
 }
