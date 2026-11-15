@@ -1,0 +1,175 @@
+==============================================================================
+RYZE — TOP BUILD vs FULL ABILITY HASTE (Wild Rift 7.3f)
+Level 15 · 6 items · RoA fully stacked · Phase Rush page
+==============================================================================
+
+TARGETS (end-game estimates, not a specific match)
+  Squishy   2300 HP   60 MR    mid/ADC with no MR item
+  Bruiser   3400 HP  120 MR    one MR item
+  Tank      4500 HP  190 MR    two MR items
+  Teamfight is those three standing in one Spell Flux. W hits the squishy.
+  Q and empowered Q hit every marked champion. A kill stops that target's
+  damage, so an 8s total ties once the team is dead. The 4s dummy number
+  is the same fight with infinite HP: shields, heals, and extra targets.
+
+VERDICT
+  Take the damage build in a 1v1 and in a teamfight. Full haste casts
+  more often, but each Flux Overload is about half as large, and a 4s
+  fight only fits one or two extra spells before cast time gets in the way.
+  Top 1 kills the squishy in 0.75s, the bruiser in 1.67s, the tank in 3.17s.
+  Full AH takes 1.93s, 3.64s, and 5.87s.
+  Over 4s on a clump that does not die: Top 1 16886, Full AH 12584 (75%).
+  The balance point is not 140 ability haste. Swapping Rod of Ages for
+  Blackfire Torch (Seraph, Deathcap, Infinity Orb, Void, Spellslinger)
+  is 45 item AH and the highest damage in the search:
+  4s clump 20664, team dead at 3.76s.
+  Past that, more haste means selling Deathcap, Void, or Orb, and the
+  kill times get worse. Rod of Ages stays correct if you need its 550 HP;
+  in that case drop Infinity Orb, not Void Staff or Deathcap.
+
+SHARED RUNES (every build)
+  Phase Rush, Manaflow (300 mana), Transcendence (+10 AH, 8% refund / 8s),
+  Legend: Haste (15 AH). Nimbus is move speed only, not in the damage.
+  Phase Rush: after 3 hits, basic cooldowns cut 20% and +10 AH for 3s.
+
+------------------------------------------------------------------------------
+HEADLINE BUILDS
+------------------------------------------------------------------------------
+Top 1
+  Spellslinger + Seraph + RoA + Deathcap + Orb + Void
+  843 AP · 6413 mana · 5233 bonus mana · 25 item AH (50 with runes) · E 1.33s · W 4.67s
+  One EQ, full HP, magic resist applied: squishy 1870 · bruiser 1454 · tank 1136
+  1v1 kill: squishy 0.75s · bruiser 1.67s · tank 3.17s
+  4s into one target that does not die: squishy 8269 · bruiser 6429 · tank 5025
+  Team wipe: squishy 0.75s · bruiser 1.92s · tank 4.42s · last death 4.42s
+  4s clump, infinite HP: 16886 total (squishy 8269, bruiser 4837, tank 3780)
+  Those 4s come from Q 10258 · W 790 · E 5837 · burn 0 · Luden 0 · belt 0 · casts Q5 W1 E4
+
+Full AH
+  Crimson + Seraph + Crypt + Cosmic + Horizon + Blackfire
+  477 AP (517 AP while three champions are burning) · 4698 mana · 3518 bonus mana · 140 item AH (165 with runes) · E 0.76s · W 2.64s
+  One EQ, full HP, magic resist applied: squishy 910 · bruiser 702 · tank 554
+  1v1 kill: squishy 1.93s · bruiser 3.64s · tank 5.87s
+  4s into one target that does not die: squishy 5235 · bruiser 4040 · tank 3190
+  Team wipe: squishy 1.93s · bruiser 3.64s · tank 5.87s · last death 5.87s
+  4s clump, infinite HP: 12584 total (squishy 5472, bruiser 3974, tank 3138)
+  Those 4s come from Q 7871 · W 0 · E 4524 · burn 189 · Luden 0 · belt 0 · casts Q6 W0 E6
+
+Fastest 1v1
+  Spellslinger + Seraph + Deathcap + Orb + Void + Malignance
+  827 AP · 5810 mana · 4630 bonus mana · 40 item AH (65 with runes) · E 1.21s · W 4.24s
+  One EQ, full HP, magic resist applied: squishy 1811 · bruiser 1361 · tank 1055
+  1v1 kill: squishy 0.75s · bruiser 1.57s · tank 2.96s
+  4s into one target that does not die: squishy 9224 · bruiser 6931 · tank 5373
+  Team wipe: squishy 0.75s · bruiser 1.82s · tank 5.00s · last death 5.00s
+  4s clump, infinite HP: 18886 total (squishy 9224, bruiser 5443, tank 4219)
+  Those 4s come from Q 12590 · W 763 · E 5533 · burn 0 · Luden 0 · belt 0 · casts Q6 W1 E4
+
+Fastest team wipe
+  Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire
+  848 AP (920 AP while three champions are burning) · 5878 mana · 4698 bonus mana · 45 item AH (70 with runes) · E 1.18s · W 4.12s
+  One EQ, full HP, magic resist applied: squishy 1843 · bruiser 1385 · tank 1073
+  1v1 kill: squishy 0.75s · bruiser 1.79s · tank 2.90s
+  4s into one target that does not die: squishy 9526 · bruiser 7158 · tank 5549
+  Team wipe: squishy 0.75s · bruiser 2.04s · tank 3.76s · last death 3.76s
+  4s clump, infinite HP: 20664 total (squishy 10080, bruiser 5962, tank 4621)
+  Those 4s come from Q 13580 · W 823 · E 5937 · burn 324 · Luden 0 · belt 0 · casts Q6 W1 E4
+
+Highest 4s clump — same items as a build already listed (Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire)
+
+Balance
+  Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden
+  861 AP (935 AP while three champions are burning) · 6849 mana · 5669 bonus mana · 55 item AH (80 with runes) · E 1.11s · W 3.89s
+  One EQ, full HP, magic resist applied: squishy 1668 · bruiser 1295 · tank 1027
+  1v1 kill: squishy 0.75s · bruiser 1.99s · tank 3.59s
+  4s into one target that does not die: squishy 8876 · bruiser 6893 · tank 5468
+  Team wipe: squishy 0.75s · bruiser 2.24s · tank 4.65s · last death 4.65s
+  4s clump, infinite HP: 19392 total (squishy 9393, bruiser 5576, tank 4423)
+  Those 4s come from Q 12575 · W 749 · E 5512 · burn 290 · Luden 265 · belt 0 · casts Q6 W1 E4
+
+Knee
+  Crimson + Seraph + Crypt + Horizon + Blackfire + Malignance
+  516 AP (560 AP while three champions are burning) · 5581 mana · 4401 bonus mana · 130 item AH (155 with runes) · E 0.78s · W 2.75s
+  One EQ, full HP, magic resist applied: squishy 983 · bruiser 758 · tank 599
+  1v1 kill: squishy 1.48s · bruiser 3.49s · tank 5.81s
+  4s into one target that does not die: squishy 5654 · bruiser 4363 · tank 3446
+  Team wipe: squishy 1.48s · bruiser 3.49s · tank 5.81s · last death 5.81s
+  4s clump, infinite HP: 13611 total (squishy 5919, bruiser 4298, tank 3394)
+  Those 4s come from Q 8529 · W 0 · E 4881 · burn 201 · Luden 0 · belt 0 · casts Q6 W0 E6
+
+------------------------------------------------------------------------------
+SEARCH (every legal 6-item mix of the mage pool)
+------------------------------------------------------------------------------
+  Builds searched: 10296
+  Fastest squishy: Spellslinger + Seraph + Deathcap + Orb + Void + Malignance
+    0.75s · bruiser 1.57s · 40 item AH
+  Fastest bruiser: Spellslinger + Seraph + Deathcap + Orb + Void + Malignance
+    1.57s · tank 2.96s · 40 item AH
+  Fastest tank: Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire
+    2.90s · 45 item AH · 4s clump 20664
+  Fastest team wipe: Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire
+    last death 3.76s · 45 item AH
+  Highest 4s clump damage: Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire
+    20664 · wipe 3.76s · 45 item AH
+  Highest item AH: Crimson + Seraph + Crypt + Cosmic + Horizon + Blackfire
+    140 AH · 4s clump 12584 · squishy 1.93s
+  Balance: most item AH that still one-combos the squishy, stays within
+  35% of the best bruiser kill and 25% of the best tank kill, and keeps
+  at least 90% of the best 4s clump damage.
+    Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden
+    55 item AH · 4s clump 19392 (93.8% of best) · squishy 0.75s · bruiser 1.99s · tank 3.59s
+  Knee (geometric mean of 4s clump damage and item AH):
+    Crimson + Seraph + Crypt + Horizon + Blackfire + Malignance
+    13611 · 130 item AH · squishy 1.48s · tank 5.81s
+
+Highest 4s clump damage:
+  20664  wipe    3.76s  AH    45  sq    0.75s  tank    2.90s  Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire
+  20050  wipe    4.01s  AH    45  sq    0.75s  tank    2.90s  Spellslinger + Seraph + RoA + Deathcap + Void + Blackfire
+  19398  wipe    5.13s  AH    35  sq    0.75s  tank    3.03s  Spellslinger + Seraph + Deathcap + Orb + Void + Luden
+  19392  wipe    4.65s  AH    55  sq    0.75s  tank    3.59s  Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden
+  18886  wipe    5.00s  AH    40  sq    0.75s  tank    2.96s  Spellslinger + Seraph + Deathcap + Orb + Void + Malignance
+  18788  wipe    5.13s  AH    35  sq    0.75s  tank    3.03s  Spellslinger + Seraph + RoA + Deathcap + Void + Luden
+  18349  wipe    5.00s  AH    40  sq    1.00s  tank    3.86s  Spellslinger + Seraph + Deathcap + Orb + Void + Riftmaker
+  18341  wipe    4.87s  AH    45  sq    0.75s  tank    3.76s  Spellslinger + Seraph + RoA + Deathcap + Orb + Crypt
+
+------------------------------------------------------------------------------
+NAMED COMPARISON
+------------------------------------------------------------------------------
+  4s clump: Top 1 16886 vs Full AH 12584 (74.5% of Top 1)
+  Squishy kill 0.75s vs 1.93s
+  Bruiser kill 1.67s vs 3.64s
+  Tank kill 3.17s vs 5.87s
+  Team wipe 4.42s vs 5.87s
+  Item AH 25 vs 140
+
+------------------------------------------------------------------------------
+WIKI E CHECK (170 + 55% AP + 3% mana, 2.5s CD) on the same builds
+Primary results above use the 7.3f guide E (170 + 40% AP + 2% mana, 2s).
+------------------------------------------------------------------------------
+  Top 1: squishy 0.75s · bruiser 1.25s · tank 3.75s · 4s clump 16706 · E 1.67s
+  Full AH: squishy 1.60s · bruiser 4.08s · tank 6.91s · 4s clump 11273 · E 0.94s
+  Balance: squishy 0.75s · bruiser 1.71s · tank 3.28s · 4s clump 16413 · E 1.39s
+  Fastest team wipe: squishy 0.75s · bruiser 1.78s · tank 3.42s · 4s clump 17422 · E 1.47s
+
+------------------------------------------------------------------------------
+ASSUMPTIONS
+------------------------------------------------------------------------------
+  Arcane Mastery: max mana = (base + items + Manaflow) × (1 + AP/1000).
+  Seraph Awe is 2% max mana as AP (current wiki), refunds 25% mana, no magic pen.
+  Deathcap is +30% AP and multiplies Awe, Riftmaker HP-to-AP, and Blackfire's
+  4% AP per burning champion. Blackfire burn is 20 + 2% AP per second.
+  Liandry burn is 2% max HP over 3 seconds (about 0.67% HP per second) plus
+  Madness, +2% damage per second up to +6%. Riftmaker is +2% per second up to +8%,
+  and +2% bonus HP as AP.
+  Infinity Orb is +20% ability damage when the target is already under 40% HP.
+  Luden echo every 9s. Rocketbelt once: 100 + 15% AP, 1.2× on a lone target.
+  Bloodletter shreds 7.5% MR per hit, up to 30%. It cannot be paired with Void
+  or Cryptbloom. Percent pen from RoA, Void, and Spellslinger multiplies.
+  Malignance Hatefog is not counted: Realm Warp deals no damage.
+  Crimson/Ionian Summoned lowers summoner spells, not Q/W/E.
+  Horizon's 10% amp needs a cast from 600 range. EQ is inside 550, so it is
+  not applied. The item is still in the pool as 80 AP and 25 AH.
+  You are free-casting. Stuns, Zhonya, and missed Qs are not modeled.
+  Move speed from Cosmic, Phase Rush, and Spell Flux is not damage, but it is
+  why a haste build gets to spend the full 8 seconds in range.
+  Cast time caps an EQ loop at 0.50s. None of these builds reach that cap.

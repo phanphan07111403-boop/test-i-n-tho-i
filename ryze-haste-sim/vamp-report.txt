@@ -1,0 +1,121 @@
+==============================================================================
+RYZE — CONQUEROR AND SPELLVAMP ON THE BLACKFIRE BUILD
+Spellslinger · Seraph · Deathcap · Infinity Orb · Void · Blackfire
+Level 15. Ryze is ranged, so Conqueror heals at 5%, not the melee 9%.
+==============================================================================
+
+COMPARISON PAGE
+  Phase Rush, Gathering Storm, Legend: Haste
+  908 AP · 70 AH · squishy 0.75s · bruiser 1.79s · tank 2.90s · wipe 3.76s
+  4s clump 21674 · 8s clump 37918 · healing 0
+  78% of that damage is area: Flux Overload, the Spell Flux spread, and the burn.
+  The 4-second total is the fight this build actually has. The 8-second
+  total is only there to show a fight that runs long enough for stacks.
+
+Page                                                            4s dmg 4s heal    wipe
+Phase Rush, Gathering Storm, Legend: Haste                       21674       0   3.76s
+Phase Rush page, Legend: Bloodline instead of Haste              18458    1292   4.31s
+Conqueror, Battle Zeal, Cut Down, Legend: Haste + Manaflow Band   18143     537   4.25s
+Conqueror, Battle Zeal, Cut Down, Legend: Haste + Transcendence   19227     603   4.28s
+Conqueror, Battle Zeal, Cut Down, Legend: Haste + Gathering Storm   18414     545   4.25s
+Conqueror, Battle Zeal, Cut Down, Legend: Haste + Absolute Focus   18414     545   4.25s
+Conqueror, Battle Zeal, Cut Down, Legend: Haste + Scorch         17631     521   4.50s
+Conqueror, Battle Zeal, Cut Down, Bloodline + Gathering Storm    18438    1836   4.64s
+Phase Rush page, Riftmaker instead of Infinity Orb               17733     861   4.54s
+Phase Rush page, Riftmaker instead of Blackfire Torch            19006    1015   5.00s
+Bloodline and Riftmaker instead of Infinity Orb                  19070    2343   4.87s
+
+------------------------------------------------------------------------------
+HEALING ON REAL KILLS, AND WHAT THE 4 SECONDS COST
+------------------------------------------------------------------------------
+  Phase Rush page, Legend: Bloodline instead of Haste
+    4s damage 18458 (-3216) · 4s heal 1292 · 8s heal 2655 (7.0% of the 8s damage)
+    Carry kill heals 161 · bruiser 238 · tank 315 · the real teamfight heals 714
+    Kill clock: squishy 0.75s · bruiser 1.63s · tank 3.09s · wipe 4.31s
+    0.40 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Legend: Haste + Manaflow Band
+    4s damage 18143 (-3531) · 4s heal 537 · 8s heal 1534 (4.0% of the 8s damage)
+    Carry kill heals 0 · bruiser 9 · tank 102 · the real teamfight heals 188
+    Kill clock: squishy 0.75s · bruiser 1.75s · tank 3.25s · wipe 4.25s
+    Conqueror reaches 6 stacks at 1.75s
+    0.15 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Legend: Haste + Transcendence
+    4s damage 19227 (-2447) · 4s heal 603 · 8s heal 1660 (4.1% of the 8s damage)
+    Carry kill heals 0 · bruiser 14 · tank 106 · the real teamfight heals 194
+    Kill clock: squishy 0.75s · bruiser 1.68s · tank 3.10s · wipe 4.28s
+    Conqueror reaches 6 stacks at 1.68s
+    0.25 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Legend: Haste + Gathering Storm
+    4s damage 18414 (-3260) · 4s heal 545 · 8s heal 1556 (4.0% of the 8s damage)
+    Carry kill heals 0 · bruiser 0 · tank 100 · the real teamfight heals 184
+    Kill clock: squishy 0.75s · bruiser 1.75s · tank 3.25s · wipe 4.25s
+    Conqueror reaches 6 stacks at 1.75s
+    0.17 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Legend: Haste + Absolute Focus
+    4s damage 18414 (-3260) · 4s heal 545 · 8s heal 1556 (4.0% of the 8s damage)
+    Carry kill heals 0 · bruiser 0 · tank 100 · the real teamfight heals 184
+    Kill clock: squishy 0.75s · bruiser 1.75s · tank 3.25s · wipe 4.25s
+    Conqueror reaches 6 stacks at 1.75s
+    0.17 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Legend: Haste + Scorch
+    4s damage 17631 (-4043) · 4s heal 521 · 8s heal 1487 (4.0% of the 8s damage)
+    Carry kill heals 0 · bruiser 12 · tank 105 · the real teamfight heals 194
+    Kill clock: squishy 0.75s · bruiser 1.75s · tank 3.25s · wipe 4.50s
+    Conqueror reaches 6 stacks at 1.75s
+    0.13 healed per 1 damage given up over 4s
+
+  Conqueror, Battle Zeal, Cut Down, Bloodline + Gathering Storm
+    4s damage 18438 (-3236) · 4s heal 1836 · 8s heal 4051 (11.0% of the 8s damage)
+    Carry kill heals 161 · bruiser 238 · tank 415 · the real teamfight heals 898
+    Kill clock: squishy 0.75s · bruiser 1.88s · tank 3.51s · wipe 4.64s
+    Conqueror reaches 6 stacks at 1.88s
+    0.57 healed per 1 damage given up over 4s
+
+  Phase Rush page, Riftmaker instead of Infinity Orb
+    4s damage 17733 (-3941) · 4s heal 861 · 8s heal 3020 (8.1% of the 8s damage)
+    Carry kill heals 170 · bruiser 245 · tank 288 · the real teamfight heals 560
+    Kill clock: squishy 1.46s · bruiser 2.49s · tank 3.77s · wipe 4.54s
+    0.22 healed per 1 damage given up over 4s
+
+  Phase Rush page, Riftmaker instead of Blackfire Torch
+    4s damage 19006 (-2668) · 4s heal 1015 · 8s heal 2696 (8.0% of the 8s damage)
+    Carry kill heals 171 · bruiser 308 · tank 329 · the real teamfight heals 634
+    Kill clock: squishy 0.75s · bruiser 1.57s · tank 2.96s · wipe 5.00s
+    0.38 healed per 1 damage given up over 4s
+
+  Bloodline and Riftmaker instead of Infinity Orb
+    4s damage 19070 (-2604) · 4s heal 2343 · 8s heal 5079 (14.9% of the 8s damage)
+    Carry kill heals 331 · bruiser 484 · tank 654 · the real teamfight heals 1315
+    Kill clock: squishy 1.54s · bruiser 2.04s · tank 3.76s · wipe 4.87s
+    0.90 healed per 1 damage given up over 4s
+
+------------------------------------------------------------------------------
+ASSUMPTIONS
+------------------------------------------------------------------------------
+  Conqueror at level 15 is 8.33 AP per stack, 50 AP at 6 stacks, before
+  Deathcap. One stack per spell cast. The spell deals damage with the
+  stacks it was cast on, then the new stack can heal that hit. Stacks
+  fall off after 6 seconds without a hit. Ryze's combo reaches 6 stacks
+  on the sixth cast, which is after the squishy is already dead.
+  Taking Conqueror makes Precision the main tree. The other three runes
+  here are Battle Zeal, Cut Down, and Legend: Haste, plus one Sorcery rune.
+  Manaflow, Transcendence, and Gathering Storm cannot all stay.
+  Legend: Bloodline is 7% omnivamp from the first point of damage.
+  Omnivamp heals the full amount of champion damage, including area
+  spells and the Blackfire burn. It does not heal more against minions.
+  Riftmaker is the 7.2 version: 70 AP, 15 haste, 350 health, 11% magic
+  vamp, and 2% of bonus health as AP. Void Corruption still ramps to 8%
+  damage and, at 4 seconds, adds 6% omnivamp because Ryze is ranged.
+  Magic vamp is the spellvamp stat. Area damage heals at one third:
+  Flux Overload, the Spell Flux spread, and the burn. The first Spell
+  Flux hit and a raw Overload heal at the full 11%.
+  The shared item table still lists Riftmaker at 80 AP. This run uses 70.
+  Hextech Gunblade was removed. Gluttonous Greaves are a component boot,
+  not a sixth item. Blade of the Ruined King is omnivamp on an attack
+  item, so it is not a spellvamp source for this build. Triumph heals
+  on a takedown. It is not vamp.

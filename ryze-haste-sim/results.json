@@ -1,0 +1,2105 @@
+{
+  "patch": "7.3f",
+  "level": 15,
+  "targets": {
+    "squishy": {
+      "hp": 2300,
+      "mr": 60
+    },
+    "bruiser": {
+      "hp": 3400,
+      "mr": 120
+    },
+    "tank": {
+      "hp": 4500,
+      "mr": 190
+    }
+  },
+  "picks": {
+    "Top 1": "Spellslinger + Seraph + RoA + Deathcap + Orb + Void",
+    "Full AH": "Crimson + Seraph + Crypt + Cosmic + Horizon + Blackfire",
+    "Fastest 1v1": "Spellslinger + Seraph + Deathcap + Orb + Void + Malignance",
+    "Fastest team wipe": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+    "Highest 4s clump": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+    "Balance": "Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden",
+    "Knee": "Crimson + Seraph + Crypt + Horizon + Blackfire + Malignance"
+  },
+  "details": {
+    "Top 1": {
+      "build": "Spellslinger + Seraph + RoA + Deathcap + Orb + Void",
+      "items": [
+        "Spellslinger's Shoes",
+        "Seraph's Embrace",
+        "Rod of Ages",
+        "Rabadon's Deathcap",
+        "Infinity Orb",
+        "Void Staff"
+      ],
+      "cost": 17300,
+      "ap": 842.7,
+      "ap_clump": 842.7,
+      "max_mana": 6413,
+      "bonus_mana": 5233,
+      "item_ah": 25,
+      "ah": 50,
+      "e_cd": 1.333,
+      "w_cd": 4.667,
+      "q_flux": 1258,
+      "e_raw": 612,
+      "w_raw": 790,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75
+          },
+          "casts": {
+            "Q": 2,
+            "W": 0,
+            "E": 1
+          },
+          "sources": {
+            "Q": 1688,
+            "W": 0,
+            "E": 612,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 0.75
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 1.67,
+          "deaths": {
+            "bruiser": 1.67
+          },
+          "casts": {
+            "Q": 3,
+            "W": 1,
+            "E": 2
+          },
+          "sources": {
+            "Q": 2054,
+            "W": 615,
+            "E": 731,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 1.67
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 3.17,
+          "deaths": {
+            "tank": 3.17
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2830,
+            "W": 480,
+            "E": 1190,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 3.17
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 8269,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 5031,
+            "W": 790,
+            "E": 2447,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 8269
+          },
+          "time": 4.17
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 6429,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3912,
+            "W": 615,
+            "E": 1903,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 6429
+          },
+          "time": 4.17
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 5025,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3058,
+            "W": 480,
+            "E": 1487,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 5025
+          },
+          "time": 4.17
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75,
+            "bruiser": 1.92,
+            "tank": 4.42
+          },
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6366,
+            "W": 615,
+            "E": 3220,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 4.42
+        },
+        "teamfight 4s dummy": {
+          "damage": 16886,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 10258,
+            "W": 790,
+            "E": 5837,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 8269,
+            "bruiser": 4837,
+            "tank": 3780
+          },
+          "time": 4.17
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 3.17,
+          "deaths": {
+            "tank": 3.17
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2830,
+            "W": 480,
+            "E": 1190,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 3.17
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 612,
+          "Q": 1258,
+          "EQ": 1870
+        },
+        "bruiser": {
+          "E": 476,
+          "Q": 978,
+          "EQ": 1454
+        },
+        "tank": {
+          "E": 372,
+          "Q": 764,
+          "EQ": 1136
+        }
+      }
+    },
+    "Full AH": {
+      "build": "Crimson + Seraph + Crypt + Cosmic + Horizon + Blackfire",
+      "items": [
+        "Crimson Lucidity",
+        "Seraph's Embrace",
+        "Cryptbloom",
+        "Cosmic Drive",
+        "Horizon Focus",
+        "Blackfire Torch"
+      ],
+      "cost": 16500,
+      "ap": 477.3,
+      "ap_clump": 516.8,
+      "max_mana": 4698,
+      "bonus_mana": 3518,
+      "item_ah": 140,
+      "ah": 165,
+      "e_cd": 0.755,
+      "w_cd": 2.642,
+      "q_flux": 860,
+      "e_raw": 431,
+      "w_raw": 538,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 1.93,
+          "deaths": {
+            "squishy": 1.93
+          },
+          "casts": {
+            "Q": 3,
+            "W": 0,
+            "E": 3
+          },
+          "sources": {
+            "Q": 1515,
+            "W": 0,
+            "E": 750,
+            "burn": 35,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 1.93
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 3.64,
+          "deaths": {
+            "bruiser": 3.64
+          },
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 5
+          },
+          "sources": {
+            "Q": 2174,
+            "W": 0,
+            "E": 1172,
+            "burn": 54,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 3.64
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 5.87,
+          "deaths": {
+            "tank": 5.87
+          },
+          "casts": {
+            "Q": 9,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 2948,
+            "W": 0,
+            "E": 1481,
+            "burn": 71,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 5.87
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 5235,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 3332,
+            "W": 0,
+            "E": 1822,
+            "burn": 80,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 5235
+          },
+          "time": 4.11
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 4040,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 2572,
+            "W": 0,
+            "E": 1406,
+            "burn": 62,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 4040
+          },
+          "time": 4.11
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 3190,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 2031,
+            "W": 0,
+            "E": 1111,
+            "burn": 49,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 3190
+          },
+          "time": 4.11
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 1.93,
+          "deaths": {
+            "squishy": 1.93,
+            "bruiser": 3.64,
+            "tank": 5.87
+          },
+          "casts": {
+            "Q": 9,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 6599,
+            "W": 0,
+            "E": 3443,
+            "burn": 158,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 5.87
+        },
+        "teamfight 4s dummy": {
+          "damage": 12584,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 7871,
+            "W": 0,
+            "E": 4524,
+            "burn": 189,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 5472,
+            "bruiser": 3974,
+            "tank": 3138
+          },
+          "time": 4.11
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 5.87,
+          "deaths": {
+            "tank": 5.87
+          },
+          "casts": {
+            "Q": 9,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 2948,
+            "W": 0,
+            "E": 1481,
+            "burn": 71,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 5.87
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 304,
+          "Q": 606,
+          "EQ": 910
+        },
+        "bruiser": {
+          "E": 234,
+          "Q": 468,
+          "EQ": 702
+        },
+        "tank": {
+          "E": 185,
+          "Q": 369,
+          "EQ": 554
+        }
+      }
+    },
+    "Fastest 1v1": {
+      "build": "Spellslinger + Seraph + Deathcap + Orb + Void + Malignance",
+      "items": [
+        "Spellslinger's Shoes",
+        "Seraph's Embrace",
+        "Rabadon's Deathcap",
+        "Infinity Orb",
+        "Void Staff",
+        "Malignance"
+      ],
+      "cost": 17400,
+      "ap": 827.1,
+      "ap_clump": 827.1,
+      "max_mana": 5810,
+      "bonus_mana": 4630,
+      "item_ah": 40,
+      "ah": 65,
+      "e_cd": 1.212,
+      "w_cd": 4.242,
+      "q_flux": 1220,
+      "e_raw": 593,
+      "w_raw": 764,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75
+          },
+          "casts": {
+            "Q": 2,
+            "W": 0,
+            "E": 1
+          },
+          "sources": {
+            "Q": 1707,
+            "W": 0,
+            "E": 593,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 0.75
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 1.57,
+          "deaths": {
+            "bruiser": 1.57
+          },
+          "casts": {
+            "Q": 3,
+            "W": 1,
+            "E": 2
+          },
+          "sources": {
+            "Q": 1922,
+            "W": 573,
+            "E": 905,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 1.57
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 2.96,
+          "deaths": {
+            "tank": 2.96
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2951,
+            "W": 444,
+            "E": 1105,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.96
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 9224,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6090,
+            "W": 763,
+            "E": 2371,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 9224
+          },
+          "time": 4.11
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 6931,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 4577,
+            "W": 573,
+            "E": 1782,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 6931
+          },
+          "time": 4.11
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 5373,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3548,
+            "W": 444,
+            "E": 1381,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 5373
+          },
+          "time": 4.11
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75,
+            "bruiser": 1.82,
+            "tank": 5.0
+          },
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 5
+          },
+          "sources": {
+            "Q": 6534,
+            "W": 573,
+            "E": 3092,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 5.0
+        },
+        "teamfight 4s dummy": {
+          "damage": 18886,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 12590,
+            "W": 763,
+            "E": 5533,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 9224,
+            "bruiser": 5443,
+            "tank": 4219
+          },
+          "time": 4.11
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 2.96,
+          "deaths": {
+            "tank": 2.96
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2951,
+            "W": 444,
+            "E": 1105,
+            "burn": 0,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.96
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 593,
+          "Q": 1218,
+          "EQ": 1811
+        },
+        "bruiser": {
+          "E": 445,
+          "Q": 915,
+          "EQ": 1361
+        },
+        "tank": {
+          "E": 345,
+          "Q": 710,
+          "EQ": 1055
+        }
+      }
+    },
+    "Fastest team wipe": {
+      "build": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+      "items": [
+        "Spellslinger's Shoes",
+        "Seraph's Embrace",
+        "Rabadon's Deathcap",
+        "Infinity Orb",
+        "Void Staff",
+        "Blackfire Torch"
+      ],
+      "cost": 17500,
+      "ap": 848.5,
+      "ap_clump": 920.4,
+      "max_mana": 5878,
+      "bonus_mana": 4698,
+      "item_ah": 45,
+      "ah": 70,
+      "e_cd": 1.176,
+      "w_cd": 4.118,
+      "q_flux": 1242,
+      "e_raw": 603,
+      "w_raw": 778,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75
+          },
+          "casts": {
+            "Q": 2,
+            "W": 0,
+            "E": 1
+          },
+          "sources": {
+            "Q": 1679,
+            "W": 0,
+            "E": 603,
+            "burn": 18,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 0.75
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 1.79,
+          "deaths": {
+            "bruiser": 1.79
+          },
+          "casts": {
+            "Q": 3,
+            "W": 0,
+            "E": 2
+          },
+          "sources": {
+            "Q": 2452,
+            "W": 0,
+            "E": 906,
+            "burn": 43,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 1.79
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 2.9,
+          "deaths": {
+            "tank": 2.9
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2867,
+            "W": 452,
+            "E": 1123,
+            "burn": 57,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.9
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 9526,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6200,
+            "W": 777,
+            "E": 2410,
+            "burn": 139,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 9526
+          },
+          "time": 4.01
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 7158,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 4659,
+            "W": 584,
+            "E": 1811,
+            "burn": 104,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 7158
+          },
+          "time": 4.01
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 5549,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3612,
+            "W": 452,
+            "E": 1404,
+            "burn": 81,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 5549
+          },
+          "time": 4.01
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75,
+            "bruiser": 2.04,
+            "tank": 3.76
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6451,
+            "W": 425,
+            "E": 3187,
+            "burn": 137,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 3.76
+        },
+        "teamfight 4s dummy": {
+          "damage": 20664,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 13580,
+            "W": 823,
+            "E": 5937,
+            "burn": 324,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 10080,
+            "bruiser": 5962,
+            "tank": 4621
+          },
+          "time": 4.01
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 2.9,
+          "deaths": {
+            "tank": 2.9
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2867,
+            "W": 452,
+            "E": 1123,
+            "burn": 57,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.9
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 603,
+          "Q": 1240,
+          "EQ": 1843
+        },
+        "bruiser": {
+          "E": 453,
+          "Q": 932,
+          "EQ": 1385
+        },
+        "tank": {
+          "E": 351,
+          "Q": 722,
+          "EQ": 1073
+        }
+      }
+    },
+    "Highest 4s clump": {
+      "build": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+      "items": [
+        "Spellslinger's Shoes",
+        "Seraph's Embrace",
+        "Rabadon's Deathcap",
+        "Infinity Orb",
+        "Void Staff",
+        "Blackfire Torch"
+      ],
+      "cost": 17500,
+      "ap": 848.5,
+      "ap_clump": 920.4,
+      "max_mana": 5878,
+      "bonus_mana": 4698,
+      "item_ah": 45,
+      "ah": 70,
+      "e_cd": 1.176,
+      "w_cd": 4.118,
+      "q_flux": 1242,
+      "e_raw": 603,
+      "w_raw": 778,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75
+          },
+          "casts": {
+            "Q": 2,
+            "W": 0,
+            "E": 1
+          },
+          "sources": {
+            "Q": 1679,
+            "W": 0,
+            "E": 603,
+            "burn": 18,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 0.75
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 1.79,
+          "deaths": {
+            "bruiser": 1.79
+          },
+          "casts": {
+            "Q": 3,
+            "W": 0,
+            "E": 2
+          },
+          "sources": {
+            "Q": 2452,
+            "W": 0,
+            "E": 906,
+            "burn": 43,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 1.79
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 2.9,
+          "deaths": {
+            "tank": 2.9
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2867,
+            "W": 452,
+            "E": 1123,
+            "burn": 57,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.9
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 9526,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6200,
+            "W": 777,
+            "E": 2410,
+            "burn": 139,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 9526
+          },
+          "time": 4.01
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 7158,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 4659,
+            "W": 584,
+            "E": 1811,
+            "burn": 104,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 7158
+          },
+          "time": 4.01
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 5549,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3612,
+            "W": 452,
+            "E": 1404,
+            "burn": 81,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 5549
+          },
+          "time": 4.01
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75,
+            "bruiser": 2.04,
+            "tank": 3.76
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 6451,
+            "W": 425,
+            "E": 3187,
+            "burn": 137,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 3.76
+        },
+        "teamfight 4s dummy": {
+          "damage": 20664,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 13580,
+            "W": 823,
+            "E": 5937,
+            "burn": 324,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 10080,
+            "bruiser": 5962,
+            "tank": 4621
+          },
+          "time": 4.01
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 2.9,
+          "deaths": {
+            "tank": 2.9
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 3
+          },
+          "sources": {
+            "Q": 2867,
+            "W": 452,
+            "E": 1123,
+            "burn": 57,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 2.9
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 603,
+          "Q": 1240,
+          "EQ": 1843
+        },
+        "bruiser": {
+          "E": 453,
+          "Q": 932,
+          "EQ": 1385
+        },
+        "tank": {
+          "E": 351,
+          "Q": 722,
+          "EQ": 1073
+        }
+      }
+    },
+    "Balance": {
+      "build": "Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden",
+      "items": [
+        "Spellslinger's Shoes",
+        "Seraph's Embrace",
+        "Rabadon's Deathcap",
+        "Void Staff",
+        "Blackfire Torch",
+        "Luden's Echo"
+      ],
+      "cost": 17200,
+      "ap": 861.2,
+      "ap_clump": 935.4,
+      "max_mana": 6849,
+      "bonus_mana": 5669,
+      "item_ah": 55,
+      "ah": 80,
+      "e_cd": 1.111,
+      "w_cd": 3.889,
+      "q_flux": 1292,
+      "e_raw": 628,
+      "w_raw": 814,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75
+          },
+          "casts": {
+            "Q": 2,
+            "W": 0,
+            "E": 1
+          },
+          "sources": {
+            "Q": 1483,
+            "W": 0,
+            "E": 545,
+            "burn": 16,
+            "luden": 256,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 0.75
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 1.99,
+          "deaths": {
+            "bruiser": 1.99
+          },
+          "casts": {
+            "Q": 3,
+            "W": 1,
+            "E": 2
+          },
+          "sources": {
+            "Q": 2179,
+            "W": 132,
+            "E": 847,
+            "burn": 44,
+            "luden": 199,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 1.99
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 3.59,
+          "deaths": {
+            "tank": 3.59
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 2765,
+            "W": 435,
+            "E": 1075,
+            "burn": 67,
+            "luden": 158,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 3.59
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 8876,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 5611,
+            "W": 707,
+            "E": 2182,
+            "burn": 121,
+            "luden": 256,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 8876
+          },
+          "time": 4.0
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 6893,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 4357,
+            "W": 549,
+            "E": 1694,
+            "burn": 94,
+            "luden": 199,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 6893
+          },
+          "time": 4.0
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 5468,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 3456,
+            "W": 435,
+            "E": 1344,
+            "burn": 75,
+            "luden": 158,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 5468
+          },
+          "time": 4.0
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 0.75,
+          "deaths": {
+            "squishy": 0.75,
+            "bruiser": 2.24,
+            "tank": 4.65
+          },
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 5
+          },
+          "sources": {
+            "Q": 6252,
+            "W": 582,
+            "E": 2953,
+            "burn": 148,
+            "luden": 265,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 4.65
+        },
+        "teamfight 4s dummy": {
+          "damage": 19392,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 12575,
+            "W": 749,
+            "E": 5512,
+            "burn": 290,
+            "luden": 265,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 9393,
+            "bruiser": 5576,
+            "tank": 4423
+          },
+          "time": 4.0
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 3.59,
+          "deaths": {
+            "tank": 3.59
+          },
+          "casts": {
+            "Q": 5,
+            "W": 1,
+            "E": 4
+          },
+          "sources": {
+            "Q": 2765,
+            "W": 435,
+            "E": 1075,
+            "burn": 67,
+            "luden": 158,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 3.59
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 545,
+          "Q": 1122,
+          "EQ": 1668
+        },
+        "bruiser": {
+          "E": 424,
+          "Q": 871,
+          "EQ": 1295
+        },
+        "tank": {
+          "E": 336,
+          "Q": 691,
+          "EQ": 1027
+        }
+      }
+    },
+    "Knee": {
+      "build": "Crimson + Seraph + Crypt + Horizon + Blackfire + Malignance",
+      "items": [
+        "Crimson Lucidity",
+        "Seraph's Embrace",
+        "Cryptbloom",
+        "Horizon Focus",
+        "Blackfire Torch",
+        "Malignance"
+      ],
+      "cost": 16200,
+      "ap": 516.5,
+      "ap_clump": 559.8,
+      "max_mana": 5581,
+      "bonus_mana": 4401,
+      "item_ah": 130,
+      "ah": 155,
+      "e_cd": 0.784,
+      "w_cd": 2.745,
+      "q_flux": 931,
+      "e_raw": 465,
+      "w_raw": 586,
+      "scenarios": {
+        "1v1 squishy TTK": {
+          "damage": 2300,
+          "ttk": 1.48,
+          "deaths": {
+            "squishy": 1.48
+          },
+          "casts": {
+            "Q": 3,
+            "W": 0,
+            "E": 2
+          },
+          "sources": {
+            "Q": 1619,
+            "W": 0,
+            "E": 654,
+            "burn": 26,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300
+          },
+          "time": 1.48
+        },
+        "1v1 bruiser TTK": {
+          "damage": 3400,
+          "ttk": 3.49,
+          "deaths": {
+            "bruiser": 3.49
+          },
+          "casts": {
+            "Q": 5,
+            "W": 0,
+            "E": 5
+          },
+          "sources": {
+            "Q": 2277,
+            "W": 0,
+            "E": 1070,
+            "burn": 53,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 3400
+          },
+          "time": 3.49
+        },
+        "1v1 tank TTK": {
+          "damage": 4500,
+          "ttk": 5.81,
+          "deaths": {
+            "tank": 5.81
+          },
+          "casts": {
+            "Q": 8,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 2996,
+            "W": 0,
+            "E": 1431,
+            "burn": 72,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 5.81
+        },
+        "1v1 squishy 4s dummy": {
+          "damage": 5654,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 3605,
+            "W": 0,
+            "E": 1963,
+            "burn": 85,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 5654
+          },
+          "time": 4.25
+        },
+        "1v1 bruiser 4s dummy": {
+          "damage": 4363,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 2782,
+            "W": 0,
+            "E": 1515,
+            "burn": 66,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "bruiser": 4363
+          },
+          "time": 4.25
+        },
+        "1v1 tank 4s dummy": {
+          "damage": 3446,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 2197,
+            "W": 0,
+            "E": 1196,
+            "burn": 52,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 3446
+          },
+          "time": 4.25
+        },
+        "teamfight 8s": {
+          "damage": 10200,
+          "ttk": 1.48,
+          "deaths": {
+            "squishy": 1.48,
+            "bruiser": 3.49,
+            "tank": 5.81
+          },
+          "casts": {
+            "Q": 8,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 6645,
+            "W": 0,
+            "E": 3406,
+            "burn": 149,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 2300,
+            "bruiser": 3400,
+            "tank": 4500
+          },
+          "time": 5.81
+        },
+        "teamfight 4s dummy": {
+          "damage": 13611,
+          "ttk": null,
+          "deaths": {},
+          "casts": {
+            "Q": 6,
+            "W": 0,
+            "E": 6
+          },
+          "sources": {
+            "Q": 8529,
+            "W": 0,
+            "E": 4881,
+            "burn": 201,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "squishy": 5919,
+            "bruiser": 4298,
+            "tank": 3394
+          },
+          "time": 4.25
+        },
+        "tank only 8s": {
+          "damage": 4500,
+          "ttk": 5.81,
+          "deaths": {
+            "tank": 5.81
+          },
+          "casts": {
+            "Q": 8,
+            "W": 0,
+            "E": 8
+          },
+          "sources": {
+            "Q": 2996,
+            "W": 0,
+            "E": 1431,
+            "burn": 72,
+            "luden": 0,
+            "rocket": 0,
+            "scorch": 0
+          },
+          "per_target": {
+            "tank": 4500
+          },
+          "time": 5.81
+        }
+      },
+      "eq": {
+        "squishy": {
+          "E": 327,
+          "Q": 656,
+          "EQ": 983
+        },
+        "bruiser": {
+          "E": 253,
+          "Q": 506,
+          "EQ": 758
+        },
+        "tank": {
+          "E": 199,
+          "Q": 400,
+          "EQ": 599
+        }
+      }
+    }
+  },
+  "wiki_e_check": {
+    "Top 1": {
+      "build": "Spellslinger + Seraph + RoA + Deathcap + Orb + Void",
+      "ap": 842.7,
+      "e_cd": 1.667,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.25,
+      "tank_ttk": 3.75,
+      "clump_4s": 16706
+    },
+    "Full AH": {
+      "build": "Crimson + Seraph + Crypt + Cosmic + Horizon + Blackfire",
+      "ap": 477.3,
+      "e_cd": 0.943,
+      "ttk_squishy": 1.6,
+      "ttk_bruiser": 4.08,
+      "tank_ttk": 6.91,
+      "clump_4s": 11273
+    },
+    "Balance": {
+      "build": "Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden",
+      "ap": 861.2,
+      "e_cd": 1.389,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.71,
+      "tank_ttk": 3.28,
+      "clump_4s": 16413
+    },
+    "Fastest team wipe": {
+      "build": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+      "ap": 848.5,
+      "e_cd": 1.471,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.78,
+      "tank_ttk": 3.42,
+      "clump_4s": 17422
+    }
+  },
+  "top_clump": [
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Orb + Void + Blackfire",
+      "dummy4": 20664,
+      "wipe": 3.763398692810458,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 848.5,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.7911764705882354,
+      "ttk_tank": 2.9022875816993468,
+      "cost": 17500
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Void + Blackfire",
+      "dummy4": 20050,
+      "wipe": 4.013398692810458,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 863.0,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 2.041176470588235,
+      "ttk_tank": 2.9022875816993468,
+      "cost": 17000
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Orb + Void + Luden",
+      "dummy4": 19398,
+      "wipe": 5.129411764705883,
+      "item_ah": 35,
+      "ah": 60,
+      "ap": 841.2,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.6,
+      "ttk_tank": 3.026470588235294,
+      "cost": 17500
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Void + Blackfire + Luden",
+      "dummy4": 19392,
+      "wipe": 4.646783625730993,
+      "item_ah": 55,
+      "ah": 80,
+      "ap": 861.2,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.988888888888889,
+      "ttk_tank": 3.594152046783625,
+      "cost": 17200
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Orb + Void + Malignance",
+      "dummy4": 18886,
+      "wipe": 4.998268398268398,
+      "item_ah": 40,
+      "ah": 65,
+      "ap": 827.1,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.5696969696969698,
+      "ttk_tank": 2.9625541125541126,
+      "cost": 17400
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Void + Luden",
+      "dummy4": 18788,
+      "wipe": 5.129411764705883,
+      "item_ah": 35,
+      "ah": 60,
+      "ap": 855.0,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 1.6,
+      "ttk_tank": 3.026470588235294,
+      "cost": 17000
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Orb + Void + Riftmaker",
+      "dummy4": 18349,
+      "wipe": 4.998268398268398,
+      "item_ah": 40,
+      "ah": 65,
+      "ap": 797.3,
+      "ttk_squishy": 1.0,
+      "ttk_bruiser": 1.8196969696969698,
+      "ttk_tank": 3.8554112554112554,
+      "cost": 17800
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Orb + Crypt",
+      "dummy4": 18341,
+      "wipe": 4.874509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 814.1,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 2.041176470588235,
+      "ttk_tank": 3.763398692810458,
+      "cost": 17300
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Void + Malignance",
+      "dummy4": 18315,
+      "wipe": 4.998268398268398,
+      "item_ah": 40,
+      "ah": 65,
+      "ap": 840.4,
+      "ttk_squishy": 1.0,
+      "ttk_bruiser": 1.8196969696969698,
+      "ttk_tank": 3.8554112554112554,
+      "cost": 16900
+    },
+    {
+      "key": "Mana boots + Seraph + Deathcap + Orb + Void + Blackfire",
+      "dummy4": 18196,
+      "wipe": 4.874509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 833.7,
+      "ttk_squishy": 1.5411764705882354,
+      "ttk_bruiser": 2.041176470588235,
+      "ttk_tank": 3.763398692810458,
+      "cost": 16500
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Void + Riftmaker",
+      "dummy4": 18055,
+      "wipe": 4.998268398268398,
+      "item_ah": 40,
+      "ah": 65,
+      "ap": 825.6,
+      "ttk_squishy": 1.0,
+      "ttk_bruiser": 1.8196969696969698,
+      "ttk_tank": 3.8554112554112554,
+      "cost": 17300
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Void + Blackfire + Liandry",
+      "dummy4": 18043,
+      "wipe": 4.874509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 774.5,
+      "ttk_squishy": 1.5411764705882354,
+      "ttk_bruiser": 2.291176470588235,
+      "ttk_tank": 4.013398692810458,
+      "cost": 17400
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Orb + Void + Blackfire",
+      "dummy4": 18028,
+      "wipe": 4.874509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 623.2,
+      "ttk_squishy": 1.5411764705882354,
+      "ttk_bruiser": 2.041176470588235,
+      "ttk_tank": 3.763398692810458,
+      "cost": 16700
+    },
+    {
+      "key": "Spellslinger + Seraph + RoA + Deathcap + Orb + Blackfire",
+      "dummy4": 18006,
+      "wipe": 5.124509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 885.7,
+      "ttk_squishy": 1.5411764705882354,
+      "ttk_bruiser": 2.291176470588235,
+      "ttk_tank": 4.013398692810458,
+      "cost": 17100
+    },
+    {
+      "key": "Spellslinger + Seraph + Deathcap + Orb + Void + Rocketbelt",
+      "dummy4": 17999,
+      "wipe": 4.874509803921569,
+      "item_ah": 45,
+      "ah": 70,
+      "ap": 773.6,
+      "ttk_squishy": 0.75,
+      "ttk_bruiser": 2.041176470588235,
+      "ttk_tank": 3.763398692810458,
+      "cost": 17350
+    }
+  ],
+  "builds_searched": 10296
+}

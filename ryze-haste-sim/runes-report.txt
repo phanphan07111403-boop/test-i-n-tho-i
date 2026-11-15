@@ -1,0 +1,145 @@
+==============================================================================
+RYZE RUNES — BLACKFIRE BUILD, PHASE RUSH LOCKED (Wild Rift 7.3f)
+Spellslinger · Seraph · Deathcap · Infinity Orb · Void · Blackfire
+Level 15. Gathering Storm is the 18:00 stack (40 AP).
+==============================================================================
+
+A page is Phase Rush, one rune from each of three primary slots, and one
+secondary rune. The published comparison left Sorcery slot 3 empty.
+Scorch, Nimbus Cloak, Gathering Storm, and Ixtali Seedjar share that slot.
+
+PUBLISHED BASELINE
+  Manaflow Band / Transcendence / (empty) + Legend: Haste
+  848 AP · 70 AH · squishy 0.75s · bruiser 1.79s · tank 2.90s · wipe 3.76s
+  4s clump 20664 · HP after the 3,000 burst 474 of 2534
+
+PAGE TO RUN
+  Sorcery: Manaflow / Transcendence / Gathering Storm + Legend: Haste
+  908 AP (985 in a 3-person burn) · 6066 mana · 70 AH
+  Kill: squishy 0.75s · bruiser 1.79s · tank 2.90s · three-man wipe 3.76s
+  4s clump 21674 (+1010 vs the published page)
+  After a 3-hit 3,000 magic combo: 505 HP left of 2534, bone plating blocked 0, heals 0, omnivamp on the carry kill 0
+  HP left plus those heals: 505 (+31 vs the published page)
+
+ABSOLUTE FOCUS INSTEAD OF TRANSCENDENCE, WHILE YOU STAY HEALTHY
+  Sorcery: Manaflow / Absolute Focus / Gathering Storm + Legend: Haste
+  967 AP (1049 in a 3-person burn) · 6254 mana · 60 AH
+  Kill: squishy 0.75s · bruiser 1.25s · tank 3.03s · three-man wipe 4.20s
+  4s clump 22702 (+2038 vs the published page)
+  After a 3-hit 3,000 magic combo: 535 HP left of 2534, bone plating blocked 0, heals 0, omnivamp on the carry kill 0
+  HP left plus those heals: 535 (+61 vs the published page)
+  Absolute Focus is included. It turns off under 65% health.
+
+  That page has more AP and kills the bruiser sooner. The tank and the
+  three-man wipe take longer, because 10 haste and the cooldown refund
+  are gone, and the AP turns off once Ryze is under 65% health.
+
+BEST PRECISION PRIMARY (one rune from each Precision slot)
+  Precision: Battle Zeal / Cut Down / Legend: Haste + Transcendence
+  832 AP (902 in a 3-person burn) · 5277 mana · 70 AH
+  Kill: squishy 0.75s · bruiser 1.79s · tank 2.90s · three-man wipe 3.76s
+  4s clump 21721 (+1057 vs the published page)
+  After a 3-hit 3,000 magic combo: 378 HP left of 2534, bone plating blocked 0, heals 0, omnivamp on the carry kill 0
+  HP left plus those heals: 378 (-96 vs the published page)
+
+  Its kill clock matches the published page. The higher clump number is
+  Cut Down, which stays on for the whole infinite-HP test. You also drop
+  Manaflow, so the Seraph shield is smaller and you finish the burst lower.
+
+BEST RESOLVE PRIMARY (one rune from each Resolve slot)
+  Resolve: Courage of the Colossus / Bone Plating / Overgrowth + Manaflow Band
+  848 AP (920 in a 3-person burn) · 5878 mana · 45 AH
+  Kill: squishy 0.75s · bruiser 1.70s · tank 3.24s · three-man wipe 4.53s
+  4s clump 16112 (-4552 vs the published page)
+  After a 3-hit 3,000 magic combo: 958 HP left of 2765, bone plating blocked 180, heals 0, omnivamp on the carry kill 0
+  HP left plus those heals: 958 (+484 vs the published page)
+
+------------------------------------------------------------------------------
+SORCERY SLOT 3, ADDED TO THE PUBLISHED PAGE (no rune is removed)
+------------------------------------------------------------------------------
+  Scorch             4s clump 20713 (+49)  tank    2.90s  squishy 0.75s
+  Nimbus Cloak       4s clump 20664 (+0)  tank    2.90s  squishy 0.75s
+  Gathering Storm    4s clump 21674 (+1010)  tank    2.90s  squishy 0.75s
+  Ixtali Seedjar     4s clump 20664 (+0)  tank    2.90s  squishy 0.75s
+  Nimbus Cloak and Ixtali Seedjar add no champion damage.
+  Scorch is 49 magic damage every 8s. Gathering Storm is 40 AP at 18:00,
+  and Deathcap multiplies it. At 21:00 the stack is 54 AP.
+
+------------------------------------------------------------------------------
+SLOT PICKS ON THE GATHERING STORM PAGE
+Manaflow stays. The other slot is the choice.
+------------------------------------------------------------------------------
+  Slot 2, with Gathering Storm and Legend: Haste:
+    Transcendence    clump 21674  tank 2.90s
+    Absolute Focus   clump 22702  tank 3.03s (off under 65% HP)
+  Secondary, with Manaflow / Transcendence / Gathering Storm:
+    Legend: Haste            clump 21674 (+1010)  tank    2.90s  after burst 505
+    Battle Zeal              clump 18733 (-1931)  tank    3.09s  after burst 505
+    Coup de Grace            clump 18458 (-2206)  tank    3.09s  after burst 505
+    Cut Down                 clump 19635 (-1029)  tank    3.09s  after burst 505
+    Legend: Bloodline        clump 18458 (-2206)  tank    3.09s  after burst 666
+    Triumph                  clump 18458 (-2206)  tank    3.09s  after burst 708
+    Bone Plating             clump 18458 (-2206)  tank    3.09s  after burst 685
+    Nullifying Orb           clump 18458 (-2206)  tank    3.09s  after burst 685
+    Overgrowth               clump 18458 (-2206)  tank    3.09s  after burst 735
+    Courage of the Colossus  clump 18458 (-2206)  tank    3.09s  after burst 575
+    Second Wind              clump 18458 (-2206)  tank    3.09s  after burst 556
+
+------------------------------------------------------------------------------
+WHAT EACH PRECISION SLOT IS WORTH
+These are the primary-page winners' building blocks. Taking the whole
+tree means giving up Manaflow or Gathering Storm, not adding them.
+------------------------------------------------------------------------------
+  Same secondary (Manaflow) so the slot itself is the change:
+    Battle Zeal / Coup / Legend: Haste
+      clump 21072 (+408)  tank 3.03s  after burst 474 (vamp 0, heal 0)
+    Triumph / Coup / Legend: Haste
+      clump 20681 (+17)  tank 3.03s  after burst 680 (vamp 0, heal 206)
+    Battle Zeal / Cut Down / Legend: Haste
+      clump 22420 (+1756)  tank 3.03s  after burst 474 (vamp 0, heal 0)
+    Battle Zeal / Last Stand / Legend: Haste
+      clump 22109 (+1445)  tank 3.03s  after burst 474 (vamp 0, heal 0)
+    Battle Zeal / Coup / Bloodline
+      clump 16312 (-4352)  tank 3.24s  after burst 635 (vamp 161, heal 0)
+
+------------------------------------------------------------------------------
+WHAT EACH RESOLVE SLOT IS WORTH
+------------------------------------------------------------------------------
+    Courage / Bone Plating / Overgrowth + Manaflow
+      clump 16112 (-4552)  HP 2765  left after burst 958  blocked 180  heals 0  effective 958
+    Font of Life / Bone Plating / Overgrowth + Manaflow
+      clump 16112 (-4552)  HP 2765  left after burst 885  blocked 180  heals 70  effective 955
+    Courage / Nullifying Orb / Overgrowth + Manaflow
+      clump 16112 (-4552)  HP 2765  left after burst 958  blocked 0  heals 0  effective 958
+    Courage / Second Wind / Overgrowth + Manaflow
+      clump 16112 (-4552)  HP 2765  left after burst 778  blocked 0  heals 51  effective 828
+    Courage / Bone Plating / Revitalize + Manaflow
+      clump 16112 (-4552)  HP 2534  left after burst 869  blocked 180  heals 0  effective 869
+
+------------------------------------------------------------------------------
+ASSUMPTIONS
+------------------------------------------------------------------------------
+  Phase Rush is on every page. Its 10 haste and 20% cooldown cut still happen.
+  Gathering Storm is 40 AP from 18:00 until 21:00, then 54 AP. Deathcap,
+  Seraph, and Arcane Mastery all see that AP.
+  Absolute Focus is 40 AP at level 15 and is included only while Ryze is
+  above 65% health. The damage fights do not hit Ryze, so it stays on there.
+  Scorch is 49 magic damage every 8 seconds, one champion, then magic resist.
+  Battle Zeal is 1.4% per second on basic abilities, up to 4.2% at 3 seconds.
+  It does nothing to a kill that ends at 0.75s.
+  Cut Down is 6.5% damage against champions above 60% health.
+  Coup de Grace is 8% damage against champions below 40% health.
+  Last Stand is 5% at full health up to 11% at 30% health.
+  Legend: Haste is 15. Legend: Bloodline is 7% omnivamp, full value on a
+  one-champion fight. Area spells against a team heal at 33% of that.
+  The burst is three hits of 1,000 post-mitigation magic damage.
+  Bone Plating shaves 60 off each of those hits. Seraph's shield is 16% of
+  current mana when a hit would cross 35% health. Nullifying Orb is 180.
+  Courage of the Colossus is 45 + 1% max health, from landing Rune Prison.
+  Overgrowth is 50 stacks: 150 health, then +3% health.
+  Second Wind, for a ranged champion, is 5 health per 5 seconds plus
+  6 + 2% missing health over 5 seconds after you are hit.
+  Revitalize is +5% to your heals and shields, or +15% under 40% health.
+  It does not increase omnivamp. Nimbus Cloak and Ixtali Seedjar do not
+  change these numbers. Axiom Arcanist does not either: Realm Warp deals
+  no damage. Brutal and Legend: Alacrity are auto-attack runes.
