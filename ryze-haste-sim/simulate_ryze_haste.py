@@ -274,6 +274,10 @@ class Fight:
     per_target: dict = field(default_factory=dict)
     duration: float = 0.0
     dummy: bool = False
+    healed: float = 0.0
+    single_dealt: float = 0.0
+    aoe_dealt: float = 0.0
+    conq_full: float | None = None
 
 
 @dataclass
@@ -287,6 +291,19 @@ class CombatMods:
     coup: bool = False
     last_stand: bool = False
     ryze_hp_ratio: float = 1.0
+    phase_rush: bool = True
+    conqueror: bool = False
+    # Pre-Deathcap ability power per Conqueror stack. Level 15 is the top of
+    # the 5–8.33 range, so one stack is 8.33 and six stacks are 50.
+    ap_per_stack: float = 8.33
+    q_per_ap: float = 0.0
+    w_per_ap: float = 0.0
+    e_per_ap: float = 0.0
+    burn_per_ap: float = 0.0
+    omnivamp: float = 0.0
+    magic_vamp: float = 0.0
+    # Riftmaker's ranged omnivamp, only after Void Corruption is full.
+    rift_omnivamp: float = 0.0
 
     def damage_multiplier(self, target_hp_ratio: float, combat: float) -> float:
         amp = 1.0
@@ -334,9 +351,29 @@ def simulate(
     rocket_left = 1 if st.rocket else 0
     pending = None  # spell name whose hit lands at `lock`
     use_trans = mods is None or mods.transcendence
+    use_phase = mods is None or mods.phase_rush
+    conq_stacks = 0
+    conq_last = -10.0
 
     def basic_ah(now: float) -> float:
         return st.ah + (PHASE_RUSH_AH if now < pr_until else 0.0)
+
+    def vamp_of(now: float, aoe: bool, stacks: int) -> float:
+        if mods is None:
+            return 0.0
+        omni = mods.omnivamp
+        magic = mods.magic_vamp
+        if mods.conqueror and stacks >= 6:
+            omni += 0.05
+        if (
+            mods.rift_omnivamp
+            and combat_start is not None
+            and now - combat_start >= 4.0
+        ):
+            omni += mods.rift_omnivamp
+        if aoe:
+            magic *= 1.0 / 3.0
+        return omni + magic
 
     def spell_cd(spell: str, now: float) -> float:
         base = {"Q": Q_CD, "W": W_CD, "E": st.e_cd}[spell]
@@ -382,7 +419,10 @@ def simulate(
         for i in idxs:
             burn_until[i] = now + 3.0
 
-    def add_damage(i: int, amount: float, source: str, now: float) -> None:
+    def add_damage(
+        i: int, amount: float, source: str, now: float,
+        aoe: bool = False, stacks: int = 0,
+    ) -> None:
         if amount <= 0 or hp[i] <= 0:
             return
         dealt = amount if dummy else min(hp[i], amount)
@@ -390,33 +430,60 @@ def simulate(
         fight.dealt += dealt
         fight.by_source[source] += dealt
         fight.per_target[targets[i].name] += dealt
+        if aoe:
+            fight.aoe_dealt += dealt
+        else:
+            fight.single_dealt += dealt
+        fight.healed += dealt * vamp_of(now, aoe, stacks)
         if not dummy and hp[i] <= 0 and targets[i].name not in fight.deaths:
             fight.deaths[targets[i].name] = now
 
     def on_ability_hit(spell: str, idxs: list[int], now: float) -> None:
         nonlocal combat_start, pr_until, pr_ready, trans_ready, luden_ready, scorch_ready
+        nonlocal conq_stacks, conq_last
         if combat_start is None:
             combat_start = now
         combat = now - combat_start
         amp = _amp(st, combat)
         mark_burn(idxs, now)
+        # The spell was cast with the stacks already banked. The hit then
+        # adds one stack, and that new stack can heal this hit.
+        stacked = conq_stacks
+        if mods is not None and mods.conqueror and idxs:
+            if now - conq_last > 6.0:
+                stacked = 0
+            conq_stacks = min(6, stacked + 1)
+            conq_last = now
+            if conq_stacks >= 6 and fight.conq_full is None:
+                fight.conq_full = now
         for i in idxs:
             if st.bloodletter and now >= shred_at[i]:
                 shred_stacks[i] = min(4, shred_stacks[i] + 1)
                 shred_at[i] = now + 0.3
             shred = 0.075 * shred_stacks[i]
+            fluxed = spell == "Q" and flux[i] >= now
             if spell == "Q":
-                raw = st.q_flux if flux[i] >= now else st.q_raw
+                raw = st.q_flux if fluxed else st.q_raw
             elif spell == "W":
                 raw = st.w_raw
             else:
                 raw = st.e_raw
+            if mods is not None and mods.conqueror:
+                per = {"Q": mods.q_per_ap * (FLUX_Q_MULT if fluxed else 1.0),
+                       "W": mods.w_per_ap, "E": mods.e_per_ap}[spell]
+                raw += stacked * mods.ap_per_stack * per
             if st.orb and not dummy and hp[i] < 0.40 * hp_max[i]:
                 raw *= 1.20
             if mods is not None:
                 ratio = 1.0 if dummy else hp[i] / hp_max[i]
                 raw *= mods.damage_multiplier(ratio, combat)
-            add_damage(i, _mitigate(raw, targets[i].mr, st, shred) * amp, spell, now)
+            # Flux Overload is an area blast. Spell Flux's first hit is single
+            # target; the spread is area.
+            aoe = fluxed or (spell == "E" and i != idxs[0])
+            add_damage(
+                i, _mitigate(raw, targets[i].mr, st, shred) * amp, spell, now,
+                aoe=aoe, stacks=conq_stacks,
+            )
         if spell == "E":
             for i in idxs:
                 flux[i] = now + FLUX_DURATION
@@ -428,21 +495,25 @@ def simulate(
             flux[idxs[0]] = -1.0
 
         # Phase Rush: 3 champion hits in 4s.
-        pr_hits.append(now)
-        pr_hits[:] = [h for h in pr_hits if now - h <= 4.0]
-        if len(pr_hits) >= 3 and now >= pr_ready:
-            for s in ("Q", "W", "E"):
-                remain = cd[s] - now
-                if remain > 0:
-                    cd[s] = now + remain * (1.0 - PHASE_RUSH_REFUND)
-            pr_until = now + PHASE_RUSH_DURATION
-            pr_ready = now + PHASE_RUSH_CD
-            pr_hits.clear()
+        if use_phase:
+            pr_hits.append(now)
+            pr_hits[:] = [h for h in pr_hits if now - h <= 4.0]
+            if len(pr_hits) >= 3 and now >= pr_ready:
+                for s in ("Q", "W", "E"):
+                    remain = cd[s] - now
+                    if remain > 0:
+                        cd[s] = now + remain * (1.0 - PHASE_RUSH_REFUND)
+                pr_until = now + PHASE_RUSH_DURATION
+                pr_ready = now + PHASE_RUSH_CD
+                pr_hits.clear()
 
         if mods is not None and mods.scorch and now >= scorch_ready and idxs:
             i = idxs[0]
             shred = 0.075 * shred_stacks[i]
-            add_damage(i, _mitigate(49.0, targets[i].mr, st, shred) * amp, "scorch", now)
+            add_damage(
+                i, _mitigate(49.0, targets[i].mr, st, shred) * amp, "scorch", now,
+                stacks=conq_stacks,
+            )
             scorch_ready = now + 8.0
 
         if use_trans and now >= trans_ready:
@@ -482,7 +553,12 @@ def simulate(
                 raw += tgt.hp * 0.02 / 3.0
             if st.blackfire:
                 raw += st.bf_dps
-            add_damage(i, _mitigate(raw, tgt.mr, st, shred) * amp * overlap, "burn", t1)
+            if mods is not None and mods.conqueror and conq_stacks:
+                raw += conq_stacks * mods.ap_per_stack * mods.burn_per_ap
+            add_damage(
+                i, _mitigate(raw, tgt.mr, st, shred) * amp * overlap, "burn", t1,
+                aoe=True, stacks=conq_stacks,
+            )
 
     def fire_rocket(now: float) -> None:
         nonlocal rocket_left, combat_start

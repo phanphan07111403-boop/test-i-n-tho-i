@@ -29,3 +29,11 @@ python3 simulate_ryze_runes.py
 ```
 
 Outputs `runes-report.txt` and `runes-results.json`. Phase Rush stays. The published page left Sorcery slot 3 empty; that slot is Scorch, Nimbus Cloak, Gathering Storm, or Ixtali Seedjar. The page to run is Manaflow, Transcendence, Gathering Storm, and Legend: Haste.
+
+Conqueror and the spellvamp sources on that page:
+
+```bash
+python3 simulate_ryze_vamp.py
+```
+
+Outputs `vamp-report.txt` and `vamp-results.json`. Conqueror is the weaker healing trade. Legend: Bloodline is the efficient vamp source.
