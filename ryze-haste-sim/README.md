@@ -21,3 +21,11 @@ At the end of the game, does the ranked Seraph / Rod of Ages / Deathcap core bea
 Full haste loses both. Each Flux Overload hits about half as hard, and cast time only leaves room for one or two extra spells in a 4-second fight.
 
 The damage/haste balance is **Spellslinger → Seraph → Deathcap → Infinity Orb → Void Staff → Blackfire Torch** (45 item AH). It is the highest 4-second clump damage in the search and still deletes a squishy on the first combo. Keep Rod of Ages instead of Infinity Orb when you need the 550 health.
+
+## Runes on that Blackfire build
+
+```bash
+python3 simulate_ryze_runes.py
+```
+
+Outputs `runes-report.txt` and `runes-results.json`. Phase Rush stays. The published page left Sorcery slot 3 empty; that slot is Scorch, Nimbus Cloak, Gathering Storm, or Ixtali Seedjar. The page to run is Manaflow, Transcendence, Gathering Storm, and Legend: Haste.

@@ -65,7 +65,8 @@
             "E": 612,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -89,7 +90,8 @@
             "E": 731,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -113,7 +115,8 @@
             "E": 1190,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -135,7 +138,8 @@
             "E": 2447,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 8269
@@ -157,7 +161,8 @@
             "E": 1903,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 6429
@@ -179,7 +184,8 @@
             "E": 1487,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 5025
@@ -205,7 +211,8 @@
             "E": 3220,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -229,7 +236,8 @@
             "E": 5837,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 8269,
@@ -255,7 +263,8 @@
             "E": 1190,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -321,7 +330,8 @@
             "E": 750,
             "burn": 35,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -345,7 +355,8 @@
             "E": 1172,
             "burn": 54,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -369,7 +380,8 @@
             "E": 1481,
             "burn": 71,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -391,7 +403,8 @@
             "E": 1822,
             "burn": 80,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 5235
@@ -413,7 +426,8 @@
             "E": 1406,
             "burn": 62,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 4040
@@ -435,7 +449,8 @@
             "E": 1111,
             "burn": 49,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 3190
@@ -461,7 +476,8 @@
             "E": 3443,
             "burn": 158,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -485,7 +501,8 @@
             "E": 4524,
             "burn": 189,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 5472,
@@ -511,7 +528,8 @@
             "E": 1481,
             "burn": 71,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -577,7 +595,8 @@
             "E": 593,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -601,7 +620,8 @@
             "E": 905,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -625,7 +645,8 @@
             "E": 1105,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -647,7 +668,8 @@
             "E": 2371,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 9224
@@ -669,7 +691,8 @@
             "E": 1782,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 6931
@@ -691,7 +714,8 @@
             "E": 1381,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 5373
@@ -717,7 +741,8 @@
             "E": 3092,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -741,7 +766,8 @@
             "E": 5533,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 9224,
@@ -767,7 +793,8 @@
             "E": 1105,
             "burn": 0,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -833,7 +860,8 @@
             "E": 603,
             "burn": 18,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -857,7 +885,8 @@
             "E": 906,
             "burn": 43,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -881,7 +910,8 @@
             "E": 1123,
             "burn": 57,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -903,7 +933,8 @@
             "E": 2410,
             "burn": 139,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 9526
@@ -925,7 +956,8 @@
             "E": 1811,
             "burn": 104,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 7158
@@ -947,7 +979,8 @@
             "E": 1404,
             "burn": 81,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 5549
@@ -973,7 +1006,8 @@
             "E": 3187,
             "burn": 137,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -997,7 +1031,8 @@
             "E": 5937,
             "burn": 324,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 10080,
@@ -1023,7 +1058,8 @@
             "E": 1123,
             "burn": 57,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1089,7 +1125,8 @@
             "E": 603,
             "burn": 18,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -1113,7 +1150,8 @@
             "E": 906,
             "burn": 43,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -1137,7 +1175,8 @@
             "E": 1123,
             "burn": 57,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1159,7 +1198,8 @@
             "E": 2410,
             "burn": 139,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 9526
@@ -1181,7 +1221,8 @@
             "E": 1811,
             "burn": 104,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 7158
@@ -1203,7 +1244,8 @@
             "E": 1404,
             "burn": 81,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 5549
@@ -1229,7 +1271,8 @@
             "E": 3187,
             "burn": 137,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -1253,7 +1296,8 @@
             "E": 5937,
             "burn": 324,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 10080,
@@ -1279,7 +1323,8 @@
             "E": 1123,
             "burn": 57,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1345,7 +1390,8 @@
             "E": 545,
             "burn": 16,
             "luden": 256,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -1369,7 +1415,8 @@
             "E": 847,
             "burn": 44,
             "luden": 199,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -1393,7 +1440,8 @@
             "E": 1075,
             "burn": 67,
             "luden": 158,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1415,7 +1463,8 @@
             "E": 2182,
             "burn": 121,
             "luden": 256,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 8876
@@ -1437,7 +1486,8 @@
             "E": 1694,
             "burn": 94,
             "luden": 199,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 6893
@@ -1459,7 +1509,8 @@
             "E": 1344,
             "burn": 75,
             "luden": 158,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 5468
@@ -1485,7 +1536,8 @@
             "E": 2953,
             "burn": 148,
             "luden": 265,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -1509,7 +1561,8 @@
             "E": 5512,
             "burn": 290,
             "luden": 265,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 9393,
@@ -1535,7 +1588,8 @@
             "E": 1075,
             "burn": 67,
             "luden": 158,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1601,7 +1655,8 @@
             "E": 654,
             "burn": 26,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300
@@ -1625,7 +1680,8 @@
             "E": 1070,
             "burn": 53,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 3400
@@ -1649,7 +1705,8 @@
             "E": 1431,
             "burn": 72,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500
@@ -1671,7 +1728,8 @@
             "E": 1963,
             "burn": 85,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 5654
@@ -1693,7 +1751,8 @@
             "E": 1515,
             "burn": 66,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "bruiser": 4363
@@ -1715,7 +1774,8 @@
             "E": 1196,
             "burn": 52,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 3446
@@ -1741,7 +1801,8 @@
             "E": 3406,
             "burn": 149,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 2300,
@@ -1765,7 +1826,8 @@
             "E": 4881,
             "burn": 201,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "squishy": 5919,
@@ -1791,7 +1853,8 @@
             "E": 1431,
             "burn": 72,
             "luden": 0,
-            "rocket": 0
+            "rocket": 0,
+            "scorch": 0
           },
           "per_target": {
             "tank": 4500

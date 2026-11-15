@@ -182,13 +182,16 @@ def compute_stats(
     e_ap: float = E_AP,
     e_mana: float = E_MANA,
     e_base: float = E_BASE,
+    extra_ap: float = 0.0,
+    extra_mana: float = MANAFLOW,
+    extra_ah: float = RUNE_AH,
 ) -> Stats:
     items = [ITEMS[n] for n in names]
-    ap_flat = sum(i.ap for i in items)
+    ap_flat = sum(i.ap for i in items) + extra_ap
     bonus_hp = sum(i.hp for i in items)
     if any(i.rift for i in items):
         ap_flat += 0.02 * bonus_hp
-    m_flat = BASE_MANA + MANAFLOW + sum(i.mana for i in items)
+    m_flat = BASE_MANA + extra_mana + sum(i.mana for i in items)
     deathcap = max((i.deathcap for i in items), default=0.0)
     awe = max((i.awe for i in items), default=0.0)
     bf = 1.0 + (0.04 * n_burn if any(i.blackfire for i in items) else 0.0)
@@ -210,7 +213,7 @@ def compute_stats(
         max_mana=max_mana,
         bonus_mana=bonus_mana,
         item_ah=item_ah,
-        ah=item_ah + RUNE_AH,
+        ah=item_ah + extra_ah,
         flat_pen=sum(i.flat_pen for i in items),
         pen_factor=pen_factor,
         regen=BASE_REGEN * (1.0 + sum(i.regen_pct for i in items)),
@@ -263,13 +266,41 @@ def _luden_hits(st: Stats, n_enemies: int) -> tuple[float, float]:
 @dataclass
 class Fight:
     dealt: float = 0.0
-    by_source: dict = field(default_factory=lambda: {"Q": 0.0, "W": 0.0, "E": 0.0, "burn": 0.0, "luden": 0.0, "rocket": 0.0})
+    by_source: dict = field(default_factory=lambda: {"Q": 0.0, "W": 0.0, "E": 0.0, "burn": 0.0, "luden": 0.0, "rocket": 0.0, "scorch": 0.0})
     casts: dict = field(default_factory=lambda: {"Q": 0, "W": 0, "E": 0})
+    # "scorch" stays 0 unless a rune page adds it. Old totals ignore the key.
     ttk: float | None = None
     deaths: dict = field(default_factory=dict)
     per_target: dict = field(default_factory=dict)
     duration: float = 0.0
     dummy: bool = False
+
+
+@dataclass
+class CombatMods:
+    """Optional fight modifiers. None keeps the original Phase Rush page."""
+
+    transcendence: bool = True
+    scorch: bool = False
+    battle_zeal: bool = False
+    cut_down: bool = False
+    coup: bool = False
+    last_stand: bool = False
+    ryze_hp_ratio: float = 1.0
+
+    def damage_multiplier(self, target_hp_ratio: float, combat: float) -> float:
+        amp = 1.0
+        if self.battle_zeal:
+            amp *= 1.0 + 0.014 * min(3, math.floor(combat))
+        if self.cut_down and target_hp_ratio > 0.60:
+            amp *= 1.065
+        if self.coup and target_hp_ratio < 0.40:
+            amp *= 1.08
+        if self.last_stand:
+            missing = max(0.0, 1.0 - self.ryze_hp_ratio)
+            frac = min(1.0, missing / 0.70)
+            amp *= 1.0 + (0.05 + 0.06 * frac)
+        return amp
 
 
 def simulate(
@@ -278,6 +309,7 @@ def simulate(
     duration: float,
     dummy: bool = False,
     stop_on_primary_death: bool = False,
+    mods: "CombatMods | None" = None,
 ) -> Fight:
     """Free-cast for `duration` seconds. Damage past 0 HP is not counted."""
     hp = [1e18 if dummy else t.hp for t in targets]
@@ -298,8 +330,10 @@ def simulate(
     pr_hits: list[float] = []
     trans_ready = 0.0
     luden_ready = 0.0
+    scorch_ready = 0.0
     rocket_left = 1 if st.rocket else 0
     pending = None  # spell name whose hit lands at `lock`
+    use_trans = mods is None or mods.transcendence
 
     def basic_ah(now: float) -> float:
         return st.ah + (PHASE_RUSH_AH if now < pr_until else 0.0)
@@ -360,7 +394,7 @@ def simulate(
             fight.deaths[targets[i].name] = now
 
     def on_ability_hit(spell: str, idxs: list[int], now: float) -> None:
-        nonlocal combat_start, pr_until, pr_ready, trans_ready, luden_ready
+        nonlocal combat_start, pr_until, pr_ready, trans_ready, luden_ready, scorch_ready
         if combat_start is None:
             combat_start = now
         combat = now - combat_start
@@ -379,6 +413,9 @@ def simulate(
                 raw = st.e_raw
             if st.orb and not dummy and hp[i] < 0.40 * hp_max[i]:
                 raw *= 1.20
+            if mods is not None:
+                ratio = 1.0 if dummy else hp[i] / hp_max[i]
+                raw *= mods.damage_multiplier(ratio, combat)
             add_damage(i, _mitigate(raw, targets[i].mr, st, shred) * amp, spell, now)
         if spell == "E":
             for i in idxs:
@@ -402,7 +439,13 @@ def simulate(
             pr_ready = now + PHASE_RUSH_CD
             pr_hits.clear()
 
-        if now >= trans_ready:
+        if mods is not None and mods.scorch and now >= scorch_ready and idxs:
+            i = idxs[0]
+            shred = 0.075 * shred_stacks[i]
+            add_damage(i, _mitigate(49.0, targets[i].mr, st, shred) * amp, "scorch", now)
+            scorch_ready = now + 8.0
+
+        if use_trans and now >= trans_ready:
             base = {"Q": Q_CD, "W": W_CD, "E": st.e_cd}[spell]
             refund = TRANS_REFUND * base * 100.0 / (100.0 + basic_ah(now))
             cd[spell] = max(now, cd[spell] - refund)
