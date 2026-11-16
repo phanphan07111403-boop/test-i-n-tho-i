@@ -1,0 +1,1102 @@
+{
+  "patch": "7.3",
+  "as_of": "2026-09-24",
+  "sources": [
+    "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3/",
+    "https://www.riftpatchnotes.com/winrates",
+    "https://www.wildriftfire.com/stats",
+    "https://www.wildriftfire.com/tier-list",
+    "https://wildriftcore.com/en/rankings/",
+    "https://community.vnggames.com/news/wr/tom-tat-toc-chien-patch-7-3-phan-1-dai-tiec-am-nhac-c-ng-loat-thay-doi-moi.html"
+  ],
+  "meta_shift": {
+    "adc": "Crit 175->200, AS cap 2.5->3.0, Magnetic Blaster removed. Yun Tal / Hexoptics / Fiendhunter / reworked Shiv split crit snipers from on-hit clump. Caitlyn pick ~28% -> ~36%.",
+    "jungle": "Smite true-DoT + identity stats, tankier epics. Anti-ADC tanks and full-clears up; Lee/Yi/Graves down.",
+    "support": "Peel and ADC-buff enchanters up. Senna Shiv and Malphite support overperform. Zyra perma-ban.",
+    "mid": "Syndra and new Hwei contest bans. Control mages beat assassins.",
+    "top": "Armor tanks (Malphite, Shen, Cho, KSante) into the ADC patch. Tryndamere Yun Tal theorycraft is 46% WR."
+  },
+  "outstanding_builds": [
+    {
+      "name": "Crit sniper",
+      "core": "Hexoptics or Stormrazor or Yun Tal -> Infinity Edge -> RFC/LDR",
+      "champs": [
+        "Caitlyn",
+        "Ashe",
+        "Smolder"
+      ]
+    },
+    {
+      "name": "Ult-window carry",
+      "core": "Kraken or Yun Tal -> Runaan or Fiendhunter -> IE",
+      "champs": [
+        "Yunara",
+        "Twitch",
+        "Zeri"
+      ]
+    },
+    {
+      "name": "On-hit clump",
+      "core": "Statikk Shiv or Kraken -> Rageblade -> Terminus/Nashor",
+      "champs": [
+        "Kog'Maw",
+        "Varus",
+        "Kalista",
+        "Kai'Sa"
+      ]
+    },
+    {
+      "name": "Senna Shiv marksman-support",
+      "core": "Statikk Shiv -> RFC -> LDR -> IE",
+      "champs": [
+        "Senna"
+      ]
+    },
+    {
+      "name": "Sona aura enchanter",
+      "core": "Tear -> Helia -> Diadem / Harmonic Echo",
+      "champs": [
+        "Sona"
+      ]
+    },
+    {
+      "name": "Zyra plant burn",
+      "core": "Liandry -> Rylai -> Cryptbloom",
+      "champs": [
+        "Zyra"
+      ]
+    },
+    {
+      "name": "Anti-ADC tank",
+      "core": "Thornmail / Iceborn / Sunfire -> Frozen Heart -> Twinguard",
+      "champs": [
+        "Rammus",
+        "Malphite",
+        "Amumu"
+      ]
+    },
+    {
+      "name": "Hwei painter",
+      "core": "Blackfire -> Infinity Orb -> Deathcap",
+      "champs": [
+        "Hwei"
+      ]
+    },
+    {
+      "name": "Syndra burst",
+      "core": "Luden -> Infinity Orb -> Deathcap",
+      "champs": [
+        "Syndra"
+      ]
+    }
+  ],
+  "roles": {
+    "adc": [
+      {
+        "rank": 1,
+        "champion": "Caitlyn",
+        "tier": "S+",
+        "wr": 52.22,
+        "pick": 36.49,
+        "ban": 7.14,
+        "build": "Berserker's -> Hexoptics -> IE -> RFC -> LDR -> BT",
+        "keystone": "Lethal Tempo",
+        "why": "Patch-buffed Headshot/R crit scaling; 36% pick, the ADC of 7.3",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Hexoptics C44",
+          "Infinity Edge",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Trap placement + brush Headshot. Ban her or pick Malphite/Rammus.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 2,
+        "champion": "Ashe",
+        "tier": "S",
+        "wr": 53.02,
+        "pick": 4.8,
+        "ban": 0.08,
+        "build": "Berserker's -> Stormrazor -> Runaan -> IE -> LDR -> BT",
+        "keystone": "Lethal Tempo",
+        "why": "Direct 7.3 kit buffs; highest ADC WR",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Stormrazor",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards",
+          "Bloodthirster"
+        ],
+        "skill_max": "W > Q > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Autos + W cone. D-pad minion lock last-hits.",
+        "x3_pro_rank": 3
+      },
+      {
+        "rank": 3,
+        "champion": "Yunara",
+        "tier": "S+",
+        "wr": 50.7,
+        "pick": 14.35,
+        "ban": 13.48,
+        "build": "Berserker's -> Kraken -> Runaan -> IE -> LDR -> Stormrazor",
+        "keystone": "Lethal Tempo",
+        "why": "S+ contested scaler, 14% pick / 13% ban",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Alacrity",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Kraken Slayer",
+          "Runaan's Hurricane",
+          "Infinity Edge",
+          "Lord Dominik's Regards",
+          "Stormrazor"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Ult swaps three skills + Unleash + bead while kiting. Too many HUD states.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 4,
+        "champion": "Smolder",
+        "tier": "S+",
+        "wr": 51.62,
+        "pick": 9.0,
+        "ban": 11.96,
+        "build": "Greaves -> Muramana -> Trinity -> Serylda -> Shojin -> GA",
+        "keystone": "Phase Rush",
+        "why": "Stacking hypercarry into 200% crit and longer games",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Phase Rush",
+          "Battle Zeal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Transcendence"
+        ],
+        "items": [
+          "Gluttonous Greaves",
+          "Muramana",
+          "Trinity Force",
+          "Serylda's Grudge",
+          "Spear of Shojin",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Best pad ADC: Q is targeted (lock unit, press Q = stack). Not the strongest 7.3 ADC \u2014 the ADC whose lane still works on the controller.",
+        "x3_pro_rank": 1
+      },
+      {
+        "rank": 5,
+        "champion": "Kai'Sa",
+        "tier": "A",
+        "wr": 50.58,
+        "pick": 12.11,
+        "ban": 0.42,
+        "build": "Berserker's -> Kraken -> Rageblade -> Terminus -> BotRK -> Runaan",
+        "keystone": "Lethal Tempo",
+        "why": "On-hit answer to tanks; 12% pick",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Ghost"
+        ],
+        "runes": [
+          "Lethal Tempo",
+          "Brutal",
+          "Cut Down",
+          "Legend: Bloodline",
+          "Bone Plating"
+        ],
+        "items": [
+          "Berserker's Greaves",
+          "Kraken Slayer",
+          "Guinsoo's Rageblade",
+          "Terminus",
+          "Blade of the Ruined King",
+          "Runaan's Hurricane"
+        ],
+        "skill_max": "Q > W > E (evolve Q > E > W)",
+        "x3_pro": "should",
+        "x3_pro_note": "Analog kite is the champ: left stick + RT autos, Q splits, E self, R to Plasma. W is the only skillshot \u2014 stop to fire it.",
+        "x3_pro_rank": 2
+      }
+    ],
+    "support": [
+      {
+        "rank": 1,
+        "champion": "Senna",
+        "tier": "S+",
+        "wr": 55.94,
+        "pick": 7.76,
+        "ban": 1.37,
+        "build": "Scythe -> Berserker's -> Shiv -> RFC -> LDR -> IE",
+        "keystone": "Fleet Footwork",
+        "why": "Highest support WR; Q on-hit makes 7.3 Shiv the discussed rush",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Fleet Footwork",
+          "Font of Life",
+          "Bone Plating",
+          "Perseverance",
+          "Brutal"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Rapid Firecannon",
+          "Lord Dominik's Regards",
+          "Infinity Edge"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Q is a tap-through line. Souls with D-pad last-hit.",
+        "x3_pro_rank": 3
+      },
+      {
+        "rank": 2,
+        "champion": "Malphite",
+        "tier": "S+",
+        "wr": 53.34,
+        "pick": 9.6,
+        "ban": 26.12,
+        "build": "Bulwark -> Steelcaps -> Zeke -> Thornmail -> Iceborn -> Twinguard",
+        "keystone": "Arcane Comet",
+        "why": "Anti-ADC support; also 57.6% WR top",
+        "start": "Relic Shield",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Arcane Comet",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Transcendence"
+        ],
+        "items": [
+          "Bulwark of the Mountain",
+          "Plated Steelcaps",
+          "Zeke's Convergence",
+          "Thornmail",
+          "Iceborn Gauntlet",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q slow missile, R is a click. Same kit top.",
+        "x3_pro_rank": 2
+      },
+      {
+        "rank": 3,
+        "champion": "Sona",
+        "tier": "S",
+        "wr": 52.88,
+        "pick": 6.94,
+        "ban": 2.39,
+        "build": "Scythe -> Ionian -> Diadem -> Helia -> Harmonic -> Redemption",
+        "keystone": "Fleet Footwork",
+        "why": "Aura enchanter for the ADC patch; Helia vs Ardent argument",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Fleet Footwork",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Ionian Boots of Lucidity",
+          "Diadem of Songs",
+          "Echoes of Helia",
+          "Harmonic Echo",
+          "Redemption"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Auras and Power Chord. No aim. Best pad support in this five.",
+        "x3_pro_rank": 1
+      },
+      {
+        "rank": 4,
+        "champion": "Zyra",
+        "tier": "A",
+        "wr": 51.26,
+        "pick": 4.34,
+        "ban": 36.93,
+        "build": "Scythe -> Mana boots -> Liandry -> Rylai -> Cryptbloom -> Zhonya",
+        "keystone": "Aery",
+        "why": "Perma-ban plant burn into Caitlyn lane",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Aery",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Boots of Mana",
+          "Liandry's Torment",
+          "Rylai's Crystal Scepter",
+          "Cryptbloom",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Plants are ground-place. Q line + E skillshot. Play Sona.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 5,
+        "champion": "Janna",
+        "tier": "S",
+        "wr": 51.74,
+        "pick": 2.62,
+        "ban": 0.2,
+        "build": "Scythe -> Ionian -> Harmonic -> Ardent -> Redemption -> Staff",
+        "keystone": "Aery",
+        "why": "S-tier peel + ADC steroid, low pick high WR",
+        "start": "Spectral Sickle",
+        "spells": [
+          "Flash",
+          "Heal"
+        ],
+        "runes": [
+          "Aery",
+          "Font of Life",
+          "Bone Plating",
+          "Revitalize",
+          "Transcendence"
+        ],
+        "items": [
+          "Black Mist Scythe",
+          "Ionian Boots of Lucidity",
+          "Harmonic Echo",
+          "Ardent Censer",
+          "Redemption",
+          "Staff of Flowing Water"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Identity is Q tornado from fog. Play Sona.",
+        "x3_pro_rank": null
+      }
+    ],
+    "jungle": [
+      {
+        "rank": 1,
+        "champion": "Rammus",
+        "tier": "S+",
+        "wr": 58.65,
+        "pick": 3.95,
+        "ban": 4.09,
+        "build": "Steelcaps -> Thornmail -> Sunfire -> Dawnshroud -> Twinguard -> Mantle",
+        "keystone": "Ice Overlord",
+        "why": "Highest WR in the game; ADCs auto him",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Celerity"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Thornmail",
+          "Sunfire Aegis",
+          "Dawnshroud",
+          "Amaranth's Twinguard",
+          "Mantle of the Twelfth Hour"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Hold Q on LT. E targeted. R slam.",
+        "x3_pro_rank": 1
+      },
+      {
+        "rank": 2,
+        "champion": "Amumu",
+        "tier": "S+",
+        "wr": 56.39,
+        "pick": 2.21,
+        "ban": 0.09,
+        "build": "Steelcaps -> Sunfire -> Abyssal -> Thornmail -> Twinguard -> Kaenic",
+        "keystone": "Ice Overlord",
+        "why": "Second-highest WR, unbanned",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Unshakeable",
+          "Second Wind",
+          "Perseverance",
+          "Transcendence"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Abyssal Mask",
+          "Thornmail",
+          "Amaranth's Twinguard",
+          "Kaenic Rookern"
+        ],
+        "skill_max": "E > Q > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q is a line but two charges + self R. Classic pad jungler.",
+        "x3_pro_rank": 3
+      },
+      {
+        "rank": 3,
+        "champion": "Nocturne",
+        "tier": "S+",
+        "wr": 54.58,
+        "pick": 5.32,
+        "ban": 32.28,
+        "build": "Dynamism -> Duskblade -> Serpent -> Serylda -> Sundered Sky -> GA",
+        "keystone": "Electrocute",
+        "why": "32% ban; Paranoia deletes the 36% Caitlyn",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Sudden Impact",
+          "Chain Assault",
+          "Eyeball Collector",
+          "Transcendence"
+        ],
+        "items": [
+          "Boots of Dynamism",
+          "Duskblade of Draktharr",
+          "Serpent's Fang",
+          "Serylda's Grudge",
+          "Sundered Sky",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "R is a click. E targeted. Q line is good enough.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 4,
+        "champion": "Olaf",
+        "tier": "S+",
+        "wr": 54.68,
+        "pick": 2.0,
+        "ban": 2.59,
+        "build": "Steelcaps -> Trinity -> Sundered Sky -> DD -> Sterak -> Twinguard",
+        "keystone": "Conqueror",
+        "why": "Run-at-ADC that ignores kiting in ult",
+        "start": "Long Sword",
+        "spells": [
+          "Ghost",
+          "Smite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Triumph",
+          "Last Stand",
+          "Legend: Alacrity",
+          "Nimbus Cloak"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Sundered Sky",
+          "Death's Dance",
+          "Sterak's Gage",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Ghost + analog chase. Q throw-and-pick is fine.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 5,
+        "champion": "Jarvan IV",
+        "tier": "S+",
+        "wr": 53.19,
+        "pick": 7.02,
+        "ban": 0.68,
+        "build": "Steelcaps -> Trinity -> Radiant Virtue -> Twinguard -> Unending Despair -> GA",
+        "keystone": "Conqueror",
+        "why": "Highest-pick outstanding jungler; flag-drag for Dragon",
+        "start": "Long Sword",
+        "spells": [
+          "Flash",
+          "Smite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Unshakeable",
+          "Bone Plating",
+          "Perseverance",
+          "Triumph"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Trinity Force",
+          "Radiant Virtue",
+          "Amaranth's Twinguard",
+          "Unending Despair",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Flag-drag is two buttons (E then Q). R targeted.",
+        "x3_pro_rank": 2
+      }
+    ],
+    "mid": [
+      {
+        "rank": 1,
+        "champion": "Syndra",
+        "tier": "S+",
+        "wr": 55.31,
+        "pick": 11.47,
+        "ban": 33.39,
+        "build": "Mana boots -> Luden -> Infinity Orb -> Deathcap -> Void -> Zhonya",
+        "keystone": "Electrocute",
+        "why": "Highest mid WR, 33% ban",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Hextech Flashtraption",
+          "Transcendence",
+          "Nimbus Cloak",
+          "Cut Down"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Luden's Echo",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Q is a ground click. E stun needs the sphere angle. Touch champ.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 2,
+        "champion": "Hwei",
+        "tier": "S",
+        "wr": 51.49,
+        "pick": 12.95,
+        "ban": 32.17,
+        "build": "Mana boots -> Blackfire -> Infinity Orb -> Deathcap -> Void -> Zhonya",
+        "keystone": "Arcane Comet",
+        "why": "New champ, 13% pick / 32% ban in week one",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Arcane Comet",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Infinity Orb",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should_not",
+        "x3_pro_note": "10 abilities (3x3 + wash + R). Cloned Mode is two HUD taps, not a palette. Play Galio.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 3,
+        "champion": "Brand",
+        "tier": "S",
+        "wr": 52.34,
+        "pick": 8.39,
+        "ban": 9.63,
+        "build": "Mana boots -> Blackfire -> Liandry -> Deathcap -> Void -> Zhonya",
+        "keystone": "Electrocute",
+        "why": "DoT mage into tankier epics and front-to-back",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Electrocute",
+          "Manaflow Band",
+          "Transcendence",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Blackfire Torch",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Void Staff",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "W > E > Q",
+        "x3_pro": "should_not",
+        "x3_pro_note": "W delayed circle + Q blocked by minions. Combo dies on pad.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 4,
+        "champion": "Galio",
+        "tier": "S",
+        "wr": 51.91,
+        "pick": 9.18,
+        "ban": 3.62,
+        "build": "Mercs -> Hollow Radiance -> Mandate -> Riftmaker -> Rocketbelt -> Thornmail",
+        "keystone": "Ice Overlord",
+        "why": "Roam ult + magic tank vs ADC + Hwei",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Ice Overlord",
+          "Courage of the Colossus",
+          "Second Wind",
+          "Overgrowth",
+          "Sudden Impact"
+        ],
+        "items": [
+          "Mercury's Treads",
+          "Hollow Radiance",
+          "Imperial Mandate",
+          "Riftmaker",
+          "Hextech Rocketbelt",
+          "Thornmail"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Hold W on LT. E dash. R ally-target. The pad mid from this five.",
+        "x3_pro_rank": 1
+      },
+      {
+        "rank": 5,
+        "champion": "Aurelion Sol",
+        "tier": "S",
+        "wr": 51.8,
+        "pick": 5.72,
+        "ban": 3.78,
+        "build": "Mana boots -> Rylai -> Liandry -> Deathcap -> Riftmaker -> Zhonya",
+        "keystone": "Dark Harvest",
+        "why": "Rising scaler into longer 7.3 games",
+        "start": "Amplifying Tome",
+        "spells": [
+          "Flash",
+          "Barrier"
+        ],
+        "runes": [
+          "Dark Harvest",
+          "Manaflow Band",
+          "Absolute Focus",
+          "Scorch",
+          "Bone Plating"
+        ],
+        "items": [
+          "Boots of Mana",
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment",
+          "Rabadon's Deathcap",
+          "Riftmaker",
+          "Zhonya's Hourglass"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Hold Q breath and W fly and aim. Two sticks fight.",
+        "x3_pro_rank": null
+      }
+    ],
+    "top": [
+      {
+        "rank": 1,
+        "champion": "Malphite",
+        "tier": "S+",
+        "wr": 57.59,
+        "pick": 7.27,
+        "ban": 28.4,
+        "wr_note": "WRFire Baron 7.3 (riftpatchnotes lists him as support)",
+        "build": "Steelcaps -> Iceborn -> Thornmail -> Frozen Heart -> Twinguard -> Kaenic",
+        "keystone": "Grasp of the Undying",
+        "why": "Best top; armor + R into the ADC overhaul",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Unshakeable",
+          "Second Wind",
+          "Overgrowth",
+          "Empowered Attack"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Iceborn Gauntlet",
+          "Thornmail",
+          "Frozen Heart",
+          "Amaranth's Twinguard",
+          "Kaenic Rookern"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q slow missile, R click. Best pad top.",
+        "x3_pro_rank": 1
+      },
+      {
+        "rank": 2,
+        "champion": "Shen",
+        "tier": "S",
+        "wr": 56.38,
+        "pick": 1.36,
+        "ban": 0.11,
+        "build": "Heartsteel -> Steelcaps -> Sunfire -> Thornmail -> Dawnshroud -> Titanic",
+        "keystone": "Grasp of the Undying",
+        "why": "56% WR, W blocks autos, R to the new ADC",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Courage of the Colossus",
+          "Second Wind",
+          "Overgrowth",
+          "Brutal"
+        ],
+        "items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis",
+          "Thornmail",
+          "Dawnshroud",
+          "Titanic Hydra"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Q blade, E dash, R ally. No ground circle.",
+        "x3_pro_rank": 2
+      },
+      {
+        "rank": 3,
+        "champion": "Ambessa",
+        "tier": "S",
+        "wr": 53.12,
+        "pick": 1.48,
+        "ban": 0.97,
+        "build": "Steelcaps -> Eclipse -> Shojin -> DD -> Serylda -> GA",
+        "keystone": "Conqueror",
+        "why": "S-tier fighter who is not griefed by 200% crit",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Ignite"
+        ],
+        "runes": [
+          "Conqueror",
+          "Demolish",
+          "Second Wind",
+          "Perseverance",
+          "Sudden Impact"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Eclipse",
+          "Spear of Shojin",
+          "Death's Dance",
+          "Serylda's Grudge",
+          "Guardian Angel"
+        ],
+        "skill_max": "Q > E > W",
+        "x3_pro": "should",
+        "x3_pro_note": "Feint is the left stick after a spell. Hall stick = her kit.",
+        "x3_pro_rank": 3
+      },
+      {
+        "rank": 4,
+        "champion": "Cho'Gath",
+        "tier": "S",
+        "wr": 51.23,
+        "pick": 12.34,
+        "ban": 40.96,
+        "build": "Steelcaps -> Heartsteel -> Dead Man's -> Unending Despair -> Thornmail -> Twinguard",
+        "keystone": "Grasp of the Undying",
+        "why": "Highest-presence top; 41% ban",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Demolish",
+          "Second Wind",
+          "Overgrowth",
+          "Transcendence"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Heartsteel",
+          "Dead Man's Plate",
+          "Unending Despair",
+          "Thornmail",
+          "Amaranth's Twinguard"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should_not",
+        "x3_pro_note": "Lane is delayed Q circle. Feast is a click; Q miss = walking Heartsteel.",
+        "x3_pro_rank": null
+      },
+      {
+        "rank": 5,
+        "champion": "K'Sante",
+        "tier": "S",
+        "wr": 51.24,
+        "pick": 5.2,
+        "ban": 18.99,
+        "build": "Steelcaps -> Iceborn -> Unending Despair -> Twinguard -> Thornmail -> Mantle",
+        "keystone": "Grasp of the Undying",
+        "why": "All-Out tank-carry, 19% ban",
+        "start": "Ruby Crystal",
+        "spells": [
+          "Flash",
+          "Teleport"
+        ],
+        "runes": [
+          "Grasp of the Undying",
+          "Demolish",
+          "Second Wind",
+          "Perseverance",
+          "Last Stand"
+        ],
+        "items": [
+          "Plated Steelcaps",
+          "Iceborn Gauntlet",
+          "Unending Despair",
+          "Amaranth's Twinguard",
+          "Thornmail",
+          "Mantle of the Twelfth Hour"
+        ],
+        "skill_max": "Q > W > E",
+        "x3_pro": "should",
+        "x3_pro_note": "Charge W on LT. Q slams in front. All Out as a dash, not a wall-bang clip.",
+        "x3_pro_rank": null
+      }
+    ]
+  },
+  "full_pages": "wr-7.3-meta/builds.md",
+  "x3_pro": {
+    "guide": "wr-7.3-meta/gamesir-x3-pro.md",
+    "platform": "Android G-Touch / V-Touch only; iOS cannot map Wild Rift",
+    "rule": "Should = lock-on, self-cast, hold-on-trigger, 2-button combo, or attack-move. Should not = pixel place, delayed ground circle, 10-spell palette, or hold-aim-and-fly.",
+    "what_pad_means": "Pad = GameSir X3 Pro in your hands (left stick walk, RT attack, face buttons QWER), not thumbs on the Wild Rift HUD. Pixel-place kits get worse. Click-the-locked-unit kits stay the same or get better.",
+    "best_pad_adc": {
+      "champion": "Smolder",
+      "means": "Not the strongest 7.3 ADC (that is still Caitlyn on touch). Of the five outstanding ADCs, Smolder is the one whose job still works when you cannot tap the screen.",
+      "why": "Q Super Scorcher Breath is targeted: lock a unit, press Q, get a stack. That is his entire early game.",
+      "situations": [
+        "Last-hit / stacks: D-pad minion lock then Q",
+        "Short trade: lock champ, Q, maybe W cone, walk out on Phase Rush",
+        "Kite: E hop + left stick; damage is still Q so you are not glued to auto range",
+        "Teamfight: stand back, Q the closest, execute when stacks are high",
+        "Vs Caitlyn: ban her; do not pick Caitlyn on pad to match her"
+      ]
+    },
+    "kaisa_analog": {
+      "means": "Analog = left Hall stick 360 walk. For Kai'Sa the stick is the champ: she deals damage while moving.",
+      "loop": "Stick away/sideways, RT on every auto (Plasma), Q when isolated, E to haste/invis, R at 5 Plasma. Stop the stick only to fire W.",
+      "vs_smolder": "Analog is nice on Smolder (walk between Qs). Analog is the champ on Kai'Sa (walk during autos)."
+    },
+    "should": [
+      "Ashe",
+      "Smolder",
+      "Kai'Sa",
+      "Senna",
+      "Malphite",
+      "Sona",
+      "Rammus",
+      "Amumu",
+      "Nocturne",
+      "Olaf",
+      "Jarvan IV",
+      "Galio",
+      "Shen",
+      "Ambessa",
+      "K'Sante"
+    ],
+    "should_not": [
+      "Caitlyn",
+      "Yunara",
+      "Zyra",
+      "Janna",
+      "Syndra",
+      "Hwei",
+      "Brand",
+      "Aurelion Sol",
+      "Cho'Gath"
+    ],
+    "first_picks": [
+      "Smolder",
+      "Sona",
+      "Rammus",
+      "Galio",
+      "Malphite",
+      "Shen",
+      "Ambessa",
+      "Jarvan IV",
+      "Ashe",
+      "Kai'Sa"
+    ],
+    "do_not_first_pick": [
+      "Hwei",
+      "Caitlyn",
+      "Zyra",
+      "Syndra",
+      "Brand",
+      "Aurelion Sol",
+      "Yunara",
+      "Cho'Gath",
+      "Janna"
+    ],
+    "top3_per_role": {
+      "means": "Ranked by pad fit inside each role's 7.3 outstanding five, not touch winrate.",
+      "adc": [
+        "Smolder",
+        "Kai'Sa",
+        "Ashe"
+      ],
+      "support": [
+        "Sona",
+        "Malphite",
+        "Senna"
+      ],
+      "jungle": [
+        "Rammus",
+        "Jarvan IV",
+        "Amumu"
+      ],
+      "mid": [
+        "Galio"
+      ],
+      "mid_flex": [
+        "Malphite",
+        "Ambessa"
+      ],
+      "mid_note": "Only Galio is a pad mid from the outstanding five. 2nd/3rd are flex from this same 25. Do not fill with Syndra/Hwei/Brand/ASol.",
+      "top": [
+        "Malphite",
+        "Shen",
+        "Ambessa"
+      ]
+    },
+    "analog_kite": {
+      "auto": "Basic attack / danh thuong. RT taps the attack HUD. Not QWER.",
+      "analog": "Left Hall stick, 360 walk, not the D-pad.",
+      "kite": "Walk with the stick between autos: stick away, RT, stick away, RT.",
+      "wind_up": "Champ stands and shoots. A new move command here cancels the auto.",
+      "cooldown": "Cannot shoot. This is the walk window. This is kite.",
+      "do_not_hold_rt": "Force Attack Follow OFF. Tap RT on each cooldown. Holding RT chases.",
+      "setup_order": [
+        "WR HUD layout first (attack, minion, tower, recall, scoreboard, locked joystick)",
+        "WR: joystick Locked, Follow OFF, portrait lock ON, Turbo OFF",
+        "GameSir World: G-Touch, Mapping Enhancement ON, left stick on joystick, delay 50ms, RT = attack Normal",
+        "D-pad = four Add Button dots, not the hat widget",
+        "Practice tool: stick+RT must keep walking"
+      ]
+    }
+  }
+}
