@@ -1,0 +1,923 @@
+{
+  "patch": "7.1g+",
+  "question": "Heimerdinger auto-aim luôn lấy tướng làm điểm tụ toàn bộ tên lửa — có tác dụng không, có lời không?",
+  "verdict": {
+    "has_effect": true,
+    "profitable_when": [
+      "Poke 1 tướng, line sạch hoặc sau last-hit",
+      "Combo E stun → W tụ 5/5: laser lần 1 (E) + laser lần 2 (W nạp 100% lại)",
+      "R+W burst 1 mục tiêu"
+    ],
+    "not_profitable_when": [
+      "Clear lính: cần xòe để mỗi lính ăn first-hit 100%",
+      "Tướng núp sau wave: auto-aim tụ vào tướng = rocket đấm lính",
+      "Teamfight 3+ người đứng lệch: xòe 1 rocket/người > 5 rocket (20%) vào 1 người",
+      "Kite không CC: auto-aim không lead, dễ miss cả volley"
+    ]
+  },
+  "snapshots": [
+    {
+      "meta": {
+        "name": "Lane early",
+        "minute": 4,
+        "w_rank": 2,
+        "q_rank": 2,
+        "e_rank": 1,
+        "r_rank": 0,
+        "ap": 70,
+        "turrets": 2,
+        "target_mr": 42,
+        "turret_charge": 0.25
+      },
+      "w_one_rocket": 127.0,
+      "w_five_rockets": 228.6,
+      "w_multiplier_5_vs_1": 1.8,
+      "beam_each": 83.5,
+      "passive_seconds_to_beam_from_0": 90.1,
+      "poke": [
+        {
+          "label": "Auto-aim tụ 5/5 vào tướng (line sạch)",
+          "rockets_on_champ": 5,
+          "w_raw": 228.6,
+          "e_raw": 0.0,
+          "beam_raw": 167.0,
+          "total_raw": 395.6,
+          "total_after_mr": 278.6,
+          "beams": 2,
+          "notes": "Đúng điểm hội tụ. Max W + charge beam 100% từ 0%."
+        },
+        {
+          "label": "Auto-aim tụ tướng nhưng đứng sau lính",
+          "rockets_on_champ": 1,
+          "w_raw": 127.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 127.0,
+          "total_after_mr": 89.4,
+          "beams": 0,
+          "notes": "Tên lửa chạm first-unit. 4 quả ăn lính, 1 quả lọt / hoặc 0."
+        },
+        {
+          "label": "Aim xa / quạt trước khi tụ (1–2 quả)",
+          "rockets_on_champ": 2,
+          "w_raw": 152.4,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 152.4,
+          "total_after_mr": 107.3,
+          "beams": 0,
+          "notes": "Cursor max range: rocket còn đang xòe khi tới tướng."
+        },
+        {
+          "label": "Trượt điểm tụ (tướng bước ra)",
+          "rockets_on_champ": 0,
+          "w_raw": 0.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 0.0,
+          "total_after_mr": 0.0,
+          "beams": 0,
+          "notes": "Auto-aim bắn vị trí hiện tại, rocket bay chậm → miss cả volley."
+        },
+        {
+          "label": "E stun + W 1 quả (không tụ)",
+          "rockets_on_champ": 1,
+          "w_raw": 127.0,
+          "e_raw": 112.0,
+          "beam_raw": 167.0,
+          "total_raw": 406.0,
+          "total_after_mr": 285.9,
+          "beams": 2,
+          "notes": "E đã bắn laser 1 lần. W 1 quả không nạp đủ laser 2."
+        },
+        {
+          "label": "E stun + auto-aim tụ 5/5",
+          "rockets_on_champ": 5,
+          "w_raw": 228.6,
+          "e_raw": 112.0,
+          "beam_raw": 334.0,
+          "total_raw": 674.6,
+          "total_after_mr": 475.1,
+          "beams": 4,
+          "notes": "E laser #1, W 5/5 nạp 100% lại → laser #2. Stun giữ điểm tụ."
+        }
+      ],
+      "profit_vs_miss_after_mr": 278.6,
+      "profit_vs_blocked_after_mr": 189.2,
+      "profit_vs_fan2_after_mr": 171.3,
+      "profit_e_w5_vs_e_w1_after_mr": 189.2,
+      "charge_breakpoints": [
+        {
+          "start_charge": 0,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 0,
+          "r4_beam_dmg": 0.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 167.0
+        },
+        {
+          "start_charge": 20,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 167.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 167.0
+        },
+        {
+          "start_charge": 40,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 167.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 167.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 167.0
+        },
+        {
+          "start_charge": 60,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 2,
+          "r2_beam_dmg": 167.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 167.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 167.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 167.0
+        },
+        {
+          "start_charge": 80,
+          "r1_beams": 2,
+          "r1_beam_dmg": 167.0,
+          "r2_beams": 2,
+          "r2_beam_dmg": 167.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 167.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 167.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 167.0
+        }
+      ],
+      "waveclear": {
+        "one_rocket_minion": 127.0,
+        "five_stacked_one_minion": 431.8,
+        "spread_five_minions": 635.0,
+        "auto_aim_champ_behind_wave": 0.0,
+        "auto_aim_champ_clean": 228.6,
+        "spread_vs_stack_minion_ratio": 1.47
+      },
+      "teamfight": {
+        "one_champ_5_rockets": 228.6,
+        "three_champs_1_each": 381.0,
+        "winner": "xòe 3 tướng",
+        "ratio_spread_over_converge": 1.67
+      },
+      "rw": {
+        "available": false
+      }
+    },
+    {
+      "meta": {
+        "name": "Lane spike (6)",
+        "minute": 6,
+        "w_rank": 3,
+        "q_rank": 3,
+        "e_rank": 1,
+        "r_rank": 1,
+        "ap": 140,
+        "turrets": 2,
+        "target_mr": 48,
+        "turret_charge": 0.35
+      },
+      "w_one_rocket": 194.0,
+      "w_five_rockets": 349.2,
+      "w_multiplier_5_vs_1": 1.8,
+      "beam_each": 142.0,
+      "passive_seconds_to_beam_from_0": 90.1,
+      "poke": [
+        {
+          "label": "Auto-aim tụ 5/5 vào tướng (line sạch)",
+          "rockets_on_champ": 5,
+          "w_raw": 349.2,
+          "e_raw": 0.0,
+          "beam_raw": 284.0,
+          "total_raw": 633.2,
+          "total_after_mr": 427.8,
+          "beams": 2,
+          "notes": "Đúng điểm hội tụ. Max W + charge beam 100% từ 0%."
+        },
+        {
+          "label": "Auto-aim tụ tướng nhưng đứng sau lính",
+          "rockets_on_champ": 1,
+          "w_raw": 194.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 194.0,
+          "total_after_mr": 131.1,
+          "beams": 0,
+          "notes": "Tên lửa chạm first-unit. 4 quả ăn lính, 1 quả lọt / hoặc 0."
+        },
+        {
+          "label": "Aim xa / quạt trước khi tụ (1–2 quả)",
+          "rockets_on_champ": 2,
+          "w_raw": 232.8,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 232.8,
+          "total_after_mr": 157.3,
+          "beams": 0,
+          "notes": "Cursor max range: rocket còn đang xòe khi tới tướng."
+        },
+        {
+          "label": "Trượt điểm tụ (tướng bước ra)",
+          "rockets_on_champ": 0,
+          "w_raw": 0.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 0.0,
+          "total_after_mr": 0.0,
+          "beams": 0,
+          "notes": "Auto-aim bắn vị trí hiện tại, rocket bay chậm → miss cả volley."
+        },
+        {
+          "label": "E stun + W 1 quả (không tụ)",
+          "rockets_on_champ": 1,
+          "w_raw": 194.0,
+          "e_raw": 154.0,
+          "beam_raw": 284.0,
+          "total_raw": 632.0,
+          "total_after_mr": 427.0,
+          "beams": 2,
+          "notes": "E đã bắn laser 1 lần. W 1 quả không nạp đủ laser 2."
+        },
+        {
+          "label": "E stun + auto-aim tụ 5/5",
+          "rockets_on_champ": 5,
+          "w_raw": 349.2,
+          "e_raw": 154.0,
+          "beam_raw": 568.0,
+          "total_raw": 1071.2,
+          "total_after_mr": 723.8,
+          "beams": 4,
+          "notes": "E laser #1, W 5/5 nạp 100% lại → laser #2. Stun giữ điểm tụ."
+        }
+      ],
+      "profit_vs_miss_after_mr": 427.8,
+      "profit_vs_blocked_after_mr": 296.7,
+      "profit_vs_fan2_after_mr": 270.5,
+      "profit_e_w5_vs_e_w1_after_mr": 296.8,
+      "charge_breakpoints": [
+        {
+          "start_charge": 0,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 0,
+          "r4_beam_dmg": 0.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 284.0
+        },
+        {
+          "start_charge": 20,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 284.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 284.0
+        },
+        {
+          "start_charge": 40,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 284.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 284.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 284.0
+        },
+        {
+          "start_charge": 60,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 2,
+          "r2_beam_dmg": 284.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 284.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 284.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 284.0
+        },
+        {
+          "start_charge": 80,
+          "r1_beams": 2,
+          "r1_beam_dmg": 284.0,
+          "r2_beams": 2,
+          "r2_beam_dmg": 284.0,
+          "r3_beams": 2,
+          "r3_beam_dmg": 284.0,
+          "r4_beams": 2,
+          "r4_beam_dmg": 284.0,
+          "r5_beams": 2,
+          "r5_beam_dmg": 284.0
+        }
+      ],
+      "waveclear": {
+        "one_rocket_minion": 194.0,
+        "five_stacked_one_minion": 659.6,
+        "spread_five_minions": 970.0,
+        "auto_aim_champ_behind_wave": 0.0,
+        "auto_aim_champ_clean": 349.2,
+        "spread_vs_stack_minion_ratio": 1.47
+      },
+      "teamfight": {
+        "one_champ_5_rockets": 349.2,
+        "three_champs_1_each": 582.0,
+        "winner": "xòe 3 tướng",
+        "ratio_spread_over_converge": 1.67
+      },
+      "rw": {
+        "available": true,
+        "r_rank": 1,
+        "full_20_on_champ": 759.2,
+        "only_first_wave_5": 393.2,
+        "only_1_rocket": 198.0,
+        "full_vs_one_ratio": 3.83,
+        "minion_20_full_each": 3960.0,
+        "note": "R+W bắt buộc tụ vào 1 tướng (hoặc E stun) mới ăn cap 503/702/902 + 175% AP."
+      }
+    },
+    {
+      "meta": {
+        "name": "Mid item",
+        "minute": 10,
+        "w_rank": 4,
+        "q_rank": 4,
+        "e_rank": 1,
+        "r_rank": 1,
+        "ap": 260,
+        "turrets": 3,
+        "target_mr": 55,
+        "turret_charge": 0.4
+      },
+      "w_one_rocket": 291.0,
+      "w_five_rockets": 523.8,
+      "w_multiplier_5_vs_1": 1.8,
+      "beam_each": 228.0,
+      "passive_seconds_to_beam_from_0": 90.1,
+      "poke": [
+        {
+          "label": "Auto-aim tụ 5/5 vào tướng (line sạch)",
+          "rockets_on_champ": 5,
+          "w_raw": 523.8,
+          "e_raw": 0.0,
+          "beam_raw": 684.0,
+          "total_raw": 1207.8,
+          "total_after_mr": 779.2,
+          "beams": 3,
+          "notes": "Đúng điểm hội tụ. Max W + charge beam 100% từ 0%."
+        },
+        {
+          "label": "Auto-aim tụ tướng nhưng đứng sau lính",
+          "rockets_on_champ": 1,
+          "w_raw": 291.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 291.0,
+          "total_after_mr": 187.7,
+          "beams": 0,
+          "notes": "Tên lửa chạm first-unit. 4 quả ăn lính, 1 quả lọt / hoặc 0."
+        },
+        {
+          "label": "Aim xa / quạt trước khi tụ (1–2 quả)",
+          "rockets_on_champ": 2,
+          "w_raw": 349.2,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 349.2,
+          "total_after_mr": 225.3,
+          "beams": 0,
+          "notes": "Cursor max range: rocket còn đang xòe khi tới tướng."
+        },
+        {
+          "label": "Trượt điểm tụ (tướng bước ra)",
+          "rockets_on_champ": 0,
+          "w_raw": 0.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 0.0,
+          "total_after_mr": 0.0,
+          "beams": 0,
+          "notes": "Auto-aim bắn vị trí hiện tại, rocket bay chậm → miss cả volley."
+        },
+        {
+          "label": "E stun + W 1 quả (không tụ)",
+          "rockets_on_champ": 1,
+          "w_raw": 291.0,
+          "e_raw": 226.0,
+          "beam_raw": 684.0,
+          "total_raw": 1201.0,
+          "total_after_mr": 774.8,
+          "beams": 3,
+          "notes": "E đã bắn laser 1 lần. W 1 quả không nạp đủ laser 2."
+        },
+        {
+          "label": "E stun + auto-aim tụ 5/5",
+          "rockets_on_champ": 5,
+          "w_raw": 523.8,
+          "e_raw": 226.0,
+          "beam_raw": 1368.0,
+          "total_raw": 2117.8,
+          "total_after_mr": 1366.3,
+          "beams": 6,
+          "notes": "E laser #1, W 5/5 nạp 100% lại → laser #2. Stun giữ điểm tụ."
+        }
+      ],
+      "profit_vs_miss_after_mr": 779.2,
+      "profit_vs_blocked_after_mr": 591.5,
+      "profit_vs_fan2_after_mr": 553.9,
+      "profit_e_w5_vs_e_w1_after_mr": 591.5,
+      "charge_breakpoints": [
+        {
+          "start_charge": 0,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 0,
+          "r4_beam_dmg": 0.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 684.0
+        },
+        {
+          "start_charge": 20,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 684.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 684.0
+        },
+        {
+          "start_charge": 40,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 684.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 684.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 684.0
+        },
+        {
+          "start_charge": 60,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 684.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 684.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 684.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 684.0
+        },
+        {
+          "start_charge": 80,
+          "r1_beams": 3,
+          "r1_beam_dmg": 684.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 684.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 684.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 684.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 684.0
+        }
+      ],
+      "waveclear": {
+        "one_rocket_minion": 291.0,
+        "five_stacked_one_minion": 989.4,
+        "spread_five_minions": 1455.0,
+        "auto_aim_champ_behind_wave": 0.0,
+        "auto_aim_champ_clean": 523.8,
+        "spread_vs_stack_minion_ratio": 1.47
+      },
+      "teamfight": {
+        "one_champ_5_rockets": 523.8,
+        "three_champs_1_each": 873.0,
+        "winner": "xòe 3 tướng",
+        "ratio_spread_over_converge": 1.67
+      },
+      "rw": {
+        "available": true,
+        "r_rank": 1,
+        "full_20_on_champ": 978.8,
+        "only_first_wave_5": 504.8,
+        "only_1_rocket": 252.0,
+        "full_vs_one_ratio": 3.88,
+        "minion_20_full_each": 5040.0,
+        "note": "R+W bắt buộc tụ vào 1 tướng (hoặc E stun) mới ăn cap 503/702/902 + 175% AP."
+      }
+    },
+    {
+      "meta": {
+        "name": "2-item+",
+        "minute": 14,
+        "w_rank": 4,
+        "q_rank": 4,
+        "e_rank": 2,
+        "r_rank": 2,
+        "ap": 380,
+        "turrets": 3,
+        "target_mr": 62,
+        "turret_charge": 0.45
+      },
+      "w_one_rocket": 363.0,
+      "w_five_rockets": 653.4,
+      "w_multiplier_5_vs_1": 1.8,
+      "beam_each": 294.0,
+      "passive_seconds_to_beam_from_0": 90.1,
+      "poke": [
+        {
+          "label": "Auto-aim tụ 5/5 vào tướng (line sạch)",
+          "rockets_on_champ": 5,
+          "w_raw": 653.4,
+          "e_raw": 0.0,
+          "beam_raw": 882.0,
+          "total_raw": 1535.4,
+          "total_after_mr": 947.8,
+          "beams": 3,
+          "notes": "Đúng điểm hội tụ. Max W + charge beam 100% từ 0%."
+        },
+        {
+          "label": "Auto-aim tụ tướng nhưng đứng sau lính",
+          "rockets_on_champ": 1,
+          "w_raw": 363.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 363.0,
+          "total_after_mr": 224.1,
+          "beams": 0,
+          "notes": "Tên lửa chạm first-unit. 4 quả ăn lính, 1 quả lọt / hoặc 0."
+        },
+        {
+          "label": "Aim xa / quạt trước khi tụ (1–2 quả)",
+          "rockets_on_champ": 2,
+          "w_raw": 435.6,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 435.6,
+          "total_after_mr": 268.9,
+          "beams": 0,
+          "notes": "Cursor max range: rocket còn đang xòe khi tới tướng."
+        },
+        {
+          "label": "Trượt điểm tụ (tướng bước ra)",
+          "rockets_on_champ": 0,
+          "w_raw": 0.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 0.0,
+          "total_after_mr": 0.0,
+          "beams": 0,
+          "notes": "Auto-aim bắn vị trí hiện tại, rocket bay chậm → miss cả volley."
+        },
+        {
+          "label": "E stun + W 1 quả (không tụ)",
+          "rockets_on_champ": 1,
+          "w_raw": 363.0,
+          "e_raw": 348.0,
+          "beam_raw": 882.0,
+          "total_raw": 1593.0,
+          "total_after_mr": 983.3,
+          "beams": 3,
+          "notes": "E đã bắn laser 1 lần. W 1 quả không nạp đủ laser 2."
+        },
+        {
+          "label": "E stun + auto-aim tụ 5/5",
+          "rockets_on_champ": 5,
+          "w_raw": 653.4,
+          "e_raw": 348.0,
+          "beam_raw": 1764.0,
+          "total_raw": 2765.4,
+          "total_after_mr": 1707.0,
+          "beams": 6,
+          "notes": "E laser #1, W 5/5 nạp 100% lại → laser #2. Stun giữ điểm tụ."
+        }
+      ],
+      "profit_vs_miss_after_mr": 947.8,
+      "profit_vs_blocked_after_mr": 723.7,
+      "profit_vs_fan2_after_mr": 678.9,
+      "profit_e_w5_vs_e_w1_after_mr": 723.7,
+      "charge_breakpoints": [
+        {
+          "start_charge": 0,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 0,
+          "r4_beam_dmg": 0.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 882.0
+        },
+        {
+          "start_charge": 20,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 882.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 882.0
+        },
+        {
+          "start_charge": 40,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 882.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 882.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 882.0
+        },
+        {
+          "start_charge": 60,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 882.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 882.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 882.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 882.0
+        },
+        {
+          "start_charge": 80,
+          "r1_beams": 3,
+          "r1_beam_dmg": 882.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 882.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 882.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 882.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 882.0
+        }
+      ],
+      "waveclear": {
+        "one_rocket_minion": 363.0,
+        "five_stacked_one_minion": 1234.2,
+        "spread_five_minions": 1815.0,
+        "auto_aim_champ_behind_wave": 0.0,
+        "auto_aim_champ_clean": 653.4,
+        "spread_vs_stack_minion_ratio": 1.47
+      },
+      "teamfight": {
+        "one_champ_5_rockets": 653.4,
+        "three_champs_1_each": 1089.0,
+        "winner": "xòe 3 tướng",
+        "ratio_spread_over_converge": 1.67
+      },
+      "rw": {
+        "available": true,
+        "r_rank": 2,
+        "full_20_on_champ": 1397.9,
+        "only_first_wave_5": 718.4,
+        "only_1_rocket": 356.0,
+        "full_vs_one_ratio": 3.93,
+        "minion_20_full_each": 7120.0,
+        "note": "R+W bắt buộc tụ vào 1 tướng (hoặc E stun) mới ăn cap 503/702/902 + 175% AP."
+      }
+    },
+    {
+      "meta": {
+        "name": "Late Deathcap",
+        "minute": 18,
+        "w_rank": 4,
+        "q_rank": 4,
+        "e_rank": 3,
+        "r_rank": 3,
+        "ap": 520,
+        "turrets": 3,
+        "target_mr": 70,
+        "turret_charge": 0.5
+      },
+      "w_one_rocket": 447.0,
+      "w_five_rockets": 804.6,
+      "w_multiplier_5_vs_1": 1.8,
+      "beam_each": 371.0,
+      "passive_seconds_to_beam_from_0": 90.1,
+      "poke": [
+        {
+          "label": "Auto-aim tụ 5/5 vào tướng (line sạch)",
+          "rockets_on_champ": 5,
+          "w_raw": 804.6,
+          "e_raw": 0.0,
+          "beam_raw": 1113.0,
+          "total_raw": 1917.6,
+          "total_after_mr": 1128.0,
+          "beams": 3,
+          "notes": "Đúng điểm hội tụ. Max W + charge beam 100% từ 0%."
+        },
+        {
+          "label": "Auto-aim tụ tướng nhưng đứng sau lính",
+          "rockets_on_champ": 1,
+          "w_raw": 447.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 447.0,
+          "total_after_mr": 262.9,
+          "beams": 0,
+          "notes": "Tên lửa chạm first-unit. 4 quả ăn lính, 1 quả lọt / hoặc 0."
+        },
+        {
+          "label": "Aim xa / quạt trước khi tụ (1–2 quả)",
+          "rockets_on_champ": 2,
+          "w_raw": 536.4,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 536.4,
+          "total_after_mr": 315.5,
+          "beams": 0,
+          "notes": "Cursor max range: rocket còn đang xòe khi tới tướng."
+        },
+        {
+          "label": "Trượt điểm tụ (tướng bước ra)",
+          "rockets_on_champ": 0,
+          "w_raw": 0.0,
+          "e_raw": 0.0,
+          "beam_raw": 0.0,
+          "total_raw": 0.0,
+          "total_after_mr": 0.0,
+          "beams": 0,
+          "notes": "Auto-aim bắn vị trí hiện tại, rocket bay chậm → miss cả volley."
+        },
+        {
+          "label": "E stun + W 1 quả (không tụ)",
+          "rockets_on_champ": 1,
+          "w_raw": 447.0,
+          "e_raw": 482.0,
+          "beam_raw": 1113.0,
+          "total_raw": 2042.0,
+          "total_after_mr": 1201.2,
+          "beams": 3,
+          "notes": "E đã bắn laser 1 lần. W 1 quả không nạp đủ laser 2."
+        },
+        {
+          "label": "E stun + auto-aim tụ 5/5",
+          "rockets_on_champ": 5,
+          "w_raw": 804.6,
+          "e_raw": 482.0,
+          "beam_raw": 2226.0,
+          "total_raw": 3512.6,
+          "total_after_mr": 2066.2,
+          "beams": 6,
+          "notes": "E laser #1, W 5/5 nạp 100% lại → laser #2. Stun giữ điểm tụ."
+        }
+      ],
+      "profit_vs_miss_after_mr": 1128.0,
+      "profit_vs_blocked_after_mr": 865.1,
+      "profit_vs_fan2_after_mr": 812.5,
+      "profit_e_w5_vs_e_w1_after_mr": 865.0,
+      "charge_breakpoints": [
+        {
+          "start_charge": 0,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 0,
+          "r4_beam_dmg": 0.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 1113.0
+        },
+        {
+          "start_charge": 20,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 0,
+          "r3_beam_dmg": 0.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 1113.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 1113.0
+        },
+        {
+          "start_charge": 40,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 0,
+          "r2_beam_dmg": 0.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 1113.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 1113.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 1113.0
+        },
+        {
+          "start_charge": 60,
+          "r1_beams": 0,
+          "r1_beam_dmg": 0.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 1113.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 1113.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 1113.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 1113.0
+        },
+        {
+          "start_charge": 80,
+          "r1_beams": 3,
+          "r1_beam_dmg": 1113.0,
+          "r2_beams": 3,
+          "r2_beam_dmg": 1113.0,
+          "r3_beams": 3,
+          "r3_beam_dmg": 1113.0,
+          "r4_beams": 3,
+          "r4_beam_dmg": 1113.0,
+          "r5_beams": 3,
+          "r5_beam_dmg": 1113.0
+        }
+      ],
+      "waveclear": {
+        "one_rocket_minion": 447.0,
+        "five_stacked_one_minion": 1519.8,
+        "spread_five_minions": 2235.0,
+        "auto_aim_champ_behind_wave": 0.0,
+        "auto_aim_champ_clean": 804.6,
+        "spread_vs_stack_minion_ratio": 1.47
+      },
+      "teamfight": {
+        "one_champ_5_rockets": 804.6,
+        "three_champs_1_each": 1341.0,
+        "winner": "xòe 3 tướng",
+        "ratio_spread_over_converge": 1.67
+      },
+      "rw": {
+        "available": true,
+        "r_rank": 3,
+        "full_20_on_champ": 1853.6,
+        "only_first_wave_5": 950.6,
+        "only_1_rocket": 469.0,
+        "full_vs_one_ratio": 3.95,
+        "minion_20_full_each": 9380.0,
+        "note": "R+W bắt buộc tụ vào 1 tướng (hoặc E stun) mới ăn cap 503/702/902 + 175% AP."
+      }
+    }
+  ]
+}

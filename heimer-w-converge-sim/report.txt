@@ -1,0 +1,169 @@
+==============================================================================
+HEIMERDINGER W — AUTO-AIM TỤ TÊN LỬA VÀO TƯỚNG (Wild Rift 7.1g+)
+Câu hỏi: auto-aim luôn lấy tướng làm điểm tụ 5 rocket — có tác dụng? có lời?
+==============================================================================
+
+CƠ CHẾ (wiki WR)
+  W bắn 5 rocket, hội tụ tại điểm aim rồi xòe tiếp.
+  Auto-aim lock tướng = điểm hội tụ nằm đúng trên tướng → cả 5 quả cùng lúc.
+  Rocket 1: 100% damage. Rocket 2–5 cùng tướng: 20% mỗi quả.
+  Full 5/5 = 1.80× damage 1 quả  (108% AP, không phải 300% AP).
+  Mỗi rocket trúng tướng = +20% charge laser trụ. 5 quả = 100% → bắn ngay.
+  Laser trụ tự charge 1.11%/s (~90s từ 0%). W tụ 5 quả = skip cả phút chờ.
+  Rocket chạm first enemy — lính chắn là mất poke.
+
+------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------
+  CÓ TÁC DỤNG. Đây không phải cosmetic — đây là điểm ngọt single-target của W.
+  CÓ LỜI khi poke 1 tướng (line sạch / sau last-hit / sau E stun) và khi R+W.
+  KHÔNG LỜI nếu luôn-luôn auto-aim tướng: clear lính kém, dễ đấm wave,
+  teamfight xòe ra nhiều người còn nhiều damage hơn, kite không CC thì dễ miss.
+
+  Luật dùng:
+    Poke / all-in 1 người  → GIỮ auto-aim tụ vào tướng (hoặc E rồi W).
+    Clear wave / check bụi → KÉO aim xa để xòe, đừng lock tướng.
+    Tướng núp lính         → đừng bắn; đợi last-hit hoặc E trước.
+
+------------------------------------------------------------------------------
+DAMAGE W THEO SỐ ROCKET (công thức, mọi mốc AP)
+------------------------------------------------------------------------------
+  Hits | Damage vs 1 quả | Charge laser
+     1 | 1.00×           |  20%  (chưa bắn nếu trụ <80%)
+     2 | 1.20×           |  40%
+     3 | 1.40×           |  60%
+     4 | 1.60×           |  80%
+     5 | 1.80×  ← auto-aim tụ tướng
+       |                 | 100%  (laser chắc từ 0% charge)
+
+  Rank 4, 0 AP: 1 quả = 135.  5 quả = 243.  Không phải 675.
+  Lời của 4 quả phụ = +108 dmg (+48% AP), CỘNG instant laser.
+
+------------------------------------------------------------------------------
+LANE EARLY  @ 4:00  |  W2 Q2 E1 R-  |  70 AP  |  2 trụ  |  target MR 42
+------------------------------------------------------------------------------
+  W 1 quả 127  →  W 5 quả 229  (1.80×)  |  1 laser 84  |  passive beam 90s
+
+  Kịch bản                                        W      E   Laser     Raw  Sau MR B
+  Auto-aim tụ 5/5 vào tướng (line sạch)         229      0     167     396     279 2
+  Auto-aim tụ tướng nhưng đứng sau lính         127      0       0     127      89 0
+  Aim xa / quạt trước khi tụ (1–2 quả)          152      0       0     152     107 0
+  Trượt điểm tụ (tướng bước ra)                   0      0       0       0       0 0
+  E stun + W 1 quả (không tụ)                   127    112     167     406     286 2
+  E stun + auto-aim tụ 5/5                      229    112     334     675     475 4
+
+  Lời auto-aim 5/5 vs miss:     +279 (sau MR)
+  Lời auto-aim 5/5 vs bị lính chặn: +189
+  Lời auto-aim 5/5 vs xòe 2 quả: +171
+  Lời combo E+W tụ 5/5 vs E+W 1 quả: +189  (chênh lệch = laser #2 + 0.8× W)
+  Clear lính: xòe 5 lính 635  vs  tụ 5 quả 1 lính 432  (1.47× nghiêng về XÒE)
+  Teamfight: 1 tướng 5 quả 229  vs  3 tướng 1 quả 381  → xòe 3 tướng (1.67×)
+
+------------------------------------------------------------------------------
+LANE SPIKE (6)  @ 6:00  |  W3 Q3 E1 R1  |  140 AP  |  2 trụ  |  target MR 48
+------------------------------------------------------------------------------
+  W 1 quả 194  →  W 5 quả 349  (1.80×)  |  1 laser 142  |  passive beam 90s
+
+  Kịch bản                                        W      E   Laser     Raw  Sau MR B
+  Auto-aim tụ 5/5 vào tướng (line sạch)         349      0     284     633     428 2
+  Auto-aim tụ tướng nhưng đứng sau lính         194      0       0     194     131 0
+  Aim xa / quạt trước khi tụ (1–2 quả)          233      0       0     233     157 0
+  Trượt điểm tụ (tướng bước ra)                   0      0       0       0       0 0
+  E stun + W 1 quả (không tụ)                   194    154     284     632     427 2
+  E stun + auto-aim tụ 5/5                      349    154     568    1071     724 4
+
+  Lời auto-aim 5/5 vs miss:     +428 (sau MR)
+  Lời auto-aim 5/5 vs bị lính chặn: +297
+  Lời auto-aim 5/5 vs xòe 2 quả: +270
+  Lời combo E+W tụ 5/5 vs E+W 1 quả: +297  (chênh lệch = laser #2 + 0.8× W)
+  Clear lính: xòe 5 lính 970  vs  tụ 5 quả 1 lính 660  (1.47× nghiêng về XÒE)
+  Teamfight: 1 tướng 5 quả 349  vs  3 tướng 1 quả 582  → xòe 3 tướng (1.67×)
+  R+W: full 20 759  |  chỉ wave 1 (5 quả) 393  |  1 quả 198  (3.8× nếu tụ đủ)
+
+------------------------------------------------------------------------------
+MID ITEM  @ 10:00  |  W4 Q4 E1 R1  |  260 AP  |  3 trụ  |  target MR 55
+------------------------------------------------------------------------------
+  W 1 quả 291  →  W 5 quả 524  (1.80×)  |  1 laser 228  |  passive beam 90s
+
+  Kịch bản                                        W      E   Laser     Raw  Sau MR B
+  Auto-aim tụ 5/5 vào tướng (line sạch)         524      0     684    1208     779 3
+  Auto-aim tụ tướng nhưng đứng sau lính         291      0       0     291     188 0
+  Aim xa / quạt trước khi tụ (1–2 quả)          349      0       0     349     225 0
+  Trượt điểm tụ (tướng bước ra)                   0      0       0       0       0 0
+  E stun + W 1 quả (không tụ)                   291    226     684    1201     775 3
+  E stun + auto-aim tụ 5/5                      524    226    1368    2118    1366 6
+
+  Lời auto-aim 5/5 vs miss:     +779 (sau MR)
+  Lời auto-aim 5/5 vs bị lính chặn: +592
+  Lời auto-aim 5/5 vs xòe 2 quả: +554
+  Lời combo E+W tụ 5/5 vs E+W 1 quả: +592  (chênh lệch = laser #2 + 0.8× W)
+  Clear lính: xòe 5 lính 1455  vs  tụ 5 quả 1 lính 989  (1.47× nghiêng về XÒE)
+  Teamfight: 1 tướng 5 quả 524  vs  3 tướng 1 quả 873  → xòe 3 tướng (1.67×)
+  R+W: full 20 979  |  chỉ wave 1 (5 quả) 505  |  1 quả 252  (3.9× nếu tụ đủ)
+
+------------------------------------------------------------------------------
+2-ITEM+  @ 14:00  |  W4 Q4 E2 R2  |  380 AP  |  3 trụ  |  target MR 62
+------------------------------------------------------------------------------
+  W 1 quả 363  →  W 5 quả 653  (1.80×)  |  1 laser 294  |  passive beam 90s
+
+  Kịch bản                                        W      E   Laser     Raw  Sau MR B
+  Auto-aim tụ 5/5 vào tướng (line sạch)         653      0     882    1535     948 3
+  Auto-aim tụ tướng nhưng đứng sau lính         363      0       0     363     224 0
+  Aim xa / quạt trước khi tụ (1–2 quả)          436      0       0     436     269 0
+  Trượt điểm tụ (tướng bước ra)                   0      0       0       0       0 0
+  E stun + W 1 quả (không tụ)                   363    348     882    1593     983 3
+  E stun + auto-aim tụ 5/5                      653    348    1764    2765    1707 6
+
+  Lời auto-aim 5/5 vs miss:     +948 (sau MR)
+  Lời auto-aim 5/5 vs bị lính chặn: +724
+  Lời auto-aim 5/5 vs xòe 2 quả: +679
+  Lời combo E+W tụ 5/5 vs E+W 1 quả: +724  (chênh lệch = laser #2 + 0.8× W)
+  Clear lính: xòe 5 lính 1815  vs  tụ 5 quả 1 lính 1234  (1.47× nghiêng về XÒE)
+  Teamfight: 1 tướng 5 quả 653  vs  3 tướng 1 quả 1089  → xòe 3 tướng (1.67×)
+  R+W: full 20 1398  |  chỉ wave 1 (5 quả) 718  |  1 quả 356  (3.9× nếu tụ đủ)
+
+------------------------------------------------------------------------------
+LATE DEATHCAP  @ 18:00  |  W4 Q4 E3 R3  |  520 AP  |  3 trụ  |  target MR 70
+------------------------------------------------------------------------------
+  W 1 quả 447  →  W 5 quả 805  (1.80×)  |  1 laser 371  |  passive beam 90s
+
+  Kịch bản                                        W      E   Laser     Raw  Sau MR B
+  Auto-aim tụ 5/5 vào tướng (line sạch)         805      0    1113    1918    1128 3
+  Auto-aim tụ tướng nhưng đứng sau lính         447      0       0     447     263 0
+  Aim xa / quạt trước khi tụ (1–2 quả)          536      0       0     536     316 0
+  Trượt điểm tụ (tướng bước ra)                   0      0       0       0       0 0
+  E stun + W 1 quả (không tụ)                   447    482    1113    2042    1201 3
+  E stun + auto-aim tụ 5/5                      805    482    2226    3513    2066 6
+
+  Lời auto-aim 5/5 vs miss:     +1128 (sau MR)
+  Lời auto-aim 5/5 vs bị lính chặn: +865
+  Lời auto-aim 5/5 vs xòe 2 quả: +812
+  Lời combo E+W tụ 5/5 vs E+W 1 quả: +865  (chênh lệch = laser #2 + 0.8× W)
+  Clear lính: xòe 5 lính 2235  vs  tụ 5 quả 1 lính 1520  (1.47× nghiêng về XÒE)
+  Teamfight: 1 tướng 5 quả 805  vs  3 tướng 1 quả 1341  → xòe 3 tướng (1.67×)
+  R+W: full 20 1854  |  chỉ wave 1 (5 quả) 951  |  1 quả 469  (4.0× nếu tụ đủ)
+
+------------------------------------------------------------------------------
+LASER BREAKPOINT — cần bao nhiêu rocket để bắn ngay
+------------------------------------------------------------------------------
+  Mốc Mid item: 3 trụ, mỗi laser 228 raw
+  Charge sẵn | 1 rocket | 2 | 3 | 4 | 5 (auto-aim tụ)
+       0%   |        — |        — |        — |        — |   3×/684
+      20%   |        — |        — |        — |   3×/684 |   3×/684
+      40%   |        — |        — |   3×/684 |   3×/684 |   3×/684
+      60%   |        — |   3×/684 |   3×/684 |   3×/684 |   3×/684
+      80%   |   3×/684 |   3×/684 |   3×/684 |   3×/684 |   3×/684
+
+  Ý: trụ 0% charge thì CHỈ 5/5 mới bắn laser. Đây là lời lớn nhất của auto-aim tụ tướng.
+  Trụ đã ~40–60% thì 2–3 quả cũng đủ laser — lúc đó auto-aim 5/5 vẫn lời thêm 0.4–0.6× W.
+
+------------------------------------------------------------------------------
+KẾT LUẬN NGẮN
+------------------------------------------------------------------------------
+  1) Auto-aim lấy tướng làm điểm tụ = đúng skill expression của W poke.
+  2) Có lời: +80% damage W (1.8× không phải 5×) + instant 100% laser mọi trụ gần.
+  3) Lời thật nằm ở LASER, không phải 4 quả 20%. Đừng bỏ converge khi trade 1v1.
+  4) Combo E→W tụ 5/5 = 2 volley laser (E nạp 100%, W nạp lại 100%). W 1 quả thì mất laser #2.
+  5) Không lock auto-aim 100% thời gian: clear wave phải xòe, sau lính thì cấm bắn.
+  6) R+W không tụ = bỏ ~3–4× burst. Stun rồi mới W.
+==============================================================================
