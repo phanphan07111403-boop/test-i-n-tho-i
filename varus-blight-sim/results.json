@@ -1,0 +1,1703 @@
+[
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane",
+    "gold": 6750,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 542,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 8,
+    "deaths": {
+      "carry": 5.31
+    },
+    "by_source": {
+      "auto": 849,
+      "bolt": 0,
+      "onhit": 303,
+      "statikk": 42,
+      "arrow": 408,
+      "blight": 331,
+      "missing": 24,
+      "e": 142,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane",
+    "gold": 6750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 7064,
+    "per_target": {
+      "tank": 2397,
+      "bruiser": 2567,
+      "carry": 2100
+    },
+    "first_q": 1450,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      2,
+      2
+    ],
+    "arrows": 2,
+    "autos": 10,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 5.57
+    },
+    "by_source": {
+      "auto": 564,
+      "bolt": 881,
+      "onhit": 997,
+      "statikk": 163,
+      "arrow": 1210,
+      "blight": 2567,
+      "missing": 46,
+      "e": 635,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane",
+    "gold": 6750,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 7521,
+    "per_target": {
+      "tank": 2724,
+      "bruiser": 2697,
+      "carry": 2100
+    },
+    "first_q": 2061,
+    "first_q_at": 2.68,
+    "first_stacks": [
+      3,
+      3,
+      3
+    ],
+    "arrows": 2,
+    "autos": 11,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 5.96
+    },
+    "by_source": {
+      "auto": 620,
+      "bolt": 898,
+      "onhit": 1054,
+      "statikk": 163,
+      "arrow": 1495,
+      "blight": 3014,
+      "missing": 100,
+      "e": 176,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane",
+    "gold": 6750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 6985,
+    "per_target": {
+      "tank": 2462,
+      "bruiser": 2424,
+      "carry": 2100
+    },
+    "first_q": 1179,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 11,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 6.16
+    },
+    "by_source": {
+      "auto": 620,
+      "bolt": 981,
+      "onhit": 1086,
+      "statikk": 103,
+      "arrow": 748,
+      "blight": 2610,
+      "missing": 27,
+      "e": 811,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane",
+    "gold": 6750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 2586,
+    "per_target": {
+      "tank": 1813,
+      "bruiser": 346,
+      "carry": 427
+    },
+    "first_q": 909,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 677,
+      "bolt": 0,
+      "onhit": 322,
+      "statikk": 55,
+      "arrow": 748,
+      "blight": 458,
+      "missing": 9,
+      "e": 317,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 597,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 6,
+    "deaths": {
+      "carry": 4.04
+    },
+    "by_source": {
+      "auto": 633,
+      "bolt": 0,
+      "onhit": 430,
+      "statikk": 42,
+      "arrow": 451,
+      "blight": 355,
+      "missing": 28,
+      "e": 160,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 4266,
+    "per_target": {
+      "tank": 2334,
+      "bruiser": 888,
+      "carry": 1044
+    },
+    "first_q": 1294,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 729,
+      "bolt": 0,
+      "onhit": 1350,
+      "statikk": 206,
+      "arrow": 827,
+      "blight": 761,
+      "missing": 34,
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade",
+    "gold": 7100,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 4790,
+    "per_target": {
+      "tank": 2678,
+      "bruiser": 989,
+      "carry": 1123
+    },
+    "first_q": 1638,
+    "first_q_at": 2.68,
+    "first_stacks": [
+      3,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 729,
+      "bolt": 0,
+      "onhit": 1350,
+      "statikk": 206,
+      "arrow": 827,
+      "blight": 1269,
+      "missing": 50,
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 3742,
+    "per_target": {
+      "tank": 2304,
+      "bruiser": 640,
+      "carry": 799
+    },
+    "first_q": 999,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 729,
+      "bolt": 0,
+      "onhit": 1225,
+      "statikk": 103,
+      "arrow": 827,
+      "blight": 492,
+      "missing": 8,
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 3195,
+    "per_target": {
+      "tank": 2334,
+      "bruiser": 385,
+      "carry": 476
+    },
+    "first_q": 1001,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 729,
+      "bolt": 0,
+      "onhit": 724,
+      "statikk": 55,
+      "arrow": 827,
+      "blight": 492,
+      "missing": 11,
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 6850,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 530,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 8,
+    "deaths": {
+      "carry": 5.04
+    },
+    "by_source": {
+      "auto": 734,
+      "bolt": 0,
+      "onhit": 482,
+      "statikk": 0,
+      "arrow": 402,
+      "blight": 323,
+      "missing": 21,
+      "e": 139,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 6850,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 7525,
+    "per_target": {
+      "tank": 2723,
+      "bruiser": 2702,
+      "carry": 2100
+    },
+    "first_q": 1162,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 5.36
+    },
+    "by_source": {
+      "auto": 653,
+      "bolt": 930,
+      "onhit": 1831,
+      "statikk": 0,
+      "arrow": 736,
+      "blight": 2547,
+      "missing": 31,
+      "e": 796,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 6850,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 8076,
+    "per_target": {
+      "tank": 3016,
+      "bruiser": 2960,
+      "carry": 2100
+    },
+    "first_q": 2014,
+    "first_q_at": 2.63,
+    "first_stacks": [
+      3,
+      3,
+      3
+    ],
+    "arrows": 3,
+    "autos": 10,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 5.19
+    },
+    "by_source": {
+      "auto": 545,
+      "bolt": 794,
+      "onhit": 1488,
+      "statikk": 0,
+      "arrow": 1928,
+      "blight": 3228,
+      "missing": 93,
+      "e": 0,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 6850,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 7525,
+    "per_target": {
+      "tank": 2723,
+      "bruiser": 2702,
+      "carry": 2100
+    },
+    "first_q": 1162,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 5.36
+    },
+    "by_source": {
+      "auto": 653,
+      "bolt": 930,
+      "onhit": 1831,
+      "statikk": 0,
+      "arrow": 736,
+      "blight": 2547,
+      "missing": 31,
+      "e": 796,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 6850,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 2833,
+    "per_target": {
+      "tank": 2072,
+      "bruiser": 340,
+      "carry": 420
+    },
+    "first_q": 893,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 708,
+      "bolt": 0,
+      "onhit": 622,
+      "statikk": 0,
+      "arrow": 736,
+      "blight": 447,
+      "missing": 8,
+      "e": 312,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Blade of the Ruined King",
+    "gold": 7200,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 602,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 6,
+    "deaths": {
+      "carry": 4.19
+    },
+    "by_source": {
+      "auto": 651,
+      "bolt": 0,
+      "onhit": 421,
+      "statikk": 42,
+      "arrow": 457,
+      "blight": 331,
+      "missing": 35,
+      "e": 163,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Blade of the Ruined King",
+    "gold": 7200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 4398,
+    "per_target": {
+      "tank": 2628,
+      "bruiser": 854,
+      "carry": 916
+    },
+    "first_q": 1297,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 692,
+      "bolt": 0,
+      "onhit": 1534,
+      "statikk": 206,
+      "arrow": 838,
+      "blight": 710,
+      "missing": 55,
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Blade of the Ruined King",
+    "gold": 7200,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 4702,
+    "per_target": {
+      "tank": 2932,
+      "bruiser": 854,
+      "carry": 916
+    },
+    "first_q": 1631,
+    "first_q_at": 2.73,
+    "first_stacks": [
+      3,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 692,
+      "bolt": 0,
+      "onhit": 1503,
+      "statikk": 206,
+      "arrow": 838,
+      "blight": 1016,
+      "missing": 83,
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Blade of the Ruined King",
+    "gold": 7200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 3777,
+    "per_target": {
+      "tank": 2604,
+      "bruiser": 543,
+      "carry": 630
+    },
+    "first_q": 1006,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 692,
+      "bolt": 0,
+      "onhit": 1306,
+      "statikk": 103,
+      "arrow": 838,
+      "blight": 458,
+      "missing": 15,
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Blade of the Ruined King",
+    "gold": 7200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 3502,
+    "per_target": {
+      "tank": 2628,
+      "bruiser": 391,
+      "carry": 483
+    },
+    "first_q": 1008,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 12,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 692,
+      "bolt": 0,
+      "onhit": 1077,
+      "statikk": 55,
+      "arrow": 838,
+      "blight": 458,
+      "missing": 17,
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 613,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0
+    ],
+    "arrows": 1,
+    "autos": 6,
+    "deaths": {
+      "carry": 5.55
+    },
+    "by_source": {
+      "auto": 907,
+      "bolt": 0,
+      "onhit": 158,
+      "statikk": 0,
+      "arrow": 613,
+      "blight": 200,
+      "missing": 0,
+      "e": 222,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 2730,
+    "per_target": {
+      "tank": 1587,
+      "bruiser": 492,
+      "carry": 651
+    },
+    "first_q": 1067,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 728,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1067,
+      "blight": 276,
+      "missing": 0,
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr",
+    "gold": 7100,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 2730,
+    "per_target": {
+      "tank": 1587,
+      "bruiser": 492,
+      "carry": 651
+    },
+    "first_q": 1067,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 728,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1067,
+      "blight": 276,
+      "missing": 0,
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 2730,
+    "per_target": {
+      "tank": 1587,
+      "bruiser": 492,
+      "carry": 651
+    },
+    "first_q": 1067,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 728,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1067,
+      "blight": 276,
+      "missing": 0,
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr",
+    "gold": 7100,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 2730,
+    "per_target": {
+      "tank": 1587,
+      "bruiser": 492,
+      "carry": 651
+    },
+    "first_q": 1067,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 728,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1067,
+      "blight": 276,
+      "missing": 0,
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 9750,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 600,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 6,
+    "deaths": {
+      "carry": 3.83
+    },
+    "by_source": {
+      "auto": 710,
+      "bolt": 0,
+      "onhit": 350,
+      "statikk": 42,
+      "arrow": 451,
+      "blight": 355,
+      "missing": 31,
+      "e": 160,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 9750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 8691,
+    "per_target": {
+      "tank": 3191,
+      "bruiser": 3400,
+      "carry": 2100
+    },
+    "first_q": 1594,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      2,
+      2
+    ],
+    "arrows": 2,
+    "autos": 10,
+    "deaths": {
+      "tank": null,
+      "bruiser": 7.99,
+      "carry": 4.68
+    },
+    "by_source": {
+      "auto": 701,
+      "bolt": 936,
+      "onhit": 1822,
+      "statikk": 163,
+      "arrow": 1338,
+      "blight": 2831,
+      "missing": 64,
+      "e": 836,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 9750,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 9137,
+    "per_target": {
+      "tank": 3637,
+      "bruiser": 3400,
+      "carry": 2100
+    },
+    "first_q": 2268,
+    "first_q_at": 2.52,
+    "first_stacks": [
+      3,
+      3,
+      3
+    ],
+    "arrows": 3,
+    "autos": 11,
+    "deaths": {
+      "tank": null,
+      "bruiser": 7.45,
+      "carry": 4.99
+    },
+    "by_source": {
+      "auto": 771,
+      "bolt": 898,
+      "onhit": 1867,
+      "statikk": 163,
+      "arrow": 2165,
+      "blight": 3133,
+      "missing": 140,
+      "e": 0,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 9750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 8736,
+    "per_target": {
+      "tank": 3313,
+      "bruiser": 3323,
+      "carry": 2100
+    },
+    "first_q": 1299,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": 4.68
+    },
+    "by_source": {
+      "auto": 911,
+      "bolt": 1103,
+      "onhit": 2154,
+      "statikk": 61,
+      "arrow": 827,
+      "blight": 2726,
+      "missing": 38,
+      "e": 917,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade",
+    "gold": 9750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 3494,
+    "per_target": {
+      "tank": 2632,
+      "bruiser": 385,
+      "carry": 476
+    },
+    "first_q": 1002,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 14,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 981,
+      "bolt": 0,
+      "onhit": 769,
+      "statikk": 55,
+      "arrow": 827,
+      "blight": 492,
+      "missing": 12,
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King",
+    "gold": 10200,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 659,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 5,
+    "deaths": {
+      "carry": 3.38
+    },
+    "by_source": {
+      "auto": 536,
+      "bolt": 0,
+      "onhit": 444,
+      "statikk": 42,
+      "arrow": 500,
+      "blight": 355,
+      "missing": 41,
+      "e": 181,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King",
+    "gold": 10200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 6166,
+    "per_target": {
+      "tank": 3504,
+      "bruiser": 1313,
+      "carry": 1349
+    },
+    "first_q": 1414,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 14,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 960,
+      "bolt": 0,
+      "onhit": 2853,
+      "statikk": 206,
+      "arrow": 917,
+      "blight": 761,
+      "missing": 63,
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King",
+    "gold": 10200,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 6639,
+    "per_target": {
+      "tank": 3805,
+      "bruiser": 1409,
+      "carry": 1426
+    },
+    "first_q": 1774,
+    "first_q_at": 2.56,
+    "first_stacks": [
+      3,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 14,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 960,
+      "bolt": 0,
+      "onhit": 2785,
+      "statikk": 206,
+      "arrow": 917,
+      "blight": 1269,
+      "missing": 96,
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King",
+    "gold": 10200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 5544,
+    "per_target": {
+      "tank": 3482,
+      "bruiser": 997,
+      "carry": 1064
+    },
+    "first_q": 1098,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 14,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 960,
+      "bolt": 0,
+      "onhit": 2649,
+      "statikk": 103,
+      "arrow": 917,
+      "blight": 492,
+      "missing": 17,
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King",
+    "gold": 10200,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 4466,
+    "per_target": {
+      "tank": 3504,
+      "bruiser": 430,
+      "carry": 532
+    },
+    "first_q": 1101,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 14,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 960,
+      "bolt": 0,
+      "onhit": 1617,
+      "statikk": 55,
+      "arrow": 917,
+      "blight": 492,
+      "missing": 19,
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr + Manamune",
+    "gold": 10000,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 716,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0
+    ],
+    "arrows": 1,
+    "autos": 4,
+    "deaths": {
+      "carry": 3.95
+    },
+    "by_source": {
+      "auto": 823,
+      "bolt": 0,
+      "onhit": 95,
+      "statikk": 0,
+      "arrow": 716,
+      "blight": 200,
+      "missing": 0,
+      "e": 266,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr + Manamune",
+    "gold": 10000,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 3213,
+    "per_target": {
+      "tank": 1867,
+      "bruiser": 579,
+      "carry": 767
+    },
+    "first_q": 1246,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 938,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1246,
+      "blight": 276,
+      "missing": 0,
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr + Manamune",
+    "gold": 10000,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 3213,
+    "per_target": {
+      "tank": 1867,
+      "bruiser": 579,
+      "carry": 767
+    },
+    "first_q": 1246,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 938,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1246,
+      "blight": 276,
+      "missing": 0,
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr + Manamune",
+    "gold": 10000,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 3213,
+    "per_target": {
+      "tank": 1867,
+      "bruiser": 579,
+      "carry": 767
+    },
+    "first_q": 1246,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 938,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1246,
+      "blight": 276,
+      "missing": 0,
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Youmuu's Ghostblade + Duskblade of Draktharr + Manamune",
+    "gold": 10000,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 3213,
+    "per_target": {
+      "tank": 1867,
+      "bruiser": 579,
+      "carry": 767
+    },
+    "first_q": 1246,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      0,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 9,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 938,
+      "bolt": 0,
+      "onhit": 184,
+      "statikk": 0,
+      "arrow": 1246,
+      "blight": 276,
+      "missing": 0,
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus",
+    "gold": 12750,
+    "policy": "poke",
+    "targets": 1,
+    "spread": true,
+    "damage": 2100,
+    "per_target": {
+      "carry": 2100
+    },
+    "first_q": 677,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1
+    ],
+    "arrows": 1,
+    "autos": 4,
+    "deaths": {
+      "carry": 3.25
+    },
+    "by_source": {
+      "auto": 696,
+      "bolt": 0,
+      "onhit": 391,
+      "statikk": 44,
+      "arrow": 515,
+      "blight": 211,
+      "missing": 39,
+      "e": 204,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus",
+    "gold": 12750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 10000,
+    "per_target": {
+      "tank": 4500,
+      "bruiser": 3400,
+      "carry": 2100
+    },
+    "first_q": 1777,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      2,
+      2
+    ],
+    "arrows": 2,
+    "autos": 11,
+    "deaths": {
+      "tank": 7.64,
+      "bruiser": 5.41,
+      "carry": 3.25
+    },
+    "by_source": {
+      "auto": 1137,
+      "bolt": 1116,
+      "onhit": 2381,
+      "statikk": 178,
+      "arrow": 1290,
+      "blight": 3064,
+      "missing": 84,
+      "e": 750,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus",
+    "gold": 12750,
+    "policy": "commit",
+    "targets": 3,
+    "spread": true,
+    "damage": 10000,
+    "per_target": {
+      "tank": 4500,
+      "bruiser": 3400,
+      "carry": 2100
+    },
+    "first_q": 2802,
+    "first_q_at": 2.42,
+    "first_stacks": [
+      3,
+      3,
+      3
+    ],
+    "arrows": 2,
+    "autos": 12,
+    "deaths": {
+      "tank": 7.39,
+      "bruiser": 5.66,
+      "carry": 3.29
+    },
+    "by_source": {
+      "auto": 1137,
+      "bolt": 1236,
+      "onhit": 2371,
+      "statikk": 140,
+      "arrow": 1778,
+      "blight": 3005,
+      "missing": 214,
+      "e": 120,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus",
+    "gold": 12750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": true,
+    "damage": 9997,
+    "per_target": {
+      "tank": 4497,
+      "bruiser": 3400,
+      "carry": 2100
+    },
+    "first_q": 1464,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      1,
+      1
+    ],
+    "arrows": 1,
+    "autos": 13,
+    "deaths": {
+      "tank": null,
+      "bruiser": 6.28,
+      "carry": 3.69
+    },
+    "by_source": {
+      "auto": 1348,
+      "bolt": 1380,
+      "onhit": 2729,
+      "statikk": 71,
+      "arrow": 959,
+      "blight": 2587,
+      "missing": 52,
+      "e": 870,
+      "tempo": 0,
+      "brutal": 0
+    }
+  },
+  {
+    "name": "Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus",
+    "gold": 12750,
+    "policy": "poke",
+    "targets": 3,
+    "spread": false,
+    "damage": 4962,
+    "per_target": {
+      "tank": 3927,
+      "bruiser": 470,
+      "carry": 565
+    },
+    "first_q": 1148,
+    "first_q_at": 1.5,
+    "first_stacks": [
+      1,
+      0,
+      0
+    ],
+    "arrows": 1,
+    "autos": 15,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "by_source": {
+      "auto": 1559,
+      "bolt": 0,
+      "onhit": 1325,
+      "statikk": 61,
+      "arrow": 959,
+      "blight": 565,
+      "missing": 16,
+      "e": 477,
+      "tempo": 0,
+      "brutal": 0
+    }
+  }
+]

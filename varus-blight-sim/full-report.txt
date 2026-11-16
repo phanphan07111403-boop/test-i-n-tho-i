@@ -1,0 +1,41 @@
+Varus full build, level 15, base AD 58.
+Core is Berserker's Greaves, Statikk Shiv, Guinsoo's Rageblade, Runaan's Hurricane.
+Wave is 3 melee at 640 health and 3 casters at 340. Group is tank, bruiser, carry.
+The grouped fight is 8 seconds with lightning ready. The wave is autos only.
+
+FINISHED ITEMS, Lethal Tempo page (Bloodline, Brutal, Cut Down)
+group  BotRK + Terminus      dmg 10000  heal 1109  time  7.2  autos 10  Q 2  tank 7.20s bruiser 4.37s carry 3.15s
+wave   BotRK + Terminus      dmg  2940  heal  205  time 0.85  autos  3  Q 0  melee 0.43s caster 0.85s
+group  BotRK + Bloodthirster dmg 10000  heal 1650  time  7.2  autos 10  Q 2  tank 7.20s bruiser 5.28s carry 3.22s
+wave   BotRK + Bloodthirster dmg  2940  heal  474  time 0.93  autos  3  Q 0  melee 0.47s caster 0.93s
+group  Bloodthirster + Terminus dmg 10000  heal 1088  time  7.2  autos 10  Q 2  tank 7.20s bruiser 5.25s carry 3.21s
+wave   Bloodthirster + Terminus dmg  2940  heal  246  time 0.92  autos  3  Q 0  melee 0.47s caster 0.92s
+group  Riftmaker + Terminus  dmg 10000  heal 1395  time 6.65  autos  9  Q 2  tank 6.65s bruiser 4.86s carry 3.21s
+wave   Riftmaker + Terminus  dmg  2940  heal   73  time 0.92  autos  3  Q 0  melee 0.47s caster 0.92s
+group  BotRK, no sixth       dmg 10000  heal 1102  time  7.6  autos 12  Q 2  tank 7.60s bruiser 5.68s carry 3.22s
+wave   BotRK, no sixth       dmg  2940  heal  213  time 0.93  autos  3  Q 0  melee 0.47s caster 0.93s
+group  Terminus, no lifesteal dmg 10000  heal  700  time  7.2  autos 11  Q 2  tank 7.20s bruiser 5.65s carry 3.21s
+wave   Terminus, no lifesteal dmg  2940  heal   41  time 0.92  autos  3  Q 0  melee 0.47s caster 0.92s
+
+SAME SIX ITEMS (BotRK + Terminus), rune page changes
+group  Alacrity              dmg 10000  heal  410  time  7.2  autos 10  Q 2  tank 7.20s bruiser 4.32s carry 3.11s
+4s     Alacrity              dmg  8187  heal  361  time  4.0  autos  7  Q 1  carry 3.11s
+wave   Alacrity              dmg  2940  heal  164  time 0.81  autos  3  Q 0  melee 0.41s caster 0.81s
+group  Bloodline             dmg 10000  heal 1109  time  7.2  autos 10  Q 2  tank 7.20s bruiser 4.37s carry 3.15s
+4s     Bloodline             dmg  8184  heal  934  time  4.0  autos  7  Q 1  carry 3.15s
+wave   Bloodline             dmg  2940  heal  205  time 0.85  autos  3  Q 0  melee 0.43s caster 0.85s
+group  Conqueror             dmg 10000  heal  633  time  7.2  autos 10  Q 2  tank 7.20s bruiser 4.38s carry 3.14s
+4s     Conqueror             dmg  8221  heal  507  time  4.0  autos  7  Q 1  carry 3.14s
+wave   Conqueror             dmg  2940  heal  164  time 0.81  autos  3  Q 0  melee 0.41s caster 0.81s
+group  items only            dmg 10000  heal  386  time  7.2  autos 10  Q 2  tank 7.20s bruiser 4.43s carry 3.18s
+4s     items only            dmg  7903  heal  344  time  4.0  autos  7  Q 1  carry 3.18s
+wave   items only            dmg  2940  heal  164  time 0.85  autos  3  Q 0  melee 0.43s caster 0.85s
+
+BUY-ORDER CHECKPOINTS, autos on one wave, lightning ready
+Scepter + boots              dmg  2846  heal  189  time 20.0  autos 26  Q 0  melee 13.58s  gold 2400
+Statikk + boots, no Scepter  dmg  2940  heal   41  time 9.03  autos 14  Q 0  melee 6.95s caster 9.03s  gold 4100
+Statikk + Scepter + boots    dmg  2940  heal  132  time 8.34  autos 13  Q 0  melee 6.25s caster 8.34s  gold 5300
+Statikk + Guinsoo + Scepter  dmg  2940  heal  122  time 4.48  autos  9  Q 0  melee 3.38s caster 4.48s  gold 8300
+Core three, Scepter still held dmg  2940  heal  141  time 1.52  autos  4  Q 0  melee 1.02s caster 1.52s  gold 10950
+Core + BotRK                 dmg  2940  heal  213  time 0.93  autos  3  Q 0  melee 0.47s caster 0.93s  gold 12850
+Core + BotRK + Terminus      dmg  2940  heal  205  time 0.85  autos  3  Q 0  melee 0.43s caster 0.85s  gold 15850
