@@ -73,6 +73,9 @@ class Item:
     ms: float = 0
     onhit_magic: float = 0
     onhit_pct_hp: float = 0  # physical, percent of current health
+    lifesteal: float = 0
+    magic_vamp: float = 0
+    rift: bool = False
     statikk: bool = False
     hurricane: bool = False
     guinsoo: bool = False
@@ -84,7 +87,10 @@ GREAVES = Item("Berserker's Greaves", 1200, as_pct=0.35)
 STATIKK = Item("Statikk Shiv", 2900, ad=40, ap=40, as_pct=0.30, ms=0.04, statikk=True)
 HURRICANE = Item("Runaan's Hurricane", 2650, as_pct=0.40, crit=0.25, ms=0.04, hurricane=True)
 GUINSOO = Item("Guinsoo's Rageblade", 3000, ad=35, ap=30, as_pct=0.30, onhit_magic=30, guinsoo=True)
-BORK = Item("Blade of the Ruined King", 3100, ad=40, as_pct=0.30, onhit_pct_hp=0.07)
+BORK = Item("Blade of the Ruined King", 3100, ad=40, as_pct=0.30, onhit_pct_hp=0.07, lifesteal=0.12)
+VAMP = Item("Vampiric Scepter", 1200, ad=20, lifesteal=0.08)
+BT = Item("Bloodthirster", 3200, ad=75, lifesteal=0.15)
+RIFT = Item("Riftmaker", 3100, ap=77, ah=15, magic_vamp=0.11, rift=True)
 YOUMUU = Item("Youmuu's Ghostblade", 2900, ad=55, ah=15, flat_pen=15, ms=0.04)
 DUSKBLADE = Item("Duskblade of Draktharr", 3000, ad=55, ah=10, flat_pen=18, duskblade=True)
 MANAMUNE = Item("Manamune", 2900, ad=40 + 0.02 * (BASE_MANA + 500), ah=15)
@@ -97,6 +103,7 @@ class Target:
     hp: float
     armor: float
     mr: float
+    minion: bool = False
 
 
 CARRY = Target("carry", 2100, 70, 42)
@@ -133,11 +140,27 @@ class Result:
     autos: int
     deaths: dict = field(default_factory=dict)
     by_source: dict = field(default_factory=dict)
+    healed: float = 0
+    finished: float = 0
 
 
-def loadout(items: list[Item]) -> dict:
+@dataclass
+class Mods:
+    """Empty mods keep the original fight numbers."""
+
+    lifesteal: float = 0.0
+    omnivamp: float = 0.0
+    bonus_as: float = 0.0
+    lethal: bool = False
+    brutal: bool = False
+    cut_down: bool = False
+    conqueror: bool = False
+    base_ad: float = BASE_AD
+
+
+def loadout(items: list[Item], base_ad: float = BASE_AD) -> dict:
     return {
-        "ad": BASE_AD + sum(i.ad for i in items),
+        "ad": base_ad + sum(i.ad for i in items),
         "bonus_ad": sum(i.ad for i in items),
         "ap": sum(i.ap for i in items),
         "crit": min(1.0, sum(i.crit for i in items)),
@@ -147,6 +170,9 @@ def loadout(items: list[Item]) -> dict:
         "as": sum(i.as_pct for i in items),
         "magic_onhit": sum(i.onhit_magic for i in items),
         "pct_hp": sum(i.onhit_pct_hp for i in items),
+        "lifesteal": sum(i.lifesteal for i in items),
+        "magic_vamp": sum(i.magic_vamp for i in items),
+        "rift": any(i.rift for i in items),
         "statikk": any(i.statikk for i in items),
         "hurricane": any(i.hurricane for i in items),
         "guinsoo": any(i.guinsoo for i in items),
@@ -171,8 +197,10 @@ def fight(
     spread: bool,
     energy: float,
     double_dip: bool = True,
+    mods: Mods | None = None,
 ) -> Result:
-    st = loadout(items)
+    mods = mods or Mods()
+    st = loadout(items, mods.base_ad)
     champs = [Champ(spec=t, hp=t.hp) for t in targets]
     rage = 0
     attacks = 0
@@ -181,7 +209,12 @@ def fight(
     pen_stacks = 0
     dusk_ready = 0.0
     w_active = True
-    sources = {"auto": 0.0, "bolt": 0.0, "onhit": 0.0, "statikk": 0.0, "arrow": 0.0, "blight": 0.0, "missing": 0.0, "e": 0.0}
+    healed = 0.0
+    tempo = 0
+    tempo_at = -10.0
+    conq = 0
+    conq_at = -10.0
+    sources = {"auto": 0.0, "bolt": 0.0, "onhit": 0.0, "statikk": 0.0, "arrow": 0.0, "blight": 0.0, "missing": 0.0, "e": 0.0, "tempo": 0.0, "brutal": 0.0}
     first_q_at = None
     t = 0.0
     next_auto = 0.0
@@ -193,9 +226,17 @@ def fight(
     def pct_pen() -> float:
         return 0.10 * pen_stacks if st["terminus"] else 0.0
 
-    def hurt(ch: Champ, amount: float, source: str, when: float, count_first: bool) -> None:
+    def hurt(
+        ch: Champ, amount: float, source: str, when: float, count_first: bool,
+        kind: str = "magic", attack: bool = False, aoe: bool = False,
+    ) -> None:
+        nonlocal healed
         if amount <= 0 or ch.hp <= 0:
             return
+        if st["rift"]:
+            amount *= 1.0 + min(0.08, 0.02 * int(when))
+        if mods.cut_down and not ch.spec.minion and ch.hp > 0.60 * ch.spec.hp:
+            amount *= 1.065
         dealt = min(ch.hp, amount)
         ch.hp -= dealt
         ch.dealt += dealt
@@ -204,6 +245,15 @@ def fight(
         sources[source] += dealt
         if count_first and first_q_at is not None and abs(when - first_q_at) < 1e-9:
             ch.first_q += dealt
+        rate = mods.lifesteal + st["lifesteal"] if attack else 0.0
+        if kind == "magic":
+            magic = st["magic_vamp"] * (1.0 / 3.0 if aoe else 1.0)
+            rate += magic if not ch.spec.minion else magic * 0.20
+        omni = mods.omnivamp + (0.05 if mods.conqueror and conq >= 6 and not ch.spec.minion else 0.0)
+        if st["rift"] and when >= 4.0:
+            omni += 0.06
+        rate += omni * (0.20 if ch.spec.minion else 1.0)
+        healed += dealt * rate
 
     def apply_blight(ch: Champ, when: float) -> None:
         if ch.hp <= 0:
@@ -219,18 +269,33 @@ def fight(
             hurt(ch, mitigate(st["magic_onhit"], ch.spec.mr, pct_pen(), 0), "onhit", when, count_first)
         if st["pct_hp"]:
             raw = max(15.0, st["pct_hp"] * ch.hp)
-            hurt(ch, mitigate(raw, ch.spec.armor, pct_pen(), st["pen"]), "onhit", when, count_first)
+            hurt(ch, mitigate(raw, ch.spec.armor, pct_pen(), st["pen"]), "onhit", when, count_first, "physical", True)
         apply_blight(ch, when)
 
+    def bonus_as() -> float:
+        stacks = tempo if t <= tempo_at + 6.0 else 0
+        return BASE_BONUS_AS + st["as"] + mods.bonus_as + (0.08 * rage if st["guinsoo"] else 0) + 0.064 * stacks
+
     def attack_speed() -> float:
-        bonus = BASE_BONUS_AS + st["as"] + (0.08 * rage if st["guinsoo"] else 0)
-        return BASE_AS_RATIO * (1.0 + bonus)
+        return min(3.0, BASE_AS_RATIO * (1.0 + bonus_as()))
 
     def do_auto(when: float) -> None:
-        nonlocal attacks, autos, rage, pen_stacks, energy, dusk_ready
+        nonlocal attacks, autos, rage, pen_stacks, energy, dusk_ready, tempo, tempo_at, conq, conq_at
         autos += 1
         attacks += 1
         since = attacks
+        primary = next(ch for ch in champs if ch.hp > 0)
+        if not primary.spec.minion:
+            if mods.lethal:
+                if when > tempo_at + 6.0:
+                    tempo = 0
+                tempo = min(6, tempo + 1)
+                tempo_at = when
+            if mods.conqueror:
+                if when > conq_at + 6.0:
+                    conq = 0
+                conq = min(6, conq + 1)
+                conq_at = when
         if st["guinsoo"]:
             rage = min(4, rage + 1)
         if st["terminus"]:
@@ -242,27 +307,32 @@ def fight(
         if energy > ENERGY_MAX:
             energy = ENERGY_MAX
 
-        primary = next(ch for ch in champs if ch.hp > 0)
         crit_mult = 1.0 + st["crit"] * (st["crit_dmg"] - 1.0)
-        physical = st["ad"] * crit_mult
-        if st["dusk"] and when >= dusk_ready:
+        ad_now = st["ad"] + (5.0 * max(0, conq - 1) if mods.conqueror and not primary.spec.minion else 0.0)
+        physical = ad_now * crit_mult
+        if mods.brutal and not primary.spec.minion:
+            physical += 5.0 + 0.06 * (ad_now - mods.base_ad) + 0.03 * st["ap"]
+        if st["dusk"] and when >= dusk_ready and not primary.spec.minion:
             physical += 160.0
             dusk_ready = when + 10.0
-        hurt(primary, mitigate(physical, primary.spec.armor, pct_pen(), st["pen"]), "auto", when, False)
+        if mods.lethal and tempo >= 6 and not primary.spec.minion:
+            physical += 24.0 * (1.0 + 0.67 * bonus_as())
+        hurt(primary, mitigate(physical, primary.spec.armor, pct_pen(), st["pen"]), "auto", when, False, "physical", True)
         on_hit(primary, when, False)
 
         secondaries = [ch for ch in champs if ch is not primary and ch.hp > 0] if spread else []
         bolted = []
         if st["hurricane"]:
             for ch in secondaries[:2]:
-                bolt = 0.55 * st["ad"] * crit_mult
-                hurt(ch, mitigate(bolt, ch.spec.armor, pct_pen(), st["pen"]), "bolt", when, False)
+                bolt = 0.55 * ad_now * crit_mult
+                hurt(ch, mitigate(bolt, ch.spec.armor, pct_pen(), st["pen"]), "bolt", when, False, "physical", True)
                 on_hit(ch, when, False)
                 bolted.append(ch)
         if energized:
             chain = [primary] + secondaries[:6]
             for ch in chain:
-                hurt(ch, mitigate(60.0, ch.spec.mr, pct_pen(), 0), "statikk", when, False)
+                spark = 90.0 if ch.spec.minion else 60.0
+                hurt(ch, mitigate(spark, ch.spec.mr, pct_pen(), 0), "statikk", when, False, "magic", False, True)
                 if ch is primary:
                     continue
                 if (not double_dip) and ch in bolted:
@@ -275,10 +345,18 @@ def fight(
                     on_hit(ch, when, False)
 
     def release(kind: str, when: float) -> None:
-        nonlocal q_ready, e_ready, since_q, first_q_at, arrows, w_active
+        nonlocal q_ready, e_ready, since_q, first_q_at, arrows, w_active, conq, conq_at
         living = [ch for ch in champs if ch.hp > 0]
         if not living:
             return
+        if mods.conqueror and any(not ch.spec.minion for ch in living):
+            if when > conq_at + 6.0:
+                conq = 0
+            spell_ad = 5.0 * conq
+            conq = min(6, conq + 1)
+            conq_at = when
+        else:
+            spell_ad = 0.0
         count_first = first_q_at is None and kind == "Q"
         if count_first:
             first_q_at = when
@@ -293,24 +371,24 @@ def fight(
                 ch.first_stacks = stacks
             before = ch.hp
             if kind == "Q":
-                arrow = (Q_BASE + Q_AD * st["ad"]) * Q_CHARGE
+                arrow = (Q_BASE + Q_AD * (st["ad"] + spell_ad)) * Q_CHARGE
                 arrow *= max(Q_MIN_MULT, 1.0 - Q_FALLOFF * index)
-                hurt(ch, mitigate(arrow, ch.spec.armor, pct_pen(), st["pen"]), "arrow", when, count_first)
+                hurt(ch, mitigate(arrow, ch.spec.armor, pct_pen(), st["pen"]), "arrow", when, count_first, "physical")
                 if stacks:
                     pct = (BLIGHT_PCT + BLIGHT_AP * st["ap"]) * stacks * Q_CHARGE
-                    hurt(ch, mitigate(pct * ch.spec.hp, ch.spec.mr, pct_pen(), 0), "blight", when, count_first)
+                    hurt(ch, mitigate(pct * ch.spec.hp, ch.spec.mr, pct_pen(), 0), "blight", when, count_first, "magic")
                 # W is on a 25s cooldown, so one arrow in this fight carries it.
                 # 18% is already the full-charge value.
                 if w_active:
                     missing = ch.spec.hp - before
                     if missing > 0:
-                        hurt(ch, mitigate(0.18 * missing, ch.spec.mr, pct_pen(), 0), "missing", when, count_first)
+                        hurt(ch, mitigate(0.18 * missing, ch.spec.mr, pct_pen(), 0), "missing", when, count_first, "magic")
             else:
-                raw = E_BASE + E_BONUS_AD * st["bonus_ad"]
-                hurt(ch, mitigate(raw, ch.spec.armor, pct_pen(), st["pen"]), "e", when, False)
+                raw = E_BASE + E_BONUS_AD * (st["bonus_ad"] + spell_ad)
+                hurt(ch, mitigate(raw, ch.spec.armor, pct_pen(), st["pen"]), "e", when, False, "physical", False, True)
                 if stacks:
                     pct = (BLIGHT_PCT + BLIGHT_AP * st["ap"]) * stacks
-                    hurt(ch, mitigate(pct * ch.spec.hp, ch.spec.mr, pct_pen(), 0), "blight", when, False)
+                    hurt(ch, mitigate(pct * ch.spec.hp, ch.spec.mr, pct_pen(), 0), "blight", when, False, "magic", False, True)
             if stacks:
                 refund += min(REFUND_CAP, REFUND_PER_STACK * stacks) * hasted
                 ch.blight = 0
@@ -337,7 +415,9 @@ def fight(
         q_up = q_ready <= t and t + Q_CHANNEL <= seconds + 1e-9
         e_up = e_ready <= t and t + E_CAST <= seconds + 1e-9
         cast = None
-        if policy == "commit" and st["spread_items"]:
+        if policy == "farm":
+            cast = None
+        elif policy == "commit" and st["spread_items"]:
             if q_up and (primary_stacks >= BLIGHT_CAP or t + Q_CHANNEL >= seconds - 0.05):
                 cast = "Q"
             elif e_up and not q_up and primary_stacks >= BLIGHT_CAP:
@@ -389,6 +469,8 @@ def fight(
         autos=autos,
         deaths={ch.spec.name: None if ch.died is None else round(ch.died, 2) for ch in champs},
         by_source={k: round(v) for k, v in sources.items()},
+        healed=round(healed),
+        finished=round(t, 2),
     )
 
 

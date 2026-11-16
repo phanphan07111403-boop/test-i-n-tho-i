@@ -1,0 +1,141 @@
+{
+  "BotRK + Terminus": {
+    "group_damage": 10000,
+    "group_heal": 1109,
+    "group_deaths": {
+      "tank": 7.2,
+      "bruiser": 4.37,
+      "carry": 3.15
+    },
+    "wave_time": 0.85,
+    "wave_heal": 205,
+    "gold": 15850
+  },
+  "BotRK + Bloodthirster": {
+    "group_damage": 10000,
+    "group_heal": 1650,
+    "group_deaths": {
+      "tank": 7.2,
+      "bruiser": 5.28,
+      "carry": 3.22
+    },
+    "wave_time": 0.93,
+    "wave_heal": 474,
+    "gold": 16050
+  },
+  "Bloodthirster + Terminus": {
+    "group_damage": 10000,
+    "group_heal": 1088,
+    "group_deaths": {
+      "tank": 7.2,
+      "bruiser": 5.25,
+      "carry": 3.21
+    },
+    "wave_time": 0.92,
+    "wave_heal": 246,
+    "gold": 15950
+  },
+  "Riftmaker + Terminus": {
+    "group_damage": 10000,
+    "group_heal": 1395,
+    "group_deaths": {
+      "tank": 6.65,
+      "bruiser": 4.86,
+      "carry": 3.21
+    },
+    "wave_time": 0.92,
+    "wave_heal": 73,
+    "gold": 15850
+  },
+  "BotRK, no sixth": {
+    "group_damage": 10000,
+    "group_heal": 1102,
+    "group_deaths": {
+      "tank": 7.6,
+      "bruiser": 5.68,
+      "carry": 3.22
+    },
+    "wave_time": 0.93,
+    "wave_heal": 213,
+    "gold": 12850
+  },
+  "Terminus, no lifesteal": {
+    "group_damage": 10000,
+    "group_heal": 700,
+    "group_deaths": {
+      "tank": 7.2,
+      "bruiser": 5.65,
+      "carry": 3.21
+    },
+    "wave_time": 0.92,
+    "wave_heal": 41,
+    "gold": 12750
+  },
+  "rune Alacrity": {
+    "group_damage": 10000,
+    "group_heal": 410,
+    "four_damage": 8187,
+    "four_heal": 361,
+    "wave_time": 0.81,
+    "wave_heal": 164
+  },
+  "rune Bloodline": {
+    "group_damage": 10000,
+    "group_heal": 1109,
+    "four_damage": 8184,
+    "four_heal": 934,
+    "wave_time": 0.85,
+    "wave_heal": 205
+  },
+  "rune Conqueror": {
+    "group_damage": 10000,
+    "group_heal": 633,
+    "four_damage": 8221,
+    "four_heal": 507,
+    "wave_time": 0.81,
+    "wave_heal": 164
+  },
+  "rune items only": {
+    "group_damage": 10000,
+    "group_heal": 386,
+    "four_damage": 7903,
+    "four_heal": 344,
+    "wave_time": 0.85,
+    "wave_heal": 164
+  },
+  "step Scepter + boots": {
+    "wave_time": 20.0,
+    "wave_heal": 189,
+    "gold": 2400
+  },
+  "step Statikk + boots, no Scepter": {
+    "wave_time": 9.03,
+    "wave_heal": 41,
+    "gold": 4100
+  },
+  "step Statikk + Scepter + boots": {
+    "wave_time": 8.34,
+    "wave_heal": 132,
+    "gold": 5300
+  },
+  "step Statikk + Guinsoo + Scepter": {
+    "wave_time": 4.48,
+    "wave_heal": 122,
+    "gold": 8300
+  },
+  "step Core three, Scepter still held": {
+    "wave_time": 1.52,
+    "wave_heal": 141,
+    "gold": 10950
+  },
+  "step Core + BotRK": {
+    "wave_time": 0.93,
+    "wave_heal": 213,
+    "gold": 12850
+  },
+  "step Core + BotRK + Terminus": {
+    "wave_time": 0.85,
+    "wave_heal": 205,
+    "gold": 15850
+  }
+}

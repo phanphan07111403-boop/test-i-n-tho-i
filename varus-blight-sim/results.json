@@ -27,7 +27,9 @@
       "arrow": 408,
       "blight": 331,
       "missing": 24,
-      "e": 142
+      "e": 142,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -64,7 +66,9 @@
       "arrow": 1210,
       "blight": 2567,
       "missing": 46,
-      "e": 635
+      "e": 635,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -101,7 +105,9 @@
       "arrow": 1495,
       "blight": 3014,
       "missing": 100,
-      "e": 176
+      "e": 176,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -138,7 +144,9 @@
       "arrow": 748,
       "blight": 2610,
       "missing": 27,
-      "e": 811
+      "e": 811,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -175,7 +183,9 @@
       "arrow": 748,
       "blight": 458,
       "missing": 9,
-      "e": 317
+      "e": 317,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -206,7 +216,9 @@
       "arrow": 451,
       "blight": 355,
       "missing": 28,
-      "e": 160
+      "e": 160,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -243,7 +255,9 @@
       "arrow": 827,
       "blight": 761,
       "missing": 34,
-      "e": 359
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -280,7 +294,9 @@
       "arrow": 827,
       "blight": 1269,
       "missing": 50,
-      "e": 359
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -317,7 +333,9 @@
       "arrow": 827,
       "blight": 492,
       "missing": 8,
-      "e": 359
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -354,7 +372,9 @@
       "arrow": 827,
       "blight": 492,
       "missing": 11,
-      "e": 359
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -385,7 +405,9 @@
       "arrow": 402,
       "blight": 323,
       "missing": 21,
-      "e": 139
+      "e": 139,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -422,7 +444,9 @@
       "arrow": 736,
       "blight": 2547,
       "missing": 31,
-      "e": 796
+      "e": 796,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -459,7 +483,9 @@
       "arrow": 1928,
       "blight": 3228,
       "missing": 93,
-      "e": 0
+      "e": 0,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -496,7 +522,9 @@
       "arrow": 736,
       "blight": 2547,
       "missing": 31,
-      "e": 796
+      "e": 796,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -533,7 +561,9 @@
       "arrow": 736,
       "blight": 447,
       "missing": 8,
-      "e": 312
+      "e": 312,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -564,7 +594,9 @@
       "arrow": 457,
       "blight": 331,
       "missing": 35,
-      "e": 163
+      "e": 163,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -601,7 +633,9 @@
       "arrow": 838,
       "blight": 710,
       "missing": 55,
-      "e": 365
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -638,7 +672,9 @@
       "arrow": 838,
       "blight": 1016,
       "missing": 83,
-      "e": 365
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -675,7 +711,9 @@
       "arrow": 838,
       "blight": 458,
       "missing": 15,
-      "e": 365
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -712,7 +750,9 @@
       "arrow": 838,
       "blight": 458,
       "missing": 17,
-      "e": 365
+      "e": 365,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -743,7 +783,9 @@
       "arrow": 613,
       "blight": 200,
       "missing": 0,
-      "e": 222
+      "e": 222,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -780,7 +822,9 @@
       "arrow": 1067,
       "blight": 276,
       "missing": 0,
-      "e": 475
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -817,7 +861,9 @@
       "arrow": 1067,
       "blight": 276,
       "missing": 0,
-      "e": 475
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -854,7 +900,9 @@
       "arrow": 1067,
       "blight": 276,
       "missing": 0,
-      "e": 475
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -891,7 +939,9 @@
       "arrow": 1067,
       "blight": 276,
       "missing": 0,
-      "e": 475
+      "e": 475,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -922,7 +972,9 @@
       "arrow": 451,
       "blight": 355,
       "missing": 31,
-      "e": 160
+      "e": 160,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -959,7 +1011,9 @@
       "arrow": 1338,
       "blight": 2831,
       "missing": 64,
-      "e": 836
+      "e": 836,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -996,7 +1050,9 @@
       "arrow": 2165,
       "blight": 3133,
       "missing": 140,
-      "e": 0
+      "e": 0,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1033,7 +1089,9 @@
       "arrow": 827,
       "blight": 2726,
       "missing": 38,
-      "e": 917
+      "e": 917,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1070,7 +1128,9 @@
       "arrow": 827,
       "blight": 492,
       "missing": 12,
-      "e": 359
+      "e": 359,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1101,7 +1161,9 @@
       "arrow": 500,
       "blight": 355,
       "missing": 41,
-      "e": 181
+      "e": 181,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1138,7 +1200,9 @@
       "arrow": 917,
       "blight": 761,
       "missing": 63,
-      "e": 406
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1175,7 +1239,9 @@
       "arrow": 917,
       "blight": 1269,
       "missing": 96,
-      "e": 406
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1212,7 +1278,9 @@
       "arrow": 917,
       "blight": 492,
       "missing": 17,
-      "e": 406
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1249,7 +1317,9 @@
       "arrow": 917,
       "blight": 492,
       "missing": 19,
-      "e": 406
+      "e": 406,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1280,7 +1350,9 @@
       "arrow": 716,
       "blight": 200,
       "missing": 0,
-      "e": 266
+      "e": 266,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1317,7 +1389,9 @@
       "arrow": 1246,
       "blight": 276,
       "missing": 0,
-      "e": 569
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1354,7 +1428,9 @@
       "arrow": 1246,
       "blight": 276,
       "missing": 0,
-      "e": 569
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1391,7 +1467,9 @@
       "arrow": 1246,
       "blight": 276,
       "missing": 0,
-      "e": 569
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1428,7 +1506,9 @@
       "arrow": 1246,
       "blight": 276,
       "missing": 0,
-      "e": 569
+      "e": 569,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1459,7 +1539,9 @@
       "arrow": 515,
       "blight": 211,
       "missing": 39,
-      "e": 204
+      "e": 204,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1496,7 +1578,9 @@
       "arrow": 1290,
       "blight": 3064,
       "missing": 84,
-      "e": 750
+      "e": 750,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1533,7 +1617,9 @@
       "arrow": 1778,
       "blight": 3005,
       "missing": 214,
-      "e": 120
+      "e": 120,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1570,7 +1656,9 @@
       "arrow": 959,
       "blight": 2587,
       "missing": 52,
-      "e": 870
+      "e": 870,
+      "tempo": 0,
+      "brutal": 0
     }
   },
   {
@@ -1607,7 +1695,9 @@
       "arrow": 959,
       "blight": 565,
       "missing": 16,
-      "e": 477
+      "e": 477,
+      "tempo": 0,
+      "brutal": 0
     }
   }
 ]
