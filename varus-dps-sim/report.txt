@@ -1,0 +1,125 @@
+Wild Rift 7.3 — Varus on-hit vs crit
+Data source: local wr-7.3-db (no live web fetch).
+Window: 8s all-in, Lethal Tempo + Alacrity + Cut Down (tanks) + Coup de Grace.
+On-hit weaves E then short Q on 3 Blight. Crit charges Q (~1.2s) on 3 Blight.
+Goal: late-game scale, DPS still rising after each purchase.
+
+========================================================================
+WINNERS
+========================================================================
+On-hit 1v1:       On-hit BotRK → Rageblade → Terminus → Kraken → BT
+On-hit teamfight: On-hit BotRK → Rageblade → Runaan → Terminus → BT
+Crit 1v1:         Crit Yun Tal → IE → RFC → LDR → BT
+Crit teamfight:   Crit Yun Tal → IE → Runaan → LDR → BT
+
+Minute   on-hit squishy/tank DPS   items                                   crit squishy/tank   winner
+--------------------------------------------------------------------------------------------------------------
+04      133/    118                                                  121/    107  ONHIT/ONHIT
+06      253/    234  Blade of the Ruined King                        220/    173  ONHIT/ONHIT
+08      308/    272  Blade of the Ruined King, Berserker's Grea      281/    210  ONHIT/ONHIT
+10      338/    292  Blade of the Ruined King, Berserker's Grea      316/    230  ONHIT/ONHIT
+12      318/    287  Blade of the Ruined King, Berserker's Grea      297/    224  ONHIT/ONHIT
+14      447/    377  Blade of the Ruined King, Berserker's Grea      431/    306  ONHIT/ONHIT
+16      463/    386  Blade of the Ruined King, Berserker's Grea      436/    298  ONHIT/ONHIT
+18      650/    522  Blade of the Ruined King, Berserker's Grea      594/    389  ONHIT/ONHIT
+20      641/    509  Blade of the Ruined King, Berserker's Grea      582/    368  ONHIT/ONHIT
+22      842/    614  Blade of the Ruined King, Berserker's Grea      891/    709  CRIT/CRIT
+24      830/    599  Blade of the Ruined King, Berserker's Grea      881/    676  CRIT/CRIT
+
+Item spikes — on-hit winner
+  06:00  Blade of the Ruined King  |  squishy DPS 253  tank DPS 234
+  08:00  Blade of the Ruined King, Berserker's Greaves  |  squishy DPS 308  tank DPS 272
+  13:00  Blade of the Ruined King, Berserker's Greaves, Guinsoo's Rageblade  |  squishy DPS 451  tank DPS 384
+  17:00  Blade of the Ruined King, Berserker's Greaves, Guinsoo's Rageblade, Terminus  |  squishy DPS 655  tank DPS 528
+  22:00  Blade of the Ruined King, Berserker's Greaves, Guinsoo's Rageblade, Terminus, Kraken Slayer  |  squishy DPS 842  tank DPS 614
+
+Item spikes — crit winner
+  06:00  Yun Tal Wildarrows  |  squishy DPS 220  tank DPS 173
+  08:00  Yun Tal Wildarrows, Berserker's Greaves  |  squishy DPS 281  tank DPS 210
+  14:00  Yun Tal Wildarrows, Berserker's Greaves, Infinity Edge  |  squishy DPS 431  tank DPS 306
+  18:00  Yun Tal Wildarrows, Berserker's Greaves, Infinity Edge, Rapid Firecannon  |  squishy DPS 594  tank DPS 389
+  22:00  Yun Tal Wildarrows, Berserker's Greaves, Infinity Edge, Rapid Firecannon, Lord Dominik's Regards  |  squishy DPS 891  tank DPS 709
+
+========================================================================
+LATE GAME (24:00)
+========================================================================
+On-hit vs squishy: 830 DPS  TTK 3.0s  AS 2.473  AD 279.0
+Crit   vs squishy: 881 DPS  TTK 3.35s  AS 2.2  crit 100%  AD 284.0
+On-hit vs tank:    599 DPS  TTK 7.8s
+Crit   vs tank:    676 DPS  TTK 7.0s
+
+TTK is the fight metric (time to drop the target to 0). 8s DPS includes overkill after they die.
+
+Scaling (DPS through the game)
+On-hit [onhit_bork_rage_term]
+  squishy   6:00 253 → 14:00 447 → 24:00 830  (has a dip)  x3.27 from 6:00
+  tank      6:00 234 → 14:00 377 → 24:00 599  (rising)  x2.56 from 6:00
+  item spikes rising? squishy=True  tank=True
+Crit [crit_yuntal_ie_rfc]
+  squishy   6:00 220 → 14:00 431 → 24:00 881  (has a dip)  x4.01 from 6:00
+  tank      6:00 173 → 14:00 306 → 24:00 676  (has a dip)  x3.90 from 6:00
+  item spikes rising? squishy=True  tank=True
+Minute-to-minute dips between purchases are the enemy gaining HP/armor, not your items falling off.
+
+========================================================================
+VERDICT
+========================================================================
+Until LDR (~22:00) on-hit BotRK is ahead vs both targets: %HP + Blight + Rageblade phantom.
+Late vs squishy TTK: on-hit still faster (3.00s vs 3.35s). Crit's higher 8s DPS (881 vs 830) is mostly overkill after the kill.
+Late vs tank TTK: crit + LDR wins (7.00s vs 7.80s) — 100% crit at 230% crit damage plus 35% armor pen.
+For games that end 15–20 min, buy on-hit. For 1v1 games that reach 5 items, Crit Yun Tal → IE → RFC → LDR → BT is the 7.3 scaler.
+Highest 24:00 ceiling is Yun Tal → Hexoptics → IE (943/728 DPS) because Hexoptics is 55 AD, but it delays Infinity Edge ~4 min, so the mid-game curve is worse.
+
+Crit 8s-DPS lead vs squishy holds from: 22:00
+Crit 8s-DPS lead vs tank holds from:    22:00
+Crit TTK lead vs squishy holds from:    never (on-hit kills squishies faster)
+Crit TTK lead vs tank holds from:       22:00
+
+Play pattern
+- On-hit: auto to 3 Blight → E detonate → auto to 3 → short Q. Terminus dark stacks for 30% pen.
+- Crit: keep autos up, charge Q on 3 Blight. Yun Tal needs ~125 autos (≈10 min of farming) to finish 25% crit.
+- Do not mix: Rageblade phantom is the on-hit engine; IE wants 100% crit. 7.3 removed Rageblade's crit tax but phantom still does not replace IE.
+
+========================================================================
+TEAMFIGHT — 2 extra targets (Runaan / Statikk / new 7.3 crit)
+========================================================================
+Same 8s window, 2 extra bodies. Chain of Corruption hits the clump at 0.25s
+and infects extras at 2.0s; first E/Q waits for that spread. Hexoptics uses max
+distance amp. Fiendhunter Opening Barrage after R: +50% AS and 3 special crits.
+
+Teamfight on-hit pick: On-hit BotRK → Rageblade → Runaan → Terminus → BT
+Teamfight crit pick:   Crit Yun Tal → IE → Runaan → LDR → BT
+
+On-hit paths 24:00  |  1v1 squishy/tank  |  3-target AoE
+  1v1    830/   599   3v    1010/   726   On-hit Kraken → Rageblade → Terminus → BotRK → BT
+  1v1    830/   599   3v    1010/   726   On-hit BotRK → Rageblade → Terminus → Kraken → BT  ← 1v1
+  1v1    758/   563   3v    1075/   811   On-hit Statikk → Rageblade → Terminus → BotRK → BT
+  1v1    750/   563   3v    1702/  1325   On-hit BotRK → Rageblade → Runaan → Terminus → BT  ← teamfight
+  1v1    758/   563   3v    1075/   811   On-hit BotRK → Rageblade → Statikk → Terminus → BT
+  1v1    766/   480   3v    1814/  1116   On-hit Statikk → Rageblade → Runaan → Terminus → BT
+  1v1    805/   493   3v    1678/  1032   On-hit Kraken → Rageblade → Runaan → Terminus → BT
+
+Crit paths 24:00  |  1v1 squishy/tank  |  3-target AoE
+  1v1    881/   676   3v    1049/   821   Crit Yun Tal → IE → RFC → LDR → BT  ← 1v1
+  1v1    866/   667   3v    1034/   813   Crit Yun Tal → IE → PD → LDR → BT
+  1v1    840/   643   3v     964/   754   Crit Stormrazor → IE → RFC → LDR → BT
+  1v1    943/   728   3v    1099/   867   Crit Yun Tal → Hexoptics → IE → LDR → BT
+  1v1    863/   664   3v    1815/  1383   Crit Yun Tal → IE → Runaan → LDR → BT  ← teamfight
+  1v1    864/   665   3v    1127/   904   Crit Yun Tal → IE → Fiendhunter → LDR → BT
+  1v1    668/   396   3v    1611/   972   Crit Yun Tal → IE → Runaan → Fiendhunter → BT
+  1v1    745/   444   3v    1641/   977   Crit Yun Tal → Hexoptics → IE → Runaan → BT
+  1v1    745/   444   3v    1032/   655   Crit Yun Tal → Hexoptics → IE → Fiendhunter → LDR
+  1v1    840/   643   3v    1644/  1252   Crit Stormrazor → IE → Runaan → LDR → BT
+  1v1    840/   644   3v    1103/   883   Crit Stormrazor → IE → Fiendhunter → LDR → BT
+  1v1    853/   656   3v    1056/   832   Crit Stormrazor → Hexoptics → IE → LDR → BT
+  1v1    652/   386   3v    1385/   826   Crit Yun Tal → IE → RFC → Runaan → BT
+  1v1    797/   615   3v    1009/   794   Crit Hexoptics → IE → RFC → LDR → BT
+  1v1    756/   600   3v     933/   722   Crit Collector → IE → RFC → LDR → BT
+  1v1    721/   556   3v     984/   774   Crit Yun Tal → IE → Navori → LDR → BT
+  1v1    892/   686   3v    1009/   793   Crit Yun Tal → IE → Galeforce → LDR → BT
+  1v1    879/   678   3v     999/   786   Crit Yun Tal → Shieldbow → IE → LDR → BT
+  1v1    714/   422   3v     869/   532   Crit Yun Tal → Stormrazor → IE → RFC → LDR
+
+24:00 teamfight AoE: on-hit 1702/1325  vs crit 1815/1383
+Runaan is the clump item for both styles (bolts crit + apply W). Fiendhunter is the
+ult window. Shieldbow / Galeforce are survival, not DPS. RFC is 1v1 range, not splash.

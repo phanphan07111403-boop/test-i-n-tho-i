@@ -1,0 +1,2138 @@
+{
+  "patch": "7.3",
+  "source": "WR China PBE notes (2026-09-01) merged onto live 7.3 global notes",
+  "note": "Attack-speed fields are the 7.3 per-champion ratios. Durability fields only appear when 7.3 changed them. Ability kits are stored separately for champions that have a full entry.",
+  "champions": {
+    "Garen": {
+      "id": "garen",
+      "name": "Garen",
+      "stats": {
+        "base_hp": 690,
+        "base_armor": 44,
+        "armor_growth": 5,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 690
+        },
+        "base_armor": {
+          "from": 52,
+          "to": 44
+        },
+        "armor_growth": {
+          "from": 5.8,
+          "to": 5
+        }
+      }
+    },
+    "Aatrox": {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "stats": {
+        "armor_growth": 5,
+        "extra:Base Magic Resistance": 36,
+        "as_ratio": 0.651,
+        "base_as": 0.651,
+        "base_bonus_as": 0.13,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {
+        "armor_growth": {
+          "from": 4.5,
+          "to": 5
+        },
+        "extra:Base Magic Resistance": {
+          "from": 40,
+          "to": 36
+        }
+      }
+    },
+    "Rengar": {
+      "id": "rengar",
+      "name": "Rengar",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 136,
+        "as_ratio": 0.667,
+        "base_as": 0.667,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.023
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 136
+        }
+      }
+    },
+    "Amumu": {
+      "id": "amumu",
+      "name": "Amumu",
+      "stats": {
+        "hp_growth": 114,
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 104,
+          "to": 114
+        }
+      }
+    },
+    "Nunu & Willump": {
+      "id": "nunu_&_willump",
+      "name": "Nunu & Willump",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 124,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.0122
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 124
+        }
+      }
+    },
+    "Ekko": {
+      "id": "ekko",
+      "name": "Ekko",
+      "stats": {
+        "base_hp": 650,
+        "hp_growth": 126,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.031
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 650
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 126
+        }
+      }
+    },
+    "Kha'Zix": {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "stats": {
+        "base_hp": 640,
+        "hp_growth": 128,
+        "as_ratio": 0.668,
+        "base_as": 0.668,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.0185
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 640
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 128
+        }
+      }
+    },
+    "Xin Zhao": {
+      "id": "xin_zhao",
+      "name": "Xin Zhao",
+      "stats": {
+        "base_hp": 650,
+        "armor_growth": 4.7,
+        "hp_growth": 130,
+        "as_ratio": 0.645,
+        "base_as": 0.645,
+        "base_bonus_as": 0.24,
+        "as_growth": 0.025
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 650
+        },
+        "armor_growth": {
+          "from": 4.3,
+          "to": 4.7
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Hecarim": {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "stats": {
+        "base_armor": 42,
+        "armor_growth": 5.4,
+        "hp_growth": 130,
+        "as_ratio": 0.67,
+        "base_as": 0.67,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {
+        "base_armor": {
+          "from": 46,
+          "to": 42
+        },
+        "armor_growth": {
+          "from": 5,
+          "to": 5.4
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Braum": {
+      "id": "braum",
+      "name": "Braum",
+      "stats": {
+        "base_hp": 630,
+        "base_armor": 46,
+        "hp_growth": 136,
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.16,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 630
+        },
+        "base_armor": {
+          "from": 52,
+          "to": 46
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 136
+        }
+      }
+    },
+    "Jhin": {
+      "id": "jhin",
+      "name": "Jhin",
+      "stats": {
+        "base_hp": 630,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.06,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 600,
+          "to": 630
+        }
+      }
+    },
+    "Evelynn": {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "stats": {
+        "base_hp": 630,
+        "as_ratio": 0.667,
+        "base_as": 0.667,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 600,
+          "to": 630
+        }
+      }
+    },
+    "Akali": {
+      "id": "akali",
+      "name": "Akali",
+      "stats": {
+        "hp_growth": 150,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 140,
+          "to": 150
+        }
+      }
+    },
+    "Pantheon": {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "stats": {
+        "base_hp": 660,
+        "base_armor": 48,
+        "hp_growth": 132,
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "base_armor": {
+          "from": 52,
+          "to": 48
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 132
+        }
+      }
+    },
+    "Fiora": {
+      "id": "fiora",
+      "name": "Fiora",
+      "stats": {
+        "base_hp": 630,
+        "base_armor": 42,
+        "armor_growth": 4.8,
+        "hp_growth": 130,
+        "as_ratio": 0.69,
+        "base_as": 0.69,
+        "base_bonus_as": 0.16,
+        "as_growth": 0.026
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 650,
+          "to": 630
+        },
+        "base_armor": {
+          "from": 46,
+          "to": 42
+        },
+        "armor_growth": {
+          "from": 4.3,
+          "to": 4.8
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Blitzcrank": {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "stats": {
+        "base_hp": 630,
+        "base_armor": 45,
+        "hp_growth": 135,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.006
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "base_armor": {
+          "from": 49,
+          "to": 45
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 135
+        }
+      }
+    },
+    "Jax": {
+      "id": "jax",
+      "name": "Jax",
+      "stats": {
+        "base_hp": 660,
+        "base_armor": 44,
+        "hp_growth": 130,
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.15,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "base_armor": {
+          "from": 46,
+          "to": 44
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Vi": {
+      "id": "vi",
+      "name": "Vi",
+      "stats": {
+        "base_hp": 660,
+        "base_armor": 42,
+        "hp_growth": 130,
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.24,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "base_armor": {
+          "from": 46,
+          "to": 42
+        },
+        "hp_growth": {
+          "from": 112,
+          "to": 130
+        }
+      }
+    },
+    "Rakan": {
+      "id": "rakan",
+      "name": "Rakan",
+      "stats": {
+        "base_armor": 42,
+        "base_hp": 640,
+        "hp_growth": 120,
+        "as_ratio": 0.635,
+        "base_as": 0.635,
+        "base_bonus_as": 0.18,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {
+        "base_armor": {
+          "from": 49,
+          "to": 42
+        },
+        "base_hp": {
+          "from": 660,
+          "to": 640
+        },
+        "hp_growth": {
+          "from": 112,
+          "to": 120
+        }
+      }
+    },
+    "Gwen": {
+      "id": "gwen",
+      "name": "Gwen",
+      "stats": {
+        "base_hp": 640,
+        "base_armor": 48,
+        "hp_growth": 136,
+        "as_ratio": 0.69,
+        "base_as": 0.69,
+        "base_bonus_as": 0.16,
+        "as_growth": 0.026
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 640
+        },
+        "base_armor": {
+          "from": 52,
+          "to": 48
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 136
+        }
+      }
+    },
+    "Camille": {
+      "id": "camille",
+      "name": "Camille",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 132,
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.24,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 132
+        }
+      }
+    },
+    "Jarvan IV": {
+      "id": "jarvan_iv",
+      "name": "Jarvan IV",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 130,
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Viego": {
+      "id": "viego",
+      "name": "Viego",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 138,
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.025
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 138
+        }
+      }
+    },
+    "Lee Sin": {
+      "id": "lee_sin",
+      "name": "Lee Sin",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 132,
+        "as_ratio": 0.651,
+        "base_as": 0.651,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 132
+        }
+      }
+    },
+    "Kennen": {
+      "id": "kennen",
+      "name": "Kennen",
+      "stats": {
+        "base_hp": 600,
+        "hp_growth": 130,
+        "as_ratio": 0.69,
+        "base_as": 0.69,
+        "base_bonus_as": 0.09,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 600
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Dr. Mundo": {
+      "id": "dr._mundo",
+      "name": "Dr. Mundo",
+      "stats": {
+        "base_hp": 680,
+        "hp_growth": 120,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 720,
+          "to": 680
+        },
+        "hp_growth": {
+          "from": 112,
+          "to": 120
+        }
+      }
+    },
+    "Rammus": {
+      "id": "rammus",
+      "name": "Rammus",
+      "stats": {
+        "base_hp": 670,
+        "base_armor": 45,
+        "hp_growth": 124,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.0185
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 670
+        },
+        "base_armor": {
+          "from": 49,
+          "to": 45
+        },
+        "hp_growth": {
+          "from": 112,
+          "to": 124
+        }
+      }
+    },
+    "Zeri": {
+      "id": "zeri",
+      "name": "Zeri",
+      "stats": {
+        "base_hp": 600,
+        "hp_growth": 136,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 600
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 136
+        }
+      }
+    },
+    "Master Yi": {
+      "id": "master_yi",
+      "name": "Master Yi",
+      "stats": {
+        "hp_growth": 130,
+        "as_ratio": 0.679,
+        "base_as": 0.679,
+        "base_bonus_as": 0.18,
+        "as_growth": 0.018
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Yone": {
+      "id": "yone",
+      "name": "Yone",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 130,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 650,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Darius": {
+      "id": "darius",
+      "name": "Darius",
+      "stats": {
+        "base_hp": 660,
+        "base_armor": 45,
+        "hp_growth": 148,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.008
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 650,
+          "to": 660
+        },
+        "base_armor": {
+          "from": 52,
+          "to": 45
+        },
+        "hp_growth": {
+          "from": 144,
+          "to": 148
+        }
+      }
+    },
+    "Alistar": {
+      "id": "alistar",
+      "name": "Alistar",
+      "stats": {
+        "base_hp": 700,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 720,
+          "to": 700
+        }
+      }
+    },
+    "Aurora": {
+      "id": "aurora",
+      "name": "Aurora",
+      "stats": {
+        "hp_growth": 132,
+        "as_ratio": 0.668,
+        "base_as": 0.668,
+        "base_bonus_as": 0.12,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 132
+        }
+      }
+    },
+    "Kassadin": {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "stats": {
+        "base_hp": 650,
+        "hp_growth": 132,
+        "as_ratio": 0.64,
+        "base_as": 0.64,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.027
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 650
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 132
+        }
+      }
+    },
+    "Graves": {
+      "id": "graves",
+      "name": "Graves",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 136,
+        "as_ratio": 0.7,
+        "base_as": 0.7,
+        "base_bonus_as": 0,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 136
+        }
+      }
+    },
+    "Poppy": {
+      "id": "poppy",
+      "name": "Poppy",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 136,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 136
+        }
+      }
+    },
+    "Draven": {
+      "id": "draven",
+      "name": "Draven",
+      "stats": {
+        "base_hp": 650,
+        "hp_growth": 132,
+        "as_ratio": 0.679,
+        "base_as": 0.679,
+        "base_bonus_as": 0.11,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 650
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 132
+        }
+      }
+    },
+    "Malphite": {
+      "id": "malphite",
+      "name": "Malphite",
+      "stats": {
+        "hp_growth": 130,
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.04
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Gragas": {
+      "id": "gragas",
+      "name": "Gragas",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 140,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.013
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 720,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 140
+        }
+      }
+    },
+    "Riven": {
+      "id": "riven",
+      "name": "Riven",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 125,
+        "base_armor": 43,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 125
+        },
+        "base_armor": {
+          "from": 46,
+          "to": 43
+        }
+      }
+    },
+    "Irelia": {
+      "id": "irelia",
+      "name": "Irelia",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 138,
+        "as_ratio": 0.656,
+        "base_as": 0.656,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 138
+        }
+      }
+    },
+    "Katarina": {
+      "id": "katarina",
+      "name": "Katarina",
+      "stats": {
+        "base_hp": 660,
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.018
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 630,
+          "to": 660
+        }
+      }
+    },
+    "Skarner": {
+      "id": "skarner",
+      "name": "Skarner",
+      "stats": {
+        "base_hp": 660,
+        "hp_growth": 132,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.005
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 690,
+          "to": 660
+        },
+        "hp_growth": {
+          "from": 128,
+          "to": 132
+        }
+      }
+    },
+    "Shen": {
+      "id": "shen",
+      "name": "Shen",
+      "stats": {
+        "hp_growth": 124,
+        "as_ratio": 0.651,
+        "base_as": 0.651,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.0367
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 112,
+          "to": 124
+        }
+      }
+    },
+    "Galio": {
+      "id": "galio",
+      "name": "Galio",
+      "stats": {
+        "base_hp": 630,
+        "hp_growth": 148,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.007
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 660,
+          "to": 630
+        },
+        "hp_growth": {
+          "from": 144,
+          "to": 148
+        }
+      }
+    },
+    "Lissandra": {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "stats": {
+        "hp_growth": 130,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 130
+        }
+      }
+    },
+    "Senna": {
+      "id": "senna",
+      "name": "Senna",
+      "stats": {
+        "base_hp": 570,
+        "as_ratio": 0.4,
+        "base_as": 0.4,
+        "base_bonus_as": 0.6,
+        "as_growth": 0.05
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 600,
+          "to": 570
+        }
+      }
+    },
+    "Nautilus": {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "stats": {
+        "base_hp": 690,
+        "as_ratio": 0.612,
+        "base_as": 0.612,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.0124
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 720,
+          "to": 690
+        }
+      }
+    },
+    "Thresh": {
+      "id": "thresh",
+      "name": "Thresh",
+      "stats": {
+        "hp_growth": 140,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 140
+        }
+      }
+    },
+    "Ornn": {
+      "id": "ornn",
+      "name": "Ornn",
+      "stats": {
+        "base_hp": 690,
+        "hp_growth": 132,
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {
+        "base_hp": {
+          "from": 720,
+          "to": 690
+        },
+        "hp_growth": {
+          "from": 120,
+          "to": 132
+        }
+      }
+    },
+    "Nocturne": {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "stats": {
+        "hp_growth": 134,
+        "as_ratio": 0.721,
+        "base_as": 0.721,
+        "base_bonus_as": 0.11,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {
+        "hp_growth": {
+          "from": 120,
+          "to": 134
+        }
+      }
+    },
+    "Lux": {
+      "id": "lux",
+      "name": "Lux",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Kayn": {
+      "id": "kayn",
+      "name": "Kayn",
+      "stats": {
+        "as_ratio": 0.67,
+        "base_as": 0.67,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.018
+      },
+      "changes_7_3": {}
+    },
+    "Karma": {
+      "id": "karma",
+      "name": "Karma",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.0135
+      },
+      "changes_7_3": {}
+    },
+    "Wukong": {
+      "id": "wukong",
+      "name": "Wukong",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {}
+    },
+    "Vayne": {
+      "id": "vayne",
+      "name": "Vayne",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Orianna": {
+      "id": "orianna",
+      "name": "Orianna",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {}
+    },
+    "Diana": {
+      "id": "diana",
+      "name": "Diana",
+      "stats": {
+        "as_ratio": 0.694,
+        "base_as": 0.694,
+        "base_bonus_as": 0.15,
+        "as_growth": 0.008
+      },
+      "changes_7_3": {}
+    },
+    "Zoe": {
+      "id": "zoe",
+      "name": "Zoe",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {}
+    },
+    "Tryndamere": {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "stats": {
+        "as_ratio": 0.725,
+        "base_as": 0.725,
+        "base_bonus_as": 0.1,
+        "as_growth": 0.025
+      },
+      "changes_7_3": {}
+    },
+    "Jinx": {
+      "id": "jinx",
+      "name": "Jinx",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.3,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Yuumi": {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.006
+      },
+      "changes_7_3": {}
+    },
+    "Aurelion Sol": {
+      "id": "aurelion_sol",
+      "name": "Aurelion Sol",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.004
+      },
+      "changes_7_3": {}
+    },
+    "Syndra": {
+      "id": "syndra",
+      "name": "Syndra",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.015
+      },
+      "changes_7_3": {}
+    },
+    "Twisted Fate": {
+      "id": "twisted_fate",
+      "name": "Twisted Fate",
+      "stats": {
+        "as_ratio": 0.651,
+        "base_as": 0.651,
+        "base_bonus_as": 0.15,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Kai'Sa": {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "stats": {
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {}
+    },
+    "Nilah": {
+      "id": "nilah",
+      "name": "Nilah",
+      "stats": {
+        "as_ratio": 0.67,
+        "base_as": 0.67,
+        "base_bonus_as": 0.21,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Morgana": {
+      "id": "morgana",
+      "name": "Morgana",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.005
+      },
+      "changes_7_3": {}
+    },
+    "Seraphine": {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.669,
+        "base_bonus_as": 0.12,
+        "as_growth": 0.017
+      },
+      "changes_7_3": {}
+    },
+    "Mordekaiser": {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.008
+      },
+      "changes_7_3": {}
+    },
+    "Annie": {
+      "id": "annie",
+      "name": "Annie",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.006
+      },
+      "changes_7_3": {}
+    },
+    "Yasuo": {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "stats": {
+        "as_ratio": 0.67,
+        "base_as": 0.67,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.04
+      },
+      "changes_7_3": {}
+    },
+    "Ahri": {
+      "id": "ahri",
+      "name": "Ahri",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Zed": {
+      "id": "zed",
+      "name": "Zed",
+      "stats": {
+        "as_ratio": 0.651,
+        "base_as": 0.651,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {}
+    },
+    "Kayle": {
+      "id": "kayle",
+      "name": "Kayle",
+      "stats": {
+        "as_ratio": 0.667,
+        "base_as": 0.667,
+        "base_bonus_as": 0.13,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {}
+    },
+    "Lucian": {
+      "id": "lucian",
+      "name": "Lucian",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.028
+      },
+      "changes_7_3": {}
+    },
+    "Leona": {
+      "id": "leona",
+      "name": "Leona",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {}
+    },
+    "Tristana": {
+      "id": "tristana",
+      "name": "Tristana",
+      "stats": {
+        "as_ratio": 0.694,
+        "base_as": 0.694,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Teemo": {
+      "id": "teemo",
+      "name": "Teemo",
+      "stats": {
+        "as_ratio": 0.69,
+        "base_as": 0.69,
+        "base_bonus_as": 0.09,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Sona": {
+      "id": "sona",
+      "name": "Sona",
+      "stats": {
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Lulu": {
+      "id": "lulu",
+      "name": "Lulu",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.013
+      },
+      "changes_7_3": {}
+    },
+    "Shyvana": {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Xayah": {
+      "id": "xayah",
+      "name": "Xayah",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.034
+      },
+      "changes_7_3": {}
+    },
+    "Twitch": {
+      "id": "twitch",
+      "name": "Twitch",
+      "stats": {
+        "as_ratio": 0.679,
+        "base_as": 0.679,
+        "base_bonus_as": 0.18,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Volibear": {
+      "id": "volibear",
+      "name": "Volibear",
+      "stats": {
+        "as_ratio": 0.7,
+        "base_as": 0.7,
+        "base_bonus_as": 0.05,
+        "as_growth": 0.014
+      },
+      "changes_7_3": {}
+    },
+    "Corki": {
+      "id": "corki",
+      "name": "Corki",
+      "stats": {
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {}
+    },
+    "Zyra": {
+      "id": "zyra",
+      "name": "Zyra",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Nasus": {
+      "id": "nasus",
+      "name": "Nasus",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {}
+    },
+    "Miss Fortune": {
+      "id": "miss_fortune",
+      "name": "Miss Fortune",
+      "stats": {
+        "as_ratio": 0.656,
+        "base_as": 0.656,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {}
+    },
+    "Sett": {
+      "id": "sett",
+      "name": "Sett",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Kindred": {
+      "id": "kindred",
+      "name": "Kindred",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {}
+    },
+    "Maokai": {
+      "id": "maokai",
+      "name": "Maokai",
+      "stats": {
+        "as_ratio": 0.695,
+        "base_as": 0.695,
+        "base_bonus_as": 0.15,
+        "as_growth": 0.029
+      },
+      "changes_7_3": {}
+    },
+    "Janna": {
+      "id": "janna",
+      "name": "Janna",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {}
+    },
+    "Gnar": {
+      "id": "gnar",
+      "name": "Gnar",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.015
+      },
+      "changes_7_3": {}
+    },
+    "Ashe": {
+      "id": "ashe",
+      "name": "Ashe",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Zilean": {
+      "id": "zilean",
+      "name": "Zilean",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.017
+      },
+      "changes_7_3": {}
+    },
+    "Ambessa": {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Nidalee": {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.18,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {}
+    },
+    "Fizz": {
+      "id": "fizz",
+      "name": "Fizz",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {}
+    },
+    "Ziggs": {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "stats": {
+        "as_ratio": 0.656,
+        "base_as": 0.656,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.014
+      },
+      "changes_7_3": {}
+    },
+    "Cho'Gath": {
+      "id": "chogath",
+      "name": "Cho'Gath",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.008
+      },
+      "changes_7_3": {}
+    },
+    "Vladimir": {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.0165
+      },
+      "changes_7_3": {}
+    },
+    "Nami": {
+      "id": "nami",
+      "name": "Nami",
+      "stats": {
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.17,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Varus": {
+      "id": "varus",
+      "name": "Varus",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.03,
+        "base_hp": 600,
+        "hp_growth": 128,
+        "base_ad": 58,
+        "ad_growth": 4.0,
+        "base_armor": 35,
+        "armor_growth": 4.5,
+        "base_mr": 30,
+        "mr_growth": 1.4,
+        "base_mana": 390,
+        "mana_growth": 33,
+        "attack_range": 575
+      },
+      "changes_7_3": {
+        "base_ad": {
+          "from": 54,
+          "to": 58
+        }
+      },
+      "kit": "see varus.json"
+    },
+    "Singed": {
+      "id": "singed",
+      "name": "Singed",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Soraka": {
+      "id": "soraka",
+      "name": "Soraka",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Ezreal": {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {}
+    },
+    "Akshan": {
+      "id": "akshan",
+      "name": "Akshan",
+      "stats": {
+        "as_ratio": 0.4,
+        "base_as": 0.45,
+        "base_bonus_as": 0.67,
+        "as_growth": 0.04
+      },
+      "changes_7_3": {}
+    },
+    "Jayce": {
+      "id": "jayce",
+      "name": "Jayce",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.22,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {}
+    },
+    "Urgot": {
+      "id": "urgot",
+      "name": "Urgot",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.031
+      },
+      "changes_7_3": {}
+    },
+    "Samira": {
+      "id": "samira",
+      "name": "Samira",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Bard": {
+      "id": "bard",
+      "name": "Bard",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.015
+      },
+      "changes_7_3": {}
+    },
+    "Olaf": {
+      "id": "olaf",
+      "name": "Olaf",
+      "stats": {
+        "as_ratio": 0.694,
+        "base_as": 0.694,
+        "base_bonus_as": 0.06,
+        "as_growth": 0.0326
+      },
+      "changes_7_3": {}
+    },
+    "Sivir": {
+      "id": "sivir",
+      "name": "Sivir",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.3,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Milio": {
+      "id": "milio",
+      "name": "Milio",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.022
+      },
+      "changes_7_3": {}
+    },
+    "Kog'Maw": {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "stats": {
+        "as_ratio": 0.665,
+        "base_as": 0.665,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.03
+      },
+      "changes_7_3": {}
+    },
+    "Caitlyn": {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.04
+      },
+      "changes_7_3": {}
+    },
+    "Rell": {
+      "id": "rell",
+      "name": "Rell",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Brand": {
+      "id": "brand",
+      "name": "Brand",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.0185
+      },
+      "changes_7_3": {}
+    },
+    "Renekton": {
+      "id": "renekton",
+      "name": "Renekton",
+      "stats": {
+        "as_ratio": 0.665,
+        "base_as": 0.665,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.024
+      },
+      "changes_7_3": {}
+    },
+    "Veigar": {
+      "id": "veigar",
+      "name": "Veigar",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.014
+      },
+      "changes_7_3": {}
+    },
+    "Pyke": {
+      "id": "pyke",
+      "name": "Pyke",
+      "stats": {
+        "as_ratio": 0.667,
+        "base_as": 0.667,
+        "base_bonus_as": 0.13,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {}
+    },
+    "Sion": {
+      "id": "sion",
+      "name": "Sion",
+      "stats": {
+        "as_ratio": 0.679,
+        "base_as": 0.679,
+        "base_bonus_as": 0.18,
+        "as_growth": 0.006
+      },
+      "changes_7_3": {}
+    },
+    "Swain": {
+      "id": "swain",
+      "name": "Swain",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Heimerdinger": {
+      "id": "heimerdinger",
+      "name": "Heimerdinger",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Talon": {
+      "id": "talon",
+      "name": "Talon",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.015
+      },
+      "changes_7_3": {}
+    },
+    "Vel'Koz": {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Warwick": {
+      "id": "warwick",
+      "name": "Warwick",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Fiddlesticks": {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012
+      },
+      "changes_7_3": {}
+    },
+    "Kalista": {
+      "id": "kalista",
+      "name": "Kalista",
+      "stats": {
+        "as_ratio": 0.694,
+        "base_as": 0.694,
+        "base_bonus_as": 0.16,
+        "as_growth": 0.046
+      },
+      "changes_7_3": {}
+    },
+    "Lillia": {
+      "id": "lillia",
+      "name": "Lillia",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Ryze": {
+      "id": "ryze",
+      "name": "Ryze",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.018
+      },
+      "changes_7_3": {}
+    },
+    "Smolder": {
+      "id": "smolder",
+      "name": "Smolder",
+      "stats": {
+        "as_ratio": 0.638,
+        "base_as": 0.638,
+        "base_bonus_as": 0.25,
+        "as_growth": 0.031
+      },
+      "changes_7_3": {}
+    },
+    "Mel": {
+      "id": "mel",
+      "name": "Mel",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Rumble": {
+      "id": "rumble",
+      "name": "Rumble",
+      "stats": {
+        "as_ratio": 0.644,
+        "base_as": 0.644,
+        "base_bonus_as": 0.24,
+        "as_growth": 0.016
+      },
+      "changes_7_3": {}
+    },
+    "Vex": {
+      "id": "vex",
+      "name": "Vex",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Viktor": {
+      "id": "viktor",
+      "name": "Viktor",
+      "stats": {
+        "as_ratio": 0.658,
+        "base_as": 0.658,
+        "base_bonus_as": 0.14,
+        "as_growth": 0.02
+      },
+      "changes_7_3": {}
+    },
+    "Taliyah": {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.01
+      },
+      "changes_7_3": {}
+    },
+    "Yunara": {
+      "id": "yunara",
+      "name": "Yunara",
+      "stats": {
+        "as_ratio": 0.65,
+        "base_as": 0.65,
+        "base_bonus_as": 0.23,
+        "as_growth": 0.032
+      },
+      "changes_7_3": {}
+    },
+    "K'Sante": {
+      "id": "ksante",
+      "name": "K'Sante",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.28,
+        "as_growth": 0.021
+      },
+      "changes_7_3": {}
+    },
+    "Norra": {
+      "id": "norra",
+      "name": "Norra",
+      "stats": {
+        "as_ratio": 0.625,
+        "base_as": 0.625,
+        "base_bonus_as": 0.2,
+        "as_growth": 0.012,
+        "extra:These are the important contents of this Public Beta Environment update, thank you for your support of \"League of Legends": "Wild Rift\", and we wish you a happy game\\!",
+        "extra:\"League of Legends": "Wild Rift\" Operations Team"
+      },
+      "changes_7_3": {}
+    }
+  }
+}

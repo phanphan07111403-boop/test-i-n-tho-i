@@ -1,0 +1,59 @@
+{
+  "patch": "7.3",
+  "date": "2026-09-22",
+  "title": "Spotlight Moment / marksman overhaul",
+  "system": {
+    "crit_damage": 2.0,
+    "attack_speed_cap": 3.0,
+    "as_ratio_split": "per_champion",
+    "new_stat": "lifesteal",
+    "replaced_stat": "omnivamp_and_physical_vamp_on_listed_items",
+    "lifesteal_replaces_vamp_on": [
+      "mercurial_scimitar",
+      "vampiric_scepter",
+      "bloodthirster",
+      "blade_of_the_ruined_king",
+      "gunmetal_greaves"
+    ],
+    "new_champions": [
+      "Hwei",
+      "Sylas",
+      "Rek'Sai"
+    ],
+    "removed_items": [
+      "Magnetic Blaster",
+      "Soul Transfer",
+      "Cloak of Agility",
+      "Nashor's Talon",
+      "Surging Scales",
+      "Stinger",
+      "Shimmering Spark",
+      "Ingenious Hunter (rune)",
+      "Legend: Tenacity (rune)"
+    ],
+    "new_items": [
+      "Pickaxe",
+      "Hearthbound Axe",
+      "Hexoptics C44",
+      "Yun Tal Wildarrows",
+      "Stormrazor",
+      "Rapid Firecannon",
+      "Fiendhunter Bolts",
+      "Immortal Shieldbow",
+      "Statikk Shiv",
+      "Bandleglass Mirror",
+      "Whispering Circlet",
+      "Diadem of Songs",
+      "Echoes of Helia"
+    ],
+    "armor_formula": "100 / (100 + armor)",
+    "mr_formula": "100 / (100 + mr)",
+    "pen_order": "flat_lethality_then_percent_pen"
+  },
+  "sources": [
+    "https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-7-3/",
+    "https://wrchina.gg/patch-notes/",
+    "https://www.wildriftfire.com/guide/varus",
+    "https://wiki.leagueoflegends.com/en-us/WR:Varus"
+  ]
+}
