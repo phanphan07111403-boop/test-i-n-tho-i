@@ -1,0 +1,150 @@
+==============================================================================
+SENNA — AGGRESSIVE DARK HARVEST PEAK SIM (Wild Rift Patch 7.2+)
+Playstyle: dive / skirmish / force <50% / takedown resets
+Game length: 20:00 | Role: aggressive ADC / flex carry (NOT poke support)
+==============================================================================
+
+GOLD / LEVEL / MIST (aggression=1.2 reference)
+  Min    Gold  Lvl  Mist~  TargetHP
+    1     880    2      6       698
+    2    1260    3     12       766
+    3    1640    4     18       834
+    4    2020    5     25       902
+    5    2580    6     35       970
+    6    3140    7     45      1038
+    7    3700    8     55      1106
+    8    4260    9     65      1174
+    9    4820   10     75      1242
+   10    5380   10     85      1260
+   11    6060   11     97      1328
+   12    6740   12    109      1396
+   13    7420   12    121      1414
+   14    8100   13    133      1482
+   15    8780   13    145      1500
+   16    9460   14    157      1568
+   17   10140   14    169      1586
+   18   10820   15    181      1654
+   19   11500   15    194      1672
+   20   12180   15    206      1690
+
+------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (peak execute × DH farm)
+------------------------------------------------------------------------------
+   1:00 | peak     138 | DH   1 souls (   28 dmg) | agg 1.00 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword
+         Mist 6 | DH souls 1
+   2:00 | peak     183 | DH   2 souls (   34 dmg) | agg 1.00 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Boots of Speed
+         Mist 12 | DH souls 2
+   3:00 | peak     204 | DH   4 souls (   47 dmg) | agg 1.00 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Boots of Speed
+         Mist 18 | DH souls 4
+   4:00 | peak     259 | DH   5 souls (   53 dmg) | agg 1.00 | Magnetic → IE → Collector (Crit Peak)
+         items: Long Sword › Boots of Speed › Cloak of Agility
+         Mist 24 | DH souls 5
+   5:00 | peak     341 | DH   8 souls (   77 dmg) | agg 1.00 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Boots of Speed › Serrated Dirk
+         Mist 33 | DH souls 8
+   6:00 | peak     406 | DH  10 souls (   90 dmg) | agg 1.00 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Boots of Speed › Serrated Dirk
+         Mist 43 | DH souls 10
+   7:00 | peak     498 | DH  16 souls (  130 dmg) | agg 1.20 | Umbral → Draktharr → Collector (Roam)
+         items: Long Sword › Boots of Speed › Umbral Glaive
+         Mist 55 | DH souls 16
+   8:00 | peak     778 | DH  35 souls (  260 dmg) | agg 1.34 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Boots of Speed › Duskblade of Draktharr
+         Nightstalker resets, MAX AGGRESSION, Mist 67 | DH souls 35
+   9:00 | peak     901 | DH  41 souls (  315 dmg) | agg 1.34 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism
+         Nightstalker resets, MAX AGGRESSION, Mist 77 | DH souls 41
+  10:00 | peak    1014 | DH  46 souls (  351 dmg) | agg 1.34 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › Pickaxe
+         Nightstalker resets, MAX AGGRESSION, Mist 88 | DH souls 46
+  11:00 | peak    1186 | DH  53 souls (  426 dmg) | agg 1.34 | Draktharr → Serpent → Serylda (Assassin)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › Serrated Dirk
+         Nightstalker resets, MAX AGGRESSION, Mist 100 | DH souls 53
+  12:00 | peak    1134 | DH  68 souls (  430 dmg) | agg 1.45 | Manamune → Draktharr → Collector (Q Poke)
+         items: Muramana › Boots of Dynamism › Duskblade of Draktharr
+         Nightstalker resets, Muramana Shock Q, MAX AGGRESSION, Mist 116 | DH souls 68
+  13:00 | peak    1301 | DH  71 souls (  481 dmg) | agg 1.40 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 127 | DH souls 71
+  14:00 | peak    1363 | DH  78 souls (  518 dmg) | agg 1.40 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 140 | DH souls 78
+  15:00 | peak    1432 | DH  85 souls (  562 dmg) | agg 1.40 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector › Cloak of Agility
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 152 | DH souls 85
+  16:00 | peak    1492 | DH  92 souls (  597 dmg) | agg 1.40 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector › Cloak of Agility
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 165 | DH souls 92
+  17:00 | peak    1824 | DH 105 souls (  740 dmg) | agg 1.45 | Umbral → Draktharr → Collector (Roam)
+         items: Long Sword › Umbral Glaive › Boots of Dynamism › Duskblade of Draktharr › The Collector
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 180 | DH souls 105
+  18:00 | peak    1888 | DH 113 souls (  782 dmg) | agg 1.45 | Umbral → Draktharr → Collector (Roam)
+         items: Long Sword › Umbral Glaive › Boots of Dynamism › Duskblade of Draktharr › The Collector › …
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 193 | DH souls 113
+  19:00 | peak    1970 | DH 121 souls (  835 dmg) | agg 1.45 | Umbral → Draktharr → Collector (Roam)
+         items: Long Sword › Umbral Glaive › Boots of Dynamism › Duskblade of Draktharr › The Collector › …
+         RESET ENGINE (Drak+Collector), MAX AGGRESSION, Mist 206 | DH souls 121
+  20:00 | peak    2112 | DH 128 souls (  899 dmg) | agg 1.45 | Draktharr → Collector → Magnetic (DH Farm)
+         items: Long Sword › Duskblade of Draktharr › Boots of Dynamism › The Collector › Magnetic Blaster › …
+         RESET ENGINE (Drak+Collector), range farm, MAX AGGRESSION, Mist 218 | DH souls 128
+
+------------------------------------------------------------------------------
+BUILD COMPARISON — peak execute / DH souls @ spikes
+------------------------------------------------------------------------------
+  Build                                         8pk   12pk   16pk   20pk  DH20   Score
+  Draktharr → Collector → Magnetic (DH Farm)    778   1042   1492   2112   128    3471
+  Manamune → Draktharr → Collector (Q Poke)     525   1134   1378   1916   128    3071
+  Manamune → Magnetic → Collector (Range Farm)    525    761    928   1659   121    2353
+  Draktharr → Serpent → Serylda (Assassin)      778   1095   1610   2364   114    3228
+  Magnetic → IE → Collector (Crit Peak)         486    678   1022   1807    98    1928
+  Umbral → Draktharr → Collector (Roam)         590    802   1432   2044   128    2981
+  Essence → Magnetic → Collector (Spellblade)    544    667    933   1595   113    2020
+  Draktharr → Cleaver → Collector (Shred)       778   1022   1338   2184   121    3149
+
+------------------------------------------------------------------------------
+VERDICT — MOST DAMAGE PEAK + MAX DARK HARVEST FARM
+------------------------------------------------------------------------------
+  Winner: Draktharr → Collector → Magnetic (DH Farm)
+  Aggression-weighted score: 3471
+  DH souls @ 20:00: 128 | Peak execute @ 20: 2112
+  Draktharr online: ~8:00 (Nightstalker + takedown reset)
+  Collector online: ~13:00 (execute floor → more resets)
+  Magnetic Blaster online: ~18:00 (range to farm DH safely)
+
+  WHY AGGRESSIVE DH SENNA PEAKS THIS WAY:
+  • Dark Harvest only procs below 50% — you must FORCE fights, not poke forever
+  • Takedown resets CD to 1s — each kill snowballs souls HARD
+  • Draktharr Nightstalker = dive burst + reset on takedown (soul printer)
+  • Collector execute = finishes that create more DH resets
+  • Magnetic / range tools keep you alive to chain the next <50% proc
+  • Mist AD (1.25/stack) feeds both autos and the 10% bonus AD on DH
+  • This is NOT support poke Senna — aggression > safe Q poke for souls
+
+  RECOMMENDED PURCHASE ORDER (aggressive DH Senna, 20-min):
+  1) Duskblade of Draktharr — FIRST spike, start reset chaining
+  2) Boots of Dynamism
+  3) The Collector — execute floor, more takedown resets
+  4) Magnetic Blaster — range to keep farming DH after you get focused
+  5) Serylda's Grudge
+  6) Infinity Edge
+
+  PLAY PATTERN TO MAX DH SOULS:
+  • Look for 2v2 / river fights early — every takedown = free soul
+  • COMBO: AA → Q (not Q → AA) — see COMBO ORDER below
+  • After first kill, immediately look for next <50% target (1s CD)
+  • Wraiths from kills = Mist AD = stronger DH (10% bonus AD)
+  • Trap: pure crit IE path — higher paper late DPS, fewer early resets
+  • Trap: Manamune-first — safer poke, slower reset engine vs Drak rush
+  • Trap: playing like enchanter Senna — you will starve Dark Harvest
+
+  COMBO ORDER — AA → Q IS BETTER (aggressive):
+  • Living Extraction: 1st hit marks, 2nd hit consumes for Mist + % current HP
+  • AA marks → Q consumes while HP is still high → MORE extraction damage
+  • Q → AA burns HP with Q first → consume hits lower current HP → less Mist damage
+  • Q applies on-hits, so AA→Q packs Relic Cannon + Extraction + Muramana Shock on Q
+  • After Q, keep autoing — each AA refunds 1s Q CD for the next trade
+  • Use Q → AA only when you need max-range poke/heal and AA cannot reach yet
+==============================================================================
