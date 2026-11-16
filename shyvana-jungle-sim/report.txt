@@ -1,0 +1,169 @@
+====================================================================================
+SHYVANA JUNGLE — LATE-GAME COUNTER-META  (Wild Rift Patch 7.3d/f)
+Playstyle: full-clear scaler → 12s dragon-form teamfight frontline
+Metric: delivered fight power = mix damage × (alive / 12s)  |  60% tank / 40% carry
+Goal: counter tanky meta AND still win late (post–Ocean 10% nerf)
+====================================================================================
+
+GOLD / LEVEL / STACKS / TARGETS
+  Min    Gold  Lvl  Stacks   Tank HP  Tank Arm  Carry HP
+    1     880    2      16       950        46       822
+    5    2540    5      32      1295        56      1155
+    8    4100    8      83      1820        66      1476
+   10    5140    9      99      2115        87      1595
+   12    6300   10     150      2410       108      1714
+   15    8040   12     170      2910       141      1940
+   18    9860   14     233      3410       175      2166
+   20   11100   14     249      3590       193      2190
+   22   12340   15     300      3885       214      2309
+   25   14200   15     320      4155       228      2345
+
+------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL (late-power score: shred + survive)
+------------------------------------------------------------------------------------
+   1:00 | power     765 | mix    1468 | alive  6.2s | tank-dmg    1452 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword
+         pre-core
+   2:00 | power     899 | mix    1640 | alive  6.6s | tank-dmg    1618 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword
+         pre-core
+   4:00 | power    1874 | mix    2514 | alive  8.9s | tank-dmg    2463 | Kraken → TF → BotRK → Hex → Randuin
+         items: Long Sword › BF Sword
+         pre-core
+   5:00 | power    1710 | mix    2516 | alive  8.2s | tank-dmg    2463 | Kraken → TF → BotRK → Hex → Randuin
+         items: Long Sword › BF Sword
+         pre-core
+   6:00 | power    1964 | mix    2815 | alive  8.4s | tank-dmg    2753 | Kraken → TF → BotRK → Hex → Randuin
+         items: Long Sword › BF Sword › Recurve Bow
+         pre-core
+   8:00 | power    3580 | mix    4243 | alive 10.1s | tank-dmg    4157 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force
+         spellblade
+   9:00 | power    3893 | mix    4373 | alive 10.7s | tank-dmg    4238 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Boots
+         spellblade
+  10:00 | power    3617 | mix    4323 | alive 10.0s | tank-dmg    4151 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Boots
+         spellblade
+  12:00 | power    4180 | mix    4821 | alive 10.4s | tank-dmg    4494 | TF → Shojin → DD → Hex → BotRK
+         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem
+         spellblade
+  13:00 | power    4337 | mix    4939 | alive 10.5s | tank-dmg    4537 | TF → Shojin → DD → Hex → BotRK
+         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem
+         spellblade
+  14:00 | power    4812 | mix    5407 | alive 10.7s | tank-dmg    5026 | TF → Shojin → DD → Hex → BotRK
+         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem › Pickaxe
+         spellblade
+  16:00 | power    6721 | mix    7793 | alive 10.3s | tank-dmg    7541 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Blade of the Ruined King
+         %HP shred, spellblade
+  17:00 | power    6538 | mix    7913 | alive  9.9s | tank-dmg    7560 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Blade of the Ruined King › Long Sword
+         %HP shred, spellblade
+  18:00 | power    7250 | mix    7366 | alive 11.8s | tank-dmg    6926 | TF → BotRK → Twin → FoN → DD
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Chain Vest › …
+         %HP shred, spellblade
+  20:00 | power    7008 | mix    7008 | alive 12.0s | tank-dmg    6656 | TF → BotRK → Twin → FoN → DD
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Chain Vest › …
+         %HP shred, spellblade
+  21:00 | power    8728 | mix    8810 | alive 11.9s | tank-dmg    8164 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance
+         %HP shred, brawl tank, spellblade
+  22:00 | power    9938 | mix   10205 | alive 11.7s | tank-dmg    9944 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance
+         %HP shred, scorch TRUE, brawl tank, spellblade
+  24:00 | power   10190 | mix   10190 | alive 12.0s | tank-dmg    9897 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance › …
+         %HP shred, scorch TRUE, brawl tank, spellblade
+  25:00 | power   10269 | mix   10269 | alive 12.0s | tank-dmg   10016 | TF → BotRK → DD → FoN → Twin
+         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance › …
+         %HP shred, scorch TRUE, brawl tank, spellblade
+
+------------------------------------------------------------------------------------
+BUILD COMPARISON — LATE POWER @ spikes
+------------------------------------------------------------------------------------
+  Build                                      10:00   15:00   20:00   25:00  EffLate Alive25
+  TF → BotRK → DD → FoN → Twin                3617    4452    6335   10269     6741    12.0
+  TF → Shojin → DD → Hex → BotRK              3617    4517    5862    9177     5998    11.5
+  TF → BotRK → Eclipse → Serylda → Wit        3617    4716    6990   10042     6382     8.6
+  Dusk → Nashor → Liandry → Rift → Shojin     3183    3478    5636    8359     5037     9.0
+  TF → Nashor → Liandry → Cap → Twin          3617    4110    5534    7433     5319     8.9
+  Sunderer → BotRK → DD → Twin → FoN          2926    3753    5444    9057     5874    12.0
+  Kraken → TF → BotRK → Hex → Randuin         3274    3932    5642   10161     5888     9.1
+  TF → BotRK → Twin → FoN → DD                3617    4452    7008    9045     6484    12.0
+  Dusk → Cap → Liandry → Nashor → Rift        3183    3476    3185    4486     3297     6.7
+
+------------------------------------------------------------------------------------
+TANK SHRED (raw 12s window dmg vs tank) @ 15 / 20 / 25
+------------------------------------------------------------------------------------
+  TF → BotRK → DD → FoN → Twin                4959    6974   10016
+  TF → BotRK → Twin → FoN → DD                4959    6656    8973
+  TF → BotRK → Eclipse → Serylda → Wit        5325    8689   14185
+  TF → Shojin → DD → Hex → BotRK              4882    5852    8980
+  Kraken → TF → BotRK → Hex → Randuin         4802    6642   13236
+  Sunderer → BotRK → DD → Twin → FoN          4365    6214    9008
+  TF → Nashor → Liandry → Cap → Twin          4779    6264    9774
+  Dusk → Nashor → Liandry → Rift → Shojin     4580    6964   10851
+  Dusk → Cap → Liandry → Nashor → Rift        4565    4888    7988
+
+------------------------------------------------------------------------------------
+SURVIVE TIME IN DIVE (seconds of 12s window) @ 15 / 20 / 25
+------------------------------------------------------------------------------------
+  TF → BotRK → DD → FoN → Twin                 9.8    10.3    12.0
+  TF → BotRK → Twin → FoN → DD                 9.8    12.0    12.0
+  TF → BotRK → Eclipse → Serylda → Wit         9.7     9.4     8.6
+  TF → Shojin → DD → Hex → BotRK              10.2    10.8    11.5
+  Kraken → TF → BotRK → Hex → Randuin          9.2     9.3     9.1
+  Sunderer → BotRK → DD → Twin → FoN           9.8    10.2    12.0
+  TF → Nashor → Liandry → Cap → Twin           9.5     9.6     8.9
+  Dusk → Nashor → Liandry → Rift → Shojin      8.5     9.1     9.0
+  Dusk → Cap → Liandry → Nashor → Rift         8.5     7.2     6.7
+
+------------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------------
+  Best path (counter meta + win late): TF → BotRK → DD → FoN → Twin
+  Late-weighted avg: 6741 | 25:00 late-power: 10269
+  Spellblade core online: ~8:00
+  Anti-tank shred online:  ~16:00  (BotRK or Liandry)
+  Brawl tank item online:  ~21:00
+
+  WHY LATE-GAME META NEEDS SHRED + SURVIVE:
+  • Patch 7.3d cut Ocean dragon omnivamp 20% → 10%. Pure damage
+    builds no longer outheal dive pressure in a full 12s form.
+  • Meta frontlines stack HP/armor. Without BotRK (Q double on-hit)
+    or Liandry (2% max HP/s), dragon form tickles tanks.
+  • Flame Breath ratios were buffed (50% AD + 80% AP; dragon E
+    100%/100%). AP burn paths gained real late DPS — but still
+    need a tank item or they get deleted by Lillia/Yi/assassins.
+  • Scorch becomes TRUE damage at 300 Draconic stacks — dragons
+    are still the win condition; itemization must keep you alive
+    long enough to auto the marked target.
+
+  vs runner-up (TF → BotRK → Twin → FoN → DD):
+    25:00 late-power 10269 vs 9045 (+14%)
+  vs anti-tank glass (TF → BotRK → Eclipse → Serylda → Wit):
+    20:00 6335 vs 6990 (-9%) | 25:00 10269 vs 10042 (+2%)
+    alive 25:00 12.0s vs 8.6s — glass shreds harder on paper (14185 tank-dmg) but dies mid-form
+  vs AP burn (Dusk → Nashor → Liandry → Rift → Shojin):
+    25:00 late-power 10269 vs 8359 (+23%) | alive 12.0s vs 9.0s
+
+  RECOMMENDED (counter tanky meta, win late dragon fights):
+  1) Long Sword → Sheen / Phage / Hearthbound
+  2) Trinity Force           (~8–10:00) — clear + Spellblade
+  3) Immortal Treads / Berserker's
+  4) Blade of the Ruined King — Q applies %HP twice (anti-tank)
+  5) Death's Dance OR Twinguard next — Ocean nerf → buy survive
+  6) Force of Nature / Randuin — match their damage type
+  7) Twinguard / Sterak — never skip a resist spike for 6th DPS
+
+  Runes: Conqueror (long fights) or Fleet Footwork (stick + heal).
+  Secondary: Unshakeable + Overgrowth / Second Wind + Alacrity.
+  Skill: max E → W → Q; R at 5 / 9 / 13.
+
+  Play: full clear → dragons for stacks → R AFTER they commit.
+  Combo: R land → E mark → W stick → Q double on-hits → autos.
+  Trap: Kraken / Cap glass — paper late DPS, dies at 6–8s of form.
+  Trap: Shojin → Hex damage path without BotRK — tanks live forever.
+  Trap: rushing Twinguard before shred — you live, tanks also live.
+====================================================================================
