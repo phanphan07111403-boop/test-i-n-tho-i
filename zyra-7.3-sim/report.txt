@@ -1,0 +1,331 @@
+================================================================================
+ZYRA MID + SUPPORT — ITEMS & RUNES  (Wild Rift Patch 7.3)
+Playstyle: plant spam zone | Support 20:00 | Mid 22:00
+Metric: 8s harass window (spells + plants + burns + runes),
+        duration-weighted so paper burn without Rylai loses.
+================================================================================
+
+7.3 context: Zyra herself only got the global AS-ratio cleanup.
+Mage items / Comet nerf are still the 7.2 kit. Live Diamond+
+shifted support boots to Ionian Lucidity (~80% pick) and mid
+cores toward Blackfire → Liandry. This sim checks whether that
+is actually better for plant-spam harass.
+
+--------------------------------------------------------------------------------
+SUPPORT — GOLD / LEVEL  (Sickle poke)
+--------------------------------------------------------------------------------
+  Min    Gold  Lvl  Target HP
+    1     820    2        785
+    2    1140    3        865
+    3    1460    4        945
+    4    1780    5       1025
+    5    2230    6       1105
+    6    2680    7       1185
+    7    3130    8       1265
+    8    3580    8       1290
+    9    4030    9       1370
+   10    4480   10       1450
+   11    5020   10       1475
+   12    5560   11       1555
+   13    6100   11       1580
+   14    6640   12       1660
+   15    7180   12       1685
+   16    7720   13       1765
+   17    8260   13       1790
+   18    8800   14       1870
+   19    9340   14       1895
+   20    9880   15       1975
+
+--------------------------------------------------------------------------------
+SUPPORT — MINUTE-BY-MINUTE OPTIMAL  (default Comet poke page)
+--------------------------------------------------------------------------------
+   1:00 | total    170 | burn     0 | rune    23 | up  72% | Liandry → Ionian → Rylai (Meta)
+         items: Spectral Sickle
+         no burn yet
+   2:00 | total    269 | burn     0 | rune    26 | up  72% | Liandry → Ionian → Rylai (Meta)
+         items: Spectral Sickle › Boots of Speed
+         no burn yet
+   3:00 | total    323 | burn     0 | rune    30 | up  72% | Liandry → Ionian → Rylai (Meta)
+         items: Spectral Sickle › Boots of Speed
+         no burn yet
+   4:00 | total    450 | burn     0 | rune    34 | up  73% | Rylai → Ionian → Liandry
+         items: Spectral Sickle › Ionian Boots of Lucidity
+         no burn yet
+   5:00 | total    581 | burn     0 | rune    38 | up  73% | Rylai → Ionian → Liandry
+         items: Black Mist Scythe › Ionian Boots of Lucidity › Amplifying Tome
+         no burn yet
+   6:00 | total    651 | burn     0 | rune    42 | up  73% | Mandate → Ionian → Liandry → Rylai
+         items: Black Mist Scythe › Boots of Speed › Fiendish Codex
+         no burn yet
+   7:00 | total    878 | burn    22 | rune    48 | up  79% | BF → Ionian → Liandry → Rylai
+         items: Black Mist Scythe › Boots of Speed › Fated Ashes › Lost Chapter
+         3s burn used
+   8:00 | total    952 | burn     0 | rune    48 | up  75% | Mandate → Ionian → Liandry → Rylai
+         items: Black Mist Scythe › Boots of Speed › Imperial Mandate
+         Mandate mark, no burn yet
+   9:00 | total   1176 | burn     0 | rune    52 | up  75% | Mandate → Ionian → Liandry → Rylai
+         items: Black Mist Scythe › Imperial Mandate › Ionian Boots of Lucidity
+         Mandate mark, no burn yet
+  10:00 | total   1474 | burn   102 | rune    58 | up  82% | BF → Ionian → Liandry → Rylai
+         items: Black Mist Scythe › Blackfire Torch › Ionian Boots of Lucidity
+         3s burn used
+  11:00 | total   1431 | burn   140 | rune    60 | up  81% | Liandry → Ionian → Rylai (Meta)
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Amplifying Tome
+         3s burn used
+  12:00 | total   1511 | burn   136 | rune    61 | up  82% | Liandry → Ionian → Mandate → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Fiendish Codex
+         3s burn used
+  13:00 | total   1520 | burn   138 | rune    61 | up  82% | Liandry → Ionian → Mandate → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Fiendish Codex
+         3s burn used
+  14:00 | total   1846 | burn   144 | rune    66 | up  82% | Liandry → Ionian → Mandate → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Fiendish Codex › Kindlegem
+         3s burn used
+  15:00 | total   1964 | burn   146 | rune    66 | up  82% | Liandry → Ionian → Mandate → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Imperial Mandate
+         Mandate mark, 3s burn used
+  16:00 | total   2014 | burn   182 | rune    88 | up  98% | Liandry → Ionian → Rylai (Meta)
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Rylai's Crystal Scepter
+         locked uptime, 3s burn used
+  17:00 | total   2210 | burn   185 | rune    89 | up  98% | Liandry → Ionian → Rylai → Morello
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Rylai's Crystal Scepter › Fiendish Codex
+         locked uptime, 3s burn used
+  18:00 | total   2171 | burn   181 | rune    91 | up  98% | Liandry → Ionian → Rylai (Meta)
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Rylai's Crystal Scepter › Lost Chapter
+         locked uptime, 3s burn used
+  19:00 | total   2174 | burn   184 | rune    91 | up  98% | Liandry → Ionian → Rylai (Meta)
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Rylai's Crystal Scepter › Lost Chapter
+         locked uptime, 3s burn used
+  20:00 | total   2548 | burn   190 | rune    99 | up  98% | Liandry → Ionian → Mandate → Rylai
+         items: Black Mist Scythe › Liandry's Torment › Ionian Boots of Lucidity › Imperial Mandate › Rylai's Crystal Scepter
+         locked uptime, Mandate mark, 3s burn used
+
+--------------------------------------------------------------------------------
+SUPPORT — BUILD COMPARISON  (8s window @ spikes)
+--------------------------------------------------------------------------------
+  Build                                       8:00   12:00   16:00   20:00     Eff
+  Liandry → Ionian → Rylai (Meta)              842    1364    2014    2248    1424
+  Liandry → Crimson → Rylai                    842    1451    1842    2377    1410
+  Liandry → Spellslinger → Rylai               842    1325    1893    2460    1392
+  Liandry → Mana → Rylai → BF (7.2)            842    1394    1953    2181    1392
+  BF → Ionian → Liandry → Rylai                885    1438    2150    2294    1376
+  Liandry → Ionian → Mandate → Rylai           842    1511    2081    2548    1388
+  Mandate → Ionian → Liandry → Rylai           952    1444    2081    2548    1367
+  Liandry → Ionian → Rylai → Morello           842    1364    2014    2515    1436
+  Liandry → Ionian → Oceanid                   842    1511    1996    2397    1350
+  Rylai → Ionian → Liandry                     842    1408    2014    2248    1418
+
+--------------------------------------------------------------------------------
+SUPPORT — RUNE PAGES ON THE WINNING CORE
+  Locked items: Liandry → Ionian → Rylai → Morello
+--------------------------------------------------------------------------------
+  Page                                                Full    Lane    Late     @20   rune
+  Comet / Manaflow·Trans·Scorch / Cut                 1531     699    2442    2680    110
+  First Strike / Manaflow·Trans·Scorch / Cut          1507     683    2409    2640     69
+  Comet / Manaflow·Trans·Scorch / Cheap               1471     679    2339    2560    148
+  Aery / Manaflow·Trans·Scorch / Bone                 1450     674    2299    2508     96
+  Comet / Manaflow·Trans·GS / Bone                    1441     638    2323    2568     74
+  Comet / Manaflow·Trans·Scorch / Bone                1436     656    2292    2515    103
+  Comet / Manaflow·Trans·Scorch / Font                1436     656    2292    2515    103
+  Comet / Axiom·Trans·Scorch / Bone                   1434     655    2288    2512    103
+  Comet / Cheap·Chain·Eye / Bone                      1345     623    2137    2368    170
+  DH / Cheap·Chain·Eye / Bone                         1315     606    2093    2314    117
+
+--------------------------------------------------------------------------------
+MID — GOLD / LEVEL
+--------------------------------------------------------------------------------
+  Min    Gold  Lvl  Target HP
+    1     950    2        852
+    2    1400    3        954
+    3    1850    4       1056
+    4    2300    5       1158
+    5    2750    6       1260
+    6    3330    7       1362
+    7    3910    8       1464
+    8    4490    9       1566
+    9    5070   10       1668
+   10    5650   11       1770
+   11    6230   11       1802
+   12    6910   12       1904
+   13    7590   12       1936
+   14    8270   13       2038
+   15    8950   13       2070
+   16    9630   14       2172
+   17   10380   14       2204
+   18   11130   15       2306
+   19   11880   15       2338
+   20   12630   15       2370
+   21   13380   15       2402
+   22   14130   15       2434
+
+--------------------------------------------------------------------------------
+MID — MINUTE-BY-MINUTE OPTIMAL  (default Comet Cut Down page)
+--------------------------------------------------------------------------------
+   1:00 | total    268 | burn     0 | rune    24 | up  72% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed
+         no burn yet
+   2:00 | total    336 | burn     0 | rune    28 | up  72% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed
+         no burn yet
+   3:00 | total    532 | burn    24 | rune    33 | up  78% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed › Fated Ashes
+         3s burn used
+   4:00 | total    639 | burn    24 | rune    37 | up  78% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed › Fated Ashes
+         3s burn used
+   5:00 | total    689 | burn    24 | rune    41 | up  78% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed › Fated Ashes
+         3s burn used
+   6:00 | total    972 | burn    24 | rune    46 | up  79% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed › Fated Ashes › Lost Chapter
+         3s burn used
+   7:00 | total   1215 | burn   104 | rune    50 | up  79% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Boots of Speed › Blackfire Torch
+         3s burn used
+   8:00 | total   1494 | burn   106 | rune    55 | up  82% | BF → Crimson → Liandry → Rylai
+         items: Amplifying Tome › Blackfire Torch › Ionian Boots of Lucidity
+         3s burn used
+   9:00 | total   1498 | burn   168 | rune    62 | up  81% | Liandry → Crimson → Rylai → Void
+         items: Amplifying Tome › Liandry's Torment › Ionian Boots of Lucidity
+         3s burn used
+  10:00 | total   1837 | burn   126 | rune    78 | up  81% | BF → Spellslinger → Liandry → Rylai
+         items: Amplifying Tome › Blackfire Torch › Spellslinger's Shoes
+         Spellslinger pen, 3s burn used
+  11:00 | total   1739 | burn   211 | rune    81 | up  81% | Liandry → Spellslinger → Rylai → Void
+         items: Amplifying Tome › Liandry's Torment › Spellslinger's Shoes
+         Spellslinger pen, 3s burn used
+  12:00 | total   1791 | burn   222 | rune    90 | up  98% | Liandry → Mana → Rylai → Cap
+         items: Liandry's Torment › Boots of Mana › Rylai's Crystal Scepter
+         locked uptime, 3s burn used
+  13:00 | total   1795 | burn   225 | rune    90 | up  98% | Liandry → Mana → Rylai → Cap
+         items: Liandry's Torment › Boots of Mana › Rylai's Crystal Scepter
+         locked uptime, 3s burn used
+  14:00 | total   2128 | burn   261 | rune   108 | up  98% | Liandry → Spellslinger → Rylai → Void
+         items: Liandry's Torment › Spellslinger's Shoes › Rylai's Crystal Scepter
+         locked uptime, Spellslinger pen, 3s burn used
+  15:00 | total   2132 | burn   265 | rune   108 | up  98% | Liandry → Spellslinger → Rylai → Void
+         items: Liandry's Torment › Spellslinger's Shoes › Rylai's Crystal Scepter
+         locked uptime, Spellslinger pen, 3s burn used
+  16:00 | total   2626 | burn   372 | rune   102 | up  98% | BF → Ionian → Liandry → Rylai
+         items: Blackfire Torch › Ionian Boots of Lucidity › Liandry's Torment › Rylai's Crystal Scepter
+         DOUBLE BURN, locked uptime, 3s burn used
+  17:00 | total   2630 | burn   375 | rune   102 | up  98% | BF → Ionian → Liandry → Rylai
+         items: Blackfire Torch › Ionian Boots of Lucidity › Liandry's Torment › Rylai's Crystal Scepter
+         DOUBLE BURN, locked uptime, 3s burn used
+  18:00 | total   2834 | burn   427 | rune   124 | up  98% | BF → Spellslinger → Liandry → Rylai
+         items: Blackfire Torch › Spellslinger's Shoes › Liandry's Torment › Rylai's Crystal Scepter
+         DOUBLE BURN, locked uptime, Spellslinger pen, 3s burn used
+  19:00 | total   2838 | burn   430 | rune   124 | up  98% | BF → Spellslinger → Liandry → Rylai
+         items: Blackfire Torch › Spellslinger's Shoes › Liandry's Torment › Rylai's Crystal Scepter
+         DOUBLE BURN, locked uptime, Spellslinger pen, 3s burn used
+  20:00 | total   3392 | burn   461 | rune   132 | up  98% | BF → Ionian → Liandry → Rylai
+         items: Blackfire Torch › Ionian Boots of Lucidity › Liandry's Torment › Rylai's Crystal Scepter › Void Staff
+         DOUBLE BURN, locked uptime, 3s burn used
+  21:00 | total   3396 | burn   465 | rune   132 | up  98% | BF → Ionian → Liandry → Rylai
+         items: Blackfire Torch › Ionian Boots of Lucidity › Liandry's Torment › Rylai's Crystal Scepter › Void Staff
+         DOUBLE BURN, locked uptime, 3s burn used
+  22:00 | total   3882 | burn   572 | rune   160 | up  98% | BF → Spellslinger → Liandry → Rylai
+         items: Blackfire Torch › Spellslinger's Shoes › Liandry's Torment › Rylai's Crystal Scepter › Void Staff
+         DOUBLE BURN, locked uptime, Spellslinger pen, 3s burn used
+
+--------------------------------------------------------------------------------
+MID — BUILD COMPARISON  (8s window @ spikes)
+--------------------------------------------------------------------------------
+  Build                                           8:00   14:00   18:00   22:00     Eff
+  BF → Spellslinger → Liandry → Rylai             1360    2091    2834    3882    2118
+  BF → Crimson → Liandry → Rylai                  1494    2016    2702    3582    2048
+  BF → Spellslinger → Liandry → Zhonya (Pop)      1360    2091    2373    3100    1897
+  Liandry → Spellslinger → Rylai → Void           1272    2128    2943    3124    2099
+  Liandry → Spellslinger → Oceanid → Banshee      1272    2055    2153    2488    1694
+  Liandry → Crimson → Rylai → Void                1272    2065    2786    3354    2063
+  BF → Ionian → Liandry → Rylai                   1494    2228    2728    3400    2214
+  Liandry → Mana → Rylai → Cap                    1272    1880    2270    3056    1976
+
+--------------------------------------------------------------------------------
+MID — RUNE PAGES ON THE WINNING CORE
+  Locked items: BF → Ionian → Liandry → Rylai
+--------------------------------------------------------------------------------
+  Page                                                    Full    Lane    Late     @22   rune
+  Comet / Manaflow·Trans·GS / Cut                         2240     928    3479    3515     96
+  Aery / Manaflow·Trans·Scorch / Cut                      2225     965    3413    3392    124
+  Comet / Manaflow·Trans·Scorch / Cut                     2214     946    3410    3400    132
+  Comet / Botanist·Trans·Scorch / Cut                     2211     954    3398    3387    132
+  Comet / Axiom·Trans·Scorch / Cut                        2210     946    3402    3391    132
+  First Strike / Manaflow·Trans·Scorch / Cut              2187     933    3369    3353     85
+  Comet / Manaflow·Trans·Scorch / Legend Haste            2158     899    3347    3344    123
+  Comet / Manaflow·Trans·Scorch / Cheap                   2117     911    3254    3235    168
+  Comet / Manaflow·Trans·Scorch / Bone                    2077     887    3200    3190    123
+  Comet / Manaflow·Trans·Scorch / Perseverance            2077     887    3200    3190    123
+  Comet / Manaflow·Focus·Scorch / Cut                     2050     883    3154    3146    133
+  DH / Cheap·Chain·Eye / Cut                              2048     873    3156    3136    152
+
+================================================================================
+VERDICT
+================================================================================
+
+SUPPORT  (20-min plant-spam, Flash + Ignite)
+  Items: Liandry → Ionian → Rylai → Morello
+  Runes: Comet · Manaflow Band · Transcendence · Scorch · Cut Down
+  Skill order: E → Q  (W 1-point, R at 5/9/13)
+  Liandry online: ~9:00
+  Rylai lock:     ~16:00
+  Spells: Flash + Ignite (Heal if you need to pad the ADC).
+
+  WHY
+  • Liandry 2% max HP/s is still THE harass burn. Plants refresh it.
+  • Ionian (1000g, 15 AH) is cheaper than Mana boots and feeds plant
+    density. That is why live Diamond+ flipped off Boots of Mana.
+    Do not upgrade to Crimson/Spellslinger until Rylai is done.
+  • Rylai is still mandatory so the 3s burn and the 0.8s Comet land.
+  • 4th item: Morello or Mandate actually finish on a 20-min gold
+    curve. Blackfire 4th usually sits as Lost Chapter.
+  • Mandate FIRST is the 7.3 'CC-mage support' bait — it delays
+    the %HP burn. 3rd/4th only if the ADC follows the mark.
+  • Trap: BF before Rylai. Paper burn, they walk out.
+  • Trap: Rylai first. You lose the ~9:00 Liandry spike.
+
+  RUNE NOTES
+  • Comet over Aery/DH/First Strike. Roots + Rylai make the 0.8s delay
+    land; Aery ticks more often but 5% AP on both is tiny after 7.2.
+  • Manaflow + Transcendence + Scorch is the lane page.
+  • Cut Down wins the poke metric (targets are >60% HP). Swap to
+    Bone Plating vs kill lanes / all-in supports.
+  • Gathering Storm is a 20-min trap on support — game is over.
+
+MID  (22-min plant-spam, Flash + Ignite, Barrier vs assassins)
+  Items: BF → Ionian → Liandry → Rylai
+  Runes: Comet · Manaflow Band · Transcendence · Gathering Storm · Cut Down
+  Skill order: Q → E  (W 1-point, R at 5/9/13)
+  Blackfire online: ~7:00
+  Liandry online:   ~13:00
+  Rylai lock:       ~16:00
+
+  WHY
+  • Mid gold actually finishes Blackfire AND Liandry AND Rylai.
+    Support could not. That is the whole role split.
+  • Cheap Ionian (do not rush Spellslinger) so the Rylai lock and
+    Void land on time. Spellslinger is the 22:00 peak if the lock
+    is already done and you have gold left.
+  • Crimson Lucidity is the dive/CD swap, not the damage boot.
+  • Popular live core BF → Liandry → Zhonya is a survive-assassin
+    swap. It loses harass to Rylai. Buy Zhonya 4th vs Zed/Fizz/Kat.
+  • Oceanid → Banshee is a shield-shred/survive path, not the burn
+    identity. Swap Oceanid in vs Lulu/Karma/Irelia shields.
+  • Void after the Rylai lock is the tank spike. Deathcap after that.
+
+  RUNE NOTES
+  • Cut Down over Bone Plating into mages you poke off 90% HP.
+    Bone Plating / Perseverance into assassins.
+  • Botanist is gold/utility on river plants, not Thorn Spitters.
+    Do not take it for 'Zyra plants'.
+  • Axiom Arcanist is a 5% AoE ult bump. Scorch wins the lane.
+  • Gathering Storm wins the 22-min average. Take Scorch unless
+    you are playing for a long game.
+  • Lane (1–10) winner: Aery / Manaflow·Trans·Scorch / Cut
+
+  Shared traps
+  • Comet is 5% AP after 7.2. Do not build 'for Comet'. Build for
+    plants + Liandry; Comet is extra on the root.
+  • Plants inherit YOUR magic pen (7.2). Spellslinger / Void scale
+    the trees. Raw AP after the 10% plant ratio is weaker than pen.
+================================================================================
