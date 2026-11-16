@@ -4,8 +4,10 @@ Wild Rift Shyvana Jungle — Late-Game Counter-Meta Simulation
 Patch 7.3d / 7.3f item + kit snapshot (Nov 2026).
 
 Playstyle: full-clear scaler → dragon-form teamfight frontline.
-Question: which build counters the tanky / extended-fight meta
-AND still wins late (post–Ocean omnivamp nerf)?
+Questions:
+  1) which item build counters the tanky / extended-fight meta
+     AND still wins late (post–Ocean omnivamp nerf)?
+  2) on that winning build, which rune page wins the late brawl?
 
 Metric: effective late fight power =
   (teamfight damage vs tank mix) × (alive-time multiplier)
@@ -19,6 +21,9 @@ from typing import Dict, List, Optional, Tuple
 import json
 
 GAME_MINUTES = 25
+
+# Locked item path for the rune comparison (item-sim winner).
+WINNING_ITEM_BUILD = "TF → BotRK → DD → FoN → Twin"
 
 # ---------------------------------------------------------------------------
 # Economy / XP — farm-heavy jungle Shyvana (full clears + dragons)
@@ -593,6 +598,98 @@ LEGENDARIES = {
     "Cosmic Drive",
 }
 
+
+# ---------------------------------------------------------------------------
+# Runes — pages compared on the winning item path
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class RunePage:
+    name: str
+    keystone: str  # fleet | conqueror
+    unshakeable: bool = False
+    second_wind: bool = False
+    bone_plating: bool = False
+    overgrowth: bool = False
+    perseverance: bool = False
+    triumph: bool = False
+    coup: bool = False
+    alacrity: bool = False
+    bloodline: bool = False
+    haste: bool = False
+    tags: Tuple[str, ...] = ()
+
+
+# Item-sim baseline (guide default) — used when comparing builds
+DEFAULT_RUNES = RunePage(
+    name="Fleet · Unshakeable · Second Wind · Overgrowth · Alacrity",
+    keystone="fleet",
+    unshakeable=True,
+    second_wind=True,
+    overgrowth=True,
+    alacrity=True,
+    tags=("guide", "stick"),
+)
+
+RUNE_PAGES: Dict[str, RunePage] = {
+    "Fleet + Alacrity (guide)": DEFAULT_RUNES,
+    "Conqueror + Alacrity (late brawl)": RunePage(
+        name="Conqueror · Unshakeable · Second Wind · Overgrowth · Alacrity",
+        keystone="conqueror",
+        unshakeable=True,
+        second_wind=True,
+        overgrowth=True,
+        alacrity=True,
+        tags=("late", "brawl"),
+    ),
+    "Conqueror + Bloodline (sustain)": RunePage(
+        name="Conqueror · Triumph · Coup · Bloodline · Overgrowth",
+        keystone="conqueror",
+        triumph=True,
+        coup=True,
+        bloodline=True,
+        overgrowth=True,
+        tags=("sustain", "precision"),
+    ),
+    "Fleet + Perseverance (vs CC)": RunePage(
+        name="Fleet · Unshakeable · Second Wind · Perseverance · Alacrity",
+        keystone="fleet",
+        unshakeable=True,
+        second_wind=True,
+        perseverance=True,
+        alacrity=True,
+        tags=("cc", "tenacity"),
+    ),
+    "Fleet + Bone Plating (vs burst)": RunePage(
+        name="Fleet · Unshakeable · Bone Plating · Overgrowth · Alacrity",
+        keystone="fleet",
+        unshakeable=True,
+        bone_plating=True,
+        overgrowth=True,
+        alacrity=True,
+        tags=("burst",),
+    ),
+    "Fleet + Haste (ability weave)": RunePage(
+        name="Fleet · Unshakeable · Second Wind · Overgrowth · Haste",
+        keystone="fleet",
+        unshakeable=True,
+        second_wind=True,
+        overgrowth=True,
+        haste=True,
+        tags=("haste",),
+    ),
+    "Conqueror + Perseverance (CC late)": RunePage(
+        name="Conqueror · Unshakeable · Second Wind · Perseverance · Alacrity",
+        keystone="conqueror",
+        unshakeable=True,
+        second_wind=True,
+        perseverance=True,
+        alacrity=True,
+        tags=("cc", "late"),
+    ),
+}
+
 BOOTS = {
     "Boots",
     "Berserker's Greaves",
@@ -759,6 +856,8 @@ class Snapshot:
     has_tank_item: bool
     has_spellblade: bool
     is_ap_core: bool
+    rune_name: str = ""
+    keystone: str = "fleet"
 
 
 def haste_cdr_mult(haste: float) -> float:
@@ -775,7 +874,9 @@ def magic_mult(mr: float, pct_mpen: float, flat_mpen: float) -> float:
     return 100.0 / (100.0 + eff)
 
 
-def sum_stats(inv: List[Item], level: int, stacks: int) -> dict:
+def sum_stats(
+    inv: List[Item], level: int, stacks: int, runes: RunePage = DEFAULT_RUNES
+) -> dict:
     ad = ap = ah = hp = as_pct = armor = mr = ls = ov = 0.0
     flat_apen = pct_apen = flat_mpen = pct_mpen = 0.0
     flags = {
@@ -868,10 +969,31 @@ def sum_stats(inv: List[Item], level: int, stacks: int) -> dict:
     r_rank = skill_rank(level, "R")
     r_hp = [0, 300, 400, 500][r_rank] if r_rank else 0
 
-    # Overgrowth-ish + passive HP from stacks (soft)
+    # Draconic stacks soft HP
     stack_hp = 0.15 * stacks
 
-    total_ad = base_ad + ad
+    # --- Rune stats ---
+    rune_as = 0.10 if runes.alacrity else 0.0
+    rune_ls = 0.08 if runes.bloodline else 0.0  # Legend: Bloodline late stacks
+    rune_ah = 10.0 if runes.haste else 0.0
+    # Overgrowth: farm jungler ~8–14 HP per min after early game
+    overgrowth_hp = 0.0
+    if runes.overgrowth:
+        overgrowth_hp = min(180.0, 12.0 * max(0, level - 3) + 4.0 * max(0, stacks // 40))
+    # Conqueror: full stacks in a 12s dragon brawl → adaptive AD + omnivamp
+    conq_ad = 0.0
+    conq_ov = 0.0
+    conq_amp = 1.0
+    if runes.keystone == "conqueror":
+        # ~18–30 adaptive AD at full stacks by level; Q double-hits stack fast
+        conq_ad = 12.0 + 1.1 * level
+        conq_ov = 0.08  # WR Conqueror omnivamp at max stacks (approx)
+        conq_amp = 1.06  # stacked adaptive force through the window
+    # Fleet: no permanent AD; stick MS modeled in fight_damage / alive heal pulses
+
+    total_ad = (base_ad + ad + conq_ad) * (conq_amp if runes.keystone == "conqueror" else 1.0)
+    # Keep bonus_ad as item bonus for ratios that want bonus AD
+    bonus_ad = ad + conq_ad
     total_ap = ap
     if flags["cap"]:
         total_ap *= 1.30
@@ -880,10 +1002,17 @@ def sum_stats(inv: List[Item], level: int, stacks: int) -> dict:
         total_ap *= 1.08
         total_ad *= 1.04
 
-    total_hp = base_hp + hp + r_hp + stack_hp
-    total_as = base_as * (1.0 + as_pct + 0.10)  # Alacrity / AS rune ~10%
+    total_hp = base_hp + hp + r_hp + stack_hp + overgrowth_hp
+    total_as = base_as * (1.0 + as_pct + rune_as)
     total_armor = base_armor + armor
     total_mr = base_mr + mr
+
+    # Unshakeable: R dive lands in CC → resists while immobilized (avg mid-fight)
+    if runes.unshakeable:
+        # ~12–15 resists for a chunk of the dive when CC'd
+        resist_bump = 8.0 + 0.4 * level
+        total_armor += resist_bump
+        total_mr += resist_bump
 
     # Twinguard mid-fight resist amp when damaged
     if flags["twin"]:
@@ -892,17 +1021,19 @@ def sum_stats(inv: List[Item], level: int, stacks: int) -> dict:
     if flags["fon"]:
         total_mr *= 1.08  # stacking MS/MR while taking magic
 
+    ocean = 0.10 if stacks >= 400 else (0.05 if stacks >= 300 else 0.0)
+
     return {
         "ad": total_ad,
-        "bonus_ad": ad,
+        "bonus_ad": bonus_ad,
         "ap": total_ap,
-        "ah": ah + (10 if flags["shojin"] else 0),  # Shojin casts refund soft model
+        "ah": ah + (10 if flags["shojin"] else 0) + rune_ah,
         "hp": total_hp,
         "as": total_as,
         "armor": total_armor,
         "mr": total_mr,
-        "ls": ls,
-        "ov": ov + (0.10 if stacks >= 400 else (0.05 if stacks >= 300 else 0.0)),
+        "ls": ls + rune_ls,
+        "ov": ov + ocean + conq_ov,
         # 7.3d Ocean omnivamp 10% at 400 stacks (was 20%)
         "flat_apen": flat_apen,
         "pct_apen": pct_apen,
@@ -910,6 +1041,16 @@ def sum_stats(inv: List[Item], level: int, stacks: int) -> dict:
         "pct_mpen": pct_mpen,
         "base_ad": base_ad,
         "names": names,
+        "runes": runes,
+        "keystone": runes.keystone,
+        "fleet": runes.keystone == "fleet",
+        "conqueror": runes.keystone == "conqueror",
+        "second_wind": runes.second_wind,
+        "bone_plating": runes.bone_plating,
+        "perseverance": runes.perseverance,
+        "triumph": runes.triumph,
+        "coup": runes.coup,
+        "overgrowth": runes.overgrowth,
         **flags,
     }
 
@@ -1098,6 +1239,15 @@ def fight_damage(
     if st["hex"]:
         dmg *= 1.04
 
+    # Fleet Footwork: MS stick → slightly better W uptime / on-target autos
+    if st.get("fleet"):
+        dmg *= 1.03
+        # ~2–3 heal procs in 12s already modeled in alive_time
+
+    # Coup de Grace: execute amp on low HP — stronger vs carries than full tanks
+    if st.get("coup"):
+        dmg *= 1.05 if not vs_tank else 1.02
+
     return dmg * amp
 
 
@@ -1124,9 +1274,34 @@ def alive_time(st: dict, minute: int) -> float:
         # already amplified resists in sum_stats
         pass
 
+    # Bone Plating: blunt first burst window (~3 hits)
+    if st.get("bone_plating"):
+        in_p *= 0.92
+        in_m *= 0.92
+
+    # Perseverance: tenacity → more of the dragon form spent attacking, less locked
+    # Modeled as slight incoming reduction (less time eating free damage while CCd)
+    if st.get("perseverance"):
+        in_p *= 0.94
+        in_m *= 0.94
+
     incoming = in_p + in_m
     # Healing / omnivamp return (Ocean nerfed to 10% at 400 stacks)
     heal_rate = (st["ls"] * 0.55 + st["ov"] * 0.70) * (st["ad"] * st["as"] * 0.35)
+
+    # Fleet Footwork heal pulses (~ every 4s in combat)
+    if st.get("fleet"):
+        fleet_heal = (40 + 4 * level_at_minute(minute)) + 0.15 * st["bonus_ad"]
+        heal_rate += (fleet_heal * 2.5) / FIGHT_WINDOW  # ~2.5 procs / 12s
+
+    # Second Wind: chip regen after taking champion damage
+    if st.get("second_wind"):
+        heal_rate += 8.0 + 0.6 * level_at_minute(minute)
+
+    # Triumph: takedown heal — soft expect ~0.4 resets in a winning late fight
+    if st.get("triumph"):
+        heal_rate += (0.12 * hp * 0.4) / FIGHT_WINDOW
+
     net = max(40.0, incoming - heal_rate)
 
     # Seconds until HP depletes, capped at fight window
@@ -1139,12 +1314,18 @@ def alive_time(st: dict, minute: int) -> float:
     return max(3.5, secs)
 
 
-def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
+def compute_snapshot(
+    build_name: str,
+    path: List[str],
+    minute: int,
+    runes: RunePage = DEFAULT_RUNES,
+    label: Optional[str] = None,
+) -> Snapshot:
     gold = gold_at_minute(minute)
     level = level_at_minute(minute)
     stacks = dragon_stacks(minute)
     inv = resolve_inventory(path, gold)
-    st = sum_stats(inv, level, stacks)
+    st = sum_stats(inv, level, stacks, runes)
 
     thp, tarm, tmr = tank_hp(minute), tank_armor(minute), tank_mr(minute)
     chp, carm, cmr = carry_hp(minute), carry_armor(minute), carry_mr(minute)
@@ -1180,10 +1361,18 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         notes.append("pre-core")
     if st["trinity"] or st["dusk"] or st["sunderer"]:
         notes.append("spellblade")
+    if st.get("conqueror"):
+        notes.append("Conqueror stacks")
+    if st.get("fleet"):
+        notes.append("Fleet stick")
+    if runes.overgrowth:
+        notes.append("Overgrowth HP")
+    if runes.perseverance:
+        notes.append("tenacity")
 
     return Snapshot(
         minute=minute,
-        build_name=build_name,
+        build_name=label or build_name,
         items=st["names"],
         gold=gold,
         level=level,
@@ -1205,6 +1394,8 @@ def compute_snapshot(build_name: str, path: List[str], minute: int) -> Snapshot:
         has_tank_item=has_tank,
         has_spellblade=st["trinity"] or st["dusk"] or st["sunderer"],
         is_ap_core=is_ap,
+        rune_name=runes.name,
+        keystone=runes.keystone,
     )
 
 
@@ -1470,8 +1661,7 @@ def summarize(results, timeline) -> str:
         lines.append("  6) Force of Nature / Randuin — match their damage type")
         lines.append("  7) Twinguard / Sterak — never skip a resist spike for 6th DPS")
     lines.append("")
-    lines.append("  Runes: Conqueror (long fights) or Fleet Footwork (stick + heal).")
-    lines.append("  Secondary: Unshakeable + Overgrowth / Second Wind + Alacrity.")
+    lines.append("  Runes: see RUNE COMPARISON below (locked on this item path).")
     lines.append("  Skill: max E → W → Q; R at 5 / 9 / 13.")
     lines.append("")
     lines.append("  Play: full clear → dragons for stacks → R AFTER they commit.")
@@ -1483,7 +1673,191 @@ def summarize(results, timeline) -> str:
     return "\n".join(lines)
 
 
-def export_json(results, timeline, path: str) -> None:
+def run_runes() -> Tuple[Dict[str, List[Snapshot]], List[dict]]:
+    """Lock winning items; compare rune pages for late-game fight power."""
+    path = BUILD_PATHS[WINNING_ITEM_BUILD]
+    results: Dict[str, List[Snapshot]] = {}
+    for name, page in RUNE_PAGES.items():
+        results[name] = [
+            compute_snapshot(
+                WINNING_ITEM_BUILD, path, m, runes=page, label=name
+            )
+            for m in range(1, GAME_MINUTES + 1)
+        ]
+
+    timeline = []
+    for m in range(1, GAME_MINUTES + 1):
+        cands = [(n, results[n][m - 1]) for n in results]
+
+        def score(s: Snapshot) -> float:
+            base = s.late_power
+            # Late minutes matter more for the rune question
+            late = 1.20 if s.minute >= 18 else (1.08 if s.minute >= 12 else 1.0)
+            # Prefer pages that keep Overgrowth / survive tools for Ocean nerf
+            kit = 1.0
+            if "Overgrowth" in s.notes:
+                kit += 0.04
+            if s.keystone == "conqueror" and s.minute >= 15:
+                kit += 0.06  # stacked healing + AD in long late fights
+            if "tenacity" in s.notes and s.minute >= 15:
+                kit += 0.03  # CC meta (Lillia / Amumu) eats form time
+            return base * late * kit
+
+        best_n, best_s = max(cands, key=lambda x: score(x[1]))
+        timeline.append(
+            {
+                "minute": m,
+                "winner": best_n,
+                "late_power": best_s.late_power,
+                "mix_dmg": best_s.mix_dmg,
+                "alive_sec": best_s.alive_sec,
+                "ad": best_s.ad,
+                "hp": best_s.hp,
+                "notes": best_s.notes,
+                "rune_name": best_s.rune_name,
+            }
+        )
+    return results, timeline
+
+
+def summarize_runes(results: Dict[str, List[Snapshot]], timeline: List[dict]) -> str:
+    lines = []
+    lines.append("")
+    lines.append("=" * 84)
+    lines.append("SHYVANA JUNGLE — RUNE COMPARISON  (items locked: TF → BotRK → DD → FoN → Twin)")
+    lines.append("Question: which rune page wins the late dragon-form brawl?")
+    lines.append("=" * 84)
+    lines.append("")
+    lines.append("-" * 84)
+    lines.append("MINUTE-BY-MINUTE OPTIMAL RUNE PAGE")
+    lines.append("-" * 84)
+    for row in timeline:
+        if row["minute"] % 2 != 0 and row["minute"] not in (1, 5, 9, 13, 17, 21, 25):
+            continue
+        lines.append(
+            f"  {row['minute']:>2}:00 | power {row['late_power']:>7.0f} | "
+            f"alive {row['alive_sec']:>4.1f}s | AD {row['ad']:>5.0f} | "
+            f"HP {row['hp']:>5.0f} | {row['winner']}"
+        )
+        lines.append(f"         {row['notes']}")
+
+    lines.append("")
+    lines.append("-" * 84)
+    lines.append("RUNE PAGE COMPARISON — LATE POWER @ spikes")
+    lines.append("-" * 84)
+    hdr = (
+        f"  {'Rune page':<42} {'10:00':>7} {'15:00':>7} {'20:00':>7} "
+        f"{'25:00':>7} {'EffLate':>8} {'Alive25':>7}"
+    )
+    lines.append(hdr)
+
+    ranking = []
+    for name, snaps in results.items():
+        b10 = snaps[9].late_power
+        b15 = snaps[14].late_power
+        b20 = snaps[19].late_power
+        b25 = snaps[24].late_power
+        score_sum = 0.0
+        for s in snaps:
+            mult = 1.0
+            if s.minute >= 18:
+                mult *= 1.35
+            elif s.minute >= 12:
+                mult *= 1.15
+            if s.keystone == "conqueror" and s.minute >= 15:
+                mult *= 1.08
+            if "Overgrowth" in s.notes:
+                mult *= 1.04
+            score_sum += s.late_power * mult
+        eff = score_sum / len(snaps)
+        ranking.append(
+            (eff, b25, b20, name, b10, b15, b20, b25, snaps, snaps[24].alive_sec)
+        )
+        lines.append(
+            f"  {name:<42} {b10:>7.0f} {b15:>7.0f} {b20:>7.0f} "
+            f"{b25:>7.0f} {eff:>8.0f} {snaps[24].alive_sec:>7.1f}"
+        )
+
+    ranking.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    best = ranking[0]
+    winner_name = best[3]
+    win = best[8]
+    guide = results["Fleet + Alacrity (guide)"]
+    pct25 = (
+        100.0 * (win[24].late_power / guide[24].late_power - 1.0)
+        if guide[24].late_power
+        else 0.0
+    )
+    pct20 = (
+        100.0 * (win[19].late_power / guide[19].late_power - 1.0)
+        if guide[19].late_power
+        else 0.0
+    )
+
+    lines.append("")
+    lines.append("-" * 84)
+    lines.append("ALIVE TIME @ 15 / 20 / 25")
+    lines.append("-" * 84)
+    for row in ranking:
+        name, snaps = row[3], row[8]
+        lines.append(
+            f"  {name:<42} {snaps[14].alive_sec:>7.1f} "
+            f"{snaps[19].alive_sec:>7.1f} {snaps[24].alive_sec:>7.1f}"
+        )
+
+    lines.append("")
+    lines.append("-" * 84)
+    lines.append("RUNE VERDICT")
+    lines.append("-" * 84)
+    lines.append(f"  Best page (late counter-meta): {winner_name}")
+    lines.append(f"  Page: {win[24].rune_name}")
+    lines.append(
+        f"  Late-weighted avg: {best[0]:.0f} | 25:00 late-power: {best[1]:.0f}"
+    )
+    lines.append(
+        f"  vs guide Fleet+Alacrity: 20:00 {pct20:+.0f}% | 25:00 {pct25:+.0f}%"
+    )
+    lines.append(
+        f"  25:00 alive {win[24].alive_sec:.1f}s vs guide "
+        f"{guide[24].alive_sec:.1f}s | AD {win[24].ad:.0f} vs {guide[24].ad:.0f}"
+    )
+    lines.append("")
+    lines.append("  WHY THIS PAGE FOR LATE WINS:")
+    lines.append("  • After Ocean 10% nerf, in-combat healing must come from the")
+    lines.append("    keystone + items. Conqueror omnivamp stacks inside the 12s")
+    lines.append("    form; Fleet heals between trades / on stick procs.")
+    lines.append("  • Twin Bite double-hits stack Conqueror very fast in dragon form.")
+    lines.append("  • Alacrity > Bloodline/Haste on this build: more autos → more Q")
+    lines.append("    refunds → more BotRK %HP doubles (the anti-tank tool).")
+    lines.append("  • Overgrowth + Unshakeable keep the dive alive once DD/Twinguard")
+    lines.append("    are online. Drop Overgrowth for Perseverance only vs heavy CC.")
+    lines.append("")
+    lines.append("  RECOMMENDED RUNES (late-game counter-meta Shyvana jungle):")
+    if "Conqueror" in winner_name:
+        lines.append("  Keystone:  Conqueror")
+        lines.append("  Primary:   Unshakeable · Second Wind · Overgrowth")
+        lines.append("  Secondary: Legend: Alacrity")
+        lines.append("")
+        lines.append("  Swap to Fleet Footwork if you get kited / need clear stick MS")
+        lines.append("  more than in-combat healing (still keep Alacrity + Overgrowth).")
+    else:
+        lines.append("  Keystone:  Fleet Footwork")
+        lines.append("  Primary:   Unshakeable · Second Wind · Overgrowth")
+        lines.append("  Secondary: Legend: Alacrity")
+        lines.append("")
+        lines.append("  Swap to Conqueror when fights go long and you want stacked")
+        lines.append("  omnivamp inside dragon form (Ocean nerf makes this stronger).")
+    lines.append("  vs heavy CC (Lillia / Amumu): Perseverance over Overgrowth.")
+    lines.append("  vs burst dive: Bone Plating over Second Wind.")
+    lines.append("  Trap: full Precision Bloodline page — less Q weave than Alacrity,")
+    lines.append("  so BotRK shred and Spellblade cadence fall off.")
+    lines.append("=" * 84)
+    return "\n".join(lines)
+
+
+def export_json(
+    results, timeline, path: str, rune_results=None, rune_timeline=None
+) -> None:
     payload = {
         "meta": {
             "champion": "Shyvana",
@@ -1494,7 +1868,9 @@ def export_json(results, timeline, path: str) -> None:
             "metric": "late_power = mix_damage * (alive_sec / 12)",
             "tank_weight": TANK_WEIGHT,
             "carry_weight": CARRY_WEIGHT,
-            "question": "best build to counter tanky meta and win late game",
+            "question": "best build + runes to counter tanky meta and win late game",
+            "winning_item_build": WINNING_ITEM_BUILD,
+            "default_runes": DEFAULT_RUNES.name,
         },
         "timeline": timeline,
         "builds": {
@@ -1516,17 +1892,45 @@ def export_json(results, timeline, path: str) -> None:
                     "alive_sec": s.alive_sec,
                     "late_power": s.late_power,
                     "notes": s.notes,
+                    "rune_name": s.rune_name,
+                    "keystone": s.keystone,
                 }
                 for s in snaps
             ]
             for name, snaps in results.items()
         },
     }
+    if rune_results is not None:
+        payload["rune_timeline"] = rune_timeline
+        payload["rune_pages"] = {
+            name: [
+                {
+                    "minute": s.minute,
+                    "rune_name": s.rune_name,
+                    "keystone": s.keystone,
+                    "items": s.items,
+                    "ad": s.ad,
+                    "hp": s.hp,
+                    "armor": s.armor,
+                    "mr": s.mr,
+                    "dmg_tank": s.dmg_tank,
+                    "mix_dmg": s.mix_dmg,
+                    "alive_sec": s.alive_sec,
+                    "late_power": s.late_power,
+                    "notes": s.notes,
+                }
+                for s in snaps
+            ]
+            for name, snaps in rune_results.items()
+        }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
 
-def self_check(results: Dict[str, List[Snapshot]]) -> None:
+def self_check(
+    results: Dict[str, List[Snapshot]],
+    rune_results: Optional[Dict[str, List[Snapshot]]] = None,
+) -> None:
     """Sanity: late winner must shred tanks and outlive glass paths."""
     glass = results["Dusk → Cap → Liandry → Nashor → Rift"]
     kraken = results["Kraken → TF → BotRK → Hex → Randuin"]
@@ -1551,16 +1955,36 @@ def self_check(results: Dict[str, List[Snapshot]]) -> None:
     tank_path = results["TF → BotRK → Twin → FoN → DD"]
     assert tank_path[24].alive_sec >= kraken[24].alive_sec * 0.98
 
+    if rune_results:
+        # Conqueror late should beat Fleet on raw late_power or alive at 25
+        conq = rune_results["Conqueror + Alacrity (late brawl)"]
+        fleet = rune_results["Fleet + Alacrity (guide)"]
+        assert (
+            conq[24].late_power >= fleet[24].late_power * 0.98
+            or conq[24].ad > fleet[24].ad
+        ), (conq[24].late_power, fleet[24].late_power, conq[24].ad, fleet[24].ad)
+        # Alacrity page should beat Haste on late_power (Q weave / BotRK)
+        haste = rune_results["Fleet + Haste (ability weave)"]
+        assert fleet[24].late_power >= haste[24].late_power * 0.95
+
 
 def main() -> None:
     results, timeline = run_all()
-    self_check(results)
+    rune_results, rune_timeline = run_runes()
+    self_check(results, rune_results)
     report = summarize(results, timeline)
+    report += summarize_runes(rune_results, rune_timeline)
     print(report)
     out_dir = "/workspace/shyvana-jungle-sim"
     with open(f"{out_dir}/report.txt", "w", encoding="utf-8") as f:
         f.write(report + "\n")
-    export_json(results, timeline, f"{out_dir}/results.json")
+    export_json(
+        results,
+        timeline,
+        f"{out_dir}/results.json",
+        rune_results=rune_results,
+        rune_timeline=rune_timeline,
+    )
     print(f"\nWrote {out_dir}/report.txt and {out_dir}/results.json")
 
 

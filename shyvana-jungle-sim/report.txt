@@ -21,112 +21,112 @@ GOLD / LEVEL / STACKS / TARGETS
 ------------------------------------------------------------------------------------
 MINUTE-BY-MINUTE OPTIMAL (late-power score: shred + survive)
 ------------------------------------------------------------------------------------
-   1:00 | power     765 | mix    1468 | alive  6.2s | tank-dmg    1452 | TF → BotRK → DD → FoN → Twin
+   1:00 | power     999 | mix    1512 | alive  7.9s | tank-dmg    1495 | TF → BotRK → DD → FoN → Twin
          items: Long Sword
-         pre-core
-   2:00 | power     899 | mix    1640 | alive  6.6s | tank-dmg    1618 | TF → BotRK → DD → FoN → Twin
+         pre-core, Fleet stick, Overgrowth HP
+   2:00 | power    1168 | mix    1689 | alive  8.3s | tank-dmg    1666 | TF → BotRK → DD → FoN → Twin
          items: Long Sword
-         pre-core
-   4:00 | power    1874 | mix    2514 | alive  8.9s | tank-dmg    2463 | Kraken → TF → BotRK → Hex → Randuin
+         pre-core, Fleet stick, Overgrowth HP
+   4:00 | power    2487 | mix    2590 | alive 11.5s | tank-dmg    2537 | Kraken → TF → BotRK → Hex → Randuin
          items: Long Sword › BF Sword
-         pre-core
-   5:00 | power    1710 | mix    2516 | alive  8.2s | tank-dmg    2463 | Kraken → TF → BotRK → Hex → Randuin
+         pre-core, Fleet stick, Overgrowth HP
+   5:00 | power    2233 | mix    2591 | alive 10.3s | tank-dmg    2537 | Kraken → TF → BotRK → Hex → Randuin
          items: Long Sword › BF Sword
-         pre-core
-   6:00 | power    1964 | mix    2815 | alive  8.4s | tank-dmg    2753 | Kraken → TF → BotRK → Hex → Randuin
+         pre-core, Fleet stick, Overgrowth HP
+   6:00 | power    2586 | mix    2900 | alive 10.7s | tank-dmg    2836 | Kraken → TF → BotRK → Hex → Randuin
          items: Long Sword › BF Sword › Recurve Bow
-         pre-core
-   8:00 | power    3580 | mix    4243 | alive 10.1s | tank-dmg    4157 | TF → BotRK → DD → FoN → Twin
+         pre-core, Fleet stick, Overgrowth HP
+   8:00 | power    4370 | mix    4370 | alive 12.0s | tank-dmg    4282 | TF → BotRK → DD → FoN → Twin
          items: Long Sword › Trinity Force
-         spellblade
-   9:00 | power    3893 | mix    4373 | alive 10.7s | tank-dmg    4238 | TF → BotRK → DD → FoN → Twin
+         spellblade, Fleet stick, Overgrowth HP
+   9:00 | power    4504 | mix    4504 | alive 12.0s | tank-dmg    4365 | TF → BotRK → DD → FoN → Twin
          items: Long Sword › Trinity Force › Boots
-         spellblade
-  10:00 | power    3617 | mix    4323 | alive 10.0s | tank-dmg    4151 | TF → BotRK → DD → FoN → Twin
+         spellblade, Fleet stick, Overgrowth HP
+  10:00 | power    4453 | mix    4453 | alive 12.0s | tank-dmg    4275 | TF → BotRK → DD → FoN → Twin
          items: Long Sword › Trinity Force › Boots
-         spellblade
-  12:00 | power    4180 | mix    4821 | alive 10.4s | tank-dmg    4494 | TF → Shojin → DD → Hex → BotRK
-         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem
-         spellblade
-  13:00 | power    4337 | mix    4939 | alive 10.5s | tank-dmg    4537 | TF → Shojin → DD → Hex → BotRK
-         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem
-         spellblade
-  14:00 | power    4812 | mix    5407 | alive 10.7s | tank-dmg    5026 | TF → Shojin → DD → Hex → BotRK
-         items: Long Sword › Trinity Force › Berserker's Greaves › Kindlegem › Pickaxe
-         spellblade
-  16:00 | power    6721 | mix    7793 | alive 10.3s | tank-dmg    7541 | TF → BotRK → Eclipse → Serylda → Wit
+         spellblade, Fleet stick, Overgrowth HP
+  12:00 | power    5234 | mix    5234 | alive 12.0s | tank-dmg    4867 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Vampiric Scepter
+         spellblade, Fleet stick, Overgrowth HP
+  13:00 | power    5349 | mix    5349 | alive 12.0s | tank-dmg    4902 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Vampiric Scepter
+         spellblade, Fleet stick, Overgrowth HP
+  14:00 | power    5626 | mix    5626 | alive 12.0s | tank-dmg    5241 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Vampiric Scepter › Recurve Bow
+         spellblade, Fleet stick, Overgrowth HP
+  16:00 | power    8026 | mix    8026 | alive 12.0s | tank-dmg    7767 | TF → BotRK → Eclipse → Serylda → Wit
          items: Long Sword › Trinity Force › Berserker's Greaves › Blade of the Ruined King
-         %HP shred, spellblade
-  17:00 | power    6538 | mix    7913 | alive  9.9s | tank-dmg    7560 | TF → BotRK → Eclipse → Serylda → Wit
+         %HP shred, spellblade, Fleet stick, Overgrowth HP
+  17:00 | power    8150 | mix    8150 | alive 12.0s | tank-dmg    7787 | TF → BotRK → Eclipse → Serylda → Wit
          items: Long Sword › Trinity Force › Berserker's Greaves › Blade of the Ruined King › Long Sword
-         %HP shred, spellblade
-  18:00 | power    7250 | mix    7366 | alive 11.8s | tank-dmg    6926 | TF → BotRK → Twin → FoN → DD
-         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Chain Vest › …
-         %HP shred, spellblade
-  20:00 | power    7008 | mix    7008 | alive 12.0s | tank-dmg    6656 | TF → BotRK → Twin → FoN → DD
-         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Chain Vest › …
-         %HP shred, spellblade
-  21:00 | power    8728 | mix    8810 | alive 11.9s | tank-dmg    8164 | TF → BotRK → DD → FoN → Twin
+         %HP shred, spellblade, Fleet stick, Overgrowth HP
+  18:00 | power    8710 | mix    8710 | alive 12.0s | tank-dmg    8196 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Long Sword › Trinity Force › Berserker's Greaves › Blade of the Ruined King › Pickaxe
+         %HP shred, spellblade, Fleet stick, Overgrowth HP
+  20:00 | power    9226 | mix    9226 | alive 12.0s | tank-dmg    8950 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Trinity Force › Berserker's Greaves › Blade of the Ruined King › Eclipse
+         %HP shred, spellblade, Fleet stick, Overgrowth HP
+  21:00 | power    9074 | mix    9074 | alive 12.0s | tank-dmg    8409 | TF → BotRK → DD → FoN → Twin
          items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance
-         %HP shred, brawl tank, spellblade
-  22:00 | power    9938 | mix   10205 | alive 11.7s | tank-dmg    9944 | TF → BotRK → DD → FoN → Twin
-         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance
-         %HP shred, scorch TRUE, brawl tank, spellblade
-  24:00 | power   10190 | mix   10190 | alive 12.0s | tank-dmg    9897 | TF → BotRK → DD → FoN → Twin
-         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance › …
-         %HP shred, scorch TRUE, brawl tank, spellblade
-  25:00 | power   10269 | mix   10269 | alive 12.0s | tank-dmg   10016 | TF → BotRK → DD → FoN → Twin
-         items: Long Sword › Trinity Force › Immortal Treads › Blade of the Ruined King › Death's Dance › …
-         %HP shred, scorch TRUE, brawl tank, spellblade
+         %HP shred, brawl tank, spellblade, Fleet stick, Overgrowth HP
+  22:00 | power   12233 | mix   12233 | alive 12.0s | tank-dmg   12255 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Trinity Force › Berserker's Greaves › Blade of the Ruined King › Eclipse › Pickaxe
+         %HP shred, scorch TRUE, spellblade, Fleet stick, Overgrowth HP
+  24:00 | power   12221 | mix   12221 | alive 12.0s | tank-dmg   12208 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Trinity Force › Berserker's Greaves › Blade of the Ruined King › Eclipse › Pickaxe › …
+         %HP shred, scorch TRUE, spellblade, Fleet stick, Overgrowth HP
+  25:00 | power   13350 | mix   14520 | alive 11.0s | tank-dmg   14611 | TF → BotRK → Eclipse → Serylda → Wit
+         items: Trinity Force › Berserker's Greaves › Blade of the Ruined King › Eclipse › Serylda's Grudge
+         %HP shred, scorch TRUE, spellblade, Fleet stick, Overgrowth HP
 
 ------------------------------------------------------------------------------------
 BUILD COMPARISON — LATE POWER @ spikes
 ------------------------------------------------------------------------------------
   Build                                      10:00   15:00   20:00   25:00  EffLate Alive25
-  TF → BotRK → DD → FoN → Twin                3617    4452    6335   10269     6741    12.0
-  TF → Shojin → DD → Hex → BotRK              3617    4517    5862    9177     5998    11.5
-  TF → BotRK → Eclipse → Serylda → Wit        3617    4716    6990   10042     6382     8.6
-  Dusk → Nashor → Liandry → Rift → Shojin     3183    3478    5636    8359     5037     9.0
-  TF → Nashor → Liandry → Cap → Twin          3617    4110    5534    7433     5319     8.9
-  Sunderer → BotRK → DD → Twin → FoN          2926    3753    5444    9057     5874    12.0
-  Kraken → TF → BotRK → Hex → Randuin         3274    3932    5642   10161     5888     9.1
-  TF → BotRK → Twin → FoN → DD                3617    4452    7008    9045     6484    12.0
-  Dusk → Cap → Liandry → Nashor → Rift        3183    3476    3185    4486     3297     6.7
+  TF → BotRK → DD → FoN → Twin                4453    5596    7605   10577     7620    12.0
+  TF → Shojin → DD → Hex → BotRK              4453    5482    6737    9868     6727    12.0
+  TF → BotRK → Eclipse → Serylda → Wit        4453    5987    9226   13350     8120    11.0
+  Dusk → Nashor → Liandry → Rift → Shojin     4187    4592    7364   10827     6594    11.4
+  TF → Nashor → Liandry → Cap → Twin          4453    5343    7112    9630     6750    11.2
+  Sunderer → BotRK → DD → Twin → FoN          3602    4748    6590    9329     6637    12.0
+  Kraken → TF → BotRK → Hex → Randuin         3590    4134    5846   10762     6267     9.4
+  TF → BotRK → Twin → FoN → DD                4453    5596    7218    9316     7138    12.0
+  Dusk → Cap → Liandry → Nashor → Rift        4187    4589    4167    5816     4331     8.4
 
 ------------------------------------------------------------------------------------
 TANK SHRED (raw 12s window dmg vs tank) @ 15 / 20 / 25
 ------------------------------------------------------------------------------------
-  TF → BotRK → DD → FoN → Twin                4959    6974   10016
-  TF → BotRK → Twin → FoN → DD                4959    6656    8973
-  TF → BotRK → Eclipse → Serylda → Wit        5325    8689   14185
-  TF → Shojin → DD → Hex → BotRK              4882    5852    8980
-  Kraken → TF → BotRK → Hex → Randuin         4802    6642   13236
-  Sunderer → BotRK → DD → Twin → FoN          4365    6214    9008
-  TF → Nashor → Liandry → Cap → Twin          4779    6264    9774
-  Dusk → Nashor → Liandry → Rift → Shojin     4580    6964   10851
-  Dusk → Cap → Liandry → Nashor → Rift        4565    4888    7988
+  TF → BotRK → Eclipse → Serylda → Wit        5485    8950   14611
+  TF → BotRK → DD → FoN → Twin                5108    7183   10316
+  TF → BotRK → Twin → FoN → DD                5108    6856    9243
+  TF → Nashor → Liandry → Cap → Twin          4922    6452   10067
+  TF → Shojin → DD → Hex → BotRK              5028    6027    9249
+  Sunderer → BotRK → DD → Twin → FoN          4496    6400    9278
+  Dusk → Nashor → Liandry → Rift → Shojin     4717    7172   11177
+  Kraken → TF → BotRK → Hex → Randuin         4946    6841   13633
+  Dusk → Cap → Liandry → Nashor → Rift        4702    5035    8227
 
 ------------------------------------------------------------------------------------
 SURVIVE TIME IN DIVE (seconds of 12s window) @ 15 / 20 / 25
 ------------------------------------------------------------------------------------
-  TF → BotRK → DD → FoN → Twin                 9.8    10.3    12.0
-  TF → BotRK → Twin → FoN → DD                 9.8    12.0    12.0
-  TF → BotRK → Eclipse → Serylda → Wit         9.7     9.4     8.6
-  TF → Shojin → DD → Hex → BotRK              10.2    10.8    11.5
-  Kraken → TF → BotRK → Hex → Randuin          9.2     9.3     9.1
-  Sunderer → BotRK → DD → Twin → FoN           9.8    10.2    12.0
-  TF → Nashor → Liandry → Cap → Twin           9.5     9.6     8.9
-  Dusk → Nashor → Liandry → Rift → Shojin      8.5     9.1     9.0
-  Dusk → Cap → Liandry → Nashor → Rift         8.5     7.2     6.7
+  TF → BotRK → Eclipse → Serylda → Wit        12.0    12.0    11.0
+  TF → BotRK → DD → FoN → Twin                12.0    12.0    12.0
+  TF → BotRK → Twin → FoN → DD                12.0    12.0    12.0
+  TF → Nashor → Liandry → Cap → Twin          12.0    12.0    11.2
+  TF → Shojin → DD → Hex → BotRK              12.0    12.0    12.0
+  Sunderer → BotRK → DD → Twin → FoN          12.0    12.0    12.0
+  Dusk → Nashor → Liandry → Rift → Shojin     10.9    11.5    11.4
+  Kraken → TF → BotRK → Hex → Randuin          9.4     9.4     9.4
+  Dusk → Cap → Liandry → Nashor → Rift        10.9     9.1     8.4
 
 ------------------------------------------------------------------------------------
 VERDICT
 ------------------------------------------------------------------------------------
-  Best path (counter meta + win late): TF → BotRK → DD → FoN → Twin
-  Late-weighted avg: 6741 | 25:00 late-power: 10269
+  Best path (counter meta + win late): TF → BotRK → Eclipse → Serylda → Wit
+  Late-weighted avg: 8120 | 25:00 late-power: 13350
   Spellblade core online: ~8:00
   Anti-tank shred online:  ~16:00  (BotRK or Liandry)
-  Brawl tank item online:  ~21:00
+  Brawl tank item: NOT finished — dies before dragon form ends
 
   WHY LATE-GAME META NEEDS SHRED + SURVIVE:
   • Patch 7.3d cut Ocean dragon omnivamp 20% → 10%. Pure damage
@@ -140,13 +140,13 @@ VERDICT
     are still the win condition; itemization must keep you alive
     long enough to auto the marked target.
 
-  vs runner-up (TF → BotRK → Twin → FoN → DD):
-    25:00 late-power 10269 vs 9045 (+14%)
+  vs runner-up (TF → BotRK → DD → FoN → Twin):
+    25:00 late-power 13350 vs 10577 (+26%)
   vs anti-tank glass (TF → BotRK → Eclipse → Serylda → Wit):
-    20:00 6335 vs 6990 (-9%) | 25:00 10269 vs 10042 (+2%)
-    alive 25:00 12.0s vs 8.6s — glass shreds harder on paper (14185 tank-dmg) but dies mid-form
+    20:00 9226 vs 9226 (+0%) | 25:00 13350 vs 13350 (+0%)
+    alive 25:00 11.0s vs 11.0s — glass shreds harder on paper (14611 tank-dmg) but dies mid-form
   vs AP burn (Dusk → Nashor → Liandry → Rift → Shojin):
-    25:00 late-power 10269 vs 8359 (+23%) | alive 12.0s vs 9.0s
+    25:00 late-power 13350 vs 10827 (+23%) | alive 11.0s vs 11.4s
 
   RECOMMENDED (counter tanky meta, win late dragon fights):
   1) Long Sword → Sheen / Phage / Hearthbound
@@ -157,8 +157,7 @@ VERDICT
   6) Force of Nature / Randuin — match their damage type
   7) Twinguard / Sterak — never skip a resist spike for 6th DPS
 
-  Runes: Conqueror (long fights) or Fleet Footwork (stick + heal).
-  Secondary: Unshakeable + Overgrowth / Second Wind + Alacrity.
+  Runes: see RUNE COMPARISON below (locked on this item path).
   Skill: max E → W → Q; R at 5 / 9 / 13.
 
   Play: full clear → dragons for stacks → R AFTER they commit.
@@ -166,4 +165,105 @@ VERDICT
   Trap: Kraken / Cap glass — paper late DPS, dies at 6–8s of form.
   Trap: Shojin → Hex damage path without BotRK — tanks live forever.
   Trap: rushing Twinguard before shred — you live, tanks also live.
+====================================================================================
+====================================================================================
+SHYVANA JUNGLE — RUNE COMPARISON  (items locked: TF → BotRK → DD → FoN → Twin)
+Question: which rune page wins the late dragon-form brawl?
+====================================================================================
+
+------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE OPTIMAL RUNE PAGE
+------------------------------------------------------------------------------------
+   1:00 | power    1119 | alive  7.8s | AD    98 | HP   792 | Conqueror + Perseverance (CC late)
+         pre-core, Conqueror stacks, tenacity
+   2:00 | power    1319 | alive  8.2s | AD   103 | HP   924 | Conqueror + Perseverance (CC late)
+         pre-core, Conqueror stacks, tenacity
+   4:00 | power    2234 | alive 11.1s | AD   114 | HP  1485 | Conqueror + Perseverance (CC late)
+         pre-core, Conqueror stacks, tenacity
+   5:00 | power    2022 | alive 10.1s | AD   114 | HP  1485 | Conqueror + Perseverance (CC late)
+         pre-core, Conqueror stacks, tenacity
+   6:00 | power    2700 | alive 11.6s | AD   135 | HP  1821 | Conqueror + Perseverance (CC late)
+         pre-core, Conqueror stacks, tenacity
+   8:00 | power    4734 | alive 12.0s | AD   162 | HP  2250 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+   9:00 | power    4873 | alive 12.0s | AD   167 | HP  2493 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+  10:00 | power    4811 | alive 12.0s | AD   167 | HP  2495 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+  12:00 | power    5257 | alive 12.0s | AD   201 | HP  2648 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+  13:00 | power    5359 | alive 12.0s | AD   207 | HP  2791 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+  14:00 | power    5697 | alive 12.0s | AD   212 | HP  2939 | Conqueror + Alacrity (late brawl)
+         spellblade, Conqueror stacks, Overgrowth HP
+  16:00 | power    7784 | alive 12.0s | AD   244 | HP  3193 | Conqueror + Alacrity (late brawl)
+         %HP shred, spellblade, Conqueror stacks, Overgrowth HP
+  17:00 | power    7688 | alive 12.0s | AD   244 | HP  3193 | Conqueror + Alacrity (late brawl)
+         %HP shred, spellblade, Conqueror stacks, Overgrowth HP
+  18:00 | power    8446 | alive 12.0s | AD   276 | HP  3337 | Conqueror + Alacrity (late brawl)
+         %HP shred, spellblade, Conqueror stacks, Overgrowth HP
+  20:00 | power    8014 | alive 12.0s | AD   276 | HP  3343 | Conqueror + Alacrity (late brawl)
+         %HP shred, spellblade, Conqueror stacks, Overgrowth HP
+  21:00 | power    9625 | alive 12.0s | AD   308 | HP  3495 | Conqueror + Bloodline (sustain)
+         %HP shred, brawl tank, spellblade, Conqueror stacks, Overgrowth HP
+  22:00 | power   10986 | alive 12.0s | AD   308 | HP  3497 | Conqueror + Alacrity (late brawl)
+         %HP shred, scorch TRUE, brawl tank, spellblade, Conqueror stacks, Overgrowth HP
+  24:00 | power   10954 | alive 12.0s | AD   308 | HP  3849 | Conqueror + Alacrity (late brawl)
+         %HP shred, scorch TRUE, brawl tank, spellblade, Conqueror stacks, Overgrowth HP
+  25:00 | power   11033 | alive 12.0s | AD   308 | HP  3854 | Conqueror + Alacrity (late brawl)
+         %HP shred, scorch TRUE, brawl tank, spellblade, Conqueror stacks, Overgrowth HP
+
+------------------------------------------------------------------------------------
+RUNE PAGE COMPARISON — LATE POWER @ spikes
+------------------------------------------------------------------------------------
+  Rune page                                    10:00   15:00   20:00   25:00  EffLate Alive25
+  Fleet + Alacrity (guide)                      4453    5596    7605   10577     7161    12.0
+  Conqueror + Alacrity (late brawl)             4811    6011    8014   11033     8002    12.0
+  Conqueror + Bloodline (sustain)               4475    5643    8002   11024     7833    12.0
+  Fleet + Perseverance (vs CC)                  4453    5596    7605   10577     6905    12.0
+  Fleet + Bone Plating (vs burst)               4453    5596    7605   10577     7165    12.0
+  Fleet + Haste (ability weave)                 4313    5422    7671   10232     6981    12.0
+  Conqueror + Perseverance (CC late)            4811    6011    8014   11033     7722    12.0
+
+------------------------------------------------------------------------------------
+ALIVE TIME @ 15 / 20 / 25
+------------------------------------------------------------------------------------
+  Conqueror + Alacrity (late brawl)             12.0    12.0    12.0
+  Conqueror + Bloodline (sustain)               11.2    12.0    12.0
+  Conqueror + Perseverance (CC late)            12.0    12.0    12.0
+  Fleet + Bone Plating (vs burst)               12.0    12.0    12.0
+  Fleet + Alacrity (guide)                      12.0    12.0    12.0
+  Fleet + Haste (ability weave)                 12.0    12.0    12.0
+  Fleet + Perseverance (vs CC)                  12.0    12.0    12.0
+
+------------------------------------------------------------------------------------
+RUNE VERDICT
+------------------------------------------------------------------------------------
+  Best page (late counter-meta): Conqueror + Alacrity (late brawl)
+  Page: Conqueror · Unshakeable · Second Wind · Overgrowth · Alacrity
+  Late-weighted avg: 8002 | 25:00 late-power: 11033
+  vs guide Fleet+Alacrity: 20:00 +5% | 25:00 +4%
+  25:00 alive 12.0s vs guide 12.0s | AD 308 vs 262
+
+  WHY THIS PAGE FOR LATE WINS:
+  • After Ocean 10% nerf, in-combat healing must come from the
+    keystone + items. Conqueror omnivamp stacks inside the 12s
+    form; Fleet heals between trades / on stick procs.
+  • Twin Bite double-hits stack Conqueror very fast in dragon form.
+  • Alacrity > Bloodline/Haste on this build: more autos → more Q
+    refunds → more BotRK %HP doubles (the anti-tank tool).
+  • Overgrowth + Unshakeable keep the dive alive once DD/Twinguard
+    are online. Drop Overgrowth for Perseverance only vs heavy CC.
+
+  RECOMMENDED RUNES (late-game counter-meta Shyvana jungle):
+  Keystone:  Conqueror
+  Primary:   Unshakeable · Second Wind · Overgrowth
+  Secondary: Legend: Alacrity
+
+  Swap to Fleet Footwork if you get kited / need clear stick MS
+  more than in-combat healing (still keep Alacrity + Overgrowth).
+  vs heavy CC (Lillia / Amumu): Perseverance over Overgrowth.
+  vs burst dive: Bone Plating over Second Wind.
+  Trap: full Precision Bloodline page — less Q weave than Alacrity,
+  so BotRK shred and Spellblade cadence fall off.
 ====================================================================================
