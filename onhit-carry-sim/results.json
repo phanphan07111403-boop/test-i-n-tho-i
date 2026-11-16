@@ -1,0 +1,433 @@
+{
+  "kaisa Varus build": {
+    "group": 10000,
+    "heal": 1320,
+    "deaths": {
+      "tank": 4.2,
+      "bruiser": 3.87,
+      "carry": 2.2
+    },
+    "four": 9811,
+    "four_heal": 1307,
+    "solo_time": 1.2,
+    "solo_deaths": {
+      "carry": 1.2
+    },
+    "solo_damage": 2100,
+    "wave_time": 0.5,
+    "wave_heal": 92,
+    "sources": {
+      "auto": 3392,
+      "onhit": 3299,
+      "plasma": 1048,
+      "pop": 1354,
+      "q": 481,
+      "w": 426,
+      "kraken": 0,
+      "tempo": 0
+    },
+    "gold": 15850
+  },
+  "kaisa Kraken for Statikk": {
+    "group": 10000,
+    "heal": 1397,
+    "deaths": {
+      "tank": 4.19,
+      "bruiser": 4.19,
+      "carry": 2.53
+    },
+    "four": 9613,
+    "four_heal": 1347,
+    "solo_time": 1.19,
+    "solo_deaths": {
+      "carry": 1.19
+    },
+    "solo_damage": 2100,
+    "wave_time": 0.5,
+    "wave_heal": 95,
+    "sources": {
+      "auto": 3766,
+      "onhit": 3085,
+      "plasma": 877,
+      "pop": 1303,
+      "q": 458,
+      "w": 231,
+      "kraken": 281,
+      "tempo": 0
+    },
+    "gold": 15850
+  },
+  "kaisa Nashor for Hurricane": {
+    "group": 10000,
+    "heal": 1158,
+    "deaths": {
+      "tank": 3.65,
+      "bruiser": 5.4,
+      "carry": 5.47
+    },
+    "four": 7262,
+    "four_heal": 853,
+    "solo_time": 1.19,
+    "solo_deaths": {
+      "carry": 1.19
+    },
+    "solo_damage": 2100,
+    "wave_time": 0.5,
+    "wave_heal": 41,
+    "sources": {
+      "auto": 2210,
+      "onhit": 3649,
+      "plasma": 1110,
+      "pop": 1679,
+      "q": 1026,
+      "w": 326,
+      "kraken": 0,
+      "tempo": 0
+    },
+    "gold": 16100
+  },
+  "kaisa Kraken and Nashor": {
+    "group": 10000,
+    "heal": 1286,
+    "deaths": {
+      "tank": 3.65,
+      "bruiser": 5.74,
+      "carry": 6.4
+    },
+    "four": 6102,
+    "four_heal": 780,
+    "solo_time": 1.18,
+    "solo_deaths": {
+      "carry": 1.18
+    },
+    "solo_damage": 2100,
+    "wave_time": 0.5,
+    "wave_heal": 41,
+    "sources": {
+      "auto": 2795,
+      "onhit": 3151,
+      "plasma": 906,
+      "pop": 1264,
+      "q": 1074,
+      "w": 271,
+      "kraken": 538,
+      "tempo": 0
+    },
+    "gold": 16100
+  },
+  "kaisa Kraken, no Hurricane": {
+    "group": 10000,
+    "heal": 1348,
+    "deaths": {
+      "tank": 4.45,
+      "bruiser": 6.84,
+      "carry": 7.86
+    },
+    "four": 4953,
+    "four_heal": 673,
+    "solo_time": 1.62,
+    "solo_deaths": {
+      "carry": 1.62
+    },
+    "solo_damage": 2100,
+    "wave_time": 0.89,
+    "wave_heal": 104,
+    "sources": {
+      "auto": 3134,
+      "onhit": 2999,
+      "plasma": 801,
+      "pop": 1193,
+      "q": 960,
+      "w": 490,
+      "kraken": 423,
+      "tempo": 0
+    },
+    "gold": 13200
+  },
+  "kaisa step Scepter + boots": {
+    "wave": 8.51,
+    "wave_heal": 131,
+    "group": 1382,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 2400
+  },
+  "kaisa step Statikk + boots": {
+    "wave": 2.59,
+    "wave_heal": 41,
+    "group": 2448,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 4100
+  },
+  "kaisa step Kraken + boots": {
+    "wave": 5.95,
+    "wave_heal": 41,
+    "group": 2307,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 4100
+  },
+  "kaisa step Statikk + Scepter + boots": {
+    "wave": 2.59,
+    "wave_heal": 76,
+    "group": 2621,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 5300
+  },
+  "kaisa step Statikk + Guinsoo + Scepter": {
+    "wave": 0.97,
+    "wave_heal": 69,
+    "group": 5468,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 8300
+  },
+  "kaisa step Core three + Scepter": {
+    "wave": 0.5,
+    "wave_heal": 73,
+    "group": 10000,
+    "deaths": {
+      "tank": 7.59,
+      "bruiser": 7.23,
+      "carry": 3.9
+    },
+    "gold": 10950
+  },
+  "kaisa step Finished Varus build": {
+    "wave": 0.5,
+    "wave_heal": 92,
+    "group": 10000,
+    "deaths": {
+      "tank": 4.2,
+      "bruiser": 3.87,
+      "carry": 2.2
+    },
+    "gold": 15850
+  },
+  "kaisa rune Bloodline": {
+    "four": 9811,
+    "four_heal": 1307,
+    "wave": 0.5,
+    "wave_heal": 92
+  },
+  "kaisa rune Alacrity": {
+    "four": 9818,
+    "four_heal": 621,
+    "wave": 0.5,
+    "wave_heal": 51
+  },
+  "kalista Varus build": {
+    "group": 10000,
+    "heal": 1354,
+    "deaths": {
+      "tank": 3.97,
+      "bruiser": 2.97,
+      "carry": 1.64
+    },
+    "note": "rend at 6 spears, cast 2",
+    "four": 10000,
+    "four_heal": 1354,
+    "solo_time": 1.56,
+    "solo_deaths": {
+      "carry": 1.31
+    },
+    "wave_time": 0.25,
+    "wave_heal": 147,
+    "sources": {
+      "auto": 3501,
+      "onhit": 3379,
+      "rend": 2927,
+      "pierce": 192,
+      "kraken": 0,
+      "tempo": 0
+    },
+    "gold": 15850
+  },
+  "kalista Kraken for Statikk": {
+    "group": 10000,
+    "heal": 1393,
+    "deaths": {
+      "tank": 3.63,
+      "bruiser": 3.29,
+      "carry": 1.96
+    },
+    "note": "rend at 8 spears, cast 2",
+    "four": 10000,
+    "four_heal": 1393,
+    "solo_time": 1.21,
+    "solo_deaths": {
+      "carry": 0.96
+    },
+    "wave_time": 0.98,
+    "wave_heal": 251,
+    "sources": {
+      "auto": 3578,
+      "onhit": 3120,
+      "rend": 2832,
+      "pierce": 194,
+      "kraken": 276,
+      "tempo": 0
+    },
+    "gold": 15850
+  },
+  "kalista Bloodthirster for Statikk": {
+    "group": 10000,
+    "heal": 2248,
+    "deaths": {
+      "tank": 3.8,
+      "bruiser": 3.12,
+      "carry": 2.09
+    },
+    "note": "rend at 8 spears, cast 3",
+    "four": 10000,
+    "four_heal": 2248,
+    "solo_time": 1.27,
+    "solo_deaths": {
+      "carry": 1.02
+    },
+    "wave_time": 1.05,
+    "wave_heal": 522,
+    "sources": {
+      "auto": 3875,
+      "onhit": 3045,
+      "rend": 2874,
+      "pierce": 205,
+      "kraken": 0,
+      "tempo": 0
+    },
+    "gold": 16150
+  },
+  "kalista No Statikk": {
+    "group": 10000,
+    "heal": 1374,
+    "deaths": {
+      "tank": 4.49,
+      "bruiser": 3.8,
+      "carry": 2.09
+    },
+    "note": "rend at 8 spears, cast 2",
+    "four": 9592,
+    "four_heal": 1308,
+    "solo_time": 1.64,
+    "solo_deaths": {
+      "carry": 1.39
+    },
+    "wave_time": 1.05,
+    "wave_heal": 280,
+    "sources": {
+      "auto": 3465,
+      "onhit": 3520,
+      "rend": 2837,
+      "pierce": 178,
+      "kraken": 0,
+      "tempo": 0
+    },
+    "gold": 12950
+  },
+  "kalista step Scepter + boots": {
+    "wave": 9.62,
+    "wave_heal": 221,
+    "group": 1620,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 2400
+  },
+  "kalista step BotRK + boots": {
+    "wave": 4.95,
+    "wave_heal": 249,
+    "group": 2932,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 4300
+  },
+  "kalista step Statikk + boots": {
+    "wave": 3.52,
+    "wave_heal": 41,
+    "group": 2363,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 4100
+  },
+  "kalista step BotRK + Guinsoo": {
+    "wave": 4.08,
+    "wave_heal": 256,
+    "group": 5509,
+    "deaths": {
+      "tank": null,
+      "bruiser": null,
+      "carry": null
+    },
+    "gold": 7300
+  },
+  "kalista step BotRK + Guinsoo + Hurricane": {
+    "wave": 1.13,
+    "wave_heal": 257,
+    "group": 10000,
+    "deaths": {
+      "tank": 6.62,
+      "bruiser": 5.63,
+      "carry": 3.02
+    },
+    "gold": 9950
+  },
+  "kalista step Those four + Terminus": {
+    "wave": 1.05,
+    "wave_heal": 280,
+    "group": 10000,
+    "deaths": {
+      "tank": 4.49,
+      "bruiser": 3.8,
+      "carry": 2.09
+    },
+    "gold": 12950
+  },
+  "kalista step Finished, Statikk last": {
+    "wave": 0.25,
+    "wave_heal": 147,
+    "group": 10000,
+    "deaths": {
+      "tank": 3.97,
+      "bruiser": 2.97,
+      "carry": 1.64
+    },
+    "gold": 15850
+  },
+  "kalista rune Bloodline": {
+    "four": 10000,
+    "four_heal": 1354,
+    "wave": 0.25,
+    "wave_heal": 147
+  },
+  "kalista rune Alacrity": {
+    "four": 10000,
+    "four_heal": 655,
+    "wave": 0.25,
+    "wave_heal": 106
+  }
+}

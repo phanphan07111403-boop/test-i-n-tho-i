@@ -1,0 +1,85 @@
+Kai'Sa and Kalista, level 15, patch 7.3f, on the Varus build.
+Varus build: Berserker's Greaves, Statikk, Guinsoo, Hurricane, BotRK, Terminus.
+Runes unless noted: Lethal Tempo, Brutal, Cut Down, Legend: Bloodline.
+Group is tank, bruiser, carry. Wave is 3 melee at 640 and 3 casters at 340.
+Kai'Sa starts the fight with Supercharge already channeled when E is evolved.
+
+KAI'SA, 8 seconds, three champions, missiles split
+group  Varus build               dmg 10000 heal 1320 time  4.45 autos 11  tank 4.20s bruiser 3.87s carry 2.20s  Q evolved, E, W
+4s     Varus build               dmg  9811 heal 1307 time   4.0 autos 11  bruiser 3.87s carry 2.20s  Q evolved, E, W
+solo   Varus build               dmg  2100 heal  232 time   1.2 autos  3  carry 1.20s  Q evolved, E, W
+wave   Varus build               dmg  2940 heal   92 time   0.5 autos  1  melee 0.50s caster 0.25s  Q evolved, E, W
+group  Kraken for Statikk        dmg 10000 heal 1397 time  4.19 autos 12  tank 4.19s bruiser 4.19s carry 2.53s  Q evolved, E, W
+4s     Kraken for Statikk        dmg  9613 heal 1347 time   4.0 autos 11  carry 2.53s  Q evolved, E, W
+solo   Kraken for Statikk        dmg  2100 heal  247 time  1.19 autos  3  carry 1.19s  Q evolved, E, W
+wave   Kraken for Statikk        dmg  2940 heal   95 time   0.5 autos  1  melee 0.50s caster 0.25s  Q evolved, E, W
+group  Nashor for Hurricane      dmg 10000 heal 1158 time  5.72 autos 15  tank 3.65s bruiser 5.40s carry 5.47s  Q evolved, E, W
+4s     Nashor for Hurricane      dmg  7262 heal  853 time   4.0 autos 11  tank 3.65s  Q evolved, E, W
+solo   Nashor for Hurricane      dmg  2100 heal  208 time  1.19 autos  3  carry 1.19s  Q evolved, E, W
+wave   Nashor for Hurricane      dmg  2940 heal   41 time   0.5 autos  0  melee 0.25s caster 0.25s  Q evolved, E, W
+group  Kraken and Nashor         dmg 10000 heal 1286 time   6.4 autos 18  tank 3.65s bruiser 5.74s carry 6.40s  Q evolved, E, W
+4s     Kraken and Nashor         dmg  6102 heal  780 time   4.0 autos 11  tank 3.65s  Q evolved, E, W
+solo   Kraken and Nashor         dmg  2100 heal  218 time  1.18 autos  3  carry 1.18s  Q evolved, E, W
+wave   Kraken and Nashor         dmg  2940 heal   41 time   0.5 autos  0  melee 0.25s caster 0.25s  Q evolved, E, W
+group  Kraken, no Hurricane      dmg 10000 heal 1348 time  7.86 autos 21  tank 4.45s bruiser 6.84s carry 7.86s  Q evolved, E, W
+4s     Kraken, no Hurricane      dmg  4953 heal  673 time   4.0 autos 10    Q evolved, E, W
+solo   Kraken, no Hurricane      dmg  2100 heal  248 time  1.62 autos  4  carry 1.62s  Q evolved, E, W
+wave   Kraken, no Hurricane      dmg  2940 heal  104 time  0.89 autos  2  melee 0.89s caster 0.25s  Q evolved, E, W
+
+KAI'SA buy order, Bloodline, one wave and the 8 second group
+Scepter + boots                  dmg  2940 heal  131 time  8.51 autos 11  melee 6.25s caster 8.51s  Q base  gold 2400
+group  Scepter + boots           dmg  1382 heal  143 time   8.0 autos 11    Q base
+Statikk + boots                  dmg  2940 heal   41 time  2.59 autos  4  melee 2.59s caster 0.50s  Q evolved  gold 4100
+group  Statikk + boots           dmg  2448 heal  171 time   8.0 autos 13    Q evolved
+Kraken + boots                   dmg  2940 heal   41 time  5.95 autos  9  melee 3.91s caster 5.95s  Q evolved  gold 4100
+group  Kraken + boots            dmg  2307 heal  162 time   8.0 autos 13    Q evolved
+Statikk + Scepter + boots        dmg  2940 heal   76 time  2.59 autos  4  melee 2.59s caster 0.50s  Q evolved  gold 5300
+group  Statikk + Scepter + boots dmg  2621 heal  256 time   8.0 autos 13    Q evolved
+Statikk + Guinsoo + Scepter      dmg  2940 heal   69 time  0.97 autos  2  melee 0.97s caster 0.50s  Q evolved, E  gold 8300
+group  Statikk + Guinsoo + Scepter dmg  5468 heal  507 time   8.0 autos 18    Q evolved, E
+Core three + Scepter             dmg  2940 heal   73 time   0.5 autos  1  melee 0.50s caster 0.50s  Q evolved, E, W  gold 10950
+group  Core three + Scepter      dmg 10000 heal 1012 time  7.59 autos 19  tank 7.59s bruiser 7.23s carry 3.90s  Q evolved, E, W
+Finished Varus build             dmg  2940 heal   92 time   0.5 autos  1  melee 0.50s caster 0.25s  Q evolved, E, W  gold 15850
+group  Finished Varus build      dmg 10000 heal 1320 time  4.45 autos 11  tank 4.20s bruiser 3.87s carry 2.20s  Q evolved, E, W
+
+KAI'SA rune check on the Varus build
+Bloodline                        dmg  9811 heal 1307 time   4.0 autos 11  bruiser 3.87s carry 2.20s  Q evolved, E, W  wave 0.5s heal 92
+Alacrity                         dmg  9818 heal  621 time   4.0 autos 11  bruiser 3.84s carry 2.18s  Q evolved, E, W  wave 0.5s heal 51
+
+KALISTA, 8 seconds. She rends at the stack count that kills sooner.
+group  Varus build               dmg 10000 heal 1354 time  3.97 autos 12  tank 3.97s bruiser 2.97s carry 1.64s  rend at 6 spears, cast 2
+4s     Varus build               dmg 10000 heal 1354 time  3.97 autos 12  tank 3.97s bruiser 2.97s carry 1.64s  rend at 6 spears, cast 2
+solo   Varus build               dmg  2100 heal  284 time  1.56 autos  4  carry 1.31s  rend at 6 spears, cast 1
+wave   Varus build               dmg  2940 heal  147 time  0.25 autos  1  melee 0.00s caster 0.00s  rend on a kill, cast 1
+group  Kraken for Statikk        dmg 10000 heal 1393 time  3.63 autos 11  tank 3.63s bruiser 3.29s carry 1.96s  rend at 8 spears, cast 2
+4s     Kraken for Statikk        dmg 10000 heal 1393 time  3.63 autos 11  tank 3.63s bruiser 3.29s carry 1.96s  rend at 8 spears, cast 2
+solo   Kraken for Statikk        dmg  2100 heal  275 time  1.21 autos  3  carry 0.96s  rend at 6 spears, cast 1
+wave   Kraken for Statikk        dmg  2940 heal  251 time  0.98 autos  3  melee 0.37s caster 0.73s  rend on a kill, cast 3
+group  Bloodthirster for Statikk dmg 10000 heal 2248 time  4.05 autos 11  tank 3.80s bruiser 3.12s carry 2.09s  rend at 8 spears, cast 3
+4s     Bloodthirster for Statikk dmg 10000 heal 2248 time   4.0 autos 11  tank 3.80s bruiser 3.12s carry 2.09s  rend at 8 spears, cast 3
+solo   Bloodthirster for Statikk dmg  2100 heal  407 time  1.27 autos  3  carry 1.02s  rend at 6 spears, cast 1
+wave   Bloodthirster for Statikk dmg  2940 heal  522 time  1.05 autos  3  melee 0.40s caster 0.80s  rend on a kill, cast 3
+group  No Statikk                dmg 10000 heal 1374 time  4.49 autos 13  tank 4.49s bruiser 3.80s carry 2.09s  rend at 8 spears, cast 2
+4s     No Statikk                dmg  9592 heal 1308 time   4.0 autos 11  bruiser 3.80s carry 2.09s  rend at 8 spears, cast 2
+solo   No Statikk                dmg  2100 heal  270 time  1.64 autos  4  carry 1.39s  rend at 6 spears, cast 1
+wave   No Statikk                dmg  2940 heal  280 time  1.05 autos  3  melee 0.40s caster 0.80s  rend on a kill, cast 2
+
+KALISTA buy order, Bloodline
+Scepter + boots                  dmg  2940 heal  221 time  9.62 autos 15  melee 5.35s caster 9.37s  rend on a kill, cast 6  gold 2400
+group  Scepter + boots           dmg  1620 heal  178 time   8.0 autos 13    rend at 12 spears, cast 1
+BotRK + boots                    dmg  2940 heal  249 time  4.95 autos  9  melee 2.94s caster 4.70s  rend on a kill, cast 6  gold 4300
+group  BotRK + boots             dmg  2932 heal  457 time   8.0 autos 15    rend at 12 spears, cast 1
+Statikk + boots                  dmg  2940 heal   41 time  3.52 autos  7  melee 1.76s caster 3.52s  rend on a kill, cast 3  gold 4100
+group  Statikk + boots           dmg  2363 heal  165 time   8.0 autos 15    rend at 12 spears, cast 1
+BotRK + Guinsoo                  dmg  2940 heal  256 time  4.08 autos  9  melee 2.42s caster 3.83s  rend on a kill, cast 4  gold 7300
+group  BotRK + Guinsoo           dmg  5509 heal  822 time   8.0 autos 19    rend at 12 spears, cast 1
+BotRK + Guinsoo + Hurricane      dmg  2940 heal  257 time  1.13 autos  3  melee 0.45s caster 0.88s  rend on a kill, cast 2  gold 9950
+group  BotRK + Guinsoo + Hurricane dmg 10000 heal 1409 time  6.87 autos 17  tank 6.62s bruiser 5.63s carry 3.02s  rend at 10 spears, cast 3
+Those four + Terminus            dmg  2940 heal  280 time  1.05 autos  3  melee 0.40s caster 0.80s  rend on a kill, cast 2  gold 12950
+group  Those four + Terminus     dmg 10000 heal 1374 time  4.49 autos 13  tank 4.49s bruiser 3.80s carry 2.09s  rend at 8 spears, cast 2
+Finished, Statikk last           dmg  2940 heal  147 time  0.25 autos  1  melee 0.00s caster 0.00s  rend on a kill, cast 1  gold 15850
+group  Finished, Statikk last    dmg 10000 heal 1354 time  3.97 autos 12  tank 3.97s bruiser 2.97s carry 1.64s  rend at 6 spears, cast 2
+
+KALISTA rune check on the Varus build
+Bloodline                        dmg 10000 heal 1354 time  3.97 autos 12  tank 3.97s bruiser 2.97s carry 1.64s  rend at 6 spears, cast 2  wave 0.25s heal 147
+Alacrity                         dmg 10000 heal  655 time  3.94 autos 12  tank 3.94s bruiser 2.94s carry 1.60s  rend at 6 spears, cast 2  wave 0.25s heal 106
