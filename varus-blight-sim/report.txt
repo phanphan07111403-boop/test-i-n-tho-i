@@ -1,0 +1,208 @@
+==============================================================================
+VARUS — STATIKK SHIV + RUNAAN'S HURRICANE (Wild Rift 7.3f)
+Level 15. Q, W, and E are maxed. Full 1.5s Piercing Arrow.
+Front target is the tank, then the bruiser, then the carry.
+==============================================================================
+
+Poke fires a full arrow after one auto, then repeats when Q is back.
+Commit holds the arrow until the champion you are hitting has 3 Blight.
+Charged means the first auto is the Statikk lightning. A wave in front
+sends the bolts and the bounces into minions, so champions are not spread to.
+
+------------------------------------------------------------------------------
+ONE CHAMPION, POKE
+------------------------------------------------------------------------------
+  Statikk Shiv + Runaan's Hurricane  (6750g)
+      2100  first arrow   542 at    1.50s  stacks [1]  Qx1 autos  8  carry 2100 dead 5.31s
+    arrow 408  blight 331  missing-health 24  autos 849  bolts 0  on-hit 303  lightning 42
+  Statikk Shiv + Guinsoo's Rageblade  (7100g)
+      2100  first arrow   597 at    1.50s  stacks [1]  Qx1 autos  6  carry 2100 dead 4.04s
+    arrow 451  blight 355  missing-health 28  autos 633  bolts 0  on-hit 430  lightning 42
+  Runaan's Hurricane + Guinsoo's Rageblade  (6850g)
+      2100  first arrow   530 at    1.50s  stacks [1]  Qx1 autos  8  carry 2100 dead 5.04s
+    arrow 402  blight 323  missing-health 21  autos 734  bolts 0  on-hit 482  lightning 0
+  Statikk Shiv + Blade of the Ruined King  (7200g)
+      2100  first arrow   602 at    1.50s  stacks [1]  Qx1 autos  6  carry 2100 dead 4.19s
+    arrow 457  blight 331  missing-health 35  autos 651  bolts 0  on-hit 421  lightning 42
+  Youmuu's Ghostblade + Duskblade of Draktharr  (7100g)
+      2100  first arrow   613 at    1.50s  stacks [0]  Qx1 autos  6  carry 2100 dead 5.55s
+    arrow 613  blight 200  missing-health 0  autos 907  bolts 0  on-hit 158  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade  (9750g)
+      2100  first arrow   600 at    1.50s  stacks [1]  Qx1 autos  6  carry 2100 dead 3.83s
+    arrow 451  blight 355  missing-health 31  autos 710  bolts 0  on-hit 350  lightning 42
+  Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King  (10200g)
+      2100  first arrow   659 at    1.50s  stacks [1]  Qx1 autos  5  carry 2100 dead 3.38s
+    arrow 500  blight 355  missing-health 41  autos 536  bolts 0  on-hit 444  lightning 42
+  Youmuu's Ghostblade + Duskblade of Draktharr + Manamune  (10000g)
+      2100  first arrow   716 at    1.50s  stacks [0]  Qx1 autos  4  carry 2100 dead 3.95s
+    arrow 716  blight 200  missing-health 0  autos 823  bolts 0  on-hit 95  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus  (12750g)
+      2100  first arrow   677 at    1.50s  stacks [1]  Qx1 autos  4  carry 2100 dead 3.25s
+    arrow 515  blight 211  missing-health 39  autos 696  bolts 0  on-hit 391  lightning 44
+
+------------------------------------------------------------------------------
+THREE CHAMPIONS TOGETHER, POKE, LIGHTNING READY
+------------------------------------------------------------------------------
+  Statikk Shiv + Runaan's Hurricane  (6750g)
+      7064  first arrow  1450 at    1.50s  stacks [1, 2, 2]  Qx2 autos 10  tank 2397 bruiser 2567 carry 2100 dead 5.57s
+    arrow 1210  blight 2567  missing-health 46  autos 564  bolts 881  on-hit 997  lightning 163
+  Statikk Shiv + Guinsoo's Rageblade  (7100g)
+      4266  first arrow  1294 at    1.50s  stacks [1, 1, 1]  Qx1 autos 13  tank 2334 bruiser 888 carry 1044
+    arrow 827  blight 761  missing-health 34  autos 729  bolts 0  on-hit 1350  lightning 206
+  Runaan's Hurricane + Guinsoo's Rageblade  (6850g)
+      7525  first arrow  1162 at    1.50s  stacks [1, 1, 1]  Qx1 autos 12  tank 2723 bruiser 2702 carry 2100 dead 5.36s
+    arrow 736  blight 2547  missing-health 31  autos 653  bolts 930  on-hit 1831  lightning 0
+  Statikk Shiv + Blade of the Ruined King  (7200g)
+      4398  first arrow  1297 at    1.50s  stacks [1, 1, 1]  Qx1 autos 12  tank 2628 bruiser 854 carry 916
+    arrow 838  blight 710  missing-health 55  autos 692  bolts 0  on-hit 1534  lightning 206
+  Youmuu's Ghostblade + Duskblade of Draktharr  (7100g)
+      2730  first arrow  1067 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1587 bruiser 492 carry 651
+    arrow 1067  blight 276  missing-health 0  autos 728  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade  (9750g)
+      8691  first arrow  1594 at    1.50s  stacks [1, 2, 2]  Qx2 autos 10  tank 3191 bruiser 3400 dead 7.99s carry 2100 dead 4.68s
+    arrow 1338  blight 2831  missing-health 64  autos 701  bolts 936  on-hit 1822  lightning 163
+  Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King  (10200g)
+      6166  first arrow  1414 at    1.50s  stacks [1, 1, 1]  Qx1 autos 14  tank 3504 bruiser 1313 carry 1349
+    arrow 917  blight 761  missing-health 63  autos 960  bolts 0  on-hit 2853  lightning 206
+  Youmuu's Ghostblade + Duskblade of Draktharr + Manamune  (10000g)
+      3213  first arrow  1246 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1867 bruiser 579 carry 767
+    arrow 1246  blight 276  missing-health 0  autos 938  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus  (12750g)
+     10000  first arrow  1777 at    1.50s  stacks [1, 2, 2]  Qx2 autos 11  tank 4500 dead 7.64s bruiser 3400 dead 5.41s carry 2100 dead 3.25s
+    arrow 1290  blight 3064  missing-health 84  autos 1137  bolts 1116  on-hit 2381  lightning 178
+
+------------------------------------------------------------------------------
+THREE CHAMPIONS TOGETHER, HOLD THE ARROW FOR 3 BLIGHT
+------------------------------------------------------------------------------
+  Statikk Shiv + Runaan's Hurricane  (6750g)
+      7521  first arrow  2061 at    2.68s  stacks [3, 3, 3]  Qx2 autos 11  tank 2724 bruiser 2697 carry 2100 dead 5.96s
+    arrow 1495  blight 3014  missing-health 100  autos 620  bolts 898  on-hit 1054  lightning 163
+  Statikk Shiv + Guinsoo's Rageblade  (7100g)
+      4790  first arrow  1638 at    2.68s  stacks [3, 1, 1]  Qx1 autos 13  tank 2678 bruiser 989 carry 1123
+    arrow 827  blight 1269  missing-health 50  autos 729  bolts 0  on-hit 1350  lightning 206
+  Runaan's Hurricane + Guinsoo's Rageblade  (6850g)
+      8076  first arrow  2014 at    2.63s  stacks [3, 3, 3]  Qx3 autos 10  tank 3016 bruiser 2960 carry 2100 dead 5.19s
+    arrow 1928  blight 3228  missing-health 93  autos 545  bolts 794  on-hit 1488  lightning 0
+  Statikk Shiv + Blade of the Ruined King  (7200g)
+      4702  first arrow  1631 at    2.73s  stacks [3, 1, 1]  Qx1 autos 12  tank 2932 bruiser 854 carry 916
+    arrow 838  blight 1016  missing-health 83  autos 692  bolts 0  on-hit 1503  lightning 206
+  Youmuu's Ghostblade + Duskblade of Draktharr  (7100g)
+      2730  first arrow  1067 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1587 bruiser 492 carry 651
+    arrow 1067  blight 276  missing-health 0  autos 728  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade  (9750g)
+      9137  first arrow  2268 at    2.52s  stacks [3, 3, 3]  Qx3 autos 11  tank 3637 bruiser 3400 dead 7.45s carry 2100 dead 4.99s
+    arrow 2165  blight 3133  missing-health 140  autos 771  bolts 898  on-hit 1867  lightning 163
+  Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King  (10200g)
+      6639  first arrow  1774 at    2.56s  stacks [3, 1, 1]  Qx1 autos 14  tank 3805 bruiser 1409 carry 1426
+    arrow 917  blight 1269  missing-health 96  autos 960  bolts 0  on-hit 2785  lightning 206
+  Youmuu's Ghostblade + Duskblade of Draktharr + Manamune  (10000g)
+      3213  first arrow  1246 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1867 bruiser 579 carry 767
+    arrow 1246  blight 276  missing-health 0  autos 938  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus  (12750g)
+     10000  first arrow  2802 at    2.42s  stacks [3, 3, 3]  Qx2 autos 12  tank 4500 dead 7.39s bruiser 3400 dead 5.66s carry 2100 dead 3.29s
+    arrow 1778  blight 3005  missing-health 214  autos 1137  bolts 1236  on-hit 2371  lightning 140
+
+------------------------------------------------------------------------------
+THREE CHAMPIONS TOGETHER, POKE AFTER A SHORT WALK
+------------------------------------------------------------------------------
+  Statikk Shiv + Runaan's Hurricane  (6750g)
+      6985  first arrow  1179 at    1.50s  stacks [1, 1, 1]  Qx1 autos 11  tank 2462 bruiser 2424 carry 2100 dead 6.16s
+    arrow 748  blight 2610  missing-health 27  autos 620  bolts 981  on-hit 1086  lightning 103
+  Statikk Shiv + Guinsoo's Rageblade  (7100g)
+      3742  first arrow   999 at    1.50s  stacks [1, 0, 0]  Qx1 autos 13  tank 2304 bruiser 640 carry 799
+    arrow 827  blight 492  missing-health 8  autos 729  bolts 0  on-hit 1225  lightning 103
+  Runaan's Hurricane + Guinsoo's Rageblade  (6850g)
+      7525  first arrow  1162 at    1.50s  stacks [1, 1, 1]  Qx1 autos 12  tank 2723 bruiser 2702 carry 2100 dead 5.36s
+    arrow 736  blight 2547  missing-health 31  autos 653  bolts 930  on-hit 1831  lightning 0
+  Statikk Shiv + Blade of the Ruined King  (7200g)
+      3777  first arrow  1006 at    1.50s  stacks [1, 0, 0]  Qx1 autos 12  tank 2604 bruiser 543 carry 630
+    arrow 838  blight 458  missing-health 15  autos 692  bolts 0  on-hit 1306  lightning 103
+  Youmuu's Ghostblade + Duskblade of Draktharr  (7100g)
+      2730  first arrow  1067 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1587 bruiser 492 carry 651
+    arrow 1067  blight 276  missing-health 0  autos 728  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade  (9750g)
+      8736  first arrow  1299 at    1.50s  stacks [1, 1, 1]  Qx1 autos 13  tank 3313 bruiser 3323 carry 2100 dead 4.68s
+    arrow 827  blight 2726  missing-health 38  autos 911  bolts 1103  on-hit 2154  lightning 61
+  Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King  (10200g)
+      5544  first arrow  1098 at    1.50s  stacks [1, 0, 0]  Qx1 autos 14  tank 3482 bruiser 997 carry 1064
+    arrow 917  blight 492  missing-health 17  autos 960  bolts 0  on-hit 2649  lightning 103
+  Youmuu's Ghostblade + Duskblade of Draktharr + Manamune  (10000g)
+      3213  first arrow  1246 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1867 bruiser 579 carry 767
+    arrow 1246  blight 276  missing-health 0  autos 938  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus  (12750g)
+      9997  first arrow  1464 at    1.50s  stacks [1, 1, 1]  Qx1 autos 13  tank 4497 bruiser 3400 dead 6.28s carry 2100 dead 3.69s
+    arrow 959  blight 2587  missing-health 52  autos 1348  bolts 1380  on-hit 2729  lightning 71
+
+------------------------------------------------------------------------------
+THREE CHAMPIONS, MINIONS IN FRONT, POKE
+------------------------------------------------------------------------------
+  Statikk Shiv + Runaan's Hurricane  (6750g)
+      2586  first arrow   909 at    1.50s  stacks [1, 0, 0]  Qx1 autos 12  tank 1813 bruiser 346 carry 427
+    arrow 748  blight 458  missing-health 9  autos 677  bolts 0  on-hit 322  lightning 55
+  Statikk Shiv + Guinsoo's Rageblade  (7100g)
+      3195  first arrow  1001 at    1.50s  stacks [1, 0, 0]  Qx1 autos 13  tank 2334 bruiser 385 carry 476
+    arrow 827  blight 492  missing-health 11  autos 729  bolts 0  on-hit 724  lightning 55
+  Runaan's Hurricane + Guinsoo's Rageblade  (6850g)
+      2833  first arrow   893 at    1.50s  stacks [1, 0, 0]  Qx1 autos 13  tank 2072 bruiser 340 carry 420
+    arrow 736  blight 447  missing-health 8  autos 708  bolts 0  on-hit 622  lightning 0
+  Statikk Shiv + Blade of the Ruined King  (7200g)
+      3502  first arrow  1008 at    1.50s  stacks [1, 0, 0]  Qx1 autos 12  tank 2628 bruiser 391 carry 483
+    arrow 838  blight 458  missing-health 17  autos 692  bolts 0  on-hit 1077  lightning 55
+  Youmuu's Ghostblade + Duskblade of Draktharr  (7100g)
+      2730  first arrow  1067 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1587 bruiser 492 carry 651
+    arrow 1067  blight 276  missing-health 0  autos 728  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade  (9750g)
+      3494  first arrow  1002 at    1.50s  stacks [1, 0, 0]  Qx1 autos 14  tank 2632 bruiser 385 carry 476
+    arrow 827  blight 492  missing-health 12  autos 981  bolts 0  on-hit 769  lightning 55
+  Statikk Shiv + Guinsoo's Rageblade + Blade of the Ruined King  (10200g)
+      4466  first arrow  1101 at    1.50s  stacks [1, 0, 0]  Qx1 autos 14  tank 3504 bruiser 430 carry 532
+    arrow 917  blight 492  missing-health 19  autos 960  bolts 0  on-hit 1617  lightning 55
+  Youmuu's Ghostblade + Duskblade of Draktharr + Manamune  (10000g)
+      3213  first arrow  1246 at    1.50s  stacks [0, 0, 0]  Qx1 autos  9  tank 1867 bruiser 579 carry 767
+    arrow 1246  blight 276  missing-health 0  autos 938  bolts 0  on-hit 184  lightning 0
+  Statikk Shiv + Runaan's Hurricane + Guinsoo's Rageblade + Terminus  (12750g)
+      4962  first arrow  1148 at    1.50s  stacks [1, 0, 0]  Qx1 autos 15  tank 3927 bruiser 470 carry 565
+    arrow 959  blight 565  missing-health 16  autos 1559  bolts 0  on-hit 1325  lightning 61
+
+------------------------------------------------------------------------------
+WHAT THE PAIR CHANGES
+------------------------------------------------------------------------------
+One carry, from the first arrow until the kill. Everyone here kills them,
+so the clock is the comparison.
+  Statikk + Hurricane: dead at 5.31s, first arrow 542
+  Hurricane + Guinsoo: dead at 5.04s, first arrow 530
+  Youmuu + Duskblade: dead at 5.55s, first arrow 613
+Three champions, lightning ready, one auto then the arrow, eight seconds:
+  Statikk + Hurricane: 7064, first arrow 1450, stacks [1, 2, 2], Qx2
+  Hurricane + Guinsoo: 7525, first arrow 1162, stacks [1, 1, 1], Qx1
+  Statikk + Guinsoo: 4266, first arrow 1294, stacks [1, 1, 1], Qx1
+  Youmuu + Duskblade: 2730, first arrow 1067, stacks [0, 0, 0], Qx1
+Add Guinsoo to the pair and the bolts carry that on-hit on every attack:
+  Statikk + Hurricane + Guinsoo: 8691, first arrow 1594, Qx2
+  Youmuu + Duskblade + Manamune: 3213, first arrow 1246, Qx1
+
+------------------------------------------------------------------------------
+ASSUMPTIONS
+------------------------------------------------------------------------------
+  Statikk is the 7.3b item: 40 AD, 40 AP, 30% attack speed, 2900 gold.
+  At level 15 the lightning hits up to 6 extra targets for 60 magic damage
+  and applies on-hit effects to those targets, not a second on-hit on the
+  champion you attacked. Hurricane bolts are 55% AD, can crit, and apply
+  on-hit to two champions in front. Both can hit the same side champion,
+  so one lightning auto can put two Blight stacks on each of them.
+  Energized is 6 per attack plus 1 per 24 units moved. Statikk adds 7 per
+  attack. A full bar is the walked-in case. One attack range of walking
+  is only 24 energy, so the lightning is not ready yet.
+  Blight is 4.5% max health per stack at W rank 4, plus 1.2% per 100 AP.
+  A full arrow adds 50% to that and to the arrow. The arrow itself loses
+  15% damage per champion after the first, down to 33%. Blight does not.
+  W's active is on the first arrow only. It is a 25s cooldown: 18% missing
+  health at a full charge, from health missing before that arrow. Each stack
+  refunds 13% of that ability's hasted cooldown, up to 39% per champion.
+  Base crits deal 200% damage. Runaan's 25% crit is averaged, not rolled.
+  Guinsoo's extra on-hit starts once it is at four stacks, every third
+  attack, and the bolts copy that extra on-hit. Duskblade adds 160
+  physical damage to the first attack, then on a 10s cooldown.
+  Manamune's Awe is 2% of Varus's level-15 mana plus the item's 500.
+  No Lethal Tempo, no legend runes, no Living Vengeance. Armor and magic
+  resist are the targets above. Damage stops at 0 health.
