@@ -1,0 +1,2389 @@
+{
+  "meta": {
+    "champion": "Kai'Sa",
+    "role": "Dragon lane",
+    "patch": "7.3 / 7.3b Statikk / 7.3f",
+    "game_minutes": 26,
+    "question": "Statikk farm vs Guinsoo, and Statikk moved to last item",
+    "wave": "4 minions; cannon replaces one caster",
+    "gold": "500 start, 380/520/590/640 gpm, no kills, same clock every path"
+  },
+  "completions": {
+    "Statikk \u2192 Guinsoo": [
+      {
+        "item": "Statikk Shiv",
+        "minute": 6.35
+      },
+      {
+        "item": "Berserker's Greaves",
+        "minute": 9.7
+      },
+      {
+        "item": "Guinsoo's Rageblade",
+        "minute": 15.3
+      },
+      {
+        "item": "Nashor's Tooth",
+        "minute": 20.2
+      },
+      {
+        "item": "Kraken Slayer",
+        "minute": 24.7
+      }
+    ],
+    "Guinsoo \u2192 Statikk": [
+      {
+        "item": "Guinsoo's Rageblade",
+        "minute": 6.6
+      },
+      {
+        "item": "Berserker's Greaves",
+        "minute": 9.85
+      },
+      {
+        "item": "Statikk Shiv",
+        "minute": 15.3
+      },
+      {
+        "item": "Nashor's Tooth",
+        "minute": 20.2
+      },
+      {
+        "item": "Kraken Slayer",
+        "minute": 24.7
+      }
+    ],
+    "Statikk last": [
+      {
+        "item": "Guinsoo's Rageblade",
+        "minute": 6.6
+      },
+      {
+        "item": "Berserker's Greaves",
+        "minute": 9.85
+      },
+      {
+        "item": "Nashor's Tooth",
+        "minute": 15.3
+      },
+      {
+        "item": "Kraken Slayer",
+        "minute": 20.2
+      },
+      {
+        "item": "Terminus",
+        "minute": 24.85
+      }
+    ]
+  },
+  "builds": {
+    "Statikk \u2192 Guinsoo": [
+      {
+        "minute": 0,
+        "gold": 500,
+        "level": 1,
+        "owned": [
+          "Long Sword"
+        ],
+        "finished": [],
+        "bonus_ad": 12,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.42,
+        "clear_cannon": 22.78,
+        "caster_standard": 6.7,
+        "shove_1s": 353.2,
+        "first_auto": 77.2,
+        "ttk_squishy": null,
+        "dmg_front": 462.4,
+        "auto_front": 378.9
+      },
+      {
+        "minute": 1,
+        "gold": 880,
+        "level": 2,
+        "owned": [
+          "Pickaxe"
+        ],
+        "finished": [],
+        "bonus_ad": 20,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.16,
+        "clear_cannon": 19.8,
+        "caster_standard": 6.6,
+        "shove_1s": 389.9,
+        "first_auto": 89.9,
+        "ttk_squishy": null,
+        "dmg_front": 583.9,
+        "auto_front": 495.4
+      },
+      {
+        "minute": 2,
+        "gold": 1260,
+        "level": 3,
+        "owned": [
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.12,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 11.8,
+        "clear_cannon": 16.52,
+        "caster_standard": 3.54,
+        "shove_1s": 514.6,
+        "first_auto": 94.6,
+        "ttk_squishy": null,
+        "dmg_front": 699.2,
+        "auto_front": 510.5
+      },
+      {
+        "minute": 3,
+        "gold": 1640,
+        "level": 4,
+        "owned": [
+          "Pickaxe",
+          "Kircheis Shard"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 13.2,
+        "clear_cannon": 16.56,
+        "caster_standard": 5.5,
+        "shove_1s": 519.3,
+        "first_auto": 99.3,
+        "ttk_squishy": 7.96,
+        "dmg_front": 1001.4,
+        "auto_front": 595.0
+      },
+      {
+        "minute": 4,
+        "gold": 2020,
+        "level": 5,
+        "owned": [
+          "Pickaxe",
+          "Kircheis Shard"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 14.04,
+        "clear_cannon": 16.56,
+        "caster_standard": 5.4,
+        "shove_1s": 524.0,
+        "first_auto": 104.0,
+        "ttk_squishy": null,
+        "dmg_front": 1021.6,
+        "auto_front": 610.9
+      },
+      {
+        "minute": 5,
+        "gold": 2400,
+        "level": 6,
+        "owned": [
+          "Pickaxe",
+          "Kircheis Shard"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 11.66,
+        "clear_cannon": 14.56,
+        "caster_standard": 3.18,
+        "shove_1s": 648.7,
+        "first_auto": 108.7,
+        "ttk_squishy": 7.76,
+        "dmg_front": 1206.8,
+        "auto_front": 626.2
+      },
+      {
+        "minute": 6,
+        "gold": 2780,
+        "level": 7,
+        "owned": [
+          "Pickaxe",
+          "Kircheis Shard",
+          "Aether Wisp"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 25.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 9.36,
+        "clear_cannon": 12.64,
+        "caster_standard": 3.12,
+        "shove_1s": 821.9,
+        "first_auto": 116.9,
+        "ttk_squishy": 7.58,
+        "dmg_front": 1373.1,
+        "auto_front": 670.5
+      },
+      {
+        "minute": 7,
+        "gold": 3160,
+        "level": 7,
+        "owned": [
+          "Statikk Shiv"
+        ],
+        "finished": [
+          "Statikk Shiv"
+        ],
+        "bonus_ad": 40,
+        "ap": 40,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 8.64,
+        "caster_standard": 0.96,
+        "shove_1s": 1298.0,
+        "first_auto": 556.0,
+        "ttk_squishy": 6.18,
+        "dmg_front": 1620.0,
+        "auto_front": 982.1
+      },
+      {
+        "minute": 8,
+        "gold": 3540,
+        "level": 8,
+        "owned": [
+          "Statikk Shiv",
+          "Boots"
+        ],
+        "finished": [
+          "Statikk Shiv"
+        ],
+        "bonus_ad": 40.0,
+        "ap": 40.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.56,
+        "clear_cannon": 8.46,
+        "caster_standard": 0.94,
+        "shove_1s": 1332.4,
+        "first_auto": 564.3,
+        "ttk_squishy": 6.56,
+        "dmg_front": 1811.3,
+        "auto_front": 994.0
+      },
+      {
+        "minute": 9,
+        "gold": 4060,
+        "level": 9,
+        "owned": [
+          "Statikk Shiv",
+          "Boots"
+        ],
+        "finished": [
+          "Statikk Shiv"
+        ],
+        "bonus_ad": 40.0,
+        "ap": 40.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 9.2,
+        "caster_standard": 0.92,
+        "shove_1s": 1366.8,
+        "first_auto": 572.6,
+        "ttk_squishy": 6.76,
+        "dmg_front": 1753.3,
+        "auto_front": 967.9
+      },
+      {
+        "minute": 10,
+        "gold": 4580,
+        "level": 9,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 40.0,
+        "ap": 40.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.4,
+        "clear_cannon": 9.12,
+        "caster_standard": 0.76,
+        "shove_1s": 1398.8,
+        "first_auto": 572.6,
+        "ttk_squishy": 6.36,
+        "dmg_front": 1874.4,
+        "auto_front": 1232.0
+      },
+      {
+        "minute": 11,
+        "gold": 5100,
+        "level": 10,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Long Sword"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 52.0,
+        "ap": 40.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.4,
+        "clear_cannon": 6.72,
+        "caster_standard": 0.74,
+        "shove_1s": 1445.2,
+        "first_auto": 592.9,
+        "ttk_squishy": 5.9,
+        "dmg_front": 1905.1,
+        "auto_front": 1263.3
+      },
+      {
+        "minute": 12,
+        "gold": 5620,
+        "level": 11,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 60.0,
+        "ap": 40.0,
+        "item_as": 0.77,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 6.12,
+        "clear_cannon": 6.72,
+        "caster_standard": 0.68,
+        "shove_1s": 1487.6,
+        "first_auto": 609.2,
+        "ttk_squishy": 5.36,
+        "dmg_front": 2249.7,
+        "auto_front": 1357.0
+      },
+      {
+        "minute": 13,
+        "gold": 6140,
+        "level": 11,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 60.0,
+        "ap": 40.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.94,
+        "clear_cannon": 6.64,
+        "caster_standard": 0.66,
+        "shove_1s": 1519.6,
+        "first_auto": 609.2,
+        "ttk_squishy": 5.32,
+        "dmg_front": 2229.9,
+        "auto_front": 1422.7
+      },
+      {
+        "minute": 14,
+        "gold": 6660,
+        "level": 12,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 60.0,
+        "ap": 60.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.76,
+        "clear_cannon": 6.64,
+        "caster_standard": 0.64,
+        "shove_1s": 1571.6,
+        "first_auto": 628.7,
+        "ttk_squishy": 6.28,
+        "dmg_front": 2249.0,
+        "auto_front": 1416.5
+      },
+      {
+        "minute": 15,
+        "gold": 7250,
+        "level": 12,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 60.0,
+        "ap": 60.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.76,
+        "clear_cannon": 6.64,
+        "caster_standard": 0.64,
+        "shove_1s": 1603.6,
+        "first_auto": 628.7,
+        "ttk_squishy": 6.76,
+        "dmg_front": 2154.0,
+        "auto_front": 1359.8
+      },
+      {
+        "minute": 16,
+        "gold": 7840,
+        "level": 13,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.07,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.24,
+        "clear_cannon": 4.8,
+        "caster_standard": 0.64,
+        "shove_1s": 1721.8,
+        "first_auto": 777.6,
+        "ttk_squishy": 3.9,
+        "dmg_front": 3180.0,
+        "auto_front": 2532.5
+      },
+      {
+        "minute": 17,
+        "gold": 8430,
+        "level": 13,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1753.8,
+        "first_auto": 777.6,
+        "ttk_squishy": 3.78,
+        "dmg_front": 3270.0,
+        "auto_front": 2430.2
+      },
+      {
+        "minute": 18,
+        "gold": 9020,
+        "level": 14,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1788.2,
+        "first_auto": 785.9,
+        "ttk_squishy": 4.18,
+        "dmg_front": 3219.9,
+        "auto_front": 2352.3
+      },
+      {
+        "minute": 19,
+        "gold": 9610,
+        "level": 14,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Blasting Wand"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 115.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1859.8,
+        "first_auto": 811.1,
+        "ttk_squishy": 3.76,
+        "dmg_front": 3575.0,
+        "auto_front": 2427.6
+      },
+      {
+        "minute": 20,
+        "gold": 10200,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Recurve Bow",
+          "Blasting Wand",
+          "Fiendish Codex"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 140.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.1,
+        "clear_cannon": 4.6,
+        "caster_standard": 0.64,
+        "shove_1s": 1916.2,
+        "first_auto": 833.4,
+        "ttk_squishy": 3.76,
+        "dmg_front": 3790.0,
+        "auto_front": 2440.3
+      },
+      {
+        "minute": 21,
+        "gold": 10840,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Long Sword"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 87.0,
+        "ap": 150.0,
+        "item_as": 1.45,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.38,
+        "clear_cannon": 3.3,
+        "caster_standard": 0.64,
+        "shove_1s": 2380.0,
+        "first_auto": 1031.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3880.0,
+        "auto_front": 3234.4
+      },
+      {
+        "minute": 22,
+        "gold": 11480,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Long Sword",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 87.0,
+        "ap": 150.0,
+        "item_as": 1.57,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.72,
+        "clear_cannon": 4.04,
+        "caster_standard": 0.64,
+        "shove_1s": 2412.0,
+        "first_auto": 1031.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3970.0,
+        "auto_front": 3308.9
+      },
+      {
+        "minute": 23,
+        "gold": 12120,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 95.0,
+        "ap": 150.0,
+        "item_as": 1.72,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.6,
+        "clear_cannon": 3.86,
+        "caster_standard": 0.8,
+        "shove_1s": 2460.0,
+        "first_auto": 1039.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4060.0,
+        "auto_front": 3261.3
+      },
+      {
+        "minute": 24,
+        "gold": 12760,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 95.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.56,
+        "clear_cannon": 3.82,
+        "caster_standard": 0.8,
+        "shove_1s": 2492.0,
+        "first_auto": 1039.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4150.0,
+        "auto_front": 3217.6
+      },
+      {
+        "minute": 25,
+        "gold": 13400,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 120.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.14,
+        "clear_cannon": 3.4,
+        "caster_standard": 0.8,
+        "shove_1s": 2775.2,
+        "first_auto": 1064.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4240.0,
+        "auto_front": 3884.3
+      },
+      {
+        "minute": 26,
+        "gold": 14040,
+        "level": 15,
+        "owned": [
+          "Statikk Shiv",
+          "Berserker's Greaves",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Long Sword"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 132.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.14,
+        "clear_cannon": 3.4,
+        "caster_standard": 0.8,
+        "shove_1s": 2830.7,
+        "first_auto": 1076.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4330.0,
+        "auto_front": 3971.1
+      }
+    ],
+    "Guinsoo \u2192 Statikk": [
+      {
+        "minute": 0,
+        "gold": 500,
+        "level": 1,
+        "owned": [
+          "Long Sword"
+        ],
+        "finished": [],
+        "bonus_ad": 12,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.42,
+        "clear_cannon": 22.78,
+        "caster_standard": 6.7,
+        "shove_1s": 353.2,
+        "first_auto": 77.2,
+        "ttk_squishy": null,
+        "dmg_front": 462.4,
+        "auto_front": 378.9
+      },
+      {
+        "minute": 1,
+        "gold": 880,
+        "level": 2,
+        "owned": [
+          "Pickaxe"
+        ],
+        "finished": [],
+        "bonus_ad": 20,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.16,
+        "clear_cannon": 19.8,
+        "caster_standard": 6.6,
+        "shove_1s": 389.9,
+        "first_auto": 89.9,
+        "ttk_squishy": null,
+        "dmg_front": 583.9,
+        "auto_front": 495.4
+      },
+      {
+        "minute": 2,
+        "gold": 1260,
+        "level": 3,
+        "owned": [
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.12,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 11.8,
+        "clear_cannon": 16.52,
+        "caster_standard": 3.54,
+        "shove_1s": 514.6,
+        "first_auto": 94.6,
+        "ttk_squishy": null,
+        "dmg_front": 699.2,
+        "auto_front": 510.5
+      },
+      {
+        "minute": 3,
+        "gold": 1640,
+        "level": 4,
+        "owned": [
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.12,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 13.92,
+        "clear_cannon": 16.72,
+        "caster_standard": 5.8,
+        "shove_1s": 519.3,
+        "first_auto": 99.3,
+        "ttk_squishy": null,
+        "dmg_front": 934.0,
+        "auto_front": 524.9
+      },
+      {
+        "minute": 4,
+        "gold": 2020,
+        "level": 5,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 14.04,
+        "clear_cannon": 16.56,
+        "caster_standard": 5.4,
+        "shove_1s": 524.0,
+        "first_auto": 104.0,
+        "ttk_squishy": null,
+        "dmg_front": 1021.6,
+        "auto_front": 610.9
+      },
+      {
+        "minute": 5,
+        "gold": 2400,
+        "level": 6,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 20.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 10.6,
+        "clear_cannon": 14.48,
+        "caster_standard": 3.18,
+        "shove_1s": 687.5,
+        "first_auto": 111.5,
+        "ttk_squishy": 7.76,
+        "dmg_front": 1277.8,
+        "auto_front": 650.0
+      },
+      {
+        "minute": 6,
+        "gold": 2780,
+        "level": 7,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 20.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 9.36,
+        "clear_cannon": 12.64,
+        "caster_standard": 3.12,
+        "shove_1s": 812.2,
+        "first_auto": 116.2,
+        "ttk_squishy": 7.58,
+        "dmg_front": 1355.3,
+        "auto_front": 664.6
+      },
+      {
+        "minute": 7,
+        "gold": 3160,
+        "level": 7,
+        "owned": [
+          "Guinsoo's Rageblade"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35,
+        "ap": 30,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 9.04,
+        "caster_standard": 0.92,
+        "shove_1s": 1069.0,
+        "first_auto": 162.6,
+        "ttk_squishy": 4.5,
+        "dmg_front": 1620.0,
+        "auto_front": 1362.8
+      },
+      {
+        "minute": 8,
+        "gold": 3540,
+        "level": 8,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Boots"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.56,
+        "clear_cannon": 8.82,
+        "caster_standard": 1.76,
+        "shove_1s": 1097.3,
+        "first_auto": 167.3,
+        "ttk_squishy": 5.1,
+        "dmg_front": 1835.0,
+        "auto_front": 1376.8
+      },
+      {
+        "minute": 9,
+        "gold": 4060,
+        "level": 9,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Boots"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.56,
+        "clear_cannon": 8.76,
+        "caster_standard": 1.72,
+        "shove_1s": 1118.0,
+        "first_auto": 172.0,
+        "ttk_squishy": 5.76,
+        "dmg_front": 2050.0,
+        "auto_front": 1455.1
+      },
+      {
+        "minute": 10,
+        "gold": 4580,
+        "level": 9,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 6.8,
+        "caster_standard": 1.42,
+        "shove_1s": 1134.0,
+        "first_auto": 172.0,
+        "ttk_squishy": 4.92,
+        "dmg_front": 2140.0,
+        "auto_front": 1519.8
+      },
+      {
+        "minute": 11,
+        "gold": 5100,
+        "level": 10,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Long Sword"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 47.0,
+        "ap": 30.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.4,
+        "clear_cannon": 6.72,
+        "caster_standard": 1.4,
+        "shove_1s": 1190.7,
+        "first_auto": 188.7,
+        "ttk_squishy": 4.72,
+        "dmg_front": 2355.0,
+        "auto_front": 1872.3
+      },
+      {
+        "minute": 12,
+        "gold": 5620,
+        "level": 11,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Pickaxe"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 30.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.4,
+        "clear_cannon": 6.72,
+        "caster_standard": 1.38,
+        "shove_1s": 1235.4,
+        "first_auto": 201.4,
+        "ttk_squishy": 5.06,
+        "dmg_front": 2488.7,
+        "auto_front": 1859.5
+      },
+      {
+        "minute": 13,
+        "gold": 6140,
+        "level": 11,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Kircheis Shard"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 30.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.92,
+        "clear_cannon": 6.64,
+        "caster_standard": 1.26,
+        "shove_1s": 1251.4,
+        "first_auto": 201.4,
+        "ttk_squishy": 4.7,
+        "dmg_front": 2660.0,
+        "auto_front": 1876.2
+      },
+      {
+        "minute": 14,
+        "gold": 6660,
+        "level": 12,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Kircheis Shard"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 30.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.9,
+        "clear_cannon": 6.64,
+        "caster_standard": 0.64,
+        "shove_1s": 1313.0,
+        "first_auto": 206.1,
+        "ttk_squishy": 5.28,
+        "dmg_front": 2649.3,
+        "auto_front": 1811.7
+      },
+      {
+        "minute": 15,
+        "gold": 7250,
+        "level": 12,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Pickaxe",
+          "Kircheis Shard",
+          "Aether Wisp"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 55.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 5.9,
+        "clear_cannon": 6.64,
+        "caster_standard": 0.64,
+        "shove_1s": 1360.0,
+        "first_auto": 209.6,
+        "ttk_squishy": 5.28,
+        "dmg_front": 2669.8,
+        "auto_front": 1808.1
+      },
+      {
+        "minute": 16,
+        "gold": 7840,
+        "level": 13,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.07,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.24,
+        "clear_cannon": 4.8,
+        "caster_standard": 0.64,
+        "shove_1s": 1721.8,
+        "first_auto": 777.6,
+        "ttk_squishy": 3.9,
+        "dmg_front": 3180.0,
+        "auto_front": 2532.5
+      },
+      {
+        "minute": 17,
+        "gold": 8430,
+        "level": 13,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1753.8,
+        "first_auto": 777.6,
+        "ttk_squishy": 3.78,
+        "dmg_front": 3270.0,
+        "auto_front": 2430.2
+      },
+      {
+        "minute": 18,
+        "gold": 9020,
+        "level": 14,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 70.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1788.2,
+        "first_auto": 785.9,
+        "ttk_squishy": 4.18,
+        "dmg_front": 3219.9,
+        "auto_front": 2352.3
+      },
+      {
+        "minute": 19,
+        "gold": 9610,
+        "level": 14,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Recurve Bow",
+          "Blasting Wand"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 115.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.18,
+        "clear_cannon": 4.74,
+        "caster_standard": 0.64,
+        "shove_1s": 1859.8,
+        "first_auto": 811.1,
+        "ttk_squishy": 3.76,
+        "dmg_front": 3575.0,
+        "auto_front": 2427.6
+      },
+      {
+        "minute": 20,
+        "gold": 10200,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Recurve Bow",
+          "Blasting Wand",
+          "Fiendish Codex"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 75.0,
+        "ap": 140.0,
+        "item_as": 1.15,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.1,
+        "clear_cannon": 4.6,
+        "caster_standard": 0.64,
+        "shove_1s": 1916.2,
+        "first_auto": 833.4,
+        "ttk_squishy": 3.76,
+        "dmg_front": 3790.0,
+        "auto_front": 2440.3
+      },
+      {
+        "minute": 21,
+        "gold": 10840,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Long Sword"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 87.0,
+        "ap": 150.0,
+        "item_as": 1.45,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.38,
+        "clear_cannon": 3.3,
+        "caster_standard": 0.64,
+        "shove_1s": 2380.0,
+        "first_auto": 1031.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3880.0,
+        "auto_front": 3234.4
+      },
+      {
+        "minute": 22,
+        "gold": 11480,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Long Sword",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 87.0,
+        "ap": 150.0,
+        "item_as": 1.57,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.72,
+        "clear_cannon": 4.04,
+        "caster_standard": 0.64,
+        "shove_1s": 2412.0,
+        "first_auto": 1031.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3970.0,
+        "auto_front": 3308.9
+      },
+      {
+        "minute": 23,
+        "gold": 12120,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Dagger"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 95.0,
+        "ap": 150.0,
+        "item_as": 1.72,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.6,
+        "clear_cannon": 3.86,
+        "caster_standard": 0.8,
+        "shove_1s": 2460.0,
+        "first_auto": 1039.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4060.0,
+        "auto_front": 3261.3
+      },
+      {
+        "minute": 24,
+        "gold": 12760,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 95.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.56,
+        "clear_cannon": 3.82,
+        "caster_standard": 0.8,
+        "shove_1s": 2492.0,
+        "first_auto": 1039.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4150.0,
+        "auto_front": 3217.6
+      },
+      {
+        "minute": 25,
+        "gold": 13400,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Kraken Slayer"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 120.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.14,
+        "clear_cannon": 3.4,
+        "caster_standard": 0.8,
+        "shove_1s": 2775.2,
+        "first_auto": 1064.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4240.0,
+        "auto_front": 3884.3
+      },
+      {
+        "minute": 26,
+        "gold": 14040,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Statikk Shiv",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Long Sword"
+        ],
+        "finished": [
+          "Statikk Shiv",
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 132.0,
+        "ap": 150.0,
+        "item_as": 1.8,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.14,
+        "clear_cannon": 3.4,
+        "caster_standard": 0.8,
+        "shove_1s": 2830.7,
+        "first_auto": 1076.0,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4330.0,
+        "auto_front": 3971.1
+      }
+    ],
+    "Statikk last": [
+      {
+        "minute": 0,
+        "gold": 500,
+        "level": 1,
+        "owned": [
+          "Long Sword"
+        ],
+        "finished": [],
+        "bonus_ad": 12,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.42,
+        "clear_cannon": 22.78,
+        "caster_standard": 6.7,
+        "shove_1s": 353.2,
+        "first_auto": 77.2,
+        "ttk_squishy": null,
+        "dmg_front": 462.4,
+        "auto_front": 378.9
+      },
+      {
+        "minute": 1,
+        "gold": 880,
+        "level": 2,
+        "owned": [
+          "Pickaxe"
+        ],
+        "finished": [],
+        "bonus_ad": 20,
+        "ap": 0.0,
+        "item_as": 0.0,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 17.16,
+        "clear_cannon": 19.8,
+        "caster_standard": 6.6,
+        "shove_1s": 389.9,
+        "first_auto": 89.9,
+        "ttk_squishy": null,
+        "dmg_front": 583.9,
+        "auto_front": 495.4
+      },
+      {
+        "minute": 2,
+        "gold": 1260,
+        "level": 3,
+        "owned": [
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.12,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 11.8,
+        "clear_cannon": 16.52,
+        "caster_standard": 3.54,
+        "shove_1s": 514.6,
+        "first_auto": 94.6,
+        "ttk_squishy": null,
+        "dmg_front": 699.2,
+        "auto_front": 510.5
+      },
+      {
+        "minute": 3,
+        "gold": 1640,
+        "level": 4,
+        "owned": [
+          "Pickaxe",
+          "Dagger"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.12,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 13.92,
+        "clear_cannon": 16.72,
+        "caster_standard": 5.8,
+        "shove_1s": 519.3,
+        "first_auto": 99.3,
+        "ttk_squishy": null,
+        "dmg_front": 934.0,
+        "auto_front": 524.9
+      },
+      {
+        "minute": 4,
+        "gold": 2020,
+        "level": 5,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 0.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 14.04,
+        "clear_cannon": 16.56,
+        "caster_standard": 5.4,
+        "shove_1s": 524.0,
+        "first_auto": 104.0,
+        "ttk_squishy": null,
+        "dmg_front": 1021.6,
+        "auto_front": 610.9
+      },
+      {
+        "minute": 5,
+        "gold": 2400,
+        "level": 6,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 20.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 10.6,
+        "clear_cannon": 14.48,
+        "caster_standard": 3.18,
+        "shove_1s": 687.5,
+        "first_auto": 111.5,
+        "ttk_squishy": 7.76,
+        "dmg_front": 1277.8,
+        "auto_front": 650.0
+      },
+      {
+        "minute": 6,
+        "gold": 2780,
+        "level": 7,
+        "owned": [
+          "Pickaxe",
+          "Recurve Bow",
+          "Amplifying Tome"
+        ],
+        "finished": [],
+        "bonus_ad": 20.0,
+        "ap": 20.0,
+        "item_as": 0.2,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 9.36,
+        "clear_cannon": 12.64,
+        "caster_standard": 3.12,
+        "shove_1s": 812.2,
+        "first_auto": 116.2,
+        "ttk_squishy": 7.58,
+        "dmg_front": 1355.3,
+        "auto_front": 664.6
+      },
+      {
+        "minute": 7,
+        "gold": 3160,
+        "level": 7,
+        "owned": [
+          "Guinsoo's Rageblade"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35,
+        "ap": 30,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 9.04,
+        "caster_standard": 0.92,
+        "shove_1s": 1069.0,
+        "first_auto": 162.6,
+        "ttk_squishy": 4.5,
+        "dmg_front": 1620.0,
+        "auto_front": 1362.8
+      },
+      {
+        "minute": 8,
+        "gold": 3540,
+        "level": 8,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Boots"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.56,
+        "clear_cannon": 8.82,
+        "caster_standard": 1.76,
+        "shove_1s": 1097.3,
+        "first_auto": 167.3,
+        "ttk_squishy": 5.1,
+        "dmg_front": 1835.0,
+        "auto_front": 1376.8
+      },
+      {
+        "minute": 9,
+        "gold": 4060,
+        "level": 9,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Boots"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.3,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.56,
+        "clear_cannon": 8.76,
+        "caster_standard": 1.72,
+        "shove_1s": 1118.0,
+        "first_auto": 172.0,
+        "ttk_squishy": 5.76,
+        "dmg_front": 2050.0,
+        "auto_front": 1455.1
+      },
+      {
+        "minute": 10,
+        "gold": 4580,
+        "level": 9,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.65,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": false,
+        "clear_standard": 6.48,
+        "clear_cannon": 6.8,
+        "caster_standard": 1.42,
+        "shove_1s": 1134.0,
+        "first_auto": 172.0,
+        "ttk_squishy": 4.92,
+        "dmg_front": 2140.0,
+        "auto_front": 1519.8
+      },
+      {
+        "minute": 11,
+        "gold": 5100,
+        "level": 10,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Dagger"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.77,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 6.48,
+        "clear_cannon": 6.94,
+        "caster_standard": 1.98,
+        "shove_1s": 978.0,
+        "first_auto": 176.7,
+        "ttk_squishy": 5.06,
+        "dmg_front": 2355.0,
+        "auto_front": 1773.7
+      },
+      {
+        "minute": 12,
+        "gold": 5620,
+        "level": 11,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 6.48,
+        "clear_cannon": 6.8,
+        "caster_standard": 1.86,
+        "shove_1s": 994.0,
+        "first_auto": 181.4,
+        "ttk_squishy": 5.3,
+        "dmg_front": 2570.0,
+        "auto_front": 1803.4
+      },
+      {
+        "minute": 13,
+        "gold": 6140,
+        "level": 11,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 30.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 6.48,
+        "clear_cannon": 7.08,
+        "caster_standard": 1.86,
+        "shove_1s": 1010.0,
+        "first_auto": 181.4,
+        "ttk_squishy": 5.28,
+        "dmg_front": 2510.1,
+        "auto_front": 1721.3
+      },
+      {
+        "minute": 14,
+        "gold": 6660,
+        "level": 12,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Blasting Wand"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 75.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": false,
+        "e_evo": true,
+        "clear_standard": 6.48,
+        "clear_cannon": 7.06,
+        "caster_standard": 1.84,
+        "shove_1s": 1080.0,
+        "first_auto": 192.4,
+        "ttk_squishy": 5.28,
+        "dmg_front": 2693.8,
+        "auto_front": 1799.3
+      },
+      {
+        "minute": 15,
+        "gold": 7250,
+        "level": 12,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Recurve Bow",
+          "Blasting Wand",
+          "Fiendish Codex"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 100.0,
+        "item_as": 0.85,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 5.94,
+        "clear_cannon": 8.22,
+        "caster_standard": 1.84,
+        "shove_1s": 1126.0,
+        "first_auto": 195.9,
+        "ttk_squishy": 4.7,
+        "dmg_front": 2917.3,
+        "auto_front": 1796.2
+      },
+      {
+        "minute": 16,
+        "gold": 7840,
+        "level": 13,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 35.0,
+        "ap": 110.0,
+        "item_as": 1.15,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 5.26,
+        "clear_cannon": 5.78,
+        "caster_standard": 0.64,
+        "shove_1s": 1405.0,
+        "first_auto": 239.0,
+        "ttk_squishy": 4.2,
+        "dmg_front": 3180.0,
+        "auto_front": 2747.4
+      },
+      {
+        "minute": 17,
+        "gold": 8430,
+        "level": 13,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Long Sword",
+          "Dagger"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 47.0,
+        "ap": 110.0,
+        "item_as": 1.27,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 5.06,
+        "clear_cannon": 5.7,
+        "caster_standard": 0.64,
+        "shove_1s": 1449.0,
+        "first_auto": 251.0,
+        "ttk_squishy": 3.64,
+        "dmg_front": 3270.0,
+        "auto_front": 2733.3
+      },
+      {
+        "minute": 18,
+        "gold": 9020,
+        "level": 14,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Dagger"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 110.0,
+        "item_as": 1.42,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 4.84,
+        "clear_cannon": 5.7,
+        "caster_standard": 0.64,
+        "shove_1s": 1489.0,
+        "first_auto": 263.7,
+        "ttk_squishy": 3.98,
+        "dmg_front": 3485.0,
+        "auto_front": 2813.3
+      },
+      {
+        "minute": 19,
+        "gold": 9610,
+        "level": 14,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 55.0,
+        "ap": 110.0,
+        "item_as": 1.5,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 4.68,
+        "clear_cannon": 5.6,
+        "caster_standard": 0.64,
+        "shove_1s": 1784.7,
+        "first_auto": 263.7,
+        "ttk_squishy": 3.96,
+        "dmg_front": 3575.0,
+        "auto_front": 2818.8
+      },
+      {
+        "minute": 20,
+        "gold": 10200,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Hearthbound Axe",
+          "Recurve Bow",
+          "Long Sword"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 67.0,
+        "ap": 110.0,
+        "item_as": 1.5,
+        "q_evo": false,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 4.64,
+        "clear_cannon": 5.56,
+        "caster_standard": 0.64,
+        "shove_1s": 1845.4,
+        "first_auto": 280.4,
+        "ttk_squishy": 3.96,
+        "dmg_front": 3790.0,
+        "auto_front": 2827.0
+      },
+      {
+        "minute": 21,
+        "gold": 10840,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Long Sword"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 92.0,
+        "ap": 110.0,
+        "item_as": 1.5,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.8,
+        "clear_cannon": 3.72,
+        "caster_standard": 0.72,
+        "shove_1s": 2127.7,
+        "first_auto": 305.4,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3880.0,
+        "auto_front": 3436.0
+      },
+      {
+        "minute": 22,
+        "gold": 11480,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Long Sword",
+          "Dagger"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 92.0,
+        "ap": 110.0,
+        "item_as": 1.62,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 2.72,
+        "clear_cannon": 4.04,
+        "caster_standard": 0.72,
+        "shove_1s": 2143.1,
+        "first_auto": 305.4,
+        "ttk_squishy": 2.76,
+        "dmg_front": 3970.0,
+        "auto_front": 3486.8
+      },
+      {
+        "minute": 23,
+        "gold": 12120,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Hearthbound Axe",
+          "Dagger"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 100.0,
+        "ap": 110.0,
+        "item_as": 1.77,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.44,
+        "clear_cannon": 3.86,
+        "caster_standard": 0.9,
+        "shove_1s": 1694.0,
+        "first_auto": 313.4,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4060.0,
+        "auto_front": 3429.7
+      },
+      {
+        "minute": 24,
+        "gold": 12760,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Hearthbound Axe",
+          "Recurve Bow"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 100.0,
+        "ap": 110.0,
+        "item_as": 1.85,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.4,
+        "clear_cannon": 4.24,
+        "caster_standard": 0.88,
+        "shove_1s": 1726.0,
+        "first_auto": 313.4,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4150.0,
+        "auto_front": 3378.2
+      },
+      {
+        "minute": 25,
+        "gold": 13400,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Terminus"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Terminus",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 115.0,
+        "ap": 110.0,
+        "item_as": 1.85,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.4,
+        "clear_cannon": 3.82,
+        "caster_standard": 0.88,
+        "shove_1s": 1773.0,
+        "first_auto": 358.4,
+        "ttk_squishy": 2.76,
+        "dmg_front": 4240.0,
+        "auto_front": 4240.0
+      },
+      {
+        "minute": 26,
+        "gold": 14040,
+        "level": 15,
+        "owned": [
+          "Guinsoo's Rageblade",
+          "Berserker's Greaves",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Terminus",
+          "Long Sword"
+        ],
+        "finished": [
+          "Guinsoo's Rageblade",
+          "Nashor's Tooth",
+          "Kraken Slayer",
+          "Terminus",
+          "Berserker's Greaves"
+        ],
+        "bonus_ad": 127.0,
+        "ap": 110.0,
+        "item_as": 1.85,
+        "q_evo": true,
+        "w_evo": true,
+        "e_evo": true,
+        "clear_standard": 3.4,
+        "clear_cannon": 3.82,
+        "caster_standard": 0.88,
+        "shove_1s": 1817.0,
+        "first_auto": 370.4,
+        "ttk_squishy": 2.36,
+        "dmg_front": 4330.0,
+        "auto_front": 4330.0
+      }
+    ]
+  }
+}

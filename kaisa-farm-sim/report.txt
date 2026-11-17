@@ -1,0 +1,161 @@
+================================================================================================
+WILD RIFT KAI'SA — STATIKK FARM vs GUINSOO, AND STATIKK LAST
+Patch 7.3 kit / 7.3b Statikk / 7.3f shop. Dragon lane, Q → E → W.
+================================================================================================
+
+QUESTION
+  Guinsoo's Rageblade (the 'gusinoo' slot) is the single-target on-hit item.
+  Statikk Shiv is the chain. How much farm does the chain actually buy,
+  and what happens if it is moved to the last item the way Kalista can
+  farm without it?
+
+HOW THE CLEAR WORKS
+  A Wild Rift wave is 4 minions, not 6. Statikk's bolt hits 4 targets from
+  level 1 (3 extra bounces + the one you auto) for 90 magic on minions, and
+  on-hits ride the bounces. Guinsoo hits the minion you clicked: +30 magic,
+  and a phantom hit only after 4 Rageblade stacks, only on that minion.
+  Q throws 6 missiles across whoever is standing there (12 if evolved) and
+  does not reset on kill. Minions under 35% HP take 150% from those missiles.
+  Kalista's Rend DOES reset on a minion kill, so she can front-load Guinsoo
+  or Terminus and still chain the wave. Kai'Sa cannot copy that and keep
+  the same shove.
+
+ONE-ITEM AND EQUAL-GOLD DUELS
+  casters = seconds until both casters are dead (the shove). full = last minion.
+  cannon = full cannon-wave clear. dmg@1s = HP removed from a standard wave
+  in the first second. 1stAA = damage of the opening auto, including the bolt.
+  squish = time to kill a bot laner in an 8s W+Q+auto all-in, or 'lives'.
+  front = damage onto a frontliner in that all-in. autos = 8s of autos only.
+  evo = Living Weapon from items (Q 70 bonus AD, W 80 AP, E 65% item AS).
+  Kit                          casters   full cannon   dmg@1s  1stAA  squish  front  autos  evo
+  ------------------------------------------------------------------------------------------------
+  Level 9, minute-9 minions, no boots, Alacrity off. One finished item.
+  Statikk only                    1.0s   6.6s   8.6s    1367    573   6.8s    1753     968  -    
+  Guinsoo only                    1.8s   6.6s   9.0s    1118    172   5.9s    2050    1346  -    
+  Long Sword only                 3.5s  12.4s  14.2s     751    115  lives    1140     531  -    
+
+  Same gold 7400: two legendaries + Berserker's. Level 12, minute 15.
+  Statikk + Guinsoo + Greaves     0.6s   3.4s   5.1s    1687    769   3.5s    2965    2226  Q+E  
+  Guinsoo + Nashor + Greaves      0.6s   5.3s   5.8s    1373    234   3.8s    2965    2853  W+E  
+
+  Same gold ~10300: three legendaries + Greaves. Level 14, minute 18.
+  Shiv Guinsoo Nashor Greaves     0.6s   2.4s   3.3s    2253   1011   2.8s    3485    3485  Q+W+E
+  Guinsoo Nashor Kraken Greaves    0.7s   2.4s   3.8s    2001    289   2.8s    3485    3485  Q+W+E
+
+  Slot-6 check, level 15, minute 24 minions. Full damage build.
+  Chain in the build              0.6s   1.6s   2.4s    3001   1219   2.4s    4150    4150  Q+W+E
+  Same build, no Statikk          0.9s   3.4s   3.8s    1741    358   2.8s    4150    4150  Q+W+E
+
+CLOCK — SAME FARM, NO KILLS
+  Gold is identical on every path. Faster clears are NOT given extra gold,
+  so this understates the plates and roams the chain creates.
+  Start 500, then 380 / 520 / 590 / 640 gpm across 0–8 / 8–14 / 14–20 / 20+.
+
+  Item                    Statikk first  Guinsoo first   Statikk last
+  Statikk Shiv                    6.35m         15.30m              —
+  Guinsoo's Rageblade            15.30m          6.60m          6.60m
+  Nashor's Tooth                 20.20m         20.20m         15.30m
+  Kraken Slayer                  24.70m         24.70m         20.20m
+  Terminus                            —              —         24.85m
+  Berserker's Greaves             9.70m          9.85m          9.85m
+
+  Minute snapshots. clear = seconds to kill a standard wave (the last melee).
+  1s = HP already removed from that wave at one second — the shove, which
+  moves even when the last melee dies on the same Q. squish = all-in kill
+  time. front = 8s frontline damage. evo = Q/W/E.
+    m   gold  rush clear  2nd clear last clear   rush 1s  last 1s  rush kill last kill  rush fr last fr  rush evo / last evo
+    6   2780        9.4s       9.4s       9.4s       822      812       7.6s      7.6s     1373    1355  -       -
+    7   3160        6.5s       6.5s       6.5s      1298     1069       6.2s      4.5s     1620    1620  -       -
+    8   3540        6.6s       6.6s       6.6s      1332     1097       6.6s      5.1s     1811    1835  -       -
+    9   4060        6.5s       6.6s       6.6s      1367     1118       6.8s      5.8s     1753    2050  -       -
+   10   4580        6.4s       6.5s       6.5s      1399     1134       6.4s      4.9s     1874    2140  -       -
+   11   5100        6.4s       6.4s       6.5s      1445      978       5.9s      5.1s     1905    2355  -       E
+   12   5620        6.1s       6.4s       6.5s      1488      994       5.4s      5.3s     2250    2570  E       E
+   13   6140        5.9s       5.9s       6.5s      1520     1010       5.3s      5.3s     2230    2510  E       E
+   14   6660        5.8s       5.9s       6.5s      1572     1080       6.3s      5.3s     2249    2694  E       E
+   15   7250        5.8s       5.9s       5.9s      1604     1126       6.8s      4.7s     2154    2917  E       W+E
+   16   7840        3.2s       3.2s       5.3s      1722     1405       3.9s      4.2s     3180    3180  Q+E     W+E
+   17   8430        3.2s       3.2s       5.1s      1754     1449       3.8s      3.6s     3270    3270  Q+E     W+E
+   18   9020        3.2s       3.2s       4.8s      1788     1489       4.2s      4.0s     3220    3485  Q+E     W+E
+   19   9610        3.2s       3.2s       4.7s      1860     1785       3.8s      4.0s     3575    3575  Q+W+E   W+E
+   20  10200        3.1s       3.1s       4.6s      1916     1845       3.8s      4.0s     3790    3790  Q+W+E   W+E
+   21  10840        2.4s       2.4s       2.8s      2380     2128       2.8s      2.8s     3880    3880  Q+W+E   Q+W+E
+   22  11480        2.7s       2.7s       2.7s      2412     2143       2.8s      2.8s     3970    3970  Q+W+E   Q+W+E
+   23  12120        2.6s       2.6s       3.4s      2460     1694       2.8s      2.8s     4060    4060  Q+W+E   Q+W+E
+   24  12760        2.6s       2.6s       3.4s      2492     1726       2.8s      2.8s     4150    4150  Q+W+E   Q+W+E
+   25  13400        2.1s       2.1s       3.4s      2775     1773       2.8s      2.8s     4240    4240  Q+W+E   Q+W+E
+   26  14040        2.1s       2.1s       3.4s      2831     1817       2.8s      2.4s     4330    4330  Q+W+E   Q+W+E
+
+------------------------------------------------------------------------------------------------
+VERDICT
+------------------------------------------------------------------------------------------------
+  For the wave, finish Statikk before Guinsoo. Guinsoo first is the 1v1,
+  and Statikk second still catches the shove at the same two-item gold.
+  Do not move Statikk to the last slot.
+
+  ONE ITEM, LEVEL 9 — THE CHAIN SHOVES, IT DOES NOT SKIP THE LAST MELEE
+    Opening auto: Statikk 573 on 4 minions, Guinsoo 172 on 1.
+    Casters die in 1.0s with Statikk vs 1.8s with Guinsoo. By one second the wave has lost 1367 HP vs 1118.
+    Full standard clear is 6.6s vs 6.6s. That is a tie. Both are waiting on the 6s Q to finish the last melee.
+    Cannon full clear 8.6s vs 9.0s. With 15 armor / 20 MR it is 9.6s vs 10.6s.
+    Autos only, frontliner, 8s: Guinsoo 1346 vs Statikk 968. Guinsoo wins the duel. Statikk wins the first second.
+    Neither item evolves Q (40 AD and 35 AD, gate is 70). Six missiles either way.
+
+  SAME GOLD, TWO LEGENDARIES + GREAVES — THIS IS THE FORK
+    Statikk + Guinsoo: Q evolved (40+35 AD), standard wave 3.4s, cannon 5.1s, 1687 HP gone at 1s.
+    Guinsoo + Nashor: Q not evolved, standard wave 5.3s (35% slower), cannon 5.8s, 1373 HP at 1s.
+    Nashor evolves W. A frontliner dies in 5.8s vs 7.2s on the chain, and auto-only damage is 2853 vs 2226.
+    A squishy dies in 3.5s on the chain vs 3.8s on Nashor — 12 missiles win the short fight.
+    So Nashor second wins the long frontline scrap. It does not win the
+    squishy all-in, and it does not shove. The chain is the Q evolve.
+
+  LAST SLOT
+    On this no-kill clock Statikk is finished at 6.35 min if you rush it.
+    Moved to last, it is still not bought at 26:00. A normal game is over.
+    Q evolves at minute 16 on the rush (Guinsoo completes the 70 AD).
+    With Statikk last, Q waits until minute 21 (Kraken's AD).
+    W evolves earlier if Nashor is second: minute 15 vs 19.
+    At level 15 the same five damage items, with the chain added, clear a
+    standard wave in 1.6s vs 3.4s and a cannon in 2.4s vs 3.8s (37% faster on the cannon).
+    The 90 magic bolt is not what does that. Guinsoo, Nashor and Terminus
+    finally have a bounce. That spike only exists if the game lasts long
+    enough to buy a sixth item.
+
+  WHY KALISTA CAN AND KAI'SA CANNOT
+    Kalista E refunds its cooldown on a minion kill, so a Guinsoo / Terminus
+    order still chains the wave. One public baron list never buys Statikk
+    (BotRK → Runaan → Guinsoo → Terminus) and still farms. Her dragon-lane
+    list in 7.3d actually opens Statikk anyway, for the fight chain, not
+    because she is stuck in the wave.
+    Kai'Sa Q splits missiles and does not reset. Holding Statikk until last
+    keeps her on 6 missiles until a later AD item, and the bounce that would
+    spread Guinsoo / Nashor / Terminus never shows up in a 20-minute game.
+
+  BUY
+    1) Long Sword → Pickaxe → Kircheis → Aether Wisp → Statikk
+       The bolt does not replace the last melee. It kills the casters on
+       the first auto + Q, so the wave is already pushing.
+    2) Berserker's Greaves
+    3) Guinsoo's Rageblade — Q evolves here, and the duel damage shows up
+    4) Nashor's Tooth — W evolves, and the chain starts spreading the on-hit
+    5) Kraken Slayer, then Terminus
+    Guinsoo first wins the 1v1 and reaches the same two-item inventory at
+    the same gold, with a worse shove until the bolt exists. Statikk last
+    is a Kalista habit: she refunds Rend on a minion kill. Kai'Sa spends
+    the whole mid game on 6 missiles and a single-target auto.
+
+  ASSUMPTIONS
+    • Minion armor/MR default 0. The verdict reruns the cannon at 15 armor / 20 MR.
+    • Energized opener is full (about 7s of walking at 340 MS fills 100).
+    • Attack Energized is 6 + Electroshock 7. Move stacks are 1 per 24 units.
+    • Bounce on-hits: Guinsoo 30, Nashor 15+20% AP, Terminus 30, Plasma.
+      Not Kraken, not a second auto's AD, not a Rageblade phantom.
+    • Phantom hit starts once 4 Guinsoo stacks are already up, every 3rd
+      attack, and repeats on-hits including Guinsoo's own 30.
+    • Q evolve counts bonus AD from items only. E evolve counts item AS only.
+    • Aether Wisp 25 AP and Fiendish Codex 25 AP / 10 AH are component
+      estimates. Finished-item stats are the patch numbers. The chain
+      exists only on finished Statikk, not on Kircheis.
+    • Lethal Tempo is off, so the fight gap is items and evolves, not the rune.
+    • Gold has no kills. Both paths share it.
+================================================================================================
