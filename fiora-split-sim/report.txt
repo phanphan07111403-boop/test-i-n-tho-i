@@ -1,0 +1,217 @@
+============================================================================================
+FIORA BARON — SPLIT PUSH VS THE TANK META  (Wild Rift 7.3f)
+Playstyle: crash the side wave, R the tank who matches, take the turret
+Score: 50% duel (tank 55 / Morde 30 / blind 15) + 35% turret + 15% wave
+Those weights are the 18:00 median: half the points are the duel, 35% the crash, 15% the wave.
+============================================================================================
+
+GOLD / LEVEL  (side lane, plates, not a roam curve)
+  Min    Gold  Lvl   Q   E   W   R
+    1     900    1   1   0   0   0
+    4    2100    4   2   1   1   0
+    6    3140    6   3   1   1   1
+    8    4180    8   4   2   1   1
+   10    5340   10   4   3   1   2
+   12    6500   12   4   4   2   2
+   14    7780   13   4   4   2   3
+   16    9180   14   4   4   3   3
+   18   10580   14   4   4   3   3
+   20   12180   15   4   4   4   3
+   22   13780   15   4   4   4   3
+   24   15420   15   4   4   4   3
+   26   17060   15   4   4   4   3
+
+--------------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE BEST SPLIT SCORE
+--------------------------------------------------------------------------------------------
+   6:00 | score    1493 | duel    1571 | tower   1651 | wave 21.7s | T118/M125/R133   | Eclipse → TF → Hull → DD → BotRK
+         Eclipse
+         Eclipse
+   8:00 | score    1937 | duel    2037 | tower   2710 | wave 24.7s | T111/M127/R148   | Sunderer → Cleaver → Hull → DD → Shojin
+         Divine Sunderer › Boots
+         sunderer
+  10:00 | score    2333 | duel    2483 | tower   2975 | wave 17.7s | T100/M117/R158   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Sheen
+         sheen, Manamune stacking
+  12:00 | score    2872 | duel    2968 | tower   3557 | wave 12.6s | T103/M124/R178   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Sheen › Phage › …
+         sheen, Muramana
+  14:00 | score    3482 | duel    3360 | tower   4951 | wave 10.9s | T115/M141/R205   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Trinity Force
+         trinity, Muramana
+  16:00 | score    3881 | duel    3613 | tower   6605 | wave 13.2s | T99/M122/R188    | TF → Hull → Eclipse → DD → Shojin
+         Trinity Force › Plated Steelcaps › Hullbreaker › Caulfield's Warhammer
+         trinity, Hull
+  18:00 | score    4440 | duel    3957 | tower   7460 | wave  9.8s | T122/M152/R244   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Trinity Force › Hullbreaker
+         trinity, Hull, Muramana
+  20:00 | score    4742 | duel    4283 | tower   7982 | wave  9.6s | T118/M146/R246   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Trinity Force › Hullbreaker › …
+         trinity, Hull, Muramana
+  22:00 | score    5130 | duel    4528 | tower   8886 | wave  8.9s | T126/M153/R266   | Manamune → TF → Hull → Shojin → DD
+         Manamune › Plated Steelcaps › Trinity Force › Hullbreaker › …
+         trinity, Hull, Muramana, Shojin
+  24:00 | score    5368 | duel    4822 | tower   9423 | wave  9.4s | T141/M173/R292   | Eclipse → TF → BotRK → Hull → Serylda
+         Eclipse › Plated Steelcaps › Trinity Force › Blade of the Ruined King › …
+         Eclipse, trinity, Hull, BotRK
+  26:00 | score    5964 | duel    5149 | tower  11084 | wave  8.9s | T162/M197/R328   | Eclipse → TF → BotRK → Hull → Serylda
+         Eclipse › Plated Steelcaps › Trinity Force › Blade of the Ruined King › …
+         Eclipse, trinity, Hull, BotRK, 35% pen
+
+--------------------------------------------------------------------------------------------
+BUILD COMPARISON — SPLIT SCORE
+--------------------------------------------------------------------------------------------
+  Build                                           8:00   14:00   18:00   22:00   26:00    Late
+  Eclipse → TF → Hull → DD → BotRK                1882    3269    4229    4844    5533    3420
+  TF → Hull → Eclipse → DD → Shojin               1919    3431    4229    4844    5424    3422
+  Sunderer → Cleaver → Hull → DD → Shojin         1937    2962    3357    4391    5234    3124
+  TF → BotRK → Cleaver → Eclipse → Serylda        1919    3100    3681    4604    5478    3245
+  TF → Manamune → Maw → DD → BT                   1919    3286    3963    4728    5343    3349
+  Eclipse → TF → BotRK → Hull → Serylda           1882    3269    3945    4957    5964    3417
+  Manamune → TF → Hull → Shojin → DD              1745    3482    4440    5130    5638    3543
+  TF → DD → Sterak → Gore → GA                    1919    2925    3586    4280    4799    3132
+
+--------------------------------------------------------------------------------------------
+DUEL VALUE (tank 55% / Morde 30% / blind 15%)
+--------------------------------------------------------------------------------------------
+  Manamune → TF → Hull → Shojin → DD              3360    3957    4528    5013
+  TF → Hull → Eclipse → DD → Shojin               3145    3915    4462    4973
+  Eclipse → TF → Hull → DD → BotRK                3316    3915    4462    5009
+  Eclipse → TF → BotRK → Hull → Serylda           3316    3939    4543    5149
+  TF → Manamune → Maw → DD → BT                   3302    3881    4494    4998
+  TF → BotRK → Cleaver → Eclipse → Serylda        3297    3852    4585    5205
+  TF → DD → Sterak → Gore → GA                    3016    3651    4366    4859
+  Sunderer → Cleaver → Hull → DD → Shojin         3287    3756    4470    4980
+
+--------------------------------------------------------------------------------------------
+RAW TURRET DAMAGE over one crash (melee +20%, Demolish, Hull window)
+--------------------------------------------------------------------------------------------
+  Manamune → TF → Hull → Shojin → DD              4951    7460    8886    9742
+  TF → Hull → Eclipse → DD → Shojin               6031    7155    8315    9395
+  Eclipse → TF → Hull → DD → BotRK                4676    7155    8315    9556
+  Eclipse → TF → BotRK → Hull → Serylda           4676    5706    8402   11084
+  TF → Manamune → Maw → DD → BT                   4747    5863    7080    8258
+  TF → BotRK → Cleaver → Eclipse → Serylda        4047    5079    6813    8885
+  TF → DD → Sterak → Gore → GA                    4204    5310    6322    7146
+  Sunderer → Cleaver → Hull → DD → Shojin         3947    4522    6904    9106
+
+--------------------------------------------------------------------------------------------
+WAVE CLEAR seconds (lower is faster — Q is single target)
+--------------------------------------------------------------------------------------------
+  Manamune → TF → Hull → Shojin → DD              10.9     9.8     8.9     8.3
+  TF → Hull → Eclipse → DD → Shojin               14.8    11.8    10.6     9.6
+  Eclipse → TF → Hull → DD → BotRK                13.6    11.8    10.6     8.9
+  Eclipse → TF → BotRK → Hull → Serylda           13.6    10.9     9.8     8.9
+  TF → Manamune → Maw → DD → BT                   13.4    10.8     8.5     7.7
+  TF → BotRK → Cleaver → Eclipse → Serylda        13.8    12.4     9.8     8.8
+  TF → DD → Sterak → Gore → GA                    14.9    12.9    11.3    10.1
+  Sunderer → Cleaver → Hull → DD → Shojin         17.8    16.4    13.1    11.6
+
+--------------------------------------------------------------------------------------------
+PERCENT OF THEIR EFFECTIVE HP REMOVED DURING R  (100 = they die)
+Order inside each cell: tank / Morde / blind
+--------------------------------------------------------------------------------------------
+  Build                                                   18:00            22:00            26:00
+  Manamune → TF → Hull → Shojin → DD                122/151/244      126/153/266      139/165/303
+  TF → Hull → Eclipse → DD → Shojin                 114/141/227      113/138/241      132/156/284
+  Eclipse → TF → Hull → DD → BotRK                  114/141/227      113/138/241      137/166/286
+  Eclipse → TF → BotRK → Hull → Serylda             120/148/226      128/159/264      162/197/328
+  TF → Manamune → Maw → DD → BT                     109/131/211      120/144/258      137/160/294
+  TF → BotRK → Cleaver → Eclipse → Serylda          103/127/195      136/168/277      173/207/340
+  TF → DD → Sterak → Gore → GA                       94/114/188      100/119/210      113/131/240
+  Sunderer → Cleaver → Hull → DD → Shojin            98/116/172      117/141/228      133/157/262
+
+--------------------------------------------------------------------------------------------
+VITAL TRUE DAMAGE VS THE TANK, AND HP LEFT AFTER MORDE
+Vitals are the part armor does not touch. HP left is the crash after Morde.
+--------------------------------------------------------------------------------------------
+  Build                                          vit 18   vit 22  Morde HP 22
+  Manamune → TF → Hull → Shojin → DD               1899     2829         100%
+  TF → Hull → Eclipse → DD → Shojin                1736     2426         100%
+  Eclipse → TF → Hull → DD → BotRK                 1736     2426         100%
+  Eclipse → TF → BotRK → Hull → Serylda            1654     2378         100%
+  TF → Manamune → Maw → DD → BT                    1917     2715         100%
+  TF → BotRK → Cleaver → Eclipse → Serylda         1446     2283         100%
+  TF → DD → Sterak → Gore → GA                     1571     2311         100%
+  Sunderer → Cleaver → Hull → DD → Shojin          1314     2130         100%
+
+--------------------------------------------------------------------------------------------
+VERDICT
+--------------------------------------------------------------------------------------------
+  Best split into this baron meta: Manamune → TF → Hull → Shojin → DD
+  Late-weighted split score: 3543
+  Item spikes:
+    ~ 6:00  Manamune
+    ~ 8:00  Plated Steelcaps
+    ~14:00  Trinity Force
+    ~18:00  Hullbreaker
+    ~22:00  Spear of Shojin
+    ~26:00  Death's Dance
+
+  At 22:00:
+    Duel 4528 | raw tower 8886 | wave 8.9s | AD 332 | HP 3915
+    Tank 5930 / 4706 EHP (126%), of which vitals are 2829 true
+    Morde 6211 / 4067 EHP (153%), you finish at 100% HP
+    Blind 5830 / 2188 EHP (266%)
+  vs Eclipse → TF → Hull → DD → BotRK:
+    22:00 score 5130 vs 4844 (+6%) | duel 4528 vs 4462 | tower 8886 vs 8315
+  vs Sunderer → Cleaver → Hull → DD → Shojin:
+    22:00 score 5130 vs 4391 (+17%) | duel 4528 vs 4470 | tower 8886 vs 6904
+  vs TF → Manamune → Maw → DD → BT:
+    22:00 score 5130 vs 4728 (+9%) | duel 4528 vs 4494 | tower 8886 vs 7080
+  vs TF → BotRK → Cleaver → Eclipse → Serylda:
+    22:00 score 5130 vs 4604 (+11%) | duel 4528 vs 4585 | tower 8886 vs 6813
+  vs TF → DD → Sterak → Gore → GA:
+    22:00 score 5130 vs 4280 (+20%) | duel 4528 vs 4366 | tower 8886 vs 6322
+  vs TF → Hull → Eclipse → DD → Shojin:
+    22:00 score 5130 vs 4844 (+6%) | duel 4528 vs 4462 | tower 8886 vs 8315
+
+  Runner-up (TF → Hull → Eclipse → DD → Shojin) late score 3422 vs 3543.
+    22:00 duel 4462 vs 4528, tower 8315 vs 8886, tank 113% vs 126%.
+  Hull second vs Hull third at 14:00: score 3431 vs 3269, raw tower 6031 vs 4676.
+  At 8:00 the leader is Sunderer → Cleaver → Hull → DD → Shojin (1937). Manamune → TF → Hull → Shojin → DD is at 1745 until the tear charge turns into bonus AD.
+  The 26:00 minute belongs to Eclipse → TF → BotRK → Hull → Serylda (5964 vs 5638). Pen and BotRK are online, and Hull is finally in that inventory.
+  The late average still follows the earlier Hull: that turret lead is the whole stretch from 18:00 to 22:00.
+  Sunderer at 22:00 duels 4470 vs 4528 and hits the turret for 6904 vs 8886.
+  Every build finishes the Morde all-in at full HP. The ultimate heal covers his damage when the vitals land, on the glass paths and the resist paths alike.
+
+  WHY THE KIT ITEMIZES THIS WAY
+  • Vitals are true damage: 3.5% + 5.5% per 100 bonus AD of
+    their max health. R marks all four for 8 seconds. Bonus AD
+    is what moves the tank fight. Percent pen multiplies Q,
+    autos, Spellblade, and BotRK.
+  • Q max, then E. Lunge is 85–115 + 110–125% bonus AD, refunds
+    half the cooldown on hit, applies on-hit, and hits turrets.
+    Bladework's second hit always crits for 170–200% AD.
+    W is a 0.75s parry and it is maxed last.
+  • Eclipse (7.3f, 60 AD) procs 7% max HP physical and a shield
+    of 150 + 40% bonus AD, twice in an ultimate. Trinity Spellblade
+    is 200% base AD. Sunderer is 10% max HP and a 6% heal;
+    structures take half of that proc. Its 25 AD feeds a smaller vital.
+  • Hullbreaker on a turret is 240% base AD + 9% of your max HP
+    every 4th auto, and the crash lasts one extra second. On a
+    champion it is 160% base AD + 5% of your max HP. BotRK's
+    on-hit ends at the champion; the turret is Hull, Trinity, Q, Demolish.
+  • Morde steals 10% of your AD and resists during his R, and
+    his damage is magic. The ult heal covers that when four
+    vitals land. Teemo's blind cuts autos and on-hits and costs
+    one vital. Three vitals and Q still kill him in this all-in.
+  • A cannon crash is one-target Q plus autos. Haste and attack
+    speed are the clear.
+  • Demolish is 85 + 28% max HP after three autos. Every row wears
+    Steelcaps: 25 armor, 150 HP, 10% less from champion autos.
+    Gluttonous is the popular 1000g boot (12 AD, omnivamp).
+    Steelcaps are here because Malphite, Shen, and Kalista auto the wave.
+
+  MACRO
+  • Teleport to the side wave your team is not fighting. Crash
+    it, R the one champion who matches, auto the turret.
+  • Two champions on the wave ends the crash. Riposte parries
+    one spell — Malphite ult, Shen taunt, Ornn knockup, Morde
+    pull — and then you leave.
+  • The ult heal is 80/110/140 + 60% bonus AD per second, and
+    it lasts longer as the vitals land. The sides of the
+    ultimate are the fight.
+  • Mundo heals harder than the tank average in this sim.
+    Executioner's is the item for that specific champion.
+============================================================================================
