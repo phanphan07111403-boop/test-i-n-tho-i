@@ -1,0 +1,194 @@
+========================================================================================
+TRYNDAMERE JUNGLE — FARM, THEN SPLIT  (Wild Rift 7.3 / 7.3b, live 7.3f)
+Playstyle: full clear → side wave → R the answer → take the turret
+Score: 50% duel (5s Undying Rage) + 35% turret + 15% wave crash
+Scaled at the 18:00 median so those weights are real (tower x0.909, wave x1518.8)
+========================================================================================
+
+GOLD / LEVEL  (powerfarm, not a gank curve)
+  Min    Gold  Lvl   Q   E   R
+    1     930    2   1   1   0
+    4    2220    5   2   1   1
+    6    3260    7   4   1   1
+    8    4300    8   4   2   1
+   10    5380   10   4   3   2
+   12    6460   11   4   4   2
+   14    7700   12   4   4   2
+   16    9100   13   4   4   3
+   18   10500   14   4   4   3
+   20   12050   14   4   4   3
+   22   13600   15   4   4   3
+   24   15200   15   4   4   3
+   26   16800   15   4   4   3
+
+----------------------------------------------------------------------------------------
+MINUTE-BY-MINUTE BEST SPLIT SCORE
+----------------------------------------------------------------------------------------
+   4:00 | score    1120 | duel    1196 | tower   1118 | wave 10.9s | B93/T69/S105     | Yun → Navori → IE → BotRK → Mortal
+         BF Sword › Dagger
+         components
+   6:00 | score    1504 | duel    1742 | tower   1406 | wave  9.8s | B103/T94/S115    | Yun → Navori → IE → BotRK → Mortal
+         Yun Tal Wildarrows
+         Yun 3%
+   8:00 | score    1850 | duel    2058 | tower   1794 | wave  7.3s | B97/T102/S115    | Yun → Navori → IE → BotRK → Mortal
+         Yun Tal Wildarrows › Berserker's Greaves
+         Yun 15%
+  10:00 | score    2176 | duel    2406 | tower   2167 | wave  6.5s | B102/T95/S98     | Yun → Storm → IE → Hull → Navori
+         Yun Tal Wildarrows › Berserker's Greaves › Long Sword › Long Sword
+         Yun 25%
+  12:00 | score    2476 | duel    2690 | tower   2371 | wave  4.8s | B99/T96/S106     | Yun → Navori → IE → BotRK → Mortal
+         Yun Tal Wildarrows › Berserker's Greaves › Zeal › Dagger › …
+         Yun 25%
+  14:00 | score    3002 | duel    2761 | tower   4073 | wave  5.6s | B100/T84/S107    | Yun → Hull → IE → Navori → LDR
+         Yun Tal Wildarrows › Berserker's Greaves › Hullbreaker
+         Yun 25%, Hull
+  16:00 | score    3279 | duel    2922 | tower   4554 | wave  5.0s | B98/T80/S107     | Yun → Hull → IE → Navori → LDR
+         Yun Tal Wildarrows › Berserker's Greaves › Hullbreaker › Pickaxe › …
+         Yun 25%, Hull
+  18:00 | score    3519 | duel    3388 | tower   3613 | wave  2.7s | B95/T94/S104     | Yun → Navori → IE → BotRK → Mortal
+         Yun Tal Wildarrows › Berserker's Greaves › Navori Quickblades › Infinity Edge
+         Yun 25%, IE 230%, 3 spins
+  20:00 | score    3960 | duel    3605 | tower   4052 | wave  2.1s | B92/T94/S108     | Yun → Navori → IE → BotRK → Mortal
+         Yun Tal Wildarrows › Berserker's Greaves › Navori Quickblades › Infinity Edge › …
+         Yun 25%, IE 230%, 3 spins
+  22:00 | score    4761 | duel    3680 | tower   6515 | wave  2.1s | B96/T88/S109     | Yun → Hull → IE → Navori → LDR
+         Yun Tal Wildarrows › Berserker's Greaves › Hullbreaker › Infinity Edge › …
+         Yun 25%, IE 230%, 3 spins, Hull
+  24:00 | score    5240 | duel    4139 | tower   7300 | wave  2.1s | B100/T97/S106    | Yun → Hull → IE → Navori → LDR
+         Yun Tal Wildarrows › Berserker's Greaves › Hullbreaker › Infinity Edge › …
+         Yun 25%, IE 230%, 2 spins, Hull
+  26:00 | score    5727 | duel    4550 | tower   7983 | wave  2.0s | B100/T98/S108    | Yun → IE → Navori → Hull → BotRK
+         Yun Tal Wildarrows › Berserker's Greaves › Infinity Edge › Navori Quickblades › …
+         Yun 25%, IE 230%, 2 spins, Hull, BotRK
+
+----------------------------------------------------------------------------------------
+BUILD COMPARISON — SPLIT SCORE
+----------------------------------------------------------------------------------------
+  Build                                         8:00   14:00   18:00   22:00   26:00    Late
+  Yun → Navori → IE → BotRK → Mortal            1850    2883    3519    4362    5059    3007
+  Yun → Hull → IE → Navori → LDR                1850    3002    3419    4761    5653    3153
+  Yun → IE → Navori → Hull → BotRK              1850    2837    3519    4761    5727    3105
+  Yun → BotRK → IE → Hull → LDR                 1850    2765    3404    3936    5236    3024
+  Yun → Storm → IE → Hull → Navori              1850    2773    3349    3728    5468    3004
+  ER → Navori → IE → Hull → BT                  1750    2652    3491    4526    5173    2946
+  Kraken → Guinsoo → BotRK → Term → Wit         1826    2588    3378    4223    4647    2812
+  TF → Hull → DD → BotRK → GA                   1588    2796    3163    3893    4512    2740
+
+----------------------------------------------------------------------------------------
+DUEL VALUE (kill credit vs bruiser 45% / tank 35% / squishy 20%)
+----------------------------------------------------------------------------------------
+  Yun → Hull → IE → Navori → LDR                2761    2917    3680    4220
+  Yun → IE → Navori → Hull → BotRK              2823    3388    3680    4550
+  Yun → BotRK → IE → Hull → LDR                 3038    3580    3935    4383
+  Yun → Navori → IE → BotRK → Mortal            2934    3388    3966    4399
+  Yun → Storm → IE → Hull → Navori              2838    3290    3548    4204
+  ER → Navori → IE → Hull → BT                  2590    3200    3433    4172
+  Kraken → Guinsoo → BotRK → Term → Wit         2601    3539    4236    4539
+  TF → Hull → DD → BotRK → GA                   2328    2551    2983    3822
+
+----------------------------------------------------------------------------------------
+TURRET DAMAGE over one crash (melee +20%, Demolish, Hull window)
+----------------------------------------------------------------------------------------
+  Yun → Hull → IE → Navori → LDR                4073    4992    6515    8468
+  Yun → IE → Navori → Hull → BotRK              2973    3613    6515    7983
+  Yun → BotRK → IE → Hull → LDR                 2769    3585    4477    7828
+  Yun → Navori → IE → BotRK → Mortal            2688    3613    4612    6121
+  Yun → Storm → IE → Hull → Navori              3009    3694    4456    7783
+  ER → Navori → IE → Hull → BT                  2715    3650    6488    7361
+  Kraken → Guinsoo → BotRK → Term → Wit         3098    3982    5407    6092
+  TF → Hull → DD → BotRK → GA                   4227    4909    6422    7016
+
+----------------------------------------------------------------------------------------
+WAVE CLEAR seconds (lower is faster)
+----------------------------------------------------------------------------------------
+  Yun → Hull → IE → Navori → LDR                 5.6     4.9     2.1     2.1
+  Yun → IE → Navori → Hull → BotRK               3.8     2.7     2.1     2.0
+  Yun → BotRK → IE → Hull → LDR                  5.0     3.9     3.4     3.3
+  Yun → Navori → IE → BotRK → Mortal             3.2     2.7     2.0     2.0
+  Yun → Storm → IE → Hull → Navori               4.6     3.5     3.4     2.0
+  ER → Navori → IE → Hull → BT                   3.7     2.5     2.5     2.5
+  Kraken → Guinsoo → BotRK → Term → Wit          6.0     5.3     4.8     4.2
+  TF → Hull → DD → BotRK → GA                    6.3     5.6     5.1     5.0
+
+----------------------------------------------------------------------------------------
+PERCENT OF THEIR EFFECTIVE HP REMOVED DURING R  (100 = they die)
+Order inside each cell: bruiser / tank / squishy
+----------------------------------------------------------------------------------------
+  Build                                               18:00          22:00          26:00
+  Yun → Hull → IE → Navori → LDR                 92/ 74/108     96/ 88/109     95/ 98/126
+  Yun → IE → Navori → Hull → BotRK               95/ 94/104     96/ 88/109    100/ 98/108
+  Yun → BotRK → IE → Hull → LDR                  97/ 92/105     94/ 92/101     98/ 93/120
+  Yun → Navori → IE → BotRK → Mortal             95/ 94/104     93/ 94/100    105/ 98/127
+  Yun → Storm → IE → Hull → Navori               98/ 86/111     93/ 86/105     98/ 95/111
+  ER → Navori → IE → Hull → BT                   96/ 84/ 98     96/ 78/103    103/ 82/116
+  Kraken → Guinsoo → BotRK → Term → Wit          94/ 95/ 97    101/ 98/109    100/ 97/111
+  TF → Hull → DD → BotRK → GA                    93/ 53/106     96/ 51/110    102/ 71/112
+
+----------------------------------------------------------------------------------------
+VERDICT
+----------------------------------------------------------------------------------------
+  Best farm → split path: Yun → Hull → IE → Navori → LDR
+  Late-weighted split score: 3153
+  Item spikes:
+    ~ 6:00  Yun Tal Wildarrows
+    ~ 8:00  Berserker's Greaves
+    ~14:00  Hullbreaker
+    ~19:00  Infinity Edge
+    ~22:00  Navori Quickblades
+    ~26:00  Lord Dominik's Regards
+
+  At 22:00 (four-item region of a farm game):
+    Duel 3680 | tower 6515 | wave 2.1s | crit 100% | 3 spins
+    Bruiser 3664 / 3831 EHP (lives)
+    Tank    4706 / 5323 EHP (lives)
+    Squishy 2579 / 2367 EHP (kill)
+
+  vs sheet crit (Yun → Navori → IE → BotRK → Mortal):
+    22:00 score 4761 vs 4362 (+9%) | tower 6515 vs 4612
+  vs on-hit (Kraken → Guinsoo → BotRK → Term → Wit):
+    22:00 score 4761 vs 4223 (+13%) | duel 3680 vs 4236
+  vs bruiser (TF → Hull → DD → BotRK → GA):
+    22:00 score 4761 vs 3893 (+22%) | tower 6515 vs 6422
+
+  Runner-up (Yun → IE → Navori → Hull → BotRK) late score 3105 vs 3153.
+    22:00 duel 3680 vs 3680, tower 6515 vs 6515.
+  On-hit wins the bare 1v1 and still loses the split: the turret gap is larger than the duel gap, and the wave is slower.
+  100% of their EHP means they die inside R. The high 90s means
+  they live if a summoner spell or a minion hits them. Mortal Reminder
+  is the swap when that answer heals — Grievous is what flips the kill,
+  Lord Dominik's is what flips the tank.
+
+  WHY THIS PLAYSTYLE ITEMIZES THIS WAY
+  • 7.3b: every Fury point is 0.5% crit from level 1. Full bar
+    is 50% crit before items. R fills the bar. Overflow crit
+    becomes 1 AD per 1% — IE's old Limit Break is gone, this is
+    the champion passive, so a third crit item still pays.
+  • Base crits are 200%. Infinity Edge makes them 230%. Trynd
+    was buffed because he was not getting enough from that.
+  • Spinning Slash crit-refunds on monsters (7.3) and on the
+    champion (2s). Navori then cuts 15% of the remaining CD per
+    auto, so the all-in is several spins, not one.
+  • Q max, not E max. The refund already dumps E's cooldown.
+    Bloodlust at rank 4 is +0.9 AD per 1% missing HP (+81 AD at
+    the R threshold) and that AD crits and scales the spin.
+  • Hullbreaker Skipper is 240% base AD + 9% max HP on turrets
+    every 4th auto, and 7.3 turrets take 20% more from melee.
+    BotRK does not hit structures. The duel item and the tower
+    item are different slots.
+  • Yun Tal is the farm item: 0 AD-crit until you auto, 0.4%
+    per hit, cap 25%. A jungler who only farms caps it. Flurry
+    is +35% AS once the duel starts. It does nothing to turrets.
+  • Demolish over Nimbus. Ghost still gets you to the wave;
+    Demolish is the plate. 85 + 28% max HP after 3 autos.
+
+  MACRO
+  • Full clear to level 5. E refunds on camp crits — that is
+    the 7.3 farm buff. First back finishes item 1. Do not gank
+    for a component.
+  • Then catch the side wave on the half of the map your
+    team is not fighting. Crash it, R whoever matches,
+    auto the turret, leave when the second champion shows.
+  • Press R before the CC, not at 1 HP. Q when R ends, not
+    during it — spending Fury drops the crit you are hitting with.
+  • You do not win the 1v2. Two answers = spin over the wall.
+========================================================================================
